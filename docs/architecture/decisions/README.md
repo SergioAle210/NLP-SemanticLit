@@ -1,0 +1,15 @@
+# Decisiones de arquitectura (ADRs)
+
+Cada archivo registra una decisión: contexto, decisión, alternativas y consecuencias. Los ADRs aceptados no se reescriben; si una decisión cambia, se crea uno nuevo que reemplaza al anterior, y el anterior se marca como reemplazado.
+
+| ADR | Decisión | Estado |
+| --- | --- | --- |
+| [0001](0001-english-first.md) | Primero en inglés; el español es una capa opcional al final | Aceptado |
+| [0002](0002-strategywiki-corpus.md) | StrategyWiki como corpus principal, versionado en el repo | Aceptado |
+| [0003](0003-access-control-as-spoiler-gates.md) | El control de acceso se modela como gates de spoilers | Aceptado |
+| [0004](0004-sqlite-and-demo-profiles.md) | SQLite y perfiles de demo, sin login | Aceptado |
+| [0005](0005-wikitext-cleaning.md) | Limpieza de wikitext con mwparserfromhell y reglas explícitas | Aceptado |
+| [0006](0006-fixed-chunking-baseline.md) | Chunking fijo por palabras como línea base | Aceptado |
+| [0007](0007-per-game-config.md) | Diferencias entre juegos como configuración, no como código | Aceptado |
+
+Plantilla para nuevos ADRs: `NNNN-titulo-corto.md` con las secciones *Contexto*, *Decisión*, *Alternativas consideradas* y *Consecuencias*.

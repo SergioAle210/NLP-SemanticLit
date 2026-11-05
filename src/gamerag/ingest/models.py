@@ -1,0 +1,38 @@
+"""Contrato del chunk: la unidad que se indexa, se recupera y se cita.
+
+Incluye los campos mínimos exigidos por el curso (§5.3: text, source, page, chunk_id, version)
+más metadatos de trazabilidad y de ubicación en el juego (base de los gates de spoilers).
+"""
+
+from __future__ import annotations
+
+from pydantic import BaseModel, Field
+
+
+class Location(BaseModel):
+    """Dónde ocurre el contenido dentro del juego. None = contenido general (sin restricción)."""
+
+    quest: str | None = None  # Zelda: "first" | "second"
+    level: int | None = None  # Zelda: mazmorra 1-9
+    act: int | None = None  # Ninja Gaiden: acto 1-6
+    stage: str | None = None  # Ninja Gaiden: "2-3"
+
+
+class Chunk(BaseModel):
+    # --- mínimos del curso ---
+    chunk_id: str
+    text: str
+    source: str = Field(description="Título de la página de la wiki")
+    page: int = Field(ge=0, description="Índice de la sección donde empieza el chunk")
+    version: str = Field(description="Versión documental: revid de la página")
+    # --- trazabilidad ---
+    url: str
+    section: str = Field(description="Sección donde empieza el chunk")
+    sections: list[str] = Field(description="Todas las secciones que abarca")
+    hash: str = Field(description="sha256 del texto (detecta cambios entre ingestas)")
+    chunker: str = Field(description="Estrategia y parámetros de chunking")
+    n_words: int
+    lang: str = "en"
+    # --- acceso ---
+    game: str
+    location: Location = Location()

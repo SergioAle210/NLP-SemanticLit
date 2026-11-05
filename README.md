@@ -4,7 +4,7 @@ Proyecto final de **CC3103 Procesamiento de Lenguaje Natural** (UVG, ciclo 2-202
 
 Un asistente que responde preguntas sobre juegos de NES (*The Legend of Zelda* y *Ninja Gaiden*) con citas verificables. Solo revela información de las partes del juego que el jugador ya alcanzó.
 
-> 🚧 Fase 1 (anteproyecto). El plan completo está en [docs/PLAN.md](docs/PLAN.md).
+> 🚧 Fase 2 (línea base) en curso. La documentación del sistema está en [docs/](docs/README.md) y el estado en la [hoja de ruta](docs/roadmap.md).
 
 ## Instalación (desarrollo local)
 
@@ -33,15 +33,23 @@ uv run pytest
 
 | Ruta | Contenido |
 | --- | --- |
-| [docs/PLAN.md](docs/PLAN.md) | Plan del proyecto: alcance, arquitectura, evaluación, seguridad y fases |
-| [docs/instructions-proy.md](docs/instructions-proy.md) | Requisitos oficiales del proyecto |
-| [docs/presentation-proy.md](docs/presentation-proy.md) | Presentación del curso |
+| [docs/](docs/README.md) | Documentación: alcance, arquitectura, decisiones (ADRs), ingesta, evaluación, seguridad, hoja de ruta |
 | [data/wiki_snapshot/](data/wiki_snapshot/README.md) | Corpus: snapshots de StrategyWiki (CC BY-SA 4.0) |
+| `data/processed/` | Chunks generados por la ingesta (regenerable, fuera de git) |
 | [scripts/download_wiki.py](scripts/download_wiki.py) | Descarga reproducible del corpus vía la API de MediaWiki |
 | [config/games/](config/games/) | Configuración por juego (modelo de progreso, ubicación, herramientas) |
 | [src/gamerag/](src/gamerag/) | Paquete principal: `settings`, `games`, `schemas` (contrato de salida) y subpaquetes por componente |
 | [tests/](tests/) | Tests (`uv run pytest`) |
 | `state/` | Base SQLite local (perfiles, auditoría). El contenido está en `.gitignore` |
+
+## Ingesta
+
+```bash
+uv run python -m gamerag.ingest.build zelda1             # -> data/processed/zelda1/chunks.fixed.jsonl
+uv run python -m gamerag.ingest.build ninja_gaiden_nes
+```
+
+Detalle en [docs/ingestion/](docs/ingestion/README.md).
 
 ## Reproducir el corpus
 

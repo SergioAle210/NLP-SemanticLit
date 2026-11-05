@@ -26,4 +26,7 @@ stages: ["1-1", "1-2",
 location_from_title: 'Act (?P<act>\d)'
 location_from_heading: '(?:Stage|Act) (?P<stage>\d-\d)'
 
+# Índice de navegación: solo enlaces, sin contenido del juego.
+exclude_pages: ["Ninja Gaiden (NES)/Table of Contents"]
+
 tools: [search_documents, query_game_facts, update_progress]

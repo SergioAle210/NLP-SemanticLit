@@ -1,0 +1,36 @@
+"""Deriva la ubicación en el juego (metadatos de acceso) a partir de la wiki.
+
+Usa las expresiones regulares de la config del juego:
+- `location_from_title`: sobre el título de la página (Zelda: "Underworld/Quest 1/Dungeon 4").
+- `location_from_heading`: sobre los encabezados de la sección (Ninja Gaiden: "Stage 2-3").
+"""
+
+from __future__ import annotations
+
+import re
+
+from gamerag.games import GameConfig
+from gamerag.ingest.models import Location
+from gamerag.ingest.sections import Section
+
+
+def locate(cfg: GameConfig, page_title: str, section: Section) -> Location:
+    found: dict[str, str] = {}
+    if cfg.location_from_title and (m := re.search(cfg.location_from_title, page_title)):
+        found |= {k: v for k, v in m.groupdict().items() if v}
+    if cfg.location_from_heading:
+        for heading in section.path:  # el encabezado más profundo que coincida gana
+            if m := re.search(cfg.location_from_heading, heading):
+                found |= {k: v for k, v in m.groupdict().items() if v}
+
+    loc = Location()
+    if "quest" in found and cfg.quests:  # "1" -> "first" según el orden de `quests` en la config
+        loc.quest = cfg.quests[int(found["quest"]) - 1]
+    if "level" in found:
+        loc.level = int(found["level"])
+    if "act" in found:
+        loc.act = int(found["act"])
+    if "stage" in found:
+        loc.stage = found["stage"]
+        loc.act = loc.act or int(found["stage"].split("-")[0])
+    return loc

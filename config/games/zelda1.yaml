@@ -19,4 +19,7 @@ quests: [first, second]
 location_from_title: 'Underworld/Quest (?P<quest>\d)/Dungeon (?P<level>\d)'
 location_from_heading: null
 
+# Índice de navegación: solo enlaces, sin contenido del juego.
+exclude_pages: ["The Legend of Zelda/Table of Contents"]
+
 tools: [search_documents, query_game_facts, next_available_levels, update_progress]

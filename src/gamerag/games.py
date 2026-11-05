@@ -44,6 +44,9 @@ class GameConfig(BaseModel):
     location_from_title: str | None = None
     location_from_heading: str | None = None
 
+    # Páginas del snapshot que no se indexan (p. ej. índices de navegación sin contenido).
+    exclude_pages: list[str] = []
+
     tools: list[ToolName]
 
     @field_validator("location_from_title", "location_from_heading")
