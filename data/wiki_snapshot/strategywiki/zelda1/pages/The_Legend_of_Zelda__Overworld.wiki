@@ -1,0 +1,34 @@
+{{Header Nav|game=The Legend of Zelda}}
+
+The land of Hyrule is large and vast, so to better understand its features, please refer to the guide map and choose which section of Hyrule you would like to learn more about, and the follow the appropriate link in the table below to that section.
+{{-}}
+<imagemap>
+File:LOZ Hyrule guide.png|Overworld|center
+
+poly 599 0 798 0 798 135 649 135 649 101 599 101 [[The Legend of Zelda/Overworld/Hyrule 1|Section 1]]
+poly 599 101 649 100 649 135 798 136 798 273 599 272 [[The Legend of Zelda/Overworld/Hyrule 2|Section 2]]
+poly 399 0 599 0 599 135 499 136 498 100 449 100 449 135 349 135 349 66 399 67 [[The Legend of Zelda/Overworld/Hyrule 3|Section 3]]
+poly 399 135 448 135 449 101 499 100 499 135 599 135 599 273 399 273 [[The Legend of Zelda/Overworld/Hyrule 4|Section 4]]
+poly 199 0 399 0 399 67 349 67 349 135 249 135 248 101 199 101 [[The Legend of Zelda/Overworld/Hyrule 5|Section 5]]
+poly 199 101 249 101 249 135 399 135 399 273 249 272 249 238 199 238 [[The Legend of Zelda/Overworld/Hyrule 6|Section 6]]
+poly 0 0 199 0 199 135 99 134 99 170 0 169 [[The Legend of Zelda/Overworld/Hyrule 7|Section 7]]
+poly 0 169 99 170 99 135 199 135 199 239 249 238 249 272 0 273 [[The Legend of Zelda/Overworld/Hyrule 8|Section 8]]
+
+desc bottom-right
+</imagemap>
+
+{| {{prettytable}}
+![[/Hyrule 7/|Section 7]]
+![[/Hyrule 5/|Section 5]]
+![[/Hyrule 3/|Section 3]]
+![[/Hyrule 1/|Section 1]]
+|-
+![[/Hyrule 8/|Section 8]]
+![[/Hyrule 6/|Section 6]]
+![[/Hyrule 4/|Section 4]]
+![[/Hyrule 2/|Section 2]]
+|}
+
+* [https://www.nesmaps.com/maps/Zelda/ZeldaOverworld1stQuest.html https://www.nesmaps.com/] - Interactive Flash map of the Overworld of The Legend of Zelda
+
+{{Footer Nav|game=The Legend of Zelda|prevpage=Walkthrough|nextpage=Overworld/Hyrule 1|nextname=Section 1}}

@@ -1,0 +1,31 @@
+{{Header Nav|game=The Legend of Zelda}}
+
+Secret Passage Guide
+
+{| {{prettytable}}
+! Entrance || Left || Middle || Right
+|-
+!width="10%"| S4 B2
+|width="10%"| S4 B5
+|width="10%"| S1 B2
+|width="10%"| S7 D3
+|-
+! S7 D3
+| S4 B2
+| S4 B5
+| S1 B2
+|-
+! S1 B2
+| S7 D3
+| S4 B2
+| S4 B5
+|-
+! S4 B5
+| S1 B2
+| S7 D3
+| S4 B2
+|-
+|}
+
+
+{{Footer Nav|game=The Legend of Zelda|prevpage=Cheats|prevname=Cheats & Codes|nextpage=Walkthrough}}

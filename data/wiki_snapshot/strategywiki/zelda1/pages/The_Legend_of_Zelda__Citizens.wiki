@@ -1,0 +1,74 @@
+{{Header Nav|game=The Legend of Zelda}}
+
+{{floatingtoc}}
+
+==Link==
+[[File:LOZ Link.png|left]] Link is the destined hero of Hyrule, and the character that you control.  Link can move in four directions, and is always armed with a sword as well as one other weapon of your choosing.  When Link's sword is sheathed, he holds his shield out in front of him, but it only protects him in the direction he is facing.  He starts with three Heart Containers and can reach a maximum of 16 by the end of the game.  The Blue Ring, and later on the Red Ring, can substantially improve the amount of damage that Link can withstand before dying.
+{{-}}
+
+==Zelda==
+[[File:LOZ Zelda.png|right]] Princess Zelda, daughter of the King of Hyrule, has been kidnapped by the evil Ganon.  Before her capture, Ganon successfully claimed the Triforce of Power.  With the Triforce of Courage's location unknown, and the Triforce of Wisdom under her family's protection, she broke the Triforce of Wisdom up into eight parts and scattered them throughout Hyrule.  Ganon holds Zelda captive until she reveals the locations of the pieces, but she refuses.  Link is Zelda's only hope for rescue.
+{{-}}
+
+==Shop Keeper==
+[[File:LOZ Shopkeep.png|left]] Various shop keepers ply their trade throughout Hyrule offering common and uncommon goods alike.  They often set up shop in many of Hyrule's cliff side caves, but some are harder to locate than others.  Link's persistent searching is well rewarded as many of the hidden shop keepers have lower prices on essential items.  Only one shop keeper however has the precious Blue Ring that grants protection. In the table below, best deals are in '''bold'''.
+
+{{-}}
+{|{{prettytable}}
+!Shop
+!Goods and prices
+!Locations
+|-
+|'''Candle shops'''
+|
+*{{im/loz|Item|Blue Candle|s=1}} 60 R.
+*{{im/loz|Item|Key|s=1}} 100 R.
+*{{im/loz|Item|Magical Shield|s=1}} 160 R.
+|
+#[[../Overworld/Hyrule 5|Green Rocks]]
+#[[../Overworld/Hyrule 2|Green Forest]]
+#[[../Overworld/Hyrule 1|Eastern Mountains]]
+|-
+| '''Arrow shops'''
+|
+*{{im/loz|Item|Arrow|s=1}} 80 R.
+*{{im/loz|Item|Bomb|s=1}} 20 R.
+*{{im/loz|Item|Magical Shield|s=1}} 130 R.
+|
+#[[../Overworld/Hyrule 6|Lake Hylia]]
+#[[../Overworld/Hyrule 4|Green Forest]]
+#[[../Overworld/Hyrule 2|Seashore]]
+#[[../Overworld/Hyrule 5|Death Mountain]]
+|-
+| '''Shield shops'''
+|
+*{{im/loz|Item|Magical Shield|s=1}} 90 R.
+*{{im/loz|Item|Heart|s=1}} 10 R.
+*{{im/loz|Item|Monster Bait|s=1}} 100 R.
+|
+#[[../Overworld/Hyrule 6|Lake Hylia]] (burn a tree with a candle)
+#[[../Overworld/Hyrule 2|Green Forest]] (burn a tree with a candle)
+#[[../Overworld/Hyrule 5|Death Mountain]] (bomb a rock wall)
+#[[../Overworld/Hyrule 7|Death Mountain]] (bomb a rock wall)
+|-
+| '''Ring shop'''
+|
+*{{im/loz|Item|Blue Ring|s=1}} 250 R.
+*{{im/loz|Item|Monster Bait|s=1}} 60 R.
+*{{im/loz|Item|Key|s=1}} 80 R.
+|
+#[[../Overworld/Hyrule 6|Lake Hylia]] (push an Armos statue)
+|}
+
+==Old Woman==
+[[File:LOZ Woman.png|right]] Many women make their homes in Hyrule's caves and trees.  It is common for the women of Hyrule to know the secrets to making the Water of Life, a Hyrulian recipe that restores the strength of those who drink it. However, they only sell this concoction to those who present the special {{im/loz|Item|Letter}} to them.  Other women in Hyrule offer important information about the nearby vicinity, but sometimes only after being well compensated.
+{{-}}
+
+==Old Man (Overworld)==
+[[File:LOZ Man OW.png|left]] A variety of men live in Hyrule's overworld as well.  Like the women of Hyrule, they may dispense information.  Hyrulian men are also fond of gambling and will play the Money Making game with anyone who will part with their rupees. There are also some old men, who live in well hidden caves, who will give Link a Red Water of Life or a Heart Container of his choice. However, some men of Hyrule prefer to be left alone.  If you reveal their location by destroying their secret entrance, expect to be forced to compensate them for the repairs.
+{{-}}
+
+==Old Man (Underworld)==
+[[File:LOZ Man UW.png|right]] A few distinguished gentlemen prefer to make their homes among the dungeons of Hyrule.  They wait there in order to aid explorers that pass through, and provide cryptic hints. If you attack them, they will counterattack, throwing you energy orbs from their braziers. Occasionally, they even sell enhanced bags that can hold more bombs.  A more treacherous type of man can be found underground in the second quest who will force you to part with either your money or a heart container.
+
+{{Footer Nav|game=The Legend of Zelda|prevpage=Items|nextpage=Enemies}}

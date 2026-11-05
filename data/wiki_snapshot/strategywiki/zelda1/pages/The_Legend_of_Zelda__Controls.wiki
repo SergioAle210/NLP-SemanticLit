@@ -1,0 +1,42 @@
+{{Header Nav|game=The Legend of Zelda}}
+
+{| {{prettytable}}
+!width=10%|NES!!width=10%|GameCube (Collector's Edition)!!width=10%|Wii Classic Controller!!width=10%|Wii Remote!!width=15%|Nintendo 3DS!!width=15%|Nintendo Switch!!Action
+|-
+!{{nes|Neutral|Dpad}}!!{{gc|Neutral|Dpad}}!!{{wii-cc|Neutral|Dpad}}!!{{wii|neutral|dpad}}!!{{3ds|neutral|dpad}}!!{{switch|Neutral|Dpad}}
+|
+*Move Link in the four cardinal directions
+*Highlight a letter for a new save file
+*Select a particular subweapon for B button assignment
+|-
+!{{nes|Start}}!!{{gc|Start}}!!{{wii-cc|plus}}!!{{wii|plus}}!!{{3ds|start}}!!{{switch|plus}}
+|
+*Bring up the sub-screen menu, where Link can look at the map, change subweapon, etc.
+*Select the character or option which has the heart icon next to it
+*Return from the sub-screen to the normal view
+|-
+!{{nes|Select}}!!{{gc|Y}}!!{{wii-cc|minus}}!!{{wii|minus}}!!{{3ds|select}} / {{3ds|Y}}!!{{switch|minus}}
+|
+*Pause the action in the game
+*Cycle through available characters or options
+|-
+!{{nes|A}}!!{{gc|A}}!!{{wii-cc|A}}!!{{wii|2}}!!{{3ds|A}}!!{{switch|A}}
+|
+*Swing the sword
+*Select the highlighted letter for the name of your character
+|-
+!{{nes|B}}!!{{gc|B}}!!{{wii-cc|B}}!!{{wii|1}}!!{{3ds|B}} / {{3ds|X}}!!{{switch|B}} / {{switch|X}}
+|
+*Use subweapon
+*Skip one space in the name of your character. Pressing on the eighth space brings the cursor back around to the first
+|-
+!{{nes|Up|Dpad}}{{plus}}{{nes|A}}*!!{{gc|X}}!!{{wii-cc|Up|Dpad}}{{plus}}{{wii-cc|A}}*!!{{wii|up|dpad}}{{plus}}{{wii|2}}*||{{3ds|Up|Dpad}}{{plus}}{{3ds|A}}*!!{{switch|Up|Dpad}}{{plus}}{{switch|A}}*
+|
+*Quick access to Save Screen from the sub-screen menu (*controller 2)
+|-
+!—!!—!!—!!—!!{{(}}{{3ds|L}}+{{3ds|R}}{{)}}{{plus}}{{3ds|Y}}!!—
+|
+*Switch between controller 1 and 2
+|}
+
+{{Footer Nav|game=The Legend of Zelda|prevpage=Gameplay|nextpage=Items}}

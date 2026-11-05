@@ -1,0 +1,80 @@
+{{Header Nav|game=The Legend of Zelda}}
+<center>
+{|
+| [[The Legend of Zelda/Overworld/Hyrule 3|← Section 3]]
+| [[File:LOZ Hyrule 1.png]]
+|- style="text-align:center"
+| || [[The Legend of Zelda/Overworld/Hyrule 2|v Section 2 v]]
+|}
+</center>
+==1st Quest==
+{| {{prettytable}}
+! || A || B || C || D
+|-
+! width="4%" | 1
+|width="24%"|The shop here sells:
+*{{im/loz|Item|Magical Shield|s=1}} for 160 rupees.
+*{{im/loz|Item|Key|s=1}} for 100 rupees.
+*{{im/loz|Item|Blue Candle|s=1}} for 60 rupees.
+|width="24%"|Bomb the section of the north wall that is flat to reveal a medicine woman who sells {{im/loz|Item|Red Potions}} for 68 rupees, and {{im/loz|Item|Water of Lifes}} for 40 rupees, if you have already shown her the {{im/loz|Item|Letter}}.
+|width="24%"|Walk in to this cave to receive the {{im/loz|Item|Letter}}.  Show the Letter to any medicine woman to begin buying Potions.
+|width="24%"|You can reach this area by walking through an invisible passage from the screen below. Enter the cave to receive a whopping 100 {{im/loz|Item|Rupees}}.
+|-
+! 2
+|A stairway is hidden under one of the {{im/loz|Enemy|Armoses}} which leads to an old man who has some information for Link.
+|This is one of the secret passage exits.  You must have the {{im/loz|Item|Power Bracelet}} in order to move the rock which opens the entrance to the passage.  The passage links to the other exits in [[The Legend of Zelda/Overworld/Hyrule 4|Section 4]] and [[The Legend of Zelda/Overworld/Hyrule 7|Section 7]].
+|Bombing along the north wall to the right will reveal a secret door, but the man inside will charge you 20 rupees for repairs.
+|Walk inside the tree to play the Money Making Game.  A hidden passage can be found along the north wall.
+|-
+! 3
+|Bomb the southern side of the boulder to find a cave entrance where you can obtain a {{im/loz|Item|Heart Container}}.  Don't miss out on this opportunity by choosing the Potion.
+|Bomb the small section of the north wall to the right of the stairs to reveal a secret cave where you will receive 30 {{im/loz|Item|Rupees}}.
+|
+|If you have the {{im/loz|Item|Raft}} and leave from the dock below, you will arrive at this area.  Enter the cave to obtain another {{im/loz|Item|Heart Container}}.
+|-
+! 4
+! ''See [[The Legend of Zelda/Overworld/Hyrule 2|Section 2]]''
+|Touch the right {{im/loz|Enemy|Armos}} to make it move off of the stairwell that it guards.  Descend the stairs to receive 30 {{im/loz|Item|Rupees}}.
+|
+|This is a raft launch point for the area above.
+|}
+
+==2nd Quest==
+{| {{prettytable}}
+! || A || B || C || D
+|-
+! width="4%" | 1
+|width="24%"|The shop here sells:
+*{{im/loz|Item|Magical Shield|s=1}} for 160 rupees.
+*{{im/loz|Item|Key|s=1}} for 100 rupees.
+*{{im/loz|Item|Blue Candle|s=1}} for 60 rupees.
+|width="24%"|Bomb the section of the north wall that is flat to reveal a medicine woman who sells {{im/loz|Item|Red Potions}} for 68 rupees, and {{im/loz|Item|Water of Lifes}} for 40 rupees, if you have already shown her the {{im/loz|Item|Letter}}.
+|width="24%"|You can no longer find the letter in this location. Instead, a shop here sells:
+*{{im/loz|Item|Magical Shield|s=1}} for 160 rupees.
+*{{im/loz|Item|Key|s=1}} for 100 rupees.
+*{{im/loz|Item|Blue Candle|s=1}} for 60 rupees.
+|width="24%"|A shop dealer with a rare item has moved in to this hidden location.  You can buy:
+*{{im/loz|Item|Key|s=1}} for 80 rupees.
+*{{im/loz|Item|Blue Ring}} for 250 rupees.
+*{{im/loz|Item|Monster Bait}} for 60 rupees.
+|-
+! 2
+|A stairway is hidden under one of the {{im/loz|Enemy|Armoses}} which leads to an old man who has some information for Link.
+|This is one of the secret passage exits.  You must have the {{im/loz|Item|Power Bracelet}} in order to move the rock which opens the entrance to the passage.  The passage links to the other exits in [[The Legend of Zelda/Overworld/Hyrule 4|Section 4]] and [[The Legend of Zelda/Overworld/Hyrule 7|Section 7]].
+|Bombing along the north wall to the right will reveal a secret door, but the man inside will charge you 20 rupees for repairs.
+|Walk inside the tree to play the Money Making Game.  A hidden passage can be found along the north wall.
+|-
+! 3
+|
+|Bomb the small section of the north wall to the right of the stairs to reveal a secret cave where you will receive 30 {{im/loz|Item|Rupees}}.
+|
+|If you have the raft and leave from the dock below, you will arrive at this area.  Enter the cave to obtain another {{im/loz|Item|Heart Container}}.
+|-
+! 4
+! ''See [[The Legend of Zelda/Overworld/Hyrule 2|Section 2]]''
+|Touch the right {{im/loz|Enemy|Armos}} to make it move off of the stairwell that it guards.  Descend the stairs to receive 30 {{im/loz|Item|Rupees}}.
+|
+|This is a {{im/loz|Item|Raft}} launch point for the area above.
+|}
+
+{{Footer Nav|game=The Legend of Zelda|prevpage=Overworld|nextpage=Overworld/Hyrule 2|nextname=Section 2}}

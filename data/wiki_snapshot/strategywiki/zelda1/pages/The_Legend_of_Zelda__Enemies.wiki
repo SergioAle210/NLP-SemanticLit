@@ -1,0 +1,192 @@
+{{Header Nav|game=The Legend of Zelda}}
+{{floatingtoc}}
+== Overworld ==
+One HP (hit point) is equivalent to one attack with the wooden sword. Where two different HP are listed, the first one refers to the weaker red version, the second one to the stronger blue version.
+
+Sorting enemies by HP, you can see them in an order that is closely related to their overall strength. Moreover, the strongest enemies can be encountered only in areas that can be accessed later in the game.
+
+{| {{prettytable|text center=1|sortable=1}}
+!width=32%| Image !! Name !!width=7%| HP !! Damage !! Description
+|-
+| [[File:LOZ1 Red Octorok.png|Red Octorok]][[File:LOZ1 Blue Octorok.png|Blue Octorok]]
+| '''{{a|Octorok}}'''
+| 1 / 2
+| 1
+| A common enemy and the first enemy that Link is likely to encounter. They shoot rocks from their snout which can be blocked by the basic {{im/loz|Item|Shield}}. Red variety is weak. Blue variety is slightly tougher. Blue Octoroks may drop Bombs as treasure when they are defeated.
+|-
+| [[File:LOZ1 Red Tektite.png|Red Tektite]][[File:LOZ1 Blue Tektite.png|Blue Tektite]]
+| '''{{a|Tektite}}'''
+| 1 / 1
+| 1
+| Spider-like enemy that jumps unpredictably. They are capable of jumping over all terrain, including mountains and cliffs and other areas Link cannot get to. Blue variety may drop Bombs as treasure, but both usually drop a rupee as treasure.
+|-
+| [[File:LOZ1 Zora.png|Zora]]
+| '''{{a|Zora}}'''
+| 2
+| 1
+| An enemy commonly present in the waters of Hyrule. Submerges and reappears, each time shooting a fireball that can only be blocked with the {{im/loz|Item|Magical Shield}}. They can be killed, but they must be eliminated before they return to the water or they gain all of their strength back.
+|-
+| [[File:LOZ1 Red Moblin.png|Red Moblin]][[File:LOZ1 Blue Moblin.png|Blue Moblin]]
+| '''{{a|Moblin}}'''
+| 2 / 3
+| 1 / 2
+| These monsters with bulldog faces are common in the forests of Hyrule. They shoot common arrows. Blue variety is more powerful than red and may drop {{im/loz|Item|Bomb|t=Bombs}} as treasure. There are also good kinds as well that will give you rupees to help you on your quest.
+|-
+| [[File:LOZ1 Red Leever.png|Red Leever]][[File:LOZ1 Blue Leever.png|Blue Leever]]
+| '''{{a|Leever}}'''
+| 2 / 4
+| 1 / 2
+| Somewhat cylindrical enemy capable of burrowing into the ground and reappearing elsewhere. Blue variety reappears randomly. Red variety always reappears a few spaces directly ahead of Link.
+|-
+| [[File:LOZ1 Armos.png|Armos]]
+| '''{{a|Armos}}'''
+| 3
+| 2
+| Inert suits of armor scattered around the Overworld that will come to life if Link touches them. They move at varying speeds, from extremely slow to extremely fast. They drop no treasure, but occasionally there is a secret passage or other item hidden beneath them that will be revealed when they begin to move.
+|-
+| [[File:LOZ1 Peahat.png|Peahat]]
+| '''{{a|Peahat}}'''
+| 2
+| 1
+| An enemy resembling a moving flower. They fly around and cannot be attacked while they spin. They are only vulnerable when they land and stand still, which never lasts for very long.
+|-
+| [[File:LOZ1 Rocks.png|Rocks]]
+| '''{{a|Rocks}}'''
+| {{n/a|-}}
+| 1
+| Falling rocks common near Death Mountain in the northern Overworld. They cannot be killed or blocked, only dodged. They tend to fall in groups of three and will follow Link as much as possible, but their movement is limited.
+|-
+| [[File:LOZ1 Red Lynel.png|Red Lynel]][[File:LOZ1 Blue Lynel.png|Blue Lynel]]
+| '''{{a|Lynel}}'''
+| 4 / 6
+| 2 / 4 ; 4
+| Powerful enemies resembling centaurs with lion head. They throw deadly swords that only the {{im/loz|Item|Magical Shield}} can deflect. Blue variety is significantly stronger, and a little faster, than Red variety.
+|-
+| [[File:LOZ1 Gheeni.png|Gheeni]]
+| '''{{a|Ghini}}'''
+| 9
+| 2
+| Ghost present in the cemetery. There is one Ghini to begin with in each area of the graveyard, and this is the "master" and the only one that is vulnerable to attack. Other Ghini will appear as Link touches tombstones. All Ghini on the screen will die when the master is defeated. If Link touches a tombstone after the master is defeated, more Ghini will appear, and these will be invulnerable to attack.
+|-
+|}
+
+== Underworld ==
+Where two HP (hit points) are listed, the first one refers to the weaker red version, the second one to the stronger blue version.
+
+Sorting enemies by HP, you can see them in an order that is closely related to their overall strength. Moreover, weaker enemies are more common in early dungeons, while the strongest ones are more common in later dungeons. The three strongest enemies are often referred to as "mini-bosses" or "sub-bosses".
+
+Damage refers to the amount of 1/2 heart it takes. If an enemy does 2 damage, it means 1 full heart without a ring. Slashes separate by contact and projectile, if damage differs. Commas separate damage from enemy type.
+
+{|{{prettytable|text center=1|sortable=1}}
+!width=32%| Image !! Name !!width=7%| HP !! Damage !! Description
+|-
+| [[File:LOZ1 Keese.png|Keese]]
+| '''{{a|Keese}}'''
+| 01
+| 1
+| Bats that zoom around the room attempting to bite you. Like Gels, they never drop treasure, but they can be killed if hit with the boomerang.
+|-
+| [[File:LOZ1 Stalfos.png|Stalfos]]
+| '''{{a|Stalfos}}'''
+| 02
+| 1 / 4
+| Enchanted skeletons that wander around in dungeon rooms. They carry a sword in each bony hand and can hurt you if they touch you. In the Second Quest, Stalfos are able to throw swords.
+|-
+| [[File:LOZ1 Gel.png|Gel]]
+| '''{{a|Gel}}'''
+| 01
+| 1
+| Very weak enemy with the shape of a tear drop. They never drop treasure, but they can be killed if hit with the boomerang.
+|-
+| [[File:LOZ1 Trap.png|Trap]]
+| '''{{a|Traps}}'''
+| {{n/a|-}}
+| 1
+| Spiked jewels that will quickly slam toward Link if he walks in front of them. They are laid out by many of the dungeon room entrances and cannot be destroyed.
+|-
+| [[File:LOZ1 Red Goriya.png|Red Goriya]][[File:LOZ1 Blue Goriya.png|Blue Goriya]]
+| '''{{a|Goriya}}'''
+| 03 / 05
+| 1 / 2; 2 / 2
+| Giant walking rat type creatures that throw boomerangs, which you can block with your shield as long as you are not attacking. The Blue variety is significantly stronger than Red variety.
+|-
+| [[File:LOZ1 Wallmaster.png|Wallmaster]]
+| '''{{a|Wallmaster}}'''
+| 02
+| 1
+| Hand-shaped enemy that materializes out of walls. Relatively weak, but if it grabs hold of Link it will return him to the beginning of the dungeon.
+|-
+| [[File:LOZ1 Rope.png|Rope]]
+| '''{{a|Rope}}'''
+| 01 / 04
+| 1
+| A snake-like enemy that make nests in certain rooms of the dungeons. They will suddenly speed up and charge toward Link if they line up with him. On the second quest, they flash and take more hits.
+|-
+| [[File:LOZ1 Moldorm.png|Moldorm]]
+| '''{{a|Moldorm}}'''
+| 12
+| 1
+| Relatively slow-moving wormlike enemy. Appears in a "worm" of five or six segments that resemble fireballs. Attacking it with the sword decreases its length until it's defeated. Upon defeating it, it will never have to be fought again.
+|-
+| [[File:LOZ1 Zol.png|Zol]]
+| '''{{a|Zol}}'''
+| 01
+| 2
+| An enemy resembling a blob with eyes. If it is hit with an attack that does not do 2 or more damage, it will split into two Gels.
+|-
+| [[File:LOZ1 Red Darknut.png|Red Darknut]][[File:LOZ1 Blue Darknut.png|Blue Darknut]]
+| '''{{a|Darknut}}'''
+| 04 / 08
+| 2 / 4
+| Powerful knights that are invulnerable to attack from the front and most weapons. They are, however, vulnerable from the back and sides using the sword, sword beam, or magical rod (not the shot nor flame). Bombs also harm it and are more preferred in tight spots. The Blue variety is faster and stronger than the Red variety.
+|-
+| [[File:LOZ1 Bubble.png|Bubble]]
+| '''{{a|Bubble}}'''
+| {{n/a|-}}
+| 0
+| Glowing enemies that are invulnerable. Touching one disables your sword usage for a few seconds. In the Second Quest, there are Red and Blue varieties. The Red Bubble permanently stuns your sword usage until you touch a Blue Bubble, drinks Water of Life, or visit an overworld fairy, or until the game is reset.
+|-
+| [[File:LOZ1 Vire.png|Vire]]
+| '''{{a|Vire}}'''
+| 02
+| 2
+| A bouncing winged demon. If it is hit with an attack that does not do 3 or more damage, it will split into two red Keeses. These Keeses are otherwise identical to the more common variety.
+|-
+| [[File:LOZ1 Like-Like.png|Like-Like]]
+| '''{{a|Like-Like}}'''
+| 09
+| 2
+| A tube like enemy with a penchant for metal. If this enemy grabs hold of Link, it may devour Link's {{im/loz|Item|Magical Shield}}, leaving him with an ordinary {{im/loz|Item|Shield}}.
+|-
+| [[File:LOZ1 Pols Voice.png|Pols Voice]]
+| '''{{a|Pols Voice}}'''
+| 10
+| 4
+| Big-eared rabbit-like enemy that bounces around over barriers. While they have high defense, 1 arrow will kill it. Alternatively, in the Famicom Disk version, you can blow into the microphone from the second controller to eliminate them (cannot be used in the AV Famicom console).
+|-
+| [[File:LOZ1 Gibdo.png|Gibdo]]
+| '''{{a|Gibdo}}'''
+| 07
+| 4
+| Slow moving mummies with a high defense that like to continuously run in to you. They can take several hits, but relatively weak offensively.
+|-
+| [[File:LOZ1 Red Wizzrobe.png|Red Wizzrobe]][[File:LOZ1 Blue Wizzrobe.png|Blue Wizzrobe]]
+| '''{{a|Wizzrobe}}'''
+| 04 / 10
+| 2 / 8 ; 4
+| Powerful enemy resembling a robed wizard. They are vulnerable only to sword and bombs. They are capable of shooting powerful magical blasts. The red variety teleports about the room and shoots 1 very powerful blast. The blue variety roams around, can pass through walls, and can spam blasts.
+|-
+| [[File:LOZ1 Red Lanmola.png|Red Lanmola]][[File:LOZ1 Blue Lanmola.png|Blue Lanmola]]
+| '''{{a|Lanmola}}'''
+| 20 / 32
+| 4
+| Fast-moving worm-like enemy. Attack shorten its length until only the head remains. The Magical Rod with the Book of Magic is an effective weapon to use. Blue variety is much faster than Red variety.
+|-
+| [[File:LOZ1 Patra.png|Patra]][[File:LOZ1 Patra eye.png|Patra eye]]
+| '''{{a|Patra}}'''
+| 72
+| 4
+| Present only in Level 9 and acts like a boss. The center blue eye cannot be harmed until the red eyes circulating are defeated. There are 2 types of red patras: Ones that cycle around and ones that expand through the room.
+|}
+
+{{Footer Nav|game=The Legend of Zelda|prevpage=Citizens|nextpage=Bosses}}

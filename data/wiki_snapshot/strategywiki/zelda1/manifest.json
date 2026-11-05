@@ -1,0 +1,299 @@
+{
+  "source": "StrategyWiki",
+  "game": "The Legend of Zelda",
+  "license": {
+    "name": "Creative Commons Attribution-ShareAlike 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "downloaded_at": "2026-11-04",
+  "total_chars": 194218,
+  "pages": [
+    {
+      "title": "The Legend of Zelda",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda",
+      "revid": 1199758,
+      "file": "pages/The_Legend_of_Zelda.wiki",
+      "chars": 4732
+    },
+    {
+      "title": "The Legend of Zelda/Bosses",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+      "revid": 1091187,
+      "file": "pages/The_Legend_of_Zelda__Bosses.wiki",
+      "chars": 6051
+    },
+    {
+      "title": "The Legend of Zelda/Cheats",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Cheats",
+      "revid": 1062780,
+      "file": "pages/The_Legend_of_Zelda__Cheats.wiki",
+      "chars": 2234
+    },
+    {
+      "title": "The Legend of Zelda/Citizens",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Citizens",
+      "revid": 971330,
+      "file": "pages/The_Legend_of_Zelda__Citizens.wiki",
+      "chars": 4593
+    },
+    {
+      "title": "The Legend of Zelda/Controls",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Controls",
+      "revid": 1067129,
+      "file": "pages/The_Legend_of_Zelda__Controls.wiki",
+      "chars": 1840
+    },
+    {
+      "title": "The Legend of Zelda/Enemies",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Enemies",
+      "revid": 1007594,
+      "file": "pages/The_Legend_of_Zelda__Enemies.wiki",
+      "chars": 10259
+    },
+    {
+      "title": "The Legend of Zelda/Gameplay",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Gameplay",
+      "revid": 906051,
+      "file": "pages/The_Legend_of_Zelda__Gameplay.wiki",
+      "chars": 4153
+    },
+    {
+      "title": "The Legend of Zelda/Items",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+      "revid": 1041432,
+      "file": "pages/The_Legend_of_Zelda__Items.wiki",
+      "chars": 9228
+    },
+    {
+      "title": "The Legend of Zelda/Overworld",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld",
+      "revid": 878231,
+      "file": "pages/The_Legend_of_Zelda__Overworld.wiki",
+      "chars": 1793
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Hyrule 1",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_1",
+      "revid": 1125508,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Hyrule_1.wiki",
+      "chars": 4827
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Hyrule 2",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_2",
+      "revid": 1125509,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Hyrule_2.wiki",
+      "chars": 3972
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Hyrule 3",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_3",
+      "revid": 1125512,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Hyrule_3.wiki",
+      "chars": 5103
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Hyrule 4",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_4",
+      "revid": 1125631,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Hyrule_4.wiki",
+      "chars": 5582
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Hyrule 5",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_5",
+      "revid": 1125506,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Hyrule_5.wiki",
+      "chars": 4268
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Hyrule 6",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_6",
+      "revid": 1125505,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Hyrule_6.wiki",
+      "chars": 5033
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Hyrule 7",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_7",
+      "revid": 1125632,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Hyrule_7.wiki",
+      "chars": 4973
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Hyrule 8",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_8",
+      "revid": 1125634,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Hyrule_8.wiki",
+      "chars": 4086
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Quest 1",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+      "revid": 966859,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Quest_1.wiki",
+      "chars": 14868
+    },
+    {
+      "title": "The Legend of Zelda/Overworld/Quest 2",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_2",
+      "revid": 1008209,
+      "file": "pages/The_Legend_of_Zelda__Overworld__Quest_2.wiki",
+      "chars": 1842
+    },
+    {
+      "title": "The Legend of Zelda/SPG",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/SPG",
+      "revid": 537741,
+      "file": "pages/The_Legend_of_Zelda__SPG.wiki",
+      "chars": 416
+    },
+    {
+      "title": "The Legend of Zelda/Table of Contents",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Table_of_Contents",
+      "revid": 1063169,
+      "file": "pages/The_Legend_of_Zelda__Table_of_Contents.wiki",
+      "chars": 2631
+    },
+    {
+      "title": "The Legend of Zelda/Underworld",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld",
+      "revid": 479583,
+      "file": "pages/The_Legend_of_Zelda__Underworld.wiki",
+      "chars": 3164
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 1",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_1",
+      "revid": 1125345,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_1.wiki",
+      "chars": 4388
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 2",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_2",
+      "revid": 1125344,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_2.wiki",
+      "chars": 3301
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 3",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_3",
+      "revid": 1125346,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_3.wiki",
+      "chars": 3188
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 4",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_4",
+      "revid": 1125348,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_4.wiki",
+      "chars": 4456
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 5",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_5",
+      "revid": 1125349,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_5.wiki",
+      "chars": 4226
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 6",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_6",
+      "revid": 1125352,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_6.wiki",
+      "chars": 3757
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 7",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_7",
+      "revid": 1174525,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_7.wiki",
+      "chars": 5670
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 8",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_8",
+      "revid": 1125356,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_8.wiki",
+      "chars": 3375
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 1/Dungeon 9",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_9",
+      "revid": 1125358,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_1__Dungeon_9.wiki",
+      "chars": 6018
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 1",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_1",
+      "revid": 888556,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_1.wiki",
+      "chars": 2206
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 2",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_2",
+      "revid": 820385,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_2.wiki",
+      "chars": 3477
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_3",
+      "revid": 890060,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_3.wiki",
+      "chars": 2637
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 4",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_4",
+      "revid": 888558,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_4.wiki",
+      "chars": 5695
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 5",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_5",
+      "revid": 813223,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_5.wiki",
+      "chars": 3724
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 6",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_6",
+      "revid": 813224,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_6.wiki",
+      "chars": 3570
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 7",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_7",
+      "revid": 813237,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_7.wiki",
+      "chars": 4425
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 8",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_8",
+      "revid": 813226,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_8.wiki",
+      "chars": 6634
+    },
+    {
+      "title": "The Legend of Zelda/Underworld/Quest 2/Dungeon 9",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_9",
+      "revid": 707183,
+      "file": "pages/The_Legend_of_Zelda__Underworld__Quest_2__Dungeon_9.wiki",
+      "chars": 4889
+    },
+    {
+      "title": "The Legend of Zelda/Walkthrough",
+      "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Walkthrough",
+      "revid": 813212,
+      "file": "pages/The_Legend_of_Zelda__Walkthrough.wiki",
+      "chars": 12934
+    }
+  ]
+}

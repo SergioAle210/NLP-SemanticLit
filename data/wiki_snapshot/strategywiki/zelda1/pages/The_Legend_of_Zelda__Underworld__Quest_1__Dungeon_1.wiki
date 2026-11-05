@@ -1,0 +1,42 @@
+{{Header Nav|game=The Legend of Zelda}}
+
+{{floatingtoc}}
+<center>[[File:LOZ_Dungeon_1.png]]</center>
+
+== Objectives ==
+* Obtain the {{im/loz|Item|Bow}}.
+* Obtain the {{im/loz|Item|Wooden Boomerang}}.
+* Beat Aquamentus, obtain his heart container and the first {{im/loz|Item|Piece of Triforce}}.
+
+== Walkthrough ==
+=== Advised Preparation ===
+The amount of preparation advised is too much to list here; see [[The Legend of Zelda/Overworld/Quest 1]] to see a comprehensive guide.
+
+=== Dungeon Walkthrough ===
+* The entrance to this dungeon is found on Lake Hylia (at '''A-4''' of [[The Legend of Zelda/Overworld/Hyrule 3|section 3]]), just over the bridge which is a short distance north from where you begin the game.
+* Start by clearing the rooms both right (Q-6) and left (O-6) of the entrance to obtain two {{im/loz|Item|Keys}}.
+* At this point there is a glitch where if you leave the dungeon and re-enter, the first locked door is unlocked.
+* Clear the next two rooms above the entrance (to P-4). The north wall in the room can be bombed to reveal a hidden pathway and save one {{im/loz|Item|Key}}.
+* In the room past the hidden pathway (P-3) you'll encounter some {{im/loz|Enemy|Gels}} guarding a {{im/loz|Item|Map}}.
+[[File:LOZLinkgetsthebow.png|thumb|Link gets the bow.]]
+* From the map room, go left to arrive in room O-3 with a single block. The door to the left can be opened by moving the block in any direction once all of the monsters are cleared. The room to the left contains a man who gives you a hint as to the whereabouts of a secret stash of rupees (in the north-eastern corner of the overworld): "''Eastmost peninsula is the secret.''"
+* From the hint room, backtrack two screens then continue up twice, clearing each room as you go to obtain {{im/loz|Item|Keys}}. Then head left and you'll enter room O-1 with {{im/loz|Enemy|Traps}} in each corner and a stairwell in the center surrounded by blocks. The left most block can be pushed aside so you can enter the stairwell. Here you'll find the {{im/loz|Item|Bow}}, but you'll have to purchase {{im/loz|Item|Arrows}} if you want to use it (unless you've already purchased them before finding the bow, in which case you can use it immediately).
+* Return to the map room, go down one more room and enter the room to the right to obtain the {{im/loz|Item|Compass}} (at Q-4). Both of the north walls in the compass room and the previous room can be bombed to reveal hidden pathways. Cross the wall in the compass room to room Q-3 (you just saved another key). Defeat the three {{im/loz|Enemy|Red Goriyas}} to obtain the {{im/loz|Item|Wooden Boomerang}}.
+* From the boomerang room, go right to room R-3. You can obtain a key here, but beware of {{im/loz|Enemy|Wallmasters}}. They are enticed to come out whenever Link stands next to a wall. If you are picked up by one, you will be deposited at the dungeon entrance.
+* From the Wallmaster room, go up to room R-2 to fight the boss.
+{{-}}
+
+== Boss ==
+[[File:LOZthefirstbossofthefirstquest.png|thumb|left|Aquamentus]]
+[[File:LOZLinkgetsthefirstpieceoftheTriforce.png|thumb|The first Triforce piece]]
+* The boss is {{im/loz|Boss|Aquamentus}}. You must strike him in the head six times with the {{im/loz|Item|Wooden Sword}} or three times with the {{im/loz|Item|White Sword}}. Time your strikes between the energy orbs that he emits from his horn.  Only the {{im/loz|Item|Magical Shield}} will absorb the energy orbs. Link will receive damage if he tries to block them with the regular shield. If you're firing sword beams, you can strike any part of his body. If you have less than full health and actually have to approach him to slash, only the head is vulnerable.
+* Defeat him to earn a {{im/loz|Item|Heart Container}}. Enter the room to the right to obtain the first {{im/loz|Item|Piece of Triforce}}.
+{{-}}
+
+== Resupply ==
+* If you followed this walkthrough, you should still have three spare keys.
+* If you have the {{im/loz|Item|Letter}}, you can purchase healing potions from the cave north of Level 1. 
+* A Fairy Fountain is two screens to the east; to get there, make a detour to the south.
+* If you don't have a {{im/loz|Item|Magical Shield}} yet, you can purchase one from a [[../../../Citizens#Shop Keeper|hidden shop keeper]] for just 90 Rupees.
+
+{{Footer Nav|game=The Legend of Zelda|prevpage=Underworld|nextpage=Underworld/Quest 1/Dungeon 2|nextname=Dungeon 2}}

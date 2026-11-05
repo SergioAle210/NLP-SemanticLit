@@ -1,0 +1,89 @@
+{
+  "source": "StrategyWiki",
+  "game": "Ninja Gaiden (NES)",
+  "license": {
+    "name": "Creative Commons Attribution-ShareAlike 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "downloaded_at": "2026-11-05T01:58:59+00:00",
+  "total_chars": 74582,
+  "pages": [
+    {
+      "title": "Ninja Gaiden (NES)",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29",
+      "revid": 1199915,
+      "file": "pages/Ninja_Gaiden_(NES).wiki",
+      "chars": 2598
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Act 1",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+      "revid": 747172,
+      "file": "pages/Ninja_Gaiden_(NES)__Act_1.wiki",
+      "chars": 3962
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Act 2",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_2",
+      "revid": 969801,
+      "file": "pages/Ninja_Gaiden_(NES)__Act_2.wiki",
+      "chars": 8337
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Act 3",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_3",
+      "revid": 747551,
+      "file": "pages/Ninja_Gaiden_(NES)__Act_3.wiki",
+      "chars": 6036
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Act 4",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_4",
+      "revid": 747668,
+      "file": "pages/Ninja_Gaiden_(NES)__Act_4.wiki",
+      "chars": 10910
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Act 5",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_5",
+      "revid": 1148402,
+      "file": "pages/Ninja_Gaiden_(NES)__Act_5.wiki",
+      "chars": 12258
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Act 6",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_6",
+      "revid": 793888,
+      "file": "pages/Ninja_Gaiden_(NES)__Act_6.wiki",
+      "chars": 19890
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Gameplay",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Gameplay",
+      "revid": 903219,
+      "file": "pages/Ninja_Gaiden_(NES)__Gameplay.wiki",
+      "chars": 3962
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Items",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Items",
+      "revid": 903222,
+      "file": "pages/Ninja_Gaiden_(NES)__Items.wiki",
+      "chars": 4128
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Table of Contents",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Table_of_Contents",
+      "revid": 903220,
+      "file": "pages/Ninja_Gaiden_(NES)__Table_of_Contents.wiki",
+      "chars": 462
+    },
+    {
+      "title": "Ninja Gaiden (NES)/Walkthrough",
+      "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Walkthrough",
+      "revid": 748786,
+      "file": "pages/Ninja_Gaiden_(NES)__Walkthrough.wiki",
+      "chars": 2039
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{{Header Nav|game=Ninja Gaiden (NES)}}
+
+== Controls ==
+* {{nes|Neutral|Dpad}}: Press left or right on the dpad to run in either direction.  Press up or down on the dpad to climb or descend ladders.  Press down while standing on the ground to squat.
+* {{nes|A}}: Press the A button to jump in the air.  Unlike many other games, you have no control over the height of your jump; you will jump the same height whether you tap the button or hold it down.
+* {{nes|B}}: Press the B button to attack by swinging your sword.  You can attack low by squatting when you attack.
+** {{nes|B}}{{plus}}{{nes|Up|Dpad}}: Hold up while pressing B to utilize whichever secondary weapon you have in your possession.  In order to use a weapon, you must have enough spirit points stored up, or the weapon will not deploy.
+* {{nes|Start}}: Press the Start button to begin a new game, or to pause the action mid-game.  You can also press the Start button to bypass the cinematic cut scenes and advance directly to the next stage.
+* {{nes|Select}}: Not used.
+
+== Player ==
+[[File:Ninja Gaiden NES player sprite.png|left]] Throughout the game, you take control of the ninja known as Ryu Hayabusa.  As a trained and highly skilled ninja, Ryu possesses a lot of power and abilities.  Learning how to tap into that power and use those abilities correctly is pivotal to your success.
+
+Ryu has two means of attacking: his primary weapon is his katana, which he can rapidly swing to strike any enemies immediately in front of him.  He can also make use of secondary weapons like throwing stars or bursts of flames, but only if he possesses enough spirit points to utilize them.  He must collect these spirit points from blue and red tiles which he must liberate from item containers placed throughout each stage.  Abilities require different amounts of points to use, see the [[../Items/]] page for more information.
+
+Ryu is also incredibly agile, and can jump incredible distances.  If he jumps towards a wall or a ledge, he can grab on to it and hold on.  From there, he can launch himself in the opposite direction.  He can use this technique to reach higher locations which are otherwise out of reach.
+
+Ryu can sustain a number of hits before he succumbs to his wounds.  A health meter is displayed at the top of the screen which indicates how much damage Ryu can handle before he loses a life.  Ryu will also instantly lose a life if he falls through a gap at the bottom of the screen, regardless of how much health he has left.  You will also lose one life if the timer runs out before you complete a stage.  Ryu starts the game with two lives in reserve, and he can gain more chances by finding extra life items.  If he loses all of his lives, the game is over, but you have the opportunity to continue as many times as you like.
+=== Status bar ===
+[[File:Ninja Gaiden NES status bar.png|center]]
+A large amount of information is presented at the top of the screen throughout the game:
+# '''Score''': This is your current accumulated score.  You collect points by defeating enemies, and collecting bonus point item tiles.
+# '''Timer''': This indicates the remaining amount of time you have to complete the stage before you lose one life.
+# '''Lives''': The number of remaining lives you possess is shown here.
+# '''Spirit''': The amount of spirit points you currently have for using secondary weapons.
+# '''Weapon''': This icon indicates which secondary weapon is currently active.  You activate a new weapon whenever you collect a weapon tile.
+# '''Stage''': This indicates on what stage you are currently playing.
+# '''Health''': This is your health meter.  This meter will reduce when you take damage.  You will lose one life if your meter is depleted.
+# '''Enemy''': When you fight against a boss, this health meter indicates how much more damage they can sustain before they are defeated.  It does not apply to regular enemies.
+
+{{Footer Nav|game=Ninja Gaiden (NES)|nextpage=Items}}

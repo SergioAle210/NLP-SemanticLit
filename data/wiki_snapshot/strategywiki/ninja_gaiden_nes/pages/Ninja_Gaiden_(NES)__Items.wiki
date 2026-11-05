@@ -1,0 +1,41 @@
+{{Header Nav|game=Ninja Gaiden (NES)}}
+
+To obtain items, you must attack various item holders that appear throughout each stage.  The form of these holders changes from stage to stage; in some cases they might be candles or flames, and in other cases, they might be living creatures such as insects or birds.  Once attacked, the items fall straight down to the ground, or in some cases, disappear through the bottom of the screen if they are not collected in time.
+
+== Items ==
+{| {{prettytable}}
+! width="50%" | Bonus points || Spirit points
+|-
+| [[File:Ninja Gaiden NES item bonus blue.png|left]] [[File:Ninja Gaiden NES item bonus red.png|right]] Collect these bags to earn bonus points which increase your score.  Blue bags provide you with 500 points, while red bags award you 1000 points.
+| [[File:Ninja Gaiden NES item ability blue.png|left]] [[File:Ninja Gaiden NES item ability red.png|right]] You need to accumulate spirit points in order to use secondary weapons like throwing stars.  The blue tiles provide you with 5 points, and the red tiles provide 10 points.  The symbol on each tile is <big>忍</big>, which is the root of the term shinobi.
+|-
+! Time Freeze || Health
+|-
+| [[File:Ninja Gaiden NES item time.png|left]] If you find one of these rare hourglasses, grab it to freeze all of the action on the screen for approximately five seconds.  You will be able to advance through the stage while your enemies are motionless.
+| [[File:Ninja Gaiden NES item health.png|right]] As you fight your way through each stage, you will lose health if you are struck by enemies or their projectiles.  Collect one of these potions to restore six lost bars of health from your meter.
+|-
+! Extra life || 
+|-
+| [[File:Ninja Gaiden NES item extra.png|left]] Extra lives are extremely hard to come by.  Be sure to collect every one that you can find to improve your chances in this incredibly difficult game.
+|
+|}
+== Weapons ==
+{| {{prettytable}}
+! width="50%" | Throwing star || Windmill star
+|-
+| [[File:Ninja Gaiden NES item throwing star.png|left]] This is the most basic secondary weapon available.  The throwing star is a small projectile that Ryu throws in a straight line ahead of him.  It moves reasonably quickly, and costs 3 spirit points for each star thrown.
+| [[File:Ninja Gaiden NES item boomerang star.png|right]] A bit more powerful than a regular throwing star, the windmill star has special properties that make it return to the thrower like a boomerang.  In fact, it will continuously fly back and forth if it misses you until you make contact with it again and catch it.  Throwing one costs 5 spirit points.
+|-
+! Flames || Fire wheel
+|-
+| [[File:Ninja Gaiden NES item flame.png|left]] When activating this weapon, you throw three sets of flames that fly off in tight spirals.  All three flames float up into the sky at slightly different angles.  Incredibly useful for removing enemies that are perched above you, it costs 5 spirit points to throw one set.
+| [[File:Ninja Gaiden NES item fire wheel.png|right]] As soon as you collect this item, you will be surrounded by a circle of fire that will eliminate any enemy that comes in contact with you.  While this weapon requires no spirit points to use, it does replace any weapon you previously held, and it disappears after five seconds of use, leaving you with no secondary weapon until you find and collect another.
+|-
+! Jump and Slash ||
+|-
+| [[File:Ninja Gaiden NES item jump slash.png|left]] Unlike other weapons, you do not need to press {{nes|Up|Dpad}}{{plus}}{{nes|B}} to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it.  When you jump in the air, you flip forward becoming one deadly weapon.  While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not careful with it.
+This item does not competely prevent you from using the sword in midair - you can still perform sword attacks in the air by pressing {{nes|Down|Dpad}}{{plus}}{{nes|B}}.
+|
+|}
+
+{{Footer Nav|game=Ninja Gaiden (NES)|prevpage=Gameplay|nextpage=Walkthrough}}

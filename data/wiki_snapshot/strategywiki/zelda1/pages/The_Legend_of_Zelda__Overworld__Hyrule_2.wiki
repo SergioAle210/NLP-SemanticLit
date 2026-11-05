@@ -1,0 +1,77 @@
+{{Header Nav|game=The Legend of Zelda}}
+<center>
+{|
+|- style="text-align:center"
+| || [[The Legend of Zelda/Overworld/Hyrule 1|^ Section 1 ^]]
+|-
+| [[The Legend of Zelda/Overworld/Hyrule 4|← Section 4]]
+| [[Image:LOZ Hyrule 2.png]]
+|}
+</center>
+==1st Quest==
+{| {{prettytable}}
+! || A || B || C || D
+|-
+! width="4%" | 1
+|width="24%"|This is the entrance to the [[The Legend of Zelda/Underworld/Quest 1/Dungeon 2|second dungeon]].
+!width="72%" colspan="3" | ''See [[The Legend of Zelda/Overworld/Hyrule 1|Section 1]]''
+|-
+! 2
+|
+|width="24%"|Burn the south tree on the eastern most column to discover a hidden shop which sells the {{im/loz|Item|Magical Shield}} for 90 rupees, {{im/loz|Item|Monster Bait}} for 100 rupees, and an ordinary {{im/loz|Item|Heart}} for 10 rupees.
+|width="24%"|Touch the right {{im/loz|Enemy|Armos}} to wake him up and move him off the stairwell that he guards.  Enter the stairwell to receive 10 {{im/loz|Item|Rupees}}.
+|width="24%"|
+|-
+! 3
+|
+|
+|The shop here sells a {{im/loz|Item|Magical Shield}} for 160 rupees, {{im/loz|Item|Keys}} for 100 rupees, and the {{im/loz|Item|Blue Candle}} for 60 rupees.
+|If you have the {{im/loz|Item|Ladder}}, you can collect the {{im/loz|Item|Heart Container}} that is positioned on the far dock.
+|-
+! 4
+|
+|If you burn down a certain tree that blocks the pathway, you will discover the entrance to the [[The Legend of Zelda/Underworld/Quest 1/Dungeon 8|eighth dungeon]].
+|
+|In this shop, you can buy (the ability to use) {{im/loz|Item|Arrows}} for 80 rupees, the {{im/loz|Item|Magical Shield}} for 130 rupees, and a set of 4 {{im/loz|Item|Bombs}} for 20 rupees.
+|-
+! 5
+|Bomb the cliff wall just a little left of center to discover the entrance to a cave where you can play the Money Making Game.
+|Bomb this cliff wall just a little left of center and you will reveal a secret door, but if you enter, the man inside will charge you 20 rupees for repairs.
+|
+|
+|}
+
+==2nd Quest==
+{| {{prettytable}}
+! || A || B || C || D
+|-
+! width="4%" | 1
+|width="24%"|The entrance to the [[The Legend of Zelda/Underworld/Quest 2/Dungeon 3|third dungeon]] is hidden in the lake, and is revealed by the whistle. 
+!width="72%" colspan="3" | ''See [[The Legend of Zelda/Overworld/Hyrule 1|Section 1]]''
+|-
+! 2
+|
+|width="25%"|Burn the south tree on the eastern most column to discover a hidden shop which sells the {{im/loz|Item|Magical Shield}} for 90 rupees, {{im/loz|Item|Monster Bait}} for 100 rupees, and an ordinary {{im/loz|Item|Heart}} for 10 rupees.
+|width="25%"|Touch the right {{im/loz|Enemy|Armos}} to wake him up and move him off the stairwell that he guards.  Enter the stairwell to receive 10 {{im/loz|Item|Rupees}}.
+|width="25%"|
+|-
+! 3
+|
+|
+|The shop here sells a {{im/loz|Item|Magical Shield}} for 160 rupees, {{im/loz|Item|Keys}} for 100 rupees, and the {{im/loz|Item|Blue Candle}} for 60 rupees.
+|If you have the {{im/loz|Item|Ladder}}, you can collect the {{im/loz|Item|Heart Container}} that is positioned on the far dock.
+|-
+! 4
+|If you burn down a certain tree on the left side that can only be burned from the right side, you will discover the entrance to the [[The Legend of Zelda/Underworld/Quest 2/Dungeon 7|seventh dungeon]].
+|
+|Some notes on the {{im/loz|Item|Whistle}} will reveal a staircase that leads to a {{im/loz|Enemy|Red Moblin}} who will give you 10 {{im/loz|Item|Rupees}}.
+|In this shop, you can buy (the ability to use) {{im/loz|Item|Arrows}} for 80 rupees, the {{im/loz|Item|Magical Shield}} for 130 rupees, and a set of 4 {{im/loz|Item|Bombs}} for 20 rupees.
+|-
+! 5
+|Bomb the cliff wall just a little left of center to discover the entrance to a cave where you can play the Money Making Game.
+|Bomb this cliff wall just a little left of center and you will reveal a secret door, but if you enter, the man inside will charge you 20 rupees for repairs.
+|
+|
+|}
+
+{{Footer Nav|game=The Legend of Zelda|prevpage=Overworld/Hyrule 1|prevname=Section 1|nextpage=Overworld/Hyrule 3|nextname=Section 3}}

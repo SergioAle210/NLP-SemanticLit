@@ -1,0 +1,28 @@
+{{Header Nav|game=The Legend of Zelda}}
+==Starting the Game==
+[[Image:LOZ Select Screen.png|left|thumb|Selection screen]]
+===Starting a New Game===
+Before you begin, you must first enter your name in one of the three save slots.  Press {{nes|Select}} until the heart is next to "REGISTER YOUR NAME" and press {{nes|Start}}.  Use the {{nes|Select}} to line up the heart with the Link that you wish to name.  Enter a name of up to eight letters using the control pad to select a letter and the  {{nes|A}} to enter it.  Once you have registered your name, line up the heart with "REGISTER END" and press{{nes|Start}}.
+
+===Erasing an Old Game===
+Press {{nes|Select}} until the heart is next to "ELIMINATION MODE" and press {{nes|Start}}.  Use {{nes|Select}}to move the heart next to the Link that you wish to erase and press the {{nes|Start}}.  This will erase that name.  Move the heart to "ELIMINATION END" and press {{nes|Start}} again.  This permanently erases all the data for the Link selected so use with caution.
+
+===Continue a Saved Game===
+On the selection screen, you can select a saved game to continue.  Certain information can be seen from the selection screen.  This information includes the save file's name, the total number of heart containers collected so far, which ring, if any, that save file's Link is wearing, and the number of times Link has died for that save file.  If Link is holding a sword, it means the save file in question is in the middle of the second quest.
+===Game Over Options===
+* If you want to continue the game, choose "CONTINUE" with the {{nes|Select}}and press {{nes|Start}}.  You will begin with three full heart containers, either at the starting point of the [[The Legend of Zelda/Overworld|Overworld]], or the entrance to the particular dungeon that you died in in the [[The Legend of Zelda/Underworld|Underworld]], with all of your possessions in tact.
+* If you are done for the time being, choose "SAVE" with the {{nes|Select}} and press {{nes|Start}}.  All information about your accomplishments will be stored and retained until the next time you play.
+* If you want to forget about all of your accomplishments since the last time you saved the game, choose "RETRY" with the {{nes|Select}} and press {{nes|Start}}.  When you continue next, you will continue exactly the same way you continued last time.
+
+==The Screen==
+[[Image:LOZ Full Screen.png|right]]
+===Sub-Screen===
+The top portion of the screen can only be seen when you pause the game using the {{nes|Start}}.  When you press the {{nes|Start}}, the screen will scroll up and the normal portion of the screen will drop away.  On the sub-screen, you can see which items you currently possess in your inventory.  Items which appear above the blue box are use automatically.  Only one item in the blue box can be assigned for use with the {{nes|B}}, and you can only change this assignment by switching to the sub-screen.  In the Overworld, the lower portion of the sub-screen shows you how many pieces of the Triforce you have collected so far.  In the Underworld, you are shown a map of your current progress through a dungeon.  Only rooms which you have visited are indicated on the sub-screen map, even if you have collected the dungeon map item.
+
+===Status Bar===
+The status bar can be seen in both modes, at the bottom of the sub-screen, and the top of the normal view.  On the left, you will see your general position in the Overworld, or your position in the Underworld against a map if you have collected the dungeon map item.  You can also see how many rupees, keys, and bombs you currently possess.  You can see which item is currently assigned to the {{nes|B}}, as well as which power of sword you are using with the {{nes|A}}.  Lastly, you can see your total remaining life as well as the total number of heart containers you have collected.
+
+===Normal view===
+Below the status bar is where the action of the game takes place.  You can view the area in the Overworld that you are currently located in, or the room of the dungeon that you are currently located in the Underworld.
+
+{{Footer Nav|game=The Legend of Zelda|nextpage=Controls}}
