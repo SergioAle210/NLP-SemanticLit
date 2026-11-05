@@ -1,0 +1,6 @@
+# Normalizar saltos de línea: el corpus se hashea por chunk y debe ser idéntico en Windows/Linux/Docker
+* text=auto eol=lf
+*.wiki text eol=lf
+*.json text eol=lf
+*.pdf binary
+*.png binary

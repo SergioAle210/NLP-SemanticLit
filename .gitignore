@@ -1,0 +1,31 @@
+# --- Entorno / Python ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Credenciales ---
+.env
+.env.*
+!.env.example
+
+# --- Datos con copyright (manuales oficiales, OCR): NO redistribuir ---
+data/raw/
+
+# --- Artefactos regenerables ---
+data/index/
+models/
+*.sqlite
+*.sqlite3
+*.db
+logs/
+
+# --- Editor / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
