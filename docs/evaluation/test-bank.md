@@ -1,43 +1,63 @@
 # Banco de pruebas
 
-Cubre el §8 de [course/instructions.md](../course/instructions.md). Los casos se escriben en inglés ([ADR-0001](../architecture/decisions/0001-english-first.md)), leyendo los chunks reales.
+Cubre el §8 de [course/instructions.md](../course/instructions.md). Archivo: [eval/cases.jsonl](../../eval/cases.jsonl). Los casos se escriben en inglés ([ADR-0001](../architecture/decisions/0001-english-first.md)), leyendo el corpus limpio.
 
-## Esquema (`eval/cases.jsonl`)
+## Esquema
 
 Campos obligatorios del curso, más los propios:
 
 ```json
 {
-  "id": "zelda_direct_001",
-  "question": "Which button swings the sword?",
-  "expected_behavior": "Answers 'A', citing the Controls page",
-  "expected_sources": ["The Legend of Zelda/Controls"],
-  "expected_pages": [0],
+  "id": "zelda_exact_01",
+  "question": "What does the old man in Level-4 of the first quest say?",
+  "expected_behavior": "Quotes the hint 'Walk into the waterfall.'",
+  "expected_sources": ["The Legend of Zelda/Underworld/Quest 1/Dungeon 4"],
+  "expected_pages": [3],
   "answerable": true,
   "risk_level": "low",
-  "category": "direct",
+  "category": "exact_id",
   "game": "zelda1",
-  "profile": "novato",
-  "lang": "en"
+  "profile": "completionist",
+  "lang": "en",
+  "evidence": [["Walk into the waterfall."]]
 }
 ```
 
-- `risk_level`: `low` | `medium` | `high` (spoiler) | `critical` (acción o seguridad).
-- `profile`: uno de los perfiles de demo ([ADR-0004](../architecture/decisions/0004-sqlite-and-demo-profiles.md)).
+| Campo | Significado |
+| --- | --- |
+| `expected_sources` / `expected_pages` | Páginas de la wiki y el índice de sección donde aparece la evidencia (alineados por posición) |
+| `evidence` | Partes de la respuesta, cada una con alternativas literales del corpus. Define la relevancia ([ADR-0008](../architecture/decisions/0008-relevance-by-evidence-text.md)) |
+| `risk_level` | `low` · `medium` (ambiguas, versión, sin respuesta) · `high` (spoiler) · `critical` (acción o seguridad) |
+| `profile` | Perfil de demo con el que se hace la pregunta. Los casos de recuperación usan `completionist` para que los gates no oculten la evidencia; los de spoilers usarán perfiles `player` |
 
-## Distribución (borrador)
+Implementación: [src/gamerag/evaluation/cases.py](../../src/gamerag/evaluation/cases.py).
 
-| Categoría | # | Zelda | Ninja Gaiden |
-| --- | ---: | --- | --- |
-| Directas | 5 | "Which button swings the sword?" · "What item is in Level-3 (first quest)?" · "How much does the Blue Candle cost?" | "Which button makes Ryu jump?" · "How many spirit points does the Windmill Star cost?" |
-| Paráfrasis | 3 | "How do I get across water?" (Raft / Ladder) | "How can I climb walls?" (wall jump) |
-| Identificadores exactos | 3 | "What does the old man in Level-4 say?" · "What is on the dock at D-4?" | "What happens in Stage 4-3?" · "Is *Shadow Warriors* the same game?" |
-| Compuestas | 3 | "Where do I buy the Blue Candle and how much is it?" | "Which weapon works best against Bomberhead and how much spirit does it use?" |
-| Ambiguas | 2 | "How do I beat Gleeok?" (2, 3 o 4 cabezas) | "How do I beat the Act 6 boss?" (tres jefes) |
-| Sin respuesta | 2 | "How do I use the Hookshot?" (no existe en Zelda 1) | 🔶 Se elige tras leer el corpus |
-| Versión / vigencia | 2 | "Where is the Ladder?" en Q1 frente a Q2 | — |
-| Multijuego (fase 3b) | 2 | "How does the boomerang work?" con NG activo · pregunta de NG con Zelda activo | |
-| Herramientas | 5 | Nominal · parámetro fuera de rango (`level=15`) · desbloqueo sin confirmar · API caída | Herramienta errónea: "Which levels can I do now?" |
-| Seguridad / spoilers | ≥ 10 | Ver [security/controls.md](../security/controls.md) | |
+## Casos actuales: Zelda (20)
 
-**Orden de escritura:** en la fase 2, los 20 casos base de Zelda; en la 3b, los de Ninja Gaiden y los multijuego; en la 3d (opcional), de 8 a 10 casos traducidos al español.
+| Categoría | # | Ejemplos |
+| --- | ---: | --- |
+| Directas | 5 | "Which button swings the sword?" · "How much does the Blue Candle cost?" |
+| Paráfrasis | 3 | "How can I sail across the sea?" (Raft) · "How can I win cash by gambling?" (Money Making Game) |
+| Identificadores exactos | 3 | "What does the old man in Level-4 of the first quest say?" · "What can I buy at D-4 in section 2?" · "register my name as ZELDA" |
+| Compuestas | 3 | "Where can I buy the Blue Candle, and what can it be used for?" |
+| Ambiguas | 2 | "How do I beat the dragon boss?" (Aquamentus y Gleeok son dragones) · "How do I defeat Gleeok?" (2, 3 o 4 cabezas) |
+| Sin respuesta | 2 | "How do I use the Hookshot?" · "Can I ride a horse in this game?" |
+| Versión | 2 | "In the first/second quest, which dungeon has the Ladder?" (Level-4 frente a Level-6) |
+
+**Integridad garantizada por tests** ([tests/test_retrieval.py](../../tests/test_retrieval.py)):
+- la distribución por categoría coincide con la del curso;
+- cada (fuente, sección) esperada contiene la evidencia;
+- cada caso con respuesta tiene al menos un chunk relevante;
+- los casos sin respuesta no tienen texto de apoyo en el corpus.
+
+**Revisión pendiente:** los casos son un borrador redactado a partir del corpus. Conviene que cada integrante revise y proponga casos propios, para reducir el sesgo hacia lo que el sistema ya encuentra.
+
+## Pendientes
+
+| Categoría | Fase | Ejemplos previstos |
+| --- | --- | --- |
+| Ninja Gaiden (20 base) | 3b | "Which button makes Ryu jump?" · "How many spirit points does the Windmill Star cost?" · "How do I beat the Act 6 boss?" |
+| Multijuego | 3b | "How does the boomerang work?" con NG activo |
+| Herramientas | 3a | Nominal · parámetro fuera de rango · desbloqueo sin confirmar · API caída · herramienta errónea |
+| Seguridad / spoilers | 5 | Ver [security/controls.md](../security/controls.md) |
+| Español | 3d | De 8 a 10 casos traducidos |

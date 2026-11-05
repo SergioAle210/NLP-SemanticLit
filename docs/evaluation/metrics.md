@@ -1,6 +1,28 @@
 # Métricas y comparación
 
-Cubre el §9 de [course/instructions.md](../course/instructions.md). Script previsto: `eval/run_benchmark.py`, que llama a la misma API que la interfaz y guarda los resultados en `eval/results/<fecha>_<variante>.json`. Las métricas se reportan **por juego y en total**.
+Cubre el §9 de [course/instructions.md](../course/instructions.md). Las métricas se reportan **por juego, por categoría y en total**. La recuperación y la generación se evalúan **por separado**: se puede recuperar bien y generar mal, y viceversa.
+
+| Evaluación | Comando | Estado |
+| --- | --- | --- |
+| Recuperación (sin LLM) | `uv run python -m gamerag.evaluation.retrieval <juego>` | ✅ ([results.md](results.md)) |
+| Sistema completo (vía API) | Pendiente | ⬜ |
+
+Cada corrida se guarda en `eval/results/<fecha>_<juego>_<variante>.json`, **con los candidatos de cada caso** (rank, score, chunk y si es relevante), para poder diagnosticar fallas.
+
+## Definiciones de recuperación
+
+Según el curso (tema 08), implementadas en [metrics.py](../../src/gamerag/evaluation/metrics.py) y verificadas con los ejemplos de las diapositivas:
+
+| Métrica | Definición |
+| --- | --- |
+| Recall@k | Consultas con al menos un chunk relevante en el top-k / total de consultas |
+| Precision@k | Chunks relevantes en el top-k / k |
+| MRR | Promedio de 1 / posición del primer relevante (0 si no aparece) |
+| Coverage@k (propia) | Fracción de las partes de evidencia cubiertas en el top-k (para preguntas compuestas) |
+
+Los casos sin respuesta no entran en estas métricas; se evalúan con la abstención en la generación.
+
+## Todas las dimensiones
 
 | Dimensión | Métricas | Meta ([problem-and-scope.md](../overview/problem-and-scope.md)) |
 | --- | --- | --- |

@@ -8,7 +8,8 @@ Asistente RAG para juegos retro de NES (*The Legend of Zelda* y *Ninja Gaiden*) 
 | [architecture/](architecture/) | Componentes, flujos, stack, control de acceso y [decisiones (ADRs)](architecture/decisions/) |
 | [data/](data/) | Fuentes, licencias y gobernanza del corpus |
 | [ingestion/](ingestion/) | Pipeline de ingesta: limpieza, secciones, chunking y metadatos |
-| [evaluation/](evaluation/) | Banco de pruebas y métricas |
+| [retrieval/](retrieval/README.md) | Recuperación: BM25 (línea base); vectorial e híbrida (fase 3) |
+| [evaluation/](evaluation/) | Banco de pruebas, métricas y [resultados](evaluation/results.md) |
 | [security/](security/) | Controles de seguridad y pruebas adversarias |
 | [roadmap.md](roadmap.md) | Fases, estado, riesgos y decisiones abiertas |
 | [course/](course/) | Requisitos oficiales del curso (instrucciones y presentación) |

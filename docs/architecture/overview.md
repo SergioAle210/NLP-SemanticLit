@@ -10,7 +10,8 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | Configuración por juego | `config/games/*.yaml`, `src/gamerag/games.py` | Modelo de progreso, ubicación, herramientas ([ADR-0007](decisions/0007-per-game-config.md)) | ✅ |
 | Contrato de salida | `src/gamerag/schemas.py` | Respuesta validada con Pydantic (§11) | ✅ |
 | Ingesta | `src/gamerag/ingest/` | Wikitext → chunks con metadatos ([ingestion/](../ingestion/)) | ✅ Línea base |
-| Recuperación | `src/gamerag/retrieval/` | BM25, vectorial, híbrida, filtros, reranking | ⬜ |
+| Recuperación | `src/gamerag/retrieval/` | BM25 ([retrieval/bm25.md](../retrieval/bm25.md)); vectorial, híbrida, filtros y reranking en la fase 3 | ✅ BM25 |
+| Evaluación | `src/gamerag/evaluation/` | Banco de pruebas, métricas, ejecución ([evaluation/](../evaluation/)) | ✅ Recuperación |
 | Generación | `src/gamerag/generation/` | Prompt con contexto cerrado, LLM, validación y fallback | ⬜ |
 | Herramientas | `src/gamerag/tools/` | `query_game_facts`, `next_available_levels`, `update_progress` | ⬜ |
 | Guardrails | `src/gamerag/guardrails/` | Entrada, salida y gates de spoilers ([access-control.md](access-control.md)) | ⬜ |
@@ -34,6 +35,43 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | Contenedores | docker compose: `api` + `ui` | torch solo CPU; volúmenes `index/`, `models/` y `state/` |
 
 **Recursos objetivo del backend:** 2 GB de RAM o menos. Lo pesado son torch y los modelos, no el corpus ni SQLite. Si hiciera falta recortar, el reranker es lo primero que sale, y eso también sirve como ablación.
+
+## Fases del RAG y estado actual
+
+Un RAG tiene dos momentos. En la **indexación** (offline, una vez) se preparan los documentos. En la **consulta** (cada pregunta) se recuperan los fragmentos relevantes (*Retrieval*), se arma un prompt con ellos (*Augmentation*) y el LLM redacta la respuesta citándolos (*Generation*).
+
+```mermaid
+flowchart LR
+    subgraph IDX["A. Indexación (offline)"]
+        direction TB
+        S["Snapshot de la wiki<br/>(CC BY-SA, revid)"] --> CL["Limpieza<br/>clean.py"]
+        CL --> SE["Secciones<br/>sections.py"]
+        SE --> CH["Chunking<br/>chunking.py"]
+        CH --> MD["Metadatos<br/>location.py"]
+        MD --> J[("chunks.jsonl")]
+        J --> IL["Índice léxico<br/>BM25"]
+        J --> IV[("Índice vectorial<br/>Chroma")]
+    end
+
+    subgraph QRY["B. Consulta (cada pregunta)"]
+        direction TB
+        Q["Pregunta"] --> R["R · Retrieval<br/>top-k fragmentos"]
+        R --> A["A · Augmentation<br/>prompt = instrucciones +<br/>fragmentos + pregunta"]
+        A --> G["G · Generation<br/>LLM con citas<br/>o abstención"]
+        G --> ANS["Respuesta validada<br/>(Answer)"]
+    end
+
+    IL --> R
+    IV -.-> R
+    EV["Evaluación de recuperación<br/>Recall@k · MRR"] -.->|mide| R
+
+    classDef done fill:#d4edda,stroke:#28a745,color:#155724
+    classDef pending fill:#f8f9fa,stroke:#adb5bd,color:#6c757d,stroke-dasharray: 5 5
+    class S,CL,SE,CH,MD,J,IL,Q,R,EV done
+    class IV,A,G,ANS pending
+```
+
+En verde lo implementado y en gris punteado lo pendiente: el índice vectorial (fase 3) y la *Augmentation* y *Generation* (paso 3.2, que requiere la API key). Hoy, una pregunta devuelve los fragmentos recuperados, pero todavía no una respuesta redactada.
 
 ## Flujo de consulta
 

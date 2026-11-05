@@ -51,6 +51,14 @@ uv run python -m gamerag.ingest.build ninja_gaiden_nes
 
 Detalle en [docs/ingestion/](docs/ingestion/README.md).
 
+## Evaluación de la recuperación
+
+```bash
+uv run python -m gamerag.evaluation.retrieval zelda1   # requiere haber corrido la ingesta
+```
+
+Imprime Recall@k y MRR por categoría y guarda el detalle en `eval/results/`. Resultados y diagnóstico en [docs/evaluation/results.md](docs/evaluation/results.md).
+
 ## Reproducir el corpus
 
 ```bash

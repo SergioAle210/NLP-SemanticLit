@@ -26,7 +26,9 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | --- | --- | --- |
 | 1 | Base del proyecto: uv, config por juego, contrato de salida, tests, CI | ✅ |
 | 2 | Ingesta: limpieza, secciones, chunking fijo y metadatos ([ingestion/](ingestion/)) | ✅ |
-| 3 | BM25, API mínima (`/ask`), SQLite (auditoría y perfiles), borrador de 20 casos | ⬜ |
+| 3.1 | BM25, 20 casos de Zelda, evaluación de recuperación ([results.md](evaluation/results.md): Recall@5 0.78, MRR 0.47) | ✅ |
+| 3.2 | Generación con Haiku: prompt con contexto cerrado, validación `Answer`, fallback extractivo | ⏸️ Requiere la API key |
+| 3.3 | API mínima (`/ask`), SQLite (auditoría y perfiles de demo) | ⬜ |
 | 4 | Dockerfile y docker compose | ⬜ |
 
 ## Riesgos
