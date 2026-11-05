@@ -1,0 +1,29 @@
+# Configuración del juego: lo único que cambia entre juegos. El pipeline es el mismo.
+game_id: ninja_gaiden_nes
+title: Ninja Gaiden
+platform: NES
+year: 1988
+aliases: [Shadow Warriors, Ninja Ryukenden]
+
+snapshot_dir: data/wiki_snapshot/strategywiki/ninja_gaiden_nes
+manual:
+  url: https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NACBE.pdf
+  local_path: data/raw/manuals/CLV-P-NACBE.pdf   # gitignored (© Nintendo)
+
+# Modelo de progreso: etapa actual, orden total (no se pueden saltar etapas).
+progress_model: linear_stage
+# Tomado de los encabezados del snapshot. Ojo: la wiki dice "20 levels", pero sus encabezados
+# dan 21 identificadores; el último aparece como "Act 6-5" (pelea contra el Demon), no "Stage 6-5".
+# Seguimos el corpus para que cada chunk mapee a una etapa existente.
+# El jefe de cada acto está dentro de la última etapa (p. ej. Barbarian en 1-2).
+stages: ["1-1", "1-2",
+         "2-1", "2-2", "2-3",
+         "3-1", "3-2", "3-3",
+         "4-1", "4-2", "4-3", "4-4",
+         "5-1", "5-2", "5-3", "5-4",
+         "6-1", "6-2", "6-3", "6-4", "6-5"]
+
+location_from_title: 'Act (?P<act>\d)'
+location_from_heading: '(?:Stage|Act) (?P<stage>\d-\d)'
+
+tools: [search_documents, query_game_facts, update_progress]

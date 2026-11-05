@@ -19,7 +19,7 @@ import pathlib
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 API = "https://strategywiki.org/w/api.php"
 UA = {"User-Agent": "Mozilla/5.0 (CC3103 UVG educational NLP project)"}
@@ -85,7 +85,7 @@ def main() -> None:
         "source": "StrategyWiki",
         "game": args.game,
         "license": LICENSE,
-        "downloaded_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "downloaded_at": datetime.now(UTC).isoformat(timespec="seconds"),
         "total_chars": sum(m["chars"] for m in manifest),
         "pages": manifest,
     }, indent=2, ensure_ascii=False), encoding="utf-8", newline="\n")

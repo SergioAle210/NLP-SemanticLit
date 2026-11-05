@@ -1,0 +1,22 @@
+# Configuración del juego: lo único que cambia entre juegos. El pipeline es el mismo.
+game_id: zelda1
+title: The Legend of Zelda
+platform: NES
+year: 1986
+aliases: []
+
+snapshot_dir: data/wiki_snapshot/strategywiki/zelda1
+manual:
+  url: https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAANE.pdf
+  local_path: data/raw/manuals/CLV-P-NAANE.pdf   # gitignored (© Nintendo)
+
+# Modelo de progreso: conjunto de mazmorras completadas + quest (no lineal).
+progress_model: level_set
+levels: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+quests: [first, second]
+
+# Cómo derivar la ubicación (metadatos de acceso) desde el título de la página de la wiki.
+location_from_title: 'Underworld/Quest (?P<quest>\d)/Dungeon (?P<level>\d)'
+location_from_heading: null
+
+tools: [search_documents, query_game_facts, next_available_levels, update_progress]
