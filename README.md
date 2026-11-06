@@ -6,6 +6,14 @@ Un asistente que responde preguntas sobre juegos de NES (*The Legend of Zelda* y
 
 > 🚧 Fase 2 (línea base) en curso. La documentación del sistema está en [docs/](docs/README.md) y el estado en la [hoja de ruta](docs/roadmap.md).
 
+## Inicio rápido (Docker)
+
+```bash
+docker compose up --build       # API: http://localhost:8000/docs · interfaz: http://localhost:8501
+```
+
+El primer arranque descarga el modelo de embeddings (~470 MB). Detalle en [docs/deployment/](docs/deployment/README.md).
+
 ## Instalación (desarrollo local)
 
 Requisitos: **Python 3.12** y **[uv](https://docs.astral.sh/uv/)**.

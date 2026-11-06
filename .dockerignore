@@ -1,0 +1,17 @@
+# Fuera del contexto de build: entornos, artefactos regenerables, credenciales y datos con copyright.
+.git
+.venv
+**/__pycache__
+.pytest_cache
+.ruff_cache
+models
+data/index
+data/processed
+data/raw
+state
+logs
+.env
+.env.*
+eval/results
+docs
+tests

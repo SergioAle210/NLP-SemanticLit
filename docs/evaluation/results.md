@@ -355,6 +355,18 @@ Se probaron 8 preguntas fuera del banco con la configuración servida. La eviden
 - **Mezcla de quests:** cuando la pregunta no dice la quest, salen las dos. La ingesta ya distingue la quest (ruta, `location.quest` y alias), y cuando la pregunta la menciona funciona. Lo que falta está en el perfil del jugador: lo resuelve el **gate G2** (`where` por quest), no la ingesta ni el ranking. Para un jugador de la Q1, ver la Q2 es además spoiler.
 - **Notación de la wiki:** "E-4 of section 8" es la cuadrícula del mapa. Explicarla le toca al generador.
 
+### Cobertura: Ninja Gaiden y tipos de pregunta no probados (2026-11-06, exploratorio)
+
+El banco solo tiene casos de Zelda. Se probaron 12 preguntas fuera del banco:
+- **Ninja Gaiden** (8): final boss, Jaquio, cómo escalar paredes y el windmill star salen bien. "lives" y "act 6-1" quedan parciales.
+  - **Fallan por vocabulario:** "how do i get more **ninpo**?" (la wiki dice "spirit power") y "how do i **atack**?" (se corrige a "attack", pero **NG no tiene glosario** y no encuentra los controles). Es el mismo problema que tenía Zelda antes del ADR-0010.
+- **Zelda, tipos nuevos:**
+  - **comparación** ("which sword is the strongest?"): bien, Magic Sword.
+  - **lista que cruza fragmentos** ("list all the bosses in the first quest"): encuentra la página, pero la lista está repartida en varios chunks y el top-5 trae solo una parte. Es una limitación conocida de RAG.
+  - **español:** "¿dónde está la espada blanca?" funciona (e5 es multilingüe); "¿cómo consigo la balsa?" no (balsa ≠ raft; BM25 no ayuda).
+
+  Es evidencia para la sección de trabajo futuro del [ADR-0001](../architecture/decisions/0001-english-first.md).
+
 ### Análisis de abstención
 
 ¿Pueden los puntajes de recuperación decidir cuándo abstenerse ("what do i do if ig im stuck", "Hookshot", "horse")? Se compararon dos señales sobre los 39 casos:

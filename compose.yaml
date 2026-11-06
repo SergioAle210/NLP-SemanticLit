@@ -1,0 +1,41 @@
+# docker compose up --build   ->  API en http://localhost:8000/docs · interfaz en http://localhost:8501
+# Ver docs/deployment/README.md.
+services:
+  api:
+    build: .
+    image: gamerag:latest
+    env_file:
+      - path: .env          # opcional: ANTHROPIC_API_KEY y overrides GAMERAG_*
+        required: false
+    ports:
+      - "8000:8000"
+    volumes:
+      - models:/app/models               # modelos de embeddings (~470 MB, se descargan una vez)
+      - index:/app/data/index            # índice de Chroma
+      - processed:/app/data/processed    # chunks de la ingesta
+      - state:/app/state                 # SQLite: perfiles y auditoría
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 60
+      start_period: 30s    # el primer arranque descarga el modelo y construye el índice
+
+  ui:
+    build: .
+    image: gamerag:latest
+    command: ["streamlit", "run", "src/gamerag/ui/app.py",
+              "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true"]
+    environment:
+      GAMERAG_API_URL: http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  models:
+  index:
+  processed:
+  state:
