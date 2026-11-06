@@ -215,7 +215,8 @@ def _meaningful(v: str) -> bool:
 def _flatten_table(lines: list[str]) -> list[str]:
     """Convierte una tabla wiki en líneas de texto autocontenidas.
 
-    - Tabla con encabezados: una línea por fila, "Encabezado: valor | ...".
+    - Tabla con encabezados: una línea por fila, "Encabezado: valor | ...". Una fila de encabezados a
+      mitad de tabla reemplaza a la anterior para las filas que siguen (cuadrícula de fichas).
     - Cuadrícula de mapa (esquina vacía + etiqueta de fila): una línea por celda con su
       coordenada "Columna-Fila: valor" (p. ej. "B-2: ..."), como se citan en el resto de la wiki.
     - Sin encabezados: los valores de la fila.
@@ -231,8 +232,23 @@ def _flatten_table(lines: list[str]) -> list[str]:
     is_grid = len(headers) > 1 and headers[0] == "" and all(headers[1:])
 
     out = []
+    unused = bool(headers)  # encabezado vigente que todavía no etiquetó ninguna fila de datos
+
+    def flush_unused() -> None:
+        # Un encabezado sin filas de datos (p. ej. una tabla de navegación hecha solo de "!") no se pierde:
+        # sale como texto plano.
+        if unused and any(_meaningful(h) for h in headers):
+            out.append(" | ".join(h for h in headers if _meaningful(h)))
+
     for row in rows:
         values = [c.text for c in row]
+        # Fila de encabezados a mitad de tabla ("cuadrícula de fichas": encabezados, datos, encabezados,
+        # datos…, como la página Items de Ninja Gaiden): pasa a ser el encabezado de las filas siguientes.
+        if not is_grid and row and all(c.header for c in row) and any(values):
+            flush_unused()
+            headers, unused = values, True
+            continue
+        unused = False
         if is_grid and row and row[0].header and row[0].text:
             label = row[0].text
             out += [f"{h}-{label}: {v}" for h, v in zip(headers[1:], values[1:], strict=False) if _meaningful(v)]
@@ -243,6 +259,8 @@ def _flatten_table(lines: list[str]) -> list[str]:
             pairs = [v for v in values if _meaningful(v)]
         if pairs:
             out.append(" | ".join(pairs))
+    if not is_grid:
+        flush_unused()
     return out
 
 

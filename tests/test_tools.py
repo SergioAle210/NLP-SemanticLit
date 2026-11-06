@@ -102,7 +102,8 @@ def test_router_extracts_parameters(router):
 
 def test_router_never_hijacks_the_retrieval_bank(router):
     """Selección errónea de herramienta: ninguna pregunta del banco de recuperación debe ir a una herramienta."""
-    cases = [c for c in load_cases(ROOT / "eval" / "cases.jsonl") if c.game == "zelda1"]
+    cases = load_cases(ROOT / "eval" / "cases.jsonl")  # Zelda y Ninja Gaiden
+    assert {c.game for c in cases} == {"zelda1", "ninja_gaiden_nes"}
     assert [c.id for c in cases if router.route(c.question, c.game).is_tool] == []
 
 

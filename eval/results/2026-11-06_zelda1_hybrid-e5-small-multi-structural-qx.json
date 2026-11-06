@@ -8,7 +8,7 @@
     "chunker": "structural-w225-m15",
     "depth": 20,
     "n_chunks": 243,
-    "date": "2026-11-06T03:29:16+00:00",
+    "date": "2026-11-06T04:34:35+00:00",
     "cases_total": 39,
     "cases_evaluated": 36,
     "cases_skipped": [
@@ -16,10 +16,10 @@
       "zelda_unanswerable_02",
       "zelda_team_06"
     ],
-    "setup_seconds": 14.18,
+    "setup_seconds": 14.81,
     "latency_ms": {
-      "mean": 42.8,
-      "p95": 67.8
+      "mean": 37.6,
+      "p95": 55.7
     }
   },
   "overall": {
@@ -1102,57 +1102,57 @@
         {
           "rank": 13,
           "score": 0.0139,
-          "chunk_id": "zelda1:overworld:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 14,
-          "score": 0.0137,
           "chunk_id": "zelda1:underworld-quest-2-dungeon-1:002",
           "section": "Boss",
           "relevant": false
         },
         {
-          "rank": 15,
-          "score": 0.0135,
+          "rank": 14,
+          "score": 0.0137,
           "chunk_id": "zelda1:underworld-quest-2-dungeon-3:004",
           "section": "Resupply",
           "relevant": false
         },
         {
-          "rank": 16,
-          "score": 0.0133,
+          "rank": 15,
+          "score": 0.0135,
           "chunk_id": "zelda1:overworld-hyrule-5:002",
           "section": "1st Quest",
           "relevant": false
         },
         {
-          "rank": 17,
-          "score": 0.0132,
+          "rank": 16,
+          "score": 0.0133,
           "chunk_id": "zelda1:overworld-hyrule-8:002",
           "section": "2nd Quest",
           "relevant": false
         },
         {
-          "rank": 18,
-          "score": 0.013,
+          "rank": 17,
+          "score": 0.0132,
           "chunk_id": "zelda1:underworld-quest-1-dungeon-9:000",
           "section": "Objectives",
           "relevant": false
         },
         {
-          "rank": 19,
-          "score": 0.0128,
+          "rank": 18,
+          "score": 0.013,
           "chunk_id": "zelda1:overworld-hyrule-4:000",
           "section": "(intro)",
           "relevant": false
         },
         {
-          "rank": 20,
-          "score": 0.0127,
+          "rank": 19,
+          "score": 0.0128,
           "chunk_id": "zelda1:underworld-quest-2-dungeon-5:001",
           "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0127,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:002",
+          "section": "Walkthrough > Dungeon Walkthrough",
           "relevant": false
         }
       ]

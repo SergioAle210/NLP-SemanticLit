@@ -1,0 +1,2278 @@
+{
+  "run": {
+    "game": "ninja_gaiden_nes",
+    "retriever": "hybrid",
+    "embedding_model": "e5-small-multi",
+    "reranker": null,
+    "expand": true,
+    "chunker": "structural-w225-m15",
+    "depth": 20,
+    "n_chunks": 84,
+    "date": "2026-11-06T04:34:17+00:00",
+    "cases_total": 15,
+    "cases_evaluated": 13,
+    "cases_skipped": [
+      "ng_unanswerable_01",
+      "ng_unanswerable_02"
+    ],
+    "setup_seconds": 14.27,
+    "latency_ms": {
+      "mean": 26.9,
+      "p95": 37.8
+    }
+  },
+  "overall": {
+    "n": 13,
+    "mrr": 0.6865,
+    "recall@1": 0.5385,
+    "precision@1": 0.5385,
+    "coverage@1": 0.5385,
+    "recall@3": 0.7692,
+    "precision@3": 0.2564,
+    "coverage@3": 0.7692,
+    "recall@5": 0.9231,
+    "precision@5": 0.1846,
+    "coverage@5": 0.9231,
+    "recall@10": 0.9231,
+    "precision@10": 0.0923,
+    "coverage@10": 0.9231
+  },
+  "course": {
+    "n": 9,
+    "mrr": 0.8704,
+    "recall@1": 0.7778,
+    "precision@1": 0.7778,
+    "coverage@1": 0.7778,
+    "recall@3": 1.0,
+    "precision@3": 0.3333,
+    "coverage@3": 1.0,
+    "recall@5": 1.0,
+    "precision@5": 0.2,
+    "coverage@5": 1.0,
+    "recall@10": 1.0,
+    "precision@10": 0.1,
+    "coverage@10": 1.0
+  },
+  "team": {
+    "n": 0,
+    "mrr": 0.0,
+    "recall@1": 0.0,
+    "precision@1": 0.0,
+    "coverage@1": 0.0,
+    "recall@3": 0.0,
+    "precision@3": 0.0,
+    "coverage@3": 0.0,
+    "recall@5": 0.0,
+    "precision@5": 0.0,
+    "coverage@5": 0.0,
+    "recall@10": 0.0,
+    "precision@10": 0.0,
+    "coverage@10": 0.0
+  },
+  "by_category": {
+    "compound": {
+      "n": 1,
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "coverage@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "coverage@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "coverage@5": 1.0,
+      "recall@10": 1.0,
+      "precision@10": 0.1,
+      "coverage@10": 1.0
+    },
+    "direct": {
+      "n": 3,
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "coverage@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "coverage@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "coverage@5": 1.0,
+      "recall@10": 1.0,
+      "precision@10": 0.1,
+      "coverage@10": 1.0
+    },
+    "exact_id": {
+      "n": 2,
+      "mrr": 0.6667,
+      "recall@1": 0.5,
+      "precision@1": 0.5,
+      "coverage@1": 0.5,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "coverage@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "coverage@5": 1.0,
+      "recall@10": 1.0,
+      "precision@10": 0.1,
+      "coverage@10": 1.0
+    },
+    "paraphrase": {
+      "n": 2,
+      "mrr": 0.75,
+      "recall@1": 0.5,
+      "precision@1": 0.5,
+      "coverage@1": 0.5,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "coverage@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "coverage@5": 1.0,
+      "recall@10": 1.0,
+      "precision@10": 0.1,
+      "coverage@10": 1.0
+    },
+    "robustness": {
+      "n": 4,
+      "mrr": 0.2727,
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "coverage@1": 0.0,
+      "recall@3": 0.25,
+      "precision@3": 0.0833,
+      "coverage@3": 0.25,
+      "recall@5": 0.75,
+      "precision@5": 0.15,
+      "coverage@5": 0.75,
+      "recall@10": 0.75,
+      "precision@10": 0.075,
+      "coverage@10": 0.75
+    },
+    "version": {
+      "n": 1,
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "coverage@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "coverage@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "coverage@5": 1.0,
+      "recall@10": 1.0,
+      "precision@10": 0.1,
+      "coverage@10": 1.0
+    }
+  },
+  "cases": [
+    {
+      "id": "ng_direct_01",
+      "category": "direct",
+      "author": "assistant",
+      "question": "Which button do I press to jump?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0656,
+          "chunk_id": "ninja_gaiden_nes:gameplay:000",
+          "section": "Controls",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 0.0638,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:002",
+          "section": "Wall techniques > Wall jump",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0638,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "section": "Weapons",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0605,
+          "chunk_id": "ninja_gaiden_nes:act-5:005",
+          "section": "Stage 5-2",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0597,
+          "chunk_id": "ninja_gaiden_nes:act-6:010",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0552,
+          "chunk_id": "ninja_gaiden_nes:act-5:008",
+          "section": "Stage 5-3",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0548,
+          "chunk_id": "ninja_gaiden_nes:act-5:000",
+          "section": "Stage 5-1",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0534,
+          "chunk_id": "ninja_gaiden_nes:act-2:003",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0516,
+          "chunk_id": "ninja_gaiden_nes:act-2:004",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0448,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:003",
+          "section": "Wall techniques > Wall hop",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0399,
+          "chunk_id": "ninja_gaiden_nes:act-4:002",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:act-1:001",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:act-6:020",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0299,
+          "chunk_id": "ninja_gaiden_nes:act-3:004",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0294,
+          "chunk_id": "ninja_gaiden_nes:act-4:009",
+          "section": "Stage 4-3",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0294,
+          "chunk_id": "ninja_gaiden_nes:act-4:011",
+          "section": "Stage 4-4",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0294,
+          "chunk_id": "ninja_gaiden_nes:act-6:011",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.029,
+          "chunk_id": "ninja_gaiden_nes:act-3:002",
+          "section": "Stage 3-1",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0286,
+          "chunk_id": "ninja_gaiden_nes:act-6:009",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0282,
+          "chunk_id": "ninja_gaiden_nes:act-6:008",
+          "section": "Stage 6-3",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_direct_02",
+      "category": "direct",
+      "author": "assistant",
+      "question": "How many spirit points does the windmill star cost?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0328,
+          "chunk_id": "ninja_gaiden_nes:items:002",
+          "section": "Weapons",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 0.0315,
+          "chunk_id": "ninja_gaiden_nes:act-6:004",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.031,
+          "chunk_id": "ninja_gaiden_nes:act-2:002",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0304,
+          "chunk_id": "ninja_gaiden_nes:act-5:002",
+          "section": "Stage 5-1",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0303,
+          "chunk_id": "ninja_gaiden_nes:act-3:003",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0302,
+          "chunk_id": "ninja_gaiden_nes:act-6:005",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0301,
+          "chunk_id": "ninja_gaiden_nes:act-4:010",
+          "section": "Stage 4-3",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0296,
+          "chunk_id": "ninja_gaiden_nes:act-6:003",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0282,
+          "chunk_id": "ninja_gaiden_nes:items:001",
+          "section": "Items",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0279,
+          "chunk_id": "ninja_gaiden_nes:act-2:005",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0278,
+          "chunk_id": "ninja_gaiden_nes:act-6:011",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0262,
+          "chunk_id": "ninja_gaiden_nes:act-1:002",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0258,
+          "chunk_id": "ninja_gaiden_nes:act-5:001",
+          "section": "Stage 5-1",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0152,
+          "chunk_id": "ninja_gaiden_nes:act-6:013",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0147,
+          "chunk_id": "ninja_gaiden_nes:gameplay:000",
+          "section": "Controls",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-5:009",
+          "section": "Stage 5-3",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0141,
+          "chunk_id": "ninja_gaiden_nes:act-6:010",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0139,
+          "chunk_id": "ninja_gaiden_nes:act-2:001",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0135,
+          "chunk_id": "ninja_gaiden_nes:act-4:002",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0133,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "section": "Weapons",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_direct_03",
+      "category": "direct",
+      "author": "assistant",
+      "question": "How many lives does Ryu start with?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0328,
+          "chunk_id": "ninja_gaiden_nes:gameplay:002",
+          "section": "Player",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 0.0315,
+          "chunk_id": "ninja_gaiden_nes:act-5:012",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.031,
+          "chunk_id": "ninja_gaiden_nes:act-3:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0292,
+          "chunk_id": "ninja_gaiden_nes:act-6:014",
+          "section": "Stage 6-4 > The Masked Devil",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0289,
+          "chunk_id": "ninja_gaiden_nes:main:002",
+          "section": "Gameplay",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0286,
+          "chunk_id": "ninja_gaiden_nes:gameplay:001",
+          "section": "Player",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.028,
+          "chunk_id": "ninja_gaiden_nes:act-1:003",
+          "section": "Stage 1-2",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0278,
+          "chunk_id": "ninja_gaiden_nes:act-5:010",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0271,
+          "chunk_id": "ninja_gaiden_nes:act-3:007",
+          "section": "Stage 3-3",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0268,
+          "chunk_id": "ninja_gaiden_nes:act-6:008",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0268,
+          "chunk_id": "ninja_gaiden_nes:act-2:008",
+          "section": "Stage 2-3",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0258,
+          "chunk_id": "ninja_gaiden_nes:act-6:016",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0156,
+          "chunk_id": "ninja_gaiden_nes:act-4:006",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0156,
+          "chunk_id": "ninja_gaiden_nes:main:001",
+          "section": "Story",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0154,
+          "chunk_id": "ninja_gaiden_nes:act-6:013",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0152,
+          "chunk_id": "ninja_gaiden_nes:gameplay:000",
+          "section": "Controls",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "section": "Player > Status bar",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:001",
+          "section": "Wall techniques > Wall cling",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-4:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0141,
+          "chunk_id": "ninja_gaiden_nes:items:002",
+          "section": "Weapons",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_paraphrase_01",
+      "category": "paraphrase",
+      "author": "assistant",
+      "question": "What happens if the clock runs out before I finish a stage?",
+      "first_relevant_rank": 2,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:act-1:001",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:gameplay:002",
+          "section": "Player",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "score": 0.0302,
+          "chunk_id": "ninja_gaiden_nes:act-3:005",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0302,
+          "chunk_id": "ninja_gaiden_nes:act-1:002",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0284,
+          "chunk_id": "ninja_gaiden_nes:act-6:011",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.028,
+          "chunk_id": "ninja_gaiden_nes:act-5:010",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0279,
+          "chunk_id": "ninja_gaiden_nes:act-5:005",
+          "section": "Stage 5-2",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0268,
+          "chunk_id": "ninja_gaiden_nes:items:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0265,
+          "chunk_id": "ninja_gaiden_nes:act-6:012",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0262,
+          "chunk_id": "ninja_gaiden_nes:act-6:001",
+          "section": "Stage 6-1",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0164,
+          "chunk_id": "ninja_gaiden_nes:act-4:007",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0164,
+          "chunk_id": "ninja_gaiden_nes:act-6:018",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0161,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "section": "Weapons",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0159,
+          "chunk_id": "ninja_gaiden_nes:act-4:011",
+          "section": "Stage 4-4",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0156,
+          "chunk_id": "ninja_gaiden_nes:act-4:001",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0152,
+          "chunk_id": "ninja_gaiden_nes:act-2:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:act-4:003",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0147,
+          "chunk_id": "ninja_gaiden_nes:act-4:009",
+          "section": "Stage 4-3",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-1:000",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-6:006",
+          "section": "Stage 6-2",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_paraphrase_02",
+      "category": "paraphrase",
+      "author": "assistant",
+      "question": "How can I get higher using just one wall?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0328,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:003",
+          "section": "Wall techniques > Wall hop",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:act-4:009",
+          "section": "Stage 4-3",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0305,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:002",
+          "section": "Wall techniques > Wall jump",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0295,
+          "chunk_id": "ninja_gaiden_nes:act-1:000",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0281,
+          "chunk_id": "ninja_gaiden_nes:act-4:004",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0268,
+          "chunk_id": "ninja_gaiden_nes:act-2:007",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0264,
+          "chunk_id": "ninja_gaiden_nes:act-1:003",
+          "section": "Stage 1-2",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0263,
+          "chunk_id": "ninja_gaiden_nes:act-4:003",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0161,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "section": "Weapons",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0161,
+          "chunk_id": "ninja_gaiden_nes:act-1:001",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0159,
+          "chunk_id": "ninja_gaiden_nes:act-2:002",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0156,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "section": "Player > Status bar",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0156,
+          "chunk_id": "ninja_gaiden_nes:act-6:020",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:act-5:011",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0147,
+          "chunk_id": "ninja_gaiden_nes:act-4:005",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0147,
+          "chunk_id": "ninja_gaiden_nes:act-2:004",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-1:002",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-5:003",
+          "section": "Stage 5-2",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0143,
+          "chunk_id": "ninja_gaiden_nes:act-3:004",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0143,
+          "chunk_id": "ninja_gaiden_nes:act-4:011",
+          "section": "Stage 4-4",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_exact_01",
+      "category": "exact_id",
+      "author": "assistant",
+      "question": "Who attacks me in Stage 2-3?",
+      "first_relevant_rank": 3,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.3333333333333333,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.032,
+          "chunk_id": "ninja_gaiden_nes:act-2:007",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 0.0318,
+          "chunk_id": "ninja_gaiden_nes:act-3:006",
+          "section": "Stage 3-3",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0311,
+          "chunk_id": "ninja_gaiden_nes:act-2:008",
+          "section": "Stage 2-3",
+          "relevant": true
+        },
+        {
+          "rank": 4,
+          "score": 0.031,
+          "chunk_id": "ninja_gaiden_nes:act-3:005",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0296,
+          "chunk_id": "ninja_gaiden_nes:act-5:010",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0284,
+          "chunk_id": "ninja_gaiden_nes:act-2:001",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0282,
+          "chunk_id": "ninja_gaiden_nes:act-3:003",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0282,
+          "chunk_id": "ninja_gaiden_nes:act-4:011",
+          "section": "Stage 4-4",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0278,
+          "chunk_id": "ninja_gaiden_nes:act-5:011",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0262,
+          "chunk_id": "ninja_gaiden_nes:act-3:004",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0159,
+          "chunk_id": "ninja_gaiden_nes:act-5:012",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0152,
+          "chunk_id": "ninja_gaiden_nes:act-4:005",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:act-5:008",
+          "section": "Stage 5-3",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:act-2:004",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-4:006",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0143,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:001",
+          "section": "Wall techniques > Wall cling",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0143,
+          "chunk_id": "ninja_gaiden_nes:act-2:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0141,
+          "chunk_id": "ninja_gaiden_nes:act-3:002",
+          "section": "Stage 3-1",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0141,
+          "chunk_id": "ninja_gaiden_nes:act-3:001",
+          "section": "Stage 3-1",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0139,
+          "chunk_id": "ninja_gaiden_nes:act-6:017",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_exact_02",
+      "category": "exact_id",
+      "author": "assistant",
+      "question": "Who is the boss of Stage 3-3?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0325,
+          "chunk_id": "ninja_gaiden_nes:act-3:006",
+          "section": "Stage 3-3",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 0.0313,
+          "chunk_id": "ninja_gaiden_nes:act-3:007",
+          "section": "Stage 3-3",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0312,
+          "chunk_id": "ninja_gaiden_nes:act-6:013",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0306,
+          "chunk_id": "ninja_gaiden_nes:act-3:003",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0298,
+          "chunk_id": "ninja_gaiden_nes:act-3:004",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0289,
+          "chunk_id": "ninja_gaiden_nes:act-3:001",
+          "section": "Stage 3-1",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0288,
+          "chunk_id": "ninja_gaiden_nes:act-6:016",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0282,
+          "chunk_id": "ninja_gaiden_nes:act-5:010",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.028,
+          "chunk_id": "ninja_gaiden_nes:act-4:011",
+          "section": "Stage 4-4",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0277,
+          "chunk_id": "ninja_gaiden_nes:act-2:007",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0262,
+          "chunk_id": "ninja_gaiden_nes:act-1:001",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0258,
+          "chunk_id": "ninja_gaiden_nes:act-5:007",
+          "section": "Stage 5-3",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0256,
+          "chunk_id": "ninja_gaiden_nes:act-6:012",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0159,
+          "chunk_id": "ninja_gaiden_nes:act-4:010",
+          "section": "Stage 4-3",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0154,
+          "chunk_id": "ninja_gaiden_nes:act-1:002",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0152,
+          "chunk_id": "ninja_gaiden_nes:act-3:005",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0152,
+          "chunk_id": "ninja_gaiden_nes:act-4:009",
+          "section": "Stage 4-3",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:act-3:002",
+          "section": "Stage 3-1",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0147,
+          "chunk_id": "ninja_gaiden_nes:act-3:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0141,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "section": "Player > Status bar",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_compound_01",
+      "category": "compound",
+      "author": "assistant",
+      "question": "What does the fire wheel do and does it use spirit points?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0325,
+          "chunk_id": "ninja_gaiden_nes:items:002",
+          "section": "Weapons",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 0.0325,
+          "chunk_id": "ninja_gaiden_nes:act-2:006",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:act-5:004",
+          "section": "Stage 5-2",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "section": "Weapons",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0297,
+          "chunk_id": "ninja_gaiden_nes:act-4:003",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0294,
+          "chunk_id": "ninja_gaiden_nes:act-1:001",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0292,
+          "chunk_id": "ninja_gaiden_nes:act-6:007",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0289,
+          "chunk_id": "ninja_gaiden_nes:act-5:007",
+          "section": "Stage 5-3",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0287,
+          "chunk_id": "ninja_gaiden_nes:gameplay:001",
+          "section": "Player",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0283,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "section": "Player > Status bar",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.028,
+          "chunk_id": "ninja_gaiden_nes:items:001",
+          "section": "Items",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0271,
+          "chunk_id": "ninja_gaiden_nes:act-6:015",
+          "section": "Stage 6-4 > The Masked Devil",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0269,
+          "chunk_id": "ninja_gaiden_nes:act-6:002",
+          "section": "Stage 6-1",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0252,
+          "chunk_id": "ninja_gaiden_nes:act-2:002",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0156,
+          "chunk_id": "ninja_gaiden_nes:act-6:016",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-6:019",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0143,
+          "chunk_id": "ninja_gaiden_nes:act-3:003",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0139,
+          "chunk_id": "ninja_gaiden_nes:act-6:004",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0139,
+          "chunk_id": "ninja_gaiden_nes:act-6:020",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0135,
+          "chunk_id": "ninja_gaiden_nes:gameplay:000",
+          "section": "Controls",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_version_01",
+      "category": "version",
+      "author": "assistant",
+      "question": "What is Ninja Gaiden called in Europe?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0328,
+          "chunk_id": "ninja_gaiden_nes:main:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 0.0323,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0315,
+          "chunk_id": "ninja_gaiden_nes:main:001",
+          "section": "Story",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.031,
+          "chunk_id": "ninja_gaiden_nes:act-5:000",
+          "section": "Stage 5-1",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:gameplay:001",
+          "section": "Player",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0303,
+          "chunk_id": "ninja_gaiden_nes:act-6:011",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0286,
+          "chunk_id": "ninja_gaiden_nes:act-6:007",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0285,
+          "chunk_id": "ninja_gaiden_nes:act-5:001",
+          "section": "Stage 5-1",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0284,
+          "chunk_id": "ninja_gaiden_nes:act-4:005",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0269,
+          "chunk_id": "ninja_gaiden_nes:act-6:016",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0268,
+          "chunk_id": "ninja_gaiden_nes:act-6:013",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0262,
+          "chunk_id": "ninja_gaiden_nes:act-6:010",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:items:001",
+          "section": "Items",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0147,
+          "chunk_id": "ninja_gaiden_nes:act-3:007",
+          "section": "Stage 3-3",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0147,
+          "chunk_id": "ninja_gaiden_nes:act-6:004",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0145,
+          "chunk_id": "ninja_gaiden_nes:act-3:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0143,
+          "chunk_id": "ninja_gaiden_nes:act-4:006",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0139,
+          "chunk_id": "ninja_gaiden_nes:act-4:009",
+          "section": "Stage 4-3",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0137,
+          "chunk_id": "ninja_gaiden_nes:act-5:006",
+          "section": "Stage 5-3",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0135,
+          "chunk_id": "ninja_gaiden_nes:act-6:008",
+          "section": "Stage 6-3",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_robust_01",
+      "category": "robustness",
+      "author": "assistant",
+      "question": "how do i atack?",
+      "first_relevant_rank": 4,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0453,
+          "chunk_id": "ninja_gaiden_nes:act-6:020",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 0.0443,
+          "chunk_id": "ninja_gaiden_nes:act-4:004",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.042,
+          "chunk_id": "ninja_gaiden_nes:act-5:012",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0328,
+          "chunk_id": "ninja_gaiden_nes:gameplay:000",
+          "section": "Controls",
+          "relevant": true
+        },
+        {
+          "rank": 5,
+          "score": 0.0323,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "section": "Weapons",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0317,
+          "chunk_id": "ninja_gaiden_nes:act-1:003",
+          "section": "Stage 1-2",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0303,
+          "chunk_id": "ninja_gaiden_nes:act-3:006",
+          "section": "Stage 3-3",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.03,
+          "chunk_id": "ninja_gaiden_nes:act-5:011",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.029,
+          "chunk_id": "ninja_gaiden_nes:act-6:010",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.028,
+          "chunk_id": "ninja_gaiden_nes:act-4:005",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0279,
+          "chunk_id": "ninja_gaiden_nes:act-6:007",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0277,
+          "chunk_id": "ninja_gaiden_nes:act-4:011",
+          "section": "Stage 4-4",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0275,
+          "chunk_id": "ninja_gaiden_nes:act-5:003",
+          "section": "Stage 5-2",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0269,
+          "chunk_id": "ninja_gaiden_nes:act-2:003",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0267,
+          "chunk_id": "ninja_gaiden_nes:act-2:007",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0258,
+          "chunk_id": "ninja_gaiden_nes:act-2:001",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0252,
+          "chunk_id": "ninja_gaiden_nes:act-6:004",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0161,
+          "chunk_id": "ninja_gaiden_nes:act-3:005",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0156,
+          "chunk_id": "ninja_gaiden_nes:act-6:021",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0156,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:002",
+          "section": "Wall techniques > Wall jump",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_robust_02",
+      "category": "robustness",
+      "author": "assistant",
+      "question": "how do i get more ninpo?",
+      "first_relevant_rank": 2,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0573,
+          "chunk_id": "ninja_gaiden_nes:act-2:002",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 0.0484,
+          "chunk_id": "ninja_gaiden_nes:items:001",
+          "section": "Items",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "score": 0.0449,
+          "chunk_id": "ninja_gaiden_nes:act-6:004",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0443,
+          "chunk_id": "ninja_gaiden_nes:act-6:010",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0407,
+          "chunk_id": "ninja_gaiden_nes:act-2:007",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0313,
+          "chunk_id": "ninja_gaiden_nes:act-5:003",
+          "section": "Stage 5-2",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:act-3:002",
+          "section": "Stage 3-1",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0305,
+          "chunk_id": "ninja_gaiden_nes:act-5:006",
+          "section": "Stage 5-3",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0303,
+          "chunk_id": "ninja_gaiden_nes:items:002",
+          "section": "Weapons",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0297,
+          "chunk_id": "ninja_gaiden_nes:act-6:016",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0296,
+          "chunk_id": "ninja_gaiden_nes:act-6:017",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0296,
+          "chunk_id": "ninja_gaiden_nes:act-2:006",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0294,
+          "chunk_id": "ninja_gaiden_nes:act-3:004",
+          "section": "Stage 3-2",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0293,
+          "chunk_id": "ninja_gaiden_nes:act-4:011",
+          "section": "Stage 4-4",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0292,
+          "chunk_id": "ninja_gaiden_nes:act-4:006",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0292,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "section": "Player > Status bar",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0288,
+          "chunk_id": "ninja_gaiden_nes:act-5:001",
+          "section": "Stage 5-1",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0286,
+          "chunk_id": "ninja_gaiden_nes:act-5:007",
+          "section": "Stage 5-3",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.028,
+          "chunk_id": "ninja_gaiden_nes:act-6:012",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0277,
+          "chunk_id": "ninja_gaiden_nes:act-6:007",
+          "section": "Stage 6-2",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_robust_03",
+      "category": "robustness",
+      "author": "assistant",
+      "question": "how do i heal?",
+      "first_relevant_rank": 11,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 0.0,
+      "rr": 0.09090909090909091,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0472,
+          "chunk_id": "ninja_gaiden_nes:act-4:007",
+          "section": "Stage 4-2",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 0.047,
+          "chunk_id": "ninja_gaiden_nes:act-3:002",
+          "section": "Stage 3-1",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0469,
+          "chunk_id": "ninja_gaiden_nes:act-2:006",
+          "section": "Stage 2-2",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0456,
+          "chunk_id": "ninja_gaiden_nes:act-5:004",
+          "section": "Stage 5-2",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.0456,
+          "chunk_id": "ninja_gaiden_nes:act-6:021",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0441,
+          "chunk_id": "ninja_gaiden_nes:act-6:020",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0439,
+          "chunk_id": "ninja_gaiden_nes:act-6:012",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0414,
+          "chunk_id": "ninja_gaiden_nes:act-5:010",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0399,
+          "chunk_id": "ninja_gaiden_nes:act-6:017",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0308,
+          "chunk_id": "ninja_gaiden_nes:act-5:002",
+          "section": "Stage 5-1",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0304,
+          "chunk_id": "ninja_gaiden_nes:items:001",
+          "section": "Items",
+          "relevant": true
+        },
+        {
+          "rank": 12,
+          "score": 0.0296,
+          "chunk_id": "ninja_gaiden_nes:act-4:011",
+          "section": "Stage 4-4",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.029,
+          "chunk_id": "ninja_gaiden_nes:act-4:009",
+          "section": "Stage 4-3",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.029,
+          "chunk_id": "ninja_gaiden_nes:act-6:007",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0279,
+          "chunk_id": "ninja_gaiden_nes:act-6:015",
+          "section": "Stage 6-4 > The Masked Devil",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0274,
+          "chunk_id": "ninja_gaiden_nes:act-6:019",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0272,
+          "chunk_id": "ninja_gaiden_nes:act-1:001",
+          "section": "Stage 1-1",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0253,
+          "chunk_id": "ninja_gaiden_nes:act-6:016",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0141,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "section": "Player > Status bar",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0139,
+          "chunk_id": "ninja_gaiden_nes:act-5:012",
+          "section": "Stage 5-4",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "ng_robust_04",
+      "category": "robustness",
+      "author": "assistant",
+      "question": "why did i get sent back to 6-1?",
+      "first_relevant_rank": 4,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 0.0313,
+          "chunk_id": "ninja_gaiden_nes:act-6:001",
+          "section": "Stage 6-1",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 0.0303,
+          "chunk_id": "ninja_gaiden_nes:act-6:017",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0297,
+          "chunk_id": "ninja_gaiden_nes:act-6:016",
+          "section": "Stage 6-4 > Jaquio",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 0.0297,
+          "chunk_id": "ninja_gaiden_nes:act-6:013",
+          "section": "Stage 6-3",
+          "relevant": true
+        },
+        {
+          "rank": 5,
+          "score": 0.0291,
+          "chunk_id": "ninja_gaiden_nes:act-6:012",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.0287,
+          "chunk_id": "ninja_gaiden_nes:act-6:002",
+          "section": "Stage 6-1",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.0277,
+          "chunk_id": "ninja_gaiden_nes:act-6:010",
+          "section": "Stage 6-3",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.0272,
+          "chunk_id": "ninja_gaiden_nes:act-6:015",
+          "section": "Stage 6-4 > The Masked Devil",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0272,
+          "chunk_id": "ninja_gaiden_nes:act-5:012",
+          "section": "Stage 5-4",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 0.0164,
+          "chunk_id": "ninja_gaiden_nes:act-6:020",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 0.0161,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.0161,
+          "chunk_id": "ninja_gaiden_nes:act-6:006",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.0159,
+          "chunk_id": "ninja_gaiden_nes:act-6:005",
+          "section": "Stage 6-2",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.0154,
+          "chunk_id": "ninja_gaiden_nes:act-6:021",
+          "section": "Act 6-5",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.0149,
+          "chunk_id": "ninja_gaiden_nes:act-1:003",
+          "section": "Stage 1-2",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.0147,
+          "chunk_id": "ninja_gaiden_nes:act-3:001",
+          "section": "Stage 3-1",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0143,
+          "chunk_id": "ninja_gaiden_nes:act-2:002",
+          "section": "Stage 2-1",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.0141,
+          "chunk_id": "ninja_gaiden_nes:act-5:001",
+          "section": "Stage 5-1",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": 0.0139,
+          "chunk_id": "ninja_gaiden_nes:act-4:004",
+          "section": "Stage 4-1",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": 0.0139,
+          "chunk_id": "ninja_gaiden_nes:act-6:007",
+          "section": "Stage 6-2",
+          "relevant": false
+        }
+      ]
+    }
+  ]
+}

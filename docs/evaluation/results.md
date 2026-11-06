@@ -367,6 +367,26 @@ El banco solo tiene casos de Zelda. Se probaron 12 preguntas fuera del banco:
 
   Es evidencia para la sección de trabajo futuro del [ADR-0001](../architecture/decisions/0001-english-first.md).
 
+### Ninja Gaiden: mini banco y glosario (2026-11-06)
+
+- **Mini banco:** 15 casos (13 con respuesta), escritos **antes** del glosario ([test-bank.md](test-bank.md)).
+- **Configuración servida:** la misma que en Zelda (multi-consulta, fusión plana, alias y tokens de frase).
+
+| Configuración | Tipo curso (9) | Robustez (4) | Total (13) | MRR |
+| --- | ---: | ---: | ---: | ---: |
+| Sin glosario de NG | 1.00 | 0.50 | 0.85 | 0.64 |
+| **Con glosario de NG** | 1.00 | **0.75** | **0.92** | **0.69** |
+
+**Cambios por caso:**
+- "how do i atack?": de no aparecer al rank 4. "attack" aparece en 27 de 84 chunks, así que necesitaba los términos de los controles.
+- "ninpo": del rank 4 al 2. La wiki dice "spirit points" y nunca "ninpo".
+
+**"how do i heal?" sigue fallando (rank 11).**
+- **Primera hipótesis (rechazada): la limpieza.** La página Items de NG es una cuadrícula de fichas (encabezados, datos, encabezados, datos…), y el limpiador solo usaba la primera fila como encabezado: la poción quedaba como "Spirit points: … restore six lost bars of health". Se corrigió en `clean.py` (una fila de encabezados a mitad de tabla pasa a etiquetar las filas siguientes). Ahora dice "Health: …" y "Jump and Slash: …". En Zelda solo cambió una tabla de navegación, que antes emparejaba enlaces sin sentido ("Section 7: Section 8"). **Las métricas no cambiaron** (NG 0.92, Zelda 0.94): el arreglo mejora el texto que leerá el generador, pero no era la causa.
+- **Causa real: dilución.** Con la variante del glosario, BM25 pone el chunk de Items en el rank 2, pero e5 lo deja en el 10: el chunk mezcla 5 ítems y su vector representa "un poco de todo". Es el mismo fenómeno del Raft con chunking fijo. Cambiar "potion" por "potions" en el glosario (la wiki usa el plural) lo sube apenas (e5 rank 9). **No se hizo**, porque sería ajustar el glosario mirando el caso.
+
+**Cautela:** 13 casos y un solo autor. 1 caso equivale a 0.077.
+
 ### Análisis de abstención
 
 ¿Pueden los puntajes de recuperación decidir cuándo abstenerse ("what do i do if ig im stuck", "Hookshot", "horse")? Se compararon dos señales sobre los 39 casos:

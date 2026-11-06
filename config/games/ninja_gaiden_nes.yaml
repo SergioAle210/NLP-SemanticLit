@@ -30,3 +30,26 @@ location_from_heading: '(?:Stage|Act) (?P<stage>\d-\d)'
 exclude_pages: ["Ninja Gaiden (NES)/Table of Contents"]
 
 tools: [search_documents, query_game_facts, update_progress]
+
+# Glosario: vocabulario del jugador -> vocabulario de la wiki (docs/retrieval/query-expansion.md).
+# Criterio (igual que zelda1): equivalencias generales tomadas de las páginas Gameplay (Controls,
+# Player, Status bar) e Items; NO frases de casos de prueba. Escrito después del mini banco de NG.
+query_expansion:
+  rewrites: []
+  synonyms:
+    # Acciones (Gameplay > Controls): "attack" aparece en 27 de 84 chunks (enemigos que atacan), así
+    # que por sí sola no distingue los controles.
+    attack: [B button, swinging your sword]
+    hit: [B button, swinging your sword]
+    fight: [B button, swinging your sword]
+    jump: [A button]
+    pause: [Start button]
+    # Recursos (Gameplay > Player, Items): nombres propios del juego.
+    ninpo: [spirit points]
+    magic: [spirit points]
+    mana: [spirit points]
+    special: [secondary weapon]
+    subweapon: [secondary weapon]
+    shuriken: [throwing star]
+    sword: [katana]
+    heal: [restore health, potion]

@@ -35,6 +35,8 @@ Implementación: [src/gamerag/evaluation/cases.py](../../src/gamerag/evaluation/
 
 ## Casos actuales: Zelda (39)
 
+Total del banco: 54 casos (39 de Zelda y 15 de Ninja Gaiden).
+
 | Categoría | # | Ejemplos |
 | --- | ---: | --- |
 | Directas | 5 | "Which button swings the sword?" · "How much does the Blue Candle cost?" |
@@ -54,14 +56,28 @@ Implementación: [src/gamerag/evaluation/cases.py](../../src/gamerag/evaluation/
 - cada caso con respuesta tiene al menos un chunk relevante;
 - los casos sin respuesta no tienen texto de apoyo en el corpus.
 
+## Casos actuales: Ninja Gaiden (15, mini banco)
+
+| Categoría | # | Ejemplos |
+| --- | ---: | --- |
+| Directas | 3 | "Which button do I press to jump?" · "How many spirit points does the windmill star cost?" |
+| Paráfrasis | 2 | "What happens if the clock runs out before I finish a stage?" · "How can I get higher using just one wall?" (wall hop) |
+| Identificadores exactos | 2 | "Who attacks me in Stage 2-3?" (Bomberhead) · "Who is the boss of Stage 3-3?" |
+| Compuesta | 1 | "What does the fire wheel do and does it use spirit points?" |
+| Versión | 1 | "What is Ninja Gaiden called in Europe?" (Shadow Warriors) |
+| Robustez | 4 | "how do i atack?" · "how do i get more ninpo?" · "how do i heal?" · "why did i get sent back to 6-1?" |
+| Sin respuesta | 2 | "What is the password to skip to Act 5?" · "How do I unlock the second playable character?" |
+
+Todos son `author: assistant`. **Sesgo declarado:** "atack" y "ninpo" ya se habían visto fallar en una prueba exploratoria. El banco se escribió **antes** que el glosario de NG.
+
 **Revisión pendiente:** los casos son un borrador redactado a partir del corpus. Conviene que cada integrante revise y proponga casos propios, para reducir el sesgo hacia lo que el sistema ya encuentra.
 
 ## Pendientes
 
 | Categoría | Fase | Ejemplos previstos |
 | --- | --- | --- |
-| Ninja Gaiden (20 base) | 3b | "Which button makes Ryu jump?" · "How many spirit points does the Windmill Star cost?" · "How do I beat the Act 6 boss?" |
+| Ninja Gaiden: ambiguas | 3b | "How do I beat the boss?" (hay un jefe por acto) |
 | Multijuego | 3b | "How does the boomerang work?" con NG activo |
-| Herramientas | 3a | Nominal · parámetro fuera de rango · desbloqueo sin confirmar · API caída · herramienta errónea |
+| Herramientas | ✅ | En [tests/test_tools.py](../../tests/test_tools.py): nominal, parámetro fuera de rango, acción sin confirmar, falla de la herramienta y herramienta errónea ([tools/](../tools/README.md)) |
 | Seguridad / spoilers | 5 | Ver [security/controls.md](../security/controls.md) |
 | Español | 3d | De 8 a 10 casos traducidos |

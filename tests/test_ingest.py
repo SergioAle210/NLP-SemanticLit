@@ -42,6 +42,23 @@ def test_clean_table_rows_become_header_value_pairs():
     assert clean_wikitext(wikitext) == "Name: Octorok | HP: 1 / 2"
 
 
+def test_clean_card_grid_uses_each_header_row_for_the_rows_below():
+    # Cuadrícula de fichas (Items de Ninja Gaiden): encabezados, datos, encabezados, datos...
+    wikitext = ("{| {{prettytable}}\n! width=\"50%\" | Bonus points || Spirit points\n|-\n| Bags give points.\n"
+                "| Tiles give spirit.\n|-\n! Time Freeze || Health\n|-\n| Hourglass freezes enemies.\n"
+                "| Potions restore health.\n|}")
+    assert clean_wikitext(wikitext).splitlines() == [
+        "Bonus points: Bags give points. | Spirit points: Tiles give spirit.",
+        "Time Freeze: Hourglass freezes enemies. | Health: Potions restore health.",
+    ]
+
+
+def test_clean_header_rows_without_data_are_kept_as_text():
+    # Tabla de navegación hecha solo de "!": no se empareja consigo misma ni se pierde.
+    wikitext = "{| {{prettytable}}\n! Section 7\n! Section 5\n|-\n! Section 8\n! Section 6\n|}"
+    assert clean_wikitext(wikitext).splitlines() == ["Section 7 | Section 5", "Section 8 | Section 6"]
+
+
 def test_clean_table_strips_cell_attributes_and_cell_lists():
     wikitext = '{|\n! Button !! Action\n|-\n!width="10%"| A\n|\n*Swing the sword\n*Select a letter\n|}'
     assert clean_wikitext(wikitext) == "Button: A | Action: Swing the sword; Select a letter"

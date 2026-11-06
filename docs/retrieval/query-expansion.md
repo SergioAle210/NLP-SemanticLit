@@ -40,6 +40,20 @@ Criterio: equivalencias **generales** de terminología del juego (páginas Contr
 
 **Reglas de identificadores descartadas:** "Level-3" → "dungeon 3" y "first quest" → "quest 1" bajaron el Recall@5 del curso de 0.89 a 0.78 en la ablación sin mejorar nada más. Agregar "dungeon N quest 1" favorece a todos los recorridos de mazmorras, porque todos tienen "Quest" y "Dungeon" en el título. El mecanismo (`rewrites`) queda disponible, pero vacío.
 
+## Glosario de Ninja Gaiden
+
+Se aplica el mismo criterio que en Zelda: la terminología sale de las páginas Gameplay (Controls, Player, Status bar) e Items de [config/games/ninja_gaiden_nes.yaml](../../config/games/ninja_gaiden_nes.yaml). Se escribió **después** del mini banco de NG.
+
+- **Acciones:** attack/hit/fight → "B button", "swinging your sword"; jump → "A button"; pause → "Start button".
+- **Recursos:** ninpo/magic/mana → "spirit points" ("ninpo" no aparece nunca en la wiki); special/subweapon → "secondary weapon"; shuriken → "throwing star"; sword → "katana"; heal → "restore health", "potion".
+
+**Por qué "attack" necesita glosario aunque la wiki lo use:** aparece en 27 de los 84 chunks de NG (los enemigos atacan), así que su IDF es bajo y no distingue la página de controles.
+
+**Resultado** (13 casos con respuesta):
+- Recall@5 pasa de 0.85 a **0.92**; robustez, de 0.50 a 0.75.
+- Los 9 casos de tipo curso se mantienen en 1.00.
+- "heal" sigue fallando (rank 11), por dilución: el chunk de Items mezcla 5 ítems ([evaluation/results.md](../evaluation/results.md)).
+
 ## Resultados
 
 Híbrida e5, chunking estructural ([evaluation/results.md](../evaluation/results.md)):

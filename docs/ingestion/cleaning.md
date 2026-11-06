@@ -60,6 +60,14 @@ D-4: In this shop, you can buy (the ability to use) Arrows for 80 rupees, the Ma
 
 **Sin encabezados:** los valores de la fila.
 
+**Cuadrícula de fichas** (encabezados, datos, encabezados, datos…, como en la página Items de Ninja Gaiden): cada fila de encabezados a mitad de tabla pasa a etiquetar las filas de datos que la siguen.
+
+```text
+Time Freeze: If you find one of these rare hourglasses... | Health: ... Collect one of these potions to restore six lost bars of health
+```
+
+Antes solo se usaba la primera fila de encabezados, así que todos los ítems quedaban etiquetados como "Bonus points:" o "Spirit points:". Si una fila de encabezados no tiene datos debajo (p. ej. una tabla de navegación hecha solo de celdas `!`), sale como texto plano.
+
 Reglas comunes:
 - `colspan` y `rowspan` se expanden antes de asignar columnas: la celda queda en su primera columna y las posiciones que ocupa se dejan vacías. Sin esto, una celda con `rowspan` desplaza todas las celdas de la fila siguiente a la columna equivocada.
 - Se quitan los atributos de celda (`width="10%"| valor`).

@@ -47,7 +47,7 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | 6f | Fusión RRF plana (invariante al "?") y búsqueda semántica exacta: total 0.86 → **0.92**, equipo 0.75 → **0.88** ([ADR-0011](architecture/decisions/0011-flat-fusion-exact-dense.md)) | ✅ |
 | 6e | Docker compose (`api` + `ui`, una imagen, 4 volúmenes), verificado de punta a punta ([deployment/](deployment/README.md)) | ✅ |
 | 6g | **Router + herramientas (§5.6):** `query_game_facts` (SQL de solo lectura, tabla de jefes), `next_available_levels` y `update_progress` (con confirmación); casos del §8 en tests ([tools/](tools/README.md), [ADR-0013](architecture/decisions/0013-intent-router-and-tools.md)) | ✅ |
-| 6h | Ninja Gaiden: glosario ("ninpo" ↔ spirit power; attack ↔ controles) y mini banco de 8 a 10 casos (hoy el banco solo tiene Zelda) | ⬜ |
+| 6h | Ninja Gaiden: mini banco (15 casos) y glosario; Recall@5 0.85 → **0.92** ([results.md](evaluation/results.md)). Limpieza de la "cuadrícula de fichas" corregida; "heal" falla por dilución | ✅ |
 | 7 | Validar el glosario con una segunda tanda de preguntas del equipo (validación parcial en 6d); glosario de Ninja Gaiden; diccionario de inglés para reducir las correcciones falsas (4.9%) | ⬜ |
 | 8 | Level ↔ Dungeon: alias de ubicación en el índice + tokens de frase; curso 0.89 → **0.94**, total → **0.94** ([ADR-0012](architecture/decisions/0012-location-aliases-phrase-tokens.md)) | ✅ |
 | 8b | Ordinales en el mapa ("first dungeon" ↔ level 1) y `team_08` "bombs"; mezcla de quests en "where is dungeon N?" → gate G2 ([results.md](evaluation/results.md)) | ⬜ |
