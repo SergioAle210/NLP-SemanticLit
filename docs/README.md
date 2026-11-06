@@ -8,6 +8,7 @@ Asistente RAG para juegos retro de NES (*The Legend of Zelda* y *Ninja Gaiden*) 
 | [architecture/](architecture/) | Componentes, flujos, stack, control de acceso y [decisiones (ADRs)](architecture/decisions/) |
 | [contracts/](contracts/README.md) | Interfaces entre componentes: generación, filtros de acceso, guardrails, pipeline |
 | [api/](api/README.md) | API HTTP (FastAPI): endpoints, errores, auditoría en SQLite |
+| [tools/](tools/README.md) | Router de intención y herramientas (§5.6) |
 | [ui/](ui/README.md) | Interfaz mínima (Streamlit) sobre la API |
 | [deployment/](deployment/README.md) | Docker compose: servicios, volúmenes y decisiones |
 | [data/](data/) | Fuentes, licencias y gobernanza del corpus |

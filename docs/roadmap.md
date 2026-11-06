@@ -46,7 +46,7 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | 6b | Frontend mínimo (Streamlit) sobre la API ([ui/](ui/README.md)), verificado de punta a punta | ✅ |
 | 6f | Fusión RRF plana (invariante al "?") y búsqueda semántica exacta: total 0.86 → **0.92**, equipo 0.75 → **0.88** ([ADR-0011](architecture/decisions/0011-flat-fusion-exact-dense.md)) | ✅ |
 | 6e | Docker compose (`api` + `ui`, una imagen, 4 volúmenes), verificado de punta a punta ([deployment/](deployment/README.md)) | ✅ |
-| 6g | **Herramienta o router (§5.6, obligatorio):** `query_game_facts` / `next_available_levels` / `update_progress` definidas en la config; `src/gamerag/tools/` vacío | ⬜ Siguiente (sin responsable asignado) |
+| 6g | **Router + herramientas (§5.6):** `query_game_facts` (SQL de solo lectura, tabla de jefes), `next_available_levels` y `update_progress` (con confirmación); casos del §8 en tests ([tools/](tools/README.md), [ADR-0013](architecture/decisions/0013-intent-router-and-tools.md)) | ✅ |
 | 6h | Ninja Gaiden: glosario ("ninpo" ↔ spirit power; attack ↔ controles) y mini banco de 8 a 10 casos (hoy el banco solo tiene Zelda) | ⬜ |
 | 7 | Validar el glosario con una segunda tanda de preguntas del equipo (validación parcial en 6d); glosario de Ninja Gaiden; diccionario de inglés para reducir las correcciones falsas (4.9%) | ⬜ |
 | 8 | Level ↔ Dungeon: alias de ubicación en el índice + tokens de frase; curso 0.89 → **0.94**, total → **0.94** ([ADR-0012](architecture/decisions/0012-location-aliases-phrase-tokens.md)) | ✅ |

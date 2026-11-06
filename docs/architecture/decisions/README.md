@@ -16,5 +16,6 @@ Cada archivo registra una decisión: contexto, decisión, alternativas y consecu
 | [0010](0010-query-expansion.md) | Transformación de consultas: ortografía + glosario + multi-consulta | Aceptado (a confirmar con preguntas nuevas); fusión modificada por 0011 |
 | [0011](0011-flat-fusion-exact-dense.md) | Fusión RRF plana en la multi-consulta y búsqueda semántica exacta | Aceptado |
 | [0012](0012-location-aliases-phrase-tokens.md) | Alias de ubicación en el índice y tokens de frase palabra + número | Aceptado |
+| [0013](0013-intent-router-and-tools.md) | Router de intención por reglas y herramientas (§5.6) | Aceptado |
 
 Plantilla para nuevos ADRs: `NNNN-titulo-corto.md` con las secciones *Contexto*, *Decisión*, *Alternativas consideradas* y *Consecuencias*.

@@ -73,7 +73,8 @@ def show_hits(hits: list[dict]) -> None:
 
 
 def show_trace(trace: dict) -> None:
-    st.markdown(f"**Resultado:** `{trace['outcome']}` · **traza:** `{trace['trace_id']}`")
+    st.markdown(f"**Resultado:** `{trace['outcome']}` · **ruta:** `{trace.get('route', 'documents')}` · "
+                f"**traza:** `{trace['trace_id']}`")
     if len(trace.get("query_variants", [])) > 1:
         st.markdown("**Variantes de la consulta** (multi-consulta):")
         for v in trace["query_variants"]:
@@ -103,7 +104,8 @@ with tab_ask:
                 if mode == "Responder":
                     result = client.ask(*args)
                     # El contexto con texto completo sale de /search (misma búsqueda, determinista).
-                    context = client.search(*args)
+                    # Si respondió una herramienta, no hubo búsqueda documental: no se muestra contexto.
+                    context = None if result["answer"].get("tool_used") else client.search(*args)
                 else:
                     result, context = None, client.search(*args)
         except ApiError as e:
@@ -126,11 +128,17 @@ with tab_ask:
         else:
             trace = context["trace"]
 
-        st.subheader("Contexto recuperado")
-        if context["hits"]:
-            show_hits(context["hits"])
+        if context is None:
+            tool = trace.get("tool") or {}
+            st.subheader(f"Herramienta: `{tool.get('name')}`")
+            st.caption(f"Router: {trace.get('route_reason', '')}")
+            st.json(tool, expanded=True)
         else:
-            st.caption("Sin fragmentos (la pregunta fue rechazada o bloqueada).")
+            st.subheader("Contexto recuperado")
+            if context["hits"]:
+                show_hits(context["hits"])
+            else:
+                st.caption("Sin fragmentos (la pregunta fue rechazada o bloqueada).")
 
         with st.expander("Traza (auditoría)"):
             show_trace(trace)

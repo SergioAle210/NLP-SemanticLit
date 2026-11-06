@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     retriever: str = "hybrid"  # bm25 | dense | hybrid
     chunker: str = "structural"  # sufijo de data/processed/<juego>/chunks.<chunker>.jsonl
     query_expansion: bool = True  # multi-consulta con corrección ortográfica + glosario del juego
+    router: bool = True  # router de intención + herramientas (docs/tools/README.md)
     top_k: int = 5  # chunks que recibe el generador
     candidates: int = 50  # chunks que se recuperan antes de aplicar los filtros de acceso
     seed_profiles: Path = Path("data/seed/profiles.json")
