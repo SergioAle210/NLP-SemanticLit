@@ -51,7 +51,7 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | 6h | Ninja Gaiden: mini banco (15 casos) y glosario; Recall@5 0.85 → **0.92** ([results.md](evaluation/results.md)). Limpieza de la "cuadrícula de fichas" corregida; "heal" falla por dilución | ✅ |
 | 7 | Validar los glosarios con preguntas de otros integrantes (validación parcial en 6d); diccionario de inglés para reducir las correcciones falsas (4.9%) | ⬜ Opcional |
 | 8 | Level ↔ Dungeon: alias de ubicación en el índice + tokens de frase; curso 0.89 → **0.94**, total → **0.94** ([ADR-0012](architecture/decisions/0012-location-aliases-phrase-tokens.md)) | ✅ |
-| 8b | Ordinales en el mapa ("first dungeon" ↔ level 1) y `team_08` "bombs"; mezcla de quests en "where is dungeon N?" → gate G2 ([results.md](evaluation/results.md)) | ⬜ |
+| 8b | Ordinales en el mapa ("first dungeon" ↔ level 1); `exact_01` (rank 7). `team_08` "bombs" era un error de etiqueta (corregido: rank 1); mezcla de quests en "where is dungeon N?" → gate G2 ([results.md](evaluation/results.md)) | ⬜ |
 | 9 | Segmentos de NG (para G2b) y chunking por fila solo para G3, si se necesita | ⬜ |
 
 ## Riesgos

@@ -52,7 +52,7 @@ flowchart LR
 
 **Pendiente:** los gates de acceso (otro integrante), que pueden usar los metadatos que ya están en Chroma.
 
-**Configuración servida:** multi-consulta (ortografía + glosario) sobre la híbrida (BM25 + e5, búsqueda semántica exacta) con chunking estructural y fusión RRF plana de las 4 listas ([ADR-0009](../architecture/decisions/0009-phase3-retrieval-config.md), [ADR-0010](../architecture/decisions/0010-query-expansion.md), [ADR-0011](../architecture/decisions/0011-flat-fusion-exact-dense.md)). El índice incluye alias de ubicación ("Level 3 · first quest") y BM25 usa tokens de frase palabra + número ([ADR-0012](../architecture/decisions/0012-location-aliases-phrase-tokens.md)). Recall@5: curso 0.94, preguntas del equipo 0.88, total 0.94.
+**Configuración servida:** multi-consulta (ortografía + glosario) sobre la híbrida (BM25 + e5, búsqueda semántica exacta) con chunking estructural y fusión RRF plana de las 4 listas ([ADR-0009](../architecture/decisions/0009-phase3-retrieval-config.md), [ADR-0010](../architecture/decisions/0010-query-expansion.md), [ADR-0011](../architecture/decisions/0011-flat-fusion-exact-dense.md)). El índice incluye alias de ubicación ("Level 3 · first quest") y BM25 usa tokens de frase palabra + número ([ADR-0012](../architecture/decisions/0012-location-aliases-phrase-tokens.md)). Recall@5: curso 0.94, preguntas del equipo 1.00, total 0.97 (tras corregir una etiqueta del banco; [results.md](../evaluation/results.md)).
 
 **Probadas y descartadas** (código disponible para comparaciones): reranker cross-encoder (`--reranker`) y chunking por fila (`--chunker rows`).
 

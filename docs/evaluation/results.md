@@ -384,8 +384,24 @@ El banco solo tiene casos de Zelda. Se probaron 12 preguntas fuera del banco:
 **"how do i heal?" sigue fallando (rank 11).**
 - **Primera hipótesis (rechazada): la limpieza.** La página Items de NG es una cuadrícula de fichas (encabezados, datos, encabezados, datos…), y el limpiador solo usaba la primera fila como encabezado: la poción quedaba como "Spirit points: … restore six lost bars of health". Se corrigió en `clean.py` (una fila de encabezados a mitad de tabla pasa a etiquetar las filas siguientes). Ahora dice "Health: …" y "Jump and Slash: …". En Zelda solo cambió una tabla de navegación, que antes emparejaba enlaces sin sentido ("Section 7: Section 8"). **Las métricas no cambiaron** (NG 0.92, Zelda 0.94): el arreglo mejora el texto que leerá el generador, pero no era la causa.
 - **Causa real: dilución.** Con la variante del glosario, BM25 pone el chunk de Items en el rank 2, pero e5 lo deja en el 10: el chunk mezcla 5 ítems y su vector representa "un poco de todo". Es el mismo fenómeno del Raft con chunking fijo. Cambiar "potion" por "potions" en el glosario (la wiki usa el plural) lo sube apenas (e5 rank 9). **No se hizo**, porque sería ajustar el glosario mirando el caso.
+- **Qué recupera el sistema** (revisado después de la corrección de `team_08`): los ranks 1 a 4 son pociones curativas en etapas concretas (*"a much-needed potion that will restore some of your lost health"*, Stage 4-2; *"a health-restoring potion"*, Stage 3-1). Un generador puede responder **cómo** curarse (romper contenedores de ítems para obtener pociones), pero no llega la descripción general de Items ("restore six lost bars"), que es lo que pide el comportamiento esperado. **La etiqueta no se cambió:** la respuesta es parcial, no un error de anotación como en `team_08`.
 
 **Cautela:** 13 casos y un solo autor. 1 caso equivale a 0.077.
+
+### Corrección de etiqueta: `team_08` "where do i get bombs?" (2026-11-06)
+
+Se revisó por qué fallaba `team_08` (rank 11). El **resultado #1** es la sección "Get some bombs" del walkthrough de la Quest 1: *"Fight and defeat the Moblins in the nearby area until they drop some Bombs that you can collect"*. Esa sección responde la pregunta, pero la evidencia del caso solo aceptaba "Bombs for 20 rupees", "Bomb 20 R" o "may drop Bombs", y "drop **some** Bombs" no coincidía textualmente.
+
+- **Era un error de etiqueta, no del sistema.** Se agregó "drop some Bombs" como evidencia válida, con su fuente. No se cambió nada del sistema.
+- **Con la misma revisión, `exact_01` resultó una falla real:** los primeros resultados son de la página correcta (Level-4 de la Q1), pero el chunk con la pista del anciano queda en el rank 7.
+- **Cifras con la etiqueta corregida** (configuración servida):
+
+| | Curso (18) | Equipo (8) | Total (36) | MRR |
+| --- | ---: | ---: | ---: | ---: |
+| Tal cual | 0.94 | **1.00** | **0.97** | 0.70 |
+| Sin "?" | 0.94 | 1.00 | 0.94 | 0.67 |
+
+**Lección:** antes de atacar una falla, hay que mirar qué recuperó el sistema. La relevancia por evidencia textual ([ADR-0008](../architecture/decisions/0008-relevance-by-evidence-text.md)) es objetiva, pero solo tan buena como las frases anotadas. Una corrección de etiqueta se hace solo cuando el texto recuperado responde literalmente la pregunta, y se documenta como tal: no es una mejora del sistema.
 
 ### Análisis de abstención
 
