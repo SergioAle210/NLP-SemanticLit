@@ -23,7 +23,7 @@ from collections import Counter
 from gamerag.games import QueryExpansionConfig
 from gamerag.ingest.models import Chunk
 from gamerag.retrieval.bm25 import Hit, index_text
-from gamerag.retrieval.hybrid import Retriever, rrf_fuse
+from gamerag.retrieval.hybrid import RRF_K, Retriever, rrf_fuse
 
 _WORD = re.compile(r"[A-Za-z][A-Za-z']+")
 
@@ -106,11 +106,21 @@ def _edit_distance_le1(a: str, b: str) -> bool:
 
 
 class ExpandingRetriever:
-    """Multi-consulta: recupera con cada variante (profundidad fija `candidates`) y fusiona con RRF."""
+    """Multi-consulta: recupera con cada variante (profundidad fija `candidates`) y fusiona con RRF.
+
+    **Fusión plana:** si la base es híbrida, se fusionan de una vez todas las listas
+    (cada recuperador × cada variante), en lugar de fusionar primero por variante y después entre
+    variantes. La fusión en dos niveles perdía la señal de acuerdo: un chunk que BM25 y e5 ponían en
+    el rank 1 con la variante quedaba igual que uno que solo encontraba un recuperador, y los
+    resultados mediocres de la pregunta original (la que tiene el desajuste de vocabulario) le
+    ganaban. Era tan frágil que un "?" cambiaba el resultado ("How do i attack": Controls en el rank 8;
+    con "?", en el rank 1). Ver docs/evaluation/results.md.
+    """
 
     def __init__(self, base: Retriever, expander: QueryExpander, candidates: int = 20):
         self.base, self.expander, self.candidates = base, expander, candidates
         self.retrievers = getattr(base, "retrievers", [base])
+        self.rrf_k = getattr(base, "rrf_k", RRF_K)
 
     def variants(self, query: str) -> list[str]:
         return self.expander.variants(query)
@@ -119,4 +129,5 @@ class ExpandingRetriever:
         variants = self.variants(query)
         if len(variants) == 1:
             return self.base.search(query, k=k)
-        return rrf_fuse([self.base.search(v, k=self.candidates) for v in variants], top_n=k)
+        return rrf_fuse([r.search(v, k=self.candidates) for v in variants for r in self.retrievers],
+                        k=self.rrf_k, top_n=k)

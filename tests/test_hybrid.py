@@ -96,6 +96,58 @@ def test_served_pipeline_matches_evaluated_recall():
                for c in cases)
     assert hits / len(cases) >= 0.88
 
+
+@semantic
+def test_served_retrieval_ignores_trailing_question_mark():
+    """Quitar el "?" final no debe cambiar qué casos del banco tienen la evidencia en el top-5.
+    Con la fusión en dos niveles, "How do i attack" dejaba Controls en el rank 8 (con "?", rank 1)."""
+    import re
+
+    from gamerag.evaluation.cases import is_relevant, load_cases
+    from gamerag.evaluation.retrieval import RETRIEVAL_CATEGORIES
+    from gamerag.pipeline import build_pipeline
+    from gamerag.settings import Settings
+
+    root = Path(__file__).resolve().parents[1]
+    if not (root / "data" / "processed" / "zelda1" / "chunks.structural.jsonl").exists():
+        pytest.skip("requiere la ingesta estructural de zelda1")
+    retriever = build_pipeline(Settings(root=root)).retrievers["zelda1"]
+    cases = [c for c in load_cases(root / "eval" / "cases.jsonl")
+             if c.game == "zelda1" and c.answerable and c.category in RETRIEVAL_CATEGORIES]
+
+    def found(q: str, case) -> bool:
+        return any(is_relevant(case, h.chunk) for h in retriever.search(q, k=5))
+
+    flips = [c.id for c in cases if found(c.question, c) != found(re.sub(r"\?\s*$", "", c.question), c)]
+    # Caso límite conocido (ADR-0012): con los alias de ubicación, "how do i get more hearts?" deja Items >
+    # Heart Container en el rank 5 y sin "?" en el 7; compiten los "Objectives" de las mazmorras ("Obtain a
+    # Heart Container"). Se documenta en lugar de ajustar el sistema a este caso.
+    assert set(flips) <= {"zelda_extra_02"}
+    controls = [h.chunk.chunk_id for h in retriever.search("How do i attack", k=5)]
+    assert "zelda1:controls:000" in controls
+
+
+@semantic
+def test_dense_search_is_exact():
+    """El top-k de DenseIndex debe ser el top-k exacto por coseno (fuerza bruta). HNSW es aproximado y
+    omitía vecinos de forma no determinista entre procesos."""
+    import numpy as np
+
+    from gamerag.pipeline import build_pipeline
+    from gamerag.settings import Settings
+
+    root = Path(__file__).resolve().parents[1]
+    if not (root / "data" / "processed" / "zelda1" / "chunks.structural.jsonl").exists():
+        pytest.skip("requiere la ingesta estructural de zelda1")
+    dense = build_pipeline(Settings(root=root)).retrievers["zelda1"].retrievers[1]
+    stored = dense._col.get(include=["embeddings"])
+    ids, matrix = stored["ids"], np.asarray(stored["embeddings"])
+    for q in ["how do i see in dark rooms?", "How do i attack", "where is the raft", "who made the game"]:
+        qv = dense.embedder.embed_query(q)
+        exact = [ids[i] for i in np.argsort(-(matrix @ qv), kind="stable")[:20]]
+        got = [h.chunk.chunk_id for h in dense.search(q, k=20)]
+        assert set(got) == set(exact), q
+
 @semantic
 def test_dense_index_finds_paraphrase_and_reuses_persisted_index(tmp_path: Path):
     from gamerag.retrieval.dense import DenseIndex

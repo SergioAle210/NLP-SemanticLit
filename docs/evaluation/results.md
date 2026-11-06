@@ -288,6 +288,73 @@ Siguen fallando con la configuración elegida:
 
 **Lectura:** el banco no puede medir este cambio, porque ninguna de sus preguntas tiene un intercambio de letras. La evidencia a favor es la pregunta exploratoria y el costo medido (+5 correcciones falsas sobre 17,123 palabras). La prueba de estrés dejó ver algo que ya existía: el corrector cambia el 4.9% de las palabras inglesas válidas que no aparecen en el corpus ([retrieval/query-expansion.md](../retrieval/query-expansion.md)).
 
+### El signo de pregunta, la fusión plana y la búsqueda exacta (2026-11-06)
+
+En la interfaz, "How do i attack" dejaba Controls en el rank 8, y "How do i attack?", en el rank 1. Por etapa:
+
+| Lista | Sin "?" | Con "?" |
+| --- | ---: | ---: |
+| BM25, pregunta original | — | — |
+| e5, pregunta original | 11 | 5 |
+| Variante (BM25, e5 e híbrida) | 1 | 1 |
+| **Fusión final en dos niveles** | **8** | **1** |
+
+**Causa: la fusión en dos niveles.** La variante encontraba Controls en el rank 1 con los dos recuperadores, pero entraba a la fusión final como un solo voto. Los resultados mediocres de la pregunta original, que aparecían en las dos listas, le ganaban.
+
+**Prueba de perturbación** (todo el banco sin el "?" final; 34 de las 36 preguntas lo tienen):
+- con la fusión en dos niveles, el total baja de 0.86 a **0.81** (`robust_01` 5 → 8, `extra_02` 4 → 7);
+- con la **fusión plana** (un solo RRF sobre las 4 listas), da **0.92 en las dos formas**.
+
+**Hallazgo secundario: HNSW es aproximado.** Con el mismo código, una corrida dio 0.89 (`extra_04` en el rank 12) y las siguientes 0.92 (rank 4). Se comparó el top-20 de Chroma con el top-20 exacto: en 1 de 3 procesos, una consulta difería. Ahora la búsqueda semántica compara contra todos los chunks del juego y ordena por coseno exacto. Después del cambio coincidió en 5 de 5 corridas, y los números de la tabla no cambian.
+
+Resultados en [ADR-0011](../architecture/decisions/0011-flat-fusion-exact-dense.md). **Configuración servida: curso 0.89, equipo 0.88, total 0.92, MRR 0.56**, invariante al "?". Siguen fallando `direct_04`, `exact_01` y `team_08`.
+
+**Lección:** que la evidencia quede en el top-5 dependía de un signo de puntuación. Las pruebas de perturbación (cambiar algo que no debería importar y verificar que el resultado no cambie) encuentran fragilidad que el banco no ve, porque las preguntas del banco están escritas "bien".
+
+### Level ↔ Dungeon: alias de ubicación y tokens de frase (2026-11-06)
+
+En la interfaz, "how do i beat level 1?" devolvía 5 pedazos del walkthrough general, y la página de la Dungeon 1 quedaba en el rank 9. En pantalla parecían repetidos: eran partes distintas de la misma sección larga ("1st Quest Overview", unas 840 palabras, dividida en 4 chunks). La interfaz ahora muestra el `chunk_id` y el inicio del texto para distinguirlos.
+
+**Causas:**
+1. "Level" no aparece en la página de la mazmorra.
+2. BM25 es una bolsa de palabras: "level 1" coincide con cualquier texto con "level" y algún "1", y "Quest 1/Dungeon 3" contiene "dungeon" y "1".
+
+**Ablación,** con el criterio fijado antes de medir y 12 preguntas de niveles fuera del banco:
+
+| Configuración | Curso | Equipo | Total | MRR | Niveles (fuera del banco) |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Antes | 0.89 | 0.88 | 0.92 | 0.56 | 3/12 |
+| Solo tokens de frase | 0.83 | 0.88 | 0.89 | 0.56 | 5/12 |
+| Solo alias | 0.89 | 0.88 | 0.92 | 0.64 | 12/12 |
+| **Alias + tokens de frase** | **0.94** | 0.88 | **0.94** | **0.68** | **12/12** |
+
+**Resultado:**
+- `direct_04` se resuelve (rank 11 → 1) y `exact_01` mejora (sin aparecer → rank 7).
+- En el curso, Recall@1 pasa de 0.33 a 0.61.
+- Ninja Gaiden no cambia.
+
+**Costo:** `extra_02` baja del rank 4 al 5 (sin "?", al 7), así que la invariancia al "?" se mantiene en 35 de 36 casos. Detalle en el [ADR-0012](../architecture/decisions/0012-location-aliases-phrase-tokens.md).
+
+**Configuración servida: curso 0.94, equipo 0.88, total 0.94, MRR 0.68.** Siguen fallando `exact_01` (rank 7) y `team_08` (rank 11).
+
+### Preguntas de ubicación: "where is…" (2026-11-06, exploratorio)
+
+Se probaron 8 preguntas fuera del banco con la configuración servida. La evidencia se buscó a mano en el corpus.
+
+| Pregunta | Rank de la evidencia | Nota |
+| --- | :-: | --- |
+| where is the white sword? / where can i buy the blue ring? / where is the raft? / where is the hidden shop? | 1 | Bien |
+| where is dungeon 3? | 3 | La Q1 Dungeon 3 dice "entrance… located at E-4 of section 8"; los ranks 1-2 son de la Quest 2 |
+| where is the entrance to level 9? | 3 | "find the entrance at Spectacle Rock"; también se mezcla la Q2 |
+| where do i find the magical key? | 5 | Arriba salen páginas de la Q2 |
+| where is level 1? | 7 | La página de la mazmorra no dice dónde está; el mapa dice "first dungeon" |
+
+**Hallazgos:**
+- **La ubicación de las mazmorras está en dos lugares:** al inicio del walkthrough de cada mazmorra y en las páginas del mapa (Hyrule 1-8), por coordenada.
+- **Ordinales:** las páginas del mapa usan "first/third/ninth dungeon", no "level N". Es un desajuste de vocabulario nuevo. Posible solución con la misma idea de los alias (first ↔ 1); falta medirla.
+- **Mezcla de quests:** cuando la pregunta no dice la quest, salen las dos. La ingesta ya distingue la quest (ruta, `location.quest` y alias), y cuando la pregunta la menciona funciona. Lo que falta está en el perfil del jugador: lo resuelve el **gate G2** (`where` por quest), no la ingesta ni el ranking. Para un jugador de la Q1, ver la Q2 es además spoiler.
+- **Notación de la wiki:** "E-4 of section 8" es la cuadrícula del mapa. Explicarla le toca al generador.
+
 ### Análisis de abstención
 
 ¿Pueden los puntajes de recuperación decidir cuándo abstenerse ("what do i do if ig im stuck", "Hookshot", "horse")? Se compararon dos señales sobre los 39 casos:

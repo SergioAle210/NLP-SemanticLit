@@ -43,9 +43,12 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | 6 | API (FastAPI) sobre el pipeline, con SQLite para perfiles y auditoría ([api/](api/README.md)) | ✅ |
 | 6c | Robustez: conjunto del equipo; reranker y chunking por fila (descartados); **multi-consulta con ortografía + glosario** ([ADR-0010](architecture/decisions/0010-query-expansion.md)); análisis de abstención | ✅ |
 | 6d | 8 preguntas exploratorias (todas en el top-5); corrección con transposición de letras (Damerau); prueba de estrés de correcciones falsas ([results.md](evaluation/results.md)) | ✅ |
-| 6b | Frontend mínimo (Streamlit) + Docker compose | ⬜ Siguiente |
+| 6b | Frontend mínimo (Streamlit) sobre la API ([ui/](ui/README.md)), verificado de punta a punta | ✅ |
+| 6f | Fusión RRF plana (invariante al "?") y búsqueda semántica exacta: total 0.86 → **0.92**, equipo 0.75 → **0.88** ([ADR-0011](architecture/decisions/0011-flat-fusion-exact-dense.md)) | ✅ |
+| 6e | Docker compose (`api` + `ui`) | ⬜ Siguiente |
 | 7 | Validar el glosario con una segunda tanda de preguntas del equipo (validación parcial en 6d); glosario de Ninja Gaiden; diccionario de inglés para reducir las correcciones falsas (4.9%) | ⬜ |
-| 8 | Level ↔ Dungeon: las reglas de reescritura empeoraron; alternativa pendiente (p. ej. metadatos de ubicación en la consulta) | ⬜ |
+| 8 | Level ↔ Dungeon: alias de ubicación en el índice + tokens de frase; curso 0.89 → **0.94**, total → **0.94** ([ADR-0012](architecture/decisions/0012-location-aliases-phrase-tokens.md)) | ✅ |
+| 8b | Ordinales en el mapa ("first dungeon" ↔ level 1) y `team_08` "bombs"; mezcla de quests en "where is dungeon N?" → gate G2 ([results.md](evaluation/results.md)) | ⬜ |
 | 9 | Segmentos de NG (para G2b) y chunking por fila solo para G3, si se necesita | ⬜ |
 
 ## Riesgos

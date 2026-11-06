@@ -25,6 +25,7 @@ semantic = [
     "torch>=2.3",
 ]
 ui = [
+    "httpx>=0.27",
     "streamlit>=1.36",
 ]
 

@@ -96,6 +96,34 @@ def test_expanding_retriever_without_changes_delegates_to_base(qx):
     assert calls == ["Where is the raft?"]
 
 
+def test_expanding_retriever_fuses_every_list_flat(qx):
+    """Con base híbrida, cada recuperador × cada variante es una lista de la fusión RRF (plana).
+    Con la variante, los dos recuperadores coinciden en Controls; con la original, cada uno trae otra
+    cosa. La fusión plana conserva ese acuerdo (2 votos contra 1). En dos niveles se perdía: la
+    original quedaba como [enemies, rupees], la variante como [controls], y enemies ganaba el empate."""
+    controls, rupees, enemies = CORPUS[0], CORPUS[1], CORPUS[3]
+
+    class _Fake:
+        def __init__(self, original_top):
+            self.calls, self.original_top = [], original_top
+
+        def search(self, query, k=5):
+            self.calls.append(query)
+            return [Hit(1, 1.0, controls if "swing the sword" in query else self.original_top)]
+
+    class _Hybrid:
+        def __init__(self):
+            self.retrievers = [_Fake(enemies), _Fake(rupees)]
+
+        def search(self, query, k=5):
+            raise AssertionError("con varias variantes no se fusiona por variante")
+
+    base = _Hybrid()
+    hits = ExpandingRetriever(base, qx, candidates=5).search("How do i attack", k=2)
+    assert [len(r.calls) for r in base.retrievers] == [2, 2]  # original + variante en cada recuperador
+    assert hits[0].chunk.chunk_id == "controls"
+
+
 def test_zelda_glossary_has_no_identifier_rewrites():
     """Las reglas Level/Quest se descartaron por la ablación (docs/evaluation/results.md)."""
     cfg = load_all_games(ROOT / "config" / "games")["zelda1"].query_expansion

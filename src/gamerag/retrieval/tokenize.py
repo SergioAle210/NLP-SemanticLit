@@ -22,15 +22,27 @@ not no so than too very just only also there here up down out off again
 """.split())
 
 _TOKEN = re.compile(r"[a-z0-9]+(?:[-'][a-z0-9]+)*")
+_NUMBER = re.compile(r"\d+(?:-\d+)?")  # "1", "2-3"
+_WORD = re.compile(r"[a-z]+")
 
 
-def tokenize(text: str) -> list[str]:
+def tokenize(text: str, phrases: bool = True) -> list[str]:
+    """Tokens para BM25. Con `phrases`, cada palabra seguida de un número agrega además un token de
+    frase ("level 1" y "Level-1" -> "level_1"; "stage 2-3" -> "stage_2-3"). BM25 es una bolsa de
+    palabras: sin ese token, "level 1" coincide con cualquier texto que tenga "level" y algún "1"
+    ("Quest 1/Dungeon 3" contiene "dungeon" y "1"). Ver docs/retrieval/bm25.md."""
+    raw = [re.sub(r"'s$", "", t) for t in _TOKEN.findall(text.lower())]
     tokens: list[str] = []
-    for tok in _TOKEN.findall(text.lower()):
-        tok = re.sub(r"'s$", "", tok)
+    for i, tok in enumerate(raw):
         if "-" in tok:
             tokens.append(tok)
             tokens += [p for p in tok.split("-") if p and p not in STOPWORDS]
+            head, _, tail = tok.partition("-")
+            if phrases and _WORD.fullmatch(head) and head not in STOPWORDS and _NUMBER.fullmatch(tail):
+                tokens.append(f"{head}_{tail}")  # "level-1" -> "level_1"
         elif tok not in STOPWORDS:
             tokens.append(tok.replace("'", ""))
+            nxt = raw[i + 1] if i + 1 < len(raw) else ""
+            if phrases and _WORD.fullmatch(tok) and _NUMBER.fullmatch(nxt):
+                tokens.append(f"{tok}_{nxt}")  # "level 1" -> "level_1"
     return tokens

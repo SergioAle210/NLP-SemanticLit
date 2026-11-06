@@ -18,7 +18,7 @@ Requisitos: **Python 3.12** y **[uv](https://docs.astral.sh/uv/)**.
 # 2. Crear el entorno e instalar las dependencias (genera .venv/ y, la primera vez, uv.lock)
 uv sync                       # núcleo: ingesta, BM25, API, LLM
 uv sync --extra semantic      # + embeddings, ChromaDB, reranker (fase 3; torch solo-CPU)
-uv sync --extra ui            # + Streamlit
+uv sync --extra semantic --extra ui   # + Streamlit (los extras se combinan; uno solo desinstala el otro)
 
 # 3. Configurar credenciales
 cp .env.example .env          # y completar ANTHROPIC_API_KEY
@@ -74,6 +74,17 @@ uv run uvicorn gamerag.api:app --reload                            # documentaci
 > ⚠️ `uv sync` o `uv add` **sin** `--extra semantic` desinstalan PyTorch y los demás paquetes semánticos. Vuelve a correr `uv sync --extra semantic` si la API falla al cargar los modelos.
 
 Detalle en [docs/api/](docs/api/README.md).
+
+## Interfaz (Streamlit)
+
+Con la API corriendo en otra terminal:
+
+```bash
+uv sync --extra semantic --extra ui
+uv run streamlit run src/gamerag/ui/app.py                         # http://localhost:8501
+```
+
+Detalle en [docs/ui/](docs/ui/README.md).
 
 ## Reproducir el corpus
 

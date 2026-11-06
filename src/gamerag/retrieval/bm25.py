@@ -34,13 +34,27 @@ def load_chunks(path: Path) -> list[Chunk]:
 
 # Cambiar si cambia `index_text`: forma parte de la huella de los índices persistidos (Chroma),
 # para que un cambio en lo que se indexa obligue a reconstruirlos.
-INDEX_TEXT_VERSION = "path+text/v1"
+INDEX_TEXT_VERSION = "path+aliases+text/v2"
+
+
+def location_aliases(chunk: Chunk) -> str:
+    """Nombres alternativos de la ubicación, tomados de los metadatos del chunk.
+
+    La wiki titula las mazmorras "Quest 1/Dungeon 3", pero el juego y los jugadores dicen "Level-3" y
+    "first quest". Sin el alias, "level 3" no coincide con la página de la mazmorra."""
+    loc = chunk.location
+    parts = [f"Level {loc.level}"] if loc.level is not None else []
+    if loc.quest:
+        parts.append(f"{loc.quest} quest")
+    return " · ".join(parts)
 
 
 def index_text(chunk: Chunk) -> str:
-    """Texto que se indexa (léxico **y** semántico): ruta de la página sin el nombre del juego + texto."""
+    """Texto que se indexa (léxico **y** semántico): ruta de la página sin el nombre del juego, alias de
+    ubicación y texto."""
     _, _, path_in_game = chunk.source.partition("/")  # "The Legend of Zelda/Items" -> "Items"
-    return f"{path_in_game}\n{chunk.text}"
+    aliases = location_aliases(chunk)
+    return f"{path_in_game}\n{aliases}\n{chunk.text}" if aliases else f"{path_in_game}\n{chunk.text}"
 
 
 class BM25Index:

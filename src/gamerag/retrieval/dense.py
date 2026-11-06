@@ -74,11 +74,16 @@ class DenseIndex:
         )
 
     def search(self, query: str, k: int = 5, where: dict | None = None) -> list[Hit]:
+        """Búsqueda **exacta**: se piden a Chroma todos los chunks (que cumplan `where`) y se ordenan
+        por coseno exacto. HNSW es aproximado: con n_results = k, a veces omitía un vecino del top-k,
+        y de forma no determinista entre procesos (1 de 3 corridas; una evaluación dio Recall@5 0.89
+        en vez de 0.92). Con ~250 chunks por juego, comparar contra todos cuesta milisegundos. Con
+        un corpus grande habría que volver a n_results = k y subir `ef_search`."""
         q = self.embedder.embed_query(query)
-        res = self._col.query(query_embeddings=[q.tolist()], n_results=min(k, len(self.chunks)),
+        res = self._col.query(query_embeddings=[q.tolist()], n_results=len(self.chunks),
                               where=where, include=["embeddings"])
         ids, embs = res["ids"][0], np.asarray(res["embeddings"][0])
         sims = embs @ q if len(ids) else np.array([])
         # Orden por similitud coseno exacta; en empate, por chunk_id para que sea determinista.
-        order = sorted(range(len(ids)), key=lambda i: (-sims[i], ids[i]))
+        order = sorted(range(len(ids)), key=lambda i: (-sims[i], ids[i]))[:k]
         return [Hit(rank=r, score=float(sims[i]), chunk=self.chunks[ids[i]]) for r, i in enumerate(order, 1)]

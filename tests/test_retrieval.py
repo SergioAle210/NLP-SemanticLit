@@ -9,7 +9,7 @@ from gamerag.evaluation.retrieval import COURSE_CATEGORIES, aggregate, evaluate_
 from gamerag.games import load_all_games
 from gamerag.ingest.build import build_chunks
 from gamerag.ingest.clean import clean_wikitext
-from gamerag.ingest.models import Chunk
+from gamerag.ingest.models import Chunk, Location
 from gamerag.ingest.sections import split_sections
 from gamerag.retrieval.bm25 import BM25Index, index_text
 from gamerag.retrieval.tokenize import tokenize
@@ -33,7 +33,25 @@ def zelda_chunks():
 # --- tokenización ---------------------------------------------------------------------------
 
 def test_tokenize_keeps_identifiers_whole_and_split():
-    assert tokenize("Level-4 at D-4") == ["level-4", "level", "4", "d-4", "d", "4"]
+    assert tokenize("Level-4 at D-4", phrases=False) == ["level-4", "level", "4", "d-4", "d", "4"]
+    assert tokenize("Level-4 at D-4") == ["level-4", "level", "4", "level_4", "d-4", "d", "4", "d_4"]
+
+
+@pytest.mark.parametrize(("text", "phrase"), [
+    ("how do i beat level 1?", "level_1"),
+    ("Level-1", "level_1"),                      # misma forma con guion
+    ("Underworld/Quest 1/Dungeon 3", "dungeon_3"),
+    ("Underworld/Quest 1/Dungeon 3", "quest_1"),
+    ("Stage 2-3", "stage_2-3"),                  # etapas de Ninja Gaiden
+])
+def test_tokenize_adds_word_number_phrases(text, phrase):
+    assert phrase in tokenize(text)
+
+
+def test_phrase_tokens_distinguish_dungeon_numbers():
+    # Bolsa de palabras: "Quest 1/Dungeon 3" contiene "dungeon" y "1" igual que "Dungeon 1".
+    assert "dungeon_1" not in tokenize("Underworld/Quest 1/Dungeon 3")
+    assert "the_1" not in tokenize("the 1") and "level_" not in " ".join(tokenize("level one"))
 
 
 def test_tokenize_drops_stopwords_and_possessives():
@@ -45,6 +63,14 @@ def test_tokenize_drops_stopwords_and_possessives():
 def test_index_text_drops_game_name_from_title():
     c = _chunk("c", "body", source="The Legend of Zelda/Underworld/Quest 1/Dungeon 4")
     assert index_text(c) == "Underworld/Quest 1/Dungeon 4\nbody"
+
+
+def test_index_text_adds_location_aliases():
+    # La wiki dice "Quest 1/Dungeon 4"; el juego y los jugadores, "Level-4" y "first quest".
+    c = _chunk("c", "body", source="The Legend of Zelda/Underworld/Quest 1/Dungeon 4")
+    c = c.model_copy(update={"location": Location(quest="first", level=4)})
+    assert index_text(c) == "Underworld/Quest 1/Dungeon 4\nLevel 4 · first quest\nbody"
+    assert "level_4" in tokenize(index_text(c))
 
 
 def test_bm25_ranks_exact_term_match_first():

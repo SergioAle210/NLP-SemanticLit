@@ -31,7 +31,8 @@ pregunta original ────────────────────�
    - **no aparece ni una vez** en el corpus ni en el glosario ("across" no se toca; "heal" se expande, no se corrige);
    - existe una palabra del vocabulario (frecuencia ≥ 2) **con la misma primera letra** a **distancia de edición 1** ("atack" → "attack", "bombz" → "bombs"). La distancia es Damerau-Levenshtein restringida: además de insertar, borrar o cambiar una letra, **intercambiar dos letras vecinas** cuenta como una sola operación ("shiled" → "shield"). Con Levenshtein, ese intercambio valdría 2.
 2. **Glosario por juego** (`query_expansion.synonyms` en `config/games/<juego>.yaml`): si la pregunta contiene un término del jugador, se **agregan** los términos del juego. Nada se borra.
-3. **Multi-consulta:** se busca con la **pregunta original** y con la **variante**, cada una con la profundidad fija de 20, y los rankings se fusionan con RRF. **La original se conserva siempre**, tanto para la auditoría (`trace.query_variants`) como para que una variante mala no cambie la intención.
+3. **Multi-consulta:** se busca con la **pregunta original** y con la **variante**, cada una con la profundidad fija de 20, y las listas se fusionan con RRF. **La original se conserva siempre**, tanto para la auditoría (`trace.query_variants`) como para que una variante mala no cambie la intención.
+   - **La fusión es plana** ([ADR-0011](../architecture/decisions/0011-flat-fusion-exact-dense.md)): un solo RRF sobre las 4 listas (BM25 y e5 × original y variante). La fusión en dos niveles (primero por variante y después entre variantes) perdía el acuerdo entre recuperadores y dependía del "?" final.
 
 ## Glosario de Zelda
 
@@ -43,13 +44,13 @@ Criterio: equivalencias **generales** de terminología del juego (páginas Contr
 
 Híbrida e5, chunking estructural ([evaluation/results.md](../evaluation/results.md)):
 
-| | Sin expansión | Con expansión |
-| --- | ---: | ---: |
-| Curso (18) | 0.89 | 0.89 |
-| **Equipo (8, preguntas escritas sin ver el corpus)** | 0.50 | **0.75** |
-| Robustez (18) | 0.56 | 0.83 |
-| Total (36) | 0.72 | **0.86** |
-| Latencia media | 20 ms | 29 ms |
+| | Sin expansión | Con expansión, fusión en dos niveles (ADR-0010) | **Con expansión, fusión plana (ADR-0011, servida)** |
+| --- | ---: | ---: | ---: |
+| Curso (18) | 0.89 | 0.89 | **0.89** |
+| **Equipo (8, preguntas escritas sin ver el corpus)** | 0.50 | 0.75 | **0.88** |
+| Robustez (18) | 0.56 | 0.83 | **0.89** |
+| Total (36) | 0.72 | 0.86 (0.81 sin "?") | **0.92 (también sin "?")** |
+| Latencia media | 20 ms | 29 ms | 44 ms |
 
 ## Límites y riesgos
 
