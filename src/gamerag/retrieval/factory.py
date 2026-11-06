@@ -16,7 +16,24 @@ RetrieverName = Literal["bm25", "dense", "hybrid"]
 
 
 def make_retriever(name: RetrieverName, chunks: list[Chunk], settings: Settings,
-                   model_key: str | None = None) -> Retriever:
+                   model_key: str | None = None, reranker: str | None = None, expand: bool = False) -> Retriever:
+    """Arma el recuperador por capas: base (bm25/dense/hybrid) -> [multi-consulta con el glosario del
+    juego si `expand`] -> [reranker si se indica la clave de gamerag.retrieval.rerank.RERANKERS]."""
+    base = _make_base(name, chunks, settings, model_key)
+    if expand:
+        from gamerag.games import load_all_games
+        from gamerag.retrieval.query_expansion import ExpandingRetriever, QueryExpander
+
+        cfg = load_all_games(settings.path(settings.games_config_dir))[chunks[0].game]
+        base = ExpandingRetriever(base, QueryExpander(cfg.query_expansion, chunks))
+    if reranker is None:
+        return base
+    from gamerag.retrieval.rerank import RerankingRetriever, get_reranker
+
+    return RerankingRetriever(base, get_reranker(reranker, str(settings.path(settings.models_dir))))
+
+
+def _make_base(name: RetrieverName, chunks: list[Chunk], settings: Settings, model_key: str | None) -> Retriever:
     if name == "bm25":
         return BM25Index(chunks)
 

@@ -13,5 +13,6 @@ Cada archivo registra una decisión: contexto, decisión, alternativas y consecu
 | [0007](0007-per-game-config.md) | Diferencias entre juegos como configuración, no como código | Aceptado |
 | [0008](0008-relevance-by-evidence-text.md) | Relevancia definida por evidencia textual, no por chunk_id | Aceptado |
 | [0009](0009-phase3-retrieval-config.md) | Recuperación de la fase 3: híbrida e5 + chunking estructural | Aceptado |
+| [0010](0010-query-expansion.md) | Transformación de consultas: ortografía + glosario + multi-consulta | Aceptado (a confirmar con preguntas nuevas) |
 
 Plantilla para nuevos ADRs: `NNNN-titulo-corto.md` con las secciones *Contexto*, *Decisión*, *Alternativas consideradas* y *Consecuencias*.

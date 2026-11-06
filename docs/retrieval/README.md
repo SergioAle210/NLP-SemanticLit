@@ -6,6 +6,7 @@ La recuperación (*Retrieval*) es la fase del RAG que elige qué fragmentos reci
 | --- | --- |
 | [bm25.md](bm25.md) | Búsqueda léxica: tokenización, qué se indexa, ablación |
 | [semantic.md](semantic.md) | Búsqueda semántica (modelos, prefijos, Chroma) y fusión híbrida RRF |
+| [query-expansion.md](query-expansion.md) | Transformación de consultas: corrección ortográfica, glosario del juego y multi-consulta |
 | Resultados | [evaluation/results.md](../evaluation/results.md) |
 
 ## Estrategia: de léxica a híbrida
@@ -47,11 +48,11 @@ flowchart LR
   - `hybrid`: los dos rankings se fusionan con **Reciprocal Rank Fusion**, que usa la posición y no el puntaje, porque BM25 y la similitud coseno están en escalas distintas.
 - **Comparación medida** en [evaluation/results.md](../evaluation/results.md).
 
-**Pendiente:**
-- los gates de acceso, usando los metadatos que ya están en Chroma;
-- el reranker, para mejorar el orden (MRR) de la híbrida.
+**Pendiente:** los gates de acceso (otro integrante), que pueden usar los metadatos que ya están en Chroma.
 
-**Configuración elegida para la fase 3:** híbrida (BM25 + e5) con chunking estructural: Recall@5 = 0.89 contra 0.78 de la línea base ([ADR-0009](../architecture/decisions/0009-phase3-retrieval-config.md)).
+**Configuración servida:** multi-consulta (ortografía + glosario) sobre la híbrida (BM25 + e5) con chunking estructural ([ADR-0009](../architecture/decisions/0009-phase3-retrieval-config.md), [ADR-0010](../architecture/decisions/0010-query-expansion.md)). Recall@5: curso 0.89, preguntas del equipo 0.75, total 0.86.
+
+**Probadas y descartadas** (código disponible para comparaciones): reranker cross-encoder (`--reranker`) y chunking por fila (`--chunker rows`).
 
 ## Por qué combinar las dos búsquedas
 

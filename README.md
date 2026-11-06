@@ -62,6 +62,19 @@ uv run python -m gamerag.evaluation.retrieval zelda1 --retriever hybrid --model 
 
 Imprime Recall@k y MRR por categoría y guarda el detalle en `eval/results/`. La primera corrida semántica descarga el modelo (~100 a 500 MB) a `models/` y construye el índice en `data/index/`. Resultados y diagnóstico en [docs/evaluation/results.md](docs/evaluation/results.md).
 
+## API
+
+```bash
+uv sync --extra semantic                                           # la configuración servida usa la búsqueda híbrida
+uv run python -m gamerag.ingest.build zelda1 --chunker structural
+uv run python -m gamerag.ingest.build ninja_gaiden_nes --chunker structural
+uv run uvicorn gamerag.api:app --reload                            # documentación interactiva: http://127.0.0.1:8000/docs
+```
+
+> ⚠️ `uv sync` o `uv add` **sin** `--extra semantic` desinstalan PyTorch y los demás paquetes semánticos. Vuelve a correr `uv sync --extra semantic` si la API falla al cargar los modelos.
+
+Detalle en [docs/api/](docs/api/README.md).
+
 ## Reproducir el corpus
 
 ```bash

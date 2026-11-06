@@ -23,3 +23,31 @@ location_from_heading: null
 exclude_pages: ["The Legend of Zelda/Table of Contents"]
 
 tools: [search_documents, query_game_facts, next_available_levels, update_progress]
+
+# Glosario: vocabulario del jugador -> vocabulario de la wiki (docs/retrieval/query-expansion.md).
+# Criterio: equivalencias generales de terminología del juego, tomadas de las páginas Controls, Items
+# y de los títulos de la wiki. NO frases de casos de prueba concretos.
+query_expansion:
+  # Reglas de identificadores ("Level-3" -> "dungeon 3", "first quest" -> "quest 1"): DESCARTADAS.
+  # En la ablación bajaron el Recall@5 del curso de 0.89 a 0.78 sin mejorar nada más: agregar
+  # "dungeon N quest 1" favorece a todos los recorridos de mazmorras (todos tienen Quest/Dungeon en el
+  # título). Ver docs/evaluation/results.md, "Transformación de consultas".
+  rewrites: []
+  synonyms:
+    # Acciones (Controls): la wiki describe acciones, no verbos genéricos.
+    attack: [swing the sword, A button]
+    hit: [swing the sword]
+    fight: [swing the sword]
+    menu: [sub-screen]
+    inventory: [sub-screen]
+    secondary: [subweapon, B button]
+    # Recursos (Items): nombres propios del juego.
+    money: [rupees]
+    cash: [rupees]
+    coins: [rupees]
+    heal: [refills hearts, life meter]
+    health: [hearts, life meter]
+    hearts: [heart container]
+    weapon: [sword]
+    door: [key]
+

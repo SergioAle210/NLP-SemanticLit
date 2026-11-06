@@ -212,3 +212,27 @@ def test_build_zelda_every_dungeon_has_located_chunks(chunker):
     assert located == {(q, lvl) for q in ("first", "second") for lvl in range(1, 10)}
     assert report["pages_used"] == report["pages_in_snapshot"] - 1  # se excluye el índice
     assert not report["unknown_templates"]
+
+
+# --- chunking por fila (variante `rows`) ----------------------------------------------------
+
+@pytest.mark.parametrize(("line", "expected"), [
+    ("Name: Octorok | HP: 1 / 2 | Damage: 1", True),
+    ("NES: A | Action: Swing the sword", True),
+    ("B-2: Burn the south tree to find a shop.", True),
+    ("- Obtain the Raft.", False),
+    ("Damage: 2", False),
+    ("Link must have five Heart Containers.", False),
+])
+def test_is_table_row(line, expected):
+    from gamerag.ingest.chunking import is_table_row
+
+    assert is_table_row(line) is expected
+
+
+def test_rows_chunker_gives_each_table_row_its_own_chunk():
+    text = "Intro paragraph about buttons and how they work in this game.\n" + "\n".join(
+        f"NES: {b} | Action: action number {i} with several extra words here" for i, b in enumerate("ABCD"))
+    windows = structural_windows([Section(0, ("Controls",), text)], max_words=225, min_words=5, split_rows=True)
+    assert len(windows) == 5
+    assert windows[2].text == "[Controls]\nNES: B | Action: action number 1 with several extra words here"

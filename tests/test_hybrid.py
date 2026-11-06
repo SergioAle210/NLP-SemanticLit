@@ -79,7 +79,7 @@ def test_served_pipeline_matches_evaluated_recall():
     """Lo que sirve el pipeline (50 candidatos, filtros, top-5) debe tener el mismo Recall@5 que la
     configuración evaluada (ADR-0009: 0.89). Detectó que la fusión dependía de k (0.83 servido)."""
     from gamerag.evaluation.cases import is_relevant, load_cases
-    from gamerag.evaluation.retrieval import RETRIEVAL_CATEGORIES
+    from gamerag.evaluation.retrieval import COURSE_CATEGORIES
     from gamerag.pipeline import build_pipeline
     from gamerag.progress.models import Profile
     from gamerag.settings import Settings
@@ -90,7 +90,7 @@ def test_served_pipeline_matches_evaluated_recall():
     pipe = build_pipeline(Settings(root=root))
     by_id = {c.chunk_id: c for c in pipe.retrievers["zelda1"].retrievers[0].chunks}
     cases = [c for c in load_cases(root / "eval" / "cases.jsonl")
-             if c.game == "zelda1" and c.answerable and c.category in RETRIEVAL_CATEGORIES]
+             if c.game == "zelda1" and c.answerable and c.category in COURSE_CATEGORIES]
     prof = Profile(user_id="completionist", role="completionist")
     hits = sum(any(is_relevant(c, by_id[cid]) for cid in pipe.ask(c.question, "zelda1", prof)[1].context)
                for c in cases)
@@ -121,3 +121,22 @@ def test_dense_index_finds_paraphrase_and_reuses_persisted_index(tmp_path: Path)
     # Mismos chunks y modelo -> reutiliza el índice persistido; si cambian, reconstruye.
     assert not DenseIndex(chunks, embedder, tmp_path).rebuilt
     assert DenseIndex(chunks[:2], embedder, tmp_path).rebuilt
+
+
+@semantic
+def test_reranker_scores_relevant_pair_higher():
+    from gamerag.retrieval.rerank import RerankingRetriever, get_reranker
+
+    root = Path(__file__).resolve().parents[1]
+    chunks = [_chunk("raft", "The raft lets Link cross lakes and oceans from a dock."),
+              _chunk("sword", "The white sword deals twice the damage of the wooden sword."),
+              _chunk("candle", "Candles burn bushes and light up dark rooms."),
+              _chunk("bombs", "Bombs blast holes in weak walls.")]
+    class _AllInOrder:  # primera etapa de prueba: devuelve todo, con la respuesta al final
+        def search(self, query, k=5):
+            return [Hit(rank=r, score=0.0, chunk=c) for r, c in enumerate(chunks, 1)][:k]
+
+    rr = RerankingRetriever(_AllInOrder(), get_reranker("minilm-en", str(root / "models")), candidates=4)
+    hits = rr.search("How do I burn bushes?", k=4)
+    assert hits[0].chunk.chunk_id == "candle"  # el cross-encoder lo sube del 3.er lugar al 1.º
+    assert hits[0].score > hits[-1].score

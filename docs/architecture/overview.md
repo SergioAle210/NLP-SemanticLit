@@ -17,7 +17,7 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | Guardrails | `src/gamerag/guardrails/` | Contratos `InputGuard`, `AccessFilter`, `OutputGuard`; G1 y citas ([contracts/access-and-guardrails.md](../contracts/access-and-guardrails.md)) | 🟡 Faltan G2-G4, inyección, PII |
 | Progreso | `src/gamerag/progress/` | `Profile` con progreso `level_set` / `linear_stage`; perfiles sembrados | ✅ |
 | Pipeline | `src/gamerag/pipeline.py` | Une los contratos y produce la `Trace` auditable ([contracts/pipeline.md](../contracts/pipeline.md)) | ✅ |
-| API | `src/gamerag/api.py` | FastAPI: backend único que usan la interfaz y el benchmark | ⬜ |
+| API | `src/gamerag/api.py`, `src/gamerag/store.py` | FastAPI: backend único que usan la interfaz y el benchmark; SQLite con perfiles y auditoría ([api/](../api/README.md)) | ✅ |
 | UI | `ui/app.py` | Streamlit: solo presentación | ⬜ |
 
 ## Stack

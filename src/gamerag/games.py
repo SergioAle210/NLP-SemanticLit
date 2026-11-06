@@ -22,6 +22,25 @@ class ProgressModel(StrEnum):
     LINEAR_STAGE = "linear_stage"  # Ninja Gaiden: etapa actual, orden total
 
 
+class RewriteRule(BaseModel):
+    match: str  # expresión regular (sin distinguir mayúsculas)
+    replace: str  # reemplazo; admite referencias \1
+
+
+class QueryExpansionConfig(BaseModel):
+    """Glosario del juego para la transformación de consultas (retrieval/query_expansion.py)."""
+
+    rewrites: list[RewriteRule] = []  # identificadores: "Level-3" -> "dungeon 3"
+    synonyms: dict[str, list[str]] = {}  # término del jugador -> términos del juego (se agregan)
+
+    @field_validator("rewrites")
+    @classmethod
+    def _valid_patterns(cls, v: list[RewriteRule]) -> list[RewriteRule]:
+        for r in v:
+            re.compile(r.match)
+        return v
+
+
 class ManualRef(BaseModel):
     url: str
     local_path: Path
@@ -46,6 +65,9 @@ class GameConfig(BaseModel):
 
     # Páginas del snapshot que no se indexan (p. ej. índices de navegación sin contenido).
     exclude_pages: list[str] = []
+
+    # Glosario para reescribir/expandir consultas (vocabulario del jugador -> del juego).
+    query_expansion: QueryExpansionConfig = QueryExpansionConfig()
 
     tools: list[ToolName]
 

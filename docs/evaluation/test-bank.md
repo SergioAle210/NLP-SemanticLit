@@ -28,11 +28,12 @@ Campos obligatorios del curso, más los propios:
 | `expected_sources` / `expected_pages` | Páginas de la wiki y el índice de sección donde aparece la evidencia (alineados por posición) |
 | `evidence` | Partes de la respuesta, cada una con alternativas literales del corpus. Define la relevancia ([ADR-0008](../architecture/decisions/0008-relevance-by-evidence-text.md)) |
 | `risk_level` | `low` · `medium` (ambiguas, versión, sin respuesta) · `high` (spoiler) · `critical` (acción o seguridad) |
+| `author` | `assistant` (escrita conociendo el corpus) o `team` (escrita por el equipo sin verlo: conjunto independiente) |
 | `profile` | Perfil de demo con el que se hace la pregunta. Los casos de recuperación usan `completionist` para que los gates no oculten la evidencia; los de spoilers usarán perfiles `player` |
 
 Implementación: [src/gamerag/evaluation/cases.py](../../src/gamerag/evaluation/cases.py).
 
-## Casos actuales: Zelda (20)
+## Casos actuales: Zelda (39)
 
 | Categoría | # | Ejemplos |
 | --- | ---: | --- |
@@ -43,6 +44,9 @@ Implementación: [src/gamerag/evaluation/cases.py](../../src/gamerag/evaluation/
 | Ambiguas | 2 | "How do I beat the dragon boss?" (Aquamentus y Gleeok son dragones) · "How do I defeat Gleeok?" (2, 3 o 4 cabezas) |
 | Sin respuesta | 2 | "How do I use the Hookshot?" · "Can I ride a horse in this game?" |
 | Versión | 2 | "In the first/second quest, which dungeon has the Ladder?" (Level-4 frente a Level-6) |
+| **Robustez** (propia) | 19 | "How can I attack?" · "can i blow up walls with **bombz**?" · "how do i use my secondary item" · las 9 del equipo (abajo) · "how do i save my game?" (lenguaje de un jugador real: coloquial, vago o con errores) |
+
+**Conjunto del equipo** (`author: team`): 9 preguntas escritas por un integrante como jugador, **sin ver el corpus ni el sistema**: "how do i atack?", "how can i heal?", "where do i find money?", "what is the best weapon?", "how do i open a locked door?", "what do i do if ig im stuck" (sin respuesta: debe abstenerse), "how do i defeat the dragon?", "where do i get bombs?", "how do i unlock the bow?". Se reportan aparte (`team`) porque miden si una mejora **generaliza** más allá de las preguntas escritas conociendo el corpus.
 
 **Integridad garantizada por tests** ([tests/test_retrieval.py](../../tests/test_retrieval.py)):
 - la distribución por categoría coincide con la del curso;

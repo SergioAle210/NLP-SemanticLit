@@ -198,3 +198,72 @@ El Recall@5 de 0.89 se midió con la híbrida recuperando **20 candidatos por re
 Hay dos tests de regresión:
 - el orden de los primeros resultados no depende del `k` pedido;
 - el Recall@5 del pipeline servido debe ser ≥ 0.88 (requiere el extra `semantic` y la ingesta estructural; en el CI se salta).
+
+## Robustez: reranker y chunking por fila (2026-11-06)
+
+**Motivación:** al probar la API con preguntas escritas como un jugador ("How can I attack?", "Which button do i have to press to attack?", "How can I atack?"), la respuesta correcta (Controls: `NES: A | Action: Swing the sword`) no aparecía o quedaba abajo. Se agregó la categoría **`robustness`** al banco: **6 casos** de lenguaje coloquial, vago o con errores de tipeo. Ahora `course` designa las 18 preguntas con respuesta de la distribución del curso, y `overall` las 24.
+
+**Hipótesis probadas:**
+1. Un **reranker cross-encoder** (lee pregunta y chunk juntos) conectaría "attack" con "swing the sword".
+2. El **chunking por fila** (`rows`: cada fila de tabla o celda de mapa es un chunk) evitaría la dilución de la tabla de controles, que tenía 7 botones en un solo chunk.
+
+| Configuración | Recall@5 course (18) | Recall@5 overall (24) | MRR course | Latencia |
+| --- | ---: | ---: | ---: | ---: |
+| **Híbrida e5, estructural (ADR-0009)** | **0.89** | **0.79** | 0.55 | 20 ms |
+| + reranker `minilm-en` | 0.78 | 0.67 | **0.64** | 808 ms |
+| + reranker `mminilm-multi` | 0.72 | 0.62 | 0.58 | 2244 ms |
+| Híbrida e5, por fila | 0.78 | 0.71 | 0.57 | 22 ms |
+| Híbrida e5, por fila + `minilm-en` | 0.72 | 0.62 | 0.57 | 871 ms |
+| Semántica e5, por fila | 0.83 | 0.75 | 0.66 | 23 ms |
+| BM25, por fila | 0.67 | 0.54 | 0.51 | 0.5 ms |
+
+En robustez, la configuración actual acierta 3 de 6. Ninguna variante resuelve "How can I attack?", "How can I atack?" ni "use my secondary item".
+
+### Lectura
+
+- **Las dos hipótesis se rechazan.**
+  - El reranker mejora el orden de lo que ya estaba bien (Recall@1 del curso de 0.33 a 0.50; MRR de 0.55 a 0.64), pero **saca evidencia del top-5** en otros casos y es unas 40 veces más lento en CPU.
+  - El chunking por fila deja `NES: A | Action: Swing the sword` como un chunk propio, y aun así "How can I attack?" no lo encuentra.
+- **La causa es un desajuste de vocabulario, no la dilución.** El jugador dice *attack*; la wiki dice *swing the sword*. Muchos chunks sí contienen "attack" (enemigos y jefes que atacan) y le ganan a la respuesta. Ocurre lo mismo con *secondary item* ↔ *subweapon*, *menu* ↔ *sub-screen*, y con el caso pendiente desde la línea base, *Level-3* ↔ *Dungeon 3*.
+- **El curso propone para este problema la reescritura de la consulta y la recuperación multi-consulta** (tema 08, diapositivas 211 y 212): expresar la consulta con el vocabulario del documento y recuperar con varias formulaciones.
+- **No se adopta ninguna de las variantes probadas.** El código queda disponible (`--reranker`, `--chunker rows`) para comparaciones futuras, por ejemplo el reranker como señal de confianza para la abstención.
+
+## Transformación de consultas: ortografía + glosario + multi-consulta (2026-11-06)
+
+**Conjunto independiente del equipo:** se agregaron **8 preguntas con respuesta y 1 sin respuesta** escritas por un integrante como jugador, sin ver el corpus ni el sistema (`author: team`), más 4 propias (`author: assistant`). El evaluador reporta `course` (18), `team` (8) y `overall` (36).
+
+**Antes** (híbrida e5 estructural): curso 0.89, **equipo 0.50**, total 0.72. Las preguntas del equipo rinden mucho peor que las escritas conociendo el corpus, lo que confirma el sesgo del banco original.
+
+**Ablación** de la transformación de consultas ([retrieval/query-expansion.md](../retrieval/query-expansion.md)), Recall@5:
+
+| Componente | Curso (18) | Equipo (8) | Robustez (18) | Total (36) |
+| --- | ---: | ---: | ---: | ---: |
+| Sin expansión | 0.89 | 0.50 | 0.56 | 0.72 |
+| Solo ortografía | 0.89 | 0.50 | 0.56 | 0.72 |
+| Solo sinónimos | 0.89 | 0.62 | 0.72 | 0.81 |
+| Solo reglas Level/Quest | **0.78** | 0.50 | 0.56 | 0.67 |
+| **Ortografía + sinónimos (elegida)** | **0.89** | **0.75** | **0.83** | **0.86** |
+| Todo | 0.78 | 0.75 | 0.83 | 0.81 |
+
+**Lectura:**
+- **Los sinónimos aportan casi todo.** La ortografía sola no cambia nada, pero combinada con los sinónimos sí: "atack" → "attack" activa la entrada "attack → swing the sword".
+- **Las reglas de identificadores perjudican** y se descartan.
+- La configuración elegida mejora las preguntas del equipo de 0.50 a 0.75 y el total de 0.72 a 0.86, **sin pérdida en las del curso**.
+- **Cautela:** la elección se hizo con este mismo banco, y el glosario se escribió conociendo los fallos. Hace falta una segunda tanda de preguntas del equipo para confirmarlo ([ADR-0010](../architecture/decisions/0010-query-expansion.md)).
+
+Siguen fallando con la configuración elegida:
+- `direct_04` y `exact_01` (Level ↔ Dungeon);
+- `team_02` "how can i heal?" (rank 9);
+- `team_08` "where do i get bombs?" (rank 11);
+- `robust_06` "secondary item" (rank 11).
+
+### Análisis de abstención
+
+¿Pueden los puntajes de recuperación decidir cuándo abstenerse ("what do i do if ig im stuck", "Hookshot", "horse")? Se compararon dos señales sobre los 39 casos:
+
+| Señal | Preguntas sin respuesta | Preguntas con respuesta (las más bajas) |
+| --- | --- | --- |
+| Similitud coseno del top-1 (e5) | 0.809 a 0.832 | Desde 0.821 (`paraphrase_01`) |
+| Máximo del cross-encoder en el top-5 | −7.5 a −9.9 | Desde −11.2 (`paraphrase_02`) |
+
+**Las distribuciones se superponen:** cualquier umbral que rechace las 3 preguntas sin respuesta también rechaza varias que sí la tienen ("stuck" se parece al corpus más que "sail across the sea"). **La abstención no se puede decidir con los puntajes de recuperación.** Debe decidirla el generador, juzgando si el contexto responde la pregunta (§5.5). Queda como requisito del `HaikuGenerator` ([contracts/generation.md](../contracts/generation.md)).

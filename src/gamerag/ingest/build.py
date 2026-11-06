@@ -34,7 +34,7 @@ from gamerag.ingest.models import Chunk
 from gamerag.ingest.sections import split_sections
 from gamerag.settings import get_settings
 
-ChunkerName = Literal["fixed", "structural"]
+ChunkerName = Literal["fixed", "structural", "rows"]
 
 
 def _slug(title: str) -> str:
@@ -52,6 +52,9 @@ def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap:
     elif chunker == "structural":
         chunker_id = f"structural-w{size}-m{min_words}"
         make_windows = lambda secs: structural_windows(secs, size, min_words)  # noqa: E731
+    elif chunker == "rows":  # estructural + una fila de tabla / celda de mapa por chunk
+        chunker_id = f"rows-w{size}-m{min_words}"
+        make_windows = lambda secs: structural_windows(secs, size, min_words, split_rows=True)  # noqa: E731
     else:
         raise ValueError(f"chunker desconocido: {chunker}")
     chunks: list[Chunk] = []
@@ -102,7 +105,7 @@ def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("game_id")
-    ap.add_argument("--chunker", choices=["fixed", "structural"], default="fixed")
+    ap.add_argument("--chunker", choices=["fixed", "structural", "rows"], default="fixed")
     ap.add_argument("--size", type=int, default=DEFAULT_SIZE, help="palabras máximas por chunk")
     ap.add_argument("--overlap", type=int, default=DEFAULT_OVERLAP, help="solapamiento (solo fixed)")
     ap.add_argument("--min-words", type=int, default=DEFAULT_MIN_WORDS, help="unir secciones menores (solo structural)")

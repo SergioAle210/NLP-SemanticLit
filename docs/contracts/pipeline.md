@@ -5,7 +5,10 @@ Implementación: [src/gamerag/pipeline.py](../../src/gamerag/pipeline.py). Es el
 ```python
 pipe = build_pipeline(get_settings())        # híbrida e5 + estructural, extractivo, guards por defecto
 answer, trace = pipe.ask("How can I sail across the sea?", "zelda1", profiles["novato"])
+context, trace = pipe.search("How can I sail across the sea?", "zelda1", profiles["novato"])  # etapas 1-3, sin generar
 ```
+
+`search` ejecuta solo los guards de entrada, la recuperación y los filtros, y devuelve el contexto que recibiría el generador sin generar (útil para depurar sin gastar tokens; `trace.outcome = "retrieved"`). Lo expone la API en `POST /search` ([api/](../api/README.md)).
 
 ## Etapas
 
@@ -28,7 +31,8 @@ Es la cadena auditable de la diapositiva 16 del curso: pregunta → filtros → 
 | --- | --- |
 | `trace_id` | Identificador; también va en `Answer.trace_id` |
 | `question`, `game`, `user_id`, `role` | Quién preguntó qué |
-| `retriever`, `generator` | Configuración usada (p. ej. `hybrid/structural`, `extractive`) |
+| `retriever`, `generator` | Configuración usada (p. ej. `hybrid+qx/structural`, `extractive`) |
+| `query_variants` | Formulaciones usadas en la búsqueda: `[0]` es la pregunta original y `[1]`, la corregida y expandida ([retrieval/query-expansion.md](../retrieval/query-expansion.md)). En el log de auditoría se redactan igual que la pregunta |
 | `input_guards`, `output_guards` | `{nombre: "ok" o motivo}` |
 | `candidates` | Rank, `chunk_id`, score y `blocked_by` de cada candidato |
 | `context` | `chunk_id`s entregados al generador |
@@ -46,6 +50,7 @@ La traza se guardará en SQLite como log de auditoría, con la PII sanitizada ([
 | `GAMERAG_RETRIEVER` | `hybrid` |
 | `GAMERAG_CHUNKER` | `structural` |
 | `GAMERAG_EMBEDDING_MODEL` | `e5-small-multi` |
+| `GAMERAG_QUERY_EXPANSION` | `true` |
 | `GAMERAG_TOP_K` | `5` |
 | `GAMERAG_CANDIDATES` | `50` |
 

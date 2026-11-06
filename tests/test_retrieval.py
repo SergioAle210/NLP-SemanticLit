@@ -5,7 +5,7 @@ import pytest
 
 from gamerag.evaluation.cases import EvalCase, is_relevant, load_cases
 from gamerag.evaluation.metrics import coverage_at_k, mean, precision_at_k, recall_at_k, reciprocal_rank
-from gamerag.evaluation.retrieval import RETRIEVAL_CATEGORIES, aggregate, evaluate_case
+from gamerag.evaluation.retrieval import COURSE_CATEGORIES, aggregate, evaluate_case
 from gamerag.games import load_all_games
 from gamerag.ingest.build import build_chunks
 from gamerag.ingest.clean import clean_wikitext
@@ -137,7 +137,7 @@ def test_bm25_baseline_does_not_regress(zelda_chunks):
     """Línea base medida el 2026-11-05: Recall@5 = 0.78, MRR = 0.47 (docs/evaluation/results.md).
     Un cambio en limpieza, chunking o tokenización que la empeore debe ser intencional."""
     idx = BM25Index(zelda_chunks)
-    cases = [c for c in CASES if c.game == "zelda1" and c.answerable and c.category in RETRIEVAL_CATEGORIES]
+    cases = [c for c in CASES if c.game == "zelda1" and c.answerable and c.category in COURSE_CATEGORIES]
     report = aggregate([evaluate_case(c, idx.search(c.question, 20)) for c in cases])
     assert report["recall@5"] >= 0.77
     assert report["mrr"] >= 0.46

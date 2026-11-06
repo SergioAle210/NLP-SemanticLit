@@ -55,6 +55,7 @@ class Trace(BaseModel):
     role: str
     retriever: str
     generator: str
+    query_variants: list[str] = []  # formulaciones usadas en la búsqueda (multi-consulta); [0] = original
     input_guards: dict[str, str] = {}  # nombre -> "ok" | motivo del bloqueo
     candidates: list[CandidateTrace] = []
     context: list[str] = []  # chunk_ids entregados al generador
@@ -86,17 +87,56 @@ class Pipeline:
     def games(self) -> list[str]:
         return sorted(self.retrievers)
 
+    def search(self, question: str, game: str, profile: Profile) -> tuple[list[Hit], Trace]:
+        """Solo las etapas 1-3 (guards de entrada, recuperación, filtros): el contexto que recibiría
+        el generador, sin generar (no consume tokens del LLM). `trace.outcome` queda en
+        `rejected_input`, `blocked_by_access` o `retrieved`."""
+        trace = self._new_trace(question, game, profile)
+        context, outcome = self._retrieve(question, game, profile, trace)
+        trace.outcome = outcome or "retrieved"
+        return context, trace
+
     def ask(self, question: str, game: str, profile: Profile) -> tuple[Answer, Trace]:
-        if game not in self.retrievers:
-            raise ValueError(f"juego no disponible: {game}. Opciones: {', '.join(self.games)}")
-        trace = Trace(trace_id=uuid.uuid4().hex, question=question, game=game, user_id=profile.user_id,
-                      role=profile.role, retriever=self.retriever_name, generator=self.generator.name)
+        trace = self._new_trace(question, game, profile)
         tid = trace.trace_id
 
         def finish(answer: Answer, outcome: str) -> tuple[Answer, Trace]:
             trace.outcome = outcome
             return answer, trace
 
+        context, outcome = self._retrieve(question, game, profile, trace)
+        if outcome == "rejected_input":
+            return finish(Answer(answer=REJECTED_MESSAGE, abstained=True, game=game, trace_id=tid), outcome)
+        if outcome == "blocked_by_access":
+            return finish(Answer(answer=BLOCKED_MESSAGE, abstained=True, blocked_by_spoiler=True,
+                                 game=game, trace_id=tid), outcome)
+
+        # 4. Generación
+        t = time.perf_counter()
+        answer = self.generator.generate(question, context, game=game, trace_id=tid)
+        trace.latency_ms["generation"] = _ms(t)
+
+        # 5. Guardrails de salida
+        t = time.perf_counter()
+        for guard in self.output_guards:
+            res = guard.check(answer, context, profile)
+            trace.output_guards[guard.name] = "ok" if res.allowed else res.reason
+            if not res.allowed:
+                trace.latency_ms["output"] = _ms(t)
+                return finish(Answer(answer=ABSTAIN_MESSAGE, abstained=True, needs_human_review=True,
+                                     game=game, trace_id=tid), "rejected_output")
+        trace.latency_ms["output"] = _ms(t)
+
+        return finish(answer, "abstained" if answer.abstained else "answered")
+
+    def _new_trace(self, question: str, game: str, profile: Profile) -> Trace:
+        if game not in self.retrievers:
+            raise ValueError(f"juego no disponible: {game}. Opciones: {', '.join(self.games)}")
+        return Trace(trace_id=uuid.uuid4().hex, question=question, game=game, user_id=profile.user_id,
+                     role=profile.role, retriever=self.retriever_name, generator=self.generator.name)
+
+    def _retrieve(self, question: str, game: str, profile: Profile, trace: Trace) -> tuple[list[Hit], str | None]:
+        """Etapas 1-3. Devuelve (contexto, outcome temprano o None si se puede generar)."""
         # 1. Guardrails de entrada
         t = time.perf_counter()
         for guard in self.input_guards:
@@ -104,12 +144,13 @@ class Pipeline:
             trace.input_guards[guard.name] = "ok" if res.allowed else res.reason
             if not res.allowed:
                 trace.latency_ms["input"] = _ms(t)
-                return finish(Answer(answer=REJECTED_MESSAGE, abstained=True, game=game, trace_id=tid),
-                              "rejected_input")
+                return [], "rejected_input"
         trace.latency_ms["input"] = _ms(t)
 
         # 2. Recuperación (más candidatos que top_k: los filtros pueden descartar varios)
         t = time.perf_counter()
+        variants = getattr(self.retrievers[game], "variants", None)
+        trace.query_variants = variants(question) if variants else [question]
         hits = self.retrievers[game].search(question, k=self.candidates)
         trace.latency_ms["retrieval"] = _ms(t)
 
@@ -130,26 +171,8 @@ class Pipeline:
         trace.latency_ms["access"] = _ms(t)
 
         if not context and blocked_by_gate:
-            return finish(Answer(answer=BLOCKED_MESSAGE, abstained=True, blocked_by_spoiler=True,
-                                 game=game, trace_id=tid), "blocked_by_access")
-
-        # 4. Generación
-        t = time.perf_counter()
-        answer = self.generator.generate(question, context, game=game, trace_id=tid)
-        trace.latency_ms["generation"] = _ms(t)
-
-        # 5. Guardrails de salida
-        t = time.perf_counter()
-        for guard in self.output_guards:
-            res = guard.check(answer, context, profile)
-            trace.output_guards[guard.name] = "ok" if res.allowed else res.reason
-            if not res.allowed:
-                trace.latency_ms["output"] = _ms(t)
-                return finish(Answer(answer=ABSTAIN_MESSAGE, abstained=True, needs_human_review=True,
-                                     game=game, trace_id=tid), "rejected_output")
-        trace.latency_ms["output"] = _ms(t)
-
-        return finish(answer, "abstained" if answer.abstained else "answered")
+            return [], "blocked_by_access"
+        return context, None
 
 
 def _ms(start: float) -> float:
@@ -175,9 +198,11 @@ def build_pipeline(
         if not path.exists():
             log.warning("sin chunks para %s (%s): corre la ingesta; el juego no estará disponible", game_id, path)
             continue
-        retrievers[game_id] = make_retriever(settings.retriever, load_chunks(path), settings)  # type: ignore[arg-type]
+        retrievers[game_id] = make_retriever(settings.retriever, load_chunks(path), settings,  # type: ignore[arg-type]
+                                             expand=settings.query_expansion)
     if not retrievers:
         raise RuntimeError("no hay chunks para ningún juego: corre `python -m gamerag.ingest.build <juego>`")
+    qx = "+qx" if settings.query_expansion else ""
     return Pipeline(retrievers, generator=generator, input_guards=input_guards, access_filters=access_filters,
                     output_guards=output_guards, top_k=settings.top_k, candidates=settings.candidates,
-                    retriever_name=f"{settings.retriever}/{settings.chunker}")
+                    retriever_name=f"{settings.retriever}{qx}/{settings.chunker}")

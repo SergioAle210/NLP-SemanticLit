@@ -10,6 +10,7 @@ depender de un tokenizador: en inglés, ~1.3 tokens por palabra -> 225 palabras 
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 
 from gamerag.ingest.sections import Section
@@ -88,9 +89,21 @@ def _split_lines(lines: list[str], max_words: int) -> list[list[str]]:
     return blocks
 
 
+_TABLE_ROW = re.compile(r"^[^|:]{1,60}: .+ \| [^|:]{1,60}: ")  # "Name: Octorok | HP: 1 / 2 | ..."
+_GRID_CELL = re.compile(r"^[A-Z]-\d{1,2}: ")  # "B-2: Burn the south tree..."
+
+
+def is_table_row(line: str) -> bool:
+    """Líneas que produce el aplanado de tablas (clean.py): filas con encabezados o celdas de mapa."""
+    return bool(_TABLE_ROW.match(line) or _GRID_CELL.match(line))
+
+
 def structural_windows(sections: list[Section], max_words: int = DEFAULT_SIZE,
-                       min_words: int = DEFAULT_MIN_WORDS) -> list[Window]:
+                       min_words: int = DEFAULT_MIN_WORDS, split_rows: bool = False) -> list[Window]:
     """Un chunk por sección (o parte de sección), con su ruta como encabezado `[A > B]`.
+
+    Con `split_rows=True` (chunker `rows`), cada fila de tabla y cada celda de mapa es un chunk propio:
+    una tabla de 7 botones o de 30 enemigos deja de ser un solo chunk que habla de todo (dilución).
 
     - Sección larga -> varios chunks de líneas completas, cada uno con el encabezado repetido.
     - Sección de menos de `min_words` palabras -> se une a la siguiente de la página (si el total
@@ -99,11 +112,20 @@ def structural_windows(sections: list[Section], max_words: int = DEFAULT_SIZE,
     Sin solapamiento: los cortes caen en límites de línea, así que no parten ideas.
     """
     # 1. Piezas: (índice de sección, líneas), con las secciones largas ya divididas.
+    #    Con `split_rows`, cada fila de tabla o celda de mapa es una pieza propia; el resto de las
+    #    líneas consecutivas se empaqueta como siempre.
     pieces: list[tuple[int, list[str]]] = []
     for i, sec in enumerate(sections):
         lines = [ln for ln in sec.text.split("\n") if ln.strip()]
-        for block in _split_lines(lines, max_words):
-            pieces.append((i, block))
+        run: list[str] = []
+        for ln in lines:
+            if split_rows and is_table_row(ln):
+                pieces += [(i, block) for block in _split_lines(run, max_words)]
+                run = []
+                pieces += [(i, block) for block in _split_lines([ln], max_words)]
+            else:
+                run.append(ln)
+        pieces += [(i, block) for block in _split_lines(run, max_words)]
 
     # 2. Unir piezas diminutas con la siguiente.
     def size(group: list[tuple[int, list[str]]]) -> int:

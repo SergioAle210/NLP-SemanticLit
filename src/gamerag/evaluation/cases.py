@@ -22,6 +22,7 @@ from gamerag.ingest.models import Chunk
 
 Category = Literal[
     "direct", "paraphrase", "exact_id", "compound", "ambiguous", "unanswerable", "version",
+    "robustness",  # propia: lenguaje coloquial, vago o con errores de tipeo (como escribe un jugador real)
     "multigame", "tool", "security",
 ]
 
@@ -41,6 +42,9 @@ class EvalCase(BaseModel):
     profile: str
     lang: str = "en"
     evidence: list[list[str]] = []
+    # Quién escribió la pregunta. "team": integrantes que no vieron el corpus ni el sistema al escribirla
+    # (conjunto independiente para medir si una mejora generaliza). "assistant": escrita conociendo el corpus.
+    author: Literal["assistant", "team"] = "assistant"
 
     @model_validator(mode="after")
     def _consistent(self) -> EvalCase:

@@ -1,0 +1,4035 @@
+{
+  "run": {
+    "game": "zelda1",
+    "retriever": "hybrid",
+    "embedding_model": "e5-small-multi",
+    "reranker": "minilm-en",
+    "chunker": "structural-w225-m15",
+    "depth": 20,
+    "n_chunks": 243,
+    "date": "2026-11-06T01:57:40+00:00",
+    "cases_total": 26,
+    "cases_evaluated": 24,
+    "cases_skipped": [
+      "zelda_unanswerable_01",
+      "zelda_unanswerable_02"
+    ],
+    "setup_seconds": 56.6,
+    "latency_ms": {
+      "mean": 807.8,
+      "p95": 865.6
+    }
+  },
+  "overall": {
+    "n": 24,
+    "mrr": 0.5505,
+    "recall@1": 0.4167,
+    "precision@1": 0.4167,
+    "coverage@1": 0.4167,
+    "recall@3": 0.6667,
+    "precision@3": 0.2917,
+    "coverage@3": 0.6667,
+    "recall@5": 0.6667,
+    "precision@5": 0.2333,
+    "coverage@5": 0.6667,
+    "recall@10": 0.7917,
+    "precision@10": 0.1708,
+    "coverage@10": 0.7708
+  },
+  "course": {
+    "n": 18,
+    "mrr": 0.6422,
+    "recall@1": 0.5,
+    "precision@1": 0.5,
+    "coverage@1": 0.5,
+    "recall@3": 0.7778,
+    "precision@3": 0.3519,
+    "coverage@3": 0.7778,
+    "recall@5": 0.7778,
+    "precision@5": 0.2889,
+    "coverage@5": 0.7778,
+    "recall@10": 0.8889,
+    "precision@10": 0.2111,
+    "coverage@10": 0.8611
+  },
+  "by_category": {
+    "ambiguous": {
+      "n": 2,
+      "mrr": 0.25,
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "coverage@1": 0.0,
+      "recall@3": 0.5,
+      "precision@3": 0.1667,
+      "coverage@3": 0.5,
+      "recall@5": 0.5,
+      "precision@5": 0.1,
+      "coverage@5": 0.5,
+      "recall@10": 1.0,
+      "precision@10": 0.15,
+      "coverage@10": 1.0
+    },
+    "compound": {
+      "n": 3,
+      "mrr": 0.381,
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "coverage@1": 0.0,
+      "recall@3": 0.6667,
+      "precision@3": 0.3333,
+      "coverage@3": 0.6667,
+      "recall@5": 0.6667,
+      "precision@5": 0.2667,
+      "coverage@5": 0.6667,
+      "recall@10": 1.0,
+      "precision@10": 0.2333,
+      "coverage@10": 0.8333
+    },
+    "direct": {
+      "n": 5,
+      "mrr": 0.8167,
+      "recall@1": 0.8,
+      "precision@1": 0.8,
+      "coverage@1": 0.8,
+      "recall@3": 0.8,
+      "precision@3": 0.4667,
+      "coverage@3": 0.8,
+      "recall@5": 0.8,
+      "precision@5": 0.4,
+      "coverage@5": 0.8,
+      "recall@10": 0.8,
+      "precision@10": 0.3,
+      "coverage@10": 0.8
+    },
+    "exact_id": {
+      "n": 3,
+      "mrr": 0.4444,
+      "recall@1": 0.3333,
+      "precision@1": 0.3333,
+      "coverage@1": 0.3333,
+      "recall@3": 0.6667,
+      "precision@3": 0.2222,
+      "coverage@3": 0.6667,
+      "recall@5": 0.6667,
+      "precision@5": 0.1333,
+      "coverage@5": 0.6667,
+      "recall@10": 0.6667,
+      "precision@10": 0.1,
+      "coverage@10": 0.6667
+    },
+    "paraphrase": {
+      "n": 3,
+      "mrr": 0.8333,
+      "recall@1": 0.6667,
+      "precision@1": 0.6667,
+      "coverage@1": 0.6667,
+      "recall@3": 1.0,
+      "precision@3": 0.4444,
+      "coverage@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.4667,
+      "coverage@5": 1.0,
+      "recall@10": 1.0,
+      "precision@10": 0.2667,
+      "coverage@10": 1.0
+    },
+    "robustness": {
+      "n": 6,
+      "mrr": 0.2754,
+      "recall@1": 0.1667,
+      "precision@1": 0.1667,
+      "coverage@1": 0.1667,
+      "recall@3": 0.3333,
+      "precision@3": 0.1111,
+      "coverage@3": 0.3333,
+      "recall@5": 0.3333,
+      "precision@5": 0.0667,
+      "coverage@5": 0.3333,
+      "recall@10": 0.5,
+      "precision@10": 0.05,
+      "coverage@10": 0.5
+    },
+    "version": {
+      "n": 2,
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "coverage@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "coverage@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "coverage@5": 1.0,
+      "recall@10": 1.0,
+      "precision@10": 0.1,
+      "coverage@10": 1.0
+    }
+  },
+  "cases": [
+    {
+      "id": "zelda_direct_01",
+      "category": "direct",
+      "question": "Which button swings the sword?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 4.0604,
+          "chunk_id": "zelda1:controls:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 0.0307,
+          "chunk_id": "zelda1:items:009",
+          "section": "B Button items > Magical Wand",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -3.5458,
+          "chunk_id": "zelda1:items:013",
+          "section": "B Button items > Water of Life",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -5.0142,
+          "chunk_id": "zelda1:items:000",
+          "section": "Swords > Wooden Sword",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -5.5685,
+          "chunk_id": "zelda1:items:014",
+          "section": "B Button items > Whistle",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -6.2282,
+          "chunk_id": "zelda1:items:007",
+          "section": "B Button items > Boomerang",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -6.4432,
+          "chunk_id": "zelda1:items:002",
+          "section": "Swords > Magic Sword",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -6.5718,
+          "chunk_id": "zelda1:items:001",
+          "section": "Swords > White Sword",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -6.9986,
+          "chunk_id": "zelda1:items:008",
+          "section": "B Button items > Bow and Arrows",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -7.586,
+          "chunk_id": "zelda1:overworld-quest-1:009",
+          "section": "Get the white sword",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -7.7919,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-9:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -7.8777,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-9:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -8.0299,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -8.2528,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:002",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -8.5443,
+          "chunk_id": "zelda1:items:006",
+          "section": "B Button items > Bomb",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -8.5825,
+          "chunk_id": "zelda1:items:012",
+          "section": "B Button items > Candles",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -8.8757,
+          "chunk_id": "zelda1:enemies:005",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -8.8766,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -9.0114,
+          "chunk_id": "zelda1:items:011",
+          "section": "B Button items > Monster Bait",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -10.7389,
+          "chunk_id": "zelda1:items:010",
+          "section": "B Button items > Letter",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_direct_02",
+      "category": "direct",
+      "question": "How much does the Blue Candle cost?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 1.0,
+      "precision@5": 1.0,
+      "precision@10": 0.9,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 3.5265,
+          "chunk_id": "zelda1:overworld-quest-1:003",
+          "section": "Buy the blue candle",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 3.3202,
+          "chunk_id": "zelda1:walkthrough:001",
+          "section": "1st Quest Overview",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "score": 2.167,
+          "chunk_id": "zelda1:overworld-hyrule-1:002",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 4,
+          "score": 2.0727,
+          "chunk_id": "zelda1:overworld-hyrule-6:003",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 5,
+          "score": 0.7803,
+          "chunk_id": "zelda1:overworld-hyrule-1:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 6,
+          "score": 0.6803,
+          "chunk_id": "zelda1:overworld-hyrule-8:003",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 7,
+          "score": -0.0546,
+          "chunk_id": "zelda1:overworld-hyrule-6:001",
+          "section": "1st Quest",
+          "relevant": true
+        },
+        {
+          "rank": 8,
+          "score": -0.2853,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -0.859,
+          "chunk_id": "zelda1:citizens:002",
+          "section": "Shop Keeper",
+          "relevant": true
+        },
+        {
+          "rank": 10,
+          "score": -1.9806,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": true
+        },
+        {
+          "rank": 11,
+          "score": -2.8178,
+          "chunk_id": "zelda1:overworld-hyrule-2:002",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 12,
+          "score": -2.8555,
+          "chunk_id": "zelda1:overworld-quest-1:004",
+          "section": "Get to the eastern Fairy Fountain",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -3.1078,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -3.4179,
+          "chunk_id": "zelda1:items:012",
+          "section": "B Button items > Candles",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -5.1535,
+          "chunk_id": "zelda1:overworld-quest-2:002",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -7.5124,
+          "chunk_id": "zelda1:overworld-quest-1:013",
+          "section": "Summary",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -10.3441,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-4:004",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -10.9357,
+          "chunk_id": "zelda1:enemies:007",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -11.0359,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:005",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.3443,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:001",
+          "section": "Walkthrough > Advised Preparation",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_direct_03",
+      "category": "direct",
+      "question": "How many Heart Containers do I need to get the White Sword?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.6666666666666666,
+      "precision@5": 0.6,
+      "precision@10": 0.4,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 6.7728,
+          "chunk_id": "zelda1:items:001",
+          "section": "Swords > White Sword",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 6.6557,
+          "chunk_id": "zelda1:overworld-hyrule-3:003",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "score": 5.8771,
+          "chunk_id": "zelda1:overworld-quest-1:013",
+          "section": "Summary",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 5.8589,
+          "chunk_id": "zelda1:overworld-quest-1:009",
+          "section": "Get the white sword",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 5.8343,
+          "chunk_id": "zelda1:overworld-hyrule-3:001",
+          "section": "1st Quest",
+          "relevant": true
+        },
+        {
+          "rank": 6,
+          "score": 5.1632,
+          "chunk_id": "zelda1:walkthrough:001",
+          "section": "1st Quest Overview",
+          "relevant": true
+        },
+        {
+          "rank": 7,
+          "score": 4.7426,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-5:001",
+          "section": "Walkthrough > Advised Preparation",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 3.951,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 3.2008,
+          "chunk_id": "zelda1:items:002",
+          "section": "Swords > Magic Sword",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 1.6148,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:002",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 1.1787,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.1429,
+          "chunk_id": "zelda1:overworld-quest-1:001",
+          "section": "Get to the western Fairy Fountain",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -0.0003,
+          "chunk_id": "zelda1:walkthrough:005",
+          "section": "2nd Quest Overview",
+          "relevant": true
+        },
+        {
+          "rank": 14,
+          "score": -0.2471,
+          "chunk_id": "zelda1:overworld-quest-2:002",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -0.9536,
+          "chunk_id": "zelda1:citizens:000",
+          "section": "Link",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -1.4257,
+          "chunk_id": "zelda1:walkthrough:006",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -2.5743,
+          "chunk_id": "zelda1:walkthrough:002",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -2.8036,
+          "chunk_id": "zelda1:gameplay:005",
+          "section": "The Screen > Status Bar",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -3.8121,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -7.795,
+          "chunk_id": "zelda1:overworld-hyrule-2:002",
+          "section": "2nd Quest",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_direct_04",
+      "category": "direct",
+      "question": "Which item can I find in Level-3 of the first quest?",
+      "first_relevant_rank": 12,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 0.0,
+      "rr": 0.08333333333333333,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 4.0701,
+          "chunk_id": "zelda1:overworld-hyrule-3:002",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 3.0816,
+          "chunk_id": "zelda1:items:002",
+          "section": "Swords > Magic Sword",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 2.6479,
+          "chunk_id": "zelda1:walkthrough:002",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 1.5361,
+          "chunk_id": "zelda1:walkthrough:006",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 1.5029,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 1.0244,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 0.4469,
+          "chunk_id": "zelda1:overworld-hyrule-3:004",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 0.1896,
+          "chunk_id": "zelda1:overworld-quest-1:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 0.0514,
+          "chunk_id": "zelda1:walkthrough:005",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -0.3026,
+          "chunk_id": "zelda1:overworld-quest-2:002",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -0.8999,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -1.0783,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:000",
+          "section": "Objectives",
+          "relevant": true
+        },
+        {
+          "rank": 13,
+          "score": -1.1512,
+          "chunk_id": "zelda1:walkthrough:003",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -1.2993,
+          "chunk_id": "zelda1:items:014",
+          "section": "B Button items > Whistle",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -1.3143,
+          "chunk_id": "zelda1:walkthrough:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -2.0204,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -2.1573,
+          "chunk_id": "zelda1:walkthrough:007",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -3.0452,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:001",
+          "section": "Dungeon walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -4.1113,
+          "chunk_id": "zelda1:overworld-hyrule-4:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -8.7929,
+          "chunk_id": "zelda1:items:010",
+          "section": "B Button items > Letter",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_direct_05",
+      "category": "direct",
+      "question": "How powerful is the Magic Sword?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 7.2576,
+          "chunk_id": "zelda1:items:002",
+          "section": "Swords > Magic Sword",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 3.8711,
+          "chunk_id": "zelda1:items:001",
+          "section": "Swords > White Sword",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.0978,
+          "chunk_id": "zelda1:enemies:007",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -0.5046,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -0.9143,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-9:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -1.0191,
+          "chunk_id": "zelda1:items:009",
+          "section": "B Button items > Magical Wand",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -1.1481,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:002",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -1.4264,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -1.8428,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-5:001",
+          "section": "Walkthrough > Advised Preparation",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -2.1324,
+          "chunk_id": "zelda1:walkthrough:001",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -3.2784,
+          "chunk_id": "zelda1:enemies:005",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -4.1453,
+          "chunk_id": "zelda1:overworld-quest-1:014",
+          "section": "Treasures of the eight levels",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -4.3571,
+          "chunk_id": "zelda1:overworld-hyrule-6:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -4.7353,
+          "chunk_id": "zelda1:items:000",
+          "section": "Swords > Wooden Sword",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -6.5145,
+          "chunk_id": "zelda1:overworld-hyrule-7:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -6.7882,
+          "chunk_id": "zelda1:walkthrough:006",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -7.5434,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -7.9521,
+          "chunk_id": "zelda1:items:020",
+          "section": "Automatic items > Book of Magic",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -8.0381,
+          "chunk_id": "zelda1:main:002",
+          "section": "Story",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -10.2601,
+          "chunk_id": "zelda1:items:022",
+          "section": "Automatic items > Magic Key",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_paraphrase_01",
+      "category": "paraphrase",
+      "question": "How can I sail across the sea?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": -6.4757,
+          "chunk_id": "zelda1:items:024",
+          "section": "Automatic items > Raft",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": -9.6913,
+          "chunk_id": "zelda1:overworld-quest-1:006",
+          "section": "Get the letter and buy a red potion",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -10.9061,
+          "chunk_id": "zelda1:overworld-quest-1:009",
+          "section": "Get the white sword",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -10.9397,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -11.0084,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:003",
+          "section": "Objectives > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -11.1238,
+          "chunk_id": "zelda1:underworld:002",
+          "section": "General Tips",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -11.1298,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -11.1496,
+          "chunk_id": "zelda1:bosses:003",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -11.1863,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -11.2171,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:001",
+          "section": "Objectives > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -11.219,
+          "chunk_id": "zelda1:overworld-hyrule-6:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -11.2474,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:002",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -11.2798,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:004",
+          "section": "Dungeon Walkthrough > Collect the third and fourth keys",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -11.303,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-6:004",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -11.3044,
+          "chunk_id": "zelda1:overworld-hyrule-2:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -11.3276,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-9:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -11.3656,
+          "chunk_id": "zelda1:overworld:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -11.3975,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:004",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -11.3998,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:001",
+          "section": "Walkthrough > Advised Preparation",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.4061,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:005",
+          "section": "Resupply",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_paraphrase_02",
+      "category": "paraphrase",
+      "question": "Is there somewhere my hearts get refilled without paying?",
+      "first_relevant_rank": 2,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.4,
+      "precision@10": 0.2,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": -6.9244,
+          "chunk_id": "zelda1:items:004",
+          "section": "Enemy drops > Heart",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": -11.1705,
+          "chunk_id": "zelda1:items:003",
+          "section": "Enemy drops > Fairy",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "score": -11.1987,
+          "chunk_id": "zelda1:overworld-hyrule-5:002",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -11.2074,
+          "chunk_id": "zelda1:overworld-hyrule-4:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 5,
+          "score": -11.2461,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:002",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -11.2959,
+          "chunk_id": "zelda1:overworld-hyrule-8:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -11.3016,
+          "chunk_id": "zelda1:overworld-hyrule-8:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -11.3483,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -11.3956,
+          "chunk_id": "zelda1:overworld-hyrule-7:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -11.4095,
+          "chunk_id": "zelda1:cheats:002",
+          "section": "Enemy Change",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -11.4241,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-9:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -11.4315,
+          "chunk_id": "zelda1:cheats:000",
+          "section": "Second Quest",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -11.4416,
+          "chunk_id": "zelda1:items:021",
+          "section": "Automatic items > Ladder",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -11.4458,
+          "chunk_id": "zelda1:cheats:003",
+          "section": "Unlock a Door Without a Key in the First Dungeon",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -11.4557,
+          "chunk_id": "zelda1:items:023",
+          "section": "Automatic items > Power Bracelet",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -11.4558,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:004",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -11.4562,
+          "chunk_id": "zelda1:overworld-quest-1:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -11.4727,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:005",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -11.4749,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-4:007",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.4759,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:005",
+          "section": "Resupply",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_paraphrase_03",
+      "category": "paraphrase",
+      "question": "How can I win cash by gambling?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.6666666666666666,
+      "precision@5": 0.8,
+      "precision@10": 0.5,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": -7.3931,
+          "chunk_id": "zelda1:cheats:004",
+          "section": "Money Making Game",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": -8.3208,
+          "chunk_id": "zelda1:overworld-quest-1:006",
+          "section": "Get the letter and buy a red potion",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -9.1069,
+          "chunk_id": "zelda1:overworld-hyrule-1:003",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 4,
+          "score": -9.6121,
+          "chunk_id": "zelda1:citizens:004",
+          "section": "Old Man (Overworld)",
+          "relevant": true
+        },
+        {
+          "rank": 5,
+          "score": -10.5182,
+          "chunk_id": "zelda1:overworld-hyrule-6:003",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 6,
+          "score": -10.7165,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:004",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -10.7977,
+          "chunk_id": "zelda1:overworld-hyrule-8:002",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 8,
+          "score": -10.8384,
+          "chunk_id": "zelda1:overworld-hyrule-8:001",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -10.882,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:003",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -10.9171,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:002",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -10.948,
+          "chunk_id": "zelda1:walkthrough:003",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -10.9967,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:005",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -11.0509,
+          "chunk_id": "zelda1:walkthrough:001",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -11.0593,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-8:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -11.1194,
+          "chunk_id": "zelda1:overworld-hyrule-2:001",
+          "section": "1st Quest",
+          "relevant": true
+        },
+        {
+          "rank": 16,
+          "score": -11.1889,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -11.1897,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -11.1943,
+          "chunk_id": "zelda1:overworld-hyrule-1:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 19,
+          "score": -11.2167,
+          "chunk_id": "zelda1:overworld-hyrule-6:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.362,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-6:000",
+          "section": "Objectives",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_exact_01",
+      "category": "exact_id",
+      "question": "What does the old man in Level-4 of the first quest say?",
+      "first_relevant_rank": null,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 0.0,
+      "rr": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 3.6624,
+          "chunk_id": "zelda1:walkthrough:002",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 1.5587,
+          "chunk_id": "zelda1:walkthrough:005",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6072,
+          "chunk_id": "zelda1:citizens:005",
+          "section": "Old Man (Underworld)",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -0.3413,
+          "chunk_id": "zelda1:overworld-hyrule-3:002",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -0.3958,
+          "chunk_id": "zelda1:overworld-hyrule-8:001",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -0.8386,
+          "chunk_id": "zelda1:overworld-quest-1:001",
+          "section": "Get to the western Fairy Fountain",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -1.1216,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -1.7667,
+          "chunk_id": "zelda1:walkthrough:006",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -2.0623,
+          "chunk_id": "zelda1:overworld-hyrule-4:001",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -3.1142,
+          "chunk_id": "zelda1:overworld-hyrule-4:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -3.8513,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:006",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -4.437,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:001",
+          "section": "Dungeon walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -4.5386,
+          "chunk_id": "zelda1:walkthrough:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -5.1222,
+          "chunk_id": "zelda1:walkthrough:003",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -5.319,
+          "chunk_id": "zelda1:overworld-hyrule-3:004",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -5.5705,
+          "chunk_id": "zelda1:citizens:004",
+          "section": "Old Man (Overworld)",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -5.9082,
+          "chunk_id": "zelda1:overworld-hyrule-8:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -6.0368,
+          "chunk_id": "zelda1:walkthrough:007",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -7.1994,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -7.5358,
+          "chunk_id": "zelda1:overworld-hyrule-4:000",
+          "section": "(intro)",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_exact_02",
+      "category": "exact_id",
+      "question": "What can I buy at D-4 in section 2 of the overworld?",
+      "first_relevant_rank": 3,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.2,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.3333333333333333,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 4.5812,
+          "chunk_id": "zelda1:overworld-hyrule-6:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 3.5104,
+          "chunk_id": "zelda1:overworld-hyrule-7:001",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 3.4659,
+          "chunk_id": "zelda1:overworld-hyrule-2:002",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 4,
+          "score": 3.3832,
+          "chunk_id": "zelda1:overworld-hyrule-4:001",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 3.0753,
+          "chunk_id": "zelda1:overworld-hyrule-5:002",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 2.9726,
+          "chunk_id": "zelda1:overworld-hyrule-1:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 2.7361,
+          "chunk_id": "zelda1:overworld-hyrule-4:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 2.7204,
+          "chunk_id": "zelda1:overworld-hyrule-4:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 2.7109,
+          "chunk_id": "zelda1:overworld-quest-2:002",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 2.5773,
+          "chunk_id": "zelda1:overworld-hyrule-2:001",
+          "section": "1st Quest",
+          "relevant": true
+        },
+        {
+          "rank": 11,
+          "score": 2.574,
+          "chunk_id": "zelda1:overworld-hyrule-5:004",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 2.4516,
+          "chunk_id": "zelda1:overworld-hyrule-6:001",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 2.4267,
+          "chunk_id": "zelda1:overworld-hyrule-7:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 2.1647,
+          "chunk_id": "zelda1:overworld-hyrule-6:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 2.0148,
+          "chunk_id": "zelda1:overworld-hyrule-1:001",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 1.9623,
+          "chunk_id": "zelda1:overworld-hyrule-4:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 1.9552,
+          "chunk_id": "zelda1:overworld-hyrule-7:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": 0.751,
+          "chunk_id": "zelda1:overworld-hyrule-1:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -1.1228,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:001",
+          "section": "Objectives > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -3.11,
+          "chunk_id": "zelda1:overworld-hyrule-3:004",
+          "section": "2nd Quest",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_exact_03",
+      "category": "exact_id",
+      "question": "What happens if I register my name as ZELDA?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 3.6633,
+          "chunk_id": "zelda1:cheats:000",
+          "section": "Second Quest",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": -0.4733,
+          "chunk_id": "zelda1:gameplay:000",
+          "section": "Starting the Game > Starting a New Game",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -4.8517,
+          "chunk_id": "zelda1:citizens:001",
+          "section": "Zelda",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -5.1649,
+          "chunk_id": "zelda1:main:003",
+          "section": "Story",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -6.4173,
+          "chunk_id": "zelda1:main:001",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -6.7379,
+          "chunk_id": "zelda1:main:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -7.9348,
+          "chunk_id": "zelda1:main:002",
+          "section": "Story",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -8.0593,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-9:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -8.6156,
+          "chunk_id": "zelda1:items:008",
+          "section": "B Button items > Bow and Arrows",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -10.7028,
+          "chunk_id": "zelda1:gameplay:001",
+          "section": "Starting the Game > Erasing an Old Game",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -10.8567,
+          "chunk_id": "zelda1:enemies:001",
+          "section": "Overworld",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -11.074,
+          "chunk_id": "zelda1:enemies:004",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -11.0742,
+          "chunk_id": "zelda1:enemies:005",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -11.0999,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -11.1007,
+          "chunk_id": "zelda1:enemies:006",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -11.1111,
+          "chunk_id": "zelda1:overworld-hyrule-6:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -11.1193,
+          "chunk_id": "zelda1:enemies:002",
+          "section": "Overworld",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -11.1613,
+          "chunk_id": "zelda1:items:026",
+          "section": "Automatic items > Shields",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -11.1863,
+          "chunk_id": "zelda1:enemies:007",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.3789,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:008",
+          "section": "Resupply",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_compound_01",
+      "category": "compound",
+      "question": "Where can I buy the Blue Candle, and what can it be used for?",
+      "first_relevant_rank": 2,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.6666666666666666,
+      "precision@5": 0.6,
+      "precision@10": 0.5,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 5.5968,
+          "chunk_id": "zelda1:overworld-quest-1:004",
+          "section": "Get to the eastern Fairy Fountain",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 4.7322,
+          "chunk_id": "zelda1:overworld-quest-1:003",
+          "section": "Buy the blue candle",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "score": 4.1677,
+          "chunk_id": "zelda1:items:012",
+          "section": "B Button items > Candles",
+          "relevant": true
+        },
+        {
+          "rank": 4,
+          "score": 3.8068,
+          "chunk_id": "zelda1:walkthrough:001",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.6197,
+          "chunk_id": "zelda1:overworld-hyrule-1:002",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 6,
+          "score": 0.6172,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -0.03,
+          "chunk_id": "zelda1:overworld-hyrule-6:003",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 8,
+          "score": -0.5655,
+          "chunk_id": "zelda1:overworld-quest-2:002",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -1.698,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -2.7011,
+          "chunk_id": "zelda1:overworld-hyrule-8:003",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 11,
+          "score": -2.7389,
+          "chunk_id": "zelda1:overworld-hyrule-2:002",
+          "section": "2nd Quest",
+          "relevant": true
+        },
+        {
+          "rank": 12,
+          "score": -2.8011,
+          "chunk_id": "zelda1:overworld-quest-1:013",
+          "section": "Summary",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -3.3701,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -3.4937,
+          "chunk_id": "zelda1:citizens:002",
+          "section": "Shop Keeper",
+          "relevant": true
+        },
+        {
+          "rank": 15,
+          "score": -4.9909,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-8:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -6.4726,
+          "chunk_id": "zelda1:items:020",
+          "section": "Automatic items > Book of Magic",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -8.2996,
+          "chunk_id": "zelda1:items:024",
+          "section": "Automatic items > Raft",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -8.8307,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -9.1984,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -10.5786,
+          "chunk_id": "zelda1:items:022",
+          "section": "Automatic items > Magic Key",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_compound_02",
+      "category": "compound",
+      "question": "Who is the boss of Level-1 in the first quest and how do I defeat him?",
+      "first_relevant_rank": 2,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 5.8219,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 5.5265,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "score": 5.512,
+          "chunk_id": "zelda1:bosses:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 5.406,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:002",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 4.6347,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:003",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 4.6036,
+          "chunk_id": "zelda1:bosses:002",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 3.4184,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 3.2241,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 3.139,
+          "chunk_id": "zelda1:bosses:003",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 2.8017,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 2.7992,
+          "chunk_id": "zelda1:bosses:004",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 2.7715,
+          "chunk_id": "zelda1:bosses:001",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 2.0106,
+          "chunk_id": "zelda1:walkthrough:002",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 1.3312,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -1.0029,
+          "chunk_id": "zelda1:walkthrough:003",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -1.5002,
+          "chunk_id": "zelda1:overworld-hyrule-3:002",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -2.2117,
+          "chunk_id": "zelda1:walkthrough:007",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -2.2925,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:003",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -2.5714,
+          "chunk_id": "zelda1:walkthrough:006",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -2.7829,
+          "chunk_id": "zelda1:walkthrough:000",
+          "section": "(intro)",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_compound_03",
+      "category": "compound",
+      "question": "What do I need to enter Level-4 in the first quest, and which item is inside?",
+      "first_relevant_rank": 7,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 0.5,
+      "rr": 0.14285714285714285,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 4.0045,
+          "chunk_id": "zelda1:overworld-hyrule-3:002",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 2.6577,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:002",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 2.1411,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 1.6122,
+          "chunk_id": "zelda1:walkthrough:006",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 0.738,
+          "chunk_id": "zelda1:walkthrough:002",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 0.1799,
+          "chunk_id": "zelda1:walkthrough:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -0.664,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:002",
+          "section": "Objectives > Dungeon Walkthrough",
+          "relevant": true
+        },
+        {
+          "rank": 8,
+          "score": -1.0122,
+          "chunk_id": "zelda1:walkthrough:003",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -1.0163,
+          "chunk_id": "zelda1:walkthrough:005",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -1.1497,
+          "chunk_id": "zelda1:overworld-quest-1:013",
+          "section": "Summary",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -1.3863,
+          "chunk_id": "zelda1:walkthrough:007",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -2.1809,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -2.3691,
+          "chunk_id": "zelda1:overworld-hyrule-8:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -2.5067,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -3.2539,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:000",
+          "section": "Objectives",
+          "relevant": true
+        },
+        {
+          "rank": 16,
+          "score": -3.575,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-9:001",
+          "section": "Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -3.6031,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:003",
+          "section": "Objectives > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -4.0763,
+          "chunk_id": "zelda1:overworld-hyrule-3:004",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -5.8293,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -7.4305,
+          "chunk_id": "zelda1:items:010",
+          "section": "B Button items > Letter",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_ambiguous_01",
+      "category": "ambiguous",
+      "question": "How do I beat the dragon boss?",
+      "first_relevant_rank": 6,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.2,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 1.0,
+      "rr": 0.16666666666666666,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 3.2101,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 2.9524,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 2.8009,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -0.7754,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:002",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -0.824,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:003",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -1.4846,
+          "chunk_id": "zelda1:bosses:002",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 7,
+          "score": -1.4926,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -2.6778,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:004",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -3.0044,
+          "chunk_id": "zelda1:bosses:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 10,
+          "score": -3.7622,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-9:004",
+          "section": "Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -4.1493,
+          "chunk_id": "zelda1:bosses:001",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -4.3093,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-8:003",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -4.3466,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -4.7369,
+          "chunk_id": "zelda1:bosses:003",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -8.5291,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -8.8025,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -8.8997,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-6:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -9.3046,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -9.539,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -9.61,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:000",
+          "section": "Objectives",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_ambiguous_02",
+      "category": "ambiguous",
+      "question": "How do I defeat Gleeok?",
+      "first_relevant_rank": 3,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.3333333333333333,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 7.4423,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-8:003",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": 7.3679,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 7.3067,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:005",
+          "section": "Boss",
+          "relevant": true
+        },
+        {
+          "rank": 4,
+          "score": 7.1836,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 6.9955,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 6.3927,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-6:002",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 6.0655,
+          "chunk_id": "zelda1:walkthrough:007",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 4.5879,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 4.513,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-8:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 4.0283,
+          "chunk_id": "zelda1:walkthrough:005",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 3.8594,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-6:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 3.6269,
+          "chunk_id": "zelda1:bosses:002",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 13,
+          "score": 3.5246,
+          "chunk_id": "zelda1:walkthrough:006",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 3.1852,
+          "chunk_id": "zelda1:walkthrough:002",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -1.4384,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -1.52,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -1.6334,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -2.1114,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-9:004",
+          "section": "Walkthrough > Find Ganon",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -3.5039,
+          "chunk_id": "zelda1:walkthrough:003",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -4.0037,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-9:004",
+          "section": "Walkthrough",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_version_01",
+      "category": "version",
+      "question": "In the first quest, which dungeon has the Ladder?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 4.5275,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:000",
+          "section": "Objectives",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 4.2966,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-6:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 3.7611,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-5:001",
+          "section": "Walkthrough > Advised Preparation",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 3.2074,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-4:007",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 3.0147,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:002",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 2.6688,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:003",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 2.5695,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:003",
+          "section": "Objectives > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 1.9005,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 1.7589,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 1.6976,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-5:002",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 1.1585,
+          "chunk_id": "zelda1:underworld:003",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 0.6344,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 0.3665,
+          "chunk_id": "zelda1:bosses:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -0.0878,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -0.2028,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:002",
+          "section": "Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -0.261,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -0.2843,
+          "chunk_id": "zelda1:bosses:003",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -0.5133,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -1.4253,
+          "chunk_id": "zelda1:overworld-hyrule-3:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -2.4074,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-6:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_version_02",
+      "category": "version",
+      "question": "In the second quest, which dungeon has the Ladder?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 4.9476,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-6:000",
+          "section": "Objectives",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": 4.7402,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": 4.3529,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-4:007",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": 3.9481,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:003",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": 3.9069,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-5:001",
+          "section": "Walkthrough > Advised Preparation",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": 3.3779,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": 3.2913,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:002",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": 3.0298,
+          "chunk_id": "zelda1:underworld:004",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": 2.7179,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": 2.2642,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:003",
+          "section": "Objectives > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": 1.7727,
+          "chunk_id": "zelda1:overworld-hyrule-3:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": 1.4254,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": 1.1909,
+          "chunk_id": "zelda1:bosses:003",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": 0.7869,
+          "chunk_id": "zelda1:walkthrough:007",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": 0.7042,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:002",
+          "section": "Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": 0.2996,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": 0.0416,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:001",
+          "section": "Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -0.9501,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-6:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": true
+        },
+        {
+          "rank": 19,
+          "score": -2.1561,
+          "chunk_id": "zelda1:cheats:000",
+          "section": "Second Quest",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -2.6563,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-4:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_robust_01",
+      "category": "robustness",
+      "question": "How can I attack?",
+      "first_relevant_rank": 19,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 0.0,
+      "rr": 0.05263157894736842,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": -1.0635,
+          "chunk_id": "zelda1:citizens:005",
+          "section": "Old Man (Underworld)",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": -3.9125,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -4.6148,
+          "chunk_id": "zelda1:bosses:004",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -4.8998,
+          "chunk_id": "zelda1:enemies:000",
+          "section": "Overworld",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -5.1098,
+          "chunk_id": "zelda1:items:021",
+          "section": "Automatic items > Ladder",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -5.1895,
+          "chunk_id": "zelda1:enemies:005",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -5.591,
+          "chunk_id": "zelda1:enemies:006",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -5.9237,
+          "chunk_id": "zelda1:items:026",
+          "section": "Automatic items > Shields",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -6.1823,
+          "chunk_id": "zelda1:enemies:002",
+          "section": "Overworld",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -6.2614,
+          "chunk_id": "zelda1:enemies:007",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -6.3101,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-9:004",
+          "section": "Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -6.5293,
+          "chunk_id": "zelda1:bosses:001",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -6.8862,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:003",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -7.374,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:003",
+          "section": "Objectives > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -7.5849,
+          "chunk_id": "zelda1:bosses:002",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -8.1451,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -9.2381,
+          "chunk_id": "zelda1:bosses:003",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -10.5295,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -10.9278,
+          "chunk_id": "zelda1:controls:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 20,
+          "score": -11.2094,
+          "chunk_id": "zelda1:overworld-hyrule-2:000",
+          "section": "(intro)",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_robust_02",
+      "category": "robustness",
+      "question": "Which button do i have to press to attack?",
+      "first_relevant_rank": 10,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 1.0,
+      "rr": 0.1,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": -6.1459,
+          "chunk_id": "zelda1:items:011",
+          "section": "B Button items > Monster Bait",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": -6.4651,
+          "chunk_id": "zelda1:items:008",
+          "section": "B Button items > Bow and Arrows",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -6.8231,
+          "chunk_id": "zelda1:gameplay:001",
+          "section": "Starting the Game > Erasing an Old Game",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -6.9619,
+          "chunk_id": "zelda1:cheats:004",
+          "section": "Money Making Game",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -7.0952,
+          "chunk_id": "zelda1:items:021",
+          "section": "Automatic items > Ladder",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -7.1018,
+          "chunk_id": "zelda1:items:009",
+          "section": "B Button items > Magical Wand",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -7.2582,
+          "chunk_id": "zelda1:items:007",
+          "section": "B Button items > Boomerang",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -7.5348,
+          "chunk_id": "zelda1:gameplay:000",
+          "section": "Starting the Game > Starting a New Game",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -8.3401,
+          "chunk_id": "zelda1:gameplay:003",
+          "section": "Starting the Game > Game Over Options",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -9.5601,
+          "chunk_id": "zelda1:controls:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 11,
+          "score": -9.7042,
+          "chunk_id": "zelda1:items:013",
+          "section": "B Button items > Water of Life",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -9.8371,
+          "chunk_id": "zelda1:enemies:005",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -9.8717,
+          "chunk_id": "zelda1:items:010",
+          "section": "B Button items > Letter",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -10.2576,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -10.3175,
+          "chunk_id": "zelda1:enemies:006",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -10.6476,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-1:002",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -10.9994,
+          "chunk_id": "zelda1:cheats:000",
+          "section": "Second Quest",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -11.0068,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-4:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -11.1708,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:005",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.2718,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:004",
+          "section": "Resupply",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_robust_03",
+      "category": "robustness",
+      "question": "How can I atack?",
+      "first_relevant_rank": null,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 0.0,
+      "rr": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": -9.3641,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:003",
+          "section": "Objectives > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": -9.4014,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:003",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -9.886,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-6:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -9.8894,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:002",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -9.8899,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:005",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -10.1891,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -10.3971,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:001",
+          "section": "Walkthrough > Pre-requisites",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -10.5877,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:003",
+          "section": "Walkthrough > Dungeon walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -10.6924,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -10.7267,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -10.8286,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:003",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -10.8298,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-7:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -10.8637,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-9:004",
+          "section": "Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -10.8651,
+          "chunk_id": "zelda1:walkthrough:003",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -10.9233,
+          "chunk_id": "zelda1:enemies:000",
+          "section": "Overworld",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -11.0984,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:004",
+          "section": "Dungeon Walkthrough > Collect the third and fourth keys",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -11.1436,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -11.1472,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:003",
+          "section": "Dungeon Walkthrough > Get the map and the hint from the man",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -11.4314,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-6:000",
+          "section": "Objectives",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.4644,
+          "chunk_id": "zelda1:overworld-hyrule-2:000",
+          "section": "(intro)",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_robust_04",
+      "category": "robustness",
+      "question": "how do i open the menu",
+      "first_relevant_rank": 2,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 0.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": -4.3972,
+          "chunk_id": "zelda1:gameplay:000",
+          "section": "Starting the Game > Starting a New Game",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": -4.9621,
+          "chunk_id": "zelda1:controls:000",
+          "section": "(intro)",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "score": -6.965,
+          "chunk_id": "zelda1:underworld:001",
+          "section": "General Tips",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -7.2511,
+          "chunk_id": "zelda1:gameplay:004",
+          "section": "The Screen > Sub-Screen",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -7.2709,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:002",
+          "section": "Objectives > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -7.283,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-4:006",
+          "section": "Walkthrough (continued)",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -7.535,
+          "chunk_id": "zelda1:gameplay:003",
+          "section": "Starting the Game > Game Over Options",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -8.1079,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:003",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -8.2225,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-8:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -8.793,
+          "chunk_id": "zelda1:items:015",
+          "section": "Dungeon items > Key",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -8.9294,
+          "chunk_id": "zelda1:gameplay:001",
+          "section": "Starting the Game > Erasing an Old Game",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -8.973,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:002",
+          "section": "Dungeon walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -9.0145,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-9:004",
+          "section": "Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -9.6208,
+          "chunk_id": "zelda1:cheats:003",
+          "section": "Unlock a Door Without a Key in the First Dungeon",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -10.3298,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:006",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -10.3735,
+          "chunk_id": "zelda1:walkthrough:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -10.5751,
+          "chunk_id": "zelda1:underworld:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -10.9873,
+          "chunk_id": "zelda1:gameplay:006",
+          "section": "The Screen > Normal view",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -11.0114,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-6:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.0364,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-6:003",
+          "section": "Boss",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_robust_05",
+      "category": "robustness",
+      "question": "can i blow up walls with bombz?",
+      "first_relevant_rank": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "precision@10": 0.1,
+      "coverage@1": 1.0,
+      "coverage@3": 1.0,
+      "coverage@5": 1.0,
+      "coverage@10": 1.0,
+      "rr": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": 3.9847,
+          "chunk_id": "zelda1:items:006",
+          "section": "B Button items > Bomb",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "score": -2.0217,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:003",
+          "section": "Walkthrough > Dungeon walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -3.7033,
+          "chunk_id": "zelda1:overworld-hyrule-7:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -4.7569,
+          "chunk_id": "zelda1:overworld-hyrule-2:003",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -5.3069,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:001",
+          "section": "Walkthrough > Prerequisites",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -5.5537,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-7:004",
+          "section": "Walkthrough > Dungeon walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -6.2129,
+          "chunk_id": "zelda1:overworld-hyrule-8:001",
+          "section": "1st Quest",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -6.4745,
+          "chunk_id": "zelda1:underworld:001",
+          "section": "General Tips",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -8.0008,
+          "chunk_id": "zelda1:enemies:007",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -9.1428,
+          "chunk_id": "zelda1:underworld:002",
+          "section": "General Tips",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -9.4782,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:003",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -9.7551,
+          "chunk_id": "zelda1:enemies:004",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -9.7815,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:006",
+          "section": "Walkthrough > Dungeon Walkthrough",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -10.3359,
+          "chunk_id": "zelda1:overworld-quest-1:002",
+          "section": "Get some bombs",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -10.5106,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-5:004",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -10.624,
+          "chunk_id": "zelda1:enemies:006",
+          "section": "Underworld",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -10.6915,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:005",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -10.8533,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:004",
+          "section": "Resupply",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -10.8655,
+          "chunk_id": "zelda1:overworld-hyrule-3:004",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.289,
+          "chunk_id": "zelda1:items:020",
+          "section": "Automatic items > Book of Magic",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "id": "zelda_robust_06",
+      "category": "robustness",
+      "question": "how do i use my secondary item",
+      "first_relevant_rank": null,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "coverage@1": 0.0,
+      "coverage@3": 0.0,
+      "coverage@5": 0.0,
+      "coverage@10": 0.0,
+      "rr": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "score": -3.0317,
+          "chunk_id": "zelda1:gameplay:004",
+          "section": "The Screen > Sub-Screen",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "score": -7.8152,
+          "chunk_id": "zelda1:gameplay:005",
+          "section": "The Screen > Status Bar",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "score": -8.1433,
+          "chunk_id": "zelda1:items:024",
+          "section": "Automatic items > Raft",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "score": -8.1943,
+          "chunk_id": "zelda1:items:014",
+          "section": "B Button items > Whistle",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "score": -9.0812,
+          "chunk_id": "zelda1:walkthrough:006",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "score": -9.2081,
+          "chunk_id": "zelda1:walkthrough:005",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "score": -9.6929,
+          "chunk_id": "zelda1:overworld-quest-2:001",
+          "section": "Quest 2 overworld",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "score": -9.8223,
+          "chunk_id": "zelda1:walkthrough:007",
+          "section": "2nd Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "score": -9.913,
+          "chunk_id": "zelda1:items:018",
+          "section": "Dungeon items > Heart Container",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "score": -9.924,
+          "chunk_id": "zelda1:items:017",
+          "section": "Dungeon items > Map",
+          "relevant": false
+        },
+        {
+          "rank": 11,
+          "score": -10.0938,
+          "chunk_id": "zelda1:walkthrough:000",
+          "section": "(intro)",
+          "relevant": false
+        },
+        {
+          "rank": 12,
+          "score": -10.1195,
+          "chunk_id": "zelda1:items:010",
+          "section": "B Button items > Letter",
+          "relevant": false
+        },
+        {
+          "rank": 13,
+          "score": -10.1703,
+          "chunk_id": "zelda1:walkthrough:003",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 14,
+          "score": -10.3679,
+          "chunk_id": "zelda1:gameplay:003",
+          "section": "Starting the Game > Game Over Options",
+          "relevant": false
+        },
+        {
+          "rank": 15,
+          "score": -10.4944,
+          "chunk_id": "zelda1:gameplay:001",
+          "section": "Starting the Game > Erasing an Old Game",
+          "relevant": false
+        },
+        {
+          "rank": 16,
+          "score": -10.5088,
+          "chunk_id": "zelda1:walkthrough:004",
+          "section": "1st Quest Overview",
+          "relevant": false
+        },
+        {
+          "rank": 17,
+          "score": -10.845,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-4:005",
+          "section": "Boss",
+          "relevant": false
+        },
+        {
+          "rank": 18,
+          "score": -10.9398,
+          "chunk_id": "zelda1:enemies:001",
+          "section": "Overworld",
+          "relevant": false
+        },
+        {
+          "rank": 19,
+          "score": -10.9468,
+          "chunk_id": "zelda1:overworld-hyrule-1:002",
+          "section": "2nd Quest",
+          "relevant": false
+        },
+        {
+          "rank": 20,
+          "score": -11.254,
+          "chunk_id": "zelda1:gameplay:002",
+          "section": "Starting the Game > Continue a Saved Game",
+          "relevant": false
+        }
+      ]
+    }
+  ]
+}

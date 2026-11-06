@@ -12,7 +12,7 @@ Cubre el §5.8 y el §10 de [course/instructions.md](../course/instructions.md).
 | Validación de salida | Contrato `Answer` ([schemas.py](../../src/gamerag/schemas.py)): rechaza respuestas sin citas; además, citas ⊆ permitidas, entidades bloqueadas y juego correcto | 🟡 Contrato hecho |
 | Límites de herramientas | Máximo de llamadas por request, timeouts, rate limit, herramientas según la config del juego | 🟡 La config ya restringe |
 | Fuera de dominio | Abstención | ⬜ |
-| Logs de auditoría | Traza completa en SQLite, PII sanitizada, sin API key | ⬜ |
+| Logs de auditoría | Traza completa en SQLite; pregunta con PII redactada (correos, teléfonos, claves de API); consulta solo para `admin` ([api/](../api/README.md)) | ✅ Básico |
 | Credenciales | `.env` en `.gitignore`, con `.env.example` | ✅ |
 
 ## Pruebas adversarias (`eval/security_cases.jsonl`)

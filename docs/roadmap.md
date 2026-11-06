@@ -40,10 +40,12 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | 3 | **Chunking estructural** por sección, con líneas completas y uniendo las secciones diminutas ([chunking.md](ingestion/chunking.md)) | ✅ |
 | 4 | Reevaluación de 10 configuraciones; se elige **híbrida e5 + estructural**, con Recall@5 = 0.89 ([ADR-0009](architecture/decisions/0009-phase3-retrieval-config.md)) | ✅ |
 | 5 | Contratos para el equipo: `Generator`, `AccessFilter`, `InputGuard`/`OutputGuard`, perfiles y pipeline con traza ([contracts/](contracts/README.md)). Se detectó y corrigió el bug de chunks con score 0 en BM25 | ✅ |
-| 6 | API mínima + frontend mínimo + Docker | ⬜ Siguiente |
-| 7 | Alias de identificadores (level ↔ dungeon, first ↔ 1) en la config del juego | ⬜ |
-| 8 | Reranker sobre los candidatos de la híbrida (mejorar el MRR de 0.55) | ⬜ |
-| 9 | Chunking por fila (Bosses, Items, Enemies) y segmentos de NG (para G2b y G3) | ⬜ |
+| 6 | API (FastAPI) sobre el pipeline, con SQLite para perfiles y auditoría ([api/](api/README.md)) | ✅ |
+| 6c | Robustez: conjunto del equipo; reranker y chunking por fila (descartados); **multi-consulta con ortografía + glosario** ([ADR-0010](architecture/decisions/0010-query-expansion.md)); análisis de abstención | ✅ |
+| 6b | Frontend mínimo (Streamlit) + Docker compose | ⬜ Siguiente |
+| 7 | Validar el glosario con una segunda tanda de preguntas del equipo; glosario de Ninja Gaiden | ⬜ |
+| 8 | Level ↔ Dungeon: las reglas de reescritura empeoraron; alternativa pendiente (p. ej. metadatos de ubicación en la consulta) | ⬜ |
+| 9 | Segmentos de NG (para G2b) y chunking por fila solo para G3, si se necesita | ⬜ |
 
 ## Riesgos
 
