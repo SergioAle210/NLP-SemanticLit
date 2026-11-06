@@ -27,21 +27,24 @@ data/processed/<juego>/stats.fixed.json
 ```bash
 uv run python -m gamerag.ingest.build zelda1
 uv run python -m gamerag.ingest.build ninja_gaiden_nes
+uv run python -m gamerag.ingest.build zelda1 --chunker structural      # chunking de la fase 3
 uv run python -m gamerag.ingest.build zelda1 --size 300 --overlap 50   # otros parámetros
 ```
 
 El comando imprime las estadísticas y escribe los archivos en `data/processed/<juego>/`.
 
-## Resultado actual (`fixed-w225-o30`)
+## Resultado actual
 
-| | Zelda | Ninja Gaiden |
-| --- | ---: | ---: |
-| Páginas usadas / snapshot | 40 / 41 | 10 / 11 |
-| Chunks | 153 | 70 |
-| Palabras por chunk (mín / media / máx) | 37 / 200.9 / 225 | 36 / 209.9 / 225 |
-| Chunks que cruzan secciones | 94 (61%) | 32 (46%) |
-| Chunks con ubicación | 66 | 59 |
-| Plantillas desconocidas | 0 | 0 |
+| | Zelda fijo | Zelda estructural | NG fijo | NG estructural |
+| --- | ---: | ---: | ---: | ---: |
+| Páginas usadas / snapshot | 40 / 41 | 40 / 41 | 10 / 11 | 10 / 11 |
+| Chunks | 153 | 243 | 70 | 84 |
+| Palabras por chunk (mín / media / máx) | 37 / 200.9 / 225 | 7 / 110.2 / 225 | 36 / 209.9 / 225 | 31 / 152.5 / 221 |
+| Chunks que cruzan secciones | 94 (61%) | 22 (9%) | 32 (46%) | 0 (0%) |
+| Chunks con ubicación | 66 | 112 | 59 | 69 |
+| Plantillas desconocidas | 0 | 0 | 0 | 0 |
+
+La línea base usa el chunking fijo; la fase 3, el estructural ([chunking.md](chunking.md)).
 
 La página excluida en cada juego es el índice de navegación (`exclude_pages` en la config).
 

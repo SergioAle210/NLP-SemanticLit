@@ -85,6 +85,7 @@ Los casos restantes (`direct_02`, `direct_03`, `direct_05`, `paraphrase_03`, `co
 ### Lectura
 
 - **Con chunking fijo, la búsqueda semántica sola es peor que BM25** (Recall@5 de 0.50 contra 0.78). Es el resultado opuesto al esperado, y se explica por la dilución (ver abajo).
+  > **Nota posterior:** esta explicación resultó incompleta. En esta corrida, los embeddings indexaban solo el texto del chunk. Al indexar también la ruta de la página, la semántica con chunking fijo sube a 0.78. Ver "Chunking estructural" más abajo.
 - **Los dos recuperadores se complementan:** la semántica gana en `direct_01` (formas de palabra) y en `paraphrase_02`; BM25 gana en identificadores (`exact_02`, `compound_02`). La híbrida con e5 conserva el Recall@5 de BM25 y mejora el ranking (MRR de 0.47 a 0.52, Recall@1 de 0.33 a 0.39). Su mayor ganancia es `exact_01` (rank 19 → 4).
 - **Lo que no resuelve ningún recuperador:**
   - `direct_04` y `compound_03`, por el desajuste Level/Dungeon (requieren alias);
@@ -103,3 +104,67 @@ Los casos restantes (`direct_02`, `direct_03`, `direct_05`, `paraphrase_03`, `co
 El embedding de un chunk es una representación de **todo** su contenido: si mezcla seis temas, no se parece a una pregunta sobre uno solo. BM25 solo necesita que el término aparezca, así que el chunking fijo lo perjudica mucho menos.
 
 **Consecuencia para el plan:** el chunking estructural (un chunk por sección o por fila de tabla) pasa a ser el siguiente paso, **antes** de ajustar la búsqueda híbrida o confirmar el modelo. Sin él, la comparación léxica contra semántica no es justa.
+
+## Recuperación: chunking estructural (2026-11-05)
+
+**Cambios respecto a la corrida anterior:**
+1. **Chunking estructural** (`structural-w225-m15`, [ingestion/chunking.md](../ingestion/chunking.md)): 243 chunks, con el 9% mezclando secciones (antes 61%).
+2. **Los embeddings indexan lo mismo que BM25:** ruta de la página + texto ([retrieval/semantic.md](../retrieval/semantic.md)). Antes, los embeddings solo veían el texto del chunk. Las variantes con chunking fijo se volvieron a correr con este cambio, para que la comparación entre chunkings sea con la misma configuración.
+
+Archivos: `eval/results/2026-11-06_zelda1_*` (fecha UTC). Los `2026-11-05_*` de las variantes semántica e híbrida son la corrida anterior, sin la ruta de la página.
+
+| Variante | Chunking | Recall@1 | Recall@3 | Recall@5 | MRR |
+| --- | --- | ---: | ---: | ---: | ---: |
+| BM25 | fijo | 0.33 | 0.56 | 0.78 | 0.47 |
+| BM25 | estructural | 0.39 | 0.50 | 0.61 | 0.49 |
+| Semántica bge | fijo | 0.50 | 0.67 | 0.78 | 0.61 |
+| Semántica bge | estructural | **0.61** | **0.78** | 0.78 | **0.72** |
+| Semántica e5 | fijo | 0.44 | 0.61 | 0.72 | 0.57 |
+| Semántica e5 | estructural | 0.44 | **0.78** | 0.83 | 0.63 |
+| Híbrida bge | fijo | 0.44 | 0.67 | 0.72 | 0.58 |
+| Híbrida bge | estructural | 0.44 | **0.78** | 0.83 | 0.62 |
+| Híbrida e5 | fijo | 0.39 | 0.67 | 0.78 | 0.56 |
+| **Híbrida e5** | **estructural** | 0.33 | 0.72 | **0.89** | 0.55 |
+
+**Rank del primer chunk relevante, con chunking estructural** (— = fuera del top-20):
+
+| Caso | BM25 fijo | BM25 | Sem. bge | Sem. e5 | Híb. bge | Híb. e5 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| `direct_01` "swings the sword" | 4 | 10 | 1 | 1 | 3 | 2 |
+| `direct_02` "Blue Candle cost" | 1 | 5 | 2 | 2 | 2 | 3 |
+| `direct_04` "Level-3 first quest" | — | — | 11 | 7 | 17 | 11 |
+| `paraphrase_01` "sail across the sea" | — | — | **1** | **1** | 2 | 2 |
+| `paraphrase_02` "hearts refilled" | 4 | 1 | 1 | 3 | 1 | 1 |
+| `exact_01` "old man Level-4" | 19 | — | — | — | — | — |
+| `exact_02` "D-4 section 2" | 1 | 6 | 7 | 7 | 1 | 5 |
+| `compound_02` "boss Level-1 and how" | 3 | 17 | 1 | 1 | 4 | 5 |
+| `compound_03` "enter Level-4 and item" | — | — | 2 | 2 | 7 | 4 |
+| `ambiguous_01` "dragon boss" | 1 | 1 | 6 | 4 | 3 | 2 |
+| `version_01` "first quest Ladder" | 4 | 4 | 1 | 2 | 1 | 3 |
+| `version_02` "second quest Ladder" | 5 | 1 | 1 | 2 | 1 | 1 |
+
+Los demás casos aciertan en el top-3 con todas las variantes estructurales.
+
+### Lectura
+
+1. **El chunking estructural mejora la búsqueda semántica y empeora BM25.**
+   - Semántica bge: MRR de 0.61 a **0.72**, Recall@1 de 0.50 a **0.61**.
+   - Semántica e5: Recall@5 de 0.72 a 0.83.
+   - BM25: Recall@5 de 0.78 a **0.61**.
+
+   Los dos recuperadores reaccionan de forma opuesta al tamaño del chunk.
+2. **La hipótesis de dilución se confirma en la evaluación completa:** `paraphrase_01` ("sail across the sea") pasa de no encontrarse a **rank 1** con la búsqueda semántica.
+3. **Corrección de la interpretación anterior:** el 0.50 de la búsqueda semántica con chunking fijo no se debía solo a la dilución. **Indexar la ruta de la página junto con el texto** la sube a 0.78 (bge) con el mismo chunking. La ruta aporta la ubicación ("Underworld/Quest 1/Dungeon 4"), que el texto de muchos chunks no menciona. Los dos efectos son reales; cada uno se midió por separado.
+4. **Por qué BM25 empeora:** con chunks más cortos y de tamaños muy variados, varios casos quedan detrás de chunks pequeños que comparten un término. Por ejemplo, en `direct_01` ganan chunks de 26 a 48 palabras con el encabezado "[B Button items > …]", donde "button" coincide con la pregunta. Una prueba de sensibilidad del parámetro de longitud de BM25 (`b` en 0.75, 0.5 y 0.3) **no** recupera el total (Recall@5 entre 0.61 y 0.67), así que no es la causa principal. No se ajustó `b`: elegirlo mirando estos 18 casos sería sobreajustar.
+5. **No hay una variante que gane en todas las métricas:**
+   - para **Recall@5** (¿está la evidencia entre los 5 chunks que recibirá el LLM?), gana la **híbrida e5 estructural, con 0.89** (16 de 18);
+   - para el **orden** (MRR, Recall@1), gana la **semántica bge estructural**.
+
+   Un reranker que reordene los candidatos de la híbrida podría combinar las dos ventajas.
+6. **Sigue sin resolverse:** el desajuste "Level-N / first quest" frente a "Dungeon N / Quest 1" (`direct_04`, `exact_01`, en parte `compound_03`) y la mezcla de quests. Requieren el alias de identificadores y el gate G2, no un mejor ranking.
+
+**Cautela estadística:** con 18 casos, cada caso equivale a 0.056 de Recall. La diferencia entre 0.83 y 0.89 es **un caso**. Las conclusiones de dirección (estructural ayuda a la semántica; la híbrida maximiza el recall) son más sólidas que las diferencias puntuales entre variantes cercanas. Ampliar el banco con casos del equipo reduciría esta incertidumbre.
+
+### Decisión
+
+Configuración de recuperación para la fase 3: **híbrida (BM25 + e5) con chunking estructural**, porque maximiza Recall@5, la métrica que determina si el LLM recibe la evidencia ([ADR-0009](../architecture/decisions/0009-phase3-retrieval-config.md)). La línea base (BM25 + fijo) se conserva como referencia.

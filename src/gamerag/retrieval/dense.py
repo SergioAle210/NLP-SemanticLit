@@ -18,12 +18,12 @@ from pathlib import Path
 import numpy as np
 
 from gamerag.ingest.models import Chunk
-from gamerag.retrieval.bm25 import Hit
+from gamerag.retrieval.bm25 import INDEX_TEXT_VERSION, Hit, index_text
 from gamerag.retrieval.embeddings import Embedder
 
 
 def _fingerprint(chunks: list[Chunk], model_key: str) -> str:
-    h = hashlib.sha256(model_key.encode())
+    h = hashlib.sha256(f"{model_key}|{INDEX_TEXT_VERSION}".encode())
     for c in chunks:
         h.update(c.chunk_id.encode() + c.hash.encode())
     return h.hexdigest()[:16]
@@ -65,7 +65,8 @@ class DenseIndex:
         self.rebuilt = True
 
     def _build(self, chunks: list[Chunk]) -> None:
-        vectors = self.embedder.embed_passages([c.text for c in chunks])
+        # Mismo texto que BM25 (ruta de la página + chunk): ambos recuperadores ven lo mismo.
+        vectors = self.embedder.embed_passages([index_text(c) for c in chunks])
         self._col.add(
             ids=[c.chunk_id for c in chunks],
             embeddings=vectors.tolist(),

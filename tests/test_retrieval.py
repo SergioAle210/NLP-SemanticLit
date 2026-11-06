@@ -103,10 +103,18 @@ def test_expected_pages_contain_the_evidence(case: EvalCase):
         assert any(norm(a) in text for alts in case.evidence for a in alts), (source, page)
 
 
+@pytest.fixture(scope="module")
+def zelda_structural_chunks():
+    chunks, _ = build_chunks(GAMES["zelda1"], ROOT, chunker="structural")
+    return chunks
+
+
 @pytest.mark.parametrize("case", [c for c in CASES if c.answerable and c.game == "zelda1"], ids=lambda c: c.id)
-def test_every_answerable_case_has_a_relevant_chunk(case, zelda_chunks):
-    """Si ningún chunk es relevante, el caso es imposible de recuperar (error del caso o de la ingesta)."""
+def test_every_answerable_case_has_a_relevant_chunk(case, zelda_chunks, zelda_structural_chunks):
+    """Si ningún chunk es relevante, el caso es imposible de recuperar (error del caso o de la ingesta).
+    Se verifica con ambos chunkings: la comparación entre estrategias solo es válida si ambas pueden acertar."""
     assert any(is_relevant(case, c) for c in zelda_chunks)
+    assert any(is_relevant(case, c) for c in zelda_structural_chunks)
 
 
 def test_unanswerable_cases_have_no_supporting_text(zelda_chunks):

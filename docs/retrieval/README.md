@@ -49,8 +49,9 @@ flowchart LR
 
 **Pendiente:**
 - los gates de acceso, usando los metadatos que ya están en Chroma;
-- el reranker;
-- el **chunking estructural**, prerrequisito para que la búsqueda semántica rinda (hallazgo de dilución).
+- el reranker, para mejorar el orden (MRR) de la híbrida.
+
+**Configuración elegida para la fase 3:** híbrida (BM25 + e5) con chunking estructural: Recall@5 = 0.89 contra 0.78 de la línea base ([ADR-0009](../architecture/decisions/0009-phase3-retrieval-config.md)).
 
 ## Por qué combinar las dos búsquedas
 

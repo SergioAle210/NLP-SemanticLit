@@ -29,7 +29,7 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | Parser de wikitext | mwparserfromhell | Plantillas anidadas ([ADR-0005](decisions/0005-wikitext-cleaning.md)) |
 | Índice léxico | rank-bm25 | Línea base; suficiente para unos 1k chunks |
 | Índice vectorial | ChromaDB embebido | Sin servidor; filtros `where` para los gates |
-| Embeddings | `multilingual-e5-small` (provisional) | Mejor variante híbrida con chunking fijo; se confirma con chunking estructural ([retrieval/semantic.md](../retrieval/semantic.md)) |
+| Embeddings | `multilingual-e5-small` | Mejor Recall@5 en la híbrida con chunking estructural ([ADR-0009](decisions/0009-phase3-retrieval-config.md)) |
 | Reranker | 🔶 Pendiente | — |
 | LLM | Claude Haiku | Router y generación; bajo costo |
 | Estado | SQLite en el volumen `state/` | Perfiles, progreso y auditoría ([ADR-0004](decisions/0004-sqlite-and-demo-profiles.md)) |

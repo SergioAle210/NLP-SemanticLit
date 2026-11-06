@@ -12,5 +12,6 @@ Cada archivo registra una decisión: contexto, decisión, alternativas y consecu
 | [0006](0006-fixed-chunking-baseline.md) | Chunking fijo por palabras como línea base | Aceptado |
 | [0007](0007-per-game-config.md) | Diferencias entre juegos como configuración, no como código | Aceptado |
 | [0008](0008-relevance-by-evidence-text.md) | Relevancia definida por evidencia textual, no por chunk_id | Aceptado |
+| [0009](0009-phase3-retrieval-config.md) | Recuperación de la fase 3: híbrida e5 + chunking estructural | Aceptado |
 
 Plantilla para nuevos ADRs: `NNNN-titulo-corto.md` con las secciones *Contexto*, *Decisión*, *Alternativas consideradas* y *Consecuencias*.

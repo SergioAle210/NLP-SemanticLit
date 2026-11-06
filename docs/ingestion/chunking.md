@@ -29,10 +29,35 @@ La ruta sigue la estructura que eligieron los autores de la wiki. Por ejemplo, e
 - Muchos chunks empiezan a mitad de una frase, por el paso fijo de la ventana.
 - Un chunk que cruza secciones hereda la ubicación de la primera. En Ninja Gaiden, eso puede mezclar dos etapas o la pelea con la escena posterior al jefe. No afecta a la línea base, que no tiene gates, pero lo impide la fase 3.
 
-## Fase 3: chunking estructural (pendiente)
+## Chunking estructural (`structural-w225-m15`, fase 3)
 
-- **Un chunk por sección.** Si la sección pasa de aprox. 300 tokens, se divide con 15% de solapamiento; si es muy corta, se une con la siguiente de la misma página.
-- **Páginas agregadas** (Bosses, Items y Enemies de Zelda): un chunk por fila de tabla o por ContentBox.
-- **Ninja Gaiden:** cada acto se separa en los segmentos `intro`, etapas, `boss` y `outro`. Los segmentos son opcionales: el Act 1 no tiene `intro`.
+Es la configuración elegida para la fase 3 ([ADR-0009](../architecture/decisions/0009-phase3-retrieval-config.md)). Se generó con `--chunker structural`.
+
+| Regla | Valor | Motivo |
+| --- | --- | --- |
+| Unidad | **Una sección** (o parte de una) | Cada chunk trata un solo tema: evita la dilución del embedding |
+| Secciones largas | Se dividen **empaquetando líneas completas** (filas de tabla, ítems, párrafos) hasta 225 palabras; el encabezado se repite en cada parte | Nunca se parte una fila ni una idea. La línea más larga del corpus tiene 185 palabras; si alguna superara el máximo, se partiría por palabras |
+| Secciones diminutas | Menos de **15 palabras** → se unen a la siguiente de la página, si el total cabe en 225 | Evita chunks sin contexto como "[Prerequisites] Raft." El umbral es bajo a propósito: unir secciones de temas distintos reintroduce la dilución. Por ejemplo, la sección del Raft (24 palabras) queda sola |
+| Solapamiento | Ninguno | Los cortes caen en límites de línea, así que no parten ideas, y el encabezado de sección da el contexto |
+| Encabezado | `[Ruta > De > Sección]` por cada sección incluida | Contexto para el lector y términos para la búsqueda |
+
+**Resultado medido:**
+
+| | Fijo | Estructural |
+| --- | ---: | ---: |
+| Chunks (Zelda / NG) | 153 / 70 | 243 / 84 |
+| Palabras por chunk, media (Zelda) | 201 | 110 |
+| Chunks que mezclan secciones (Zelda / NG) | **61% / 46%** | **9% / 0%** |
+
+El 9% restante son las secciones diminutas unidas a la siguiente (p. ej. "Enemy drops > Heart" con "Enemy drops > Rupees").
+
+**Efecto en la recuperación** ([evaluation/results.md](../evaluation/results.md)):
+- **Mejora la búsqueda semántica:** "sail across the sea" pasa a rank 1; MRR de bge de 0.61 a 0.72.
+- **Empeora BM25:** Recall@5 de 0.78 a 0.61.
+- La híbrida e5 alcanza **Recall@5 = 0.89**.
+
+## Pendiente (fase 3)
+
+- **Ninja Gaiden:** separar cada acto en los segmentos `intro`, etapas, `boss` y `outro` (gate G2b). Hoy ya hay un chunk por etapa, pero la escena posterior al jefe queda en el mismo chunk que la pelea. Los segmentos son opcionales: el Act 1 no tiene `intro`.
+- **Páginas agregadas** (Bosses, Items y Enemies de Zelda): un chunk por fila, para que G3 bloquee solo la fila de un jefe y no el bloque completo. Hoy se empaquetan varias filas por chunk.
 - **Fichas por mazmorra o acto** como documento padre, para la recuperación small-to-big y las pistas escalonadas.
-- **Comparación contra la línea base** en el banco de pruebas ([evaluation/](../evaluation/)).

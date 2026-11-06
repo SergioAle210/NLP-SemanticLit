@@ -1,12 +1,13 @@
 """Construye los chunks de un juego a partir de su snapshot de la wiki.
 
 Uso:
-    uv run python -m gamerag.ingest.build zelda1
+    uv run python -m gamerag.ingest.build zelda1                          # fijo (línea base)
+    uv run python -m gamerag.ingest.build zelda1 --chunker structural     # estructural (fase 3)
     uv run python -m gamerag.ingest.build ninja_gaiden_nes --size 225 --overlap 30
 
 Salida (regenerable, fuera de git):
-    data/processed/<game>/chunks.fixed.jsonl   un Chunk por línea
-    data/processed/<game>/stats.fixed.json     estadísticas para revisar la ingesta
+    data/processed/<game>/chunks.<chunker>.jsonl   un Chunk por línea
+    data/processed/<game>/stats.<chunker>.json     estadísticas para revisar la ingesta
 """
 
 from __future__ import annotations
@@ -17,25 +18,42 @@ import json
 import re
 import statistics
 from pathlib import Path
+from typing import Literal
 
 from gamerag.games import GameConfig, load_all_games
-from gamerag.ingest.chunking import DEFAULT_OVERLAP, DEFAULT_SIZE, fixed_windows
+from gamerag.ingest.chunking import (
+    DEFAULT_MIN_WORDS,
+    DEFAULT_OVERLAP,
+    DEFAULT_SIZE,
+    fixed_windows,
+    structural_windows,
+)
 from gamerag.ingest.clean import CleanStats, clean_wikitext
 from gamerag.ingest.location import locate
 from gamerag.ingest.models import Chunk
 from gamerag.ingest.sections import split_sections
 from gamerag.settings import get_settings
 
+ChunkerName = Literal["fixed", "structural"]
+
 
 def _slug(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
 
-def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap: int = DEFAULT_OVERLAP):
+def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap: int = DEFAULT_OVERLAP,
+                 chunker: ChunkerName = "fixed", min_words: int = DEFAULT_MIN_WORDS):
     snap = root / cfg.snapshot_dir
     manifest = json.loads((snap / "manifest.json").read_text(encoding="utf-8"))
     stats = CleanStats()
-    chunker = f"fixed-w{size}-o{overlap}"
+    if chunker == "fixed":
+        chunker_id = f"fixed-w{size}-o{overlap}"
+        make_windows = lambda secs: fixed_windows(secs, size, overlap)  # noqa: E731
+    elif chunker == "structural":
+        chunker_id = f"structural-w{size}-m{min_words}"
+        make_windows = lambda secs: structural_windows(secs, size, min_words)  # noqa: E731
+    else:
+        raise ValueError(f"chunker desconocido: {chunker}")
     chunks: list[Chunk] = []
     pages_used = 0
 
@@ -48,7 +66,7 @@ def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap:
             continue
         pages_used += 1
         page_slug = _slug(page["title"].removeprefix(cfg.title).removeprefix(" (NES)")) or "main"
-        for n, w in enumerate(fixed_windows(sections, size, overlap)):
+        for n, w in enumerate(make_windows(sections)):
             first = sections[w.first_section]
             chunks.append(Chunk(
                 chunk_id=f"{cfg.game_id}:{page_slug}:{n:03d}",
@@ -60,7 +78,7 @@ def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap:
                 section=first.title,
                 sections=[sections[i].title for i in w.section_indices],
                 hash="sha256:" + hashlib.sha256(w.text.encode("utf-8")).hexdigest(),
-                chunker=chunker,
+                chunker=chunker_id,
                 n_words=w.n_words,
                 game=cfg.game_id,
                 location=locate(cfg, page["title"], first),
@@ -69,7 +87,7 @@ def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap:
     lengths = [c.n_words for c in chunks]
     report = {
         "game": cfg.game_id,
-        "chunker": chunker,
+        "chunker": chunker_id,
         "pages_in_snapshot": len(manifest["pages"]),
         "pages_used": pages_used,
         "chunks": len(chunks),
@@ -84,8 +102,10 @@ def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("game_id")
-    ap.add_argument("--size", type=int, default=DEFAULT_SIZE, help="palabras por chunk")
-    ap.add_argument("--overlap", type=int, default=DEFAULT_OVERLAP, help="palabras de solapamiento")
+    ap.add_argument("--chunker", choices=["fixed", "structural"], default="fixed")
+    ap.add_argument("--size", type=int, default=DEFAULT_SIZE, help="palabras máximas por chunk")
+    ap.add_argument("--overlap", type=int, default=DEFAULT_OVERLAP, help="solapamiento (solo fixed)")
+    ap.add_argument("--min-words", type=int, default=DEFAULT_MIN_WORDS, help="unir secciones menores (solo structural)")
     args = ap.parse_args()
 
     settings = get_settings()
@@ -93,16 +113,17 @@ def main() -> None:
     if args.game_id not in games:
         ap.error(f"juego desconocido: {args.game_id}. Opciones: {', '.join(games)}")
 
-    chunks, report = build_chunks(games[args.game_id], settings.root, args.size, args.overlap)
+    chunks, report = build_chunks(games[args.game_id], settings.root, args.size, args.overlap,
+                                  args.chunker, args.min_words)
 
     out = settings.path(settings.data_dir) / "processed" / args.game_id
     out.mkdir(parents=True, exist_ok=True)
-    with (out / "chunks.fixed.jsonl").open("w", encoding="utf-8", newline="\n") as f:
+    with (out / f"chunks.{args.chunker}.jsonl").open("w", encoding="utf-8", newline="\n") as f:
         for c in chunks:
             f.write(c.model_dump_json() + "\n")
-    (out / "stats.fixed.json").write_text(json.dumps(report, indent=2), encoding="utf-8", newline="\n")
+    (out / f"stats.{args.chunker}.json").write_text(json.dumps(report, indent=2), encoding="utf-8", newline="\n")
     print(json.dumps(report, indent=2))
-    print(f"-> {out / 'chunks.fixed.jsonl'}")
+    print(f"-> {out / f'chunks.{args.chunker}.jsonl'}")
 
 
 if __name__ == "__main__":

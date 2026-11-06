@@ -4,7 +4,7 @@ import pytest
 
 from gamerag.games import load_all_games
 from gamerag.ingest.build import build_chunks
-from gamerag.ingest.chunking import fixed_windows
+from gamerag.ingest.chunking import fixed_windows, structural_windows
 from gamerag.ingest.clean import CleanStats, clean_wikitext
 from gamerag.ingest.location import locate
 from gamerag.ingest.sections import Section, split_sections
@@ -136,6 +136,37 @@ def test_fixed_windows_reject_bad_overlap():
         fixed_windows(_secs(10), size=10, overlap=10)
 
 
+def test_structural_one_chunk_per_section_with_header():
+    secs = [Section(0, ("A",), " ".join(["a"] * 30)), Section(1, ("B",), " ".join(["b"] * 40))]
+    windows = structural_windows(secs, max_words=100, min_words=15)
+    assert [w.section_indices for w in windows] == [(0,), (1,)]
+    assert windows[0].text.startswith("[A]\n")
+
+
+def test_structural_splits_long_sections_on_line_boundaries():
+    rows = [f"Name: enemy{i} | HP: {i}" for i in range(40)]  # 4 palabras por fila
+    windows = structural_windows([Section(0, ("Enemies",), "\n".join(rows))], max_words=50, min_words=5)
+    assert len(windows) > 1
+    assert all(w.n_words <= 50 for w in windows)
+    for w in windows:  # ninguna fila partida: cada línea del cuerpo es una fila completa
+        assert all(line in rows for line in w.text.split("\n")[1:])
+        assert w.text.startswith("[Enemies]\n")  # el encabezado se repite en cada parte
+
+
+def test_structural_merges_tiny_sections_with_the_next():
+    secs = [Section(0, ("Prerequisites",), "Raft."), Section(1, ("Walkthrough",), " ".join(["w"] * 30))]
+    windows = structural_windows(secs, max_words=100, min_words=15)
+    assert len(windows) == 1
+    assert windows[0].section_indices == (0, 1)
+    assert windows[0].text.startswith("[Prerequisites]\nRaft.\n[Walkthrough]\n")
+
+
+def test_structural_does_not_merge_beyond_max_words():
+    secs = [Section(0, ("Tiny",), "x y"), Section(1, ("Full",), " ".join(["w"] * 100))]
+    windows = structural_windows(secs, max_words=100, min_words=15)
+    assert [w.section_indices for w in windows] == [(0,), (1,)]  # la diminuta queda sola
+
+
 # --- ubicación ------------------------------------------------------------------------------
 
 def test_location_zelda_from_page_title():
@@ -155,17 +186,28 @@ def test_location_general_page_is_unrestricted():
 
 # --- construcción completa ------------------------------------------------------------------
 
+@pytest.mark.parametrize("chunker", ["fixed", "structural"])
 @pytest.mark.parametrize("game_id", sorted(GAMES))
-def test_build_is_deterministic_and_ids_are_unique(game_id):
-    chunks_a, _ = build_chunks(GAMES[game_id], ROOT)
-    chunks_b, _ = build_chunks(GAMES[game_id], ROOT)
+def test_build_is_deterministic_and_ids_are_unique(game_id, chunker):
+    chunks_a, _ = build_chunks(GAMES[game_id], ROOT, chunker=chunker)
+    chunks_b, _ = build_chunks(GAMES[game_id], ROOT, chunker=chunker)
     assert [c.model_dump() for c in chunks_a] == [c.model_dump() for c in chunks_b]
     ids = [c.chunk_id for c in chunks_a]
     assert len(ids) == len(set(ids))
 
 
-def test_build_zelda_every_dungeon_has_located_chunks():
-    chunks, report = build_chunks(GAMES["zelda1"], ROOT)
+def test_structural_build_keeps_raft_section_alone_and_rarely_mixes_sections():
+    """Regresión del hallazgo de dilución: la sección del Raft debe ser un chunk propio."""
+    chunks, report = build_chunks(GAMES["zelda1"], ROOT, chunker="structural")
+    raft = next(c for c in chunks if "cross lakes and oceans" in c.text)
+    assert raft.sections == ["Automatic items > Raft"]
+    assert report["chunks_spanning_multiple_sections"] / report["chunks"] < 0.15
+    assert all(c.n_words <= 225 for c in chunks)
+
+
+@pytest.mark.parametrize("chunker", ["fixed", "structural"])
+def test_build_zelda_every_dungeon_has_located_chunks(chunker):
+    chunks, report = build_chunks(GAMES["zelda1"], ROOT, chunker=chunker)
     located = {(c.location.quest, c.location.level) for c in chunks if c.location.level}
     assert located == {(q, lvl) for q in ("first", "second") for lvl in range(1, 10)}
     assert report["pages_used"] == report["pages_in_snapshot"] - 1  # se excluye el índice

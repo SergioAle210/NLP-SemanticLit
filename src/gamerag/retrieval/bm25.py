@@ -32,8 +32,13 @@ def load_chunks(path: Path) -> list[Chunk]:
         return [Chunk.model_validate(json.loads(line)) for line in f if line.strip()]
 
 
+# Cambiar si cambia `index_text`: forma parte de la huella de los índices persistidos (Chroma),
+# para que un cambio en lo que se indexa obligue a reconstruirlos.
+INDEX_TEXT_VERSION = "path+text/v1"
+
+
 def index_text(chunk: Chunk) -> str:
-    """Texto que se indexa: ruta de la página sin el nombre del juego + texto del chunk."""
+    """Texto que se indexa (léxico **y** semántico): ruta de la página sin el nombre del juego + texto."""
     _, _, path_in_game = chunk.source.partition("/")  # "The Legend of Zelda/Items" -> "Items"
     return f"{path_in_game}\n{chunk.text}"
 
