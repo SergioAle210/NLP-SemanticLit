@@ -38,6 +38,12 @@ def qx() -> QueryExpander:
     ("swordd", "sword", True),   # borrado
     ("refilled", "refills", False),
     ("cost", "coast", True),     # distancia 1, pero se excluye por longitud en correct()
+    ("shiled", "shield", True),  # transposición de dos letras vecinas
+    ("bmobs", "bombs", True),    # transposición
+    ("bmosb", "bombs", False),   # dos transposiciones
+    ("sowrd", "sword", True),    # transposición
+    ("swrod", "sword", True),    # transposición al final
+    ("sdowr", "sword", False),   # letras no vecinas
 ])
 def test_edit_distance_le1(a, b, expected):
     assert _edit_distance_le1(a, b) is expected
@@ -46,6 +52,7 @@ def test_edit_distance_le1(a, b, expected):
 @pytest.mark.parametrize(("query", "expected"), [
     ("how do i atack?", "how do i attack?"),       # typo corregido (attack aparece 2 veces)
     ("can i blow up walls with bombz?", "can i blow up walls with bombs?"),
+    ("where are the bmobs sold?", "where are the bombs sold?"),  # transposición
     ("How can I sail across the sea?", "How can I sail across the sea?"),  # "across" no se vuelve "cross"
     ("How much does it cost?", "How much does it cost?"),  # palabras cortas no se tocan
     ("how can i heal?", "how can i heal?"),          # palabra del glosario: se expande, no se corrige

@@ -8,7 +8,7 @@
     "chunker": "structural-w225-m15",
     "depth": 20,
     "n_chunks": 243,
-    "date": "2026-11-06T02:19:29+00:00",
+    "date": "2026-11-06T02:34:53+00:00",
     "cases_total": 39,
     "cases_evaluated": 36,
     "cases_skipped": [
@@ -16,10 +16,10 @@
       "zelda_unanswerable_02",
       "zelda_team_06"
     ],
-    "setup_seconds": 13.33,
+    "setup_seconds": 13.0,
     "latency_ms": {
-      "mean": 28.8,
-      "p95": 44.4
+      "mean": 29.3,
+      "p95": 44.5
     }
   },
   "overall": {
@@ -3447,7 +3447,7 @@
       "candidates": [
         {
           "rank": 1,
-          "score": 0.0303,
+          "score": 0.0301,
           "chunk_id": "zelda1:underworld-quest-1-dungeon-1:004",
           "section": "Boss",
           "relevant": false
@@ -3524,9 +3524,9 @@
         },
         {
           "rank": 12,
-          "score": 0.0149,
-          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:004",
-          "section": "Boss",
+          "score": 0.0152,
+          "chunk_id": "zelda1:overworld-hyrule-2:000",
+          "section": "(intro)",
           "relevant": false
         },
         {
@@ -3539,8 +3539,8 @@
         {
           "rank": 14,
           "score": 0.0147,
-          "chunk_id": "zelda1:underworld-quest-1-dungeon-6:001",
-          "section": "Walkthrough > Prerequisites",
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:004",
+          "section": "Boss",
           "relevant": false
         },
         {
@@ -3553,8 +3553,8 @@
         {
           "rank": 16,
           "score": 0.0145,
-          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:005",
-          "section": "Boss",
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-6:001",
+          "section": "Walkthrough > Prerequisites",
           "relevant": false
         },
         {
@@ -3567,8 +3567,8 @@
         {
           "rank": 18,
           "score": 0.0143,
-          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:004",
-          "section": "Dungeon Walkthrough > Collect the third and fourth keys",
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-4:005",
+          "section": "Boss",
           "relevant": false
         },
         {
@@ -3581,8 +3581,8 @@
         {
           "rank": 20,
           "score": 0.0141,
-          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:003",
-          "section": "Dungeon Walkthrough > Get the map and the hint from the man",
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:004",
+          "section": "Dungeon Walkthrough > Collect the third and fourth keys",
           "relevant": false
         }
       ]

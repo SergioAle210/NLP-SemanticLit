@@ -257,6 +257,37 @@ Siguen fallando con la configuración elegida:
 - `team_08` "where do i get bombs?" (rank 11);
 - `robust_06` "secondary item" (rank 11).
 
+### Preguntas exploratorias y transposición de letras (2026-11-06)
+
+**Preguntas exploratorias.** Se probaron 8 preguntas nuevas de jugador, con el glosario sin cambios. No se agregaron al banco. Las preguntas fueron:
+- "how do i use the booomerang?"
+- "what can i heal?"
+- "how do i get more hearts?"
+- "how do i save my game?"
+- "who made the game?"
+- "how can i atcack?"
+- "does the shiled do anything?"
+- "how do i beat dungeon 3?"
+
+**Resultado:** en las 8, la evidencia queda en el top-5 del pipeline servido. Dos se parecen a preguntas de la primera tanda (attack y heal), así que la validación es solo parcial.
+
+**Observaciones:**
+- **Mezcla de quests:** en "dungeon 3", los ranks 1 y 2 son de la Quest 2 (Dodongos) y la Quest 1 (Manhandla) aparece en los ranks 3 y 5. Esto lo corrige el gate G2, no el ranking.
+- **Ruido de la pregunta con errores:** en "atcack", la variante corregida encuentra Controls (rank 3), pero la original aporta ruido en los ranks 1 y 2.
+- **Orden:** en 4 de las 8, la evidencia está entre los ranks 3 y 5. Eso afecta al generador extractivo, que responde con el rank 1.
+- **Transposición no corregida:** "shiled" no se corregía, porque un intercambio de letras vale 2 en Levenshtein.
+
+**Cambio:** se pasó a Damerau-Levenshtein restringida, donde un intercambio de dos letras vecinas vale 1. Se eligió por el tipo de error (los intercambios son de los errores de tipeo más comunes), sin ajustar nada al banco.
+
+| Medición | Antes | Después |
+| --- | --- | --- |
+| Preguntas del banco cuya variante cambia | — | 0 de 39 |
+| Recall@5 curso / equipo / total | 0.89 / 0.75 / 0.86 | idéntico (los casos también) |
+| "does the shiled do anything?" | Shields en el rank 2 | Shields en el rank 1 |
+| Correcciones falsas sobre 17,123 palabras válidas | 827 | 832 (+5) |
+
+**Lectura:** el banco no puede medir este cambio, porque ninguna de sus preguntas tiene un intercambio de letras. La evidencia a favor es la pregunta exploratoria y el costo medido (+5 correcciones falsas sobre 17,123 palabras). La prueba de estrés dejó ver algo que ya existía: el corrector cambia el 4.9% de las palabras inglesas válidas que no aparecen en el corpus ([retrieval/query-expansion.md](../retrieval/query-expansion.md)).
+
 ### Análisis de abstención
 
 ¿Pueden los puntajes de recuperación decidir cuándo abstenerse ("what do i do if ig im stuck", "Hookshot", "horse")? Se compararon dos señales sobre los 39 casos:

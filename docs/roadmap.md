@@ -42,8 +42,9 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | 5 | Contratos para el equipo: `Generator`, `AccessFilter`, `InputGuard`/`OutputGuard`, perfiles y pipeline con traza ([contracts/](contracts/README.md)). Se detectó y corrigió el bug de chunks con score 0 en BM25 | ✅ |
 | 6 | API (FastAPI) sobre el pipeline, con SQLite para perfiles y auditoría ([api/](api/README.md)) | ✅ |
 | 6c | Robustez: conjunto del equipo; reranker y chunking por fila (descartados); **multi-consulta con ortografía + glosario** ([ADR-0010](architecture/decisions/0010-query-expansion.md)); análisis de abstención | ✅ |
+| 6d | 8 preguntas exploratorias (todas en el top-5); corrección con transposición de letras (Damerau); prueba de estrés de correcciones falsas ([results.md](evaluation/results.md)) | ✅ |
 | 6b | Frontend mínimo (Streamlit) + Docker compose | ⬜ Siguiente |
-| 7 | Validar el glosario con una segunda tanda de preguntas del equipo; glosario de Ninja Gaiden | ⬜ |
+| 7 | Validar el glosario con una segunda tanda de preguntas del equipo (validación parcial en 6d); glosario de Ninja Gaiden; diccionario de inglés para reducir las correcciones falsas (4.9%) | ⬜ |
 | 8 | Level ↔ Dungeon: las reglas de reescritura empeoraron; alternativa pendiente (p. ej. metadatos de ubicación en la consulta) | ⬜ |
 | 9 | Segmentos de NG (para G2b) y chunking por fila solo para G3, si se necesita | ⬜ |
 

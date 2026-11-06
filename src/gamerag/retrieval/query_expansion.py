@@ -54,7 +54,8 @@ class QueryExpander:
         - tiene 5+ letras (las cortas tienen demasiados vecinos válidos: "cost" -> "coast");
         - no aparece en el corpus ni en el glosario;
         - existe una palabra del vocabulario con la misma primera letra a **distancia de edición 1**
-          (una letra de más, de menos o cambiada: "atack" -> "attack", "bombz" -> "bombs")."""
+          (una letra de más, de menos, cambiada o dos vecinas intercambiadas: "atack" -> "attack",
+          "bombz" -> "bombs", "shiled" -> "shield")."""
         def fix(m: re.Match) -> str:
             word = m.group(0)
             low = word.lower()
@@ -85,7 +86,9 @@ class QueryExpander:
 
 
 def _edit_distance_le1(a: str, b: str) -> bool:
-    """True si a y b difieren en a lo sumo una inserción, borrado o sustitución."""
+    """True si a y b difieren en a lo sumo una operación (distancia de Damerau-Levenshtein restringida):
+    inserción, borrado, sustitución o **transposición de dos letras vecinas** ("shiled" -> "shield").
+    La transposición es uno de los errores de tipeo más comunes; Levenshtein la cuenta como 2."""
     if a == b:
         return True
     if abs(len(a) - len(b)) > 1:
@@ -95,7 +98,11 @@ def _edit_distance_le1(a: str, b: str) -> bool:
     i = 0
     while i < len(a) and a[i] == b[i]:
         i += 1
-    return a[i + 1:] == b[i + 1:] if len(a) == len(b) else a[i:] == b[i + 1:]
+    if len(a) != len(b):
+        return a[i:] == b[i + 1:]
+    if a[i + 1:] == b[i + 1:]:
+        return True  # sustitución
+    return a[i:i + 2] == b[i:i + 2][::-1] and a[i + 2:] == b[i + 2:]  # transposición
 
 
 class ExpandingRetriever:

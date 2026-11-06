@@ -29,7 +29,7 @@ pregunta original ────────────────────�
 1. **Corrección ortográfica conservadora.** Una palabra se corrige solo si:
    - tiene **5 o más letras** (las cortas tienen demasiados vecinos válidos: "cost" → "coast");
    - **no aparece ni una vez** en el corpus ni en el glosario ("across" no se toca; "heal" se expande, no se corrige);
-   - existe una palabra del vocabulario (frecuencia ≥ 2) **con la misma primera letra** a **distancia de edición 1** ("atack" → "attack", "bombz" → "bombs").
+   - existe una palabra del vocabulario (frecuencia ≥ 2) **con la misma primera letra** a **distancia de edición 1** ("atack" → "attack", "bombz" → "bombs"). La distancia es Damerau-Levenshtein restringida: además de insertar, borrar o cambiar una letra, **intercambiar dos letras vecinas** cuenta como una sola operación ("shiled" → "shield"). Con Levenshtein, ese intercambio valdría 2.
 2. **Glosario por juego** (`query_expansion.synonyms` en `config/games/<juego>.yaml`): si la pregunta contiene un término del jugador, se **agregan** los términos del juego. Nada se borra.
 3. **Multi-consulta:** se busca con la **pregunta original** y con la **variante**, cada una con la profundidad fija de 20, y los rankings se fusionan con RRF. **La original se conserva siempre**, tanto para la auditoría (`trace.query_variants`) como para que una variante mala no cambie la intención.
 
@@ -56,3 +56,8 @@ Híbrida e5, chunking estructural ([evaluation/results.md](../evaluation/results
 - **Sobreajuste:** el glosario se escribió después de ver qué preguntas fallaban. La mejora en el conjunto del equipo es real, pero **no es una medición independiente** del glosario. La validación correcta es una **segunda tanda de preguntas del equipo**, escrita con el glosario ya congelado.
 - **Mantenimiento:** el glosario es manual y por juego. La reescritura con un LLM (Haiku) generalizaría a formulaciones no previstas; queda como comparación cuando esté la API key.
 - **Sin diccionario de inglés:** la corrección no sabe si una palabra ausente del corpus es válida en inglés. Por eso es conservadora: prefiere no corregir antes que corregir mal.
+- **Correcciones falsas medidas:** se pasaron por el corrector 17,123 palabras inglesas válidas (de 5 o más letras) que no aparecen en el corpus; se tomaron del vocabulario del tokenizador de bge-small. Se "corrigen" 832, el 4.9%:
+  - el 39% son flexiones ("plays" → "play", "throws" → "throw"), que no dañan la búsqueda;
+  - el resto son errores ("whale" → "while", "older" → "order").
+
+  El daño es acotado porque la pregunta original siempre participa en la búsqueda. La transposición solo agregó 5 a esa cifra (dos de ellas inocuas: "centre" → "center", "metre" → "meter"). La forma de reducirlas es un diccionario de inglés como lista de palabras válidas; queda pendiente.
