@@ -53,10 +53,19 @@ def test_bm25_ranks_exact_term_match_first():
     assert hits[0].chunk.chunk_id == "a" and hits[0].rank == 1
 
 
-def test_bm25_ties_keep_corpus_order_and_empty_query_returns_nothing():
-    idx = BM25Index([_chunk("a", "x"), _chunk("b", "y")])
-    assert [h.chunk.chunk_id for h in idx.search("zzz", k=2)] == ["a", "b"]
-    assert idx.search("the of", k=2) == []  # solo stopwords
+def test_bm25_returns_only_matching_chunks():
+    """Regresión: un chunk sin términos de la consulta (score 0) no debe aparecer como candidato,
+    porque contaminaría la fusión RRF de la búsqueda híbrida."""
+    idx = BM25Index([_chunk("a", "raft water"), _chunk("b", "sword"), _chunk("c", "candle"), _chunk("d", "bombs")])
+    assert [h.chunk.chunk_id for h in idx.search("raft", k=4)] == ["a"]
+    assert idx.search("zzz", k=4) == []
+    assert idx.search("the of", k=4) == []  # solo stopwords
+
+
+def test_bm25_ties_keep_corpus_order():
+    idx = BM25Index([_chunk("a", "raft x"), _chunk("b", "raft y"), _chunk("c", "sword"), _chunk("d", "bombs"),
+                     _chunk("e", "candle")])
+    assert [h.chunk.chunk_id for h in idx.search("raft", k=2)] == ["a", "b"]
 
 
 # --- métricas (ejemplos de las diapositivas del curso, tema 08) -----------------------------

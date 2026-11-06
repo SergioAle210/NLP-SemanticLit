@@ -6,17 +6,17 @@
     "chunker": "structural-w225-m15",
     "depth": 20,
     "n_chunks": 243,
-    "date": "2026-11-06T00:18:53+00:00",
+    "date": "2026-11-06T00:56:25+00:00",
     "cases_total": 20,
     "cases_evaluated": 18,
     "cases_skipped": [
       "zelda_unanswerable_01",
       "zelda_unanswerable_02"
     ],
-    "setup_seconds": 0.02,
+    "setup_seconds": 0.03,
     "latency_ms": {
-      "mean": 0.3,
-      "p95": 0.5
+      "mean": 0.4,
+      "p95": 0.7
     }
   },
   "overall": {
@@ -964,139 +964,6 @@
           "chunk_id": "zelda1:bosses:003",
           "section": "(intro)",
           "relevant": false
-        },
-        {
-          "rank": 2,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 3,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:001",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 4,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:002",
-          "section": "Story",
-          "relevant": false
-        },
-        {
-          "rank": 5,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:003",
-          "section": "Story",
-          "relevant": false
-        },
-        {
-          "rank": 6,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 7,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:001",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 8,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:002",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 9,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:004",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 10,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:000",
-          "section": "Second Quest",
-          "relevant": false
-        },
-        {
-          "rank": 11,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:001",
-          "section": "Reduce Enemies",
-          "relevant": false
-        },
-        {
-          "rank": 12,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:002",
-          "section": "Enemy Change",
-          "relevant": false
-        },
-        {
-          "rank": 13,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:003",
-          "section": "Unlock a Door Without a Key in the First Dungeon",
-          "relevant": false
-        },
-        {
-          "rank": 14,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:004",
-          "section": "Money Making Game",
-          "relevant": false
-        },
-        {
-          "rank": 15,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:005",
-          "section": "Safety Tip",
-          "relevant": false
-        },
-        {
-          "rank": 16,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:000",
-          "section": "Link",
-          "relevant": false
-        },
-        {
-          "rank": 17,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:001",
-          "section": "Zelda",
-          "relevant": false
-        },
-        {
-          "rank": 18,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:002",
-          "section": "Shop Keeper",
-          "relevant": false
-        },
-        {
-          "rank": 19,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:003",
-          "section": "Old Woman",
-          "relevant": false
-        },
-        {
-          "rank": 20,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:004",
-          "section": "Old Man (Overworld)",
-          "relevant": false
         }
       ]
     },
@@ -1292,132 +1159,6 @@
           "score": 3.7671,
           "chunk_id": "zelda1:overworld-quest-1:006",
           "section": "Get the letter and buy a red potion",
-          "relevant": false
-        },
-        {
-          "rank": 3,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 4,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:001",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 5,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:002",
-          "section": "Story",
-          "relevant": false
-        },
-        {
-          "rank": 6,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:003",
-          "section": "Story",
-          "relevant": false
-        },
-        {
-          "rank": 7,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 8,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:001",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 9,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:002",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 10,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:003",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 11,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:004",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 12,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:000",
-          "section": "Second Quest",
-          "relevant": false
-        },
-        {
-          "rank": 13,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:001",
-          "section": "Reduce Enemies",
-          "relevant": false
-        },
-        {
-          "rank": 14,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:002",
-          "section": "Enemy Change",
-          "relevant": false
-        },
-        {
-          "rank": 15,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:003",
-          "section": "Unlock a Door Without a Key in the First Dungeon",
-          "relevant": false
-        },
-        {
-          "rank": 16,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:004",
-          "section": "Money Making Game",
-          "relevant": true
-        },
-        {
-          "rank": 17,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:005",
-          "section": "Safety Tip",
-          "relevant": false
-        },
-        {
-          "rank": 18,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:000",
-          "section": "Link",
-          "relevant": false
-        },
-        {
-          "rank": 19,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:001",
-          "section": "Zelda",
-          "relevant": false
-        },
-        {
-          "rank": 20,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:002",
-          "section": "Shop Keeper",
           "relevant": false
         }
       ]

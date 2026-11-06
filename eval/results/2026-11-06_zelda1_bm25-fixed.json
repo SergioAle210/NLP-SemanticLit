@@ -6,7 +6,7 @@
     "chunker": "fixed-w225-o30",
     "depth": 20,
     "n_chunks": 153,
-    "date": "2026-11-06T00:17:29+00:00",
+    "date": "2026-11-06T00:55:28+00:00",
     "cases_total": 20,
     "cases_evaluated": 18,
     "cases_skipped": [
@@ -16,7 +16,7 @@
     "setup_seconds": 0.03,
     "latency_ms": {
       "mean": 0.3,
-      "p95": 0.5
+      "p95": 0.4
     }
   },
   "overall": {
@@ -964,139 +964,6 @@
           "chunk_id": "zelda1:bosses:002",
           "section": "(intro)",
           "relevant": false
-        },
-        {
-          "rank": 2,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 3,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:001",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 4,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:002",
-          "section": "Story",
-          "relevant": false
-        },
-        {
-          "rank": 5,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:003",
-          "section": "Story",
-          "relevant": false
-        },
-        {
-          "rank": 6,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 7,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:001",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 8,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:003",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 9,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:000",
-          "section": "Second Quest",
-          "relevant": false
-        },
-        {
-          "rank": 10,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:001",
-          "section": "Money Making Game",
-          "relevant": false
-        },
-        {
-          "rank": 11,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:000",
-          "section": "Link",
-          "relevant": false
-        },
-        {
-          "rank": 12,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:001",
-          "section": "Shop Keeper",
-          "relevant": false
-        },
-        {
-          "rank": 13,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:002",
-          "section": "Old Woman",
-          "relevant": false
-        },
-        {
-          "rank": 14,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:003",
-          "section": "Old Man (Underworld)",
-          "relevant": false
-        },
-        {
-          "rank": 15,
-          "score": 0.0,
-          "chunk_id": "zelda1:controls:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 16,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:000",
-          "section": "Overworld",
-          "relevant": false
-        },
-        {
-          "rank": 17,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:001",
-          "section": "Overworld",
-          "relevant": false
-        },
-        {
-          "rank": 18,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:002",
-          "section": "Overworld",
-          "relevant": false
-        },
-        {
-          "rank": 19,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:003",
-          "section": "Overworld",
-          "relevant": false
-        },
-        {
-          "rank": 20,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:004",
-          "section": "Underworld",
-          "relevant": false
         }
       ]
     },
@@ -1292,132 +1159,6 @@
           "score": 4.2613,
           "chunk_id": "zelda1:overworld-quest-1:003",
           "section": "Buy a magical shield",
-          "relevant": false
-        },
-        {
-          "rank": 3,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 4,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:001",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 5,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:002",
-          "section": "Story",
-          "relevant": false
-        },
-        {
-          "rank": 6,
-          "score": 0.0,
-          "chunk_id": "zelda1:main:003",
-          "section": "Story",
-          "relevant": false
-        },
-        {
-          "rank": 7,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 8,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:001",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 9,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:002",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 10,
-          "score": 0.0,
-          "chunk_id": "zelda1:bosses:003",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 11,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:000",
-          "section": "Second Quest",
-          "relevant": true
-        },
-        {
-          "rank": 12,
-          "score": 0.0,
-          "chunk_id": "zelda1:cheats:001",
-          "section": "Money Making Game",
-          "relevant": true
-        },
-        {
-          "rank": 13,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:000",
-          "section": "Link",
-          "relevant": false
-        },
-        {
-          "rank": 14,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:001",
-          "section": "Shop Keeper",
-          "relevant": false
-        },
-        {
-          "rank": 15,
-          "score": 0.0,
-          "chunk_id": "zelda1:citizens:003",
-          "section": "Old Man (Underworld)",
-          "relevant": false
-        },
-        {
-          "rank": 16,
-          "score": 0.0,
-          "chunk_id": "zelda1:controls:000",
-          "section": "(intro)",
-          "relevant": false
-        },
-        {
-          "rank": 17,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:000",
-          "section": "Overworld",
-          "relevant": false
-        },
-        {
-          "rank": 18,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:001",
-          "section": "Overworld",
-          "relevant": false
-        },
-        {
-          "rank": 19,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:002",
-          "section": "Overworld",
-          "relevant": false
-        },
-        {
-          "rank": 20,
-          "score": 0.0,
-          "chunk_id": "zelda1:enemies:003",
-          "section": "Overworld",
           "relevant": false
         }
       ]

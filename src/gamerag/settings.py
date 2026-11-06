@@ -25,6 +25,12 @@ class Settings(BaseSettings):
     # Clave de gamerag.retrieval.embeddings.MODELS. Provisional: mejor variante híbrida con chunking fijo
     # (docs/evaluation/results.md); se confirma con chunking estructural.
     embedding_model: str = "e5-small-multi"
+    # Configuración de recuperación servida por el pipeline (ADR-0009).
+    retriever: str = "hybrid"  # bm25 | dense | hybrid
+    chunker: str = "structural"  # sufijo de data/processed/<juego>/chunks.<chunker>.jsonl
+    top_k: int = 5  # chunks que recibe el generador
+    candidates: int = 50  # chunks que se recuperan antes de aplicar los filtros de acceso
+    seed_profiles: Path = Path("data/seed/profiles.json")
     state_db: Path = Path("state/gamerag.sqlite3")
     games_config_dir: Path = Path("config/games")
 

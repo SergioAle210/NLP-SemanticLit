@@ -12,10 +12,11 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | Ingesta | `src/gamerag/ingest/` | Wikitext → chunks con metadatos ([ingestion/](../ingestion/)) | ✅ Línea base |
 | Recuperación | `src/gamerag/retrieval/` | BM25, semántica (Chroma) e híbrida RRF ([retrieval/](../retrieval/README.md)); filtros y reranking pendientes | ✅ Tres variantes |
 | Evaluación | `src/gamerag/evaluation/` | Banco de pruebas, métricas, ejecución ([evaluation/](../evaluation/)) | ✅ Recuperación |
-| Generación | `src/gamerag/generation/` | Prompt con contexto cerrado, LLM, validación y fallback | ⬜ |
+| Generación | `src/gamerag/generation/` | Contrato `Generator`; extractivo y fallback ([contracts/generation.md](../contracts/generation.md)) | 🟡 Falta Haiku |
 | Herramientas | `src/gamerag/tools/` | `query_game_facts`, `next_available_levels`, `update_progress` | ⬜ |
-| Guardrails | `src/gamerag/guardrails/` | Entrada, salida y gates de spoilers ([access-control.md](access-control.md)) | ⬜ |
-| Progreso | `src/gamerag/progress/` | `level_set` (Zelda) y `linear_stage` (Ninja Gaiden) | ⬜ |
+| Guardrails | `src/gamerag/guardrails/` | Contratos `InputGuard`, `AccessFilter`, `OutputGuard`; G1 y citas ([contracts/access-and-guardrails.md](../contracts/access-and-guardrails.md)) | 🟡 Faltan G2-G4, inyección, PII |
+| Progreso | `src/gamerag/progress/` | `Profile` con progreso `level_set` / `linear_stage`; perfiles sembrados | ✅ |
+| Pipeline | `src/gamerag/pipeline.py` | Une los contratos y produce la `Trace` auditable ([contracts/pipeline.md](../contracts/pipeline.md)) | ✅ |
 | API | `src/gamerag/api.py` | FastAPI: backend único que usan la interfaz y el benchmark | ⬜ |
 | UI | `ui/app.py` | Streamlit: solo presentación | ⬜ |
 

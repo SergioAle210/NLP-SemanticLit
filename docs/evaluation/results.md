@@ -123,7 +123,7 @@ Archivos: `eval/results/2026-11-06_zelda1_*` (fecha UTC). Los `2026-11-05_*` de 
 | Semántica e5 | estructural | 0.44 | **0.78** | 0.83 | 0.63 |
 | Híbrida bge | fijo | 0.44 | 0.67 | 0.72 | 0.58 |
 | Híbrida bge | estructural | 0.44 | **0.78** | 0.83 | 0.62 |
-| Híbrida e5 | fijo | 0.39 | 0.67 | 0.78 | 0.56 |
+| Híbrida e5 | fijo | 0.33 | 0.67 | 0.78 | 0.53 |
 | **Híbrida e5** | **estructural** | 0.33 | 0.72 | **0.89** | 0.55 |
 
 **Rank del primer chunk relevante, con chunking estructural** (— = fuera del top-20):
@@ -168,3 +168,33 @@ Los demás casos aciertan en el top-3 con todas las variantes estructurales.
 ### Decisión
 
 Configuración de recuperación para la fase 3: **híbrida (BM25 + e5) con chunking estructural**, porque maximiza Recall@5, la métrica que determina si el LLM recibe la evidencia ([ADR-0009](../architecture/decisions/0009-phase3-retrieval-config.md)). La línea base (BM25 + fijo) se conserva como referencia.
+
+## Corrección: BM25 devolvía chunks con score 0 (2026-11-06)
+
+La primera prueba de punta a punta del pipeline ([contracts/pipeline.md](../contracts/pipeline.md)) mostró que **BM25 rellenaba el top-k con chunks de score 0** (sin ningún término de la consulta), en el orden del corpus. **RRF los premiaba por aparecer en la lista.** Con los 50 candidatos del pipeline, a "How can I sail across the sea?" le respondía primero la página de controles.
+
+**Corrección:** BM25 solo devuelve chunks con score > 0. Hay un test de regresión (`test_bm25_returns_only_matching_chunks`).
+
+**Efecto en las métricas:** se volvieron a correr las 10 configuraciones (con 20 candidatos, la profundidad de la evaluación). **Solo cambió la híbrida e5 con chunking fijo:**
+- `paraphrase_03` pasó del rank 1 al 2;
+- Recall@1 pasó de 0.39 a 0.33;
+- MRR pasó de 0.56 a 0.53.
+
+Las tablas de arriba ya tienen el valor corregido. **La configuración elegida (híbrida e5 estructural, Recall@5 = 0.89) no cambió.** El efecto era pequeño con 20 candidatos y grande con 50, porque más candidatos dejan entrar más chunks de score 0.
+
+Los resultados de la sección "léxica, semántica e híbrida" (corrida anterior, sin la ruta en los embeddings) se obtuvieron con el bug; se conservan como registro histórico.
+
+## Verificación: lo servido es lo medido (2026-11-06)
+
+El Recall@5 de 0.89 se midió con la híbrida recuperando **20 candidatos por recuperador**. El pipeline pide 50 candidatos (para que los filtros de acceso tengan margen), y la híbrida usaba `max(k, 20)`. Por eso fusionaba listas de 50, y RRF con listas más largas suma puntos a chunks que solo aparecen abajo y cambia el orden de los primeros:
+
+| Profundidad de cada ranking en la fusión | Recall@5 |
+| --- | ---: |
+| 20 (evaluada) | 0.89 |
+| 50 (lo que servía el pipeline) | 0.83 (cae `compound_03`) |
+
+**Corrección:** la profundidad de la fusión es fija (20) e independiente del `k` pedido. **Medición del pipeline completo** (50 candidatos → filtros → top-5 que recibe el generador, perfil `completionist`): la evidencia llega al contexto en **16 de 18 casos (0.89)**. Fallan `direct_04` y `exact_01`, el desajuste Level/Dungeon.
+
+Hay dos tests de regresión:
+- el orden de los primeros resultados no depende del `k` pedido;
+- el Recall@5 del pipeline servido debe ser ≥ 0.88 (requiere el extra `semantic` y la ingesta estructural; en el CI se salta).

@@ -35,7 +35,7 @@ rrf(chunk) = Σ por cada ranking  1 / (60 + posición del chunk en ese ranking)
 
 - Combina **posiciones**, no puntajes. BM25 (p. ej. 7.12) y la similitud coseno (0 a 1) están en escalas distintas, y sumarlos directamente sería incorrecto (curso, tema 08, diapositiva 198).
 - k = 60 es el valor del artículo original de RRF (Cormack, Clarke y Büttcher, 2009). No se ajustó, para no sobreajustarlo a los 18 casos.
-- Cada recuperador aporta 20 candidatos; la fusión devuelve el top-k.
+- Cada recuperador aporta **siempre 20 candidatos**, sin importar cuántos resultados se pidan, y la fusión devuelve el top-k. La profundidad es fija porque RRF con listas más largas cambia el orden de los primeros resultados: con 50 por recuperador, el Recall@5 bajaba de 0.89 a 0.83.
 - Un chunk que aparece alto en los dos rankings supera a uno que solo es primero en uno: premia el **acuerdo**.
 
 ## Hallazgos

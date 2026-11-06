@@ -61,7 +61,40 @@ def test_hybrid_retriever_fuses_bm25_rankings():
     assert {h.chunk.chunk_id for h in hits} == {"a", "c"}
 
 
+def test_hybrid_top_results_do_not_depend_on_requested_k():
+    """Regresión: pedir más resultados (como hace el pipeline, k=50) no debe cambiar el orden de los
+    primeros; la profundidad de la fusión es fija."""
+    words = ["raft", "sword", "candle", "bombs", "ladder", "key", "ring", "shield", "arrow", "bow"]
+    chunks = [_chunk(f"c{i}", " ".join(words[: (i % 10) + 1])) for i in range(30)]
+    a, b = BM25Index(chunks), BM25Index(list(reversed(chunks)))
+    hybrid = HybridRetriever([a, b], candidates=5)
+    top5 = [h.chunk.chunk_id for h in hybrid.search("raft bow", k=5)]
+    assert [h.chunk.chunk_id for h in hybrid.search("raft bow", k=50)][:5] == top5
+
+
 # --- índice denso (requiere el extra `semantic`) --------------------------------------------
+
+@semantic
+def test_served_pipeline_matches_evaluated_recall():
+    """Lo que sirve el pipeline (50 candidatos, filtros, top-5) debe tener el mismo Recall@5 que la
+    configuración evaluada (ADR-0009: 0.89). Detectó que la fusión dependía de k (0.83 servido)."""
+    from gamerag.evaluation.cases import is_relevant, load_cases
+    from gamerag.evaluation.retrieval import RETRIEVAL_CATEGORIES
+    from gamerag.pipeline import build_pipeline
+    from gamerag.progress.models import Profile
+    from gamerag.settings import Settings
+
+    root = Path(__file__).resolve().parents[1]
+    if not (root / "data" / "processed" / "zelda1" / "chunks.structural.jsonl").exists():
+        pytest.skip("requiere la ingesta estructural de zelda1")
+    pipe = build_pipeline(Settings(root=root))
+    by_id = {c.chunk_id: c for c in pipe.retrievers["zelda1"].retrievers[0].chunks}
+    cases = [c for c in load_cases(root / "eval" / "cases.jsonl")
+             if c.game == "zelda1" and c.answerable and c.category in RETRIEVAL_CATEGORIES]
+    prof = Profile(user_id="completionist", role="completionist")
+    hits = sum(any(is_relevant(c, by_id[cid]) for cid in pipe.ask(c.question, "zelda1", prof)[1].context)
+               for c in cases)
+    assert hits / len(cases) >= 0.88
 
 @semantic
 def test_dense_index_finds_paraphrase_and_reuses_persisted_index(tmp_path: Path):

@@ -56,6 +56,10 @@ class BM25Index:
         if not terms:
             return []
         scores = self._bm25.get_scores(terms)
+        # Solo chunks con score > 0: un chunk sin ningún término de la consulta no es un candidato
+        # léxico. Sin este filtro, BM25 rellenaba el top-k con chunks de score 0 en orden de corpus,
+        # y RRF los premiaba por aparecer en la lista (bug detectado en la prueba de punta a punta).
+        matching = [i for i in range(len(scores)) if scores[i] > 0]
         # Orden estable: score descendente y, en empate, el orden original del corpus.
-        order = sorted(range(len(scores)), key=lambda i: (-scores[i], i))[:k]
+        order = sorted(matching, key=lambda i: (-scores[i], i))[:k]
         return [Hit(rank=r, score=float(scores[i]), chunk=self.chunks[i]) for r, i in enumerate(order, 1)]

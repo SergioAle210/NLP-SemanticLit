@@ -6,17 +6,17 @@
     "chunker": "structural-w225-m15",
     "depth": 20,
     "n_chunks": 243,
-    "date": "2026-11-06T00:19:44+00:00",
+    "date": "2026-11-06T00:56:54+00:00",
     "cases_total": 20,
     "cases_evaluated": 18,
     "cases_skipped": [
       "zelda_unanswerable_01",
       "zelda_unanswerable_02"
     ],
-    "setup_seconds": 26.15,
+    "setup_seconds": 13.7,
     "latency_ms": {
-      "mean": 19.7,
-      "p95": 21.9
+      "mean": 23.4,
+      "p95": 28.5
     }
   },
   "overall": {

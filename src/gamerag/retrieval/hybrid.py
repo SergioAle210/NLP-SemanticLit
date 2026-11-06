@@ -40,7 +40,14 @@ def rrf_fuse(rankings: list[list[Hit]], k: int = RRF_K, top_n: int | None = None
 
 
 class HybridRetriever:
-    """Recupera `candidates` de cada recuperador y los fusiona con RRF."""
+    """Recupera `candidates` de cada recuperador y los fusiona con RRF.
+
+    La profundidad de cada ranking (`candidates`) es **fija** e independiente del `k` pedido: RRF con
+    listas más largas suma puntos a chunks que solo aparecen abajo y cambia el orden de los primeros.
+    Antes se usaba max(k, candidates); el pipeline pedía k=50 y obtenía Recall@5 = 0.83 en vez del
+    0.89 evaluado con profundidad 20 (docs/evaluation/results.md). Si k > candidates, se devuelven
+    como máximo los chunks únicos de la unión de los rankings.
+    """
 
     def __init__(self, retrievers: list[Retriever], candidates: int = 20, rrf_k: int = RRF_K):
         if not retrievers:
@@ -48,5 +55,4 @@ class HybridRetriever:
         self.retrievers, self.candidates, self.rrf_k = retrievers, candidates, rrf_k
 
     def search(self, query: str, k: int = 5) -> list[Hit]:
-        depth = max(k, self.candidates)
-        return rrf_fuse([r.search(query, k=depth) for r in self.retrievers], k=self.rrf_k, top_n=k)
+        return rrf_fuse([r.search(query, k=self.candidates) for r in self.retrievers], k=self.rrf_k, top_n=k)

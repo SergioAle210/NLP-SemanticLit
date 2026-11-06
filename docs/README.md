@@ -6,6 +6,7 @@ Asistente RAG para juegos retro de NES (*The Legend of Zelda* y *Ninja Gaiden*) 
 | --- | --- |
 | [overview/](overview/) | Problema, usuario, alcance, criterios de éxito y los dos juegos |
 | [architecture/](architecture/) | Componentes, flujos, stack, control de acceso y [decisiones (ADRs)](architecture/decisions/) |
+| [contracts/](contracts/README.md) | Interfaces entre componentes: generación, filtros de acceso, guardrails, pipeline |
 | [data/](data/) | Fuentes, licencias y gobernanza del corpus |
 | [ingestion/](ingestion/) | Pipeline de ingesta: limpieza, secciones, chunking y metadatos |
 | [retrieval/](retrieval/README.md) | Recuperación: BM25 (línea base); vectorial e híbrida (fase 3) |
