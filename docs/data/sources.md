@@ -6,9 +6,9 @@ Cubre el §5.2 de [course/instructions.md](../course/instructions.md). Decisión
 | --- | --- | --- | --- | --- | --- |
 | StrategyWiki: *The Legend of Zelda* (41 páginas) | strategywiki.org, API de MediaWiki | CC BY-SA 4.0 (verificado vía `siteinfo`) | Wikitext | `revid` por página; snapshot del 2026-11-04 | ✅ `data/wiki_snapshot/strategywiki/zelda1/` |
 | StrategyWiki: *Ninja Gaiden (NES)* (11 páginas) | Ídem | CC BY-SA 4.0 | Wikitext | Ídem | ✅ `data/wiki_snapshot/strategywiki/ninja_gaiden_nes/` |
-| Manual *The Legend of Zelda* | nintendo.co.jp, `CLV-P-NAANE.pdf` | © Nintendo; distribución pública gratuita; uso educativo sin lucro, sin redistribuir | PDF (verificar si tiene texto o requiere OCR) | NES Classic | ❌ Solo local, en `data/raw/` |
-| Manual *Ninja Gaiden* | nintendo.co.jp, `CLV-P-NACBE.pdf` | Ídem | PDF | NES Classic | ❌ |
-| Datos curados (hechos, fichas, prerrequisitos, entidades) | El equipo, a partir de la wiki | Derivado, por lo tanto CC BY-SA 4.0 | JSON / YAML | `v1` | ✅ `data/curated/<juego>/` (pendiente) |
+| Manual *The Legend of Zelda* | nintendo.co.jp, `CLV-P-NAANE.pdf` | © Nintendo; distribución pública gratuita; uso educativo sin lucro, sin redistribuir | PDF | NES Classic | ❌ **Descartado** (2026-11-06): la wiki cubre el contenido |
+| Manual *Ninja Gaiden* | nintendo.co.jp, `CLV-P-NACBE.pdf` | Ídem | PDF | NES Classic | ❌ **Descartado** |
+| Datos curados (hechos, fichas, prerrequisitos, entidades) | El equipo, a partir de la wiki | Derivado, por lo tanto CC BY-SA 4.0 | JSON / YAML | `v1` | No se creó: la tabla de jefes se extrae de la wiki al cargar ([tools/](../tools/README.md)) |
 
 ## Política
 

@@ -18,7 +18,7 @@ Al arrancar, la API construye el pipeline **una sola vez** (cargar el modelo de 
 | `GET /health` | Estado, juegos disponibles, recuperador y generador en uso | Libre |
 | `GET /games` | Juegos con su modelo de progreso (`levels`/`quests` o `stages`) y si tienen índice cargado | Libre |
 | `GET /profiles`, `GET /profiles/{user_id}` | Perfiles de demo | Libre |
-| `POST /ask` | Pregunta → `Answer` (§11) + `Trace`. Se registra en el log de auditoría | `user_id` de un perfil |
+| `POST /ask` | Pregunta → `Answer` (§11) + `Trace`. Se registra en el log de auditoría. Si el router elige una herramienta, `answer.tool_used` la nombra y la traza lleva `route` y `tool` ([tools/](../tools/README.md)) | `user_id` de un perfil |
 | `POST /search` | Solo recuperación + filtros: el contexto que recibiría el generador. No genera, así que no consume tokens | `user_id` de un perfil |
 | `GET /audit?user_id=…&limit=20` | Últimas trazas del log de auditoría | Rol `admin` |
 | `POST /admin/reset-profiles?user_id=…` | Restablece los perfiles sembrados | Rol `admin` |

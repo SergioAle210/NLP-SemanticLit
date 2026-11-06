@@ -30,15 +30,17 @@ flowchart LR
     RA --> F["Fusión RRF<br/>1 / (60 + posición)<br/>por cada ranking"]
     RB --> F
     F --> GT["Gates de acceso<br/>juego · quest/etapa · pista"]
-    GT --> RR["Reranker<br/>cross-encoder<br/>sobre ~20 candidatos"]
-    RR --> K["Top-5 al LLM"]
+    GT --> K["Top-5 al LLM"]
+    GT -.->|probado y descartado| RR["Reranker cross-encoder"]
 
     RA -.->|línea base: top-k directo| K
 
     classDef done fill:#d4edda,stroke:#28a745,color:#155724
     classDef pending fill:#f8f9fa,stroke:#adb5bd,color:#6c757d,stroke-dasharray: 5 5
+    classDef discarded fill:#f8d7da,stroke:#dc3545,color:#721c24,stroke-dasharray: 3 3
     class Q,T,B,RA,K,E,V,RB,F done
-    class GT,RR pending
+    class GT pending
+    class RR discarded
 ```
 
 **Implementado:**

@@ -59,5 +59,5 @@ El 9% restante son las secciones diminutas unidas a la siguiente (p. ej. "Enemy 
 ## Pendiente (fase 3)
 
 - **Ninja Gaiden:** separar cada acto en los segmentos `intro`, etapas, `boss` y `outro` (gate G2b). Hoy ya hay un chunk por etapa, pero la escena posterior al jefe queda en el mismo chunk que la pelea. Los segmentos son opcionales: el Act 1 no tiene `intro`.
-- **Páginas agregadas** (Bosses, Items y Enemies de Zelda): un chunk por fila, para que G3 bloquee solo la fila de un jefe y no el bloque completo. Hoy se empaquetan varias filas por chunk.
-- **Fichas por mazmorra o acto** como documento padre, para la recuperación small-to-big y las pistas escalonadas.
+- **Páginas agregadas** (Bosses, Items y Enemies de Zelda): un chunk por fila, para que G3 bloquee solo la fila de un jefe. Como estrategia global se probó y se descartó (Recall@5 0.89 → 0.78); si G3 lo necesita, aplicarlo solo a esas páginas. La tabla de jefes ya está disponible por fila en la herramienta `query_game_facts`, que aplica los gates fila por fila.
+- **Fichas por mazmorra o acto** (small-to-big y pistas escalonadas): no se implementaron; quedan como trabajo futuro.

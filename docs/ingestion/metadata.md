@@ -32,7 +32,7 @@ Se usan las expresiones regulares de la config del juego ([ADR-0007](../architec
 | Ninja Gaiden | Título de la página | `Act (?P<act>\d)` | `act` 2 |
 | Ninja Gaiden | Encabezados de la sección | `(?:Stage\|Act) (?P<stage>\d-\d)` | `stage` "2-3" (gana el encabezado más profundo que coincida) |
 
-## Pendiente (fase 3)
+## Pendiente (para los gates G2b-G4, a cargo de otro integrante)
 
 - `entities`: entidades mencionadas (gate G3).
 - `hint_tier`: nivel de detalle (gate G4).

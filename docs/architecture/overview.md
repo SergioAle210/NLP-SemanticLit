@@ -9,16 +9,17 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | Configuración global | `src/gamerag/settings.py` | Variables de entorno y `.env`, rutas | ✅ |
 | Configuración por juego | `config/games/*.yaml`, `src/gamerag/games.py` | Modelo de progreso, ubicación, herramientas ([ADR-0007](decisions/0007-per-game-config.md)) | ✅ |
 | Contrato de salida | `src/gamerag/schemas.py` | Respuesta validada con Pydantic (§11) | ✅ |
-| Ingesta | `src/gamerag/ingest/` | Wikitext → chunks con metadatos ([ingestion/](../ingestion/)) | ✅ Línea base |
-| Recuperación | `src/gamerag/retrieval/` | BM25, semántica (Chroma) e híbrida RRF ([retrieval/](../retrieval/README.md)); filtros y reranking pendientes | ✅ Tres variantes |
+| Ingesta | `src/gamerag/ingest/` | Wikitext → chunks con metadatos ([ingestion/](../ingestion/)) | ✅ |
+| Recuperación | `src/gamerag/retrieval/` | BM25, semántica (Chroma) e híbrida RRF con multi-consulta ([retrieval/](../retrieval/README.md)); reranker probado y descartado | ✅ |
 | Evaluación | `src/gamerag/evaluation/` | Banco de pruebas, métricas, ejecución ([evaluation/](../evaluation/)) | ✅ Recuperación |
 | Generación | `src/gamerag/generation/` | Contrato `Generator`; extractivo y fallback ([contracts/generation.md](../contracts/generation.md)) | 🟡 Falta Haiku |
-| Herramientas | `src/gamerag/tools/` | `query_game_facts`, `next_available_levels`, `update_progress` | ⬜ |
+| Herramientas | `src/gamerag/tools/` | Router por reglas; `query_game_facts`, `next_available_levels`, `update_progress` ([tools/](../tools/README.md)) | ✅ |
 | Guardrails | `src/gamerag/guardrails/` | Contratos `InputGuard`, `AccessFilter`, `OutputGuard`; G1 y citas ([contracts/access-and-guardrails.md](../contracts/access-and-guardrails.md)) | 🟡 Faltan G2-G4, inyección, PII |
 | Progreso | `src/gamerag/progress/` | `Profile` con progreso `level_set` / `linear_stage`; perfiles sembrados | ✅ |
 | Pipeline | `src/gamerag/pipeline.py` | Une los contratos y produce la `Trace` auditable ([contracts/pipeline.md](../contracts/pipeline.md)) | ✅ |
 | API | `src/gamerag/api.py`, `src/gamerag/store.py` | FastAPI: backend único que usan la interfaz y el benchmark; SQLite con perfiles y auditoría ([api/](../api/README.md)) | ✅ |
-| UI | `ui/app.py` | Streamlit: solo presentación | ⬜ |
+| UI | `src/gamerag/ui/` | Streamlit: solo presentación, consume la API ([ui/](../ui/README.md)) | ✅ Mínima |
+| Despliegue | `Dockerfile`, `compose.yaml` | `api` + `ui`, volúmenes ([deployment/](../deployment/README.md)) | ✅ |
 
 ## Stack
 
@@ -26,17 +27,17 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | --- | --- | --- |
 | Entorno | uv (`pyproject.toml` + `uv.lock`) | Instalación reproducible; Docker con caché |
 | API | FastAPI | Pydantic nativo, que es el contrato de salida |
-| UI | Streamlit 🔶 | Todo en Python; suficiente para la demo |
+| UI | Streamlit (interfaz mínima) | Todo en Python; suficiente para la demo. El diseño definitivo puede usar otra tecnología contra la misma API |
 | Parser de wikitext | mwparserfromhell | Plantillas anidadas ([ADR-0005](decisions/0005-wikitext-cleaning.md)) |
 | Índice léxico | rank-bm25 | Línea base; suficiente para unos 1k chunks |
 | Índice vectorial | ChromaDB embebido | Sin servidor; filtros `where` para los gates |
 | Embeddings | `multilingual-e5-small` | Mejor Recall@5 en la híbrida con chunking estructural ([ADR-0009](decisions/0009-phase3-retrieval-config.md)) |
-| Reranker | 🔶 Pendiente | — |
-| LLM | Claude Haiku | Router y generación; bajo costo |
+| Reranker | Descartado | Recall@5 0.89 → 0.78 y unas 40 veces más lento ([ADR-0010](decisions/0010-query-expansion.md)) |
+| LLM | Claude Haiku | Generación; bajo costo. El router es por reglas ([ADR-0013](decisions/0013-intent-router-and-tools.md)) |
 | Estado | SQLite en el volumen `state/` | Perfiles, progreso y auditoría ([ADR-0004](decisions/0004-sqlite-and-demo-profiles.md)) |
-| Contenedores | docker compose: `api` + `ui` | torch solo CPU; volúmenes `index/`, `models/` y `state/` |
+| Contenedores | docker compose: `api` + `ui` | torch solo CPU; volúmenes para modelos, índice, chunks y estado ([deployment/](../deployment/README.md)) |
 
-**Recursos objetivo del backend:** 2 GB de RAM o menos. Lo pesado son torch y los modelos, no el corpus ni SQLite. Si hiciera falta recortar, el reranker es lo primero que sale, y eso también sirve como ablación.
+**Recursos objetivo del backend:** 2 GB de RAM o menos. Lo pesado son torch y los modelos, no el corpus ni SQLite. El reranker se descartó, así que no ocupa memoria.
 
 ## Fases del RAG y estado actual
 
@@ -80,17 +81,25 @@ En verde lo implementado y en gris punteado lo pendiente: la *Augmentation* y la
 ```text
 UI (juego, perfil, progreso del juego activo, pregunta)
   -> Guardrails de entrada (esquema, longitud, inyección, PII)
-  -> Router de intención (herramientas habilitadas según la config del juego)
-       ├─ pregunta del juego    -> búsqueda (gates como pre-filtro) -> rerank -> recheck de permisos -> contexto
-       ├─ guía de Level-N/Act N -> ficha padre (small-to-big), recortada a hint_level
-       ├─ dato exacto           -> query_game_facts (SQL de solo lectura)
-       ├─ "what can I do now?"  -> Zelda: next_available_levels · NG: siguiente etapa
-       ├─ desbloquear / + pista -> update_progress (requiere confirmación humana)
-       └─ fuera de dominio      -> abstención
+  -> Router de intención por reglas (herramientas habilitadas según la config del juego)
+       ├─ pregunta del juego    -> multi-consulta -> búsqueda híbrida -> gates (AccessFilter) -> contexto
+       ├─ lista de jefes        -> query_game_facts (SQL de solo lectura; gates por fila)
+       ├─ "what should I do next?" -> next_available_levels (solo Zelda: no lineal)
+       └─ "I just beat level N" -> update_progress (no se ejecuta: needs_human_review)
+       (si la herramienta falla -> búsqueda; sin evidencia suficiente -> abstención del generador)
   -> Generación (Haiku, contexto cerrado, citas obligatorias)
   -> Guardrails de salida (Pydantic, citas ⊆ permitidas, entidades bloqueadas, juego correcto)
   -> Respuesta + traza de auditoría (SQLite)
 ```
+
+**Estado de cada paso:**
+- **Implementados:** el router, las herramientas, la multi-consulta, la búsqueda híbrida, el gate G1 (por juego), la validación de citas y del juego, y la traza.
+- **Con implementación por defecto, a cargo de otros integrantes:**
+  - generación con Haiku (hoy, generador extractivo);
+  - detección de inyección y PII en la entrada (hoy, validación de esquema y longitud);
+  - gates G2 a G4 y entidades bloqueadas.
+
+  Los contratos están en [contracts/](../contracts/README.md).
 
 ## Flujo de ingesta
 
@@ -104,10 +113,11 @@ El detalle está en [ingestion/](../ingestion/).
 
 | | Línea base (fase 2) | Mejorada (fase 3) |
 | --- | --- | --- |
-| Chunking | Fijo: 225 palabras, solapamiento de 30 | Estructural por sección + fichas |
-| Recuperación | BM25, top-5 | Híbrida (BM25 + vectorial, RRF) + rerank + MMR |
-| Gates | Ninguno, a propósito | G1 a G4 ([access-control.md](access-control.md)) |
-| Router y herramientas | No | Sí |
+| Chunking | Fijo: 225 palabras, solapamiento de 30 | Estructural por sección |
+| Recuperación | BM25, top-5 | Híbrida (BM25 + e5, RRF plana) + multi-consulta (ortografía, glosario) + alias de ubicación y tokens de frase. Rerank probado y descartado |
+| Gates | Ninguno, a propósito | G1 implementado; G2 a G4 a cargo de otro integrante ([access-control.md](access-control.md)) |
+| Router y herramientas | No | Sí, router por reglas ([ADR-0013](decisions/0013-intent-router-and-tools.md)) |
+| Recall@5 en Zelda (curso, 18 casos) | 0.78 | 0.94 |
 
 La línea base no tiene gates para poder **medir** cuánto spoiler y cuánta mezcla entre juegos y quests se produce sin control.
 
@@ -116,6 +126,8 @@ La línea base no tiene gates para poder **medir** cuánto spoiler y cuánta mez
 | Herramienta | Juegos | Justificación | Límites |
 | --- | --- | --- | --- |
 | `search_documents` | Ambos | Texto no estructurado | top-k ≤ 10; gates obligatorios |
-| `query_game_facts` | Ambos (fuerte en Zelda) | Datos exactos que un LLM suele inventar | Solo lectura, lista blanca, parametrizada, máximo 3 por request |
-| `next_available_levels` | Solo Zelda | Razonamiento determinista sobre el grafo de prerrequisitos | Responde qué mazmorras, no cómo resolverlas; la config lo impide en NG |
-| `update_progress` / `raise_hint_level` | Ambos | Desbloquear es irreversible, así que es una acción crítica | Requiere `confirm=true` en un request posterior del usuario |
+| `query_game_facts` | Zelda (tabla de jefes; NG no tiene tabla equivalente) | Listas completas que el RAG devuelve partidas | Solo lectura, consultas predefinidas parametrizadas, máximo 50 filas, gates por fila |
+| `next_available_levels` | Solo Zelda | Depende del perfil, no de la wiki | Solo números de nivel, no cómo resolverlos; la config lo impide en NG |
+| `update_progress` | Ambos | Cambiar el progreso cambia qué contenido se ve: es una acción crítica | No se ejecuta: `needs_human_review` |
+
+Detalle en [tools/README.md](../tools/README.md).

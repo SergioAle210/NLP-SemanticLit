@@ -19,7 +19,7 @@ build.py      arma los Chunk (models.py) y escribe JSONL + estadísticas
 data/processed/<juego>/chunks.fixed.jsonl   (regenerable, fuera de git)
 data/processed/<juego>/stats.fixed.json
   ▼
-índices (BM25 / Chroma)   -> pendiente (paso 3 de la fase 2)
+índices (BM25 / Chroma)   -> retrieval/
 ```
 
 ## Uso

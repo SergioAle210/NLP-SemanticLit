@@ -5,7 +5,7 @@ Cubre el §9 de [course/instructions.md](../course/instructions.md). Las métric
 | Evaluación | Comando | Estado |
 | --- | --- | --- |
 | Recuperación (sin LLM) | `uv run python -m gamerag.evaluation.retrieval <juego>` | ✅ ([results.md](results.md)) |
-| Sistema completo (vía API) | Pendiente | ⬜ |
+| Generación y sistema completo (vía API) | Con Haiku: a cargo del integrante de generación | ⬜ |
 
 Cada corrida se guarda en `eval/results/<fecha>_<juego>_<variante>.json`, **con los candidatos de cada caso** (rank, score, chunk y si es relevante), para poder diagnosticar fallas.
 
