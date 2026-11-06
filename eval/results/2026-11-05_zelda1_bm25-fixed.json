@@ -2,20 +2,22 @@
   "run": {
     "game": "zelda1",
     "retriever": "bm25",
+    "embedding_model": null,
     "chunker": "fixed-w225-o30",
     "depth": 20,
-    "bm25": {
-      "k1": 1.5,
-      "b": 0.75
-    },
     "n_chunks": 153,
-    "date": "2026-11-05T22:58:35+00:00",
+    "date": "2026-11-05T23:45:15+00:00",
     "cases_total": 20,
     "cases_evaluated": 18,
     "cases_skipped": [
       "zelda_unanswerable_01",
       "zelda_unanswerable_02"
-    ]
+    ],
+    "setup_seconds": 0.03,
+    "latency_ms": {
+      "mean": 0.2,
+      "p95": 0.3
+    }
   },
   "overall": {
     "n": 18,

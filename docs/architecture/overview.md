@@ -10,7 +10,7 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | Configuración por juego | `config/games/*.yaml`, `src/gamerag/games.py` | Modelo de progreso, ubicación, herramientas ([ADR-0007](decisions/0007-per-game-config.md)) | ✅ |
 | Contrato de salida | `src/gamerag/schemas.py` | Respuesta validada con Pydantic (§11) | ✅ |
 | Ingesta | `src/gamerag/ingest/` | Wikitext → chunks con metadatos ([ingestion/](../ingestion/)) | ✅ Línea base |
-| Recuperación | `src/gamerag/retrieval/` | BM25 ([retrieval/bm25.md](../retrieval/bm25.md)); vectorial, híbrida, filtros y reranking en la fase 3 | ✅ BM25 |
+| Recuperación | `src/gamerag/retrieval/` | BM25, semántica (Chroma) e híbrida RRF ([retrieval/](../retrieval/README.md)); filtros y reranking pendientes | ✅ Tres variantes |
 | Evaluación | `src/gamerag/evaluation/` | Banco de pruebas, métricas, ejecución ([evaluation/](../evaluation/)) | ✅ Recuperación |
 | Generación | `src/gamerag/generation/` | Prompt con contexto cerrado, LLM, validación y fallback | ⬜ |
 | Herramientas | `src/gamerag/tools/` | `query_game_facts`, `next_available_levels`, `update_progress` | ⬜ |
@@ -29,7 +29,8 @@ Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama
 | Parser de wikitext | mwparserfromhell | Plantillas anidadas ([ADR-0005](decisions/0005-wikitext-cleaning.md)) |
 | Índice léxico | rank-bm25 | Línea base; suficiente para unos 1k chunks |
 | Índice vectorial | ChromaDB embebido | Sin servidor; filtros `where` para los gates |
-| Embeddings / reranker | 🔶 inglés o multilingüe | Se decide en la fase 3a ([ADR-0001](decisions/0001-english-first.md)) |
+| Embeddings | `multilingual-e5-small` (provisional) | Mejor variante híbrida con chunking fijo; se confirma con chunking estructural ([retrieval/semantic.md](../retrieval/semantic.md)) |
+| Reranker | 🔶 Pendiente | — |
 | LLM | Claude Haiku | Router y generación; bajo costo |
 | Estado | SQLite en el volumen `state/` | Perfiles, progreso y auditoría ([ADR-0004](decisions/0004-sqlite-and-demo-profiles.md)) |
 | Contenedores | docker compose: `api` + `ui` | torch solo CPU; volúmenes `index/`, `models/` y `state/` |
@@ -67,11 +68,11 @@ flowchart LR
 
     classDef done fill:#d4edda,stroke:#28a745,color:#155724
     classDef pending fill:#f8f9fa,stroke:#adb5bd,color:#6c757d,stroke-dasharray: 5 5
-    class S,CL,SE,CH,MD,J,IL,Q,R,EV done
-    class IV,A,G,ANS pending
+    class S,CL,SE,CH,MD,J,IL,IV,Q,R,EV done
+    class A,G,ANS pending
 ```
 
-En verde lo implementado y en gris punteado lo pendiente: el índice vectorial (fase 3) y la *Augmentation* y *Generation* (paso 3.2, que requiere la API key). Hoy, una pregunta devuelve los fragmentos recuperados, pero todavía no una respuesta redactada.
+En verde lo implementado y en gris punteado lo pendiente: la *Augmentation* y la *Generation* (paso 3.2, que requiere la API key). Hoy, una pregunta devuelve los fragmentos recuperados (léxica, semántica o híbrida), pero todavía no una respuesta redactada.
 
 ## Flujo de consulta
 

@@ -12,7 +12,7 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | --- | --- | --- |
 | 1. Anteproyecto | Alcance, fuentes, arquitectura, riesgos, manifiesto | 🟡 Falta revisar los PDF y hacer el diagrama formal |
 | 2. Línea base (Zelda, inglés) | Ingesta → BM25 → Haiku → `Answer`, servido por la API; 20 casos de Zelda | 🟡 En curso |
-| 3a. Mejora (Zelda) | Chunking estructural, híbrida, rerank, G1, G2 y G4, router, herramientas, fichas y pistas | ⬜ |
+| 3a. Mejora (Zelda) | Chunking estructural, híbrida, rerank, G1, G2 y G4, router, herramientas, fichas y pistas | 🟡 En curso |
 | 3b. Segundo juego | Ninja Gaiden: `linear_stage`, G2b, fichas por acto, casos de NG y multijuego | ⬜ |
 | 3c. Refinamiento | G3 (entidades de solución) en ambos juegos | ⬜ |
 | 3d. Español (opcional) | Traducción de la consulta + glosario + casos en español ([ADR-0001](architecture/decisions/0001-english-first.md)) | ⬜ |
@@ -31,6 +31,17 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 | 3.3 | API mínima (`/ask`), SQLite (auditoría y perfiles de demo) | ⬜ |
 | 4 | Dockerfile y docker compose | ⬜ |
 
+## Fase 3a en detalle
+
+| Paso | Contenido | Estado |
+| --- | --- | --- |
+| 1 | Búsqueda semántica (embeddings + Chroma) y comparación de dos modelos | ✅ |
+| 2 | Búsqueda híbrida RRF y comparación léxica / semántica / híbrida ([results.md](evaluation/results.md)) | ✅ |
+| 3 | **Chunking estructural** (por sección y por fila; Ninja Gaiden por segmento). Prerrequisito según el hallazgo de dilución | ⬜ Siguiente |
+| 4 | Reevaluar las tres variantes con chunking estructural y confirmar el modelo de embeddings | ⬜ |
+| 5 | Alias de identificadores (level ↔ dungeon, first ↔ 1) en la config del juego | ⬜ |
+| 6 | Contratos para el equipo: `Generator` (Haiku), puntos de enganche de los gates, API documentada | ⬜ |
+
 ## Riesgos
 
 | Riesgo | Impacto | Mitigación |
@@ -47,7 +58,7 @@ Fases alineadas con el §7 de [course/instructions.md](course/instructions.md).
 ## Decisiones abiertas 🔶
 
 - [ ] Frontend: Streamlit o HTMX.
-- [ ] Embeddings y reranker: inglés o multilingüe (criterio en [ADR-0001](architecture/decisions/0001-english-first.md); se decide en la fase 3a).
+- [ ] Embeddings: `e5-small-multi` provisional; se confirma con chunking estructural (criterio en [ADR-0001](architecture/decisions/0001-english-first.md)). Reranker: pendiente.
 - [ ] Repo público o privado; renombrar el repo.
 - [ ] Repartir responsables.
 - [ ] Presupuesto de tokens de la API key.

@@ -21,6 +21,10 @@ class Settings(BaseSettings):
     root: Path = Field(default_factory=Path.cwd)
     data_dir: Path = Path("data")
     index_dir: Path = Path("data/index")
+    models_dir: Path = Path("models")  # caché de modelos de Hugging Face (fuera de git)
+    # Clave de gamerag.retrieval.embeddings.MODELS. Provisional: mejor variante híbrida con chunking fijo
+    # (docs/evaluation/results.md); se confirma con chunking estructural.
+    embedding_model: str = "e5-small-multi"
     state_db: Path = Path("state/gamerag.sqlite3")
     games_config_dir: Path = Path("config/games")
 

@@ -54,10 +54,13 @@ Detalle en [docs/ingestion/](docs/ingestion/README.md).
 ## Evaluación de la recuperación
 
 ```bash
-uv run python -m gamerag.evaluation.retrieval zelda1   # requiere haber corrido la ingesta
+uv run python -m gamerag.evaluation.retrieval zelda1                                  # BM25 (requiere la ingesta)
+uv sync --extra semantic                                                              # una vez: torch CPU + modelos
+uv run python -m gamerag.evaluation.retrieval zelda1 --retriever dense  --model e5-small-multi
+uv run python -m gamerag.evaluation.retrieval zelda1 --retriever hybrid --model e5-small-multi
 ```
 
-Imprime Recall@k y MRR por categoría y guarda el detalle en `eval/results/`. Resultados y diagnóstico en [docs/evaluation/results.md](docs/evaluation/results.md).
+Imprime Recall@k y MRR por categoría y guarda el detalle en `eval/results/`. La primera corrida semántica descarga el modelo (~100 a 500 MB) a `models/` y construye el índice en `data/index/`. Resultados y diagnóstico en [docs/evaluation/results.md](docs/evaluation/results.md).
 
 ## Reproducir el corpus
 

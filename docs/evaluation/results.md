@@ -41,9 +41,65 @@ Se siguió el orden de diagnóstico del curso (tema 08): primero confirmar que e
 
 ### Hipótesis para la fase 3
 
+Se verificaron en la sección siguiente.
+
 1. La búsqueda semántica debería recuperar `paraphrase_01` y mejorar `direct_01`.
 2. Un alias de identificadores en la config del juego (level ↔ dungeon, first ↔ 1) debería recuperar `direct_04`, `compound_03` y `exact_01`.
 3. El filtro de quest debería llevar los casos de versión a MRR ≈ 1.
 4. El chunking estructural debería mejorar el MRR de las compuestas.
 
 Cada una se mide por separado (ablación).
+
+## Recuperación: léxica, semántica e híbrida (2026-11-05)
+
+**Configuración:** Zelda · chunking `fixed-w225-o30` · sin gates · 18 casos con respuesta. Para la híbrida, RRF con k = 60 y 20 candidatos por recuperador ([retrieval/semantic.md](../retrieval/semantic.md)).
+
+Comando: `uv run python -m gamerag.evaluation.retrieval zelda1 --retriever {bm25|dense|hybrid} --model {bge-small-en|e5-small-multi}`.
+
+| Variante | Recall@1 | Recall@3 | Recall@5 | MRR | Latencia media |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| BM25 | 0.33 | 0.56 | **0.78** | 0.47 | 0.2 ms |
+| Semántica (bge, inglés) | **0.39** | 0.50 | 0.50 | 0.45 | 21.5 ms |
+| Semántica (e5, multilingüe) | 0.33 | 0.50 | 0.50 | 0.44 | 19.6 ms |
+| Híbrida (BM25 + bge) | 0.33 | 0.56 | 0.61 | 0.48 | 22.2 ms |
+| **Híbrida (BM25 + e5)** | **0.39** | **0.61** | **0.78** | **0.52** | 21.3 ms |
+
+**Rank del primer chunk relevante por caso** (— = fuera del top-20):
+
+| Caso | BM25 | Sem. bge | Sem. e5 | Híb. bge | Híb. e5 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| `direct_01` "swings the sword" | 4 | **1** | **1** | 2 | 2 |
+| `direct_04` "Level-3 first quest" | — | — | — | — | — |
+| `paraphrase_01` "sail across the sea" | — | — | — | — | — |
+| `paraphrase_02` "hearts refilled" | 4 | 13 | **1** | 12 | 3 |
+| `exact_01` "old man Level-4" | 19 | — | 20 | — | **4** |
+| `exact_02` "D-4 section 2" | **1** | 12 | 7 | **1** | **1** |
+| `exact_03` "name as ZELDA" | 3 | **1** | 13 | **1** | 3 |
+| `compound_02` "boss Level-1 and how" | **3** | 13 | 8 | 4 | 4 |
+| `ambiguous_01` "dragon boss" | **1** | 15 | **1** | 6 | **1** |
+| `version_01` "first quest Ladder" | 4 | — | 13 | 10 | **3** |
+| `version_02` "second quest Ladder" | 5 | **1** | 19 | **1** | 6 |
+
+Los casos restantes (`direct_02`, `direct_03`, `direct_05`, `paraphrase_03`, `compound_01`, `ambiguous_02`) aciertan en el top-5 con todas las variantes; `compound_03` falla en el top-5 con todas; solo la semántica e5 lo encuentra dentro del top-20 (rank 13).
+
+### Lectura
+
+- **Con chunking fijo, la búsqueda semántica sola es peor que BM25** (Recall@5 de 0.50 contra 0.78). Es el resultado opuesto al esperado, y se explica por la dilución (ver abajo).
+- **Los dos recuperadores se complementan:** la semántica gana en `direct_01` (formas de palabra) y en `paraphrase_02`; BM25 gana en identificadores (`exact_02`, `compound_02`). La híbrida con e5 conserva el Recall@5 de BM25 y mejora el ranking (MRR de 0.47 a 0.52, Recall@1 de 0.33 a 0.39). Su mayor ganancia es `exact_01` (rank 19 → 4).
+- **Lo que no resuelve ningún recuperador:**
+  - `direct_04` y `compound_03`, por el desajuste Level/Dungeon (requieren alias);
+  - la mezcla de quests (requiere el gate G2).
+- **El modelo importa más en la híbrida que en la semántica sola:** e5 y bge empatan solos (0.50), pero e5 combina mejor con BM25 (0.78 contra 0.61), porque sus aciertos están en casos distintos a los de BM25.
+
+### Hallazgo: dilución del embedding en chunks fijos
+
+`paraphrase_01` ("How can I sail across the sea?") debía ser el caso fácil para la búsqueda semántica, y falló con todos los modelos. El chunk con la evidencia ("cross lakes and oceans") mezcla **6 secciones** de la página de Items (Ladder, Magic Key, Power Bracelet, Raft, Rings, Shields):
+
+| Modelo | Rank del chunk fijo (mezcla 6 objetos) | Rank si la sección del Raft fuera un chunk propio |
+| --- | ---: | ---: |
+| bge | 126 | **2** |
+| e5 | 62 | **1** |
+
+El embedding de un chunk es una representación de **todo** su contenido: si mezcla seis temas, no se parece a una pregunta sobre uno solo. BM25 solo necesita que el término aparezca, así que el chunking fijo lo perjudica mucho menos.
+
+**Consecuencia para el plan:** el chunking estructural (un chunk por sección o por fila de tabla) pasa a ser el siguiente paso, **antes** de ajustar la búsqueda híbrida o confirmar el modelo. Sin él, la comparación léxica contra semántica no es justa.
