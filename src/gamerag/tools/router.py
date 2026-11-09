@@ -4,6 +4,7 @@
                        -> query_game_facts  -> SQL de solo lectura (tabla de jefes)
                        -> next_available_levels -> progreso del perfil (sin spoilers)
                        -> update_progress   -> NO se ejecuta: requiere confirmación humana
+                       -> critical_action   -> reset/borrado/privilegios: NO se ejecuta; revisión humana
 
 Reglas explícitas y auditables (sin LLM): cada decisión queda en la traza con su motivo. Ante la duda,
 el router elige `documents` (el RAG es el comportamiento por defecto y nunca empeora por el router).
@@ -33,6 +34,15 @@ _PROGRESS = re.compile(
     r"which (levels?|dungeons?|stages?) (can|should|do) i|next (level|dungeon|stage)|my progress)\b", re.I)
 _UPDATE = re.compile(r"\bi (just |already )?(beat|finished|completed|cleared|passed)\b.*"
                      r"\b(level|dungeon|stage|act)\b", re.I)
+# Acciones que cambian el perfil o los datos de auditoria: nunca se ejecutan; piden confirmacion humana.
+_CRITICAL = re.compile(
+    r"\b(reset|wipe|delete|erase|clear|reinicia|borra|elimina)\b[^.?!\n]{0,30}"
+    r"\b(my (progress|profile|save|data|account)|(all|every)( the)? (traces?|logs?)|audit|"
+    r"mi (progreso|perfil|partida)|trazas)\b|"
+    r"\b(mark|set|update|change|marca|actualiza|cambia)\b[^.?!\n]{0,20}\b(all|every|todos?)\b[^.?!\n]{0,15}"
+    r"\blevels?\b|"
+    r"\b(set|change|cambia)\b[^.?!\n]{0,10}\bmy (profile|role|progress)\b|"
+    r"\b(give|grant|make|dame|otorga)\b[^.?!\n]{0,10}\bme\b[^.?!\n]{0,10}\b(admin|root|full access|acceso)\b", re.I)
 _LEVEL = re.compile(r"\b(?:level|dungeon)[- ]?(\d+)\b", re.I)
 _QUEST = [(re.compile(r"\b(first|1st) quest\b|\bquest[- ]?1\b", re.I), "first"),
           (re.compile(r"\b(second|2nd) quest\b|\bquest[- ]?2\b", re.I), "second")]
@@ -72,6 +82,8 @@ class Router:
 
     def route(self, question: str, game: str) -> Route:
         q = question.strip()
+        if _CRITICAL.search(q):
+            return Route("critical_action", "requests a change to the profile or audit data (never automatic)")
         if _UPDATE.search(q) and self._enabled(game, "update_progress"):
             return Route("update_progress", "reports progress (action: requires confirmation)")
         if _PROGRESS.search(q) and self._enabled(game, "next_available_levels"):
@@ -91,6 +103,11 @@ class Router:
             return self._facts(route, game, profile, blocker)
         if route.intent == "next_available_levels":
             return _next_available(self.games[game], profile)
+        if route.intent == "critical_action":
+            return ToolResult(
+                answer=("That would change your profile or the audit data, so it is never done automatically. "
+                        "Ask an administrator or use the profile settings to confirm the change."),
+                needs_human_review=True, info={"executed": False, "reason": "requires_confirmation"})
         if route.intent == "update_progress":
             return ToolResult(
                 answer=("Updating your progress changes what you are allowed to see. It is not done "

@@ -75,7 +75,8 @@ class GraphPipeline(Pipeline):
     def _n_input(self, s: QueryState) -> QueryState:
         trace, game = s["trace"], s["game"]
         if self._check_input(s["question"], s["profile"], trace):
-            return {"steps": _visit(s, "input")}
+            clean = {"question": trace.clean_question} if trace.clean_question else {}
+            return {**clean, "steps": _visit(s, "input")}
         return {"answer": Answer(answer=REJECTED_MESSAGE, abstained=True, game=game, trace_id=trace.trace_id),
                 "outcome": "rejected_input", "steps": _visit(s, "input")}
 

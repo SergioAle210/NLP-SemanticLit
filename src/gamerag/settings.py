@@ -36,6 +36,7 @@ class Settings(BaseSettings):
     state_db: Path = Path("state/gamerag.sqlite3")
     games_config_dir: Path = Path("config/games")
 
+    security_guards: bool = True  # inyeccion, PII redactada, cuarentena de chunks y fuga del prompt
     spoiler_gates: bool = True  # G2: oculta contenido de ubicaciones aún no alcanzadas (desactivar solo para medir)
     use_graph: bool = False  # ejecutar la consulta como grafo de estados (LangGraph, gamerag/graph.py)
     only_games: list[str] = []  # si no esta vacia, solo se arman estos juegos (evaluaciones por juego)

@@ -6,16 +6,18 @@ Cubre el §5.8 y el §10 de [course/instructions.md](../course/instructions.md).
 
 | Control | Implementación | Estado |
 | --- | --- | --- |
-| Validación de entrada | Pydantic: `game` en lista blanca, Levels de 1 a 9, etapas validadas contra la config, longitud máxima | ⬜ |
-| Control de acceso | Gates G1 a G4 en tres puntos ([access-control.md](../architecture/access-control.md)) | ⬜ |
-| Inyección de prompts | Heurísticas y regex, contexto delimitado como datos, prioridad de la política del sistema, escaneo en la ingesta | ⬜ |
-| Validación de salida | Contrato `Answer` ([schemas.py](../../src/gamerag/schemas.py)): rechaza respuestas sin citas; además, citas ⊆ permitidas, entidades bloqueadas y juego correcto | 🟡 Contrato hecho |
-| Límites de herramientas | Máximo de llamadas por request, timeouts, rate limit, herramientas según la config del juego | 🟡 La config ya restringe |
-| Fuera de dominio | Abstención | ⬜ |
-| Logs de auditoría | Traza completa en SQLite; pregunta con PII redactada (correos, teléfonos, claves de API); consulta solo para `admin` ([api/](../api/README.md)) | ✅ Básico |
+| Validación de entrada | Pydantic (`game` en lista blanca, longitud) y `BasicInputGuard` | ✅ |
+| Control de acceso | G1 (juego) y G2 (ubicación/progreso) activos y medidos; filtro de procedencia para notas; G2b/G3/G4 pendientes ([access-control.md](../architecture/access-control.md)) | 🟡 G1, G2 |
+| Inyección de prompts | `InjectionGuard` (firmas EN/ES), contexto delimitado como datos, `QuarantineFilter` (corpus) y escaneo del corpus ([guardrails/injection.py](../../src/gamerag/guardrails/injection.py)) | ✅ |
+| Validación de salida | Contrato `Answer`, `CitationGuard` (citas ⊆ contexto) y `LeakGuard` (prompt del sistema y secretos) | ✅ |
+| Límites de herramientas | Herramientas según la config del juego; parámetros validados (`ToolParamError`); `critical_action`/`update_progress` nunca se ejecutan; degradación al RAG | 🟡 Falta tope de llamadas/timeout |
+| Fuera de dominio | Abstención (generador con contexto cerrado) | ✅ |
+| Logs de auditoría | Traza completa en SQLite; PII redactada (correos, teléfonos, claves) en el log y antes del LLM (`PIIGuard`); consulta solo para `admin` | ✅ |
 | Credenciales | `.env` en `.gitignore`, con `.env.example` | ✅ |
 
 ## Pruebas adversarias (`eval/security_cases.jsonl`)
+
+**Resultados medidos y reporte completo: [report.md](report.md)** (`python -m gamerag.evaluation.security` y `security_report`).
 
 Cada prueba documenta amenaza, componente, comportamiento esperado, resultado observado y mitigación.
 

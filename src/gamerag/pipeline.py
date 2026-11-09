@@ -61,6 +61,8 @@ class Trace(BaseModel):
     generator: str
     query_variants: list[str] = []  # formulaciones usadas en la búsqueda (multi-consulta); [0] = original
     input_guards: dict[str, str] = {}  # nombre -> "ok" | motivo del bloqueo
+    input_flags: list[str] = []  # senales no bloqueantes de los guardrails de entrada (p. ej. pii:email)
+    clean_question: str = ""  # pregunta redactada (sin PII/secretos) que usan el recuperador y el LLM
     candidates: list[CandidateTrace] = []
     context: list[str] = []  # chunk_ids entregados al generador
     output_guards: dict[str, str] = {}
@@ -126,6 +128,7 @@ class Pipeline:
         if not self._check_input(question, profile, trace):
             return finish(Answer(answer=REJECTED_MESSAGE, abstained=True, game=game, trace_id=tid),
                           "rejected_input")
+        question = trace.clean_question or question  # a partir de aqui nada ve PII ni secretos
 
         # Router: herramienta o documentos. Si la herramienta falla, se degrada al RAG.
         if self.router is not None:
@@ -205,8 +208,11 @@ class Pipeline:
         """1. Guardrails de entrada. False si alguno rechaza la pregunta."""
         t = time.perf_counter()
         for guard in self.input_guards:
-            res = guard.check(question, profile)
+            res = guard.check(trace.clean_question or question, profile)
             trace.input_guards[guard.name] = "ok" if res.allowed else res.reason
+            trace.input_flags += res.flags
+            if res.sanitized:
+                trace.clean_question = res.sanitized
             if not res.allowed:
                 trace.latency_ms["input"] = _ms(t)
                 return False
@@ -219,6 +225,7 @@ class Pipeline:
         """Etapas 1-3. Devuelve (contexto, outcome temprano o None si se puede generar)."""
         if check_input and not self._check_input(question, profile, trace):
             return [], "rejected_input"
+        question = trace.clean_question or question
 
         # 2. Recuperación (más candidatos que top_k: los filtros pueden descartar varios)
         t = time.perf_counter()
@@ -304,8 +311,20 @@ def build_pipeline(
         from gamerag.llm import LLMClient
 
         generator = FallbackGenerator(HaikuGenerator(LLMClient(settings)))
+    if settings.security_guards:  # inyeccion, PII/secretos redactados, fuga del prompt (guardrails/injection.py)
+        from gamerag.guardrails.base import BasicInputGuard, CitationGuard
+        from gamerag.guardrails.injection import InjectionGuard, LeakGuard, PIIGuard
+
+        if input_guards is None:
+            input_guards = [BasicInputGuard(), PIIGuard(), InjectionGuard()]
+        if output_guards is None:
+            output_guards = [CitationGuard(), LeakGuard()]
     if access_filters is None:  # G1 siempre; G2 (spoilers por ubicación) salvo que se apague explícitamente
         access_filters = [GameFilter()]
+        if settings.security_guards:  # inyeccion indirecta: chunks con instrucciones para un modelo
+            from gamerag.guardrails.injection import QuarantineFilter
+
+            access_filters.append(QuarantineFilter())
         if settings.spoiler_gates:
             from gamerag.guardrails.location import LocationGate
 

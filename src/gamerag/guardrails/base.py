@@ -28,7 +28,8 @@ from gamerag.schemas import Answer
 class GuardResult:
     allowed: bool
     reason: str = ""  # por qué se bloqueó (queda en la traza de auditoría)
-    flags: list[str] = field(default_factory=list)  # señales no bloqueantes (p. ej. "pii_redacted")
+    flags: list[str] = field(default_factory=list)  # señales no bloqueantes (p. ej. "pii:email")
+    sanitized: str | None = None  # pregunta redactada que reemplaza a la original aguas abajo
 
 
 class InputGuard(Protocol):
