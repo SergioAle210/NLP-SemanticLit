@@ -57,6 +57,7 @@ class DenseIndex:
         if not chunks:
             raise ValueError("no hay chunks para indexar")
         self.chunks = {c.chunk_id: c for c in chunks}
+        self._all: tuple[list[str], np.ndarray] | None = None
         self.embedder = embedder
         self.model_key = embedder.model.key
         persist_dir.mkdir(parents=True, exist_ok=True)
@@ -84,6 +85,18 @@ class DenseIndex:
             metadatas=[_metadata(c) for c in chunks],
         )
 
+    def _vectors(self, where: dict | None) -> tuple[list[str], np.ndarray]:
+        """Ids y vectores (filtrados por `where`). Se leen con `get`, que no pasa por el indice HNSW: como la busqueda
+        es exacta no lo necesita, y asi no depende del segmento HNSW, que Chroma puede descartar y no recargar
+        ("Nothing found on disk") cuando hay muchas colecciones abiertas en un mismo proceso."""
+        if where is None and self._all is not None:
+            return self._all
+        res = self._col.get(where=where, include=["embeddings"])
+        out = list(res["ids"]), np.asarray(res["embeddings"], dtype=np.float32).reshape(len(res["ids"]), -1)
+        if where is None:
+            self._all = out
+        return out
+
     def search(self, query: str, k: int = 5, where: dict | None = None) -> list[Hit]:
         """Búsqueda **exacta**: se piden a Chroma todos los chunks (que cumplan `where`) y se ordenan
         por coseno exacto. HNSW es aproximado: con n_results = k, a veces omitía un vecino del top-k,
@@ -91,9 +104,7 @@ class DenseIndex:
         en vez de 0.92). Con ~250 chunks por juego, comparar contra todos cuesta milisegundos. Con
         un corpus grande habría que volver a n_results = k y subir `ef_search`."""
         q = self.embedder.embed_query(query)
-        res = self._col.query(query_embeddings=[q.tolist()], n_results=len(self.chunks),
-                              where=where, include=["embeddings"])
-        ids, embs = res["ids"][0], np.asarray(res["embeddings"][0])
+        ids, embs = self._vectors(where)
         sims = embs @ q if len(ids) else np.array([])
         # Orden por similitud coseno exacta; en empate, por chunk_id para que sea determinista.
         order = sorted(range(len(ids)), key=lambda i: (-sims[i], ids[i]))[:k]
