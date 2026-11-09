@@ -31,5 +31,5 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 # Artefactos regenerables (montados como volúmenes en compose.yaml).
 RUN mkdir -p models data/index data/processed state
 
-EXPOSE 8000 8501
+EXPOSE 8000 7860
 CMD ["sh", "scripts/docker-entrypoint.sh"]

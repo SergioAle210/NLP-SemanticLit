@@ -1,40 +1,54 @@
-# Interfaz mínima (Streamlit)
+# Interfaz "Puesto de Control" (Gradio)
 
-Interfaz de demo y depuración sobre la [API](../api/README.md). El diseño definitivo se hace aparte, contra los mismos endpoints.
+Interfaz sobre la [API](../api/README.md), con el diseño del sistema de diseño **Puesto de Control**: una mesa de
+inspección donde el jugador presenta su pasaporte (perfil y progreso), entrega una consulta y recibe un expediente con
+su sello. Reemplaza a la interfaz mínima de Streamlit.
 
 ## Uso
 
 ```bash
 uv run uvicorn gamerag.api:app                     # terminal 1: API en :8000
-uv run streamlit run src/gamerag/ui/app.py         # terminal 2: interfaz en :8501
+uv run --extra ui python -m gamerag.ui.puesto      # terminal 2: interfaz en :7860
 ```
 
 | Variable | Default | Para qué |
 | --- | --- | --- |
 | `GAMERAG_API_URL` | `http://127.0.0.1:8000` | Dirección de la API (en Docker, el nombre del servicio) |
 | `GAMERAG_UI_DEFAULT_GAME` | `zelda1` | Juego preseleccionado |
+| `GAMERAG_UI_HOST`, `GAMERAG_UI_PORT` | `127.0.0.1`, `7860` | Dónde escucha la interfaz |
 
-## Qué muestra
+Para ver el perfil `full` (Haiku, grafo, segunda búsqueda) arranca la API con `GAMERAG_PROFILE=full` y una clave en `.env`.
+Sin conexión a internet, la API necesita `HF_HUB_OFFLINE=1` para usar el modelo de embeddings en caché.
 
-- **Barra lateral:** estado de la API (versión, recuperador y generador servidos), juego, perfil con su progreso y modo:
-  - **Responder** (`POST /ask`): respuesta con citas. Una respuesta bloqueada por spoiler se muestra con 🔒 y una abstención, como información.
-  - **Solo buscar** (`POST /search`): el contexto que recibiría el generador, sin generar.
-- **Contexto recuperado:** los fragmentos con su página, sección, score RRF, `chunk_id` y enlace a la wiki. Una sección larga se divide en varios chunks con el mismo nombre; por eso la etiqueta incluye el `chunk_id` y el inicio del texto.
-- **Traza:** variantes de la consulta (multi-consulta), guards de entrada y de salida, latencia por etapa, candidatos con `blocked_by` y contexto entregado.
-- **Auditoría** (perfil `admin`): últimas consultas desde `GET /audit`, con la PII redactada.
+## Pantallas
 
-## Diseño
+- **Ventanilla.** Juego y perfil del viajero; su **pasaporte** (barra de progreso con texto alternativo, pista, rol);
+  la **bandeja de pruebas** (inyección, spoiler, acción crítica, dato personal, sin evidencia) que rellena la consulta
+  con un ataque de la suite de seguridad; el campo de consulta (500 caracteres) y **Entregar**. El resultado es un
+  **expediente** con sello (Aprobado, Sin evidencia, Bloqueado, Rechazado, Revisión humana), respuesta con citas
+  numeradas que se abren al fragmento exacto, y pie con generador, latencia, ruta y herramienta. Debajo, el
+  **reglamento de inspección**: la explicación paso a paso (`explain`), donde el contenido retenido se cuenta pero
+  nunca se nombra. Opción "Solo buscar" para ver el contexto sin generar.
+- **Archivo.** Registro de consultas con datos personales redactados (`GET /audit`); solo perfil `admin`.
+- **Informe.** Marcador de evaluación (`GET /scorecard`): Recall@5, cobertura, fidelidad, abstención, fugas de spoiler y
+  falso disparo del router, cada una con su veredicto.
+- **Telegrama.** Pie con el identificador de traza, ruta, latencia, generador y resultado de la última consulta.
+- **Turno de día/noche.** Un botón alterna los dos turnos del sistema de diseño (modo oscuro de Gradio = noche).
 
-- **La interfaz solo habla con la API;** nunca importa el pipeline. Así se puede reemplazar por otro frontend sin tocar el backend, y lo que se ve en la interfaz es lo mismo que sirve la API.
-- **En el modo Responder, el texto del contexto sale de `/search`,** porque `/ask` devuelve solo las citas. La búsqueda es determinista, así que el contexto coincide con el que usó `/ask`. Lo verifica un test (`test_ask_and_search_return_the_same_context`).
-- **Cliente HTTP separado** ([client.py](../../src/gamerag/ui/client.py)): se prueba contra la API real en memoria sin necesidad de Streamlit ([tests/test_ui_client.py](../../tests/test_ui_client.py)). `app.py` solo dibuja.
-- **API caída o con errores:** el cliente convierte los fallos de conexión y los códigos 4xx en `ApiError`, y la interfaz los muestra como mensajes, no como trazas de Python.
+## Diseño de la implementación
 
-## Verificación de punta a punta
+- **Solo habla con la API** ([client.py](../../src/gamerag/ui/client.py)); nunca importa el pipeline.
+- **Tema generado desde `tokens.json`** ([theme.py](../../src/gamerag/ui/theme.py)): copia del sistema de diseño. Los
+  cambios de diseño se hacen allí y se copian aquí (`tokens.json`, `puesto.css`).
+- **Componentes como funciones puras** ([components.py](../../src/gamerag/ui/components.py)). **Todo texto dinámico se
+  escapa** (`html.escape`): la respuesta de un LLM y el corpus no son confiables y estas cadenas se inyectan como HTML.
+  Lo verifica un test con `<script>` en cada campo.
+- **Accesibilidad:** texto mínimo de 15 px en `rem`, foco de dos tonos, objetivos de 44 px, alternativas de texto en
+  barras y bloques tachados, alto contraste de Windows (glifos de texto), y sin movimiento con `prefers-reduced-motion`.
+- **Pruebas** ([tests/test_ui_puesto.py](../../tests/test_ui_puesto.py)): componentes, veredictos, escape y los
+  manejadores contra la API real en memoria.
 
-Se manejó la interfaz con `streamlit.testing.AppTest` contra la API real (híbrida e5, estructural, multi-consulta):
-- en Zelda, las mismas preguntas exploratorias dan los mismos ranks que el pipeline (Boomerang rank 1; Shields rank 1);
-- en Ninja Gaiden, "Bomberhead" trae primero el Stage 2-3;
-- con el perfil `admin`, la auditoría funciona.
+## Pendiente
 
-Esa prueba encontró un error: el juego preseleccionado era el primero en orden alfabético (Ninja Gaiden), y las preguntas de Zelda se buscaban en NG. Se corrigió con `GAMERAG_UI_DEFAULT_GAME`. De paso confirmó que el gate G1 funciona, porque no se coló ningún fragmento de Zelda.
+- No pude abrir la interfaz renderizada en el navegador integrado (navegación a localhost denegada): el aspecto visual
+  y la ruta de teclado y lector de pantalla están sin verificar. Abre `http://127.0.0.1:7860` y revisa los dos turnos.

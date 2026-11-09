@@ -83,13 +83,13 @@ uv run uvicorn gamerag.api:app --reload                            # documentaci
 
 Detalle en [docs/api/](docs/api/README.md).
 
-## Interfaz (Streamlit)
+## Interfaz (Puesto de Control, Gradio)
 
 Con la API corriendo en otra terminal:
 
 ```bash
 uv sync --extra semantic --extra ui
-uv run streamlit run src/gamerag/ui/app.py                         # http://localhost:8501
+uv run --extra ui python -m gamerag.ui.puesto                      # http://127.0.0.1:7860
 ```
 
 Detalle en [docs/ui/](docs/ui/README.md).

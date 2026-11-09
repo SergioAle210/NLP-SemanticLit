@@ -61,6 +61,15 @@ class ApiClient:
         """Contexto que recibe el generador (sin generar)."""
         return self._request("POST", "/search", json={"question": question, "game": game, "user_id": user_id})
 
+    def scorecard(self) -> dict | None:
+        """Marcador de evaluación, o None si la API aún no tiene uno."""
+        try:
+            return self._request("GET", "/scorecard")
+        except ApiError as exc:
+            if exc.status == 404:
+                return None
+            raise
+
     # --- admin ---
     def audit(self, user_id: str, limit: int = 20) -> list[dict]:
         return self._request("GET", "/audit", params={"user_id": user_id, "limit": limit})

@@ -13,10 +13,12 @@ son texto y FastAPI no puede resolver los alias de dependencias definidos dentro
 (los trataría como parámetros de query y respondería 422).
 """
 
+import json
 import logging
 import time
 from collections import defaultdict, deque
 from contextlib import asynccontextmanager
+from pathlib import Path
 from typing import Annotated
 
 from fastapi import Depends, FastAPI, HTTPException, Query, Request
@@ -201,6 +203,15 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
         """Últimas trazas del log de auditoría (preguntas con PII redactada). Requiere rol admin."""
         require_admin(store, user_id)
         return store.recent_traces(limit)
+
+    @app.get("/scorecard", tags=["sistema"])
+    def scorecard(request: Request) -> dict:
+        """Marcador vigente de evaluación (métricas agregadas, sin datos de usuarios)."""
+        s: Settings = request.app.state.settings
+        path = s.path(Path("eval/results/scorecard_latest.json"))
+        if not path.exists():
+            raise HTTPException(404, "no hay marcador: corre python -m gamerag.evaluation.scorecard")
+        return json.loads(path.read_text(encoding="utf-8"))
 
     @app.post("/admin/reset-profiles", tags=["admin"])
     def reset_profiles(store: StoreDep, games: GamesDep, request: Request,

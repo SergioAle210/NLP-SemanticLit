@@ -24,12 +24,12 @@ services:
   ui:
     build: .
     image: gamerag:latest
-    command: ["streamlit", "run", "src/gamerag/ui/app.py",
-              "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true"]
+    command: ["python", "-m", "gamerag.ui.puesto"]
     environment:
       GAMERAG_API_URL: http://api:8000
+      GAMERAG_UI_HOST: 0.0.0.0
     ports:
-      - "8501:8501"
+      - "7860:7860"
     depends_on:
       api:
         condition: service_healthy
