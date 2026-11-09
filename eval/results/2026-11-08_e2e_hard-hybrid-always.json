@@ -1,0 +1,1020 @@
+{
+  "run": {
+    "label": "hard-hybrid-always",
+    "retriever": "hybrid",
+    "generator": "haiku",
+    "graph": true,
+    "evidence": true,
+    "model": "claude-haiku-5-5",
+    "n_cases": 21,
+    "date": "2026-11-08T06:03:13+00:00"
+  },
+  "overall": {
+    "n": 21,
+    "errors": 0,
+    "ctx_recall": 1.0,
+    "ctx_coverage": 0.9167,
+    "abstention_ok": 1.0,
+    "cite_precision": 0.7704,
+    "rewrite_rate": 0.2381,
+    "cost_per_q_usd": 0.000443,
+    "tokens_per_q": 3349.9,
+    "latency_mean_s": 3.182,
+    "latency_p95_s": 4.945,
+    "total_cost_usd": 0.0093
+  },
+  "by_category": {
+    "ambiguous": {
+      "n": 1,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "ctx_coverage": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 0.5,
+      "rewrite_rate": 0.0,
+      "cost_per_q_usd": 0.0004,
+      "tokens_per_q": 2824.0,
+      "latency_mean_s": 2.115,
+      "latency_p95_s": 2.115,
+      "total_cost_usd": 0.0004
+    },
+    "compound": {
+      "n": 6,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "ctx_coverage": 0.75,
+      "abstention_ok": 1.0,
+      "cite_precision": 0.7778,
+      "rewrite_rate": 0.3333,
+      "cost_per_q_usd": 0.000517,
+      "tokens_per_q": 3415.8,
+      "latency_mean_s": 5.182,
+      "latency_p95_s": 4.945,
+      "total_cost_usd": 0.0031
+    },
+    "direct": {
+      "n": 1,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "ctx_coverage": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 1.0,
+      "rewrite_rate": 0.0,
+      "cost_per_q_usd": 0.0005,
+      "tokens_per_q": 4310.0,
+      "latency_mean_s": 2.15,
+      "latency_p95_s": 2.15,
+      "total_cost_usd": 0.0005
+    },
+    "exact_id": {
+      "n": 2,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "ctx_coverage": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 1.0,
+      "rewrite_rate": 0.0,
+      "cost_per_q_usd": 0.00035,
+      "tokens_per_q": 2915.5,
+      "latency_mean_s": 2.0,
+      "latency_p95_s": 1.562,
+      "total_cost_usd": 0.0007
+    },
+    "paraphrase": {
+      "n": 4,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "ctx_coverage": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 0.55,
+      "rewrite_rate": 0.25,
+      "cost_per_q_usd": 0.000375,
+      "tokens_per_q": 2863.5,
+      "latency_mean_s": 2.042,
+      "latency_p95_s": 2.078,
+      "total_cost_usd": 0.0015
+    },
+    "robustness": {
+      "n": 3,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "ctx_coverage": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 1.0,
+      "rewrite_rate": 0.0,
+      "cost_per_q_usd": 0.0003,
+      "tokens_per_q": 2714.3,
+      "latency_mean_s": 2.018,
+      "latency_p95_s": 2.019,
+      "total_cost_usd": 0.0009
+    },
+    "unanswerable": {
+      "n": 3,
+      "errors": 0,
+      "ctx_recall": null,
+      "ctx_coverage": null,
+      "abstention_ok": 1.0,
+      "cite_precision": null,
+      "rewrite_rate": 0.6667,
+      "cost_per_q_usd": 0.0006,
+      "tokens_per_q": 4835.0,
+      "latency_mean_s": 3.354,
+      "latency_p95_s": 3.541,
+      "total_cost_usd": 0.0018
+    },
+    "version": {
+      "n": 1,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "ctx_coverage": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 0.5,
+      "rewrite_rate": 0.0,
+      "cost_per_q_usd": 0.0004,
+      "tokens_per_q": 2785.0,
+      "latency_mean_s": 3.189,
+      "latency_p95_s": 3.189,
+      "total_cost_usd": 0.0004
+    }
+  },
+  "cases": [
+    {
+      "id": "hard_01",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Which dungeon item shows where the Triforce piece is, and how many pieces do I need to enter Level 9?",
+      "error": null,
+      "latency_s": 14.472,
+      "input_tokens": 2643,
+      "output_tokens": 303,
+      "cost_usd": 0.0004,
+      "answer": "The documents do not say that any dungeon item shows the location of a Triforce piece. They do state that each of the eight Triforce pieces is found one per dungeon, and all eight are required to gain access to Level 9.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:019",
+        "zelda1:underworld-quest-2-dungeon-9:001",
+        "zelda1:underworld-quest-2-dungeon-5:004",
+        "zelda1:gameplay:004",
+        "zelda1:underworld-quest-2-dungeon-6:000"
+      ],
+      "sources": [
+        "zelda1:items:019"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "Which dungeon item shows where the Triforce piece is, and how many pieces do I need to enter Level 9?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 0.5,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_02",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "What do I need to show the old woman to buy the Water of Life, and what does the potion do?",
+      "error": null,
+      "latency_s": 2.127,
+      "input_tokens": 2075,
+      "output_tokens": 225,
+      "cost_usd": 0.0004,
+      "answer": "You need to show the Letter to the Old Woman so she will sell you the Water of Life. Water of Life completely refills Link's life bar, and drinking it can also restore the sword sealing effect brought about by Bubbles.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:010",
+        "zelda1:underworld-quest-1-dungeon-5:005",
+        "zelda1:items:013",
+        "zelda1:underworld-quest-1-dungeon-4:006",
+        "zelda1:overworld-quest-1:007"
+      ],
+      "sources": [
+        "zelda1:items:010",
+        "zelda1:items:013"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document 1 states the Letter is the item to show the Old Woman to buy the Water of Life, and Document 3 explains the potion completely refills Link's life bar and can restore the sword sealing effect from Bubbles. Together these answer both parts of the question.",
+          "rewrite": "",
+          "query": "What do I need to show the old woman to buy the Water of Life, and what does the potion do?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_03",
+      "category": "paraphrase",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How do I deal with the rhinoceros boss?",
+      "error": null,
+      "latency_s": 4.226,
+      "input_tokens": 4638,
+      "output_tokens": 458,
+      "cost_usd": 0.0007,
+      "answer": "Dodongo is only vulnerable to Bombs. Place a bomb directly in front of its mouth so it eats it (two bombs defeat it), or make a bomb explode in its face to stun it, then finish it with one sword strike, which guarantees a bomb drop.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:bosses:001",
+        "zelda1:underworld-quest-1-dungeon-2:005",
+        "zelda1:underworld-quest-2-dungeon-3:002",
+        "zelda1:underworld-quest-1-dungeon-5:002",
+        "zelda1:underworld-quest-2-dungeon-8:007"
+      ],
+      "sources": [
+        "zelda1:bosses:001",
+        "zelda1:underworld-quest-1-dungeon-2:005"
+      ],
+      "rewrites": [
+        "Dodongo boss strategy bombs NES Zelda dungeon"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The question asks about the rhinoceros boss. Document [1] describes Dodongo, a slow-moving rhinoceros boss, and gives some tactics (bombs, stunning). However, it is cut off and it is unclear whether the rhinoceros boss is a single Dodongo or a specific boss in a particular dungeon, and the documents do not clearly cover its full strategy or location. A more targeted query could retrieve the complete Dodongo boss strategy.",
+          "rewrite": "Dodongo boss strategy bombs NES Zelda dungeon",
+          "query": "How do I deal with the rhinoceros boss?"
+        },
+        {
+          "sufficient": true,
+          "reason": "The documents explain how to defeat Dodongo, the rhinoceros boss of The Legend of Zelda: feed it two bombs, or detonate a bomb in its face to stun it and then finish it with a sword strike, with bombs guaranteed as a drop.",
+          "rewrite": "",
+          "query": "Dodongo boss strategy bombs NES Zelda dungeon"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "hard_04",
+      "category": "paraphrase",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "What is the trick for the sea urchin boss?",
+      "error": null,
+      "latency_s": 0.007,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0.0,
+      "answer": "Dungeon bosses:\n- First quest, level 1: Aquamentus (HP 6, damage 2 / 1)\n- First quest, level 2: Dodongo (HP 1*, damage 2)\n- First quest, level 3: Manhandla (HP 16, damage 2)\n- First quest, level 4: Gleeok (HP 10 / 15 / 20, damage 2)\n- First quest, level 5: Digdogger (HP 8*, damage 4)\n- First quest, level 6: Gohma (HP 2* / 6*, damage 4 / 2)\n- First quest, level 7: Aquamentus (HP 6, damage 2 / 1)\n- First quest, level 8: Gleeok (HP 10 / 15 / 20, damage 2)\n- First quest, level 9: Ganon (HP 16*, damage 8 / 2)\n- Second quest, level 1: Aquamentus (HP 6, damage 2 / 1)\n- Second quest, level 2: Gleeok (HP 10 / 15 / 20, damage 2)\n- Second quest, level 3: Dodongo (HP 1*, damage 2)\n- Second quest, level 4: Digdogger (HP 8*, damage 4)\n- Second quest, level 5: Gleeok (HP 10 / 15 / 20, damage 2)\n- Second quest, level 6: Gohma (HP 2* / 6*, damage 4 / 2)\n- Second quest, level 7: Gleeok (HP 10 / 15 / 20, damage 2)\n- Second quest, level 8: Dodongo (HP 1*, damage 2)\n- Second quest, level 9: Ganon (HP 16*, damage 8 / 2)",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": "query_game_facts",
+      "route": "query_game_facts",
+      "context": [
+        "zelda1:bosses:000",
+        "zelda1:bosses:001",
+        "zelda1:bosses:002",
+        "zelda1:bosses:003",
+        "zelda1:bosses:004"
+      ],
+      "sources": [
+        "zelda1:bosses:000",
+        "zelda1:bosses:001",
+        "zelda1:bosses:002",
+        "zelda1:bosses:003",
+        "zelda1:bosses:004"
+      ],
+      "rewrites": [],
+      "evidence_trace": [],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 0.2
+    },
+    {
+      "id": "hard_05",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How many wooden sword hits does a red Wizzrobe take?",
+      "error": null,
+      "latency_s": 4.716,
+      "input_tokens": 3387,
+      "output_tokens": 800,
+      "cost_usd": 0.0007,
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Underworld] Name: Wizzrobe | HP: 04 / 10 | Damage: 2 / 8 ; 4 | Description: Powerful enemy resembling a robed wizard. They are vulnerable only to sword and bombs. They are capable of shooting powerful magical blasts. The red variety teleports about the room and shoots 1 very powerful blast. The blue variety roams around, can pass through walls, and can spam blasts. Name: Lanmola | HP: 20 / 32 |…\n[2] [Swords > White Sword] Damage: 2 The white sword is the second sword Link gets in the game. It is twice as powerful than the wooden sword, but less powerful than the magic sword. Link must have five Heart Containers before he can receive the white sword. In both quests it is found in Section 3.\n[3] [1st Quest] A-1: See Section 5 D-1: In this very important cave, you can obtain the White Sword, but only if you have at least 5 Heart Containers in your Life Meter. The White Sword has double the power of the Wooden Sword. E-1: Reach this area to find the entrance to the fifth dungeon, but beware; the distance you must hike up the hills to reach the top can be deceptive. D-2: The waterfall hides…",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:enemies:007",
+        "zelda1:items:001",
+        "zelda1:overworld-hyrule-3:001",
+        "zelda1:items:002",
+        "zelda1:enemies:004"
+      ],
+      "sources": [
+        "zelda1:enemies:007",
+        "zelda1:items:001",
+        "zelda1:overworld-hyrule-3:001"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "How many wooden sword hits does a red Wizzrobe take?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 0.5,
+      "cite_precision": 0.3333333333333333
+    },
+    {
+      "id": "hard_06",
+      "category": "exact_id",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Which sword can be found in Section 6?",
+      "error": null,
+      "latency_s": 2.438,
+      "input_tokens": 2271,
+      "output_tokens": 118,
+      "cost_usd": 0.0003,
+      "answer": "The Wooden Sword is found in Section 6 in both quests.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:000",
+        "zelda1:items:002",
+        "zelda1:walkthrough:001",
+        "zelda1:overworld-hyrule-5:000",
+        "zelda1:items:001"
+      ],
+      "sources": [
+        "zelda1:items:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] states the Wooden Sword is found in Section 6 in both quests, which directly answers the question.",
+          "rewrite": "",
+          "query": "Which sword can be found in Section 6?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_07",
+      "category": "exact_id",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "In which section is the Magic Sword in the second quest?",
+      "error": null,
+      "latency_s": 1.562,
+      "input_tokens": 3332,
+      "output_tokens": 110,
+      "cost_usd": 0.0004,
+      "answer": "In the second quest, the Magic Sword is found in Section 3.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:001",
+        "zelda1:items:002",
+        "zelda1:walkthrough:004",
+        "zelda1:walkthrough:001",
+        "zelda1:walkthrough:006"
+      ],
+      "sources": [
+        "zelda1:items:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [2] states that in the second quest the Magic Sword is found in Section 3.",
+          "rewrite": "",
+          "query": "In which section is the Magic Sword in the second quest?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_08",
+      "category": "paraphrase",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "What happens to my Magical Shield if a Like-Like eats me?",
+      "error": null,
+      "latency_s": 2.078,
+      "input_tokens": 2877,
+      "output_tokens": 218,
+      "cost_usd": 0.0004,
+      "answer": "If a Like-Like grabs and devours you, it may eat your Magical Shield, leaving you with an ordinary Small Shield. This happens if you fail to escape in time.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:026",
+        "zelda1:enemies:006",
+        "zelda1:items:020",
+        "zelda1:underworld-quest-1-dungeon-2:006",
+        "zelda1:enemies:004"
+      ],
+      "sources": [
+        "zelda1:items:026",
+        "zelda1:enemies:006"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] states directly that if a Like-Like eats Link and he fails to escape in time, the Magical Shield is eaten and replaced with a Small Shield. Document [2] confirms the Like-Like devours the Magical Shield and leaves an ordinary Shield.",
+          "rewrite": "",
+          "query": "What happens to my Magical Shield if a Like-Like eats me?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "hard_09",
+      "category": "direct",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Which enemy splits into two red Keeses?",
+      "error": null,
+      "latency_s": 2.15,
+      "input_tokens": 4159,
+      "output_tokens": 151,
+      "cost_usd": 0.0005,
+      "answer": "The Vire splits into two red Keeses when hit with an attack that does not do 3 or more damage.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:enemies:006",
+        "zelda1:enemies:003",
+        "zelda1:enemies:007",
+        "zelda1:underworld-quest-2-dungeon-2:001",
+        "zelda1:enemies:005"
+      ],
+      "sources": [
+        "zelda1:enemies:006"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document 1 states that Vire, a bouncing winged demon, splits into two red Keeses when hit with an attack doing less than 3 damage. This directly answers the question.",
+          "rewrite": "",
+          "query": "Which enemy splits into two red Keeses?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_10",
+      "category": "version",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "In the second quest, in which dungeons does Aquamentus appear?",
+      "error": null,
+      "latency_s": 3.189,
+      "input_tokens": 2435,
+      "output_tokens": 350,
+      "cost_usd": 0.0004,
+      "answer": "In the second quest, Aquamentus is the boss of dungeon one only. The bosses document lists his second quest appearances as rooms 1, 4, and 8, but that page does not say which dungeon those rooms belong to, so it does not directly confirm other dungeon appearances.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:bosses:000",
+        "zelda1:underworld-quest-2-dungeon-1:000",
+        "zelda1:underworld-quest-1-dungeon-7:005",
+        "zelda1:underworld-quest-1-dungeon-1:000",
+        "zelda1:underworld-quest-2-dungeon-1:002"
+      ],
+      "sources": [
+        "zelda1:bosses:000",
+        "zelda1:underworld-quest-2-dungeon-1:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "In the second quest, in which dungeons does Aquamentus appear?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "hard_11",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How much HP does Ganon have and what do I need to finish him?",
+      "error": null,
+      "latency_s": 4.945,
+      "input_tokens": 4608,
+      "output_tokens": 511,
+      "cost_usd": 0.0007,
+      "answer": "Ganon's HP is listed as 16* in the boss table. To finish him, you must first stun him by hitting him four times with the Magical/magic sword, then fire a Silver Arrow at him.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:bosses:004",
+        "zelda1:underworld-quest-2-dungeon-9:000",
+        "zelda1:underworld-quest-2-dungeon-9:005",
+        "zelda1:underworld-quest-1-dungeon-9:005",
+        "zelda1:walkthrough:007"
+      ],
+      "sources": [
+        "zelda1:bosses:004",
+        "zelda1:underworld-quest-1-dungeon-9:005",
+        "zelda1:underworld-quest-2-dungeon-9:005"
+      ],
+      "rewrites": [
+        "Zelda NES Silver Arrow location final dungeon Ganon",
+        "Ganon Silver Arrow location Zelda NES how to get"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents give Ganon's HP (16) and describe the strategy: stab where he will appear, hit him four times with the Magical Sword to stun him, then finish him with a Silver Arrow. However, they do not clearly explain how to obtain the Silver Arrow or its location, which the question's 'what do I need to finish him' implicitly asks about. Document 2 says it can only be found in the final dungeon but is cut off.",
+          "rewrite": "Zelda NES Silver Arrow location final dungeon Ganon",
+          "query": "How much HP does Ganon have and what do I need to finish him?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents give Ganon's HP as 16* and describe the method: hit him with the Magical Sword four times to stun him, then finish with a Silver Arrow. However, the HP asterisk is not explained, and the Silver Arrow's location and how to obtain it (the Red Ring and final dungeon context) are only partly covered. Doc 1 is cut off mid-sentence about where the weapon can be found.",
+          "rewrite": "Ganon Silver Arrow location Zelda NES how to get",
+          "query": "Zelda NES Silver Arrow location final dungeon Ganon"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 0.5,
+      "cite_precision": 0.3333333333333333
+    },
+    {
+      "id": "hard_12",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "can i use raft anywhere",
+      "error": null,
+      "latency_s": 1.838,
+      "input_tokens": 2442,
+      "output_tokens": 171,
+      "cost_usd": 0.0003,
+      "answer": "No. The Raft can only be used at a Dock, and the 'double docks' do not trigger raft use.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:024",
+        "zelda1:underworld-quest-1-dungeon-4:001",
+        "zelda1:underworld-quest-1-dungeon-3:000",
+        "zelda1:underworld-quest-2-dungeon-4:006",
+        "zelda1:overworld-hyrule-1:001"
+      ],
+      "sources": [
+        "zelda1:items:024"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] states the Raft lets Link cross lakes and oceans but can only be used at a Dock, which directly answers that you cannot use it anywhere. The documents are about The Legend of Zelda (NES) and this answers the question.",
+          "rewrite": "",
+          "query": "can i use raft anywhere"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_13",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "wat does the boomrang stun",
+      "error": null,
+      "latency_s": 2.019,
+      "input_tokens": 2510,
+      "output_tokens": 128,
+      "cost_usd": 0.0003,
+      "answer": "Der Bumerang betäubt große Gegner (Large enemies).",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:007",
+        "zelda1:overworld-quest-1:014",
+        "zelda1:underworld-quest-2-dungeon-1:000",
+        "zelda1:enemies:004",
+        "zelda1:underworld-quest-2-dungeon-3:000"
+      ],
+      "sources": [
+        "zelda1:items:007"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document 1 directly states that the boomerang stuns large enemies and kills small enemies like Keese and Gels, which answers the question.",
+          "rewrite": "",
+          "query": "wat does the boomrang stun"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_14",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How much stronger is the magic sword than the white sword, and how many hearts does each need?",
+      "error": null,
+      "latency_s": 2.181,
+      "input_tokens": 2634,
+      "output_tokens": 223,
+      "cost_usd": 0.0004,
+      "answer": "The Magic Sword has Damage 4 versus the White Sword's Damage 2, so it is twice as strong. The White Sword requires five Heart Containers, while the Magic Sword requires twelve Heart Containers.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:001",
+        "zelda1:items:002",
+        "zelda1:overworld-hyrule-3:003",
+        "zelda1:overworld-quest-1:013",
+        "zelda1:overworld-quest-1:014"
+      ],
+      "sources": [
+        "zelda1:items:001",
+        "zelda1:items:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Documents state the magic sword has four times the wooden sword's damage while the white sword has twice, so the magic sword is twice as strong as the white sword. They also give heart requirements: five Heart Containers for the white sword and twelve for the magic sword.",
+          "rewrite": "",
+          "query": "How much stronger is the magic sword than the white sword, and how many hearts does each need?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_15",
+      "category": "ambiguous",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "What does the ring do?",
+      "error": null,
+      "latency_s": 2.115,
+      "input_tokens": 2591,
+      "output_tokens": 233,
+      "cost_usd": 0.0004,
+      "answer": "The Blue Ring cuts received damage in half and turns Link's outfit blue, while the Red Ring cuts damage down to a quarter and turns Link's outfit red. The ring color also affects Zelda's dress color and the shopkeepers' clothes.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:025",
+        "zelda1:citizens:000",
+        "zelda1:underworld-quest-2-dungeon-9:000",
+        "zelda1:gameplay:002",
+        "zelda1:overworld-quest-1:008"
+      ],
+      "sources": [
+        "zelda1:items:025",
+        "zelda1:citizens:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] directly explains what the rings do: the Blue Ring halves received damage and the Red Ring cuts damage to a quarter, and both change Link's outfit color. Document [2] reinforces that rings improve damage resistance.",
+          "rewrite": "",
+          "query": "What does the ring do?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "hard_16",
+      "category": "unanswerable",
+      "game": "zelda1",
+      "answerable": false,
+      "question": "How do I get the Master Sword in this game?",
+      "error": null,
+      "latency_s": 2.694,
+      "input_tokens": 3410,
+      "output_tokens": 277,
+      "cost_usd": 0.0005,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:overworld-quest-1:009",
+        "zelda1:overworld-quest-2:001",
+        "zelda1:overworld-quest-1:001",
+        "zelda1:walkthrough:004",
+        "zelda1:items:002"
+      ],
+      "sources": [],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "How do I get the Master Sword in this game?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": null,
+      "ctx_coverage": null,
+      "cite_precision": null
+    },
+    {
+      "id": "hard_17",
+      "category": "unanswerable",
+      "game": "zelda1",
+      "answerable": false,
+      "question": "What is the name of Link's horse?",
+      "error": null,
+      "latency_s": 3.826,
+      "input_tokens": 5448,
+      "output_tokens": 298,
+      "cost_usd": 0.0007,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:main:003",
+        "zelda1:citizens:001",
+        "zelda1:enemies:004",
+        "zelda1:enemies:002",
+        "zelda1:enemies:001"
+      ],
+      "sources": [],
+      "rewrites": [
+        "Epona Link horse name Zelda",
+        "Zelda NES Epona horse Link Hyrule"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents cover enemies, Link's character, and the story, but none mention Link's horse or any horse character. The answer (Epona, from Ocarina of Time) is not present in the documents, which seem to be from the original Zelda NES game context where Link has no horse.",
+          "rewrite": "Epona Link horse name Zelda",
+          "query": "What is the name of Link's horse?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents cover the Legend of Zelda story, enemies, and characters like Link, Impa, and Zelda, but none mention Link's horse or any horse named in the game. The answer is not present in the excerpts.",
+          "rewrite": "Zelda NES Epona horse Link Hyrule",
+          "query": "Epona Link horse name Zelda"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": null,
+      "ctx_coverage": null,
+      "cite_precision": null
+    },
+    {
+      "id": "hard_18",
+      "category": "unanswerable",
+      "game": "zelda1",
+      "answerable": false,
+      "question": "What does the Hylian Shield do?",
+      "error": null,
+      "latency_s": 3.541,
+      "input_tokens": 4729,
+      "output_tokens": 343,
+      "cost_usd": 0.0006,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:026",
+        "zelda1:items:008",
+        "zelda1:citizens:002",
+        "zelda1:main:000",
+        "zelda1:controls:000"
+      ],
+      "sources": [],
+      "rewrites": [
+        "Hylian Shield Zelda NES items shields",
+        "Hylian Shield Legend of Zelda NES item effect"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents describe the Small Shield and Magical Shield (reflects missiles, sold in shops) but never mention a Hylian Shield. The question asks about the Hylian Shield, which is absent from all retrieved text.",
+          "rewrite": "Hylian Shield Zelda NES items shields",
+          "query": "What does the Hylian Shield do?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents mention shields generally (Small Shield, Magical Shield reflecting missiles) and Magical Shield pricing, but nothing about the Hylian Shield specifically. The answer about what the Hylian Shield does is missing.",
+          "rewrite": "Hylian Shield Legend of Zelda NES item effect",
+          "query": "Hylian Shield Zelda NES items shields"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": null,
+      "ctx_coverage": null,
+      "cite_precision": null
+    },
+    {
+      "id": "hard_19",
+      "category": "paraphrase",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How many rupees can Link carry and what is a blue rupee worth?",
+      "error": null,
+      "latency_s": 1.857,
+      "input_tokens": 3116,
+      "output_tokens": 147,
+      "cost_usd": 0.0004,
+      "answer": "Link can carry 255 rupees at one time, and a Blue Rupee is worth 5 rupees.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:004",
+        "zelda1:items:006",
+        "zelda1:overworld-hyrule-1:002",
+        "zelda1:enemies:004",
+        "zelda1:items:025"
+      ],
+      "sources": [
+        "zelda1:items:004"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] states Link can carry 255 rupees at one time and Blue Rupees are worth 5 Rupees, which fully answers both parts of the question.",
+          "rewrite": "",
+          "query": "How many rupees can Link carry and what is a blue rupee worth?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_20",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "bomb count max",
+      "error": null,
+      "latency_s": 2.197,
+      "input_tokens": 2723,
+      "output_tokens": 169,
+      "cost_usd": 0.0003,
+      "answer": "According to the Bomb item entry, Link can carry only eight bombs at the start of the game, which can increase to twelve and then to sixteen. Every bomb picked up is actually a set of four.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:006",
+        "zelda1:overworld-hyrule-2:003",
+        "zelda1:underworld:001",
+        "zelda1:overworld-hyrule-1:001",
+        "zelda1:underworld-quest-1-dungeon-5:000"
+      ],
+      "sources": [
+        "zelda1:items:006"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] states that Link can carry eight bombs at the start, increasing to twelve and then sixteen, which answers the maximum bomb count question.",
+          "rewrite": "",
+          "query": "bomb count max"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "hard_21",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Which item lets me cross rivers and what advantage do I get standing on it?",
+      "error": null,
+      "latency_s": 2.649,
+      "input_tokens": 2820,
+      "output_tokens": 266,
+      "cost_usd": 0.0005,
+      "answer": "The Ladder lets Link cross rivers and chasms as wide as he is. Standing on the ladder, he can attack enemies without reprisal.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:021",
+        "zelda1:items:024",
+        "zelda1:overworld-quest-1:001",
+        "zelda1:items:014",
+        "zelda1:overworld-quest-2:001"
+      ],
+      "sources": [
+        "zelda1:items:021"
+      ],
+      "rewrites": [
+        ""
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents describe a Ladder (crossing rivers and chasms, with attacking enemies without reprisal while standing on it) and a Raft (crossing lakes and oceans only at a Dock), but the Ladder's advantage is stated as a Zelda-style item and the question's answer is best matched by the Ladder. The Ladder entry does answer both parts: it lets Link cross rivers and chasms, and standing on it lets him attack enemies without reprisal. The documents are sufficient.",
+          "rewrite": "",
+          "query": "Which item lets me cross rivers and what advantage do I get standing on it?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0
+    }
+  ]
+}

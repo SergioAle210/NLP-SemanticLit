@@ -1,0 +1,4254 @@
+{
+ "run": {
+  "label": "extra-B",
+  "retriever": "hybrid",
+  "generator": "haiku",
+  "graph": true,
+  "evidence": false,
+  "model": "claude-haiku-5-5",
+  "n_cases": 84,
+  "date": "2026-11-09T00:39:40+00:00",
+  "note": "zelda1 spliced from a separate run (chroma race in full run)"
+ },
+ "overall": {
+  "n": 84,
+  "errors": 0,
+  "ctx_recall": 0.6428571428571429,
+  "ctx_coverage": 0.6428571428571429,
+  "abstention_ok": 0.8214285714285714,
+  "cite_precision": 0.5416666666666666,
+  "notes_used_rate": 0.0,
+  "secondary_rate": 0.75,
+  "note_leaks": 0,
+  "decomposed_rate": 0.0,
+  "rewrite_rate": 0.75,
+  "cost_per_q_usd": 0.000655,
+  "tokens_per_q": 5418.7,
+  "latency_mean_s": 3.111,
+  "latency_p95_s": 5.016,
+  "total_cost_usd": 0.055
+ },
+ "by_category": {
+  "direct": {
+   "n": 84,
+   "errors": 12,
+   "ctx_recall": 0.6528,
+   "ctx_coverage": 0.6528,
+   "abstention_ok": 0.8472,
+   "cite_precision": 0.6803,
+   "notes_used_rate": 0.0,
+   "secondary_rate": 0.75,
+   "note_leaks": 0,
+   "decomposed_rate": 0.0,
+   "rewrite_rate": 0.75,
+   "cost_per_q_usd": 0.000655,
+   "tokens_per_q": 5418.7,
+   "latency_mean_s": 3.111,
+   "latency_p95_s": 5.016,
+   "total_cost_usd": 0.055
+  }
+ },
+ "cases": [
+  {
+   "id": "extra_ac2_00",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "Which track is described as having a slow-motion feeling of descent into the depths below?",
+   "error": null,
+   "latency_s": 21.434,
+   "input_tokens": 6620,
+   "output_tokens": 290,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:004",
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:001",
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:003"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "\"Tour of Venice\" is described as having a slow-motion feeling of descent into the depths below.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:races:002",
+    "ac2:sequence-13-bonfire-of-the-vanities:007",
+    "ac2:sequence-13-bonfire-of-the-vanities:005",
+    "ac2:collection:004",
+    "ac2:sequence-9-carnevale:008",
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:004",
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:001",
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:003"
+   ],
+   "sources": [
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:004"
+   ],
+   "rewrites": [
+    "NES game soundtrack track description slow descent into depths music"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents are all about Assassin's Creed II/Brotherhood-style memory missions, renovations, and races in Florence and Monteriggioni; none describe a music track or any slow-motion feeling of descent into depths. The question concerns a NES game soundtrack, which none of the documents cover.",
+     "rewrite": "NES game soundtrack track description slow descent into depths music",
+     "query": "Which track is described as having a slow-motion feeling of descent into the depths below?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ac2_01",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "Which location in the game is only available during the final mission?",
+   "error": null,
+   "latency_s": 5.294,
+   "input_tokens": 10274,
+   "output_tokens": 412,
+   "cost_usd": 0.0013,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:assassin-s-creed-ii:006",
+    "ac2:wikipedia:assassin-s-creed-ii:008",
+    "ac2:ac_fandom:assassin-s-creed-ii-outfits:000"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:main:002",
+    "ac2:main:000",
+    "ac2:sequence-8-necessity-mother-of-invention:001",
+    "ac2:main:001",
+    "ac2:sequence-1-ignorance-is-bliss:006"
+   ],
+   "sources": [],
+   "rewrites": [
+    "Assassin's Creed II final mission only accessible location Ezio Auditore",
+    "Assassin's Creed II final mission only accessible location unlocked during last mission"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents cover Assassin's Creed II-style topics (stores, Codex pages, villa, portraits, a memory mission) but none identify a location that is only accessible during the final mission. The question needs a specific place unlocked or restricted to the last mission, which is not stated.",
+     "rewrite": "Assassin's Creed II final mission only accessible location Ezio Auditore",
+     "query": "Which location in the game is only available during the final mission?"
+    },
+    {
+     "sufficient": false,
+     "reason": "The documents discuss Assassin's Creed II items, codex pages, villa, and missions but none identify a location that is only available during the final mission. The question is about a location gated to the final mission, which is not described in any retrieved document.",
+     "rewrite": "Assassin's Creed II final mission only accessible location unlocked during last mission",
+     "query": "Which location in the game is only available during the final mission?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_ac2_02",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "How do players heal major wounds in the game?",
+   "error": null,
+   "latency_s": 3.495,
+   "input_tokens": 7259,
+   "output_tokens": 347,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:assassin-s-creed-ii:004",
+    "ac2:wikipedia:assassin-s-creed-ii:004",
+    "ac2:ac_fandom:assassin-s-creed-ii-outfits:009"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Major wounds must be healed by side-street doctors or with medicine purchased from them. Medicine can also be found on bodies.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:sequence-1-ignorance-is-bliss:001",
+    "ac2:collection:013",
+    "ac2:sequence-14-veni-vidi-vici:013",
+    "ac2:collection:000",
+    "ac2:main:000",
+    "ac2:ac_fandom:assassin-s-creed-ii:004",
+    "ac2:wikipedia:assassin-s-creed-ii:004",
+    "ac2:ac_fandom:assassin-s-creed-ii-outfits:009"
+   ],
+   "sources": [
+    "ac2:ac_fandom:assassin-s-creed-ii:004",
+    "ac2:wikipedia:assassin-s-creed-ii:004"
+   ],
+   "rewrites": [
+    "Assassin's Creed II heal health Ezio medicine doctor major wounds"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss combat basics, glyphs, synchronization bar acting as a health meter, and game background, but none explain how to heal major wounds (e.g., via medicine, doctors, or healing items in Assassin's Creed II). The synchronization bar mention is related but does not describe healing.",
+     "rewrite": "Assassin's Creed II heal health Ezio medicine doctor major wounds",
+     "query": "How do players heal major wounds in the game?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_ac2_03",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "After which patch was an internet connection only needed upon launching the PC version of the game?",
+   "error": null,
+   "latency_s": 3.487,
+   "input_tokens": 6100,
+   "output_tokens": 310,
+   "cost_usd": 0.0007,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:wikipedia:assassin-s-creed-ii:034",
+    "ac2:ac_fandom:assassin-s-creed-ii:018",
+    "ac2:wikipedia:assassin-s-creed-ii:032"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "According to the ac_fandom document, Ubisoft released a patch that made an internet connection only needed upon launching the game; the earlier version required a constant connection while playing. The document does not name the patch by number or date beyond this, though the Wikipedia document says a later 2010 change made the game require connection only at each launch.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:sequence-13-bonfire-of-the-vanities:001",
+    "ac2:sequence-12-forl-under-attack:011",
+    "ac2:sequence-12-forl-under-attack:001",
+    "ac2:sequence-11-alter-egos:008",
+    "ac2:main:001",
+    "ac2:wikipedia:assassin-s-creed-ii:034",
+    "ac2:ac_fandom:assassin-s-creed-ii:018",
+    "ac2:wikipedia:assassin-s-creed-ii:032"
+   ],
+   "sources": [
+    "ac2:ac_fandom:assassin-s-creed-ii:018",
+    "ac2:wikipedia:assassin-s-creed-ii:034"
+   ],
+   "rewrites": [
+    "PC version patch internet connection required only at launch always-online removed"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss console DLC sequences and Windows versions including content in the full version, but none mention a patch that changed the PC version to require internet only at launch. The needed patch information is missing.",
+     "rewrite": "PC version patch internet connection required only at launch always-online removed",
+     "query": "After which patch was an internet connection only needed upon launching the PC version of the game?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_ac2_04",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "Who ordered Francesco de' Pazzi to kidnap Lorenzo de' Medici during the ball in Florence in 1486?",
+   "error": null,
+   "latency_s": 3.925,
+   "input_tokens": 7395,
+   "output_tokens": 459,
+   "cost_usd": 0.001,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:005",
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:001",
+    "ac2:wikipedia:assassin-s-creed-ii:012"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "According to the mobile game description, Francesco de' Pazzi's kidnapping of Lorenzo de' Medici during a ball in Florence in 1486 was under direct orders from Emilio Barbarigo himself.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:sequence-4-the-pazzi-conspiracy:013",
+    "ac2:sequence-6-rocky-road:001",
+    "ac2:sequence-4-the-pazzi-conspiracy:012",
+    "ac2:sequence-1-ignorance-is-bliss:006",
+    "ac2:sequence-5-loose-ends:001",
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:005",
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:001",
+    "ac2:wikipedia:assassin-s-creed-ii:012"
+   ],
+   "sources": [
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:005"
+   ],
+   "rewrites": [
+    "Assassin's Creed II Pazzi kidnap Lorenzo ball Rodrigo Borgia order Francesco de' Pazzi Templar"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe the Pazzi conspiracy and the ball/attack scene but never state who ordered Francesco de' Pazzi to kidnap Lorenzo during the ball. The answer (in Assassin's Creed II lore, Rodrigo Borgia/the Templar leadership via Pazzi's orders) is not present in these excerpts.",
+     "rewrite": "Assassin's Creed II Pazzi kidnap Lorenzo ball Rodrigo Borgia order Francesco de' Pazzi Templar",
+     "query": "Who ordered Francesco de' Pazzi to kidnap Lorenzo de' Medici during the ball in Florence in 1486?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ac2_05",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "Why did Ubisoft decide not to use authentic Renaissance-era music for Assassin's Creed II's score?",
+   "error": null,
+   "latency_s": 3.742,
+   "input_tokens": 7145,
+   "output_tokens": 324,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:000",
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:001",
+    "ac2:wikipedia:assassin-s-creed-ii:023"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "According to the soundtrack background, Ubisoft did not want an authentic Renaissance-era sound because they thought it would bore players, so they instructed composer Jesper Kyd to modernize it slightly.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:main:002",
+    "ac2:main:001",
+    "ac2:main:003",
+    "ac2:main:000",
+    "ac2:walkthrough:000",
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:000",
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:001",
+    "ac2:wikipedia:assassin-s-creed-ii:023"
+   ],
+   "sources": [
+    "ac2:ac_fandom:assassin-s-creed-ii-soundtrack:001"
+   ],
+   "rewrites": [
+    "Assassin's Creed II original soundtrack Jesper Kyd Renaissance music composer decision"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe limited editions, DLC, story, and general game info but do not mention the soundtrack's creative decisions or why Ubisoft chose not to use authentic Renaissance-era music. The answer is absent from all five documents.",
+     "rewrite": "Assassin's Creed II original soundtrack Jesper Kyd Renaissance music composer decision",
+     "query": "Why did Ubisoft decide not to use authentic Renaissance-era music for Assassin's Creed II's score?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ac2_06",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "How many categories could players battle through in the Assassin's Creed II Web Battle?",
+   "error": null,
+   "latency_s": 3.267,
+   "input_tokens": 6654,
+   "output_tokens": 280,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:web-battle:000",
+    "ac2:ac_fandom:web-battle:004",
+    "ac2:wikipedia:assassin-s-creed-ii:002"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Players could battle through five categories in the Assassin's Creed II Web Battle: \"Overall,\" \"Fight and Kills,\" \"Navigation,\" \"Social\" and \"Villa.\"",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:main:001",
+    "ac2:main:000",
+    "ac2:main:002",
+    "ac2:main:003",
+    "ac2:sequence-10-force-majeure:008",
+    "ac2:ac_fandom:web-battle:000",
+    "ac2:ac_fandom:web-battle:004",
+    "ac2:wikipedia:assassin-s-creed-ii:002"
+   ],
+   "sources": [
+    "ac2:ac_fandom:web-battle:000"
+   ],
+   "rewrites": [
+    "Assassin's Creed II Web Battle categories"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "None of the retrieved documents mention the Assassin's Creed II Web Battle or its categories; they cover DLC, editions, story, and a mission walkthrough instead.",
+     "rewrite": "Assassin's Creed II Web Battle categories",
+     "query": "How many categories could players battle through in the Assassin's Creed II Web Battle?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ac2_07",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "How many florins do I need to earn to unlock the Rich man achievement?",
+   "error": null,
+   "latency_s": 4.361,
+   "input_tokens": 7492,
+   "output_tokens": 239,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:004",
+    "ac2:ac_fandom:web-battle:002",
+    "ac2:ac_fandom:assassin-s-creed-ii:023"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The Rich man achievement requires earning 500,000 florins.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:collection:002",
+    "ac2:monteriggioni:002",
+    "ac2:sequence-1-ignorance-is-bliss:001",
+    "ac2:sequence-10-force-majeure:005",
+    "ac2:sequence-12-forl-under-attack:000",
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:004",
+    "ac2:ac_fandom:web-battle:002",
+    "ac2:ac_fandom:assassin-s-creed-ii:023"
+   ],
+   "sources": [
+    "ac2:ac_fandom:web-battle:002"
+   ],
+   "rewrites": [
+    "Assassin's Creed 2 Rich man achievement trophy requirement florins"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents discuss florin rewards from statuettes, missions, and villa income, but none mention a 'Rich man' achievement or its florin requirement. The answer is missing from the retrieved set.",
+     "rewrite": "Assassin's Creed 2 Rich man achievement trophy requirement florins",
+     "query": "How many florins do I need to earn to unlock the Rich man achievement?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ac2_08",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "How can I unlock the bonus costume dye in Assassin's Creed II?",
+   "error": null,
+   "latency_s": 3.525,
+   "input_tokens": 7097,
+   "output_tokens": 383,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:wikipedia:assassin-s-creed-ii:028",
+    "ac2:ac_fandom:assassin-s-creed-ii:021",
+    "ac2:ac_fandom:assassin-s-creed-ii-outfits:000"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The bonus costume dye is unlocked by entering a code obtained after buying the Assassin's Creed II 3D mobile game from the Verizon App Store.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:main:002",
+    "ac2:sequence-3-requiescat-in-pace:009",
+    "ac2:walkthrough:000",
+    "ac2:main:000",
+    "ac2:sequence-14-veni-vidi-vici:014",
+    "ac2:wikipedia:assassin-s-creed-ii:028",
+    "ac2:ac_fandom:assassin-s-creed-ii:021",
+    "ac2:ac_fandom:assassin-s-creed-ii-outfits:000"
+   ],
+   "sources": [
+    "ac2:wikipedia:assassin-s-creed-ii:028"
+   ],
+   "rewrites": [
+    "Assassin's Creed II costume dye unlock Ezio outfit dye how to get"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover limited editions, story intro, and general progression but do not explain how to unlock the bonus costume dye in Assassin's Creed II. The dye is typically obtained through a specific in-game activity (e.g., a Da Vinci Disappearance or Assassin's Tomb/Tomb of Ezio-related or Monteriggioni-related unlock), and none of the documents mention it.",
+     "rewrite": "Assassin's Creed II costume dye unlock Ezio outfit dye how to get",
+     "query": "How can I unlock the bonus costume dye in Assassin's Creed II?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ac2_09",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "What is the event that a solar flare is expected to trigger, according to Lucy?",
+   "error": null,
+   "latency_s": 3.647,
+   "input_tokens": 6270,
+   "output_tokens": 299,
+   "cost_usd": 0.0007,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:assassin-s-creed-ii:007",
+    "ac2:wikipedia:assassin-s-creed-ii:014",
+    "ac2:wikipedia:assassin-s-creed-ii:004"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "According to the Wikipedia plot summary, Lucy says a solar flare expected in a few months will likely trigger the same event that ended the First Civilization.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:sequence-6-rocky-road:005",
+    "ac2:sequence-6-rocky-road:000",
+    "ac2:walkthrough:001",
+    "ac2:sequence-5-loose-ends:012",
+    "ac2:sequence-13-bonfire-of-the-vanities:000",
+    "ac2:ac_fandom:assassin-s-creed-ii:007",
+    "ac2:wikipedia:assassin-s-creed-ii:014",
+    "ac2:wikipedia:assassin-s-creed-ii:004"
+   ],
+   "sources": [
+    "ac2:wikipedia:assassin-s-creed-ii:014"
+   ],
+   "rewrites": [
+    "Assassin's Creed II Lucy solar flare Animus Project 2012 event"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe Assassin's Creed II sequences (Desmond's training, intro, Venice, Savonarola) but none mention Lucy saying a solar flare is expected to trigger a specific event. The answer is missing.",
+     "rewrite": "Assassin's Creed II Lucy solar flare Animus Project 2012 event",
+     "query": "What is the event that a solar flare is expected to trigger, according to Lucy?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ac2_10",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "Why did the 'Perfect Harmony' achievement end up being added to the game?",
+   "error": null,
+   "latency_s": 3.306,
+   "input_tokens": 6889,
+   "output_tokens": 313,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:005",
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:003",
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:006"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The Perfect Harmony achievement is a reference to a song, and it became an achievement because Game Designer Patrick Plourde was \"obsessed with the song.\"",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:sequence-12-forl-under-attack:000",
+    "ac2:sequence-8-necessity-mother-of-invention:008",
+    "ac2:sequence-13-bonfire-of-the-vanities:001",
+    "ac2:collection:000",
+    "ac2:equipment:006",
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:005",
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:003",
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:006"
+   ],
+   "sources": [
+    "ac2:ac_fandom:assassin-s-creed-ii-achievements:005"
+   ],
+   "rewrites": [
+    "Perfect Harmony achievement trophy Assassin's Creed added reason"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover Assassin's Creed II/Brotherhood-style guide material (intro, DLC versions, armor, Infrequent flier memory) but nothing about the 'Perfect Harmony' achievement or why it was added. The question cannot be answered from these documents.",
+     "rewrite": "Perfect Harmony achievement trophy Assassin's Creed added reason",
+     "query": "Why did the 'Perfect Harmony' achievement end up being added to the game?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ac2_11",
+   "category": "direct",
+   "game": "ac2",
+   "answerable": true,
+   "question": "Who framed Ezio's father for treason, leading to the hanging of his father and brothers?",
+   "error": null,
+   "latency_s": 3.804,
+   "input_tokens": 6949,
+   "output_tokens": 468,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ac2:wikipedia:assassin-s-creed-ii:011",
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:001",
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:005"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents do not say who framed Ezio's father for treason. They name corrupt magistrate Uberto Alberti as the one who had Giovanni and his sons executed, and Ezio later murders him in revenge.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ac2:main:003",
+    "ac2:sequence-4-the-pazzi-conspiracy:013",
+    "ac2:sequence-1-ignorance-is-bliss:006",
+    "ac2:sequence-1-ignorance-is-bliss:011",
+    "ac2:monteriggioni:000",
+    "ac2:wikipedia:assassin-s-creed-ii:011",
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:001",
+    "ac2:ac_fandom:assassin-s-creed-ii-mobile-game:005"
+   ],
+   "sources": [
+    "ac2:wikipedia:assassin-s-creed-ii:011"
+   ],
+   "rewrites": [
+    "Assassin's Creed II Auditore father framed treason Uberto Alberti Pazzi conspiracy"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents establish that Ezio's father and brothers were taken and hanged after being imprisoned at the Palazzo della Signoria, and that Francesco de' Pazzi is an antagonist, but none state who falsely framed Ezio's father for treason. The answer (Uberto Alberti, who framed Giovanni Auditore) is not in the retrieved text.",
+     "rewrite": "Assassin's Creed II Auditore father framed treason Uberto Alberti Pazzi conspiracy",
+     "query": "Who framed Ezio's father for treason, leading to the hanging of his father and brothers?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_doom_00",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "In Doom Eternal, what must be done to Khan Maykr's shield before she can be damaged with a Blood Punch?",
+   "error": null,
+   "latency_s": 3.136,
+   "input_tokens": 6419,
+   "output_tokens": 266,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "doom:doom_fandom:monster:038",
+    "doom:doom_fandom:monster:040",
+    "doom:doom_fandom:monster:035"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Her shield must be depleted before she can be damaged with a Blood Punch.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:e2m1-deimos-anomaly:002",
+    "doom:monsters:013",
+    "doom:e2m6-halls-of-the-damned:001",
+    "doom:useful-moves:002",
+    "doom:e2m1-deimos-anomaly:000",
+    "doom:doom_fandom:monster:038",
+    "doom:doom_fandom:monster:040",
+    "doom:doom_fandom:monster:035"
+   ],
+   "sources": [
+    "doom:doom_fandom:monster:038"
+   ],
+   "rewrites": [
+    "Doom Eternal Khan Maykr shield Blood Punch"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover Doom (1993)-era levels, Revenants, chaingun sniping, and key locations, but nothing about Doom Eternal, Khan Maykr, her shield, or Blood Punch mechanics. The question cannot be answered from these documents.",
+     "rewrite": "Doom Eternal Khan Maykr shield Blood Punch",
+     "query": "In Doom Eternal, what must be done to Khan Maykr's shield before she can be damaged with a Blood Punch?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_doom_01",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "In 2002: A Doom Odyssey, why might the Cyberdemon kill the player almost immediately when Brutal Doom modifications are used?",
+   "error": null,
+   "latency_s": 5.776,
+   "input_tokens": 7688,
+   "output_tokens": 515,
+   "cost_usd": 0.001,
+   "notes_in_context": [],
+   "secondary": [
+    "doom:doom_fandom:cyberdemon:005",
+    "doom:doom_fandom:cyberdemon:003",
+    "doom:doom_fandom:cyberdemon:004"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents say 2002: A Doom Odyssey places Cyberdemons in relatively small rooms, relying on players avoiding their fire and most splash damage, but Brutal Doom modifications mean the Cyberdemon will most likely kill the player almost immediately. The documents do not spell out the exact mechanism beyond that Brutal Doom makes the Cyberdemon much more lethal, such as its melee stomp attack and enhanced rocket salvos.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:020",
+    "doom:monsters:019",
+    "doom:monsters:018",
+    "doom:monsters:011",
+    "doom:monsters:022",
+    "doom:doom_fandom:cyberdemon:005",
+    "doom:doom_fandom:cyberdemon:003",
+    "doom:doom_fandom:cyberdemon:004"
+   ],
+   "sources": [
+    "doom:doom_fandom:cyberdemon:005",
+    "doom:doom_fandom:cyberdemon:004"
+   ],
+   "rewrites": [
+    "Brutal Doom Cyberdemon damage changes 2002 A Doom Odyssey"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe the Cyberdemon's general strength, its rocket launcher attacks, and its appearances in Doom games, but none mention 2002: A Doom Odyssey or Brutal Doom modifications, nor explain why such mods would make the Cyberdemon deadly quickly (e.g., boosted damage, rocket or projectile changes, or increased aggression).",
+     "rewrite": "Brutal Doom Cyberdemon damage changes 2002 A Doom Odyssey",
+     "query": "In 2002: A Doom Odyssey, why might the Cyberdemon kill the player almost immediately when Brutal Doom modifications are used?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_doom_02",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "How do I destroy a Buff Totem in Doom Eternal?",
+   "error": null,
+   "latency_s": 3.457,
+   "input_tokens": 7381,
+   "output_tokens": 262,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "doom:doom_fandom:monster:033",
+    "doom:doom_fandom:monster:035",
+    "doom:doom_fandom:monster:037"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The Buff Totem is completely immobile and must be destroyed with a melee attack, per the Doom Eternal monster notes.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:008",
+    "doom:e2m1-deimos-anomaly:003",
+    "doom:monsters:000",
+    "doom:e2m1-deimos-anomaly:000",
+    "doom:powerups:003",
+    "doom:doom_fandom:monster:033",
+    "doom:doom_fandom:monster:035",
+    "doom:doom_fandom:monster:037"
+   ],
+   "sources": [
+    "doom:doom_fandom:monster:033"
+   ],
+   "rewrites": [
+    "Doom Eternal Buff Totem destroy"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover Doom and Doom II monsters and level walkthroughs, none of which mention Doom Eternal or Buff Totems. The question asks about a Doom Eternal mechanic that is not addressed in any document.",
+     "rewrite": "Doom Eternal Buff Totem destroy",
+     "query": "How do I destroy a Buff Totem in Doom Eternal?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_doom_03",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "What color is the Baron of Hell in Doom 64 after its mutations?",
+   "error": null,
+   "latency_s": 3.161,
+   "input_tokens": 6856,
+   "output_tokens": 300,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "doom:doom_fandom:hell-knight-doom-64:001",
+    "doom:doom_fandom:monster:020",
+    "doom:doom_fandom:monster:021"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "In Doom 64, the Baron of Hell's mutations gave it a red-orange colour scheme, rather than the greenish colour used for the Hell Knight.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:011",
+    "doom:monsters:010",
+    "doom:monsters:012",
+    "doom:monsters:000",
+    "doom:e1m8-phobos-anomaly:004",
+    "doom:doom_fandom:hell-knight-doom-64:001",
+    "doom:doom_fandom:monster:020",
+    "doom:doom_fandom:monster:021"
+   ],
+   "sources": [
+    "doom:doom_fandom:monster:020"
+   ],
+   "rewrites": [
+    "Doom 64 Baron of Hell mutated color variant"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe the standard Baron of Hell (pink torso, brown legs) but say nothing about Doom 64 or any mutated/color-changed version of the Baron. The question's premise about mutations in Doom 64 is not addressed.",
+     "rewrite": "Doom 64 Baron of Hell mutated color variant",
+     "query": "What color is the Baron of Hell in Doom 64 after its mutations?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_doom_04",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "Which weapon does William J. Blazkowicz use to finally defeat the Harbinger of Doom?",
+   "error": null,
+   "latency_s": 2.402,
+   "input_tokens": 3862,
+   "output_tokens": 270,
+   "cost_usd": 0.0005,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:017",
+    "doom:monsters:020",
+    "doom:monsters:024",
+    "doom:weapons:001",
+    "doom:monsters:001"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "Which weapon does William J. Blazkowicz use to finally defeat the Harbinger of Doom?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_doom_05",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "Which two attacks does a Hell Knight use, and what obituary message appears if the claw attack kills the player in a ZDoom-based source port?",
+   "error": null,
+   "latency_s": 2.877,
+   "input_tokens": 3597,
+   "output_tokens": 303,
+   "cost_usd": 0.0005,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:010",
+    "doom:monsters:005",
+    "doom:monsters:024",
+    "doom:monsters:025",
+    "doom:monsters:012"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "Which two attacks does a Hell Knight use, and what obituary message appears if the claw attack kills the player in a ZDoom-based source port?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_doom_06",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "What obituary message appears in a ZDoom-based source port when an Arch-vile kills the player?",
+   "error": null,
+   "latency_s": 3.25,
+   "input_tokens": 7000,
+   "output_tokens": 306,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "doom:doom_fandom:arch-vile:004",
+    "doom:doom_fandom:cyberdemon:003",
+    "doom:doom_fandom:demon:002"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "In a ZDoom-based source port, the obituary message reads \"[player name] was incinerated by an Arch-vile\".",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:016",
+    "doom:scoring:000",
+    "doom:monsters:015",
+    "doom:monsters:014",
+    "doom:monsters:001",
+    "doom:doom_fandom:arch-vile:004",
+    "doom:doom_fandom:cyberdemon:003",
+    "doom:doom_fandom:demon:002"
+   ],
+   "sources": [
+    "doom:doom_fandom:arch-vile:004"
+   ],
+   "rewrites": [
+    "ZDoom obituary Arch-Vile kills player message death message GZDoom"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe the Arch-Vile's abilities and attacks but none mention the obituary message shown in a ZDoom-based source port when an Arch-Vile kills the player. The specific message text (e.g., the 'was incinerated/burned by an Arch-Vile' style obituary) is not present.",
+     "rewrite": "ZDoom obituary Arch-Vile kills player message death message GZDoom",
+     "query": "What obituary message appears in a ZDoom-based source port when an Arch-vile kills the player?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_doom_07",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "What weapon upgrade do I need to use the simple parry-and-shoot strategy against this late-game demon?",
+   "error": null,
+   "latency_s": 2.431,
+   "input_tokens": 3707,
+   "output_tokens": 275,
+   "cost_usd": 0.0005,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:e3m8-dis:000",
+    "doom:weapons:006",
+    "doom:e1m6-central-processing:000",
+    "doom:weapons:010",
+    "doom:e2m4-deimos-lab:003"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "What weapon upgrade do I need to use the simple parry-and-shoot strategy against this late-game demon?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_doom_08",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "What attack does the Imp use in Mighty DOOM, and how does the game help the Slayer dodge it?",
+   "error": null,
+   "latency_s": 4.015,
+   "input_tokens": 6131,
+   "output_tokens": 392,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "doom:doom_fandom:imp:005",
+    "doom:doom_fandom:imp-stalker:006",
+    "doom:doom_fandom:imp-stalker:000"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "In Mighty DOOM, the Imp attacks by lobbing several fireballs over walls. The point of impact is immediately indicated, which helps the Slayer avoid them.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:002",
+    "doom:e1m3-toxin-refinery:001",
+    "doom:monsters:025",
+    "doom:monsters:024",
+    "doom:monsters:014",
+    "doom:doom_fandom:imp:005",
+    "doom:doom_fandom:imp-stalker:006",
+    "doom:doom_fandom:imp-stalker:000"
+   ],
+   "sources": [
+    "doom:doom_fandom:imp:005"
+   ],
+   "rewrites": [
+    "Mighty DOOM Slayer dodge Imp fireball mechanic"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "Document 1 describes the Imp's attacks (fireballs at range, claw scratches up close) but nothing about Mighty DOOM or how the game helps the Slayer dodge. The other documents cover the Icon of Sin, Arch-Vile, and a walkthrough mentioning an Imp without describing its attack or any dodge mechanic. The dodge/help part of the question is unanswered.",
+     "rewrite": "Mighty DOOM Slayer dodge Imp fireball mechanic",
+     "query": "What attack does the Imp use in Mighty DOOM, and how does the game help the Slayer dodge it?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_doom_09",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "How many categories are Doom Eternal's monsters divided into?",
+   "error": null,
+   "latency_s": 2.942,
+   "input_tokens": 7210,
+   "output_tokens": 246,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "doom:doom_fandom:cybernetic-monster:002",
+    "doom:doom_fandom:monster:032",
+    "doom:doom_fandom:demonic-monster:005"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Doom Eternal's monsters are split into five categories: ambient, fodder, heavy, super-heavy and boss monsters.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:000",
+    "doom:monsters:020",
+    "doom:monsters:019",
+    "doom:monsters:012",
+    "doom:monsters:015",
+    "doom:doom_fandom:cybernetic-monster:002",
+    "doom:doom_fandom:monster:032",
+    "doom:doom_fandom:demonic-monster:005"
+   ],
+   "sources": [
+    "doom:doom_fandom:monster:032"
+   ],
+   "rewrites": [
+    "Doom Eternal monster categories bestiary classes"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents only cover monsters from Doom, Doom II, Final Doom, and Doom 3. None mention Doom Eternal or how its monsters are categorized into groups.",
+     "rewrite": "Doom Eternal monster categories bestiary classes",
+     "query": "How many categories are Doom Eternal's monsters divided into?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_doom_10",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "What happens to the Guardian of Hell when its Seekers are destroyed?",
+   "error": null,
+   "latency_s": 4.013,
+   "input_tokens": 6758,
+   "output_tokens": 292,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "doom:doom_fandom:monster:026",
+    "doom:wikipedia:doom-1993-video-game:030",
+    "doom:doom_fandom:demonic-monster:012"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Destroying the Seekers, which appear in a group of three and act as spotters for the blind Guardian of Hell, leaves the Guardian vulnerable.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:010",
+    "doom:e1m8-phobos-anomaly:003",
+    "doom:monsters:025",
+    "doom:storyline:000",
+    "doom:e1m8-phobos-anomaly:004",
+    "doom:doom_fandom:monster:026",
+    "doom:wikipedia:doom-1993-video-game:030",
+    "doom:doom_fandom:demonic-monster:012"
+   ],
+   "sources": [
+    "doom:doom_fandom:monster:026"
+   ],
+   "rewrites": [
+    "Guardian of Hell Seekers boss NES game destroyed"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss Barons of Hell, the Icon of Sin, and Doom intro, but none mention a 'Guardian of Hell' or its 'Seekers' or what happens when Seekers are destroyed. The question refers to a different game or boss not covered here.",
+     "rewrite": "Guardian of Hell Seekers boss NES game destroyed",
+     "query": "What happens to the Guardian of Hell when its Seekers are destroyed?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_doom_11",
+   "category": "direct",
+   "game": "doom",
+   "answerable": true,
+   "question": "What is the main visual difference between the Hell Knight and the Baron of Hell?",
+   "error": null,
+   "latency_s": 1.471,
+   "input_tokens": 1857,
+   "output_tokens": 136,
+   "cost_usd": 0.0002,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The Hell Knight is tan-colored, whereas the Baron of Hell resembles a minotaur with a pink torso and brown legs. Otherwise, in Doom II the Hell Knight is identical to the Baron, aside from having different sounds and half as many hit points.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "doom:monsters:010",
+    "doom:monsters:012",
+    "doom:monsters:011",
+    "doom:e1m8-phobos-anomaly:003",
+    "doom:e1m8-phobos-anomaly:004"
+   ],
+   "sources": [
+    "doom:monsters:010",
+    "doom:monsters:012"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_gta_sa_00",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "Who does Carl rescue from suicide out of guilt in Las Venturas?",
+   "error": null,
+   "latency_s": 5.922,
+   "input_tokens": 7765,
+   "output_tokens": 407,
+   "cost_usd": 0.001,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:grandtheftwiki:plot-in-gta-san-andreas:020",
+    "gta_sa:grandtheftwiki:los-sepulcros:000",
+    "gta_sa:gta_fandom:carl-johnson:011"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Carl rescues rapper Madd Dogg from suicide out of guilt in Las Venturas, after realizing how Loc wronged both of them.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:las-venturas:006",
+    "gta_sa:las-venturas:007",
+    "gta_sa:las-venturas:000",
+    "gta_sa:san-andreas:006",
+    "gta_sa:key-to-her-heart:000",
+    "gta_sa:grandtheftwiki:plot-in-gta-san-andreas:020",
+    "gta_sa:grandtheftwiki:los-sepulcros:000",
+    "gta_sa:gta_fandom:carl-johnson:011"
+   ],
+   "sources": [
+    "gta_sa:grandtheftwiki:plot-in-gta-san-andreas:020",
+    "gta_sa:gta_fandom:carl-johnson:011"
+   ],
+   "rewrites": [
+    "GTA San Andreas Las Venturas mission Carl stops suicide jumper guilt"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe Las Venturas, its casinos, and the Caligula's heist setup, but none mention Carl rescuing anyone from suicide out of guilt. The answer (a character Carl rescues in a Las Venturas mission, likely involving a jumper on a rooftop or bridge) is missing.",
+     "rewrite": "GTA San Andreas Las Venturas mission Carl stops suicide jumper guilt",
+     "query": "Who does Carl rescue from suicide out of guilt in Las Venturas?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_gta_sa_01",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "Where was Benny, also known as The Gimp, killed in Grand Theft Auto: San Andreas?",
+   "error": null,
+   "latency_s": 3.811,
+   "input_tokens": 5655,
+   "output_tokens": 356,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:grandtheftwiki:benny-gta-sa:000",
+    "gta_sa:gta_fandom:benny-gta-san-andreas:000",
+    "gta_sa:gta_fandom:benny-gta-san-andreas:001"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Benny, also known as The Gimp, was killed at Prickle Pine in Las Venturas, San Andreas, according to the fandom wiki's place of death listing. The game's mission Key to Her Heart has Carl kill him as he walks towards Millie's home.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:las-venturas:000",
+    "gta_sa:san-fierro:000",
+    "gta_sa:los-santos:000",
+    "gta_sa:main:000",
+    "gta_sa:characters:001",
+    "gta_sa:grandtheftwiki:benny-gta-sa:000",
+    "gta_sa:gta_fandom:benny-gta-san-andreas:000",
+    "gta_sa:gta_fandom:benny-gta-san-andreas:001"
+   ],
+   "sources": [
+    "gta_sa:gta_fandom:benny-gta-san-andreas:000",
+    "gta_sa:gta_fandom:benny-gta-san-andreas:001"
+   ],
+   "rewrites": [
+    "Benny The Gimp Grand Theft Auto San Andreas death mission Las Venturas"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover San Andreas cities and the game's overview and protagonist CJ, but none mention Benny (The Gimp) or where he was killed. The answer requires a mission or character page for Benny.",
+     "rewrite": "Benny The Gimp Grand Theft Auto San Andreas death mission Las Venturas",
+     "query": "Where was Benny, also known as The Gimp, killed in Grand Theft Auto: San Andreas?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_gta_sa_02",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "Who voices Kendl Johnson in GTA San Andreas?",
+   "error": null,
+   "latency_s": 3.315,
+   "input_tokens": 6652,
+   "output_tokens": 249,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:grandtheftwiki:jenna-forbes:000",
+    "gta_sa:grandtheftwiki:kendl-johnson:000",
+    "gta_sa:grandtheftwiki:sweet:000"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Kendl Johnson is voiced by Yolanda \"Yo-Yo\" Whittaker.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:characters:029",
+    "gta_sa:characters:054",
+    "gta_sa:characters:001",
+    "gta_sa:main:001",
+    "gta_sa:characters:014",
+    "gta_sa:grandtheftwiki:jenna-forbes:000",
+    "gta_sa:grandtheftwiki:kendl-johnson:000",
+    "gta_sa:grandtheftwiki:sweet:000"
+   ],
+   "sources": [
+    "gta_sa:grandtheftwiki:kendl-johnson:000"
+   ],
+   "rewrites": [
+    "GTA San Andreas voice cast Kendl Johnson voice actress"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe Kendl Johnson's character, relationships, and storyline role but never mention the voice actor who performed her. No voice cast information appears in any document.",
+     "rewrite": "GTA San Andreas voice cast Kendl Johnson voice actress",
+     "query": "Who voices Kendl Johnson in GTA San Andreas?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_gta_sa_03",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "How many Claude action figures were produced to celebrate GTA III's 10th anniversary?",
+   "error": null,
+   "latency_s": 3.454,
+   "input_tokens": 8176,
+   "output_tokens": 272,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:gta_fandom:claude:023",
+    "gta_sa:gta_fandom:claude:024",
+    "gta_sa:grandtheftwiki:claude:010"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Only 1600 Claude action figures were produced to celebrate GTA III's 10th anniversary.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:characters:054",
+    "gta_sa:characters:038",
+    "gta_sa:saint-mark-s-bistro:000",
+    "gta_sa:farewell-my-love:000",
+    "gta_sa:controls:000",
+    "gta_sa:gta_fandom:claude:023",
+    "gta_sa:gta_fandom:claude:024",
+    "gta_sa:grandtheftwiki:claude:010"
+   ],
+   "sources": [
+    "gta_sa:gta_fandom:claude:023"
+   ],
+   "rewrites": [
+    "Grand Theft Auto III 10th anniversary Claude action figure limited edition produced"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss Claude's in-game role in GTA III and San Andreas character details, but none mention action figures, merchandise, or the 10th anniversary celebration of GTA III, so the production count is missing.",
+     "rewrite": "Grand Theft Auto III 10th anniversary Claude action figure limited edition produced",
+     "query": "How many Claude action figures were produced to celebrate GTA III's 10th anniversary?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_gta_sa_04",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "Who sets the whole building on fire during the mission, and how do they do it?",
+   "error": null,
+   "latency_s": 4.805,
+   "input_tokens": 6273,
+   "output_tokens": 595,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:grandtheftwiki:burning-desire:006",
+    "gta_sa:grandtheftwiki:burning-desire:001",
+    "gta_sa:grandtheftwiki:madd-dogg-s-rhymes:003"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Carl sets the building on fire during the Burning Desire mission by throwing Molotov cocktails into five windows around the building. The documents don't explicitly say the whole building burns, only that these windows were targeted.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:misappropriation:001",
+    "gta_sa:end-of-the-line:007",
+    "gta_sa:end-of-the-line:006",
+    "gta_sa:firefighter:000",
+    "gta_sa:quarry:004",
+    "gta_sa:grandtheftwiki:burning-desire:006",
+    "gta_sa:grandtheftwiki:burning-desire:001",
+    "gta_sa:grandtheftwiki:madd-dogg-s-rhymes:003"
+   ],
+   "sources": [
+    "gta_sa:grandtheftwiki:burning-desire:001"
+   ],
+   "rewrites": [
+    "GTA San Andreas Fire Escape mission arsonist sets building on fire Madd Dogg Mansion"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents discuss a Fire Escape mission with a Drug Lab and fire extinguishers, but none identify who sets the building on fire or how it is done. The fire-related passages are about extinguishing fires, fire trucks, and a quarry, not the arsonist in the building mission.",
+     "rewrite": "GTA San Andreas Fire Escape mission arsonist sets building on fire Madd Dogg Mansion",
+     "query": "Who sets the whole building on fire during the mission, and how do they do it?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_gta_sa_05",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "Which location is the pedestrian scene set in according to the heading?",
+   "error": null,
+   "latency_s": 1.09,
+   "input_tokens": 2479,
+   "output_tokens": 113,
+   "cost_usd": 0.0003,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "According to the heading, the pedestrian scene is set in \"Myths > Is there a suicidal pedestrian?\" The document text itself places it in Flint County, across the street from the trailer park with the monster truck.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:frequently-asked-questions:073",
+    "gta_sa:nrg-challenge:003",
+    "gta_sa:riot:000",
+    "gta_sa:territories:005",
+    "gta_sa:saint-mark-s-bistro:000"
+   ],
+   "sources": [
+    "gta_sa:frequently-asked-questions:073"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_gta_sa_06",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "Who is the corrupt CRASH officer leading the group that intercepts CJ when he returns to Los Santos?",
+   "error": null,
+   "latency_s": 1.422,
+   "input_tokens": 2684,
+   "output_tokens": 163,
+   "cost_usd": 0.0004,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents identify Officer Frank Tenpenny as the corrupt C.R.A.S.H. officer and main antagonist, and he is the one who warns CJ early in the game and pressures him. However, the documents do not explicitly state that he leads a group that intercepts CJ on his return to Los Santos, so the question's premise is not fully confirmed.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:los-santos:004",
+    "gta_sa:characters:002",
+    "gta_sa:los-santos:005",
+    "gta_sa:characters:003",
+    "gta_sa:san-andreas:001"
+   ],
+   "sources": [
+    "gta_sa:characters:002",
+    "gta_sa:characters:003"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_gta_sa_07",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "What was Alan Crawford's alias, and which game is he a minor character in?",
+   "error": null,
+   "latency_s": 3.459,
+   "input_tokens": 6092,
+   "output_tokens": 315,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:grandtheftwiki:alan-crawford:000",
+    "gta_sa:gta_fandom:alan-crawford:000",
+    "gta_sa:gta_fandom:alan-crawford:003"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Alan Crawford's alias was Scipio, and he is a minor character in Grand Theft Auto: San Andreas.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:characters:054",
+    "gta_sa:characters:070",
+    "gta_sa:characters:071",
+    "gta_sa:characters:001",
+    "gta_sa:characters:053",
+    "gta_sa:grandtheftwiki:alan-crawford:000",
+    "gta_sa:gta_fandom:alan-crawford:000",
+    "gta_sa:gta_fandom:alan-crawford:003"
+   ],
+   "sources": [
+    "gta_sa:grandtheftwiki:alan-crawford:000",
+    "gta_sa:gta_fandom:alan-crawford:000"
+   ],
+   "rewrites": [
+    "Alan Crawford Grand Theft Auto alias minor character"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents do not mention Alan Crawford at all. They cover other minor characters (Claude, Tony, Maria Latore, Denise Robinson) and CJ from GTA San Andreas, so neither the alias nor the game for Alan Crawford can be determined.",
+     "rewrite": "Alan Crawford Grand Theft Auto alias minor character",
+     "query": "What was Alan Crawford's alias, and which game is he a minor character in?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_gta_sa_08",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "How many of the Las Venturas missions are heist missions?",
+   "error": null,
+   "latency_s": 2.857,
+   "input_tokens": 3527,
+   "output_tokens": 311,
+   "cost_usd": 0.0005,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:walkthrough:003",
+    "gta_sa:las-venturas:006",
+    "gta_sa:las-venturas:007",
+    "gta_sa:freefall:000",
+    "gta_sa:explosive-situation:002"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "How many of the Las Venturas missions are heist missions?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_gta_sa_09",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "In Vice City Stories, what happens if a fire victim dies during the Firefighter mission?",
+   "error": null,
+   "latency_s": 3.406,
+   "input_tokens": 6727,
+   "output_tokens": 310,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:grandtheftwiki:firefighter:000",
+    "gta_sa:grandtheftwiki:celebrities:007",
+    "gta_sa:gta_fandom:ammu-nation-clerk:002"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "In Vice City Stories, if a victim dies, only some seconds of the time are removed rather than the mission failing.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:vehicles:012",
+    "gta_sa:end-of-the-line:007",
+    "gta_sa:firefighter:002",
+    "gta_sa:frequently-asked-questions:016",
+    "gta_sa:frequently-asked-questions:014",
+    "gta_sa:grandtheftwiki:firefighter:000",
+    "gta_sa:grandtheftwiki:celebrities:007",
+    "gta_sa:gta_fandom:ammu-nation-clerk:002"
+   ],
+   "sources": [
+    "gta_sa:grandtheftwiki:firefighter:000"
+   ],
+   "rewrites": [
+    "Vice City Stories Firefighter mission victim dies fail mission"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe the Firefighter mission's vehicles, locations, and tips, and mention failing if the player hits X/enter/Y, but none state what happens when a fire victim dies during the mission (e.g., whether it causes mission failure or a fail condition). The information is missing.",
+     "rewrite": "Vice City Stories Firefighter mission victim dies fail mission",
+     "query": "In Vice City Stories, what happens if a fire victim dies during the Firefighter mission?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_gta_sa_10",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "Why does the city sometimes seem abandoned after a wanted level or gang war ends, and what fixes it?",
+   "error": null,
+   "latency_s": 5.016,
+   "input_tokens": 6691,
+   "output_tokens": 482,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:gta_fandom:glitches-in-gta-san-andreas:077",
+    "gta_sa:gta_fandom:gangs-in-gta-san-andreas:003",
+    "gta_sa:grandtheftwiki:territory-glitch:000"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The city can seem abandoned because of the Population Glitch: after a high wanted level, gang war, or territory defense, traffic density is reduced, and sometimes it is not reset to normal when the wanted level or war ends, so few or no cars and pedestrians spawn. The glitch persists through saving or reloading, and the documents say it is fixed only by quitting the game and restarting in another session, which refreshes game memory.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:turf-wars:021",
+    "gta_sa:frequently-asked-questions:028",
+    "gta_sa:frequently-asked-questions:027",
+    "gta_sa:stats:011",
+    "gta_sa:turf-wars:008",
+    "gta_sa:gta_fandom:glitches-in-gta-san-andreas:077",
+    "gta_sa:gta_fandom:gangs-in-gta-san-andreas:003",
+    "gta_sa:grandtheftwiki:territory-glitch:000"
+   ],
+   "sources": [
+    "gta_sa:gta_fandom:glitches-in-gta-san-andreas:077"
+   ],
+   "rewrites": [
+    "GTA San Andreas empty streets no pedestrians after wanted level gang war ends fix"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents explain territory ownership, joint ownership, and wanted level reduction, but do not directly explain why the city seems abandoned (likely gang members or pedestrians/cars not respawning or being cleared after war or wanted level ends, a population/ambient density effect) or what fixes it. The retrieved text lacks any passage about pedestrians, traffic, or the city appearing empty after conflicts.",
+     "rewrite": "GTA San Andreas empty streets no pedestrians after wanted level gang war ends fix",
+     "query": "Why does the city sometimes seem abandoned after a wanted level or gang war ends, and what fixes it?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_gta_sa_11",
+   "category": "direct",
+   "game": "gta_sa",
+   "answerable": true,
+   "question": "Why does Tommy Vercetti not talk in this machinima?",
+   "error": null,
+   "latency_s": 5.747,
+   "input_tokens": 13556,
+   "output_tokens": 550,
+   "cost_usd": 0.0016,
+   "notes_in_context": [],
+   "secondary": [
+    "gta_sa:grandtheftwiki:phone-calls:009",
+    "gta_sa:grandtheftwiki:phone-calls:015",
+    "gta_sa:grandtheftwiki:phone-calls:023"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "gta_sa:characters:047",
+    "gta_sa:characters:054",
+    "gta_sa:characters:056",
+    "gta_sa:characters:038",
+    "gta_sa:las-venturas:007"
+   ],
+   "sources": [],
+   "rewrites": [
+    "Tommy Vercetti silent protagonist machinima Vice City why doesn't Tommy speak",
+    "Tommy Vercetti silent protagonist machinima Grand Theft Auto Vice City why no voice"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe Kent Paul, Maccer, Ken Rosenberg, Jizzy B., and Dwaine and Jethro, and mention Tommy Vercetti only as a figure from Vice City. None discuss a machinima, Tommy's silence, or why he is mute or silent in any production. The question's answer is not present.",
+     "rewrite": "Tommy Vercetti silent protagonist machinima Vice City why doesn't Tommy speak",
+     "query": "Why does Tommy Vercetti not talk in this machinima?"
+    },
+    {
+     "sufficient": false,
+     "reason": "The documents describe GTA San Andreas and Vice City characters and phone calls, but none explain why Tommy Vercetti is silent in the machinima. Nothing addresses machinima conventions, voice acting, or a specific video's production choice. The documents are insufficient to answer the question.",
+     "rewrite": "Tommy Vercetti silent protagonist machinima Grand Theft Auto Vice City why no voice",
+     "query": "Why does Tommy Vercetti not talk in this machinima?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_00",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "According to GameSpot's Alex Navarro, when does the difficulty begin to increase in the game?",
+   "error": null,
+   "latency_s": 3.424,
+   "input_tokens": 6477,
+   "output_tokens": 350,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:031",
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:025",
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:022"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "According to Alex Navarro's GameSpot review, the game starts easy, but the difficulty begins to increase halfway through the second Act and continues through the sixth Act.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:gameplay:000",
+    "ninja_gaiden_nes:act-5:010",
+    "ninja_gaiden_nes:act-6:000",
+    "ninja_gaiden_nes:gameplay:003",
+    "ninja_gaiden_nes:act-2:005",
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:031",
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:025",
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:022"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:031"
+   ],
+   "rewrites": [
+    "GameSpot Alex Navarro Ninja Gaiden NES review difficulty increases"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents are from a Ninja Gaiden (NES) walkthrough/guide but none attribute content to GameSpot's Alex Navarro or state when difficulty begins to increase. Stage 2-2 mentions danger increasing 'from here' but that is not the GameSpot claim the question asks about.",
+     "rewrite": "GameSpot Alex Navarro Ninja Gaiden NES review difficulty increases",
+     "query": "According to GameSpot's Alex Navarro, when does the difficulty begin to increase in the game?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_01",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "Where does Jô's life or death duel take place in Ninja Gaiden: Ragebound?",
+   "error": null,
+   "latency_s": 4.662,
+   "input_tokens": 8218,
+   "output_tokens": 529,
+   "cost_usd": 0.001,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:017",
+    "ninja_gaiden_nes:ninjagaiden_fandom:bloody-malth:004",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:000"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:main:000",
+    "ninja_gaiden_nes:walkthrough:000",
+    "ninja_gaiden_nes:main:001",
+    "ninja_gaiden_nes:gameplay:003",
+    "ninja_gaiden_nes:gameplay:002",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:017",
+    "ninja_gaiden_nes:ninjagaiden_fandom:bloody-malth:004",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:000"
+   ],
+   "sources": [],
+   "rewrites": [
+    "Ninja Gaiden Ragebound Jo duel location stage boss"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover the original 1988 NES Ninja Gaiden (story, status bar, player mechanics, act structure) and do not mention Ninja Gaiden: Ragebound, Jô, or any life-or-death duel location. The question cannot be answered from these documents.",
+     "rewrite": "Ninja Gaiden Ragebound Jo duel location stage boss",
+     "query": "Where does Jô's life or death duel take place in Ninja Gaiden: Ragebound?"
+    },
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "Where does Jô's life or death duel take place in Ninja Gaiden: Ragebound?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_02",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "Why was Basaquer expelled from the Five Rangers of Doom?",
+   "error": null,
+   "latency_s": 3.549,
+   "input_tokens": 6089,
+   "output_tokens": 395,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:basaquer:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:the-malice-four:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:basaquer:001"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Basaquer was expelled from the Five Rangers of Doom for utilizing sadistically cruel methods that were too much even for the organization. The Malice Four entry also states he was expelled because he was too cruel.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:act-3:006",
+    "ninja_gaiden_nes:act-3:004",
+    "ninja_gaiden_nes:act-3:005",
+    "ninja_gaiden_nes:act-4:000",
+    "ninja_gaiden_nes:main:001",
+    "ninja_gaiden_nes:ninjagaiden_fandom:basaquer:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:the-malice-four:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:basaquer:001"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:basaquer:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:the-malice-four:000"
+   ],
+   "rewrites": [
+    "Basaquer Five Rangers of Doom expelled Ninja Gaiden backstory"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe Basaquer as the Act III boss of Stage 3-3 and give the Jaquio plot background, but none mention Basaquer being expelled from the Five Rangers of Doom or any reason for it. The Five Rangers backstory is missing.",
+     "rewrite": "Basaquer Five Rangers of Doom expelled Ninja Gaiden backstory",
+     "query": "Why was Basaquer expelled from the Five Rangers of Doom?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_03",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "Who is the current leader of the Mugen Tenshin Ninja Clan that Ryu is on good terms with?",
+   "error": null,
+   "latency_s": 3.347,
+   "input_tokens": 6567,
+   "output_tokens": 321,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:006",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:dragon-ninja:005"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents name Hayate as the current leader of the Mugen Tenshin Ninja Clan, whom Ryu considers a close friend.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:gameplay:001",
+    "ninja_gaiden_nes:walkthrough:000",
+    "ninja_gaiden_nes:main:001",
+    "ninja_gaiden_nes:act-3:007",
+    "ninja_gaiden_nes:main:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:006",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:dragon-ninja:005"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:006"
+   ],
+   "rewrites": [
+    "Mugen Tenshin ninja clan leader Ryu Hayabusa Ninja Gaiden"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents establish Ryu Hayabusa, the Jaquio, and the statues, but none mention the Mugen Tenshin Ninja Clan, Ryu's relationship with it, or its current leader. The needed information about the clan and its leader is missing.",
+     "rewrite": "Mugen Tenshin ninja clan leader Ryu Hayabusa Ninja Gaiden",
+     "query": "Who is the current leader of the Mugen Tenshin Ninja Clan that Ryu is on good terms with?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_04",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "What did Ryu say as the sun rose after he defeated Vazdah?",
+   "error": null,
+   "latency_s": 4.799,
+   "input_tokens": 6574,
+   "output_tokens": 658,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:057",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:039",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:009"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "According to the documents, after Ryu defeated Vazdah and the sun rose, the ninja stated, \"The light of dawn drives away the darkness once again.\" This quote is from the Ninja Gaiden Sigma 2 section of the Ryu Hayabusa wiki, not the NES game's documents.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:act-6:015",
+    "ninja_gaiden_nes:act-3:007",
+    "ninja_gaiden_nes:act-5:010",
+    "ninja_gaiden_nes:act-3:000",
+    "ninja_gaiden_nes:act-6:014",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:057",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:039",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:009"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:039"
+   ],
+   "rewrites": [
+    "Ninja Gaiden NES ending Vazdah defeated Ryu sunrise dialogue"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover Ryu Hayabusa's Ninja Gaiden stages and bosses (Masked Devil, Malth, intro), but none mention Vazdah or the ending where Ryu speaks as the sun rises after defeating him. The needed ending dialogue is missing.",
+     "rewrite": "Ninja Gaiden NES ending Vazdah defeated Ryu sunrise dialogue",
+     "query": "What did Ryu say as the sun rose after he defeated Vazdah?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_05",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "Which Kelbeross is the real one during the boss fight, and where does it spawn?",
+   "error": null,
+   "latency_s": 1.478,
+   "input_tokens": 2056,
+   "output_tokens": 121,
+   "cost_usd": 0.0003,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The real Kelbeross demon is the one that jumps better (leaps much farther than the fake one); the documents say it starts on the left side of the room. Track that better jumper and slash it when it gets close, while staying near a pedestal for safety.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:act-4:011",
+    "ninja_gaiden_nes:act-4:012",
+    "ninja_gaiden_nes:act-3:006",
+    "ninja_gaiden_nes:act-6:016",
+    "ninja_gaiden_nes:act-1:002"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:act-4:011"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_06",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "Which Dark Dragonstone does Ryu collect after defeating the large golem-like creature in the Underground Mausoleum?",
+   "error": null,
+   "latency_s": 3.27,
+   "input_tokens": 7149,
+   "output_tokens": 342,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:026",
+    "ninja_gaiden_nes:ninjagaiden_fandom:the-demon:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:025"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "After defeating the large golem-like creature in the Underground Mausoleum, Ryu collects the Dark Dragonstone of Slumber.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:gameplay:001",
+    "ninja_gaiden_nes:act-6:015",
+    "ninja_gaiden_nes:gameplay:002",
+    "ninja_gaiden_nes:items:002",
+    "ninja_gaiden_nes:act-2:008",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:026",
+    "ninja_gaiden_nes:ninjagaiden_fandom:the-demon:000",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:025"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:026"
+   ],
+   "rewrites": [
+    "Ninja Gaiden Underground Mausoleum golem boss Dark Dragonstone"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover general controls, weapons, and a Stage 6-4 boss (Masked Devil) and Stage 2-3, but none mention the Underground Mausoleum, the large golem-like creature, or which Dark Dragonstone Ryu collects there. The answer is missing.",
+     "rewrite": "Ninja Gaiden Underground Mausoleum golem boss Dark Dragonstone",
+     "query": "Which Dark Dragonstone does Ryu collect after defeating the large golem-like creature in the Underground Mausoleum?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_07",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "What happens to Jaquio after he is defeated a second time in Ninja Gaiden II?",
+   "error": null,
+   "latency_s": 2.348,
+   "input_tokens": 3264,
+   "output_tokens": 227,
+   "cost_usd": 0.0004,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:act-6:016",
+    "ninja_gaiden_nes:main:001",
+    "ninja_gaiden_nes:act-6:017",
+    "ninja_gaiden_nes:act-6:015",
+    "ninja_gaiden_nes:walkthrough:000"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "What happens to Jaquio after he is defeated a second time in Ninja Gaiden II?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_08",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "What fighting style does Jôe have master-level hand-to-hand skill in?",
+   "error": null,
+   "latency_s": 3.634,
+   "input_tokens": 6437,
+   "output_tokens": 346,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:bloody-malth:004",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:011",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:017"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Jôe has master-level hand-to-hand combat skill in the Hayabusa style ninjutsu.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:act-6:008",
+    "ninja_gaiden_nes:act-5:011",
+    "ninja_gaiden_nes:act-6:016",
+    "ninja_gaiden_nes:walkthrough:000",
+    "ninja_gaiden_nes:act-6:009",
+    "ninja_gaiden_nes:ninjagaiden_fandom:bloody-malth:004",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:011",
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:017"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:j-hayabusa:011"
+   ],
+   "rewrites": [
+    "Ninja Gaiden Joe Malth Masked Devil character bio hand-to-hand combat master fighting style"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents are about Ninja Gaiden stage walkthroughs and bosses (Malth, Jaquio, Masked Devil) and do not mention Joe or any master-level hand-to-hand fighting style. Joe is a character from Ninja Gaiden's Ryu-related lore or the Ninja Gaiden NES manual/character descriptions, which these documents do not cover.",
+     "rewrite": "Ninja Gaiden Joe Malth Masked Devil character bio hand-to-hand combat master fighting style",
+     "query": "What fighting style does Jôe have master-level hand-to-hand skill in?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_09",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "Which Ninja Gaiden games does Ryu Hayabusa not play a role as the protagonist or playable character in?",
+   "error": null,
+   "latency_s": 2.664,
+   "input_tokens": 3618,
+   "output_tokens": 297,
+   "cost_usd": 0.0005,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:walkthrough:000",
+    "ninja_gaiden_nes:main:000",
+    "ninja_gaiden_nes:gameplay:001",
+    "ninja_gaiden_nes:main:001",
+    "ninja_gaiden_nes:act-6:016"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "Which Ninja Gaiden games does Ryu Hayabusa not play a role as the protagonist or playable character in?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_10",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "How does Ryu and Sonia's escape from the falling Daedalus airship work in Ninja Gaiden II?",
+   "error": null,
+   "latency_s": 3.734,
+   "input_tokens": 6637,
+   "output_tokens": 469,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:035",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:007",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:006"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "In Ninja Gaiden II, as the Daedalus splits in two, Ryu and Sonia are on the falling half. They rush to the cargo bay, where Ryu mounts a motorcycle with Sonia in the backseat. Sonia blasts a large hole in the hull with her rocket launcher, and the two ride out and land on the snowy peak below just as the airship crash-lands.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:gameplay:001",
+    "ninja_gaiden_nes:main:001",
+    "ninja_gaiden_nes:act-3:000",
+    "ninja_gaiden_nes:walkthrough:000",
+    "ninja_gaiden_nes:act-6:015",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:035",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:007",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:006"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:007",
+    "ninja_gaiden_nes:ninjagaiden_fandom:ryu-hayabusa:035"
+   ],
+   "rewrites": [
+    "Ninja Gaiden II NES Daedalus airship escape Sonia Ryu stage ending"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover the game's general controls, story setup, act structure, and a boss fight, but none describe the Daedalus airship escape with Ryu and Sonia or how it plays out in the game.",
+     "rewrite": "Ninja Gaiden II NES Daedalus airship escape Sonia Ryu stage ending",
+     "query": "How does Ryu and Sonia's escape from the falling Daedalus airship work in Ninja Gaiden II?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_ninja_gaiden_nes_11",
+   "category": "direct",
+   "game": "ninja_gaiden_nes",
+   "answerable": true,
+   "question": "What code word does Irene use to sign the information she gives the Japanese Self-Defense Force about the Black Narwhal?",
+   "error": null,
+   "latency_s": 3.519,
+   "input_tokens": 7574,
+   "output_tokens": 336,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:010",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:011",
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:012"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Irene signs the information with the code word \"Sea Swallow.\"",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "ninja_gaiden_nes:act-6:018",
+    "ninja_gaiden_nes:main:000",
+    "ninja_gaiden_nes:gameplay:003",
+    "ninja_gaiden_nes:act-1:000",
+    "ninja_gaiden_nes:gameplay:001",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:010",
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:011",
+    "ninja_gaiden_nes:wikipedia:ninja-gaiden-nes-video-game:012"
+   ],
+   "sources": [
+    "ninja_gaiden_nes:ninjagaiden_fandom:irene-lew:010"
+   ],
+   "rewrites": [
+    "Black Narwhal Japanese Self-Defense Force Irene code word NES"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents concern Ninja Gaiden (NES) stage details, Ryu's controls, and the status bar, but none mention Irene's code word, the Japanese Self-Defense Force, or the Black Narwhal. The question appears to be about a different game (likely Metal Gear Solid-style or a Japanese-themed NES title), so the retrieved content does not answer it.",
+     "rewrite": "Black Narwhal Japanese Self-Defense Force Irene code word NES",
+     "query": "What code word does Irene use to sign the information she gives the Japanese Self-Defense Force about the Black Narwhal?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_oot_00",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "What attack power does the Master Sword initially have in the Freeing Korok Forest scenario?",
+   "error": null,
+   "latency_s": 3.98,
+   "input_tokens": 7908,
+   "output_tokens": 358,
+   "cost_usd": 0.001,
+   "notes_in_context": [],
+   "secondary": [
+    "oot:zeldapedia:master-sword:017",
+    "oot:zeldapedia:master-sword:020",
+    "oot:zeldapedia:master-sword:057"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents say the Master Sword initially has an attack power of 51, but that statement appears in a section about the Freeing Korok Forest scenario from a game other than Ocarina of Time, so it is not clearly tied to this OoT context. The OoT documents do not state a Master Sword attack power number.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:glitches:006",
+    "oot:enemies:013",
+    "oot:forest-temple:030",
+    "oot:enemies:027",
+    "oot:the-beginning:003",
+    "oot:zeldapedia:master-sword:017",
+    "oot:zeldapedia:master-sword:020",
+    "oot:zeldapedia:master-sword:057"
+   ],
+   "sources": [
+    "oot:zeldapedia:master-sword:057"
+   ],
+   "rewrites": [
+    "Master Sword attack power Zelda Ocarina of Time Korok Forest"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss the Master Sword's glitch use, the Forest Training Center, and enemy stats, but none states the Master Sword's attack power or the initial attack power in a 'Freeing Korok Forest' scenario. The question's scenario terms are not matched by any document.",
+     "rewrite": "Master Sword attack power Zelda Ocarina of Time Korok Forest",
+     "query": "What attack power does the Master Sword initially have in the Freeing Korok Forest scenario?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_oot_01",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "What happens to Link in the Ocarina of Time microgame in WarioWare: Smooth Moves if he successfully pulls out the Master Sword in level 3?",
+   "error": null,
+   "latency_s": 3.969,
+   "input_tokens": 6364,
+   "output_tokens": 345,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "oot:zeldapedia:master-sword:067",
+    "oot:zeldapedia:master-sword:068",
+    "oot:zeldapedia:master-sword:087"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "In level 3 of the WarioWare: Smooth Moves Ocarina of Time microgame, Link becomes a Cucco if he successfully pulls out the Master Sword.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:ganon-s-castle:034",
+    "oot:glitches:006",
+    "oot:equipment:002",
+    "oot:temple-of-time:003",
+    "oot:enemies:052",
+    "oot:zeldapedia:master-sword:067",
+    "oot:zeldapedia:master-sword:068",
+    "oot:zeldapedia:master-sword:087"
+   ],
+   "sources": [
+    "oot:zeldapedia:master-sword:067"
+   ],
+   "rewrites": [
+    "WarioWare Smooth Moves Ocarina of Time microgame Master Sword level 3"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss the Ocarina of Time game and the Master Sword in general, but none mention the WarioWare: Smooth Moves microgame, its level 3 structure, or what happens to Link in that microgame when the Master Sword is pulled out.",
+     "rewrite": "WarioWare Smooth Moves Ocarina of Time microgame Master Sword level 3",
+     "query": "What happens to Link in the Ocarina of Time microgame in WarioWare: Smooth Moves if he successfully pulls out the Master Sword in level 3?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_oot_02",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "In Zelda trivia, which 16th century Chinese novel inspired Ganondorf's transformation into Ganon?",
+   "error": null,
+   "latency_s": 2.631,
+   "input_tokens": 3735,
+   "output_tokens": 304,
+   "cost_usd": 0.0005,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:ganon-s-castle:002",
+    "oot:ganon-s-castle:034",
+    "oot:ganon-s-castle:001",
+    "oot:ganon-s-castle:025",
+    "oot:ganon-s-castle:030"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "In Zelda trivia, which 16th century Chinese novel inspired Ganondorf's transformation into Ganon?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_oot_03",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "Which Zelda shield can stop Laser Eyes beams and reflect Wizzrobe projectiles, and where is it found?",
+   "error": null,
+   "latency_s": 1.472,
+   "input_tokens": 1833,
+   "output_tokens": 143,
+   "cost_usd": 0.0002,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents describe the Mirror Shield as able to reflect light and some magical spells, and say it is found in the Spirit Temple. However, they do not mention Laser Eyes beams or Wizzrobe projectiles specifically, so the question's specific claims cannot be confirmed from these documents.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:equipment:008",
+    "oot:equipment:006",
+    "oot:spirit-temple:024",
+    "oot:bottom-of-the-well:015",
+    "oot:spirit-temple:030"
+   ],
+   "sources": [
+    "oot:equipment:008",
+    "oot:spirit-temple:024"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_oot_04",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "What did Princess Ruto tell Link about the Spiritual Stone of Water when she gave it to him?",
+   "error": null,
+   "latency_s": 1.254,
+   "input_tokens": 1914,
+   "output_tokens": 125,
+   "cost_usd": 0.0003,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Ruto gives the Spiritual Stone of Water in exchange for a future engagement to marry her, and she made a promise to her mother to give the stone only to the one she would marry. The documents do not record her saying anything more specific about it when she handed it over.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:jabu-jabu-s-belly:029",
+    "oot:water-temple:041",
+    "oot:water-temple:005",
+    "oot:jabu-jabu-s-belly:012",
+    "oot:hyrule-castle:011"
+   ],
+   "sources": [
+    "oot:jabu-jabu-s-belly:029"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_oot_05",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "How can I get Din's Fire as Zelda, and what does it cost to use?",
+   "error": null,
+   "latency_s": 3.163,
+   "input_tokens": 1999,
+   "output_tokens": 582,
+   "cost_usd": 0.0005,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents do not say anything about playing as Zelda, so they cannot confirm how she would get Din's Fire. For Link, it is granted by a Great Fairy in the Hyrule Castle Grounds, reached by destroying a boulder with a Bomb and crawling through a passage, and the Jabu-Jabu's Belly chunk notes that playing Zelda's Lullaby on the Triforce symbol is part of that fairy encounter. Din's Fire consumes magic each time it is used.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:items:016",
+    "oot:glitches:011",
+    "oot:ganon-s-castle:006",
+    "oot:fairy-fountains:002",
+    "oot:jabu-jabu-s-belly:000"
+   ],
+   "sources": [
+    "oot:fairy-fountains:002",
+    "oot:jabu-jabu-s-belly:000",
+    "oot:items:016"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_oot_06",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "How many melodies can Link learn with the Ocarina of Time?",
+   "error": null,
+   "latency_s": 3.323,
+   "input_tokens": 5019,
+   "output_tokens": 304,
+   "cost_usd": 0.0006,
+   "notes_in_context": [],
+   "secondary": [
+    "oot:wikipedia:the-legend-of-zelda-ocarina-of-time:015",
+    "oot:zeldapedia:spirit-temple:006",
+    "oot:wikipedia:the-legend-of-zelda-ocarina-of-time:003"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "According to the Wikipedia Gameplay section, Link learns 12 melodies that allow him to solve music-based puzzles and teleport to previously visited locations.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:items:004",
+    "oot:ocarina-songs:000",
+    "oot:main:002",
+    "oot:temple-of-time:001",
+    "oot:items:003",
+    "oot:wikipedia:the-legend-of-zelda-ocarina-of-time:015",
+    "oot:zeldapedia:spirit-temple:006",
+    "oot:wikipedia:the-legend-of-zelda-ocarina-of-time:003"
+   ],
+   "sources": [
+    "oot:wikipedia:the-legend-of-zelda-ocarina-of-time:003"
+   ],
+   "rewrites": [
+    "Ocarina of Time complete list of songs melodies number learned Link"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents mention that Ocarina of Time has many songs and describe the ocarinas, but none state the number of melodies Link can learn. The count of songs/melodies is missing.",
+     "rewrite": "Ocarina of Time complete list of songs melodies number learned Link",
+     "query": "How many melodies can Link learn with the Ocarina of Time?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_oot_07",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "Where can another Piece of Heart be found?",
+   "error": null,
+   "latency_s": 1.522,
+   "input_tokens": 2253,
+   "output_tokens": 229,
+   "cost_usd": 0.0004,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents don't specify a single \"another Piece of Heart\" location, but several are described: Zora's River (Heart Piece 21, 22, 23, 24), Gerudo Valley (Heart Piece 34, 35, 36), Zora's Fountain (Heart Piece 29, 30), Ice Cavern (Heart Piece 31), and Lon Lon Ranch (Heart Piece 3). Any of these could be the one you mean.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:heart-containers:022",
+    "oot:heart-containers:029",
+    "oot:heart-containers:027",
+    "oot:heart-containers:023",
+    "oot:heart-containers:003"
+   ],
+   "sources": [
+    "oot:heart-containers:022",
+    "oot:heart-containers:023",
+    "oot:heart-containers:029",
+    "oot:heart-containers:027",
+    "oot:heart-containers:003"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_oot_08",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "What items were included in the German Special Edition bundle sold by Cyber Games?",
+   "error": null,
+   "latency_s": 3.309,
+   "input_tokens": 6812,
+   "output_tokens": 351,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "oot:zeldawiki:the-legend-of-zelda-ocarina-of-time:028",
+    "oot:zeldapedia:the-legend-of-zelda-ocarina-of-time:033",
+    "oot:wikipedia:the-legend-of-zelda-ocarina-of-time:021"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The German Special Edition bundle from Cyber Games included a physical copy of the game, a T-shirt with the logo on the front and Link artwork on the back, a relief pin shaped like the Master Sword, a Hylian Shield stamped with \"Zelda\", a gold butterfly clutch, and a flyer promoting Cyber Games merchandise.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:versions:002",
+    "oot:versions:000",
+    "oot:gameplay:012",
+    "oot:consumables:003",
+    "oot:main:000",
+    "oot:zeldawiki:the-legend-of-zelda-ocarina-of-time:028",
+    "oot:zeldapedia:the-legend-of-zelda-ocarina-of-time:033",
+    "oot:wikipedia:the-legend-of-zelda-ocarina-of-time:021"
+   ],
+   "sources": [
+    "oot:zeldawiki:the-legend-of-zelda-ocarina-of-time:028"
+   ],
+   "rewrites": [
+    "Cyber Games German Special Edition Ocarina of Time bundle contents"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss Ocarina of Time re-releases, gold cartridges, and game details, but none mention a German Special Edition bundle or Cyber Games. The items included in that bundle are not stated.",
+     "rewrite": "Cyber Games German Special Edition Ocarina of Time bundle contents",
+     "query": "What items were included in the German Special Edition bundle sold by Cyber Games?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_oot_09",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "Where do you get the Fire Arrows, and what must you defeat first to obtain them?",
+   "error": null,
+   "latency_s": 1.573,
+   "input_tokens": 2357,
+   "output_tokens": 128,
+   "cost_usd": 0.0003,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "You get the Fire Arrows in the Water Temple, by shooting the rising sun (the morning light) with the Fairy Bow after the lake refills; the arrow then drops onto the island with the two pillars. The documents do not say you must defeat any enemy first to obtain them.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:gerudo-training-grounds:001",
+    "oot:enemies:046",
+    "oot:water-temple:042",
+    "oot:shadow-temple:007",
+    "oot:items:015"
+   ],
+   "sources": [
+    "oot:water-temple:042"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_oot_10",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "Who invaded Hyrule Castle and forced Princess Zelda to surrender?",
+   "error": null,
+   "latency_s": 4.033,
+   "input_tokens": 6443,
+   "output_tokens": 452,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "oot:zeldawiki:the-legend-of-zelda-ocarina-of-time:006",
+    "oot:zeldapedia:the-legend-of-zelda-ocarina-of-time:007",
+    "oot:zeldawiki:ganondorf:051"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents do not say that anyone invaded Hyrule Castle to force Princess Zelda to surrender. They describe Ganondorf attacking Hyrule Castle to steal the Ocarina of Time, after which Zelda fled with Impa rather than surrendering.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:hyrule-castle:012",
+    "oot:hyrule-castle:011",
+    "oot:hyrule-castle:010",
+    "oot:hyrule-castle:022",
+    "oot:ganon-s-castle:034",
+    "oot:zeldawiki:the-legend-of-zelda-ocarina-of-time:006",
+    "oot:zeldapedia:the-legend-of-zelda-ocarina-of-time:007",
+    "oot:zeldawiki:ganondorf:051"
+   ],
+   "sources": [
+    "oot:zeldawiki:the-legend-of-zelda-ocarina-of-time:006",
+    "oot:zeldapedia:the-legend-of-zelda-ocarina-of-time:007"
+   ],
+   "rewrites": [
+    "Ganondorf invades Hyrule Castle Zelda surrender Ocarina of Time backstory"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe Link's visit to Hyrule Castle, Zelda's dream of Ganondorf, and the aftermath of Ganon's defeat, but none state who invaded Hyrule Castle and forced Zelda to surrender. That event (Ganondorf's invasion of the castle in the backstory of Ocarina of Time) is not covered in the retrieved text.",
+     "rewrite": "Ganondorf invades Hyrule Castle Zelda surrender Ocarina of Time backstory",
+     "query": "Who invaded Hyrule Castle and forced Princess Zelda to surrender?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_oot_11",
+   "category": "direct",
+   "game": "oot",
+   "answerable": true,
+   "question": "Who captured Din in the Oracle of Seasons, and how did they do it?",
+   "error": null,
+   "latency_s": 3.687,
+   "input_tokens": 6518,
+   "output_tokens": 383,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "oot:zeldapedia:impa:007",
+    "oot:zeldawiki:impa:005",
+    "oot:zeldawiki:twinrova:005"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The question concerns the Oracle of Seasons, but the documents describe Din's capture by General Onox in the Zeldapedia and Zeldawiki Impa entries, which are about Holodrum in the Oracle games. General Onox attacked the Troupe of Performers and captured Din via a tornado.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "oot:items:016",
+    "oot:fairy-fountains:002",
+    "oot:ganon-s-castle:006",
+    "oot:forest-temple:021",
+    "oot:dodongo-s-cavern:025",
+    "oot:zeldapedia:impa:007",
+    "oot:zeldawiki:impa:005",
+    "oot:zeldawiki:twinrova:005"
+   ],
+   "sources": [
+    "oot:zeldapedia:impa:007",
+    "oot:zeldawiki:impa:005"
+   ],
+   "rewrites": [
+    "Oracle of Seasons Din captured Veran Onox story"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe Din's Fire as a spell from a Great Fairy and mention Din's Fire usage, but none mention Din being captured, who captured her, or how. The question presupposes a plot event (in Oracle of Seasons, Din is captured by Onox/Veran's forces) that is absent from the retrieved text.",
+     "rewrite": "Oracle of Seasons Din captured Veran Onox story",
+     "query": "Who captured Din in the Oracle of Seasons, and how did they do it?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_rdr1_00",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "What happens if I arrive at a robbed supply wagon too late to save the captives?",
+   "error": null,
+   "latency_s": 3.035,
+   "input_tokens": 7056,
+   "output_tokens": 272,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:random-encounters-in-red-dead-redemption:039",
+    "rdr1:reddead_fandom:robbery:007",
+    "rdr1:reddead_fandom:random-encounters-in-red-dead-redemption:022"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "If the player arrives late, the captives will already be dead and the posse will shoot the player.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:bonnie:004",
+    "rdr1:bonnie:000",
+    "rdr1:walkthrough:000",
+    "rdr1:bonnie:001",
+    "rdr1:multiplayer:003",
+    "rdr1:reddead_fandom:random-encounters-in-red-dead-redemption:039",
+    "rdr1:reddead_fandom:robbery:007",
+    "rdr1:reddead_fandom:random-encounters-in-red-dead-redemption:022"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:random-encounters-in-red-dead-redemption:039"
+   ],
+   "rewrites": [
+    "Red Dead Redemption supply wagon robbed captives too late fail mission"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover Armadillo, wagons, safehouses, and Free Roam generally, but none describe the robbed supply wagon side mission or what happens when the player arrives too late to save the captives. The answer is missing.",
+     "rewrite": "Red Dead Redemption supply wagon robbed captives too late fail mission",
+     "query": "What happens if I arrive at a robbed supply wagon too late to save the captives?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_rdr1_01",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "What year is Red Dead Redemption set in, and which region serves as the stage for the Mexican Revolution?",
+   "error": null,
+   "latency_s": 4.883,
+   "input_tokens": 6568,
+   "output_tokens": 378,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:red-dead:005",
+    "rdr1:reddead_fandom:red-dead:006",
+    "rdr1:reddead_fandom:red-dead-redemption:002"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Red Dead Redemption is set in 1911, and Nuevo Paraíso, a northern region in Mexico, serves as the stage for the Mexican Revolution.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:main:000",
+    "rdr1:weapons:000",
+    "rdr1:multiplayer:000",
+    "rdr1:ranks:000",
+    "rdr1:multiplayer:004",
+    "rdr1:reddead_fandom:red-dead:005",
+    "rdr1:reddead_fandom:red-dead:006",
+    "rdr1:reddead_fandom:red-dead-redemption:002"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:red-dead:005"
+   ],
+   "rewrites": [
+    "Red Dead Redemption story setting 1911 Mexican Revolution New Austin West Elizabeth Mexico region"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents give the game's developer, publisher, release year (2010), and multiplayer details, but nothing about the game's in-universe setting year or the region depicted as the stage for the Mexican Revolution. The only mention of Mexico is a multiplayer 'Mexican Standoff' term, which is not relevant to the story setting.",
+     "rewrite": "Red Dead Redemption story setting 1911 Mexican Revolution New Austin West Elizabeth Mexico region",
+     "query": "What year is Red Dead Redemption set in, and which region serves as the stage for the Mexican Revolution?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_rdr1_02",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "How much does the Evans Repeater cost at the Blackwater Gunsmith if I have reached maximum honor?",
+   "error": null,
+   "latency_s": 3.755,
+   "input_tokens": 6459,
+   "output_tokens": 340,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:100-completion-rdr:006",
+    "rdr1:reddead_fandom:weapons-in-redemption:008",
+    "rdr1:reddead_fandom:weapons-in-redemption:010"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "At the Blackwater Gunsmith, the Evans Repeater costs $500 if you have reached maximum honor.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:weapons:013",
+    "rdr1:ranks:002",
+    "rdr1:weapons:011",
+    "rdr1:weapons:010",
+    "rdr1:bonnie:000",
+    "rdr1:reddead_fandom:100-completion-rdr:006",
+    "rdr1:reddead_fandom:weapons-in-redemption:008",
+    "rdr1:reddead_fandom:weapons-in-redemption:010"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:weapons-in-redemption:008"
+   ],
+   "rewrites": [
+    "Red Dead Redemption Blackwater gunsmith weapon prices honor discount Evans Repeater"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents show the Evans Repeater unlocks at rank 43 in multiplayer, but none give its price at the Blackwater Gunsmith, nor the honor-based pricing or discount rules for maximum honor in Red Dead Redemption.",
+     "rewrite": "Red Dead Redemption Blackwater gunsmith weapon prices honor discount Evans Repeater",
+     "query": "How much does the Evans Repeater cost at the Blackwater Gunsmith if I have reached maximum honor?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_rdr1_03",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "In Hardcore Mode, how much is a $40 alive bounty reward actually worth in Red Dead Redemption?",
+   "error": null,
+   "latency_s": 3.193,
+   "input_tokens": 8114,
+   "output_tokens": 321,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:difficulty:011",
+    "rdr1:reddead_fandom:money:004",
+    "rdr1:reddead_fandom:bounty-hunting:002"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "In Hardcore Mode, a $40 alive bounty reward is only worth $20.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:ranks:000",
+    "rdr1:mounts:005",
+    "rdr1:gameplay:000",
+    "rdr1:multiplayer:002",
+    "rdr1:ranks:001",
+    "rdr1:reddead_fandom:difficulty:011",
+    "rdr1:reddead_fandom:money:004",
+    "rdr1:reddead_fandom:bounty-hunting:002"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:difficulty:011"
+   ],
+   "rewrites": [
+    "Red Dead Redemption bounty alive reward Hardcore Mode dollar value multiplier"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover multiplayer ranks, HUD, horse unlocks, and Free Roam, but none mention bounties, alive bounty rewards, Hardcore Mode bounty values, or how dollar amounts translate to in-game value (e.g., reward multipliers or XP). The question requires specific bounty reward information that is absent.",
+     "rewrite": "Red Dead Redemption bounty alive reward Hardcore Mode dollar value multiplier",
+     "query": "In Hardcore Mode, how much is a $40 alive bounty reward actually worth in Red Dead Redemption?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_rdr1_04",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "What title do you get at Level 40?",
+   "error": null,
+   "latency_s": 1.057,
+   "input_tokens": 2817,
+   "output_tokens": 102,
+   "cost_usd": 0.0004,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "At Rank 40 (XP 203910) you get the title \"Colonel\", which also unlocks the Bolt Action Rifle and American Standard-Bred.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:ranks:002",
+    "rdr1:mounts:005",
+    "rdr1:ranks:003",
+    "rdr1:ranks:000",
+    "rdr1:ranks:001"
+   ],
+   "sources": [
+    "rdr1:ranks:002",
+    "rdr1:mounts:005"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_rdr1_05",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "What happens if I mount the wrong horse when leaving a campsite encounter?",
+   "error": null,
+   "latency_s": 2.321,
+   "input_tokens": 3474,
+   "output_tokens": 257,
+   "cost_usd": 0.0004,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:bonnie:001",
+    "rdr1:bonnie:003",
+    "rdr1:mounts:000",
+    "rdr1:walkthrough:001",
+    "rdr1:bonnie:000"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "What happens if I mount the wrong horse when leaving a campsite encounter?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_rdr1_06",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "How many robberies can a player roughly complete in six to seven minutes at Armadillo Saloon, and how much fame does that earn?",
+   "error": null,
+   "latency_s": 3.241,
+   "input_tokens": 6702,
+   "output_tokens": 298,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:fame:006",
+    "rdr1:reddead_fandom:robbery:002",
+    "rdr1:reddead_fandom:robbery:005"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Players can roughly get around 24 robberies within six to seven minutes at Armadillo Saloon, earning about 1200 fame (24x50=1200).",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:bonnie:000",
+    "rdr1:bonnie:004",
+    "rdr1:multiplayer:002",
+    "rdr1:multiplayer:004",
+    "rdr1:bonnie:005",
+    "rdr1:reddead_fandom:fame:006",
+    "rdr1:reddead_fandom:robbery:002",
+    "rdr1:reddead_fandom:robbery:005"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:fame:006"
+   ],
+   "rewrites": [
+    "Red Dead Redemption Armadillo robberies fame per robbery minutes"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents do not mention robberies at Armadillo Saloon, how many can be completed in six to seven minutes, or the fame reward. They only cover the Exodus in America mission, wagon riding, multiplayer modes, and side missions.",
+     "rewrite": "Red Dead Redemption Armadillo robberies fame per robbery minutes",
+     "query": "How many robberies can a player roughly complete in six to seven minutes at Armadillo Saloon, and how much fame does that earn?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_rdr1_07",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "Which two locations are the easiest places to lose honor in Red Dead Redemption?",
+   "error": null,
+   "latency_s": 3.266,
+   "input_tokens": 7738,
+   "output_tokens": 279,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:bounty-hunting:011",
+    "rdr1:reddead_fandom:honor:017",
+    "rdr1:reddead_fandom:drinking:004"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The easiest places to lose honor are Thieves Landing and Casa Madrugada, since no bounty is incurred for crimes committed there.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:gameplay:000",
+    "rdr1:ranks:000",
+    "rdr1:mounts:000",
+    "rdr1:multiplayer:001",
+    "rdr1:bonnie:001",
+    "rdr1:reddead_fandom:bounty-hunting:011",
+    "rdr1:reddead_fandom:honor:017",
+    "rdr1:reddead_fandom:drinking:004"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:honor:017"
+   ],
+   "rewrites": [
+    "Red Dead Redemption honor loss easiest locations killing innocents Armadillo Blackwater"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover HUD, multiplayer ranks, mounts, posses, and a mission walkthrough, but none mention honor loss or locations where honor is easily lost in Red Dead Redemption.",
+     "rewrite": "Red Dead Redemption honor loss easiest locations killing innocents Armadillo Blackwater",
+     "query": "Which two locations are the easiest places to lose honor in Red Dead Redemption?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_rdr1_08",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "Which DLC weapons are available in single player, multiplayer, and Undead Nightmare, and which are limited to Undead Nightmare only?",
+   "error": null,
+   "latency_s": 3.28,
+   "input_tokens": 4974,
+   "output_tokens": 409,
+   "cost_usd": 0.0007,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:weapons-in-redemption:002",
+    "rdr1:reddead_fandom:weapons-in-redemption:016",
+    "rdr1:reddead_fandom:trophies-achievements-in-redemption:006"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The Tomahawk and Explosive Rifle are added to single player, multiplayer, and Undead Nightmare. The Blunderbuss, Torch, Holy Water, Undead Bait, and Boom Bait are available within Undead Nightmare only.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:weapons:014",
+    "rdr1:weapons:001",
+    "rdr1:multiplayer:002",
+    "rdr1:multiplayer:003",
+    "rdr1:weapons:000",
+    "rdr1:reddead_fandom:weapons-in-redemption:002",
+    "rdr1:reddead_fandom:weapons-in-redemption:016",
+    "rdr1:reddead_fandom:trophies-achievements-in-redemption:006"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:weapons-in-redemption:016"
+   ],
+   "rewrites": [
+    "Red Dead Redemption Undead Nightmare DLC weapons exclusive multiplayer single player list"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe base multiplayer weapons (Hunting Knife, Cattleman Revolver) and general Free Roam mechanics, but none mention DLC weapons, Undead Nightmare, or which weapons are single-player-only versus shared across modes. The question cannot be answered from these documents.",
+     "rewrite": "Red Dead Redemption Undead Nightmare DLC weapons exclusive multiplayer single player list",
+     "query": "Which DLC weapons are available in single player, multiplayer, and Undead Nightmare, and which are limited to Undead Nightmare only?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_rdr1_09",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "What happens to the player's reward if they bring a store robber back alive instead of killing him?",
+   "error": null,
+   "latency_s": 4.509,
+   "input_tokens": 7430,
+   "output_tokens": 484,
+   "cost_usd": 0.001,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:bounty-hunting:001",
+    "rdr1:reddead_fandom:bounty-hunting:036",
+    "rdr1:reddead_fandom:bounty-hunting:037"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Bringing a bounty target back alive awards twice the money that killing the same bounty would. The documents do not mention store robbers specifically, so this applies to bounty targets in general.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:multiplayer:002",
+    "rdr1:bonnie:004",
+    "rdr1:bonnie:000",
+    "rdr1:weapons:007",
+    "rdr1:bonnie:001",
+    "rdr1:reddead_fandom:bounty-hunting:001",
+    "rdr1:reddead_fandom:bounty-hunting:036",
+    "rdr1:reddead_fandom:bounty-hunting:037"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:bounty-hunting:001"
+   ],
+   "rewrites": [
+    "Red Dead Redemption bounty dead or alive capture reward store robber"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents cover Free Roam modes, Armadillo missions, a Fire Bottle projectile, and the opening story, but none mention bounty rewards for bringing a wanted store robber back alive versus killing him (the 'Dead or Alive' bounty mechanic, e.g., reduced or increased payout for capturing alive). The answer is not present.",
+     "rewrite": "Red Dead Redemption bounty dead or alive capture reward store robber",
+     "query": "What happens to the player's reward if they bring a store robber back alive instead of killing him?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_rdr1_10",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "Who composed the track 'Deadman's Gun' and how long is it?",
+   "error": null,
+   "latency_s": 3.384,
+   "input_tokens": 9161,
+   "output_tokens": 281,
+   "cost_usd": 0.001,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:red-dead-redemption-soundtrack:002",
+    "rdr1:reddead_fandom:red-dead-redemption-soundtrack:001",
+    "rdr1:reddead_fandom:red-dead-redemption-soundtrack:004"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "'Deadman's Gun' was composed by Ashtar Command and its length is 4:15.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:ranks:001",
+    "rdr1:weapons:013",
+    "rdr1:controls:002",
+    "rdr1:controls:000",
+    "rdr1:bonnie:003",
+    "rdr1:reddead_fandom:red-dead-redemption-soundtrack:002",
+    "rdr1:reddead_fandom:red-dead-redemption-soundtrack:001",
+    "rdr1:reddead_fandom:red-dead-redemption-soundtrack:004"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:red-dead-redemption-soundtrack:002"
+   ],
+   "rewrites": [
+    "NES game soundtrack \"Deadman's Gun\" track composer length"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents are about Red Dead Redemption rank unlocks, control schemes, and a horse race mission. None mention a track called 'Deadman's Gun', its composer, or its length. The question concerns music from a NES game, and none of the documents address soundtracks.",
+     "rewrite": "NES game soundtrack \"Deadman's Gun\" track composer length",
+     "query": "Who composed the track 'Deadman's Gun' and how long is it?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_rdr1_11",
+   "category": "direct",
+   "game": "rdr1",
+   "answerable": true,
+   "question": "What are the four categories of items you can spend money on in Red Dead Revolver?",
+   "error": null,
+   "latency_s": 3.682,
+   "input_tokens": 6300,
+   "output_tokens": 351,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "rdr1:reddead_fandom:money:003",
+    "rdr1:reddead_fandom:red-dead:007",
+    "rdr1:reddead_fandom:heads-up-display:001"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The four categories are Maximum Health/Dead Eye improvements, weapon purchases, upgrades and repairs, Journal page unlocks, and Showdown Mode character and map unlocks. (Note: the source lists five bullet items under the four-category statement, so the list as written names five.)",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "rdr1:weapons:000",
+    "rdr1:main:000",
+    "rdr1:ranks:000",
+    "rdr1:weapons:001",
+    "rdr1:walkthrough:000",
+    "rdr1:reddead_fandom:money:003",
+    "rdr1:reddead_fandom:red-dead:007",
+    "rdr1:reddead_fandom:heads-up-display:001"
+   ],
+   "sources": [
+    "rdr1:reddead_fandom:money:003"
+   ],
+   "rewrites": [
+    "Red Dead Revolver shop buy items categories weapons horses gear Rockstar 2004"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss Red Dead Redemption multiplayer ranks, weapons, and safehouses, not Red Dead Revolver's shopping system. Nothing lists four categories of items purchasable with money in Red Dead Revolver.",
+     "rewrite": "Red Dead Revolver shop buy items categories weapons horses gear Rockstar 2004",
+     "query": "What are the four categories of items you can spend money on in Red Dead Revolver?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_zelda1_00",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "How do I get into the Labyrinth in the Second Quest?",
+   "error": null,
+   "latency_s": 10.38,
+   "input_tokens": 2308,
+   "output_tokens": 136,
+   "cost_usd": 0.0003,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents do not explain how to enter the Second Quest labyrinths in general; they only say to locate and enter level 6 (obtain the ladder there, defeat Ghoma) and that level 9 is in the northwest corner of section seven. Entrance methods for other levels are not described in the provided documents.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:underworld-quest-1-dungeon-2:002",
+    "zelda1:overworld-quest-2:001",
+    "zelda1:walkthrough:004",
+    "zelda1:underworld:000",
+    "zelda1:walkthrough:007"
+   ],
+   "sources": [
+    "zelda1:walkthrough:007"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_zelda1_01",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "How much damage does the Magic Ring reduce for Link when it is worn in Oracle of Ages?",
+   "error": null,
+   "latency_s": 5.294,
+   "input_tokens": 6109,
+   "output_tokens": 527,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldapedia:blue-ring:003",
+    "zelda1:zeldapedia:blue-ring:002",
+    "zelda1:zeldapedia:red-ring:002"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:items:025",
+    "zelda1:items:002",
+    "zelda1:citizens:000",
+    "zelda1:items:001",
+    "zelda1:enemies:002",
+    "zelda1:zeldapedia:blue-ring:003",
+    "zelda1:zeldapedia:blue-ring:002",
+    "zelda1:zeldapedia:red-ring:002"
+   ],
+   "sources": [],
+   "rewrites": [
+    "Magic Ring Oracle of Ages damage reduction ring"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe the Blue Ring (halves damage) and Red Ring (quarters damage) but none mention the Magic Ring or its effect in Oracle of Ages. The answer is not present in the retrieved documents.",
+     "rewrite": "Magic Ring Oracle of Ages damage reduction ring",
+     "query": "How much damage does the Magic Ring reduce for Link when it is worn in Oracle of Ages?"
+    },
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "How much damage does the Magic Ring reduce for Link when it is worn in Oracle of Ages?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_zelda1_02",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "In the Temple of the Ocean King, what symbol does Zauz show Link to open the door?",
+   "error": null,
+   "latency_s": 3.149,
+   "input_tokens": 4985,
+   "output_tokens": 256,
+   "cost_usd": 0.0006,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldawiki:triforce:035",
+    "zelda1:zeldapedia:triforce:034",
+    "zelda1:zeldapedia:triforce:039"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "The documents state that Zauz shows Link the Triforce as one of two valid symbols that open a door in the Temple of the Ocean King, which must have the \"sacred crest\" drawn on it.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:items:015",
+    "zelda1:overworld-hyrule-7:002",
+    "zelda1:underworld:000",
+    "zelda1:items:021",
+    "zelda1:citizens:001",
+    "zelda1:zeldawiki:triforce:035",
+    "zelda1:zeldapedia:triforce:034",
+    "zelda1:zeldapedia:triforce:039"
+   ],
+   "sources": [
+    "zelda1:zeldapedia:triforce:034"
+   ],
+   "rewrites": [
+    "Zauz Temple of the Ocean King Zelda II symbol door"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents discuss keys, dungeon layout, ladders, and the game's story, but none mention the Temple of the Ocean King, Zauz, or the symbol shown to open a door. The specific answer is missing.",
+     "rewrite": "Zauz Temple of the Ocean King Zelda II symbol door",
+     "query": "In the Temple of the Ocean King, what symbol does Zauz show Link to open the door?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_zelda1_03",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "What move does Link use in Super Smash Bros. that traps opponents in a void resembling the Triforce and then shatters it?",
+   "error": null,
+   "latency_s": 4.113,
+   "input_tokens": 6632,
+   "output_tokens": 403,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldapedia:triforce-of-courage:015",
+    "zelda1:zeldapedia:link:021",
+    "zelda1:zeldapedia:triforce:059"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Link uses the Triforce Slash, his Final Smash since Brawl, which uses the Triforce of Courage to trap opponents in a void resembling the full Triforce, then performs rapid sword slashes and a powerful blow that shatters it.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:citizens:000",
+    "zelda1:items:023",
+    "zelda1:main:003",
+    "zelda1:enemies:002",
+    "zelda1:enemies:004",
+    "zelda1:zeldapedia:triforce-of-courage:015",
+    "zelda1:zeldapedia:link:021",
+    "zelda1:zeldapedia:triforce:059"
+   ],
+   "sources": [
+    "zelda1:zeldapedia:link:021",
+    "zelda1:zeldapedia:triforce-of-courage:015"
+   ],
+   "rewrites": [
+    "Super Smash Bros. Link Triforce Slash move trap shatter"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents are about Link's role in The Legend of Zelda NES games, items, and enemies. None mention Super Smash Bros. or the move that traps opponents in a Triforce-shaped void and shatters it (Link's Triforce-related Smash move, Triforce Slash/Triforce Slash-style Final Smash variant in Smash 4 and Ultimate). The answer is not present.",
+     "rewrite": "Super Smash Bros. Link Triforce Slash move trap shatter",
+     "query": "What move does Link use in Super Smash Bros. that traps opponents in a void resembling the Triforce and then shatters it?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_zelda1_04",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "In 2D Zelda games, in which directions can the Bow fire Arrows?",
+   "error": null,
+   "latency_s": 2.94,
+   "input_tokens": 6220,
+   "output_tokens": 257,
+   "cost_usd": 0.0007,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldawiki:bow:001",
+    "zelda1:zeldapedia:bow:001",
+    "zelda1:zeldapedia:bow:010"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "In 2D Zelda games, the Bow can shoot Arrows in any cardinal direction. (zeldapedia: Bow)",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:items:008",
+    "zelda1:underworld-quest-2-dungeon-9:005",
+    "zelda1:underworld-quest-2-dungeon-6:004",
+    "zelda1:underworld-quest-1-dungeon-1:003",
+    "zelda1:underworld-quest-1-dungeon-9:005",
+    "zelda1:zeldawiki:bow:001",
+    "zelda1:zeldapedia:bow:001",
+    "zelda1:zeldapedia:bow:010"
+   ],
+   "sources": [
+    "zelda1:zeldapedia:bow:001"
+   ],
+   "rewrites": [
+    "Zelda NES Bow arrows fire direction diagonal up down left right"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The retrieved documents describe the Bow's damage, cost, and use against bosses, but none state the directions in which Arrows can be fired. The question asks about firing directions, which is not covered.",
+     "rewrite": "Zelda NES Bow arrows fire direction diagonal up down left right",
+     "query": "In 2D Zelda games, in which directions can the Bow fire Arrows?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_zelda1_05",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "Which Nintendo character shares Link's debut date of February 21, and when did that character first appear?",
+   "error": null,
+   "latency_s": 3.709,
+   "input_tokens": 7181,
+   "output_tokens": 333,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldapedia:link:121",
+    "zelda1:zeldapedia:link:122",
+    "zelda1:zeldapedia:the-legend-of-zelda:044"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Fox McCloud of the Star Fox series shares Link's February 21 debut date, but his first appearance was in 1993 for the Super NES, seven years after Link's 1986 debut.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:main:000",
+    "zelda1:citizens:000",
+    "zelda1:controls:000",
+    "zelda1:main:001",
+    "zelda1:main:003",
+    "zelda1:zeldapedia:link:121",
+    "zelda1:zeldapedia:link:122",
+    "zelda1:zeldapedia:the-legend-of-zelda:044"
+   ],
+   "sources": [
+    "zelda1:zeldapedia:link:121"
+   ],
+   "rewrites": [
+    "Nintendo characters debut February 21"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents confirm Link's debut (The Legend of Zelda, released February 21, 1986) but do not identify any other Nintendo character sharing that debut date, nor when such a character first appeared. The question requires finding a second character with the same February 21 debut date and that character's first appearance.",
+     "rewrite": "Nintendo characters debut February 21",
+     "query": "Which Nintendo character shares Link's debut date of February 21, and when did that character first appear?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  },
+  {
+   "id": "extra_zelda1_06",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "What item did Zelda give Link, and what was it called?",
+   "error": null,
+   "latency_s": 4.79,
+   "input_tokens": 8356,
+   "output_tokens": 512,
+   "cost_usd": 0.0011,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldapedia:princess-zelda:103",
+    "zelda1:zeldapedia:blue-ring:007",
+    "zelda1:wikipedia:the-legend-of-zelda-video-game:006"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:main:003",
+    "zelda1:items:014",
+    "zelda1:citizens:001",
+    "zelda1:items:018",
+    "zelda1:main:000",
+    "zelda1:zeldapedia:princess-zelda:103",
+    "zelda1:zeldapedia:blue-ring:007",
+    "zelda1:wikipedia:the-legend-of-zelda-video-game:006"
+   ],
+   "sources": [],
+   "rewrites": [
+    "Princess Zelda gives Link item Legend of Zelda NES story"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe Zelda's situation and Link's quest but never state that Zelda gave Link an item or name any such item. The relevant event (e.g., Zelda giving Link a sword or other item) is not present in the retrieved text.",
+     "rewrite": "Princess Zelda gives Link item Legend of Zelda NES story",
+     "query": "What item did Zelda give Link, and what was it called?"
+    },
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "What item did Zelda give Link, and what was it called?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_zelda1_07",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "In which chapter does a Wizzrobe appear in the game, and what does it do to Link after he enters the wasteland?",
+   "error": null,
+   "latency_s": 4.107,
+   "input_tokens": 6260,
+   "output_tokens": 473,
+   "cost_usd": 0.0009,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldapedia:wizzrobe:018",
+    "zelda1:zeldawiki:wizzrobe:018",
+    "zelda1:zeldawiki:wizzrobe:015"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "A Wizzrobe appears in Chapter 9. After Link enters the wasteland and finds the oasis, the princess turns out to be a Wizzrobe's illusion; the Wizzrobe captures Link and conjures Vitreous to devour him, until a whirlpool engulfs both and Zora rescues Link.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:items:014",
+    "zelda1:citizens:000",
+    "zelda1:enemies:002",
+    "zelda1:cheats:002",
+    "zelda1:underworld-quest-1-dungeon-6:002",
+    "zelda1:zeldapedia:wizzrobe:018",
+    "zelda1:zeldawiki:wizzrobe:018",
+    "zelda1:zeldawiki:wizzrobe:015"
+   ],
+   "sources": [
+    "zelda1:zeldapedia:wizzrobe:018",
+    "zelda1:zeldawiki:wizzrobe:018"
+   ],
+   "rewrites": [
+    "Wizzrobe Zelda Adventure of Link wasteland chapter attack Link"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents mention Wizzrobes only in passing (enemy change behavior and a dungeon room walkthrough) and do not state which chapter a Wizzrobe appears in, nor describe any wasteland encounter or what a Wizzrobe does to Link after he enters the wasteland. The wasteland and chapter information is missing.",
+     "rewrite": "Wizzrobe Zelda Adventure of Link wasteland chapter attack Link",
+     "query": "In which chapter does a Wizzrobe appear in the game, and what does it do to Link after he enters the wasteland?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 0.5
+  },
+  {
+   "id": "extra_zelda1_08",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "Which two places are cited as evidence of Hyrule's bloody history of greed and hatred?",
+   "error": null,
+   "latency_s": 2.31,
+   "input_tokens": 3388,
+   "output_tokens": 264,
+   "cost_usd": 0.0004,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:citizens:004",
+    "zelda1:citizens:003",
+    "zelda1:underworld:000",
+    "zelda1:citizens:002",
+    "zelda1:overworld-hyrule-8:000"
+   ],
+   "sources": [],
+   "rewrites": [],
+   "evidence_trace": [
+    {
+     "sufficient": true,
+     "reason": "evaluator_error:JSONDecodeError",
+     "rewrite": "",
+     "query": "Which two places are cited as evidence of Hyrule's bloody history of greed and hatred?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_zelda1_09",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "What do Tektites drop when they are defeated?",
+   "error": null,
+   "latency_s": 0.83,
+   "input_tokens": 2568,
+   "output_tokens": 70,
+   "cost_usd": 0.0003,
+   "notes_in_context": [],
+   "secondary": [],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Tektites usually drop a rupee as treasure; the Blue variety may also drop Bombs.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:enemies:000",
+    "zelda1:enemies:004",
+    "zelda1:enemies:001",
+    "zelda1:underworld-quest-1-dungeon-3:003",
+    "zelda1:enemies:002"
+   ],
+   "sources": [
+    "zelda1:enemies:000"
+   ],
+   "rewrites": [],
+   "evidence_trace": [],
+   "abstention_ok": true,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": 0.0
+  },
+  {
+   "id": "extra_zelda1_10",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "What color shirt does Link wear as his standard clothing in Tears of the Kingdom?",
+   "error": null,
+   "latency_s": 5.631,
+   "input_tokens": 8421,
+   "output_tokens": 553,
+   "cost_usd": 0.0012,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldapedia:blue-ring:007",
+    "zelda1:zeldapedia:red-ring:001",
+    "zelda1:zeldapedia:triforce:045"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "There is not enough information in the indexed sources to answer this question.",
+   "abstained": true,
+   "outcome": "abstained",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:items:025",
+    "zelda1:citizens:000",
+    "zelda1:items:014",
+    "zelda1:items:004",
+    "zelda1:main:002"
+   ],
+   "sources": [],
+   "rewrites": [
+    "Tears of the Kingdom Link default outfit color tunic",
+    "Tears of the Kingdom Link default outfit color tunic shirt"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents are about the original NES Zelda game (rings, Heart Containers, Triforce of Power, second quest) and do not mention Tears of the Kingdom or Link's standard outfit color. They only describe how Ring colors change Link's outfit, which is a different game mechanic and does not establish his default clothing color.",
+     "rewrite": "Tears of the Kingdom Link default outfit color tunic",
+     "query": "What color shirt does Link wear as his standard clothing in Tears of the Kingdom?"
+    },
+    {
+     "sufficient": false,
+     "reason": "The documents cover the original NES Legend of Zelda ring-based tunic colors and only briefly mention Tears of the Kingdom for Triforce tattoos and stained glass, with no information about Link's standard shirt color in Tears of the Kingdom.",
+     "rewrite": "Tears of the Kingdom Link default outfit color tunic shirt",
+     "query": "What color shirt does Link wear as his standard clothing in Tears of the Kingdom?"
+    }
+   ],
+   "abstention_ok": false,
+   "ctx_hit": false,
+   "ctx_coverage": 0.0,
+   "cite_precision": null
+  },
+  {
+   "id": "extra_zelda1_11",
+   "category": "direct",
+   "game": "zelda1",
+   "answerable": true,
+   "question": "What is Princess Zelda's race in the Zelda series?",
+   "error": null,
+   "latency_s": 3.14,
+   "input_tokens": 6851,
+   "output_tokens": 262,
+   "cost_usd": 0.0008,
+   "notes_in_context": [],
+   "secondary": [
+    "zelda1:zeldapedia:zora:024",
+    "zelda1:zeldapedia:princess-zelda:000",
+    "zelda1:zeldawiki:hyrule:036"
+   ],
+   "note_leaks": [],
+   "subqueries": [],
+   "answer": "Princess Zelda's race is Hylian, according to her zeldapedia profile.",
+   "abstained": false,
+   "outcome": "answered",
+   "tool_used": null,
+   "route": "documents",
+   "context": [
+    "zelda1:citizens:001",
+    "zelda1:main:000",
+    "zelda1:main:003",
+    "zelda1:underworld-quest-2-dungeon-9:000",
+    "zelda1:main:002",
+    "zelda1:zeldapedia:zora:024",
+    "zelda1:zeldapedia:princess-zelda:000",
+    "zelda1:zeldawiki:hyrule:036"
+   ],
+   "sources": [
+    "zelda1:zeldapedia:princess-zelda:000"
+   ],
+   "rewrites": [
+    "Princess Zelda race Hylian Zelda series species"
+   ],
+   "evidence_trace": [
+    {
+     "sufficient": false,
+     "reason": "The documents describe Zelda as the daughter of the King of Hyrule and a princess of Hyrule, but never state her race. Hyrule is a kingdom and the documents don't mention Hylian or any racial classification.",
+     "rewrite": "Princess Zelda race Hylian Zelda series species",
+     "query": "What is Princess Zelda's race in the Zelda series?"
+    }
+   ],
+   "abstention_ok": true,
+   "ctx_hit": true,
+   "ctx_coverage": 1.0,
+   "cite_precision": 1.0
+  }
+ ]
+}

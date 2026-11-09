@@ -1,0 +1,2440 @@
+{
+  "run": {
+    "label": "bm25-haiku-evidence",
+    "retriever": "bm25",
+    "generator": "haiku",
+    "graph": true,
+    "evidence": true,
+    "model": "claude-haiku-5-5",
+    "n_cases": 54,
+    "date": "2026-11-08T05:16:41+00:00"
+  },
+  "overall": {
+    "n": 54,
+    "errors": 0,
+    "ctx_recall": 0.8571,
+    "abstention_ok": 0.9259,
+    "cite_precision": 0.7241,
+    "rewrite_rate": 0.3889,
+    "cost_per_q_usd": 0.000513,
+    "tokens_per_q": 3821.2,
+    "latency_mean_s": 4.025,
+    "latency_p95_s": 4.772,
+    "total_cost_usd": 0.0277
+  },
+  "by_category": {
+    "ambiguous": {
+      "n": 2,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 0.8333,
+      "rewrite_rate": 0.5,
+      "cost_per_q_usd": 0.00055,
+      "tokens_per_q": 4047.5,
+      "latency_mean_s": 3.723,
+      "latency_p95_s": 2.673,
+      "total_cost_usd": 0.0011
+    },
+    "compound": {
+      "n": 4,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 0.75,
+      "rewrite_rate": 0.0,
+      "cost_per_q_usd": 0.0005,
+      "tokens_per_q": 3352.8,
+      "latency_mean_s": 3.235,
+      "latency_p95_s": 2.879,
+      "total_cost_usd": 0.002
+    },
+    "direct": {
+      "n": 8,
+      "errors": 0,
+      "ctx_recall": 0.875,
+      "abstention_ok": 0.875,
+      "cite_precision": 0.8095,
+      "rewrite_rate": 0.0,
+      "cost_per_q_usd": 0.0004,
+      "tokens_per_q": 3211.8,
+      "latency_mean_s": 7.748,
+      "latency_p95_s": 3.263,
+      "total_cost_usd": 0.0032
+    },
+    "exact_id": {
+      "n": 5,
+      "errors": 0,
+      "ctx_recall": 0.6,
+      "abstention_ok": 0.6,
+      "cite_precision": 1.0,
+      "rewrite_rate": 0.4,
+      "cost_per_q_usd": 0.00052,
+      "tokens_per_q": 3960.6,
+      "latency_mean_s": 2.801,
+      "latency_p95_s": 3.298,
+      "total_cost_usd": 0.0026
+    },
+    "paraphrase": {
+      "n": 5,
+      "errors": 0,
+      "ctx_recall": 1.0,
+      "abstention_ok": 1.0,
+      "cite_precision": 1.0,
+      "rewrite_rate": 0.4,
+      "cost_per_q_usd": 0.00048,
+      "tokens_per_q": 3751.2,
+      "latency_mean_s": 3.228,
+      "latency_p95_s": 3.83,
+      "total_cost_usd": 0.0024
+    },
+    "robustness": {
+      "n": 23,
+      "errors": 0,
+      "ctx_recall": 0.8636,
+      "abstention_ok": 0.9565,
+      "cite_precision": 0.6071,
+      "rewrite_rate": 0.4783,
+      "cost_per_q_usd": 0.000543,
+      "tokens_per_q": 3971.9,
+      "latency_mean_s": 3.473,
+      "latency_p95_s": 4.676,
+      "total_cost_usd": 0.0125
+    },
+    "unanswerable": {
+      "n": 4,
+      "errors": 0,
+      "ctx_recall": null,
+      "abstention_ok": 1.0,
+      "cite_precision": null,
+      "rewrite_rate": 1.0,
+      "cost_per_q_usd": 0.000625,
+      "tokens_per_q": 4787.0,
+      "latency_mean_s": 3.896,
+      "latency_p95_s": 4.078,
+      "total_cost_usd": 0.0025
+    },
+    "version": {
+      "n": 3,
+      "errors": 0,
+      "ctx_recall": 0.6667,
+      "abstention_ok": 1.0,
+      "cite_precision": 0.5,
+      "rewrite_rate": 0.3333,
+      "cost_per_q_usd": 0.000467,
+      "tokens_per_q": 3360.7,
+      "latency_mean_s": 3.117,
+      "latency_p95_s": 2.981,
+      "total_cost_usd": 0.0014
+    }
+  },
+  "cases": [
+    {
+      "id": "zelda_direct_01",
+      "category": "direct",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Which button swings the sword?",
+      "error": null,
+      "latency_s": 44.741,
+      "input_tokens": 1948,
+      "output_tokens": 241,
+      "cost_usd": 0.0003,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:009",
+        "zelda1:items:013",
+        "zelda1:items:010",
+        "zelda1:items:011",
+        "zelda1:items:007"
+      ],
+      "sources": [],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "Which button swings the sword?"
+        }
+      ],
+      "abstention_ok": false,
+      "ctx_hit": false,
+      "cite_precision": null
+    },
+    {
+      "id": "zelda_direct_02",
+      "category": "direct",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How much does the Blue Candle cost?",
+      "error": null,
+      "latency_s": 2.979,
+      "input_tokens": 3234,
+      "output_tokens": 288,
+      "cost_usd": 0.0005,
+      "answer": "The Blue Candle costs 60 Rupees, as stated in the Quest 1 overworld guide, which says you can purchase it for 60 Rupees at the door one screen west of the second bomb spot. The Quest 2 overworld guide also lists buying a Blue Candle for 60 R.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:012",
+        "zelda1:underworld-quest-1-dungeon-1:001",
+        "zelda1:overworld-quest-2:001",
+        "zelda1:walkthrough:001",
+        "zelda1:overworld-quest-1:003"
+      ],
+      "sources": [
+        "zelda1:overworld-quest-1:003",
+        "zelda1:overworld-quest-2:001"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Multiple documents state the Blue Candle costs 60 Rupees (Document 3: 'Buy a Blue Candle (for 60 R)'; Document 4: 'Earn 60 rupees and purchase the Blue Candle'; Document 5: 'You can purchase the Blue Candle for 60 Rupees').",
+          "rewrite": "",
+          "query": "How much does the Blue Candle cost?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_direct_03",
+      "category": "direct",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How many Heart Containers do I need to get the White Sword?",
+      "error": null,
+      "latency_s": 3.263,
+      "input_tokens": 3108,
+      "output_tokens": 354,
+      "cost_usd": 0.0004,
+      "answer": "The documents conflict: one chunk says you need six Heart Containers for the White Sword, while the Items chunk and the Hyrule 3 chunks say five. The Items chunk and the 2nd Quest cave entry both state at least five Heart Containers are required.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:overworld-quest-1:009",
+        "zelda1:items:001",
+        "zelda1:overworld-quest-1:013",
+        "zelda1:overworld-hyrule-3:003",
+        "zelda1:overworld-hyrule-3:001"
+      ],
+      "sources": [
+        "zelda1:overworld-quest-1:009",
+        "zelda1:items:001",
+        "zelda1:overworld-hyrule-3:003"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "How many Heart Containers do I need to get the White Sword?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.6666666666666666
+    },
+    {
+      "id": "zelda_direct_04",
+      "category": "direct",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Which item can I find in Level-3 of the first quest?",
+      "error": null,
+      "latency_s": 2.591,
+      "input_tokens": 2035,
+      "output_tokens": 336,
+      "cost_usd": 0.0004,
+      "answer": "In Level 3 of the first quest, the documents list the Raft, a Heart Container, and the third Piece of Triforce as objectives, and the Map can be obtained in the room right of the four door room.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:underworld-quest-1-dungeon-3:000",
+        "zelda1:underworld-quest-2-dungeon-3:004",
+        "zelda1:underworld-quest-2-dungeon-3:000",
+        "zelda1:underworld-quest-2-dungeon-3:002",
+        "zelda1:underworld-quest-1-dungeon-3:002"
+      ],
+      "sources": [
+        "zelda1:underworld-quest-1-dungeon-3:000",
+        "zelda1:underworld-quest-1-dungeon-3:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "Which item can I find in Level-3 of the first quest?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_direct_05",
+      "category": "direct",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How powerful is the Magic Sword?",
+      "error": null,
+      "latency_s": 2.657,
+      "input_tokens": 3027,
+      "output_tokens": 173,
+      "cost_usd": 0.0004,
+      "answer": "The Magic Sword has Damage 4, making it four times as powerful as the wooden sword. Link must have twelve Heart Containers before he can receive it.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:002",
+        "zelda1:items:001",
+        "zelda1:enemies:007",
+        "zelda1:overworld-quest-1:014",
+        "zelda1:enemies:005"
+      ],
+      "sources": [
+        "zelda1:items:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] states the Magic Sword has Damage 4 and is the most powerful sword in the game, four times as powerful as the wooden sword, which directly answers how powerful it is.",
+          "rewrite": "",
+          "query": "How powerful is the Magic Sword?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_paraphrase_01",
+      "category": "paraphrase",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How can I sail across the sea?",
+      "error": null,
+      "latency_s": 4.398,
+      "input_tokens": 3794,
+      "output_tokens": 377,
+      "cost_usd": 0.0006,
+      "answer": "You need the Raft, which lets Link cross lakes and oceans, but it can only be used at a Dock. Neither of the 'double docks' triggers raft use.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:024",
+        "zelda1:main:000",
+        "zelda1:controls:000",
+        "zelda1:main:001",
+        "zelda1:underworld-quest-1-dungeon-9:000"
+      ],
+      "sources": [
+        "zelda1:items:024"
+      ],
+      "rewrites": [
+        "Zelda NES how to get Raft cross water sea",
+        "Zelda raft item location how to get raft Zelda NES"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The document is about Digdogger, a boss in The Legend of Zelda, and says nothing about sailing or crossing seas. The Zelda series uses a Raft or Ocarina-related travel items for water, but none of this is in the retrieved text.",
+          "rewrite": "Zelda NES how to get Raft cross water sea",
+          "query": "How can I sail across the sea?"
+        },
+        {
+          "sufficient": false,
+          "reason": "Document 1 explains that a Raft lets Link cross lakes and oceans but only when used at a Dock, which partially answers the question. However, it does not explain how to obtain the Raft (it is a Zelda 1 item typically found in a dungeon or obtained from a specific location), so the answer is incomplete. The other documents cover unrelated intro details, controls, and objectives.",
+          "rewrite": "Zelda raft item location how to get raft Zelda NES",
+          "query": "Zelda NES how to get Raft cross water sea"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_paraphrase_02",
+      "category": "paraphrase",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Is there somewhere my hearts get refilled without paying?",
+      "error": null,
+      "latency_s": 3.661,
+      "input_tokens": 2795,
+      "output_tokens": 203,
+      "cost_usd": 0.0004,
+      "answer": "Yes. A fairy fills 3 of Link's hearts when defeated as an enemy drop, and in the fairy ponds the fairy fills all of your heart meters.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:003",
+        "zelda1:items:023",
+        "zelda1:underworld-quest-2-dungeon-8:002",
+        "zelda1:cheats:000",
+        "zelda1:overworld-quest-2:001"
+      ],
+      "sources": [
+        "zelda1:items:003"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document 1 states that in the fairy ponds, the fairy fills all of your heart meters, which answers that hearts can be refilled for free there. It does not explicitly say fairy ponds are free, but it implies no cost is required, so the answer is sufficiently supported.",
+          "rewrite": "",
+          "query": "Is there somewhere my hearts get refilled without paying?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_paraphrase_03",
+      "category": "paraphrase",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How can I win cash by gambling?",
+      "error": null,
+      "latency_s": 3.83,
+      "input_tokens": 4791,
+      "output_tokens": 407,
+      "cost_usd": 0.0006,
+      "answer": "Bomb the rock face immediately to the left of the start screen to reveal a cave where you can play the Money Making Game. Hyrulian men play it with anyone who will part with their rupees, and you can replay it repeatedly to maximize earnings.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:citizens:004",
+        "zelda1:cheats:004",
+        "zelda1:main:000",
+        "zelda1:main:001",
+        "zelda1:overworld-hyrule-2:003"
+      ],
+      "sources": [
+        "zelda1:cheats:004",
+        "zelda1:citizens:004",
+        "zelda1:overworld-hyrule-2:003"
+      ],
+      "rewrites": [
+        "Zelda NES Money Making game how to win rupees gambling"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents mention the Money Making game (a gambling game where Hyrulian men play with Link for rupees) only in passing, without explaining how to play it, its rules, or how to win money. The rest is about rupee drops, shops, and item locations, which do not answer how to win cash by gambling.",
+          "rewrite": "Zelda NES Money Making game how to win rupees gambling",
+          "query": "How can I win cash by gambling?"
+        },
+        {
+          "sufficient": true,
+          "reason": "The documents explain that the Money Making Game is a gambling game found in a bombable cave near the start screen (documents 2 and 5), and that it is where players can gain rupees, with a method to keep winnings via save/retry. This is enough to answer how to win cash by gambling in The Legend of Zelda.",
+          "rewrite": "",
+          "query": "Zelda NES Money Making game how to win rupees gambling"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_exact_01",
+      "category": "exact_id",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "What does the old man in Level-4 of the first quest say?",
+      "error": null,
+      "latency_s": 4.051,
+      "input_tokens": 3702,
+      "output_tokens": 383,
+      "cost_usd": 0.0006,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:underworld-quest-1-dungeon-4:006",
+        "zelda1:walkthrough:004",
+        "zelda1:main:000",
+        "zelda1:underworld-quest-1-dungeon-4:000",
+        "zelda1:underworld-quest-1-dungeon-4:004"
+      ],
+      "sources": [],
+      "rewrites": [
+        "Zelda 1 NES Level 4 old man dialogue text cave first quest",
+        "Zelda 1 NES Level 4 old man dungeon dialogue text"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents cover Level-4 objectives, dungeon walkthrough, boss, and resupply locations, but none mention an old man or what he says in Level-4 of the first Zelda quest. The needed dialogue or cave/NPC text is absent.",
+          "rewrite": "Zelda 1 NES Level 4 old man dialogue text cave first quest",
+          "query": "What does the old man in Level-4 of the first quest say?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents do not mention any old man in Level-4 of the first quest. The old man in Level-4 is a cave/dungeon-related NPC and the documents only cover resupply shops, quest overviews, intro, objectives, and a Vire room walkthrough, none of which give the old man's dialogue.",
+          "rewrite": "Zelda 1 NES Level 4 old man dungeon dialogue text",
+          "query": "Zelda 1 NES Level 4 old man dialogue text cave first quest"
+        }
+      ],
+      "abstention_ok": false,
+      "ctx_hit": false,
+      "cite_precision": null
+    },
+    {
+      "id": "zelda_exact_02",
+      "category": "exact_id",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "What can I buy at D-4 in section 2 of the overworld?",
+      "error": null,
+      "latency_s": 2.782,
+      "input_tokens": 2973,
+      "output_tokens": 332,
+      "cost_usd": 0.0005,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:overworld-hyrule-1:003",
+        "zelda1:overworld-hyrule-1:001",
+        "zelda1:underworld-quest-1-dungeon-4:001",
+        "zelda1:overworld-hyrule-7:001",
+        "zelda1:overworld-hyrule-4:001"
+      ],
+      "sources": [],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "What can I buy at D-4 in section 2 of the overworld?"
+        }
+      ],
+      "abstention_ok": false,
+      "ctx_hit": false,
+      "cite_precision": null
+    },
+    {
+      "id": "zelda_exact_03",
+      "category": "exact_id",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "What happens if I register my name as ZELDA?",
+      "error": null,
+      "latency_s": 1.988,
+      "input_tokens": 3163,
+      "output_tokens": 180,
+      "cost_usd": 0.0004,
+      "answer": "Entering your name as \"Zelda\" at the start of the game immediately begins the Second Quest without playing the First Quest. The documents do not state whether entering the name in uppercase \"ZELDA\" has the same effect.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:gameplay:000",
+        "zelda1:cheats:000",
+        "zelda1:main:003",
+        "zelda1:citizens:001",
+        "zelda1:main:000"
+      ],
+      "sources": [
+        "zelda1:cheats:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [2] directly states that registering the name as Zelda immediately starts the Second Quest without playing the First Quest, which answers the question.",
+          "rewrite": "",
+          "query": "What happens if I register my name as ZELDA?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_compound_01",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Where can I buy the Blue Candle, and what can it be used for?",
+      "error": null,
+      "latency_s": 2.562,
+      "input_tokens": 2947,
+      "output_tokens": 319,
+      "cost_usd": 0.0004,
+      "answer": "You can buy the Blue Candle for 60 Rupees by walking south two screens then four screens east from the Fairy Fountain area, going one screen west, and entering the door, per the Quest 1 guide. The Blue Candle throws a flame a short distance and can light dark dungeon rooms, burn bushes in the overworld, and damage enemies, but it can only be used once per screen.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:012",
+        "zelda1:overworld-quest-1:013",
+        "zelda1:items:020",
+        "zelda1:overworld-quest-2:001",
+        "zelda1:overworld-quest-1:003"
+      ],
+      "sources": [
+        "zelda1:overworld-quest-1:003",
+        "zelda1:items:012"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [5] explains where to buy the Blue Candle (a shop reached via a route from the Fairy Fountain, costing 60 Rupees), and document [1] describes its use: throwing a flame a short distance, lighting dark dungeon rooms, burning bushes, damaging enemies, and being limited to once per screen. Together they answer both parts of the question.",
+          "rewrite": "",
+          "query": "Where can I buy the Blue Candle, and what can it be used for?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_compound_02",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Who is the boss of Level-1 in the first quest and how do I defeat him?",
+      "error": null,
+      "latency_s": 2.879,
+      "input_tokens": 2871,
+      "output_tokens": 315,
+      "cost_usd": 0.0005,
+      "answer": "The boss of Level-1 in the first quest is Aquamentus. Strike him in the head six times with the Wooden Sword or three times with the White Sword, timing strikes between the energy orbs he emits from his horn. Only the Magical Shield absorbs the orbs; the regular shield lets damage through. If you are firing sword beams, you can hit any part of his body.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:underworld-quest-2-dungeon-1:002",
+        "zelda1:underworld-quest-1-dungeon-1:004",
+        "zelda1:underworld-quest-1-dungeon-1:005",
+        "zelda1:underworld-quest-2-dungeon-1:001",
+        "zelda1:underworld-quest-1-dungeon-1:000"
+      ],
+      "sources": [
+        "zelda1:underworld-quest-1-dungeon-1:004",
+        "zelda1:underworld-quest-1-dungeon-1:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "The documents identify the Level-1 boss as Aquamentus and describe how to defeat him: strike his head six times with the Wooden Sword or three times with the White Sword, time strikes between energy orbs from his horn, and use the Magical Shield to absorb orbs. This answers both parts of the question.",
+          "rewrite": "",
+          "query": "Who is the boss of Level-1 in the first quest and how do I defeat him?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_compound_03",
+      "category": "compound",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "What do I need to enter Level-4 in the first quest, and which item is inside?",
+      "error": null,
+      "latency_s": 4.744,
+      "input_tokens": 2352,
+      "output_tokens": 703,
+      "cost_usd": 0.0006,
+      "answer": "To enter Level 4 in the first quest, you need the Raft, which is listed as a prerequisite. The dungeon's objectives include obtaining the Ladder, along with a Heart Container and the fourth Triforce piece, which are found inside. The Ladder is the item listed first among the dungeon's objectives, so it is the item the documents describe as inside.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:walkthrough:006",
+        "zelda1:items:010",
+        "zelda1:underworld-quest-1-dungeon-4:000",
+        "zelda1:underworld-quest-1-dungeon-4:004",
+        "zelda1:underworld-quest-1-dungeon-4:001"
+      ],
+      "sources": [
+        "zelda1:underworld-quest-1-dungeon-4:001",
+        "zelda1:underworld-quest-1-dungeon-4:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "What do I need to enter Level-4 in the first quest, and which item is inside?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_ambiguous_01",
+      "category": "ambiguous",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How do I beat the dragon boss?",
+      "error": null,
+      "latency_s": 2.673,
+      "input_tokens": 3198,
+      "output_tokens": 321,
+      "cost_usd": 0.0004,
+      "answer": "The dragon boss is Aquamentus, which has 6 HP. It shoots fireballs that split in three directions and can only be blocked by the Magical Shield. It is vulnerable to the Sword and Arrows, and can also be killed by two Bombs.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:bosses:000",
+        "zelda1:bosses:002",
+        "zelda1:underworld-quest-2-dungeon-3:002",
+        "zelda1:underworld-quest-2-dungeon-2:004",
+        "zelda1:underworld-quest-1-dungeon-4:005"
+      ],
+      "sources": [
+        "zelda1:bosses:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "How do I beat the dragon boss?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_ambiguous_02",
+      "category": "ambiguous",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How do I defeat Gleeok?",
+      "error": null,
+      "latency_s": 4.772,
+      "input_tokens": 4013,
+      "output_tokens": 563,
+      "cost_usd": 0.0007,
+      "answer": "Gleeok is defeated by attacking each of its attached heads until every head is destroyed; flying heads cannot be hurt, so dodge their projectiles and focus on the attached ones. Stabbing a head makes it detach, and the boss is only beaten once all heads are gone. Defeating it earns a Heart Container.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:underworld-quest-1-dungeon-8:003",
+        "zelda1:bosses:002",
+        "zelda1:underworld-quest-2-dungeon-5:004",
+        "zelda1:underworld-quest-1-dungeon-6:003",
+        "zelda1:underworld-quest-1-dungeon-4:005"
+      ],
+      "sources": [
+        "zelda1:bosses:002",
+        "zelda1:underworld-quest-1-dungeon-4:005",
+        "zelda1:underworld-quest-1-dungeon-8:003"
+      ],
+      "rewrites": [
+        "Gleeok boss strategy Zelda NES weapon fire breath flying heads tips",
+        "Gleeok boss strategy Zelda NES detached heads flying fire sword tips"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents describe Gleeok's weakness: stab each attached head until it flies free, then destroy the freed heads, since the boss can only be beaten by destroying every head. However, they don't give concrete combat tactics (such as what weapon to use, how to avoid fire breath or attacks, or how to handle the flying heads), and they don't name which dungeon or game the Gleeok appears in. The answer is partly covered but the practical method is thin.",
+          "rewrite": "Gleeok boss strategy Zelda NES weapon fire breath flying heads tips",
+          "query": "How do I defeat Gleeok?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents describe Gleeok fights in general terms (stab each attached head until disconnected) and mention different head counts across dungeons, but they lack concrete tactics such as the recommended weapon, how to handle the detached flying heads, or how to avoid fire/damage. The retrieved text is also fragmented and partly inconsistent, so a clear answer is not fully supported.",
+          "rewrite": "Gleeok boss strategy Zelda NES detached heads flying fire sword tips",
+          "query": "Gleeok boss strategy Zelda NES weapon fire breath flying heads tips"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.6666666666666666
+    },
+    {
+      "id": "zelda_unanswerable_01",
+      "category": "unanswerable",
+      "game": "zelda1",
+      "answerable": false,
+      "question": "How do I use the Hookshot?",
+      "error": null,
+      "latency_s": 4.078,
+      "input_tokens": 4333,
+      "output_tokens": 380,
+      "cost_usd": 0.0006,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:controls:000",
+        "zelda1:main:001",
+        "zelda1:main:000",
+        "zelda1:gameplay:004",
+        "zelda1:items:010"
+      ],
+      "sources": [],
+      "rewrites": [
+        "Hookshot Zelda NES how to use item controls"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents do not describe the Hookshot at all. They cover rupee routes, save erasure, the Raft, the Power Bracelet, and a Digdogger boss, but nothing on how to obtain or operate the Hookshot.",
+          "rewrite": "Hookshot Zelda NES how to use item controls",
+          "query": "How do I use the Hookshot?"
+        },
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "Hookshot Zelda NES how to use item controls"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": null,
+      "cite_precision": null
+    },
+    {
+      "id": "zelda_unanswerable_02",
+      "category": "unanswerable",
+      "game": "zelda1",
+      "answerable": false,
+      "question": "Can I ride a horse in this game?",
+      "error": null,
+      "latency_s": 3.75,
+      "input_tokens": 4397,
+      "output_tokens": 282,
+      "cost_usd": 0.0006,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:citizens:001",
+        "zelda1:main:003",
+        "zelda1:items:025",
+        "zelda1:main:000",
+        "zelda1:items:008"
+      ],
+      "sources": [],
+      "rewrites": [
+        "Zelda horse riding mount Epona Link ride",
+        "Legend of Zelda NES horse riding mount Epona"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents cover re-releases, game over options, swords, save files, and a money-making glitch, but nothing about horses, riding mounts, or whether Link can ride any animal in the game.",
+          "rewrite": "Zelda horse riding mount Epona Link ride",
+          "query": "Can I ride a horse in this game?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents cover the story, ring effects, bow and arrows, and game intro, but nothing about horses, riding, or mounts in The Legend of Zelda. The question cannot be answered from these documents.",
+          "rewrite": "Legend of Zelda NES horse riding mount Epona",
+          "query": "Zelda horse riding mount Epona Link ride"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": null,
+      "cite_precision": null
+    },
+    {
+      "id": "zelda_version_01",
+      "category": "version",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "In the first quest, which dungeon has the Ladder?",
+      "error": null,
+      "latency_s": 4.103,
+      "input_tokens": 3669,
+      "output_tokens": 501,
+      "cost_usd": 0.0006,
+      "answer": "The documents do not say which dungeon has the Ladder in the first quest. The walkthrough mentions obtaining the ladder from level 6, but only in the context of the 2nd Quest tips.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:underworld-quest-1-dungeon-2:000",
+        "zelda1:main:000",
+        "zelda1:underworld-quest-1-dungeon-2:006",
+        "zelda1:underworld-quest-1-dungeon-2:001",
+        "zelda1:walkthrough:004"
+      ],
+      "sources": [
+        "zelda1:walkthrough:004"
+      ],
+      "rewrites": [
+        "Legend of Zelda first quest Ladder dungeon level 2 item location"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents show that the Ladder is obtained in a dungeon objective list, but the objectives for Level 4 (Gleeok) and Level 6 (Gohma) are different dungeons and neither explicitly states where the Ladder is found in the first quest. The Ladder's location as a dungeon item is not clearly identified by name (e.g., Level 2 in the original Legend of Zelda). The documents do not name the dungeon containing the Ladder directly.",
+          "rewrite": "Legend of Zelda first quest Ladder dungeon level 2 item location",
+          "query": "In the first quest, which dungeon has the Ladder?"
+        },
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "Legend of Zelda first quest Ladder dungeon level 2 item location"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": false,
+      "cite_precision": 0.0
+    },
+    {
+      "id": "zelda_version_02",
+      "category": "version",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "In the second quest, which dungeon has the Ladder?",
+      "error": null,
+      "latency_s": 2.981,
+      "input_tokens": 1959,
+      "output_tokens": 395,
+      "cost_usd": 0.0004,
+      "answer": "The documents show the Ladder as a prerequisite for Dungeon 7 and as an objective to obtain in Dungeon 6 of the second quest, but they do not state which dungeon contains the Ladder itself. Dungeon 6's objectives list \"Obtain the Ladder,\" so Dungeon 6 is the dungeon whose objectives include obtaining it.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:underworld-quest-2-dungeon-6:000",
+        "zelda1:underworld-quest-2-dungeon-7:001",
+        "zelda1:underworld-quest-2-dungeon-4:007",
+        "zelda1:underworld-quest-1-dungeon-4:000",
+        "zelda1:underworld-quest-2-dungeon-1:003"
+      ],
+      "sources": [
+        "zelda1:underworld-quest-2-dungeon-6:000",
+        "zelda1:underworld-quest-2-dungeon-7:001"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "In the second quest, which dungeon has the Ladder?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_robust_01",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How can I attack?",
+      "error": null,
+      "latency_s": 4.188,
+      "input_tokens": 3831,
+      "output_tokens": 405,
+      "cost_usd": 0.0006,
+      "answer": "Press the A button to swing the sword. You can also press the B button to use the selected subweapon, such as the Bow and Arrows or Magical Wand.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:controls:000",
+        "zelda1:items:008",
+        "zelda1:items:013",
+        "zelda1:items:009",
+        "zelda1:items:014"
+      ],
+      "sources": [
+        "zelda1:controls:000",
+        "zelda1:items:008",
+        "zelda1:items:009"
+      ],
+      "rewrites": [
+        "Zelda NES how to attack with sword B button controls Link",
+        "Zelda II Legend of Zelda NES controls A button sword attack B button subweapon combat"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents discuss enemies and bosses (Manhandla, Dodongo, Moldorm, Zol, Darknut) and mention that the Sword and Bombs can attack, but they do not explain the basic attack controls or how Link attacks with his sword and items in general. The question is vague, so the documents only partially cover it.",
+          "rewrite": "Zelda NES how to attack with sword B button controls Link",
+          "query": "How can I attack?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents describe the B button items (bow, magic wand, whistle, Water of Life) and the A button sword swing, but the intro for the B button is truncated and there is no clear explanation of basic attacking with the sword or how to use the B button weapons in combat. The question about how to attack is only partially answered.",
+          "rewrite": "Zelda II Legend of Zelda NES controls A button sword attack B button subweapon combat",
+          "query": "Zelda NES how to attack with sword B button controls Link"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.3333333333333333
+    },
+    {
+      "id": "zelda_robust_02",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "Which button do i have to press to attack?",
+      "error": null,
+      "latency_s": 3.294,
+      "input_tokens": 3300,
+      "output_tokens": 255,
+      "cost_usd": 0.0005,
+      "answer": "Press the A button to swing the sword, which is the attack action in the game.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:controls:000",
+        "zelda1:items:008",
+        "zelda1:items:013",
+        "zelda1:items:009",
+        "zelda1:items:014"
+      ],
+      "sources": [
+        "zelda1:controls:000"
+      ],
+      "rewrites": [
+        "Zelda Link's Awakening sword attack button A button controls"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents describe B button items (Magical Wand, Letter, Water of Life, Monster Bait) and erasing save data, but none state which button attacks with the sword. The sword attack button is not covered, so the question cannot be answered from these documents.",
+          "rewrite": "Zelda Link's Awakening sword attack button A button controls",
+          "query": "Which button do i have to press to attack?"
+        },
+        {
+          "sufficient": true,
+          "reason": "Document 1 states that the A button swings the sword, which is the attack action in this NES game (The Legend of Zelda). This answers the question directly.",
+          "rewrite": "",
+          "query": "Zelda Link's Awakening sword attack button A button controls"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_robust_03",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "How can I atack?",
+      "error": null,
+      "latency_s": 4.676,
+      "input_tokens": 3374,
+      "output_tokens": 431,
+      "cost_usd": 0.0005,
+      "answer": "Press the A button to swing your sword. You can also use subweapons such as the Bow or Magical Wand by pressing B, once they are assigned.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:controls:000",
+        "zelda1:items:008",
+        "zelda1:items:013",
+        "zelda1:items:021",
+        "zelda1:items:009"
+      ],
+      "sources": [
+        "zelda1:controls:000",
+        "zelda1:items:008",
+        "zelda1:items:009"
+      ],
+      "rewrites": [
+        "Zelda NES Link sword attack controls B button subweapons how to attack",
+        "Zelda II Adventure of Link NES controls A button sword attack B button subweapon"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents mention the A button swings the sword and the B button can hold subweapons like the Magical Wand, but they do not clearly explain how to attack effectively (e.g., sword usage details, which subweapon to equip, or how to use the B button attack). The question is vague, so the retrieved info is only partially relevant.",
+          "rewrite": "Zelda NES Link sword attack controls B button subweapons how to attack",
+          "query": "How can I atack?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The question asks how to attack, which is answered in part by document [1] (A button swings the sword, B button uses the assigned subweapon), but the documents are fragmentary and truncated, and the B button entry is cut off. Documents on the bow, wand, and ladder are relevant but do not explain the basic attack controls clearly. A more targeted query could retrieve the full controls and sword/attack details.",
+          "rewrite": "Zelda II Adventure of Link NES controls A button sword attack B button subweapon",
+          "query": "Zelda NES Link sword attack controls B button subweapons how to attack"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.3333333333333333
+    },
+    {
+      "id": "zelda_robust_04",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i open the menu",
+      "error": null,
+      "latency_s": 2.416,
+      "input_tokens": 2573,
+      "output_tokens": 206,
+      "cost_usd": 0.0004,
+      "answer": "Press the Start button on the NES controller to bring up the sub-screen menu, where Link can look at the map, change subweapon, and so on. Press Start again to return from the sub-screen to the normal view.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:controls:000",
+        "zelda1:items:015",
+        "zelda1:gameplay:004",
+        "zelda1:cheats:003",
+        "zelda1:gameplay:005"
+      ],
+      "sources": [
+        "zelda1:controls:000",
+        "zelda1:gameplay:004"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] states that pressing Start brings up the sub-screen menu, and document [3] confirms pressing Start pauses the game and scrolls up the sub-screen. This directly answers how to open the menu.",
+          "rewrite": "",
+          "query": "how do i open the menu"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_robust_05",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "can i blow up walls with bombz?",
+      "error": null,
+      "latency_s": 2.004,
+      "input_tokens": 3266,
+      "output_tokens": 151,
+      "cost_usd": 0.0004,
+      "answer": "Yes, bombs can be used to blast holes in weak walls. The Items document notes that a bomb can kill enemies or blast holes in weak walls.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:underworld-quest-1-dungeon-5:004",
+        "zelda1:items:006",
+        "zelda1:overworld-hyrule-3:004",
+        "zelda1:underworld:002",
+        "zelda1:enemies:006"
+      ],
+      "sources": [
+        "zelda1:items:006"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [2] states that bombs blast holes in weak walls, directly answering that bombs can blow up walls (weak ones).",
+          "rewrite": "",
+          "query": "can i blow up walls with bombz?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_robust_06",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i use my secondary item",
+      "error": null,
+      "latency_s": 4.016,
+      "input_tokens": 3750,
+      "output_tokens": 452,
+      "cost_usd": 0.0006,
+      "answer": "Press B to use your subweapon. Only one subweapon can be assigned to B, and you change that assignment on the sub-screen (opened with Start) by selecting the subweapon you want.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:controls:000",
+        "zelda1:gameplay:004",
+        "zelda1:gameplay:005",
+        "zelda1:items:010",
+        "zelda1:items:014"
+      ],
+      "sources": [
+        "zelda1:controls:000",
+        "zelda1:gameplay:004"
+      ],
+      "rewrites": [
+        "Zelda NES how to assign B button item sub-screen select item use",
+        "Zelda NES how to assign B button item sub-screen select item press B"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents explain that only one item in the blue box can be assigned to the B button and that assignment is changed on the sub-screen, but they do not explain how to use the secondary (B button) item itself or how to assign it, beyond general pause-screen mechanics. The question is ambiguous about which item is meant, and no document gives the actual usage steps for B-button items in general.",
+          "rewrite": "Zelda NES how to assign B button item sub-screen select item use",
+          "query": "how do i use my secondary item"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents explain that only one item in the blue box can be assigned to B and that assignment is changed on the sub-screen, but they do not explicitly describe the exact steps to use a secondary item (assigning it to B via the Start sub-screen and pressing B in gameplay). The text is also fragmented and cut off, and the 'secondary item' is likely the B-button item. More detail on assigning and using B-button items is needed.",
+          "rewrite": "Zelda NES how to assign B button item sub-screen select item press B",
+          "query": "Zelda NES how to assign B button item sub-screen select item use"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_team_01",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i atack?",
+      "error": null,
+      "latency_s": 4.357,
+      "input_tokens": 3998,
+      "output_tokens": 373,
+      "cost_usd": 0.0006,
+      "answer": "Press the A button to swing the sword. The B button uses your selected subweapon, such as the bow or magical wand.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:main:000",
+        "zelda1:controls:000",
+        "zelda1:items:008",
+        "zelda1:items:013",
+        "zelda1:items:009"
+      ],
+      "sources": [
+        "zelda1:controls:000",
+        "zelda1:items:008",
+        "zelda1:items:009"
+      ],
+      "rewrites": [
+        "Zelda II Adventure of Link sword attack controls A button B button",
+        "Legend of Zelda NES how to attack swing sword A button wooden sword enemies"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents show the A button swings the sword and mention B-button items like the Magical Wand, but the A-button entry is cut off and doesn't clearly explain how to attack in general (e.g., sword swing details, full-health requirement, or B-button attack assignment). The answer is only partially supported.",
+          "rewrite": "Zelda II Adventure of Link sword attack controls A button B button",
+          "query": "how do i atack?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents cover items and controls but do not explain how to attack with the sword in the original Legend of Zelda. Document 2 only mentions that the A button swings the sword, and it is cut off. Nothing explicitly says how to use the sword or to damage enemies in a general way.",
+          "rewrite": "Legend of Zelda NES how to attack swing sword A button wooden sword enemies",
+          "query": "Zelda II Adventure of Link sword attack controls A button B button"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.3333333333333333
+    },
+    {
+      "id": "zelda_team_02",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how can i heal?",
+      "error": null,
+      "latency_s": 2.58,
+      "input_tokens": 2212,
+      "output_tokens": 303,
+      "cost_usd": 0.0004,
+      "answer": "Hearts refill Link's life meter by one full heart, and Fairy items fill 3 hearts (in fairy ponds, a fairy fills all hearts). Water of Life completely refills Link's life bar. Going back to the Fairy Fountain also lets you heal.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:overworld-quest-1:003",
+        "zelda1:items:004",
+        "zelda1:items:013",
+        "zelda1:items:003",
+        "zelda1:items:018"
+      ],
+      "sources": [
+        "zelda1:items:004",
+        "zelda1:items:003",
+        "zelda1:items:013",
+        "zelda1:overworld-quest-1:003"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "The documents describe several healing methods: hearts (refill one heart), fairies (fill 3 hearts, or fully in fairy ponds), Water of Life (fully refills life), Red/Blue Potions, and Heart Containers (raise max life). They answer how Link can heal in the game, though they don't explicitly say the game title, so the answer is broadly sufficient.",
+          "rewrite": "",
+          "query": "how can i heal?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.75
+    },
+    {
+      "id": "zelda_team_03",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "where do i find money?",
+      "error": null,
+      "latency_s": 2.985,
+      "input_tokens": 3540,
+      "output_tokens": 395,
+      "cost_usd": 0.0005,
+      "answer": "Money can be found in several places: bomb the wall right of the crack on Hyrule 8 (B-4) to find a cave with a Red Moblin who gives 30 Rupees; burn the lower left tree on Hyrule 8 2nd Quest (D-2) for a Red Moblin giving 100 Rupees; burn the lower right tree (B-2) for a stairwell leading to 10 Rupees; and the Money Making Game can be reached by bombing the rock face left of the start screen.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:overworld-hyrule-8:001",
+        "zelda1:cheats:004",
+        "zelda1:overworld-hyrule-6:003",
+        "zelda1:overworld-hyrule-7:002",
+        "zelda1:overworld-hyrule-8:002"
+      ],
+      "sources": [
+        "zelda1:overworld-hyrule-8:001",
+        "zelda1:overworld-hyrule-8:002",
+        "zelda1:cheats:004"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "The documents describe several concrete ways to obtain rupees (money): a Red Moblin in a bombed cave giving 30 rupees in the 1st Quest, a stairwell leading to 10 rupees, a Moblin giving 100 rupees in the 2nd Quest after burning a tree, and a Money Making Game cave reachable by bombing rock faces. This is enough to answer the general question of where to find money.",
+          "rewrite": "",
+          "query": "where do i find money?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.6666666666666666
+    },
+    {
+      "id": "zelda_team_04",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "what is the best weapon?",
+      "error": null,
+      "latency_s": 4.043,
+      "input_tokens": 4132,
+      "output_tokens": 428,
+      "cost_usd": 0.0006,
+      "answer": "The documents do not identify a single 'best' weapon. They note the Silver Arrow (damage 4) is stronger than the wooden arrow (damage 2) and is required to save Princess Zelda, but do not rank weapons overall.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:008",
+        "zelda1:overworld-quest-1:014",
+        "zelda1:main:000",
+        "zelda1:underworld-quest-2-dungeon-6:004",
+        "zelda1:underworld-quest-1-dungeon-9:000"
+      ],
+      "sources": [
+        "zelda1:items:008"
+      ],
+      "rewrites": [
+        "Zelda NES best weapon ranking Magical Sword Silver Arrows Bow comparison",
+        "Legend of Zelda NES best weapon comparison sword boomerang bow damage ranking"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents describe Heart Containers, Link's stats, bosses like Ganon, Gohma, and Aquamentus, and mention Silver Arrows and the Bow, but none compare weapons or identify which weapon is best. The question is subjective and no document ranks or evaluates weapons such as the Sword, Magical Sword, Bow, Silver Arrows, or Wand.",
+          "rewrite": "Zelda NES best weapon ranking Magical Sword Silver Arrows Bow comparison",
+          "query": "what is the best weapon?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents mention weapons like the bow and arrows, Silver Arrows, and boomerang, but give no comparison or ranking of weapons to determine which is best. The question is subjective and the documents lack a clear answer on effectiveness across the game.",
+          "rewrite": "Legend of Zelda NES best weapon comparison sword boomerang bow damage ranking",
+          "query": "Zelda NES best weapon ranking Magical Sword Silver Arrows Bow comparison"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": false,
+      "cite_precision": 0.0
+    },
+    {
+      "id": "zelda_team_05",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i open a locked door?",
+      "error": null,
+      "latency_s": 4.323,
+      "input_tokens": 4173,
+      "output_tokens": 488,
+      "cost_usd": 0.0007,
+      "answer": "In the first dungeon, a known cheat opens the locked door: immediately leave the dungeon after entering it and come back, and the locked door will open. Elsewhere in the dungeons, keys open one door each (Link can carry up to nine until he obtains the Magic Key).",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:cheats:003",
+        "zelda1:underworld-quest-2-dungeon-8:004",
+        "zelda1:items:015",
+        "zelda1:main:000",
+        "zelda1:underworld:001"
+      ],
+      "sources": [
+        "zelda1:cheats:003",
+        "zelda1:items:015"
+      ],
+      "rewrites": [
+        "NES Zelda locked door how to open key dungeon"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents discuss locked doors in specific Zelda dungeons (first dungeon trick, keys, shut diamond doors needing monsters cleared) but none gives a general answer for how to open a locked door in the game the question refers to; the question is ambiguous about which NES game, and the retrieved text is game-specific fragments without a clear, general method.",
+          "rewrite": "NES Zelda locked door how to open key dungeon",
+          "query": "how do i open a locked door?"
+        },
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "NES Zelda locked door how to open key dungeon"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_team_06",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": false,
+      "question": "what do i do if ig im stuck",
+      "error": null,
+      "latency_s": 4.793,
+      "input_tokens": 4515,
+      "output_tokens": 494,
+      "cost_usd": 0.0007,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:controls:000",
+        "zelda1:main:001",
+        "zelda1:underworld-quest-1-dungeon-6:001",
+        "zelda1:main:000",
+        "zelda1:underworld-quest-1-dungeon-1:002"
+      ],
+      "sources": [],
+      "rewrites": [
+        "NES game stuck walkthrough hint tips where to go next",
+        "Legend of Zelda NES stuck where to go next walkthrough hints"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The question is vague and does not name a NES game, and no documents were retrieved, so there is no information to answer it.",
+          "rewrite": "NES game stuck walkthrough hint tips where to go next",
+          "query": "what do i do if ig im stuck"
+        },
+        {
+          "sufficient": false,
+          "reason": "The question is vague ('what do i do if ig im stuck') and does not specify which game or where the player is stuck. The documents cover The Legend of Zelda's controls, release history, and dungeon walkthroughs (e.g., Gohma dungeon, Lake Hylia dungeon), but none directly addresses general help for being stuck or identifies the player's specific location. Without knowing the stuck point, no specific answer can be given.",
+          "rewrite": "Legend of Zelda NES stuck where to go next walkthrough hints",
+          "query": "NES game stuck walkthrough hint tips where to go next"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": null,
+      "cite_precision": null
+    },
+    {
+      "id": "zelda_team_07",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i defeat the dragon?",
+      "error": null,
+      "latency_s": 2.831,
+      "input_tokens": 4073,
+      "output_tokens": 375,
+      "cost_usd": 0.0006,
+      "answer": "The dragon is likely Aquamentus, which has 6 HP and shoots fireballs that split in three directions; it can only be blocked by the Magical Shield. It is vulnerable to the Sword and Arrows, and can also be killed by two Bombs. Gleeok is also a dragon, with two, three or four heads, which must each be attacked while dodging the flying heads' projectiles.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:bosses:000",
+        "zelda1:bosses:002",
+        "zelda1:underworld-quest-1-dungeon-9:004",
+        "zelda1:underworld-quest-2-dungeon-7:003",
+        "zelda1:underworld-quest-2-dungeon-7:004"
+      ],
+      "sources": [
+        "zelda1:bosses:000",
+        "zelda1:bosses:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "how do i defeat the dragon?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_team_08",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "where do i get bombs?",
+      "error": null,
+      "latency_s": 3.155,
+      "input_tokens": 2825,
+      "output_tokens": 244,
+      "cost_usd": 0.0004,
+      "answer": "According to the Quest 1 overworld guide, you should fight and defeat the Moblins in the nearby area until they drop Bombs that you can collect. The Quest 2 overworld list also says to get some Bombs, but it does not say where.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:overworld-quest-2:001",
+        "zelda1:overworld-quest-1:002",
+        "zelda1:underworld-quest-1-dungeon-6:004",
+        "zelda1:overworld-quest-1:000",
+        "zelda1:underworld-quest-1-dungeon-9:000"
+      ],
+      "sources": [
+        "zelda1:overworld-quest-1:002",
+        "zelda1:overworld-quest-2:001"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [2] states that defeating Moblins near the Fairy Fountain makes them drop Bombs that can be collected, and document [3] mentions replacement Bombs obtainable from a woman's shop area in the resupply route, which answers where to get bombs.",
+          "rewrite": "",
+          "query": "where do i get bombs?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "zelda_team_09",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i unlock the bow?",
+      "error": null,
+      "latency_s": 3.245,
+      "input_tokens": 2482,
+      "output_tokens": 397,
+      "cost_usd": 0.0004,
+      "answer": "The documents do not explain how to unlock the Bow. They only say that Bows are obtained in dungeons: Quest 1 Dungeon 1 lists 'Obtain the Bow' as an objective, and Quest 2 Dungeon 5 does too. They also state that you need a Bow to shoot Arrows and must buy Arrows from a shop.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:items:008",
+        "zelda1:underworld-quest-2-dungeon-6:001",
+        "zelda1:underworld-quest-1-dungeon-1:000",
+        "zelda1:underworld-quest-2-dungeon-5:000",
+        "zelda1:underworld-quest-2-dungeon-7:001"
+      ],
+      "sources": [
+        "zelda1:underworld-quest-1-dungeon-1:000",
+        "zelda1:underworld-quest-2-dungeon-5:000",
+        "zelda1:items:008"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "how do i unlock the bow?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_extra_01",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i save my game?",
+      "error": null,
+      "latency_s": 2.934,
+      "input_tokens": 3051,
+      "output_tokens": 341,
+      "cost_usd": 0.0005,
+      "answer": "Choose \"SAVE\" on the Game Over screen by pressing Select and then Start; this stores your accomplishments until the next time you play. You can also press Up (D-pad) and A simultaneously on controller 2 from the sub-screen menu to quickly access the Save Screen.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:gameplay:002",
+        "zelda1:cheats:004",
+        "zelda1:gameplay:003",
+        "zelda1:gameplay:000",
+        "zelda1:controls:000"
+      ],
+      "sources": [
+        "zelda1:gameplay:003",
+        "zelda1:controls:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "how do i save my game?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_extra_02",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i get more hearts?",
+      "error": null,
+      "latency_s": 4.592,
+      "input_tokens": 4351,
+      "output_tokens": 377,
+      "cost_usd": 0.0006,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:citizens:001",
+        "zelda1:main:000",
+        "zelda1:underworld-quest-1-dungeon-1:001",
+        "zelda1:controls:000",
+        "zelda1:main:001"
+      ],
+      "sources": [],
+      "rewrites": [
+        "Zelda NES heart containers locations dungeon list",
+        "Legend of Zelda NES heart containers heart pieces how to get more hearts dungeon boss"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents mention heart containers exist (raft/extra Heart Container in dungeon treasures, six heart containers needed for White Sword) and fairies refill hearts, but do not explain clearly how to obtain heart containers, such as which dungeons or locations contain them and how to reach them. The answer is only partial.",
+          "rewrite": "Zelda NES heart containers locations dungeon list",
+          "query": "how do i get more hearts?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents describe the plot, release history, and controls of The Legend of Zelda but do not explain how to obtain heart containers (e.g., defeating dungeon bosses, heart containers in dungeons, or heart pieces found in overworld locations). The question about getting more hearts is unanswered.",
+          "rewrite": "Legend of Zelda NES heart containers heart pieces how to get more hearts dungeon boss",
+          "query": "Zelda NES heart containers locations dungeon list"
+        }
+      ],
+      "abstention_ok": false,
+      "ctx_hit": false,
+      "cite_precision": null
+    },
+    {
+      "id": "zelda_extra_03",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "can i buy a better shield?",
+      "error": null,
+      "latency_s": 5.014,
+      "input_tokens": 5280,
+      "output_tokens": 481,
+      "cost_usd": 0.0008,
+      "answer": "Yes. In the first quest, a shop in the green forest sells a Magical Shield for 90 Rupees after you burn the tree on the lower-right. In the second quest, shops sell a Magical Shield for 160 rupees, 130 rupees, or 90 rupees depending on location.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:main:000",
+        "zelda1:overworld-quest-1:012",
+        "zelda1:overworld-hyrule-2:002",
+        "zelda1:overworld-quest-1:005",
+        "zelda1:controls:000"
+      ],
+      "sources": [
+        "zelda1:overworld-quest-1:005",
+        "zelda1:overworld-hyrule-2:002"
+      ],
+      "rewrites": [
+        "Zelda NES where to buy Magical Shield price shop"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents mention buying a replacement Magical Shield at a Resupply location and that a Magic Shield costs 90 Rupees in Quest 2, but they do not clearly state whether a better shield (e.g., a Magical Shield over a Small Shield, or the best shield available) can be purchased in general, its price, or where it is sold across the game, and the snippets are fragmentary.",
+          "rewrite": "Zelda NES where to buy Magical Shield price shop",
+          "query": "can i buy a better shield?"
+        },
+        {
+          "sufficient": true,
+          "reason": "The documents state that shops sell a Magical Shield (an upgraded shield) for 90 rupees in one shop in the 2nd Quest (burn the south tree on the eastern-most column, section B-2) and for 160 rupees in another shop (C-3). Document [4] also gives a route to buy a magical shield after leaving the Fairy Fountain. This answers that a better shield can be bought, with locations and prices.",
+          "rewrite": "",
+          "query": "Zelda NES where to buy Magical Shield price shop"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "zelda_extra_04",
+      "category": "robustness",
+      "game": "zelda1",
+      "answerable": true,
+      "question": "how do i see in dark rooms?",
+      "error": null,
+      "latency_s": 2.191,
+      "input_tokens": 3292,
+      "output_tokens": 235,
+      "cost_usd": 0.0005,
+      "answer": "You can light dark rooms with the Blue Candle, as stated in the Dungeon 4 walkthrough. Candles can light up dark rooms in dungeons, and the Red Candle works the same way without the once-per-screen limit.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "zelda1:underworld-quest-1-dungeon-4:002",
+        "zelda1:items:012",
+        "zelda1:underworld-quest-1-dungeon-7:002",
+        "zelda1:gameplay:004",
+        "zelda1:gameplay:005"
+      ],
+      "sources": [
+        "zelda1:underworld-quest-1-dungeon-4:002",
+        "zelda1:items:012"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document 1 and Document 2 state that dark rooms can be lit with the Blue Candle (limited to once per screen) or the Red Candle (unlimited uses per screen), which directly answers how to see in dark rooms.",
+          "rewrite": "",
+          "query": "how do i see in dark rooms?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "ng_direct_01",
+      "category": "direct",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "Which button do I press to jump?",
+      "error": null,
+      "latency_s": 1.953,
+      "input_tokens": 3274,
+      "output_tokens": 120,
+      "cost_usd": 0.0003,
+      "answer": "Press the A button to jump in the air.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:gameplay:000",
+        "ninja_gaiden_nes:walkthrough:002",
+        "ninja_gaiden_nes:items:003",
+        "ninja_gaiden_nes:walkthrough:003",
+        "ninja_gaiden_nes:act-1:001"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:gameplay:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] explicitly states that the A button is used to jump in the air on the NES game, which directly answers the question.",
+          "rewrite": "",
+          "query": "Which button do I press to jump?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_direct_02",
+      "category": "direct",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "How many spirit points does the windmill star cost?",
+      "error": null,
+      "latency_s": 1.809,
+      "input_tokens": 3775,
+      "output_tokens": 124,
+      "cost_usd": 0.0005,
+      "answer": "The windmill star costs 5 spirit points to throw.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:items:002",
+        "ninja_gaiden_nes:act-6:004",
+        "ninja_gaiden_nes:act-6:005",
+        "ninja_gaiden_nes:act-3:003",
+        "ninja_gaiden_nes:act-2:002"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:items:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] explicitly states that throwing one windmill star costs 5 spirit points, which directly answers the question.",
+          "rewrite": "",
+          "query": "How many spirit points does the windmill star cost?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_direct_03",
+      "category": "direct",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "How many lives does Ryu start with?",
+      "error": null,
+      "latency_s": 1.99,
+      "input_tokens": 3498,
+      "output_tokens": 159,
+      "cost_usd": 0.0004,
+      "answer": "Ryu starts the game with two lives in reserve.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:gameplay:002",
+        "ninja_gaiden_nes:act-5:012",
+        "ninja_gaiden_nes:act-3:000",
+        "ninja_gaiden_nes:act-4:006",
+        "ninja_gaiden_nes:act-6:013"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:gameplay:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] explicitly states Ryu starts the game with two lives in reserve, which directly answers the question (two lives in reserve, or three total lives including the current one, depending on interpretation; the document says two in reserve).",
+          "rewrite": "",
+          "query": "How many lives does Ryu start with?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_paraphrase_01",
+      "category": "paraphrase",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "What happens if the clock runs out before I finish a stage?",
+      "error": null,
+      "latency_s": 1.78,
+      "input_tokens": 2788,
+      "output_tokens": 133,
+      "cost_usd": 0.0004,
+      "answer": "If the timer runs out before you complete a stage, you lose one life.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:act-4:007",
+        "ninja_gaiden_nes:items:003",
+        "ninja_gaiden_nes:act-1:002",
+        "ninja_gaiden_nes:act-4:001",
+        "ninja_gaiden_nes:gameplay:002"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:gameplay:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [5] explicitly states that Ryu loses one life if the timer runs out before he completes a stage, which directly answers the question.",
+          "rewrite": "",
+          "query": "What happens if the clock runs out before I finish a stage?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_paraphrase_02",
+      "category": "paraphrase",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "How can I get higher using just one wall?",
+      "error": null,
+      "latency_s": 2.473,
+      "input_tokens": 3179,
+      "output_tokens": 289,
+      "cost_usd": 0.0004,
+      "answer": "Use the wall hop technique: jump towards and cling to a wall, hold the jump button, push away from the wall, then immediately push back towards it. Done correctly, you rise and cling to the wall higher than where you started, and repeating it can climb to the top of the screen.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:walkthrough:003",
+        "ninja_gaiden_nes:items:003",
+        "ninja_gaiden_nes:act-2:002",
+        "ninja_gaiden_nes:gameplay:003",
+        "ninja_gaiden_nes:walkthrough:002"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:walkthrough:003"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] directly describes the wall hop technique, which lets Ryu climb higher using only one wall: jump to a wall, hold jump, push away, then immediately push back toward it.",
+          "rewrite": "",
+          "query": "How can I get higher using just one wall?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_exact_01",
+      "category": "exact_id",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "Who attacks me in Stage 2-3?",
+      "error": null,
+      "latency_s": 1.886,
+      "input_tokens": 3607,
+      "output_tokens": 160,
+      "cost_usd": 0.0005,
+      "answer": "In Stage 2-3, you are first attacked by the enemy known as Bomberhead as soon as you enter the hall.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:act-2:008",
+        "ninja_gaiden_nes:act-2:007",
+        "ninja_gaiden_nes:act-5:012",
+        "ninja_gaiden_nes:act-3:005",
+        "ninja_gaiden_nes:act-3:006"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:act-2:008"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] explicitly states that in Stage 2-3 you are attacked by the enemy Bomberhead upon entering the hall, which answers the question directly.",
+          "rewrite": "",
+          "query": "Who attacks me in Stage 2-3?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_exact_02",
+      "category": "exact_id",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "Who is the boss of Stage 3-3?",
+      "error": null,
+      "latency_s": 3.298,
+      "input_tokens": 4990,
+      "output_tokens": 313,
+      "cost_usd": 0.0006,
+      "answer": "The boss of Stage 3-3 (Act III) is Basaquer.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:act-3:006",
+        "ninja_gaiden_nes:act-3:007",
+        "ninja_gaiden_nes:walkthrough:000",
+        "ninja_gaiden_nes:main:000",
+        "ninja_gaiden_nes:act-6:013"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:act-3:006"
+      ],
+      "rewrites": [
+        "Stage 3-3 boss Ninja Gaiden Basaquer Act III"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "Document [2] states the boss of Act III is Basaquer, but it is labeled as Stage 3 Act III rather than explicitly Stage 3-3. The label mismatch (Act III vs Stage 3-3) makes it uncertain whether it refers to the same stage; the other documents concern other stages. Searching for the Stage 3-3 boss directly would confirm.",
+          "rewrite": "Stage 3-3 boss Ninja Gaiden Basaquer Act III",
+          "query": "Who is the boss of Stage 3-3?"
+        },
+        {
+          "sufficient": true,
+          "reason": "Document [1] states that the boss of Act III (Stage 3-3 is in Act III) is Basaquer, which directly answers the question.",
+          "rewrite": "",
+          "query": "Stage 3-3 boss Ninja Gaiden Basaquer Act III"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_compound_01",
+      "category": "compound",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "What does the fire wheel do and does it use spirit points?",
+      "error": null,
+      "latency_s": 2.754,
+      "input_tokens": 3587,
+      "output_tokens": 317,
+      "cost_usd": 0.0005,
+      "answer": "The Fire Wheel surrounds Ryu with a circle of fire that eliminates any enemy that contacts him. It requires no spirit points to use, but it replaces any secondary weapon you hold and disappears after five seconds.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:items:002",
+        "ninja_gaiden_nes:act-2:006",
+        "ninja_gaiden_nes:gameplay:001",
+        "ninja_gaiden_nes:act-4:003",
+        "ninja_gaiden_nes:items:003"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:items:002"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "What does the fire wheel do and does it use spirit points?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_version_01",
+      "category": "version",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "What is Ninja Gaiden called in Europe?",
+      "error": null,
+      "latency_s": 2.267,
+      "input_tokens": 3406,
+      "output_tokens": 152,
+      "cost_usd": 0.0004,
+      "answer": "In Europe, Ninja Gaiden is known as Shadow Warriors.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:main:000",
+        "ninja_gaiden_nes:walkthrough:000",
+        "ninja_gaiden_nes:act-5:000",
+        "ninja_gaiden_nes:main:001",
+        "ninja_gaiden_nes:act-5:001"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:main:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] states that Ninja Gaiden is known in Japan as Ninja Ryūkenden and as Shadow Warriors in Europe, which directly answers the question.",
+          "rewrite": "",
+          "query": "What is Ninja Gaiden called in Europe?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_robust_01",
+      "category": "robustness",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "how do i atack?",
+      "error": null,
+      "latency_s": 2.218,
+      "input_tokens": 3306,
+      "output_tokens": 204,
+      "cost_usd": 0.0005,
+      "answer": "Press the B button to attack by swinging your sword. You can attack low by squatting when you attack. To use a secondary weapon, hold Up on the D-pad while pressing B, provided you have enough spirit points.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:gameplay:000",
+        "ninja_gaiden_nes:items:003",
+        "ninja_gaiden_nes:act-1:003",
+        "ninja_gaiden_nes:walkthrough:002",
+        "ninja_gaiden_nes:act-6:007"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:gameplay:000"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [1] explicitly states that pressing B swings the sword to attack, and that squatting while attacking hits low. Document [2] adds the jump-and-slash mechanic. This answers how to attack.",
+          "rewrite": "",
+          "query": "how do i atack?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 1.0
+    },
+    {
+      "id": "ng_robust_02",
+      "category": "robustness",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "how do i get more ninpo?",
+      "error": null,
+      "latency_s": 3.211,
+      "input_tokens": 3552,
+      "output_tokens": 384,
+      "cost_usd": 0.0005,
+      "answer": "The documents mention collecting ninpo items from lamps, such as the Flame technique in Stage 2-1 (found at the lamp after the yellow beam, before the first two gaps) and a Flame technique at the top of the column in Stage 5-1. They do not explain a general method for restoring or increasing ninpo points, so the documents don't fully answer how to get more ninpo.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:act-6:010",
+        "ninja_gaiden_nes:act-6:017",
+        "ninja_gaiden_nes:act-2:002",
+        "ninja_gaiden_nes:act-4:006",
+        "ninja_gaiden_nes:act-5:001"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:act-2:002",
+        "ninja_gaiden_nes:act-5:001"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "evaluator_error:JSONDecodeError",
+          "rewrite": "",
+          "query": "how do i get more ninpo?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": false,
+      "cite_precision": 0.0
+    },
+    {
+      "id": "ng_robust_03",
+      "category": "robustness",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "how do i heal?",
+      "error": null,
+      "latency_s": 4.394,
+      "input_tokens": 4893,
+      "output_tokens": 451,
+      "cost_usd": 0.0007,
+      "answer": "Collect a Health potion, which restores six lost bars of health from your meter. Potions are found in item containers throughout stages, such as the lamp on the left in Stage 4-2 that restores some lost health.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:main:000",
+        "ninja_gaiden_nes:items:001",
+        "ninja_gaiden_nes:act-4:007",
+        "ninja_gaiden_nes:gameplay:001",
+        "ninja_gaiden_nes:walkthrough:000"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:items:001",
+        "ninja_gaiden_nes:act-4:007"
+      ],
+      "rewrites": [
+        "Ninja Gaiden NES health restore potion spirit points healing items",
+        "Ninja Gaiden NES health restore potion red lamp spirit power health bar"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents mention health-restoring potions dropped from lamps and found in stages (e.g., Stage 4-2, Stage 5-1, Stage 3-1), which partially answers how to heal in the game, but they do not explain a general healing mechanic such as a health item's name, a potion pickup from lamps as a general rule, or other healing methods like extra life or continues. The answer is only implied through specific stage walkthroughs, so the question is not clearly answered.",
+          "rewrite": "Ninja Gaiden NES health restore potion spirit points healing items",
+          "query": "how do i heal?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents mention potions and lamps that restore health (Stage 4-2 potion restores some lost health), but do not explain the general way to heal the player character, such as how health is restored, whether health is replenished by pickups, or how the health bar works.",
+          "rewrite": "Ninja Gaiden NES health restore potion red lamp spirit power health bar",
+          "query": "Ninja Gaiden NES health restore potion spirit points healing items"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.5
+    },
+    {
+      "id": "ng_robust_04",
+      "category": "robustness",
+      "game": "ninja_gaiden_nes",
+      "answerable": true,
+      "question": "why did i get sent back to 6-1?",
+      "error": null,
+      "latency_s": 2.417,
+      "input_tokens": 3391,
+      "output_tokens": 324,
+      "cost_usd": 0.0005,
+      "answer": "The documents say that if you lose to one of the final bosses in Stage 6-3 (after going through the door), you are returned all the way to 6-1, regardless of how many lives you have left. Losing the boss fight in general can also send you back to an earlier moment in the Act, and dying after defeating the Masked Devil forces you to restart from 6-1 to face Jaquio with spirit power.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:act-6:001",
+        "ninja_gaiden_nes:walkthrough:000",
+        "ninja_gaiden_nes:act-6:002",
+        "ninja_gaiden_nes:act-6:016",
+        "ninja_gaiden_nes:act-6:013"
+      ],
+      "sources": [
+        "ninja_gaiden_nes:act-6:013",
+        "ninja_gaiden_nes:walkthrough:000",
+        "ninja_gaiden_nes:act-6:016"
+      ],
+      "rewrites": [],
+      "evidence_trace": [
+        {
+          "sufficient": true,
+          "reason": "Document [2] explains that if you lose a boss fight at the end of an Act you may be sent back to an earlier moment in the Act, and [4] states that dying after defeating the Masked Devil forces you to restart from 6-1. Together these answer why the player was sent back to 6-1.",
+          "rewrite": "",
+          "query": "why did i get sent back to 6-1?"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "cite_precision": 0.3333333333333333
+    },
+    {
+      "id": "ng_unanswerable_01",
+      "category": "unanswerable",
+      "game": "ninja_gaiden_nes",
+      "answerable": false,
+      "question": "What is the password to skip to Act 5?",
+      "error": null,
+      "latency_s": 4.13,
+      "input_tokens": 4554,
+      "output_tokens": 337,
+      "cost_usd": 0.0007,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:walkthrough:000",
+        "ninja_gaiden_nes:main:000",
+        "ninja_gaiden_nes:main:002",
+        "ninja_gaiden_nes:walkthrough:002",
+        "ninja_gaiden_nes:gameplay:000"
+      ],
+      "sources": [],
+      "rewrites": [
+        "Ninja Gaiden NES password continue code level select",
+        "Ninja Gaiden NES password continue skip Act 5"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The documents explicitly state that players cannot skip any level and must play every stage in order, and they contain no password information at all. They do not answer the question about a password to skip to Act 5.",
+          "rewrite": "Ninja Gaiden NES password continue code level select",
+          "query": "What is the password to skip to Act 5?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents describe the game's structure (six Acts, 20 levels, no level skipping) and controls, but none mention a password or any method to skip to Act 5. The question asks for a specific password, which is not present.",
+          "rewrite": "Ninja Gaiden NES password continue skip Act 5",
+          "query": "Ninja Gaiden NES password continue code level select"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": null,
+      "cite_precision": null
+    },
+    {
+      "id": "ng_unanswerable_02",
+      "category": "unanswerable",
+      "game": "ninja_gaiden_nes",
+      "answerable": false,
+      "question": "How do I unlock the second playable character?",
+      "error": null,
+      "latency_s": 3.624,
+      "input_tokens": 4543,
+      "output_tokens": 322,
+      "cost_usd": 0.0006,
+      "answer": "There is not enough information in the indexed sources to answer this question.",
+      "abstained": true,
+      "outcome": "abstained",
+      "tool_used": null,
+      "route": "documents",
+      "context": [
+        "ninja_gaiden_nes:main:000",
+        "ninja_gaiden_nes:walkthrough:000",
+        "ninja_gaiden_nes:gameplay:000",
+        "ninja_gaiden_nes:main:002",
+        "ninja_gaiden_nes:walkthrough:002"
+      ],
+      "sources": [],
+      "rewrites": [
+        "NES game unlock second playable character how to select alternate character",
+        "Ninja Gaiden NES second playable character unlock Ryu Hayabusa alternate character"
+      ],
+      "evidence_trace": [
+        {
+          "sufficient": false,
+          "reason": "The retrieved documents are stage walkthroughs for a Ninja Gaiden-style game describing enemies and items but never mention unlocking a second playable character. The question's answer is not present, so a search targeting character unlock methods is needed.",
+          "rewrite": "NES game unlock second playable character how to select alternate character",
+          "query": "How do I unlock the second playable character?"
+        },
+        {
+          "sufficient": false,
+          "reason": "The documents describe Ryu Hayabusa as the only playable character and cover controls, wall jumps, and level structure, but nothing about a second playable character or how to unlock one. The question's premise may not apply to this game.",
+          "rewrite": "Ninja Gaiden NES second playable character unlock Ryu Hayabusa alternate character",
+          "query": "NES game unlock second playable character how to select alternate character"
+        }
+      ],
+      "abstention_ok": true,
+      "ctx_hit": null,
+      "cite_precision": null
+    }
+  ]
+}
