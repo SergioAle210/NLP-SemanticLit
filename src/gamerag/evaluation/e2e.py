@@ -24,6 +24,7 @@ from pathlib import Path
 from gamerag.evaluation.cases import EvalCase, load_cases, parts_found
 from gamerag.evaluation.metrics import mean
 from gamerag.evaluation.retrieval import RETRIEVAL_CATEGORIES
+from gamerag.explain import explain
 from gamerag.games import load_all_games
 from gamerag.guardrails.provenance import leaked_notes
 from gamerag.llm import BudgetExceeded, LLMClient
@@ -88,6 +89,7 @@ def run_case(pipe, case: EvalCase, profile, chunks: dict, ledger, store=None) ->
         "subqueries": [q["query"] for q in trace.subqueries],
         "answer": answer.answer, "abstained": answer.abstained, "outcome": trace.outcome,
         "tool_used": answer.tool_used, "route": trace.route,
+        "explanation_complete": explain(trace, answer)["complete"],
         "context": trace.context, "sources": [s.chunk_id for s in answer.sources],
         "rewrites": [e["rewrite"] for e in trace.evidence if not e["sufficient"]],
         "evidence_trace": trace.evidence,
@@ -114,6 +116,7 @@ def _agg(rows: list[dict]) -> dict:
         "n": len(rows), "errors": len(rows) - len(ok),
         "ctx_recall": avg("ctx_hit"), "ctx_coverage": avg("ctx_coverage"),
         "abstention_ok": avg("abstention_ok"), "cite_precision": avg("cite_precision"),
+        "explainable_rate": round(mean([bool(r.get("explanation_complete")) for r in ok]), 4) if ok else None,
         "notes_used_rate": round(mean([bool(r.get("notes_in_context")) for r in ok]), 4) if ok else None,
         "secondary_rate": round(mean([bool(r.get("secondary")) for r in ok]), 4) if ok else None,
         "note_leaks": sum(len(r.get("note_leaks", [])) for r in ok),

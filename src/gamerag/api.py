@@ -23,6 +23,7 @@ from fastapi import Depends, FastAPI, HTTPException, Query, Request
 from pydantic import BaseModel, Field
 
 from gamerag import __version__
+from gamerag.explain import explain
 from gamerag.games import GameConfig, load_all_games
 from gamerag.pipeline import Pipeline, Trace, build_pipeline
 from gamerag.progress.models import Profile, load_profiles
@@ -47,6 +48,7 @@ class AskRequest(BaseModel):
 class AskResponse(BaseModel):
     answer: Answer
     trace: Trace | None = None
+    explanation: dict | None = None  # por que respondio / se abstuvo (gamerag/explain.py); con include_trace
 
 
 class SearchHit(BaseModel):
@@ -177,7 +179,8 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
         rate_limit(request, req.user_id)
         answer, trace = pipe.ask(req.question, req.game, profile)
         store.log_trace(trace)
-        return AskResponse(answer=answer, trace=trace if req.include_trace else None)
+        return AskResponse(answer=answer, trace=trace if req.include_trace else None,
+                           explanation=explain(trace, answer) if req.include_trace else None)
 
     @app.post("/search", response_model=SearchResponse, tags=["consulta"])
     def search(req: AskRequest, request: Request, pipe: PipelineDep, store: StoreDep) -> SearchResponse:

@@ -66,3 +66,5 @@ select = ["E", "F", "I", "UP", "B"]
 [tool.ruff.lint.per-file-ignores]
 # casos adversarios con textos largos (cadenas de datos, no logica)
 "src/gamerag/evaluation/security*.py" = ["E501"]
+"src/gamerag/evaluation/scorecard.py" = ["E501"]
+"src/gamerag/evaluation/diagnostics.py" = ["E501"]

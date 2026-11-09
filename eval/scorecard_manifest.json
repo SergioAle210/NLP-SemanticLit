@@ -1,0 +1,9 @@
+{
+  "runs": {
+    "principal": {"result": "eval/results/2026-11-09_e2e_final-principal.json", "cases": "eval/cases.jsonl"},
+    "dificil": {"result": "eval/results/2026-11-09_e2e_final-dificil.json", "cases": "eval/cases_hard.jsonl"},
+    "solo-extra": {"result": "eval/results/2026-11-09_e2e_final-extra.json", "cases": "eval/cases_extra.jsonl"}
+  },
+  "security": "eval/results/2026-11-08_security_guarded.json",
+  "tools": "eval/results/2026-11-09_tools.json"
+}
