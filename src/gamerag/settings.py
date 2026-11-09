@@ -9,7 +9,7 @@ from __future__ import annotations
 from functools import lru_cache
 from pathlib import Path
 
-from pydantic import Field, SecretStr
+from pydantic import Field, SecretStr, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -17,6 +17,11 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         env_prefix="GAMERAG_", env_file=".env", env_file_encoding="utf-8", extra="ignore"
     )
+
+    # base: recuperacion hibrida + generador extractivo (sin LLM, sin costo).
+    # full: la configuracion evaluada del sistema (grafo + Haiku + evaluador de evidencia + segunda busqueda con indice
+    # mezclado); requiere ANTHROPIC_API_KEY, sin ella se queda en `base`. Los campos fijados explicitamente ganan.
+    profile: str = "base"
 
     root: Path = Field(default_factory=Path.cwd)
     data_dir: Path = Path("data")
@@ -42,6 +47,7 @@ class Settings(BaseSettings):
     only_games: list[str] = []  # si no esta vacia, solo se arman estos juegos (evaluaciones por juego)
     secondary_search: bool = False  # wikis extra como segunda busqueda si la evidencia es insuficiente (usa -multi)
     secondary_mode: str = "append"  # append: suma chunks extra; mixed: indice mezclado reemplaza el contexto
+    secondary_franchise: bool = False  # incluir en la segunda busqueda las fuentes de toda la saga (scope: franchise)
     secondary_k: int = 3  # chunks que la busqueda secundaria agrega al contexto
     planner: bool = False  # descomposición de consulta en sub-preguntas (requiere use_graph y API key)
     memory_notes: bool = False  # indexar las notas de data/memory/<juego>/notes.jsonl junto a los chunks
@@ -67,6 +73,18 @@ class Settings(BaseSettings):
     llm_usage_db: Path = Path("state/llm_usage.sqlite3")
 
     log_level: str = "INFO"
+
+    @model_validator(mode="after")
+    def _apply_profile(self) -> Settings:
+        if self.profile not in ("base", "full"):
+            raise ValueError(f"profile invalido: {self.profile} (base | full)")
+        if self.profile == "full" and self.anthropic_api_key is not None:
+            preset = {"generator": "haiku", "use_graph": True, "evidence_eval": True, "evidence_mode": "on_abstain",
+                      "secondary_search": True, "secondary_mode": "mixed", "secondary_k": 5}
+            for name, value in preset.items():
+                if name not in self.model_fields_set:
+                    object.__setattr__(self, name, value)
+        return self
 
     def path(self, p: Path) -> Path:
         """Resuelve una ruta de la configuración contra `root`."""

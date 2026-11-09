@@ -35,5 +35,5 @@ query_expansion:
 
 extra_sources:
   - {site: wikipedia, snapshot_dir: data/wiki_snapshot/wikipedia/oot, general_headings: 'Gameplay|Development|Release|Reception|Legacy|Sales'}
-  - {site: zeldapedia, snapshot_dir: data/wiki_snapshot/zeldapedia/oot}
-  - {site: zeldawiki, snapshot_dir: data/wiki_snapshot/zeldawiki/oot}
+  - {site: zeldapedia, scope: franchise, snapshot_dir: data/wiki_snapshot/zeldapedia/oot}
+  - {site: zeldawiki, scope: franchise, snapshot_dir: data/wiki_snapshot/zeldawiki/oot}

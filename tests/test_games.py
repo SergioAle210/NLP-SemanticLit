@@ -62,3 +62,12 @@ def test_graph_tool_rejected_for_linear_game():
     data["tools"] = [*data["tools"], "next_available_levels"]
     with pytest.raises(ValueError, match="next_available_levels"):
         GameConfig.model_validate(data)
+
+
+def test_zelda_franchise_wikis_are_scoped_out_of_the_secondary_tier():
+    games = load_all_games(ROOT / "config" / "games")
+    for game in ("zelda1", "oot"):
+        scopes = {s.site: s.scope for s in games[game].extra_sources}
+        assert scopes["zeldapedia"] == scopes["zeldawiki"] == "franchise"
+    assert all(s.scope == "game" for g in ("gta_sa", "ac2", "doom", "rdr1", "ninja_gaiden_nes")
+               for s in games[g].extra_sources)

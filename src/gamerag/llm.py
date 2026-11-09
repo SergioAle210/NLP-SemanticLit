@@ -62,9 +62,13 @@ class Ledger:
                  usage.get("cache_read", 0), usage.get("cache_write", 0), cost, int(cached)),
             )
 
-    def spent(self, run: str | None = None) -> float:
+    def spent(self, run: str | None = None, since: float | None = None) -> float:
+        """Gasto acumulado; con `run`, el de esa etiqueta (desde `since`: el tope por corrida es por proceso)."""
         with self._conn() as c:
-            if run is None:
+            if run is not None and since is not None:
+                row = c.execute("SELECT COALESCE(SUM(cost_usd), 0) FROM calls WHERE run = ? AND ts >= ?",
+                                (run, since)).fetchone()
+            elif run is None:
                 row = c.execute("SELECT COALESCE(SUM(cost_usd), 0) FROM calls").fetchone()
             else:
                 row = c.execute("SELECT COALESCE(SUM(cost_usd), 0) FROM calls WHERE run = ?", (run,)).fetchone()
@@ -87,6 +91,7 @@ class LLMClient:
         self.ledger = ledger or Ledger(self.s.path(self.s.llm_usage_db))
         self.cache_dir = self.s.path(self.s.llm_cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
+        self._t0 = time.time()  # inicio de este cliente: el tope por corrida solo cuenta desde aqui
 
     # --- costo -------------------------------------------------------------------------------
 
@@ -108,7 +113,7 @@ class LLMClient:
         if total + need > self.s.llm_budget_usd:
             raise BudgetExceeded(f"tope total: gastado ${total:.4f} + peor caso ${need:.4f} "
                                  f"> ${self.s.llm_budget_usd:.2f}")
-        in_run = self.ledger.spent(run)
+        in_run = self.ledger.spent(run, since=self._t0)  # tope por corrida = por proceso; el total es acumulado
         if in_run + need > self.s.llm_run_budget_usd:
             raise BudgetExceeded(f"tope de la corrida '{run}': gastado ${in_run:.4f} + peor caso "
                                  f"${need:.4f} > ${self.s.llm_run_budget_usd:.2f}")

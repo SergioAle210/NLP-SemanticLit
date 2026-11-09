@@ -56,6 +56,9 @@ class ExtraSource(BaseModel):
     unlocated: Literal["restricted", "general"] = "restricted"
     general_headings: str | None = None  # regex de encabezados de contenido sin spoilers (p. ej. Gameplay|Reception)
     exclude_pages: list[str] = []
+    # game: describe solo este titulo. franchise: sus paginas son de toda la saga (p. ej. "Bow" o "Link" mezclan
+    # varios juegos), asi que NO entran a la segunda busqueda salvo `secondary_franchise` (riesgo de contaminacion).
+    scope: Literal["game", "franchise"] = "game"
 
 
 class GameConfig(BaseModel):

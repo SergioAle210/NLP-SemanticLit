@@ -295,9 +295,12 @@ def build_pipeline(
         facts[game_id] = GameFacts(games[game_id], [c for c in chunks if c.kind == "source"])
         if settings.secondary_search:  # wikis extra: solo se consultan como segunda busqueda
             multi = path.with_name(f"chunks.{settings.chunker}-multi.jsonl")
+            skip = set() if settings.secondary_franchise else {
+                s.site for s in games[game_id].extra_sources if s.scope == "franchise"}
             mixed = settings.secondary_mode == "mixed"  # indice con todas las wikis, solo tras evidencia insuficiente
             extra = [c.model_copy(update={"chunker": c.chunker + ("+all" if mixed else "+extra")}) for c in
-                     (load_chunks(multi) if multi.exists() else []) if mixed or c.origin != "strategywiki"]
+                     (load_chunks(multi) if multi.exists() else [])
+                     if (mixed or c.origin != "strategywiki") and c.origin not in skip]
             if extra:
                 all_chunks.update({c.chunk_id: c for c in extra})
                 secondary[game_id] = make_retriever(settings.retriever, extra, settings,  # type: ignore[arg-type]

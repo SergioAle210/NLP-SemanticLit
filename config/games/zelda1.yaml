@@ -10,8 +10,8 @@ snapshot_dir: data/wiki_snapshot/strategywiki/zelda1
 # Otras wikis (scripts/fetch_corpus.py). Lo que no trae ubicación queda restringido hasta etiquetarlo.
 extra_sources:
   - {site: wikipedia, snapshot_dir: data/wiki_snapshot/wikipedia/zelda1, general_headings: 'Gameplay|Development|Release|Reception|Legacy|Sales'}
-  - {site: zeldapedia, snapshot_dir: data/wiki_snapshot/zeldapedia/zelda1}
-  - {site: zeldawiki, snapshot_dir: data/wiki_snapshot/zeldawiki/zelda1}
+  - {site: zeldapedia, scope: franchise, snapshot_dir: data/wiki_snapshot/zeldapedia/zelda1}
+  - {site: zeldawiki, scope: franchise, snapshot_dir: data/wiki_snapshot/zeldawiki/zelda1}
 manual:
   url: https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAANE.pdf
   local_path: data/raw/manuals/CLV-P-NAANE.pdf   # gitignored (© Nintendo)

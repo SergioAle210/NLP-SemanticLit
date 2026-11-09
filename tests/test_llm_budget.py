@@ -80,3 +80,17 @@ def test_max_tokens_is_capped_by_settings(tmp_path):
     c._client.messages.create = lambda **kw: (seen.update(kw), orig(**kw))[1]
     c.complete(MSG, max_tokens=100_000)
     assert seen["max_tokens"] == 64
+
+
+def test_run_budget_is_per_process_not_forever(tmp_path):
+    """El tope por corrida solo cuenta el gasto de este cliente; un proceso nuevo con la misma etiqueta no hereda
+    el gasto anterior (si no, `serve` quedaba bloqueado para siempre). El tope total sigue siendo acumulado."""
+    import time
+
+    from gamerag.llm import Ledger
+
+    ledger = Ledger(tmp_path / "u.sqlite3")
+    ledger.record(run="serve", model="m", usage={"input_tokens": 1}, cost=0.9, cached=False)
+    assert ledger.spent("serve") == 0.9
+    assert ledger.spent("serve", since=time.time() + 1) == 0.0
+    assert ledger.spent() == 0.9

@@ -156,3 +156,36 @@ escalaba** (22 de 84 casos). Con 500 tokens la escalada pasó de 75 % a 83 %.
 - Los resultados por juego se corrieron en procesos separados (`--only-game`): Chroma devolvía "Nothing found on disk" al abrir
   los 14 índices en un mismo proceso (afectaba a un juego distinto en cada corrida). La causa raíz no está resuelta; el
   rodeo es `--only-game` / `only_games`.
+
+## Configuración final de la segunda búsqueda (perfil `full`)
+
+Correcciones previas a esta medición, que invalidaban corridas anteriores:
+
+1. **Contaminación entre títulos.** Las páginas de Zeldapedia y ZeldaWiki ("Bow", "Link", ...) describen toda la saga; la
+   segunda búsqueda respondía "¿Puedo montar un caballo?" con Epona (que no existe en Zelda 1) y rompía abstenciones
+   correctas. Esas fuentes ahora son `scope: franchise` y quedan fuera de la segunda búsqueda
+   (`secondary_franchise: false`). El banco extra pasó de 84 a 61 casos (los 23 casos solo-saga quedaron en
+   `eval/cases_extra_franchise.jsonl`).
+2. **Tope por corrida.** El tope `serve` ($1) se acumulaba para siempre entre procesos y desactivaba Haiku en silencio
+   (caía al extractivo). Ahora cuenta solo desde el inicio de cada proceso; el tope total sigue siendo acumulado.
+3. **Chroma.** Con ~14 colecciones abiertas, Chroma descartaba el segmento HNSW de una colección pequeña y no podía
+   recargarlo. La búsqueda es exacta, así que se leen los vectores con `get` (sin HNSW) y se cargan al abrir el índice.
+   Recall@5 sin cambios (Zelda 1 0.97, Ninja Gaiden 0.92).
+
+Resultados (Haiku, híbrido, evaluador `on_abstain`, segunda búsqueda `mixed`, sin errores):
+
+| Banco | n | Config | correct (juez) | ctx_coverage | abstención ok | cite_precision |
+|---|---:|---|---:|---:|---:|---:|
+| Solo-extra | 61 | A: solo StrategyWiki | 0.04 | 0.00 | 0.11 | 0.00 |
+| Solo-extra | 61 | D: + segunda búsqueda | **0.84** | 0.82 | 0.93 | 0.78 |
+| Principal | 54 | A | 0.87 | – | 0.944 | 0.753 |
+| Principal | 54 | D | 0.84 | – | 0.944 | 0.759 |
+| Difícil | 21 | A | 0.81 | – | 0.952 | 0.854 |
+| Difícil | 21 | D | 0.88 | – | **1.000** | 0.817 |
+
+- En el banco solo-extra, D recupera de 0.04 a 0.84 de correctitud (50 casos mejoran, 0 empeoran).
+- En el principal, D no cambia la recuperación ni las abstenciones. Los 6 casos "peores" del juez **no escalaron** a la
+  segunda búsqueda: es varianza de generación/juez entre corridas sin caché. Solo escalaron las 4 preguntas sin respuesta
+  (todas se abstuvieron correctamente).
+- Con `scope: franchise` ya no hay pérdida de abstenciones en el banco difícil (antes 0.95 → 0.86).
+- Decisión: el perfil `full` (`GAMERAG_PROFILE=full`) fija esta configuración. Ver ADR-0014.

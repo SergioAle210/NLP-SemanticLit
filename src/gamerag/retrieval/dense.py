@@ -70,11 +70,13 @@ class DenseIndex:
             col = client.get_collection(name)
             if (col.metadata or {}).get("fingerprint") == fp and col.count() == len(chunks):
                 self._col, self.rebuilt = col, False
+                self._vectors(None)  # carga ahora (coleccion recien abierta): ver _vectors
                 return
             client.delete_collection(name)
         self._col = client.create_collection(name, metadata={"fingerprint": fp, "model": self.model_key})
         self._build(chunks)
         self.rebuilt = True
+        self._vectors(None)
 
     def _build(self, chunks: list[Chunk]) -> None:
         # Mismo texto que BM25 (ruta de la página + chunk): ambos recuperadores ven lo mismo.

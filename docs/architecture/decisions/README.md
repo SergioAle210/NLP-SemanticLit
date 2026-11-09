@@ -19,3 +19,4 @@ Cada archivo registra una decisión: contexto, decisión, alternativas y consecu
 | [0013](0013-intent-router-and-tools.md) | Router de intención por reglas y herramientas (§5.6) | Aceptado |
 
 Plantilla para nuevos ADRs: `NNNN-titulo-corto.md` con las secciones *Contexto*, *Decisión*, *Alternativas consideradas* y *Consecuencias*.
+- [0014](0014-serving-profile-and-secondary-tier.md) Perfil de servicio, segunda búsqueda y alcance de fuentes
