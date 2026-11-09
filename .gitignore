@@ -30,3 +30,6 @@ logs/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Caché de respuestas del LLM (gamerag/llm.py): puede contener preguntas y contexto
+state/llm_cache/

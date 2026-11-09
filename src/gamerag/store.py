@@ -92,8 +92,13 @@ class Store:
 
     def log_trace(self, trace: Trace) -> None:
         # Todo campo que contenga texto del usuario se redacta (la pregunta y sus reformulaciones).
-        safe = trace.model_copy(update={"question": redact_pii(trace.question),
-                                        "query_variants": [redact_pii(v) for v in trace.query_variants]})
+        safe = trace.model_copy(update={
+            "question": redact_pii(trace.question),
+            "query_variants": [redact_pii(v) for v in trace.query_variants],
+            "subqueries": [{**s, "query": redact_pii(s.get("query", ""))} for s in trace.subqueries],
+            "evidence": [{**e, "query": redact_pii(e.get("query", "")), "rewrite": redact_pii(e.get("rewrite", ""))}
+                         for e in trace.evidence],
+        })
         with self._conn:
             self._conn.execute(
                 "INSERT INTO audit (trace_id, created_at, user_id, game, question, outcome, trace) "
@@ -101,6 +106,14 @@ class Store:
                 (safe.trace_id, datetime.now(UTC).isoformat(timespec="seconds"), safe.user_id, safe.game,
                  safe.question, safe.outcome, safe.model_dump_json()),
             )
+
+    def all_traces(self, game: str | None = None) -> list[dict]:
+        """Todas las trazas (opcionalmente de un juego), de la más antigua a la más reciente."""
+        sql, args = "SELECT created_at, trace FROM audit", ()
+        if game:
+            sql, args = sql + " WHERE game = ?", (game,)
+        rows = self._conn.execute(sql + " ORDER BY created_at, rowid", args).fetchall()
+        return [{"created_at": ts, **json.loads(t)} for ts, t in rows]
 
     def recent_traces(self, limit: int = 20) -> list[dict]:
         rows = self._conn.execute(

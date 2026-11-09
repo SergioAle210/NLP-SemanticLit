@@ -21,6 +21,19 @@ from gamerag.ingest.models import Chunk
 from gamerag.retrieval.bm25 import INDEX_TEXT_VERSION, Hit, index_text
 from gamerag.retrieval.embeddings import Embedder
 
+_CLIENTS: dict[str, object] = {}
+
+
+def _client(persist_dir: Path):
+    """Un solo cliente de Chroma por directorio y proceso: abrir varios sobre la misma ruta deja los más
+    antiguos con segmentos HNSW inválidos ("Nothing found on disk") en cuanto se abren/crean otras colecciones."""
+    import chromadb
+
+    key = str(persist_dir.resolve())
+    if key not in _CLIENTS:
+        _CLIENTS[key] = chromadb.PersistentClient(path=key)
+    return _CLIENTS[key]
+
 
 def _fingerprint(chunks: list[Chunk], model_key: str) -> str:
     h = hashlib.sha256(f"{model_key}|{INDEX_TEXT_VERSION}".encode())
@@ -41,15 +54,13 @@ def _metadata(c: Chunk) -> dict:
 
 class DenseIndex:
     def __init__(self, chunks: list[Chunk], embedder: Embedder, persist_dir: Path):
-        import chromadb  # import diferido: dependencia opcional
-
         if not chunks:
             raise ValueError("no hay chunks para indexar")
         self.chunks = {c.chunk_id: c for c in chunks}
         self.embedder = embedder
         self.model_key = embedder.model.key
         persist_dir.mkdir(parents=True, exist_ok=True)
-        client = chromadb.PersistentClient(path=str(persist_dir))
+        client = _client(persist_dir)
         name = _collection_name(chunks[0].game, chunks[0].chunker, self.model_key)
         fp = _fingerprint(chunks, self.model_key)
 

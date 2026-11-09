@@ -36,9 +36,34 @@ class Settings(BaseSettings):
     state_db: Path = Path("state/gamerag.sqlite3")
     games_config_dir: Path = Path("config/games")
 
+    spoiler_gates: bool = True  # G2: oculta contenido de ubicaciones aún no alcanzadas (desactivar solo para medir)
+    use_graph: bool = False  # ejecutar la consulta como grafo de estados (LangGraph, gamerag/graph.py)
+    only_games: list[str] = []  # si no esta vacia, solo se arman estos juegos (evaluaciones por juego)
+    secondary_search: bool = False  # wikis extra como segunda busqueda si la evidencia es insuficiente (usa -multi)
+    secondary_mode: str = "append"  # append: suma chunks extra; mixed: indice mezclado reemplaza el contexto
+    secondary_k: int = 3  # chunks que la busqueda secundaria agrega al contexto
+    planner: bool = False  # descomposición de consulta en sub-preguntas (requiere use_graph y API key)
+    memory_notes: bool = False  # indexar las notas de data/memory/<juego>/notes.jsonl junto a los chunks
+    memory_dir: Path = Path("data/memory")
+    evidence_eval: bool = False  # evaluador de evidencia + reescritura (requiere use_graph y API key)
+    evidence_mode: str = "on_abstain"  # on_abstain (solo si el generador se abstiene) | always
+    max_rewrites: int = 1  # tope de reintentos de recuperación por consulta
+    generator: str = "extractive"  # extractive | haiku (haiku degrada al extractivo si el LLM falla)
     llm_model: str = "claude-haiku-5-5"
     # Sin prefijo GAMERAG_: es el nombre estándar que usa el SDK de Anthropic.
     anthropic_api_key: SecretStr | None = Field(default=None, validation_alias="ANTHROPIC_API_KEY")
+
+    # Control de costo del LLM (gamerag/llm.py). Precios: USD por millón de tokens, estimación conservadora
+    # (verificar en la consola de Anthropic). El tope es del proyecto entero, acumulado entre corridas.
+    llm_budget_usd: float = 15.0
+    llm_run_budget_usd: float = 1.0
+    llm_max_tokens: int = 1024  # techo de salida por llamada, pida lo que pida el código
+    llm_price_input: float = 0.10  # Haiku 5.5, prompts <100K tokens (tabla de precios de la API, 2026-10)
+    llm_price_output: float = 0.50
+    llm_cache: bool = True
+    llm_offline: bool = False  # solo caché: repetir evaluaciones y correr tests sin gastar
+    llm_cache_dir: Path = Path("state/llm_cache")
+    llm_usage_db: Path = Path("state/llm_usage.sqlite3")
 
     log_level: str = "INFO"
 

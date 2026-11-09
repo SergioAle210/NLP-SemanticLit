@@ -27,6 +27,7 @@ from gamerag.guardrails.base import (
     InputGuard,
     OutputGuard,
 )
+from gamerag.ingest.models import Chunk
 from gamerag.progress.models import Profile
 from gamerag.retrieval.bm25 import Hit, load_chunks
 from gamerag.retrieval.factory import make_retriever
@@ -66,6 +67,10 @@ class Trace(BaseModel):
     route: str = "documents"  # decisión del router: documents | <herramienta>
     route_reason: str = ""
     tool: dict | None = None  # {name, params, status: ok|invalid_params|degraded, ...info}
+    subqueries: list[dict] = []  # descomposición: {query, context} por sub-pregunta (vacío = sin descomponer)
+    secondary: list[str] = []  # chunks que anadio la busqueda secundaria (wikis extra) tras evidencia insuficiente
+    cited: list[str] = []  # chunk_ids citados en la respuesta final
+    evidence: list[dict] = []  # intentos del evaluador: {sufficient, reason, rewrite, query}
     outcome: str = ""  # answered | abstained | rejected_input | blocked_by_access | rejected_output
     latency_ms: dict[str, float] = {}
 
@@ -82,8 +87,13 @@ class Pipeline:
         candidates: int = 50,
         retriever_name: str = "custom",
         router: Router | None = None,
+        secondary: dict[str, Retriever] | None = None,
+        secondary_k: int = 3,
+        secondary_replace: bool = False,
     ):
         self.retrievers = retrievers
+        self.secondary, self.secondary_k = secondary or {}, secondary_k
+        self.secondary_replace = secondary_replace
         self.router = router
         self.generator = generator or ExtractiveGenerator()
         self.input_guards = input_guards if input_guards is not None else [BasicInputGuard()]
@@ -110,6 +120,7 @@ class Pipeline:
 
         def finish(answer: Answer, outcome: str) -> tuple[Answer, Trace]:
             trace.outcome = outcome
+            trace.cited = [s.chunk_id for s in answer.sources]
             return answer, trace
 
         if not self._check_input(question, profile, trace):
@@ -203,16 +214,18 @@ class Pipeline:
         return True
 
     def _retrieve(self, question: str, game: str, profile: Profile, trace: Trace,
-                  check_input: bool = True) -> tuple[list[Hit], str | None]:
+                  check_input: bool = True, retriever: Retriever | None = None,
+                  top_k: int | None = None) -> tuple[list[Hit], str | None]:
         """Etapas 1-3. Devuelve (contexto, outcome temprano o None si se puede generar)."""
         if check_input and not self._check_input(question, profile, trace):
             return [], "rejected_input"
 
         # 2. Recuperación (más candidatos que top_k: los filtros pueden descartar varios)
         t = time.perf_counter()
-        variants = getattr(self.retrievers[game], "variants", None)
+        retriever = retriever or self.retrievers[game]
+        variants = getattr(retriever, "variants", None)
         trace.query_variants = variants(question) if variants else [question]
-        hits = self.retrievers[game].search(question, k=self.candidates)
+        hits = retriever.search(question, k=self.candidates)
         trace.latency_ms["retrieval"] = _ms(t)
 
         # 3. Filtros de acceso (gates): el primero que bloquea queda registrado
@@ -227,7 +240,7 @@ class Pipeline:
                 allowed.append(h)
             elif blocker != GameFilter.name:
                 blocked_by_gate = True
-        context = [Hit(rank=i, score=h.score, chunk=h.chunk) for i, h in enumerate(allowed[: self.top_k], 1)]
+        context = [Hit(rank=i, score=h.score, chunk=h.chunk) for i, h in enumerate(allowed[: top_k or self.top_k], 1)]
         trace.context = [h.chunk.chunk_id for h in context]
         trace.latency_ms["access"] = _ms(t)
 
@@ -255,19 +268,73 @@ def build_pipeline(
     games = load_all_games(settings.path(settings.games_config_dir))
     retrievers: dict[str, Retriever] = {}
     facts: dict[str, GameFacts] = {}
+    all_chunks: dict[str, Chunk] = {}
+    secondary: dict[str, Retriever] = {}
     for game_id in games:
+        if settings.only_games and game_id not in settings.only_games:
+            continue
         path: Path = settings.path(settings.data_dir) / "processed" / game_id / f"chunks.{settings.chunker}.jsonl"
         if not path.exists():
             log.warning("sin chunks para %s (%s): corre la ingesta; el juego no estará disponible", game_id, path)
             continue
         chunks = load_chunks(path)
+        if settings.memory_notes:
+            notes_path = settings.path(settings.memory_dir) / game_id / "notes.jsonl"
+            if notes_path.exists():
+                chunks = [*chunks, *load_chunks(notes_path)]
+        all_chunks.update({c.chunk_id: c for c in chunks})
         retrievers[game_id] = make_retriever(settings.retriever, chunks, settings,  # type: ignore[arg-type]
                                              expand=settings.query_expansion)
-        facts[game_id] = GameFacts(games[game_id], chunks)
+        facts[game_id] = GameFacts(games[game_id], [c for c in chunks if c.kind == "source"])
+        if settings.secondary_search:  # wikis extra: solo se consultan como segunda busqueda
+            multi = path.with_name(f"chunks.{settings.chunker}-multi.jsonl")
+            mixed = settings.secondary_mode == "mixed"  # indice con todas las wikis, solo tras evidencia insuficiente
+            extra = [c.model_copy(update={"chunker": c.chunker + ("+all" if mixed else "+extra")}) for c in
+                     (load_chunks(multi) if multi.exists() else []) if mixed or c.origin != "strategywiki"]
+            if extra:
+                all_chunks.update({c.chunk_id: c for c in extra})
+                secondary[game_id] = make_retriever(settings.retriever, extra, settings,  # type: ignore[arg-type]
+                                                    expand=settings.query_expansion)
     if not retrievers:
         raise RuntimeError("no hay chunks para ningún juego: corre `python -m gamerag.ingest.build <juego>`")
     qx = "+qx" if settings.query_expansion else ""
-    return Pipeline(retrievers, generator=generator, input_guards=input_guards, access_filters=access_filters,
-                    output_guards=output_guards, top_k=settings.top_k, candidates=settings.candidates,
-                    retriever_name=f"{settings.retriever}{qx}/{settings.chunker}",
-                    router=Router(games, facts) if settings.router else None)
+    if generator is None and settings.generator == "haiku":
+        from gamerag.generation.base import FallbackGenerator
+        from gamerag.generation.haiku import HaikuGenerator
+        from gamerag.llm import LLMClient
+
+        generator = FallbackGenerator(HaikuGenerator(LLMClient(settings)))
+    if access_filters is None:  # G1 siempre; G2 (spoilers por ubicación) salvo que se apague explícitamente
+        access_filters = [GameFilter()]
+        if settings.spoiler_gates:
+            from gamerag.guardrails.location import LocationGate
+
+            access_filters.append(LocationGate(games))
+    if any(c.kind == "note" for c in all_chunks.values()):
+        from gamerag.guardrails.provenance import ProvenanceFilter
+
+        base = list(access_filters)
+        access_filters = [*base, ProvenanceFilter(all_chunks, base)]
+    cls: type[Pipeline] = Pipeline
+    extra: dict = {}
+    if secondary:
+        extra.update(secondary=secondary, secondary_k=settings.secondary_k,
+                     secondary_replace=settings.secondary_mode == "mixed")
+    if settings.use_graph:
+        from gamerag.graph import GraphPipeline
+        from gamerag.llm import LLMClient
+
+        cls = GraphPipeline
+        if settings.evidence_eval:
+            from gamerag.agents.evidence import EvidenceEvaluator
+
+            extra.update(evidence=EvidenceEvaluator(LLMClient(settings)), max_rewrites=settings.max_rewrites,
+                         evidence_mode=settings.evidence_mode)
+        if settings.planner:
+            from gamerag.agents.planner import QueryPlanner
+
+            extra["planner"] = QueryPlanner(LLMClient(settings))
+    return cls(retrievers, generator=generator, input_guards=input_guards, access_filters=access_filters,
+               output_guards=output_guards, top_k=settings.top_k, candidates=settings.candidates,
+               retriever_name=f"{settings.retriever}{qx}/{settings.chunker}",
+               router=Router(games, facts) if settings.router else None, **extra)
