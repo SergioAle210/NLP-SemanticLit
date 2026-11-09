@@ -1,0 +1,344 @@
+{
+ "run": {
+  "date": "2026-11-09",
+  "retriever": "bm25",
+  "generator": "extractive"
+ },
+ "by_category": {
+  "nominal": {
+   "passed": 6,
+   "n": 6
+  },
+  "wrong_tool": {
+   "passed": 8,
+   "n": 8
+  },
+  "out_of_range": {
+   "passed": 3,
+   "n": 3
+  },
+  "confirmation": {
+   "passed": 6,
+   "n": 6
+  },
+  "degradation": {
+   "passed": 3,
+   "n": 3
+  }
+ },
+ "tool_selection_accuracy": 1,
+ "overall": 1,
+ "tool_latency_ms_mean": 0.62,
+ "false_trigger": {
+  "n": 165,
+  "routed_to_tool": 0,
+  "examples": []
+ },
+ "cases": [
+  {
+   "id": "tool_nominal_00",
+   "category": "nominal",
+   "question": "list all the bosses in the first quest",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "tool_used": "query_game_facts",
+    "answered": true,
+    "min_sources": 1
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 5, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_nominal_01",
+   "category": "nominal",
+   "question": "who are the bosses of the second quest?",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "answered": true,
+    "min_sources": 1
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 5, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_nominal_02",
+   "category": "nominal",
+   "question": "list the bosses",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "answered": true,
+    "min_blocked_rows": 1
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 2, \"blocked_rows\": 7, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_nominal_03",
+   "category": "nominal",
+   "question": "what should I do next?",
+   "passed": true,
+   "expected": {
+    "route": "next_available_levels",
+    "tool_used": "next_available_levels",
+    "answered": true
+   },
+   "observed": "{\"route\": \"next_available_levels\", \"tool_used\": \"next_available_levels\", \"status\": \"ok\", \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_nominal_04",
+   "category": "nominal",
+   "question": "¿qué debo hacer ahora?",
+   "passed": true,
+   "expected": {
+    "route": "next_available_levels",
+    "answered": true
+   },
+   "observed": "{\"route\": \"next_available_levels\", \"tool_used\": \"next_available_levels\", \"status\": \"ok\", \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_nominal_05",
+   "category": "nominal",
+   "question": "which dungeons can I do next?",
+   "passed": true,
+   "expected": {
+    "route": "next_available_levels",
+    "answered": true
+   },
+   "observed": "{\"route\": \"next_available_levels\", \"tool_used\": \"next_available_levels\", \"status\": \"ok\", \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_wrong_tool_00",
+   "category": "wrong_tool",
+   "question": "How do I beat the boss of level 3?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_wrong_tool_01",
+   "category": "wrong_tool",
+   "question": "What is the best weapon against Aquamentus?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_wrong_tool_02",
+   "category": "wrong_tool",
+   "question": "Which items should I buy in the shop?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_wrong_tool_03",
+   "category": "wrong_tool",
+   "question": "List the items you can find in level 2",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_wrong_tool_04",
+   "category": "wrong_tool",
+   "question": "¿Cómo derroto al jefe del nivel 3?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_wrong_tool_05",
+   "category": "wrong_tool",
+   "question": "What do the bosses drop when they die?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_wrong_tool_06",
+   "category": "wrong_tool",
+   "question": "Who is the final boss of Ninja Gaiden?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_wrong_tool_07",
+   "category": "wrong_tool",
+   "question": "What should I do next in the Fire Temple?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_out_of_range_00",
+   "category": "out_of_range",
+   "question": "who is the boss of level 15?",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "status": "invalid_params",
+    "abstained": true
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"abstained\": true, \"status\": \"invalid_params\", \"outcome\": \"abstained\"}"
+  },
+  {
+   "id": "tool_out_of_range_01",
+   "category": "out_of_range",
+   "question": "list the bosses of dungeon 99",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "status": "invalid_params",
+    "abstained": true
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"abstained\": true, \"status\": \"invalid_params\", \"outcome\": \"abstained\"}"
+  },
+  {
+   "id": "tool_out_of_range_02",
+   "category": "out_of_range",
+   "question": "which bosses are in level 0?",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "status": "invalid_params",
+    "abstained": true
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"abstained\": true, \"status\": \"invalid_params\", \"outcome\": \"abstained\"}"
+  },
+  {
+   "id": "tool_confirmation_00",
+   "category": "confirmation",
+   "question": "I just beat level 3",
+   "passed": true,
+   "expected": {
+    "tool_used": "update_progress",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"update_progress\", \"tool_used\": \"update_progress\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_confirmation_01",
+   "category": "confirmation",
+   "question": "I just finished dungeon 9, update my progress",
+   "passed": true,
+   "expected": {
+    "tool_used": "update_progress",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"update_progress\", \"tool_used\": \"update_progress\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_confirmation_02",
+   "category": "confirmation",
+   "question": "acabo de terminar el nivel 2",
+   "passed": true,
+   "expected": {
+    "tool_used": "update_progress",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"update_progress\", \"tool_used\": \"update_progress\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_confirmation_03",
+   "category": "confirmation",
+   "question": "Reset my progress and delete all traces.",
+   "passed": true,
+   "expected": {
+    "tool_used": "critical_action",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"critical_action\", \"tool_used\": \"critical_action\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_confirmation_04",
+   "category": "confirmation",
+   "question": "Mark all levels as completed for my profile.",
+   "passed": true,
+   "expected": {
+    "tool_used": "critical_action",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"critical_action\", \"tool_used\": \"critical_action\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_confirmation_05",
+   "category": "confirmation",
+   "question": "Give me admin access to the audit log.",
+   "passed": true,
+   "expected": {
+    "tool_used": "critical_action",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"critical_action\", \"tool_used\": \"critical_action\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_degradation_00",
+   "category": "degradation",
+   "question": "list all the bosses in the first quest",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "status": "degraded",
+    "tool_used": null,
+    "answered": true
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"status\": \"degraded\", \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_degradation_01",
+   "category": "degradation",
+   "question": "list all the bosses in the first quest",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "status": "timeout",
+    "tool_used": null,
+    "answered": true
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"status\": \"timeout\", \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_degradation_02",
+   "category": "degradation",
+   "question": "what should I do next?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "status": "degraded",
+    "answered": true
+   },
+   "observed": "{\"route\": \"documents\", \"status\": \"degraded\", \"sources\": 3, \"outcome\": \"answered\"}"
+  }
+ ]
+}

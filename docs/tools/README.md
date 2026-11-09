@@ -43,9 +43,10 @@ Explícitas y auditables. Ante la duda, el router elige `documents`.
 
 | Ruta | Regla |
 | --- | --- |
-| `update_progress` | "I (just) beat/finished/completed/cleared … level/dungeon/stage/act" |
-| `next_available_levels` | "what should I do next", "which levels can I…", "next level/dungeon", "my progress" |
-| `query_game_facts` | Menciona "boss(es)" + "who/which/what/list/all/every" y **no** dice "how": "how do I defeat the boss" es una pregunta de estrategia y va al RAG |
+| `critical_action` | Reset/borrado de perfil o auditoría, "mark all levels", cambiar el rol, pedir admin: **nunca se ejecuta**, `needs_human_review` |
+| `update_progress` | Un *reporte* de progreso ("I just beat / I've just completed level 3", "acabo de terminar el nivel 2"), no una pregunta ("how do I beat …") |
+| `next_available_levels` | "what should I do next" (sin "in/at/after …" un lugar concreto), "which levels can I…", "what is the next level", "my progress"; ES: "¿qué debo hacer ahora?", "siguiente nivel" |
+| `query_game_facts` | Menciona "boss(es)/jefe(s)" + una **enumeración** (list/all/every/each/who are/who is/which bosses/cuáles/todos) y **no** dice "how/cómo": "what do the bosses drop" y "how do I defeat the boss" van al RAG |
 | `documents` | Todo lo demás |
 
 **Parámetros:** el nivel sale de "level N", "Level-N" o "dungeon N", y la quest de "first/1st quest" o "quest 1". Si la pregunta no dice la quest, se usa la del perfil.
@@ -55,7 +56,9 @@ Explícitas y auditables. Ante la duda, el router elige `documents`.
 - **Alcance:** no hay SQL libre, solo consultas predefinidas con parámetros; `PRAGMA query_only` (solo lectura); máximo 50 filas.
 - **Parámetros:** se validan contra la configuración del juego. "level 15" no ejecuta la consulta y responde que no existe (`status: invalid_params`).
 - **Spoilers:** cada fila se evalúa con los **mismos `AccessFilter`** del pipeline, como si fuera un chunk ubicado en su (quest, nivel). Cuando se implementen G2/G3, los jefes de niveles no alcanzados se ocultan sin tocar la herramienta, y la respuesta dice cuántos quedaron ocultos.
-- **Degradación:** si la herramienta falla, la pregunta sigue por el RAG (`status: degraded` en la traza).
+- **Degradación:** si la herramienta falla, la pregunta sigue por el RAG (`status: degraded` en la traza); si excede `tool_timeout_s` (5 s por defecto) también (`status: timeout`). El hilo de la herramienta no se puede matar, pero la respuesta no espera.
+- **Alcance por solicitud:** una sola herramienta por solicitud (`tool.calls = 1`); el router elige una ruta y no hay encadenamiento.
+- **Alcance por usuario:** límite de solicitudes por minuto en la API (`rate_limit_per_min`, 60 por defecto) sobre `/ask` y `/search`; excederlo devuelve 429.
 - **Acciones críticas:** `update_progress` requiere confirmación humana.
 - **Guards:** los de entrada corren **antes** del router, y los de salida (citas) también se aplican a las respuestas de las herramientas.
 
@@ -76,3 +79,29 @@ Explícitas y auditables. Ante la duda, el router elige `documents`.
 | Degradación controlada | La herramienta lanza una excepción y la respuesta sale del RAG |
 
 Además: base de datos de solo lectura, gates aplicados por fila, guards de entrada antes del router.
+
+
+## Evaluación de herramientas (banco `eval/cases_tools.jsonl`, `python -m gamerag.evaluation.tools_eval`)
+
+26 casos con el esquema del §8 más `expect` y, para degradación, una falla inyectada (`fault`: excepción o timeout). Se
+corre offline (BM25 + generador extractivo, sin costo). Mide: selección de herramienta, ejecución, parámetros,
+confirmación, degradación y la **tasa de falso disparo** (preguntas legítimas de los bancos de documentos que el router
+desvía a una herramienta).
+
+| Categoría | Casos | Resultado |
+| --- | ---: | ---: |
+| Nominal (incluye español y gates por fila) | 6 | 6/6 |
+| Selección errónea (deben ir a documentos) | 8 | 8/8 |
+| Parámetros fuera de rango | 3 | 3/3 |
+| Acción con confirmación humana | 6 | 6/6 |
+| Degradación (excepción, timeout) | 3 | 3/3 |
+| Falso disparo en los bancos de documentos | 165 | 0 |
+
+**Honestidad del número.** El primer pase de este banco encontró cuatro fallos reales del router (reporte de progreso
+confundido con una pregunta "How do I beat…", enumeración disparada por "what do the bosses drop", OoT sin la
+herramienta habilitada, español sin soportar), que se corrigieron; por eso el 26/26 es **conjunto de desarrollo**. Para
+no engañarnos se escribió un segundo banco independiente (`eval/cases_tools_heldout.jsonl`, 13 casos, frases nuevas),
+corrido **antes** de corregir: **11/13 (85 %)** (`eval/results/*_tools_heldout_before-fix.json`). Sus dos fallos
+("next dungeon" dentro de una pregunta sobre ítems; "I've just completed …") se corrigieron después, así que ese banco
+ya tampoco es independiente (13/13). Un router de reglas se sobreajusta a sus bancos: la cifra defendible es ~85 % en
+frases no vistas, con falso disparo 0/165 en preguntas de documentos.

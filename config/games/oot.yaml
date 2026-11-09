@@ -23,7 +23,7 @@ title_locations:
   "Ganon's Castle": {level: 9, quest_name: main}
 
 exclude_pages: ["The Legend of Zelda: Ocarina of Time/Table of Contents"]
-tools: [search_documents]
+tools: [search_documents, next_available_levels, update_progress]
 query_expansion:
   rewrites: []
   synonyms:

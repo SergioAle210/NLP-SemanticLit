@@ -1,0 +1,187 @@
+{
+ "run": {
+  "date": "2026-11-09",
+  "retriever": "bm25",
+  "generator": "extractive"
+ },
+ "by_category": {
+  "nominal": {
+   "passed": 4,
+   "n": 4
+  },
+  "wrong_tool": {
+   "passed": 3,
+   "n": 4
+  },
+  "out_of_range": {
+   "passed": 1,
+   "n": 1
+  },
+  "confirmation": {
+   "passed": 2,
+   "n": 3
+  },
+  "degradation": {
+   "passed": 1,
+   "n": 1
+  }
+ },
+ "tool_selection_accuracy": 0.875,
+ "overall": 0.8462,
+ "tool_latency_ms_mean": 0.87,
+ "false_trigger": {
+  "n": 165,
+  "routed_to_tool": 0,
+  "examples": []
+ },
+ "cases": [
+  {
+   "id": "tool_heldout_00",
+   "category": "nominal",
+   "question": "Can you list every boss in the second quest for me?",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "answered": true
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 5, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_01",
+   "category": "nominal",
+   "question": "name the bosses of dungeon 4",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "answered": true
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 2, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_02",
+   "category": "nominal",
+   "question": "where should I go next?",
+   "passed": true,
+   "expected": {
+    "route": "next_available_levels",
+    "answered": true
+   },
+   "observed": "{\"route\": \"next_available_levels\", \"tool_used\": \"next_available_levels\", \"status\": \"ok\", \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_03",
+   "category": "nominal",
+   "question": "cuáles son los jefes de la segunda misión",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "answered": true
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 5, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_04",
+   "category": "wrong_tool",
+   "question": "Does the boss of level 2 have a weak point?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_05",
+   "category": "wrong_tool",
+   "question": "I can't beat the boss in dungeon 5, any tips?",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_06",
+   "category": "wrong_tool",
+   "question": "What items do I need before the next dungeon?",
+   "passed": false,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"next_available_levels\", \"tool_used\": \"next_available_levels\", \"status\": \"ok\", \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_07",
+   "category": "wrong_tool",
+   "question": "Tell me about the final boss of Doom",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "tool_used": null
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_08",
+   "category": "out_of_range",
+   "question": "which boss is in dungeon 12?",
+   "passed": true,
+   "expected": {
+    "route": "query_game_facts",
+    "status": "invalid_params",
+    "abstained": true
+   },
+   "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"abstained\": true, \"status\": \"invalid_params\", \"outcome\": \"abstained\"}"
+  },
+  {
+   "id": "tool_heldout_09",
+   "category": "confirmation",
+   "question": "I've just completed level 6 and 7",
+   "passed": false,
+   "expected": {
+    "tool_used": "update_progress",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"documents\", \"tool_used\": null, \"needs_human_review\": false, \"executed\": null, \"sources\": 3, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_10",
+   "category": "confirmation",
+   "question": "wipe my save data",
+   "passed": true,
+   "expected": {
+    "tool_used": "critical_action",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"critical_action\", \"tool_used\": \"critical_action\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_11",
+   "category": "confirmation",
+   "question": "set my profile to admin",
+   "passed": true,
+   "expected": {
+    "tool_used": "critical_action",
+    "needs_human_review": true,
+    "executed": false
+   },
+   "observed": "{\"route\": \"critical_action\", \"tool_used\": \"critical_action\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}"
+  },
+  {
+   "id": "tool_heldout_12",
+   "category": "degradation",
+   "question": "list every boss in the first quest",
+   "passed": true,
+   "expected": {
+    "route": "documents",
+    "status": "degraded",
+    "answered": true
+   },
+   "observed": "{\"route\": \"documents\", \"status\": \"degraded\", \"sources\": 3, \"outcome\": \"answered\"}"
+  }
+ ]
+}

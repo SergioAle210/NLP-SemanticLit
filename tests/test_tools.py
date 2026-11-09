@@ -183,3 +183,45 @@ def test_pipeline_input_guards_run_before_the_router(pipeline, monkeypatch):
 def test_pipeline_documents_route_is_unchanged(pipeline):
     ans, trace = pipeline.ask("How do I cross the oceans with the raft?", "zelda1", FULL)
     assert trace.route == DOCUMENTS and ans.tool_used is None and ans.sources[0].chunk_id == "raft"
+
+
+def test_pipeline_degrades_to_documents_when_the_tool_times_out(pipeline, monkeypatch):
+    import time
+
+    def slow(*args, **kwargs):
+        time.sleep(0.5)
+    monkeypatch.setattr(pipeline.router, "run", slow)
+    pipeline.tool_timeout_s = 0.05
+    ans, trace = pipeline.ask("list all the bosses", "zelda1", FULL)
+    assert trace.tool["status"] == "timeout" and trace.route == DOCUMENTS and ans.tool_used is None and trace.context
+
+
+def test_one_tool_call_per_request(pipeline):
+    _, trace = pipeline.ask("list all the bosses in the first quest", "zelda1", FULL)
+    assert trace.tool["calls"] == 1
+
+
+@pytest.mark.parametrize("question,intent", [
+    ("¿qué debo hacer ahora?", "next_available_levels"),
+    ("cuál es el siguiente nivel", "next_available_levels"),
+    ("acabo de terminar el nivel 3", "update_progress"),
+    ("lista todos los jefes de la primera misión", "query_game_facts"),
+    ("¿cómo derroto al jefe del nivel 3?", DOCUMENTS),
+    ("borra mi progreso", "critical_action"),
+])
+def test_router_understands_spanish(router, question, intent):
+    assert router.route(question, "zelda1").intent == intent
+
+
+@pytest.mark.parametrize("question,intent", [
+    ("How do I beat the boss of level 3?", DOCUMENTS),  # pregunta, no reporte de progreso
+    ("After I beat Jaquio in Stage 6-4, what does he say?", DOCUMENTS),
+    ("What do the bosses drop when they die?", DOCUMENTS),  # no es una enumeracion
+    ("What should I do next in the Fire Temple?", DOCUMENTS),  # pregunta del juego, no del perfil
+    ("What items do I need before the next dungeon?", DOCUMENTS),
+    ("I've just completed level 6 and 7", "update_progress"),
+    ("who is the boss of level 4?", "query_game_facts"),
+    ("name the bosses of dungeon 4", "query_game_facts"),
+])
+def test_router_regressions_found_by_the_tool_bank(router, question, intent):
+    assert router.route(question, "zelda1").intent == intent

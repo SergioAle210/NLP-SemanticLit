@@ -104,3 +104,15 @@ def test_reset_profiles_requires_admin(client):
 ])
 def test_redact_pii(text, expected):
     assert redact_pii(text) == expected
+
+
+def test_rate_limit_per_user(tmp_path):
+    settings = Settings(root=ROOT, state_db=tmp_path / "rl.sqlite3", rate_limit_per_min=3)
+    store = Store(settings.state_db)
+    pipeline = Pipeline({"zelda1": BM25Index(CORPUS)}, top_k=2, candidates=5)
+    body = {"question": "How do I cross the oceans?", "game": "zelda1", "user_id": "novato"}
+    with TestClient(create_app(settings=settings, pipeline=pipeline, store=store)) as c:
+        codes = [c.post("/ask", json=body).status_code for _ in range(4)]
+        other = c.post("/ask", json={**body, "user_id": "intermedio"}).status_code
+    store.close()
+    assert codes == [200, 200, 200, 429] and other == 200

@@ -26,14 +26,27 @@ from gamerag.tools.facts import GameFacts
 
 DOCUMENTS = "documents"
 
-_HOW = re.compile(r"\bhow\b", re.I)
-_BOSS = re.compile(r"\bboss(es)?\b", re.I)
-_LISTISH = re.compile(r"\b(who|which|what|list|all|every|name)\b", re.I)
+_HOW = re.compile(r"\b(how|c[oó]mo)\b", re.I)
+_BOSS = re.compile(r"\b(boss(es)?|jefes?)\b", re.I)
+# Pide una enumeracion ("list the bosses", "who are the bosses"); "what do bosses drop" NO es una enumeracion.
+_LISTISH = re.compile(
+    r"\b(list|all|every|each|name the|who are|who is|which (?:bosses|boss|are)|what (?:bosses|are the bosses)|"
+    r"cu[aá]les|qui[eé]nes|lista|todos)\b", re.I)
+# "what should I do next in the Fire Temple?" es una pregunta del juego (documentos), no del progreso del perfil.
 _PROGRESS = re.compile(
-    r"\b(what (should|do|can) i do next|what('s| is) next|where (should|do) i go next|"
-    r"which (levels?|dungeons?|stages?) (can|should|do) i|next (level|dungeon|stage)|my progress)\b", re.I)
-_UPDATE = re.compile(r"\bi (just |already )?(beat|finished|completed|cleared|passed)\b.*"
-                     r"\b(level|dungeon|stage|act)\b", re.I)
+    r"\b(what (should|do|can) i do next(?! (in|at|on|inside|during|after|before|with)\b)|what('s| is) next|"
+    r"where (should|do) i go next|"
+    r"which (levels?|dungeons?|stages?) (can|should|do) i|"
+    r"(?:what is|what's|which is) the next (level|dungeon|stage)|my progress|"
+    r"qu[eé] (debo|hago|puedo|sigue)( hacer)?( ahora| despu[eé]s| luego)?|cu[aá]l es el siguiente "
+    r"(nivel|mazmorra|etapa)|siguiente (nivel|mazmorra|etapa)|mi progreso)\b", re.I)
+# Un REPORTE de progreso ("I just beat level 3", "I finished dungeon 2"), no una pregunta ("how do I beat ...").
+_UPDATE = re.compile(r"(?:^|[.!,;]\s*)i (?:just |already |have |'ve )?(beat|finished|completed|cleared|passed)\b.*"
+                     r"\b(level|dungeon|stage|act)\b|"
+                     r"\bi(?:'ve| have| just| already)(?: just| already)? (beat|finished|completed|cleared|passed)\b.*"
+                     r"\b(level|dungeon|stage|act)\b|"
+                     r"\b(acabo de|ya) (terminar|pasar|completar|vencer|superar)\b.*\b(nivel|mazmorra|etapa|acto)\b|"
+                     r"\b(termin[eé]|complet[eé]|super[eé]|pas[eé])\b.*\b(nivel|mazmorra|etapa|acto)\b", re.I)
 # Acciones que cambian el perfil o los datos de auditoria: nunca se ejecutan; piden confirmacion humana.
 _CRITICAL = re.compile(
     r"\b(reset|wipe|delete|erase|clear|reinicia|borra|elimina)\b[^.?!\n]{0,30}"

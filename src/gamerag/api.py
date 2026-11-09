@@ -14,6 +14,8 @@ son texto y FastAPI no puede resolver los alias de dependencias definidos dentro
 """
 
 import logging
+import time
+from collections import defaultdict, deque
 from contextlib import asynccontextmanager
 from typing import Annotated
 
@@ -105,6 +107,20 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
     app = FastAPI(title="GameRAG API", version=__version__, lifespan=lifespan,
                   description="RAG sobre juegos retro de NES con protección de spoilers (CC3103, UVG).")
 
+    recent: dict[str, deque[float]] = defaultdict(deque)  # solicitudes por usuario en el ultimo minuto
+
+    def rate_limit(request: Request, user_id: str) -> None:
+        """Limite de alcance por usuario (ventana deslizante de 60 s) sobre /ask y /search; 0 = sin limite."""
+        limit = request.app.state.settings.rate_limit_per_min
+        if not limit:
+            return
+        now, window = time.monotonic(), recent[user_id]
+        while window and now - window[0] > 60:
+            window.popleft()
+        if len(window) >= limit:
+            raise HTTPException(429, f"demasiadas solicitudes ({limit} por minuto); espera un momento")
+        window.append(now)
+
     def get_pipeline(request: Request) -> Pipeline:
         return request.app.state.pipeline
 
@@ -154,19 +170,21 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
         return profile_or_404(store, user_id)
 
     @app.post("/ask", response_model=AskResponse, tags=["consulta"])
-    def ask(req: AskRequest, pipe: PipelineDep, store: StoreDep) -> AskResponse:
+    def ask(req: AskRequest, request: Request, pipe: PipelineDep, store: StoreDep) -> AskResponse:
         """Pregunta → respuesta con citas (contrato §11) + traza. Cada consulta queda en el log de auditoría."""
         check_game(pipe, req.game)
         profile = profile_or_404(store, req.user_id)
+        rate_limit(request, req.user_id)
         answer, trace = pipe.ask(req.question, req.game, profile)
         store.log_trace(trace)
         return AskResponse(answer=answer, trace=trace if req.include_trace else None)
 
     @app.post("/search", response_model=SearchResponse, tags=["consulta"])
-    def search(req: AskRequest, pipe: PipelineDep, store: StoreDep) -> SearchResponse:
+    def search(req: AskRequest, request: Request, pipe: PipelineDep, store: StoreDep) -> SearchResponse:
         """Solo recuperación + filtros: el contexto que recibiría el generador (sin generar, sin tokens)."""
         check_game(pipe, req.game)
         profile = profile_or_404(store, req.user_id)
+        rate_limit(request, req.user_id)
         context, trace = pipe.search(req.question, req.game, profile)
         hits = [SearchHit(rank=h.rank, score=round(h.score, 4), chunk_id=h.chunk.chunk_id, source=h.chunk.source,
                           section=h.chunk.section, url=h.chunk.url, text=h.chunk.text) for h in context]

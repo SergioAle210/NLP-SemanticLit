@@ -10,7 +10,7 @@ Cubre el §5.8 y el §10 de [course/instructions.md](../course/instructions.md).
 | Control de acceso | G1 (juego) y G2 (ubicación/progreso) activos y medidos; filtro de procedencia para notas; G2b/G3/G4 pendientes ([access-control.md](../architecture/access-control.md)) | 🟡 G1, G2 |
 | Inyección de prompts | `InjectionGuard` (firmas EN/ES), contexto delimitado como datos, `QuarantineFilter` (corpus) y escaneo del corpus ([guardrails/injection.py](../../src/gamerag/guardrails/injection.py)) | ✅ |
 | Validación de salida | Contrato `Answer`, `CitationGuard` (citas ⊆ contexto) y `LeakGuard` (prompt del sistema y secretos) | ✅ |
-| Límites de herramientas | Herramientas según la config del juego; parámetros validados (`ToolParamError`); `critical_action`/`update_progress` nunca se ejecutan; degradación al RAG | 🟡 Falta tope de llamadas/timeout |
+| Límites de herramientas | Herramientas según la config del juego; parámetros validados (`ToolParamError`); `critical_action`/`update_progress` nunca se ejecutan; degradación al RAG | ✅ timeout por herramienta, una llamada por solicitud, rate limit por usuario |
 | Fuera de dominio | Abstención (generador con contexto cerrado) | ✅ |
 | Logs de auditoría | Traza completa en SQLite; PII redactada (correos, teléfonos, claves) en el log y antes del LLM (`PIIGuard`); consulta solo para `admin` | ✅ |
 | Credenciales | `.env` en `.gitignore`, con `.env.example` | ✅ |

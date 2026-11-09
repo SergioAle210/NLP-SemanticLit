@@ -13,6 +13,8 @@ from __future__ import annotations
 import logging
 import time
 import uuid
+from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import TimeoutError as FutureTimeout
 from pathlib import Path
 
 from pydantic import BaseModel
@@ -92,10 +94,13 @@ class Pipeline:
         secondary: dict[str, Retriever] | None = None,
         secondary_k: int = 3,
         secondary_replace: bool = False,
+        tool_timeout_s: float = 5.0,
     ):
         self.retrievers = retrievers
         self.secondary, self.secondary_k = secondary or {}, secondary_k
         self.secondary_replace = secondary_replace
+        self.tool_timeout_s = tool_timeout_s
+        self._tool_pool = ThreadPoolExecutor(max_workers=4, thread_name_prefix="tool")
         self.router = router
         self.generator = generator or ExtractiveGenerator()
         self.input_guards = input_guards if input_guards is not None else [BasicInputGuard()]
@@ -177,8 +182,17 @@ class Pipeline:
         def blocker(chunk) -> str | None:
             return next((f.name for f in self.access_filters if not f.allows(chunk, profile, game)), None)
 
+        trace.tool["calls"] = 1  # alcance: una sola herramienta por solicitud (el router elige una ruta)
         try:
-            result = self.router.run(route, game, profile, blocker)
+            # Limite de tiempo: una herramienta lenta no bloquea la respuesta; se degrada al RAG.
+            result = self._tool_pool.submit(self.router.run, route, game, profile, blocker).result(
+                timeout=self.tool_timeout_s)
+        except FutureTimeout:
+            log.warning("herramienta %s excedio %.1fs; se degrada al RAG", route.intent, self.tool_timeout_s)
+            trace.tool.update(status="timeout", error=f"timeout>{self.tool_timeout_s}s")
+            trace.route = "documents"
+            trace.latency_ms["tool"] = _ms(t)
+            return None
         except ToolParamError as e:  # parámetros fuera de rango: no se ejecuta, se informa
             trace.tool.update(status="invalid_params", error=str(e))
             trace.latency_ms["tool"] = _ms(t)
@@ -358,5 +372,6 @@ def build_pipeline(
             extra["planner"] = QueryPlanner(LLMClient(settings))
     return cls(retrievers, generator=generator, input_guards=input_guards, access_filters=access_filters,
                output_guards=output_guards, top_k=settings.top_k, candidates=settings.candidates,
+               tool_timeout_s=settings.tool_timeout_s,
                retriever_name=f"{settings.retriever}{qx}/{settings.chunker}",
                router=Router(games, facts) if settings.router else None, **extra)
