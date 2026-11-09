@@ -1,0 +1,232 @@
+The '''Outfitter''' is a user interface in [[Redemption Multiplayer|multiplayer]] for ''[[Red Dead Redemption]]'' that allows players to review and select the [[Multiplayer Characters|characters]], [[Horse|mounts]], and [[titles]] that they have unlocked.
+
+==Description==
+Once connected to a multiplayer session, the player can enter the Outfitter at any time by selecting it from either the Select menu or State art menu. The player will be warned that proceeding to the Outfitter will cause them to be disconnected from other players (in other words, they will leave the [[Free Roam]] session or other game mode that they are in for the duration of their time in the Outfitter.
+
+Once in the Outfitter, the interface shows the player's currently selected character, mount, and title and presents menu options for changing each of those items. Only items that are unlocked by the player or given to all players by default will be available for selection, all other items will be either blacked out (characters, mounts) or listed with a question mark (titles).
+
+Once the player chooses a new character, mount, or title, the display within the Outfitter will be updated for the player to review. Once satisfied with the changes, leaving the Outfitter will return the player to Free Roam. If the player was in a [[Posse]], they will generally remain in that posse upon returning from the Outfitter.
+
+==Characters==
+{{main|Multiplayer Characters}} There are eighteen different categories of characters to choose from - thirteen available with the original game and five added by various DLC. These categories provide a combined total of over 100 playable characters. By default, all of the Misc Mexicans, Misc Criminals, and the first member of each other group (except Legendary) are unlocked. The other characters start out locked and can be obtained by gaining levels and completing challenges. For the five categories provided by DLC, all characters in the category are immediately available upon installation of the DLC.
+
+{|class="wikitable" style="vertical-align:top;" valign="top"
+![[Miners]]
+![[Rebeldes]]
+![[Dutch's Gang]]
+![[Walton's Gang (Multiplayer)|Walton's Gang]]
+![[Cattle Rustlers]]
+|-
+|
+*[[Earle Martin]]
+*[[Jarred Vaughan]]
+*[[Guy Percival]]
+*[[Tony Gallows]]
+*[[Quick Tom Candle]]
+*[[Gerald Conway]]
+*[[D.R. Gosset]]
+*[[Harvard Coskie]]
+|
+
+*[[Alfredo Castaneda]]
+*[[Ramon Paradiso]]
+*[[Jaime Garcia]]
+*[[Cristoban Borracha]]
+*[[Jesus Eccheveria]]
+*[[Michael Sustantivo]]
+*[[Juan Sierra]]
+*[[Ramon Dominguez]]
+|
+
+*[[Al Wolfscreed]]
+*[[Mala Yawetch]]
+*[[Hank Shiyani]]
+*[[Sanisuni Wagi]]
+*[[Kintan Tageyutsi]]
+*[[Jeevan Guni]]
+*[[Jay Sheeyah]]
+*[[Chief Mangan]]
+|
+
+*[[Pat O'Flanagan]]
+*[[Benjamin Earl]]
+*[[Mac Backman]]
+*[[Knobby Tom Alwin]]
+*[[Markus Barnes]]
+*[[David Anthony]]
+*[[Tricky Pat Dempson]]
+*[[TJ Laubach]]
+|
+
+*[[John Kelby]]
+*[[Ian Connors]]
+*[[Wayne Daniels]]
+*[[Michael Reese]]
+*[[Bo Schram]]
+*[[Shep Thomas]]
+*[[L.S. Roberts]]
+*[[The Tudisco Kid]]
+|-
+![[American Army]]
+![[Federales]]
+![[Lawmen]]
+![[Miscellaneous Women|Misc. Women]]
+![[Miscellaneous Mexicans|Misc. Mexicans]]
+|-
+|
+*[[Slick Nick Funtz]]
+*[[Tall Trees Ty]]
+*[[Gaptooth McGee]]
+*[[Big Bob Moorcock]]
+*[[Frederick Littlefield]]
+*[[Stephen Paul]]
+*[[Jan Booth]]
+*[[Eric Morganson]]
+|
+
+*[[Jose Falotico]]
+*[[Gustavo Andares]]
+*[[Cristo Francisco]]
+*[[Ramon Zapata]]
+*[[Mark Rafael]]
+*[[Juan Diaz]]
+*[[Jefe Bautista]]
+*[[Raudel Diaz]]
+|
+
+*[[Seth LaValley]]
+*[[RJ Peart]]
+*[[Fred Everts]]
+*[[Rowan Babcock]]
+*[[Heath Michaels]]
+*[[Robert Daniels]]
+*[[Conor Callahan]]
+*[[Sean Cobbler]]
+|
+
+*[[Madam Hernandez]]
+*[[Carrie Boudicca]]
+*[[Nicole Louise]]
+*[[Melissa Rose]]
+*[[Arlene Dunn]]
+*[[Allie Dickey]]
+*[[Alice Thayer]]
+*[[Sarah Grace]]
+|
+
+*[[Alejandro Cruz]]
+*[[Jefe Rocha]]
+*[[Roberto Gatos]]
+*[[Antonio Xavier]]
+*[[Esteban Morales]]
+*[[Juan Vargas]]
+*[[Jose Rodriguez]]
+*[[Billy Sanchez]]
+*[[Fernando Naranjo]]
+|-
+![[Miscellaneous Criminals|Misc. Criminals]]
+![[Legend]]ary
+![[U.S. Marshals]]
+![[Legends and Killers|Red Dead Revolver]]
+![[Undead Nightmare|Zombies]]
+|-
+|
+*[[Jason M. Bright]]
+*[[Garett Comstock]]
+*[[Dr. Lane Davies]]
+*[[Stuart B. Wilson III]]
+*[[Charley Bullock]]
+*[[Dirty Dan Pister]]
+*[[Nick Klein]]
+*[[Abraham Marsh]]
+*[[Jesse Lange]]
+*[[Nick Robbins]]
+|
+
+*[[Kyle McGinty]]
+*[[Ezekiel Hogey]]
+*[[Mescalero Mike]]
+*[[Theo Crenshaw]]
+*[[Christy Weller]]
+|
+*[[Hank Sutter]]
+*[[David Darwinson]]
+*[[Leon Cornwell]]
+*[[Derek Fulton]]
+*[[Daren Ward]]
+*[[Colby Oats]]
+*[[Charley Burg]]
+*[[Dillon Metzen]]
+|
+
+*[[Red Harlow]]
+*[[Buffalo Soldier]]
+*[[Mr. Kelley]]
+*[[Pig Josh]]
+*[[Ugly Chris|Ugly Chris Baley]]
+*[[Annie Stoakes]]
+*[[Shadow Wolf]]
+*[[Jack Swift]]
+|
+
+*[[Poe Boll]]
+*[[Magic Jackson]]
+*[[Zombie Ricketts]]
+*[[John Marston#Undead Nightmare|Zombie Marston]]
+*[[Viper Craven]]
+*[[Ishmael Raimi]]
+*[[Sarah Reese]]
+*[[Paco Romero]]
+|-
+![[Liars and Cheats|Redemption]]
+![[Liars and Cheats|Damnation]]
+![[Myths and Mavericks|Revolution]]
+|-
+|
+*[[John Marston]]
+*[[Jack Marston]]
+*[[Abigail Marston]]
+*[[Bonnie MacFarlane]]
+*[[Leigh Johnson]]
+*[[Luisa Fortuna]]
+*[[Nigel West Dickens]]
+*[[Seth Briars]]
+|
+
+*[[Irish]]
+*[[Agustin Allende]]
+*[[Bill Williamson]]
+*[[Dutch van der Linde]]
+*[[Edgar Ross]]
+*[[Abraham Reyes]]
+*[[Harold MacDougal]]
+|
+
+*[[Drew MacFarlane]]
+*[[Eli]]
+*[[Javier Escuella]]
+*[[Jonah]]
+*[[Landon Ricketts]]
+*[[Nastas]]
+*[[Uncle]]
+*[[Vincente de Santa]]
+|}
+
+==Mounts==
+There are eleven mounts that players can obtain and ride while in Free Roam. The first one starts out unlocked, and the remaining 10 are unlocked after reaching a certain rank. A chart of the mounts and rank requirements is featured on the [[Redemption Multiplayer|multiplayer]] page.
+
+==Titles==
+{{main|Titles}} There are 256 [[titles]] available. The only one unlocked by default is 'Greenhorn', which is given for being Level 1. The remainder are unlocked by achieving higher ranks and completing [[Multiplayer Challenges|challenges]].
+
+==Trivia==
+*When a player goes to the Outfitter, it says that they are in [[Great Plains]], although they can not be seen on the map. This is because, behind the scenes, the Outfitter actually exists within an area across the river, north of the Great Plains. [[Red Dead Redemption 2 Cut Content|The sequel]] would later establish this area is called [[Big Valley]].
+*It is possible to see players walk among the Outfitter characters whilst in the Outfitter, since it is found in the usually unreachable area beyond the river boundary of the map north of [[Beecher's Hope]]. However, if the player can glitch beyond this river and go to the area where the Outfitter is, the Outfitter characters are shown as flambeaus on poles when in gameplay, they can be hurt and knocked over and can shoot at, and injure, the player.
+
+==Related Content==
+{{Related Content}}
+{{Navbox Redemption Multiplayer}}
+{{Multiplayer Characters}}
+[[Category:Red Dead Redemption]]
+[[Category:Multiplayer]]
+
+[[de:Ausstatter]]

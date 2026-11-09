@@ -1,0 +1,56 @@
+{{expand|This article needs information about statistics in other GTA games (e.g. [[Grand Theft Auto 2|GTA 2]] or [[Grand Theft Auto IV|GTA IV]]).<br />Alternatively, a set of similar articles for other GTA games can be created.}}
+
+[[File:Statistics-GTASA-menu.png|thumb|right|292px|Statistics in [[Grand Theft Auto: San Andreas]].]]
+[[File:Statistics-GTASA.jpg|right|thumb|150px|The smaller statistics menu in GTA San Andreas (PC/PS2/Xbox version).]]
+'''Statistics''' are used in [[GTA III Era]] games to indicate progression in certain areas, or to enumerate certain activities — for example, a "Longest wheelie" statistic will measure how long a player has sustained a wheelie on a motorcycle; "Packages collected" counts how many [[Hidden Packages]] a player has acquired; "Hospital visits" counts how many times a player has been [[Wasted]] on their current playthrough, etc.
+
+Many of these statistics are also present in older [[Grand Theft Auto|GTA]] games, but they are not detailed here.
+
+== HUD Stats ==
+Rather than recording progress or activities, these statistics are displayed onscreen during gameplay in the [[Heads Up Display]] (HUD), to give the player a greater awareness of the [[protagonist]]'s condition and situation.
+
+* '''[[Health]]''' - Health indicates the player's condition, and as such, is reduced by sustaining injuries. When the player's health is depleted, they are [[Wasted]], which results in mission failure [if the player is doing a mission at time of death], and the player being sent to hospital to be revived. Health can be regained by eating food, saving, or picking up a health "power-up" or first-aid kit. Entering an [[Ambulance]] will also restore a small amount of health.
+** It is shown by a number of triple-digit hitpoints (pre-GTA San Andreas), and a health bar (from GTA San Andreas onwards).
+
+* '''[[Body Armor|Armor]]''' - Armor counts as an extra "layer" of health; it can be acquired via an Armor [[Pickups|pickup]], purchased at an [[Ammu-Nation]] store, or, in some games, acquired by entering the Police [[Enforcer]]. The exact abilities of Armor vary from game to game — generally, Armor will absorb all gunfire and explosive damage until it is entirely depleted; damage from falls and vehicle impacts may deplete Armor, or may leave Armor intact and deplete Health.
+
+* '''[[Wanted Level]]''' - The Wanted Level indicates the level of police interest in the player, rated from a 6-head scale (GTA 1&rarr;2), 6-star scale (GTA III and [[HD Universe|IV Eras]]), and a 5-star scale ([[Grand Theft Auto V]]). If the player commits serious crimes (and the police are aware of them), it will indicate the extent of the crimes, and how much force [[Police]] will employ in capturing (or killing) the player. If the police successfully catch the player, they will be [[Busted]].
+
+* '''Altitude Meter''' - The Altitude Meter is a bar that rises or falls according to how high up the player is from sea level. This meter is only available when in an aircraft or when using a [[parachute]]. 
+
+== GTA San Andreas Statistics ==
+[[Grand Theft Auto: San Andreas|GTA San Andreas]] has the most sophisticated miscellaneous statistics in any GTA game to this date, viewable either by holding the 'status' button or key, or via the Main Menu. On the mobile ([[Apple iOS|iOS]] and [[Android]]) versions of the game, the statistics can be viewed by tapping and holding the weapon icon. These reflect [[Carl Johnson]]'s physique, physical abilities, and expertise; unlike in other GTA games, these change according to the player's actions.
+
+=== Fat ===
+This statistic measures Carl's body fat. Fat is increased by eating food. Fat is decreased by exercising, either at a [[gym]] or in the world at large. Being overweight naturally changes Carl's appearance, and eventually lessens most physical capabilities (including health) and possibly lead to random heart attacks (that can kill Carl), but Carl is required to have at least a small amount of fat - without it, exercising will reduce Carl's muscle instead of his fat.
+
+: Food is available at [[Well Stacked Pizza Co.]], [[Cluckin' Bell]], and [[Burger Shot]]. Their meals will add either 0, 1, 2, or 3% to Carl's Fat level.
+
+: For every 150 seconds of running, or every 100 seconds of biking or [[swimming]], Carl will shed 1.5% fat. At a gym, this is much faster - on the treadmill or stationary bike, Carl will shed 2.5% fat every 14 seconds. When lifting weights, Carl will shed 2.5% fat for each repetition. Also, if the player waits 48 [[time|ingame hours]] without eating, Carl will shed fat at a rate of 2.5% per in-game hour. Before this happens, the player is given the following warning: “You are starting to feel hungry and you are starting to lose energy. You need to find something to eat.” If the player has no more fat to shed, the hunger will start hampering muscle instead. If there is no fat or muscle to shed, health will continue to deplete until it eventually kills Carl.
+
+Eating too much in one sitting will cause Carl to vomit. It is dangerous to eat somewhere between 9 to 12 of the largest or salad meal at any restaurant. The magic number depends on health, fat, muscle, time, etc. If this happens, the player will not be served in any restaurant until 11 game hours have passed. Oddly enough, eating til purge does count as eating; while it won't regain health, it will stave off hunger and weight loss like normal.
+
+=== Muscle ===
+This indicates Carl's muscular development. Muscle influences the [[Respect]] and Sex Appeal stats. Muscle is increased by working out at a gym, or otherwise exercising (running, riding bikes, swimming). Having more muscle will make melee attacks that Carl makes more effective. A 100% muscle statistic is detrimental to Sex appeal and will prevent Carl from initiating contact with some [[Girlfriends in GTA San Andreas|girlfriends]]. To prevent this, obtain all 50 Oysters, buy high-end outfits and haircuts, and drive a high-end vehicle, such as a tuner or [[:Category:Super Cars|supercar]].
+
+: Using the treadmill or stationary bike at a gym for 14 seconds will gain 1% muscle. Lifting weights will gain 1% muscle for each repetition. 150 seconds (2.5 minutes) of running in-game, or 100 seconds (1.667 minutes) of swimming or biking, will cause Carl to gain 1% muscle.
+
+Oddly, swimming, cycling, and running somehow reduce Carl's muscle as opposed to increasing it. This is likely due to fatigue caused by these activities.
+
+=== Respect ===
+Respect indicates Carl's level of influence in the [[Grove Street Families]]. Having high enough Respect allows Carl to recruit gang members. Many [[missions]] increase Respect when completed, as do successful [[Gang Warfare in GTA San Andreas|gang wars]]. Respect is gained by killing rival gang members and [[police]]. Respect is lost by not wearing [[Clothing in GTA San Andreas|gang colors]] in gang territory. Carl will also lose respect if he kills members of his gang, or loses territory to other gangs.
+
+=== Sex Appeal ===
+This statistic indicates how women will react to Carl. It is influenced by Carl's [[Vehicles in GTA San Andreas|current vehicle]] (and its condition), [[Barbers|Hairstyle]], [[Clothing in GTA San Andreas|Clothing]], Fat, and Muscle. Collecting all 50 [[Oysters]] can prevent some of the pitfalls of low Sex Appeal (girlfriends being dissatisfied with Carl's appearance, or potential girlfriends not wanting to talk to Carl).
+
+=== Stamina ===
+The Stamina statistic indicates endurance with regards to running, swimming, and cycling. Low stamina means Carl will grow fatigued easily and stop sprinting after short distances. Stamina has to be built up over the course of the entire game by exercising. In [[Grand Theft Auto: Vice City Stories|GTA Vice City Stories]], a stamina bar also exists whenever the player is in the water. If it runs out, the player will drown.
+
+: For every 150 seconds (2.5 minutes) of swimming, or every 300 seconds (5 minutes) for running or biking, Carl will gain 5% Stamina. At the [[Gyms]], the treadmill and stationary bike will grant Carl 4% Stamina for every 14 seconds.
+
+=== Lung Capacity ===
+Oxygen represents how long Carl can hold his breath underwater. An oxygen meter is displayed whenever Carl [[Swimming|dives]] underwater. Lung capacity is increased by swimming underwater for extended periods, and by collecting Oysters. If the player stays underwater long enough for the oxygen meter to deplete, Carl will start rapidly losing health until he either drowns or comes up for air. After coming up for air Carl will not regain lost health if this happens, only oxygen.
+
+Trying to push an underwater vehicle back on land can be a good way to increase lung capacity, but the player must resurface when the oxygen meter lowers to around 20%.
+
+[[Category:GTA San Andreas]]

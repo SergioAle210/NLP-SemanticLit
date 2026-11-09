@@ -1,0 +1,189 @@
+
+'''Experience''' is a representation of a player's previous involvement in [[Multiplayer|multiplayer]] game modes. Experience is earned by completing specific tasks, and these experience points (commonly abbreviated to XP) will allow the player to level up. As the player levels up, they will unlock specific item upgrades, including: [[Horses|horses]], [[Weapons|weapons]], [[Outfitter|characters appearance]] and [[Titles|titles]]. There are a total of 300 online levels to achieve.
+
+==Earning Experience==
+There are many ways for a player to receive online experience:
+*Total Kills = 1 if unarmed, 5 if armed
+*Headshots = 3
+*Clearing [[Gang Hideouts|Gang Hideouts ]]
+*Completing [[Outlaw Challenges]]
+*Completing [[Hunting|Hunting Challenges]]
+*Completing [[Lawbringer Challenges]]
+*Completing [[Sharpshooter Challenges]]
+*Completing [[Survivalist Challenges]]
+*Completing [[Outlaws To The End|Co-Op Missions ]]
+*Completing [[Multiplayer Challenges#PVP|PVP Challenges]]
+
+==XP Level==
+There are 50 titles rewarded for each of the levels you can gain.
+{|style="vertical-align:top; class="wikitable"
+!Title
+!Level
+|-
+|'''Greenhorn'''
+|Level 1
+|-
+|'''Dude'''
+|Level 2
+|-
+|'''Pilgrim'''
+|Level 3
+|-
+|'''Tenderfoot'''
+|Level 4
+|-
+|'''Colt'''
+|Level 5
+|-
+|'''Mail-order Cowboy'''
+|Level 6
+|-
+|'''Pistol'''
+|Level 7
+|-
+|'''Shorthorn'''
+|Level 8
+|-
+|'''Gringo'''
+|Level 9
+|-
+|'''Journeyman'''
+|Level 10
+|-
+|'''Cowboy'''
+|Level 11
+|-
+|'''Wrangler'''
+|Level 12
+|-
+|'''Burro'''
+|Level 13
+|-
+|'''Frontiersman'''
+|Level 14
+|-
+|'''Gristle Heel'''
+|Level 15
+|-
+|'''Forty-niner'''
+|Level 16
+|-
+|'''Old Timer'''
+|Level 17
+|-
+|'''Longhorn'''
+|Level 18
+|-
+|'''Old Hand'''
+|Level 19
+|-
+|'''Rustler'''
+|Level 20
+|-
+|'''Outlaw'''
+|Level 21
+|-
+|'''Gunslinger'''
+|Level 22
+|-
+|'''Shootist'''
+|Level 23
+|-
+|'''Quick Draw'''
+|Level 24
+|-
+|'''Gun Shark'''
+|Level 25
+|-
+|'''Badman'''
+|Level 26
+|-
+|'''Long Raider'''
+|Level 27
+|-
+|'''Cabron'''
+|Level 28
+|-
+|'''Road Agent'''
+|Level 29
+|-
+|'''Hold-up Man'''
+|Level 30
+|-
+|'''Bandito'''
+|Level 31
+|-
+|'''Short-trigger man'''
+|Level 32
+|-
+|'''Hired Killer'''
+|Level 33
+|-
+|'''Mercenary'''
+|Level 34
+|-
+|'''Deputized'''
+|Level 35
+|-
+|'''Ranger'''
+|Level 36
+|-
+|'''Marshal'''
+|Level 37
+|-
+|'''Judge & Jury'''
+|Level 38
+|-
+|'''El Capitan'''
+|Level 39
+|-
+|'''Colonel'''
+|Level 40
+|-
+|'''General'''
+|Level 41
+|-
+|'''El Jefe'''
+|Level 42
+|-
+|'''Searcher'''
+|Level 43
+|-
+|'''The Kid'''
+|Level 44
+|-
+|'''The Duke'''
+|Level 45
+|-
+|'''The Ugly'''
+|Level 46
+|-
+|'''The Bad'''
+|Level 47
+|-
+|'''The Good'''
+|Level 48
+|-
+|'''The Unforgiven'''
+|Level 49
+|-
+|'''The Legend'''
+|Level 50
+|}
+
+
+==Experience in ''Red Dead Online (RDR2)''==
+The experience system returns in the online counterpart of ''Red Dead Redemption II''. The system differs from the first game due to leveling up unlocks the ABILITY to purchase items instead of automatically obtaining items upon leveling up. Experience points can be earned in many different ways, with each method containing different net values of experience points. Killing enemies in different ways will yeild the player many additional experience points. Experience points are given in bulk via completing free roam missions, active participation in PVP modes, and clearning gang hideouts. Hunting also provides experience points. Lastly, comletely milestones on ''Red Dead Online'' will yeild the player large amounts of  experience points.
+
+==Achievements==
+Accumulating experience is involved with gameplay [[achievement]]:
+
+{{achievement
+|Image = Howthewestwaswon.png
+|Title = How the West was Won
+|Score = 20
+|Trophy = Silver
+|Desc = Reach the top rank for multiplayer experience. 
+}}
+[[Category:Multiplayer]]
+[[Category:Red Dead Redemption]]

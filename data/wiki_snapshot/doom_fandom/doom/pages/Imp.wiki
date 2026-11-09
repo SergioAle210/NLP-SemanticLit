@@ -1,0 +1,39 @@
+{{Game Tabs|first = main|second = doom 1|third = doom 64|fourth = doom rpg|fifth = Doom II Rpg|sixth = doom 3|seventh = doom 2016|eighth=doom eternal|ninth=doom the dark ages}}
+
+
+The '''Imps''' are Human-sized humanoid [[demonic monster|Demons]] and also the most common enemies in DOOM games, thus being considered the "backbone" of all hellspawn in the entire franchise.
+
+The ''Doom'' instruction manual says:
+:''You thought an imp was a cute little dude in a red suit with a pitchfork. Where did these brown bastards come from? They heave balls o' fire down your throat and take several bullets to die. It's time to find a weapon better than that pistol if you're going to face more than one of these S.O.B.s.''
+
+==Trivia==
+*The [[Doom source code|DOOM source code]] gives the object name <tt>MT_TROOP</tt> and the sprite root name <tt>TROO</tt> to the Imp, arguably because Imps were called "Demon Troops" in the [[Doom Bible|DOOM Bible]], being the main and more common force of monsters of a directly demonic origin in the invasion. According to those early plans, the Imps were meant to belong to a different species than the Demon Troops and were described as more traditionally impish in design; small flying Demons, possibly like those eventually found in ''[[Heretic]]'', which were apparently called [[Gargoyle]]s, mainly to distinguish them from the existing DOOM monster, since they look like commonplace Imps.
+*Apart from [[former human|Zombies]] and [[Wolfenstein SS]], the Imps are the only hellspawn that can be [[gibs|gibbed]] (e.g. by [[rocket launcher|rockets]], [[berserk]] [[fist]] attacks, [[barrel]] [[blast damage|explosions]], and [[BFG9000|BFG]] blasts).
+*Imps are the only other monsters, aside from Zombies, that emit two different alert and death sounds when spotting the player.
+*It's very difficult getting two Imps in fighting together but, if one Imp manages to destroy a barrel (mostly via their [[w:c:powerlisting:Hell-Fire Ball Projection|Hell-Fire Ball Projection]] ability) and the resulting explosion hurts any other Imps lurking nearby, they will turn against the one that blew up the barrel in the first place, and hurt themselves mutually through scratching (since projectile attacks are hardcoded to not deal damage in-between creatures of the same species).
+*The Imp gibbing death sprite contains a [[Zombieman]] arm.
+*In a [[ZDoom|ZDOOM]]-based [[source port]], if the player is killed by an Imp (monster is credited with delivering the blow that reduces player's health to 0%), one of two obituary messages will be displayed at the top of the screen depending on which attack the Imp used to kill the player: "[player name] was slashed by an Imp" or "[player name] was burned by an Imp" for the claw and hell-fire ball attacks respectively.
+*Imps seem to resemble [[w:c:torchwood: Weevil|Weevils]] from ''Torchwood'', particularly their faces.
+*In ''[[Brutal Doom|Brutal DOOM]]'', Imps launch more realistic hell-fire balls, and also have a leaping claw attack, which they use at relatively medium-to-close distance, similarly to their [[Imp/Doom 3|''Doom 3'' counterparts]].
+*The Imp death sounds are stock soundbites of a Camel's grunt, at a lower pitch. This is also the case of some of the death sounds emitted by the [[former human|Former Human]]s.
+*An Imp's dying voice is simply a Bactrian Camel mating call.
+*A variant called the Imp Stalker is set to debut in ''[[Doom: The Dark Ages]]'', greatly resembling the classic appearance.
+
+==''[[Doom RPG]]''==
+{{Main|Imp/Doom RPG}}
+In ''[[Doom RPG]]'', the Imp appears as a class of monster. There are three variations, identified by color:
+*[[Impling]] (green)
+*Imp (normal colors)
+*[[Imp Lord]] (red with green eyes)
+
+Imps are most susceptible to attacks from shotguns.
+
+==''[[Mighty Doom]]''==
+The ''Eternal'' incarnation of the Imp appears in the mobile game ''Mighty DOOM'' as an enemy.  It attacks by lobbing several fireballs over walls, with their point of impact immediately indicated to help the Slayer avoid them.  Individual fireballs do not do as much damage as several of them, making Imps less of a threat than other monsters, but general caution should be exercised.
+
+The standard Imp, as a purely infernal creature, is vulnerable to ice weapons.  There is also a variant that throws ice balls instead of fireballs, who is conversely vulnerable to fire weapons.  Boss versions of these Imps exist that can also throw a rapid-fire stream of fireballs that track the Slayer's movements, in addition to throwing a cluster of fireballs simultaneously with either a small or large blast radius.  
+==See also==
+*[[Impse]]
+*[[Nightmare Imp]]
+[[Category:Monsters]]
+[[Category:Mighty Doom monsters]]

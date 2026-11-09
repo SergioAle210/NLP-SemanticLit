@@ -1,0 +1,123 @@
+{{Infobox Dungeon
+|image= 
+{{Media
+ |Screenshot OoT= [[File:OoT Water Temple.png|320x320px]]
+ |Screenshot OoT3D= [[File:OoT3D Water Temple.png|320x320px]]
+ |Screenshot TFH= [[File:TFH Water Temple.png|320x320px]]
+ |Screenshot TotK= [[File:TotK Water Temple.png|320x320px]]
+}}
+|caption= 
+|game= OoT, TFH, TotK
+|other= HW, DotT
+|pronunciation= 
+|location= 
+{{Infobox Game Blocks
+ |OoT= [[Lake Hylia]]
+ |TFH= [[Riverside]]
+ |TotK= [[Wellspring Island]]
+}}
+|item= 
+|quest= 
+|mini-boss= 
+|boss= 
+|temperature= 
+|theme= 
+|strategy= 
+}}
+The '''Water Temple''' is a recurring [[Dungeon]] and location in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Water Temple|Water Temples|Series, OoT, OoT3D, TFH, TotK, HW, HWL, HWDE, DotT}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 149"/>
+ * {{OoT3D}}<ref name="E 149"/>
+ * {{TFH}}<ref name="E 160"/>
+ * {{TotK}}<ref name="TotK Game Screen"/>
+ * {{HW}}<ref name="HW Select Scenario"/>
+ * {{HWL}}<ref name="HW Select Scenario"/>
+ * {{HWDE}}<ref name="HW Select Scenario"/>
+ * {{DotT}}<ref name="DotT Sign"/>
+}}
+}}
+
+==Overview==
+==={{OoT|-}}===
+{{Main|Water Temple (Ocarina of Time)}}
+The Water Temple is the seventh [[Dungeon]] located at the bottom of [[Lake Hylia]]. Its main [[Item]] is the [[Longshot]] and its [[Boss]] is [[Morpha]].
+
+==={{TFH|-}}===
+{{Main|Water Temple (Tri Force Heroes)}}
+The Water Temple is the fourth and last [[Level]] of the [[Riverside]] Area, preceded by [[Cove of Transition]]. Its [[Boss]] is [[Arrghus]].
+
+==={{TotK|-}}===
+{{Main|Water Temple (Tears of the Kingdom)}}
+{{Quests|
+{{TotK Quest
+ |name= Regional Phenomena
+ |type= Main Quest
+ |giver= [[Purah]]
+ |location= [[Lookout Landing]]
+}}
+{{TotK Quest
+ |name= Sidon of the Zora
+ |type= Main Quest
+ |giver= [[Yona]]
+ |location= [[Zora's Domain]]
+}}
+}}
+{{Stub|TotK}}
+The Water Temple is located on top of [[Wellspring Island]] in the [[Lanayru Great Spring Sky]]. Its [[Boss]] is [[Mucktorok]].
+
+==Other Appearances==
+==={{HW|-}}===
+{{Noncanon|Start}}
+The Water Temple appears as part of the [[Lake Hylia (Stage)|Lake Hylia]] [[Stage]] in {{HW}}. This stage is a part of [[Sheik]] and [[Impa]]'s quest to close the [[Gate of Souls]] located inside the temple. An updated version of [[Dark Link]]'s chamber appears, where [[Wizzro]], disguised as Zelda, is fought.
+{{Noncanon|End}}
+
+==={{DotT|-}}===
+{{Noncanon|Start}}
+Though the Water Temple is never seen during {{DotT}}, a [[Sign]] stating that the Real Escape Game was "Easier than the Water Temple" was used as a prop during photo shoots with the [[Master Sword]] at {{DotT|-}} events.<ref name="DotT Sign"/>
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:HW Water Temple Promotional Screenshot.png|{{Game Label|{{HW|-}}}}Promotional screenshot of the Water Temple
+</gallery>
+
+==See Also==
+{{See Also|
+ * Lake Hylia (Stage)
+ * The Water Temple
+ * Water Temple (Ocarina of Time)
+ * Water Temple (Tears of the Kingdom)
+ * Water Temple (Tri Force Heroes)
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 149">{{Cite Book|quote= |book= E |publisher= |page= 149}}</ref>
+
+<!-- Tri Force Heroes -->
+<ref name="E 160">{{Cite Book|quote= |book= E |publisher= |page= 160}}</ref>
+
+<!-- Tears of the Kingdom -->
+<ref name="TotK Game Screen">{{Cite|{{Big|Water Temple}}<br/>The Great Wellspring of Hyrule|Game Screen|TotK}}</ref>
+
+<!-- Hyrule Warriors -->
+<ref name="HW Select Scenario">{{Cite|{{Color HW|Green|{{Big|The Water Temple}}}}|Select Scenario|HW}}<br/>{{Cite|{{Color HWL|Green|{{Big|The Water Temple}}}}|Select Scenario|HWL}}<br/>{{Cite|{{Color HWDE|Green|{{Big|The Water Temple}}}}|Select Scenario|HWDE}}</ref>
+
+<!-- Defenders of the Triforce -->
+<ref name="DotT Sign">{{Cite|Easier than the Water Temple!|Sign|DotT}}</ref>
+}}
+
+{{Water Temple}}
+{{Categories
+ |Temples, Water Temple
+ |locations= HW, HWL, HWDE
+}}

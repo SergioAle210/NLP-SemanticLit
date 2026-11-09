@@ -1,0 +1,507 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+<div style="float:right;">
+{{control selector|Playstation 2,Windows,Xbox}}
+{{-}}
+{{floatingtoc}}
+</div>
+
+San Andreas has significantly more stats to worry about than Vice City did. Some people like it, claiming it makes the game more 'realistic'. Others suggest it's merely 'irritating'. For better or worse, there's quite a lot of them to cope with, so here's a guide to how some of them work.
+
+== On-screen Stats ==
+
+These stats are usually visible in the top-right corner of the screen. They consist of:
+
+=== Current Weapon ===
+This is a white icon representing the currently armed weapon (or other item). There are twelve different potential weapon 'slots', which are cycled using the {{control|{{psx|L2}} and {{psx|R2}} buttons|the scrollwheel on the {{mouse}}}}.
+
+See also: [[Grand Theft Auto: San Andreas/Items|Items]]
+
+=== Time ===
+
+This is some white text indicating current game time. Note that one game hour is equal to one minute of real time.
+
+=== Armor ===
+
+This is a white bar to indicate the amount of protection currently being offered by whatever body armor you happen to be wearing. If you have no armor, this bar will not be visible at all. The maximum armor points can be increased to 150 by completing Vigilante mission.
+
+=== Oxygen ===
+
+This is a <span style="color: blue">'''blue'''</span> bar (<span style="color: grey">'''light grey'''</span> on PC and Xbox) to indicate how much longer you can hold his breath for, when swimming underwater. If you are not in the water, and the value of this stat is at its maximum, then this bar will not be visible at all. When not swimming it will stay visible until it refills, even if you are on land and doing other things where your breath is not immediately necessary.
+
+=== Health ===
+
+This is a <span style="color: red">red bar</span> indicating amount of energy you have remaining. When this is depleted, you are 'Wasted'. When you start a new game, you have 100 points of health. The number is not visible without using HUD mods.
+
+This is restored to its maximum value each time you save the game. Other ways to increase the value are:
+
+* Eating meals and hot-dogs, and consuming snacks and drinks from vending machines. (Note that some meals also increase your [[#Fat|Fat]])
+* Collecting the red heart icons.
+* Entering an ambulance.
+* Having a good time with a hooker.
+
+Certain events in the game increase the maximum value of your health by 3-4 points, such as cycling or running. Despite the fact that Max Health indicator appears to lower when you get wasted, the maximum health will not decrease but it will actually increase by 1-2 points. The maximum health possible after exercising enough times and/or completing Paramedic mission is 176 points. Completing the paramedic mission increases maximum health instantly to 176, regardless of how much it was before. Once maximum health has been reached, it will no longer increase.
+
+On the mobile version of the game, the maximum health was slightly changed. When you start a new game, you have 125 points of health, while the maximum health possible is 220. This is probably to compensate the controls for mobile.
+
+=== Cash ===
+
+This is some <span style="color: green">green text</span> indicating amount of cash you have remaining. This count can turn into a <span style="color: red">red text</span> if you have negative money.
+
+=== Wanted Level ===
+
+This is a number of <span style="color: goldenrod">gold stars</span> indicating how much the law would love to arrest you. If you are not wanted at all, this will not be visible. Possible values are:
+
+* No stars: You've done nothing wrong. Relax.
+* One star: Police officers will chase you on foot, and a police car or bike might join the chase if it happens to spot you. Fairly easy to avoid, and hiding out for a while will cause this to disappear eventually. If you have a gun, officers will shoot at you, but if you use a melee weapon, they will try to beat you with their nightsticks.
+* Two stars: Police cars and bikes will now seemingly appear out of nowhere, and join the chase. Policemen shoot at you on sight. Still not too much of a problem, but you might want to get to a Pay N Spray.
+* Three stars: Police helicopters will join the chase, firing at you whenever possible. They're generally not too accurate, but be careful.
+* Four stars: Police SWAT teams will join the chase. They are armed with sub-machine guns, so watch out. If you are in flight, you will be chased by Hydra planes. A news helicopter arrives to take video of your wrongdoing.
+* Five stars: The FBI joins in. They are armed with MP5s.
+* Six stars: The Army joins in, with tanks and soldiers armed with M4s.
+
+To increase your wanted level, commit any of the following crimes:
+
+* Assault with police nearby
+* Murder
+* Destruction of vehicles, especially by shooting the gas tank
+* Collision with a police vehicle (except when your speed is zero or near zero when the game assumes you did not crash, but the AI did)
+* Entering a restricted area: (Warning: wanted level increases to 5 stars)
+** Area 69, Bone County 
+** Easter Basin Naval Base
+* Going to an Area that has not been "unlocked": (Automatic 4 stars. Bribes/Pay n Spray don't work unless you go back)
+* Spraying over a spray tag with police nearby
+* Pointing a gun in a police officer's face
+* Carjacking with police nearby
+* Stealing a car off a parking spot (if the car alarm goes off and you drive past a cop, then you will receive stars)
+* Throwing a grenade (regardless of whether it hits anything)
+
+(incomplete)
+
+These crimes will not increase your wanted level:
+
+* Speeding
+* Running a red light
+* Dangerous driving
+* Collision with a non-police vehicle
+* Soliciting prostitutes
+
+(incomplete)
+
+To decrease your wanted level, visit a Pay N Spray or save the game or pickup Police bribes (spinning stars). You don't need to exit the vehicle, just drive over them.
+
+When respraying at a pay n spray, the wanted level will flash for a while. During that time, if you commit a crime, the full wanted level is brought back. If you only have one or two stars, you can lose stars by "hiding out" from the police by staying in an area away from cops and any roads. Swimming is a good way to do this. Flying does not work for hiding out. Saving the game removes the wanted level completely. Getting a haircut also works.
+
+Going to your wardrobe and changing your clothes has the same effect as visiting a Pay N Spray, but is free.
+
+== {{control|{{psx|L1}}|{{kbd|shift}}}} Stats ==
+
+These stats become visible in the bottom-left corner of the screen, as long as you depress the {{control|{{psx|L1}}|{{kbd|shift}}}}. These are:
+
+=== Respect ===
+
+This is a measure of your [[Grand Theft Auto: San Andreas/Respect#Total Respect|Total Respect]].
+
+See also: [[Grand Theft Auto: San Andreas/Respect|Respect]]
+
+=== Weapon Skill ===
+
+This is a measure of your weapon skill for the currently held weapon. This is not visible in the L1 stats if your currently selected weapon or item does not have a corresponding [[#Weapon Skill Levels|Weapon Skill Level]] stat.
+
+=== Stamina ===
+
+This is a measure of CJ's ability to perform sustained amounts of physical activity. As this increases, it allows you to sprint longer, pump the pedals for longer on your bicycle, and swim swiftly for longer periods of time.
+
+To increase stamina, try sprinting, swimming, cycling, or using the exercise bike or treadmill at a gym.
+
+After completing the Burglar misson, you get inifinte stamina (that is, you can sprint, swim and cycle without having to rest); however your "statistical stamina" remains the same.
+
+Stamina never decreases.
+ on some versions of the game your stamina will decrease
+
+=== Muscle ===
+
+This is a measure of the amount of muscle you have. Muscle increases sex appeal and makes melee attacks more powerful. Build up by doing vigorous physical activities or by lifting weights in the gym rather then driving. Muscle can decrease with hunger.
+
+=== Fat ===
+
+This is a measure of the amount of body fat that CJ currently has. Having a large amount of fat can prevent you from doing certain activities, and triggering certain missions.  While there are no major penalties for having no fat, maintaining at least a small amount will prevent CJ from losing muscle due to sprinting or sustained physical activity.
+
+To increase fat, eat any meal from a fast-food establishment (Cluckin' Bell, Burger Shot, Well Stacked Pizza), ''except'' for the salad meals. You also gain fat by going on a date in a bar or restaurant.
+
+Your fat level will automatically decrease over time. To speed up the process, try sprinting, swimming, cycling, or using the exercise bike or treadmill at a gym.
+
+Contrary to popular belief, you can gain fat from eating from vending machines, but the amounts are hardly noticeable.  Spending $50 on a vending machine will add only about 10% of fat.  It is not certain whether the same applies for street vendors.
+
+See also: [http://www.thegtaplace.com/sanandreas/eating.php Eating @ The GTA Place]
+
+=== Sex Appeal ===
+
+Sex appeal is decided on what type of car you have, which would include fast and flashy cars, the clothes you have, and the amount of muscle. Note, however, that high muscle will prevent some girls from dating you at all.
+
+The sex appeal boost gained from having a flashy car will drop off once you have walked more than a certain distance away from the car. Also, if your car is damaged, that will affect its "sexiness".
+
+== Start-menu Stats ==
+
+These are accessible by pressing the '''Start''' button, then selecting the '''Stats''' page. These are:
+
+=== Criminal Ranking ===
+
+This is displayed above the other stats at all time. Possible values are:
+
+* -10000–-6000: Crackhead
+* -5999–-4000: Bitch-made
+* -3999–-2000: Off-Brand
+* -1999–-500: Scandalous
+* -499–-1: Player-hater
+* 0–19: Vic
+* 20–49: Square
+* 50–74: Civilian
+* 75–99: Rat
+* 100–119: Snitch
+* 120–149: Dry Snitch
+* 150–199: Transformer
+* 200–239: Punk-ass Bitch
+* 240–269: Sucka
+* 270–299: Poot Butt
+* 300–329: Buster
+* 330–369: Mark
+* 370–399: Chump
+* 400–449: Trick
+* 450–499: Red-headed Stepcild
+* 500–549: Peon
+* 550–599: Pee-Wee
+* 600–609: Prankster
+* 610–649: Fool
+* 650–699: Street Cat
+* 700–849: Thug
+* 850–999: Hustler
+* 1000–1049: Playa Partner
+* 1150–1299: Mack
+* 1300–1499: Pimp
+* 1500–1699: Crime Partner
+* 1700–1999: Homeboy
+* 2000–2099: Homie
+* 2100–2299: Road Dawg
+* 2300–2499: Hoodsta
+* 2500–2749: Hard-ass
+* 2750–2999: Banger
+* 3000–3499: Lil' G
+* 3500–3999: Loc
+* 4000–4999: Jacker
+* 5000–7499: Shooter
+* 7500–9999: Foot Soldier
+* 10000–19999: Hoo-Rider
+* 20000–29999: Soldier
+* 30000–39999: Hawg
+* 40000–49999: Gangsta
+* 50000–59999: Ghetto Star
+* 60000–79999: Monster
+* 80000–99999: Big Homie
+* 100000–149999: Boss Hawg
+* 150000–199999: Shot Caller
+* 200000–299999: OG
+* 300000–399999: High Roller
+* 400000–499999: Four-Star
+* 500000–749999: General
+* 750000–999999: Godfather
+* 1000000: King of San Andreas
+
+Ways to increase or decrease your ranking are:
+* $5000: 1 Point
+* Killing a civilian: 1 Point
+* Completing a mission: 5 Points
+* Blowing up a vehicle: 5 Points
+* Blowing up a helicopter or plane: 30 Points
+* Getting Busted/Wasted: -3 Points
+* Using a cheat: -10 Points
+
+=== Player Section ===
+
+==== Fat ====
+
+See: [[#Fat|Fat]]
+
+==== Stamina ====
+
+See: [[#Stamina|Stamina]]
+
+==== Total Respect ====
+
+See: [[#Respect|Respect]]
+
+==== Lung Capacity ====
+
+Allows you to stay longer underwater. This is built up by diving underwater and swimming as much as you can before coming up for air. Finding oysters also seems to increase this stat, as well as Sex Appeal.
+
+==== Sex Appeal ====
+
+See: [[#Sex Appeal|Sex Appeal]]
+
+==== Muscle ====
+
+See: [[#Muscle|Muscle]]
+
+==== Driving Skill ====
+
+This increases as you drive any sort of land vehicle except for bicycles and motorcycles, and allows for better handling.
+
+==== Flying Skill ====
+
+This skill allows for better handling in all aircraft. Later in the game, you will earn your Pilot's License at Flight School upon achieving 20% proficiency in this skill. The License allows for access into any and all airports.  It is possible to get your pilots license early in the game, by jumping the fence into an airport, stealing an aircraft, and getting your flying hours up.
+
+==== Bike Skill ====
+
+This skill governs motorcycles; as it increases there is less of a chance that CJ will fall off his motorcycle. It is increased by riding any motorcycle. This skill should not be confused with the cycling skill, which regards bicycles.
+
+==== Cycling Skill ====
+
+This skill reflects your ability on a bicycle. The higher this skill, the higher you may bunnyhop (hold the bike-jump button, {{control|{{psx|L1}}|{{kbd|shift}}}}, and release while on a bike), quickly pump the pedals on a bike (rapidly tap the sprint button, {{Control|{{psx|X}}|{{kbd|W}}}}), and the better you can reverse at faster speeds without falling off. This skill is upgraded by riding any bicycle.
+
+==== Armor ====
+
+See: [[#Armor|Armor]]
+
+==== Pilot Ranking ====
+
+Possible values in increasing rank (incomplete):
+
+* Lieutenant
+* Captain
+* Ace
+* Wedge (a reference to the character from Star Wars episode IV)
+
+==== Times Drowned ====
+How many times you died by diving, and running out of breath.
+
+==== Number of Hospital Visits ====
+This stat is for how many times you have been wasted.
+
+==== Number of Prostitutes Visited ====
+This stat is for how many hookers you have picked up and used.
+
+==== Number of Meals Eaten ====
+This stat is for how many meals you have bought from a fast-food shop/
+
+==== Luck ====
+Luck is obtained through collecting the horseshoes in Las Venturas.
+
+=== Money Section ===
+
+==== Weapons Budget ====
+This shows how much money you have spent on weapons and ammo at Ammu-Nation.
+
+==== Fashion Budget ====
+This shows how much money you have spent on clothes.
+
+==== Property Budget ====
+This shows how much money you have spent on assets and safehouses.
+
+==== Auto Repair and Painting Budget ====
+This shows how much money you have spent at a Pay n Spray.
+
+==== Tattoo Budget ====
+This shows how much you have spent on tattoos.
+
+==== Hairdressing Budget ====
+This shows how much you have spent on a haircut.
+
+==== Prostitute Budget ====
+This shows how much you have spent on picking up prostitutes.
+
+==== Strip club Budget ====
+This shows how much money you have spent at a strip club.
+
+==== Car modification budget ====
+This shows how much money you have spent on modding your cars.
+
+==== Food Budget ====
+This shows how much you have spent on fast food meals.
+
+==== Total Shopping Budget ====
+This shows how much you have spent shopping. (clothes and guns i think)
+
+==== Money spent gambling ====
+
+This shows how much money you have spent on any gambling. 
+ 
+==== Money won gambling ==== 
+
+This shows how much money you have won gambling.
+
+==== Money lost gambling ====
+
+This shows how much money you have lost gambling.  
+ 
+==== Biggest gambling win ==== 
+
+This shows the biggest gambling win.
+ 
+==== Biggest gambling loss ==== 
+
+This shows the biggest loss gambling.
+
+=== Weapons Section ===
+
+==== Current Weapon Skill ====
+
+This shows the numerical value of your weapon skill for, and the name of, the currently held weapon (if applicable). The maximum value is 1000 (100%).
+
+To increase this value, you must successfully hit a valid target with the currently held weapon. Valid targets are:
+
+* Anything that takes damage
+** People
+** Vehicles
+** Stop Lights
+** Fences
+** Light Poles
+
+'''Tip''': To quickly max out this stat, aim the weapon at the tire of a vehicle, and continuously shoot it. You cannot destroy a vehicle merely by shooting its tires.
+Note: This tip did not work for me on PC version, anyone else test it?
+
+'''Tip''': Even better way to max out this stat is to shoot at a vehicle in your garage. When it catches fire, let the door close by backing away. Re-approach, and the vehicle is fully repaired (even if it blew up) and you may start over. If the door closed before the vehicle exploded, your wanted level does not rise. You may even reload your weapon when backing away to save time. This is guaranteed to work on PC version as well.
+
+Also having more headshots (that is shooting enemies in the head rather than their body) is found to increase weapon skill considerably.  Works on PC version and console versions.
+
+==== Weapon Skill Levels ====
+
+This gives a rough indication of your skill with certain weapons, and can be one of the following values:
+
+* Poor (0%)
+* Gangster (between 10% and 30% depending on weapon)
+* Hitman (100%)
+
+When you reach ''Gangster'' and ''Hitman'' levels, you will be rewarded with the abilities listed under each weapon.
+
+===== Pistol =====
+
+This is the weapon skill level for the regular pistol.
+
+Each time you successfully hit a target, this will increase by 1 point (0.1%).
+
+* Gangster level: 100 hits (10%) — Increased lock-on range, accuracy and rate of fire.
+* Hitman level: 1000 hits (100%) — Dual wielding, and increased lock-on range.
+
+===== Silenced Pistol =====
+
+This is the weapon skill level for the silenced pistol.
+
+Each time you successfully hit a target, this will increase by 5 points (0.5%).
+
+* Gangster level: 40 hits (20%) — Move while in aiming stance, increased lock-on range, accuracy, rate of fire and strafe speed.
+* Hitman level: 200 hits (100%) — Fire while moving, and increased lock-on range.
+
+===== Desert Eagle =====
+
+This is the weapon skill level for the Desert Eagle.
+
+Each time you successfully hit a target, this will increase by 3 points (0.3%).
+
+* Gangster level: 67 hits (20%) — Move while in aiming stance, increased lock-on range, accuracy, rate of fire and strafe speed.
+* Hitman level: 334 hits (100%) — Fire while moving, and increased lock-on range.
+
+===== Shotgun =====
+
+This is the weapon skill level for the shotgun.
+
+Each time you successfully hit a target, this will increase by half of a point (0.05%).
+
+* Gangster level: 400 hits (20%) — Move while in aiming stance, increased lock-on range, accuracy, rate of fire and strafe speed.
+* Hitman level: 2000 hits (100%) — Fire while moving, and increased lock-on range.
+
+===== Sawn-off Shotgun =====
+
+This is the weapon skill level for the sawn-off shotgun.
+
+Each time you successfully hit a target, this will increase by two fifths of a point (0.04%).
+
+* Gangster level: 500 hits (20%) — Increased lock-on range, accuracy and rate of fire.
+* Hitman level: 2500 hits (100%) — Dual wielding, and increased lock-on range.
+
+===== Combat Shotgun =====
+
+This is the weapon skill level for the combat shotgun.
+
+Each time you successfully hit a target, this will increase by half of a point (0.05%).
+
+* Gangster level: 400 hits (20%) — Move while in aiming stance, increased lock-on range, accuracy, rate of fire and strafe speed.
+* Hitman level: 2000 hits (100%) — Fire while moving, and increased lock-on range.
+
+===== Machine Pistol =====
+
+This is the weapon skill level for both the Tec-9 and Micro-SMG (Ingram MAC-10 lookalike).
+
+Each time you successfully hit a target, this will increase by two fifths of a point (0.04%).
+
+* Gangster level: 250 hits (10%) — Increased lock-on range, accuracy and rate of fire.
+* Hitman level: 2500 hits (100%) — Dual wielding, and increased lock-on range.
+
+===== SMG =====
+
+This is the weapon skill level for the MP5.
+
+Each time you successfully hit a target, this will increase by one and a half points (0.15%).
+
+* Gangster level: 200 hits (30%) — Move while in aiming stance, increased lock-on range, accuracy, rate of fire and strafe speed.
+* Hitman level: 667 hits (100%) — Fire while moving, and increased lock-on range.
+
+===== AK47 =====
+
+This is the weapon skill level for the AK47.
+
+Each time you successfully hit a target, this will increase by 3 points (0.3%).
+
+* Gangster level: 100 hits (30%) — Move while in aiming stance, increased lock-on range, accuracy, rate of fire and strafe speed.
+* Hitman level: 334 hits (100%) — Fire while moving, and increased lock-on range.
+
+===== M4 =====
+
+This is the weapon skill level for the M4.
+
+Each time you successfully hit a target, this will increase by two points (0.2%).
+
+* Gangster level: 100 hits (20%) — Move while in aiming stance, increased lock-on range, accuracy, rate of fire and strafe speed.
+* Hitman level: 500 hits (100%) — Fire while moving, and increased lock-on range.
+
+==== Bullets Fired ====
+
+This is the total number of bullets you have fired throughout the whole game.
+
+==== KGs of Explosives Used ====
+
+The amount of eplosive weapons used in the game eg:rockets grenades
+
+==== Bullets That Hit ====
+
+This is the total number of bullets fired that successfully hit their target throughout the whole game.
+
+=== Crimes Section ===
+
+{{sect-stub}}
+
+=== Gangs Section ===
+
+;Grove Street Families
+The gang you are in. 
+
+;Northside/Kilo Tray Ballas
+Grove Streets sworn enemy. Kill on sight to get gang respect and weapons/cash.
+
+;Southside Vagos
+The Hispanic gang centrally in Los Santos. Same deal as the Ballas. Shoot to kill for cash/respect.
+
+;Varrio Los Aztecas
+Another Hispanic Gang centrally in Los Santos. Led by Cesar Vialpando. Not an enemy. But like most civilians will return aggression.
+
+=== Achievements Section ===
+
+{{sect-stub}}
+
+=== Mission Section ===
+
+{{sect-stub}}
+
+=== Misc Section ===
+
+{{sect-stub}}
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Controls|nextpage=Respect}}

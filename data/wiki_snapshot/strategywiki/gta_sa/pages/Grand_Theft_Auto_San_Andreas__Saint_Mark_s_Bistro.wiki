@@ -1,0 +1,31 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar Caligula.png]] [[Grand Theft Auto: San Andreas/Freefall|Freefall]]
+* '''Mission''': [[File:GTA San Andreas radar CRASH.png]] [[Grand Theft Auto: San Andreas/High Noon|High Noon]]
+* '''Mission''': [[File:GTA San Andreas radar Airfield.png]] [[Grand Theft Auto: San Andreas/Green Goo|Green Goo]]
+* '''Location''': [[File:GTA San Andreas radar Caligula.png]] Caligula's Casino, Las Venturas
+|}
+
+This mission is essentially a run-and-gun homage to GTA III. You initially have to fly a Learjet out of Las Venturas, heading toward Liberty City on the east coast. Once you have flown sufficiently far away from San Andreas, a cutscene will show CJ, freshly arrived in Liberty City, getting out of a taxi at St. Mark's Bistro (the location of an early mission in GTA III).
+
+After this it's purely a case of moving through the building killing everyone, which should be pretty easy if you've picked up items like the Chaingun or M4 rifle in Las Venturas.
+
+After you've laid waste to everyone in the building, the scene puts you back in the Learjet, returning to Las Venturas. You must land the jet at the airport to complete the mission.
+
+== Rewards ==
+{{achievement
+|name=Liberty City State of Mind
+|g=25
+|trophy=bronze
+|image=GTASA DE Liberty City State of Mind.png
+|description=Complete the "Saint Mark's Bistro" mission.
+}}
+* '''Cash''': $20,000
+* Respect +
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Green Goo|nextpage=Breaking the Bank at Caligula's|nextimg=[[File:GTA San Andreas radar Bank.png]]|customprev=[[File:GTA San Andreas radar Caligula.png]] [[../Freefall/]]
+* [[File:GTA San Andreas radar CRASH.png]] [[../High Noon/]]}}

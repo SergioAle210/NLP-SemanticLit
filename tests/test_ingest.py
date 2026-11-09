@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 import pytest
@@ -83,7 +84,12 @@ def test_unknown_templates_are_counted_not_silently_lost():
 @pytest.mark.parametrize("game_id", sorted(GAMES))
 def test_whole_corpus_cleans_without_leftovers_or_unknown_templates(game_id):
     stats = CleanStats()
-    for f in (ROOT / GAMES[game_id].snapshot_dir / "pages").glob("*.wiki"):
+    snap = ROOT / GAMES[game_id].snapshot_dir
+    manifest = json.loads((snap / "manifest.json").read_text(encoding="utf-8"))
+    excluded = {snap / m["file"] for m in manifest["pages"] if m["title"] in GAMES[game_id].exclude_pages}
+    for f in (snap / "pages").glob("*.wiki"):
+        if f in excluded:  # páginas que la ingesta no indexa (índices, tablas de logros)
+            continue
         text = clean_wikitext(f.read_text(encoding="utf-8"), stats)
         assert not [m for m in LEFTOVER_MARKUP if m in text], f.name
     assert not stats.unknown_templates
@@ -198,7 +204,7 @@ def test_location_ninja_gaiden_from_heading():
 
 def test_location_general_page_is_unrestricted():
     loc = locate(GAMES["zelda1"], "The Legend of Zelda/Items", Section(0, ("Swords",), "x"))
-    assert loc.model_dump() == {"quest": None, "level": None, "act": None, "stage": None}
+    assert loc.model_dump() == {"quest": None, "level": None, "act": None, "stage": None, "restricted": False}
 
 
 # --- construcción completa ------------------------------------------------------------------

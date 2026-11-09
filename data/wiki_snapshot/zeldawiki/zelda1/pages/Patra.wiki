@@ -1,0 +1,79 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Patra Artwork.png
+ |Sprite TLoZ= File:TLoZ Patra Sprite.png
+}}
+|caption= 
+|pronunciation= 
+|title= 
+|race= 
+|gender= 
+|game= TLoZ
+|other= TLoZ (TV Series), TLoZ (Valiant Comics), BSTLoZ
+|dungeon= 
+|habitat= {{Spawn Locations}}
+|health= {{HP|TLoZ|59}}
+|weakness= 
+|reward= 
+{{List|
+ * [[Heart]]
+ * [[Fairy]]
+ * {{Rupee|TLoZ|1}}
+}}
+|exp= 
+|theme= 
+|strategy= 
+|voiceactor= 
+}}
+{{Term/Store|Patra|Patras|Series, TLoZ, TLoZ (TV Series)|plural}} are recurring [[Boss]]es in {{TLoZ Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 176 {{Exp Game|TLoZ, OoS}}}}</ref><ref name="TLoZ 1 09">{{Cite Episode|quote= Eeh! Get away from me, you stupid Patra! Link! Link! Where are you?|name= Princess Zelda|show= The Legend of Zelda|episode= 9}}</ref> Patras go unnamed in {{TLoZ (Valiant Comics)}} and {{BSTLoZ}}.
+
+==Characteristics==
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+Several groups of Patras appear throughout [[Level 9]] in both the First Quest and the [[Second Quest]]. Patras are flying eyeballs with wings that are always found in a circular shaped group with a larger Patra in the center. Patra groups come in two types of formations.<ref>{{Cite Manual|quote= The Patra attack in groups, in two types of formations. Both formation groups are strong. So be on your toes!|game= TLoZ|page= 38}}</ref> While both types have the smaller Patras flying in a continuous circle, one type periodically expands and contracts across the room, while the other type rotates like a {{Wp|gyroscope}}. [[Link]] cannot damage the Patra in the center until he has defeated all eight of the smaller Patras that circle it. Each smaller Patra has 6 health and the larger Patra has 11 health, totaling the entire group at 59 health. Patras are only vulnerable to Swords and physical hits from [[Magical Rod]]. When defeated, the large Patra may drop either a [[Heart]], a [[Fairy]] or one [[Rupee]].{{TLoZ Enemy Note}}
+
+==Other Appearances==
+==={{TLoZ|-}} TV Series===
+{{Noncanon|Start}}
+Some Patras briefly appear in the "[[Stinging a Stinger]]" episode of {{TLoZ (TV Series)}}. When Link hears [[Princess Zelda]]'s screams, he rushes over to where she is and sees that she is being attacked by Patras.<ref name="TLoZ 1 09"/> Link, confident about his new [[Sword#The Legend of Zelda TV series|Sword]], faces an incoming Patra, but one light-beam from the foe breaks the Sword in half and causes Link to collapse from the attack. Zelda then rushes towards Link and swiftly scares the Patras off.<ref>{{Cite Episode|quote= Get away, you gross things!|name= Princess Zelda|show= The Legend of Zelda|episode= 9}}</ref>
+{{Noncanon|End}}
+
+==={{TLoZ (Valiant Comics)|Display}}===
+{{Noncanon|Start}}
+Patra appears in the ''[[To the First Power]]'' story of {{TLoZ (Valiant Comics)}}. While Princess Zelda is busy fighting a [[Gohma]] in [[Level 1]], a group of Patras fly in and attack her. Although the Princess is successful in defeating one of them, she admits that the fight has gotten too tough for her and manages to escape the room.{{Fact}}
+{{Noncanon|End}}
+
+==={{BSTLoZ|-}}===
+{{Noncanon|Start}}
+{{Stub|BSTLoZ}}
+[[File:BSTLoZ Patra Sprite.png|left|60px]]
+Patras appear in {{BSTLoZ}}. A group of Patras can be found in [[Level-5]], [[Level-7]] and [[Level-8]]. They spin around continuously.
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Patra (Stinging a Stinger).png|{{Game Label|{{TLoZ (TV Series)|Display}}}}A group of Patras
+File:Patra (VC).png|{{Game Label|{{TLoZ (Valiant Comics)|Display}}}}Zelda fighting Patras
+File:BSTLoZ Patra Small Sprite.png|{{Game Label|{{BSTLoZ|-}}}}A small Patra
+</gallery>
+
+==See Also==
+{{See Also|
+ * Chasupa
+ * Eyeball Monster
+ * Eyesoar
+}}
+
+{{Notes}}
+
+{{Ref}}
+
+{{Categories
+ |Bat-Like Enemies, Eye Enemies, Flying Enemies
+ |bosses= TLoZ, BSTLoZ<!-- Uses Series term -->
+ |enemies= TLoZ (TV Series)
+}}

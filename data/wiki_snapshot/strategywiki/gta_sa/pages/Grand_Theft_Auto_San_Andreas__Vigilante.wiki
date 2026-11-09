@@ -1,0 +1,66 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Vehicle''': Any law enforcement vehicle (Police cruiser or motorcycle, SWAT van, etc)
+|}
+
+Get in the vehicle, drive to a suitable location, and hit {{psx|R3}}/{{kbd|+}}/{{xbox|neutral|Rstick}} to start the mission.  Criminals will appear as red blips on your map and radar.  Go destroy the cars and kill the perps.
+
+As in the [[Grand Theft Auto: San Andreas/Firefighter|Firefighter]] mission, the number of targets increases by one each level.  When you have more than four people you will have more than one vehicle. 1-4 people will be in the same vehicle, 5-8 will be divided into two vehicles and 9-12 into three.  
+Although you can continue beyond level 12, more than 12 people will not appear in any level.
+
+== Strategies ==
+
+The Police vehicle that you pick can play a major role. The police motorcycle (HVP-1000) allows for faster travel and steering than the cruiser, and allows the player to fire a micro SMG forwards while driving rather than doing a drive-by.
+
+Recruiting up to 3 gang members to accompany you on the mission may help.  Every level adds one person to be eliminated.  Start the mission in a small town (e.g., Fort Carson) so there aren't as many innocent bystanders getting in the way.
+
+When the criminals are in a vehicle, exit your vehicle and use a heavy weapon (such as the minigun or RPG) to destroy their vehicle while the criminals are still inside.
+
+=== Starting at the Panopticon ===
+If doing the mission early on (for example in order to create a 'master save file' right at the start of the game where such gamey methods as a tank or gunship helo aren't available [see below]) it may be beneficial to start the mission in the Panopticon area (far northwest of the first legally accessible island). Starting the mission here will generally cause the targets to spawn on the road that goes around the Panopticon hill or the general area. Having them spawn around the hill is beneficial as you can take shortcuts over the hill in some instances and can then ambush the targets with the weapon of your choice, say an RPG (one RPG spawn point is on top of a building near the fire station in LS. An airplane is required to get to it though as no helicopters spawn on the LS island in the beginning).
+
+Starting here has the added benefit of less traffic (and no fast highway traffic) in addition to a lower police presence, making it possible to finish all 12 levels without attracting more than two wanted stars (having less innocent bystanders around influence this too).
+
+Possible glitches when starting the mission here is that the targets may spawn on the bridge that leads to the LV island from Blueberry acres. Should this glitch occur, one can only hope that they spawn heading towards the LS side, otherwise it would be best to pick off the targets with an RPG or sniper rifle (the target vehicle(s) are stopped by the blocked bridge ends at either end).
+
+=== Using the Hunter Helicopter ===
+
+AKA "Brown Thunder" - when you start the vigilante mission in the Hunter, this is the mission text that will be displayed, instead of just "Vigilante" in any other vehicle.
+
+If you have finished the flight school with all gold awards, "The Hunter" AKA "The Ultimate Vehicle" (an Apache helicopter) will appear at your desert airbase.  The hunter allows superfast travel, plus it can fire rockets and minigun at enemies, allowing a quick elimination.  Eliminating enemies using the hunter's machine gun will also not attract any police attention.  It is relatively easy to reach any vigilante mission with this helicopter.
+
+The Hunter gunship can also be obtained by entering the "Heli Hell" race tournament at Las Venturas Airport. You'll start in Los Santos; just fly directly to the Verdant Meadows airstrip in L.V. and store it in the hangar there, or fly it to your race-trigger point at LVA, land, jump out, wait for the timeout, then exit the race.  That's faster than storing, since you already have it sitting next to you for the Vigilante mission.
+
+=== Using the Rhino tank ===
+
+Another possibility is getting a Rhino tank.  Find a ledge in the desert near a street and get all stars by killing policemen, when the military gets called steal a tank and get it to the airfield garage and save.  It is also possible to steal a Rhino from a hangar in the Restricted Area by smashing a destructible fence on the North-East side, or by using the jet pack. While this does earn you 5 stars, your airfield is very near, and so it is relatively easy to leave the tank in the garage and save head to a Pay-n-Spray on a bike.
+
+Note that the aircraft "garage" is not the same as the auto garage near the AC tower, nor one of the hangars, but the large building in the southeast corner of the airfield.  Its door is on the north face (facing the airstrip).  It's large enough to hold a vehicle as tall as the Rhino.  
+
+You can store Rhinos in your safe houses in Hashbury, Prickle Pine, Verdant Bluffs, Santa Maria Beach, Carson City and the Xoomer garage in Doherty. You will not be able to enter the Rhino if it's parked in any other auto garage.  You will have to (slowly) push it out.
+
+The Rhino is nearly (but not completely) indestructible and it can fire its main gun.  It's slow but once you reach the target the kills are quick; you can fire the gun or just run them over causing the cars to blow up too quickly for the passengers to get out.  So you will have plenty of time.
+
+== Glitch ==
+
+There is a glitch in the game which makes vigilante missions extremely easy to complete: simply get a police car (general consensus is that it MUST be a police CAR, but some people report a police bike working) and activate the mission. Next, go into a fast food restaurant or bar and walk around until the message comes up that the criminals have been terminated. Go back into your police car to start the next level and then repeat the process. This also sometimes works when visiting a clothing store or a 24/7.
+
+I've found that doing this glitch in Los Santos doesn't work well, because the baddies are often spawned in rural areas which the cops don't get to quickly enough.
+
+The trick is to wait until you're in San Fiero, and start the glitch near the north end of the city, just south of the bridge, like at the Pizza joint there. All the baddies spawn downtown, and the cops get to them rather quickly.
+
+== Rewards ==
+{{achievement
+|name=What the City Needs
+|g=40
+|trophy=silver
+|image=GTASA DE What the City Needs.png
+|description=Complete 12 levels of Vigilante.
+}}
+Finish level 12 to increase maximum armor to 150.  There are cash rewards as well. (Some have written that this does not work with PC version).
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Paramedic|nextpage=Freight}}

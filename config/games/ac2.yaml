@@ -1,0 +1,25 @@
+game_id: ac2
+title: "Assassin's Creed II"
+platform: PS3/Xbox 360/PC
+year: 2009
+aliases: [AC2, Assassins Creed 2]
+
+snapshot_dir: data/wiki_snapshot/strategywiki/ac2
+
+# Progreso: secuencia de memoria (1-14), orden total.
+progress_model: linear_stage
+stages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
+location_from_title: 'Sequence (?P<stage>\d+):'
+location_from_heading: 'Sequence (?P<stage>\d+)'
+exclude_pages: ["Assassin's Creed II/Table of Contents", "Assassin's Creed II/Achievements and trophies", "Assassin's Creed II/Uplay"]  # tablas de logros sin texto útil
+tools: [search_documents]
+query_expansion:
+  rewrites: []
+  synonyms:
+    hidden blade: [assassin's blade]
+    glyph: [Animus Database]
+    tomb: [Assassin's tombs]
+
+extra_sources:
+  - {site: wikipedia, snapshot_dir: data/wiki_snapshot/wikipedia/ac2, general_headings: 'Gameplay|Development|Release|Reception|Legacy|Sales'}
+  - {site: ac_fandom, snapshot_dir: data/wiki_snapshot/ac_fandom/ac2}

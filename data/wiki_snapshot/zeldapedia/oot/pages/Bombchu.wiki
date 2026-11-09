@@ -1,0 +1,141 @@
+{{hatnote|This article refers to the Bombchu item. For the enemy, see [[Real Bombchu]].}}
+{{Reorg}}
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= File:OoT Bombchu Render.png
+ |Render MM= File:MM Bombchu Render.png
+ |Model OoT= File:OoT Bombchu Model.png
+ |Model OoT3D= File:OoT3D Bombchu Model.png
+ |Model MM= File:MM Bombchu Model.png
+ |Model MM3D= File:MM3D Bombchu Model.png
+ |Model PH= File:PH Bombchu Model.png
+ |Sprite OoT= File:OoT Bombchu Icon.png
+ |Sprite OoT3D= File:OoT3D Bombchu Icon.png
+ |Sprite MM= File:MM Bombchu Icon.png
+ |Sprite MM3D= File:MM3D Bombchu Icon.png
+ |Sprite OoS= File:OoS Bombchu Sprite.png
+ |Sprite OoA= File:OoA Bombchu Sprite.png
+ |Sprite PH= File:PH Bombchu Icon.png
+}}
+|caption= 
+|pronunciation= {{IPA|ˈbɒmtʃuː}} {{Respell|BOM|choo}}<ref>{{Cite Web|quote=A Bombchu is a type of mouse-shaped bomb that moves forward automatically. |published=August 4, 2014|url=https://www.youtube.com/watch?v=3_DZtTR3zu0&t=14m28s|title=Hyrule Warriors Direct|site=YouTube}}</ref>
+|plural= 
+|type= 
+|game= OoT, MM, OoS, OoA, PH
+|other= HW
+|crossover= SSB4, SSBU, CoH
+|cost= 
+|value= 
+|location= 
+|uses= 
+|strength={{Infobox Game Blocks
+ |OoT=[[Weapon Strength#Ocarina of Time|2]]
+ |MM=[[Weapon Strength#Majora's Mask|2]]
+}} 
+|durability= 
+|comp= [[Bombling]]
+|sample= 
+|theme= 
+}}
+{{Term/Store|Bombchu|Bombchus|Series, OoT, OoT3D, MM, MM3D, OoS, OoA, PH|plural}} are recurring [[item]]s in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 118 {{Exp Game|OoT, MM, OoS, OoA, PH}}}}</ref>
+
+==Location and uses==
+Bombchus are a type of mobile explosive that travel along the ground (and, if a certain kind, walls and ceilings) until they either self-destruct (indicated by red flashing) or touch an object or enemy.<ref>{{Cite manual|quote=Pick up a Bombchu and set it at your feet. It will start running by itself. If it hits an object, or runs for a while without hitting anything, it will explode. Once it starts running, you have no control over it.|game=OoT|page=23}}</ref> They can be used to deliver explosive power to areas that traditional [[Bomb|Bombs]] and other weapons cannot reach and to attack enemies or activate switches without [[Link]] needing to get too near.
+
+In {{OoT}} and {{MM}}, Bombchus travel in a straight line and can also crawl up walls and ceilings, a characteristic that can be utilized to maneuver around walls that would block other weapons. They do, however, swerve left and right just slightly as they continue forward. Bombchus in these games may also attempt to home in on enemies, and will swerve off their path when one is nearby.{{Verify}} This is demonstrated in {{OoT|-}}'s [[Bombchu Bowling Alley|Bombchu Bowling]] mini-game, where [[Cucco]]s and [[Blade Trap]]s serve as obstacles. Unlike Bombs and most forms of ammunition, Bombchus are typically much more difficult to resupply, as they usually never appear from common locations such as broken [[Jar]]s or enemies. Instead they are usually found in [[Treasure Chest]]s or purchased within shops. Unlike regular Bombs, Bombchus do not require a [[Bomb Bag]] in most games, and can be obtained without one. Bombchus in most games also cannot have their maximum carrying capacity upgraded. Though useful, they are often not required to progress through the games.
+
+In {{OoA}} and {{OoS}}, Bombchus appear aesthetically similar to their counterparts in {{OoT|-}} and {{MM|-}}, but have a slightly different function. Instead of traveling in a straight line, the explosive will lock onto one target and follow that target until it impacts and explodes. If no enemy is present, the Bombchu will simply travel forward in a straight line.
+
+==={{PH|-}}===
+In {{PH}}, the usefulness of Bombchus are expanded and their functions differ compared to earlier games since [[Link]] must draw out a path for it to follow on the map.<ref>{{Cite|You got a Bombchu! You can carry up to 10 Bombchus in your bag! They will follow the path that you draw on your map!|N/A|PH}}</ref> When used, the map goes to the bottom screen so that Link can draw the path he wants the Bombchu to take.<ref name="PH Guide 12">{{Cite Guide|quote= |game= PH|publisher= Prima|page= 12}}</ref> They do not automatically travel in a straight line nor home in on enemies, and they travel at a noticeably slower space. They can be used to scout areas ahead of Link, or attack enemies around corners long before they notice Link's presence. They are also the only items which can go through small holes in walls.<ref name="PH Guide 12"/> Link can move around at the same time as the Bombchu,<ref name="PH Guide 12"/> which is required to solve certain puzzles. Bombchus in {{PH|-}} are also the only kind that are given their own [[Bombchu Bag]], as well as the first in which Link can increase his capacity of them. While they still appear often in shops, Bombchus can also be found throughout the [[Overworld]] much like other ammunition, such as inside Jars.
+
+==Mainline appearances==
+==={{OoT|-}}===
+{{Manual|OoT|Bombchu|Pick up a Bombchu and set it at your feet. It will start running by itself. If it hits an object, or runs for a while without hitting anything, it will explode. Once it starts running, you have no control over it.}}
+
+In {{OoT}}, Bombchus are a type of rare item that are occasionally found. They are usually found in Treasure Chests in [[dungeon]]s, for example chest in Spirit Temple & chest Inside Ganon's Castle but may also be obtained through the following ways:
+
+*There is a [[Bombchu Shop]] open at night in the Back Alley of [[Hyrule Castle Town|Castle Town]], although their stock is limited and each item can only be bought once before selling out. Link can only purchase Bombchus after obtaining the Bomb Bag in [[Dodongo's Cavern]]. If Link enters the shop prior to obtaining the Bomb Bag, the shop will be completely empty.<ref>{{Cite|This is a new type of bomb! It's available only in limited quantities, and when I'm sold out, that's it!|Bombchu Shop Owner|OoT}}</ref>
+*The [[Bombchu Bowling Alley]] will give out Bombchus as one of the random prizes Link wins if he wins the mini-game.
+*After finding 40 [[Gold Skulltula]] Tokens, Link can receive some Bombchus from the fourth son at the [[House of Skulltula]] in [[Kakariko Village]].
+*Bombchu can be bought from the [[Carpet Merchant]] in the [[Haunted Wasteland]]. He sells packs of 10 Bombchus for a very pricey 200 [[Rupee]]s.<ref>{{Cite|I am selling stuff, strange and rare, from all over the world to everybody. Today's special is... A dangerous, running object! Terrifying! I won't tell you what it is until I see the money.... How about 200 Rupees?|Carpet Merchant|OoT}}</ref>
+
+Link hold up to 50 of them at a time regardless of the capacity of his Bomb Bag.
+==={{MM|-}}===
+In {{MM}}, Bombchus may be purchased at the [[Bomb Shop]] in [[Clock Town]], which sells a pack of 10 Bombchus for 40 Rupees. Unlike {{OoT|-}}, Link can only purchase Bombchus after purchasing a Bomb Bag and thus may carry only up to the capacity that his Bomb Bag allows at the time (20 with the initial Bomb Bag, 30 with the Big Bomb Bag, and 40 with the Biggest Bomb Bag, same as traditional Bombs). Link can also find them in Treasure Chests in hidden [[caves]] around [[Termina]], needing either a Bomb or the [[Blast Mask]] to open the entrance. These hidden caves are revealed with a green light when Link wears the [[Mask of Truth]].
+
+An enemy based on the item known as the [[Real Bombchu]], exists in certain areas of the game, often [[Termina Field]] and [[Stone Tower Temple]].
+==={{OoS|-}}===
+In {{OoS}} and {{OoA}}, Bombchus may only be obtained in a [[Linked Game]] through the [[Linking Secret#Subrosian Secret|Subrosian Secret]] or the [[Linking Secret#Troy Secret|Troy Secret]]. Link can carry up to 99 Bombchus at once. Once obtained, [[Syrup]] will start selling packs of them at the price of 100 Rupees for 5 Bombchus.
+==={{PH|-}}===
+In {{PH}}, Bombchus and the [[Bombchu Bag]] are found in the [[Goron Temple]]. Link can initially carry 10 Bombchus, but may acquire two more Bombchu Bags, allowing him to carry up to 30.
+==Spinoff appearances==
+==={{HW|-}}===
+{{Ambig|Start}}
+{{ImageCaption
+|image = File:HW Bombchu Model.png
+|size = 100px
+|align = right
+|caption = A Bombchu in {{HW|-}}
+|captionalign = center
+}}
+In {{HW}}, Bombchus appear in a giant variation. They are used by both [[Forces|Allied Forces]] and [[Forces|Enemy Forces]] in certain battles. Once obtained, they move in a set path. They can be used to destroy giant obstacles blocking the way.<ref>[http://youtu.be/VHOOdOCSllI?t=2m9s Hyrule Warriors Reactions from SDCC]</ref> Enemies will try to attack them to stop their advance. Enemy Forces can also use Bombchus against the Allied Forces as a weapon, which will target key [[Keep]]s and explode, causing massive damage that reclaims the Keep. These Bombchus must be destroyed before they can reach the Keeps. A [[Bombchu Operator]] is a type of [[Captain (Hyrule Warriors)|Captain]] that appears in certain battles, which operate Bombchus. If they are defeated, their Bombchus can be claimed and sent back to target the Enemy Forces.
+{{Ambig|End}}
+
+==Crossover appearances==
+{{Noncanon|Start}}
+==={{SSB|-}} series===
+===={{SSB4|-}}====
+[[File:SSB4 Bombchu Icon.png|left|40px]]
+[[File:Bombchu SSBfWiiU.jpg|thumb|200px|A Bombchu in {{SSB4|Wii U|-}}]]
+In {{SSB4}}, Bombchus appear as explosive items. Once thrown, a Bombchu follows its path, and it can travel over most obstacles, up walls, and below the stage, similarly to their movement pattern in {{TLoZ|Series}}. A Bombchu explodes upon touching a fighter or certain hazards.
+
+A Bombchu is also featured in the form of a [[Trophy]].
+{{clear}}
+{{SSBTrophy|SSB4|header=yes}}
+{{#section:Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Bombchu}}
+|}
+
+===={{SSBU|-}}====
+Bombchus once again appear as Throwing Items in {{SSBU}}, functioning identically as in {{SSB4|-}}.
+{{Noncanon|End}}
+
+{{Ambig|Start}}
+==={{CoH|-}}===
+Bombchus are a type of mobile [[Bomb]] that move to the beat of the music. Once they are placed down by either [[Cadence]], [[Link]], [[Yves]], or [[Princess Zelda|Zelda]], they move in a straight line until they make contact with something or if no contact is made, explode after seven music beats.<ref>{{Cite|{{Color|CoH Yellow|Bombchu}} -- Assign it to {{Icon|CoH A}} {{Icon|CoH B}} {{Icon|CoH X}} {{Icon|CoH Y}}<br/>It moves in a straight line and explodes after seven beats or if it makes contact with something.|Inventory|CoH}}</ref>
+{{Ambig|End}}
+
+==Trivia==
+*[[Real Bombchu]]s are named after Bombchus.
+
+==Nomenclature==
+The name Bombchu is a combination of Bomb and "chu", Japanese {{wp|onomatopoeia}} for the sound a mouse makes, referring to their mouse-like shape. The plural form of Bombchu can be either Bombchu<ref name="plural_no_s">{{Cite|You got 10 Bombchu!<br/>Set them to (<), (>) or (v) on the<br/>Select Item Screen.|N/A|MM}}</ref> or Bombchus.<ref name="plural_s">{{Cite|I can't sell you Bombchus if you don't have a Bombchu bag.|Shopkeeper|PH}}</ref>
+
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoT Bombchu Bowling Alley 2.jpg|The Bombchu Bowling Alley from {{OoT|-}}
+File:Bomchu Puzzle PH.png|Using a Bombchu to activate a Shock Switch from {{PH|-}}
+File:Bombchu Path.png|Drawing a Bombchu path from {{PH|-}}
+File:Dongorongo Strategy.png|Using a Bombchu to defeat Dongorongo from {{PH|-}}
+File:HW Bombchu Render.png|Render of a Bombchu from {{HW|-}}
+File:SSBU Bombchu Render.png|Render of a Bombchu from {{SSBU|-}}
+File:SSBU Bombchu Model.png|A Bombchu as seen in-game from {{SSBU|-}}
+File:CoH Bombchu Sprite.png|Sprite of the Bombchu from {{CoH|-}}
+</gallery>
+
+==See also==
+* [[Bombling]]
+* [[Real Bombchu]]
+
+{{Ref}}
+{{CommonItems}}
+{{Categories
+ |Bombs, Explosives
+ |enemies= HW, HWL, HWDE
+ |items= OoT, OoT3D, MM, MM3D, OoS, OoA, PH, SSBfN3DS, SSBfWU, SSBU
+}}
+
+[[de:Krabbelmine]]

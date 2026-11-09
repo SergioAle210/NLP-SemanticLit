@@ -1,0 +1,193 @@
+{{Infobox Enemy
+|image= File:TotK Like Like Model.png
+|caption=Appearance in {{TotK|-}}
+|game= TLoZ, ALttP, LA, OoT, MM, OoS, OoA, TMC, PH, ST, ALBW, TotK
+|crossover= SSBM, SSBfN3DS, SSBU, CoH
+|habitat= [[Cave]]s<br/>[[Dungeon]]s<br/>Underwater
+|member= 
+|health=
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|10}}
+ |LA= {{HP|LA|2}}
+ |OoT= {{HP|OoT|4}}
+}}
+|attack={{Infobox Game Blocks
+ |TLoZ=Swallow [[File:TMC Life Gauge Sprite.png|1 heart]]
+ |LA= Swallow [[File:TMC Life Gauge Sprite 2.png|0 hearts]]
+ |OoT=Swallow [[File:TMC Life Gauge Sprite 4.png|1/2 heart]]
+}} 
+|weapon= [[Arrow]]s<br/>[[Bomb]]s<br/>[[Fire]]<br/>[[Sword]]
+|spoils= 
+|exp=
+|theme= 
+}}
+{{Term/Store|Like Like|Like Likes|Series, TLoZ, ALttP, LA, LADX, OoT, OoT3D, MM, MM3D, OoS, OoA, TMC, PH, ST, ALBW|plural}} are recurring [[Enemy|enemies]] in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 189 {{Exp Game|TLoZ, ALttP, LA, OoT, MM, OoS, OoA, TMC, PH, ST, ALBW}}}}</ref>
+
+==Characteristics==
+Like Likes are voracious and gelatinous, tube-like creatures notorious for sucking up their prey into their wide mouths and robbing them of their [[Shield]]s before spitting them out.<ref>{{Cite manual|quote=A tube-like monster that has a soft spot for magic shields - he eats them up|game=TLoZ|page=37}}</ref> Like Likes will suck in and engulf [[Link]], after which they will generally spit him out without his equipment. In most games, he will relinquish the stolen Shield if they are slain quickly enough.<ref>{{Cite Guide|quote= |game= LA|publisher= Nintendo|page= 96}}</ref> While Like Likes will steal most shields, unique equipment like the [[Mirror Shield]] usually cannot be eaten by these enemies. They often reside in wet and dark places, but can also occasionally be found in dry areas.
+
+Like Likes are often harmless and will not hurt Link, while in other games they will attack and inflict damage as they capture and spit him out. Link can fight Like Likes with his [[Sword]], [[Bow]], [[Boomerang]], or most other items. In later games, a [[Bomb]] can be tossed into the Like Like's mouth as it tries to suck Link in.<ref>{{Cite Guide|quote= |game= ST |publisher= Prima |edition= Premiere Edition |page= 31}}</ref> While the [[Hookshot]] can be used in some games to stun or damage them, it does not work in all games, and instead may pull Link into the {{Term|Series|Like Like}}'s mouth and risk losing his equipment.
+
+Other varieties of Like Likes exist with a penchant for eating other items, including [[Rupee Like]]s, which eat [[Rupee]]s; [[Force Like]]s, which eat [[Force Gem]]s; [[Deku Like]]s; and [[Life Like]]s, which simply drain Link of his [[Life Gauge|health]]. The [[Pikit]] is a similar kind of enemy that also steals Shields.
+
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Like Like|A tube-like monster that has a soft spot for magic shields ‒ he eats them up.}}
+Like Likes inhabit [[Dungeon]]s in {{TLoZ}}. On the [[First Quest]], they appear in [[Level 4|Level-4]], [[Level 6|Level-6]], and [[Level 9|Level-9]]. On the [[Second Quest]], they appear in [[Level 5|Level-5]] as well as Level-6 and Level-9. Like Likes frequently appear in small groups, often in small spaces with other enemies, making them more difficult to avoid. While slow, they move in random and erratic patterns. They will only eat [[Link]]'s [[Magical Shield]], after which his [[Shield]] reverts back to the [[Wooden Shield]]. If Link is caught by a Like Like, he can use his [[Sword]] to quickly attack it from inside before it can steal his shield. Like Likes will not attempt to steal his basic shield, and will never drop any items when defeated. Unlike subsequent installments, Like Likes in the original game do not spit Link out after being engulfed.
+
+==={{ALttP|-}}===
+Although Like Likes do not appear in {{ALttP}}, they are added in the [[Game Boy Advance]] version. They appear as enemies in the [[Dark World]] in their tube-like form. Groups of Like Likes appear near the [[Dark World Shield Shop]] to the east of the [[Pyramid of Power]], as well as in the [[Palace of the Four Sword]]. These incarnations of Like Likes are similar to those in other 2D games; they move in slow, random paths, but will usually try to target Link when he is nearby. In this game, Like Likes are capable of stealing any of Link's Shields, including the [[Mirror Shield]]. If a Like Like manages to steal Link's shield, it will quickly scurry away before flying off with it. Link can defeat the Like Like before it flies away to retrieve his Shield. To counteract their ability to steal the [[Mirror Shield]], a new one can be purchased at the Dark World Shield Shop if a Like Like successfully steals it. Most items can be used to attack or stun them; the [[Boomerang]] is only able to repel them back, while the [[Hookshot]] can be used to stun them.
+
+[[Pikit]]s share their Japanese name with Like Likes, making them the same enemy despite their vastly different appearance and behavior. Both Pikits and Like Likes co-exist in the Dark World in the Game Boy Advance version of {{ALttP|-}} in spite of this fact.
+
+==={{LA|-}}===
+Like Likes in {{LA}} appear similarly to those from ''The Legend of Zelda''. They appear in groups in the prairies near [[Goponga Swamp]]. They also appear in the [[Eagle's Tower]]. Like Likes are able to steal Link's basic Shield, but only if the shield itself is equipped. Defeating the Like Like who stole it will salvage the shield, otherwise another one can be bought at the [[Town Tool Shop]]. Like Likes will not damage Link or spit him out if he comes in contact with one, forcing him to struggle free. They are unable to eat the Mirror Shield. Like Likes can be defeated with most items such as the Sword and [[Bomb]]s, as well as [[Magic Powder]], the [[Magic Rod]], and the [[Boomerang]]. The Hookshot can also be used to defeat them without repercussions.
+
+The [[Nintendo Switch]] version of the game has a few differences compared to the [[Game Boy]] original. If a Like Like swallows Link, it will deal one [[Heart Container]] of damage, it's able to eat the hero's regular shield at any time, and a different message appears after Link is spat out; this message reads "''Didn't you have a shield a second ago? Did... did that thing eat it?!''" Link is able to get his shield back from a Like Like that stole it if he quickly defeats it.
+
+==={{OoT|-}}===
+{{Navi
+|quote1= ''{{Color|OoT White|Like Like}}<br/>An enemy that eats shields and certain clothes. Beat it quickly to get your gear back!''
+|quote2=|quote3=|quote4=|quote5=|quote6=|quote7=|quote8=}}
+
+Like Likes in {{OoT}} have a more gelatinous appearance than previous games, and make a loud gushing sound as they move (shared with [[Torch Slug|Torch Slugs]]). They no longer appear in groups and tend to act alone. Like Likes will attempt to steal [[Deku Shield|Deku Shields]] and [[Hylian Shield]]s, but are unable to take the [[Mirror Shield]]. Unique to ''Ocarina of Time'', Like Likes are able to eat special [[Clothes|clothing]], and therefore may also steal the [[Goron Tunic]] or the [[Zora Tunic]] if Link happens to be wearing one.<ref>{{Cite|Like Like An enemy that eats shields and certain clothes. Beat it quickly to get your gear back!|Navi|OoT}}</ref> When a Like Like spots Link, it will slowly move towards him and attempt to capture the [[Hero of Time]] in its mouth, heard by a [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_LikeLike_Moan.wav gurgling sound]. When Link is caught in one, it will continuously constrict him before violently spitting him out with his possession stolen, resulting in a message warning the player whichever of Link's items is taken. If both a Shield and [[Clothes|Tunic]] are stolen by the Like Like, the message will read "''Your shield is gone! The tunic you were wearing is also been taken!''". The Like Like will then leave to digest the item. If Link defeats the Like Like before it can digest his equipment, he will be able to reclaim it. It is also possible for Link to swap his equipment before he is spat out to prevent it from being stolen.
+
+Like Likes from ''Ocarina of Time'' are vulnerable to fire, and can be defeated in one hit by [[Din's Fire]] or by shooting a [[Fire Arrow]]. The [[Giant's Knife]]/[[Biggoron's Sword]] can also defeat it in one strike (therefore two hits with the [[Master Sword]] and four with the [[Kokiri Sword]]). The [[Hookshot]] will stun a Like Like, but will also pull Link in without swallowing him. When defeated, they drop three [[Blue Rupee]]s. They appear [[Inside Jabu-Jabu's Belly]] ({{MQ}} only), in the [[Fire Temple]], [[Water Temple]], at the [[Bottom of the Well]], the [[Shadow Temple]], [[Spirit Temple]], [[Ganon's Castle]], and at the [[Gerudo Training Ground]].
+
+==={{MM|-}}===
+{{Tatl
+|quote1= ''You know about the {{Color|MM White|Like Like}}, right? It eats whatever you're carrying. You'd better defeat it if you want your stuff back.''
+|quote2=|quote3=|quote4=|quote5=|quote6=|quote7=|quote8=}}
+
+{{Plural|MM3D|Like Like}} in {{MM}} appear identically to those from ''Ocarina of Time'', save for the fact that some are considerably larger in size. They appear only in the {{Term|MM3D|Great Bay Coast|link}} and {{Term|MM3D|Zora Cape|link}}. They are found mainly underwater, or on the beach at night; some can also be found in shallow water. They can be attacked when Link is in his [[Zora]] form, by punching them repeatedly or by using [[Zora Link]]'s electrical barrier; the Double Cutters are only able to stun them. As with ''Ocarina of Time'', {{Plural|MM3D|Like Like}} are unable to steal the Mirror Shield and Link will take one Heart of damage when a larger version of the enemy spits him out.
+
+==={{OoS|-}} / {{OoA|-}} ===
+Like Likes in {{OoS}} and {{OoA}} appear in a similar manner to those from ''Link's Awakening''. In {{OoS|-}}, Like Likes can be found in the [[Woods of Winter]], the [[Natzu]] region, the [[Lost Woods]] of the [[Tarm Ruins]], and the {{Term|OoS|Dancing Dragon Dungeon|link}}, while in {{OoA|-}}, they appear in the [[Moonlit Grotto]], the [[Crown Dungeon]], [[Jabu-Jabu's Belly]], the [[Black Tower]], and the [[Hero's Cave]].
+
+Unlike previous games, Like Likes can steal and eat all levels of Shields, including the [[Iron Shield]] and the Mirror Shield. When Link is engulfed by a Like Like, it will immediately eat his Shield, regardless of whether or not it was equipped, before releasing him.<ref>{{Cite|Your shield was eaten!|N/A|OoS}}</ref> Defeating the Like Like will not return Link's shield; however, once Link obtains higher level Shields, shops will begin selling them should he ever lose one. As in other games, Like Likes are resilient enemies that take multiple hits from any attack to defeat. Interestingly, while [[Ember Seed|Ember Seeds]] can burn them, it will not damage them. Like Likes cannot swallow Link if he is riding either [[Ricky]], [[Dimitri]], or [[Moosh]].
+
+The [[Like Like Ring]] can be worn to give Link the appearance of a green Like Like. Like Likes will not eat Link in this state, but the young hero cannot attack or use items as a Like Like himself.
+
+==={{TMC|-}}===
+{{Figurine|TMC|Like Like}}
+Like Likes in {{TMC}} appear similarly to their past incarnations. They can be found in the sealed [[Cave]]s across [[Hyrule]] that are accessed with the [[Mole Mitts]]. They are able to conceal themselves in the earth, and appear suddenly when Link is near to ambush him. Like Likes are able to steal any Shield in Link's possession, including the Mirror Shield; however, Like Likes will not digest the Shield, and they can be defeated to reclaim it. When a Like Like takes a shield from Link, a message box will pop up that says "''Your shield was stolen!''" and then the Like Like will spit Link out. Like Likes deal very minimal damage when Link is spat out in this game; a Like Like will have to eat Link twice to deal 1/4 of a Heart of damage (thrice if he's down to his last 1/4 heart of health).
+
+''The Minish Cap'' also includes a variant of Like Like called a [[Rupee Like]], which drains Link of Rupees rather than stealing his Shield. Rupee Likes were introduced in {{FS}}, and they bait and ambush Link by using the Rupee lures on their stalks, and are commonly found in [[Dungeon]]s.
+
+==={{PH|-}}===
+Like Likes in {{PH}} appear as uncommon enemies in small groups. They differ from previous incarnations, as they are able to suck in Link through a vacuum-like wind tunnel. Once trapped in their mouths, Link will need to struggle free by rubbing the stylus back and forth on the touch screen. If he does not escape quickly enough, the Like Like will steal his Shield, though they can be defeated to retrieve the stolen Shield. Strangely, no message box will pop up if Link's shield is stolen. Like Likes are highly resilient and take three hits of the Sword or [[Bow]] to defeat. The [[Boomerang]] can be used to stun them. New to {{PH|-}}, Link can also throw Bombs into their gaping mouths as they are inhaling to attack them. They appear in the [[Goron Temple]].
+
+Rupee Likes also make a reappearance, and are more common than ordinary Like Likes.
+
+==={{ST|-}}===
+Like Likes appear in {{ST}} as identical to those from ''Phantom Hourglass'', although Rupee Likes do not return. Like Likes have a new tactic, as some now hide in barrels, [[Jar]]s, and fake [[Treasure Chest]]s, attempting to ambush unsuspecting adventurers. These objects will shake just before the Like Like reveals itself. As before, they will attempt to suck in Link through a wind tunnel and steal his Shield, and the stylus must be rubbed on the screen to break free. However, Link cannot get a stolen shield back from a Like Like. Also, when Link loses a shield, a message box will pop up which reads "That monster ate your shield!" to indicate when a shield has been stolen. While they are able to steal the basic Shield, they are unable to take the [[Shield of Antiquity]]. All previous strategies, including tossing a Bomb into their mouths, are effective. They appear in the [[Cave]] at the [[Linebeck Trading Company]] and the [[Goron Village]].
+
+==={{ALBW|-}}===
+{{Stub|ALBW}}
+Like Likes appear as enemies in [[Lorule]] in {{ALBW}}. Ruppe Likes also appear in this game. In this game, a Like Like will slowly chase after Link when he approaches, and it will try to grab him into its mouth when it's facing him. If it manages to capture Link, it will chew him up for a few seconds. If the player doesn't wriggle free fast enough, it will engulf him inside it, chew him up some more, and then he will be spat out and his shield will be lost. This will deal two hearts of damage to Link, and the Like Like will hop away before Link hits the ground on his back. After the Like Like finishes hopping away from Link, it will stay in its spot for a few seconds, then it will burp, indicating that it ate Link's Shield, forcing the player to eventually purchase a replacement. However, Like Likes cannot eat the Hylian Shield in this game.
+
+==={{TotK|-}}===
+{{Compendium|name=Like Like|desc=A monster that has been appearing all over Hyrule in recent days. Found dwelling in caves and other dark places. It has an appetite for swords and shields. If you get too close, it may lunge at you with its mouth wide, swallow you whole, and eat your equipment. The tongue in the center of its mouth is very sensitive. Attack it to make the creature falter.|locs=Hyrule Field
+East Necluda|loot=Like Like Stone
+Arrow x5}}
+Like Likes reappear in {{TotK}}, behaving differently than in previous appearances. They are permanently attached to walls and ceilings, and will reach out to eat Link and one piece of his equipment when he gets close. Their outer shell is immune to damage, but when attacking they reveal a weak spot in their mouth. Attacking this weak spot will stun them, allowing for more damage to be done. New variants are introduced in this game, being the [[Fire Like]]s, [[Ice Like]]s, [[Rock Like]]s, [[Shock Like]]s, and the [[Sludge Like]], the last of which is [[Sub-Boss]].
+
+==Crossover appearances==
+{{Noncanon|Start}}
+==={{SSB|-}} series===
+===={{SSBM|-}}====
+[[File:SSBM Like Like.png|thumb|200px|A Like Like in {{SSBM|-}}]]
+In {{SSBM}}, Like Likes appear as both enemies in the [[Underground Maze]] level of {{ssb|Adventure Mode}} and as a [[Trophy (Super Smash Bros.)|Trophy]]. Like in games of {{TLoZ|Series}}, Like Likes attack by swallowing a fighter who comes near them, continually damaging the fighter inside of them. The Like Like eventually spits out the fighter, who takes additional damage. The higher the damage percentage a player has accumulated when being swallowed, the longer they will be trapped inside the Like Like before being spat out. Like Likes can be defeated by hitting it until they take enough damage. For every Like Like the player defeats, 500 points are added for the {{ssb|List of Bonuses|Like Like KO bonus}}.
+
+{{SSBTrophy|SSBM|header=yes}}
+{{#section:Trophies in Super Smash Bros. Melee|Like Like}}
+|}
+
+===={{SSB4|3DS|-}}====
+Like Likes also appear as a Trophy in {{SSB4|3DS}}.
+
+{{SSBTrophy|SSB4|header=yes}}
+{{#section:Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Like Like}}
+|}
+
+===={{SSBU|-}}====
+In {{SSBU}}, Like Like appears as a [[Spirit]] with the ability, Sticky-Floor Immunity, which grants a [[Fighter]] the a resistance to sticky floors.
+
+{{Spirit Battle
+|name= Like Like
+|spirit type= Support
+|fighters= {{Stock|SSBU|Yoshi|4}}
+|team type= Grab
+|team power= 4000
+|rank= Advanced
+|stage= Great Bay
+|stage type= Battlefield
+|theme= {{Remix|SSB4|Overworld & Underworld - The Legend of Zelda (for 3DS / Wii U)|SSBU}}
+|rules= Sudden Damgae<br/>Item: Food
+|hazards= Sticky Floor
+|conditions= {{·}} The floor is sticky<br/>{{·}} You'll occasionally take sudden damage after a little while<br/>{{·}} The enemy favors grabs and throws}}
+{{Support Spirit
+|name= Like Like
+|rank= Advanced
+|cost= 2
+|skill= Sticky-Floor Immunity
+|description= Become immune to sticky floors.
+}}
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+Like Likes are enemies in {{CoH}}, where they can be found in dungeons and deserts like the [[Desert]] and [[Gerudo Desert]]. They have two [[Heart]]s. Like other enemies, they move to the beat of the music on every two beats. If they touch either [[Cadence]], [[Link]], [[Yves]], or [[Princess Zelda|Zelda]], they will swallow them whole, trapping them and rendering them immobile until they are shaken off, along with stealing whatever they are equipped with, including torches, rings, and other forms of consumable equipment.
+
+They also occasionally hide in diggable tiles, forcing the heroes to take caution while digging tiles in certain areas.
+{{Ambig|End}}
+
+== Trivia ==
+* In the [[Royal Hyrule Library]] from {{TMC}}, [[Link]] can find a list of the week's top three titles, including a book entitled ''Learning to Like Your Like Like: A Good Guide to a Bad Pet''.<ref>{{Cite|This week's top titles:<br/>#3 Learn to Like Your Like Like: A Good Guide to a Bad Pet<br/>#2 Gorman's Guide to Good Grub<br/>#1 Married to the Moblin|Sign|TMC}}</ref>
+* [[Morpha]], the [[boss]] of the [[Water Temple]] in ''[[The Legend of Zelda: Ocarina of Time|Ocarina of Time]]'', makes the same sound effect of a Like Like attempting to swallow [[Link]] when he is caught by its water-like tentacles.
+
+==Gallery==
+===Artwork===
+{{ArtworkGallery}}
+
+===Models===
+{{ModelGallery}}
+
+===Sprites===
+{{SpriteGallery}}
+
+==Nomenclature==
+According to the Like Like Trophy in {{SSBM|-}}, the name Like Like is derived from an ancient {{Term|Series|Hyrulean|link}} proverb, "Shield-eaters and world leaders have many likes alike." In the Japanese version, it comes from the Japanese proverb {{Romanize|蓼食う虫も好き好き|Tade kū mushi mo sukizuki|Some bugs eat water pepper and like-like it}}, which roughly means "each to their own tastes." Since shield (たて) and {{wp|Persicaria hydropiper|water-pepper}} (たで) are very similar in spelling, the Like Like is a reference to the saying, corrupting "water-pepper" to "shield."<ref>{{Cite Web|author=Clyde Mandelin |published=March 29, 2014 |retrieved=March 30, 2014|url=http://legendsoflocalization.com/do-zeldas-like-likes-come-from-a-japanese-proverb/ |title=DO ZELDA’S “LIKE LIKES” COME FROM A JAPANESE PROVERB? |site=Legends of Localization}}</ref>
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:ALttP Link Fighting Like Like.png|Like Likes outside the Dark World Shield Shop from {{ALttP|-}}
+File:TMC Like Like Sprite 2.png|A Like Like eating Link's Shield from {{TMC|-}}
+File:CoH Like Like Sprite.png|A Like Like from {{CoH|-}}
+</gallery>
+
+==See also==
+* {{Term|Series|Deku Like|link}}
+* {{Term|Series|Fire Like|link}}
+* {{Term|Series|Force Like|link}}
+* {{Term|Series|Ice Like|link}}
+* {{Term|Series|Life Like|link}}
+* {{Term|Series|Pikit|link}}
+* {{Term|Series|Rock Like|link}}
+* {{Term|Series|Rupee Like|link}}
+* {{Term|Series|Shock Like|link}}
+* {{Term|Series|Sludge Like|link}}
+
+{{Ref}}
+
+{{Enemies}}
+{{SlimeEnemy}}
+{{Categories
+ |Like Likes, Stealing Enemies, Thieves
+ |enemies= TLoZ, ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, TMC, PH, ST, ALBW, CoH, TotK
+}}
+
+[[de:Raubschleim]]
+[[es:Like_Like]]
+[[fr:Like-Like]]
+[[zh-tw:萊克萊克]]

@@ -1,0 +1,17 @@
+{
+  "source": "wikipedia",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:13:07+00:00",
+  "total_chars": 133934,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time",
+      "revid": 1384058398,
+      "file": "pages/The_Legend_of_Zelda_Ocarina_of_Time.wiki",
+      "chars": 133934
+    }
+  ]
+}

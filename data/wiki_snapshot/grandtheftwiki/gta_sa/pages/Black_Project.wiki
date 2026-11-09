@@ -1,0 +1,130 @@
+{{infobox mission
+|name=Black Project
+|game=SA
+|for=[[The Truth]]
+|image=BlackProject-GTASA.png
+|size=400x400px
+|caption=[[The Truth]] tells [[Carl Johnson]] about the train he plans to steal from
+|target=[[Jetpack]]
+|location=[[Verdant Meadows]], [[Bone County]]
+|reward=Nothing
+|unlocks=[[Green Goo]]<br />[[Misappropriation]]<small> (if [[Intensive Care]] has been completed)</small>
+|unlockedby=[[Stowaway]]
+}}
+'''Black Project''' is a mission in [[Grand Theft Auto: San Andreas]] given to [[Protagonist|protagonist]] [[Carl Johnson|Carl "CJ" Johnson]] by aging hippie [[The Truth]] from [[Verdant Meadows]], [[Bone County]], [[San Andreas in GTA III Era|San Andreas]].
+
+'''''Note.''''' ''This mission can only be started between 20:00 and 05:30. Further, if Carl is overweight when attempting to start this mission, The Truth will call him a "fat ass" and tell him to lose some weight beforehand, presumably to make it easier for the [[Jetpack|jetpack]] to lift him.''
+
+==Mission==
+Carl appears out of the abandoned AC tower at the [[Verdant Meadows]] airstrip he has been using recently to see undercover government agent [[Mike Toreno|Michael "Mike" Toreno]] who has promised to secure his incarcerated brother and [[Grove Street Families]] leader [[Sweet|Sean "Sweet" Johnson]]'s release. However, he instead finds has Toreno has disappeared, not [[Vertical Bird|fulfilling his]] [[Home Coming|end of the bargain]]. 
+
+However, aging hippie and intrigued conspiracy theorist [[The Truth]], who Carl hasn't seen ever since [[Wear Flowers in Your Hair|the last bit of help he provided Carl]], mysteriously appears, revealing to Carl that he knows about Toreno, and, offering him redemption, instructs Carl to steal something of a gizmo from a [[Area 69|restricted government base]] which is, due to its secrecy, not normally located on the map. Dropped off by The Truth in front of an entrance, Carl then makes his way through the base, called [[Area 69]], killing military personnel. He also preferably disables the [[Surface-to-Air Missile|SAM sites]], in an effort to make his escape less difficult. After progressing through the base and massacring soldiers, agents and scientists alike, he finally finds the secret gizmo project, which turns out to be a $60,000,000 [[Jetpack|jetpack]]. 
+
+Carl escapes from Area 69 via the jetpack and takes it to The Truth, who is waiting for him on top of [[Arco del Oeste]]. The Truth then abandons Carl, driving off in the [[Camper#The Mothership|Mothership]], eager to test out his new Jetpack.
+
+==Script==
+'''(''Carl appears at the Verdant Meadows Airstrip while The Truth is lying hidden atop a wreck.'')'''
+
+'''The Truth''': Hail fellow, well met. Namaste. Peace. Carl, brother.
+
+'''(''Carl looks around and can't find The Truth, who he happens to recognize by voice.'')'''
+
+'''CJ''': Hey, Truth, where you at?
+
+'''The Truth''': (''starts performing some weird actions upon rising, just as Carl discovers him'') Just checking that you were no longer on 'government business'. Where is he?
+
+'''CJ''': How the fuck would I know, man? He's like the devil. Hey, man, you OK?
+
+'''The Truth''': Everything is transient. (''jumps down from the wreck'') Oof. Oh, man. Uh. I'm passing through life, same as every man.
+
+'''CJ''': OK.
+
+'''The Truth''': Do you have any idea what you're doing for Toreno?
+
+'''CJ''': No. I seem to be on a need-to-know basis.
+
+'''The Truth''': Oh, no, man. Two lies don't cancel each other out. You know that. We pay them to lie to us. Is that what our founding fathers wanted? No more, friend. No more. We're not alone.
+
+'''(''The Truth starts hugging Carl, who tries to shake him off.'')'''
+
+'''CJ''': Get off me, man, what's going on?
+
+'''The Truth''': Everything is going on! Don't you get it? There's a place. Not even on the map. A train is about to leave. It can explain better than I ever can. Boy, this is going to blow your fucking mind! We got work to do. You better drive. I'll explain. the elegance does not even touch it.
+
+'''(''The Truth and Carl arrive outside Area 69.'')'''
+
+'''CJ''': Do we have a plan here?
+
+'''The Truth''': Go, go, go!
+
+'''CJ''': HEY! Hold up, dude!
+
+'''(''The Truth drives away in his camper. Carl makes his way. Later, when he successfully infiltrates into the base, announcements are made.'')'''
+
+'''Administrator''': Personnel are reminded that the downloading of pornography is strictly prohibited! 
+The countenance lab would like to remind diagnostics that that space is off limits to diagnostic staff. 
+Could whoever stole the countenance labs must please return them. 
+All personnel wishing to go to shipping tonight please inform reception at your earliest convenience!
+Could the owner of the alien culture in the diagnostic labs please kindly remove it. 
+The Globulin Deli has arrived in the canteen. 
+Tonight’s menu is posted in the canteen. 
+Barf bags can be ordered from human resources. 
+Personnel found stealing alien technology, will not be invited on the next staff night out! 
+Could all personnel remember that the quarantine breach alarm test has now been moved to Monday morning! 
+Could Personnel please make sure that they shut all the windows before they leave tonight! 
+Has anybody seen my screwdriver? I think I left it in the countenance lab! 
+Personnel are reminded that running in corridors while holding scissors is not permitted! 
+The Sprunk machines have now been refilled!
+
+'''(''Carl steals the jetpack and is on his way escaping.'')'''
+
+'''Voice''': Take him out! That's a $60,000,000 project! Get the General Mills on the line!
+
+'''(''Carl takes the jetpack to The Truth.'')'''
+
+'''The Truth''': Carl, dude, man!
+
+'''CJ''': Here you go, better stash it someplace fast!
+
+'''The Truth''': Far out, have a nice trip, dude!
+
+'''CJ''': Hey, wait a... (''The Truth drives away'') Was it too much to get a lift into town?
+
+==Trivia==
+*The mission takes its name from "[[:wp:Black project|black project]]", a term used in the United States and United Kingdom to refers to any highly classified military/defense project that is not made known to the public.
+*The keycard seen in this mission uses the same texture as the ones seen in [[Grand Theft Auto: Vice City|GTA Vice City's]] "[[No Escape?]]" and GTA San Andreas' "[[Key to Her Heart]]" missions.
+*If the player opens the door to the research facility with the keycard, then runs out into the main labs and back, the soldiers will not shoot him. They will not react even if they are injured. Exploiting this glitch is an easy way to complete the mission as there is little cover on the stairwell and the player can die more easily as he runs down the stairs.
+*Strangely, after the mission is completed, the [[Surface-to-Air Missile|SAM]] sites are re-activated. This is unlike the mission [[Vertical Bird]], where the SAM sites are temporarily enabled only during the mission.
+*If the player fails the mission by running away too far from Area 69, Carl is automatically transported back to the Verdant Meadows Airstrip. However, the vehicular zone is still available for exploration during the mission.
+*Usually, entry into Area 69 warrants a [[Wanted Level in GTA III Era #Five stars|5-star wanted level]], but this does not apply during the mission.
+
+==Reward==
+There is no reward, surprisingly, but the mission [[Green Goo]] is unlocked. Also, if the [[Las Venturas]] segment mission [[Intensive Care]] is played before, a case highly unlikely due to continuity glitch limitations, much alike the case with [[Customs Fast Track]] and [[Home Coming]], the mission [[Misappropriation]] will be unlocked.
+
+==Gallery==
+<gallery width="auto" perrow="4" style="font-size:95%; padding:0;" widths="250">
+File:BlackProject-GTASA2.png|Area 69.
+File:BlackProject-GTASA3.png|[[Carl Johnson]] quietly takes out the soldiers with his sniper rifle.
+File:BlackProject-GTASA4.png|The research lab.
+File:BlackProject-GTASA5.png|CJ fights his way down to the research lab.
+File:BlackProject-GTASA6.png|CJ breaches the research lab.
+File:BlackProject-GTASA7.png|CJ flies out with the jetpack.
+File:BlackProject-GTASA8.png|CJ gives the jetpack to The Truth.
+</gallery>
+
+==Video walkthrough==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTASeriesVideos
+|-
+|{{youtube|video1=B1cXWkG0uqs}}
+|}
+</center>
+
+{{Navboxes
+|title= Navigation
+|list1={{missions|state=collapsed}}
+{{Gtasa missions|state=collapsed}}
+}}
+
+[[Category:Missions in GTA San Andreas]]

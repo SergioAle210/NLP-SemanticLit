@@ -1,0 +1,17 @@
+{
+  "source": "wikipedia",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:07:10+00:00",
+  "total_chars": 77636,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "The Legend of Zelda (video game)",
+      "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_%28video_game%29",
+      "revid": 1383060100,
+      "file": "pages/The_Legend_of_Zelda_video_game_.wiki",
+      "chars": 77636
+    }
+  ]
+}

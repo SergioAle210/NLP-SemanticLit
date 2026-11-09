@@ -1,0 +1,64 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork OoT= File:OoT Barinade Artwork.png
+ |Model OoT= File:OoT Barinade Model.png
+ |Model OoT3D= File:OoT3D Barinade Model.png
+}}
+|title= Bio-electric Anemone<ref>{{Cite|'''Bio-electric Anemone'''<br/>{{Big|'''Barinade'''}}|N/A|OoT}}</ref>
+|game= {{OoT}}
+|era= [[Era of the Hero of Time]]
+|dungeon= [[Inside Jabu-Jabu's Belly]]
+|weakness= [[Boomerang]]<br/>[[Kokiri Sword]]
+|reward= [[Heart Container]], [[Zora's Sapphire]]
+|health={{HP|OoT|15}}|attack(s)=Contact <br/> Electric Beam {{Small|(1/4)}}}}
+{{Term/Store|Barinade||Series, OoT, OoT3D}} is the third [[Boss]] in {{OoT}},<ref>{{Cite Book|quote= |book= E |publisher= |page= 165}}</ref> residing [[Inside Jabu-Jabu's Belly]]. It is an enormous anemone-like monster that acts as a dangerous parasite to [[Lord Jabu-Jabu]], gradually draining its host of his life energy in order to sustain itself. Barinade is the guardian of the third [[Spiritual Stones|Spiritual Stone]], [[Spiritual Stone of Water|Zora's Sapphire]].
+
+==Characteristics==
+{{Navi
+|quote1= {{Color|OoT White|Barinade}}<br/>Many parasitic jellyfish swarm around this monster. Aim for its body, protected by jellyfish!
+}}
+
+[[File:OoT Barinade Introduction.jpg|thumb|left|250x250px|Barinade's introduction from {{OoT|-}}]]
+
+Barinade is attached to the ceiling of the arena, absorbing life energy from [[Lord Jabu-Jabu]] through three tentacles, when Link enters the arena. [[Bari]], hovering in the air, are electrically drawn and attach to the core of Barinade, beginning the battle. To damage it, Link severs the [[Parasitic Tentacle|three tentacles]] that attach Barinade to the ceiling with the [[Boomerang]]. Barinade targets Link with lightning from its other three tentacles during this time, which cannot be blocked with a [[Shield]].
+
+[[File:OoT Link Fighting Barinade.jpg|thumb|Hitting it with the Boomerang|222x222px]]
+If Link removes Barinade's attached tentacles, five Bari surround Barinade's static core, connected via electricity. If any of the Bari or beams of electricity strike Link, he will take damage. Link uses the Boomerang to directly remove the Bari; they pop into colored bubbles when defeated. Link also uses the Boomerang to stun the core of Barinade directly, following up with attacks from the [[Kokiri Sword]] or [[Deku Stick]]s.
+
+After Link removes the first five Bari and/or applies enough initial damage to the core, Barinade spins wildly around the room, firing blasts of electricity at Link from its tentacles. The five remaining Bari are occasionally brought close to Barinade's core, and in other cases, the core moves about the arena, extending the Bari in a loose, protective field. Barinade roots itself and unleashes a volley of electricity at Link from its tentacles after all Bari are removed. Link uses the Boomerang to again stun the core, engage a [[Critical Point]], and directly attack again with his weapons. If Link does not apply enough damage, Barinade will continue to spin around the room, repeating the second half of the battle.
+
+When defeated, Barinade develops purple-pink polyps on its core and tentacles and explodes into green gas, killing it and leaving a [[Heart Container]] in its remains.
+
+==Trivia==
+*In the same way as Barinade, the [[Arrghus#Orange Arrghus|Orange Arrghus]] from the [[Game Boy Advance]] remake of {{ALttP}} is surrounded by a group of Bari.
+*The three [[Parasitic Tentacle|Parasitic Tentacles]] within [[Inside Jabu-Jabu's Belly]] are part of Barinade itself.
+*The fighting style of [[Kalle Demos]] from {{TWW}} is reminiscent of Barinade.
+*Barinade ties with the Bari as when [[Link]] hits Barinade when it is stunned, the impact will kill the Bari around it.
+*It is implied [[Princess Ruto]] could be inside Barinade. When the [[Warping|warp]] appears after its defeat, she rises from the ground, before scolding the young [[Hero of Time]], visibly shaken.
+*The Sub-Boss [[Bori]] from {{EoW}} fights almost identically to Barinade and was likely a direct inspiration.
+*In the [[The Legend of Zelda: Ocarina of Time (Himekawa)|{{OoT|-}} manga]] by [[Akira Himekawa]], Barinade captures Princess Ruto during the battle against Link and the young hero rescues her by destroying its Bari and tentacles with the [[Boomerang]]. He also acquires the stolen [[Spiritual Stone of Water|Zora's Sapphire]] this way.
+
+==Nomenclature==
+Barinade's name originated from the jellyfish-like Bari, with whom Barinade seems to have a connection. 
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoT3D Barinade Model.png|Barinade's [[Boss Challenge]] image from {{OoT3D}}
+File:Jabu Stomach End.png|[[Princess Ruto]] angry at Link after defeating the monster
+File:OoT manga Link sees Princess Ruto and Barinade.png|[[Link]] encountering Barinade alongside Princess Ruto in the [[The Legend of Zelda: Ocarina of Time (Himekawa)|''Ocarina of Time'' manga]]
+File:OoT manga Link protecting Princess Ruto from Barinade.png|Link defeating Barinade in the ''Ocarina of Time'' manga
+</gallery>
+
+==See also==
+*[[Bari]]
+*[[Biri]]
+*[[Bori]]
+
+{{Ref}}
+{{Bosses|OoT}}
+{{Categories
+ |Electricity-Related Enemies, Water-Related Enemies
+ |bosses= OoT, OoT3D
+}}

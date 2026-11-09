@@ -1,0 +1,123 @@
+{{infobox mission
+|name=Air Raid
+|game=SA
+|image=AirRaid-GTASA.png
+|size=400x400px
+|caption=[[Zero]] tells [[Carl Johnson]] about [[Berkley]]
+|for=[[Zero]]
+|target=[[RC Baron|RC Barons]]
+|location=[[Garcia]], [[San Fierro]], [[San Andreas in GTA III Era|San Andreas]]
+|reward=[[Money|$]]3,000
+|unlocks=[[Supply Lines...]]
+}}
+'''Air Raid''' is a playably voluntary but canonically mandatory storyline mission in [[Grand Theft Auto: San Andreas]] given to [[protagonist]] [[Carl Johnson|Carl "CJ" Johnson]] by electronics expert [[Zero]] from his [[Zero RC|RC store]] in the [[Garcia]] district of [[San Fierro]], [[San Andreas in GTA III Era|San Andreas]].
+
+==Mission==
+Carl drops by his newly acquired business, Zero RC, and finds Zero distraught, having discovered that his arch rival [[Berkley]] has returned to San Andreas. Whilst Zero tells Carl about his past with Berkley, a 'full scale attack' is launched by Berkley, using [[RC Baron|RC Barons]] to attack the transmitters on Zero RC's rooftop. Carl and Zero head to the roof and Carl uses a [[Minigun]] to destroy the attacking RC Barons, which Zero explains will allow him to launch a counter attack.
+
+==Pre-mission Phone Call==
+'''(''Carl purchases the Zero RC shop after its landlord sells it.'')'''
+
+'''Zero:''' Hey, Car, it's Zero.
+
+'''CJ:''' Oh, hi Zee, you weren't around when I signed the deeds.
+
+'''Zero:''' Yes, I know. I was on a dangerous reconnaissance mission, deep into enemy territory.
+
+'''CJ:''' Yeah, well, sure, whatever you say. I should come through and have a look at the business, you know.
+
+'''Zero:''' Oh, of course, of course, I'll have to tidy up a bit, this place is such a mess.
+
+'''CJ:''' Don't worry about it. I will (won't) drop in soon.
+
+==Script==
+'''CJ''': Hey, whattup, Zee?
+
+'''Zero''': Nothing is up, Carl, apart from my blood pressure, and the imminent collapse of my hopes and dreams.
+
+'''CJ''': Why?
+
+'''Zero''': As usual, the forces of darkness have triumphed over good. Life is nothing but misery, briefly interspersed with agony.
+
+'''CJ''': Homie, what you on? Whatever it is, you need to reduce the dosage.
+
+'''Zero''': Excuse me, but I never take drugs. We all know drugs are for losers, and/or sex maniacs. And right now, sex is the last thing on my mind.
+
+'''CJ''': Thank God for that!
+
+'''Zero''': Berkley is back!
+
+'''CJ''': Ooohhh. Berkley.
+
+'''Zero''': Yes.
+
+'''CJ''': Who the fuck is Berkley?
+
+'''Zero''': Just a man I once beat in fair competition. A man literally obsessed with revenge.
+
+'''CJ''': Oh, you put hands on him?
+
+'''Zero''': No, please. I never initiate violence.
+
+'''CJ''': Oh, I know - you knocked his bitch!
+
+'''Zero''': No. I won the prize in the science fair. First prize, that is.
+
+'''CJ''': And now he wanna pop you? (''laughs'') And they say gang bangers is petty and small minded! (''hears something'') Hey, what's that bleeping sound?
+
+'''Zero''': That's him! We shall fight to the end!
+
+'''(''Carl and Zero go to the shop's roof.'')'''
+
+'''Zero''': Berkley's launched a full-scale attack!
+
+'''CJ''': This is insanity!
+
+'''Zero''': All batteries commence fire! He's going for my transmitters! If he takes them out, I'll never be able to launch a counter attack!
+
+'''CJ''': No problem man, but they only toys.
+
+'''Zero''': They're not toys! They're just smaller! (''Carl starts attacking'') CJ, bogies at 12'o clock! Great kid, don't get cocky! RC Barons at 9'0 clock high, Carl!
+
+'''(''Carl destroys all of Berkley's RC Barons.'')'''
+
+'''Zero''': Ha ha ha ha Berkley! As long as we have opposable thumbs, WE WILL FIGHT YOU! ...Well done, Carl. Now leave, I must prepare for the battles ahead! Never have so few owed so many... too little, three... no that's not it, what is it? We will fight him on the beaches, well, rooftops...
+
+==Reward==
+The reward for completing the mission is [[Money|$]]3,000. The mission [[Supply Lines...]] is unlocked.
+
+==Trivia==
+*The quote "Great kid, don't get cocky!" Zero makes during the Air Raid was originally used in [[:wp:Star Wars Episode IV: A New Hope|Star Wars Episode IV: A New Hope]] by [[:wp:Han Solo|Han Solo]].
+
+==Continuity Glitch==
+
+Playing this mission after the heist strand mission [[Up, Up and Away!]] will cause a factual error. It is during this mission that Carl comes to know of Berkley, and in the aforestated mission, Zero compares Carl's act to "fighting Berkley, only bigger" to which Carl replies by thanking him. Thus, he needs to know of Berkley.
+
+Another problem is that any heavy weaponry used in this mission will automatically disappear as it would be replaced with the minigun, which is scripted to despawn. Hence, there may be a huge loss if the infinite minigun obtained in [[Up, Up and Away!]] is lost during this mission.
+
+Therefore, it is always best suited to play this mission before [[Up, Up and Away!]], even if [[Supply Lines...]] and [[New Model Army]] may be played later.
+
+==Gallery==
+<gallery width="auto" perrow="3" style="font-size:95%; padding:0;" widths="250">
+File:AirRaid-GTASA2.png|[[Zero]] spots [[Berkley|Berkley's]] incoming [[RC Baron|RC Barons]].
+File:AirRaid-GTASA.jpg|[[Carl Johnson]] destroys the Barons.
+File:AirRaid-GTASA3.png|CJ and Zero defeat the last of the Barons.
+</gallery>
+
+==Video walkthrough==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTASeriesVideos
+|-
+|{{youtube|video1=WN6k0pAmyvM}}
+|}
+</center>
+
+{{Navboxes
+|title= Navigation
+|list1={{missions|state=collapsed}}
+{{Gtasa missions|state=collapsed}}
+}}
+
+[[Category:Missions in GTA San Andreas]]
+[[Category:Asset Missions]]

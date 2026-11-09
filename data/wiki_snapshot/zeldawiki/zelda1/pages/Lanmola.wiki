@@ -1,0 +1,212 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork TLoZ= [[File:TLoZ Lanmola Blue Artwork.png|320x320px]]
+ |Artwork ALttP= [[File:ALttP Lanmolas Artwork.png|320x320px]]
+ |Model LANS= [[File:LANS Lanmola Model.png|320x320px]]
+ |Model EoW= [[File:EoW Lanmola Model.png|320x320px]]
+ |Sprite ALttP= [[File:ALttP Lanmola Sprite.png|320x320px]]
+ |Sprite LA= [[File:LA Lanmola Sprite.png|320x320px]]
+ |Sprite LADX= [[File:LADX Lanmola Sprite.png|320x320px]]
+}}
+|caption= 
+|game= TLoZ, ALttP, LA, EoW
+|other= AST, ALttP (Ishinomori), LA (Cagiva), CoH
+|pronunciation= 
+|plural= Lanmolas<ref name="E 147"/>
+|title= 
+|alias= 
+|race= 
+|pronouns= 
+|dungeon= 
+{{Infobox Game Blocks
+ |TLoZ= [[Level 9]]
+ |ALttP= [[Desert Palace]]
+ |LA= [[Yarna Desert]]
+}}
+|habitat= 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|4}}
+ |EoW= Red: {{HP|EoW|60}}, Green: {{HP|EoW|100}}, Purple: {{HP|EoW|180}}
+}}
+|weakness= 
+{{List|
+ * [[Sword]]
+ * [[Arrow]]s
+ * [[Ice Rod]]
+ * [[Bind]]
+}}
+|reward= 
+{{Infobox Game Blocks
+ |ALttP= [[Pendant of Power]]
+ |LA= [[Angler Key]]
+ |EoW= [[Monster Stone]]s, [[Piece of Heart]]
+}}
+|exp= 
+|theme= 
+|voiceactor= 
+|strategy= 
+|zu= 
+}}
+'''Lanmolas''' are recurring [[Boss]]es, [[Enemy|Enemies]], and [[Sub-Boss]]es in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Lanmola|Lanmolas|Series, ALttP, LA, LADX, EoW, ALttP (Ishinomori), CoH}}
+| 
+{{List|
+ * {{ALttP}}<ref name="E 188"/>
+ * {{LA}}<ref name="E 188"/>
+ * {{LADX}}<ref name="E 188"/>
+ * {{LANS}}{{Name Ref|LANS}}
+ * {{EoW}}<ref name="EoW Gerudo"/>
+ * {{ALttP (Ishinomori)|Link}}<ref name="ALttP (Ishinomori) 13"/>
+ * {{CoH}}<ref name="CoH Game Over"/>
+}}
+|-
+| ''No name is given''
+| 
+{{List|
+ * {{AST}}
+ * {{LA (Cagiva)|Link}}
+}}
+}}
+
+==Characteristics==
+Lanmolas are fast and powerful centipedes.<ref name="TLoZ Manual 36"/> They originally appeared as normal [[Enemy|Enemies]], but began to serve larger roles in subsequent games in the series, acting as [[Boss]]es or [[Sub-Boss]]es. They generally possess an elongated segmented body, appearing both with and without appendages, and have one to two eyes.
+
+==={{TLoZ|-}}===
+{{Main|Red Lanmola, Blue Lanmola}}
+{{Descriptions TLoZ}}
+In {{TLoZ}}, Lanmolas are only found in [[Level-9]] in both Quests and are powerful foes. They come in red and blue varieties, with the latter ones being faster. Like the [[Moldorm]]s in the game, the Lanmolas grow shorter by one segment with each blow, but only the tail part of their body is weak at first; the head can only be harmed once the remaining segments have been destroyed. Their fast movement, multiple legs and their weakness in the tail actually makes them more akin to Moldorms of later games. When defeated, red Lanmolas may drop either a [[Heart]], a [[Fairy]] or one [[Rupee]], while blue Lanmolas may drop either a Heart, one Rupee, five Rupees, or a [[Clock]].{{TLoZ Enemy Note}}
+
+==={{ALttP|-}}===
+[[File:ALttP Lanmolas Sprite.png|left|112px]]
+A group of three Lanmolas are the bosses of the [[Desert Palace]] in {{ALttP}}. In this game, they hide underground and occasionally surface to attack, then return to the underground. When they burrow out of the ground, they send bits of rock flying in several directions. The sword is the most common method of dealing with them; however, [[Arrow]]s and the [[Ice Rod]] are both effective as well. After two are defeated, the last one will begin to move faster, and creates more bits of rock upon surfacing. Once the final one has been taken care of, [[Link]] gets the Pendant of Power and a [[Heart Container]].
+
+The group of three Lanmolas later return in [[Ganon's Tower]] as a mini-boss, where they are fought the same way as before. This time, however, there is a [[Medusa]] in the room that will occasionally shoot [[Fire|fireballs]] at Link.
+{{Clear|left}}
+
+==={{LA|-}}===
+In {{LA}}, a Lanmola appears as a mini-boss guarding the [[Angler Key]] in the [[Yarna Desert]]. It attacks in the same fashion as those encountered in {{ALttP|-}}, but this time it fights in a patch of quicksand. If Link sinks into the center of the pit, Link will fall into a cave and, after returning, all damage dealt to the Lanmola will be reversed.
+
+One of the final [[Nightmare]]'s forms is known as [[Lanmola's Shadow]], but it is fought very differently. It behaves more akin to the Lanmolas of the original {{TLoZ|-}}, and must be defeated with a powerful attack to the head.
+
+==={{EoW|-}}===
+{{Quests|
+{{EoW Quest
+ |name= Wild Sandstorms
+ |type= Side Quest
+ |location= Gerudo Palace
+}}
+}}
+Lanmolas are segmented insectoid creatures found in the [[Gerudo Desert]] as [[Sub-Boss]]es. They are capable of creating [[Sandstorm]]s, which disappear when they are slain.<ref name="EoW Gerudo 2"/> Lanmola locations are marked by [[Sand]] mounds in the center of flat areas. When [[Princess Zelda]] gets a Lanmola's attention, [[Quicksand]] will appear throughout the surrounding area and it will begin to burrow around with the help of its rotating tail. As they emerge from the ground and burrow back into it, [[Rock]]s fly out at the surrounding area, damaging anything they strike. While burrowing into the Quicksand, they can use their tails to fling Rocks all around. [[Pot]]s will occasionally be included in the volleys of Rocks, dropping [[Heart]]s and [[Rupee]]s when they break. [[Sand Piranha]]s and [[Aruroda]]s will also appear during the fight and attempt to attack Zelda. Once a Lanmola has been defeated, the sandstorm it was creating will dissipate permanently.
+
+While a Lanmola's tail is above ground, Zelda can grab it with [[Bind]] and yank the Lanmola out of the ground and onto its back, exposing its weak point.
+
+The red Lanmola can be encountered northeast of [[Gerudo Town]] at any time. The green Lanmola can be found east of the [[Desert Temple Ruins]] once [[Dohna]] has asked Zelda to try and repair the three small [[Rift]]s during the [[Main Quest]] "[[A Rift in the Gerudo Desert]]".
+
+Once the Main Quest "[[Still Missing]]" has been completed and the other two Lanmolas have been defeated, the [[Side Quest]] "[[Wild Sandstorms]]" can be started by speaking with the [[Gerudo]] guards in the [[Gerudo Palace]]. The guards explain to Zelda that they are training to be able to defeat a new Lanmola that has been rampaging recently.<ref name="EoW Gerudo 3"/> Zelda can then encounter the purple Lanmola in the same location as the green Lanmola, east of the Desert Temple Ruins. After defeating it, Zelda can return to the Gerudo guards and inform them that the Lanmola has been dealt with.
+
+Each Lanmola deals a base damage of four. The red Lanmola has 60 health, while the green and purple ones have 100 and 180 health respectively.
+
+====Lanmola Drops====
+{{Data Table
+|game= EoW
+|columns= Red Lanmola[List], Green Lanmola[List], Purple Lanmola[List]
+| [[File:EoW Green Rupee Model.png|15px]] [[Green Rupee]] {{Qty|5}}, [[File:EoW Blue Rupee Model.png|15px]] [[Blue Rupee]] {{Qty|2}}, [[File:EoW Red Rupee Model.png|15px]] [[Red Rupee]] {{Qty|3}}
+| [[File:EoW Blue Rupee Model.png|15px]] [[Blue Rupee]] {{Qty|2}}, [[File:EoW Red Rupee Model.png|15px]] [[Red Rupee]] {{Qty|2}}, [[File:EoW Purple Rupee Model.png|15px]] [[Purple Rupee]] {{Qty|1}}, [[File:EoW Monster Stone Icon.png|30px]] [[Monster Stone]] {{Qty|2}}
+| [[File:EoW Green Rupee Model.png|15px]] [[Green Rupee]] {{Qty|5}}, [[File:EoW Blue Rupee Model.png|15px]] [[Blue Rupee]] {{Qty|1}}, [[File:EoW Red Rupee Model.png|15px]] [[Red Rupee]] {{Qty|1}}, [[File:EoW Piece of Heart Icon.png|30px]] [[Piece of Heart]] {{Qty|1}}
+}}
+
+==Other Appearances==
+==={{AST|-}}===
+{{Noncanon|Start}}
+Three Lanmolas also appear as the boss of Level 5 in Week 3 of {{AST}}. Unlike {{ALttP|-}}, it is possible to obtain the Level 3 Sword in the dungeon before fighting them.
+{{Noncanon|End}}
+
+==={{ALttP|-}} (Ishinomori)===
+{{Noncanon|Start}}
+In the {{ALttP (Ishinomori)}}, a Lanmola appears after Link, using the [[Book of Mudora]] in the [[Desert of Mystery]], reveals a scorpion statue that has the [[Pendant of Power]] hanging on it. Before Link can approach it, he sinks into the quicksand and resurfaces on top of a Lanmola. Link tries to attack it with his sword, but its skin is too hard to cause any damage to it.<ref name="ALttP (Ishinomori) 15"/> However, after the Lanmola launches him into the air, he lands on top of the scorpion statue and retrieves the Pendant of Power.<ref name="ALttP (Ishinomori) 16"/> With the pendant's energy in his hand, Link successfully defeats the Lanmola by striking the foe's underbelly with the sword.
+{{Noncanon|End}}
+
+==={{LA|-}} (Cagiva)===
+{{Noncanon|Start}}
+In the {{LA (Cagiva)}}, a Lanmola attacks [[Link]] while exploring [[Yarna Desert]]. Due to the quicksand, Link cannot move swiftly, so he tries attacking the Lanmola with [[Bomb]]s to no avail. He then decides to remove his [[Shield]] and use it as a foot hold, asking [[Felicia]] to warn him when it appears. When the Lanmola emerges from the sand, Link evades its attack and counters it with a [[Spin Attack]]. As the Lanmola dissolves, the [[Angler Key]] appears from within.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+Lanmola appear in {{CoH}} as [[Miniboss]]es, appearing in either the [[Desert]] or inside [[Cave]]s and [[Dungeon]]s like the [[Gerudo Ruins]]. They move to the beat of the music, and emerge from underground in order to attack the heroes. Their heads move on every single beat towards the heroes, with their bodies slowly dragging along behind them. After several beats or sustaining enough damage, they will bury themselves underground for a few beats before re-emerging to attack. Once they are slain, they will drop a random [[Item]]. If they are in a Dungeon, they will also unlock a set of [[Stairs]] that will lead the heroes into the next Dungeon room or floor.
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+===Other Names===
+{{Other Names
+|-
+| Desert Lanmola<ref name="LA Nintendo 188"/>
+| {{LA}}
+| {{Guide/LA Nintendo}}
+| {{E}}
+}}
+
+==Gallery==
+<gallery>
+File:TLoZ Link Fighting Lanmola Artwork.png|{{Game Label|{{TLoZ|-}}}}Artwork of Link fighting a Lanmola
+File:TLoZ Link and Zelda Surrounded Artwork.png|{{Game Label|{{TLoZ|-}}}}A Lanmola, Blue Darknut, two Gibdos and several Keese surrounding Link and Zelda
+File:Sand battlefield.png|{{Game Label|{{ALttP|-}}}}Link fighting Lanmolas
+File:EoW Wild Sandstorms.png|{{Game Label|{{EoW|-}}}}A Lanmola hidden below the Sand
+File:EoW Lanmola Model 2.png|{{Game Label|{{EoW|-}}}}A green Lanmola
+File:EoW Lanmola Model 3.png|{{Game Label|{{EoW|-}}}}A purple Lanmola
+File:Lanmola (comic).png|{{Game Label|{{ALttP (Ishinomori)|Display}}}}A Lanmola
+File:LA (Cagiva) Lanmola.jpg|{{Game Label|{{LA (Cagiva)|Display}}}}A Lanmola about to attack Link
+File:LanmolaAST.png|{{Game Label|{{AST|-}}}}A Lanmola
+</gallery>
+
+==See Also==
+{{See Also|
+ * Blue Lanmola
+ * Flamola
+ * Lanmola's Shadow
+ * Red Lanmola
+ * Swamola
+}}
+
+{{Notes}}
+{{Ref|
+<!-- Encyclopedia -->
+<ref name="E 188">{{Cite Book|quote= |book= E |publisher= |page= 188 {{Exp Game|TLoZ, ALttP, LA}}}}</ref>
+
+<!-- The Legend of Zelda -->
+<ref name="TLoZ Manual 36">{{Cite Manual|quote=A gigantic centipede. Attacking his head won't work. Boy! Does he move fast!|game= TLoZ|page=36}}</ref>
+
+<!-- A Link to the Past -->
+<ref name="E 147">{{Cite Book|quote= |book= E |page= 147}}</ref>
+
+<!-- Link's Awakening -->
+<ref name="LA Nintendo 188">{{Cite Guide|LA Nintendo|page= 188}}</ref>
+
+<!-- Echoes of Wisdom -->
+<ref name="EoW Gerudo">{{Cite|All I can think about is the Lanmola... Where is it?|Gerudo|EoW}}</ref>
+<ref name="EoW Gerudo 2">{{Cite|[Lanmola?] Oh, a Lanmola is a type of monster that lives here in the desert. Ever found yourself caught in a sandstorm while walking the desert? Well, the Lanmola is the one creating the sandstorms. I'm pretty sure defeating it would put an end to the sandstorms. Although, I've heard some people say there's more than one Lanmola... Regardless, I wonder where in the desert such a monster would be.|Gerudo|EoW}}</ref>
+<ref name="EoW Gerudo 3">{{Cite|Of all the monsters in the desert, the {{Color EoW|Red|Lanmola}} is the largest and most formidable. So I'm training relentlessly. Unless I can improve, I won't stand a chance against such a beast!|Gerudo|EoW}}</ref>
+
+<!-- A Link to the Past (Ishinomori) -->
+<ref name="ALttP (Ishinomori) 13">{{Cite Book|quote= {{Big|A Lanmola!!}} |character= Link |book= ALttP (Ishinomori) |publisher= |page= 13}}</ref>
+<ref name="ALttP (Ishinomori) 15">{{Cite Book|quote=This is hopeless! Its skin is like armor!|book= ALttP (Ishinomori)|publisher= |page=15}}</ref>
+<ref name="ALttP (Ishinomori) 16">{{Cite Book|quote=Nice move, ugly! But now you're playing with the Pendant of Power!|book= ALttP (Ishinomori)|publisher= |page=16}}</ref>
+
+<!-- Cadence of Hyrule -->
+<ref name="CoH Game Over">{{Cite|Defeated By: Lanmola|Game Over|CoH}}</ref>
+}}
+
+{{Bosses|ALttP}}
+{{Categories
+ |Guardians, Nightmares, Sand-Related Enemies, Shadow Nightmares, Worm-Like Enemies
+ |bosses= ALttP, LA, LADX, LANS, AST
+ |characters= ALttP (Ishinomori)
+ |sub-bosses= ALttP, EoW, CoH
+}}

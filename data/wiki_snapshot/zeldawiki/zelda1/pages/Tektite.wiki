@@ -1,0 +1,254 @@
+{{Reorg}}
+{{Infobox Enemy
+|image= 
+{{Media
+ |defaultTypeTab= Model
+ |Artwork TLoZ= File:TLoZ Tektite Artwork.png
+ |Artwork TAoL= File:TAoL Tektite Artwork 2.png
+ |Artwork OoT= File:OoT Blue Tektite Artwork.png
+ |Render TP= File:TP Tektite Render.png
+ |Render EoW= File:EoW Tektite Render.png
+ |Model LANS= File:LANS Blue Tektite Model.png
+ |Model OoT= File:OoT Blue Tektite Model.png
+ |Model OoT3D= File:OoT3D Blue Tektite Model.png
+ |Model MM= File:MM Blue Tektite Model.png
+ |Model MM3D= File:MM3D Blue Tektite Model.png
+ |Model TP= File:TP Blue Tektite Model.png
+ |Model TPHD= File:TPHD Blue Tektite Model.png
+ |Model PH= File:PH Blue Tektite Model.png
+ |Model ST= File:ST Tektite Model.png
+ |Model ALBW= File:ALBW Blue Tektite Model.png
+ |Model TFH= File:TFH Tektite Model.png
+ |Model EoW= File:EoW Tektite Model.png
+ |Sprite TLoZ= File:TLoZ Blue Tektite Sprite.png
+ |Sprite TAoL= File:TAoL Tektite Sprite.png
+ |Sprite ALttP= File:ALttP Tektite Sprite.png
+ |Sprite LA= File:LA Tektite Sprite.png
+ |Sprite LADX= File:LADX Tektite Sprite.png
+ |Sprite OoS= File:OoS Blue Tektite Sprite.png
+ |Sprite OoA= File:OoA Blue Tektite Sprite.png
+ |Sprite FS= File:FS Tektite Sprite.png
+ |Sprite FSA= File:FSA Red Tektite Sprite.png
+ |Sprite TMC= File:TMC Tektite Sprite.png
+ |Sprite EoW= File:EoW Tektite Icon.png
+}}
+|caption= 
+|pronunciation= {{IPA|ˈtɛk.taɪt}} {{Respell|TEK|tyt}} <ref name="TLoZ Commercial"/><ref name="TLoZ Commercial 2"/>
+|plural= 
+|race= 
+|game= TLoZ, TAoL, ALttP, LA, OoT, MM, OoS, OoA, FS, FSA, TMC, TP, PH, ST, ALBW, TFH, EoW
+|other= TLoZ (TV Series), TSP, TCoBS, ZA, OoS (Himekawa), LCT, NL, CoH
+|habitat= {{Spawn Locations}}
+|member= 
+{{List|
+ * [[Black Tektite]]
+ * [[Blue Tektite]]
+ * [[Golden Tektite]]
+ * [[Red Tektite]]
+ * [[White Tektite]]
+}}
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|1}} {{Small|([[Red Tektite|Red]])}}, {{HP|TLoZ|2}} {{Small|([[Blue Tektite|Blue]])}}
+ |TAoL= {{HP|TAoL|24}}
+ |OoT= {{HP|OoT|4}}
+}}
+|attack= 
+{{Infobox Game Blocks
+ |TLoZ= {{Damage|attack1= Jump|damage1= 0.50}}
+ |OoT= {{Damage|attack1= Jump|damage1= 0.25}}
+ |TP= {{Damage|attack1= Jump|damage1= 0.25}}
+}} 
+|weapon= 
+{{List|
+ * [[Sword]]
+ * Most projectiles
+ * [[Hookshot]]
+ * [[Bomb]]s
+}}
+|spoils= 
+{{List|
+ * [[Heart]]
+ * [[Green Rupee]]
+ * [[Blue Rupee]]
+}}
+{{Infobox Game Blocks
+ |TLoZ= [[Fairy]], [[Clock]]
+}}
+|exp= 50
+|theme= 
+}}
+{{Term/Store|Tektite|Tektites|Series, TLoZ, TAoL, ALttP, LA, OoT, MM, OoS, OoA, FS, FSA, TMC, TP, PH, ST, TFH, ALBW, EoW, CoH|plural}} are recurring [[Enemy|Enemies]] in {{TLoZ Series}}.{{Exp Game|TLoZ, TAoL, ALttP, LA, OoT, MM, OoS, OoA, FS, FSA, TMC, TP, PH, ST, TFH, ALBW, EoW, CoH}}<ref name="E 208 209"/><ref name="EoW Notebook"/><ref name="CoH Game Over"/>{{Name Ref|TLoZ (TV Series), TSP, TCoBS, ZA, OoS (Himekawa), LCT, NL}}
+
+==Characteristics==
+Tektites are jumping, one-eyed mites or spider-like creatures in all aspects pertaining to appearance and behavior, changing little between games. Due to their carapaces and spindly legs, some iterations of Tektites closely resemble the {{Wp|Japanese spider crab}}. These foes tend to appear in small groups, and have the tendency to leap around the landscape. These creatures normally inhabit mountainous areas, [[Dungeon]]s, and sometimes lakes. Despite their wide range of mobility and adaptability to various surroundings, they are usually fragile enemies that can be defeated with one or two [[Sword]] attacks. Projectile weapons, such as the [[Slingshot]], [[Bow]], or [[Hookshot]], are also useful, especially for defeating Tektites that may be out of reach. Some incarnations are able to skim and leap across the surface of water like {{wp|Gerridae|pond skater}}s. Tektites typically come in two colored varieties; red or orange Tektites and blue Tektites. These colors are often used to signify their strengths and behavior.
+
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+{{Stub|TLoZ}}
+Tektites in {{TLoZ}} can jump and scale normally impassable mountain walls. They come in a red and a blue variety, with the red variety leaping around more frequently than the blue. When defeated, red Tektites may drop either a [[Heart]], a [[Fairy]], or one [[Rupee]], while blue Tektites may drop either a Heart, one Rupee, five Rupees, or a [[Clock]].{{TLoZ Enemy Note}}
+
+==={{TAoL|-}}===
+{{Stub|TAoL}}
+Tektites in {{TAoL}} are heavily armored, resisting nearly all attacks save for the [[Fire (Magic)|Fire]] spell.{{Note|In the Famicom Disk System version of the game, they can also be harmed with regular Sword strikes.}} They can shoot fireballs from their eyes.
+
+==={{ALttP|-}}===
+{{Stub|ALttP}}
+Tektites return in {{ALttP}}, appearing only in eastern [[Death Mountain]] in the [[Light World]]. Tektites jump around on their own, but will jump away from Link to dodge his attacks. Unlike in past appearances, they will not jump onto inaccessible mountain walls. They appear in blue and red varieties like in {{TLoZ|-}}.
+
+==={{LA|-}}===
+Tektites appear in {{LA}} and its remakes, and are commonly found in [[Tal Tal Heights]] and [[Tal Tal Mountain Range]]. Just like in {{ALttP}}, they leap around with powerful jumps, although they will not jump to dodge Link's attacks. Tektites can be dispatched in two hits with the [[Sword]], or one with the [[Koholint Sword]].
+
+In {{LANS}}, Tektites use their {{ALBW}} model and design.
+
+==={{OoT|-}}===
+Tektites in {{OoT}} come in their usual red and blue varieties. Both variants leap towards Link when they spot him, repeatedly jumping as soon as they land. The red variety appears on the [[Death Mountain Trail]], while the blue variety appears at [[Lake Hylia]], [[Zora River]], and the [[Water Temple (Ocarina of Time)|Water Temple]]. The blue Tektites float and jump across the water's surface. Both kinds of Tektite can be flipped over if the [[Megaton Hammer]] is slammed near them.
+
+==={{MM|-}}===
+Tektites in {{MM}} only come in their blue variety. They are found in the [[Snowhead Region]] and the [[Great Bay Temple]]. As in {{OoT|-}}, Tektites can jump across the surface of water, and they can be flipped over by [[Goron Link]]'s Goron Pound in a similar fashion to using the previous game's Megaton Hammer. In the Snowhead Region, Tektites can ambush Link by jumping out of the snow they were buried in, though Link will be able to hear them scurrying around while hidden. Also in the Snowhead Region, Tektites can attack by sliding around on top of ice, dealing damage by bumping into Link.
+
+==={{OoS|-}}===
+{{Stub|OoS}}
+
+==={{OoA|-}}===
+{{Stub|OoA}}
+
+==={{FS|-}}===
+{{Stub|FS}}
+
+==={{FSA|-}}===
+{{Stub|FSA}}
+
+==={{TMC|-}}===
+{{Descriptions TMC}}
+Tektites appear in three variants in {{TMC}}, all of which can be found on [[Mount Crenel]]. [[Red Tektite]]s also appear on [[Mount Crenel's Base]], while the sole [[Blue Tektite]] appears at Mount Crenel's summit. Three [[Golden Tektite]]s appear in the game, all as the result of [[Kinstone Fusion]]s (with [[Hailey]], a [[Mountain Minish]], and [[Tingle]]).
+
+==={{TP|-}}===
+{{Stub|TP}}
+Tektites in {{TP}} can be found in the [[Goron Mines]] and the [[Lakebed Temple]].
+
+==={{PH|-}}===
+{{Stub|PH}}
+Tektites in {{PH}} can be found on the [[Isle of Ember]].
+
+==={{ST|-}}===
+{{Stub|ST}}
+
+==={{ALBW|-}}===
+{{Stub|ALBW}}
+
+==={{TFH|-}}===
+{{Stub|TFH}}
+Tektites in {{TFH}} can be found in the [[Secret Fortress]], the [[Cove of Transition]], and the [[Water Temple (Tri Force Heroes)|Water Temple]].
+
+==={{EoW|-}}===
+{{Checklist
+ |game= EoW
+ |type= Enemies
+ |category= Enemies in Echoes of Wisdom
+ |needs= 
+Name citation and files in infobox
+
+Detailed information on the following:
+* The Enemy's behavior
+* The Enemy's weaknesses
+* Where the Enemy appears
+}}
+{{Descriptions EoW}}
+{{Stub|EoW}}
+Tektites appear in [[Jabul Waters]]. They have light-blue carapaces and are capable of standing on [[Water (Terrain)|Water]]. Tektites move by hopping around atop Water. With every third hop, they jump higher.<ref name="EoW Notebook"/> When copied as an [[Echo]], they have an Echo cost of two.
+
+==Other Appearances==
+==={{TLoZ (TV Series)|Display}}===
+{{Noncanon|Start}}
+[[File:Tektites (That Sinking Feeling).png|thumb|right|Tektites as seen in the animated series]]
+Tektites make an appearance in two episodes of the {{TLoZ (TV Series)}}. In "''[[The White Knight]]''", various Tektites arrive at the castle and attack [[Prince Facade]]. While Facade is taking care of the Tektites, [[Moblin]]s come in and kidnap [[Princess Zelda|Zelda]]. In "''[[That Sinking Feeling]]''", Tektites are shown to be capable of shooting spider webs out of their mouth. As Link and Zelda are enjoying a picnic, they are interrupted when an [[Underworld]] entrance begins to raise and a gang of Tektites come out from it.<ref name="TLoZ (TV Series) Princess Zelda"/> Link and Zelda are successful in defeating a few of them, but then several Tektites wrap the princess up in spider webs while the young hero loses his [[Crissword]] to one of the foes that sneaked up behind him. Link eventually manages to defeat all of the foes and rescue the princess.
+{{Noncanon|End}}
+
+==={{TSP|-}}===
+{{Noncanon|Start}}
+In {{TSP}}, Link encounters various Tektites if he chooses to hide behind a boulder to prevent from being seen by [[Charles of Moria]]. Link races up a hill to hide behind the boulder, and just as he dives to hide, he turns around to find a pack of Tektites have surrounded him. He easily defeats one, but is then grabbed by the rest of the monsters. The page ends with a Game Over with the young hero getting killed by the Tektites.
+{{Noncanon|End}}
+
+==={{ZA|-}}===
+{{Noncanon|Start}}
+{{Stub|ZA}}
+{{Noncanon|End}}
+
+==={{NL|-}}===
+{{Noncanon|Start}}
+{{Descriptions NL}}
+Tektites appear in {{NL}} in {{BQ}}. They have highly resistant shells, thus requiring that the sword be sliced through the gaps of their shells. The gaps can be either horizontal or vertical, and requires different directional strikes.
+
+The Tektite also appears as one of the 200 Prizes that can be won with Coins. Interacting with the Prize animates the Tektite, and [[Monita]] will comment on it.
+{{Noncanon|End}}
+
+==={{SSBU|-}}===
+{{Noncanon|Start}}
+{{Spirits}}
+In {{SSBU}}, Tektite appears as a [[Spirit]] with the trait, Jump 🠅, which increases the jump height of a [[Fighter]]. 
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+Tektites appear as [[Enemy|Enemies]] in {{CoH}} where they move to the beat of the music. They can only move diagonally onto any tile, including up and down short cliffs and objects. They move every three beats, crouching on the second beat before hopping onto another tile on the third beat. Tektites can stand on [[Water (Terrain)|Water]], and therefore can move over it unhindered regardless of whether it is shallow or deep. Tektites in the [[Future World]] wear a skull mask that can absorb one hit, and while wearing the mask they can trap the player in a spider web if they stand on the space directly adjacent to it.
+{{Noncanon|End}}
+
+==Trivia==
+*In the entire [[Overworld]] of {{TMC}}, there is only one [[Blue Tektite]].
+*As both have the same amount of health, the same vulnerabilities, and the same movement patterns including floating on water, red and blue Tektites in {{TP}} appear to be a rare case of purely cosmetic variants of an enemy.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Red Tektite Sprite.png|{{Game Label|{{TLoZ|-}}}}A Red Tektite
+File:TAoL Tektite Artwork.png|{{Game Label|{{TAoL|-}}}}Artwork of a Tektite
+File:ALttP Red Tektite Sprite.png|{{Game Label|{{ALttP|-}}}}A Red Tektite
+File:LANS Tektite Promotional Screenshot.png|{{Game Label|{{LANS|-}}}}Promotional screenshot of Link fighting a Blue Tektite
+File:OoT Red Tektite Model.png|{{Game Label|{{OoT|-}}}}A Red Tektite
+File:PH Red Tektite Model.png|{{Game Label|{{PH|-}}}}A Red Tektite
+File:ALBW Red Tektite Model.png|{{Game Label|{{ALBW|-}}}}A Red Tektite
+File:EoW Tektite Model 2.png|{{Game Label|{{EoW|-}}}}A dark Tektite
+File:Tektites (The White Knight).png|{{Game Label|{{TLoZ (TV Series)|Display}}}}Tektites
+File:BSTLoZ Red Tektite Sprite.png|{{Game Label|{{BSTLoZ|-}}}}A Tektite
+File:Count of Black Shadows p179.jpg|{{Game Label|{{TCoBS|-}}}}Tekties fighting Maia
+File:ZA Tektite Sprite.png|{{Game Label|{{ZA|-}}}}A Tektite
+File:ZA Tektite Sprite 2.png|{{Game Label|{{ZA|-}}}}A Tektite
+File:CoH Tektite Sprite.png|{{Game Label|{{CoH|-}}}}A Tektite
+</gallery>
+
+==See Also==
+{{See Also|
+ * Black Tektite
+ * Blue Tektite
+ * Golden Tektite
+ * Red Tektite
+ * Water Tektite
+ * White Tektite
+}}
+
+{{Notes}}
+{{Ref|
+<!-- Encyclopedia -->
+<ref name="E 208 209">{{Cite Book|quote= |book= E |publisher= |page= 208 & 209 {{Exp Game|TLoZ, TAoL, ALttP, LA, OoT, MM, OoS, OoA, FS, FSA, TMC, TP, PH, ST, TFH, ALBW}}}}</ref>
+
+<!-- The Legend of Zelda -->
+<ref name="TLoZ Commercial">{{Cite Web|quote=Octoroks, Tektites / Leevers too |retrieved=October 24, 2014|url=https://www.youtube.com/watch?v=oCqX4AEInUs&t=15s |title=''The Legend of Zelda'' US rap commercial |site=YouTube}}</ref>
+<ref name="TLoZ Commercial 2">{{Cite Web|quote=Tektites! |retrieved=October 24, 2014|url=https://www.youtube.com/watch?v=vP3SwWldcHs&t=11s |title=''The Legend of Zelda'' US commercial |site=YouTube}}</ref>
+
+<!-- Echoes of Wisdom -->
+<ref name="EoW Notebook">{{Cite|{{Big|{{Color EoW|Pink|Tektite}}}}<br/>Resembling a pond skater in action, this creature hops across the surface of water, jumping higher every third hop.|Notebook|EoW}}</ref>
+
+<!-- The Legend of Zelda (TV Series) -->
+<ref name="TLoZ (TV Series) Princess Zelda">{{Cite Episode|quote=It's an underground entrance. We're being attacked!|name=Princess Zelda|show=The Legend of Zelda|episode=6}}</ref>
+
+<!-- Cadence of Hyrule -->
+<ref name="CoH Game Over">{{Cite|Defeated By: Tektite|Game Over|CoH}}</ref>
+}}
+
+{{Categories
+ |Echoes, Eye Enemies, Tektites, Water-Related Enemies
+ |enemies= TLoZ, TAoL, ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, FS, FSA, TMC, TP, TPHD, PH, ST, ALBW, TFH, EoW, TLoZ (TV Series), ZA, BSTLoZ, CoH
+}}

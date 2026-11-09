@@ -1,0 +1,283 @@
+{
+  "source": "zeldawiki",
+  "license": "GFDL 1.3",
+  "license_note": "GNU Free Documentation License 1.3. Copyleft distinto de CC BY-SA; mantener separada y atribuida.",
+  "downloaded_at": "2026-11-08T18:08:37+00:00",
+  "total_chars": 803449,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "The Legend of Zelda",
+      "url": "https://zeldawiki.wiki/wiki/The_Legend_of_Zelda",
+      "revid": 1372353,
+      "file": "pages/The_Legend_of_Zelda.wiki",
+      "chars": 37914
+    },
+    {
+      "title": "Hyrule",
+      "url": "https://zeldawiki.wiki/wiki/Hyrule",
+      "revid": 1398709,
+      "file": "pages/Hyrule.wiki",
+      "chars": 53967
+    },
+    {
+      "title": "Ganon",
+      "url": "https://zeldawiki.wiki/wiki/Ganon",
+      "revid": 1366771,
+      "file": "pages/Ganon.wiki",
+      "chars": 89613
+    },
+    {
+      "title": "Triforce",
+      "url": "https://zeldawiki.wiki/wiki/Triforce",
+      "revid": 1384588,
+      "file": "pages/Triforce.wiki",
+      "chars": 73053
+    },
+    {
+      "title": "Boomerang",
+      "url": "https://zeldawiki.wiki/wiki/Boomerang",
+      "revid": 1400417,
+      "file": "pages/Boomerang.wiki",
+      "chars": 31517
+    },
+    {
+      "title": "Candle",
+      "url": "https://zeldawiki.wiki/wiki/Candle",
+      "revid": 1373916,
+      "file": "pages/Candle.wiki",
+      "chars": 3413
+    },
+    {
+      "title": "Flute",
+      "url": "https://zeldawiki.wiki/wiki/Flute",
+      "revid": 1397895,
+      "file": "pages/Flute.wiki",
+      "chars": 11052
+    },
+    {
+      "title": "Raft",
+      "url": "https://zeldawiki.wiki/wiki/Raft",
+      "revid": 1398347,
+      "file": "pages/Raft.wiki",
+      "chars": 6594
+    },
+    {
+      "title": "Ladder",
+      "url": "https://zeldawiki.wiki/wiki/Ladder",
+      "revid": 1375432,
+      "file": "pages/Ladder.wiki",
+      "chars": 5629
+    },
+    {
+      "title": "Power Bracelet",
+      "url": "https://zeldawiki.wiki/wiki/Power_Bracelet",
+      "revid": 1310788,
+      "file": "pages/Power_Bracelet.wiki",
+      "chars": 13415
+    },
+    {
+      "title": "Magical Key",
+      "url": "https://zeldawiki.wiki/wiki/Magical_Key",
+      "revid": 1393396,
+      "file": "pages/Magical_Key.wiki",
+      "chars": 2501
+    },
+    {
+      "title": "Ring",
+      "url": "https://zeldawiki.wiki/wiki/Ring",
+      "revid": 1308442,
+      "file": "pages/Ring.wiki",
+      "chars": 3806
+    },
+    {
+      "title": "Wooden Sword",
+      "url": "https://zeldawiki.wiki/wiki/Wooden_Sword",
+      "revid": 1341670,
+      "file": "pages/Wooden_Sword.wiki",
+      "chars": 4332
+    },
+    {
+      "title": "White Sword",
+      "url": "https://zeldawiki.wiki/wiki/White_Sword",
+      "revid": 1384314,
+      "file": "pages/White_Sword.wiki",
+      "chars": 6158
+    },
+    {
+      "title": "Magical Sword",
+      "url": "https://zeldawiki.wiki/wiki/Magical_Sword",
+      "revid": 1385989,
+      "file": "pages/Magical_Sword.wiki",
+      "chars": 7081
+    },
+    {
+      "title": "Bow",
+      "url": "https://zeldawiki.wiki/wiki/Bow",
+      "revid": 1398236,
+      "file": "pages/Bow.wiki",
+      "chars": 31167
+    },
+    {
+      "title": "Silver Arrow",
+      "url": "https://zeldawiki.wiki/wiki/Silver_Arrow",
+      "revid": 1397888,
+      "file": "pages/Silver_Arrow.wiki",
+      "chars": 9839
+    },
+    {
+      "title": "Heart Container",
+      "url": "https://zeldawiki.wiki/wiki/Heart_Container",
+      "revid": 1364712,
+      "file": "pages/Heart_Container.wiki",
+      "chars": 29609
+    },
+    {
+      "title": "Water of Life",
+      "url": "https://zeldawiki.wiki/wiki/Water_of_Life",
+      "revid": 1395941,
+      "file": "pages/Water_of_Life.wiki",
+      "chars": 4533
+    },
+    {
+      "title": "Aquamentus",
+      "url": "https://zeldawiki.wiki/wiki/Aquamentus",
+      "revid": 1367467,
+      "file": "pages/Aquamentus.wiki",
+      "chars": 6639
+    },
+    {
+      "title": "Dodongo",
+      "url": "https://zeldawiki.wiki/wiki/Dodongo",
+      "revid": 1373979,
+      "file": "pages/Dodongo.wiki",
+      "chars": 10039
+    },
+    {
+      "title": "Manhandla",
+      "url": "https://zeldawiki.wiki/wiki/Manhandla",
+      "revid": 1397287,
+      "file": "pages/Manhandla.wiki",
+      "chars": 11933
+    },
+    {
+      "title": "Gleeok",
+      "url": "https://zeldawiki.wiki/wiki/Gleeok",
+      "revid": 1311532,
+      "file": "pages/Gleeok.wiki",
+      "chars": 18513
+    },
+    {
+      "title": "Digdogger",
+      "url": "https://zeldawiki.wiki/wiki/Digdogger",
+      "revid": 1397225,
+      "file": "pages/Digdogger.wiki",
+      "chars": 3902
+    },
+    {
+      "title": "Gohma",
+      "url": "https://zeldawiki.wiki/wiki/Gohma",
+      "revid": 1400555,
+      "file": "pages/Gohma.wiki",
+      "chars": 24012
+    },
+    {
+      "title": "Lanmola",
+      "url": "https://zeldawiki.wiki/wiki/Lanmola",
+      "revid": 1393624,
+      "file": "pages/Lanmola.wiki",
+      "chars": 13058
+    },
+    {
+      "title": "Moldorm",
+      "url": "https://zeldawiki.wiki/wiki/Moldorm",
+      "revid": 1371043,
+      "file": "pages/Moldorm.wiki",
+      "chars": 4750
+    },
+    {
+      "title": "Patra",
+      "url": "https://zeldawiki.wiki/wiki/Patra",
+      "revid": 1397836,
+      "file": "pages/Patra.wiki",
+      "chars": 3917
+    },
+    {
+      "title": "Wizzrobe",
+      "url": "https://zeldawiki.wiki/wiki/Wizzrobe",
+      "revid": 1397834,
+      "file": "pages/Wizzrobe.wiki",
+      "chars": 21881
+    },
+    {
+      "title": "Like Like",
+      "url": "https://zeldawiki.wiki/wiki/Like_Like",
+      "revid": 1400985,
+      "file": "pages/Like_Like.wiki",
+      "chars": 23573
+    },
+    {
+      "title": "Darknut",
+      "url": "https://zeldawiki.wiki/wiki/Darknut",
+      "revid": 1397802,
+      "file": "pages/Darknut.wiki",
+      "chars": 31663
+    },
+    {
+      "title": "Lynel",
+      "url": "https://zeldawiki.wiki/wiki/Lynel",
+      "revid": 1397890,
+      "file": "pages/Lynel.wiki",
+      "chars": 25648
+    },
+    {
+      "title": "Octorok",
+      "url": "https://zeldawiki.wiki/wiki/Octorok",
+      "revid": 1398355,
+      "file": "pages/Octorok.wiki",
+      "chars": 35078
+    },
+    {
+      "title": "Moblin",
+      "url": "https://zeldawiki.wiki/wiki/Moblin",
+      "revid": 1390209,
+      "file": "pages/Moblin.wiki",
+      "chars": 44690
+    },
+    {
+      "title": "Zora",
+      "url": "https://zeldawiki.wiki/wiki/Zora",
+      "revid": 1398358,
+      "file": "pages/Zora.wiki",
+      "chars": 32233
+    },
+    {
+      "title": "Peahat",
+      "url": "https://zeldawiki.wiki/wiki/Peahat",
+      "revid": 1400976,
+      "file": "pages/Peahat.wiki",
+      "chars": 17259
+    },
+    {
+      "title": "Tektite",
+      "url": "https://zeldawiki.wiki/wiki/Tektite",
+      "revid": 1398357,
+      "file": "pages/Tektite.wiki",
+      "chars": 13980
+    },
+    {
+      "title": "Vire",
+      "url": "https://zeldawiki.wiki/wiki/Vire",
+      "revid": 1389573,
+      "file": "pages/Vire.wiki",
+      "chars": 11173
+    },
+    {
+      "title": "Keese",
+      "url": "https://zeldawiki.wiki/wiki/Keese",
+      "revid": 1401153,
+      "file": "pages/Keese.wiki",
+      "chars": 24315
+    }
+  ]
+}

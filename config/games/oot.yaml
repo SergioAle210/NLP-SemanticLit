@@ -1,0 +1,39 @@
+game_id: oot
+title: "The Legend of Zelda: Ocarina of Time"
+platform: Nintendo 64
+year: 1998
+aliases: [OoT, Ocarina, Zelda 64]
+
+snapshot_dir: data/wiki_snapshot/strategywiki/oot
+
+# Progreso: conjunto de mazmorras principales completadas (1 Deku Tree ... 9 Castillo de Ganon). Las mazmorras
+# opcionales (Ice Cavern, Bottom of the Well, Gerudo Training Grounds) se tratan como contenido general.
+progress_model: level_set
+levels: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+quests: [main]
+title_locations:
+  "Inside the Deku Tree": {level: 1, quest_name: main}
+  "Dodongo's Cavern": {level: 2, quest_name: main}
+  "Jabu-Jabu's Belly": {level: 3, quest_name: main}
+  "Forest Temple": {level: 4, quest_name: main}
+  "Fire Temple": {level: 5, quest_name: main}
+  "Water Temple": {level: 6, quest_name: main}
+  "Shadow Temple": {level: 7, quest_name: main}
+  "Spirit Temple": {level: 8, quest_name: main}
+  "Ganon's Castle": {level: 9, quest_name: main}
+
+exclude_pages: ["The Legend of Zelda: Ocarina of Time/Table of Contents"]
+tools: [search_documents]
+query_expansion:
+  rewrites: []
+  synonyms:
+    sword: [Master Sword, Kokiri Sword]
+    bow: [Fairy Bow]
+    boomerang: [Boomerang]
+    song: [Ocarina Songs]
+    dungeon: [temple]
+
+extra_sources:
+  - {site: wikipedia, snapshot_dir: data/wiki_snapshot/wikipedia/oot, general_headings: 'Gameplay|Development|Release|Reception|Legacy|Sales'}
+  - {site: zeldapedia, snapshot_dir: data/wiki_snapshot/zeldapedia/oot}
+  - {site: zeldawiki, snapshot_dir: data/wiki_snapshot/zeldawiki/oot}

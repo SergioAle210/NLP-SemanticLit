@@ -1,0 +1,122 @@
+{{Infobox Item
+|image=
+{{Media
+ |Artwork TLoZ= File:TLoZ White Sword Artwork.png
+ |Artwork TMC= File:TMC Palace of Winds Artwork.png
+ |Sprite TLoZ= File:TLoZ White Sword Sprite.png
+ |Sprite TMC= File:TMC White Sword Full Sprite.png
+}}
+|caption= 
+|pronunciation= 
+|plural= 
+|game= TLoZ, TMC
+|other= HW
+|cost= 
+|value= 
+|location= 
+|uses= 
+|strength= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|2}}
+}} 
+|durability= 
+|comp= 
+{{List|
+ * [[Goddess Sword]]
+ * [[Knight's Sword]]
+ * [[Magical Sword]]
+}}
+|sample= 
+|theme= 
+}}
+{{Term/Store|White Sword|White Swords|Series, TLoZ, TMC|plural}} are recurring [[Item]]s in {{TLoZ Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 143 {{Exp Game|TLoZ, TMC}}}}</ref>{{Name Ref|HWDE}}
+
+==Location and Uses==
+==={{TLoZ|-}}===
+The White Sword is the second sword available to [[Link]] in {{TLoZ}}, following the [[Sword]] and preceding the [[Magical Sword]]. It can be obtained once Link has five [[Heart]]s of [[Life]]. The White Sword does twice as much damage as the original Sword.<ref>The Legend of Zelda manual, page 19</ref> Link is given the White Sword by the [[White Sword-Giving Old Man]] in a cave in the northeast of [[Hyrule]] near a waterfall, which is guarded by a [[Lynel]].
+
+The White Sword also appears on the back of the [[8-Bit Link amiibo]].
+
+==={{TMC|-}}===
+The White Sword in {{TMC}} is the re-forged [[Picori Blade]] and replaces Link's first [[Sword]], [[Smith's Sword]]. The White Sword grows in power as it is infused with the power of the [[Four Elements]], with its name in the [[Items Screen]] changing to reflect the number of Elements that are currently infused. When infused with the [[Earth Element|Earth]] and [[Fire Element|Fire]] Elements, it is labeled as the [[White Sword (Two Elements)]], and after being infused with the [[Water Element]], it is labeled as the [[White Sword (Three Elements)]]. After the [[Wind Element]], the fourth and final Element, is infused, the White Sword transforms into the [[Four Sword]]. 
+
+Each time Link infuses the White Sword with an Element, the hilt of the Sword changes color, and Link is able to make more copies of himself when he charges a [[Spin Attack]] over special tiles, with the maximum copies being three. The Four Sword allows him to make four copies of himself.
+
+==Other Appearances==
+==={{HW|-}}===
+{{Noncanon|Start}}
+In {{HW}}, White Swords appear as the second level [[Weapon]] of [[Link]]'s [[Hylian Sword]] archetype.
+
+White Swords have a base attack of 150 which increases by ten percent for each star in the Weapon's star rating.<ref>{{Cite Guide|HWL Prima|page= 8}}</ref> This means that, depending on the White Sword's star rating, the Weapon can have an attack range of 150, 165, 180, 195, 210, and 225. White Swords have three slots for [[Skill]]s (which can be increased by using a Weapon with a "Slots Up" [[Skill]].) They are [[Light]]-type Weapons, meaning that the Weapon will increasingly deal more damage while repeatedly attacking a group of [[Enemy|Enemies]].<ref>{{Cite|Light elemental attacks gradually become stronger as you make consecutive attacks on groups of enemies.|Tutorial|HWDE}}</ref>
+
+White Swords are directly based off the White Sword from {{TLoZ}}, almost directly matching the artwork from that game.
+
+An 8-bit version of the White Sword, called the [[8-bit White Sword?]], also appears as the Lv.★ form of [[Zelda]]'s [[Rapier]]. It was added to the game with the ''Master Quest'' Pack DLC, and is unlocked by default in {{HWDE|-}}.
+
+====Attack Combinations====
+{{Tabs
+| Warriors Mode
+| 
+{{Data Table Copy
+|fromPage= Hylian Sword
+|storedAs= Warriors Mode Combos
+}}
+|-
+| Zelda Mode
+| 
+{{Data Table Copy
+|fromPage= Hylian Sword
+|storedAs= Zelda Mode Combos
+}}
+}}
+
+====Special Attack====
+{{#section:Hylian Sword|Special Attack}}
+
+====Weak Point Smash====
+{{#section:Hylian Sword|Weak Point Smash}}
+
+====Focus Spirit====
+{{#section:Hylian Sword|Focus Spirit}}
+{{Noncanon|End}}
+
+==Trivia==
+*In the Japanese versions of {{OoS}} and {{OoA}}, the [[Noble Sword]] is called the White Sword.
+*In {{SS}}, one of the forms of the [[Goddess Sword]] is the [[Goddess White Sword]]. It is unlikely that there is any direct connection.
+*Despite both Swords sharing the same name, the nature of the White Sword in {{TMC|-}} makes it impossible that it is the same White Sword in {{TLoZ|-}}.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Link (The Legend of Zelda) amiibo.png|{{Game Label|{{TLoZ|-}}}}The amiibo featuring Link carrying the White Sword
+File:TMC White Sword Purple Sprite.png|{{Game Label|{{TMC|-}}}}White Sword sprite infused with the Earth Element
+File:TMC White Sword (Two Elements) Full Sprite.png|{{Game Label|{{TMC|-}}}}White Sword (Two Elements) sprite
+File:TMC White Sword (Three Elements) Full Sprite.png|{{Game Label|{{TMC|-}}}}White Sword (Three Elements) sprite
+File:TMC White Sword Sprite.png|{{Game Label|{{TMC|-}}}}White Sword Inventory sprite
+File:TMC White Sword (Two Elements) Sprite.png|{{Game Label|{{TMC|-}}}}White Sword (Two Elements) Inventory sprite
+File:TMC White Sword (Three Elements) Sprite.png|{{Game Label|{{TMC|-}}}}White Sword (Three Elements) Inventory sprite
+File:BSTLoZ White Sword Sprite.png|{{Game Label|{{BSTLoZ|-}}}}The White Sword
+File:HW White Sword Render.png|{{Game Label|{{HW|-}}}}A White Sword
+File:HW White Sword Model.png|{{Game Label|{{HW|-}}}}A White Sword
+File:HW White Sword Shield Model.png|{{Game Label|{{HW|-}}}}The shield that goes along with the White Sword
+File:HW White Sword Icon.png|{{Game Label|{{HW|-}}}}The icon for a White Sword
+File:HW 8-Bit White Sword? Icon.png|{{Game Label|{{HW|-}}}}8-bit White Sword?
+File:HWL White Sword Icon.png|{{Game Label|{{HWL|-}}}}The icon for a White Sword
+File:HWDE White Sword Icon.png|{{Game Label|{{HWDE|-}}}}The icon for a White Sword
+File:HWDE Zelda 8-Bit White Sword Promotional Screenshot.png|{{Game Label|{{HWDE|-}}}}Promotional screenshot of Zelda wielding the 8-bit White Sword
+</gallery>
+
+==See Also==
+{{See Also|
+ * White Sword (Three Elements)
+ * White Sword (Two Elements)
+}}
+
+{{Ref}}
+
+{{Categories
+ |Hylian Swords, Swords
+ |items= TLoZ, TMC, HW, HWL, HWDE
+}}

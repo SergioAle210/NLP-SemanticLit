@@ -1,0 +1,100 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork OoT= [[File:OoT Bongo Bongo Artwork.png|320x320px]]
+ |Model OoT= [[File:OoT Bongo Bongo Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Bongo Bongo Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Bongo Bongo Model.png|320x320px]]
+}}
+|caption= 
+|game= OoT
+|other= 
+|pronunciation= 
+|title= 
+{{List|
+ * Phantom Shadow Beast<ref>{{Cite|Phantom Shadow Beast<br/>BONGO BONGO|N/A|OoT}}</ref>
+ * Evil Shadow Spirit<ref name="Sealed">{{Cite|Link... A terrible thing has happened! The {{Color OoT3D|Red|evil shadow spirit}} has been released! {{Color OoT3D|Red|Impa}}, the leader of Kakariko Village, had sealed the evil shadow spirit in the bottom of the well... But the force of the evil spirit got so strong, the seal of the well broke, and it escaped into the world!|Sheik|OoT3D}}</ref>
+ * Shadow Boss<ref>{{Cite Guide|OoT Prima|page= 103}}</ref>
+}}
+|alias= 
+|race= 
+|group= 
+|pronouns= 
+|dungeon= [[Shadow Temple]]
+|habitat= [[Kakariko Village Graveyard]]
+|attack(s)= 
+{{List|
+ * Punch {{Small|(1 Heart)}}
+ * Clap {{Small|(2 Hearts)}}
+ * Charge {{Small|(3 Hearts)}}
+}}
+|health= {{HP|OoT|32}}
+|weakness= 
+{{List|
+ * [[Fairy Bow]]
+ * [[Lens of Truth]]
+}}
+|reward= 
+{{Icon List|OoT3D|
+ * Heart Container
+ * Shadow Medallion
+}}
+|exp= 
+|theme= 
+|voiceactor= 
+|strategy= 
+|zu= 
+}}
+'''Bongo Bongo''' is the [[Boss]] of the [[Shadow Temple]] in {{OoT}}.
+
+{{Terminology
+|-
+| {{Term/Store|Bongo Bongo||Series, OoT, OoT3D}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 168"/>
+ * {{OoT3D}}<ref name="E 168"/>
+}}
+}}
+
+==Characteristics==
+{{Descriptions OoT}}
+Bongo Bongo is a large, cycloptic, ghost-like monster with a pair of floating, disembodied hands. Initially sealed at the [[Bottom of the Well]],<ref>{{Cite|That monster! It came out of the well in the village! Let's go check out the well!|Navi|OoT}}</ref> it escapes its prison after [[Ganondorf]] comes to power and wreaks havoc in [[Kakariko Village]]. When [[Link]] and [[Sheik]] attempt to confront the monster, it subdues both of them before retreating to the Shadow Temple. [[Impa]] follows it, in an attempt to seal it again.<ref name="Sealed"/><ref>{{Cite|I believe Impa has gone to the {{Color OoT3D|Purple|Shadow Temple}} to seal it again, but...she will be in danger without any help! Link! Impa is one of the six Sages. Destroy the evil shadow spirit and save Impa!|Sheik|OoT3D}}</ref>
+
+After reaching the basement of the temple, [[Link]] drops down the hole in the room and lands on top of a large drum. A large, dark pair of hands begin banging on the drum, which are revealed to belong to Bongo Bongo. Its body then fades into the darkness of the room, initiating the battle.
+
+As Bongo Bongo's body is invisible throughout the battle, Link must use the [[Lens of Truth]] to see it.<ref name="E 168"/> It moves around the drum while playing it, occasionally using its hands to attack Link by attempting to crush him with its palms, slapping him, punching him, swiping its hands from side to side, or clapping them together to crush him.{{Clarify|OoT|reason= How is this crush attack different from the one at the start of the sentence? Unclear from current wording.}} Link will bounce off the drum as Bongo Bongo plays it. The bounce can send Link into the noxious liquid that surrounds the instrument, which will slowly deplete his health. This can be counteracted by equipping the [[Hover Boots]] to temporarily float in the air.{{Note|The bounce cancels first-person aiming unless the [[Hover Boots]] are worn. Link must otherwise use [[Z-Targeting]] to attack with the [[Longshot]] or [[Fairy Bow]].}}
+
+Link must use his [[Sword]] or another weapon such as the [[Longshot]] or [[Fairy Bow]] to disable its hands while they are unclenched.<ref name="TWW Guide 189">{{Cite Guide|TWW Prima|page= 189}}</ref> Once both hands have been disabled, Bongo Bongo will attempt to charge into Link, causing three [[Heart]]s of damage if successful. If Link attacks its eye during the charge, Bongo Bongo will be temporarily stunned and vulnerable to further attacks to its eye.<ref name="TWW Guide 189"/>
+
+Upon defeat, Bongo Bongo bangs the drum furiously, then gradually slows to a halt. It then turns black and dissolves, leaving a [[Heart Container]] in its wake. Following the battle, [[Impa]] awakens as the [[Sage of Shadow]] and gives Link the [[Shadow Medallion]].
+
+==Trivia==
+[[File:OoT Bongo Bongo Frozen Hand.png|thumb|right|200px|{{Game Label|{{OoT|-}}}}Bongo Bongo's hand frozen by an Ice Arrow]]
+* It is possible to freeze one of Bongo Bongo’s hands in any position by firing an [[Ice Arrow]] at them, causing its eye to open as it attempts to break the frozen hand free by smashing its opposite fist into the ice. This gives Link the opportunity to prematurely fire into Bongo Bongo's eye before the scripted charge attack.
+{{Clear}}
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:OoT Bongo Bongo Length Model.png|{{Game Label|{{OoT|-}}}}Bongo Bongo's full body
+File:OoT Bongo Bongo Introduction.png|{{Game Label|{{OoT|-}}}}Bongo Bongo's introduction
+File:OoT3D Bongo Bongo Thumbnail.png|{{Game Label|{{OoT3D|-}}}}Bongo Bongo's Boss Challenge thumbnail
+File:OoTNS2 Bongo Bongo Shadow.png|{{Game Label|{{OoTNS2|-}}}}Bongo Bongo grabbing Sheik while in Shadow form
+File:OoTNS2 Bongo Bongo Introduction.png|{{Game Label|{{OoTNS2|-}}}}Bongo Bongo's introduction
+</gallery>
+
+{{Notes}}
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 168">{{Cite Book|quote= |book= E |page= 168}}</ref>
+
+}}
+
+{{Bosses|OoT}}
+{{Categories
+ |Eye Enemies, Hand Enemies, Levitating Enemies, Shadow Enemies, Undead Enemies
+ |bosses= OoT, OoT3D, OoTNS2
+}}

@@ -1,0 +1,92 @@
+{{Hatnote|This article is about the recurring item and object. For the enemy in {{OoA|-}}, see [[Kyandokyan]].}}
+{{Infobox Item
+|image=
+{{Media
+ |Artwork TAoL= File:TAoL Candle Artwork.png
+ |Model OoT3D= File:OoT3D Candle Model.png
+ |Model MM= File:MM Candle Model.png
+ |Model MM3D= File:MM3D Candle Model.png
+ |Model PH= File:PH Candle Model.png
+ |Model TotK= File:TotK Candle Model.png
+ |Sprite TAoL= File:TAoL Candle Sprite.png
+ |Sprite TMC= File:TMC Candle Sprite.png
+ |Sprite TotK= File:TotK Candle Icon.png
+}}
+|caption= 
+|pronunciation= 
+|plural= 
+|game= TAoL, OoT3D, MM, TMC, TotK
+|other= ZA, HW
+|cost= 
+|value= 
+|location= 
+|uses=
+{{Infobox Game Blocks
+ |TAoL= Illuminating [[Cave]]s
+ |HW= Burning [[Tree]]s to reveal rewards
+}}
+|strength= 
+|durability= 
+|comp= 
+{{List|
+ * [[Lantern]]
+ * [[Blue Candle]]
+ * [[Red Candle]]
+}}
+|sample= 
+|theme= 
+}}
+{{Term/Store|Candle|Candles|Series, TAoL, TotK, ZA, HW, HWL, HWDE|plural}} are recurring [[Item]]s and [[Object]]s in {{TLoZ Series}}.{{Exp Game|TAoL, TotK, ZA, HWDE}}<ref>{{Cite Book|quote= |book= E |publisher= |page= 119 {{Exp Game|TAoL}}}}</ref><ref>{{Cite|Candle|Game Screen|TotK}}</ref><ref>{{Cite Manual|quote= |game= ZA |page= 4}}</ref><ref>{{Cite|{{Color HWDE|Green|Candle}}: Use this on trees to uncover hidden stairways.|Tutorial|HWDE}}</ref>
+
+==Location and Uses==
+==={{TAoL|-}}===
+{{Descriptions TAoL}}
+In {{TAoL}}, the Candle can be found in the [[Parapa Palace]]<ref>{{Cite|GET CANDLE IN PARAPA PALACE. GO WEST.|Hylian|TAoL}}</ref> after defeating an [[Iron Knuckle]]. It lights up otherwise pitch-black caves and allows Link to see any enemies who may dwell within.<ref>{{Cite Manual|quote= When this is obtained, places that you had not been able to see until now because of the dark are lit up.|game= TAoL|page= 46}}</ref> The Candle is not required to beat the game, but it is more difficult to navigate dark [[Cave]]s without it.
+
+==={{OoT3D|-}}===
+{{Stub|OoT3D}}
+
+==={{MM|-}}===
+{{Stub|MM3D}}
+
+==={{TMC|-}}===
+Candles appear inside [[Minish]]-sized [[House]]s. Link is unable to light them.
+
+==={{TotK|-}}===
+{{Stub|TotK}}
+Candles are [[Zonai Technology|Zonai Technologies]] found in [[Shrine of Light|Shrines of Light]]. They can be [[Fuse]]d to [[Weapon]]s and [[Shield]]s or attached to other [[Object]]s using [[Ultrahand]].
+
+==Other Appearances==
+==={{ZA|-}}===
+{{Noncanon|Start}}
+{{Descriptions ZA}}
+In {{ZA}}, Candles can be purchased from several merchants around [[Tolemac]]for 100 [[Rupee|Rubies]]. They are used to light up dark rooms inside of [[Dungeon]]s, but can only be used once per Candle. As there are not very many dark rooms, the Candle sees little use.
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+{{Stub|HWDE}}
+In {{HW}}, Candles appear as [[Item Card]]s used in [[Adventure Mode]].
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:MM3D Candle Model 2.png|{{Game Label|{{MM3D|-}}}}A Candle from Ikana Canyon
+File:MM3D Candle Model 3.png|{{Game Label|{{MM3D|-}}}}A Candle from Ikana Canyon
+File:ZA Candle Sprite.png|{{Game Label|{{ZA|-}}}}A Candle
+File:HW Candle Sprite.svg|{{Game Label|{{HW|-}}}}Candle icon
+File:HWL Candle Icon.png|{{Game Label|{{HWL|-}}}}Candle icon
+File:HWDE Candle Icon.png|{{Game Label|{{HWDE|-}}}}Candle icon
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Candles, Item Cards
+ |items= TAoL, ZA, HW, HWL, HWDE
+ |objects= OoT3D, MM, MM3D, TMC, TotK
+}}

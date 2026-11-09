@@ -1,0 +1,49 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Blue Candle Artwork.png
+ |Sprite TLoZ= File:TLoZ Blue Candle Sprite.png
+}}
+|caption= 
+|type= 
+|game= {{TLoZ}}
+|other= {{TLoZ|Valiant Comics|-}}
+|cost= 60 [[Rupee]]s
+|value= 
+|location= Certain [[Shop]]s
+|uses= Damaging certain enemies<br/>Illuminating dark rooms<br/>Burning [[Tree]]s
+|strength= [[Weapon Strength#The Legend of Zelda|1]]
+|durability= 
+|comp= [[Red Candle]]<br/>[[Lantern]]
+|sample= 
+|theme= 
+}}
+The {{Term/Store|Blue Candle||Series, TLoZ}} is an {{Term|Series|Item|link}} in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 117 {{Exp Game|TLoZ}}}}</ref>
+
+==Location and Uses==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Blue and red candles|Some of the rooms inside of the labyrinths are really dark. So use these to brighten them up. Blue candles are good for one screen only, but the red ones can light up rooms for several screens.}}
+The Blue Candle can be purchased from certain [[Shop]]s for 60 [[Rupee]]s in both the First Quest and the [[Second Quest]]. When used, the Blue Candle will emit a temporary red [[Fire]] to a short distance in front of [[Link]], which can illuminate dark rooms within [[Dungeon]]s and damage certain enemies.<ref>{{Cite manual|quote= Some of the rooms inside of the labyrinths are really dark. So use these to brighten them up.|game= TLoZ|page= 25}}</ref> Link can be hurt by the Fire as well. It can also be used to burn certain [[Tree]]s throughout the [[Overworld]], which will reveal hidden staircases that often lead to {{Plural|TLoZ|Cave|link}}. Burning a certain Tree will reveal a staircase leading to {{Term|TLoZ|Level 8|link}} of the First Quest or {{Term|TLoZ|Level 7|link}} of the Second Quest. The Blue Candle can only be used once in a given area, so [[Link]] must walk to another screen if he wishes to use it again.<ref name="Screen">{{Cite manual|quote= Blue candles are good for one screen only, but the red ones can light up rooms several screens.|game= TLoZ|page= 25}}</ref> Link can replace the Blue Candle by obtaining the [[Red Candle]] in Level-7 of both Quests. The Red Candle functions identically to the Blue Candle, except it is able to emit an unlimited amount of Fires in an area.<ref name="Screen"/>
+
+==Non-Canon Appearances==
+{{Noncanon|Start}}
+==={{TLoZ|-}} (Valiant Comics)===
+The Blue Candle is briefly featured in the {{TLoZ|Valiant Comics}}. In ''[[The Power]]'', [[Princess Zelda]] uses the Blue Candle in [[Ganon]]'s lair while preparing to retrieve the [[Trophy]] from the [[Underworld]].
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Blue Candle (VC).png|Zelda using the Blue Candle in ''The Legend of Zelda'' comic
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Candles
+ |items= TLoZ
+}}
+
+[[fr:Bougie]]

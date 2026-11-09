@@ -1,0 +1,118 @@
+:''This page is about the enemy named "Dodongo". For the Boss of the same name, see [[Dodongo (Boss)]].''
+{{Infobox Enemy
+|image= 
+{{Media
+ |Artwork OoT= File:OoT Dodongo Artwork.png
+ |Model OoT= File:OoT Dodongo Model.png
+ |Model OoT3D= File:Dodongo OOT 3D.png
+ |Model MM= File:MM Dodongo Model.png
+ |Model MM3D= File:MM3D Dodongo Model.png
+ |Model TP= File:TP Dodongo Model.png
+ |Model TPHD= File:TPHD Dodongo Model.png
+}}
+|caption= 
+|race= 
+|game= OoT, MM, TP
+|other= TLoZ (TV Series), TLoZ (Valiant Comics), TFoE, TWoG
+|habitat= 
+{{Infobox Game Blocks
+ |OoT = [[Dodongo's Cavern]]<br/>{{Term|OoT3D|Water Temple|link}}{{Exp|Master Quest}}
+ |MM = [[Termina Field]]
+ |TP = {{List|[[Goron Mines]]|[[Cave of Ordeals]]|[[Lantern Cavern]]s}}
+}}
+|member= [[Dimitri]]<br/>[[King Dodongo]]
+|health={{Infobox Game Blocks
+ |OoT= {{HP|OoT|4}}
+}} 
+|attack={{Infobox Game Blocks
+ |OoT= Fire Breath {{Small|(1 Heart)}} <br/> Tail Whip {{Small|(1/2 Heart)}}
+}} 
+|weapon= [[Bomb]]s<br/>[[Sword]]<br/>[[Arrow]]
+|spoils= 
+|exp= 
+|theme= 
+}}
+{{Term/Store|Dodongo|Dodongos|Series, TLoZ, OoT, OoT3D, MM, MM3D, OoS, FSA, TP, TPHD|plural}} (pronounced {{IPA|dɵˈdɒŋɡoʊ}} {{Respell|də|DONG|goh}}<ref>{{Cite Web|quote=Even just now, the victory condition changed to "Defeat King Dodongo". |published=August 4, 2014|url=https://www.youtube.com/watch?v=3_DZtTR3zu0&t=4m6s|title=Hyrule Warriors Direct|site=YouTube}}</ref>) are recurring enemies in the {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 175 {{Exp Game|TLoZ, OoT, MM, OoS, FSA, TP}}}}</ref>
+
+==Characteristics==
+Dodongos are reptilian monsters usually found in caves and volcanic environments. [[Dodongo (Boss)|Dodongo]]s resemble ''{{Wp|Triceratops}}'' or {{Wp|rhinoceros}}es in {{TLoZ}}, appear as bipedal, monstrous lizards in {{OoT}} and {{MM}}, and resemble {{Wp|Gecko}}s in {{TP}}.
+
+Dodongos have very tough hides, ribbed with green or sometimes yellow scales that serve as strong armor that protects them from any attack. In the same vein, Dodongos have very large mouths in proportion to their bodies. These grand cavities enable them to suck in air to blow streams of flames, which is their primary form of attack. However, this also makes their mouths the species' primary vulnerable site. A [[Bomb]] can be thrown down their gaping mouths, and it will explode from within, heavily damaging the creature. For this reason, Dodongos are widely known for their weakness to Bombs. In {{TP|-}}, an [[Arrow]] may also be shot into the mouth of a Dodongo to inflict internal damage. Another vulnerable site is the tip of its tail. However, Dodongos can also harm Link with their tails by sweeping them around in a full turn. If the sweeping tail manages to make contact with [[Link]], it will knock the hero off his feet, damaging him. Dodongos are slow-moving creatures,<ref>{{Cite|The problem is those things have skin as hard as rock. Even with my strength, it's a waste to hit them. I can't even make a dent! But then it came to me! They may be tough on the outside but weak on the INSIDE! So right when they open their mouths to breathe fire, gulp! And then... BLAMMO! What a great idea! ...But then I dropped my bombs in the lava!|Goron|FSA}}</ref> giving Link plenty of time to attack them.
+
+The size of Dodongos ranges greatly between games and regions. In {{MM|-}}, two sizes of Dodongo are known to exist in [[Termina]]. Smaller variants can be found in the Northeast portion of [[Termina Field]] and the much larger sizes can be found in the Northwest section of the Field. These Dodongos drop large quantities of [[Rupee]]s upon defeat. The larger Dodongo yields a Purple Rupee when destroyed and the smaller Dodongo drops a Red Rupee. There are also two large Dodongos found in a [[Cave|Secret Grotto]] in the valley between [[Snowhead]] and [[Clock Town]]. Defeating them earns Link 100 Rupees and a [[Piece of Heart]] from a nearby [[Treasure Chest]].
+
+Despite the dangers they pose, the scales of a Dodongo are also a valuable resource. [[Goron]]s use them to make their heat-resistant [[Goron Tunic]]s, one of which Link can purchase in {{OoT|-}}.<ref>{{Cite Web|quote=Fashioned from a sporty blend of Dodongo hide and Bomb Flower fibers, the Goron Tunic allowed Link to survive the intense heat generated within Death Mountain Crater.|url=http://web.archive.org/web/20160308195651/http://zelda.com/universe/pedia/g.jsp|title=The Great Hyrule Encyclopedia|site=Zelda.com|type=jsp}}</ref> The stomach linings of Dodongos are used to make [[Bomb Bag]]s as well.<ref>{{Cite|You found a Bomb Bag! This bomb-holding bag is made from a Dodongo's stomach!|N/A|OoT}}</ref>
+
+Not all Dodongos are hostile creatures. In {{OoS}} and {{OoA}}, there is a benevolent Dodongo by the name of [[Dimitri]], who cooperates with and helps Link in [[Holodrum]] and [[Labrynna]]. Dimitri is a River Dodongo who can swim across deep water and up waterfalls to help Link gain access to previously outlying areas. Due to the type of Dodongo Dimitri is, he does not breathe fire like his wild counterpart, but he still has a large mouth, which he uses to eat Link's foes. In order to find him, Link must obtain a certain [[Strange Flute]].
+
+==Mainline appearances==
+==={{OoT|-}}===
+{{Navi
+|quote1= {{Color|OoT White|Dodongo}}<br/>Watch out for its fiery breath! Use Z Targeting techniques!
+}}
+
+In {{OoT}}, Dodongos appear throughout [[Dodongo's Cavern]]. They breathe in as they aim toward Link, expelling a stream of fire toward him. While emitting flames, they stay in place, allowing Link to damage their tails. The tail is their only vulnerable spot, as their hard scales can withstand all attacks. Dodongos also spin their bodies to swing their tails at Link. If the tail manages to make contact with Link, it will knock him off his feet and damage him. While a Dodongo breathes in, Link can throw a Bomb into their mouth to damage them.
+
+==={{MM|-}}===
+{{Tatl
+|context1= {{MM3D|-}}
+|quote1= That's a {{Color|MM3D White|Dodongo}}! It moves slowly, so you should be able to circle around to its backside. Got that?
+
+|context2= {{MM|-}}
+|quote2= What?! Don't you know about the {{Color|MM White|Dodongo}}? It moves slowly, so you can circle around to its backside. Got that?
+}}
+
+In {{MM}}, Dodongos can be found in [[Termina Field]] near the entrance to the [[Snowhead]] region. A Dodongo moves slowly, allowing Link to circle around to its backside and hit its tail. Its tail is its only vulnerable spot, as its tough scales are invulnerable to all attacks.<ref>{{Cite|That's a '''Dodongo'''! It moves slowly, so you should be able to circle around to its backside. Got that?|Tatl|MM3D}}</ref>
+
+==={{TP|-}}===
+[[File:TPDodongo2.jpg|thumb|200px|Link fighting a Dodongo in {{TP|-}}]]
+Dodongos appear as {{Wp|Gecko}}-like creatures in {{TP}}. They can be found in the [[Goron Mines]], [[Cave of Ordeals]], and various [[Lantern Cavern]]s. Link can defeat them by attacking with his Sword, throwing Bombs into their mouths, or shooting [[Arrow]]s into their mouths.
+{{clear}}
+
+==In other media==
+{{Noncanon|Start}}
+==={{TLoZ|-}} TV Series===
+A Dodongo also makes an appearance in the {{TLoZ|TV Series}} episode "[[The Moblins are Revolting]]". After Link and [[Princess Zelda]] arrive to an almost-deserted [[Underworld]], a Dodongo comes charging in their direction. Link pushes Zelda out of the way and shoots various [[Sword Beam]]s at the beast, but to no avail. Just as the Dodongo is approaching Link once again, Zelda throws a Bomb at its mouth, which instantly defeats it.
+
+==={{TLoZ|-}} (Valiant Comics)===
+In the {{TLoZ|Valiant Comics}}, Princess Zelda encounters a Dodongo while she is in training in {{Term|TLoZ|Level 1|link}}. When [[Miff]] appears to look out for Zelda, she warns the princess about the Dodongo behind her, allowing Zelda to defeat it with her last Bomb.<ref>{{Cite Book|quote=Zelda! Behind you! [...] A dodongo!|book= TLoZ (Valiant Comics)|publisher= |page=7 [To the First Power]}}</ref>
+{{Noncanon|End}}
+
+==Nomenclature==
+The name Dodongo could be derived from {{Romanize|ドドン|Dodon}}, the Japanese {{wp|onomatopoeia}} for the sound of an explosion. Dodongo was also previously used as the name of a kaiju in the original 1966 ''Ultraman'' series.
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Dodongo (The Moblins Are Revolting).png|A Dodongo from {{TLoZ|-}} TV Series
+File:Dodongo (VC).png|A Dodongo from {{TLoZ|-}} comic
+File:TFoE Dodongo Sprite.png|A Dodongo from {{TFoE|-}} and {{TWoG|-}}
+</gallery>
+
+==See also==
+* {{Term|Series|Baby Dodongo|link}}
+* {{Term|Series|Big Dodongo|link}}
+* {{Term|Series|Dark King Dodongo|link}}
+* {{Term|Series|Dimitri|link}}
+* {{Term|Series|King Dobongo|link}}
+* {{Term|Series|King Dodongo|link}}
+* {{Term|Series|Kodongo|link}}
+* {{Term|Series|Dongorongo|link}}
+* [[Dondon]]
+
+{{Ref}}
+
+{{SaurianEnemy}}
+{{Enemies}}
+{{Categories
+ |Dodongos, Exploding Enemies, Fire-Related Enemies, Lizards, Reptiles
+ |enemies= OoT, OoT3D, MM, MM3D, TP, TPHD, TLoZ (TV Series), TWoG, TFoE
+}}
+
+[[de:Dodongo]]
+[[es:Dodongo]]
+[[fr:Dodongo]]
+[[it:Dodongo]]
+[[ja:ドドンゴ]]
+[[pt-br:Dodongo]]
+[[zh-tw:多東哥]]

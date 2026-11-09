@@ -1,0 +1,399 @@
+{{Infobox Enemy
+|image= File:LANS Octorok Render.png
+|caption=Octorock from {{LA|NS|-}}
+|race= 
+|habitat=[[Hyrule Field]]{{Exp Game|EoW}}<br/>[[Lake Hylia]]{{Exp Game|EoW}} 
+|member=[[Big Octo]], [[Octo]], [[Mucktorok]], [[Ocean Octorok]] 
+|health=
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|1}} {{Small|({{Term|TLoZ|Red Octorok|link|display=Red}})}} ,  {{HP|TLoZ|2}} {{Small|({{Term|TLoZ|Blue Octorok|link|display=Blue}})}}
+ |ALttP= {{HP|ALttP|1}}
+ |TAoL= {{HP|TAoL|4}} {{Small|({{Term|TAoL|Red Octorok|link|display=Red}})}} ,  {{HP|TAoL|12}} {{Small|({{Term|TAoL|Blue Octorok|link|display=Blue}})}}
+ |LA= {{HP|LA|1}}
+ |TMC= {{HP|TMC|1}}
+ |OoT= {{HP|OoT|1}}
+ |SS= {{HP|SS|1}}
+ |BotW= 8
+}}
+|attack=
+{{Infobox Game Blocks
+ |TLoZ= {{Damage
+|attack1= Contact|damage1= 0.50
+|attack2= Rock Spit|damage2= 0.50}}
+ |ALttP= {{Damage
+|attack1= Contact|damage1= 1.00
+|attack2= Rock Spit|damage2= 0.50}}
+ |LA= {{Damage
+|attack1= Contact|damage1= 0.50
+|attack2= Rock Spit|damage2= 0.50}}
+ |OoT= {{Damage
+|attack1= Rock Spit|damage1= 0.25}}
+ |TMC= {{Damage
+|attack1= Contact|damage1= 0.25
+|attack2= Rock Spit|damage2= 0.25}}
+}} 
+|weapon= 
+{{Infobox Game Blocks
+ |LA= [[Bomb]]<ref name="Prima 100">{{Cite Guide|quote= |game= LADX|publisher= Prima|page= 100}}</ref>, [[Boomerang]]<ref name="Prima 100"/>, [[Bow]] and [[Arrow]]<ref name="Prima 100"/>, [[Hook Shot]]<ref name="Prima 100"/>, [[Magic Powder]]<ref name="Prima 100"/>, [[Magic Rod]]<ref name="Prima 100"/>, [[Sword]]<ref name="Prima 100"/>
+}}
+|spoils= 
+{{Infobox Game Blocks
+ |TLoZ= [[Heart]], [[Fairy]], One [[Rupee]], Four [[Bomb]][[Clock]]
+}}
+|exp= 10 {{Exp|Red Octorok}}, 20 {{Exp|Blue Octorok}}
+|theme= 
+|game_debut={{TLoZ}} (1986)
+|crossover_debut={{SSBM}} (2001)
+|spinoff_debut={{HW}}
+}}
+{{Term/Store|Octorok|Octoroks|Series, ALttP, LADX, OoT, OoT3D, MM, MM3D, OoS, OoA, FS, TWW, TWWHD, PH, ST, SS, ALBW, TFH, SSBU|plural}} (pronounced {{IPA|ˈɒktəˌɹɒks}} {{Respell|OK|tə|ROKS}}),<ref>{{Cite Web|quote=Octoroks, Tektites / Leevers too |retrieved=October 24, 2014|url=https://www.youtube.com/watch?v=oCqX4AEInUs&t=15s |title=''The Legend of Zelda'' US rap commercial |site=YouTube}}</ref>{{Exp Game|ALttP, LADX, OoT, MM, OoS, OoA, FS, TWW, PH, ST, SS, ALBW, SSBU}}<ref name="E 195">{{Cite Book|quote= |book= E |publisher= |page= 195 {{Exp Game|TLoZ, TAoL, ALttP, LADX, OoT, MM, OoS, OoA, FS, TWW, FSA, TMC, PH, ST, SS, ALBW}}}}</ref><ref>{{Cite|Octorok|Spirit List|SSBU}}</ref> also known as {{Term/Store|Red Octorok|Red Octoroks|TLoZ, TAoL, FSA, TMC|plural}},{{Exp Game|TLoZ, TAoL, FSA, TMC}}<ref name="E 195"/> are recurring [[Enemy|Enemies]] in {{TLoZ|Series}}.{{Note|Octoroks were also referred to as '''Oktoroks''' in {{Magazine|Nintendo Fun Club News}}.<ref>{{Cite Magazine|quote= |magazine= Nintendo Fun Club News|publisher= |volume= 1|issue= 2|date= Summer 1987|page= 1}}</ref> However, as this contradicts the name given in {{E}}, it is not considered [[Guidelines:Canon|Canon]].}} Octoroks go unnamed in {{HW}}.
+
+==Characteristics==
+Octoroks are {{Wp|octopus}}-like monsters best known for their method of attack; shooting rock projectiles from their cylindrical snouts in short intervals. They are common in [[Overworld]]s such as [[Hyrule]], but occasionally appear inside [[Dungeon]]s. The characteristics of Octoroks and their method of attack varies from game to game, as does the habitat in which they are encountered. In their two-dimensional appearances, Octoroks are generally land-dwelling creatures that slowly crawl and occasionally shoot rocks. They usually appear more porcine or spider-like and are one of the more common and weaker enemies in the games. They can be defeated by any conventional weapon, such as the [[Sword]], [[Bow]] and [[Arrow]], [[Bomb]]s, or [[Boomerang]].
+
+In their three dimensional appearances, however, Octoroks are often aquatic creatures that live in lakes or seas, much like their real-world counterparts. They emerge and spit rocks at [[Link]] from afar, immediately submerging underwater if he comes too close. These Octoroks can often be defeated by deflecting their rocks back at them with the [[Shield]],<ref>{{Cite|Octorok: Bounce back the rocks they spit at you!|Navi|OoT}}</ref> or by shooting projectile weapons at them.
+
+Octoroks normally do not attack unless threatened, spitting rocks as a natural means to defend their territory.<ref>{{Cite Book|quote= |book= E |publisher= |page= 104}}</ref>
+
+A number of variants of Octoroks have also appeared in the series, with notable varieties including [[Flying Octorok]]s, [[Golden Octorok]]s, and [[Octomine]]s. [[Big Octo]]s are significantly larger Octoroks that often appear as [[Sub-Boss]]s. [[Big Octorok]], a normal-sized Octorok fought while Link is [[Minish]]-sized, also appears as a [[Boss]] in {{TMC}}.
+
+==Mainline appearances==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Octorok|A type of octopus that lives above ground. There are two types, red and blue. Watch out for the blue ones. They're mean. They spit out rocks at Link.}}
+Red Octoroks are encountered throughout the [[Overworld]] of Hyrule in ''[[The Legend of Zelda]]'', and are one of the earliest monsters [[Link]] can encounter on his quest. They slowly crawl about in an aimless path, and randomly shoot rocks in either of the four cardinal directions; these rocks can be blocked by the [[Shield]] if Link is facing in their direction. Red Octoroks come in [[Red Octorok|red]] and [[Blue Octorok|blue]] varieties, with the blue being the stronger one. When defeated, red Red Octoroks may drop either a [[Heart]], a [[Fairy]], or one [[Rupee]], while blue Red Octoroks may drop either a Heart, one Rupee, four [[Bomb]]s, or a [[Clock]].<ref>{{Cite Web|quote= |author= n.a. |published= n.d. |retrieved= August 17, 2017 |url= http://redcandle.us/The_Legend_of_Zelda#Forced_drops |title= Forced Drops |site= redcandle.us}}</ref>
+
+==={{TAoL|-}}===
+{{Manual|TAoL|Octorok|A type of octopus that lives above ground. They bounce and attack by spitting out rocks.}}
+Octoroks appear as Overworld enemies in {{TAoL}}, most commonly found in [[Cave]]s and tunnels. Unlike their previous appearance, they possess the ability to jump, and shoot rocks with each hop they make. While they are much more active and aggressive in their attacks, they are still relatively weak enemies whose rocks can be blocked with the [[Shield]]. Red and Blue Octoroks appear, with the Blue variety being the stronger of the two.
+
+In the Japanese Famicom Disk System version, Blue Octoroks also appear inside [[Palace]]s. In the overseas release, however, Blue [[Aneru]] take their place instead, behaving similarly to Octoroks.
+
+==={{ALttP|-}}===
+Octoroks return to their roots in {{ALttP}} as grounded enemies encountered in the Overworld of Hyrule, though they behave slightly differently compared to their previous incarnations. Octoroks move in straight lines as they quickly scurry about, stopping only to unleash a barrage of rocks in every direction. Their quick and sudden movements and aggressive onslaught makes them harder to predict and defend against; however, like their previous incarnations, their rocks can be blocked with the Shield. They are common in eastern Hyrule, close to the [[Eastern Palace]], near to the entrance to [[Zora's Waterfall]], and in the [[Great Swamp]].
+
+A rare variant known as [[Octoballoon]]s appear on the southeastern ledge of [[Lake Hylia]]. They explode into smaller Octoballoons when approached or struck. The [[Dark World]] counterparts of Octoroks are [[Slarok]]s, which behave identically but are significantly stronger. 
+
+==={{LA|-}}===
+Octoroks in {{LA}} appear similarly to those in {{TLoZ}}; slow enemies that crawl along the ground and occasionally shoot a single stone. They can be found all over [[Koholint Island]], but are especially prolific at [[Toronbo Shores]]. As slow, weak enemies, they are easily dispatched with the Sword; however, when Link first arrives to the [[Toronbo Shores|Shores]] in search for his Sword, he may encounter some without a weapon. Their stones can be blocked with the Shield when it is held up, serving as Link's only defense against them until he retrieves his Sword.
+
+Winged variants, known as [[Flying Octorok]]s, also appear and are first encountered in [[Ukuku Prairie]]. They are able to fly overhead to evade Link's Sword, usually landing behind him to attack.
+
+==={{OoT|-}}===
+{{Navi
+|quote1= {{Color|OoT White|Octorok}}<br/>Bounce back the rocks they spit at you!
+}}
+
+Octoroks in {{OoT}} look and behave differently compared to their earlier incarnations, as purple octopuses with glowing, green eyes that lurk in the water instead of on land. These Octoroks are the first of the "aquatic" Octoroks, who emerge from bodies of water to attack Link from afar with their projectile stones. When approached, they will immediately submerge underwater to avoid harm. Since they cannot be attacked directly or stunned, Octoroks can only be killed by either shooting [[Arrow]]s at them, or by using the Shield to deflect the rocks they spit back at them, which will defeat them in one hit. They can be found in various locations across Hyrule, such as Zora's River, [[Lake Hylia]], [[Inside Jabu-Jabu's Belly]], and the [[Forest Temple#Ocarina of Time|Forest Temple]].
+
+A much larger Octorok known as Big Octo appears as the Sub-Boss Inside Jabu-Jabu's Belly. This Octorok crawls around a cramped space rather than residing underwater, and attempts to crush and shove Link as it moves.
+
+==={{MM|-}}===
+{{Tatl
+|quote1= You know about the {{Color|MM White|Octorok}}, right? All you have to do is deflect that rock it spits out.
+}}
+
+Octoroks in {{MM}} appear identical to their appearance in {{OoT}}. They live in bodies of water, and can normally only be killed by shooting Arrows at them or by deflecting their shots with the Shield. Like most enemies, Octoroks can also be frozen into a solid block of ice by shooting at them with [[Ice Arrow]]s.<ref>{{Cite|If you could somehow step on top of that Octorok, I bet you'd be able to climb onto that central pillar. But the Octorok is so squishy and it keeps squirming around...There's gotta be something you can do!|Tatl|MM}}</ref> Once frozen, they can then be used as platforms to cross wide gaps of water until they thaw out. This is used to cross a body of water in the [[Great Bay Temple]], and most notably at the [[Ikana River]] to cross over to the upper portion of [[Ikana Canyon]] — both places where Octoroks can be found. In {{MM3D}}, these Octoroks appear blue and sparkle to visually indicate that they can be frozen by the Ice Arrows.
+
+Big Octos also appear in {{MM|-}} in the [[Southern Swamp]], blocking several passages to other locations of the [[Southern Swamp|Swamp]].
+
+==={{OoS|-}}===
+[[File:OoS Octorok Blue Sprite.png|left]]
+Octoroks return as enemies in {{OoS}} and {{OoA}}, being depicted after their appearance in {{LA}}. Octoroks commonly appear throughout the lands of [[Holodrum]] and [[Labrynna]] respectively. A blue-colored variety also appears, which is stronger and more durable than the regular red variety.
+
+The [[Octo Ring]] can be worn to give [[Link]] the appearance of a green Octorok.
+
+A [[Golden Octorok]] appears exclusively in {{OoS|-}}, after Link has spoken to an [[Old Man]] wearing a golden robe. This Golden Octorok can be found in [[Spool Swamp]] in the [[Summer]]. This variety is much more aggressive and far stronger than the ordinary varieties.
+
+==={{FS|-}}===
+Octoroks in {{FS}} appear much like their incarnations in {{LA}}, {{OoS}}, and {{OoA}}. They slowly wander different areas and shoot rocks at intruders. They are relatively weak enemies, and can be easily defeated with the Sword. They can be found in the [[Sea of Trees]] and [[Vaati's Palace]].
+
+==={{TWW|-}}===
+{{Figurine|TWW|Octorok}}
+{{Tingle
+|context1= Freshwater Octorok
+|quote1= Oh!  An '''Octorok'''!<br/><br/>Use your shield to reflect its rock barrage back at it!
+
+|context2= Saltwater Octorok
+|quote2= An '''Octorok'''!<br/><br/>It'll shoot bombs! I think you should run!
+
+|context3= After obtaining the Boomerang {{Clarify|TWW|reason= Does this apply to both kinds of Octoroks?}}
+|quote3= An '''Octorok'''!<br/><br/>It'll fire bombs at you! Fire back with projectiles!
+}}
+
+Octoroks come in two types in {{TWW}}: a freshwater and a sea-inhabiting type. Both types of Octorok behave identically to those from {{OoT|-}} and {{MM|-}}, emerging from their respective bodies of water to shoot a spiked rock, which can then be deflected using either the [[Shield]] or by striking it with the [[Sword]]. The deflected rock will instantly defeat the Octorok as it hits. Freshwater Octoroks are characterized by their purple color and swirling pattern on their mantle. They most notably appear in the rivers leading up to the [[Forest Haven]]. Sea-inhabiting Octoroks are pink and have a spiked, shell-like mantle. They also differ in that the projectiles they spit are explosive. They are encountered only in the [[Great Sea]].
+
+Gigantic variants known as [[Big Octo]]s also appear throughout the [[Great Sea]]. They emerge from whirlpools and attack [[Link]] as the whirlpool gradually brings him and the [[King of Red Lions]] into its mouth. They can only be defeated by shooting [[Bomb]]s into their eyes with the [[Cannon]], by firing [[Arrow]]s from the [[Bow]], or by striking their eyes repeatedly with the [[Boomerang]].
+
+==={{FSA|-}}===
+{{Main|Blue Octorok}}
+[[File:FSA Blue Octorok Sprite.png|right]]
+[[File:FSA Purple Octorok Sprite.png|right]]
+Octoroks are encountered in a few stages in {{FSA}}, most commonly near large bodies of water such as [[The Coast]] and [[The Swamp]]. They are typically found congregating in groups, attacking occasionally as they patrol their territory. They come in three color varieties; red, blue, and the rare purple. The red variety simply scurries about and shoots rocks, while the blue variety behaves more like the Octoroks from {{ALttP}}, stopping to shoot a barrage of rocks in every direction. Purple Octoroks are the most hostile, consciously aiming at the [[Links]] and unleashing a flurry of rocks at them. 
+{{clear}}
+
+==={{TMC|-}}===
+Red Octoroks in {{TMC}} behave much like their ''Four Swords'' incarnation. They can be found throughout [[Hyrule]] in various areas, most commonly around the different sections of [[Hyrule Field]] and [[Lon Lon Ranch]]. They come in red and blue varieties; red Red Octoroks are docile creatures, rarely shooting rocks unless [[Link]] is in close proximity to them. The blue variants, however, common to [[Lake Hylia]], are much more aggressive and constantly expel rocks around them even when Link is not near.
+
+[[Golden Octorok]]s also appear as a much rarer and more violent variety. They appear once Link has [[Kinstone Fusion|Fused]] [[Kinstone]]s with certain people across Hyrule.
+
+An ordinary Red Octorok covered in vines is also faced as the [[Boss]] of the [[Temple of Droplets]]; however, it appears gigantic due to Link being [[Minish]]-sized, and is therefore called the [[Big Octorok]].
+
+{{Figurine|TMC|Octorok}}
+
+==={{PH|-}}===
+Octoroks in {{PH}} appear in two distinct varieties: a short and squat land-dwelling variant akin to their traditional appearance, and a sea-inhabiting type very much like those in {{TWW|-}}.
+
+Land Octoroks appear as slow-moving red creatures. They spit rocks at [[Link]] whenever he is nearby, and are typically encountered in small groups. They are basic enemies who can be killed by most weapons, but can also be momentarily stunned with the [[Boomerang]]. They are uncommon enemies that are usually encountered inside [[Cave]]s or [[Dungeon]]s as opposed to the surface. They appear in the basement of [[Astrid]]'s house on the [[Isle of Ember]], inside the [[Temple of Fire]], on [[Molida Island]], and in the [[Temple of Courage]].
+
+[[Ocean Octorok]]s are significantly larger<ref>{{Cite Guide|quote= |game= PH|publisher= Prima|page= 28}}</ref> and pink-colored, with an oversized, yellow mantle bearing a swirling symbol. Like those of {{TWW|-}}, they appear from the depths of the sea to attack.
+
+In addition to these two, there are also [[Octomine]]s, which lurk underwater. [[Cyclok]] is a giant, flying Octorok that appears as the [[boss]] of the [[Temple of Wind]].
+
+{{HH}} states that the Octoroks and their variants are the minions of [[Bellum]] (who was notably referred to as Grande Octo/Big Octorok during development).<ref>''Hyrule Historia'' page 204</ref><ref>''Hyrule Historia'' page 203</ref>
+
+==={{ST|-}}===
+Octoroks in {{ST}} appear the same as those in {{PH|-}}, with both a land and water-based variant. The land Octoroks are identical to those in {{PH|-}}, and are encountered inside the [[Snow Temple]] and in a [[Cave]] at the [[Trading Post]]. A large group of them can also be found on a small island at the [[Ocean Sanctuary]], where they constantly shoot rocks across a strip of land. These Octoroks also appear in the first level of the [[Take 'Em All On!]] mini-game at [[Castle Town]].
+
+[[Mini Freezard|Mini Freezards]], such as those in the Snow Temple, can be melted away with fire to reveal land-dwelling Octoroks beneath their frozen bodies. The "eye" of a Mini Freezard is actually the underlying Octorok's snout.
+
+Ocean Octorok are similar to the sea-based variety from {{PH|-}},<ref>{{Cite Guide|quote= |game= ST |publisher= Prima |page= 35}}</ref> but appear red with a green mantle. They emerge from the watery depths to attack [[Link]] from afar.
+
+[[Octive]]s are a variant of Octoroks that behave similarly to the aquatic-based variety, but are encountered solely in the Snow Temple. [[Ergtorok]]s are another variety that are a variant of Octives, lurking in sand instead. [[Octomine]]s also appear and are encountered beneath the waves of the [[Ocean Realm]].
+
+==={{SS|-}}===
+{{Fi
+|quote1= <p>Target lock: {{Color|SS Blue|Octorok (Grass)}}</p><p>This monster descended from oceanic mollusks. It has developed the unsightly ability to spit rocks.</p><p>The creature prefers to sleep with tufts of grass on its head, so it has learned to take on the appearance of grass in order to fool and defeat its prey. You can use a shield to bounce the rocks this monster spits back at it.</p>
+}}
+
+Octoroks in {{SS}} have a similar behavior to aquatic Octoroks from previous games, but are encountered on land instead of in water, and are even found in the [[Sky]]. The ground-based variety closely resembles and behaves similarly to [[Deku Scrub]]s, as they hide themselves in the ground and poke their heads out to spit rocks when [[Link]] is near. Like aquatic Octoroks, their attacks can be deflected back at them with the [[Shield]]. The grass-covered variety, which cloaks itself with tufts of grass, can be found in the [[Faron Woods]]. The [[Rock Octorok|rock variety]] instead covers itself with a large rock. Other than their choice of camouflage, they are identical.
+
+==={{ALBW|-}}===
+Octoroks in {{ALBW}} are based on those from {{ALttP}}, but no longer fire rocks in each direction at once. Octoroks instead scurry about their territory, stopping to fire a single rock from their mouths. As with the Octoroks from {{ALttP|-}}, they can be commonly found in eastern and southern [[Hyrule]].
+
+In [[Lorule]], a friendly Octorok named [[Octo]] plays [[Octoball Derby]] with the [[Derby Boy]] and the [[Derby Girl]]. Instead of shooting rocks, it uses its talent to throw balls. [[Slarok]]s also appear as the Lorulean counterpart of Octoroks.
+
+==={{TFH|-}}===
+{{Main|Water Octorok}}
+A red species of Octoroks known as [[Water Octorok|Water Octoroks]] appear in {{TFH}}. They are encountered in bodies of water and spit rocks at the [[Links]]. In addition to this, regular Octoroks return in the [[Den of Trials]] alongside an unnamed purple variant that can [[Curse]] the Links upon contact.
+
+==={{BotW|-}}===
+Octoroks appear in many different varieties in {{BotW}}, including [[Water Octorok]]s, [[Forest Octorok]]s, [[Rock Octorok]]s, [[Snow Octorok]]s, [[Treasure Octorok]]s, and in [[Master Mode]], [[Sky Octorok]]s. All of them except for Sky Octoroks are characterized by their ability to shoot rocks at [[Link]], though they each go about this in different ways. For all but Rock Octoroks, Link can shoot their various coverings to force them to reveal themselves. In Master Mode, Sky Octoroks can be found holding plank platforms that hold [[Treasure Chest]]s and enemies.
+
+==={{TotK|-}}===
+Octoroks return, retaining their behavior from {{BotW|-}}. They also have a Boss variation, [[Mucktorok]], who is fought in the [[Water Temple]].
+
+==={{EoW|-}}===
+Octoroks are octopus-like enemies found throughout [[Hyrule]]. They are the most common variety, with elemental variants such as [[Fire Octo]] and [[Ice Octo]] appearing in the [[Eldin Volcano]] and [[Hebra Mountains|Hebra Mountain]] regions respectively. After defeating one, [[Princess Zelda|Zelda]] can learn the Octorok [[Echo]] using the [[Tri Rod]], which has an Echo cost of one.
+
+==In other media==
+==={{TLoZ|-}} TV Series===
+{{Noncanon|Start}}
+[[File:Octorok (The White Knight).png|thumb|200px|right|An Octorok in "The White Knight" episode]]
+Octoroks appear in several episodes of the {{TLoZ|TV Series}}. They first appear in "[[The White Knight]]" after a [[Tinsuit]] calls an Octorok from the [[Underworld]], which grabs a swordless Link and throws him into a nearby barn. The hero then takes out a [[Magic Rope]] and ties it around the Octorok, but the octopus-like foe begins to run away as it drags Link with him. Fortunately, [[Prince Facade]] appears and halts the Octorok in its path, blocking one of the Octorok's attacks with his shield and quickly defeating it with a shot from his [[crossbow]]. An Octorok also briefly appears in "[[Kiss'n Tell]]", where the foe uses its tentacles to trip [[Princess Zelda]] and thus take her into the Underworld.
+
+In "[[Doppelganger]]", while Link and Zelda are in the Underworld chasing [[Zelda's Clone|Zelda's evil clone]], three Octoroks begin to shoot rocks at them. Link grabs the Princess and uses the [[Force Field Ring]] as the two fall, [[Sword Beam|zapping]] the Octoroks in the process. In their final appearance in "[[The Moblins are Revolting]]", Octoroks join the struggle formed by the [[Brotherhood of Underworld Monsters]], where they try to attack the [[North Castle]]. A [[Moblin]] commands that various [[Vire]]s carry several Octoroks so that they can fire bombs inside the castle; however, the Octoroks are accidentally defeated with arrows shot by a group of [[Stalfos]].
+
+Interestingly, in "The White Knight" and "The Moblins Are Revolting" episodes, Octoroks shoot light balls that explode when they come in contact with something; however, in the "Doppelganger", they can be seen shooting the usual rocks instead.
+{{Noncanon|End}}
+
+==={{TLoZ|-}} (Valiant Comics)===
+{{Noncanon|Start}}
+[[File:Octorok (VC).png|thumb|200px|right|An Octorok from the comic]]
+Octoroks make several minor appearances throughout the issues of [[Valiant Comics]] published by Valiant Comics. Their depiction is almost identical to their artwork from {{TAoL|-}}. They first appear in "[[The Legend of Zelda (Valiant Comics)/Issue 1#Missing in Action|Missing in Action]]" as one of the enemies that go after Princess Zelda and the [[Triforce of Wisdom]]. "[[To the First Power]]" also shows these foes capturing Link outside one of the Underworld entrances under the orders of a [[Wizzrobe]]. Octoroks once again appear in "[[The Legend of Zelda (Valiant Comics)/Issue 4#Queen of Hearts|Queen of Hearts]]", where they battle against Link and [[Queen Seline]] to keep them from breaking the magic container that will give the queen her magical powers back.
+
+==={{TCT|-}}===
+Octoroks appear after Princess Zelda frees Link from the [[Crystal]] in {{TCT}}. If the heroes choose to leave the [[Midoro Palace]], they will struggle since Link feels too weak to walk. They eventually reach a forest and decide to rest, but suddenly Octoroks ambush them, and although Zelda tells Link that they should run away, the young hero feels too tired and thus must stay and fight. Choosing to stay and fight results in Zelda and Link taking cover from the Octoroks' attacks, with Link giving the Princess some advice to defeat the Octoroks. By the use of [[Zelda's Bow|her bow]], Zelda defeats the monsters, but is exhausted from the battle. They then witness a [[Pink Fairy]] glowing out from the corpse of one of the dead Octoroks. The Fairy thanks the heroes for freeing her from the monsters and rewards them by showing them where to find the weapon that will defeat [[Ganon]]: the [[Spear]].
+
+If the heroes choose to run away, Zelda will put her arm around Link's shoulders and begin to run. Trying to pull Link with all her might, she fails since she cannot outrun the Octoroks' attacks while carrying Link. A rock strikes Zelda's leg, causing the heroes to collapse and giving the foes a chance to surround them. The page ends with a Game Over as Zelda realizes she cannot hope to defeat all of the Octoroks by herself.
+
+=== {{TSP|-}}===
+{{TSP}} briefly mentions the Octoroks when [[Charles of Moria]] is bragging of his accomplishments as a knight. He comments about the time that he defeated twenty Octoroks with just one swing of his ax, although Link is unimpressed by this feat, saying that "Octoroks are easy prey."
+
+==={{LA|-}} (Cagiva)===
+In the {{LA|Cagiva}}, while looking for his Sword, Link is attacked by an Octorok, making him fall from a cliff into [[Toronbo Shores]]. There, hes attacked by a group of Octoroks, forcing him to run away. Once Link retreives his Sword, the [[Owl]] appears, scaring the Octoroks away.
+{{Noncanon|End}}
+
+===Spinoff appearances===
+===[[Philips CD-i]] games===
+{{Noncanon|Start}}
+Octoroks appear as enemies in {{TFoE}}, {{TWoG}}, and {{ZA}}. In the first two games, Octoroks appear as large enemies encountered on land that spit arching stones. They have a considerably high amount of health, requiring several Sword strikes to defeat, but can also be instantly defeated by throwing a Bomb at them or by using the [[Power Glove]]. In {{TFoE|-}}, they can be found in [[Firestone Lake]] and [[Fortress Centrum]]. In {{TWoG|-}}, they are exclusively found on the shores of [[Tykogi Tower]].
+
+In {{ZA|-}}, Octoroks bare a much closer resemblance to real-world octopuses. They are usually encountered near bodies of water, most notably in the [[Shrine of Water]]. They however do not spit rocks at Zelda. They take several hits of the [[Wand]] to defeat.
+
+==={{FPTRR|-}}===
+In {{FPTRR}}, a creature similar to Octoroks called '''Octopuses''' appear in the hidden mini-games run by [[Salona]]. Instead of shooting rocks, the Octopuses shoot balls, which [[Tingle]] must deflect back at various targets behind them. Appearance-wise, they are red and resemble the traditional Octoroks found in the 2D ''Zelda'' games, with the characteristics of those found in {{OoT|-}} and {{MM|-}}.
+
+There is also an ingredient Tingle can acquire called Salty Octopus, which also resembles an Octorok.
+
+==={{HW|-}}===
+Octoroks appear while loading an [[Adventure Mode]] Map Battle in {{HW}}. Their appearance is based on the red Octorok from {{TLoZ|-}}. An Octorok will move between Link and the [[Triforce]] and shoot a rock at Link before being defeated. While Link is holding the Triforce, a second Octorok will then appear behind Link and shoot another rock at him, causing him to drop the Triforce. Link will then run away and the Octorok will chase after him.
+{{Noncanon|End}}
+
+==Crossover appearances==
+{{Noncanon|Start}}
+===''Super Mario-kun''===
+[[File:Octoroks in Mario-kun.jpg|thumb|x200px|Octoroks in ''Super Mario-kun'']]
+In [[mariowiki:Super Mario-kun Volume 4|volume 4]], Octoroks briefly appear in a panel, during a chapter based on ''The Legend of Zelda''. One of the Octoroks spits a rock on [[Mario]].
+{{clear}}
+===''Super Smash Bros.'' series===
+===={{SSBM|-}}====
+In {{SSBM}}, Octoroks are enemies encountered in the [[Underground Maze]] level of [[Adventure (Super Smash Bros. Melee)|Adventure mode]]. They can, but rarely, be found in other modes in boxes. Like in the ''Zelda'' games, Octoroks will start shooting rocks at the approaching fighter. For every Octorok a player KOs, 150 points are added to their {{ssb|List of Bonuses|Octorok KO Bonus}}. These Octoroks are only found on land, despite being based on and depicted after the aquatic Octoroks found in {{OoT|-}}. They also appear as a [[Trophies in Super Smash Bros. Melee|Trophy]].
+
+{{SSBTrophy|SSBM|header=yes}}
+{{#section:Trophies in Super Smash Bros. Melee|Octorok}}
+|}
+
+===={{SSBB|-}}====
+In {{SSBB}}, Octoroks appear as a [[Sticker]].
+
+{{SSBSticker|header=yes}}
+{{#section:Sticker|Octorok}}
+|}
+
+===={{SSB4|3DS|-}}====
+[[File:SSB4 Octorok.jpg|thumb|170px|The Octorok enemy from {{SSB4|3DS|-}}]]
+Octoroks are encountered as enemies in the [[Smash Run]] mode and as a Trophy in their {{SS|-}} incarnation as the grass-variety. Octoroks attack by spitting rocks at the fighters. An Octorok usually hides under a bush, and while the Octorok cannot be damaged while doing so, the player's fighter can still grab and throw them. Octoroks can be defeated either from taking enough damage or by reflecting their rock projectiles back at them.
+
+{{SSBTrophy|SSB4|header=yes}}
+{{#section:Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Octorok}}
+|}
+
+===={{SSBU|-}}====
+An Octorok appears as a [[Primary Spirit]] in {{SSBU}}. It depicts the artwork of the grass variety from {{SS|-}}. The Octorok [[Spirit Battle]] takes place the [[Great Bay (stage)|Great Bay]] stage, where the player's fighter has to battle an army of Diddy Kong puppet fighters. In a reference to how Octoroks spit rock projectiles, the Diddy Kongs all favor their Peanut Popgun move.
+
+{{Spirit Battle
+|name= Octorok
+|spirit type= Primary
+|fighters= {{Stock|SSBU|Diddy Kong|5||Team}} ×4
+|team type= Grab
+|team power= 1800
+|rank= Novice
+|stage= Great Bay
+|stage type= 
+|theme= {{Remix|Original|Termina Field|SSBU}}
+|rules= 
+|hazards= 
+|conditions= {{·}} The enemy's neutral special has increased power<br/>{{·}} The enemy favors neutral specials}}
+{{Primary Spirit
+|name= Octorok
+|type= Grab
+|rank= Novice
+|slots= 1
+|strength= 547
+|defense= 536
+|power= 1126
+|trait= Fire Weakness
+|description= Increases the damage taken from fire and explosion attacks.
+}}
+
+===''WarioWare: Twisted!''===
+In ''[[WarioWare|WarioWare: Twisted!]]'', Octoroks appear in the The Legend of Zelda microgame. They are depicted after their appearance from the first {{TLoZ|-}} game, except they are shown from an overhead view. The object is for [[Link]] to deflect any rock projectiles spit by Octoroks, and if Link is hit, he is defeated.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+Octoroks appear as enemies in {{CoH}} where they move to the beat of the music. They can inhabit waters as well as dry land, hiding until [[Cadence]], [[Link]], [[Yves]], or [[Princess Zelda]] walks in front of them, in which they will emerge and become vulnerable to attack for four music beats. After emerging, they will fire a rock projectile at the heroes on the second beat, and remain exposed for two more beats before returning underground or underwater. There are a total of three varieties of Octorok, including the [[Yellow Octorok]] and [[Black Octorok]].
+{{Ambig|End}}
+
+===''Vermin''===
+{{Ambig|Start}}
+Octoroks appear in the {{G&WTLoZ}} version of ''Vermin''. They replace the moles from the original as the creatures Link keeps away with his mallets.
+{{Ambig|End}}
+
+==Trivia==
+*At the time of the release of {{TWW}}, Octoroks had appeared in every game in {{TLoZ|Series}} so far, which is referenced in their [[Figurine]] description with the line, "Winner of the Perfect Attendance Award". However, as Octoroks were absent from {{TP}}, this was changed to "Series: Exemplary enemy" in {{TWWHD}}.{{Fact}} They have appeared in every game since.
+*[[Toadpoli]]s from {{TP|-}} behave similarly to the aquatic Octoroks, and are also defeated in the same manner; by deflecting their projectiles back at them. [[Spume]]s from {{SS}} also have a similar behavior.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+===Sprites===
+<gallery>
+File:TLoZ Octorok Red Sprite.png|Sprite from {{TLoZ|-}}
+File:TAoL Red Octorok Sprite.png|Sprite from {{TAoL|-}}
+File:ALttP Octorok.gif|Sprite from {{ALttP|-}}
+File:LA Octorok Sprite.png|Sprite from {{LA|-}}
+File:LADX Octorok Sprite.png|Sprite from {{LA|DX|-}}
+File:OoS Red Octorok Sprite.png|Sprite from {{OoS|-}}
+File:OoA Red Octorok Sprite.png|Sprite from {{OoA|-}}
+File:FS Octorok Sprite.png|Sprite from {{FS|-}}
+File:FSA Red Octorok Sprite.png|Sprite from {{FSA|-}}
+File:TMC Octorok Sprite.png|Sprite from {{TMC|-}}
+</gallery>
+===Models===
+<gallery>
+File:OoT Octorok Model.png|Model from {{OoT|-}}
+File:OoT3D Octorok Model.png|Model from {{OoT3D|-}}
+File:MM Octorok Model.png|Model from {{MM|-}}
+File:PH Octorok Model.png|Model from {{PH|-}}
+File:ST Octorok Model.png|Model from {{ST|-}}
+File:SS Octorok (Grass) Render.png|Render for {{SS|-}}
+File:ALBW Octorok Model.png|Model from {{ALBW|-}}
+File:TFH Land Octorok Model.png|Model from {{TFH|-}}
+File:LANS Octorok Model.png|Model from {{LA|NS|-}}
+File:Octorok Echo.png||Model from {{EoW|-}}
+</gallery>
+===Artwork===
+<gallery>
+File:TLoZ Octorok Red Artwork.png|Artwork for {{TLoZ|-}}
+File:TAoL Octorok Artwork.png|Artwork for {{TAoL|-}}
+File:OoT Octorok Artwork.png|Artwork for {{OoT|-}}
+File:FS Links Fighting Octorok Artwork.png|Artwork for {{FS|-}}
+File:LANS Octorok Render.png|Render for {{LA|NS|-}}
+</gallery>
+===Other===
+<gallery>
+File:TFH Dark Octorok Model.png|[[Dark Octorok]] from {{TFH|-}}
+File:EoW Octorok rift.png|[[Dark Echo]] from {{EoW|-}}
+File:SSBM Octorok Trophy Model.png|Trophy from {{SSBM|-}}
+</gallery>
+
+==See also==
+*[[Big Octo]]
+*[[Big Octorok]]
+*[[Big Octo]]
+*[[Black Octorok]]
+*[[Blue Octorok]]
+*[[Cyclok]]
+*[[Ergtorok]]
+*[[Fire Octo]]
+*[[Forest Octorok]]
+*[[Golden Octorok]]
+*[[Ice Octo]]
+*[[Mucktorok]]
+*[[Octive]]
+*[[Octo]]
+*[[Octogon]]
+*[[Octomine]]
+*[[Octoballoon]]
+*[[Red Octorok]]
+*[[Rock Octorok]]
+*[[Slarok]]
+*[[Snow Octorok]]
+*[[Sky Octorok]]
+*[[Tocktorok]]
+*[[Treasure Octorok]]
+*[[Water Octorok]]
+*[[Winged Octorok]]
+*[[Yellow Octorok]]
+
+==External links==
+*[[w:c:supersmashbros:Octorok|Octorok]] on Smashpedia
+*[[w:c:mario:Octorok|Octorok]] on the Mario Wiki
+
+{{Notes}}
+{{Ref}}
+
+{{Enemies}}
+{{Categories
+ |Echoes, Octoroks, Octos, Water-Related Enemies
+ |enemies= TLoZ, TAoL, ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, PH, SS, SSHD, ALBW, TotK, EoW, TLoZ (TV Series), TFoE, TWoG, ZA, BSTLoZ, AST
+}}
+
+[[de:Oktorok]]
+[[es:Octorok]]
+[[fr:Octorok]]
+[[it:Octorok]]
+[[ja:オクタロック]]
+[[zh-tw:八爪投石怪]]

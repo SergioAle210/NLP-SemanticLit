@@ -1,0 +1,24 @@
+{{Game Tabs|first = main|second = doom|third = doom 64|fourth=doom eternal}}
+{{quote|Just a few days ago, you were probably swapping war stories with one of these guys. Now it's time to swap some lead upside their head.|''Doom'' instruction manual}}
+The '''Former Humans''' (sometimes referred to by different unofficial names) are possessed and/or undead former soldiers which have been turned into [[Former human|Zombie]]s during the invasion from [[Hell]], encountered in the classic generation of ''[[Doom]]'', ''[[Doom II]]'', and ''[[Final Doom]]''. 
+
+== Notes ==
+* The Former Humans have the type name MT_POSSESSED in the [[Doom source code|DOOM source code]], and the sprite prefix POSS, while the analogous MT_TROOP and TROO are given to the [[Imp]]s. The Former Humans were called "Demon-Possessed Humans" (or simply "Possessed Humans") in the [[Doom Bible|DOOM Bible]] (section 7.2), being "possessed in their sleep."
+* With only 20 hit points, the Humans can be [[Gibs|gibbed]] with the [[berserk]] fist, [[rockets]], the [[plasma rifle]], the [[BFG9000]] (both ball and tracer), exploding [[barrel]]s, Demon bites, Cacodemon ranged and melee attacks, [[Hell Knight]]/[[Baron of Hell]] clawing and ranged attacks, [[Revenant]] rockets, [[Arch-vile]] fire attacks, and — on rare occasions — Imp hell-fire balls or melee attacks, a [[chainsaw]]'s blade and even other Humans. This means this monster has more ways of being gibbed than any other monster.
+* In a [[ZDoom]]-based [[source port]], if the player is killed by a Former Human (monster is credited with delivering the blow that reduces player's health to 0%), an obituary message is displayed at the top of the screen: "[player name] was killed by a Zombieman".
+
+== ''[[Doom RPG]]'' ==
+In ''Doom RPG'', the Human appears as the "Zombie" monster class. There are three different forms, identified by color:
+* [[Zombie Private]] (brown)
+* [[Zombie Lieutenant]] (blue)
+* [[Zombie Captain]] (normal colors)
+They are weak against axe attacks.
+
+== Trivia ==
+*In ''Doom II'' for the [[Game Boy Advance]], a red blood splatter, half-way covered in green, appears in the Former Human's death animation.
+*Their rifles were at one point [[Assault rifle (Doom)|accessible to the player]] (as their original starting weapon)
+**In the novels, the Rifle is known as the M-211 SIGCOW, and uses 10mm rounds.
+*In the [[PlayStation]] port of ''Doom'', their gunshot damage is increased somewhat, up to a maximum damage of roughly 21. The manual also lists the name of this enemy type as "Former Soldier", as opposed to "Former Human" as in the PC versions' manuals (or "Zombieman" as in the enemy cast at the end of the game).
+
+[[Category:Monsters]]
+[[Category:Zombies]]

@@ -1,0 +1,24 @@
+{
+  "source": "wikipedia",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:08:39+00:00",
+  "total_chars": 73934,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Ninja Gaiden (NES video game)",
+      "url": "https://en.wikipedia.org/wiki/Ninja_Gaiden_%28NES_video_game%29",
+      "revid": 1384339989,
+      "file": "pages/Ninja_Gaiden_NES_video_game_.wiki",
+      "chars": 73223
+    },
+    {
+      "title": "Ninja Gaiden (disambiguation)",
+      "url": "https://en.wikipedia.org/wiki/Ninja_Gaiden_%28disambiguation%29",
+      "revid": 1368656270,
+      "file": "pages/Ninja_Gaiden_disambiguation_.wiki",
+      "chars": 711
+    }
+  ]
+}

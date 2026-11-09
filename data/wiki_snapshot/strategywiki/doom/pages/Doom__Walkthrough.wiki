@@ -1,0 +1,21 @@
+{{Header Nav|game=Doom}}
+{{achievement
+|name=Neophyte
+|g=20
+|image=DoomAchievement Neophyte.jpg
+|description=Complete any level.
+}}
+Doom is split up into three chapters, each containing eight missions. [[The Ultimate Doom]], a re-release of the original game, adds a fourth chapter (Thy Flesh Consumed) containing nine new missions. The chapters can be played in any order; this walkthrough begins with the first chapter, [[Doom/E1M1: Hangar|Knee-Deep in the Dead]].
+
+Note that the walkthroughs for this game is designed for play at the Ultra-Violence difficulty level, and assume that you start with a pistol and 50 bullets on a given map; this will not be the case as you play multiple levels.  The lower difficulty levels will obviously be easier with less enemies, and generally don't need special attention. Nightmare will be covered minimally (if needed), due to it's extreme difficulty. 
+
+At the beginning of each chapter you get to select a difficulty level:
+* ''I'm Too Young To Die'' uses the "light" enemy set, halves the damage you take, and doubles ammo from pickups.
+* ''Hey, not too rough'' uses the "light" enemy set. 
+* ''Hurt me plenty'' uses the "medium" enemy set.
+* ''Ultra violence'' uses the "hard" enemy set. 
+* ''Nightmare!'' uses the "hard" enemy set, causes enemies to move and fire more quickly, allows enemies to respawn after 12 seconds, and disables cheat codes.  However, you collect twice the ammo from pickups.
+
+In addition, you can configure any difficulty level to allow fast or respawning monsters by adding the <code>-fast</code> and <code>-respawn</code> command line switches respectively.  
+
+{{Footer Nav|game=Doom|nextpage=E1M1: Hangar}}

@@ -1,0 +1,64 @@
+{{Infobox Ability
+|image= 
+{{Media
+ |Render OoT= File:OoT Farore's Wind Render.png
+ |Model OoT= File:OoT Farore's Wind Model.png
+ |Model OoT3D= File:OoT3D Farore's Wind Model.png
+ |Sprite OoT= File:OoT Farore's Wind Icon.png
+ |Sprite OoT3D= File:OoT3D Farore's Wind Icon.png
+}}
+|caption= 
+|type= Spell
+|game= {{OoT}}
+|other= {{SSBM}}<br/>{{SSBB}}<br/>{{HW}}<br/>{{SSB4}}<br/>{{SSBU}}
+|req= [[Magic Meter|Magic Power]]
+|uses= [[Warping]]
+|comp= [[Din's Fire]]<br/>[[Nayru's Love]]
+}}
+{{Term/Store|Farore's Wind||Series, OoT, OoT3D}} is a recurring Spell in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 123 {{Exp Game|OoT}}}}</ref>
+
+==Location and Uses==
+==={{OoT|-}}===
+In {{OoT}}, Farore's Wind is received from the [[Great Fairy of Magic]] in [[Zora's Fountain]],<ref>{{Cite|Welcome Link! I am the Great Fairy of Magic! I will give you a magic spell. Please take it.|Great Fairy of Magic|OoT}}</ref> hidden behind a destructible wall behind [[Lord Jabu-Jabu]]. Based on the [[Golden Goddess|Goddess]] [[Farore (Goddess)|Farore]], the Spell can only be cast inside [[Dungeon|dungeons]] that have [[map]]s, as it allows [[Link]] to return to the entry point of that dungeon's room from which it was cast.<ref>{{Cite|Remember, you can use Farore's Wind only in dungeons that have a dungeon map hidden inside, OK?|Great Fairy of Magic|OoT}}</ref> When used thereafter, Link is given the option to return to that [[Warp]] point, or to simply dispel it. Either way, Link will then be able to cast another Spell. With each creation of a Warp point, Link must spend 6 [[Magic Meter|Magic Power]], like [[Din's Fire]]. If he has no magic, he will be unable to cast Farore's Wind.
+
+After being cast, the [[Hero of Time]] can use Farore's Wind to return to the dungeon it was cast in from any other location. However, Link as an adult is unable to return to Warp points created by Farore's Wind while he was a child, and vice-versa.
+
+Unlike Din's Fire, similar to [[Nayru's Love]], this spell is not required to complete the game.
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{SSB|-}} Series===
+:''See {{ssb|Main Page|SmashWiki's}} articles on {{ssb|Farore's Wind}} for more information.''
+In the {{SSBS}}, Farore's Wind serves as [[Princess Zelda|Zelda]]'s {{ssb|recovery}} move. When performed, a yellow loop surrounds Zelda, making her disappear afterwards. She then reappears in the direction held on the Control Stick, or up into the air if the Control Stick is not moved.<ref>{{Cite|Farore's Wind again utilizes Zelda's magical prowess, this time by transporting her great distances. It's vital to know the lay of the land before using this move.|Trophy|SSBM}}</ref> This move is also capable of going through solid ground, allowing Zelda to use it anywhere. The yellow loop that appears around Zelda is capable of damaging opponents that touch it. In {{SSBB}} and {{SSB4}}, unlike {{SSBM}}, when Zelda reappears, Farore's Wind creates a small explosion, dealing damage to any nearby opponent.
+
+==={{HW|-}}===
+[[File:HW Farore's Wind Badge Icon.png|right]]
+In {{HW}}, Farore's Wind appears as an [[Badge Market|Assist Badge]] in the {{Term|HW|Bazaar|link}}'s [[Badge Market]]. When purchased for a Warrior, it decreases the time needed to capture a [[Keep]] for that particular Warrior.<ref>{{Cite|Slightly speeds up the process of taking keeps.|N/A|HW}}</ref> It appears in three iterative Badge qualities: bronze, silver and gold; each providing a stronger effect than the one prior.
+
+One of the attacks that Zelda can execute with her [[Rapier]] is summoning a great flurry of air, reminiscent of Farore's Wind. This, joined with her two other attacks resembling [[Din's Fire]] and [[Nayru's Love]], appears to be a reference to Farore's Wind.
+{{Noncanon|End}}
+
+==Trivia==
+*Though Farore's Wind doesn't appear in {{TWW}}, its name is inscribed on the base of [[Farore (Goddess)|Farore]]'s statue in [[Hylian Language#Third Hylian Script|Hylian]] on [[Eastern Triangle Island]].
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Farore's Wind 1.png|Link using Farore's Wind in {{OoT|-}}
+File:Farore's Wind (SSBM).jpg|Zelda using Farore's Wind in {{SSBM|-}}
+File:Farore's Wind.jpg|Zelda using Farore's Wind in {{SSBB|-}}
+File:SSB4 Farore's Wind.jpg|Zelda using Farore's Wind in {{SSB4|Wii U|-}}
+File:SSBU Zelda 5.png|Zelda using Farore's Wind in {{SSBU|-}}
+File:HW Farore's Wind Badge Icon.png|The Farore's Wind [[Badge Market|Badge]] from {{HW|-}}
+File:HW Zelda Magic Circle Farore's Wind.png|Zelda casting a spell reminiscent of Farore's Wind from {{HW|-}}
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Abilities, Magic
+ |abilities= OoT, OoT3D, SSBM, SSBB, SSBfN3DS, SSBfWU, SSBU
+ |items= OoT, OoT3D
+}}

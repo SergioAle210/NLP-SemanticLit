@@ -1,0 +1,40 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+<div style="float:right;">
+{{control selector|PlayStation 2,PC,Xbox}}
+{{-}}
+{| {{prettytable|notwide=true|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar Ryder.png]][[Grand Theft Auto: San Andreas/Ryder|Ryder]]
+* '''Location''': [[File:GTA San Andreas radar Sweet.png]]Sweet's House, Grove Street, Ganton, Los Santos
+|}
+</div>
+
+After the cutscene, if you have already sprayed over any of the six tags you will spray during this mission, they will no longer be sprayed over.
+
+Assuming you have enough respect, it might be worth recruiting one or two ''Grove Street Families (GSF)'' members (dressed in green) to take with you. To recruit one, target them using the {{control|{{psx|R1}} button |{{mouse|right}}}}, then press either the {{control|''up'' or ''down'' button on the D-Pad|{{kbd|G}}/ {{kbd|H}}}}. Once you have created your gang, you can then tap {{control|''up''|{{kbd|G}}}} or {{control|''down''|{{kbd|H}}}}  while on foot to get the gang to ''follow you'' or ''stay put'' respectively. To disband your gang, press and hold either {{control|''up''|{{kbd|G}}}} or {{control|''down''|{{kbd|H}}}} until they walk away.
+{{-}}
+
+==First three tags==
+[[File:GTA_SA_Tagging.jpg|thumb|right|Taggin' Up]]
+This mission introduces you to spray painting or basically tagging up turf. Get into ''Sweet's'' ''Greenwood'' car and drive to the first tag, Sweet will tag this one to show you an example, then he'll do some more elsewhere. The rest is fairly simple, just follow the instructions and look on the radar.
+
+;Tag locations
+# The first one is tagged by Sweet.
+# The second one is across the street on the front of a green house.
+# The third one is behind the green house in the alley.
+# After driving to the second location, the fourth tag is on the orange building.
+# The fifth tag is in the alley behind the orange building, next to two Ballas gang members. The game will instruct you to spray the two members with the spray can by targeting them and spraying them like a tag.
+# The sixth tag is on top of the building across from the orange building. The game will put a blip next to a fence, jump it, then follow the path to a place where you can climb up.
+
+After the six tags, Sweet will reappear. Jump in his car and drive home.
+
+== Rewards ==
+* '''Cash''': $200
+* '''Respect''': +3 (also +5% per tag)
+* '''Item''': Spray Can (1000 capacity)
+* Spray Can (1000 capacity) spawns in CJ's house.
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Ryder|previmg=[[File:GTA San Andreas radar Ryder.png]]|hereimg=[[File:GTA San Andreas radar Sweet.png]]|nextpage=Cleaning the Hood|nextimg=[[File:GTA San Andreas radar Sweet.png]]|customnext=[[../Basketball/]]}}

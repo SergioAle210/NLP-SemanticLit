@@ -1,0 +1,150 @@
+{{Header Nav|game=Red Dead Redemption}}
+
+{{Needcontrols|switch|ps4|win|switch2|ps5|xsx}}
+
+== On foot ==
+{| {{controlstable}}
+! PlayStation 3
+! Xbox 360
+! Action
+|-
+| {{psx|neutral|lstick}}
+| {{xbox|Neutral|Lstick}}
+| {{desc}} Movement
+|-
+| {{psx|neutral|rstick}} || {{xbox|Neutral|Rstick}}
+| {{desc}} Rotate camera / Change targets (in Casual Mode)
+|-
+| {{psx|X}} || {{xbox|A}}
+| {{desc}} Run (hold) / Sprint (tap)
+|-
+| {{psx|S}} || {{xbox|X}}
+| {{desc}} Jump / Climb
+|-
+| {{psx|T}} || {{xbox|Y}}
+| {{desc}} Mount horse or vehicle / Interact with vehicle
+|-
+| {{psx|C}} || {{xbox|B}}
+| {{desc}} Perform greeting / Focus on important event / Reload weapon (with weapon drawn)
+|-
+| {{psx|L1}} || {{xbox|LB}}
+| {{desc}} Draw/Holster weapon (tap) / Weapon wheel (hold)
+|-
+| {{psx|R1}} || {{xbox|RB}}
+| {{desc}} Enter cover
+|-
+| {{psx|L2}} || {{xbox|LT}}
+| {{desc}} Draw Weapon / Target
+|-
+|{{psx|L2}} {{Plus}} {{psx|S}}
+|{{xbox|LT}} {{Plus}} {{xbox|X}}
+|{{desc}} Roll / Dodge (with melee weapon)
+|-
+|{{psx|L2}} {{Plus}} {{psx|R1}}
+|{{xbox|LT}} {{Plus}} {{xbox|RB}}
+|{{desc}} Melee block
+|-
+|{{psx|L2}} {{Plus}} {{psx|R2}}
+|{{xbox|LT}} {{Plus}} {{xbox|RT}}
+|{{desc}} Fire weapon
+|-
+|{{psx|L2}} {{Plus}} {{psx|R3}}
+|{{xbox|LT}} {{Plus}} {{xbox|R}}
+|{{desc}} Trigger Dead Eye
+|-
+| {{psx|R2}} || {{xbox|RT}}
+| {{desc}} Punch / Push (without gun)
+|-
+| {{psx|L3}} || {{xbox|L}}
+| {{desc}} Crouch
+|-
+| {{psx|R3}} || {{xbox|R}}
+| {{desc}} Look behind
+|-
+| {{psx|up|dpad}} || {{xbox|up|dpad}}
+| {{desc}} Whistle for horse
+|-
+| {{psx|down|dpad}}|| {{xbox|down|dpad}}
+| {{desc}} Zoom out minimap
+|-
+| {{psx|left|dpad}}|| {{xbox|left|dpad}}
+| {{desc}} Left shoulder aim
+|-
+| {{psx|right|dpad}}|| {{xbox|right|dpad}}
+| {{desc}} Right shoulder aim
+|-
+| {{psx|select}} || {{xbox|back}}
+| {{desc}} Satchel
+|-
+| {{psx|start}} || {{xbox|start}}
+| {{desc}} Pause menu
+|}
+
+== On horse / vehicle ==
+{| {{controlstable}}
+! PlayStation 3
+! Xbox 360
+! Action
+|-
+| {{psx|neutral|lstick}}
+| {{xbox|Neutral|Lstick}}
+| {{desc}} Movement
+|-
+| {{psx|neutral|rstick}} || {{xbox|Neutral|Rstick}}
+| {{desc}} Rotate camera / Change targets (in Casual Mode)
+|-
+| {{psx|X}} || {{xbox|A}}
+| {{desc}} Trot (hold) / Gallop (tap) / Match speed (hold near companion)
+|-
+| {{psx|S}} || {{xbox|X}}
+| {{desc}} Jump / Hitch horse / Rear
+|-
+| {{psx|T}} || {{xbox|Y}}
+| {{desc}} Dismount
+|-
+| {{psx|C}} || {{xbox|B}}
+| {{desc}} Perform greeting / Focus on important event / Reload weapon (with weapon drawn)
+|-
+| {{psx|L1}} || {{xbox|LB}}
+| {{desc}} Draw/Holster weapon (tap) / Weapon wheel (hold)
+|-
+| {{psx|R1}} || {{xbox|RB}}
+| {{desc}} Slow (tap) / Stop (hold)
+|-
+| {{psx|L2}} || {{xbox|LT}}
+| {{desc}} Draw Weapon / Target
+|-
+|{{psx|L2}} {{Plus}} {{psx|R2}}
+|{{xbox|LT}} {{Plus}} {{xbox|RT}}
+|{{desc}} Fire weapon
+|-
+|{{psx|L2}} {{Plus}} {{psx|R3}}
+|{{xbox|LT}} {{Plus}} {{xbox|R}}
+|{{desc}} Trigger Dead Eye
+|-
+| {{psx|R2}} || {{xbox|RT}}
+| {{desc}} Punch / Push (without gun)
+|-
+| {{psx|R3}} || {{xbox|R}}
+| {{desc}} Look behind
+|-
+| {{psx|up|dpad}} || {{xbox|up|dpad}}
+| {{desc}} Whistle
+|-
+| {{psx|down|dpad}} || {{xbox|down|dpad}}
+| {{desc}} Zoom out minimap
+|-
+| {{psx|left|dpad}} || {{xbox|left|dpad}}
+| {{desc}} Left shoulder aim
+|-
+| {{psx|right|dpad}} || {{xbox|right|dpad}}
+| {{desc}} Right shoulder aim
+|-
+| {{psx|select}} || {{xbox|back}}
+| {{desc}} Satchel
+|-
+| {{psx|start}} || {{xbox|start}}
+| {{desc}} Pause menu
+|}
+
+{{Footer Nav|game=Red Dead Redemption|prevpage=Gameplay|nextpage=Walkthrough}}

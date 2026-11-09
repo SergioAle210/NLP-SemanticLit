@@ -1,0 +1,72 @@
+''Not to be confused with {{Term|Series|Morpheel|link}}.''
+{{Infobox Boss
+|type= 
+|image= 
+{{Media
+ |Artwork OoT= File:OoT Morpha Artwork.png
+ |Model OoT= File:OoT Morpha Model.png
+ |Model OoT3D= File:Morpha OoT3D.png
+}}
+|caption= 
+|title= Giant Aquatic Amoeba<ref name="E 194">{{Cite Book|quote= |book= E |publisher= |page= 194}}</ref>
+|race= 
+|gender= 
+|game= {{OoT}}
+|other= 
+|dungeon= {{Term|OoT3D|Water Temple|link}}
+|habitat= 
+|weakness= [[Longshot]]
+|reward= [[Heart Container]]<br/>[[Water Medallion]]
+|exp= 
+|theme= 
+|voice actor= 
+|health={{HP|OoT|20}}|attack(s)=Whip {{Small|(1 Heart)}} <br/> Grab {{Small|(1 3/4 Hearts)}}}}
+{{Term/Store|Morpha||Series, OoT, OoT3D}} is the [[Boss]] of the {{Term|OoT3D|Water Temple|link}} in {{OoT}}.<ref name="E 194"/> Created by [[Ganon|Ganondorf]] after he acquired the [[Triforce of Power]], this thing controls its water-like cytoplasm in the room in which it resides, moving swiftly through it and creating long tendrils.<ref>{{Cite|Morpha<br/>Master of the Water Temple. It has absolute control of water. Pull out its nucleus and attack it!|Navi|OoT}}</ref> Morpha is responsible for the receded state of [[Lake Hylia]], as well as the frozen condition of [[Zora's Domain]].<ref>{{Cite|This ice is created by an evil curse... The monster in the Water Temple is the source of the curse.|Sheik|OoT}}</ref>
+
+Morpha itself is not the cytoplasm as its overall appearance suggests, but actually the vulnerable nucleus often safeguarded under the muck of it. This nucleus can manipulate its cytoplasm in any way it likes, creating large and watery tendrils as the battle progresses. 
+
+==Characteristics==
+{{Navi
+|quote1= ''{{Color|OoT White|Morpha}}<br/>Master of the Water Temple. It has absolute control of water. Pull out its nucleus and attack it!''
+|quote2=|quote3=|quote4=|quote5=|quote6=|quote7=|quote8=}}
+
+As [[Link]] enters the boss room, [[Princess Ruto]] (who is unseen) warns him that the water in the room "isn't normal", since the liquid itself appears a rather darker blue than usual.<ref>{{Cite|Link! Look out! That isn't normal water over there!|Princess Ruto|OoT}}</ref> As he jumps onto one of the four pillars standing in the pool of "water", a cutscene shows the point of view of a creature lurking deep in the pool. It slowly makes its way to Link and emerges from the "water" behind him. The [[Hero of Time]] looks back at one of Morpha's tendrils before it vanishes and the battle commences.
+[[File:OoT Link grabbed by Morpha.png|thumb|231x231px|Link caught by one of Morpha's tendrils in ''Ocarina of Time'']]
+Morpha's nucleus commands its water-like cytoplasm and rises within the center of its created tendrils. While the cytoplasm is impossible to penetrate when in large concentrations in the pool, whenever a single tendril rises and latches upon the land, the cytoplasm becomes thin enough to pierce with the spike of the [[Longshot]]. Link must snag the nucleus and slash at it while it is on land during its [[Critical Point]], the time in which it is entirely vulnerable and clear of any of the cytoplasm. If Link is in Morpha's cytoplasm, its nucleus will charge at him; additionally, its tendril will not appear. Link must be careful not to get too close or use his [[Sword]] against the tendril, as it will grab and constrict him akin to snakes before eventually and violently swinging Link about and throwing him at the spikes at the edge of the arena, causing surplus damage.
+
+After taking enough damage, Morpha eventually adapts to the battle and generates an additional tendril, using it to distract Link from latching on to itself again. Just like with the first tendril, the second one can grab and damage him. It is additionally notable that if Link stays in the corner of the arena between the spike panels, Morpha will be unable to successfully grab him. Though the battle becomes more urgent as the second tentacle grows, the technique used to defeat Morpha remains the same: Link must continue to snag the nucleus and slash it repeatedly while it is bouncing about on land. After injuring Morpha's nucleus several times, it bursts into a spray of water, vanquished. Its cytoplasm clings to life as long as it can by using up all of it in the central pool, attempting to drain and escape through the ceiling. Once all absorbed, Morpha's cytoplasm culminates in a single droplet on the ceiling and drops to the floor, splattering in all directions.
+
+Link's rewards for his victory are a [[Heart Container]] and the [[Water Medallion]] from Ruto.<ref>{{Cite|You received the Water Medallion! Ruto awakens as a Sage and adds her power to yours!|N/A|OoT}}</ref>
+
+==Trivia==
+*Morpha shares the ability with [[Zora|Zoras]] that it has the power to manipulate [[water]].
+*[[Din's Fire]] is capable of evaporating Morpha's tendrils.
+*Morpha can be defeated very easily by using the [[Longshot]] to pull it from the edge of the arena and continuing to do so when approaching the corners of the room to avoid it escaping. [[Link]] must repeatedly slash at it while trapped in the corner to defeat the boss quickly and often injury-free.
+*After Morpha is defeated, [[Lake Hylia]] is restored to its former water-filled state. However, [[Zora's Domain]] remains frozen.
+*Contrary to popular belief, [[Princess Ruto]] is the one who warns Link about Morpha's cytoplasm in its arena, not [[Navi]]. In the Japanese version, this is more evident as the speech patterns of Ruto and Navi differ, in that Ruto tends to end her sentences with the word ゾラ (Zora).<ref>{{Cite|{{Romanize|リンク！気をつけるゾラ！！それは　ただの水ではない！|Rinku! Ki o tsukeru zora!! Sore wa tada no mizu de wa nai!|Link! Be careful!! This is not ordinary water!|3}}|Princess Ruto|OoT}}</ref> Also, Navi's text is generally blue, but the text for this dialogue is completely white. When translated, the Zora princess speaks "''Link! Be careful, Zora! That isn't just water!''".
+*It is possible, though rarely, for Link to fall directly into Morpha's cytoplasm after being thrown by one of its tendrils. Humorously, rather than splashing and returning to the surface, he continues to fall straight down until he hits the bottom floor.
+*When Link is caught by Morpha's tentacles, the sound of a [[Like Like]] attempting to suck him in is heard.
+*Prior to the official release of ''[[The Legend of Zelda: Ocarina of Time|Ocarina of Time]]'', Morpha was called "Water Spirit" on the official [[Nintendo]] website.<ref>{{Cite Web|quote=The Water Spirit shakes Link up. |retrieved=March 29, 2014|url=http://web.archive.org/web/19990203182916/http://www.nintendo.com/n64/zelda64/horseman.html |title=Two New Boss Characters! |site=Nintendo |type=archive}}</ref>
+*The appearance of [[Morpheel]], a ''[[Twilight Princess]]'' boss, in the first phase of combat is the same as Morpha's.
+*The promotional artwork of Link being caught by Morpha shows him accidentally dropping the [[Master Sword]]. However, this does not happen during the actual battle. The only time the [[Hero of Time]] ever loses the Master Sword is during the first phase of the final battle with [[Ganon]], until when [[Princess Zelda]] points to where his sacred weapon is when the fire barrier between them temporarily vanishes.
+*In the official artwork, Morpha's nucleus appears to be an eye. However, its appearance in-game is mostly a reddish orb, though in ''[[The Legend of Zelda: Ocarina of Time 3D|Ocarina of Time 3D]]'', it was given a new texture to more closely resemble the artwork.
+*In the [[The Legend of Zelda: Ocarina of Time (Himekawa)|''Ocarina of Time'' manga]] by [[Akira Himekawa]], Princess Ruto is depicted assisting Link in battling Morpha and the hero defeats it solely from his [[Hookshot]].
+
+==Nomenclature==
+Morpha's name comes from the Ancient Greek word ''morphḗ'', (“form, shape”).
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Morpha N64 Original Model.png|Morpha in ''Ocarina of Time''
+File:Morpha Screenshot OoT3D.jpg|Morpha in ''Ocarina of Time 3D''
+File:OoT manga Link fighting Morpha.png|Link and Princess Ruto fighting Morpha in the ''Ocarina of Time'' manga
+</gallery>
+
+{{Ref}}
+{{Bosses|OoT}}
+
+{{Categories
+ |Tentacular Enemies, Water-Related Enemies
+ |bosses= OoT, OoT3D
+}}

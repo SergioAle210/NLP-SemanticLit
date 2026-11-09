@@ -1,0 +1,87 @@
+{
+  "source": "strategywiki",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:17:10+00:00",
+  "total_chars": 39889,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Red Dead Redemption",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption",
+      "revid": 1190772,
+      "file": "pages/Red_Dead_Redemption.wiki",
+      "chars": 1538
+    },
+    {
+      "title": "Red Dead Redemption/Achievements and trophies",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Achievements_and_trophies",
+      "revid": 522814,
+      "file": "pages/Red_Dead_Redemption__Achievements_and_trophies.wiki",
+      "chars": 9900
+    },
+    {
+      "title": "Red Dead Redemption/Bonnie",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Bonnie",
+      "revid": 511377,
+      "file": "pages/Red_Dead_Redemption__Bonnie.wiki",
+      "chars": 5548
+    },
+    {
+      "title": "Red Dead Redemption/Controls",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Controls",
+      "revid": 1190529,
+      "file": "pages/Red_Dead_Redemption__Controls.wiki",
+      "chars": 3466
+    },
+    {
+      "title": "Red Dead Redemption/Gameplay",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Gameplay",
+      "revid": 899813,
+      "file": "pages/Red_Dead_Redemption__Gameplay.wiki",
+      "chars": 1089
+    },
+    {
+      "title": "Red Dead Redemption/Mounts",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Mounts",
+      "revid": 507868,
+      "file": "pages/Red_Dead_Redemption__Mounts.wiki",
+      "chars": 1558
+    },
+    {
+      "title": "Red Dead Redemption/Multiplayer",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Multiplayer",
+      "revid": 575112,
+      "file": "pages/Red_Dead_Redemption__Multiplayer.wiki",
+      "chars": 4426
+    },
+    {
+      "title": "Red Dead Redemption/Ranks",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Ranks",
+      "revid": 507866,
+      "file": "pages/Red_Dead_Redemption__Ranks.wiki",
+      "chars": 3892
+    },
+    {
+      "title": "Red Dead Redemption/Table of Contents",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Table_of_Contents",
+      "revid": 899814,
+      "file": "pages/Red_Dead_Redemption__Table_of_Contents.wiki",
+      "chars": 2140
+    },
+    {
+      "title": "Red Dead Redemption/Walkthrough",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Walkthrough",
+      "revid": 609884,
+      "file": "pages/Red_Dead_Redemption__Walkthrough.wiki",
+      "chars": 2417
+    },
+    {
+      "title": "Red Dead Redemption/Weapons",
+      "url": "https://strategywiki.org/wiki/Red_Dead_Redemption/Weapons",
+      "revid": 590556,
+      "file": "pages/Red_Dead_Redemption__Weapons.wiki",
+      "chars": 3915
+    }
+  ]
+}

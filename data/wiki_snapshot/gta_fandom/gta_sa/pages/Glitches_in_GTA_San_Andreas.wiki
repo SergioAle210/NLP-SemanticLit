@@ -1,0 +1,472 @@
+{{DISPLAYTITLE:Glitches in ''Grand Theft Auto: San Andreas''}}
+{{Cleanup}}
+This page lists all of the possible glitches encountered in {{SA}}.
+
+==List of Glitches==
+===Airport Gate Glitch===
+The player can open the front gate of the [[Easter Bay Airport]] before [[Carl Johnson|CJ]] acquires a pilot's license. First, they have to go up to the left sliding gate, punch it, and then they need to turn away quickly, and it should slide open.
+
+===Ambulance Glitch===
+Sometimes, if the player has killed a lot of [[pedestrians]] and they run away from the corpses, there is a chance that an [[Ambulance (3D Universe)|Ambulance]] will still appear near the corpses, but when the player gets close or checks out the vehicle via a sniper scope, there will be no [[paramedics]] coming out of it. When the player encounters the said Ambulance, its emergency lights can still be seen turned on. 
+
+===Ammu-Nation Clerk Glitch===
+If the player shoots the [[Ammu-Nation (3D Universe)|Ammu-Nation]] [[Ammu-Nation Clerk|clerk]] in the head, the clerk will open fire briefly on the player before he drops dead, but his head will still be attached to his body. The same thing can happen to the man in the [[pool]] minigame and the [[Tattoo Parlors/GTA San Andreas|tattoo parlors]].
+
+===Andromada Glitch===
+On the mobile version, when the player attempts to blow up the [[Andromada|plane]] during the mission [[Stowaway]], on some occasions the plane will sink through the ground and the mission cannot progress.
+
+===Barricade Glitch===
+There is a glitch before [[The Green Sabre]] where, if the player reaches the bridge that connects [[Los Santos (3D Universe)|Los Santos]] and the [[Flint Intersection]], they will have a chance to see that some vehicles will pass through the blocking barricades that cannot be driven through normally and go on to [[Flint County (3D Universe)|Flint County]]. It is unknown what kind of in-game factor causes this. This also happens to the [[Garver Bridge]] and the [[Montgomery Intersection]] before the mission [[Yay Ka-Boom-Boom]] is completed.
+
+===Basketball Glitch===
+Saving at [[Madd Dogg's Crib]] can cause a glitch rendering all the [[basketball]] courts in the game inoperable. This doesn't appear to happen all the time (and may not be an issue with the [[PlayStation 2]] version), but it is not recommended to save at this [[Save Points in GTA San Andreas|safehouse]] (the nearby located [[Mulholland Safehouse]] is a good alternative). This glitch can be fixed using external tools. However, some versions of the game (such as mobile ports) that support auto-saves may still inadvertently encounter this bug.
+
+Technically speaking, the culprit of this glitch is the save pick-up that is just in the proximity of the mansion's basketball court. Basketballs that trigger the mini-game have a scripted zone that activates and spawns a basketball when CJ walks into the radius of this zone. Usually, this script will deactivate as soon as CJ walks out of the zone; however, if the game is saved while this script is active, and then loads that save, the script remains indefinitely activated, preventing the basketball from spawning again unless the player starts a fresh new game. A video explanation can be found {{URL|https://youtu.be/L97xXbFnFWM?t{{=}}740|here}}.
+
+===[[Beat Down on B Dup]] Glitch===
+The guards that appear in front of [[B Dup's Crack Palace]] are somehow hostile to the [[Los Santos Police Department (3D Universe)|law enforcement]]. If they are attacked by the officers that spawn while having a high [[Wanted Level in GTA San Andreas|wanted level]] during the mission, they will ignore Carl and shoot at the officers, but the police will take little damage from them.
+
+===Bike School Glitch===
+If the player has completed all courses of the [[Bike School]] with silver medals or gold medals, and then comes back to the school, the [[FCR-900]] or [[NRG-500]] will sometimes be transformed into the [[Freeway (3D Universe)|Freeway]]. However, returning to the school once more after driving far away from it may fix the glitch, where either of the aforementioned two bikes will respawn.
+
+===Bunny Hop Glitch===
+With this glitch (and without the use of [[Cheats in GTA San Andreas|cheats]]), the player can perform very high bunny hops with a bicycle, resulting in an [[Stunting|insane stunt bonus]], and it's very useful for the [[BMX Challenge]]. The player has to be very precise with the timing and it may take a few tries to do it successfully, however. It also depends on the game's frame rate. To do the special bunny hop, press the fire button as soon as the bunny hop key is released. With maximum [[Statistics#Vehicle Skill|cycling skill]], this glitch allows the player to do bunny hops as high as 41 feet.
+
+===[[Catalyst]] Glitch 1===
+During the first [[Cutscenes|cutscene]], Carl briefly disappears for a few seconds and reappears again when [[Frank Tenpenny|Tenpenny]] informs him and [[Ryder]] about the weapons [[Freight|train]].
+
+===Catalyst Glitch 2===
+Several players experience a glitch when throwing the boxes for Ryder to catch. Instead of throwing the boxes, the boxes are instead dropped most of the time, even if the player used max power for the throw. This usually happens if the frame limiter on the player's computer is disabled.
+
+===Car Spawn Glitch===
+When the player is driving down any [[Highways|highway]] in the [[State of San Andreas (3D Universe)|state]], the player may randomly encounter NPC cars that spawn inside of each other, thus they will be stuck and will give off sparks, then both cars will start smoking and eventually explode. The cars can be freed by simply hitting them with CJ's car. Cars may also spawn stuck half-in and half-out of the ground, usually at a 45 degree angle and with their rear end submerged in the road. This seems to occur most frequently on long bridges, such as the [[Gant Bridge]] or [[Garver Bridge]], for unknown reasons. They usually just go the same speed as the other cars, but some may kind of bump around and explode. It is unknown what factor of the game causes these glitches, however it could happen due to the low frame rate while playing the game.
+
+===Car Wreckage Glitch===
+To trigger this glitch, the player needs to bring a car near a [[Girlfriends in GTA San Andreas|girlfriend's]] house, then damage the car until it catches on [[fire]] and explodes. There's a chance that the car may still burn and explode for the second time. If after the first explosion the car is still burning, quickly get to the marker in front of the girlfriend's house before the car explodes again. After the greeting cutscene, CJ and the girlfriend can actually enter the car wreckage and drive it to the date. The player can even get the car into a [[Mod Garages|modding garage]] to replace the destroyed tires, and give it "new colors" (but the car still looks burned), and save the car in their garage. This glitch also works with [[motorcycles]].
+
+===Casino Glitch===
+If the player has a wanted level of at least three stars inside [[casino]]s, the cops that spawn inside will act like regular pedestrians. Casino guards will shoot the player instead.
+
+===[[Cesar Vialpando (mission)|Cesar Vialpando]] Glitch===
+A glitch might occur, where no matter how well timed, it will never accept bouncing up or down, calling it the wrong move. This is because the keys for up and down are reversed, so if one presses down when it displays up, it will register.
+
+If one did not reboot their computer for a long time, the minigame arrows will lag and in some instances cause the minigame to be unplayable, where the only fix is rebooting. This is due to the game tracking how much time passed between each arrow using the computer uptime in seconds as a variable which can overflow. These glitches occur on the [[Personal Computer|PC]] version.
+
+===Chiliad Challenge Glitch===
+During [[The Chiliad Challenge]], the player can get off the [[Mountain Bike|bike]] and jump off the [[Mount Chiliad (3D Universe)|mountain]], then open a [[parachute]]; the game will return the player to the bike, but the player will still have an open parachute on their back. The parachute then loses all of its function as a parachute. This glitch is present on the original [[PlayStation 2|PS2]] version.
+
+===Continuity Error 1===
+If a [[Police Maverick (3D Universe)|Police Maverick]] gets very close to Carl and the player shoots it down rapidly with heavy firepower, the megaphone lines used by the pilot will still play despite the helicopter being destroyed. This is more than likely a glitch.
+
+===Continuity Error 2===
+If players attain a wanted level of at least three stars and then provokes a [[Gang Warfare in GTA San Andreas|gang war]], Police Mavericks can still spawn and perform attacks on the player during the battle with the rivals, despite the wanted level being reset.
+
+Destroying them before the battle ends does not affect the wanted level, however.
+
+===Continuity Error 3===
+If the player knocks down a pedestrian in a car but does not kill them, and then enters a yellow marker nearby leading to a certain [[Interiors in GTA San Andreas|interior]], the NPC will instantly die with an occasional scream. When the player returns, the corpse of that pedestrian will be gone.
+
+===Continuity Error 4===
+Sometimes, once the player enters Caligula's Palace, the guards inside will be instantly alerted and will attack Carl even if the player does not fire a gun in the casino. Because of this, the mission [[Breaking the Bank at Caligula's]] will be somewhat more annoying and hazardous if this occurs, as the mission will immediately fail if a guard is fought back, telling the player their cover has been blown. 
+
+===Deceased Cop Glitch 1===
+Sometimes, if the player manages to snipe the cop on the driver side while he's driving away from afar, the cop will chase CJ even though he was already killed. When CJ tries to jack the car, the door will be locked and the dead cop will stay inside the [[Police Car|car]].
+
+===Deceased Cop Glitch 2===
+Sometimes, if the player has a wanted level and tries to kill the police officer who manages to get out of the police car and aim his firearm at Carl, the officer will still do the get-out action even if he was indeed shot. However he will either suffer or die from the player-made damage as soon as he gets out of the car. On some occasions, the officer will still immediately begin shooting at the player after getting out of the car as if he wasn't shot.
+
+===Diving Glitch===
+In {{TDE}}, if the player presses {{Button|kba}} or {{Button|kbd}} twice while [[swimming]], CJ will dive as if the diving button was pressed.
+
+===Driver Glitch===
+Lure a driver inside a [[Garages|garage]], then go away from the garage while the vehicle is still inside. Upon opening the garage again, the driver will have disappeared. 
+
+===Driveway Beagle===
+On the southernmost block of [[Fort Carson (3D Universe)|Fort Carson]], there is a [[Beagle]] that spawns in the driveway of a house, stuck between the house and a large palm [[Flora|tree]]. It is unstable, as even the slightest nudge or push can cause its left engine to catch on fire and explode. Entering it is not recommended, as it will also lead to imminent destruction. Sometimes, it just explodes immediately, even if the player never touched it. This glitch is most likely a coding error. However, the Beagle must have not been intended to spawn there. It is possible to get it out by sprinting against its backside and nudging it out from between the house and the tree, or by using several [[Cheats in GTA San Andreas|cheats]]. 
+
+===Drug Dealer Glitch===
+Sometimes, a pedestrian can be seen having a conversation with a [[Crack Dealers|drug dealer]] on the street. If the pedestrian is killed during the middle of a deal, their corpse will never disappear, even after CJ is [[wasted]] or [[busted]] and then returns to the spot, the body will still be there. The only way to make it disappear is to save and reload the game.
+
+===Escalators Game Crash Glitch===
+On the PC version, if CJ is at a place containing escalators with moving steps nearby, like [[The High Roller]]'s entrance in [[Las Venturas (3D Universe)|Las Venturas]] or inside [[Verona Mall]] in [[Los Santos (3D Universe)|Los Santos]], and the player starts rotating/flipping the camera around, this might cause the game to crash. 
+
+===Extremely Rare Vehicles Glitch===
+The game mechanics of ''GTA San Andreas'' only allow vehicle "groups", or collections of cars set to spawn in specific areas, to be at a maximum of 25 cars. Despite this, some groups have one or two extra vehicles added, which then go ignored by the game when selecting vehicles to spawn on the street. As a result, cars meant to be incredibly rare but still able to be found, like the [[Tornado]] and the [[Euros]], are impossible to find outside of set conditions.
+
+===Fence Glitch===
+When CJ climbs a wall on top of a platform, like the fenced hedges CJ encounters in the mission [[Tagging Up Turf]], halfway through the animation CJ will get instantly wasted. Players most often encountered this glitch during the aforementioned mission Another instance of this glitch may happen during the mission [[The Da Nang Thang]], where CJ has to climb through many containers and crates to get inside the ship, and at the end of the mission CJ has to climb over a barrier to get down from the ship's deck. This glitch can happen due to playing with the frame limiter off.
+
+===Firing and Climbing Glitch===
+If the player is holding a light weapon (such as a [[Pistol (3D Universe)|pistol]] or a [[Micro SMG (3D Universe)|Micro SMG]]) and fires it blindly, after which they immediately make CJ climb over something, his hands will stay in the aiming position until he is done climbing. This doesn't affect gameplay and merely leads to a visual effect.
+
+===Free Access of Bridges and Shops At The Beginning===
+At the very [[In the Beginning|beginning]] of the game, during the cutscene where the [[C.R.A.S.H.]] officers capture CJ, the player can activate the [[jetpack]] cheat code when CJ is about to be dropped out of the police car. Due to a glitch, CJ will be wasted, but upon respawning at the hospital, the player will have early access to all food parlors, as well as all [[Barbers|barber]], tattoos, and [[Clothing in GTA San Andreas|clothing shops]] before they're officially introduced or unlocked. The bridges connecting parts of the state will not be blocked, and there's even traffic crossing the bridge; however, if the player crosses the bridges and travels to the other islands or cities, they will still receive a four-star wanted level until completion of the [[The Green Sabre|missions]] [[Yay Ka-Boom-Boom|that]] officially unlock the other islands. If the player also exploits the missions with [[Glitches in GTA San Andreas#Wanted Level Glitch|No Wanted Level Glitch]], they can freely travel through the bridges on any vehicle and explore the state without pursuing law enforcement.
+
+===Garage Glitch===
+If Carl tries to push a vehicle wreck into a garage, the wreck will sometimes disappear for unknown reasons before it could be moved into the garage. This happens more frequently if the wreck touches the side doors of the garage or the garage door. This happens on all versions of the game and in other {{3D}} titles as well.
+
+===Gang Members Glitch===
+In ''The Definitive Edition'', after taking any territory, any following gang members will disappear from the map and stop following, but still count as active gang members. If they are dismissed and called again, they will behave normally again.
+
+===Gang Territories All Over San Andreas Glitch===
+{{Main|Territory Glitch}}
+
+===Ghost Bike Glitch===
+If CJ rams into a motorcyclist and then quickly drives off whilst looking behind CJ's vehicle, the pedestrian disappears and the bike will drive with no one on it. This happens if CJ is far enough away that the ped disappears whilst they are doing the 'get on' animation. The bike reads that the driver is getting on, and drive by itself. The bike will drive normally until it's flipped over or jacked.
+
+===Ghost Tug/Baggage/Tractor/Forklift Glitch===
+If Carl carjacks a [[Tractor]], [[Tug]], [[Baggage Handler]] or any other one-seater vehicle from the right side, he will slam the driver's head into the dashboard rather than hitting him. When he does that, the vehicle will move by itself because when stealing any other car with more seats (e.g. the [[Premier]]) from the passenger side, the driver will attempt to drive off.
+
+===Ghost Vehicle Glitch===
+If the player drives a [[Combine Harvester|combine harvester]] and hits the driver's door gently, the driver will be gone as if he were killed by the harvester and the vehicle will drive itself normally without anyone inside. If the player hijacks the vehicle, CJ will get in the vehicle and still be able to drive it around normally.
+
+===Girlfriend Glitch===
+Strangely, Carl's girlfriend is immune to any type of damage inflicted by [[Satchel Charges|satchel charges]]. She is, however, vulnerable to gunfire and all other types of damage.
+
+===Green Fog/Mist Glitch===
+Normally, at the in-game time between 5 and 7 am, usually if the [[weather]] is foggy or rainy, a white layer of mist appears over the [[water]] areas. However, if the display setting is set to a low quality screen resolution (specifically, with 16 bit color depth), the morning water fog will appear green. This graphical setting reduces the total number of colors on the game's textures to improve performance, and as a side effect the blueish white color used for fog instead becomes a bright green color.
+
+===[[Gyms|Gym]] Glitch===
+When CJ hits his daily workout limit, the game internally takes note of the day and month of when he hit his limit, e.g. June 12. However, it does not keep track of the year. Because of this, when the new year comes around and CJ tries to work out, the game compares the current day and month to the day and month it has on record of when CJ last hit his workout limit. So if it's January 1, the game will compare this to June 12 (referring back to the example). Since the current time now appears to be before the last time CJ hit his workout limit (since the game does not keep track of the year), the game will not let CJ work out. He will not be able to work out until June 12 finally rolls around again.
+
+If CJ hits his daily workout limit, this glitch is inevitable. To avoid being affected by this glitch, make sure CJ does not hit his daily limit - always stop working out before he hits it. If the limit is hit accidentally, it is advised not to save the game.
+
+This glitch can be repaired using external tools, or by saving until a new day is reached.
+
+===Helicopter Glitch===
+When the player has a three-star wanted level or higher and is in an area with steep hills, like San Fierro or northeast Los Santos, police helicopters will sometimes spawn underground. The helicopter's rotor blades will show up through the street so they cannot cause damage to CJ.
+
+===Headless CJ Glitch===
+There is a glitch that will cause CJ to be able to be controlled without a head. To exploit this glitch, start a [[Multiplayer in GTA San Andreas|co-op]] game, making sure Player Two has a [[katana]]. At any point during the session, use Player Two to behead Player One, terminating the multiplayer session. CJ will remain decapitated for the remainder of the single-player session, except during cutscenes. Also, whenever he talks in gameplay (such as when stealing a car), the first split second of CJ's voice will be heard before cutting off, similar to an NPC's death sound when decapitated.
+
+To revert to normal, reload the game.
+
+===[[HPV1000]] Glitch===
+Strangely enough, despite being a police vehicle, if an HPV1000 is either controlled by a motor officer or Carl Johnson, cars driven on the street will not affect by the siren of the motorbike. On the other hand, the player cannot use this vehicle to invade the police impound lot without triggering the 3-star wanted level afterwards.
+
+=== Infinite Minigun Ammo Glitch ===
+This glitch or exploit works during the mission [[Up, Up and Away!]]. On the mounted minigun at the rooftop of the [[K.A.C.C. Military Aviation Fuel Depot]]; if the player toggles quickly the enter button using jetpack by flying shortly at mid-air or using sniper rifle's scope at the mounted minigun, the player will mount without minigun and shortly they can obtain and keep minigun's infinite ammo forever.
+
+===Interior Glitch===
+If CJ enters an interior while having a parachute on and the player switches to it, the altitude meter will be all the way at the top, because the physical interiors are located high above the aircraft height limits. This is technically not really a glitch since all of the interiors are located in the sky.
+
+===Invincible Pedestrian Glitches===
+Carjack a vehicle with a passenger in it, keep the speed up so the passenger doesn't get out and run away. Drive down a beach and into the water, the car will stop and begin to sink, letting the passenger get out. However, the passenger will be running against the door as the car sinks. If Carl gets on the roof and pushes the passenger away from the door, the passenger will "run" to the shore and begin to run down the beach. Since NPCs are meant to die when they go into water, the passenger will have a black targeting reticule and will be "undead"; since the passenger is technically "dead", the passenger will be invulnerable to all forms of damage for a short time until they fall over dead.
+
+Another way to exploit this glitch is to steal a car from a pedestrian, so that the ped will chase Carl. Drive his vehicle slowly into a Pay N' Spray garage, so that both Carl and the pedestrian are inside at the same time. When the garage door opens back up after the car gets resprayed, the pedestrian will be invincible and will not die even if their target reticule becomes black. If Carl tries to run over the pedestrian with a vehicle, they will go through it and he will shimmer and distort out of proportion.
+
+If Carl somehow gets the invincible pedestrian fallen into a body of water, the pedestrian will not perform the drowning action and will still do the chasing action towards the player.
+
+One of the few ways to kill an invincible pedestrian is running them over with a combine harvester.
+
+===Invisibility Glitch===
+In Downtown Los Santos, there is a building with floors on the outside that the player can stand on. On the floor in the middle of two other higher floors, they can see very little of the interior of it in some places, while others, when they look at just the right angles, make CJ invisible, but only in that spot looking in that angle. If the player has a jetpack on and do this, the flames will show. The building is straight across the highway from an Ammu-Nation.
+
+===Jacking Loop Glitch===
+When a car with an aggressive NPC driver is damaged, the driver may get out of the car to deal with whoever caused the damage, and then return to the vehicle as scripted. If the car has an NPC passenger in the front seat, however, the passenger will take the driver's seat if the driver does not return after some time. When the driver is done with his job and returns to the car, he will throw the passenger out and retake the driver seat, because the driver is never scripted to take any seat other than the driver's when he enters the car. The kicked out passenger may also become aggressive and attempt to jack the driver again, or just pull him out and challenge to fight him. This can lead to endless car jackings or gun/fist fights if the NPCs are members of the same gang.
+
+===Lamp Post Glitch===
+If the player runs over a lamp post with a vehicle, then parks the car where the lamp post originally was and proceeds to save, when they come back, the car will be inside the lamp post. While the car is in the lamp post, it has no collision, but as soon as they drive it out of the lamp post, it regains collision. This glitch can also be seen if the player skips a cutscene in [[Sweet's Girl]]. One of the Seville Boulevard cars will be stuck inside of a lamp post.
+
+===Las Venturas [[TransFender (3D Universe)|Transfender]] Glitch===
+There is a bug with the TransFender in Las Venturas in the PlayStation 2 version, where driving a Moonbeam into the TransFender will allow the player to modify the vehicle as normal, but once the player exits the TransFender modification screen and attempt to leave, the vehicle will spawn on top of the garage but underneath the actual roof, making it impossible to drive the vehicle out and also trapping the player inside the TransFender. The only way to escape is for the player to kill themselves by damaging the Moonbeam enough to blow it up and kill the player, or re-loading the game's save file, or the game itself. The bug is not present in subsequent versions of the game.
+
+===Loading Glitch===
+If the player loads a game save and exits the safe house (if the game was saved in a safe house) or waits for the game screen to display if saved at a save point, the game may rarely fail to load the texture of San Andreas and will become stuck soon after exiting. This only happens on the PC version.
+
+===Cop at Random Places Glitch===
+When the player loads a save file and plays about 1–2 minutes after loading the save file, an [[Los Santos Police Department (3D Universe)|LSPD]] officer usually appears walking on the street. This even happens if the player has saved the game outside Los Santos. This happens much more in the mobile version due to an unexplained error, where an LSPD officer spawns at the player's current location when the game is played for some time.
+
+===Main Characters Glitch===
+If the player kills a main character (e.g. Sweet, Ryder) during a certain mission progress, the mission will fail and the in-game message says the character has died. In some occasions, the killed character will drop a random amount of money as an NPC does.
+
+===Main Characters Glitch 2===
+In the PC version, while CJ is hanging with one of the main characters during a mission, such as Sweet, Smoke, or Ryder; if the player press F1 key to view the [[replay]], their models will be replaced with the default [[Glitches in GTA San Andreas#Specific Pedestrian|generic male pedestrian model]] (known as "MALE01"), but it will revert to normal when gameplay resumes. This glitch always works with the mentioned three but won't work on some other main characters (such as Cesar or Woozie).
+
+===Melee Weapons Automatic Change Glitch===
+If players manage to pick up a lightly harmful melee weapon such as the [[nightstick]] while they have a heavy melee weapon like a [[chainsaw]] in their melee weapon slot, the nightstick will be automatically obtained with the chainsaw being removed from the current inventory, even if they have not tapped the changing weapons button. It is unknown if this was an oversight from the game developers or a simple glitch. This does not occur if the opposite situation happens, as players have to tap the changing weapons button instead. This does not always happen, though.
+
+===Midnight Sun Glitch===
+If the player uses the cheat code, NIGHTPROWLER, the in-game clock display will freeze at 0:00 but the actual time passed will still advance. This cheat code affects the time cycle of the game (as defined in the timecyc.dat file), making the sky color always dark and cause a glitch in which the weather changes suddenly and one eerie phenomenon: after some time with this cheat activated, a very bright object in orange color will appear to rise in the sky (commonly mistaken as UFO by players). The object is in fact the sun but glitched, this can be seen if the cheat is deactivated and the displayed time is adjusted to the actual time which is daytime by then; or just activate the midnight cheat during daytime. Because the sun sprite still follow the actual time, it may appear at the time supposed to be midnight, even though the sky is dark. (Note that if originally the cheat code is activated after sunset but before midnight, it can set the actual time to 0:00, but not stop it). Another effect that can be easily observed is that the brightness of map textures (streets, buildings, etc.) still obey the actual time, so textures can appear daylight bright in a nighttime sky setting.  
+
+===[[Monster (3D Universe)|Monster]] Glitch===
+The player must obtain a Monster and park one wheel onto a random car's hood or trunk. The wheel must glitch by pressing against the Monster's body. Next, they must get out of the [[Monster (3D Universe)|Monster]], get in the car CJ parked on, and the player may find themselves spinning high in the air, crashing back down to earth, or respawning somewhere else. Also, if the player manages to glitch the tire of the vehicle while it is moving onto the hood of the car, the car may fly into the air, merge into the ground and potentially stretch out, or catapult the Monster into the air. This glitch is also present in {{TDE}}.
+
+===Moonwalk Glitch===
+If, while sprinting, Carl takes a picture with a camera by quickly pressing the right mouse button (to aim) and right after, the left mouse button (to take a picture, almost at the same time), CJ should be running with the slow running animation, but with the sprinting speed, making him look like he's sliding on the ground. The higher the FPS, the easier it is to do (Tested on PC).
+
+===[[Mountain Bike]] Glitch===
+Obtain a Mountain Bike and, while Carl is riding it, the player must hold down Square and tap X very quickly. If done correctly, CJ's body will shimmer and distort out of proportion. This glitch appears to be possible only on the PS2 version of the game.
+
+===Ninja Jack Glitch===
+The ninja jack glitch allows the player to kill the driver of a vehicle while hijacking it from the passenger side. This can be done by entering a car from the passenger side and holding the 'sprint' or 'jump'-button and 'move forward' just before the player sits down on the passenger seat. When done correctly, CJ will skip closing the passenger door and push the driver out, who instantly falls to their death. This also eliminates the possibility of the driver retaliating. Its term was popularized by multi-player communities where it is sometimes used to grief other players. This glitch is not present in ''The Definitive Edition''.
+
+===No Traffic Glitch===
+Sometimes, if Carl is driving or flying really fast over San Andreas and abruptly stops or lands, no cars will spawn on the road, although stationary vehicles and pedestrians do spawn. This glitch can be fixed by simply activating a sub-mission or entering an interior. This glitch also sometimes occurs if CJ dies inside an interior. Then, when CJ spawns at the hospital, there will be no traffic.
+
+===[[Packer]] Glitch===
+A strange glitch may occur when the player drives a Packer truck with its top ramp lifted up, then stops on a pedestrian path and waits for any nearby pedestrian to step on the lower ramp. As the pedestrian continues walking inside, the Packer truck will suddenly float up in the air for a few seconds before falling down with the pedestrian. It's most likely next that the Packer will flip on its side when it reaches the ground, and the pedestrian will be dropped dead.
+
+===Broken Bridge Glitch===
+The [[Broken Wooden Bridge]] to the west of [[Palomino Creek]] can be used to trigger a seemingly-considered glitch. If the player attacks a vehicle roaming in the town from the east side of the bridge with a carbine rifle or a sniper rifle while vehicles are visible, the vehicle will speed on and sometimes rush towards the bridge. Once upon reaching the bridge, the driver may crash the vehicle onto the fence of the bridge, and after that, the driver will simply drive ahead and end up falling into the water below, killing the occupant(s). Sometimes, the driver will successfully perform a stunt jump and continue driving.
+
+===[[Parachute]] Glitch===
+If the player falls down from a low height with a parachute, [[Wasted|the result]] of the fall is the same as falling from great heights without maximum health or with a not-in-use parachute. This is more than likely a glitch. It is likely because the game thinks that Carl is falling from a great height when wearing a parachute, as the parachute is intended to be used at a great height.
+
+===Parachute Glitch 2===
+If the player has a parachute but doesn't deploy it yet or is still doing the opening parachute animation when CJ hits the ground, the health bar will deplete instantly and CJ will be killed. Cheats, hacks, mods or trainers couldn't prevent it from happening. This is probably because the game consider the player are still 'falling' when the opening parachute animation is triggered thus making this glitch. This glitch is also present in mobile versions.
+
+===Parachute Glitch 3===
+The parachute can be used as a weapon to attack and even kill some invincible enemies during some missions. An example of this is [[Big Poppa]] in [[A Home in the Hills]]. Despite the player can attack him in the mansion, he is considered to be invicible. However, if reacting fast enough, the player can attack him with a parachute inside. He will receive damage and can be killed, but the mission will be stuck if this happens, since he is not programmed to die in the mansion.
+
+===Parachute Hold Glitch===
+If the player switches to a parachute and presses F1 to toggle replay mode, the replay will have CJ hold the parachute rather than having it in his back. This is more than likely a glitch. As the parachute counts as a weapon rather than a vehicle.
+
+===Paramedics Glitch===
+Rarely, the player can spot a paramedic running towards a disappearing NPC corpse. The paramedic will still lie down and the animation used for paramedics rescuing a collapsed pedestrian will still be played. When the paramedic finishes his "job", nothing will happen, since the corpse has been already cleared out by the game factor before the paramedic could react. This happens more commonly during the events of the [[Los Santos Riots]] between the missions [[Riot (GTA San Andreas)|Riot]] and [[End of the Line]].
+
+===Path Glitch===
+There are a few locations on the map without a predetermined pedestrian path, so any NPC pedestrian in that region will walk away randomly or walk to the nearest pedestrian path. Sometimes, this can be fatal for the pedestrian if they randomly walk into water and drown or fall from a great height. The most infamous example of this is known as the "Suicidal Photographers" at the [[Flint Intersection]]. Pedestrian paths can also happen to cut structures such as high buildings, poles, or trees, so some pedestrians may unusually spawn on the top and fall down to the ground. An example is at [[The Emerald Isle]] in Las Venturas. The pedestrian path around this area cuts a corner of the building, thus pedestrians have a chance to spawn on the edge and fall down to the sidewalk below, although the fall is not lethal as that edge of the building is not high enough. Some other locations include near the [[Cluckin' Bell (3D Universe)|Cluckin' Bell]] in [[East Los Santos]] north of [[Ganton Bridge]], where a pedestrian may spawn on one of the telephone poles, and the sidewalk near the road leading to Easter Bay Airport where the pedestrian path is very close to the water and without a barrier causing some pedestrians to fall into the water and drown.
+
+===Pedestrian Behavior Glitch===
+If the player provokes a pedestrian to make him retaliate via melee attacks, having the latter lured into attacking another pedestrian will either result in that NPC running away or fighting back, even leading to another fight if the former is attacked by the lately-provoked NPC and Carl will be ignored if this happens.
+
+This can also apply to a police officer, however occasionally the lured NPC will be automatically given a pistol or a melee weapon to fight against the officer, who will always perform an attack with his pistol. If the NPC is shot while having nothing in his hand, he/she will immediately flee no matter what.
+
+When the player has no wanted level, if a provoked pedestrian armed with a gun shoots at a police vehicle, the officers will get off and try to kill the NPC.
+
+===Pedestrian Comments Glitch===
+Sometimes, if a pedestrian somehow gets killed while commenting on Carl's appearance, Carl will still be looking at that pedestrian. And if the player presses the answering button before Carl moves his head out of that pedestrian's sight, CJ will sometimes still reply that NPC by positive or negative words. This is known as a continuity error.
+
+===Pedestrian Comments Glitch 2===
+In the mobile version, sometimes a dialogue box will pop up when CJ encounters killed NPCs, and the player can still choose to respond positively or negatively.
+
+===Pedestrian Reaction Glitch===
+Sometimes after completing [[End of the Line]], some pedestrians across the [[State of San Andreas (3D Universe)|state]] won't react to the player attacking them. Instead of fighting back or running away, they continue walking as if nothing happened.
+
+===Permanent Location Blip Glitch===
+If the player flips their car over during the last task of [[Yay Ka-Boom-Boom]], they will have a permanent location blip at the Doherty Garage, and cannot get rid of it unless they start a new game.
+
+===[[Mobile Phone|Phone]] Glitch===
+Whenever the player is answering a call and fall from a short gap (doesn't make CJ fall flat to the ground), and then tries to enter a vehicle (but don't enter it, just make CJ open the door) and then walk away. If this done correctly, CJ will hold his phone and not putting it away. This glitch is more likely to happen at the end of the conversation, just before CJ put his phone away. However, changing weapons would revert the glitch.
+
+===Phone Glitch 2===
+If CJ is on a boat and the phone rings after he gets off, he can answer before hitting the water, which will not only cause him to talk while swimming, but will also render him unable to pick up items such as [[oysters]] until he enters another vehicle. This is especially noticeable if CJ automatically answers the call about [[Big Smoke's Cash]] when exiting the boat.
+
+===Police Officer Behavior Glitch===
+If the player has a one-star wanted level and is being chased by a police officer, having the latter lured into attacking an NPC who will sometimes retaliate and fight back will not affect the officer's behavior. If the NPC attacks the officer while the wanted level remains, the officer will ignore the pedestrian and still try to arrest the player, unlike preceding 3D Universe game titles, where an NPC provoked via attacks from a police officer who is chasing the protagonist while having a low wanted level will fight back and the officer will flee and ignore the player if hit. However, if the officer is hit by an NPC while the player has no wanted level at all, the officer will try to kill the pedestrian regardless.
+
+===Population Glitch===
+This glitch may occur if the player attains a high wanted level, triggers a [[Gang Warfare in GTA San Andreas|gang war]], or defends a territory from an enemy gang attack. In these situations, the density of traffic (pedestrians and cars) is significantly reduced. However, in some occasion, when the player successfully evades the wanted levels or ends the gang war (by winning the territory or leaving the war zone), the traffic density will not be properly reset to the usual values (as defined in popcycle.dat game file). As a result, there may be either no cars will spawn at all but a few pedestrians still rarely spawn, or a few cars will spawn but lacking pedestrians, making the city seemingly abandoned. This glitch persists even after the player saves or reloads a save file, unless the player quits the game and restarts in another session (which refreshes the game memory). It occurs more often on a PC with low performance or if the game memory is full.
+
+===[[Radio Stations in GTA San Andreas|Radio Station]] Changing Glitch===
+If the player drives a vehicle into a car mod shop, after quitting, pressing the button to emit the horn of the vehicle for a period of time before the door of the garage fully opens will instantly change the in-game radio station. This can also happen to a [[Pay 'n' Spray]].
+
+===Railroad Signal Glitch===
+In [[San Fierro (3D Universe)|San Fierro]], the two [[Railroad Crossings|railroad crossings]] in [[Doherty (3D Universe)|Doherty]] have glitches on the signals; the barriers appear too high up and too far to the right. They are functional, but do not spawn correctly.
+
+=== Repeated Date with Girlfriends Glitch ===
+Technically this glitch may occur if the CJ starts to date with any girlfriends (e.g. ''[[Denise Robinson]], [[Katie Zhan]]'') and takes them to a place (e.g. ''restaurants, clubs'') then after it, the player must go the Gym, then get out of it and the progress made to your girlfriend will gradually increase and the date will be repeated all-over-the-time instead of waiting just go back to their house. Make sure you select the right place which your girlfriend wants, otherwise the progress made with your girlfriend will be decreased.
+
+===[[San Andreas Sheriff]] Deputy Glitch===
+If the player reaches Santa Maria Beach, Mulholland and some places, they may have a chance to find a sheriff's deputy wandering there, although the sheriff's department have no property to control the city area. [[Ranger]]s may also spawn driven. Also, in the mission Wrong Side of Tracks, if the player and Big Smoke kill the targets in a short time, after returning to the city, a sheriff's deputy may spawn, despite them being in the city. This is likely a spawning glitch.
+
+===Running over Pedestrians Dialogue Glitch===
+Many characters in the game the player does missions with have scripted reactions to Carl running over pedestrians. However, due to errors in the code they don't trigger as intended. The reactions will only trigger if the player runs over pedestrians with a [[Quad]] or when gently pushing them against the wall without making them fall.{{Ref|name=dialogue|type=youtube|url={{YT|wL2pdoxRWTk|GTA San Andreas - Hidden Character Dialogue Showcase}}|date=05/04/2025}}
+
+===Siren Glitch===
+In ''The Definitive Edition'', when an emergency vehicle has its sirens on near CJ, if the horn button ({{Button|kbh}} by default on PC) is held down, the sirens will behave as if CJ were in the vehicle, playing a higher-pitched and faster siren (works on foot and while in any vehicle).
+
+=== Sniper Mirror Glitch ===
+This glitch is occurred when CJ aims and shoot using a [[Sniper Rifle|sniper rifle]] at the mirror on the [[Wardrobe|safehouse wardrobe]] in a several times, can get kill himself.
+
+===[[Sprunk (3D Universe)|Sprunk]] Glitch===
+A game crash can occur if the player stands in place and drinks enough Sprunk. This occurs because the game's buffer only clears out items on the ground when the player gets far enough away from it, and by standing in place for a long time drinking Sprunk after Sprunk, the cans continue to accumulate, causing visual glitches such as CJ's hand disappearing, and the eventual crashing of the game. While this has been noticed recently in ''The Definitive Edition'', specifically the Switch port, the glitch exists in all versions of the game. In ''The Definitive Edition'' of ''GTA San Andreas'', if the crash lines up with an autosave, it will cause save file corruption.
+
+===Strange Weather Glitch===
+During a stormy [[weather]] at around the sunset time, most notably in the countryside areas, the sky unusually appears bloody red near the horizon (this is also known as the blood red fog), and greenish blue higher up. This glitch only occurs on the PC version of the game, because the PC version has an error in the timecyc.dat file which causes the game to set incorrect sky colors and ambient lighting at 20:00 during rainy weather in the countryside. The strange weather phenomenon can be observed after the first cutscene of the [[Vertical Bird]] mission where the weather is scripted to be always stormy.
+
+===Suicidal Pedestrians Glitch===
+If the player drives a vehicle and speeds near a pedestrian, they will sometimes jump directly in front of the vehicle instead of away from it; this may cause the player unintentionally running over the pedestrian, killing or injuring them. In such cases, the pedestrian AI tries to jump away from the player vehicle's path, but if the player changes their direction or turns slightly at the last second, the pedestrian may end up jumping in the wrong direction. This sometimes results in a one-star wanted level if the suicidal pedestrian happens to be a police officer or if the police sees the player committing the unintended roadkill. While this is quite common in ''GTA San Andreas'', it has been rectified in later ''GTA'' games, and the glitch is almost nonexistent in the HD era games.
+
+===Super Jump Bike Glitch===
+If the player performs a bunny hop with any bike, and then presses the fire button immediately after letting go off the bunny hop button, the bike will go even higher.{{Ref|name=superjump|type=youtube|url={{YT|NIikMpLFUks|How to Super Jump with a Bicycle! (GTA SA Fact)}}|date=05/04/2025}}
+
+===Taxi Driver Mission Glitch===
+A glitch can occur when the player begins the [[Taxi Driver]] mission, but no fares are available. It happens when the player has crossed over the map boundaries (e.g. flying too far away from San Andreas). It is advised to complete the Taxi missions very early on in the game to avoid this glitch.
+
+===Random Plane Crash Glitch===
+There is a common random factor of the game where [[airplanes]] crash to the ground or into buildings near CJ (with sometimes fatal or mission-failing consequences). Most crashes occur if the player is roaming around an area with many tall structures around them. The airplane may crash into one of these structures, making an audible explosion sound. However, there are also some instances where the player is on relatively flat ground and an airplane may just crash straight into the ground near them, or into the vehicle the player is in. Other crashes occur after CJ exits an interior after being inside for a few minutes and an aircraft spawns too low. Random crashes occur all around the state, most notably around Downtown [[Los Santos (3D Universe)|Los Santos]] and [[San Fierro (3D Universe)|San Fierro]], or also in heavily forested areas like [[Whetstone]]. There are also frequent crashes on top of [[Mount Chiliad (3D Universe)|Mount Chiliad]]. This is likely because the game spawns NPC controlled planes without any paths and at random heights.
+
+In the mobile version, the random plane that is supposed to spawn suddenly despawns almost immediately after spawning due to the short draw distance and limited numbers of spawning vehicles near the player.
+
+=== Supercop Glitch ===
+Similar to a glitch in ''GTA III'' and ''GTA Vice City'', rarely a cop can teleport from the wall to the player's car door, busting him instantly.
+
+===Taunts Glitch===
+Carl Johnson can sometimes still be heard saying something bad to the police even if no wanted stars have been attained. This usually happens if the player eliminates their wanted level via abnormal means, and CJ will sometimes still begin to taunt.
+
+===Tear Gas Glitch===
+If the player throws a [[Tear Gas]] canister into a crowd and then performs a stealth kill on any NPC in the crowd, every NPC affected by the Tear Gas will undergo the same stealth kill animation and die at the same time.
+Because of this, it is advised to do this glitch against crowded enemies like in a gang war.
+
+===Train Glitch===
+During the mission [[End of the Line]], the player will encounter an engine carriage of a [[Brown Streak]]. Unlike most trains that appear during missions, this one can be hijacked (with the penalty of losing Sweet, thus failing the mission). If this train is jacked, other trains will appear on the player's track, passing through the player's train.
+
+If the player has left a train at Cranberry Station in [[Snail Trail]], then another train will pass through it for the target to get on. The second train is useful to trail the other as it goes faster than the Sanchez; however, there is a little catch up required though this will not fail the mission.
+
+===Vehicle Spawn Glitch===
+If the player managed to gain maximum altitude before leaving the city and travel to another city and quickly gets out of the aircraft before it crash landing at the destination, the vehicles which are not native on the destination city will spawn briefly, either driven or parked. E.G. a [[Greenwood (3D Universe)|Greenwood]] is seen parked in [[The Strip]], [[Las Venturas (3D Universe)|Las Venturas]].
+
+===Walk Underwater Glitches===
+There are various glitches that allow CJ to stand on the sea floor and walk around as if he was on land: 
+
+*If CJ hits a fence with a motorbike, and he ejects from the bike and lands in the sea, he may land on the surface of the water as if it were solid ground. Then, after he does the "Getting Up" animation, he may suddenly drop down and appear on the sea floor.
+*The player must begin a multiplayer session. Next, they need to get any amphibious aircraft ([[Sea Sparrow (3D Universe)|Seasparrow]], [[Skimmer]], [[Leviathan]]), and fly out into relatively shallow water. Then, they need to land in the water, and have the player in the passenger side get out and hijack the driver. The driver will fall out, and suddenly appear underwater on the ocean floor, and he will be able to walk around without a breath meter. This glitch is only possible on the PS2 version.
+*In the mobile version of the game, dive in the water until reaching the bottom. Then close the game from the multitask menu (Android or iOS) and reopen the game, resuming it from the main menu. [[Carl Johnson|CJ]] will be in the same place, but he will be standing on the ground.
+*There are several glitched spots underwater throughout the map, usually located very close to a steep shore. The glitched spots are known as "air pockets" or "undrowning spots" where the water texture is missing. Player needs to find a spot with air pocket, and dive into it. When CJ reaches inside an air pocket he will fall to the seafloor, and upon standing again, CJ can walk as if he's on land. Some of the undrowning locations include the underwater spots just near the highway in [[Palomino Creek]] (indicated by a starfish on the waterbed when diving there), another one close to the shore to the east of [[Blueberry]] near the [[Fallow Bridge]] and [[Hampton Barns]], and multiple spots near the highway in south [[Flint County (3D Universe)|Flint County]] and [[Whetstone]]. To get back on land, go to the shallow water where the breath meter reappears and CJ will swim again, then swim to the nearest shore.
+
+Player can also exploit the undrowning spots to drive a land vehicle while exploring the underwater world, or to transport a land vehicle between islands before the bridges are opened. To do this, they need to submerge a car or bike into the water, then get out of the vehicle and dive into the undrowning zone to trigger the glitch, wait for it to sink to the bottom, then push the vehicle into the undrowning zone. After that they can drive the vehicle underwater. However, avoid the shallow water as this will remove the undrowning glitch on the vehicle, sinking it again. In order to get the vehicle out of water and back on land, drive the vehicle onto a spot where the shore nearby forms a ramp leading to land.
+
+If the player wanders too far into the open sea, the ocean floor will become non-solid, causing them to fall into the void and they will be respawned back to the San Andreas land. However, if the player falls into the void while in a vehicle, most of the time only the player will be respawned without their vehicle.
+
+===Whetstone Highway Glitch===
+In [[Whetstone]], near [[Angel Pine]], sometimes traffic can be found driving the opposite way even though the highway itself is one way only. This is because a small road leading to the highway is a two-way street, and it turns into a one-way when it merges to the highway.
+
+===Flying Train Glitch===
+In the mission [[Snail Trail]], if the player follows one of the [[Freight]] trains that spawns in the opposite direction to the [[Brown Streak]], the [[Freight]] will make a right turn off the tracks at [[Cranberry Station]] and fly across the map until reaching the tracks at [[Red County (3D Universe)|Red County]] where the train will make another right back onto the tracks and continue on its journey like a normal train. Viewing this glitch to completion requires failing the mission.
+
+This is caused by the path file within the game only being coded as far as Cranberry Station. When the train reaches the end of the path, it heads directly for the next set of coordinates, which are located in Red County, way across the map.
+
+===High Stakes, Low Rider Glitch===
+During the opening cutscene, Cesar's car may be black instead of red. This glitch is only present on the PS2 version.
+
+===Busted Glitch===
+If Carl is arrested during the riots and somebody kills the arresting officer, the BUSTED sign will not disappear.
+
+===Second Busted Glitch===
+If Carl is arrested (either vehicular or not) with his health bar depleted out at the same time, there will be a chance that the on-screen message reads WASTED instead of BUSTED depending on the accuracy of timing, however the officer who arrests Carl will still taunt at him, but CJ usually won't insult back anymore.
+
+In rare occasions, when the WASTED sign will replace the BUSTED sign, CJ can still be heard taunting the officer even with an empty health bar, but seemingly his mouth won't move when he is saying. The two situations are more than likely glitches, as in the second case this is known as a continuity scripted error.
+
+===Police Vehicles Glitch===
+Sometimes, after a flight between cities, police vehicles from the starting point would still spawn on the player's destination.
+
+===Third Person Train Glitch===
+''Main Article:'' [[Freight]]
+
+It is possible to drive a train in third person in ''GTA San Andreas''. This glitch only works when the player has unlocked all the parts of the map. To do this, one must activate the Freight Train side mission by pressing the side-mission button and cancel it immediately. This will change the view to third-person, but this only lasts for a short period of time.
+
+===Police Car Spawn Glitch===
+If the player dies in an area which is patrolled by different police vehicles than the police vehicles that stalk the area that the hospital is in, the police vehicles that spawn at the place where the player died may spawn incorrectly in the vicinity of the hospital when the player resurrects there. This glitch also occurs when CJ is released from the police department after being arrested.
+
+===Pedestrian Glitch===
+Next to the [[Gant Bridge|bridge]] that connects San Fierro and [[Bayside Marina]] a glitch may occur. Sometimes the pedestrian will spawn half inside the road or foot paths and half outside the road or foot paths, this glitch can be witnessed at anytime during the gameplay. However, it is unknown this is a glitch or a bug. This glitch can only be seen in Bayside Marina.
+
+===The Walk Through Bridge===
+In [[Los Flores]] there is a small, slanted bridge going over a motorway. The side supports of this bridge are not solid and can easily be driven through with a bike.
+
+===The Walk Through Hill===
+Just North of Mount Chiliad, and South of the big radio transmitter at the top of the hill, there is a small beach. From here head slightly to the left and there is a hill in the front which can be walked through. This allows the player to look under the map, as well as through the ground and into buildings in the distance.
+
+===Vehicle Wreck Glitch===
+If the player's driven aircraft is destroyed by any means while the Carl is still inside it, the wreck of the aircraft will usually disappear by itself without any reason upon getting destroyed, only the WASTED sign appears on the screen. This is confirmed in the PC, Android, and iOS versions of the game.
+
+===[[Wrong Side of the Tracks]] Glitch===
+If the [[Glendale (3D Universe)|Glendale]] is destroyed during the cutscene which [[Big Smoke]] and [[Carl Johnson|Carl]] find the [[Los Santos Vagos (3D Universe)|Vagos]] gangbangers, such as triggering a car bomb upon getting to the [[Unity Station]], the mission will continue on as normal and not end in a failure.
+
+===[[Sweet & Kendl]] Glitch===
+If the player saves a game file after completing "[[Sweet & Kendl]]", and then reloads the game, the game file will say that "[[Big Smoke (mission)|Big Smoke]]" was their last completed mission. Technically this is not really a glitch, as in the final version, "Sweet & Kendl" is automatically triggered after the second cutscene of "Big Smoke" plays.
+
+===Wanted Level Glitch===
+CJ is free of police attention during some missions of the game (etc. [[The Da Nang Thang]], [[End of the Line]]), no matter how much chaos he has caused during the mission progress, unless the "Lock Wanted Level" [[Cheats in GTA San Andreas|cheat]] is turned on and then turned off, which can disable this glitch or wanted level is forced by cheats. This glitch can be useful for the player to invade the [[Easter Basin Naval Station|Easter Basin Naval Base]] and [[Area 69 (3D Universe)|Area 69]] and a locked areas when not finishing the mission that unlocks a territory, and collect some hidden weapons and collectibles. However, flying using [[planes]], [[helicopters]], or even [[jetpack]] over Area 69, and also Easter Basin Naval Base may be dangerous and can [[Wasted|kill]] [[Carl Johnson|CJ]] because of the [[Surface-to-Air Missile|surface-to-air missiles]].
+
+===Specific Pedestrian===
+There is a pedestrian that exists in the game but is not often used (the "MALE01" model). This specific pedestrian is African-American, that comes with a flat top and goatee cut, wearing a light blue hoodie and a pair of ivory pants. This kind of pedestrian usually appears to drive Bobcats, Waltons and Journeys. Sometimes they can also be found driving in random vehicles. Sometimes the three mentioned cars are driven by random NPCs. This pedestrian can also be found on streets in some occasions and may comment on Carl. It is possibly that this pedestrian is a beta model that was used partially as an unidentified placeholder in-game. Unlike other pedestrian models, this model's name, MALE01 doesn't give any indication detailing where they are supposed to spawn. He doesn't spawn as part of any population group, (as noted in the pedgroup data file, "please dont use 'male01' in any of the pedgroups") and sometimes will appear as a substitute for a special pedestrian that's not spawned correctly.
+
+===Specific Pedestrian as a Gang Member===
+The MALE01 pedestrian model is known to replace the main special characters' models when viewed in a replay during missions. In some rare occasions, this pedestrian model can spawn as Ballas members. During the final part in End of the Line where Sweet drives chasing the firetruck and CJ shoots, at one of the riot roadblocks, Ballas members throwing molotovs are instead spawned as MALE01. This can be seen more often after the player has taken over 100% of the gang territories. The game can sometimes randomly spawn enemy gang cars in GSF territory, but after all Ballas turf has been taken over, it won't spawn any Ballas model as occupants and instead, the MALE01 model might be found driving the Tahoma or Majestic. If spotted by GSF members they will instantly attack them just like regular Ballas, and when the pedestrian is killed he might drop a Micro SMG and some cash. However, in even rarer occasions (extremely rare) the MALE01 can also spawns as GSF members with GSF weapons and appears to hang around with other usual members, and player can even recruit him.
+
+===Cutscene Mode===
+Sometimes, after being BUSTED or WASTED for the first time and Carl re-spawns at a police station/hospital, during the "gameplay cutscene", sometimes a call will come (mostly a girlfriend's if Carl has a date on her) and if the player decides to answer, after Carl puts away the phone, he can move around while in the cut-scene mode. This glitch will be eliminated if the player activates a [[Odd Jobs|vehicle mission]].
+
+===Pool Player===
+It seems the pool player sometimes cannot have his throat cut, as seen {{URL|https://youtu.be/_o9RC0riGPs|here}}, however, he is not otherwise invincible.
+
+===Mobile Version Glitches===
+The mobile version has more glitches than other versions. These include:
+*If Carl enters a train and the player leaves the game, once they resume, the train with CJ inside may respawn in Las Venturas, with only the locomotive itself on the tracks. If the player hasn't [[Yay Ka-Boom-Boom|unlocked Las Venturas]], Carl will immediately receive a four-star wanted level and he can only get back to Los Santos or San Fierro by swimming (which will usually kill him in the process).
+*The cars' headlights and taillights may encounter texture errors.
+*Sometimes a car's damaged parts appear in mismatched colors.
+*After a certain point in the game, all pedestrians stop talking to CJ except drug dealers and prostitutes (when CJ is inside a car).
+*If the player were to fail a mission and retry, the game may glitch and the mission cannot be completed. The symptom of this usually happens if an invisible checkpoint had been saved during the mission progress and if the player closed the game and then restarted it, the game would function within the invisible checkpoint. In the first few seconds nothing would happen, however about 2.5 seconds later a MISSION FAILED sign would appear, whether if the player had failed that mission or not. It was reported as a common glitch through mobile users. (Confirmed on both Android and iOS)
+**If this happens, the player will have to tap "no" for the "Retry?" option, then go back to the mission giver, and start it over from the beginning.
+**The glitch currently cannot be officially fixed by any tools. The only way to avoid the glitch from happening is to restart with a new game.
+*It is possible for the mission [[Sweet's Girl]] to apparently glitch out before the cutscene starts and shut the game down. To prevent the glitch from happening, it is advised to start another mission before-hand and come back to check if it works.
+*After the mission [[Robbing Uncle Sam]], [[Ryder]]'s [[Picador]] will apparently stop spawning in his driveway. To fix this glitch, stay in Grove Street, turn the game down, use another app for a few minutes and then swap back to the game. The Picador should respawn in the garden and will not despawn.
+*When [[Michelle Cannes]] asks the player to drive during a date, Carl will not swap seats, but instead get out of the car, causing Michelle to abandon the player and count the date as a failure. This is not present on the PC version, suggesting some incomplete script.
+*Still with Michelle Cannes, if CJ get invited for coffee from her while the player's vehicle still stand there, then you out from the game app (make sure CJ is still inside Michelle's house), the vehicle will automatically all-proof. This is easiest way to make your vehicle all-proof.
+*Sometimes, after saving at the [[Johnson House]], Sweet's [[Greenwood (3D Universe)|Greenwood]], and the [[BMX (3D Universe)|BMX]] that spawns on [[Grove Street (3D Universe)|Grove Street]] will not appear. This can be easily fixed by driving a short distance away (two or more blocks) and driving back to Grove Street. This glitch is also featured in the PC version, but not often. It is unclear if this glitch also occurs on PS2 and the re-mastered versions.
+*After recruiting a gang member, swimming in the water, and climbing on top a dock, the gang member will often hang from the dock and not move. The only way to move the gang member is by hitting him with a boat, upon which he will sink and eventually disappear. It is also unclear if this occurs on other versions.
+*Being inside of a customized vehicle, exiting the game and removing it from running in the background, then restarting the game, will cause any customizations the player has made on the car to reset. Essentially, the game gives Carl a newly spawned car.
+*On the Windows Nokia version of the game, clothing (mainly pants) may have square-splotches of darker, lighter, or entirely different colors on them.
+*Another glitch observed on the Windows Nokia version and possibly others: When the player wears a hoodie, this may cause CJ's head to clip through clothing items that go on CJ's heads such as hats and shades. Example: If wearing a rag (Such as from Binco), CJ's nose will clip through.
+*Some random parked vehicles can sometimes be found in a strange parking direction compared to other versions. This can be observed when passing [[Vinewood (3D Universe)|Vinewood]], the Burger Shot in [[Marina (3D Universe)|Marina]] and some places.
+*There is a notorious glitch that if the game was tended to restart then the player opens for the second time, there would be a high possibility that the player's last driven vehicle will disappear from CJ's view (usually happens if the player leaves their car, closes the game and restarts the game after a few minutes). It is unknown why this happens, and currently the glitch cannot be fixed by any tools. It is more likely because of the game programming which makes any vehicle near the player disappear after leaving the game. This glitch also appears in {{V}}, whenever the player leaves the current session of the game (such as replaying a mission), would make the player last driven vehicle to disappear, even when the player is driving it.
+*If the players try to sound the secondary siren, nothing will happen.
+*In the mission [[Robbing Uncle Sam]], a glitch exists in the progress. If CJ steals the Military Mesa after unlocking the gate and letting Ryder and the Mule come in to the warehouse, sometimes when he drives the car for a while, Ryder's health bar will decrease by time, and Ryder will even die before or after CJ returns. It is more than likely that this is a mobile version exclusive glitch, but doesn't always happen, although it is unknown what causes this. The glitch seems not to be present in the PC version, but other versions are still unconfirmed.
+*Fast Chaotic NPC cars - After completing End Of The Line on the iOS and Android versions and maxing out money and some weapons, a glitch sometimes occurs where NPC cars will suddenly drive very fast. The highways become chaotic as NPC cars instantly ram CJ or each other, often occupying the same space before exploding.
+*If the players have quitted the game after Carl responds positively to a call related to [[Big Smoke's Cash]] or [[Loco Syndicate Drug Courier|Yay Courier]], when they directly restart it from the main menu, the red marker would be removed from the map and in-game radar. However this would likely lead to the disappearance of functional saving icons around the state, rendering saving manually impossible, though the game progress would be usual. It is unknown what causes this.
+*If the players have quitted the game after entering a [[crane]], when they directly restart it from the main menu, sometimes a strange occasion will occur. While the camera acts as if the player is still controlling the crane, Carl will fall from great heights. The camera would stay in this perspective unless the player closes the game and restarts it again. It is unknown what causes this.
+*If CJ is inside a vehicle in a garage and the player takes a screenshot, CJ will get wasted.
+*[[Special Weapons and Tactics (3D Universe)|SWAT]] officers don't descend using the rope from the Police Maverick, instead they jump.
+
+Most glitches seem to be encountered more often after prolonged gameplay. All except the train glitch and Sweet's Girl glitch can be fixed by restarting the game.
+
+===Separate Articles===
+*[[Ammu-Nation Shooting Ranges#Glitches|Ammu-Nation Glitch]]
+*[[Andromada#Glitch|Andromada Glitch]]
+*[[Cheats in GTA San Andreas|Cheat-involved glitches]]
+*[[Katana#Glitches|Headless CJ Glitch]]
+*[[Madd Dogg (mission)|Madd Dogg Mission Glitch]]
+*[[Gyms#Glitch|Madd Dogg Gym Glitch]]
+*[[Flint Intersection#The "Suicidal Photographers"|Suicidal Photographers Glitch]]
+*[[Mountain Bike#Glitches|Mountain Bike Glitch]]
+*[[Tear Gas#Glitch|Tear Gas Glitch]]
+*[[Territory Glitch]]
+*[[The Chiliad Challenge#Glitch|Chiliad Challenge Glitch]]
+*[[TransFender (3D Universe)|Las Venturas TransFender Glitch]]
+
+==Gallery==
+<gallery position="center" spacing="small" widths="250px">
+Glitches-GTASA-CarSpawnGlitch.jpg|Car spawn glitch.
+Beagle-GTASA-FortCarson.jpg|The driveway [[Beagle]], with its left wing submerged in the house.
+Glitches-GTASA-MonsterTruckGlitch.png|Result of the [[Monster (3D Universe)|Monster]] glitch.
+Glitches-GTASA-MonsterTruckGlitch2.png|Ditto.
+Glitches-GTASA-EndoftheLineTrainGlitch.jpg|A [[Freight]] passing through the [[Brown Streak]] hijacked during the mission [[End of the Line]].
+Glitches-GTASA-UnderwaterGlitch.jpg|[[Carl Johnson|CJ]] walking underwater.
+Glitches-GTASA-VincentHeadlights.png|Headlights of a [[Vincent]]. Notice the right headlight, which appears slightly dimmer than the other.
+Glitches-GTASA-VincentTaillights.png|Taillights of a Vincent, which have encountered texture errors.
+Glitches-GTASA-MismatchedCarParts.png|A [[Buffalo (3D Universe)|Buffalo]] with a damaged hood that turned gray due to a glitch.
+Glitches-GTASA-PedestrianSpawnGlitch.jpg|[[Pedestrians|Pedestrian]] spawn glitch.
+Glitches-GTASA-NoCollisionsBridge.jpg|The walk through bridge.
+Glitches-GTASA-NoCollisionsHill.jpg|The walk through hill.
+HelicopterGlitch-GTASA.jpg|Helicopter glitch (rotor blades through ground).
+BallasGlitch-GTASA.png|(Not mentioned above); [[Gang Warfare in GTA San Andreas|Gang warfare]] glitch in which members of enemy gangs spawn several feet above the ground; they can be killed as normal and fall down if moved by the player.
+DockGlitch-GTASA.png|Dock glitch.
+DeadCopGlitch-GTASA.jpg|Dead cop glitch.
+Glitches-GTASA-Buzzard1Glitch.png|[[Police Maverick (3D Universe)|Police Maverick]] glitch.
+FirstMissionGlitch-GTASA.jpg|First Mission Extra Glitch ([[C.R.A.S.H.]] officers get out of the car).
+LosSantosPoliceOfficerGlitch-GTASA.jpg|An [[Los Santos Police Department (3D Universe)|LSPD]] officer walking past [[Carl Johnson]], despite the radar and the background showing Carl's current location is near a [[The Well Stacked Pizza Co. (3D Universe)|Well Stacked Pizza]] restaurant near [[Pier 69]] in [[San Fierro (3D Universe)|San Fierro]].
+Glitches-GTASA-CasinoGlitch.jpg|[[Casino]] glitch.
+PalominoCreekBrokenBridgeGlitch-GTASA.jpg|A driver crashes his [[Turismo]] onto the fence post of the [[Broken Wooden Bridge]].
+DonPeyote-GTASAde-Beagle.png|Glitched [[Beagle]] in [[Don Peyote]].
+</gallery>
+
+==References==
+{{Reflist}}
+
+[[ru:Глюки в GTA San Andreas]]
+
+[[Category:GTA San Andreas]]
+[[Category:Glitches]]

@@ -1,0 +1,233 @@
+:''Not to be confused with [[Temple of Fire]].''
+{{Infobox Dungeon
+|image= 
+{{Media
+ |Artwork OoT= File:OoT Fire Temple Artwork.png
+ |Screenshot OoT= File:OoT Fire Temple.png
+ |Screenshot OoT3D= File:OoT3D Fire Temple.png
+ |Screenshot ST= File:FireTempleST.png
+ |Screenshot TFH= File:TFH Fire Temple.png
+ |Screenshot TotK= [[File:TotKFireTemple.png|thumb|center]]
+ |Map TotK= [[File:FT Map.jpg|thumb|center]]
+ |Sprite TotK= [[File:FT icon.png|thumb|center]]
+}}
+|caption= 
+|location= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Death Mountain Crater|link}}
+ |ST= {{Term|ST|Fire Realm|link}}
+ |TFH= {{Term|TFH|Volcano|link}}
+ |TotK= [[Death Mountain Depths]]
+}}
+|game= {{OoT}}<br/>{{ST}}<br/>{{TFH}}<br/>{{TotK}}
+|item= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Megaton Hammer|link}}
+ |ST= {{Term|ST|Bow|link}}<br/>{{Term|ST|Quiver|link}}
+}}
+|mini-boss= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Flare Dancer|link}} ×2<br/>Flare Dancer ×2{{Exp|Master Quest}}<br/>{{Term|OoT3D|Stalfos|link}} ×2{{Exp|Master Quest}}<br/>{{Term|OoT3D|Iron Knuckle (Boss)|Iron Knuckle|link}}{{Exp|Master Quest}}
+ |ST= {{Term|ST|Stalfos|link}} ×7<br/>{{Term|ST|Heatoise|link}} ×3
+ |TFH= {{Plural|TFH|Hinox|link}}
+}}
+|boss= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Volvagia|link}}
+ |ST= {{Term|ST|Cragma|link}}
+ |TFH= {{Term|TFH|Moldorm (Boss)|link}}
+ |TotK= {{Term|TotK|Marbled Gohma|link}}
+}}
+|quest= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Fire Medallion|link}}<br/>{{Term|OoT3D|Heart Container|link}}
+ |ST= {{Term|ST|Force Gem|link}}<br/>{{Term|ST|Fire Seal|link}}<br/>{{Term|ST|Heart Container|link}}
+ |TotK= [[Heart Container]]<br/> [[Yunobo's Vow]]
+}}
+|theme= 
+}}
+The {{Term/Store|Fire Temple|Fire Temples|Series, OoT, OoT3D, ST, TFH, TotK}},{{Exp Game|OoT, ST, TFH, TotK}}<ref>{{Cite Book|quote= |book= E |publisher= |page= 149 {{Exp Game|OoT}}, 157 {{Exp Game|ST}} & 160 {{Exp Game|TFH}}}}</ref> also known as the '''Mountain Temple''',{{Exp Game|ST}}{{Fact}} is a recurring {{Term|Series|Dungeon|link}} in {{TLoZ|Series}}.
+
+==Overview==
+==={{OoT|-}}===
+====Entrance to the Temple====
+In ''[[The Legend of Zelda: Ocarina of Time|Ocarina of Time]]'', the Fire Temple is located deep within the [[Death Mountain Crater]] and is only accessible to [[Link]] as an adult by use of the [[Goron Tunic]], which is given to him by [[Darunia|Darunia's]] son, [[Link (Goron)|Link]], in the hopes that he will rescue the other [[Goron|Gorons]].<ref>{{Cite|Please help, Link! I'll give you this heat-resistant tunic!|Link|OoT}}</ref> Being in an active volcano, the Fire Temple is filled with many lava pits including the [[boss]] room. Inside the boss room where [[Volvagia]] waits is a giant rock platform, where the battle against the wingless dragon takes place. Link can meet Darunia himself at the left room by the entrance leading to the boss room, where he will have a brief happy reunion with the [[Hero of Time]].
+
+====Themes and Navigation====
+[[File:Rock maze.jpg|thumb|left|The maze of the rolling rocks on the third floor]]
+Link's progress in the Fire Temple is based on opening jails so that the imprisoned Gorons can be freed. When a Goron is released, he gives Link a clue or tip regarding the use of the so-called [[Bomb|special crop]],<ref>{{Cite|I'll tell you a secret for saving me! In this temple, there are doors that fall down when you try to open them. When one of these doors starts to fall, move! If you use a sample of the Goron "special crop," you can break it...|Goron|OoT}}</ref><ref>{{Cite|Here's a tip for rescuing me! Somewhere in this temple, you're sure to meet up with some creatures that dance as they attack. Arrows won't hurt them! Looks like you might need some of the Goron "special crop!" That's all I have to tell you!|Goron|OoT}}</ref> although some offer other facts; Link also receives keys to open locked doors. Throughout the Temple, there are bridges and platforms over magma that must be crossed, as well as complex mazes (one of them consisting of {{Plural|OoT3D|Flame Wall|link}}). Once the [[Megaton Hammer]] is found, after defeating the [[Sub-Boss|Mini-Boss]] [[Flare Dancer]], Link may use it to break obstacles or create new paths.<ref>{{Cite|I'll tell you a secret for saving me! A door is hidden inside the statue at the entrance to this temple. But, the Goron "special crop" won't work on it... Don't you have anything stronger?|Goron|OoT}}</ref>
+[[File:Fire Wall.png|thumb|right|The {{Term|OoT3D|Flame Wall}} maze on the third floor|245x245px]]
+The dungeon as a whole is notable for having a nearly-symmetrical architecture: From floor three upwards, the interior of the temple is divided into two, although Link only needs to visit the western territory to succeed on his quest (in fact, the other portion can only be accessed from the third floor by using the "[[Scarecrow's Song]]"). Based on the map, it appears as if the 4th and 5th floors of the temple extend up into the interiors of [[Spectacle Rock]].
+
+The Temple is home to an ancient dragon, Volvagia, who is known to have eaten Gorons in the past, as explained by Link the Goron.<ref>{{Cite|A long time ago there was an evil dragon named Volvagia living in this mountain. That dragon was very scary! He ate Gorons!|Link (Goron)|OoT}}</ref> Defeated by an ancient hero with the Megaton Hammer,<ref>{{Cite|Using a huge hammer, the hero of the Gorons... BOOOM! Destroyed it just like that. This is a myth from long ago, but it's true!!|Link (Goron)|OoT}}</ref> he was resurrected by the evil [[Ganon]], and the Evil King intends to have the dragon turn [[Hyrule]] into a burning wasteland if the land's residents don't obey him.<ref>{{Cite|Everybody was taken to the  Fire Temple... While my dad was out... Ganondorf's followers came and took them all away! All of them will be eaten by Volvagia! Dad said that Ganondorf has revived Volvagia... As a warning to those who might oppose him, Ganondorf is going to feed them all to Volvagia! Dad went to the Fire Temple all by himself to try to save everyone...|Link|OoT}}</ref> The only real defense against the evil monster is the aforementioned Hammer, which Link can put in practice as soon as the dragon is hesitating in one of the fire holes placed in the battle arena's floor.
+
+Similarly to the rest of the dungeons, the Fire Temple was altered in the {{MQ}} version of {{OoT|-}}. Honoring the name of the dungeon, the first rooms require [[Din's Fire]] to light several torches. Compared to the original version of the dungeon, the redesigned layout features a lesser focus on enemies and a stronger focus on puzzles. Additionally, most make use of the [[Hookshot]]. Some invisible walls and time blocks are found in the dungeon. Also, some switches need the [[Spin Attack]] to be activated, including one that is hidden inside a crate and can't be seen. There are fewer Gorons than in the normal version as well. Most doors are blocked with iron bars, and the [[Big Key]] and Megaton Hammer come very early. New enemies include several [[Stalfos]], [[Lizalfos]] (found in the boulder room) and even an [[Iron Knuckle (Boss)|Iron Knuckle]].
+{{Clear}}
+
+=====Small Keys=====
+*In the original, there are eight small keys.
+*In Master Quest, there are five.
+
+=====Minor Enemies and Traps=====
+{{Tabs
+|align= 
+|default= 2 
+|tab1= {{OoT|-}}
+|content1= <gallery>
+File:OoT Boulder Model.png|{{Term|OoT|Boulder|link}}
+File:OoT Door that Falls Down Model.png|{{Term|OoT|Door Mimic|link}}
+File:OoT Fire Keese Model.png|{{Term|OoT|Fire Keese|link}}
+File:OoT Flying Tile Model.png|{{Term|OoT|Flying Tile|link}}
+File:OoT Gold Skulltula Model.png|{{Term|OoT|Gold Skulltula|link}}
+File:OoT Like Like Model.png|{{Term|OoT|Like Like|link}}
+File:OoT Red Bubble Model.png|{{Term|OoT|Red Bubble|link}}
+File:OoT Torch Slug Model.png|{{Term|OoT|Torch Slug|link}}
+</gallery>
+|tab2= {{OoT3D|-}}
+|content2= <gallery>
+File:OoT3D Boulder Model.png|{{Term|OoT3D|Boulder|link}}
+File:OoT3D Door that Falls Down Model.png|{{Term|OoT3D|Door Mimic|link}}
+File:OoT3D Fire Keese Model.png|{{Term|OoT3D|Fire Keese|link}}
+File:OoT3D Flying Tile Model.png|{{Term|OoT3D|Flying Tile|link}}
+File:OoT3D Gold Skulltula Model.png|{{Term|OoT3D|Gold Skulltula|link}}
+File:OoT3D Like Like Model.png|{{Term|OoT3D|Like Like|link}}
+File:OoT3D Red Bubble Model.png|{{Term|OoT3D|Red Bubble|link}}
+File:OoT3D Torch Slug Model.png|{{Term|OoT3D|Torch Slug|link}}
+</gallery>
+}}
+
+======{{MQ|-}}======
+{{Tabs 
+|align= 
+|default= 2
+|tab1= {{OoT|-}}
+|content1= <gallery>
+File:OoT Iron Knuckle Model.png|{{Term|OoT|Iron Knuckle (Boss)|link}}
+File:OoT Lizalfos Model.png|{{Term|OoT|Lizalfos|link}}
+File:OoT Stalfos Model.png|{{Term|OoT|Stalfos|link}}
+</gallery>
+|tab2= {{OoT3D|-}}
+|content2= <gallery>
+File:OoT3D Iron Knuckle Model.png|{{Term|OoT3D|Iron Knuckle (Boss)|link}}
+File:OoT3D Lizalfos Model.png|{{Term|OoT3D|Lizalfos|link}}
+File:OoT3D Stalfos Model.png|{{Term|OoT3D|Stalfos|link}}
+</gallery>
+}}
+
+==={{ST|-}}===
+====Entrance to the Temple====
+A different '''Fire Temple''' is located at the summit of the mountain in the [[Fire Realm]]. Link has to meet with [[Embrose]] to play the Song of Fire Restoration and open the way to the dungeon. The area where the temple lies is guarded by three [[Snurglar]]s, all of which hold three keys that will open the entrance to the temple once retrieved by Link.
+
+====Themes and Navigation====
+[[File:ST Fire Obstacle.png|thumb|left|Link crossing one of the first obstacles]]
+Many of the puzzles in the temple involve platforms that can be used to stand atop small volcanoes, and [[Arrow Orb]]s that redirect the trajectory of an arrow. In a similar way to the [[Cave of Flames]] in {{TMC}}, the Fire Temple houses minecarts that help Link move from a point to another quickly. The dungeon item is a [[Bow]], which is obtained after defeating the {{Term|ST|Sub-Boss|link}} of the dungeon, [[Heatoise]]. [[Cragma]] is the boss of the Fire Temple. After he is defeated, the {{Term|ST|Spirit Tracks (Object)|link}} connecting the Fire Realm to the [[Tower of Spirits]] are restored.
+
+In both this temple and [[Sand Temple|the following one]], the background music is different from the usual dungeon theme heard in the first three temples.
+{{Clear}}
+
+=====Minor Enemies and Traps=====
+<gallery>
+File:ST Blade Trap Model.png|link= Blade Trap|[[Blade Trap]]
+File:ST Fire Keese Model.png|[[Fire Keese]]
+File:ST Guruguru Bar Model.png|[[Guruguru Bar]]
+File:ST Heatoise Model.png|[[Heatoise]]
+File:ST Stalfos Model.png|[[Stalfos]]
+File:ST Stone Statue Model.png|[[Stone Statue]]
+File:ST Winder Model.png|[[Winder]]
+</gallery>
+
+==={{TFH|-}}===
+In {{TFH}}, the {{Term|TFH|Fire Temple}} is the fourth and final {{Term|TFH|Level|link}} of the {{Term|TFH|Volcano|link}} {{Term|TFH|Area|link}}.
+
+====Themes and Navigation====
+'''Stage 1''' is a treacherous landscape with pools of magma. Within it, a {{Term|TFH|Bow|link}}, {{Term|TFH|Gust Jar|link}} and {{Term|TFH|Boomerang|link}} are provided to aid the {{Plural|TFH|Links|link}} in traversing the {{Term|TFH|Stage}}. Wearing the {{Term|TFH|Goron Garb|link}} will also help, as it makes it possible to swim through the magma. To complete the stage, the {{Plural|TFH|Links}} must first cross a pool of magma, press three {{Plural|TFH|Floor Switch|link}} at once while avoiding {{Plural|TFH|Guruguru Bar|link}}, and then work together to activate three {{Plural|TFH|Shock Switch|link}} simultaneously with their {{Plural|TFH|Item}} while standing on platforms that will sink into the magma after a short time. When all {{Plural|TFH|Switch}} are lit, the path to the {{Term|TFH|Triforce Gateway|link}} will be open.
+
+In '''Stage 2''', the {{Plural|TFH|Links}} are faced with a {{Term|TFH|Hinox|link}} in a {{Term|TFH|Minecart|link}} that throws {{Plural|TFH|Bomb|link}} onto the central platform that they stand on. In order to progress, the {{Plural|TFH|Links}} must either toss the {{Plural|TFH|Bomb}} back to the mine cart carrying the {{Term|TFH|Hinox}} or utilize the nearby {{Term|TFH|Bomb Flower|link}} in lieu of {{Plural|TFH|Bomb}}. After the {{Term|TFH|Hinox}} is defeated, the {{Plural|TFH|Links}} are beset by two more {{Plural|TFH|Hinox}} that both attack and must be defeated in the same manner. Once they have been defeated, a bridge to the {{Term|TFH|Triforce Gateway}} will lower to the platform, allowing the {{Plural|TFH|Links}} to proceed.
+
+'''Stage 3''' features a pushable {{Term|TFH|Block|link}} that sits above a recurrent geyser of lava. This {{Term|TFH|Block}} must be pushed or pulled to the right side of the platform, onto a red panel that indicates where a geyser will blast through. By forming a {{Term|TFH|Totem|link}}, the {{Plural|TFH|Links}} can stand on the {{Term|TFH|Block}} once it is raised to hit a {{Term|TFH|Shock Switch}} with one of their {{Plural|TFH|Item}}. This lowers a bridge to the next {{Term|TFH|Triforce Gateway}}, which features a {{Term|TFH|Squiddy|link}} next to it.
+
+'''Stage 4''' is where {{Term|TFH|Moldorm (Boss)|link}} is fought upon a platform above hazardous lava pillars.
+
+====={{Plural|TFH|Drablands Challenge}}=====
+Fire Temple includes the following {{Plural|TFH|Drablands Challenge|link}}: "[[Drablands Challenge#Clear within the time limit!|Clear within the time limit!]]", "[[Drablands Challenge#Evade the Wallmaster!|Evade the Wallmaster!]]", and "[[Drablands Challenge#Only Bombs—no swords!|Only Bombs—no swords!]]".
+
+=====Materials=====
+At the end of the {{Term|TFH|Level}}, three {{Plural|TFH|Treasure Chest|link}} can be opened. Two contain the same {{Term|TFH|Material|link}}, and one contains another, more valuable {{Term|TFH|Material}}.
+
+======No challenge======
+*2 {{Plural|TFH|Demon Fossil|link}}
+*1 {{Term|TFH|Kodongo Tail|link}}
+
+======"Clear within the time limit!"======
+*2 {{Plural|TFH|Rugged Horn|link}}
+*1 {{Term|TFH|Keese Wing|link}}
+
+======"Evade the Wallmaster!"======
+*2 {{Plural|TFH|Kodongo Tail|link}}
+*1 {{Term|TFH|Star Fragment|link}}
+
+======"Only Bombs—no swords!"======
+*2 {{Plural|TFH|Keese Wing|link}}
+*1 {{Term|TFH|Star Fragment|link}}
+
+=====Minor Enemies and Traps=====
+<gallery>
+File:TFH Guruguru Bar Model.png|{{Term|TFH|Guruguru Bar|link}}
+File:TFH Hardhat Beetle Blue Model.png|{{Term|TFH|Blue Hardhat Beetle|link}}
+File:TFH Hinox Model.png|{{Term|TFH|Hinox|link}}
+File:TFH Wallmaster Model.png|{{Term|TFH|Wallmaster|link}}<br/>{{Small|({{Term|TFH|Drablands Challenge}} only)}}
+</gallery>
+
+==={{TotK|-}}===
+{{Improve|January 25, 2024}}
+The Fire Temple returns and revisits its {{OoT|-}} roots by being located in a {{Term|TotK|Scorching Climate|link}} found [[The Depths|deep]] beneath {{Term|TotK|Death Mountain}}. This version is also the lost city of Gorondia, a location from ancient Goron myths. Link must locate five locks and launch {{Term|TotK|Yunobo|link}} at them to break them, opening the way to where the {{Term|TotK|Marbled Gohma|link}}, the source of the cursed Marble Rock Roast, lurks.
+
+In the bygone age of Hyrule's founding, the Goron Sage of Fire, {{Term|TotK|Yunobo}}'s ancestor, protected {{Term|TotK|Death Mountain}} from here. After the [[Imprisoning War (Tears of the Kingdom)|Imprisoning War]] ended, [[Princess Zelda]] beseeched the Sage of Fire to make arrangements so that his descendant and successor would be able to assist Link in defeating Ganondorf in her home era. Like his fellow [[Sage|Sages]], the Sage of Fire readily agreed to her request.
+
+{{Stub|TotK}}
+
+==Trivia==
+
+=== [[The Legend of Zelda: Ocarina of Time|''Ocarina of Time'']] ===
+*The Fire Temple's background music has been a subject of [[Controversy in The Legend of Zelda series|controversy]]. In the original v1.0/v1.1 NTSC release, it initially sampled Islamic recitations from the Qur'an.<ref group="note">The first part of the Arabic samples were deciphered as "{{Wp|Peace be upon him (Islam)|Sal-Allahu-alayhi-wa-alik}}" which means ''"May God grant peace and honor him (Muhammad) and his family."'', followed by "{{Wp|Names of God in Islam|Dhul-Galali-wal-ikram}}," meaning ''"The Lord of Majesty and Generosity"''. The second part of Arabic samples was deciphered as the {{Wp|Basmala}}; meaning ''"In the name of God, the Most Gracious, Most Merciful"'', followed by the {{Wp|Takbir}}; literally meaning ''"God is Great"''.</ref> This, like the original [[Crest of the Gerudo]] (which resembled the real-world Star and Cresent Islamic symbol), was removed from later versions of the game by [[Nintendo]] because of the real-world religious association as well as accidentally violating their own policy. These Islamic recitations were replaced by a MIDI Synthesizer in the later v.1.2 version and subsequent releases and ports, including the [[Nintendo 3DS]] remake ''[[The Legend of Zelda: Ocarina of Time 3D|Ocarina of Time 3D]]''.
+*Despite it being advised that [[Link]] should purchase the [[Goron Tunic]] before entering the Fire Temple, the majority of rooms with the dungeon do not actually require it. The only rooms where the heat will prove lethal to the [[Hero of Time]] if he stays there long enough are the ones that contain large pools of magma, including the boss room. The hazardous rooms themselves are distinguished by a pulsing effect in the background.
+*Despite [[Sheik]]'s directions of doing the Fire Temple second, it is possible to complete this dungeon before the [[Forest Temple#Ocarina of Time|Forest Temple]].
+*This is the only dungeon in the game where the boss' location was revealed at the beginning even before obtaining the [[Dungeon Map]] and [[Compass]]. This was shown inside a room on the left side of the entrance hall.
+*The 3-block stacked statue concealing the door in the main entrance that requires the Megaton Hammer could be a reference to the Japanese game ''Daruma Otoshi''. These statues are also found in one room in the [[Gerudo Training Ground]].
+*It is unknown what [[Darunia]] has done inside the boss room after meeting Link, though it is presumed he attempted to battle [[Volvagia]] but failed.
+
+=== [[The Legend of Zelda: Spirit Tracks|''Spirit Tracks'']] ===
+*"Mountain Temple", The European name of the {{Term|ST|Fire Temple}}, may provide an explanation for why the [[Rabbit]]s in the Fire Realm are called Mountain Rabbits and not ''Fire'' Rabbits.
+
+=== [[The Legend of Zelda: Tri Force Heroes|''Triforce of Heroes'']] ===
+*The {{Term|TFH|Fire Temple}} was one of the {{Plural|TFH|Level}} included in the E3 demo and in the distributed demo version. In the former, it was known as '''The Volcano'''.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:FireTemple.jpg|Entering the Fire Temple from {{OoT|-}}
+File:Hammer.jpg‎|Link obtaining the Megaton Hammer from {{OoT|-}}
+File:OoT Lava.png|The room full of lava and a bridge to cross it from {{OoT|-}}
+File:Fireoot.jpg|Dungeon Map of the Fire Temple from {{OoT|-}}
+File:OoT Fire Temple Development Plan.jpg|Fire Temple development plan from {{OoT|-}}
+File:STFire.png|The true height of the Fire Temple, shown with a space to represent the spacing of the two [[Nintendo DS]] screens from {{ST|-}}
+File:Fire Temple Force Gem.png|The Force Gem of the Fire Temple from {{ST|-}}
+</gallery>
+
+== "Fire Temple Theme" ==
+[[File:Fire Temple theme (revised).mp3|center|thumb|''Ocarina of Time'' (v1.2 version)]]
+
+==See Also==
+* {{Term|OoT3D|Fire Temple (Theme)|link|display=Fire Temple (Theme)}}
+
+{{Notes}}
+{{Ref}}
+{{DungeonNav2|OoT}}
+{{Categories
+ |Temples, Cultural References
+ |dungeons= OoT, OoT3D, ST, TotK
+ |levels= TFH
+ |locations= OoT, OoT3D, ST, TotK
+}}

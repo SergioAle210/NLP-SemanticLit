@@ -1,0 +1,100 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork OoT= [[File:OoT Morpha Artwork.png|320x320px]]
+ |Model OoT= [[File:OoT Morpha Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Morpha Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Morpha Model.png|320x320px]]
+}}
+|caption= 
+|game= OoT
+|other= 
+|title= Giant Aquatic Amoeba<ref name="E 194"/>
+|race= 
+|pronouns= 
+|dungeon= [[Water Temple (Ocarina of Time)|Water Temple]]
+|habitat= [[Lake Hylia]]
+|weakness= [[Longshot]]
+|reward= 
+{{Icon List|OoT3D|
+ * Heart Container
+ * Water Medallion
+}}
+|exp= 
+|theme= 
+|health= {{HP|OoT|20}}
+|attack= 
+{{List|
+ * Whip {{Small|(1 Heart)}}
+ * Grab {{Small|(1 3/4 Hearts)}}
+}}
+|strategy= {{StrategyWiki|The Legend of Zelda: Ocarina of Time/Water Temple#Boss: Morpha|Morpha}}
+|voiceactor= 
+}}
+'''Morpha''' is the [[Boss]] of the [[Water Temple (Ocarina of Time)|Water Temple]] in {{OoT}}. Created by [[Ganondorf]] after he acquired the [[Triforce of Power]], it has complete control over the water in the room in which it resides, moving swiftly through it and creating long amoeba-like "limbs".<ref>{{Cite|Morpha<br/>Master of the Water Temple. It has absolute control of water. Pull out its nucleus and attack it!|Navi|OoT}}</ref> This monster is responsible for the receded state of [[Lake Hylia]] as well as the frozen condition of [[Zora's Domain]].<ref>{{Cite|This ice is created by an evil curse... The monster in the Water Temple is the source of the curse.|Sheik|OoT}}</ref>
+
+Morpha itself is not the transparent muscle-like tentacle as its {{OoT|-}} official artwork suggests, but the vulnerable red nucleus often safeguarded under the muck of the thick liquid. This nucleus can manipulate the water in any way it likes, creating one (and eventually two) large water tentacles as the battle progresses. 
+
+{{Terminology
+|-
+| {{Term/Store|Morpha||Series, OoT, OoT3D}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 194"/>
+ * {{OoT3D}}<ref name="E 194"/>
+}}
+}}
+
+==Characteristics==
+{{Descriptions OoT}}
+As Link enters the boss room, [[Princess Ruto]] warns him that the water in the room is abnormal.<ref>{{Cite|Link! Look out! That isn't normal water over there!|Princess Ruto|OoT}}</ref> After Link jumps onto one of the four pillars above the pool of water, Morpha slowly makes its way to Link and emerges from the water behind him to his surprise, initiating the battle.
+
+Morpha's primary mode of attack is to form a tentacle that it uses to attempt to grab and shake Link before throwing him across the room. If caught, Link's health will slowly deplete as he is shaken, and he will sustain further injury if thrown into the spikes lining much of the walls in the room. Further into the battle, Morpha will be able to summon a second tentacle that it can use to distract Link while also being able to grab and throw him. If Link falls into the water below, its nucleus will charge at him, though its tentacles will not appear.
+
+While Morpha is inside its tentacle, Link must use the [[Longshot]] to extract its nucleus, which will evaporate its tentacle and briefly leave it vulnerable to attack by Link's [[Sword]] before it escapes back into the water. 
+
+Upon defeat, Morpha's nucleus rises into the air while spasming before bursting in a spray of water. Its orphaned body then desperately attempts to drain and escape through the ceiling only to culminate in a single water droplet that drops to the floor, rewarding Link with a [[Heart Container]] and the [[Water Medallion]] from Ruto.<ref>{{Cite|You received the Water Medallion! Ruto awakens as a Sage and adds her power to yours!|N/A|OoT}}</ref>
+
+==Trivia==
+{{Not Trivia}}
+*[[Din's Fire]] is capable of evaporating Morpha's tentacles.
+*Morpha can be defeated very easily by using the Longshot to pull it, and continuing to do so when approaching the corners of the room to avoid it escaping. Link must repeatedly slash at it while trapped in the corner to defeat the boss quickly, and often injury-free.
+*If Link stays in the corner of the arena between the spike panels, Morpha will be unable to successfully grab him.
+*After Morpha is defeated, [[Lake Hylia]] is restored to its former water-filled state. However, [[Zora's Domain]] remains frozen.
+*Contrary to popular belief, Princess Ruto is the one who warns Link about the strange water in Morpha's room, not [[Navi]]. In the Japanese version, this is more evident as the speech patterns of Ruto and Navi differ, in that Ruto tends to end her sentences with the word ゾラ.<ref>{{Cite|リンク！気をつけるゾラ！！それは　ただの水ではない！|translation= Link! Be careful!! This is not ordinary water!|Princess Ruto|OoT}}</ref> Also, Navi's text is generally blue, but the text for this dialogue is completely white.
+*Prior to the official release of {{OoT|-}}, Morpha was called "Water Spirit" on the official Nintendo website.<ref>{{Cite Web|quote= The Water Spirit shakes Link up. |retrieved= March 29, 2014 |url= http://web.archive.org/web/19990203182916/http://www.nintendo.com/n64/zelda64/horseman.html |title=Two New Boss Characters! |site= Nintendo |type=archive}}</ref>
+
+==Nomenclature==
+Morpha's name comes from the Ancient Greek word ''morphḗ'' (form, shape).
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:OoT Morpha Alternate Artwork.jpg|{{Game Label|{{OoT|-}}}}Alternate artwork of Morpha
+File:OoT Morpha.jpg|{{Game Label|{{OoT|-}}}}Morpha grabbing Link
+File:OoT3D Nucleus Model.png|{{Game Label|{{OoT3D|-}}}}Morpha's Nucleus
+File:OoT3D Morpha Introduction.png|{{Game Label|{{OoT3D|-}}}}Morpha's introduction
+File:Morpha Screenshot OoT3D.jpg|{{Game Label|{{OoT3D|-}}}}Morpha
+File:OoT3D Morpha Thumbnail.png|{{Game Label|{{OoT3D|-}}}}Morpha's Boss Challenge thumbnail
+File:OoTNS2 Morpha.png|{{Game Label|{{OoTNS2|-}}}}Morpha grabbing Link
+File:OoTNS2 Morpha Introduction.png|{{Game Label|{{OoTNS2|-}}}}Morpha's introduction
+</gallery>
+
+==See Also==
+{{See Also|
+ * Morpheel
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 194">{{Cite Book|quote= |book= E |publisher= |page= 194}}</ref>
+
+
+}}
+
+{{Bosses|OoT}}
+{{Categories
+ |Tentacular Enemies, Water-Related Enemies
+ |bosses= OoT, OoT3D
+}}

@@ -1,0 +1,109 @@
+{{infobox mission
+|name=Architectural Espionage
+|game=SA
+|for=No Boss
+|image=ArchitecturalEspionage-GTASA.png
+|size=400x400px
+|caption=[[Wu Zi Mu]] asks [[Carl Johnson]] about the blueprints to [[Caligula's Palace]]
+|location=[[Las Venturas]], [[San Andreas in GTA III Era|San Andreas]]
+|reward=[[Respect]]
+|unlocks=[[Key to Her Heart]]
+|unlockedby=[[Explosive Situation]]
+}}
+'''Architectural Espionage''' is a playably voluntary but canonically mandatory storyline mission in [[Grand Theft Auto: San Andreas]], given to [[protagonist]] [[Carl Johnson|Carl "CJ" Johnson]] by blind Chinese-American [[San Fierro Triads]] leader [[Wu Zi Mu|Wu Zi "Woozie" Mu]] from the administrative staff suite of [[The Four Dragons Casino]] in [[Las Venturas]].
+
+==Mission==
+Carl has recently arrived in [[Las Venturas]], and is already making an impact on this new locale. Woozie and he are planning to take down the rival [[Caligula's Palace]] Casino. The first step in his preparations to rob Caligula's main vault is to photograph blueprints of the building's layout. For doing this, Carl acquires a camera and heads down to the [[Las Venturas City Planning Department|City Planning Department]], which houses the blueprints under heavy security. By creating a diversion, Carl obtains an illegal photograph of the blueprints, and blasts his way out of the building. After evading the pursuing authorities, Carl returns the film to the Four Dragons Casino to be developed.
+
+==Script==
+'''CJ''': (''calls out in a dark room'') Woozie?
+
+'''Woozie''': Oh, Carl.
+
+'''CJ''': You could at least turn the lights on.
+
+'''Woozie''': Oh, I thought I had. This window here must let some light in.
+
+'''CJ''': (''turns on the lights'') Yeah, this is perfect right here. This is where we're going to plan the heist at.
+
+'''Woozie''': Anyone else coming?
+
+'''CJ''': No.
+
+'''Woozie''': Couldn't we have done this in my office?
+
+'''CJ''': You gotta have a secret place to plan shit like this, that's just how it's done!
+
+'''Woozie''': OK, OK, I see where you're coming from. So what do we do?
+
+'''CJ''': I guess we got to make a plan.
+
+'''Woozie''': Speaking of plans, do you have the layout to Caligula's Casino?
+
+'''CJ''': Shit. No. I guess I gotta go get one.
+
+'''Woozie''': Meeting adjourned?
+
+'''CJ''': Meeting adjourned.
+
+'''(''Carl heads to the Planning Department Headquarters after acquiring a camera and goes up to the receptionist.'')'''
+
+'''Receptionist''': May I help you, sir?
+
+'''CJ''': I'd like to see the architectural plans for (the) Caligula's Casino, please.
+
+'''Receptionist''': Okay, sir. Are you aware that (the) reproduction of such plans is prohibited?
+
+'''(''Carl may give a positive or a negative reply.'')'''
+
+'''CJ''': (''in positive reply'') Yeah, I'm only after some reference. (''in negative reply'') No, I didn't know that, why?
+
+'''Receptionist''': (''in positive reply'') You will find the plans on the top floor. (''in negative reply'') Well, we don't want to be party to preparation of a daring raid on the count room. Does Sir understand?
+
+'''CJ''': (''if he agrees to the question in the negative reply'') Oh, of course, the owners wouldn't want to take a gamble on that happening.
+
+'''Receptionist''': (''if Carl gives a positive response to the question'') I'll buzz (open the door) the door open. It's directly by the main entrance.
+
+'''(''Carl causes a distraction by blowing up two old air-cons.'')'''
+
+'''Guard''': Everybody out! This is not a drill.
+
+'''(''Carl succeeds in photographing the blueprints to Caligula's Casino and tries to escape, when the scene cuts to the manager speaking to a few cops.'')'''
+
+'''Manager''': Where are those damn firemen?
+
+'''(''Carl fights off the police and the security guards, and makes his way back to The Four Dragons Casino's garage, handing the film over to Woozie's assistant Guppy.'')'''
+
+'''CJ''': Get this film developed for Woozie.
+
+'''Guppy''': You got it, CJ. Good work!
+
+==Reward==
+The reward for completing the mission is increased [[Respect]]. The mission [[Key to Her Heart]] is unlocked.
+
+==Gallery==
+<gallery width="auto" perrow="3" style="font-size:95%; padding:0;" widths="250">
+File:LasVenturasCityPlanningDepartment-GTASA-exterior.jpg|The [[Las Venturas City Planning Department]].
+File:ArchitecturalEspionage-GTASA2.png|[[Carl Johnson]] talks to the receptionist of the [[Las Venturas City Planning Department]].
+File:ArchitecturalEspionage-GTASA3.png|CJ sets a fire to create a diversion.
+File:ArchitecturalEspionage-GTASA4.png|The blueprints to [[Caligula's Palace]].
+File:ArchitecturalEspionage-GTASA5.png|CJ shoots his way out of the [[Las Venturas City Planning Department]] building.
+File:ArchitecturalEspionage-GTASA6.png|CJ gives [[Guppy]] the film outside [[The Four Dragons Casino]].
+</gallery>
+
+==Video walkthrough==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTASeriesVideos
+|-
+|{{youtube|video1=COgUja3k6yk}}
+|}
+</center>
+
+{{Navboxes
+|title= Navigation
+|list1={{missions|state=collapsed}}
+{{Gtasa missions|state=collapsed}}
+}}
+
+[[Category:Missions in GTA San Andreas]]

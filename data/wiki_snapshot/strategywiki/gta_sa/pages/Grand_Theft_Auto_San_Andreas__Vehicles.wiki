@@ -1,0 +1,1010 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+Legend for mods: 
+* TF=Transfender mod shops
+* WA=Wheel Angels
+* LR=Low rider mod shop
+* c=color
+* h=hood
+* e=exhausts
+* l=lights
+* r=roof
+* s=spoilers
+* n=nitro
+* w=wheels
+* cs=car stereo
+* h=hydraulics
+* v=vents
+* ss=side skirts
+
+==2-Door Cars==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+![[Image:gtasa vehicle blista_compact.png|Blista Compact|150px]]
+|Blista Compact||
+* '''Seats''': 2
+* '''Modeled after''': 1984-1987 Honda CRX
+|-
+![[Image:gtasa vehicle bravura.png|Bravura|150px]]
+|Bravura||
+* '''Seats''': 2
+* '''Modeled after''': 1986-1991 Buick Skylark
+|-
+![[Image:Gtasa_vehicle_buccaneer.png|Buccaneer|150px]]
+|Buccaneer||
+* '''Doors''': 2
+*'''Modeled after''': 1970-1972 Chevrolet Monte Carlo
+|-
+![[Image:gtasa vehicle cadrona.png|Cadrona|150px]]
+|Cadrona||
+* '''Seats''': 2
+* '''Modeled after''': 1988-1994 Chevrolet Cavalier Coupe
+|-
+![[Image:gtasa vehicle clover.png|Clover|150px]]
+|Clover||
+* '''Seats''': 2
+* '''Modeled after''': 1970 Ford Torino
+|-
+![[Image:Gtasa_vehicle_esperanto.png|Esperanto|150px]]
+|Esperanto||
+* '''Doors''': 2
+*'''Modeled after''': 1978-1985 Cadillac Eldorado
+|-
+![[Image:gtasa vehicle feltzer.png|Feltzer|150px]]
+|Feltzer||
+* '''Seats''': 2
+* '''Modeled after''': Mercedes-Benz SL-Class
+* '''Top Speed''': 200 km/h
+|-
+![[Image:gtasa vehicle fortune.png|150px|Fortune]]
+|Fortune||
+* '''Seats''': 2
+* '''Mods''': Trans Fender 
+* '''Modeled after''': Early 90's Ford Thunderbird
+|-
+![[Image:gtasa vehicle hermes.png|150px|Hermes]]
+|Hermes||
+* '''Seats''': 2
+* '''Modeled after''': Mercury Coupe (ca.1950)
+|-
+![[Image:gtasa vehicle hustler.png|150px|Hustler]]
+|Hustler||
+* '''Seats''': 2
+* '''Modeled after''': 1932 Ford Model B
+|-
+![[Image:gtasa vehicle majestic.png|150px|Majestic]]
+|Majestic||
+* '''Seats''': 2
+* '''Modeled after''': 1978-1988 Buick Regal
+|-
+![[Image:gtasa vehicle manana.png|150px|Manana]]
+|Manana||
+* '''Seats''': 2
+* '''Modeled after''': 1991-1994 Dodge Shadow America
+|-
+![[Image:gtasa vehicle previon.png|150px|Previon]]
+|Previon||
+* '''Seats''': 2
+* '''Modeled after''': 1983-1987 Honda Prelude Coupe
+|-
+![[Image:gtasa vehicle sabre.png|150px|Sabre]]
+|Sabre||
+* '''Seats''': 2
+* '''Modeled after''': 1978-1981 Oldsmobile Cutlass
+* '''Top Speed''': 160 km/h
+|-
+![[Image:gtasa vehicle stallion.png|150px|Stallion]]
+|Stallion||
+* '''Seats''': 2
+* '''Modeled after''': 1969 Pontiac GTO
+Comes in convertible and hardtop variants. Fast in a straight line but poor cornering.
+|-
+![[Image:gtasa vehicle tampa.png|150px|Tampa]]
+|Tampa||
+* '''Seats''': 2
+* '''Modeled after''': 1965-69 Chevrolet Corvair
+|-
+![[Image:gtasa vehicle virgo.png|150px|Virgo]]
+|Virgo||
+* '''Seats''': 2
+* '''Modeled after''': Lincoln Continental Mark IV Coupe
+|}
+
+==4-Door Cars==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+![[Image:gtasa vehicle admiral.png|150px|Admiral]]
+|Admiral||
+* '''Seats''': 4
+* '''Modeled After''': Mercedes-Benz W123
+|-
+![[Image:Gtasa_vehicle_cabbie.png|Cabbie|150px]]
+|Cabbie||
+* '''Doors''': 4
+* '''Mission''': [[Grand Theft Auto: San Andreas/Taxi Driver|Taxi Driver]] (better done using a Taxi though)
+* '''Modeled after''': Checker Taxi
+|-
+!
+|Elegant||
+* '''Doors''': 4
+* '''Modeled After:''' 1991-1992 Oldsmobile Custom Cruiser
+|-
+!
+|Emperor||
+* '''Doors''': 4
+* '''Mods''': TF c v e l n r s ss w cs h
+|-
+!
+|Intruder||
+* '''Doors''': 4
+* '''Modeled after''': 1991-1992 Chevrolet Lumina
+|-
+!
+|Glendale||
+* '''Seats''': 4
+* '''Modeled after''': 1951-1959 Plymouth Belvedere
+|-
+!
+|Greenwood||
+* '''Seats''': 4
+* '''Modeled after''': 1983-1989 Chrysler Fifth Avenue
+|-
+!
+|Merit||
+* '''Doors''': 4
+* '''Modeled after''': 1988-1991 Mercury Grand Marquis
+|-
+!
+|Nebula||
+* '''Doors''': 4
+* '''Modeled after''': 1982-1988 Buick Century
+|-
+!
+|Oceanic||
+* '''Doors''': 4
+* '''Modeled After'''': 1957 Chevrolet Bel-Air
+|-
+!
+|Premier||
+* '''Doors''': 4
+* '''Modeled after''': 1991-1992 Chevrolet Caprice
+|-
+!
+|Primo||
+* '''Doors''': 4
+* '''Modeled after''': 1987-1992 Toyota Camry
+|-
+!
+|Sentinel||
+* '''Doors''': 4
+* '''Modeled after''': '91 BMW 525i
+|-
+!
+|Stafford||
+* '''Doors''': 4
+* '''Modeled after''': 1970's Rolls Royce Silver Shadow
+|-
+!
+|Stretch||
+* '''Doors''': 4
+* '''Modeled after''': 1985 Cadillac DeVille Stretch Limousine
+|-
+!
+|Sunrise||
+* '''Modeled after''': 1995 Saab 9000 CSE Aero
+|-
+![[Image:Gtasa_vehicle_taxi.png|Taxi|150px]]
+|Taxi||
+* '''Doors''': 4
+* '''Mission''': [[Grand Theft Auto: San Andreas/Taxi Driver|Taxi Driver]]
+*'''Modeled after''': 1991-1992 Chevrolet Caprice (same model as Premier)
+|-
+!
+|Vincent||
+|-
+!
+|Washington||
+|-
+!
+|Willard||
+* '''Modeled after''': 1988-1992 Dodge Dynasty
+|}
+
+==Lowriders==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+![[Image:Gtasa_vehicle_blade.png|Blade|150px]]
+|Blade||
+* '''Doors''': 2
+* '''Modeled after''': 1965-1970 Chevrolet Impala Convertible
+|-
+![[Image:Gtasa_vehicle_broadway.png|Broadway|150px]]
+|Broadway||
+* '''Doors''': 2
+* '''Mission''': [[Grand Theft Auto: San Andreas/Pimping|Pimping]]
+* '''Modeled after''': 1946-1947 Cadillac Series 62 Convertible
+|-
+![[Image:Gtasa_vehicle_remington.png|Remington|150px]]
+|Remington||
+* '''Doors''': 2
+*'''Modeled after''': Lincoln Continental Mark III
+|-
+![[Image:Gtasa_vehicle_savanna.png|Savanna|150px]]
+|Savanna||
+* '''Doors''': 4
+*'''Modeled after''': 1963 Chevrolet Impala Convertible, the front 1964 Chevy Impala
+
+After completing [[Grand_Theft_Auto:_San_Andreas/Puncture_Wounds|Puncture Wounds]], one spawns inside Wang Cars. Also, Cesar's car. A good car for doing drive-bys since it's four-door covertible.
+|-
+![[Image:Gtasa_vehicle_slamvan.png|Slamvan|150px]]
+|Slamvan||
+* '''Doors''': 2
+*'''Modeled after''': 1968-1972 GMC truck that's been chopped and shortened
+|-
+![[Image:Gtasa_vehicle_tahoma.png|Tahoma|150px]]
+|Tahoma||
+* '''Doors''': 4
+* '''Modeled after''': 6th generation (1982-1986) Pontiac Bonneville 
+
+Typical Ballas' Car. Expect to find these cruising around their territory.
+|-
+![[Image:Gtasa_vehicle_tornado.png|Tornado|150px]]
+|Tornado||
+* '''Doors''': 2
+*'''Modeled after''': 1958 Chevrolet Bel Air, front 1957 Chevrolet Bel Air
+|-
+![[Image:Gtasa_vehicle_voodoo.png|Voodoo|150px]]
+|Voodoo||
+* '''Doors''': 2
+*'''Modeled after''': 1960 Chevrolet Bel Air
+|}
+
+==Sports Cars==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Alpha||
+* '''Modeled after''': 1990-1992 Dodge Stealth
+|-
+![[Image:Gtasa_vehicle_banshee.png|Banshee|150px]]
+|Banshee||
+* '''Modeled after''': 1992 Dodge Viper. 
+
+Excellent acceleration, good speed. Not very nimble. One can be found near the Gym in San Fierro. 
+|-
+!
+|Buffalo||
+* '''Doors''': 2
+* '''Modeled after''': 1982-1992 Chevrolet Camaro with front scoop
+
+Heavy car, fast and with excellent traction. Probably the best choice for off-road racing, one can always be found at Catalina's cabin.
+|-
+![[Image:Gtasa_vehicle_bullet.png|Bullet|150px]]
+|Bullet||
+* '''Modeled after''': Ford GT40
+
+Fragile but otherwise fun sports car with good sex appeal, acceleration and handling. One can be found in a lot between Doherty and Easter Basin Docks in San Fiero, or in Doherty after recieving all silver medals (or better) at the driving school.
+|-
+!
+|Cheetah||
+* '''Modeled after''': Ferrari Testarossa
+
+Very fast and very nimble. Excellent racing car.
+|-
+!
+|Comet||
+* '''Modeled after''': Porsche 911
+
+Comes in convertible and hardtop versions. A small car and fast but steering can be twitchy.
+|-
+![[File:GTA_SA_Elegy.jpg|"Elegy"|150px]]
+|Elegy||
+*'''Modeled after''': Nissan Skyline R33/R34 
+
+After completing [[Grand_Theft_Auto:_San_Andreas/Puncture_Wounds|Puncture Wounds]], one spawns inside Wang Cars.
+|-
+!
+|Euros||
+* '''Modeled after''': Mid 1990's Nissan 300ZX. 
+
+One can be found under the Sphinx in Las Venturas after completing List Two in San Fierro [[Grand_Theft_Auto:_San_Andreas/Import/Export|Import/Export]].
+|-
+!
+|Flash||
+*'''Modeled after''':4th Generation Honda Civic DX
+|-
+!
+|Infernus||
+* '''Modeled after''': Acura/Honda NSX
+
+Fast but with excellent traction and therefore a viable choice for off-road racing but can be prone to very wide powerslides off-road as well as having poor off-road hill climbing abilities.
+|-
+!
+|Jester||
+* '''Modeled after''': 1995 Toyota Supra
+|-
+!
+|Phoenix||
+* '''Doors''': 2
+* '''Modeled after''': '79 Pontiac Trans-Am
+ Rare - Best way to get this is the races in san fierro, just drive it to a garage and then fail the race. 
+|-
+![[Image:Gtasa_vehicle_sultan.png|Sultan|150px]]
+|Sultan||
+* '''Doors''': 4
+* '''Mods''': WA c h e l r s n w cs h 
+
+AWD Subaru Impreza style, fast and easily controllable
+Most likely early Subaru Impreza WRX (hints being 4wd and stock hood scoop)
+
+San Fierro Triads favorite Vehicle. One can be found parked near Wu Zi Mu's place in SF. Also, after completing [[Grand_Theft_Auto:_San_Andreas/Puncture_Wounds|Puncture Wounds]], one spawns inside Wang Cars.
+|-
+!
+|Super GT||
+* '''Modeled after''': Mitsubishi 3000GT
+
+Fast but not much use because of its tendency to spin out. Excellent car for an expert driver but you might as well use the Cheetah. Found in Doherty after receiving all bronze medals in the driving school.
+|-
+!
+|Turismo||
+Looks like a Ferrari F40 with very large wing on the back, fast fast car
+|-
+!
+|Uranus||
+* '''Modeled after''': Saturn SC2
+
+After completing [[Grand_Theft_Auto:_San_Andreas/Puncture_Wounds|Puncture Wounds]], one spawns inside Wang Cars.
+|-
+!
+|Windsor||
+* '''Modeled after''': Jaguar E-Type
+
+Fast, classy, but tends to spin and burn.
+|-
+!
+|ZR-350||
+* '''Modeled after''': Late model (3rd generation) Mazda RX-7
+
+Looks a lot like the Banshee or the Cheetah but has slower acceleration and is very fragile
+|}
+
+==SUVs and Wagons==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Club||
+* '''Doors''': 2
+* '''Modeled after''': Volkswagen Golf
+|-
+!
+|Huntley||
+* '''Doors''': 4
+* '''Modeled after''': MkII Range Rover
+|-
+!
+|Landstalker||
+* '''Doors''': 4
+|-
+!
+|Mesa||
+* '''Doors''': 2
+* '''Modeled after''': Jeep (Wrangler) YJ 
+|-
+!
+|Patriot||
+* '''Doors''': 4
+* '''Modeled after''': US Army spec Hummer/Hum Vee
+
+Comes with or without a canopy for the rear tray. A very sturdy vehicle
+|-
+![[Image:Gtasa_vehicle_perennial.png|Perennial|150px]]
+|Perennial||
+* '''Doors''': 4
+Old and slowish station wagon
+|-
+!
+|Rancher||
+* '''Doors''': 2
+* '''Mods''': TF 2c h e l r s n w cs h 
+
+Bronco style SUV
+|-
+!
+|Regina||
+* '''Doors''': 4
+|-
+!
+|Romero||
+* '''Doors''': 2
+A Hearse (Coffin included!). Occasionally spawns near Hospitals.
+|-
+![[Image:Gtasa_vehicle_sandking.png|Sandking|150px]]
+|Sandking||
+* '''Doors''': 2
+Tricked out SUV Found under the Big Ear Radar Dish. Very good on off-road terrain, and quite sturdy too. 
+|-
+!
+|Solair||
+* '''Doors''': 4
+* '''Modeled After''': 1993 Ford Taurus wagon
+|-
+!
+|Stratum||
+* '''Doors''': 4
+Station wagon. Is very quick and good for street racing
+|}
+
+==Trucks==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Benson||
+|-
+!
+|Bobcat|| looks like a chevy s10 pickup
+|- 
+!
+|Boxville||
+* '''Mission''': [[Grand Theft Auto: San Andreas/Burglar|Burglar]] (''only black Boxville'')
+
+Slow, unstable but very heavy
+|-
+!
+|Mule||
+|-
+!
+|Picador||
+* '''Modeled after''': '68 Chevrolet El Camino or 75 holden sandman ute
+
+Can be found in Ryder's driveway.
+|-
+![[Image:Gtasa_vehicle_sadler.png|Sadler|150px]]
+|Sadler||
+Probably the best Pickup, with decent handling and speed.
+|-
+!
+|Securicar||
+|-
+!
+|Walton||
+|-
+!
+|Yankee||
+|-
+!
+|Yosemite||
+|}
+
+==Vans==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Berkley's RC Van||
+* '''Doors''': 2
+Same as Pony but with Berkley RC logo
+|-
+!
+|Burrito||
+* '''Doors''': 2
+*'''Modeled after''': Chevrolet Van
+Faster than the average Van
+|-
+!
+|Camper||
+* '''Doors''': 2
+*'''Modeled after''': Volkswagen T2
+The Mothership is a Camper with a unique paintjob.
+|-
+!
+|Journey||
+Large camper. One is parked at the top of Mount Chilliad.
+|-
+!
+|Moonbeam||
+* '''Doors''': 2
+*'''Modeled after''': Chevrolet Astro
+A minivan. Duh.
+|-
+!
+|Newsvan||
+* '''Doors''': 2
+virtually identical to the Pony except slightly more stable
+|-
+!
+|Pony||
+* '''Doors''': 2
+*'''Modeled after''': GMC Safari
+Tough car, average speed, prone to rolling
+|-
+!
+|Rumpo||
+* '''Doors''': 2
+|}
+
+==Industrial==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Cement Truck||
+This is a standard cement truck, complete with round mixer at the back.
+|-
+!
+|DFT-30||
+This is a flat bed truck. The bed at the back is completely flat except for a panel behind the cab.
+|-
+![[File:GTA_SA_Doser.png|"Doser"|150px]]
+|Dozer||
+This is a bulldozer. NumPad {{kbd|8}} and {{kbd|2}} operates the ram.
+|-
+![[File:GTA_SA_Dumper.jpg|"Dumper"|150px]]
+|Dumper||
+This is a dump truck. NumPad {{kbd|8}} and {{kbd|2}} operates the grille.
+|-
+!
+|Dune||
+Rally truck found outside Las Venturas stadium after completing [[Grand_Theft_Auto:_San_Andreas/Kickstart|Kickstart]].
+|-
+!
+|Flatbed||
+This is a heavy duty flatbed truck. The bed in the back is enclosed around all four sides.
+|-
+!
+|Forklift||
+Very similar to the golf cart except for the lifting fork
+|-
+!
+|Linerunner||
+A semi-trailer truck (tractor-trailer).
+|-
+!
+|Packer||
+A truck of the kind that car manufactures use to deliver their cars to dealerships. You can make jumps off of the back of these.
+|-
+!
+|Roadtrain||
+A semi-trailer truck (tractor-trailer) with an extra large cow catcher in front.
+|-
+!
+|Sweeper||
+Single-seat street cleaning vehicle, can be found in north Venturas. Unsexy.
+|-
+!
+|Tanker||
+A semi-trailer truck (tractor-trailer).
+|-
+!
+|Towtruck||
+An older style tow truck that is basically a pickup with a winch at the back.
+|-
+!
+|Trashmaster||
+A garbage truck. It's very big, and very slow.
+|-
+!
+|Utility Van||
+This is basically a pickup truck but with an enclosed storage area at the back.
+|}
+
+==Emergency==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+![[Image:Gtasa_vehicle_ambulance.png|Ambulance|150px]]
+|Ambulance||
+* '''Seats''': 4
+* '''Mission''': [[Grand Theft Auto: San Andreas/Paramedic|Paramedic]]
+|-
+![[Image:Gtasa vehicle firetruck.png|Fire Truck|150px]]
+|Fire Truck||
+* '''Doors''': 2
+* '''Mission''': [[Grand Theft Auto: San Andreas/Firefighter|Firefighter]]
+
+Two variants of Fire Truck exist. One is the standard truck with water cannon, the other one is a ladder version which only spawns behind San Fierro Fire Station. Firefighter mission cannot be performed in the ladder version.
+|}
+
+==Law Enforcement==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Barracks||
+* '''Doors''': 2
+
+Army truck. Usually comes packed with damned weekend soldiers. Will be sent after you when you acquire 6 wanted stars.
+|-
+!
+|Enforcer||
+* '''Doors''': 2
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Vigilante]]
+
+SWAT truck. Will be sent after you when you acquire 4 wanted stars. Entering one will provide you a Body Armour.
+|-
+![[File:GTA_SA_fbi_rancher.png|"FBI Rancher"|150px]]
+|FBI Rancher||
+* '''Doors''': 4
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Vigilante]]
+
+Black Rancher with dash-mount police light and siren. Siren is activated by a quick tap of the horn; activated siren causes other cars to move to the side. Will be sent after you when you acquire 5 wanted stars.
+|-
+![[Image:Gtasa_vehicle_HPV-1000.png|HPV-1000|150px]]
+|HPV-1000||
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Vigilante]]
+
+Police Bike. Can be found anywhere. Has sirens.
+|-
+!
+|Police||
+* '''Doors''': 4
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Vigilante]]
+
+Police car. Has sirens activated by a quick tap of the horn; activated siren causes other cars to move to the side. Different texture depending on island of origin (Los Santos, San Fiero, or Las Venturas PD).
+|-
+![[Image:Gtasa_vehicle_police_maverick.png|Police Maverick|150px]]
+|Police Maverick||
+Police helicopter. Will be sent after you when you acquire 3 wanted stars. Vigilante missions cannot be performed in this vehicle. 
+
+Spawns on the rooftop of LSPD Headquarters after completing mission [[Grand_Theft_Auto:_San_Andreas/Learning_to_Fly|Learning to Fly]]. It can be reached by using Jetpack or Helicopter, or by jumping from a plane above LSPD HQ.
+|-
+!
+|Ranger||
+* '''Doors''': 2
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Vigilante]]
+
+Police car used by Bone County police. Has sirens activated by a quick tap of the horn; activated siren causes other cars to move to the side. 
+|-
+![[File:GTA_SA_Rhino.png|Rhino|150px]]
+|Rhino||
+* '''Doors''': 1
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Vigilante]]
+A full size M1 Tank. It appears Area 69 in Bone County. Will be sent after you when you acquire 6 wanted stars. Instead of a handbrake, it has a setting which enables it to take more sharp turns than normally.
+|-
+![[Image:Gtasa_vehicle_SWAT.png|S.W.A.T. Truck|150px]]
+|S.W.A.T.||
+* '''Doors''': 2
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Vigilante]]
+Armored car seen in the final mission. Armed with a water cannon.
+|}
+
+==Bicycles==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+![[Image:Gtasa_vehicle_bike.png|Bike|150px]]
+|Bike||
+Typical bike found in country side
+|-
+![[Image:Gtasa_vehicle_bmx.png|Bmx|150px]]
+|BMX||
+BMX trick bike. Can be found in the overgrown yard across from CJ's Grove house. Good for doing bunny hops.
+|-
+![[Image:Gtasa_vehicle_mountainbike.png|Mountain bike|150px]]
+|Mountain Bike||
+Mountain bike. Can be found in the base and on top of Mountain Chilliad. Fastest Bike.
+|}
+
+==Motorcycles==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|BF-400||
+Older type of sporty bike. Appears in Marina, Los Santos, found after receiving all bronze medals or better in the biking school
+|-
+!
+|Faggio||
+* '''Modeled after''': Piaggio Vespa 150
+A motor scooter. Appears in Marina, Los Santos.
+|-
+!
+|FCR-900||
+*'''Modeled after''': Honda CBR900RR
+Very fast bike, excellent acceleration and good for jumps. Can be found at the bike school after receiving all silver or better at the biking school.
+|-
+![[Image:Gtasa_vehicle_freeway.png|Freeway|150px]]
+|Freeway||
+Harley Davidson. A biker-gang (aka Custom) type bike. Appears in the country side.
+|-
+![[Image:Gtasa_vehicle_HPV-1000.png|HPV-1000|150px]]
+|HPV 1000||
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Vigilante]]
+
+Police Bike. Can be found anywhere. Has sirens.
+|-
+![[Image:Gtasa_vehicle_NRG-500.png|NRG-500|150px]]
+|NRG-500||
+*'''Modeled after''': Honda NSR500
+
+Racing morotcycle. Fastest one in the game. Can be found by the export crane in San Fierro, and in a parking garage in Los Santos. It can also be found at the bike school after recieving all gold.
+|-
+![[Image:Gtasa_vehicle_pizzaboy.png|Pizzaboy|150px]]
+|Pizzaboy||
+Faggio used for [[Grand Theft Auto: San Andreas/Las Venturas Courier|Las Venturas Courier]] mission. There is a uniquely colored green Pizzaboy if you destroy Jizzy's Broadway in the mission "Ice Cold Killa".
+|-
+![[Image:Gtasa_vehicle_PCJ-600.png|PCJ-600|150px]]
+|PCJ-600||
+Sporty motorcycle featured in Vice City. This is a good choice for attempting jumps and stunts and is quite fast. It tends to skid on grass however and the front wheel will often rear up when accelerating hard from a stop.
+|-
+!
+|Quadbike||
+A bike with 4 wheels
+|-
+!
+|Sanchez||
+Dirt Bike. Can be found in any country side. Extremely forgiving about jumps and falls. Poor turning circle but probably the best acceleration and traction off-road.
+|-
+![[Image:Gtasa_vehicle_wayfarer.png|Wayfarer|150px]]
+|Wayfarer||
+* '''Modeled after''': Honda Gold Wing
+Touring bike, heavy, slow aceleration and stable
+|}
+
+==Boats==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Coastguard||
+A boat that's just basically a hull with no deck. Sort of Boston Whalerish
+|-
+!
+|Dinghy||
+An inflatable raft.
+|-
+!
+|Jetmax||
+Cigarette boat. One of the faster boats.
+|-
+!
+|Launch||
+|-
+!
+|Marquis||
+Sailing boat with diesel engine. Available at the docks in San Fiero.
+|-
+!
+|Predator||
+Police patrol boat
+|-
+!
+|Reefer||
+Typical fishing boat
+|- 
+!
+|Squalo||
+|-
+!
+|Speeder||
+|-
+!
+|Tropic||
+A large yacht with a two level deck.
+|}
+
+==Airplanes==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Andromada||
+It is a huge passenger and loader airplane similar to a Lockheed C5 Galaxy. It is bigger than the AT-400. It is not accessible through a code.
+|-
+![[File:GTA_SA_AT400.jpg|AT-400|150px]]
+|AT-400||
+Gigiantic passenger plane that resembles a 737. Spawns randomly in the big hangar in Las Venturas. It can only be entered in it's original hangar, as its door is high from the ground. It can also be entered at the Los Santos airport and any other airport that has boarding stairs.
+|-
+![[File:GTA_SA_Beagle.png|Beagle|150px]]
+|Beagle||
+Small passenger/cargo plane based on the Britten-Norman Islander
+|-
+![[File:GTA_SA_Cropduster.png|Cropduster|150px]]
+|Cropduster||
+Pesticide spreading plane. Found on top of the hill southeast of San Fierro. Sub-mission button activates/deactivates the duster. Resembles the Grumman Agcat.
+|-
+!
+|Dodo||
+Motorplane. Spawns in all airports.
+|-
+![[Image:Gtasa_vehicle_hydra.png|Hydra|150px]]
+|Hydra||
+* '''Modeled after''': AV-8b Harrier II (USMC version, not Royal Navy verion)
+
+Spawns in Area 69. Found aboard the assault carrier in Easter Basin, and at your air strip upon completing the [[Grand Theft Auto: San Andreas/Vertical Bird|Vertical Bird]] mission.
+|-
+!
+|Nevada||
+Prop cargo plane based on a Douglas DC-3 (The DC-3 was sometimes called the "Dakota")
+|-
+![[Image:Gtasa_vehicle_rustler.png|Rustler|150px]]
+|Rustler||
+* '''Modeled after''': P-51 Mustang
+
+Spawns in San Fierro Airport's hangar and at your air strip after completing the mission [[Grand Theft Auto: San Andreas/Learning to Fly|Learning to Fly]].
+|-
+!
+|Shamal||
+Private jet. Looks like a learjet. Found in all airports.
+|-
+![[File:GTA_SA_Skimmer.png|Cropduster|150px]]
+|Skimmer||
+Motorplane that can land on water. Spawns in the waters in the desert.
+|-
+![[File:GTA_SA_Stuntplane.png|Stuntplane|150px]]
+|Stuntplane||
+Stunt plane. Spawns at the airstrip upon getting all silvers or above in pilot school. Sub-mission button activates/deactivates the coloured smoke. This plane resembles the Pitts S-2.
+|}
+
+==Helicopters==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Cargobob||
+Looks like a Chinook with only one rotor assembly. Found on the helipad at the Army fuel dump.
+|-
+![[Image:Gtasa_vehicle_hunter.png|Hunter|150px]]
+|Hunter||
+* '''Mission''': [[Grand Theft Auto: San Andreas/Vigilante|Brown Thunder]]
+* '''Modeled after''': AH-64 Apache
+
+Though neither the Navy nor the Marines use the Apache, it can be found at the Naval Base in Easter Basin. It will spawn at your air strip if you complete the flying school with all gold medals.
+|-
+![[Image:Gtasa_vehicle_leviathan.png|Leviathan|150px]]
+|Leviathan||
+* '''Modeled after''': US/Royal Navy Sea King
+
+This helicopter spawns at Verdant Meadows airstrip after completing [[Grand Theft Auto: San Andreas/Up, Up and Away!|Up, Up and Away!]] It is also parked at all airports, and in Up, Up and Away, they have magnetic winches. This is harder to fly than most other helicopters, because it is very heavy and then tends to lose height rapidly. This helicopter is also capable of landing on water.
+|-
+!
+|Maverick||
+* '''Modeled after''': Bell Jet Ranger
+
+Possibly the world's most popular commercial aircraft. The cops and news people use this. Found at most heliports.
+|-
+!
+|News Chopper||
+The SanAndreas News Helicopter, if you get 3 or more stars, it may follow you around and film you for for the news.
+|-
+!
+|Police Maverick||
+Police helicopter. See [[Grand_Theft_Auto:_San_Andreas/Vehicles#Law Enforcement|Law Enforcement]].
+|-
+!
+|Raindance||
+* ''Modeled after'': Sikorsky UH-60
+In firedepartment or coastguard colors. Found at the San Fierro Airport, on top of San Fierro Medical Center, or at the lifeguard posts in Santa Maria Beach.
+|-
+![[File:GTA_SA_Seasparrow.png|Seasparrow|150px]]
+|Seasparrow||
+Old military chopper (think MASH) with floats. Comes with a mounted machine gun. Find this at the Sherman Dam or on the shores north of your air strip.
+|-
+!
+|Sparrow||
+Same as the Seasparrow but with skids (not floats) and no gun. Found on Madd Dogg's helipad.
+|}
+
+==Miscellaneous==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|Baggage||
+This is a baggage cart that can be found at airports.
+|-
+![[Image:Gtasa_vehicle_bandito.png|Bandito|150px]]
+|Bandito||
+An off-road buggy that looks like it came out of a Mad Max film. Very quick, but a little on the fragile side.
+|-
+![[Image:Gtasa_vehicle_bfinjection.png|BF Injection|150px]]
+|BF Injection||
+A dune buggy. It's good on sandy terrain, and has a very unique engine sound compared to other cars.
+|-
+!
+|Bloodring Banger||
+Available outside the stadium in San Fiero, very tough but prone to spinning out. Used in the [[Grand Theft Auto: San Andreas/Blood Bowl|Blood Bowl]] competition.
+|-
+!
+|Bus||
+Buses can be found in city areas. Can carry up to seven gang members, though it takes a lot of time for them to get on and off, since they do it one after the other.
+|-
+!
+|Brown Streak||
+A passenger train. You can jack it like other vehicles, but since it's on a track you it can only go forwards or backwards.
+|-
+!
+|Caddy||
+Golfcart. Very good on grass but prone to rolling
+|-
+!
+|Coach||
+The Coach is similar to the bus. Can carry up to seven gang members, though it takes a lot of time for them to get on and off, since they do it one after the other.
+|-
+!
+|Combine Harvester||
+Farming equipment. Can easily slice up anything that gets in its way. Like wheat, and humans.
+|-
+!
+|Freight||
+A freight train. You can jack it like other vehicles, but since it's on a track you it can only go forwards or backwards. Speed is also limited by the area where you are passing through, so you will slow down in some areas regardless of what you do. It is also impossible to destroy, so while you are in the train, you are immune to bullets etc. The train will also run over or push anything in it's way without taking damage itself. However the police can still pull you out and bust you if the train stops or slows down enough.
+|-
+!
+|Hotdog||
+The Hotdog resembles a VW Van with a hot dog wiener on top.
+|-
+!
+|Hotknife||
+
+|-
+!
+|Hotring Racer||
+This car resembles a NASCAR type racing car.
+|-
+![[File:GTA_SA_Jetpack.png|Jetpack|150px]]
+|Jetpack||
+Received after the [[Grand Theft Auto: San Andreas/Black Project|Black Project]] mission. It is avalable at your air strip after the mission. You are able to fire guns which can be dual wielded such as the mini sub machine guns or your normal pistols.
+|-
+!
+|Kart||
+This is a go-kart.
+|-
+!
+|Monster||
+Monster truck, excellent off-road, high driving position is good for spotting things away from the road, tough, can effectively drive straight over normal vehicles. Available in one of the trailer parks south of Los Santos, the one just outside of Rodeo. After winning the 8-Track Race Sub-mission it will spawn outside.
+|-
+!
+|Mower||
+Ride-on lawnmower found in Los Santos in a backyard near Madd Dogg's Mansion.
+|-
+!
+|Mr. Whoopee||
+This is an ice cream van. It has a giant iced lolly and whip cream swirl on top.
+|-
+!
+|Tractor||
+These are common in rural towns, but they are very slow.
+|-
+!
+|Tug||
+|-
+!
+|Vortex||
+This is a small hover craft.
+|}
+
+==RC Vehicles==
+{| {{prettytable|sortable=true}}
+!Image||Vehicle||Information
+|-
+!
+|RC Bandit||
+A remote controlled Race Car.
+|-
+!
+|RC Baron||
+A remote controlled Bi-Plane.
+|-
+!
+|RC Goblin||
+A remote controlled Helicopter.
+|-
+!
+|RC Raider||
+A remote controlled Helicopter.
+|-
+!
+|RC Tiger||
+A remote controlled Tank.
+|}
+
+==External links==
+* [http://www.gamefaqs.com/console/ps2/file/914983/33802 GamerLady's Vehicle Location Map] at GameFAQs.com
+* [http://www.gtaforums.com/index.php?showtopic=178311 modding "unmoddable" vehicles] at GTAForums.com
+* [http://www.gtaforums.com/index.php?showtopic=161004 Car Mod Reference Sheet] at GTAForums.com
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Unique Jumps|nextpage=Items}}

@@ -1,0 +1,208 @@
+{{Infobox Boss
+|image= {{Media
+ |Artwork OoT= OoT Twinrova Artwork 2.png
+ |Artwork OoS= OoS Twinrova Artwork.png
+ |Render OoT= 
+ |Render OoS= 
+ |Model OoT= OoT Twinrova Model.png
+ |Model OoS= 
+ |Sprite OoT= 
+ |Sprite OoS= Twinrovaoracles.png
+}}
+|caption= Twinrova artwork from {{OoT|-}}
+|title= Sorceress Sisters<br/>Sorceress of Flame<ref name="Sorceress of Flame">{{Cite|Twinrova Koume: Ganondorf's surrogate mother. Sorceress of Flame. She seems vulnerable to low temperature.|Navi|OoT}}</ref> <small>(Koume)</small><br/>Sorceress of Ice<ref name="Sorceress of Ice">{{Cite|Twinrova Kotake: Ganondorf's surrogate mother. Sorceress of Ice. She seems vulnerable to high temperature.|Navi|OoT}}</ref> <small>(Kotake)</small>
+|race= [[Gerudo]]<ref>{{Cite|We are the Gerudo witches, Twinrova!|Twinrova|OoA}}</ref>
+|gender= Female<ref name="Sorceress of Flame"/><ref name="Sorceress of Ice"/> <small>(Kotake and Koume)</small>
+|game= {{OoT}}<br/>{{MM}}<br/>{{OoS}}<br/>{{OoA}}<br/>{{TotK}}
+|other= {{OoT|Himekawa|-}}<br/>{{OoS|Himekawa|-}}<br/>{{OoA|Himekawa|-}}<br/>{{SSB4|3DS}}<br/>{{SSBU}}
+|era= [[Era of the Hero of Time]]<br/>[[Era of Light and Dark]]
+|dungeon= [[Spirit Temple]]<br/>[[Room of Rites]]
+|weakness= [[Mirror Shield]] {{Exp Game|OoT}}<br/>[[Scent Seed]]s or [[Mystery Seed]]s {{Exp Game|OoS, OoA}}
+|strategy= 
+|reward= [[Heart Container]]<br/>[[Spirit Medallion]]
+|voice actor= {{wp|Yayoi Jinguji}}
+|theme= 
+|health={{Infobox Game Blocks
+ |OoT= {{HP|OoT|24}}
+}}|attack(s)={{Infobox Game Blocks
+ |OoT= Fire Beam {{Small|(2 Hearts)}} <br/> Ice Beam {{Small|(2 Hearts)}}
+}}}}<blockquote>
+
+
+''“Come now boy, don’t be scared. I just want to play with you.”''</blockquote>
+'''Kotake''' and '''Koume''',<ref>{{Cite Book|quote= |book= E |publisher= |page= 239,{{Exp Game|OoT}} 244,{{Exp Game|MM}} 250,{{Exp Game|OoS}} & 254 {{Exp Game|OoA}}}}</ref> collectively known as {{Term/Store|Twinrova||Series, OoT, OoT3D, OoS, OoA}},<ref>{{Cite Book|quote= |book= E |page= 210 {{Exp Game|OoT, OoT3D, OoS, OoA}}}}</ref> are a recurring pair of [[Gerudo]] twin witches in {{TLoZ|Series}}. They are known as the Sorceress of Ice and the Sorceress of Flame, respectively.<ref name="Sorceress of Flame" /><ref name="Sorceress of Ice" /> As the surrogate mothers of [[Ganondorf]], the king of the Gerudo race as well as the human form of [[Ganon]], they are among his more devoted and powerful servants.<ref>{{Cite|Maybe we should make her work for the great Ganondorf for a little while longer! Ho ho ho! Then we should brainwash her again! Hee hee hee!|Twinrova|OoT}}</ref> In ''[[The Legend of Zelda: Ocarina of Time|Ocarina of Time]]'', they serve as the [[boss]] of the [[Spirit Temple]]. They later appear as non-malicious market employees in ''[[The Legend of Zelda: Majora's Mask|Majora's Mask]]'', but return as antagonists once again in the ''Oracle'' games.
+
+==Biography==
+==={{OoT|-}}===
+<!-- We show the combined form first because the other two are collapsed by default and it would look odd to show just Koume or Kotake. -->
+{{Navi
+|context1= Boss battle, second phase
+|quote1= {{Color|OoT White|Twinrova}}<br/>This is the combined form of Kotake and Koume. Turn their magic attack back at them!
+
+|context2= Boss battle, first phase
+|quote2= {{Color|OoT White|Twinrova Koume}}<br/>Ganondorf's surrogate mother. Sorceress of Flame. She seems vulnerable to low temperature.
+
+|context3= Boss battle, first phase
+|quote3= {{Color|OoT White|Twinrova Kotake}}<br/>Ganondorf's surrogate mother. Sorceress of Ice. She seems vulnerable to high temperature.
+}}
+
+In {{OoT}}, Kotake and Koume are a pair of 400-year-old identical twin witches who secretly lead the Gerudo tribe,<ref>{{Cite|But I'm only 400 years old!|Koume|OoT}}</ref><ref>{{Cite Book|quote=It could be said that the sisters, who have lived for over four hundred years, rule the tribe from behind the scenes.|book=HH|page=90}}</ref> and are the surrogate mothers of Ganondorf.<ref name="Sorceress of Flame"/><ref name="Sorceress of Ice"/> They maintain their long lives by using their powerful black magic.<ref>{{Cite Book|quote=Kotake and Koume, about four hundred years old at the time of Ganondorf's rise, are said to maintain their long lives by way of powerful magic.|book=E|publisher=Dark Horse Books|page=45}}</ref> They both have green, wrinkled skin and dress in black robes with white Gerudo patterns near the hems, with an obi-like belt around their waists. Kotake's association with ice is noted by a blue jewel on her forehead and blue slippers. The markings on her headband are in red with a blue border, whereas these distinctions are red on Koume to highlight her association with fire.
+
+They first appear outside the [[Spirit Temple]], just after Child [[Link]] obtains the [[Silver Gauntlets]]. They kidnap [[Nabooru]], who they subsequently brainwash and dressed in an [[Iron Knuckle]] armor.<ref>{{Cite|Like I suspected, Nabooru was brainwashed by Ganondorf's followers...|Carpenter|OoT}}</ref> After Link defeats her as an adult, he fights Kotake and Koume inside the boss room of the Spirit Temple. After being defeated, halos appear over their heads and they are absorbed by a column of light,<ref>{{Cite|Hey, Koume, what is that above your head?|Kotake|OoT}}</ref> presumably passing to the afterlife.
+
+Koume, likely the older twin sister, tends to act as the leader of the two, usually appearing first and deciding what their course of action should be. She is the first to introduce herself during the boss battle and is also the one who formulates the idea of combining with Kotake to transform into their combined more powerful form, Twinrova.
+
+====Characteristics====
+[[File:Twinrova battle.jpg|thumb|right|Link reflecting Kotake's ice magic attack using the Mirror Shield|281x281px]]
+The boss room where Twinrova is fought has four small platforms surrounding a larger central platform. Link must climb the central platform in order to trigger the battle. Kotake and Koume will emerge from the smaller platforms before circling above him, then flying off in different directions.
+
+Kotake and Koume fight using magic beams of the elements from which their respective powers are derived, with the powers from their brooms. If Link is struck by their attack, he will lose two [[Heart Container|Hearts]] alongside additional damage from the lava or ice on the ground. Using the [[Mirror Shield]], Link is able to redirect the attacks of one sister against the other. After taking a total of four hits, the pair will use their "Double Dynamite Attack" and merge into Twinrova, a large, elegant single being with the combined powers of both witches.<ref>{{Cite|OK, let's get serious now, Kotake!|Koume|OoT}}</ref><ref>{{Cite|Oh, OK, Koume.|Kotake|OoT}}</ref><ref>{{Cite|Kotake and Koume's Double Dynamite Attack!|Koume|OoT}}</ref><ref>{{Cite|Kotake and Koume's Double Dynamite Attack!|Kotake|OoT}}</ref>
+
+After the transformation, the Mirror Shield remains essential in winning the battle. Link is able to use it to absorb the power of both the fire and ice spells. He is required to collect three consecutive charges of one type of spell, which allows him to release the spell back at Twinrova to stun her. However, since Twinrova frequently alternates between fire and ice attacks, care must be taken to only block attacks of one type at a time. Blocking a fire attack followed by an ice attack, or vice versa, will cause all power currently stored in the Mirror Shield to dissipate and the energy attack will consequently overlap and strike Link as a penalty, similar to using the [[Hylian Shield]].
+
+Once Twinrova is injured by the reflected attack, she collapses on one of the four outlying platforms, allowing Link to attack with his [[Sword]]. After enough damage is dealt, Twinrova will be defeated, at which point she splits back into Kotake and Koume. The two witches intend to keep battling,<ref>{{Cite|Shoot! What a fresh kid! This time we'll get serious. Right, Kotake?|Koume|OoT}}</ref> but soon realize that they are already dead.<ref>{{Cite|What? Hey, Koume, what is that above your head? [referring to halo]|Kotake|OoT}}</ref><ref>{{Cite|I don't know, but you have one over your head too, Kotake! [referring to halo]|Koume|OoT}}</ref> They then enter a comical [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_Twinrova_Argue3.wav argument] about whether they were actually twins or not due to Kotake claiming she was two decades younger than Koume (380 years old) while ranting about how they're not ready to die in spite their long life,<ref>{{Cite|But I'm only 400 years old!|Koume|OoT}}</ref><ref>{{Cite|And I'm just 380 years old!|Kotake|OoT}}</ref><ref>{{Cite|We're twins! Don't try to lie about your age! You must have gone senile! Who are you calling senile?! Is that how you treat your older sister? We are twins! How can you be older? Keeeyaaah!! How heartless you are! How can you be so ungrateful? You're heartless!! You ungrateful...|Twinrova|OoT}}</ref> before both, with a [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_Twinrova_FinalCry.wav loud cry], eventually threatening the [[Hero of Time]] with coming back to haunt him.<ref name=":0">{{Cite|We'll come back to haunt you!|Twinrova|OoT3D}}</ref>
+
+==={{MM|-}}===
+The sisters reappear in {{MM}}, though in stark contrast to ''Ocarina of Time'', they are not evil and help Link on his journey.
+====Kotake====
+[[File:MM Kotake Model.png|left|100px]]
+In ''Majora's Mask'', Kotake is the owner of the [[Magic Hags' Potion Shop]],<ref>{{Cite|Magic Hags' Potion Shop. Preparing for business. Open 6 a.m. to 6 p.m.|Sign|MM}}</ref><ref>{{Cite|Gone out back to the woods on a little errand. -Kotake, The Manager|Sign|MM}}</ref> where she sells [[Red Potion|Red]], [[Green Potion|Green]], and [[Blue Potion]]s. However, she does not sell Blue Potions immediately, as she requires a [[Magic Mushroom]] in order to make them. If Link offers her one, she will make a free Blue Potion for him.<ref>{{Cite|What's that? You want a Blue Potion, do you? Well, you gave me a mushroom, so I'll give you one for free.|Kotake|MM}}</ref> The Blue Potion becomes available for purchase for the remainder of the three days.
+
+When Kotake hears that Koume was attacked by the [[Skull Kid]] in the [[Woods of Mystery]], she gives Link a [[Bottle]] of Red Potion to deliver to Koume.<ref>{{Cite|What's that?!? The Skull Kid got to Koume?!? That's ridiculous... If it's just the Skull Kid, then what harm could he possibly do? Oh!! Well, if that's true, then take this potion to her...|Kotake|MM}}</ref> If Link does not help the sisters after the [[First Day]], Kotake will leave her shop and proceed to the Woods of Mystery to search for Koume herself.
+
+====Koume====
+[[File:MM Koume Model.png|left|90px]]
+Koume is the guide of the [[Boat Cruise]].<ref>{{Cite|Old Koume's Boat Cruise. Ticket office closed. Please inquire at the Magic Hags' Potion Shop near the edge of the swamp.|Sign|MM}}</ref> She occasionally goes into the Woods of Mystery to look for mushrooms for Kotake to use in her [[Magic Hags' Potion Shop|Potion Shop]].<ref>{{Cite|Koume has gone into the woods out back, looking for mushrooms...|Kotake|MM}}</ref> However, she was soon ambushed by the Skull Kid; having been attacked from behind and left badly injured.<ref>{{Cite|I was just busy minding my own business, picking mushrooms, when... BAM! I got hit from behind! That pesky Skull Kid! Did he think an old hag wouldn't recognize him if he hid his face? Oh, ow! To think he's that powerful...and now I can't even move!|Koume|MM}}</ref> Link is sent by her sister to find her in the nearby woods. Upon being discovered, she asks Link to heal her with a [[Red Potion]] (or [[Blue Potion]]).<ref>{{Cite|You! Don't you have anything that gives you energy?|Koume|MM}}</ref> If Link tries to give her a [[Potion]] in any form other than his normal self, she will call him a "weirdo" and tries to avoid his attention by playing dead.<ref>{{Cite|Ack! Now I've done it! I've gone and attracted some weirdo's attention! Umm...I'll just play dead.|Koume|MM}}</ref> After Link gives her the Potion, she returns to her post at the Swamp Tourist Center, where she gives Link one free tour in return for healing her.<ref>{{Cite|Oh! Thanks for what you did back there! As a special just for you, I'll let you take this cruise for free.|Koume|MM}}</ref>
+
+==={{OoS|-}} and {{OoA|-}}===
+{{Improve}}
+[[File:Koume Kotake OOX.png|90px|left]]
+In {{OoA}} and {{OoS}}, Kotake and Koume send [[Veran]] and [[General Onox]] to cause chaos and light two of the three flames needed to resurrect Ganon; the [[Flame of Sorrow]] and the [[Flame of Destruction]].<ref>{{Cite|Look, Veran! The troubles you caused now burn as the Flame of Sorrow!|Twinrova|OoA}}</ref><ref>{{Cite|Behold, Onox! The troubles you caused now burn in the Flame of Destruction!|Twinrova|OoS}}</ref> They appear as a disguised old lady to dissuade Link from his quest,<ref>{{Cite|Hee hee hee hee! Link... Know this, foolish boy! If you save Din, the world will be filled with destruction, sorrow and despair. Our great sacrifice will be offered, and the Evil King revived!!! Then people will know true pain as darkness falls across the lands. Eee hee hee hee! Ho ho ho ho!|Twinrova|OoS}}</ref> revealing themselves when he reaches the final dungeon.<ref>{{Cite|All will be for naught! Ho ho ho ho! Are you shocked? We are Twinrova, Gerudo witches! Ho ho ho ho! Soon the Flame of Destruction shall burn, and when it does, no one can keep us from holding our rites! Despite your every effort, the Evil King shall return to spread darkness across the land! Eee hee hee hee!|Twinrova|OoS}}</ref> In a Linked Game to either Seasons or Ages, they show up to taunt Link and his allies in [[Labrynna]] before leaving<ref>{{Cite|Oh ho ho ho! Link, Link! Don't forget about us! Nice to see you after so long, Link! We are Twinrova, Gerudo witches! You were quite busy back in Holodrum! Eee hee hee hee! You seem pleased to have rescued Nayru, but Ambi's age is filled with cries of sorrow! By extending the reach of the Dark Realm, Veran has spread sorrow across the land. Soon, the Flame of Sorrow will ignite! Ho ho ho ho ho! Now only one flame remains... When the three flames burn in the darkness... The Evil King shall return! Oh ho ho ho ho!|Twinrova|OoA}}</ref> or rub the Flame of Destruction being lit in his face after he completes [[Unicorn's Cave]].<ref>{{Cite|Eee hee hee hee! Despair, Link... Your struggles are fruitless! Decay seasons! Steal the fruits of the ravaged lands of Holodrum... Raze the earth! Oh ho ho ho! Ho ho ho ho! The lands rot, and the Flame of Destruction burns! The Flames of Sorrow and Destruction are lit! Now, only the Flame of Despair remains! Eee hee hee hee! Our sacrifice will revive the Evil King and guide him to the light of the three flames! Oh ho ho ho!|Twinrova|OoS}}</ref> Once the flames are lit, the two kidnap [[Princess Zelda]] to light the final flame, the [[Flame of Despair]], before sacrificing her to resurrect Ganon.<ref>{{Cite|Oh ho ho ho! Wandering about? Foolish Princess! Eee hee hee hee! We've found you, Princess Zelda! Hope for the people? We'll snuff it out! And you shall light the Flame of Despair! Eee hee hee hee! The sacrifice is in our grasp...|Twinrova|OoS}}</ref> In a [[Linked Game]], Link first fights the sisters individually, but when he lands three hits by batting each sister's magic attacks at the other, they merge and continue the battle as Twinrova, choosing to sacrifice Link instead of Zelda, so that [[Ganon]] can return.<ref>{{Cite|We'll sacrifice you so the Evil King can return!|Twinrova|OoS}}</ref> After Link defeats Twinrova, she chooses to become the vessel for the ritual herself.<ref>{{Cite|Hoh hoh! Ganon's return was but a step away! Link! It is not over! Our rites have failed, but by sacrificing this body, Ganon will return! {{Exp|Only seen in Oracle of Seasons.|And you will be destroyed!}}|Twinrova|OoS}}</ref> Unfortunately for the pair, their sacrifice is in vain as it only allows a mindless, raging Ganon to come forth, and is also completely vulnerable to Sword attacks.<ref>{{Cite|Since they could not sacrifice me in their final rite, the powers of darkness could revive only a mindless, raging Ganon. Your power, wisdom and courage were able to prevent Twinrova's planned resurrection of Ganon.|Princess Zelda|OoS}}</ref>
+
+====Characteristics====
+[[File:Twinrovaoracles.png|left|90px]]
+Twinrova casts magical projectiles at Link that he must deflect back at them. However, unlike in ''Ocarina of Time'', Link must use his Sword to deflect them rather than his [[Shield]]. The Mirror Shield, an upgrade that can only be attained in a Linked Game, can only protect him from their magic attacks. After the sisters have taken three hits, they fuse together and become Twinrova.
+
+Twinrova alternates between two phases of attack, which affect the room around her and Link. In her cold phase, the room's floor is covered with slippery ice and Twinrova materializes spiked ice crystals that she launches at Link and which ricochet off the walls. In her fire phase, parts of the floor become lava pits and Twinrova launches fireballs. Link must strike Twinrova with his Sword several times to stun her, and once stunned, he must use a [[Mystery Seed]] to actually damage and defeat her.
+
+==={{TotK|-}}===
+[[File:TotK Twinrova.png|thumb|left|250px|Koume and Kotake behind Ganondorf]]
+In {{TotK}}, Koume and Kotake appear behind {{Term|TotK|Ganondorf|link}} in the {{Term|TotK|Memory|link}} "{{Term|TotK|A Show of Fealty|link}}". They are significantly younger in this game than in any previous appearance, identical to the standard Gerudo. The twins have no dialogue and are not identified by name, but wear fabrics on their shoulders styled after Koume and Kotake's hairbands, with their names written on them in the [[Hylian (Language)#Era of the Hero of Time|Hylian]] writing from {{OoT}}, just as their names were written on their hairbands in that game. They also have red and blue gemstones on the foreheads of the masks they wear, and olive-green skin, unlike the brown skin of other Gerudo in {{TotK|-}}.
+
+==={{HWAoI|-}}===
+In {{HWAoI}}, their role was expanded slightly, confirming that, similar to their usual depictions, they were firmly in league with Ganondorf. They first appeared in [[Ardi]]'s flashback to when Ganondorf tasked her to have a squad of Gerudo attack [[Hyrule]] while he sent the [[Molduga|Moldulga]] swarm as a distraction, with Koume and Kotake relaying the plan on his behalf. When Ardi expressed reluctance due to citing those among their group who wished for peaceful coexistence with Hyrule, one of the twins was going to curse Ardi out for insubordination only for Ganondorf to calmly and nonverbally interfere. Their first in-person appearance occurred shortly after Ardi and her unit were driven out, where they use their flutes to summon spirits to attack Ardi and her unit, taking out most of them and making clear Ganondorf had a change in plans and ordered them to "clean up loose ends" by taking her out. However, they were ultimately forced to spare her and a few Gerudo after a construct alongside a [[Korok]] interfered. They then reported their failure to Ganondorf and begged for his forgiveness, though he ultimately let it slide, both because he already managed to curry favor with [[King Rauru]] enough from the earlier feint to get close to the [[Secret Stone]] and due to expressing interest in the construct's potential.
+
+After Ganondorf was forced to create another Princess Zelda doppelganger after his initial plan to awaken a certain construct to attack Rauru resulted in the consumption of said doppelganger, Koume and Kotake reported the last known sighting of the construct as being at the [[Great Plateau]], though Ganondorf told them to do nothing but observe it, as he was interested in seeing the destructive potential behind it that nearly caused the [[Zonai]] to go extinct.
+
+Koume and Kotake then had Rauru lured over to Ganondorf's encampment to see him regarding mysterious attacks, although after it became apparent he wasn't there, they then activated their trap against the Hyrule King. They ultimately were driven off despite both their magical attacks and the usage of a [[Talus]], although they nevertheless gloated that Ganondorf's rule will soon come. It's left ambiguous what happened to them after he became the Demon King.
+== Appearance ==
+
+=== Kotake and Koume ===
+Kotake and Koume are a pair of extremely elderly [[Gerudo]] women, with wrinkled greenish skin and white hair; they have the typical appearance linked to witches - hunched bodies, bulging eyes (Kotake with blue eyes and Koume with orange eyes), and enormous and long aquiline noses. Both wear black tunics with white engravings on the sleeves and ornaments with jewels on their heads, with Kotake's being blue and Koume's, red.
+
+=== Twinrova ===
+When they fuse and become Twinrova, their appearance changes radically, now being the only Gerudo: a very tall woman with olive-green skin but much younger and exceptionally attractive, voluptuous and seductive with one blue eye and one red eye, red lipstick and a sharp nose. Her hair is long and white, tied in two long high ponytails which are infused with elemental magic, with the right ponytail being ice and the left, fire. She wears a blue blouse that reveals her cleavage, wide white pants, a headdress with two halves of a blue and red gem fused together and mixed matched flat shoes one being red and the other blue.
+
+== Abilities ==
+As witches, Kotake and Koume's strength is based mainly on the mastery and control of [[magic]], especially elemental magic and black magic which they taught to Ganondorf, Kotake is the ice sorceress so her magic lies in cryokinesis that allows her to manipulate and create ice and frost while Koume is the fire sorceress and as such can create and manipulate fire at will, likewise they are able to fly and move in the air by means of magic brooms.
+
+When fused into Twinrova, their two magics combine and increase enormously, being able to launch ice beams from the right staff and bursts of fire from the left side, and can also levitate in the air with great ease without needing a magic broom.
+
+==Other Appearances==
+{{Ambig|Start}}Main article: [[Synthrova]]
+
+
+In [[Cadence of Hyrule]], [[Kotake]] and [[Koume]] appear as the boss, [[Synthrova]], found at the end of the [[Temple of Brainstorms]] They are shown on the two large screens on the front of a large machine and appear to be controlling it. The screens use their sprites from the Oracle Games and move around the screen on their brooms. They attack by spawning fire and ice on the battlefield to kill [[Link]]. {{Ambig|End}}
+==={{OoT|Himekawa|-}}===
+{{Noncanon|Start}}
+Kotake and Koume first appear alongside the Gerudo and an [[Iron Knuckle]] after Ganondorf realizes he was tricked with the [[Fairy Ocarina]] 7 years ago. Their first speaking roles are in the chapter "Shadow Guide:Shiek", where they convince Ganondorf to allow them to brainwash [[Ingo]] so they could lure Link into [[Lon Lon Ranch]] (as Ganondorf initially planned to have Ingo executed for his failure to keep [[Epona]] around long enough for Ganondorf to acquire her). They later witness Link slipping the crystal out of Ingo's ear, revealing the reason for the Gerudo tribe's brainwashing and hostile behavior in the Adult timeline. Later, they disguise themselves as fortune tellers when Link stocks up for the trek into Gerudo Desert telling him he would find the [[Zelda|one he seeks]] by entering the Spirit Temple. After a brief questioning of [[Shiek]]'s true loyalties to Ganondorf, they have Nabooru work with the Sheikah to capture Link and find out if he really is a traitor, which the Sage of the Temple agrees while one of the witches creates a sandstorm to make Link's journey into the desert more difficult. Afterwards, they confronted Shiek over "his" treachery (as he initially seemed to attack Link, only for him to save Link), making the ninja reveal he was never one of them and flees with Link on Epona fending off [[Lizalfos]] and [[Moblin]]s the Gerudo witches summon. Later when Shiek reveals himself to be Zelda, they attack and demand the Hero of Time to give them the Princess. Link defends Zelda with his [[Hylian Shield]] against Koume's flames, but almost gets burned to a crisp until Nabooru gives Link the Mirror Shield, allowing the Hero of Time to give the witches a taste of their own medicine. They die, while cursing their own loss and vow for the King of Evil and their surrogate son to avenge them.
+
+==={{OoS|Himekawa|-}} and {{OoA|Himekawa|-}}===
+{{Stub}}
+
+==={{SSB4|3DS|-}}===
+In {{SSB4|3DS}}, Kotake and Koume appear in the [[Gerudo Valley#Super Smash Bros. for Nintendo 3DS|Gerudo Valley]] stage. They appear as a stage hazard, with Kotake attacking the right side with ice, and Koume attacking the left side with flames. Twinrova also appears as a [[Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Trophy]].
+
+====Trophy Information====
+{{SSBTrophy|SSB4|header=yes}}
+{{#section:Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Twinrova}}
+|}
+{{Noncanon|End}}
+
+==={{SSBU|-}}===
+
+In {{SSBU}}, they act the same as in SSB4/3DS, however their graphics are more improved. If the Gerudo Valley stage is set to Battlefield or Final Destination design, they will not appear at all.{{Noncanon|End}}
+==Trivia==
+[[File:Twinrova Seals.png|thumb|264x264px|right|Twinrova's magic seals]]
+*In ''[[The Legend of Zelda: Ocarina of Time|Ocarina of Time]]'', the magic seals out of which Kotake and Koume rise in the boss room interestingly display the [[Fire Medallion]] and [[Water Medallion]] symbols, respectively. The design for the Water Medallion was originally intended for the Ice Medallion, which was removed from the final release, but is still found in the game's code.<ref>{{Cite Web|quote=These two icons left inside the rom of Ocarina can be translated as Wind Medallion and Ice Medallion, and they are most likely the leftovers of two temples removed from the final game and probably scheduled for Zelda Ura.|url=http://www.unseen64.net/articles/zelda64-project-development/|title=Project Zelda 3D: The Development of Zelda 64|retrieved= May 14 2011|site=Unseen 64}}</ref>
+*In the Japanese release, Twinrova is sometimes referred to as '''Twin Old Women''' or '''Sorcerers Twins'''.
+*Twinrova can be considered a parallel to [[mariowiki:Kamek|Kamek]] from the ''[[Mario (franchise)|Mario]]'' series, as they are witches known to be the caretaker of the main antagonist [[Ganon]] as [[Ganondorf]] and are high-ranking minions themselves.
+*If [[Link]] attempts to block one of the sisters' (or Twinrova) magic attacks with the [[Hylian Shield]], their beam will overlap the shield and hit the ground behind him, harming the hero. The same result will happen with the latter if blocking the incorrect magic with the Mirror Shield. It is possible to avoid damage by Link forward rolling the instant the beam strikes the floor or if he blocks while standing on the edge of the arena.
+*If Link attempts to hit Koume or Kotake with any weapon (such as an [[Arrow]]) during the battle in ''Ocarina of Time'', they will spin around quickly on their broomsticks to deflect the attack. This also occurs after they combine into Twinrova, and she will move to a different platform immediately after spinning, without conjuring a spell first.
+*Despite being villainous characters, when they were defeated in ''Ocarina of Time'', the twins' souls are surrounded in angelic halos and they ascend in a column of light, a Western depiction of rising to [[wikipedia:Heaven_in_Christianity|Heaven]].
+**There is a dialogue error in the original [[Nintendo 64|N64]] version where they will say "'''''I'll''' come back to haunt you!''". This is fixed in ''[[The Legend of Zelda: Ocarina of Time 3D|Ocarina of Time 3D]]''.<ref name=":0" />
+*Although Kotake and Koume are identical twins, aside from their respective elements of fire and ice, their laughs are [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_Twinrova_Kotake_Laugh.wav slightly] [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_Twinrova_Koume_Laugh.wav different] to distinguish them in ''Ocarina of Time''.
+**As their combined form, however, Twinrova's laugh is the same as the [[Gerudo Thief|Gerudo Thieves]] from [[Gerudo's Fortress]].
+*In ''[[The Legend of Zelda: Majora's Mask|Majora's Mask]]'', Koume is certain that the [[Red Potion|Red]] (or [[Blue Potion|Blue]]) [[Potion]] given to her is Kotake's, even if it was purchased from the [[Trading Post]] in [[Clock Town]] or other means.<ref>{{Cite|Ah! That color! That smell... That's definitely Kotake's...|Koume|MM}}</ref> Therefore, Kotake may be supplying the Trading Post with its potions. As an alternative, it may simply be an oversight of the developers.
+*In the [[Linked Game|linked ''Oracle'']] ending fight against Twinrova, their boss theme is a remix of the mini-boss theme from the game (as well as the boss theme from {{LA}}).
+*In {{TWW}}, Koume and Kotake's names are engraved on Ganondorf's swords in {{Term|TWW|Hylian (Language)|link}}. Similarly, in {{TotK}}, the Gloom {{Term|TotK|Weapon|link}} set has their names engraved as well.
+*The fight against Twinrova in ''Ocarina of Time'', due to mechanic of the [[Mirror Shield]] reflecting and absorbing their attacks, is often seen as one of the most unique [[boss]] battles in the game, if not [[The Legend of Zelda (series)|''The Legend of Zelda'' series]]. Despite this, some fans are rather disappointed as the special shield is specifically for this battle and otherwise has minimal use.
+**This would be reused for the final battle against [[Majora's Mask (item)|Majora's Mask]] in ''Majora's Mask'' when it begins to shoot fire beams at Link with its eyes, which he can redirect the attack to itself or the Boss Remains. On a similar note, Majora's Incarnation and Wrath vocals were modified versions of Twinrova's vocal clips.
+**It is not necessarily required for Link to redirect an absorbed magic attack against Twinrova while holding the [[Shield]] button. As the item fires automatically for a few seconds, it is possible for him to strike the boss by simply turning around.
+
+* In the ''Tears of The Kingdom'' “[[A Show of Fealty]]” [[memory]], the two Gerudo women standing behind Ganondorf bear sashes reading their names. Whether or not these are the actually younger versions of Kotake and Koume themselves from ''Ocarina of Time'' is unknown.
+
+==Nomenclature==
+'''Twinrova''' is a modified version of the characters' Japanese name {{Romanize|ツインローバ|Tsuinrōba|Twin Old Women}}.<br/>
+Their individual names come from the Japanese mystery novel {{Romanize|八つ墓村|Yatsuhaka Mura|Village of Eight Gravestones|2}}. In it, a pair of elderly twin sisters bear the names Kotake and Koume.<ref>{{Cite Web|url=http://ho-lingnojikenbo.blogspot.com/2011/06/blog-post.html|title=「六つ墓村？八つ墓村じゃなくて？」 (in English)|site=The Case Files of Ho-Ling, June 1, 2011}}</ref><br/>
+'''Kotake''' come from {{Romanize|小竹|Kotake}}: {{Romanize|小|ko|little}} and {{Romanize|竹|take|bamboo}}.<br/>
+'''Koume''' comes from {{Romanize|小梅|Koume}}: {{Romanize|小|ko|little}} and {{Romanize|梅|ume|plum}}.
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoT Twinrova Artwork.png|Artwork of Koume and Kotake from {{OoT|-}}
+File:OoT Koume Model.png|Koume from {{OoT|-}}
+File:OoT Kotake Model.png|Kotake from {{OoT|-}}
+File:OoT Twinrova Model.png|Twinrova from {{OoT|-}}
+File:Sorceress Sisters Twinrova.jpg|Twinrova's introduction in {{OoT|-}}
+File:OoT Mirror Shield firing at Twinrova.png|Link aiming the Mirror Shield at Twinrova in ''Ocarina of Time''
+File:OoT Twinrova commanding Nabooru Iron Knuckle.png|Koume and Kotake commanding an Iron Knuckle to destroy Link in ''Ocarina of Time''
+File:Twinrova OoT3D.png|Kotake and Koume in {{OoT3D|-}}
+File:TwinrovaOcarinaofTime3D.png|Twinrova in {{OoT3D|-}}
+File:MM Koume.png|Koume injured from {{MM|-}}
+File:Kotake.jpg|Kotake in the Magic Hags' Potion Shop in {{MM|-}}
+File:MM3D Kotake (Shop).png|Kotake as she appears in {{MM3D|-}}
+File:MM3D Kotake Model.png|Kotake on her broom from {{MM3D|-}}
+File:MM3D Koume Model.png|Koume injured from {{MM3D|-}}
+File:MM3D Koume Notebook Portrait.png|Koume's picture in the Bombers' Notebook from {{MM3D|-}}
+File:OoS Twinrova Artwork.png|Koume and Kotake artwork from {{OoS|-}} and {{OoA|-}}
+File:OoS Koume Sprite 2.png|Koume from {{OoS|-}} and {{OoA|-}}
+File:OoS Kotake Sprite 2.png|Kotake from {{OoS|-}} and {{OoA|-}}
+File:TwinrovaOraclesfire.png|Twinrova's fire form from {{OoS|-}} and {{OoA|-}}
+File:TwinrovaOraclesice.png|Twinrova's ice form from {{OoS|-}} and {{OoA|-}}
+File:OOT Manga-Koume and Kotake's Fortune Teller Disguises.jpeg|Koume and Kotake's Fortune Teller disguises from {{OoT|Himekawa}}
+File:OOT Manga-Koume and Kotake's Fortune Teller Disguises 1.jpeg|Koume and Kotake questioning Sheik from {{OoT|Himekawa}}
+File:Twinrova SSB4.jpg|Koume and Kotake in {{SSB4|3DS|-}} 
+</gallery>
+
+==See Also==
+* [[Granny]]
+* [[Syrup]]
+* [[Witch]]
+*[[Synthrova]]
+
+{{Ref}}
+{{Bosses|OoT}}
+{{Characters}}
+{{HumanEnemy}}
+{{Categories
+ |Fire-Related Enemies, Gerudo, Ice-Related Enemies, Terminans, Sorcerers, Secret Final Bosses, Witches
+ |bosses= OoT, OoT3D, OoS, OoA
+ |characters= OoT, OoT3D, MM, MM3D, OoS, OoA, TotK, OoT (Himekawa), OoS (Himekawa), OoA (Himekawa)
+}}
+
+[[es:Birova]]
+[[fr:Twinrova]]
+[[zh-tw:雙子姥媽]]
+[[Category:Female characters]]

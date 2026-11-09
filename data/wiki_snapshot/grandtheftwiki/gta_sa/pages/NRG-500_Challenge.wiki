@@ -1,0 +1,32 @@
+{{Infobox_mission
+| image=NRG-500-GTASA.JPG
+| size=400x400px
+| caption=
+| name= NRG Challenge
+| game= GTA San Andreas
+| protagonist= [[Carl Johnson]]
+| for= 
+| objective= Collecting eighteen floating coronas.
+| target= 
+| location= [[Easter Basin]], [[San Fierro]]
+| unlockedby = Getting on the [[NRG-500]].
+| unlocks= 
+| fail= Failing to collect all eighteen coronas.<br />Destroying the [[NRG-500]]<br />Failing to get back on the NRG-500 after falling off.
+| timelimit = 10 seconds (<small>additional 10 seconds for each corona collected</small>)<br />15 seconds (<small>additional 15 seconds for each corona collected, mobile versions only</small>)
+| deaths= 
+}}
+'''NRG-500 Challenge''' is a side mission in [[Grand Theft Auto: San Andreas]]. The mission is started by entering a parked [[NRG-500]] at a dry dock in [[Easter Basin]], [[San Fierro]]. The goal is to collect 18 floating coronas around the dry dock before the countdown timer runs out of time. The countdown timer starts at 10 seconds when the [[Cutscene|cutscene]] ends. Each corona will add 10 seconds to the timer. The reward for completing this mission is $1,000 and a step closer to [[Completion in GTA San Andreas|completion]].
+
+== Trivia ==
+* There is a glitch that makes this side-mission very easy to accomplish in the PC version. Simply wait down to literally the last fraction of a second on the clock (0.00 just about to tell you that you lost) and collect another corona. Immediately the clock will disappear, leaving the player any amount of time to complete it.
+
+== Video walkthrough ==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTA Series Videos
+|-
+|{{youtube|video1=JXv_46WC5P4}}
+|}
+</center>
+
+[[Category:Missions in GTA San Andreas]]

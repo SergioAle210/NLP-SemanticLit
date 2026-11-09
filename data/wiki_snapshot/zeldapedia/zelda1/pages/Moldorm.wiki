@@ -1,0 +1,104 @@
+{{hatnote|This article is about the enemy. For the [[boss]], see [[Moldorm (Boss)]].}}
+{{Infobox Enemy
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Moldorm Artwork.png
+ |Model TP= File:TP Moldorm Model.png
+ |Model TPHD= File:TPHD Moldorm Model.png
+ |Model PH= File:PH Moldorm Model.png
+ |Model SS= File:SS Moldorm Model.png
+ |Model SSHD= File:SSHD Moldorm Model.png
+ |Sprite TLoZ= File:TLoZ Moldorm Sprite.png
+ |Sprite FS= File:FS Moldorm Sprite.png
+ |Sprite FSA= File:FSA Moldorm.png
+ |Sprite TMC= File:TMC Moldorm Sprite.png
+}}
+|caption= 
+|pronunciation= 
+|plural= Moldorms<ref>{{Cite Book|quote= Moldorms scurry around erratically, running into walls.|book= E |publisher= |page= 193}}</ref>
+|race=
+|game= TLoZ, FS, FSA, TMC, TP, PH, SS
+|other= LCT
+|habitat=
+{{Infobox Game Blocks
+ |TP= [[Arbiter's Grounds (Dungeon)|Arbiter's Grounds]], [[Gerudo Desert]]
+ |SS= [[Fire Sanctuary (Dungeon)|Fire Sanctuary]]
+}}
+|member= 
+|attack={{Infobox Game Blocks
+ |TLoZ=Contact {{small|(1/2 heart)}}
+}} 
+|weapon=
+{{Infobox Game Blocks
+ |TP= [[Clawshot]], [[Sword]]
+ |SS= [[Mogma Mitts]]
+}}
+|spoils=
+{{Infobox Game Blocks
+ |TLoZ= [[Heart]], [[Fairy]], [[Rupee]]
+}}
+|exp= 
+|theme= 
+|health={{Infobox Game Blocks
+ |TLoZ=[[Weapon Strength#The Legend of Zelda|5]]
+}}}}
+{{Term/Store|Moldorm|Moldorms|Series, TLoZ, FS, FSA, TMC, TP, PH, SS, SSHD, LCT|plural}} are recurring [[Enemy|enemies]] in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 193 {{Exp Game|TLoZ, FS, FSA, TMC, TP, PH, SS}}}}</ref><ref>{{Cite|{{Big|Gerudo Moldorm: Defender}}<br/>Something's coming! Keep your eres on your radar--and on the ground!|Stage Select|LCT}}</ref>
+
+==Characteristics==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Moldorm|The huge worm living in the labyrinths. It grows smaller as Link attacks. Not so strong.}}
+Moldorms in {{TLoZ}} slowly slither around the ground in a random pattern. [[Link]] can defeat them by hitting them with his [[Sword]]. When defeated, they may drop either a [[Heart]], a [[Fairy]], or one [[Rupee]].{{Note|If [[Link]] defeats 10 enemies without getting hit or teleporting with the [[Recorder|Flute]], then the 10th enemy defeated will drop five [[Rupee]]s. However, if the 10th enemy is defeated with a [[Bomb]], then it will drop four Bombs. If Link defeats 16 enemies without getting hit or teleporting, then the 16th enemy will drop a [[Fairy]]. After the 16th enemy, Link must get hit and reset the counter to zero in order to achieve this effect again. Defeating [[Armos]], [[Like Like]]s, [[Keese]], or [[Gel]]s will not be counted.<ref>{{Cite Web|quote= |author= n.a. |published= n.d. |retrieved= August 17, 2017 |url= http://redcandle.us/The_Legend_of_Zelda#Forced_drops |title= Forced Drops |site= redcandle.us}}</ref>}}
+
+==={{FS|-}}===
+{{Stub|FS}}
+
+==={{FSA|-}}===
+Moldorms are very rare enemies, being only seen in the [[Desert Temple (Four Swords Adventures)|Desert Temple]] and the [[Pyramid]]. They act the same as in ''Four Swords''.
+
+==={{TMC|-}}===
+{{Figurine|TMC|Moldorm}}
+Moldorms in {{TMC}} appear in [[dungeon]]s and in [[cave]]s accessed with the [[Mole Mitts]]. They move erratically and are more resilient than many other enemies, taking two hits from the [[Four Sword]] to defeat, and three or more from other [[Sword]]s.
+
+==={{TP|-}}===
+Moldorms in {{TP}} appear in the sands of [[Gerudo Desert]], as well as in [[Quicksand]] found within the [[Arbiter's Grounds (Dungeon)|Arbiter's Grounds]]. They will leap up from the sand to attack [[Link]]. He can use the [[Clawshot]] to pull them from the ground, leaving them vulnerable to other weapon attacks until they manage to burrow back into the sand. After defeating enough Moldorms,{{How Many|TP}} a larger Moldorm will leap from the sand. This variation takes two hits to defeat instead of one.
+
+==={{PH|-}}===
+{{Stub|PH}}
+
+==={{SS|-}}===
+Moldorms in {{SS}} reside out of sight underground. They are encountered only when [[Link]] enters an underground tunnel with the [[Mogma Mitts]]. Striking their tail segment with the Mogma Mitts will destroy the rear segments and increase their movement speed, with three strikes required to defeat them. One appears as a [[Sub-Boss]] in the [[Fire Sanctuary (Dungeon)|Fire Sanctuary]].
+
+==Spinoff appearances==
+==={{LCT|-}}===
+{{Ambig|Start}}
+{{Stub|LCT}}
+In {{LCT}}, Moldorms appear in the "[[Gerudo Moldorm: Defender]]" [[Stage]]. They dig under the sand and spiral towards Link, occasionally jumping out of the sand allowing Link to shoot them. If a Moldorm gets close to Link, it will jump out and damage him, causing him to lose points. 
+{{Ambig|End}}
+
+==Trivia==
+*Moldorms' weak spot was inspired by the {{Wp|Honey Ant}}, while the fluid that sprays from the spot when struck by a [[Sword]] was based on an obsession of the effects designer.<ref>{{Cite Book|quote= The weak spot on Moldorm's rear end is modeled after a honey ant. The juice that sprays out from the weak spot when struck by a sword was based on an obsession of the effects designer's.|book= HH |page= 63}}</ref>
+
+==Nomenclature==
+Moldorms are known as {{Romanize|テール|Tail}} in Japanese. [[Swamola]]s are known as {{Romanize|モルドアーム|Morudoāmu}} in Japan, just like Moldorms from {{TLoZ|-}}. Moldorms in {{TP}} and {{SS}} are known as [[Moldworm]]s in Japan.
+{{Nomenclature}}
+
+==See also==
+*[[Lanmola]]
+*[[Magtail]]
+*[[Mini-Moldorm]]
+*[[Moldworm]]
+*[[Skytail]]
+*[[Tailpasaran]]
+*[[Winder]]
+
+{{Notes}}
+
+{{Ref}}
+
+{{Bosses|SS}}
+{{Enemies}}
+{{Categories
+ |Burrowing Enemies, Sand-Related Enemies, Worm-Like Enemies
+ |enemies= TLoZ, FS, FSA, TMC, TP, TPHD, PH, SS, SSHD, LCT
+ |sub-bosses= SS, SSHD
+}}

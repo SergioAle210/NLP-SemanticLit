@@ -1,0 +1,107 @@
+{{infobox mission
+|name=Gray Imports
+|game=SA
+|image=GrayImports-GTASA.jpg
+|size=400x400px
+|caption=[[Frank Tenpenny]] informing [[Carl Johnson]] about a deal between the [[Russian Mafia]] and the [[Ballas]].
+|for=[[C.R.A.S.H.]]
+|target=[[Ballas]]<br />[[Russian Mafia]]
+|location=[[Market, Los Santos|Market]], [[Los Santos in GTA III Era|Los Santos]], [[San Andreas in GTA III Era|San Andreas]]
+|fail=[[Russian Mafia|Russian]] man escapes
+|reward=None
+|unlocks= [[Reuniting the Families]]<small> (if [[High Stakes, Low Rider]], [[House Party]], [[Just Business]], [[Los Sepulcros]] and [[Robbing Uncle Sam]] have been completed)</small>
+|unlockedby= [[Burning Desire]]
+}}
+'''Gray Imports''' is a mission in [[Grand Theft Auto: San Andreas]] given to [[protagonist]] [[Carl Johnson|Carl "CJ" Johnson]] by the primary antagonistic [[C.R.A.S.H.]] team, comprising officers [[Frank Tenpenny]], [[Eddie Pulaski|Edward "Eddie" Pulaski]] and [[Jimmy Hernandez]], from the [[Jim's Sticky Ring]] donut shop in [[Market, Los Santos|Market]], [[Los Santos in GTA III Era|Los Santos]], [[San Andreas in GTA III Era|San Andreas]].
+
+==Mission==
+Carl drops by the donut shop where he is quickly caught by Pulaski and Tenpenny, with Hernandez behind. Tenpenny explains to him that the gangs in the city are just wiping out each other, and goes on to explain, in all subtlety, his alliance with the Ballas, who cooperate with him for street intelligence. Being tipped off by Tenpenny about a secret deal between the [[Ballas]] and the [[Russian Mafia|Russians]] down in the [[Ocean Docks]], Carl proceeds to a busy dockyard. Successfully sabotaging the meeting, he kills the Russian mechanics and the Ballas staged towards the office, and kills the dealer, Andre.
+
+==Script==
+
+'''(''Carl arrives at the Jims Sticky Ring donut shop in Market.'')'''
+
+'''Pulaski''': Carl!
+
+'''CJ''': Damn!
+
+'''(''Carl turns over and is about to go but Pulaski grabs him by the collar.'')'''
+
+'''Pulaski''': Where you off to?
+
+'''CJ''': Shit!
+
+'''Tenpenny''': Where you running off to, Carl? I thought we were friends!
+
+'''CJ''': Yeah, whatever...
+
+'''Tenpenny''': As an officer in charge of putting an end to gang violence, I find myself in a difficult moral position, Carl.
+
+'''CJ''': Yeah, right.
+
+'''Tenpenny''': Carl, I'm hurt, I truly am. And just as I was about to help those poor [[Grove Street Families|Grove Street boys]]...
+
+'''CJ''': Oh, yeah? How?
+
+'''Tenpenny''': I like the status quo, Carl. I like having all you bastards doing my job for me - blowing each other's guts all over the sidewalk.
+
+'''CJ''': Dumb bastards!
+
+'''Tenpenny''': Now, if it's brought to my attention that one tribe gets an unfair advantage over another, that truly troubles me, Carl.
+
+'''CJ''': So what you saying, man?
+
+'''Tenpenny''': I'm saying the [[Ballas]] have brains, Carl, they watch the news. I'm saying they're making friends, cutting deals, and tooling up for more than half-assed drive-bys. Lots of cheap guns coming into America since the fall of the wall, Carl.
+
+'''(''Tenpenny heads to the passenger door.'')'''
+
+'''CJ''': Man, cut that bullshit, Tenpenny - just say what you mean, man.
+
+'''Tenpenny''': Go check out a busy freight warehouse down the docklands and you'll see what I mean, Carl.
+
+'''CJ''': Yeah, okay.
+
+'''(''Tenpenny gets in the police car.'')'''
+
+'''Pulaski''': Y'all take care, now!
+
+'''CJ''': For sure.
+
+'''(''Carl sabotages a deal between the Ballas and the Russians, when the dealer, Andre, starts running away.'')'''
+
+'''Andre''': We can do business! Fuck you, Americansky!
+
+== Reward ==
+
+There is no reward for this mission, but the mission [[Reuniting the Families]] is unlocked, provided the missions [[High Stakes, Low Rider]], [[House Party]], [[Just Business]], [[Los Sepulcros]] and [[Robbing Uncle Sam]] have been completed beforehand. 
+
+== Fireproof/Explosionproof cars ==
+During this mission the player can turn his/her car Fireproof/Explosion proof by going into the red marker while still in the car. Note that if a bulletproof vehicle is driven in the marker, it will lose its qualities and pick these up.
+
+==Trivia==
+* During the mission Andre calls Carl Johnson "Amerikasky", but this is incorrect. In the Russian language "American" and "American man" are the different words, so right variant sounds like "Amerikanets". Also, the degoratory word is "Amerikashka".
+* Immediately after the end of the cutscene, a [[Banshee]] driven by a random pedestrian will appear. It has the particularity of having much higher health than a regular car, making it suitable to resist bullets from the first wave of grunts for drive-by or ramming/running-over methods. Watch out for explosive barrels though, they will make short work of the car.
+
+==Gallery==
+<gallery width="auto" perrow="3" style="font-size:95%; padding:0;" widths="250">
+File:GrayImports-GTASA4.png|The outside of the warehouse where the [[Russian Mafia]] and the [[Ballas]] are meeting.
+File:GrayImports-GTASA2.jpg|Carl killing warehouse employees.
+File:GrayImports-GTASA3.jpg|Carl killing the warehouse owner.
+</gallery>
+
+==Video walkthrough==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTASeriesVideos
+|-
+|{{youtube|video1=X07e-40hQY}}
+|}
+</center>
+
+{{Navboxes
+|title= Navigation
+|list1={{missions|state=collapsed}}
+{{Gtasa missions|state=collapsed}}
+}}
+
+[[Category:Missions in GTA San Andreas]]

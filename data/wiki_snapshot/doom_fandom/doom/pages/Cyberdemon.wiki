@@ -1,0 +1,55 @@
+{{Cyberdemon}}
+'''Cyberdemons''' are a recurring powerful enemy that has appeared in every ''Doom'' title.
+
+The Doom II manual of the PC version describes the monster in the following way: ''A missile-launching skyscraper with goat legs. 'Nuff said.'' The Doom manual, on the other hand, does not list it, presumably to make its climactic appearance in [[E2M8: Tower of Babel|E2M8]] a surprise. The [[Sony PlayStation|PlayStation]], [[Doom 64]], and [[Super NES|SNES]] manual for Doom, however, does make mention of the Cyberdemon: ''Half unfeeling machine, half raging horned devil. This walking nightmare has a rocket launcher for an arm and will definitely reach out and touch you. Make sure you're loaded for bear before you take on this guy.''
+
+==Notes==
+* The Cyberdemon's left (natural) leg audibly impacts upon the ground; no other monster has audible footsteps, although the mechanical legs of the [[Arachnotron]] and [[Spiderdemon]] make noises as they move.
+* When killed, a Cyberdemon will let out a loud roar and explode violently, leaving behind only a pair of bloodied hooves.
+** The Cyberdemon's death animation in the 3D version of [[JDoom]] is drastically different from the original, 2D animation: when killed, a cloud of blood is still emitted from the monster's body, but the Cyberdemon simply falls head first onto the floor instead of exploding.
+* The Cyberdemon, along with the [[Demon]], [[Mancubus]], and [[Spiderdemon]] are the only monsters whose dying sound clips includes noise other than the monsters' vocals; in this case, the Cyberdemon's roar is accompanied (and cut off) by a loud explosion. The Cyberdemon's dying roar also sounds similar to one of the alert sounds the [[Zombieman|Zombiemen]] makes.
+*The Cyberdemon's arm-mounted rocket launcher looks vaguely similar to the [[BFG9000]], taking the appearance of a large, thick, grey metallic gun.
+* The Cyberdemon is depicted in the game as an [[Wikipedia:Ungulate|ungulate]]: it stands on the very tips of its toes, which have fused to become hooves, in the same manner as other ungulates such as horses, bovines, pigs, etc. Ungulates are distinguished from [[Wikipedia:Digitigrade|digitigrades]] (which stand with their toes flat on the ground but their heels off the ground, such as dogs, cats and birds) and [[Wikipedia:Plantigrade|plantigrades]] (which stand with their toes, soles and heels flat on the ground, like humans, primates and bears).
+* In the [[Doom novels]], in which monsters are generally not referred to by their real names, the Cyberdemon's mechanical parts are said to be steam powered, leading the characters to call them "Steam Demons".
+* On the door texture BIGDOOR7, the horned skull is actually a skull of a Cyberdemon.
+* A pair of the [[Baron of Hell|Baron]]-like monsters on the [[cover art]] for the original Doom have cybernetic, cannon-shaped arms, reminiscient of the Cyberdemon's [[rocket launcher]]-like arm (though only one such monster is usually visible, as the other is cropped out on most versions of the cover art).
+* In a [[ZDoom]]-based [[source port]], if the player is killed by a Cyberdemon (monster is credited with delivering the blow that reduces player's health to 0%), an obituary message is displayed at the top of the screen: "[player name] was splattered by a Cyberdemon". When Brutal Doom gives the monster a melee stomp attack as well as rockets, this obituary message is displayed for both attack types.
+* In [[Brutal Doom]], the Cyberdemon has gained a melee stomp attack that deals instant death even at maxed-out health and armor (probably in homage to the Doom 3 version). The rockets now are fire-engulfed, emerge from the rocket launcher instead of in-between its legs (similarly to its [[Doom 64]] incarnation) and are fired in salvos of four instead of just three - the first and last ones fly straight towards the target while the second and third ones fly 45 degrees sideways left and right respectively, unlike the original conception where all three rockets fly straight towards the target. It also gets worse as of v0.18 and afterward when the player uses the "Offend" command to flip off enemies when there is an active Cyberdemon on the field: the offense provokes the Cyberdemon into a rage, in which it fires rockets in much-more-frequent salvos in six instead of four. Also, in the "rage" salvos, the first and last rockets fly sideways while the other in-between four fly straight towards the target. Finally, the Cyberdemon's death explosion is far more violently enhanced and deals heavy radius damage to anything close to it (except for radius-immune monsters such as [[Spiderdemon]]s and other Cyberdemons). The modifications make the Cyberdemon extremely lethal and its attack very difficult to avoid, making certain add-on maps all but impossible without cheating. For instance, ''[[2002: A Doom Odyssey]]'' features Cyberdemons in relatively small rooms, counting on the players being able to avoid their fire and most of the splash damage; however, the Brutal Doom modifications most likely mean the Cyberdemon will kill the player almost immediately.
+
+== Doom RPG ==
+In [[Doom RPG]], the Cyberdemon was created by evil mastermind [[Kronos]] by combining human technology with demon flesh.
+
+== Wolfenstein RPG ==
+The Cyberdemon was originally known as the [[W:C:Wolfenstein:Harbinger|Harbinger of Doom]]. During World War II, he was summoned at Castle Wolfenstein by the Axis army. [[W:C:Wolfenstein:B.J. Blazkowicz|B.J. Blazkowicz]] was able to defeat it with the Spear of Destiny, destroying its right leg and left arm. The Harbinger of Doom vowed that it would have a rematch with Blazkowicz's [[Doom guy|descendents]] in the future. The prophecy happened in both Doom RPG and [[Doom II RPG]].
+
+== Doom II RPG ==
+The Cyberdemon is depicted with two bionic legs in this game, due to a limitation of the game's animation system—each character's legs are required to be symmetrical in design, as the leg sprites (which are separate from the torso and head sprites) are simply mirrored horizontally to create the full set of animation frames for walking. Although artwork was created depicting the Cyberdemon with one "normal" leg and one bionic leg, it was not used in the final game for this reason.
+
+==[[Bethesda Pinball]]==
+The Cyberdemon also appears in ''[[Bethesda Pinball]]'''s ''DOOM'' table as the final boss and wizard mode, "Cyberdemon Takedown", in reference to the final boss battle in ''[[Doom 3]]'', while resembling [[Cyberdemon/Doom (2016)|the one in the 2016 reboot of ''DOOM'']]. The battle against him is split into four phases, with each phase represented by a separate health bar on the table's display. His only attack is to occasionally fire his arm cannon, which inflicts substantial damage.
+*'''Phase 1''': The first phase is a one-on-one battle and the player can simply attack the Cyberdemon freely by shooting lit attack lanes marked with the word "shoot".
+*'''Phase 2''': After his first health bar is drained, the Cyberdemon will summon an endless legion of demons to protect him for the rest of the battle, represented as drop targets. If all drop targets are eliminated, another wave of them will arrive to take their place, making the battle difficult if the attack lanes are positioned at the upper half of the table. It would be advisable to knock out some of the drop targets so that there is enough room for the ball to maneuver and reach any attack lanes there.
+*'''Phase 3''': Once the second health bar is depleted, portals will appear throughout the table that can take the ball away from the attack lanes.
+*'''Phase 4''': Once the third health bar is empty, two hell stones from the Titan's Realm side mode will appear, interfering with the ball. The player must aim shots carefully, as it is easy for these stones to knock the ball into the outlanes.
+
+== Non-Doom games ==
+: ''Main article: [[Doom references in other games]]''
+
+==Trivia==
+* In a [[Wikipedia:PC World (magazine)|PC World]] article, the Cyberdemon was voted as #16 of the top 47 "The Most Diabolical Video-Game Villains of All Time".[http://www.pcworld.idg.com.au/index.php/id;338891934;pp;1]
+* In Doom (2016) it is said that Oliva Pierce made a "''deal with the devil''" and gave cybernetic enhancements to demons to allow them more power. Cyberdemon was constructed by UAC from the remains of a Baalgar demon.
+*The Cyberdemon in [[Doom II RPG]] cannot be insta-killed with the [[Soul Cube/Doom II RPG|Soul Cube]].
+*A Cyberdemon head (specifically corresponding to its appearance in ''The Dark Ages'') is available as a trophy in ''Diablo IV''.<ref>[https://www.youtube.com/live/Sk8XvlrlsbE Diablo IV Developer Update - Warlock Deep Dive & Season 12 Overview | March, 2026]</ref>
+
+==See also==
+* [[Models]]
+* [[Monsters open locked doors]]
+
+==External links==
+* [http://mykdoom.tripod.com/cyb_sketch.jpg Adrian Carmack's cyberdemon sketch]
+
+==Sources==
+<references/>
+{{wikipedia|title=Doom monsters}}
+[[Category:Monsters]]
+[[Category:Boss monsters]]

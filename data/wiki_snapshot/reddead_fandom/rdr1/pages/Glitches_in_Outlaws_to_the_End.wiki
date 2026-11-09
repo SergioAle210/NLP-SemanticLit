@@ -1,0 +1,141 @@
+
+{{Speculation}}
+----
+''<small>The Red Dead Wiki team encourages players to catalog experiences of major gameplay glitches while playing The DLC Content Outlaws to the End for Red Dead Redemption.</small>''
+
+''<small>Rockstar Games does make peripheral use of this wiki to track glitches; adding accurate information can help resolve them. </small>''
+
+''<small>You can send your emails regarding the glitches to the </small>''<small>[[Red Dead Redemption]]'' support team to this address: [mailto:RDRSupportteam@rockstargames.com RDRSupportteam@rockstargames.com] ''</small>
+
+<small>''This page is also forwarded to [[Rockstar Games|Rockstar staff]] via Twitter and Email. ''</small>
+
+''<small>Please be sure to be as specific as possible, citing the circumstances and accurately describing the glitch. Also be sure to include which console. Again, this specific page should be used for glitches specific to The DLC Content Outlaws to the End; general glitches with the main game should be addressed here: </small>''
+<small>[[Glitches]]</small>
+----
+
+
+These are the '''list of glitches''' in [[Red Dead Redemption]] DLC [[Outlaws to the End]]. The glitches are categorized according to console and gameplay. A good number of them have been fixed with a server-side patch.
+
+
+
+If you can continuously play through the game without encountering a specific glitch listed here, please remove the glitch as no longer occurring.
+
+Likewise, if you encounter a glitch that has been stricken, or encounter a glitch not entered, please enter it.
+
+==Glitches on Xbox 360==
+===General===
+*Player randomly dies. (This could be caused by being killed by invisible players, see below.)
+*Players in the same game appear to be invisible to other players. In some cases, the characters appear in the game but not as the player see it. The "invisible" player will still show up on the minimap if they fire a weapon or sprint, but they cannot be heard or killed, even with dynamite.
+*Sometimes in a Gang Shootout a player will be invisible to you, but they can see you. If they kill you, the game displays a generic message saying that you died.
+*Sometimes when a player joins a Gang Shootout, the game displays a scoreboard but the game never starts. Sometimes the only solution is to exit to the dashboard. ''*confirmed - may also time out after a VERY long wait*''
+*Players are unable to join Ranked matches. The player gets stuck at the loading screen.
+
+*Player enters shootout/gang shootout game modes when the co-op missions are selected from the "back button menu" (Xbox 360) *''May also occur when selecting advanced co-op missions''
+*Players cannot play neither multiplayer nor single player after downloading the patch and DLC
+*Dying when the computer believes you are participating in a gang hideout mission respawns you in exactly the same place every time (the "entrance" to the gang hideout). Therefore, if another player kills you near the entrance to a gang hideout they can face the respawn point and continually kill you as you respawn before you even have time to move.
+*Enemy NPC's occasionally spawn underground. You can't shoot them through the ground but they can shoot (and kill) you.
+*Passing into Legend while completing co-op missions will cause some of your challenge progress to glitch, and make the "You Rule!" achievement unobtainable.
+
+===Ammunition===
+*The Mexican Army does not spawn, resulting in all objectives being completed. Once the player must plant explosives, no enemies spawn, resulting in a quick win.
+*Players get stuck in the loading screen of whichever mission they are trying to play, particularly "Ammunition". When this happens, the main way to exit is by going back to the dashboard, or turning off the console.
+
+===The Escape===
+*At the start of this mission, if gang member dies on the hill where the scenario begins, and another player revives them, that reviving player can fall through the terrain and plummet into nothingness. Luckily a checkpoint is often reached mere moments after this occurs (defeating all enemies around the gold coach), saving the plummeting player, and placing them back on firm ground.
+*It is possible to drive the horse drawn Gatling gun from the Scratching Post to Ridgewood Farm, then parking it inside the barn. After closing all barn doors and transitioning to a private free roam, the Gatling gun can be used. Anyone using this glitch should be warned this causes massive lag inside the session.
+*All players can be stuck in a loading screen before the mission starts, as a result you can only quit by going to the dashboard or turning off the system.
+*By driving the Gold Stagecoach (Four Horsed Taxi Stagecoach) to Plainview, it can be transferred into a private session by entering the text and drive glitch (aim weapon and select) while changing the session.
+
+===The Kidnapped Girl===
+*After clearing the fort of all gang members, the farmer's daughter will not appear, thus leaving the mission at a standstill. The only solution is to restart the mission.
+*After defeating all bandits in Fort Mercer, the stagecoach will disappear, leaving the girl stuck in [[Fort Mercer]] . She will follow you through the main gate but you will have to walk to the ranch, the odds of her and you making it are low.
+*In the end of the cooperative mission, 2 horsemen will be seen riding the [[War Horse]]. You could place it in the fence in Ridgewood Farm of the coop mission, and transfer to a private session, which then could be put into a public one.
+
+===The Herd===
+
+*Players immediately fail as soon as it starts, saying the herd has been killed.
+*Horses will not be able to reach their owners, as they disappear soon after they are called. When an enemy's horse is injured, it will disappear from underneath its rider. If the rider is killed, the horse will disappear. You <u>may</u> get lucky and successfully call your horse, but only after you leave the basin.
+*Sometimes nothing but the players and the herd will spawn including the players horses. This means that all the players must do is sprint with the herd all the way to [[Armadillo]].
+*Fifth and final cow does not trigger the last check point and will not enter the pin with the other four.
+
+===The River===
+
+*After you clear out the first part of the mission and you head back to the raft and the screen fades to black, your character will appear on the shore instead of on the raft. This forces you to follow the raft on land.
+*A player who dies during the first part of the mission will be stuck on a Loading screen until checkpoint. The Checkpoint also tends to take an extra minute to load for all players.
+*Players will randomly drown for no reason while on the raft.
+*If a player is downed near the water at the Scratching Post, they will automatically die. (Rare)
+*If someone kills you on the raft while they are invisible, you may respawn in the same spot you were killed, until the end of the mission, regardless of the position of the raft.
+*If you get hit with a fire bottle, the player that got hit with the bottle might fall out of the raft and die.
+*Player gets frozen in loading screen when initially starting Co-op on "The River" mission.
+*Player can sometimes call their horse after landing at the first docks. If the player leaves the horse on the raft after finishing the checkpoint, it will accompany the player down the river.
+*During the last sequence in the town of Nosalida, after all teammates are killed, if standing by the firepit/fireplace (closest to the river) your character will slingshot across the town to the other end and land by the farthest dynamite crate next to a group of NPCs who are at the ready.
+
+===Walton's Gold===
+
+*No enemies spawn. A blockade of many carts spawn on the track, and none of them can be filled with gold bags, resulting in a stalled mission. Sometimes your partners are invisible. Re-loads do not fix.[[File:FILE0020.jpg|thumb|The blockade of carts in "Walton's Gold"]]
+*The cart that is used to transport the bags can appear on its side, resulting in a fairly humorous glitch (if ultimately damaging, as there is no way to get cart out of the mine) where the cart and the player who attempts to push the cart are spinning in the air. (Note: The cart has been known to turn on its side in free roam.) Also, the cart may multiply after it is out of the mine.
+*When using the cart the player will grab on to one of the other unusable carts to the side, and cannot get off.
+*Enemies keep respawning after you leave the mine.
+
+==Glitches on Playstation 3==
+===General===
+*Going into the mine in Free Roam at Gaptooth Breach locks the game up, due to multiple mine carts being spawned. (Rare)
+*Invisible to other players. Other players invisible to you. (Extremely common)
+*Unable to hear other players until exiting the free roam to find another game.
+*Shooting other players takes around 30 shots with a rifle to kill them. (happens randomly undepending from which game mode you are playing).
+*When galloping on your horse on single and multi-player on railroad tracks (Can happen EVERYWHERE, not just on train tracks! Confirmed by numerous players), the horse will keel over and die for no reason catapulting the player off the horse. (Happens far too often!)
+*When playing in shootout or bag matches, sometimes killing another player causes them to "fall to their death" and you don't get the points for the kill.
+*You, and anyone else who's playing bag -or shootout games might die without reason. Alternative is that sometimes players may become unkillable for small period of time.
+*When you're in a game, if another player is dead and you reach the checkpoint. If you die before they respawn, you move on to another game while your party is still in the previous one. (rare)
+*Sometimes when you fall you will act like you are down, and unable to get up, be revived, or bleed out, thus freezing you. The only way to fix this and still be in the same game is to get a teammate to kill you, and when you respawn at a checkpoint you will be fixed.(May also be in general gameplay).
+*When you are downed your character will still be stood up with the gun aiming. (rare)
+*Within playing the first few minutes of a co-op game, and there are spaces available in the team, the game may stop abruptly and start with a new teammate logging on. (rarely occurs)
+
+===Ammunition===
+*One of the enemies may run very far away from the fort, you can't kill him because you cant go far from the fort. (This can be solved by utilizing the Carcano or Rolling Block Sniper Rifle)
+
+===The Escape===
+*When you begin the level you (and at times a second player) will spawn into the game first, fire 4 shots from any weapon you've switched to and then you will automatically revert to your default pistol as the remaining players spawn into the game.
+*When you first drive the coach, the first enemies on horseback that you confront are not marked as red dots, making them hard to locate.
+*When you do a standoff with the [[American Army]], sometimes you will be facing sideways, and not forward
+*Also when you first drive the coach, a team member may pull off your seat, you fall off the coach and half your body is seen - torso up. The rest is hidden below ground. Your character will be unable to move. You can be shot and respawn until the next checkpoint.
+*After boarding a stagecoach, the horses fail to respond. You can leave the driver seat and have a teammate drive. The horses will respond and you are able to drive. ''Note this may also happen on xbox.''
+*At the last part after you cross the bridge the coach will teleport unallowing you to finish the mission. The horses also can't die meaning the only way to exit the mission is to use the select button to select other game types.
+*By driving the Gold coach to Plainview, it can be transferred into a private session by entering the text and drive glitch (aiming weapon, select, and driving slowly) while changing the session. (Make sure to be locate in Plainveiw while changing sessions.)
+*the player could go through tree's then next person the player kills respawns right where the character was killed and shoot's the player when this happens the player enters a world filled with blue and cannot move and will have to restart the game system.
+
+===The Herd===
+*Cows automatically die.
+*If you die as soon as the match starts, while your teammates are loading, you can run around the area. The game will then skip the mission because of an unexpected error. (rare)
+*Sometimes your horse will vanish when you whistle for it, and keep vanishing each time you whistle, the only way to get your horse if you encounter this glitch is to kill an enemy and to quickly take their horse, as their horse vanishes too.
+*When using Dead Eye after exiting Pike's Basin, NPC's will seems to jump up and down in their saddle as opposed to dying when hit with a Dead Eye headshot. This occurs everywhere along the trail after leaving the Basin.
+*When the first line of reinforcements arrive, they respawn 2/5 times. (rare)
+
+===The Kidnapped Girl===
+*There is a glitch after players have cleared the fort of all gang members, the farmers daughter will not appear thus leaving the mission at a stand still. The only solutions at this time are to restart the mission or firebomb her to death.
+*Once the fort is clear, the stagecoach will not appear, thus leaving the mission at a standstill. only solution is to kill the hostage.
+*In the end of the cooperative mission, 2 horsemen will be seen riding the "War Horse". You could place it in the fence in Ridgewood Farm of the coop mission, and transfer to a private session, which then could be put into a public one.
+
+===The River===
+*Players sometimes fall off the raft and die.This can be caused by being shot or running into another player. The "Victim" collapses on the raft and slowly rolls down the raft and eventually falls into the river drowning instantly.
+*A player who dies during the first part of the mission will be stuck on a Loading screen till checkpoint. The Checkpoint also tends to take an extra minute to load for all players.
+*After clearing out Scratching Post and getting back on the raft, you may spawn in the river and automatically drown.
+*Being downed near water at the Scratching Post will result in instant death (rare)
+*Throwing fire bottles directly into the raft will sometimes cause you to fall off and drown.
+*At the beginning of the mission the raft will not spawn and all players will fall into the water (very rare)
+*Sometimes a player may call their horse and get on the raft, but they are unseen by any other players. They are possibly underneath the raft
+*After clearing out the wave of enemies on the first shore and passing through the checkpoint, a player will not spawn on the raft for the first trip down the river, but rather on land on the Mexican side of the river. They can still kill enemies by moving westbound at the pace of the boat, but will remain there until a later checkpoint.
+*Before entering the town of Nosalida, the last enemy NPC raft that appears will appear stranded on the rocks. No NPCs are to be found.
+*After the Scratching Post while on the raft towards Nosalida, a horse can be seen floating above the river off in the horizon.
+*A player will be throw from the raft, stuck on land, forced to ride on land until next raft point.(PS3)
+
+===Walton's Gold===
+*No enemies spawn outside and only one enemy inside the mine and the cart doesn't spawn either (although the yellow marker points north of the mine inside a mountain), which makes the game freeze. If you can't see the miners in the starting video, enemies won't spawn. Exit the session immediately to avoid the frustrating freeze and restart. Also, multiple carts may have spawned, making it impossible to move the cart.
+*In Advanced mission, sometimes no enemies will spawn, thus letting you enter the mine quickly. However you are unable to pick up bags, which ultimately ends with the mine exploding and failing the mission. (May also happen in the regular Walton's Gold).
+*Sometimes there is a pile of mine carts near the real one if you press triangle near them you will "drive" them while laying on the ground.
+*After getting the gold bags and getting out of the mine, one or more players may die immediately. (very rare)
+*After the final Checkpoint, where players spawn inside the house, a player may be downed near the door closest to the mine and even if revived, they will still Bleed Out. This ALWAYS happens near the door closest to the mine, never at the other entrance to the house.
+[[Category:Glitches]]
+[[Category:Red Dead Redemption]]
+[[Category:Outlaws to the End]]
+[[Category:Gameplay]]

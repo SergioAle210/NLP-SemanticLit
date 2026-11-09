@@ -1,0 +1,72 @@
+{{Icons|game = doom3}}
+{{Hell Knight}}
+{{DISPLAYTITLE:Hell Knight (Doom 3)}}
+
+{{Infobox Enemy
+|name = Hell Knight
+|image= Doom3Hellknight.PNG
+|class=Warrior
+|hp=900 (1400 in debut)
+|attack= 25 (claw), 30 (bite), 30 (fireball), up to 45 (fireball splash)
+|found=*[[Delta Labs - Level 4: Union Aerospace Research Division|Delta Labs Sector 4]]
+*[[Hell (Doom 3 level)|Hell]]
+*[[Site 3: Analysis Facility|Site 3]]
+*[[Caverns - Area 1: Excavation Transfer|Caverns Area 1]]
+*[[Caverns - Area 2: Artifact Excavation|Caverns Area 2]]
+*[[Phobos Labs - Sector 1: Teleportation|Phobos Labs Sector 1]]
+*[[Phobos Labs - Sector 3: Main Reactor|Phobos Labs Sector 3]]
+*[[Delta Labs - Unknown: Union Aerospace Research Division|Delta Labs Unknown]]
+*[[Hell (Resurrection of Evil level)|Hell (RoE)]]
+*[[Underground - Sector 2: Mars City Service Sub-Level|Service Sub Level 2]]
+*[[Hell (Lost Mission level)|Hell (LM)]]
+*[[Hell Outpost]]
+|spawn="spawn monster_demon_hellknight"
+}}
+The ''[[Doom 3]]'' '''Hell Knight''', in many ways, is vastly different from its [[Hell Knight/Doom II|original predecessor]]. It takes the appearance of a tall muscular alien or mutant, rather than a satyr or minotaur.
+
+An in-game examination of its spine indicates it has a massive skeleton. It has no visible nose, and its deformed ears resemble those of a human, fused to the sides of its head. Its obscure eyes are very small and black, located on the sides of the head just above the mouth. Characterized by its low-pitch guttural breathing and growling, it is easily the tallest non-boss enemy in the game. Assuming the Marine is 6 feet (1.8m) tall, the Hell Knight stands about 10 feet (3 meters) tall.
+
+In [[Hell]], Hell Knights show a different appearance from those on [[Mars]]. Their skin is greyish-green and some parts, such as the mouth, upper chest, hands and feet, are red, possibly soaked with blood. They are covered with scars and demonic runes, and have a pentagram on their forehead.
+
+The [[Doom's protagonist|Marine]] first encounters a pair of these enemies when he arrives at the main teleporter in the Delta Labs. Dr. [[Malcolm Betruger]] sets up a trap by activating the portal, causing a biosuit-clad scientist to emerge from it, followed by a towering Hell Knight. The beast suddenly grabs the scientist before violently propelling him at the nearby portal generators, killing him in the process. A second Hell Knight shortly emerges from the portal, and both monsters charge right towards the Marine.
+
+==Combat characteristics==
+[[file:hellHell_knight.jpg|thumb|left|225px|The Hell Knight's appearance in Hell.]]
+The Hell Knight's attacks are similar to those of the [[Imp/Doom 3|Imp's]]: it hurls bluish green fireballs at long range and substitutes to clawing attacks at close range. However, it lacks the ability to leap and its clawing attacks are not instantaneous like the Imp's; the lag to initiate their melee attack is around 1-2 seconds. To make up for its lack of agility, the Hell Knight can launch a powerful biting attack, allowing them to hit further than its clawing, although it also suffers from the same lag duration to initiate it. The green plasma balls it throws are much larger, more powerful, and have a wider area of effect.
+
+Like the [[Mancubus/Doom 3|Mancubus]], the Hell Knight can also make the ground tremble from their loud banging footsteps.
+
+== Tactical analysis ==
+[[File:Doom_3_Hell_Knight_by_WackyCamper.jpg|thumb|Doom 3 Hell Knight.]]
+The ''Doom 3'' Hell Knight, in many ways, is a lot tougher than its classic version would otherwise prove, as it has nearly equivalent hitpoints of the original [[Baron of Hell]], while the original Hell Knight had half the amount.
+
+It's strongly recommended to take out Hell Knights from range. The [[Rocket launcher/Doom 3|Rocket Launcher]], [[Plasma gun/Doom 3|Plasma Gun]], and [[Chaingun/Doom 3|Chain Gun]] are very effective weapons to take them out. It can take 4-5 rockets from the Rocket Launcher and close to a full magazine of the Chain Gun and Plasma Gun to kill one, but their large stature and slow speed makes targeting headshots easier, in which fewer shots are needed to finish them off. If the situation permits, the [[Soul Cube]] and [[BFG9000/Doom 3|BFG]] is an excellent choice.
+
+The Hell Knight possesses a large variety of extremely devastating attacks. Their large fireballs can do grievous damage upon a direct hit, while still retaining significant damage from its splash radius. Despite being deadly, their attacks are also quite slow and avoidable. When dealing with their fireball attacks at range, it is advisable to maintain enough space to efficiently dodge as their fireballs can unleash a wide splash radius. Take caution, however, to not get immediately cornered as this allows the Hell Knight to easily land a hit.
+
+The Hell Knight's height limits them to be only launching their fireballs at a very high altitude, making it possible to run under it momentarily. This can sometimes provide the player a good opportunity to fight them at close range. The [[Shotgun/Doom 3|Shotgun]] can be used to blast them a couple of times while actively baiting them to slowly claw you. Be wary though, as they can also bite, which allows them to hit you further than its claws, in which case, you must quickly back away even further.
+
+The [[Doom 3: Resurrection of Evil|expansion pack]] and the [[Doom 3: The Lost Mission|additional content of the ''BFG Edition'']] introduces three new weapons to even out the odds against the Hell Knight. The [[The Artifact|Artifact]], which is only exclusive to the former game, can work well; as Hell Knights first appear around the time after the player obtains the Berserk powerup, one punch from the effects of the Artifact will make short work on them. The [[Super shotgun/Doom 3|Super Shotgun]], which does twice as much damage as the standard Shotgun, will vanquish a Hell Knight with three point blank shots, provided the player has sufficient space to keep dodging, firing, and reloading. The [[Grabber]] can effectively be used to redirect the Hell Knight's fireball. However, it requires 5 direct volleys to defeat it.  
+
+==UAC research notes==
+These notes can be downloaded to the player's [[PDA]] during the course of the game:
+
+'''Specimen 31 - Hell Knight (partial)'''<br />
+''The cranial mass of this bipedal specimen indicates that it is one of the largest creatures inhabiting the site. Overpowering its prey with sheer might, the Hell Knight is one of the most ferocious predators known to our researchers. Like the Imp, this creature is able to defend itself at long-range with thrown plasma projectiles.''
+
+==Other appearances==
+===''[[Doom Resurrection]]''===
+The Hell Knight is a boss in ''Doom Resurrection'' in the fourth chapter, inside the Delta Labs. Its only attack is to throw green energy balls at the player, which can cause quite a bit of damage. They can be dodged like a usual Imp's energy ball. After draining its health, it will push the player into the Hellgate to end up being sent to Hell.
+
+==Trivia==
+*Considering that the [[Baron of Hell/Doom|Baron of Hell]] is one of the very few monsters from the [[Doom|first Doom game]] that was never featured, the Hell Knight likely serves as the third game's ''official'' representation of that monster rather than its classic namesake, which only appeared in the [[Doom II|second game]]. 
+**Aside from having nearly equivalent hitpoints, the Hell Knight's introductory cutscene takes inspiration from a pair of [[Baron of Hell|Barons of Hell]], which serve as sub-bosses in the [[Knee-Deep in the Dead|first episode]] of ''The Ultimate Doom''. 
+**In the [[Doom (2016)|later installment]], the [[Hell Knight/Doom (2016)|Hell Knight]] is introduced as a middle-tier monster like in the classic games (only faster and limited to melee), while the actual [[Baron of Hell/Doom (2016)|Baron of Hell]] is more faithful to the ''Doom 3'' Hell Knight as a more powerful, late-game demon that can melee and shoot green fireballs.
+*If one uses the noclip cheat, a stream of saliva can be seen running from the Hell Knight's mouth.
+*The Hell Knight is featured on the cover art of the game.
+
+{{Doom 3 monsters}}
+[[Category:Boss monsters]]
+[[Category:Doom 3 monsters]]
+[[Category:Monsters]]
+[[Category:Demons]]

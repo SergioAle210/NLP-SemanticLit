@@ -1,0 +1,25 @@
+{{Arachnotron}}
+{{Quote|Maybe cybernetics wasn't such a great idea after all. Look what the demons have done with it. It seems unfair somehow you're not the only guy in [[Hell]] with a [[plasma gun]].|Description in the Doom II manual}}
+{{Quote|They are the small offspring of the Spider Demon that was the final boss in the original Doom. They are nastier offensively, slinging green plasma bolts like pissed off Barons of Hell. But they can't stand the same level of damage as their daddy before going legs up.|Description in the Doom II Official Strategy Guide}}
+The '''Arachnotron''' is a spider-like cyborg [[monster]] introduced in [[Doom II]]. It is similar in appearance to the [[Spiderdemon]], but smaller and with large eyes that change color depending on the monster's current state (moving, hurt, or attacking). It is supported by a metal chassis and a body that consists primarily of a large brain, along with two small arms. Instead of a chaingun, it wields a powerful plasma gun that fires bursts of yellow and green energy.
+
+===Doom 3===
+[[file:Untitled.jpg|256px|thumb|''Doom 3'' concept art.]]
+The designers considered reintroducing the Arachnotron for this sequel, but cut the enemy for unconfirmed reasons. No code or 3D model are known to exist.
+
+==Notes==
+* As with the [[Spider Mastermind]], the term ''Arachnotron'' (roughly translatable as "spider instrument") is not absolutely literal, as arachnids (spiders and such) have always eight limbs. In [[Doom II]], however, these monsters have only six limbs: two organic arms and four mechanical legs; curiously, while the [[Doom 64]] version increases their mechanic leg count to six, they lack the organic arms.
+* In the [[Doom source code]] the internal name for the arachnotron is <tt>MT_BABY</tt>, and the root of its [[sprite]] name in the [[IWAD]] is <tt>BSPI</tt>, so the monster was arguably called (or nicknamed) ''baby spider'' during the development of [[Doom II]].
+** In the [[Ultimate Simpsons Doom]] [[PWAD]], the animation frames for the Arachnotron are replaced with images of [[w:c:simpsons:Maggie Simpson|Maggie Simpson]], presumably as a deliberate pun on this <tt>MT_BABY</tt> designation.
+* In a [[ZDoom]]-based [[source port]], if the player is killed by an Arachnotron (monster is credited with delivering the blow that reduces player's health to 0%), an obituary message is displayed at the top of the screen: "[player name] let an Arachnotron get [gender]".
+* The projectile sprite APLS is actually a re-colored version of the [[Imp]]'s projectile sprite in [[beta]] versions of [[Doom]].
+* The Arachnotron was supposed to have a [[Chaingun]] instead of a [[Plasma gun]] in the early beta of [[Doom II]]. This was eventually given to the Spiderdemon.
+* In [[Brutal Doom]], Arachnotrons are larger, near the size of [[Hell Knight]]s or a [[Baron of Hell]], move faster and fire the same blue plasma bolts from the [[player]]'s [[plasma gun]].
+* The Arachnotron could possibly be the inspiration for the Singing Monster [w:c:mysingingmonsters:Reebro|Reebro].
+
+==See also==
+* [[Monsters open locked doors]]
+
+[[es:Arachnotron]]
+[[Category:Monsters]]
+[[Category:Synthetic Demon]]

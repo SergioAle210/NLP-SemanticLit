@@ -1,0 +1,93 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Digdogger Artwork.png
+ |Sprite TLoZ= File:TLoZ Digdogger Sprite.png
+ |Sprite OoS= File:OoS Digdogger Sprite.png
+}}
+|caption= 
+|pronunciation= 
+|plural= 
+|title= 
+|alias= 
+|race= 
+|gender= 
+{{Infobox Game Blocks
+ |OoS= Male<ref>{{Cite Guide|OoS Versus|page= 44 {{Exp Game|OoS}}}}</ref>
+}}
+|game= TLoZ, OoS
+|other= BSTLoZ, TCoBS
+|dungeon= 
+{{Infobox Game Blocks
+ |TLoZ= [[Level 5]], [[Level 7]]
+ |OoS= [[Unicorn's Cave]]
+}}
+|habitat= 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|8}} per mini-Digdogger
+}}
+|weakness= 
+{{List|
+ [[Sword]],
+ [[Recorder]],
+ [[Bomb]]s,
+}}
+|reward= 
+{{Infobox Game Blocks
+ |OoS= [[Nurturing Warmth]]
+}}
+|exp= 
+|theme= 
+|strategy= 
+{{Infobox Game Blocks
+ |TLoZ= {{StrategyWiki|The Legend of Zelda/Underworld/Quest 1/Dungeon 5#Boss|Digdogger}}
+ |OoS= {{StrategyWiki|The Legend of Zelda: Oracle of Seasons/Eyeglass Lake and Unicorn's Cave#BOSS: Digdogger|Digdogger}}
+}}
+|voiceactor= 
+}}
+{{Term/Store|Digdogger||Series, TLoZ, OoS}} is a recurring [[Boss]] in {{TLoZ Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 175 {{Exp Game|TLoZ, OoS}}}}</ref>
+
+==Characteristics==
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+In {{TLoZ}}, a Digdogger appears as the [[Boss]] of [[Level 5]]. To defeat it, [[Link]] must play the [[Recorder]] to shrink the creature into a smaller version of itself. Link can then defeat Digdogger with his [[Sword]]. Another Digdogger appears in [[Level 7]]. Using the Recorder will split the creature into three smaller versions of itself,<ref>{{Cite Guide|NES Game Atlas|quote= Digdogger hates music. Shrink him down to size by using the whistle.|page= 55}}</ref> which can be defeated with the Sword.
+* In consoles with microphone (mostly the second controller of Family Computer), shouting at the microphone can also cause this enemy to shrink.
+
+==={{OoS|-}}===
+In {{OoS}}, Digdogger appears as the Boss of the [[Unicorn's Cave]].<ref>{{Cite Guide|OoS Nintendo|page= 39}}</ref> Using the [[Magnetic Gloves]] at north polarity, Link can cause the spiked ball that lays in the boss area to smash into Digdogger. After a few smashes from the spiked ball, the Digdogger will split into [[Mini Digdogger]]s. Link must then hit each of them with the spiked ball or his Sword to defeat them.
+
+==Other Appearances==
+==={{BSTLoZ|-}}===
+{{Noncanon|Start}}
+{{Stub|BSTLoZ}}
+
+{{Noncanon|End}}
+
+==Trivia==
+* [[Vitreous]], the boss of [[Misery Mire (Dungeon)|Misery Mire]] from {{ALttP}}, is called {{Romanize|ゲルドーガ|Gerudōga|Geldogger}} in Japanese. The suffix "-dogger," in addition to its eyeball appearance, may suggest a connection to Digdogger.
+* Although described as a sea urchin in the international manual of {{TLoZ|-}},<ref>{{Cite Manual|quote= Big sea urchins. In spite of their big bodies, they shrivel up when attacked. But watch out! The come on pretty strong.|game= TLoZ|page= 38}}</ref> the Japanese manual describes it as a giant Unira,<ref>{{Cite Manual|quote= A giant Unira. Due to its enormous size, shockwaves will cause its body to shrivel up. However, it has powerful offensive strength.|game= TLoZ|page= }}</ref> an urchin monster from ''{{Wp|Clu Clu Land}}''. In that game, an Unira will become stunned if Bubbles, the protagonist, uses a sound attack on it. Using the Recorder to defeat Digdogger may be a reference to this.
+* In {{BotW}} and {{TotK}}, the [[Digdogg Suspension Bridge]] is named after Digdogger.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Digdogger Sprite 2.png|{{Game Label|{{TLoZ|-}}}}A weakened Digdogger
+File:BSTLoZ Digdogger Sprite.png|{{Game Label|{{BSTLoZ|-}}}}A Digdogger
+File:BSTLoZ Digdogger Sprite 2.png|{{Game Label|{{BSTLoZ|-}}}}A weakened Digdogger
+</gallery>
+
+==See Also==
+{{See Also|
+ * Digdogg Suspension Bridge
+}}
+
+{{Ref}}
+
+{{Bosses|OoS}}
+{{Categories
+ |Eye Enemies, Nintendo Enemies
+ |bosses= TLoZ, OoS, BSTLoZ
+}}

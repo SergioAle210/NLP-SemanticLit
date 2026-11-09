@@ -1,0 +1,84 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork OoT = File:OoT Megaton Hammer Render.png
+ |Render OoT3D = File:OoT3D Megaton Hammer Artwork.png
+ |Model OoT = File:OoT Megaton Hammer Model.png
+ |Model OoT3D = File:OoT3D Megaton Hammer Model.png
+ |Sprite OoT = File:OoT Megaton Hammer Icon.png
+ |Sprite OoT3D = File:OoT3D Megaton Hammer Icon.png
+}}
+|caption= 
+|type= 
+|game= 
+|other= 
+|cost= 
+|value= 
+|location= {{Term|OoT3D|Fire Temple|link}} {{Exp Game|OoT}}
+|uses= Attacking<br/>Destroying {{Plural|OoT3D|Boulder|link}}<br/>Opening {{Plural|OoT3D|Secret Grotto|link}}<br/>Pressing {{Plural|OoT3D|Switch|link}}
+|strength=[[Weapon Strength#Ocarina of Time|2]] {{Exp Game|OoT}} 
+|durability= 
+|comp=
+|sample= 
+|theme= 
+|comparable=[[Hammer]]<br/>[[Skull Hammer]]|game_debut={{OoT}}}}The {{Term/Store|Megaton Hammer||Series, OoT, OoT3D, Soulcalibur II, HW, HWL, HWDE, CoH}} is a recurring {{Term|Series|Item|link}} in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 130 {{Exp Game|OoT}}}}</ref><ref>{{Cite|{{Color|CoH Yellow|Megaton Hammer}} -- Assign to {{Icon|CoH A}} {{Icon|CoH B}} {{Icon|CoH X}} {{Icon|CoH Y}}<br/>Performs a powerful hammer attack directly in front of you, dealing {{Color|CoH Red|3 damage}} and smashing some objects, at the cost of stamine.|N/A|CoH}}</ref>{{Note|The {{Term|Series|Megaton Hammer}} were referred to as the '''Magic Hammer''' on the official Zelda.com website.<ref>{{Cite Web|quote= {{Big|Magic Hammer}}<br/>A small tool used to smash pegs—and sometimes enemies!<br/>{{Small|Magic Hammer as seen in: The Legend of Zelda: Ocarina of Time 3D}} |author= |published= |retrieved= January 15, 2022 |url= https://zelda.com/about/ |title= The official home for The Legend of Zelda - About |site= Zelda.com |type= }}</ref> However, as this contradicts the name given in-game, it is not considered [[Guidelines:Canon|Canon]].}}{{Name Ref|Soulcalibur II, HW}}
+
+==Location and Uses==
+==={{OoT|-}}===
+The {{Term|OoT3D|Megaton Hammer}} is a powerful and heavy steel hammer found as the key item for the {{Term|OoT3D|Fire Temple|link}} in {{OoT}}. It is used to break apart large rocks (except gray ones which require the [[Silver Gauntlets]]) and smash in rusted {{Plural|OoT3D|Switch|link}} to make them function. It can also be used to destroy blocks for access to new areas and to open {{Plural|OoT3D|Secret Grotto|link}} without the need of [[Bomb|Bombs]]. Despite its great power, the Megaton Hammer inflicts as much damage as the {{Term|OoT3D|Master Sword|link}} in combat, but it has slower swinging speed compared to {{Term|OoT3D|Link|link}}'s {{Plural|OoT3D|Sword|link}}. It can be used against certain enemies, such as {{Plural|OoT3D|Tektite|link}}, to flip them over and attack them. If used on the ground close to a wall with a {{Term|OoT3D|Skullwalltula|link}}, it will knock the enemy off and defeat it without hitting it directly. It is also effective on [[Business Scrub|Business Shrubs]]. Like the [[Biggoron's Sword]], however, the Megaton Hammer, due to its weight, requires both hands to wield when equipped and Link cannot defend with his [[Shield]]. If the shield button is pressed, he attempts to protect himself with the hammer.
+
+According to {{Term|OoT3D|Goron|link}} legends, a mythic hero of the {{Plural|OoT3D|Goron}} and an ancestor to {{Term|OoT3D|Darunia|link}}, patriarch of the {{Plural|OoT3D|Goron}}, used the {{Term|OoT3D|Megaton Hammer}} in battle against {{Term|OoT3D|Volvagia|link}}. Wielding it, he was victorious and sealed the dragon in the fires of {{Term|OoT3D|Death Mountain|link}}.<ref>{{Cite|A long time ago there was an evil dragon named Volvagia living in this mountain. That dragon was very scary! He ate Gorons! Using a huge hammer, the hero of the Gorons... BOOOM! Destroyed it just like that. This is a myth from long ago, but it's true! I know, because my dad is a descendant of the hero!|Link (Goron)|OoT}}</ref> Thus, it is necessary for the [[Hero of Time]] to defeat {{Term|OoT3D|Volvagia}} with this item. The {{Term|OoT3D|Megaton Hammer}} is also effective in the final battle with {{Term|OoT3D|Ganon|link}} for attacking his tail during the phase when the Master Sword is knocked away.
+
+==Other Appearances==
+==={{SCII|-}}===
+{{Noncanon|Start}}
+The {{Term|Soulcalibur II|Megaton Hammer}} is one of {{Term|Soulcalibur II|Link}}'s weapons in {{SCII}}. Paired off with the {{Term|Soulcalibur II|Hylian Shield|link}}, the {{Term|Soulcalibur II|Megaton Hammer}} can be bought either in the Altair Shop or the Benetnasch Shop for 1,200 Gold while playing the Weapon Master Mode. The {{Term|Soulcalibur II|Megaton Hammer}} has a short reach; however, this is countered with the fact that {{Term|Soulcalibur II|Link}}'s offense increases to 135%.<ref>{{Cite|Good offense, strong single strikes, but a short reach.|N/A|Soulcalibur II}}</ref>
+
+{|class="wikitable"
+!Cost
+!Attributes
+!Description
+|-
+| 1,200 Gold
+| Offense goes up 35%<br/>Short reach
+| ''An extremely heavy hammer. Learning to use it effectively could take some time, as its reach is somewhat short for a weapon. Its power and toughness, however, far exceed that of any normal sword. It's guaranteed to inspire awe.''
+|}
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+{{Main|Hammer#Hyrule Warriors}}
+The {{Term|HWDE|Megaton Hammer}} appears as the third-tier version of {{Term|HWDE|Darunia}}'s {{Term|HWDE|Hammer|link}}. It has a much different appearance compared to Ocarina of Time as well as SoulCalibur II.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+{{Stub|CoH}}
+{{Ambig|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+== Trivia ==
+
+* The Megaton Hammer's name is a pun of "megaton", a unit commonly used for nuclear weapon devices which measures a million tons of TNT.
+* This item is likely based on the [[Hammer|Magic Hammer]] from ''[[The Legend of Zelda: A Link to the Past|A Link to the Past]]'', as that weapon also can knock certain enemies off the ground.
+* [[Goron Link]]'s punch shares the same [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_MegatonHammer_Hit.wav sound effect] as the Megaton Hammer when he hits a wall in ''[[The Legend of Zelda: Majora's Mask|Majora's Mask]]''. It is also used for the man in [[Termina Field]] near the [[Astral Observatory]] when Link knocks him off a tree.
+* Like the [[Deku Stick]] and [[Giant's Knife]]/Biggoron's Sword, if Link were to equip the Megaton Hammer during cutscenes or in his idle animations, he can be seen holding it with only one hand. This also applies to ''SoulCalibur II''.
+* Although ''SoulCalibur II'' is not canon to [[The Legend of Zelda (series)|''The Legend of Zelda'' series]], despite sharing the same damage as the Master Sword in ''Ocarina of Time'', the Megaton Hammer is one of the few weapons the Hero of Time owns in this game that is stronger than the sacred blade, and even slightly surpasses the Biggoron's Sword.
+
+==Gallery==
+<gallery>
+File:SCII Megaton Hammer Model.png|The {{Term|Soulcalibur II|Megaton Hammer}} from {{SCII|-}}
+File:HW Megaton Hammer Artwork.png|Artwork of the {{Term|HWDE|Megaton Hammer}} from {{HW|-}}
+File:HW Megaton Hammer Model.png|The {{Term|HWDE|Megaton Hammer}} from {{HW|-}}
+File:HW Megaton Hammer Icon.png|Icon of the {{Term|HWDE|Megaton Hammer}} from {{HW|-}}
+</gallery>
+{{Notes}}
+==See also==
+*[[Rented Hammer]]
+{{Ref}}
+{{Categories
+ |Hammers
+ |items= OoT, OoT3D, Soulcalibur II, HW, HWL, HWDE, CoH
+}}

@@ -1,0 +1,116 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork OoT= [[File:OoT Megaton Hammer Render.png|320x320px]]
+ |Render OoT3D= [[File:OoT3D Megaton Hammer Artwork.png|320x320px]]
+ |Model OoT= [[File:OoT Megaton Hammer Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Megaton Hammer Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Megaton Hammer Model.png|320x320px]]
+ |Sprite OoT= [[File:OoT Megaton Hammer Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Megaton Hammer Icon.png|160x160px]]
+ |Sprite OoTNS2= [[File:OoTNS2 Megaton Hammer Icon.png|320x320px]]
+}}
+|caption= 
+|game= OoT
+|other= SCII, HW, CoH
+|cost= 
+|value= 
+|location= 
+{{Infobox Game Blocks
+ |OoT= [[Fire Temple (Ocarina of Time)|Fire Temple]]
+}}
+|uses= 
+{{List|
+ * Attacking
+ * Destroying [[Boulder]]s
+ * Opening [[Secret Grotto]]es
+ * Pressing [[Switch]]es
+}}
+|strength= 
+{{Infobox Game Blocks
+ |OoT= {{HP|OoT|2}}
+}} 
+|durability= 
+|comp= 
+{{List|
+ * [[Hammer]]
+ * [[Skull Hammer]]
+}}
+|sample= 
+|theme= 
+}}
+The {{Term/Store|Megaton Hammer|Megaton Hammers|Series, OoT, OoT3D, SCII, HW, HWL, HWDE, CoH}} is a recurring [[Item]] in {{TLoZ Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 130 {{Exp Game|OoT}}}}</ref><ref>{{Cite|Megaton Hammer<br/>Wielder : Link|Weapon Gallery|SCII}}</ref><ref>{{Cite|Megaton Hammer|Smithy|HW}}</ref><ref>{{Cite|Megaton Hammer|Smithy|HWL}}</ref><ref>{{Cite|{{Color CoH|Yellow|Megaton Hammer}} -- Assign to {{Icon|CoH A}} {{Icon|CoH B}} {{Icon|CoH X}} {{Icon|CoH Y}}<br/>Performs a powerful hammer attack directly in front of you, dealing {{Color CoH|Red|3 damage}} and smashing some objects, at the cost of stamine.|N/A|CoH}}</ref>{{Name Ref|HWDE}}
+
+==Location and Uses==
+==={{OoT|-}}===
+{{Descriptions OoT}}
+The Megaton Hammer is found in the [[Fire Temple (Ocarina of Time)|Fire Temple]] in {{OoT}}. It is used to break certain [[Boulder]]s and smash in rusted [[Switch]]es. It can also be used to smash blocks for access to new areas and to open [[Secret Grotto]]es. It does as much damage as the [[Master Sword]], but it has slow speed compared to [[Link]]'s [[Sword]]s. It can be used against certain enemies, such as [[Tektite]]s, to flip them over and attack them. If used on the ground close to a wall with a [[Skullwalltula]], it will knock the spider off and defeat it without hitting it directly. Due to its weight, it requires both of Link's hands to wield, preventing the use of a [[Shield]].<ref>{{Cite|You found the {{Color OoT3D|Red|Megaton Hammer}}! Use {{Icon|OoT3D I}}, {{Icon|OoT3D X}}, {{Icon|OoT3D Y}}, or {{Icon|OoT3D II}} to smash and break junk! It's so heavy, you need to use two hands to swing it!|Game Screen|OoT3D}}</ref><ref>{{Cite|{{Color OoT3D|Red|Megaton Hammer}}<br/>A massive hammer so heavy it must be held with both hands. It can crush all kinds of things with one mighty swing.|Items Subscreen|OoT3D}}</ref> If the Shield button is pressed, he will either attempt to block using the hammer if [[Z-Targeting]], or simply crouch down if not targeting. Neither of these animations will prevent damage from attacks.
+
+According to [[Goron]] legends, a mythic hero of the Gorons and an ancestor to [[Darunia]], the [[Goron Chief]], used the Megaton Hammer in battle against [[Volvagia]]. Wielding it, he was victorious and sealed the dragon in the fires of [[Death Mountain]].<ref>{{Cite|A long time ago, there was an evil dragon named {{Color OoT3D|Red|Volvagia}} living in this mountain. That dragon was very scary! It ate Gorons! Using a huge hammer, the hero of the Gorons... BOOOM! Destroyed it just like that. This is a myth from long ago, but it's true! I know, because my dad is a descendant of the hero!|Link (Goron)|OoT3D}}</ref> Thus, it is necessary to defeat Volvagia. The Megaton Hammer is also effective in the final battle with [[Ganon]] for attacking his tail.
+
+==Other Appearances==
+==={{SCII|-}}===
+{{Noncanon|Start}}
+The Megaton Hammer is one of [[Link]]'s weapons in {{SCII}}. Paired off with the [[Hylian Shield]], the Megaton Hammer can be bought either in the Altair Shop or the Benetnasch Shop for 1,200 Gold while playing the Weapon Master Mode. The Megaton Hammer has a short reach; however, this is countered with the fact that Link's offense increases to 135%.<ref>{{Cite|Good offense, strong single strikes, but a short reach.|N/A|SCII}}</ref>
+
+{|class="wikitable"
+!Cost
+!Attributes
+!Description
+|-
+| 1,200 Gold
+| Offense goes up 35%<br/>Short reach
+| ''An extremely heavy hammer. Learning to use it effectively could take some time, as its reach is somewhat short for a weapon. Its power and toughness, however, far exceed that of any normal sword. It's guaranteed to inspire awe.''
+|}
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+{{Main|Hammer#Hyrule Warriors}}
+The Megaton Hammer appears as the third-tier version of [[Darunia]]'s [[Hammer]].
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+{{Stub|CoH}}
+The Megaton Hammer appears as part of the {{SotM}} [[Downloadable Content]] pack. It allows the wielder to deal three damage to a single enemy directly in front of them, as well as granting them the ability to destroy objects such as stone slabs.<ref>{{Cite|You got the {{Color CoH|Yellow|megaton hammer}}! Assign it to {{Icon|CoH A}}, {{Icon|CoH B}}, {{Icon|CoH X}}, or {{Icon|CoH Y}} on the inventory screen. This will perform a powerful hammer attack directly in front of you, dealing {{Color CoH|Red|3 damage}} and smashing some objects.|N/A|CoH}}</ref>
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+===Other Names===
+{{Other Names
+|-
+| Magic Hammer<ref>{{Cite Web|quote= {{Big|Magic Hammer}}<br/>A small tool used to smash pegs—and sometimes enemies!<br/>{{Small|Magic Hammer as seen in: The Legend of Zelda: Ocarina of Time 3D}} |author= |published= |retrieved= January 15, 2022 |url= https://zelda.com/about/ |title= The official home for The Legend of Zelda - About |site= Zelda.com |type= }}</ref>
+| {{OoT3D}}
+| [[Zelda.com]]
+| {{E}}
+}}
+
+==Gallery==
+<gallery>
+File:SCII Megaton Hammer Model.png|{{Game Label|{{SCII|-}}}}The Megaton Hammer
+File:HW Megaton Hammer Artwork.png|{{Game Label|{{HW|-|}}}}Artwork of the Megaton Hammer
+File:HW Megaton Hammer Model.png|{{Game Label|{{HW|-|}}}}The Megaton Hammer
+File:HW Megaton Hammer Icon.png|{{Game Label|{{HW|-|}}}}Megaton Hammer icon
+File:HWL Megaton Hammer Icon.png|{{Game Label|{{HWL|-|}}}}Megaton Hammer icon
+File:HWDE Megaton Hammer Icon.png|{{Game Label|{{HWDE|-|}}}}Megaton Hammer icon
+File:CoH Megaton Hammer Sprite.png|{{Game Label|{{CoH|-}}}}The Megaton Hammer
+</gallery>
+
+{{Ref|
+<!-- Ocarina of Time -->
+
+<!-- SoulCalibur II -->
+
+<!-- Hyrule Warriors -->
+
+<!-- Cadence of Hyrule-->
+
+}}
+
+{{Categories
+ |Hammers
+ |items= OoT, OoT3D, OoTNS2, SCII, HW, HWL, HWDE, CoH
+}}

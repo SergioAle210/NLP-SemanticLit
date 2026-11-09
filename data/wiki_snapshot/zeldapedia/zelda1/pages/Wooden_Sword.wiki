@@ -1,0 +1,63 @@
+{{Infobox Item
+|image=[[File:TPHD Wooden Sword Icon.png|200px]]
+|caption={{TPHD|-}} icon
+|pronunciation= 
+|plural= 
+|game_debut={{OoS}} / {{OoA}} (2001)
+|spinoff_debut={{HW}} (2014)
+|cost= 
+|value= 
+|location= 
+|uses= Defeating enemies
+|strength=
+{{Infobox Game Blocks
+ |OoS= 1 {{Term|OoS|Heart|link}}{{Fact|OoS}}
+ |OoA= 1 {{Term|OoA|Heart}}{{Fact|OoA}}
+}}
+|durability= 
+|comparable=[[Sword]]<br/>[[Kokiri Sword]]<br/>[[Fighter's Sword]]<br/>[[Hero's Sword]]<br/>[[Smith's Sword]]<br/>[[Oshus's Sword]]<br/>[[Recruit's Sword]]<br/>[[Practice Sword]]
+|sample= 
+|theme= 
+}}
+The {{Term/Store|Wooden Sword|Wooden Swords|Series, OoS, OoA, TP, TPHD}} is a recurring Sword in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 143 {{Exp Game|OoS, OoA, TP}}}}</ref>
+
+==Mainline appearances==
+==={{OoS|-}}===
+The Wooden Sword is the first weapon obtained in {{OoS}}. It is obtained inside the [[Hero's Cave]] on the [[Western Coast]].<ref>{{Cite|You got the Wooden Sword! This truly is a sign of courage!|N/A|OoS}}</ref> In a [[Linked Game]], Link already has the Wooden Sword from the start. It is used to open the [[Maku Tree Gate]].
+
+==={{OoA|-}}===
+The Wooden Sword is the first weapon obtained in {{OoA}}. It is given to [[Link]] by [[Impa]]. In a [[Linked Game]], Link already has the Wooden Sword, and Impa gives him a [[Wooden Shield]] instead.
+
+==={{TP|-}}===
+In {{TP}}, the Wooden Sword is received from [[Rusl]] as a present. Link uses it to learn basic fighting skills. He keeps the Wooden Sword until after rescuing [[Talo]], where he gives the sword to Talo so he and [[Colin]] can get past them to where [[Ilia]] is holding [[Epona]]. Later on, the children are captured by [[King Bulblin]] and the Wooden Sword is broken in the process. [[Wolf Link]] comes across the Wooden Sword when looking for the children and is able to pick up the [[Youths' Scent]] by smelling it.
+
+==Spinoff appearances==
+==={{HW|-}}===
+{{Noncanon|Start}}
+{{Main|Hylian Sword}}
+In {{HW}}, a practice Wooden Sword is briefly seen in Link's possession during his introduction cutscene, but is not a usable weapon during actual gameplay. However, an 8-bit Wooden Sword from ''The Legend of Zelda'' appears as a special weapon in Link's [[Hylian Sword]] category, added to the game with the Version 1.2.0 update. It is statistically identical to the [[Hylian Sword#Magical Sword|Magical Sword]].
+{{Noncanon|End}}
+
+==Trivia==
+*The description for the Wooden Sword in the Wii version of {{TP|-}} is slightly different from other console versions. It implies that Rusl repairs the Wooden Sword before returning it,<ref>{{Cite|You got the wooden sword! It was returned to you fully repaired. It's easy to use: just swing [Wii Remote]!|N/A|TP}}</ref> whereas all other versions state that he simply honed it.<ref>{{Cite|You got the wooden sword! Rusl returned it after honing it for you. It's easy to use: just press [B]!|N/A|TP}}</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoS Wooden Sword Sprite.png|{{OoS}} sprite
+File:OoA Wooden Sword Sprite.png|{{OoA}} sprite
+File:TP Wooden Sword Render.png|{{TP|-}} render
+File:TP Wooden Sword Model.png|{{TP|-}} model
+File:TP Wooden Sword Icon.png|{{TP|-}} icon
+File:HW 8-Bit Wooden Sword Icon.png|The {{Term|HW|8-bit Wooden Sword}} from {{HW|-}}
+File:HW Wooden Sword Badge Icon.png|The {{Term|HW|Wooden Sword}} {{Term|HW|Badge|link}} from {{HW|-}}
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Swords
+ |items= OoS, OoA, TP, TPHD
+}}

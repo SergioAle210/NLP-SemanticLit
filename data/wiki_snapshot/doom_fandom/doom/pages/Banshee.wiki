@@ -1,0 +1,25 @@
+{{Stub}}
+{{Infobox Enemy
+|name = Banshee
+|image = Doom banshee.webp
+|class = Lost Soul Descendant Relative
+|type = Enemy
+|hp = 100
+|attack = 128 <small>(both melee and total)</small>
+|speed = 140.0 map units per second
+}}
+
+The '''Banshee''' is a new monster from ''[[Doom II]]''<nowiki>'</nowiki>s expansion, ''[[Legacy of Rust]]''. Here, it's the female version of the [[The Blob|Blob]] (a cut enemy), and explodes when slain or upon entering contact with the player. 
+
+==Combat Characteristics==
+The Banshee behaves similarly to the [[w:c:serioussam: Beheaded Kamikaze|Beheaded Kamikaze]] enemy from the ''Serious Sam'' games: while chasing the player, it is constantly screaming. Upon arriving within melee range of its target, the Banshee explodes, destroying itself while inflicting damage. Killing the Banshee will also trigger its detonation, potentially damaging other monsters and provoking chain reactions if other Banshees or explosive barrels are nearby.
+
+Unlike the custom "suicide bomber" enemy found in many mods such as ''Valiant'', ''MAYhem 2018'', or ''ZPack'', the Banshee is a flying enemy.
+
+==Tactical Analysis==
+The Banshee is relatively slow and also quite hard to miss, due to its constant wailing. Both its melee and death sequence trigger an explosion with a blast radius of 128 (same as a rocket), inflicting severe damage on any nearby creatures.                                                 ''[[Doom (2016)|gordon was here]]''
+
+{{Doom monsters}}
+[[Category:Doom monsters]]
+[[Category:Doom II monsters]]
+[[Category:Monsters]]

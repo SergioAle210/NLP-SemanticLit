@@ -1,0 +1,26 @@
+{{Hell Knight}}
+
+The '''Hell Knight''' is a recurring [[monster]] in the series that was first introduced in ''[[Doom II]]''. They are generally portrayed as weaker variants of the [[Baron of Hell]], usually possessing only half as much health and/or less damaging attacks.
+
+== Doom RPG ==
+In [[Doom RPG]], the Baron of Hell and the Hell Knight both belong to the "Baron" monster class. There are three variations, identified by color:
+* Ogre (green torso, red hands, brown legs)
+* Hell Knight (brown torso, brown hands, pink legs)
+* Baron (pink torso, orange hands, brown legs)
+As in the original, the Hell Knight is not as powerful as the Baron, though both are more powerful than the new "Ogre" variation. This class of monster is especially weak against attacks from shotguns.
+
+== Mighty DOOM ==
+The ''Eternal'' incarnation of the Hell Knights appear as enemies and bosses in ''[[Mighty Doom]]''.  They solely attack the Slayer in melee combat.  In addition to chasing him, they can make multiple leaps in a row to close in and possibly stomp on the Slayer, and they can perform two melee attacks whenever they are close enough to the Slayer.  The Hell Knight is vulnerable to toxic damage and is one of the more dangerous demons to encounter.  Boss versions can also perform a big stomp that shakes loose debris from the ceiling to rain it down all over the arena and inflict ranged damage.  
+
+== Notes ==
+* In a [[ZDoom]]-based [[source port]], if the player is killed by a Hell Knight (monster is credited with delivering the blow that reduces player's health to 0%), one of two obituary messages will be displayed at the top of the screen depending on which attack the Hell Knight used to kill the player: "[player name] was gutted by a Hell Knight" or "[player name] was splayed by a Hell Knight" for the claw and green fireball attacks respectively.
+*The only other difference in the appearances of the Hell Knight and the [[Baron of Hell]] besides their skin color is that while Barons have grey horns and hooves, Hell Knights have dark brown ones.
+*It is never stated if the Hell Knight is a Baron-in training, a lower caste, a different sub-species or related species, or a younger Baron.
+*Due to the Hell Knight reusing code from the Baron of Hell, Hell Knights and Barons cannot be injured by each other and thus cannot infight normally.
+* The death audio of the Hell Knight was re-used for the [[Imp/Doom 3|Imp]] in the [[Doom 3 alpha version|Alpha version of Doom 3]]. This was eventually scrapped in the final version of that game.
+*Ever since it's introduction in ''Doom II'', the Hell Knight has undergone significant changes in subsequent games. 
+**In ''Doom 3'', they have become much like the Baron of Hell, serving as one of game's most powerful non-boss enemies in terms of hitpoints, falling behind only to the [[Vagary]] and the [[Mancubus/Doom 3|Mancubus]].
+**In ''[[Doom (2016)]]'', they have resumed their role as a middle-tier monster like their classic version, but emits completely different behavior; being a lot more agile and only restricted to melee.
+
+[[Category:Monsters]]
+[[Category:Mighty Doom monsters]]

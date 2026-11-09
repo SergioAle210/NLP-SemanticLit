@@ -1,0 +1,367 @@
+{
+  "source": "zeldawiki",
+  "license": "GFDL 1.3",
+  "license_note": "GNU Free Documentation License 1.3. Copyleft distinto de CC BY-SA; mantener separada y atribuida.",
+  "downloaded_at": "2026-11-08T18:15:43+00:00",
+  "total_chars": 952278,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "url": "https://zeldawiki.wiki/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time",
+      "revid": 1398791,
+      "file": "pages/The_Legend_of_Zelda_Ocarina_of_Time.wiki",
+      "chars": 74438
+    },
+    {
+      "title": "Deku Tree",
+      "url": "https://zeldawiki.wiki/wiki/Deku_Tree",
+      "revid": 1400957,
+      "file": "pages/Deku_Tree.wiki",
+      "chars": 35246
+    },
+    {
+      "title": "Dodongo's Cavern",
+      "url": "https://zeldawiki.wiki/wiki/Dodongo%27s_Cavern",
+      "revid": 1400914,
+      "file": "pages/Dodongo_s_Cavern.wiki",
+      "chars": 6538
+    },
+    {
+      "title": "Jabu-Jabu's Belly",
+      "url": "https://zeldawiki.wiki/wiki/Jabu-Jabu%27s_Belly",
+      "revid": 1352860,
+      "file": "pages/Jabu-Jabu_s_Belly.wiki",
+      "chars": 3691
+    },
+    {
+      "title": "Forest Temple",
+      "url": "https://zeldawiki.wiki/wiki/Forest_Temple",
+      "revid": 1393877,
+      "file": "pages/Forest_Temple.wiki",
+      "chars": 7924
+    },
+    {
+      "title": "Fire Temple",
+      "url": "https://zeldawiki.wiki/wiki/Fire_Temple",
+      "revid": 1397626,
+      "file": "pages/Fire_Temple.wiki",
+      "chars": 2720
+    },
+    {
+      "title": "Water Temple",
+      "url": "https://zeldawiki.wiki/wiki/Water_Temple",
+      "revid": 1397613,
+      "file": "pages/Water_Temple.wiki",
+      "chars": 3823
+    },
+    {
+      "title": "Shadow Temple",
+      "url": "https://zeldawiki.wiki/wiki/Shadow_Temple",
+      "revid": 1393593,
+      "file": "pages/Shadow_Temple.wiki",
+      "chars": 9284
+    },
+    {
+      "title": "Spirit Temple",
+      "url": "https://zeldawiki.wiki/wiki/Spirit_Temple",
+      "revid": 1401507,
+      "file": "pages/Spirit_Temple.wiki",
+      "chars": 2078
+    },
+    {
+      "title": "Ice Cavern",
+      "url": "https://zeldawiki.wiki/wiki/Ice_Cavern",
+      "revid": 1398304,
+      "file": "pages/Ice_Cavern.wiki",
+      "chars": 4749
+    },
+    {
+      "title": "Bottom of the Well",
+      "url": "https://zeldawiki.wiki/wiki/Bottom_of_the_Well",
+      "revid": 1398694,
+      "file": "pages/Bottom_of_the_Well.wiki",
+      "chars": 5836
+    },
+    {
+      "title": "Gerudo Proving Grounds",
+      "url": "https://zeldawiki.wiki/wiki/Gerudo_Proving_Grounds",
+      "revid": 1401503,
+      "file": "pages/Gerudo_Proving_Grounds.wiki",
+      "chars": 44334
+    },
+    {
+      "title": "Ganon's Castle",
+      "url": "https://zeldawiki.wiki/wiki/Ganon%27s_Castle",
+      "revid": 1400730,
+      "file": "pages/Ganon_s_Castle.wiki",
+      "chars": 1935
+    },
+    {
+      "title": "Gohma",
+      "url": "https://zeldawiki.wiki/wiki/Gohma",
+      "revid": 1400555,
+      "file": "pages/Gohma.wiki",
+      "chars": 24012
+    },
+    {
+      "title": "King Dodongo",
+      "url": "https://zeldawiki.wiki/wiki/King_Dodongo",
+      "revid": 1401475,
+      "file": "pages/King_Dodongo.wiki",
+      "chars": 9199
+    },
+    {
+      "title": "Barinade",
+      "url": "https://zeldawiki.wiki/wiki/Barinade",
+      "revid": 1401476,
+      "file": "pages/Barinade.wiki",
+      "chars": 9503
+    },
+    {
+      "title": "Phantom Ganon",
+      "url": "https://zeldawiki.wiki/wiki/Phantom_Ganon",
+      "revid": 1401477,
+      "file": "pages/Phantom_Ganon.wiki",
+      "chars": 25946
+    },
+    {
+      "title": "Volvagia",
+      "url": "https://zeldawiki.wiki/wiki/Volvagia",
+      "revid": 1401474,
+      "file": "pages/Volvagia.wiki",
+      "chars": 11584
+    },
+    {
+      "title": "Morpha",
+      "url": "https://zeldawiki.wiki/wiki/Morpha",
+      "revid": 1401478,
+      "file": "pages/Morpha.wiki",
+      "chars": 6075
+    },
+    {
+      "title": "Bongo Bongo",
+      "url": "https://zeldawiki.wiki/wiki/Bongo_Bongo",
+      "revid": 1401479,
+      "file": "pages/Bongo_Bongo.wiki",
+      "chars": 5651
+    },
+    {
+      "title": "Twinrova",
+      "url": "https://zeldawiki.wiki/wiki/Twinrova",
+      "revid": 1398684,
+      "file": "pages/Twinrova.wiki",
+      "chars": 22755
+    },
+    {
+      "title": "Ganondorf",
+      "url": "https://zeldawiki.wiki/wiki/Ganondorf",
+      "revid": 1398351,
+      "file": "pages/Ganondorf.wiki",
+      "chars": 95315
+    },
+    {
+      "title": "Hookshot",
+      "url": "https://zeldawiki.wiki/wiki/Hookshot",
+      "revid": 1401349,
+      "file": "pages/Hookshot.wiki",
+      "chars": 15486
+    },
+    {
+      "title": "Longshot",
+      "url": "https://zeldawiki.wiki/wiki/Longshot",
+      "revid": 1401011,
+      "file": "pages/Longshot.wiki",
+      "chars": 4195
+    },
+    {
+      "title": "Megaton Hammer",
+      "url": "https://zeldawiki.wiki/wiki/Megaton_Hammer",
+      "revid": 1397925,
+      "file": "pages/Megaton_Hammer.wiki",
+      "chars": 6720
+    },
+    {
+      "title": "Iron Boots",
+      "url": "https://zeldawiki.wiki/wiki/Iron_Boots",
+      "revid": 1398366,
+      "file": "pages/Iron_Boots.wiki",
+      "chars": 8102
+    },
+    {
+      "title": "Hover Boots",
+      "url": "https://zeldawiki.wiki/wiki/Hover_Boots",
+      "revid": 1384869,
+      "file": "pages/Hover_Boots.wiki",
+      "chars": 5067
+    },
+    {
+      "title": "Lens of Truth",
+      "url": "https://zeldawiki.wiki/wiki/Lens_of_Truth",
+      "revid": 1400519,
+      "file": "pages/Lens_of_Truth.wiki",
+      "chars": 8464
+    },
+    {
+      "title": "Master Sword",
+      "url": "https://zeldawiki.wiki/wiki/Master_Sword",
+      "revid": 1399678,
+      "file": "pages/Master_Sword.wiki",
+      "chars": 84400
+    },
+    {
+      "title": "Biggoron Sword",
+      "url": "https://zeldawiki.wiki/wiki/Biggoron_Sword",
+      "revid": 1400386,
+      "file": "pages/Biggoron_Sword.wiki",
+      "chars": 12876
+    },
+    {
+      "title": "Din's Fire",
+      "url": "https://zeldawiki.wiki/wiki/Din%27s_Fire",
+      "revid": 1393757,
+      "file": "pages/Din_s_Fire.wiki",
+      "chars": 6702
+    },
+    {
+      "title": "Farore's Wind",
+      "url": "https://zeldawiki.wiki/wiki/Farore%27s_Wind",
+      "revid": 1364970,
+      "file": "pages/Farore_s_Wind.wiki",
+      "chars": 4507
+    },
+    {
+      "title": "Nayru's Love",
+      "url": "https://zeldawiki.wiki/wiki/Nayru%27s_Love",
+      "revid": 1364972,
+      "file": "pages/Nayru_s_Love.wiki",
+      "chars": 4529
+    },
+    {
+      "title": "Fairy Bow",
+      "url": "https://zeldawiki.wiki/wiki/Fairy_Bow",
+      "revid": 1392639,
+      "file": "pages/Fairy_Bow.wiki",
+      "chars": 4625
+    },
+    {
+      "title": "Light Arrow",
+      "url": "https://zeldawiki.wiki/wiki/Light_Arrow",
+      "revid": 1396398,
+      "file": "pages/Light_Arrow.wiki",
+      "chars": 13441
+    },
+    {
+      "title": "Fire Arrow",
+      "url": "https://zeldawiki.wiki/wiki/Fire_Arrow",
+      "revid": 1398360,
+      "file": "pages/Fire_Arrow.wiki",
+      "chars": 9725
+    },
+    {
+      "title": "Ice Arrow",
+      "url": "https://zeldawiki.wiki/wiki/Ice_Arrow",
+      "revid": 1396394,
+      "file": "pages/Ice_Arrow.wiki",
+      "chars": 8733
+    },
+    {
+      "title": "Bombchu",
+      "url": "https://zeldawiki.wiki/wiki/Bombchu",
+      "revid": 1401299,
+      "file": "pages/Bombchu.wiki",
+      "chars": 13204
+    },
+    {
+      "title": "Goron Tunic",
+      "url": "https://zeldawiki.wiki/wiki/Goron_Tunic",
+      "revid": 1400649,
+      "file": "pages/Goron_Tunic.wiki",
+      "chars": 5311
+    },
+    {
+      "title": "Zora Tunic",
+      "url": "https://zeldawiki.wiki/wiki/Zora_Tunic",
+      "revid": 1400808,
+      "file": "pages/Zora_Tunic.wiki",
+      "chars": 10769
+    },
+    {
+      "title": "Mirror Shield",
+      "url": "https://zeldawiki.wiki/wiki/Mirror_Shield",
+      "revid": 1398687,
+      "file": "pages/Mirror_Shield.wiki",
+      "chars": 16437
+    },
+    {
+      "title": "Gold Skulltula",
+      "url": "https://zeldawiki.wiki/wiki/Gold_Skulltula",
+      "revid": 1401298,
+      "file": "pages/Gold_Skulltula.wiki",
+      "chars": 8642
+    },
+    {
+      "title": "Piece of Heart",
+      "url": "https://zeldawiki.wiki/wiki/Piece_of_Heart",
+      "revid": 1395693,
+      "file": "pages/Piece_of_Heart.wiki",
+      "chars": 28427
+    },
+    {
+      "title": "Sheik",
+      "url": "https://zeldawiki.wiki/wiki/Sheik",
+      "revid": 1397932,
+      "file": "pages/Sheik.wiki",
+      "chars": 29769
+    },
+    {
+      "title": "Navi",
+      "url": "https://zeldawiki.wiki/wiki/Navi",
+      "revid": 1401322,
+      "file": "pages/Navi.wiki",
+      "chars": 40606
+    },
+    {
+      "title": "Saria",
+      "url": "https://zeldawiki.wiki/wiki/Saria",
+      "revid": 1400448,
+      "file": "pages/Saria.wiki",
+      "chars": 10669
+    },
+    {
+      "title": "Darunia",
+      "url": "https://zeldawiki.wiki/wiki/Darunia",
+      "revid": 1401376,
+      "file": "pages/Darunia.wiki",
+      "chars": 23995
+    },
+    {
+      "title": "Ruto",
+      "url": "https://zeldawiki.wiki/wiki/Ruto",
+      "revid": 1401009,
+      "file": "pages/Ruto.wiki",
+      "chars": 33120
+    },
+    {
+      "title": "Impa",
+      "url": "https://zeldawiki.wiki/wiki/Impa",
+      "revid": 1401493,
+      "file": "pages/Impa.wiki",
+      "chars": 75330
+    },
+    {
+      "title": "Rauru",
+      "url": "https://zeldawiki.wiki/wiki/Rauru",
+      "revid": 1400960,
+      "file": "pages/Rauru.wiki",
+      "chars": 33876
+    },
+    {
+      "title": "Nabooru",
+      "url": "https://zeldawiki.wiki/wiki/Nabooru",
+      "revid": 1398691,
+      "file": "pages/Nabooru.wiki",
+      "chars": 11915
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+:''This article is about the {{Term|TLoZ|Dungeon|link}} in {{TLoZ}}. For other uses, see [[Level 8 (Disambiguation)]].''''
+{{Infobox Dungeon
+|image= File:TLoZ Level-8 Entrance.png
+|caption= The entrance to the [[Labyrinth]] in the First Quest
+|location= [[Hyrule]]
+|game= {{TLoZ}}
+|item= [[Magical Key]]{{exp|Both Quests}}<br/>[[Book of Magic]]{{exp|First Quest}}<br/>[[Magic Rod]]<br/>[[Bomb]] capacity Upgrade{{exp|Second Quest}}
+|mini-boss=[[Manhandla]] ×3<br/>
+[[Gohma]] ×2 
+|boss= [[Gleeok]]{{Exp|First Quest}}<br/>[[Dodongo]]s ×3{{Exp|Second Quest}}
+|quest= [[Triforce Fragment]]<br/>[[Heart Container]]
+|previous= [[Level 7]]
+|next= [[Level 9]]
+}}
+{{Term/Store|Level 8||Series, TLoZ}},<ref name="E 145">{{Cite Book|quote= |book= E |publisher= |page= 144 {{Exp Game|TLoZ}}}}</ref> also stylized as '''Level-8''',{{Exp Game|TLoZ}}<ref>{{Cite|Level-8|Map|TLoZ}}</ref> and known as '''Lion''',<ref name="E 145"/> is the eighth [[Labyrinth]] in {{TLoZ}}.
+
+==Overview==
+
+==={{TLoZ|-}}===
+
+====First Quest====
+{{Clear}}
+{{Map:Level 8 (First Quest) (The Legend of Zelda)}}
+
+====Second Quest====
+{{Clear}}
+{{Map:Level 8 (Second Quest) (The Legend of Zelda)}}
+
+====Entrance to {{Term|TLoZ|Level 8}}====
+In the First Quest, the Labyrinth is located under a lone bush that blocks [[Link]]'s path in the forest to the southeast. Link must burn the bush with [[Fire]] to reveal the staircase that leads inside.
+
+In the [[Second Quest]], the Labyrinth is located west of the desert, accessible only by [[Bomb]]ing a part of the northern wall and then crossing the river with the [[Stepladder]].
+
+==Themes and Navigation==
+===First Quest===
+This is the first of two Labyrinths that are colored white. Level-8 is populated by [[Darknut]]s. Like in {{Term|TLoZ|Level 1|link}}, two main items can be obtained here. One of the Items is the [[Book of Magic]], which gives the [[Magic Rod]] the additional property of creating [[Fire]] after being shot. The other Item is the [[Magical Key]], which is a master key that can open an infinite amount of locked doors. Link will no longer need to collect [[Key]]s after obtaining it. Interestingly, the labyrinth is relatively close to {{Term|TLoZ|Level 2|link}}, but there are no clues on where it actually is, so it is up to Link to discover it. The [[Boss]] is a four-headed [[Gleeok]], which protects the final [[Triforce Fragment]].
+
+===Second Quest===
+In the Second Quest, this Labyrinth structurally resembles a vortex similar to the spiral from the Second Quest's {{Term|TLoZ|Level 7|link}}. However, it is larger and positioned differently. Like the First Quest's Level-7, this Labyrinth is colored green. The main items of the Labyrinth are the Magic Rod, which gives a use to the Book of Magic found in {{Term|TLoZ|Level 4|link}}, and the Magical Key. There is an [[Old Man]] in the Labyrinth who will increase Link's Bomb capacity for 100 [[Rupee]]s, allowing Link to carry four more Bombs. The Labyrinth also contains a hungry [[Goriya]] who will not allow Link to pass through to the next room until he is given [[Food]]. Many [[Dodongo]]s appear throughout the Labyrinth and the Boss that guards the final Triforce Fragment is a group of three [[Dodongo]]s.
+
+==Minor Enemies and Traps==
+===First Quest===
+<gallery>
+File:TLoZ Bubble Sprite 3.png|{{Term|TLoZ|Bubble|link}}
+File:TLoZ Red Darknut Sprite.png|{{Term|TLoZ|Darknut|link}}
+File:TLoZ Blue Darknut Sprite.png|{{Term|TLoZ|Darknut|link}}
+File:TLoZ Gel Sprite 6.png|{{Term|TLoZ|Gel|link}}
+File:TLoZ Gibdo Sprite.png|{{Term|TLoZ|Gibdo|link}}
+File:TLoZ Gohma Blue Sprite.png|{{Term|TLoZ|Gohma|link}}
+File:TLoZ Keese Sprite.png|{{Term|TLoZ|Keese|link}}
+File:TLoZ Manhandla Sprite.png|{{Term|TLoZ|Manhandla|link}}
+File:TLoZ Pols Voice Sprite.png|{{Term|TLoZ|Pols Voice|link}}
+File:TLoZ Stone Statue Sprite 09.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Stone Statue Sprite 10.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Stone Statue Sprite 11.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Stone Statue Sprite 12.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Zol Sprite 4.png|{{Term|TLoZ|Zol|link}}
+</gallery>
+
+===Second Quest===
+<gallery>
+File:TLoZ Aquamentus Sprite.png|{{Term|TLoZ|Aquamentus|link}}
+File:TLoZ Bubble Sprite.png|{{Term|TLoZ|Bubble|link}}
+File:TLoZ Bubble Red Sprite.png|{{Term|TLoZ|Bubble|link}}
+File:TLoZ Blue Bubble Sprite.png|{{Term|TLoZ|Bubble|link}}
+File:TLoZ Digdogger Sprite.png|{{Term|TLoZ|Digdogger|link}}
+File:TLoZ Dodongo Sprite.png|{{Term|TLoZ|Dodongo|link}}
+File:TLoZ Red Goriya Sprite.png|{{Term|TLoZ|Goriya|link}}
+File:TLoZ Blue Goriya Sprite.png|{{Term|TLoZ|Blue Goriya|link}}
+File:TLoZ Keese Sprite.png|{{Term|TLoZ|Keese|link}}
+File:TLoZ Moldorm Sprite.png|{{Term|TLoZ|Moldorm|link}}
+File:TLoZ Rope Flashing Sprite 2.png|{{Term|TLoZ|Rope|link}}
+File:TLoZ Stalfos Sprite.png|{{Term|TLoZ|Stalfos|link}}
+File:TLoZ Stone Statue Sprite 07.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Stone Statue Sprite 08.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Wallmaster Sprite.png|{{Term|TLoZ|Wallmaster|link}}
+</gallery>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Level-8 Map.png|First quest Map
+File:TLoZ Level-8 Second Quest Map.png|Second Quest Map
+</gallery>
+
+{{Ref}}
+{{DungeonNav2|TLoZ}}
+{{Categories
+ |dungeons= TLoZ, BSTLoZ
+}}

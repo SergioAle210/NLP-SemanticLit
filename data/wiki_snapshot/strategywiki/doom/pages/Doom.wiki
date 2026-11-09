@@ -1,0 +1,67 @@
+{{Header Nav|game=Doom}}
+{{Game
+|completion=2
+|image=Doom-boxart.jpg
+|title=Doom
+|developer=[[id Software]]
+|publisher=[[id Software]]
+|year=1993
+|systems={{syslist|msdos|jaguar|PC98|mac os|risc|ios|ps3}}
+|ratings={{ESRB|M}}{{PEGI|16}}{{BBFC|15}}{{OFLC|MA15}}{{USK|16}}{{CERO|C}}{{RSAC|3||1}}<br/>
+{{icon|gba}}{{ESRB|T}}
+|title1=Doom
+|developer1=[[Sega of America]]
+|publisher1=[[Sega]]
+|year1=1994
+|systems1={{syslist|32x}}
+|title2=Doom
+|developer2=[[Sculptured Software]]
+|publisher2=[[Williams Electronics]]
+|year2=1995
+|systems2={{syslist|snes}}
+|title3=Doom
+|developer3=[[Logicware]]
+|publisher3=[[The 3DO Company]]
+|year3=1995
+|systems3={{syslist|3do}}
+|title4=Doom
+|developer4=[[David A. Palmer Productions]]
+|publisher4=
+|year4=2001
+|systems4={{syslist|GBA}}
+|title5=Doom
+|developer5=[[Nerve Software]]
+|publisher5=
+|year5=2006
+|systems5={{syslist|360}}
+|genre=[[First-person shooter]]
+|modes=[[Single-player]], [[Multiplayer]]
+|followed by=[[Doom II: Hell on Earth|Doom II]]
+|series=Doom
+|pcgamingwiki=Doom (1993)
+}}
+{{game disambig|the original [[MS-DOS]] release|the [[PlayStation]] release|[[Doom (1995)]]}}
+'''Doom''' is a computer game created by [[id Software]] and published during [[1993]]. The game is considered to be a cult classic among first person shooters. It was originally released as shareware, with only the first episode (''Knee-Deep in the Dead'') playable until players registered and purchased the rest of the game (episodes 2 and 3). A second version of the game, titled [[The Ultimate Doom]], released the fourth and final episode (''Thy Flesh Consumed'').
+
+<gallery>
+File:Doom floppy disk 1.jpg|Original DOS floppy disk.
+</gallery>
+
+==Story==
+Doom's plot takes place on moons of Mars during testing of an experimental teleport which fails and creates a time-space warp into Hell, allowing demons to invade the surface of Mars.
+
+{{ToC}}
+{{Doom}}
+
+[[Category:id Software]]
+[[Category:Sega of America]]
+[[Category:Sega]]
+[[Category:Sculptured Software]]
+[[Category:Logicware]]
+[[Category:David A. Palmer Productions]]
+[[Category:Nerve Software]]
+[[Category:Williams]]
+[[Category:The 3DO Company]]
+[[Category:First-person shooter]]
+[[Category:Single-player]]
+[[Category:Multiplayer]]

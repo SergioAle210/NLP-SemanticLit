@@ -1,0 +1,87 @@
+{{cleanup}}
+{{infobox mission
+
+|name = Misappropriation
+|image = Misappropriation-GTASA.png
+|size = 300px
+|caption = [[Frank Tenpenny]] gives [[Carl Johnson]] his instructions after punching him in the stomach for talking back.
+|game = SA
+|for = [[Community Resources Against Street Hoodlums|C.R.A.S.H.]]
+|location = [[Prickle Pine]], [[Las Venturas]]
+|target = Retrieve the dossier
+|fail = Player Character Death, shooting down the agent's helicopter with the agent/witness and dossier still inside it, letting the agent/witness escape
+|reward = Nothing
+|unlockedby = [[Black Project]]<br />[[Intensive Care]]
+|unlocks = [[High Noon]] <small> (if [[Freefall]] has been completed)</small>
+}}
+
+'''Misappropriation''' is a mission in [[Grand Theft Auto: San Andreas]], given to [[Protagonist|protagonist]] [[Carl Johnson|Carl "CJ" Johnson]] by corrupt C.R.A.S.H. officer [[Frank Tenpenny]] in [[Grand Theft Auto: San Andreas]] from the C.R.A.S.H. residence in [[Prickle Pine]], [[Las Venturas]].
+
+==Mission==
+Carl visits Tenpenny and his partner [[Eddie Pulaski|Edward "Eddie" Pulaski]] at their residence in [[Prickle Pine]]. Finding them in the lawn, with Pulaski setting up a barbecue grill, Carl drops by, when Tenpenny calls for Carl to come closer and listen to them. Tenpenny reveals that despite the many evidences they have [[The Green Sabre|erased in the line]], including the [[Badlands|decapitation of a former friend of theirs]], a [[555 We Tip|ploy against a district attorney who had been causing the officers problems]], and [[Snail Trail|the assassination of a reporter and his target informer]], the criminal proceedings against them have finally built up. 
+
+Realizing there is no way out, Tenpenny seeks to eradicate even the last bit of evidence that remains, and treats Carl brutally, asking him to kill an FBI agent in possession of a dossier containing sensitive information against him and Pulaski, who is to meet up with a DEA officer. Carl seeks out the agent in the remains of [[Aldea Malvada]] and kills the FBI officer, retrieving the dossier.
+ 
+==Script==
+'''(''Carl arrives to see Tenpenny and Pulaski with a barbecue grill setup outside the house.'')'''
+
+'''Tenpenny''': Hello, Carl. Been a long time, huh?
+
+'''CJ''': Yeah, I was starting to miss you guys.
+
+'''Tenpenny''': Now why don't I believe you? Get over here! Now things have developed since the last time we met. Despite our best efforts the gig's nearly up.
+
+'''CJ''': I'm sure you'll find some way to keep your badge, your kind always do.
+
+'''Tenpenny''': You still don't get it, do you, Carl? This ain't about keeping some fucking badge!
+
+'''Pulaski''': Hey, listen to the man.
+
+'''Tenpenny''': We're all the same, Carl - you, me. We're all trying to pull ourselves out of the hole. Somebody steps on me, I gotta step on you.
+
+'''Pulaski''': Where's Hernandez with that fucking meat? He's been gone too long, Tenpenny.
+
+'''CJ''': Getting a little edgy, fellas?
+
+'''(''Enraged with the intervention, Tenpenny punches Carl in the stomach, causing him to fall to the ground.'')'''
+
+'''Tenpenny''': How d'you like that, you piece of shit? That give you any idea how edgy I am?
+
+'''(''The barbecue's flame blasts out.'')'''
+
+'''Pulaski''': Woah! What the fuck?
+
+'''Tenpenny''': (''to Carl'') Get up, bitch! (''as Carl recovers and gets up'') You paying attention? Now there's a ruined town out west of here, Aldea Malvada. And there's some piece of shit DEA officer meeting with an FBI agent with a dossier. Now you get the dossier and you make both of them disappear.
+
+==Gallery==
+<gallery>
+File:Misappropriation-GTASA2.jpg|The FBI outpost at Aldea Malvada.
+File:Misappropriation-GTASA3.png|[[Carl Johnson]] overlooks the outpost.
+File:Misappropriation-GTASA4.png|CJ kills the target, who drops the dossier.
+File:Misappropriation-GTASA5.png|CJ retrieves the dossier from the dead target.
+</gallery>
+
+== Trivia ==
+*The FBI agents carry an AK-47 and a Micro-SMG, strangely, only during the mission will they use AKs, but if you are able to get the dossier before he goes into the helicopter and complete the mission with them around after the mission they will be using Micro-SMGs.
+*There is a [[Heat-Seeking Rocket Launcher]] with 10 rockets in it somewhere in the ruin after the mission.
+* The player can actually steal the agent's bullet, fire, damage, and explosion-proof Buffalo with a [http://www.youtube.com/watch?v=cKS8aKW942U trick].
+* This mission is a good opportunity to steal the [[FBI Rancher]] or the [[Mesa]] parked at the FBI outpost, as the FBI Rancher is hard to obtain and the Mesa is very rare in the game.
+*It is best to play this mission after [[Freefall]], since the pre-mission phone call from Tenpenny that [[High Noon]] follows will require Carl to be closer to [[Bone County]]. This is possible only when the player is in [[Aldea Malvada]], which is on the edge of connector area [[Valle Ocultado]].
+*While this is possibly the second mission to feature [[Area 69]], flying over the base during the complete chase will result in a [[Wanted Level in GTA III Era #Five-stars|five star wanted level]], with NPC-controlled Hydras firing at the player's helicopter, even though the SAM sites are disabled. Hence, one needs to fly disntantly away from the base, and then pursue a straight direction as before when chasing the DEA officer.
+
+==Reward==
+There is no reward for this mission, but the sequel [[High Noon]] is unlocked, given that the mission [[Freefall]] has been completed beforehand.
+
+==Video Walkthrough==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTASeriesVideos
+|-
+|{{youtube|video1=nwt5NU28sF8}}
+|}
+</center>
+
+[[de:Misappropriation]]
+[[es:Misappropriation]]
+[[pl:Defraudacja]]
+[[Category:Missions in GTA San Andreas]]

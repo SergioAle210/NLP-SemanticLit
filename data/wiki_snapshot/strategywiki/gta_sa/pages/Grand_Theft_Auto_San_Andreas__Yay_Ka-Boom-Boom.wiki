@@ -1,0 +1,42 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar Triads.png]][[Grand Theft Auto: San Andreas/Toreno's Last Flight|Toreno's Last Flight]]
+* '''Mission''': [[File:GTA San Andreas radar Woozie.png]][[Grand Theft Auto: San Andreas/The Da Nang Thang|The Da Nang Thang]]
+* '''Location''': [[File:GTA San Andreas radar Triads.png]]CJ's garage, Doherty, San Fierro
+|}
+
+'''Note:''' After completing this mission [[Grand_Theft_Auto:_San_Andreas/Big_Smoke's_Cash|Big Smoke's Cash]] and [[Grand_Theft_Auto:_San_Andreas/Yay_Courier|Yay Courier]] missions will no longer be available as you just have destroyed the yay supply.
+
+After the cutscene, go get the car from the bomb shop, then drive it to the crack lab. Take out the guards on the outside to open the main gate. It might be worth getting out of the car to take out the remaining guards, since, if they destroy the car, you fail the mission. Once it's clear, park the car near the spot indicated, start the bomb timer, and run away. Don't bother shooting the guards on the way out, they'll all get killed in the blast anyway. When you get out, BOOM! Pick off any remaining guards, and head for the main gate. Unfortunately, it shuts just before you can get to it. Shoot the guys by the car, then take out any other guards, then use the ramp to get out. Now drive back to the garage to complete the mission, and that's it for San Fierro!
+
+After completion of this mission, the courier missions given by Cesar Vilapando are no longer available, after all, you did blow up the drug plant.
+
+== Tips ==
+* After blowing up the crack lab, if you head back into the charred remains there is a full health pickup available.
+* You need to be careful how you hit the ramp, as if you aren't properly aligned you will smash into a crate instead of landing on one. It's probably worth walking up to the top of the ramp beforehand so you can see where you need to aim for.
+* I managed to total the escape car by landing it upside down. However, a new one spawned next to the lab. I assume that the supply of spare cars is limitless, so there's no risk of being trapped inside and having to kill yourself to get out.
+* If you climb the boxes and jump the fence you can skip the whole car jumping incident...
+
+== Rewards ==
+{{achievement
+|name=What happens in Las Venturas...
+|g=25
+|trophy=bronze
+|image=GTASA DE What happens in Las Venturas.png
+|description=Complete "Yay Ka-Boom-Boom".
+}}
+* '''Cash''': $25,000
+* '''Respect''': +60
+* Tierra Robada/Bone County and Las Venturas open.
+* Safehouses in Tierra Robada/Bone County available for purchase.
+* Zip and Didier Sachs (Rodeo, Los Santos) clothing stores now open.
+* Freight vehicle missions available now.
+* Triathlon challenges available now.
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=The Da Nang Thang|previmg=[[File:GTA San Andreas radar Woozie.png]]|hereimg=[[File:GTA San Andreas radar Triads.png]]|nextpage=Monster|nextimg=[[File:GTA San Andreas radar Mystery.png]]|customprev=[[File:GTA San Andreas radar Triads.png]] [[../Toreno's Last Flight/]]|customnext=[[File:GTA San Andreas radar CesarVialpando.png]] [[../Zeroing In/]]
+* [[File:GTA San Andreas radar School.png]] [[../Bike School/]]
+* [[File:GTA San Andreas radar School.png]] [[../Boat School/]]
+* [[../Freight/]]}}

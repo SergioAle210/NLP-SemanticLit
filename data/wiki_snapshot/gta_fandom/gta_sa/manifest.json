@@ -1,0 +1,752 @@
+{
+  "source": "gta_fandom",
+  "license": "CC BY-SA",
+  "license_note": "Fandom reporta \"CC-BY-SA\" sin versión (normalmente 3.0).",
+  "downloaded_at": "2026-11-08T18:12:40+00:00",
+  "total_chars": 1233507,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_San_Andreas",
+      "revid": 2084703,
+      "file": "pages/Grand_Theft_Auto_San_Andreas.wiki",
+      "chars": 29691
+    },
+    {
+      "title": "Grand Theft Auto: The Trilogy",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_The_Trilogy",
+      "revid": 1957538,
+      "file": "pages/Grand_Theft_Auto_The_Trilogy.wiki",
+      "chars": 2188
+    },
+    {
+      "title": "Grand Theft Auto: The Trilogy - The Definitive Edition",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_The_Trilogy_-_The_Definitive_Edition",
+      "revid": 2079305,
+      "file": "pages/Grand_Theft_Auto_The_Trilogy_-_The_Definitive_Edition.wiki",
+      "chars": 16487
+    },
+    {
+      "title": "100% Completion in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/100%25_Completion_in_GTA_San_Andreas",
+      "revid": 2083216,
+      "file": "pages/100_Completion_in_GTA_San_Andreas.wiki",
+      "chars": 29849
+    },
+    {
+      "title": "Characters in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Characters_in_GTA_San_Andreas",
+      "revid": 2041093,
+      "file": "pages/Characters_in_GTA_San_Andreas.wiki",
+      "chars": 47542
+    },
+    {
+      "title": "Cheats in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Cheats_in_GTA_San_Andreas",
+      "revid": 2069237,
+      "file": "pages/Cheats_in_GTA_San_Andreas.wiki",
+      "chars": 87224
+    },
+    {
+      "title": "Clothing in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Clothing_in_GTA_San_Andreas",
+      "revid": 2081849,
+      "file": "pages/Clothing_in_GTA_San_Andreas.wiki",
+      "chars": 6943
+    },
+    {
+      "title": "Commercials in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Commercials_in_GTA_San_Andreas",
+      "revid": 2085020,
+      "file": "pages/Commercials_in_GTA_San_Andreas.wiki",
+      "chars": 12023
+    },
+    {
+      "title": "Controls for GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Controls_for_GTA_San_Andreas",
+      "revid": 2080321,
+      "file": "pages/Controls_for_GTA_San_Andreas.wiki",
+      "chars": 10476
+    },
+    {
+      "title": "Criminal Ratings in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Criminal_Ratings_in_GTA_San_Andreas",
+      "revid": 2001449,
+      "file": "pages/Criminal_Ratings_in_GTA_San_Andreas.wiki",
+      "chars": 5353
+    },
+    {
+      "title": "Dialogues in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Dialogues_in_GTA_San_Andreas",
+      "revid": 2078973,
+      "file": "pages/Dialogues_in_GTA_San_Andreas.wiki",
+      "chars": 174277
+    },
+    {
+      "title": "Epsilon Program (3D Universe)",
+      "url": "https://gta.fandom.com/wiki/Epsilon_Program_%283D_Universe%29",
+      "revid": 2080545,
+      "file": "pages/Epsilon_Program_3D_Universe_.wiki",
+      "chars": 9285
+    },
+    {
+      "title": "Fire Department of San Andreas",
+      "url": "https://gta.fandom.com/wiki/Fire_Department_of_San_Andreas",
+      "revid": 2037027,
+      "file": "pages/Fire_Department_of_San_Andreas.wiki",
+      "chars": 8449
+    },
+    {
+      "title": "Gangs in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Gangs_in_GTA_San_Andreas",
+      "revid": 2070195,
+      "file": "pages/Gangs_in_GTA_San_Andreas.wiki",
+      "chars": 20728
+    },
+    {
+      "title": "Glitches in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Glitches_in_GTA_San_Andreas",
+      "revid": 2082520,
+      "file": "pages/Glitches_in_GTA_San_Andreas.wiki",
+      "chars": 71358
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Artwork",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_San_Andreas/Artwork",
+      "revid": 2001277,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Artwork.wiki",
+      "chars": 3236
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Editions",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_San_Andreas/Editions",
+      "revid": 1638733,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Editions.wiki",
+      "chars": 5171
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Gameplay Features",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_San_Andreas/Gameplay_Features",
+      "revid": 1915035,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Gameplay_Features.wiki",
+      "chars": 4789
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Screenshots",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_San_Andreas/Screenshots",
+      "revid": 1902599,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Screenshots.wiki",
+      "chars": 21195
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas: Official Soundtrack",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_San_Andreas%3A_Official_Soundtrack",
+      "revid": 2039117,
+      "file": "pages/Grand_Theft_Auto_San_Andreas_Official_Soundtrack.wiki",
+      "chars": 3751
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas: Official Soundtrack Box Set",
+      "url": "https://gta.fandom.com/wiki/Grand_Theft_Auto%3A_San_Andreas%3A_Official_Soundtrack_Box_Set",
+      "revid": 2086621,
+      "file": "pages/Grand_Theft_Auto_San_Andreas_Official_Soundtrack_Box_Set.wiki",
+      "chars": 14163
+    },
+    {
+      "title": "Los Santos (3D Universe)",
+      "url": "https://gta.fandom.com/wiki/Los_Santos_%283D_Universe%29",
+      "revid": 2078729,
+      "file": "pages/Los_Santos_3D_Universe_.wiki",
+      "chars": 24274
+    },
+    {
+      "title": "Mafia Boss Music",
+      "url": "https://gta.fandom.com/wiki/Mafia_Boss_Music",
+      "revid": 1320845,
+      "file": "pages/Mafia_Boss_Music.wiki",
+      "chars": 667
+    },
+    {
+      "title": "Missions in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Missions_in_GTA_San_Andreas",
+      "revid": 2078346,
+      "file": "pages/Missions_in_GTA_San_Andreas.wiki",
+      "chars": 61818
+    },
+    {
+      "title": "Plot in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Plot_in_GTA_San_Andreas",
+      "revid": 2041160,
+      "file": "pages/Plot_in_GTA_San_Andreas.wiki",
+      "chars": 24762
+    },
+    {
+      "title": "Radio Stations in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Radio_Stations_in_GTA_San_Andreas",
+      "revid": 2085975,
+      "file": "pages/Radio_Stations_in_GTA_San_Andreas.wiki",
+      "chars": 28797
+    },
+    {
+      "title": "San Andreas Rap",
+      "url": "https://gta.fandom.com/wiki/San_Andreas_Rap",
+      "revid": 1990796,
+      "file": "pages/San_Andreas_Rap.wiki",
+      "chars": 2701
+    },
+    {
+      "title": "Secrets and Easter Eggs in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Secrets_and_Easter_Eggs_in_GTA_San_Andreas",
+      "revid": 2039206,
+      "file": "pages/Secrets_and_Easter_Eggs_in_GTA_San_Andreas.wiki",
+      "chars": 19649
+    },
+    {
+      "title": "Sunday Driver",
+      "url": "https://gta.fandom.com/wiki/Sunday_Driver",
+      "revid": 1630336,
+      "file": "pages/Sunday_Driver.wiki",
+      "chars": 902
+    },
+    {
+      "title": "Territory Glitch",
+      "url": "https://gta.fandom.com/wiki/Territory_Glitch",
+      "revid": 2078249,
+      "file": "pages/Territory_Glitch.wiki",
+      "chars": 12604
+    },
+    {
+      "title": "The Introduction",
+      "url": "https://gta.fandom.com/wiki/The_Introduction",
+      "revid": 2085768,
+      "file": "pages/The_Introduction.wiki",
+      "chars": 20903
+    },
+    {
+      "title": "Theme from San Andreas",
+      "url": "https://gta.fandom.com/wiki/Theme_from_San_Andreas",
+      "revid": 1884794,
+      "file": "pages/Theme_from_San_Andreas.wiki",
+      "chars": 1120
+    },
+    {
+      "title": "Vehicles in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Vehicles_in_GTA_San_Andreas",
+      "revid": 2085500,
+      "file": "pages/Vehicles_in_GTA_San_Andreas.wiki",
+      "chars": 8036
+    },
+    {
+      "title": "Weapons in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Weapons_in_GTA_San_Andreas",
+      "revid": 2063411,
+      "file": "pages/Weapons_in_GTA_San_Andreas.wiki",
+      "chars": 14396
+    },
+    {
+      "title": "Adam First",
+      "url": "https://gta.fandom.com/wiki/Adam_First",
+      "revid": 2078914,
+      "file": "pages/Adam_First.wiki",
+      "chars": 4352
+    },
+    {
+      "title": "Ah Ah Kung",
+      "url": "https://gta.fandom.com/wiki/Ah_Ah_Kung",
+      "revid": 2066463,
+      "file": "pages/Ah_Ah_Kung.wiki",
+      "chars": 1130
+    },
+    {
+      "title": "Alan Crawford",
+      "url": "https://gta.fandom.com/wiki/Alan_Crawford",
+      "revid": 2063337,
+      "file": "pages/Alan_Crawford.wiki",
+      "chars": 4314
+    },
+    {
+      "title": "Alan Crawford's Female Associate",
+      "url": "https://gta.fandom.com/wiki/Alan_Crawford%27s_Female_Associate",
+      "revid": 2067285,
+      "file": "pages/Alan_Crawford_s_Female_Associate.wiki",
+      "chars": 1977
+    },
+    {
+      "title": "Ammu-Nation Clerk",
+      "url": "https://gta.fandom.com/wiki/Ammu-Nation_Clerk",
+      "revid": 2067504,
+      "file": "pages/Ammu-Nation_Clerk.wiki",
+      "chars": 1748
+    },
+    {
+      "title": "Andre",
+      "url": "https://gta.fandom.com/wiki/Andre",
+      "revid": 2079128,
+      "file": "pages/Andre.wiki",
+      "chars": 2560
+    },
+    {
+      "title": "Avrindar (3D Universe)",
+      "url": "https://gta.fandom.com/wiki/Avrindar_%283D_Universe%29",
+      "revid": 2061808,
+      "file": "pages/Avrindar_3D_Universe_.wiki",
+      "chars": 2877
+    },
+    {
+      "title": "B Dup",
+      "url": "https://gta.fandom.com/wiki/B_Dup",
+      "revid": 2085334,
+      "file": "pages/B_Dup.wiki",
+      "chars": 4438
+    },
+    {
+      "title": "Ballas Snitch",
+      "url": "https://gta.fandom.com/wiki/Ballas_Snitch",
+      "revid": 2079129,
+      "file": "pages/Ballas_Snitch.wiki",
+      "chars": 2187
+    },
+    {
+      "title": "Ballas1",
+      "url": "https://gta.fandom.com/wiki/Ballas1",
+      "revid": 2084694,
+      "file": "pages/Ballas1.wiki",
+      "chars": 2275
+    },
+    {
+      "title": "Ballas2",
+      "url": "https://gta.fandom.com/wiki/Ballas2",
+      "revid": 2084693,
+      "file": "pages/Ballas2.wiki",
+      "chars": 2350
+    },
+    {
+      "title": "Ballas3",
+      "url": "https://gta.fandom.com/wiki/Ballas3",
+      "revid": 2084695,
+      "file": "pages/Ballas3.wiki",
+      "chars": 2308
+    },
+    {
+      "title": "Barbara Schternvart",
+      "url": "https://gta.fandom.com/wiki/Barbara_Schternvart",
+      "revid": 2063161,
+      "file": "pages/Barbara_Schternvart.wiki",
+      "chars": 7079
+    },
+    {
+      "title": "Benny (GTA San Andreas)",
+      "url": "https://gta.fandom.com/wiki/Benny_%28GTA_San_Andreas%29",
+      "revid": 2079130,
+      "file": "pages/Benny_GTA_San_Andreas_.wiki",
+      "chars": 2257
+    },
+    {
+      "title": "Berkley",
+      "url": "https://gta.fandom.com/wiki/Berkley",
+      "revid": 2078512,
+      "file": "pages/Berkley.wiki",
+      "chars": 3195
+    },
+    {
+      "title": "Bettina",
+      "url": "https://gta.fandom.com/wiki/Bettina",
+      "revid": 2087323,
+      "file": "pages/Bettina.wiki",
+      "chars": 2299
+    },
+    {
+      "title": "Beverly Johnson",
+      "url": "https://gta.fandom.com/wiki/Beverly_Johnson",
+      "revid": 2084710,
+      "file": "pages/Beverly_Johnson.wiki",
+      "chars": 6466
+    },
+    {
+      "title": "Big Bear",
+      "url": "https://gta.fandom.com/wiki/Big_Bear",
+      "revid": 2081598,
+      "file": "pages/Big_Bear.wiki",
+      "chars": 5951
+    },
+    {
+      "title": "Big Devil",
+      "url": "https://gta.fandom.com/wiki/Big_Devil",
+      "revid": 2025493,
+      "file": "pages/Big_Devil.wiki",
+      "chars": 1124
+    },
+    {
+      "title": "Big Poppa",
+      "url": "https://gta.fandom.com/wiki/Big_Poppa",
+      "revid": 2079131,
+      "file": "pages/Big_Poppa.wiki",
+      "chars": 2921
+    },
+    {
+      "title": "Big Smilky",
+      "url": "https://gta.fandom.com/wiki/Big_Smilky",
+      "revid": 2079998,
+      "file": "pages/Big_Smilky.wiki",
+      "chars": 882
+    },
+    {
+      "title": "Big Smoke",
+      "url": "https://gta.fandom.com/wiki/Big_Smoke",
+      "revid": 2086107,
+      "file": "pages/Big_Smoke.wiki",
+      "chars": 31048
+    },
+    {
+      "title": "Big Wayne",
+      "url": "https://gta.fandom.com/wiki/Big_Wayne",
+      "revid": 2058380,
+      "file": "pages/Big_Wayne.wiki",
+      "chars": 886
+    },
+    {
+      "title": "Billy Dexter",
+      "url": "https://gta.fandom.com/wiki/Billy_Dexter",
+      "revid": 2067292,
+      "file": "pages/Billy_Dexter.wiki",
+      "chars": 3319
+    },
+    {
+      "title": "Bobbi La Queef",
+      "url": "https://gta.fandom.com/wiki/Bobbi_La_Queef",
+      "revid": 2058429,
+      "file": "pages/Bobbi_La_Queef.wiki",
+      "chars": 1777
+    },
+    {
+      "title": "Bobby",
+      "url": "https://gta.fandom.com/wiki/Bobby",
+      "revid": 1965471,
+      "file": "pages/Bobby.wiki",
+      "chars": 1229
+    },
+    {
+      "title": "Bogman",
+      "url": "https://gta.fandom.com/wiki/Bogman",
+      "revid": 2084705,
+      "file": "pages/Bogman.wiki",
+      "chars": 4199
+    },
+    {
+      "title": "Brian Johnson",
+      "url": "https://gta.fandom.com/wiki/Brian_Johnson",
+      "revid": 2084711,
+      "file": "pages/Brian_Johnson.wiki",
+      "chars": 5938
+    },
+    {
+      "title": "Brian Van Ginsberg",
+      "url": "https://gta.fandom.com/wiki/Brian_Van_Ginsberg",
+      "revid": 2067565,
+      "file": "pages/Brian_Van_Ginsberg.wiki",
+      "chars": 1301
+    },
+    {
+      "title": "Brontosaurus Rex",
+      "url": "https://gta.fandom.com/wiki/Brontosaurus_Rex",
+      "revid": 1965974,
+      "file": "pages/Brontosaurus_Rex.wiki",
+      "chars": 919
+    },
+    {
+      "title": "C.R.A.S.H. Rookies",
+      "url": "https://gta.fandom.com/wiki/C.R.A.S.H._Rookies",
+      "revid": 2079133,
+      "file": "pages/C.R.A.S.H._Rookies.wiki",
+      "chars": 3558
+    },
+    {
+      "title": "Carl Johnson",
+      "url": "https://gta.fandom.com/wiki/Carl_Johnson",
+      "revid": 2087505,
+      "file": "pages/Carl_Johnson.wiki",
+      "chars": 35426
+    },
+    {
+      "title": "Carl Johnson's Father",
+      "url": "https://gta.fandom.com/wiki/Carl_Johnson%27s_Father",
+      "revid": 2078294,
+      "file": "pages/Carl_Johnson_s_Father.wiki",
+      "chars": 1982
+    },
+    {
+      "title": "Catalina",
+      "url": "https://gta.fandom.com/wiki/Catalina",
+      "revid": 2086677,
+      "file": "pages/Catalina.wiki",
+      "chars": 20682
+    },
+    {
+      "title": "Cesar Vialpando",
+      "url": "https://gta.fandom.com/wiki/Cesar_Vialpando",
+      "revid": 2083714,
+      "file": "pages/Cesar_Vialpando.wiki",
+      "chars": 10058
+    },
+    {
+      "title": "Cesar's Informant",
+      "url": "https://gta.fandom.com/wiki/Cesar%27s_Informant",
+      "revid": 2058621,
+      "file": "pages/Cesar_s_Informant.wiki",
+      "chars": 1703
+    },
+    {
+      "title": "Christy MacIntyre",
+      "url": "https://gta.fandom.com/wiki/Christy_MacIntyre",
+      "revid": 2068487,
+      "file": "pages/Christy_MacIntyre.wiki",
+      "chars": 2553
+    },
+    {
+      "title": "City Planning Department Receptionist",
+      "url": "https://gta.fandom.com/wiki/City_Planning_Department_Receptionist",
+      "revid": 2063021,
+      "file": "pages/City_Planning_Department_Receptionist.wiki",
+      "chars": 3282
+    },
+    {
+      "title": "Claude",
+      "url": "https://gta.fandom.com/wiki/Claude",
+      "revid": 2087573,
+      "file": "pages/Claude.wiki",
+      "chars": 32571
+    },
+    {
+      "title": "Cluck Norris",
+      "url": "https://gta.fandom.com/wiki/Cluck_Norris",
+      "revid": 2076240,
+      "file": "pages/Cluck_Norris.wiki",
+      "chars": 2589
+    },
+    {
+      "title": "CM Pink",
+      "url": "https://gta.fandom.com/wiki/CM_Pink",
+      "revid": 1965967,
+      "file": "pages/CM_Pink.wiki",
+      "chars": 933
+    },
+    {
+      "title": "Colonel Fuhrberger",
+      "url": "https://gta.fandom.com/wiki/Colonel_Fuhrberger",
+      "revid": 2058781,
+      "file": "pages/Colonel_Fuhrberger.wiki",
+      "chars": 4891
+    },
+    {
+      "title": "Construction Foreman",
+      "url": "https://gta.fandom.com/wiki/Construction_Foreman",
+      "revid": 2079132,
+      "file": "pages/Construction_Foreman.wiki",
+      "chars": 2531
+    },
+    {
+      "title": "Container Guard",
+      "url": "https://gta.fandom.com/wiki/Container_Guard",
+      "revid": 2068127,
+      "file": "pages/Container_Guard.wiki",
+      "chars": 1884
+    },
+    {
+      "title": "Cris Formage (3D Universe)",
+      "url": "https://gta.fandom.com/wiki/Cris_Formage_%283D_Universe%29",
+      "revid": 2058812,
+      "file": "pages/Cris_Formage_3D_Universe_.wiki",
+      "chars": 3656
+    },
+    {
+      "title": "D. Claremont",
+      "url": "https://gta.fandom.com/wiki/D._Claremont",
+      "revid": 1965979,
+      "file": "pages/D._Claremont.wiki",
+      "chars": 767
+    },
+    {
+      "title": "Denise Robinson",
+      "url": "https://gta.fandom.com/wiki/Denise_Robinson",
+      "revid": 2078913,
+      "file": "pages/Denise_Robinson.wiki",
+      "chars": 10275
+    },
+    {
+      "title": "Derek",
+      "url": "https://gta.fandom.com/wiki/Derek",
+      "revid": 2059017,
+      "file": "pages/Derek.wiki",
+      "chars": 2636
+    },
+    {
+      "title": "Derrick Thackery",
+      "url": "https://gta.fandom.com/wiki/Derrick_Thackery",
+      "revid": 2059021,
+      "file": "pages/Derrick_Thackery.wiki",
+      "chars": 1366
+    },
+    {
+      "title": "District Attorney",
+      "url": "https://gta.fandom.com/wiki/District_Attorney",
+      "revid": 2065468,
+      "file": "pages/District_Attorney.wiki",
+      "chars": 1575
+    },
+    {
+      "title": "Flint County (3D Universe)",
+      "url": "https://gta.fandom.com/wiki/Flint_County_%283D_Universe%29",
+      "revid": 2043153,
+      "file": "pages/Flint_County_3D_Universe_.wiki",
+      "chars": 5371
+    },
+    {
+      "title": "Glory Hole Theme Park",
+      "url": "https://gta.fandom.com/wiki/Glory_Hole_Theme_Park",
+      "revid": 2033625,
+      "file": "pages/Glory_Hole_Theme_Park.wiki",
+      "chars": 6741
+    },
+    {
+      "title": "Hepburn Heights",
+      "url": "https://gta.fandom.com/wiki/Hepburn_Heights",
+      "revid": 2080533,
+      "file": "pages/Hepburn_Heights.wiki",
+      "chars": 6278
+    },
+    {
+      "title": "Herr Gruber's Spa",
+      "url": "https://gta.fandom.com/wiki/Herr_Gruber%27s_Spa",
+      "revid": 2019112,
+      "file": "pages/Herr_Gruber_s_Spa.wiki",
+      "chars": 2272
+    },
+    {
+      "title": "Interiors in GTA San Andreas",
+      "url": "https://gta.fandom.com/wiki/Interiors_in_GTA_San_Andreas",
+      "revid": 2062903,
+      "file": "pages/Interiors_in_GTA_San_Andreas.wiki",
+      "chars": 41916
+    },
+    {
+      "title": "LB's Garage",
+      "url": "https://gta.fandom.com/wiki/LB%27s_Garage",
+      "revid": 2008264,
+      "file": "pages/LB_s_Garage.wiki",
+      "chars": 805
+    },
+    {
+      "title": "Maria Latore's Apartment",
+      "url": "https://gta.fandom.com/wiki/Maria_Latore%27s_Apartment",
+      "revid": 2057733,
+      "file": "pages/Maria_Latore_s_Apartment.wiki",
+      "chars": 1962
+    },
+    {
+      "title": "Market Boulevard",
+      "url": "https://gta.fandom.com/wiki/Market_Boulevard",
+      "revid": 2082061,
+      "file": "pages/Market_Boulevard.wiki",
+      "chars": 1499
+    },
+    {
+      "title": "Pacific Ocean (3D Universe)",
+      "url": "https://gta.fandom.com/wiki/Pacific_Ocean_%283D_Universe%29",
+      "revid": 2009345,
+      "file": "pages/Pacific_Ocean_3D_Universe_.wiki",
+      "chars": 2679
+    },
+    {
+      "title": "Palomino Creek Bank",
+      "url": "https://gta.fandom.com/wiki/Palomino_Creek_Bank",
+      "revid": 2008176,
+      "file": "pages/Palomino_Creek_Bank.wiki",
+      "chars": 1947
+    },
+    {
+      "title": "Portland",
+      "url": "https://gta.fandom.com/wiki/Portland",
+      "revid": 2007646,
+      "file": "pages/Portland.wiki",
+      "chars": 16567
+    },
+    {
+      "title": "Portland View",
+      "url": "https://gta.fandom.com/wiki/Portland_View",
+      "revid": 2061695,
+      "file": "pages/Portland_View.wiki",
+      "chars": 4129
+    },
+    {
+      "title": "RC Battle Ground",
+      "url": "https://gta.fandom.com/wiki/RC_Battle_Ground",
+      "revid": 2008073,
+      "file": "pages/RC_Battle_Ground.wiki",
+      "chars": 1530
+    },
+    {
+      "title": "Red County (3D Universe)",
+      "url": "https://gta.fandom.com/wiki/Red_County_%283D_Universe%29",
+      "revid": 2007665,
+      "file": "pages/Red_County_3D_Universe_.wiki",
+      "chars": 5529
+    },
+    {
+      "title": "Red Light District",
+      "url": "https://gta.fandom.com/wiki/Red_Light_District",
+      "revid": 2047723,
+      "file": "pages/Red_Light_District.wiki",
+      "chars": 7079
+    },
+    {
+      "title": "Saint Mark's",
+      "url": "https://gta.fandom.com/wiki/Saint_Mark%27s",
+      "revid": 2023063,
+      "file": "pages/Saint_Mark_s.wiki",
+      "chars": 9510
+    },
+    {
+      "title": "Salford",
+      "url": "https://gta.fandom.com/wiki/Salford",
+      "revid": 2075953,
+      "file": "pages/Salford.wiki",
+      "chars": 2148
+    },
+    {
+      "title": "Salvatore's Gentlemen's Club",
+      "url": "https://gta.fandom.com/wiki/Salvatore%27s_Gentlemen%27s_Club",
+      "revid": 2082279,
+      "file": "pages/Salvatore_s_Gentlemen_s_Club.wiki",
+      "chars": 4453
+    },
+    {
+      "title": "San Andreas Highway System",
+      "url": "https://gta.fandom.com/wiki/San_Andreas_Highway_System",
+      "revid": 2043148,
+      "file": "pages/San_Andreas_Highway_System.wiki",
+      "chars": 8657
+    },
+    {
+      "title": "Shoreside Vale",
+      "url": "https://gta.fandom.com/wiki/Shoreside_Vale",
+      "revid": 2030131,
+      "file": "pages/Shoreside_Vale.wiki",
+      "chars": 12211
+    },
+    {
+      "title": "State of San Andreas (3D Universe)",
+      "url": "https://gta.fandom.com/wiki/State_of_San_Andreas_%283D_Universe%29",
+      "revid": 2080341,
+      "file": "pages/State_of_San_Andreas_3D_Universe_.wiki",
+      "chars": 23675
+    },
+    {
+      "title": "Tokyo",
+      "url": "https://gta.fandom.com/wiki/Tokyo",
+      "revid": 2075331,
+      "file": "pages/Tokyo.wiki",
+      "chars": 1518
+    }
+  ]
+}

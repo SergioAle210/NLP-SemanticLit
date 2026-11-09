@@ -1,0 +1,91 @@
+{{Infobox character
+|name           = Barry Thorne
+|image          = BigBear-GTASA.png
+|games          = {{Games|SA=y}}
+|aka            = 
+*Big Bear
+*Bear
+|gender         = M
+|pob            = [[Ganton]], [[Los Santos (3D Universe)|Los Santos]]
+|home           = 
+*[[Ganton]], [[Los Santos (3D Universe)|Los Santos]] <small>(prior to [[1992]])</small>
+*[[B Dup's Apartment]] in [[Ganton]], [[Los Santos (3D Universe)|Los Santos]] <small>(formerly)</small>
+*[[B Dup's Crack Palace]] in [[Glen Park]], [[Los Santos (3D Universe)|Los Santos]] <small>([[Beat Down on B Dup|formerly]])</small>
+|nationality    = {{Country|US|adj=y}}
+|affiliations   = 
+*[[Grove Street Families]]
+*[[B Dup]] <small>([[Beat Down on B Dup|formerly]])</small>
+*[[Sweet Johnson]]
+*[[Carl Johnson]]
+|voice          = [[Kurt Alexander]]
+|status         = Alive
+|caption        = Big Bear in {{SA}}
+}}
+{{Quote|I'm tired of smoking, I'm tired of crack and I'm tired of doing your fucking housework! I'm free!|Big Bear to [[B Dup]] as he punches him in the face, in [[Beat Down on B Dup]].|sound=BarryThorne-GTASA-Quote.ogg}}
+'''Barry Thorne'''{{Ref
+|name = B-Dup's full name
+|type = undefined
+|date = 11/12/2024
+|filepath   = \TEXT\american.gxt
+|filedata   = [CRED286] Barry "Big Bear" Thorne - Big Boy
+|ref        = Full name revealed in the in-game credits, official manual and promotional material.<br/>[[File:PromotionalWebsite-GTASA-Flash-GroveStreetFamilies.png|200px]]
+}}, more commonly known as '''Big Bear''', is a supporting character in {{SA}}.
+
+He is voiced by [[Kurt Alexander]].
+
+==History==
+===Background===
+Big Bear is a member of the [[Grove Street Families]] and is one of the longest-serving members of the gang. Bear was apparently close to [[Carl Johnson]]'s younger brother, [[Brian Johnson]], as Bear referred to him as "Lil' Brian" during [[Beat Down on B Dup|deleted dialogue]] between himself and CJ, which was one of the major factors of Bear's defection. Between [[1987]] and [[1992]], however, he developed a drug addiction.
+
+===Events of ''Grand Theft Auto: San Andreas''===
+Eventually, and by the time of the ''GTA San Andreas'' storyline, Bear had become the personal slave to [[B Dup]] and does household chores for him, notably cleaning the toilet, in exchange for his next fix. Bear had lost much respect and had turned on the Grove Street Families in order to get more drugs. However, Bear eventually physically confronts B Dup, tired of being his personal cleaning maid, and decides to quit taking drugs. [[Sweet Johnson]] helps Bear by taking him to rehab.
+
+In a deleted part of the mission [[Beat Down on B Dup]], [[Carl Johnson]] would take Bear to rehab with Bear explaining how he got addicted to drugs. This would have set up a [[All-Terrain Take Down|cut mission]] where Carl would search for [[Big Smoke]] and would need to find an informant. Bear tells Carl and Sweet about a [[Russian Mafia (3D Universe)|Russian Mafia]] gang member who would inform Carl of Smoke's whereabouts, which would set up [[End of the Line]].
+
+In a similar manner to characters like [[Sweet Johnson|Sweet]] or [[Ryder]], Big Bear has a full voice set, indicating that he was meant to appear on the street (probably during a mission). His voice lines include him shouting at gang members, implying he was meant to be armed.
+
+==Character==
+===Appearance===
+Big Bear is seen as quite thin, with a pale face and dark brown eyes, large ears and short black hair. His clothes are an orange checkered button-down shirt, blue jeans and white sneakers. 
+
+An [[Beta Content in GTA San Andreas/Characters#Fat Big Bear|unused model]] of him named <code>Bb</code> can be found in the game files.<ref>[[File:Fat bb.jpg|thumb|250px|left|The unused fat Big Bear model.]]{{clr}}</ref> This other model depicts a much fatter Big Bear, with slightly differently shaped facial features, but he is wearing the same clothes although it is never used in the game. The used Big Bear model is called <code>Bbthin</code> in the game files, which suggests that Big Bear would have lost or gained weight during the storyline. 
+
+There are three cutscene models for Big Bear, an unused (fat) one <code>csbigbear</code>, the used thin one<code>csbigbearthin</code> and another unused model called <code>csbigbear2</code>.<ref>[[File:Csbigbear2-GTASA.png|thumb|250px|left|The csbigbear2 model]]{{clr}}</ref> The third model is overweight and seen wearing gray pants and a black cap under a dark green hood. This model is a recolored version of the Grove Street Families [[Fam1]] model.
+
+In [[Beat Down on B Dup|deleted dialogue]] between Bear and [[Carl Johnson|CJ]], CJ mentions how Bear's drug addiction changed his appearance, and Bear replies by saying "Best diet I've ever been on", further implying that Bear was initially overweight before his addiction.
+
+This weight fluctuation appears to be a direct reference to his voice actor [[Kurt Alexander]] (a.k.a. Big Boy)'s battle with obesity and his duodenal switch surgery in 2003 and subsequent hospitalization which nearly resulted in his death.<ref>[https://www.blackenterprise.com/radio-personality-big-boy-shares-his-weight-loss-journey/ Big Boy's weight loss story.]</ref>
+
+==Prominent Appearances in Gameplay==
+*[[Cleaning the Hood]]
+*[[Beat Down on B Dup]]
+
+==Gallery==
+<gallery position="center" spacing="small" widths="270px">
+BigBear-GTASAde.png|'''Big Bear''' in {{TDE}} of {{SA}}.
+CleaningTheHood-GTASA-SS37.png|As seen in [[Cleaning the Hood]].
+BeatDownonBDup-GTASA4.jpg|As seen in [[Beat Down on B Dup]].
+</gallery>
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Grove Street Families|state=collapsed}}
+{{Navbox gtasa characters|state=collapsed}}
+}}
+
+[[ar:بيج بير]]
+[[de:Barry Thorne]]
+[[es:Big Bear]]
+[[fi:Barry "Big Bear" Thorne]]
+[[pl:Barry Thorne]]
+[[pt:Big Bear]]
+[[ru:Биг Беар]]
+
+[[Category:Characters in GTA San Andreas]]
+[[Category:Male characters]]
+[[Category:Gangsters]]

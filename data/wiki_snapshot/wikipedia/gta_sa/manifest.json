@@ -1,0 +1,19 @@
+{
+  "source": "wikipedia",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:11:09+00:00",
+  "total_chars": 175679,
+  "missing_titles": [
+    "Grand Theft Auto: San Andreas missions"
+  ],
+  "pages": [
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+      "revid": 1380835714,
+      "file": "pages/Grand_Theft_Auto_San_Andreas.wiki",
+      "chars": 175679
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork ALttP= File:ALttP Piece of Heart Artwork.png
+ |Artwork LA= File:LA Piece of Heart Artwork.png
+ |Artwork TWW= File:TMC Piece of Heart Artwork.png
+ |Artwork TMC= File:TMC Piece of Heart Artwork.png
+ |Render OoT= File:OoT Piece of Heart Render.png
+ |Render MM= File:MM Piece of Heart Render.png
+ |Render TP= File:TP Piece of Heart Render.png
+ |Model LANS= File:LANS Piece of Heart Model.png
+ |Model OoT= File:OoT Piece of Heart Model.png
+ |Model OoT3D= File:OoT3D Piece of Heart Model.png
+ |Model MM= File:MM Piece of Heart Model.png
+ |Model MM3D= File:MM3D Piece of Heart Model.png
+ |Model TWW= File:TWW Piece of Heart Model.png
+ |Model TWWHD= File:TWWHD Piece of Heart Model.png
+ |Model TP= File:TP Piece of Heart Model.png
+ |Model TPHD= File:TPHD Piece of Heart Model.png
+ |Model SS= File:SS Piece of Heart Model.png
+ |Model SSHD= File:SSHD Piece of Heart Model.png
+ |Model ALBW= File:ALBW Piece of Heart Model.png
+ |Sprite ALttP= File:ALttP Piece of Heart Sprite.png
+ |Sprite LADX= File:LADX Piece of Heart Sprite.png
+ |Sprite OoT3D= File:OoT3D Piece of Heart Icon.png
+ |Sprite MM3D= File:MM3D Piece of Heart Icon.png
+ |Sprite OoS= File:OoS Piece of Heart Sprite.png
+ |Sprite OoA= File:OoA Piece of Heart Sprite.png
+ |Sprite TWW= File:TWW Piece of Heart Icon.png
+ |Sprite TWWHD= File:TWWHD Piece of Heart Icon.png
+ |Sprite TMC= File:TMC Piece of Heart Sprite.png
+ |Sprite TP= File:TP Piece of Heart Icon.png
+ |Sprite TPHD= File:TPHD Piece of Heart Icon.png
+}}
+|caption= 
+|pronunciation= 
+|plural= 
+|type= 
+|game= {{ALttP}}<br/>{{LA}}<br/>{{OoT}}<br/>{{MM}}<br/>{{OoS}}<br/>{{OoA}}<br/>{{TWW}}<br/>{{TMC}}<br/>{{TP}}<br/>{{SS}}<br/>{{ALBW}}
+|other= {{SSBB}}<br/>{{HW}}
+|cost= 
+|value= 
+|location= 
+|uses= Forming a {{Term|Series|Heart Container|link}}
+|strength= 
+|durability= 
+|comp= 
+|sample= 
+|theme= 
+}}
+{{Term/Store|Piece of Heart|Pieces of Heart|Series, ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, TWW, TWWHD, TMC, TP, TPHD, SS, SSHD, ALBW, CoH|plural}},{{Exp Game|ALttP, OoT, MM, OoS, OoA, TWW, TWWHD, TMC, TP, TPHD, SS, ALBW, CoH}}<ref name="E 134">{{Cite Book|quote= |book= E |publisher= |page= 134 {{Exp Game|ALttP, OoT, OoT3D, MM, MM3D, OoS, OoA, TWW, TWWHD, TMC, TP, TPHD, SS, ALBW}}}}</ref><ref>{{Cite|You got a {{Color|LANS Pink|Piece of Heart}}! What a rare find!|N/A|LANS}}</ref><ref>{{Cite|You got a {{Color|SSHD Gold|Piece of Heart}}!|N/A|SSHD}}</ref><ref>{{Cite|{{Color|CoH Red|Pieces of Heart}}<br/>Collect four Pieces of Heart to gain a new Heart Container, increasing your maximum health!|Inventory|CoH}}</ref>{{Name Ref|SSBB}} also known as '''Rare Peach Stones''',{{Exp Game|OoS}}<ref>{{Cite|Rare Peach Stone<br/>I'll trade for {{Color|OoS Red|20 Ore Chunks}} and {{Color|OoS Red|10 Ember Seeds}}.|Subrosian|OoS}}</ref>{{Note|{{Plural|Series|Piece of Heart}} were referred to as '''Heart Pieces''' on the official Zelda.com website.<ref>{{Cite Web|quote= {{Big|Heart Pieces}}<br/>Fractions of a full Heart Container. If the user collects the required number of them, he will gain an additional Heart Container on his health meter.<br/>{{Small|Heart Pieces as seen in: The Legend of Zelda: Ocarina of Time 3D}} |author= |published= |retrieved= January 15, 2022 |url= https://zelda.com/about/ |title= The official home for The Legend of Zelda - About |site= Zelda.com |type= }}</ref> However, as this contradicts the name given in-game, it is not considered [[Guidelines:Canon|Canon]].}}{{Note|{{Plural|Series|Piece of Heart}} were referred to as '''Broken Hearts''' in the {{ALttP|-}} manual.<ref>{{Cite Manual|quote= |game= ALttP|page= 12}}</ref> However, as this contradicts the name given in-game, it is not considered [[Guidelines:Canon|Canon]].}} are recurring {{Plural|Series|Item|link}} in {{TLoZ|Series}}. They are collected to form a full {{Term|Series|Heart Container|link}}, extending {{Term|Series|Link|link}}'s maximum health by one {{Term|Series|Heart|link}}.
+
+{{OTOC}}
+
+==Location and Uses==
+{{Improve}}
+Pieces of Heart were first seen in {{ALttP}}, and have since appeared in almost every other title following it. Pieces of Heart are scattered throughout the world. They can be found in {{Plural|Series|Treasure Chest|link}},<ref>{{Cite Guide|quote= |game= TWW|publisher= Prima|page= 146}}</ref> won in {{Plural|Series|Mini-Game|link}},<ref>{{Cite Guide|quote= |game= TWW|publisher= Prima|page= 139}}</ref> purchased<ref>{{Cite|This Piece of Heart is only 950 Rupees! Buy it! Buy it! Buy buy buy!|Beedle|TWW}}</ref>, or given to Link after completing a [[Side Quest]]. In many games, a Heart Container can form by collecting four Pieces of Heart.<ref>{{Cite Guide|quote= |game= TWW|publisher= Prima|page= 15}}</ref> Obtaining a Piece of Heart will immediately refill all of Link's health, regardless of whether or not that Piece of Heart is completing a Heart Container. The amount of Pieces of Heart depends primarily on how many Heart Containers are in the game; the Pieces of Heart, combined with the Heart Containers, typically add up to a total of 20 Hearts by the end of a game.
+
+It is unknown if any character other than Link understands the use and purpose of the Pieces of Heart, or if any character other than Link can use the Pieces of Heart, as very few characters ever have anything to say about them, even when handing them out as rewards. In {{TP|-}}, if Link catches the Piece of Heart while fishing in the [[Fishing Hole]], [[Hena]] will remark "Whose heart did you catch? You big sweetheart!" In {{SS|-}}, [[Beedle]] will eventually sell Link a Piece of Heart starting at 1,600 [[Rupee]]s. If Link asks Beedle about the item so that he can buy it, Beedle will tell him that he does not actually know what it is, and that he found it somewhere nearby. Fortune tellers who give hints leading to the location of Pieces of Heart refer to them as something having to do with love.
+
+Although now a series staple, a number of games do not feature Pieces of Heart. {{FS}}, {{FSA}} and {{TFH}} do not have collectible Pieces of Heart, as Heart Containers are not permanent upgrades in those games. {{PH}} and {{ST}}, despite having permanent Heart Containers, also do not have Pieces of Heart. In {{BotW}}, Pieces of Heart are replaced by {{Plural|BotW|Spirit Orb|link}}, and are obtained at the end of every [[Shrine]]. Four Spirit Orbs can be traded in for a Heart Container at a [[Goddess Statue]].
+
+==={{ALttP|-}}===
+{{Stub|ALttP}}
+There are 24 {{Plural|ALttP|Piece of Heart}} in A Link to the Past. 18 can be found in the Light World, and 6 can be found in the Dark World.
+
+==={{LA|-}}===
+{{Stub|LA}}
+There are 12 {{Plural|LADX|Piece of Heart}} in {{LA}} and 32 {{Plural|LANS|Piece of Heart}} in {{LA|NS}}. Four {{Plural|LANS|Piece of Heart}} are required to form a new {{Term|LANS|Heart Container}}, totaling {{Term|LANS|Link}}'s {{Term|LANS|Life Gauge|link}} to 14 {{Plural|LADX|Heart Container|link}} in {{LA|-}} and 20 in {{LA|NS|-}}. 
+
+A {{Term|LANS|Piece of Heart}} can be found in a puddle of {{Term|LANS|Water (Terrain)|link}} in the {{Term|LANS|Well|link}}.
+
+Another Piece of Heart can be found in the Cave by Animal Village.
+
+==={{OoT|-}}===
+{{Stub|OoT}}
+There are 36 {{Plural|OoT3D|Piece of Heart}} in {{OoT}}. Four {{Plural|OoT3D|Piece of Heart}} are required to form a new {{Term|OoT3D|Heart Container|link}}. Some {{Plural|OoT3D|Piece of Heart}} require {{Term|OoT3D|Magic Beans|link}} to acquire.
+
+==={{MM|-}}===
+There are 52 {{Plural|MM3D|Piece of Heart}} in {{MM}}; the most out of any game in {{TLoZ|Series}}. This is due to {{MM|-}} featuring fewer {{Plural|MM3D|Boss|link}}es than usual, therefore fewer full {{Plural|MM3D|Heart Container|link}}.
+
+In {{MM3D}}, the [[Sheikah Stone]] can show Link 23 different Hint Photos revealing the location of a Piece of Heart that is not received as a reward for completing an action during an [[Event]].
+
+==={{OoS|-}}===
+{{Stub|OoS}}
+
+==={{OoA|-}}===
+{{Stub|OoA}}
+
+==={{TWW|-}}===
+There are 44 {{Plural|TWWHD|Piece of Heart}} in {{TWW}}. The [[Sea Hearts Chart|Sea]] and [[Island Hearts Chart]]s can reveal the location in both the sea and on islands.<ref>{{Cite Guide|quote= |game= TWW|publisher= Prima|page= 154}}</ref><ref>{{Cite Guide|quote= |game= TWW|publisher= Prima|page= 157}}</ref>
+
+The Japanese version of ''The Wind Waker'' has different locations for some of the Heart Pieces:
+*The chest under Grandma's House contains a Heart Piece instead of 100 Rupees. In the Western version, this Heart Piece was moved to the bottom of the Savage Labyrinth which originally contained only 10 Rupees.
+*The treasure at the center of Horseshoe Island contains a Heart Piece instead of Treasure Chart 28. In the Western version, this Heart Piece in turn is the reward for lighting the Windfall lighthouse, instead of just a few rupees.
+*The treasure at one of the small islands at Forest Haven contains a Heart Piece instead of Treasure Chart 3. In the Western version, this Heart Piece in turn is the reward for decorating Windfall with 14 items, instead of 100 rupees.
+
+==={{TMC|-}}===
+Four {{Plural|TMC|Piece of Heart}} are required to form a new {{Term|TMC|Heart Container|link}} in {{TMC}}. A total of 44 {{Plural|TMC|Piece of Heart}} can be found throughout {{Term|TMC|Hyrule|link}}, with some appearing in {{Plural|TMC|Dungeon|link}}, atop beanstalks grown from {{Plural|TMC|Bean|link}}, and within {{Plural|TMC|Dig Cavern|link}}. Some cannot be accessed until specific {{Plural|TMC|Kinstone Fusion|link}} are performed.
+
+The list of {{Plural|TMC|Piece of Heart}} are listed below in a general order of when they can be acquired while progressing through the game.
+<table-progress-tracking table-id="heartTMC" unique-column-index="1">{|class="wikitable sortable" style="text-align:left"
+!style="width:5%; text-align:left"| No.
+!style="width:20%; text-align:left"| Location
+!style="width:75%; text-align:left"| Details
+|-
+| 1
+| {{Term|TMC|Minish Woods|link}}
+| Directly south of {{Term|TMC|Deepwood Shrine|link}}
+|-
+| 2
+| {{Term|TMC|Minish Village|link}}
+| Northeast pier of the {{Term|TMC|Minish Village|display=Village}}
+|-
+| 3
+| {{Term|TMC|Deepwood Shrine|link}}
+| Use the {{Term|TMC|Gust Jar|link}} on the eastern side of the south wall in the room where the {{Term|TMC|Madderpillar|link}} is fought
+|-
+| 4
+| {{Term|TMC|Deepwood Shrine|link}}
+| After revealing the blue {{Term|TMC|Portal (Object)|link}}, return to the entrance of the {{Term|TMC|Dungeon|link}} and use it
+|-
+| 5
+| {{Term|TMC|South Hyrule Field|link}}
+| A {{Term|TMC|Tree|link}} in the southeast corner of {{Term|TMC|South Hyrule Field}} is opened after {{Term|TMC|Kinstone Fusion|link|display=Fusing}} {{Plural|TMC|Kinstone Piece|link}} with the {{Term|TMC|Hurdy-Gurdy Man|link}}
+|-
+| 6
+| {{Term|TMC|Mount Crenel|link}}
+| In the northwestern corner of {{Term|TMC|Mount Crenel's Base|link}}, go north and place a {{Term|TMC|Bomb|link}} between two {{Plural|TMC|Tree|link}}
+|-
+| 7
+| {{Term|TMC|Mount Crenel|link}}
+| East of the bottom of the {{Term|TMC|Crenel Wall|link}}, place a {{Term|TMC|Bomb|link}} between two rocks
+|-
+| 8
+| {{Term|TMC|Cave of Flames|link}}
+| Use a {{Term|TMC|Bomb|link}} on the southern wall following the room with four {{Plural|TMC|Trap|link}} and an upturned {{Term|TMC|Mine Cart|link}}
+|-
+| 9
+| {{Term|TMC|Veil Falls|link}}
+| Accessed by using the {{Term|TMC|Cane of Pacci|link}} on a hole on the northern edge of {{Term|TMC|Lon Lon Ranch|link}}
+|-
+| 10
+| {{Term|TMC|Mount Crenel|link}}
+| Inside {{Term|TMC|Grayblade|link}}'s dojo
+|-
+| 11
+| {{Term|TMC|North Hyrule Field|link}}
+| Destroy a cracked {{Term|TMC|Block|link}} with a {{Term|TMC|Bomb|link}} in the northwest corner
+|-
+| 12
+| {{Term|TMC|Hyrule Town|link}}
+| Use the {{Term|TMC|Cane of Pacci|link}} to flip over a {{Term|TMC|Minish Portal|link}} in the {{Term|TMC|Guy's House|link}}, go north and climb a small vine near the {{Term|TMC|Happy Hearth Inn|link}}, and travel around to the back of the {{Term|TMC|Happy Hearth Inn|display=Inn}}
+|-
+| 13
+| {{Term|TMC|Minish Woods|link}}
+| After attempting to cross {{Term|TMC|Castor Wilds|link}} and witnessing {{Term|TMC|Rem|link}} fall asleep, cross through {{Term|TMC|Lon Lon Ranch|link}} to access the northwestern portion of {{Term|TMC|Minish Woods}}; the {{Term|TMC|Piece of Heart}} is found to the southwest near a pool of water
+|-
+| 14
+| {{Term|TMC|Mount Crenel|link}}
+| A {{Term|TMC|Bean|link}} at the top of {{Term|TMC|Mount Crenel}} grows into a beanstalk after {{Term|TMC|Kinstone Fusion|link|display=Fusing}} {{Plural|TMC|Kinstone Piece|link}} with {{Term|TMC|Melari|link}}
+|-
+| 15
+| {{Term|TMC|Castor Wilds|link}}
+| Inside {{Term|TMC|Swiftblade I|link}}'s dojo
+|-
+| 16
+| {{Term|TMC|Wind Ruins|link}}
+| Use the second {{Term|TMC|Minish Portal|link}} in the area to shrink down to {{Term|TMC|Minish|link}} size and travel west, climbing down the middle vine of three vines to reach a small cave
+|-
+| 17
+| {{Term|TMC|Fortress of Winds|link}}
+| After shrinking to {{Term|TMC|Minish|link}} size in the eastern section of the {{Term|TMC|Dungeon|link}}, fall down the hole near the {{Plural|TMC|Armos|link}} and pass into the room to the east
+|-
+| 18
+| {{Term|TMC|Mount Crenel|link}}
+| Dig into the {{Term|TMC|Dig Cavern|link}} west of the {{Term|TMC|Crenel Hermit|link}}'s cave
+|-
+| 19
+| {{Term|TMC|Hyrule Town|link}}
+| Complete {{Term|TMC|Simon's Simulations|link}}
+|-
+| 20
+| {{Term|TMC|Hyrule Castle Garden|link}}
+| A random {{Term|TMC|Kinstone Fusion|link}} will drain the northeastern pool of water
+|-
+| 21
+| {{Term|TMC|Hyrule Castle Garden|link}}
+| Inside {{Term|TMC|Grimblade|link}}'s dojo
+|-
+| 22
+| {{Term|TMC|Eastern Hills|link}}
+| A {{Term|TMC|Bean|link}} will grow into a beanstalk after {{Term|TMC|Kinstone Fusion|link|display=Fusing}} {{Plural|TMC|Kinstone Piece|link}} with a nearby {{Term|TMC|Forest Picori|link}}
+|-
+| 23
+| {{Term|TMC|Western Wood|link}}
+| A {{Term|TMC|Tree|link}} in the {{Term|TMC|Western Wood}} opens after {{Term|TMC|Kinstone Fusion|link|display=Fusing}} {{Plural|TMC|Kinstone Piece|link}} with the {{Term|TMC|Forest Picori|link}} near the {{Term|TMC|Wind Crest|link}} at {{Term|TMC|Lake Hylia|link}}
+|-
+| 24
+| {{Term|TMC|Lon Lon Ranch|link}}
+| Dashing into a {{Term|TMC|Tree|link}} with the {{Term|TMC|Pegasus Boots|link}} will reveal a {{Term|TMC|Minish Portal|link}}; it can be used to access the small {{Term|TMC|Minish|link}}-sized path nearby
+|-
+| 25
+| {{Term|TMC|Hyrule Town|link}}
+| After obtaining the {{Term|TMC|Flippers|link}}, {{Term|TMC|Swimming|link|display=Swim}} across the water while still within the {{Term|TMC|Fountain|link}}
+|-
+| 26
+| {{Term|TMC|Castor Wilds|link}}
+| A {{Term|TMC|Lily Pad|link}} will appear in {{Term|TMC|Castor Wilds}} after {{Term|TMC|Kinstone Fusion|link|display=Fusing}} {{Plural|TMC|Kinstone Piece|link}} with either {{Term|TMC|Zill|link}} or a {{Term|TMC|Forest Picori|link}} in the {{Term|TMC|Minish Village|link}}; after shrinking to {{Term|TMC|Minish|link}} size and taking it south, travel to the southeastern corner of the {{Term|TMC|Castor Wilds|display=Wilds}} and {{Term|TMC|Swimming|link|display=Swim}} northeast to a small cave
+|-
+| 27
+| {{Term|TMC|Castor Wilds|link}}
+| {{Term|TMC|Swimming|link|display=Swim}} to a cave in the northeastern corner of {{Term|TMC|Castor Wilds}}
+|-
+| 28
+| {{Term|TMC|South Hyrule Field|link}}
+| Use the {{Term|TMC|Pegasus Boots|link}} to reveal a {{Term|TMC|Minish Portal|link}} in the southwestern corner; shrink down to {{Term|TMC|Minish|link}} size and {{Term|TMC|Swimming|link|display=Swim}} north to a small cave
+|-
+| 29
+| {{Term|TMC|Hyrule Town|link}}
+| Complete the final level of {{Term|TMC|Anju|link}}'s {{Term|TMC|Cucco|link}} game
+|-
+| 30
+| {{Term|TMC|Minish Woods|link}}
+| Use the {{Term|TMC|Minish Portal|link}} west of the {{Term|TMC|Minish Village|link}} and go northwest to three small caves; enter the leftmost cave
+|-
+| 31
+| {{Term|TMC|Lake Hylia|link}}
+| Swim to the southern edge of the {{Term|TMC|Lake Hylia|display=Lake}}
+|-
+| 32
+| {{Term|TMC|Lake Hylia|link}}
+| Inside {{Term|TMC|Waveblade|link}}'s dojo
+|-
+| 33
+| {{Term|TMC|Lake Hylia|link}}
+| {{Term|TMC|Diving|link|display=Dive}} beneath the water in the small pool adjacent to {{Term|TMC|Stockwell's House|link}}
+|-
+| 34
+| {{Term|TMC|Royal Valley|link}}
+| Push the northwestern {{Term|TMC|Tombstone|link}} and use the {{Plural|TMC|Flashing Spot on the Floor|link}} to push aside a large {{Term|TMC|Block|link}}
+|-
+| 35
+| {{Term|TMC|Veil Falls|link}}
+| Enter the area from the northeastern corner of {{Term|TMC|North Hyrule Field|link}} and {{Term|TMC|Swimming|link|display=Swim}} to the east
+|-
+| 36
+| {{Term|TMC|Palace of Winds|link}}
+| In the northwestern corner of the fourth floor, push a {{Term|TMC|Block|link}} down and use the {{Term|TMC|Roc's Cape|link}} to leap over the gap, heading north through the door
+|-
+| 37
+| {{Term|TMC|Hyrule Town|link}}
+| Leap up into the bell with the {{Term|TMC|Roc's Cape|link}}
+|-
+| 38
+| {{Term|TMC|Lake Hylia|link}}
+| Use the {{Term|TMC|Roc's Cape|link}} to leap across two small islands in the northern portion of the {{Term|TMC|Lake Hylia|display=Lake}}
+|-
+| 39
+| {{Term|TMC|Lake Hylia|link}}
+| After {{Term|TMC|Kinstone Fusion|link|display=Fusing}} {{Plural|TMC|Kinstone Piece|link}} with the {{Term|TMC|Forest Picori|link}} along the eastern edge of the {{Term|TMC|Lake Hylia|display=Lake}}, use the {{Term|TMC|Roc's Cape|link}} to leap to the northern shore and dig into the {{Term|TMC|Dig Cavern|link}}; head right to access the beanstalk that grows from a {{Term|TMC|Bean|link}}
+|-
+| 40
+| {{Term|TMC|Lon Lon Ranch|link}}
+| Use the {{Term|TMC|Roc's Cape|link}} to leap to the northern shore of {{Term|TMC|Lake Hylia|link}} and dig into the {{Term|TMC|Dig Cavern|link}}; head left to exit at {{Term|TMC|Lon Lon Ranch}}
+|-
+| 41
+| {{Term|TMC|Veil Falls|link}}
+| A {{Term|TMC|Waterfall|link}} opens after {{Term|TMC|Kinstone Fusion|link|display=Fusing}} {{Plural|TMC|Kinstone Piece|link}} with {{Term|TMC|Gale|link}}
+|-
+| 42
+| {{Term|TMC|Veil Falls|link}}
+| A shoal appears after {{Term|TMC|Kinstone Fusion|link|display=Fusing}} {{Plural|TMC|Kinstone Piece|link}} with the {{Term|TMC|Forest Picori|link}} in the far eastern house of the {{Term|TMC|Minish Village|link}}, granting access to a {{Term|TMC|Dig Cavern|link}}
+|-
+| 43
+| {{Term|TMC|Hyrule Town|link}}
+| Use the {{Term|TMC|Minish Portal|link}} inside {{Term|TMC|Funday School|link}} to access the {{Term|TMC|Minish|link}}-sized path in the schoolyard; use the {{Plural|TMC|Flashing Spot on the Floor|link}} to push aside a large rock
+|-
+| 44
+| {{Term|TMC|Hyrule Town|link}}
+| Obtain the first 130 {{Plural|TMC|Figurine|link}} and speak with {{Term|TMC|Herb|link}} to access the {{Term|TMC|Music House|link}}
+|}
+</table-progress-tracking>
+
+==={{TP|-}}===
+There are 45 {{Plural|TPHD|Piece of Heart}} in {{TP}}. This game breaks the tradition of needing four Pieces to form a [[Heart Container|heart container]], requiring five {{Plural|TPHD|Piece of Heart}} in order to form a {{Term|TPHD|Heart Container|link}} as opposed to the usual four. Despite of this, {{Term|TPHD|Link}}'s smallest unit of health is still a quarter-{{Term|TPHD|Heart|link}}. {{Plural|TPHD|Piece of Heart}} in {{TP|-}} are found in the usual manners, though more {{Plural|TPHD|Piece of Heart}} are found inside {{Plural|TPHD|Dungeon|link}} than in prior games.
+
+At her shop in {{Term|TPHD|Hyrule Castle Town|link}}, {{Term|TPHD|Madame Fanadi|link}} can show {{Term|TPHD|Link}} a vision of the location of a {{Term|TPHD|Piece of Heart}} if {{Term|TPHD|Link}} pays for a fortune about "Love".
+
+==={{SS|-}}===
+{{Stub|SS}}
+There are 24 {{Plural|SSHD|Piece of Heart}} in {{SS}}.
+
+==={{ALBW|-}}===
+{{Stub|ALBW}}
+There are 28 {{Plural|ALBW|Piece of Heart}} in {{ALBW}}.
+
+=={{Plural|Series|Piece of Heart}} Summary==
+{|class="wikitable" style="text-align:center"
+!style="width:40px"| ''ALttP''
+!style="width:40px"| ''LA''
+!style="width:40px"| ''OoT''
+!style="width:40px"| ''MM''
+!style="width:40px"| ''OoS''
+!style="width:40px"| ''OoA''
+!style="width:40px"| ''TWW''
+!style="width:40px"| ''TMC''
+!style="width:40px"| ''TP''
+!style="width:40px"| ''SS''
+!style="width:40px"| ''ALBW''
+|-
+| 24
+| 12
+| 36
+| 52
+| 12
+| 12
+| 44
+| 44
+| 45
+| 24
+| 28
+|}
+
+==Other Appearances==
+==={{SSBB|-}}===
+{{Noncanon|Start}}
+In {{SSBB}}, a Piece of Heart appear as a [[Sticker]].
+{{SSBSticker|header=yes}}
+{{#section:Sticker|Piece of Heart}}
+|}
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Ambig|Start}}
+[[File:HW Piece of Heart Icon.png|90px|left]]
+Pieces of Hearts can be found in [[Scenario]]s in [[Legend Mode]] and in Battles in [[Adventure Mode]] in {{HW}}. Each Piece of Heart can only be obtained by a specific [[Warrior]] and will form a full [[Heart Container]] when that Warrior has collected four Pieces of Heart. Pieces of Heart can typically be found in a [[Treasure Chest]] that appears when [[Allied Force]]s capture certain [[Keep]]s. The Treasure Chest containing a Piece of Heart can only be opened by the Warrior that can obtain the Piece. If none of the {{Plural|HWDE|Warrior}} are the correct Warrior, a different Treasure Chest containing [[Rupee]]s or a [[Weapon]] will appear instead. Every Scenario except for the five in [[Cia's Tale]] has a hidden Piece of Heart in {{HW|-}} while all Scenarios in {{HW|L}} and {{HW|DE}} have a hidden Piece of Heart.
+{{Ambig|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoT3D Piece of Heart Model 2.png|Detailed view of a {{Term|OoT3D|Piece of Heart}} from {{OoT3D|-}} and {{MM3D|-}}
+File:OoT3D Piece of Heart ¼ Icon.png|Icon of a single Piece of Heart assembled in the Gear Screen from {{OoT3D|-}}
+File:OoT3D Piece of Heart ½ Icon.png|Icon of two Pieces of Heart assembled in the Gear Screen from {{OoT3D|-}}
+File:OoT3D Piece of Heart ¾ Icon.png|Icon of three Pieces of Heart assembled in the Gear Screen from {{OoT3D|-}}
+File:UnderwaterPieceofHeart.jpg|Zora Link next to a Piece of Heart from {{MM|-}}
+File:OoS Rare Peach Stone Sprite.png|A Piece of Heart sold upside down as a "Rare Peach Stone" at [[Subrosia Market]] from {{OoS|-}}
+File:Horon PieceofHeart.png|The Piece of Heart in [[Horon Village]] from {{OoS|-}}
+File:Masked Beedle TWW.png|Beedle selling a Piece of Heart from the [[Masked Beedle Shop]] from {{TWW|-}}
+File:TMC Heart Container Sprite 2.png|Sprite of 0/4 Pieces of Heart from {{TMC|-}}
+File:TMC Heart Container Sprite 3.png|Sprite of 1/4 Piece of Heart from {{TMC|-}}
+File:TMC Heart Container Sprite 4.png|Sprite of 2/4 Pieces of Heart from {{TMC|-}}
+File:TMC Heart Container Sprite 5.png|Sprite of 3/4 Pieces of Heart from {{TMC|-}}
+File:TP Piece of Heart Obtained.png|Link obtaining a Piece of Heart in {{TP|-}}
+File:TPHD Piece of Heart Stamp.png|Piece of Heart [[Miiverse Stamp]] from {{TPHD|-}}
+File:ALBW Heart Empty.png|Artwork of 0/4 Pieces of Heart from {{ALBW|-}}
+File:ALBW Heart One Quarter.png|Artwork of 1/4 Piece of Heart from {{ALBW|-}}
+File:ALBW Heart Half Full.png|Artwork of 1/2 Heart from {{ALBW|-}}
+File:ALBW Heart Three Quarters.png|Artwork of 3/4 Pieces of Heart from {{ALBW|-}}
+File:ALBW Empty Piece of Heart Icon.png|Icon of 0/4 Pieces of Heart from {{ALBW|-}}
+File:ALBW One Quarter Piece of Heart Icon.png|Icon of 1/4 Piece of Heart from {{ALBW|-}}
+File:ALBW One Half Piece of Heart Icon.png|Icon of 1/2 Heart from {{ALBW|-}}
+File:ALBW Three Quarters Piece of Heart Icon.png|Icon of 3/4 Pieces of Heart from {{ALBW|-}}
+File:HW Piece of Heart Model.png|A Piece of Heart from {{HW|-}}
+File:CoH Piece of Heart Sprite.png|A Piece of Heart from {{CoH|-}}
+</gallery>
+
+{{Notes}}
+
+{{Ref}}
+
+{{Categories
+ |Health Restoring Items
+ |items= ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, TWW, TWWHD, TMC, TP, TPHD, SS, ALBW, CoH, HW, HWL, HWDE
+}}

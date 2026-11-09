@@ -1,0 +1,59 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Vehicle''': Ambulance. They are parked outside of hospitals, and will come if several people are killed.
+|}
+
+Get in an ambulance and hit {{psx|R3}}/{{kbd|+}}/{{xbox|neutral|Rstick}} to start the mission.  Pick up the patients (up to three at a time) and bring them back to the nearest hospital.  
+
+Level 1 has one patient and each successive level has one more patient, up to level 12.  This means it takes 78 successful pickups to complete the mission.
+
+== Tips ==
+Once you start the mission, don't get out of the ambulance or you will end the mission immediately.
+
+Avoid hitting the cops and police cars! Even when on a paramedic mission, they don't like if you hit cops or crash into police cars, and it's just more difficult to complete this mission with cops on your tail.
+
+Doing the paramedic missions in a small town, such as Angel Pine, will make the missions much easier, as you are only expected to pick up patients within the given town or city's limits.
+
+Before you begin the paramedic mission, attack the ambulance's front and rear doors with CJ's fists to knock them off. This saves you time as when you pick up a patient they don't need to open the door.
+
+Start each level by planning out a route that enables you to pick up three patients (the capacity of the ambulance) and return quickly to the hospital. Because of the ambulance's high center of mass, beware of sharp turns and off road paths as they will most likely tip the ambluance over. Also avoid going too fast before reaching a patient, as if you run over a patient, the mission will automatically fail.  
+
+Be careful about running over the patients.  Once you come to a stop near them they will approach the ambulance.  If you move again and hit them at too fast a speed, you can kill them, which immediately ends the mission.  And you don't want to make this mistake on level 11!
+
+Turn on the ambulance's siren and ''some'' of the cars will pull over for you.  This is amusing, but the minor benefit usually gets outweighed by the annoyance (to you!) of the siren.
+
+== Location-specific information ==
+=== Los Santos ===
+There are two hospitals servicing Los Santos:
+*The major hospital is located in Jefferson, north of the major expressway that borders Grove Street.  It can be tough to find all the blue targets on the Los Santos map, and there's a lot of traffic and cops to deal with.
+*The other hospital is located in Market, west of the Ammunation in Downtown Los Santos. Some of the patients can be in difficult spots, making it harder to pick them up.
+
+=== Montgomery ===
+This is easier than Los Santos, and you can do this run even if you haven't unlocked San Fierro.  Start in the small town called Montgomery located west of the northern highway that leads out of Los Santos.  The hospital is on the western edge of town.
+
+For the first few levels, all the patients will be in Montgomery.   Further along, you will have patients to pick up in Palamino Creek (to the east), Hampton Barns (to the west), and Dillimore (southwest).  The further away the patients, the more time bonus you get for picking them up.  All the driving between towns is on two-lane highways.  
+
+=== San Fierro ===
+The area around the hospital is hilly, so this can be difficult.
+
+=== Angel Pine ===
+This seems to be the easiest place to do the mission.  The patients never show up outside of Angel Pine so you don't have to drive too far, ever.
+
+=== Las Venturas ===
+The hospital is located near the airport.
+
+== Rewards ==
+{{achievement
+|name=Savior
+|g=45
+|trophy=silver
+|image=GTASA DE Savior.png
+|description=Complete 12 levels of Paramedic.
+}}
+* You get a progressive cash reward after completing each level.
+* Maximum health increases to 176 after completing level 12.
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Firefighter|nextpage=Vigilante}}

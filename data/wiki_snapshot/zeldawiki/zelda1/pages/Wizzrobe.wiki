@@ -1,0 +1,260 @@
+{{Hatnote|This article is about the recurring enemies. For the Bosses, see [[Wizzrobe (Boss)|Wizzrobe]].}}
+{{Infobox Enemy
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Blue Wizzrobe Artwork.png
+ |Artwork ALttP= File:ALttP Wizzrobe Artwork.png
+ |Render EoW= File:EoW Fire Wizzrobe Render.png
+ |Model LANS= File:LANS Wizzrobe Model.png
+ |Model TWW= File:TWW Wizzrobe Model.png
+ |Model TWWHD= File:TWWHD Wizzrobe Model.png
+ |Model PH= File:PH Wizzrobe Model.png
+ |Model TFH= File:TFH Wizzrobe Model.png
+ |Model BotW= File:BotW Electric Wizzrobe Model.png
+ |Model EoW= File:EoW Fire Wizzrobe Model.png
+ |Sprite TLoZ= File:TLoZ Red Wizzrobe Sprite.png
+ |Sprite ALttP= File:ALttP Wizzrobe Sprite.png
+ |Sprite LA= File:LA Wizzrobe Sprite.png
+ |Sprite LADX= File:LADX Wizzrobe Sprite.png
+ |Sprite OoS= File:OoS Wizzrobe Sprite.png
+ |Sprite OoA= File:OoA Wizzrobe Sprite.png
+ |Sprite FS= File:FS Wizzrobe Sprite.png
+ |Sprite FSA= File:FSA Wizzrobe Sprite.png
+ |Sprite TMC= File:TMC Wizzrobe Sprite.png
+ |Sprite EoW= File:EoW Fire Wizzrobe Icon.png
+}}
+|caption= 
+|pronunciation= 
+|plural= Wizzrobes<ref name="E 212">{{Cite Book|quote= |book= E |publisher= |page= 212 {{Exp Game|TLoZ, ALttP, LA, LADX, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, PH}}}}</ref>
+|race= 
+|game= TLoZ, ALttP, LA, OoS, OoA, FS, TWW, FSA, TMC, PH, TFH, BotW, EoW
+|other= TLoZ (Valiant Comics), TCT, ALttP (Ishinomori), ZA, AST, CoH, AoC, NWCNES
+|habitat= {{Spawn Locations}}
+|member= 
+|attack= 
+{{Infobox Game Blocks
+ |TLoZ= 
+{{Small|([[Red Wizzrobe]])}},
+{{Damage
+  |attack1= Contact
+  |damage1= 1.00
+  |attack2= Magic Blast
+  |damage2= 4.00
+}}, {{Small|([[Blue Wizzrobe]])}}, 
+{{Damage
+  |attack1= Contact
+  |damage1= 1.00
+  |attack2= Magic Blast
+  |damage2= 2.00
+}}
+ |LA= 
+{{Damage
+  |attack1= Contact
+  |damage1= 1.00
+  |attack2= Magic Blast
+  |damage2= 1.00
+}}
+ |TWW= 
+{{Damage
+  |attack1= Contact
+  |damage1= 0.25
+  |attack2= Fireball
+  |damage2= 0.50
+}}
+}}
+|weapon= 
+{{List|
+ * [[Sword]]
+ * [[Bow]]
+ * [[Bomb]]s
+}}
+|spoils= 
+{{Infobox Game Blocks
+ |TLoZ= 4 [[Bomb]]s, 1 [[Rupee]], [[Clock]], [[Heart]], [[Fairy]]
+}}
+|exp=
+|theme= 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|3}} {{Small|([[Red Wizzrobe|Red]])}}, {{HP|TLoZ|5}} {{Small|([[Blue Wizzrobe|Blue]])}}
+ |TWW= {{HP|TWW|4}}
+}}
+}}
+{{Term/Store|Wizzrobe|Wizzrobes|Series, TLoZ, ALttP, LA, LADX, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, PH, BotW, NL|plural}} are recurring [[Enemy|Enemies]] in {{TLoZ Series}}.<ref name="E 212"/><ref>{{Cite|'''{{Color BotW|Shrine Quest|Electric Wizzrobe}}'''|Hyrule Compendium|BotW}}</ref><ref>{{Cite|{{Big|Wizzrobe}}|Monita|NL}}</ref>{{Name Ref|TFH}}
+
+{{OTOC}}
+
+==Characteristics==
+Wizzrobes are undead wizards that cast beams of magical energy,<ref>{{Cite Book|quote= |book= E |publisher= |page= 103}}</ref> and are so named because of the cloaks they often wear. While the appearance of Wizzrobes has differed in some games, in all their appearances, they possess the ability to vanish and teleport elsewhere, enabling them to engage [[Link]] through ambushes and surprise attacks. [[Wizzrobe (Boss)|Wizzrobes]] have also appeared as [[Boss]]es or [[Sub-Boss]]es in certain games.
+
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+Wizzrobes appear inside [[Dungeon]]s in {{TLoZ}}. They are encountered in [[Level 6]] and [[Level 9]]. In the [[Second Quest]], they also appear in [[Level 5]] in addition to the other two. They resemble humanoids whose faces are entirely hidden in shadow by their hoods.
+
+Wizzrobes come in two colors, both with drastically different behaviors. Orange Wizzrobes teleport throughout the room, while shooting magical bolts at [[Link]], before disappearing again. Blue Wizzrobes are a much stronger variant that take more hits to defeat, and attack by moving across the area while casting spells. They will occasionally vanish to swiftly change direction to another area. These Wizzrobes are far more dangerous than the weaker orange variety, especially in cramped rooms where Link can quickly become surrounded by them. Both of their magic can be blocked with the [[Magical Shield]]. They can be dispatched with the [[Sword]]; however, due to their nature of teleporting across the area, it is easier to attack them from a distance, such as shooting [[Sword Beam]]s at them. When defeated, red Wizzrobes may drop either a [[Heart]], one [[Rupee]], four [[Bomb]]s, or a [[Clock]], while blue Wizzrobes may drop either a Heart, one Rupee, or a [[Fairy]].{{TLoZ Enemy Note}}
+
+==={{ALttP|-}}===
+{{Descriptions ALttP}}
+Wizzrobes in {{ALttP}} appear in [[Misery Mire (Dungeon)|Misery Mire]] and [[Ganon's Tower]]. The Wizzrobes of Misery Mire wear green robes and brimmed hats. Unlike Wizzrobes from {{TLoZ}}, they appear and disappear in one place, and cast spells at [[Link]] in between. Their teleportation spells are slow, however, as they will briefly appear transparent just before emerging and vanishing. They can only be attacked once they take physical form.
+
+A faster variety of Wizzrobe known as Purple Wizzrobes also appear in Ganon's Tower.
+
+==={{LA|-}}===
+Wizzrobes in {{LA}} appear similarly to their green {{ALttP}} incarnation, staying in one spot as they vanish and reappear. When one emerges, it first appears as a hat on the floor, indicating where it will appear. It then rises and fires an attack in [[Link]]'s general direction before vanishing again. Unlike previous Wizzrobes, they cannot be harmed with the [[Sword]], which will instead only repel them back. They can only be harmed by firing an [[Arrow]] at them with the [[Bow]], which will defeat them in two hits; by planting a [[Bomb]] near them, which will defeat them in one hit; or by throwing an object at them, such as a pot or a stunned enemy, which will defeat them in one hit. Wizzrobes can also be stunned with the [[Hookshot]] or [[Boomerang]], making it easier to defeat them with a Bomb. They appear in the [[Face Shrine]].
+
+==={{OoS|-}}===
+Wizzrobes come in three different color varieties in {{OoS}}, and have the same appearance as in past games. The green variety behaves identically to the Wizzrobes of {{LA}}, staying in one place and attacking [[Link]] with their spells from that spot. The red variety has more health, and teleports around the room, attacking in the same way. The blue Wizzrobe behaves more like the blue Wizzrobes of {{TLoZ}}, as they move around the room while casting spells. They are also faster at casting than the other two. Like the Wizzrobes of {{TLoZ|-}}, the blue variety is able to make itself invulnerable to attack when changing direction. While it does this, it also has the added advantage of moving through objects, but cannot harm Link.
+
+==={{OoA|-}}===
+Wizzrobes come in three different color varieties in {{OoA}}, and have the same appearance as in past games. The green variety behaves identically to the Wizzrobes of {{LA}}, staying in one place and attacking [[Link]] with their spells from that spot. The red variety has more health, and teleports around the room, attacking in the same way. The blue Wizzrobe behaves more like the blue Wizzrobes of {{TLoZ}}, as they move around the room while casting spells. They are also faster at casting than the other two. Like the Wizzrobes of {{TLoZ|-}}, the blue variety is able to make itself invulnerable to attack when changing direction. While it does this, it also has the added advantage of moving through objects, but cannot harm Link.
+
+==={{FS|-}}===
+Three varieties of Wizzrobes appear in {{FS}}, and the game also introduces the red [[Fire Wizzrobe]] and the blue [[Ice Wizzrobe]]. While the standard green variety attacks normally, the Fire and Ice Wizzrobes wield fire and ice magic, respectively. They appear in [[Vaati's Palace]].
+
+Wizzrobes return to their original appearance as hooded humanoids.
+
+==={{TWW|-}}===
+{{Checklist
+ |game= TWW
+ |type= Enemies
+ |category= Enemies in The Wind Waker
+ |needs= 
+Detailed information on the following:
+* The Enemy's behavior
+* The Enemy's weaknesses
+* Where the Enemy appears
+}}
+{{Descriptions TWW}}
+Wizzrobes take on a significantly different look in {{TWW}}, characterized by their {{Wp|toucan}}-like faces and wing-like sleeves. They usually wear dark cloaks with hoods and carry wands that they use to cast their spells. Like previous appearances, they disappear and reappear using magic. When they teleport, a sound is heard to indicate their position. They come in two common, colored varieties and use different strategies. Wizzrobes with [[Fire Wizzrobe|red hoods shoot Fireballs]], while Wizzrobes with yellow hoods can both shoot fireballs and summon other enemies.<ref>{{Cite|Wizzrobe - Habitat: Tower of the Gods - Magic: Fire, summons - These mighty mages are adept at wielding flame and summoning other creatures to their aid. The only way to defeat them is to try to predict their movements and attack them during the brief moments that they assume physical form.|Figurine|TWW}}</ref> There are also Wizzrobes with white robes and blue hoods, which behave identically to red-hooded variants, that appear atop [[Sea Platform]]s near the [[Seven-Star Isles]].<ref>{{Cite Guide|TWW Prima|page= 150}}</ref> Wizzrobes can be defeated in one hit if they are frozen with an [[Ice Arrow]] and then tossed at a wall, shot with a [[Fire Arrow]], or crushed with the [[Skull Hammer]]. A [[Wizzrobe (Boss)|Wizzrobe]] [[Miniboss]] also appears in the [[Wind Temple]], wearing a distinctive orange cloak and crown.
+
+==={{FSA|-}}===
+Wizzrobes are able to steal [[Force Gem]]s from the [[Links]] in {{FSA}}, while also using fire and ice spells. They closely resemble the Wizzrobes from {{ALttP}} and first appear in the [[Eastern Temple]].
+
+==={{TMC|-}}===
+{{Descriptions TMC}}
+Wizzrobes in {{TMC}} appear identically to their appearance in {{FS}}, with three varieties; standard green Wizzrobes, [[Fire Wizzrobe]]s, and [[Ice Wizzrobe]]s. They appear in the [[Palace of Winds]] and [[Dark Hyrule Castle]]. Ice Wizzrobes are weak to fire-based attacks, and can be instantly defeated using the [[Flame Lantern]].
+
+==={{PH|-}}===
+Wizzrobes in {{PH}} retain their bird-like appearance, but are slightly smaller, wear cloth masks, and carry large scythes instead of wands. In spite of the aesthetic similarities, they take on a completely different role in the game. They appear only in the [[Temple of the Ocean King]] and do not use their traditional magic. Instead, they are invisible until right before they attack. They will sneak up to steal 15 seconds from the [[Phantom Hourglass (Item)|Phantom Hourglass]] with a swipe of their scythes. They appear as [[Skull]]s on the map on the top screen, which is the only way to track them without coming in range of their attacks. Defeating one earns [[Link]] 30 more seconds of the [[Sand of Hours]].
+
+==={{TFH|-}}===
+{{Stub|TFH}}
+As of the Version 2.0.0 update, dark [[Wizzrobe]]s can be found in the [[Den of Trials]].
+
+==={{BotW|-}}===
+{{Main|Blizzrobe, Electric Wizzrobe, Fire Wizzrobe, Ice Wizzrobe, Meteo Wizzrobe, Thunder Wizzrobe}}
+Six types of Wizzrobe appear in {{BotW}}. There are three base forms of Wizzrobe: [[Electric Wizzrobe]]s, [[Fire Wizzrobe]]s, and [[Ice Wizzrobe]]s, which carry [[Lightning Rod]]s, [[Fire Rod]]s, and [[Ice Rod]]s respectively. Three stronger variants of these Wizzrobes also appear. These more powerful Wizzrobes are: [[Thunder Wizzrobe]]s which bear [[Thunderstorm Rod]]s, [[Meteo Wizzrobe]]s which carry [[Meteor Rod]]s, and [[Blizzrobe]]s which carry [[Blizzard Rod]]s.
+
+==={{TotK|-}}===
+{{Stub|TotK}}
+
+==={{EoW|-}}===
+{{Main|Electric Wizzrobe, Fire Wizzrobe, Ice Wizzrobe}}
+{{Checklist
+ |game= EoW
+ |type= Enemies
+ |category= Enemies in Echoes of Wisdom
+ |needs= 
+Detailed information on the following:
+* The Enemy's behavior
+* The Enemy's weaknesses
+* Where the Enemy appears
+* What the Echo cost is for the Enemy
+}}
+{{Stub|EoW}}
+Three kinds of Wizzrobes appear: [[Electric Wizzrobe]]s, [[Fire Wizzrobe]]s, and [[Ice Wizzrobe]]s.
+
+==Other Appearances==
+==={{TLoZ (Valiant Comics)|Display}}===
+{{Noncanon|Start}}
+[[File:Wizzrobe VC.png|thumb|right|Wizzrobe in the Valiant Comics]]
+The Wizzrobes in the {{TLoZ (Valiant Comics)}} highly resemble their original artwork  from {{TLoZ|-}}. Although a Wizzrobe makes a  brief appearance in "[[He Also Serves]],"<ref>{{Cite Book|quote= When do we spring the trap, Wizzrobe?|book= TLoZ (Valiant Comics)|publisher= |page= 9}}</ref> they play a more important role in "[[To the First Power]]" and, to an extent, in "[[The Legend of Zelda (Valiant Comics)/Issue 4#Queen of Hearts|Queen of Hearts]]."
+
+In "To the First Power," a Wizzrobe commands several of Ganon's minions to tie Link up after [[Princess Zelda|Zelda]] heads inside the [[Level 1|Eagle Labyrinth]] to train against Ganon's minions. However, the Wizzrobe reveals to Link that he filled the Eagle Labyrinth with the most dangerous of enemies so that Zelda may not stand a chance up against them.<ref>{{Cite Book|quote= Grab him! Without his weapons, he's helpless! You thought Eagle Labyrinth was a safe place for Zelda to hone her battle skills! Fool! I filled it with the most lethal enemies in Ganon's army! She won't stand a chance! Let my teleportation spell carry us to the final room of the labyrinth!|book= TLoZ (Valiant Comics)|publisher= |page= 2}}</ref> Although Link confronts the Wizzrobe and tells him that capturing Zelda will do no good since he is the one that [[Ganon]] wants, the Wizzrobe confesses that he is not interested in following Ganon's orders anymore.<ref>{{Cite Book|quote= Why go to all this trouble to get Zelda, Wizzrobe? I'm the one Ganon wants!|book= TLoZ (Valiant Comics)|publisher= |page= 2}}</ref><ref>{{Cite Book|quote= Ganon's desires don't interest me! I'm finished following that loser!|book= TLoZ (Valiant Comics)|publisher= |page= 2}}</ref> He elaborates that he has gathered many other minions who feel the same way, and as soon as he destroys Link and Zelda, all of Ganon's  minions will join his renegade army, leaving Ganon to fail.<ref>{{Cite Book|quote= I've   gathered many of Ganon's minions who feel the same! Ganon has never been able to stop you OR Zelda! But, if I can destroy you both, Ganon's minions will join my renegade army...and Ganon himself will fall!|book= TLoZ (Valiant Comics)|publisher= |page= 2}}</ref> 
+
+Eventually, Zelda makes her way to where the Wizzrobe and Link are, delighting the foe since he will now be able to defeat her himself.<ref>{{Cite Book|quote= I don't know how you got past my renegade army, princess! But I'm delighted that I get to destroy you myself!|book= TLoZ (Valiant Comics)|publisher= |page= 9}}</ref> The Wizzrobe shoots a magic beam at her, which Zelda dodges and quickly fires an Arrow from her Bow towards it, making him fall into a fire pit that sends the Wizzrobe back to Ganon.<ref>{{Cite Book|quote= Zelda: And you picked on the WRONG princess, Wizzrobe!|book= TLoZ (Valiant Comics)|publisher= |page= 10}}</ref><ref>{{Cite Book|quote= Wizzrobe: Nooo! This will send be back to Ganon!|book= TLoZ (Valiant Comics)|publisher= |page= 10}}</ref> The story ends with the Wizzrobe kneeling in front of Ganon while the Prince of Darkness praises him since he could make use of a "deceitful and treacherous" man like him.<ref>{{Cite Book|quote= So...you plotted behind my back! You, Wizzrobe, are deceitful and treacherous! [...] Good! I can USE a man like you.|book= TLoZ (Valiant Comics)|publisher= |page= 10}}</ref>
+
+The Wizzrobe in "Queen of Hearts" is in charge of securing the [[Magic Container]] that holds all of [[Queen Seline]]'s magical  powers.<ref>{{Cite Book|quote= The magic container is the key--! If we can break it open, my powers will return!|book= TLoZ (Valiant Comics)|publisher= |page= 8}}</ref> When Link and Seline make their way to where the magic container is, they are confronted by a Wizzrobe and a horde of Ganon's other minions.  Link is then heavily injured and faints, and before the Wizzrobe can finish him off, Zelda appears and shoots an Arrow at the Magic Container,<ref>{{Cite Book|quote= Get away from my friends, you creep!|book= TLoZ (Valiant Comics)|publisher= |page= 9}}</ref> restoring Seline's powers and allowing her to easily defeat the Wizzrobe and the rest of the enemies.<ref>{{Cite Book|quote= Ah! My powers have returned! Now then, little wizard....it's time for you to learn about REAL magic.|book= TLoZ (Valiant Comics)|publisher= |page= 9}}</ref>
+{{Noncanon|End}}
+
+==={{TCT|-}}===
+{{Noncanon|Start}}
+{{Main|Madame Grusha}}
+A Wizzrobe disguised as a [[Fortune Teller]] appears in {{TCT}}. Known as [[Madame Grusha]], she resides in the [[Town of Ruto]]. If Zelda visits Madame Grusha's hut, she will guess that Zelda has traveled far and that she is searching for three things. The Fortune Teller goes on to explain that she knows how to help the princess, but she cannot speak of it in their current location and asks that Zelda follow her into her inner sanctum.<ref>{{Cite Book|quote= Grusha can see far. You are seeking three things. I can help you, but I can't speak of it here. Come into my inner sanctum.|book= TCT|publisher= |page= 116}}</ref> Following Madame Grusha will lead to Zelda's death, while deciding to not follow her will result in a fight between Zelda and the Wizzrobe, along with some Moblins. However, the princess manages to defeat both enemies and come out of the hut alive.<ref>{{Cite Book|quote=She grabs a mirror off the wall and holds it up as a shield just as the wizzrobe lowers his staff. There's a flash of red light. The spell hits the mirror--and bounces back across the room. The wizzrobe and the moblin freeze where they stand. The spell has turned them to stone!|book= TCT|publisher= |page= 27}}</ref>
+{{Noncanon|End}}
+
+==={{AST|-}}===
+{{Noncanon|Start}}
+{{Stub|AST}}
+
+{{Noncanon|End}}
+
+==={{ZA|-}}===
+{{Noncanon|Start}}
+In {{ZA}}, Wizzrobes appear wearing blue cloaks and carrying wooden staffs. They walk around and occasionally cast blasts of magic, however unlike their canonical incarnations, they do not teleport at will. They appear in the [[Shrine of Illusion]] and the [[Shrine of Destiny]].
+{{Noncanon|End}}
+
+==={{ALttP|-}} (Ishinomori)===
+{{Noncanon|Start}}
+A Wizzrobe appears in Chapter 9 of the {{ALttP (Ishinomori)}}. After Link exits the [[Swamp Palace]], he hears Princess Zelda contact him telepathically from beyond the [[Misery Mire (Dungeon)|wasteland]].<ref>{{Cite Book|quote=I...am...nearby... Hurry!|book= ALttP (Ishinomori)|publisher= |page= 9}}</ref><ref>{{Cite Book|quote= Can't you hear her? Zelda is calling from beyond the wasteland!|book= ALttP (Ishinomori)|publisher= |page= 9}}</ref>  [[Epheremelda]], who cannot hear Zelda's calling, advises Link against going to the wasteland as it is too dangerous.<ref>{{Cite Book|quote= Now you're hearing things! Anyway, the wasteland is way too harsh! Once you get in there, you can't escape!|book= ALttP (Ishinomori)|publisher= |page= 9}}</ref> Link disregards her suggestion,<ref>{{Cite Book|quote= If this wasteland is as dangerous as you say it is, I've got to get Zelda out of there right away!|book= ALttP (Ishinomori)|publisher= |page= 10}}</ref> heading into the wasteland where he stumbles into an oasis from where  Zelda is calling his name. The young hero ventures in and finds her.<ref>{{Cite Book|quote= It's some kind of oasis! This must be where Zelda is being held! Zelda! I'm  on my way! [...] Can it be? Zelda! I finally found you!|book= ALttP (Ishinomori)|publisher= |page= 11}}</ref> As he remembers the [[Maiden]]'s words of Zelda being inside [[Turtle Rock]],<ref>{{Cite Book|quote= But wait... The girl in the crystal said Zelda was in a rock shaped like a turtle...|book= ALttP (Ishinomori)|publisher= |page= 12}}</ref> the princess turns out to be an illusion made by a Wizzrobe, who promptly captures Link and conjures [[Vitreous]] from the swamp to devour him.<ref>{{Cite Book|quote= You walked right into my trap, tasty morsel! This is Misery Mire, world famous for its fine aroma of Swamp Gas. You're just in time for dinner with Sir Vitreous, the master of this place... Dinner, with you as the main course!|book= ALttP (Ishinomori)|publisher= |page= 12}}</ref> However, a whirlpool is created that engulfs both Vitreous and the Wizzrobe, and from beneath [[Zora (Ishinomori)|Zora]] appears to rescue Link.
+{{Noncanon|End}}
+
+==={{NL|-}}===
+{{Noncanon|Start}}
+{{Descriptions NL}}
+{{Stub|NL}}
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+Wizzroboes appear as enemies in {{CoH}}.
+{{Noncanon|End}}
+
+==={{AoC|-}}===
+{{Noncanon|Start}}
+{{Stub|AoC}}
+{{Noncanon|End}}
+
+==={{NWCNES|-}}===
+{{Noncanon|Start}}
+{{Stub|NWCNES}}
+
+{{Noncanon|End}}
+
+==Trivia==
+* [[Wizzro]] from {{HW}} is named after these enemies, and has a similar appearance.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:TWW Wizzrobe Model 2.png|{{Game Label|{{TWW|-}}}}A black Wizzrobe variant
+File:TWW Wizzrobe Figurine Model 2.png|{{Game Label|{{TWW|-}}}}The Figurine of two black Wizzrobe variants
+File:BotW Wizzrobe Concept Artwork.png|{{Game Label|{{BotW|-}}}}Concept artwork of Wizzrobes
+File:Wizzrobe's Trap.png|{{Game Label|{{ALttP (Ishinomori)|Display}}}}Link caught in the Wizzrobe's trap
+File:AST Wizzrobe Sprite.png|{{Game Label|{{AST|-}}}}A Light World Wizzrobe
+File:ZA Wizzrobe Sprite.png|{{Game Label|{{ZA|-}}}}A Wizzrobe
+File:CoH Wizzrobe Artwork.png|{{Game Label|{{CoH|-}}}}Artwork of a Wizzrobe
+File:CoH Fire Wizzrobe Sprite.png|{{Game Label|{{CoH|-}}}}A Fire Wizzroboe
+</gallery>
+
+==See Also==
+{{See Also|
+ * Carock
+ * Mago
+ * Wizard
+ * Wizzro
+ * Wizzrobe (Boss)
+}}
+
+{{Notes}}
+{{Ref}}
+
+{{Categories
+ |Humanoid Enemies, Temple of the Ocean King, Undead Enemies, Wizzrobes
+ |characters= TLoZ (Valiant Comics), ALttP (Ishinomori)
+ |enemies= TLoZ, ALttP, LA, LADX, LANS, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, PH, TFH, BotW, TotK, EoW, ZA, AST, CoH, AoC, NWCNES
+}}
+[[de:Pyromagi]]

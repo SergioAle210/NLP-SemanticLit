@@ -18,7 +18,7 @@ from collections import Counter
 from dataclasses import dataclass, field
 
 import mwparserfromhell
-from mwparserfromhell.nodes import Tag, Template, Text, Wikilink
+from mwparserfromhell.nodes import Heading, Tag, Template, Text, Wikilink
 
 # --- Reglas de plantillas -------------------------------------------------------------------
 
@@ -29,6 +29,19 @@ DROP = {
     "prettytable", "the legend of zelda", "ninja gaiden", "clear",
     "cero", "esrb", "pegi", "oflc",  # clasificaciones por edad (dentro de la ficha {{Game}})
 }
+# Juegos de PC/consola/3D (GTA, OoT, AC, Doom, RDR): mantenimiento, clasificaciones, logros e íconos sin texto útil.
+DROP |= {
+    "grand theft auto", "assassin's creed", "red dead", "doom", "needimages", "needimage", "stub", "sect-stub",
+    "cleanup", "wikify", "spoilers", "reflist", "needcontrols", "subpage", "drivel", "youtube", "footer_nav",
+    "indiscriminate dumping ground", "bbfc", "oflc/nz", "usk", "rsac", "achievements header", "achievement info",
+    "icon", "subtoc", "subtoc2", "bronze", "silver", "gold", "platinum", "control selector", "uplay", "~t", "g",
+    "details", "zelda/mq",
+}
+# Íconos de botones por plataforma: {{xbox|Up|Lstick}} -> "Up Lstick".
+BUTTON_TEMPLATES = {"ps2", "psx", "xbox", "mouse", "n64", "ds", "gb", "jaguar", "smd", "kbd"}
+# Fichas con parámetros con nombre cuyo contenido útil es "Campo: valor".
+FIELD_TEMPLATES = {"boss", "lozoot/enemy"}
+NAMED_BOX_TEMPLATES = {"oot skulltula", "zelda poh"}  # {{X|title=..|contents=..}} como nota al margen
 # Botones de otras consolas (ports). El alcance es NES: se descartan para no ensuciar la tabla de controles.
 NON_NES_BUTTONS = {"gc", "wii", "wii-cc", "3ds", "switch", "wiiu", "gba"}
 LITERALS = {"plus": "+", "(": "(", ")": ")"}
@@ -91,6 +104,40 @@ def _render_template(t: Template, stats: CleanStats) -> str:
     if name == "sidebar":  # nota al margen -> párrafo (como encabezado "robaría" el texto siguiente)
         return f"\n{_arg(t, 'title')}: {_arg(t, 'contents')}\n"
 
+    if name in BUTTON_TEMPLATES:
+        return " ".join(p for p in pos if p)
+    if name == "control":  # {{control|PS2 button|keyboard key}}
+        return " / ".join(p for p in pos if p)
+    if name == "color":  # {{color|purple|Nocturne of Shadow}}
+        return pos[1] if len(pos) > 1 else ""
+    if name == "im/oot":
+        return pos[1] if len(pos) > 1 else (pos[0] if pos else "")
+    if name == "s":  # {{s|Enemies|Gohma}} -> Gohma
+        return pos[-1] if pos else ""
+    if name == "zw":  # {{zw|Gohma|more info}}
+        return pos[0] if pos else ""
+    if name == "abbr":
+        return f"{pos[0]} ({pos[1]})" if len(pos) > 1 else (pos[0] if pos else "")
+    if name == "achievement":
+        return f"\nAchievement {_arg(t, 'name')}: {_arg(t, 'description')}\n"
+    if name in FIELD_TEMPLATES:
+        skip = re.compile(r"(?i)image|size|caption")
+        lines = [f"{str(p.name).strip().capitalize()}: {v}" for p in t.params
+                 if p.showkey and not skip.search(str(p.name)) and (v := " ".join(str(p.value).split()))]
+        return "\n" + " | ".join(lines) + "\n" if lines else ""
+    if name in NAMED_BOX_TEMPLATES:
+        return f"\n{_arg(t, 'title')}: {_arg(t, 'contents')}\n"
+    if name.startswith(("infobox", "video game infobox")) or name.endswith(" infobox"):  # Wikipedia / Fandom
+        skip = re.compile(r"(?i)image|caption|alt|logo|width")
+        lines = [f"{str(p.name).strip().replace('_', ' ').capitalize()}: {v}" for p in t.params
+                 if p.showkey and not skip.search(str(p.name)) and (v := " ".join(str(p.value).split()))]
+        return "\n" + "\n".join(lines) + "\n" if lines else ""
+    if name in {"plainlist", "unbulleted list", "ubl", "flatlist", "hlist", "bulleted list"}:
+        items = pos or [str(p.value).strip() for p in t.params]
+        return "\n" + "\n".join(f"* {i}" for i in items if i) + "\n"
+    if name in {"quote", "blockquote", "cquote"}:
+        return pos[0] if pos else _arg(t, "text")
+
     stats.unknown_templates[name] += 1
     return ""
 
@@ -100,6 +147,9 @@ def _render_node(node, stats: CleanStats) -> str:
         for param in node.params:  # adentro hacia afuera: primero los argumentos
             param.value = _render_wikicode(param.value, stats)
         return _render_template(node, stats)
+    if isinstance(node, Heading):  # el título puede traer plantillas o imágenes: renderizarlo también
+        bar = "=" * node.level
+        return f"{bar}{_render_wikicode(node.title, stats).strip()}{bar}\n"
     if isinstance(node, Wikilink):
         target = str(node.title).strip()
         if re.match(r"(?i)^(file|image|category)\s*:", target):
@@ -301,5 +351,6 @@ def _strip_markup(text: str) -> str:
 def clean_wikitext(wikitext: str, stats: CleanStats | None = None) -> str:
     """Wikitext -> texto plano. Conserva los encabezados `== X ==` para la segmentación."""
     stats = stats if stats is not None else CleanStats()
+    wikitext = re.sub(r"\{\{(\w+)\}(\w+)\}\}", r"{{\g<1>|\g<2>}}", wikitext)  # {{Switch}ZL}} (llaves mal cerradas)
     rendered = _render_wikicode(mwparserfromhell.parse(wikitext), stats)
     return _strip_markup(_flatten_tables(rendered))

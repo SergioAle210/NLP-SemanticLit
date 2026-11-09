@@ -1,0 +1,114 @@
+{{cleanup|Controls, formulae, external links, etc.}}
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{{control selector|Playstation 2,PC,Xbox}}
+
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Vehicle''': Black Boxville moving truck (no other color will work).
+* '''Time''': 20:00 - 06:00
+|}
+
+''San Andreas'' adds the ability to rob houses. Contrary to what is often mentioned in reviews, it is ''not'' necessary to wear a balaclava or ski mask or any other form of disguise as cj dons one automatically when the mission is active.
+
+In order to complete this mission CJ must steal $10,000 worth of goods, but this does not have to be in the same session. CJ can steal any number of items over several nights and eventually add up to the total. Only then will the player get the rewards. Despite what the official strategy guide says this mission is '''not''' required to get 100% Completion.
+
+===Black Boxville Locations===
+[[File:GTA SA Boxville blue apartments.jpg|thumb|The Boxville near CJ's house.]]
+* near Sweet's house in between some blue apartments
+* Los Santos: in Idlewood, across the street from the gym
+* other truck-heavy regions (there is at least one in each city)
+* San Fierro:  The Boxville is in an alley behind the lockup (see below).
+
+Also see a [http://www.gtasanandreas.net/sam/index.php?op=1.0,0.0,1536.0,0.0,1536.0,-1.0,-1.0,-1.0,Boxville,1,0,0,0,0,0,0,0,0,0,0,0,0,0 map of the Boxville locations] (requires Java).
+{{-}}
+===Lockup Locations===
+*Los Santos: Playa Del Seville
+*San Fierro: from the Garage save point, go south one block, west one block and turn left.
+*Las Venturas: in the extreme northeast of the urban area, north of the 'Old Strip.'
+
+This mission is only available at night, between 20:00-6:00 (8 PM to 6 AM) game time, 10 minutes real time. The indicator stating a mission can be activated will only appear when the clock hits 20:00. It is good strategy to get in the truck early, cruise out to a residential area and let the clock run down so you are in position.
+
+Press the {{control|{{psx|R3}}|{{kbd|2}}|{{xbox|neutral|Rstick}}}} to activate a Burglary mission.
+
+The player should drive around until they see a marker on a house's front door. This indicates that particular house can be burgled. The neighborhoods south of the Boxville found near Sweet's house have many robbable homes.
+
+It is expected that the player has already played through the [[Grand Theft Auto: San Andreas/Home Invasion|Home Invasion]] mission, but here's a run-down; however, in the PC version, burglary is available as early as the very beginning of the game, before completing [[Grand_Theft_Auto:_San_Andreas/In_the_beginning|In The Beginning]].
+
+Pick up an item {{control|{{psx|T}}|{{kbd|enter}}|{{xbox|Y}}}} and head out the door and back to the Boxville. Face the rear door of the Boxville and press the button again, and the item should be deposited within along with a confirmation message. If CJ drops it on the ground just pick it up again, readjust his position in relation to the back of the truck, and try again. With practise it is also possible to drop items ''through'' the sides of the rear of the truck to make parking easier and the trips back and forth shorter.
+
+Return to the lockup in the Boxville before 11:00am. You have five minutes real-time (5 hours game-time) after 6:00am to get the truck back to the lockup, so you can steal right up to 6:00 am.  Even if you have "item" in your hands, you can still drop it off.  Otherwise after the five minutes any goods still inside the truck will be lost forever.
+
+== Tips ==
+=== Strategy ===
+* Pre-position boxsters in garages near residential areas, for instance, the Garcia save point in San Fierro.
+* Look for areas with clusters of two or more houses to rob, then park in that area. Robbing one of the houses resets all of the others. Find the best houses to rob (see below); pop in and out of a 'difficult' one; this will activate the easy one; simply ping-pong between the two all night. This will give safe, predictable results and is much easier than cruising around looking for high-value targets and triggering shootouts (if not as fun).
+* There are several floor plans which are easy to rob because no occupant can see you enter. Here is how to recognize them:
+** Look for an L-shaped hallway when entering; take the first door on the right, all the way at the end of the hallway, into the kitchen. The occupant is through the door to the left of the kitchen and sometimes through a door on the left of the entry. Use stealth to get the loot out into the hall and you will have a good time margin to get out the front door.
+** Look for stairs on your left when you enter. Duck into the living room which is to your right and take the TV, etc. You should be able to get the loot out the door easily with six or seven seconds to spare. The occupant is presumably upstairs and will taunt you on your way out the door.
+* Note that which houses activate on a given night are random. However, if you find a cluster, you can go back to the same neighborhood on successive nights and a different set of houses will activate.
+* Sometimes a cluster will not activate until you go into one of the houses in the neighborhood. This may be a bug.
+* While in the house, switch weapons to AK47 or M4.  For some reason (on the PC), it allows you to move slightly faster when using the "sneak" movement.
+
+=== Stealth ===
+* Like many stealth action games, there is a noise bar, showing how much disturbance has been caused. Stealthy actions will keep the bar low, while running around will fill it up. Stopping all movement for a short while will cause the bar to decrease.
+** Once it is sufficiently high enough (about half full) the owner (or owners) will wake up and come out to find out what's causing all the racket.
+** Sometimes the house is empty (of occupants), but the noise bar is still there; it is up to the player to discover this.
+** On some occasions, an occupant will be up and about or sitting in the living room, in which case they spot CJ the moment he enters.
+** Regardless of how the owner saw CJ, the owners will react in a variety of ways after spotting him: cower in fear, attack, scream for help (from the police) or phone the police. If they phone the police, the player then has ten seconds to leave the house before the owners call the cops. Being in the house when the countdown ends will result in a three-star wanted level.
+*** However, it is possible to leave and go straight back in to set the bar and countdown back to zero.
+*** It is also possible to kill the owners (with a silenced weapon if possible) while they are still sleeping undisturbed in their beds, or when they first spot CJ (but ideally before the cop-counter reaches its peak). Either way, killing the owners removes the noise bar, allowing CJ to make as much noise as he wishes.
+
+=== Lootable items ===
+* any items which look light enough for CJ to carry
+* gaming consoles (a PlayStation 2-like device)
+* televisions
+* stereos
+* VCRs
+* microwaves
+* loose cash (lying on the floor); this is automatically collected rather than being taken to the safehouse before it can be paid out
+* weapons (also lying on the floor)
+
+Basically, if it looks like it can be resold for profit, it can.
+
+
+CJ can't crouch while carrying but can still use the sneak button, so it may be advisable to walk as slowly as possible to avoid filling up the noise bar.
+
+An alternate option is to rush for the door heedless of the noise level, as exiting will make the noise bar empty and the owners (if roused) go back to bed. CJ can then re-enter and continue as before.
+
+=== Loot quantities ===
+
+* most houses have ten items, but the poorer ones sometimes have as few as four
+** '''Special note''': the house in front of the Vinewood sign has eleven items
+* There should be at least two items in the first room CJ comes into
+* Check every room, some rooms may have better items than others
+* Go for expensive electronic items such as televisions, stereos, and (oddly enough) PS2s.
+* While luxurious mansions may seem to be the best way to make money, the distances between them negates any gain.
+* Some houses have multiple TVs, making for especially rewarding break-ins
+
+=== Longer Nights ===
+
+Gamers who wish the nights would last longer have a few options open to them.
+
+All three versions of the game feature the "Orange Sky, Clock Fixed at 21:00" and "Always Midnight" cheat codes. Either of these will allow absolutely unlimited burglary time.
+
+PC version owners wishing to have a longer (but still limited) amount of time in which to burgle each night can download the [[Grand Theft Auto: San Andreas/Appendices/Mods#TimeSynch Tool|TimeSynch Tool]], which synchronises the in-game clock with the Windows clock, allowing for burglary missions to stretch several real-world hours instead of a few minutes. The Tool can be disabled at any time to allow the clock to return to its normal speed of advancement.
+
+=== Unlimited TVs ===
+
+There is a glitch on the [[Xbox]] version of San Andreas when performing the burglary missions. It is possible to go into a house, grab a TV, put it in the truck, return to the house to have it respawn again. The house is down the street from the Johnson's House in Ganton. Start at your house and head west until you reach the ''first'' intersection. Stop at the light. Look to your left. That is the house with the glitch. It is possible to go in, grab a radio right inside the entrance then put it in the truck, return in to find four gang members upon which, leave the house. Enter again and kill the four gang members, then leave again for the cops. Enter ''once'' more and grab the TV in the far corner of the room. After exiting, putting it in the truck and returning, it will have respawned. This is repeatable many times. It is possible to get many thousands of dollars worth of equipment in this manner; more than enough to ensure completion of the mission.
+
+It is also possible to do this trick in a Los Venturas house. The house is in the very far south part of Redsands West, in the middle/east part. The black boxville in Venturas is right in the south-east part of Pilgrim, next to the garage.
+
+== Rewards ==
+{{achievement
+|name=Sticky Fingers
+|image=GTASA DE Sticky Fingers.png
+|description=Earn $10,000 through burglary missions.
+}}
+* '''Cash''': $3000 cash as a general completion reward, plus the value of the goods themselves.
+* The formula for the cash is ''m=20*n*n'', with m as money and n as number of items stolen. It doesn't matter if that item is a tv, a stereo or whatever. Only the number of items are counted, not the type of items.
+* Infinite sprint
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Freight|nextpage=Gang Tags}}

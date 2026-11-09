@@ -1,0 +1,267 @@
+{{Icons|game = doom2}}
+{{Hell Knight}}
+{{DISPLAYTITLE:Hell Knight (Doom II)}}
+
+{{Infobox Enemy
+|name = Hell Knight
+|image = hellknight_sprite.png
+|class = Hellspawn
+|type = Enemy
+|hp = 500
+|attack = 10-80 <small>(Melee)</small><br />8-64<small> (Ranged)</small><br />11-88 <small>(Melee/PSX Version)</small>
+|speed = 93.3 map units/second
+|appears_doom1 =
+|appears_doom2 =
+|appears_finaldoom =
+}}
+{{Quote|Tough as a dump truck and nearly as big, these Goliaths are the worst things on two legs since [[Wikipedia:Tyrannosaurus rex|Tyrannosaurus rex]].|''Doom II'' instruction manual.}}
+
+The '''Hell Knight''' is a [[monster]] introduced in ''[[Doom II]]''. These monsters first greet the player in [[MAP05: The Waste Tunnels (Doom II)|MAP05: The Waste Tunnels]].
+
+==Background==
+The Hell Knight is a weaker version of the [[Baron of Hell/Doom|Baron of Hell]]. It is identical in appearance as a bipedal goat-like demon with tan legs, black hooves, and fists covered by a slight greenish tinge. The main difference is that its upper skin is lighter tan in color than its legs, instead of dark pink.
+
+The Doom II manual describes the Hell Knight as follows: "''Tough as a dump truck and nearly as big, these Goliaths are the worst things on two legs since [[Wikipedia:Tyrannosaurus rex|Tyrannosaurus rex]]''". In the manual for the original [[Doom]], this was the description used for the Baron of Hell. The Official DOOM FAQ uses "''Slightly easier to kill than our friend the Baron, but appear in larger numbers. ''" instead. The manual for the early versions of the [[PlayStation]] port refers to them as "Knights of Hell".
+
+==Combat characteristics==
+A Hell Knight emits a loud high-pitched trumpeting cry, similar to an elephant. When in pain, they will make a low-pitch demonic moan that most other monsters make. But otherwise, will resort to making a soft low-pitched growling sound like most other monsters when they are present.
+
+It overall behaves identically to the Baron of Hell, attacking opponents by scratching up close or throwing green comet-shaped fireballs from range. Unlike their health, the Hell Knight's fireball and melee damage is identical to that from a Baron of Hell, still making them dangerous opponents, nonetheless.
+
+Unlike their Baron counterparts, Hell Knights generally appear in much larger numbers or accompanied by other lesser demons to assist on taking down the player.
+
+When killed, they emit a gurgling scream (the origin of the sound is a jaguar's roar from a sound library with synthesized effects added). Since it uses the same sprites as Barons, only palette-swapped, a Hell Knight's death sequence is the same as the Baron's (having it's upper body split apart and collapsing with their intestines and green fluids spilling out).
+
+==Tactical analysis==
+The Hell Knight overall, is functionally equivalent to the Baron of Hell, except for having only half as much health. Therefore, the weaker Hell Knight serves better as a medium-strength monster, falling more quickly to small arms fire such as from the [[shotgun]] or [[chaingun]], or offering some resistance without slowing the action down, against heavier weapons. Despite this, they can make this up by appearing in larger groups, which can arguably make them much more threatening than a single Baron.
+
+The Hell Knight attacks are easily dodged, as they make a single attack without special effects and, given sufficient space, their unswerving fireballs can be avoided through [[circlestrafing]]. However, their fireballs are faster than those of [[Imp]]s or [[Cacodemon]]s and can do very heavy damage on a successful hit. Because these monsters take relatively heavy beatings before going down, and because their [[pain chance]] is low, use of the [[rocket launcher]], [[plasma gun]], or [[super shotgun]] is convenient. However, provided that the player can get at sufficient range without being hit, the [[chaingun]] and [[shotgun]] will also work well. [[Melee attack]]s against them are hazardous, as they put the player at risk of being clawed, although five [[Berserk pack|berserk]] powered punches will generally take them down. To avoid damage, the player needs to move in, deliver a punch and quickly move away before it counterattacks.
+
+To kill them requires about 3 [[rocket]]s, 23 [[energy cell]] shots, 50 [[bullet]]s, 6 seconds with the [[chainsaw]], 8 well-placed shotgun blasts, or 3 point-blank super shotgun blasts. The [[BFG9000]] at close range can easily kill a Hell Knight in one shot, but the moderate threat an individual Hell Knight poses makes this weapon a wasteful overkill unless if they come in packs. 
+
+Despite being classified as two different types of enemies, Hell Knights and Barons of Hell will never attack each other as the projectiles they both use are identical. While they lack the amount of health as their Baron counterparts, Hell Knights are still better than average in monster infighting, being able to easily take on lesser enemies up to a [[Revenant/Doom II|Revenant]], and only falling against higher-tier foes like the [[Mancubus/Doom II|Mancubus]]. As they often come in bigger numbers than the Baron of Hell, a group of Hell Knights can likely turn the tide on their own favor if fighting against other groups of monsters.
+{| class="WikiaTable"
+! colspan="2" |Attributes
+|-
+|ID #||69 (decimal), 45 (hex)
+|-
+|[[Hit points]]||500
+|-
+|Speed||8 [[map unit]]s per frame<br />(93.3 map units per second)
+|-
+|Width||48
+|-
+|Height||64
+|-
+|Reaction time||8
+|-
+|[[Pain chance]]||50 (19.53%)
+|-
+|Pain time||4 tics
+|-
+|[[Mass]]||1000
+|-
+|Bits||4194310
+|}
+
+{| class="WikiaTable"
+!Bits list
+|-
+|
+1: Obstacle
+
+2: Shootable
+
+22: Affects Kill %
+|}
+
+{| class="WikiaTable"
+! colspan="2" |[[Sprite]]s & [[sound]]s
+|-
+|Sprite name||BOS2
+|-
+|Alert sound||DSKNTSIT
+|-
+|Action sound||DSDMACT
+|-
+|Pain sound||DSDMPAIN
+|-
+|[[Types of death|Death]] sound||DSKNTDTH
+|}
+
+{| class="WikiaTable"
+! colspan="2" |Melee attack
+|-
+|Damage||10-80
+|-
+|Sound||DSCLAW
+|}
+
+{| class="WikiaTable"
+! colspan="2" |Ranged attack
+|-
+|Type||[[Projectile]]
+|-
+|Speed||15 [[map unit]]s per tic<br />(525 map units per second)
+|-
+|Damage||8-64
+|-
+|Width||6
+|-
+|Height||8
+|-
+|Sprite name||BAL7
+|-
+|Sound||DSFIRSHT (firing)<br />DSFIRXPL (impact)
+|}
+
+[[file:SkelFHistogram.png|none|300px|thumb|''Damage done by a Hell Knight's clawing attack'']]
+{| class="WikiaTable"
+|-
+| '''Blows needed to kill'''<sup>1</sup>
+| Mean
+| [[Wikipedia:Standard deviation#Interpretation and application|Standard<br />deviation]]
+| Min
+| Max
+|-
+|[[Player]] (100%<br />[[health]], no [[Armors|armor]])||2.77||0.78||2||5
+|-
+|Player (100%<br />health, [[security armor]])||3.87||1.02||2||7
+|-
+|Player (200%<br />health, [[combat armor]])||9.41||1.48||6||13
+|-
+|[[Barrel]]||1.12||0.33||1||2
+|-
+|[[Zombieman]]||1.12||0.33||1||2
+|-
+|[[Shotgun Guy]]||1.25||0.46||1||3
+|-
+|[[Wolfenstein SS]]||1.61||0.70||1||4
+|-
+|[[Imp]]||1.81||0.76||1||4
+|-
+|[[Chaingunner]]||2.04||0.79||1||4
+|-
+|[[Lost Soul]]||2.77||0.78||2||5
+|-
+|[[Commander Keen]]||2.77||0.78||2||5
+|-
+|[[Demon]]||3.87||1.02||2||7
+|-
+|[[Spectre]]||3.87||1.02||2||7
+|-
+|[[Boss Brain]]<sup>2</sup>||6.12||1.19||4||10
+|-
+|[[Revenant]]||7.22||1.33||5||11
+|-
+|[[Cacodemon]]||9.41||1.48||6||13
+|-
+|[[Pain Elemental]]||9.41||1.48||6||13
+|-
+|[[Hell Knight]]||11.65||1.67||8||16
+|-
+|[[Arachnotron]]||11.65||1.67||8||16
+|-
+|[[Mancubus]]||13.84||1.72||10||18
+|-
+|[[Arch-vile]]||16.07||1.78||12||20
+|-
+|[[Baron of Hell]]||22.81||2.10||17||27
+|-
+|[[Spiderdemon]]||67.42||2.81||61||74
+|-
+|[[Cyberdemon]]||89.66||2.76||83||95
+|}
+
+[[file:Bos2FHistogram.png|none|300px|thumb|''Damage done by a Hell Knight's fireball'']]
+{| class="WikiaTable"
+|-
+| '''Shots needed to kill'''
+| Mean
+| [[Wikipedia:Standard deviation#Interpretation and application|Standard<br />deviation]]
+| Min
+| Max
+|-
+|[[Player]] (100%<br />[[health]], no [[Armors|armor]])||3.37||0.88||2||6
+|-
+|Player (100%<br />health, [[security armor]])||4.78||1.04||3||8
+|-
+|Player (200%<br />health, [[combat armor]])||11.68||1.70||8||16
+|-
+|[[Barrel]]||1.27||0.51||1||3
+|-
+|[[Zombieman]]||1.27||0.51||1||3
+|-
+|[[Shotgun Guy]]||1.44||0.60||1||4
+|-
+|[[Wolfenstein SS]]||2.04||0.77||1||5
+|-
+|[[Imp]]||2.25||0.76||1||5
+|-
+|[[Chaingunner]]||2.56||0.73||2||5
+|-
+|[[Lost Soul]]||3.37||0.88||2||6
+|-
+|[[Commander Keen]]||3.37||0.88||2||6
+|-
+|[[Demon]]||4.78||1.04||3||8
+|-
+|[[Spectre]]||4.78||1.04||3||8
+|-
+|[[Boss Brain]]<sup>2</sup>||7.66||1.32||5||11
+|-
+|[[Revenant]]||9.04||1.46||6||13
+|-
+|[[Cacodemon]]||11.68||1.70||8||16
+|-
+|[[Pain Elemental]]||11.68||1.70||8||16
+|-
+|[[Hell Knight]]<sup>3</sup>|| || || ||
+|-
+|[[Arachnotron]]||14.55||1.88||10||19
+|-
+|[[Mancubus]]||17.27||2.00||12||21
+|-
+|[[Arch-vile]]||20.10||2.11||14||25
+|-
+|[[Baron of Hell]]<sup>3</sup>|| || || ||
+|-
+|[[Spiderdemon]]||84.14||2.60||79||93
+|-
+|[[Cyberdemon]]||112.12||2.48||107||117
+|}
+#<small>These tables assume that all calls to [[Pseudorandom number generator|P_Random]] for damage, [[pain chance]], [[blood]] splats, impact animations, and backfire checks are consecutive. In real play, this is never the case: counterattacks and AI pathfinding must be handled, and of course the map may contain additional moving monsters and other randomized phenomena (such as [[Sector#Vanilla Doom|flickering lights]]). Any resulting errors are probably toward the single-shot average, as they introduce noise into the correlation between the indices of "consecutive" calls. </small>
+#<small>Assumes that direct hits are possible, which [[MAP30: Icon of Sin (Doom II)#Walkthrough|does not occur]] in any stock map. </small>
+#<small>Hardcoded exception to [[infighting]] negates damage (excepting indirect damage caused by exploding barrels). </small>
+
+==Appearance statistics==
+In [[classic Doom]], the Hell Knight is first encountered on these maps:
+{| class="WikiaTable"
+|-
+!Game!![[I'm Too Young To Die|ITYTD]] and [[Hey, Not Too Rough|HNTR]]!![[Hurt Me Plenty|HMP]]!![[Ultra-Violence|UV]] and [[Nightmare!|NM]]
+|-
+|[[Doom II]]||[[MAP06: The Crusher (Doom II)|MAP06: The Crusher]]||[[MAP06: The Crusher (Doom II)|MAP06: The Crusher]]||[[MAP05: The Waste Tunnels (Doom II)|MAP05: The Waste Tunnels]]
+|-
+|[[TNT: Evilution]]||[[MAP03: Power Control (TNT: Evilution)|MAP03: Power Control]]||[[MAP04: Wormhole (TNT: Evilution)|MAP04: Wormhole]]||[[MAP02: Human BBQ (TNT: Evilution)|MAP02: Human BBQ]]
+|-
+|[[Plutonia]]||[[MAP02: Well of Souls (The Plutonia Experiment)|MAP02: Well of Souls]]||[[MAP02: Well of Souls (The Plutonia Experiment)|MAP02: Well of Souls]]||[[MAP02: Well of Souls (The Plutonia Experiment)|MAP02: Well of Souls]]
+|}
+
+The [[IWAD]]s contain the following numbers of Hell Knights:
+{| class="WikiaTable"
+|-
+!Game!![[I'm Too Young To Die|ITYTD]] and [[Hey, Not Too Rough|HNTR]]!![[Hurt Me Plenty|HMP]]!![[Ultra-Violence|UV]] and [[Nightmare!|NM]]
+|-
+|[[Doom II]]||22||58||75
+|-
+|[[TNT: Evilution]]||63||93||110
+|-
+|[[Plutonia]]||104||138||151
+|}
+{{Doom monsters}}
+
+[[Category:Doom II monsters]]
+[[Category:Sony PlayStation Doom monsters]]
+[[Category:Doom monsters]]
+[[Category:Monsters]]
+[[Category:Demons]]

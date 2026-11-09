@@ -1,0 +1,44 @@
+{{Infobox_character
+|name         = Unknown
+|image        = CesarsBoy-GTASA.png
+|aka          = {{H:title|Mistakenly used by Kendl, thinking he is Cesar's contact.|Cesar's Boy}}
+|games        = {{Games|SA=y}}
+|status       = Alive
+|gender       = M
+|home         = [[San Fierro (3D Universe)|San Fierro]], [[State of San Andreas (3D Universe)|San Andreas]]
+|nationality  = {{Country|US|adj=y}}
+|affiliations = Unknown contact of [[Cesar Vialpando]]<br>Unknown dock worker
+|voice        = None
+}}
+{{Dialogue|p1=Kendl|d1=Hey, Ces, your boy is here.|p2=Cesar|d2=He ain't my boy.|quotedetail=Kendl and Cesar during [[Customs Fast Track]].}}
+'''Cesar's Informant''' is a minor character in ''[[Grand Theft Auto: San Andreas]]''.
+
+==History==
+===Background===
+He is a friend of an "associate of an associate" of [[Cesar Vialpando]] who handles freight containers at the docks in [[Easter Basin]].
+
+===Events of ''Grand Theft Auto: San Andreas''===
+The unnamed character gives Cesar a tip-off of that one of the containers is carrying a [[Jester]] sports car, which is currently on [[Carl Johnson]]'s wishlist for the [[Wang Cars (GTA San Andreas)|Wang Cars]] showroom.
+
+==Character==
+===Appearance===
+The character uses a cut [[Grove Street Families]] character model "<code>csblue2</code>".
+
+==Mission Appearances==
+*[[Customs Fast Track]]
+
+{{Clr}}
+==Gallery==
+<gallery position="center" spacing="small" widths="270px">
+CesarsBoy-GTASA-FullBody.png|The character.
+CesarsBoy-GTASA-SpeakingwithCesar.png|Talking with Cesar.
+</gallery>
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox gtasa characters|state=collapsed}}
+}}
+[[Category:Characters in GTA San Andreas]]
+[[Category:Male characters]]

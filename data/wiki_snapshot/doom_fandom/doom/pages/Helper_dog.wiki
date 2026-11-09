@@ -1,0 +1,78 @@
+[[file:Helper_dogs.png|300px|thumb|Helper Dogs frolicking in [[E1M1: Hangar]]]]
+
+The '''Helper dog''' is a feature that originated in the [[MBF]] [[source port]], created by [[Lee Killough]] to demonstrate friendly monster AI. The helper dogs use retouched sprites from [[Wolfenstein 3D]], as well as some of the Wolfenstein dog's original sounds. 
+Lee went to some lengths to ensure that the dogs behaved realistically by enhancing friendly AI with various features. After consulting Longplain Kennels on canine behavior, he learned that a shot dog would probably not attack a person who shot it. Because of this, friendly monsters who only have melee attacks never retaliate against the player when shot. Dogs are often protective of their masters, so if the player is in poor health, the dogs will abandon their current battles and fight whatever hurts the player. Dogs try to stay with their owners, so friendly monsters have an average distance they remain from the player, dogs are allowed to jump off tall ledges when the player is standing on the other side, and in addition, they will tend more often to stay on lifts that are about to move up or down with the player on them.
+The dogs are enabled in the MBF port only by use of the -dogs command-line parameter, and they are only available in single-player games (they spawn at the player 2-4 starts). Other ports to feature the MBF helper dog include MBF's descendents, [[SMMU]], [[Eternity Engine]] and [[PrBoom]].
+== Combat characteristics ==
+The helper dog only has a melee attack which is exactly equivalent to the [[Demon]]'s bite.
+== Tactical analysis ==
+Helper dogs are incredibly resistant and cannot easily be killed by mistake. Also, because they are very short, most projectile-throwing enemies will direct their attacks over the dogs' heads. This means that three dogs can quickly dispatch even a [[Cyberdemon]] with impunity.
+The dogs are not friendly by default and may also appear as enemies if placed in MBF, SMMU, or Eternity Engine maps without the appropriate flag, or if resurrected by [[Arch-Vile]]s. They can be treated more or less like Demons in this case, though their small size, fast movement, and high hitpoints make them a considerably greater threat although they can help distract monsters in monster infighting scenarios.
+
+== Data ==
+{| class="WikiaTable"
+!colspan=2|Attributes
+|-
+|ID #||888 (decimal), 378 (hex)
+|-
+|Hit points||500
+|-
+|Speed||10
+|-
+|Width||24
+|-
+|Height||28
+|-
+|Reaction time||8
+|-
+|Pain chance||180 (70.31%)
+|-
+|Mass||100
+|-
+|Bits||4194310
+|}
+{| class="WikiaTable"
+!|Bits list
+|-
+|
+1: Obstacle
+
+2: Shootable
+
+22: Affects Kill %
+
+?: Friendly (MBF extended flag, added only when -dogs is used)
+|}
+
+{| class="WikiaTable"
+!colspan=2|Sprites & sounds
+|-
+|Sprite name||DOGS
+|-
+|Alert sound||DSDGSIT
+|-
+|Action sound||DSDGACT
+|-
+|Pain sound||DSDGPAIN
+|-
+|Death sound||DSDGDTH
+|}
+
+{| class="WikiaTable"
+!colspan=2|Melee attack
+|-
+|Damage||4-40
+|-
+|Sound||DSDGATK
+|}
+
+== Trivia ==
+* The name "Marine's Best Friend" is a reference to the presence of helper dogs in MBF. The original name of MBF before the dogs were thought up was simply Beta Doom.
+* Lee wanted to implement even more features for the dogs, including the ability to "whistle" at them to make them come to the player, but he ran out of time for this before MBF's first and final release. The "whistle" console command in [[Eternity Engine|Eternity]] is a tribute to this.
+
+== See also ==
+* [[Hellhound]]
+
+[[Category:Monsters]]
+[[Category:Characters]]
+[[Category:New features]]

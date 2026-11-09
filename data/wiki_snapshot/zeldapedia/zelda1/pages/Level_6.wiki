@@ -1,0 +1,90 @@
+:''This article is about the {{Term|TLoZ|Dungeon|link}} in {{TLoZ}}. For other uses, see [[Level 6 (Disambiguation)]].''
+{{Infobox Dungeon
+|image= File:TLoZ Level-6 Entrance.png
+|caption= The entrance to the [[Labyrinth]] in the First Quest
+|location= [[Hyrule]]<br/>[[Graveyard]]{{exp|Second Quest}}
+|game= {{TLoZ}}
+|item= [[Magic Rod]]{{Exp|First Quest}}<br/>[[Stepladder]]{{Exp|Second Quest}}
+|mini-boss= [[Gleeok]]{{Exp|Both Quests}}<br/>[[Manhandla]]{{Exp|Second Quest only}}
+|boss= [[Gohma]]
+|quest= [[Triforce Fragment]]<br/>[[Heart Container]]
+|previous= [[Level 5]]
+|next= [[Level 7]]
+}}
+{{Term/Store|Level 6||Series, TLoZ}},<ref name="E 144">{{Cite Book|quote= |book= E |publisher= |page= 144 {{Exp Game|TLoZ}}}}</ref> also stylized as '''Level-6''',{{Exp Game|TLoZ}}<ref>{{Cite|Level-6|Map|TLoZ}}</ref> and known as '''Dragon''',<ref name="E 144"/> is the sixth [[Labyrinth]] in {{TLoZ}}.
+
+==Overview==
+
+==={{TLoZ|-}}===
+
+====First Quest====
+{{Clear}}
+{{Map:Level 6 (First Quest) (The Legend of Zelda)}}
+
+====Second Quest====
+{{Clear}}
+{{Map:Level 6 (Second Quest) (The Legend of Zelda)}}
+
+====Entrance to {{Term|TLoZ|Level 6}}====
+In the First Quest, the Labyrinth's entrance can be found nearby after passing through the [[Graveyard]]. This is the closest Labyrinth to the whereabouts of [[Ganon]].
+
+In the [[Second Quest]], the Labyrinth's entrance is located in the middle western portion of the [[Graveyard]], but only appears after Link plays the [[Recorder]].
+{{Clear|left}}
+
+==Themes and Navigation==
+===First Quest===
+Like {{Term|TLoZ|Level 4|link}}, the Labyrinth is colored yellow. It introduces both red and blue varieties of [[Wizzrobe]]s. A three-headed [[Gleeok]] is featured as a mini-boss in this Labyrinth. The Labyrinth's main item is the [[Magic Rod]], an enigmatic device that can shoot energy waves much like those used by Wizzrobes. The Magic Rod is useful for defeating Wizzrobes. The [[Boss]] that guards the [[Triforce Fragment]] in this Labyrinth is [[Gohma]], a large spider that makes its debut in the {{TLoZ|Series}} here.
+
+===Second Quest===
+In the Second Quest, the Labyrinth is colored yellow, just as it is in the First Quest. The same type of enemies that are found in the First Quest appear here. It is the first Labyrinth in the Second Quest that is not in the shape of a letter. It is slightly smaller in the Second Quest than in the First Quest. The main item of the Labyrinth is the [[Stepladder]]. The Boss that guards the Triforce Fragment here is a blue [[Gohma]], which takes more shots from Link's [[Arrow]]s to defeat than a normal Gohma.
+
+==Minor Enemies and Traps==
+===First Quest===
+<gallery>
+File:TLoZ Trap Sprite.png|{{Term|TLoZ|Blade Trap|link}}
+File:TLoZ Blue Wizzrobe Sprite.png|{{Term|TLoZ|Blue Wizzrobe|link}}
+File:TLoZ Bubble Sprite 2.png|{{Term|TLoZ|Bubble|link}}
+File:TLoZ Gel Sprite 5.png|{{Term|TLoZ|Gel|link}}
+File:TLoZ Keese Sprite.png|{{Term|TLoZ|Keese|link}}
+File:TLoZ Keese Vire Sprite.png|{{Term|TLoZ|Keese|link}}
+File:TLoZ Like Like Sprite.png|{{Term|TLoZ|Like Like|link}}
+File:TLoZ Red Wizzrobe Sprite.png|{{Term|TLoZ|Red Wizzrobe|link}}
+File:TLoZ Stone Statue Sprite 05.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Stone Statue Sprite 06.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Vire Sprite.png|{{Term|TLoZ|Vire|link}}
+File:TLoZ Zol Sprite 3.png|{{Term|TLoZ|Zol|link}}
+</gallery>
+
+===Second Quest===
+<gallery>
+File:TLoZ Trap Sprite.png|{{Term|TLoZ|Blade Trap|link}}
+File:TLoZ Blue Wizzrobe Sprite.png|{{Term|TLoZ|Blue Wizzrobe|link}}
+File:TLoZ Bubble Sprite 2.png|{{Term|TLoZ|Bubble|link}}
+File:TLoZ Bubble Red Sprite.png|{{Term|TLoZ|Bubble|link}}
+File:TLoZ Blue Bubble Sprite.png|{{Term|TLoZ|Bubble|link}}
+File:TLoZ Gleeok Two-Headed Sprite.png|{{Term|TLoZ|Gleeok|link}}
+File:TLoZ Keese Sprite.png|{{Term|TLoZ|Keese|link}}
+File:TLoZ Keese Vire Sprite.png|{{Term|TLoZ|Keese|link}}
+File:TLoZ Like Like Sprite.png|{{Term|TLoZ|Like Like|link}}
+File:TLoZ Manhandla Sprite.png|{{Term|TLoZ|Manhandla|link}}
+File:TLoZ Red Wizzrobe Sprite.png|{{Term|TLoZ|Red Wizzrobe|link}}
+File:TLoZ Stone Statue Sprite 05.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Stone Statue Sprite 06.png|{{Term|TLoZ|Stone Statue|link}}
+File:TLoZ Vire Sprite.png|{{Term|TLoZ|Vire|link}}
+</gallery>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Level-6 Map.png|First quest Map
+File:TLoZ Level-6 Second Quest Map.png|Second Quest Map
+</gallery>
+
+{{Ref}}
+
+{{DungeonNav2|TLoZ}}
+{{Categories
+ |dungeons= TLoZ, BSTLoZ
+}}

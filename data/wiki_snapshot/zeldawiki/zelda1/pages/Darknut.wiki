@@ -1,0 +1,365 @@
+{{Infobox Enemy
+|image= 
+{{Media
+ |defaultTypeTab= Model
+ |Artwork TLoZ= [[File:TLoZ Darknut Artwork.png|320x320px]]
+ |Artwork TWW= [[File:TWW Darknut Artwork.png|320x320px]]
+ |Render TP= [[File:TP Darknut Render.png|320x320px]]
+ |Render EoW= [[File:EoW Darknut Render.png|320x320px]]
+ |Model LANS= [[File:LANS Darknut Model.png|320x320px]]
+ |Model TWW= [[File:TWW Darknut Model.png|320x320px]]
+ |Model TWWHD= {{Please Upload|File:TWWHD Darknut Model.png}}
+ |Model TP= [[File:TP Darknut Model.png|320x320px]]
+ |Model TPHD= {{Please Upload|File:TPHD Darknut Model.png}}
+ |Model EoW= [[File:EoW Darknut Model.png|320x320px]]
+ |Sprite TLoZ= [[File:TLoZ Red Darknut Sprite.png|160x160px]]
+ |Sprite LA= [[File:LA Darknut Sprite.png|160x160px]]
+ |Sprite LADX= [[File:LADX Darknut Sprite.png|160x160px]]
+ |Sprite FS= [[File:FS Darknut Sprite.png|160x160px]]
+ |Sprite TMC= [[File:TMC Silver Darknut Sprite.png|160x160px]]
+ |Sprite EoW= [[File:EoW Darknut Icon.png|320x320px]]
+}}
+|caption= 
+|race= 
+|game= TLoZ, LA, FS, TWW, TP, EoW
+|other= TLoZ (TV Series), TLoZ (Valiant Comics), TCT, TSP, TFoE, TWoG, BSTLoZ, LCT, SSBB, HW, SSBfN3DS, MNPTP, TP (Himekawa), SSBU, CoH
+|habitat= {{Spawn Locations}}
+|member= 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|4}} {{Small|([[Red Darknut|Red]])}},  {{HP|TLoZ|8}} {{Small|([[Blue Darknut|Blue]])}}
+ |LA= {{HP|LA|2}}
+ |TWW= {{HP|TWW|16}} {{Small|([[Silver Darknut|Silver]])}}
+}} 
+|attack= 
+{{Infobox Game Blocks
+ |TLoZ=
+{{Damage
+  |attack1= Contact
+  |damage1= 1.00
+}}
+ |LA= 
+{{Damage
+  |attack1= Sword Slash
+  |damage1= 0.50
+  |attack2= Spear Throw
+  |damage2= 0.50
+}}
+ |TWW= 
+{{Damage
+  |attack1= Jab
+  |damage1= 0.25
+  |attack2= Kick
+  |damage2= 0.50
+  |attack3= Sword Slash
+  |damage3= 0.50
+  |attack4= Jump Slash
+  |damage4= 2.00
+}}
+ |TP=
+{{Damage
+  |attack1= Broadsword Slash/Slam
+  |damage1= 1.00
+  |attack2= Throw Broadsword
+  |damage2= 1.00
+  |attack3= Longsword Double Slash/Thrust
+  |damage3= 0.50
+  |attack4= Kick
+  |damage4= 0.50
+}}
+}}
+|weapon= 
+{{List|
+ * Sword
+ * [[Bomb]]s
+ * [[Bomb Arrow]]s
+}}
+|spoils= 
+|exp= 
+|theme= 
+}}
+{{Term/Store|Darknut|Darknuts|Series, LA, LADX, FS, TP, TPHD, EoW, LCT, CoH|plural}} are recurring enemies and [[Sub-Boss]]es in {{TLoZ Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 173 {{Exp Game|LA, LADX, FS, TP, TPHD}}}}</ref><ref name="EoW Notebook"/><ref>{{Cite|{{Big|Darknut Battle}}<br/>Move using the Control Stick, and defeat the Darknut before time runs out!|Stage Select|LCT}}</ref><ref>{{Cite|Defeated By: Darknut|Game Over|CoH}}</ref>{{Name Ref|LANS, HW, HWL, HWDE}}
+
+==Characteristics==
+Darknuts resemble large knights equipped with heavy armor, a large sword, and a wide shield. These foes share trite similarities to the [[Iron Knuckle]] enemy and the [[Iron Knuckle (Boss)|Boss]], though there are a few discernible differences, one being the Gothic appearance of Darknut's armor as opposed to the somewhat Eastern appearance of the Iron Knuckle's armor. Apart from that, the two have never appeared in a game together, aside from the non-canon {{TWoG}}, where Darknuts are a common enemy and an Iron Knuckle is a boss and {{CoH}}, where they are enemies and sub bosses.
+
+These enemies are masters of swordfighting, seen most vividly during battles fought with them in {{TP}}, where the differences in size between Link and the Darknut further emphasizes this accurate behavior.
+
+==={{TLoZ|-}}===
+{{Main|Blue Darknut, Red Darknut}}
+{{Descriptions TLoZ}}
+Darknuts are monsters exclusively found in the dungeons of {{TLoZ}}. They come in two varieties: [[Red Darknut]]s, having 4 health, and [[Blue Darknut]]s, having 8 health. The large shields they carry force [[Link]] to strike them with his [[sword]] from the sides or behind. In addition to their shields, Darknut armor is tough and will repel a variety of item attacks, such as flames from the [[Blue Candle]] and [[Red Candle]], [[Boomerang]]s, and [[Arrow]]s. [[Bomb]]s can be effective against Darknuts, but due to a software quirk, bombs that are placed down while Link is facing a Darknut head-on will do less damage than if he placed one down while facing its side or back.
+
+==={{LA|-}}===
+Darknuts reappear in {{LA}}, found exclusively in and around [[Kanalet Castle]]. Darknuts only have 2 health in this game, the same as [[Moblins]]. Darknuts also behave similarly to Moblins, either throwing spears at Link or charging with their sword. The sword-wielding variety is more common, however, and their sword can deflect direct strikes from Link's own sword, forcing him to attack it on the side.
+
+In {{LANS}}, as with most other sword-wielding monsters, sword-wielding Darknuts will also carry a shield to protect themselves from frontal attacks. Link must block the Darknut's sword thrust with his shield to throw it off balance, allowing him to strike it without getting blocked.
+
+==={{OoS|-}}===
+{{Stub|OoS}}
+Darknuts are monsters in {{OoS}}, acting similar to their {{LA}} incarnations. The [[Magnetic Glove]] can be used to slightly pull Darknuts towards Link due to their metallic armor being magnetic. This can even be used to pull Darknuts into pits, instantly defeating them.
+
+==={{OoA|-}}===
+{{Stub|OoA}}
+Darknuts are monsters in {{OoA}}, acting similar to their {{LA}} incarnations.
+
+==={{FS|-}}===
+{{Stub|FS}}
+
+==={{TWW|-}}===
+{{Descriptions TWW}}
+There are three types of Darknut in {{TWW}}: standard Darknuts, [[Silver Darknut]]s (sometimes simply called Darknuts), and [[Mighty Darknut]]s. The first one that [[Link]] encounters is the Silver Darknut serving as [[Miniboss]] of the [[Tower of the Gods]]. Following this battle, standard and Silver Darknuts begin to appear as regular [[Enemy|Enemies]]. Later, several Mighty Darknuts are battled in both [[Hyrule Castle]] and [[Ganon's Tower]].
+
+Darknuts are large, heavily-armored Enemies who are among the most difficult in {{TWW|-}}. They are typically found standing at guard or patrolling a small area, and will move to attack Link when he enters their line of sight.
+
+{{Frameless|[[File:TWW Red Darknut Unarmored Model.png|thumb|right|120px|A Darknut with its armor removed]]}}
+Their armor comes in a wide variety of types and colors, including white, white with red trim, red, silver (with a green tinge), gold, and black. A Darknut's color generally does not determine their difficulty, though it may denote rank. All Darknuts wield enormous swords with undulating blades resembling a ''flamberge'', while some also carry buckler-like [[Shield]]s in their left hand. Their headgear also varies, with some wearing a two-horned helmet, and others wearing a mask-like face covering with a metal plume. They also wear [[Knight's Crest]]s around their waists. Underneath their armor, Darknuts resemble a humanoid {{Wp|Doberman Pinscher}} but with a more felid snout and nose.
+
+Darknuts will attack Link by swinging their swords horizontally or vertically, and can even perform a [[Spin Attack]] if Link attempts to charge one of his own. Most of their attacks deal two full [[Life Meter|Hearts]] of damage. Darknuts are also resourceful fighters; if their sword is knocked from their hands, they may retrieve it or any other fallen [[Enemy Weapon]] they find. In close quarters with Link, they may engage in hand-to-hand combat, delivering palm strikes and jumping back kicks.
+
+The most effective way to combat a Darknut is to [[Targeting|Target]] the foe and wait for it to attack, then counter with a [[Parry Attack]]. Performing a [[Helm Splitter]] will destroy its headgear, leaving the Darknut's head vulnerable to most items, while performing a [[Back Slice]] will sever the straps holding its body armor together. Though removing a Darknut's armor allows Link to attack them more directly (as well as steal their Knight's Crest using the [[Grappling Hook]]), the Darknut gains a measure of agility, and will be able to run toward their targets and perform spinning [[Jump Attack]]s.
+
+Darknuts have a great deal of health and will likely need to be knocked down multiple times before they are defeated. They leave behind a [[Treasure Sphere]] when defeated, which will contain their Knight's Crest if Link has not already stolen it.
+
+For the purpose of creating [[Figurine]]s, the [[Nintendo Gallery]] considers Darknuts and Silver Darknuts to be the same Enemy. [[Carlov]] will create one Figurine of a Darknut with a Shield and one without a Shield, regardless of the color of Darknut shown in the [[Pictograph]].
+
+==={{TMC|-}}===
+{{Main|Black Knight, Red Darknut, Silver Darknut}}
+There are three types of Darknut in {{TMC}}, [[Black Knight|Black Knights]], [[Red Darknut|Red Darknuts]], and Silver Darknuts. Darknuts often appear as minibosses, though they are occasionally used as standard enemies. All Darknuts carry a large shield to protect themselves from Link's sword attacks. Darknuts will lower their guard to attack with their own sword swipe, leaving them open to Link's attacks. While Link can block using his own shield, the stronger Darknut varieties can charge up a special sword stab that can pierce through his shield.
+
+==={{TP|-}}===
+{{Main|Green Darknut, Red Darknut, Mace Darknut}}
+{{Descriptions TP}}
+In {{TP}}, Darknuts remain one of the most powerful enemies in the game, even more formidable than their {{TWW|-}} counterparts. They still retain some of their characteristics like removable armor and high defense, but now have increased speed and more sword techniques. Their armor has become less bulky and more streamlined like a [[Medieval elements in The Legend of Zelda Universe|medieval]] knight. In terms of equipment, they use either a large [[Sword]] or a mace in conjunction with a [[Shield]]. Midna does not know how to beat them, but suggests that Link should try using all of his sword techniques.<ref>{{Cite|I have no idea what to do against these knight things! Just try using the sword techniques you know, Link!|Midna|TP}}</ref><ref>{{Cite|The only thing to do is try all your sword techniques on it until you find one that works! Don't worry! You have what it takes to beat him, Link!|Midna|TP}}</ref>
+
+Darknuts come in two phases, the first being armored. The best strategy is for Link to draw it towards him, backflip when they plunge their sword down, and then land a [[Jump Strike]]. The [[Back Slice]], [[Helm Splitter]] and [[Mortal Draw]] are also effective. [[Bomb Arrow]]s can be used to remove a Darknut's armor from afar (or [[Bombling]]s provided Link angles them so as to not hit the Darknut head-on), but the Darknut's shield will soak up any arrows aimed at it directly. Link must instead target the ground immediately next to or behind the Darknut. When Link lands a hit on it, some of its armor strips off, though not as quickly or in as large amounts as in {{TWW}}.
+
+Eventually, when all of its armor is off, revealing its chain mail under-armor, it proceeds to jump back and throw its weapon at Link. It then pulls out a smaller sword (a longsword), granting it different attacks, and becomes much more agile, having shed its bulky armor. An unarmored Darknut tends to attack with two cuts in succession (which gives Link a split-second opening to counterattack), a thrust, or a kick which can briefly throw Link off balance. The Darknut also becomes far more adept at blocking Link's attacks and can dodge explosions and arrows effortlessly. Jump attacks, jump strikes, and back slices can send a Darknut reeling just long enough to attack. 
+
+One Darknut with a different helmet, sword and shield is the mini-boss in the [[Temple of Time]], while others commonly guard items such as keys or new areas. Red and blue variants of the Darknut are also found in the [[Cave of Ordeals]]. A gold armored Darknut is found in [[Hyrule Castle (Dungeon)|Hyrule Castle]]. However, the differently colored equipment does not denote any change in the Darknut's physical attributes.
+
+==={{EoW|-}}===
+{{Checklist
+ |game= EoW
+ |type= Enemies
+ |category= Enemies in Echoes of Wisdom
+ |needs= 
+Detailed information on the following:
+* The Enemy's behavior
+* The Enemy's weaknesses
+* Where the Enemy appears
+}}
+{{Descriptions EoW}}
+{{Stub|EoW}}
+Darknuts are powerful, slow-moving armored [[Enemy|Enemies]] who are immune to blunt force attacks such as thrown [[Rock]]s or club strikes. They wield a large [[Axe]]. Three are first seen guarding [[Ganon]] and the captive [[Princess Zelda]] in the [[Suthorn Ruins]] before being dispatched by [[Link]]. When copied as an [[Echo]], they have an Echo cost of three.
+
+==Other Appearances==
+==={{TLoZ|-}} TV Series===
+{{Noncanon|Start}}
+[[File:Darknut (VC).png|thumb|right|Zelda fighting against a Darknut in ''The Legend of Zelda'' comic]]
+In {{TLoZ (TV Series)}}, a Darknut appears in only one episode: "[[That Sinking Feeling]]". In this episode, [[Link]] and [[Princess Zelda]] encounter a Darknut as they are journeying through the [[Underworld]]. The Darknut blocks most of Link's sword attacks, and when the Darknut swings his sword at the young hero, Link manages to evade it but falls in the process. Just as the Darknut is about to strike at him, Link kicks the foe's ankle and the Darknut falls, allowing the young hero to deliver the final blow. The Darknut leaves behind a [[Power Bracelet#Magic Bracelets|Magic Bracelet]], which proves to be useful later on in the battle against [[Ganon]].<ref>{{Cite Episode|quote=Look! It dropped a magic bracelet!|name=Princess Zelda|show=The Legend of Zelda|episode=6}}</ref>
+{{Noncanon|End}}
+
+==={{TLoZ (Valiant Comics)|Display}}===
+{{Noncanon|Start}}
+{{Hatnote|See also: [[Darknut Prime]]}}
+In the {{TLoZ (Valiant Comics)}}, Darknuts mostly resemble their artwork depiction of the original ''The Legend of Zelda''. Like in the games, there are red and blue Darknuts, with the blue Darknut being known as [[Darknut Prime]].<ref name=dp>{{Cite Book|quote=HA! You flee in FEAR from the might of the Darknut Prime!|book= TLoZ (Valiant Comics)|publisher= |page=2 [The Power]}}</ref> Like most of Ganon's minions, these foes are also capable of speech.<ref name=dp/> Although a robed Darknut makes an appearance in ''[[He Also Serves]]'', normal Darknuts are first introduced in ''[[The Power]]'', where Link and Zelda encounter them upon entering the [[Underworld]]. The young hero manages to bury them under a pile of rubble thanks to a [[Bomb]]'s explosion,<ref>{{Cite Book|quote=I just need a little DISTANCE to throw this bomb! Cave in!|book= TLoZ (Valiant Comics)|publisher= |page=2 [The Power]}}</ref> but the mighty foes recover and start chasing Link again. Eventually, Link is able to easily defeat them with the use of the [[Triforce of Power]].
+
+In ''[[Choices]]'', Zelda encounters a Darknut after fleeing from Ganon's grasps, but her life force is nearly gone from having used all her magic to escape and is unable to put up a fight against the knight.<ref>{{Cite Book|quote=Yield, Princess Zelda! You are so weary from running you can barely lift that bow! You are no match for Darknut!|book= TLoZ (Valiant Comics)|publisher= |page=1}}</ref><ref>{{Cite Book|quote=He's right. The magic spell I cast to escape Ganon...almost destroyed me... My life force is nearly gone! I'm in no shape to fight one of Ganon's knights!|book= TLoZ (Valiant Comics)|publisher= |page=1}}</ref> However, the princess refuses to give up,<ref>{{Cite Book|quote=But NOTHING is going to stop me.|book= TLoZ (Valiant Comics)|publisher= |page=1}}</ref> and although she is weak, she manages to win against the Darknut by sending him down a bottomless pit.
+{{Noncanon|End}}
+
+==={{TCT|-}}===
+{{Noncanon|Start}}
+In {{TCT}}, a Darknut will greet Princess Zelda's arrival to the [[Dark Tower]] by promptly attacking her upon sight. By shooting an [[Arrow]] at the Darknut's back, Zelda defeats the foe and climbs up the tower to find that the Darknut was actually protecting the [[Handprint]], one of the three items necessary to free Link from the [[Crystal]].<ref>{{Cite Book|quote='Welcome!' an inhuman voice whispers from the shadows. 'Who's there?' Zelda demands, pulling back on her bowstring. A tall, armored figure steps into the moonlight. 'A darknut!' Zelda whispers. Without another word, the evil knight charges, his shield held high, his long blade slicing the air.|book= TCT|publisher= |page=49}}</ref>
+{{Noncanon|End}}
+
+==={{TSP|-}}===
+{{Noncanon|Start}}
+In {{TSP}}, one or more Darknuts ambush [[Princess Zelda]], [[Charles of Moria]] and Link while they are in the woods, depending on which path Link takes. If the young hero chose to go back to [[North Castle]] to get help for the fainting Zelda, he will return only to hear the princess excitedly flatter Charles, saying that, while Link was gone, Charles defeated a Darknut and caused the other two to run away in fear. However, if the young hero agrees to let the [[Moria]]n knight take Zelda back to North Castle, a Darknut will suddenly appear and charge at Charles, who confidently faces his enemy with having two weapons to choose from: his axe or sword. Although Link tries to help Charles in the fight, he will be unable to draw his sword since it seems to be stuck to the sheath, forcing Zelda to fight with her dagger instead. The Darknut, once defeated by Charles's axe and Zelda's dagger, will leave behind a [[Red Darknut Arrow]].
+
+Later on in the book, after the [[King of Hyrule]] calls a Royal Council informing about the latest sightings of monsters appearing in strange places, he mentions that an entire mob of Darknuts were spotted in the [[Jungle of Favors]] the night before.<ref>{{Cite Book|quote='Word came last night that an entire gang of Darknuts were spotted in the Jungle of Favors.'|book= TSP|publisher= |page=5}}</ref> Since Darknuts do not usually appear outside of a cave or a castle,<ref>{{Cite Book|quote='And then there's the matter of Darknuts in the woods. I've never heard of a Darknut appearing outside of a cave or a castle. Why are they turning up in our forest all of a sudden?'|book= TSP|publisher= |page=92}}</ref> the king considers the spotting of the Darknuts in a jungle to be alarming and decides that the [[Triforce of Wisdom]] should be immediately delivered to the [[Fifth Castle of Ancient Hyrule]] to keep it safe from [[Ganon]].<ref>{{Cite Book|quote='I believe Ganon is after our Triforce of Wisdom again. It's in danger here. We must move it.' [...] To the Fifth Castle of Ancient Hyrule.'|book= TSP|publisher= |page=6}}</ref>
+{{Noncanon|End}}
+
+==={{TFoE|-}}===
+{{Noncanon|Start}}
+{{Stub|TFoE}}
+
+{{Noncanon|End}}
+
+==={{TWoG|-}}===
+{{Noncanon|Start}}
+{{Stub|TWoG}}
+
+{{Noncanon|End}}
+
+==={{BSTLoZ|-}}===
+{{Noncanon|Start}}
+{{Stub|BSTLoZ}}
+
+{{Noncanon|End}}
+
+==={{LCT|-}}===
+{{Noncanon|Start}}
+[[File:LCT Darknut Battle Thumbnail.png|thumb|right|Darknut from {{LCT|-}}]]
+In {{LCT}}, a Darknut appears as the boss of Stage 8-3, taking place in The [[Temple of Time]]. Its appearance is identical to the {{TP|-}} [[Sub-Boss]] incarnation, but now attacks by unleashing a swarm of insects in addition to sword combat. Its shield is invulnerable, requiring that Link wait until the Darknut attacks to shoot its armor off with the [[Crossbow]]. The armor appears to be enchanted, as each piece turns into a larger insect that attacks Link after it has been shot.
+
+When all of the Darknut's armor is destroyed, it then proceeds to attack Link with its smaller sword, but also gains a teleportation move, in which it turns into a swarm of insects to move around and attack. After landing several consecutive hits, the Darknut then turns itself into a swarm of white insects that are each worth 100-300 points. By shooting these white insects, Link can whittle down the Darknut's health and defeat it.
+{{Noncanon|End}}
+
+==={{SSBB|-}}===
+{{Noncanon|Start}}
+In {{SSBB}}, Darknuts appear as a [[Trophies in Super Smash Bros. Brawl|Trophy]] and [[Sticker]]. The Trophy is based on their {{TP|-}} appearance while the Sticker is based on their appearance in {{TWW|-}}.
+{{SSBTrophy|SSBB|header=yes}}
+{{#section:Trophies in Super Smash Bros. Brawl|Darknut}}
+|}
+{{SSBSticker|header=yes}}
+{{#section:Sticker|Darknut}}
+|}
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+Darknuts appear in {{HW}} as [[Captain (Hyrule Warriors)|Captain]]s. Their design resembles the unique, lone Darknut from the Temple of Time in {{TP|-}}. Darknuts attack using their sword, and have two separate attacks that reveal their weak point gauge. One of them involves a red glow coming from around their eyes, followed up by a large upward sword thrust. This attack is special in that if you’re standing close enough to the Darknut while guarding, your guard will break when their eyes glow, so it’s best to avoid getting too close to one. Its over attack that reveals its weak point gauge involves it readying its sword and taking out its longsword, before unleashing multiple rapid-fire attacks with both blades. That’s your opening to use a boomerang on it, which will cause it to start slashing out of control at its allies, before revealing its weak point gauge. A Darknut’s weak point gauge can also be revealed by dodging behind it. An easy way to do this is attack it until its guard is up and then dodge behind it.
+
+When defeated, they may drop a [[Piece of Darknut Armor]] and occasionally a [[Large Darknut Sword]]. Darknuts are affected by the [[VS Undead]] Skill, implying that they are undead creatures.
+{{Noncanon|End}}
+
+==={{SSBfN3DS|-}}===
+{{Noncanon|Start}}
+In {{SSBfN3DS}}, Darknuts in their {{TP|-}} Temple of Time appearance appear as enemies in the {{Ssb|Smash Run}} mode and as a Trophy.
+{{SSBTrophy|SSB4|header=yes}}
+{{#section:Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Darknut}}
+|}
+{{Noncanon|End}}
+
+==={{MNPTP|-}}===
+{{Noncanon|Start}}
+[[File:MNPTP Decisive Battle Sprite.png|left|80px]]
+The sole ''Micross'' puzzle depicts Link battling Darknuts.
+{{Clear}}
+{{Noncanon|End}}
+
+==={{TP|-}} (Himekawa)===
+{{Noncanon|Start}}
+{{Stub|TP (Himekawa)}}
+{{Noncanon|End}}
+
+==={{SSBU|-}}===
+{{Noncanon|Start}}
+{{Spirits}}
+In {{SSBU}}, Darknut appears as a [[Spirit]] with the trait, Sword Attack 🠅, which makes a [[Fighter]] deal more damage when using a sword.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+Darknuts appear as Minibosses in {{CoH}} where they move to the beat of the music. They move faster than most Minibosses as they move on every beat, making them speedy yet powerful enemies despite wearing bulky armor. They also carry a shield that protects them from frontal attacks and can push the heroes backwards as they move, making them dangerous in areas where they can pin the heroes against walls or push them into holes and other hazards. Every few beats, they will lower their shield which will temporarily expose them to attack. When their shield is down, they will only swing their sword if the hero is either standing still or tries to run to their sides.
+
+When the opportunity to strike the heroes arises, they will hold out their sword for one beat and 5 warning tiles will flash in a horseshoe formation before they swing their sword on the second beat, dealing damage to anything within 3 spaces in front of them and anything that was already standing at their sides. After that, they will stop and rest for a few beats, tired out from the sword swing.
+
+Equipping the [[Ring of Piercing]], the [[Great Bow]], or [[Fragarach]] will enable the heroes to attack them through their shields.
+{{Noncanon|End}}
+
+==Trivia==
+*These enemies are called [[Soldier (Enemy)|Soldiers]] in the English guide for {{LA|-}}, but were always known as Darknuts in the Japanese version.
+*Shooting [[Fire Arrow|Fire]] or [[Ice Arrow]]s at a Darknut's back and/or cape in {{TWW|-}} is amongst the easiest and most life-preserving ways to eliminate a Darknut.
+*A stone statue of a Darknut exists in {{TWW|-}}'s data, but it goes unused.<ref>{{Cite Web|quote= This is the archive file for an unused Darknut statue.|title= The Legend of Zelda: The Wind Waker/Unused Models|url= https://tcrf.net/The_Legend_of_Zelda:_The_Wind_Waker/Unused_Models#Itnak|retrieved= March 31, 2025|site= The Cutting Room Floor}}</ref>
+*Darknuts in {{TMC|-}} generally carry their shields with their left hands, but their shield-hand changes when they face east. This is because the Darknut's sprite is being horizontally flipped, mirroring the graphic. This may be so Link can constantly attack Darknuts from the top instead of having to alternate between top and bottom every time they turn left or right.
+*Golden and purple versions of Darknuts exist within the code of {{TMC|-}}, but go unused.<ref>{{Cite Web|quote= Golden and purple Darknuts exist within the game's code, but their behavior is very glitchy. Their moveset is the same as the black Darknut's.|author= |published= |retrieved= January 16, 2022|url= https://tcrf.net/The_Legend_of_Zelda:_The_Minish_Cap|title= The Legend of Zelda: The Minish Cap - The Cutting Room Floor|site= The Cutting Room Floor|type= }}</ref>
+*[[Chief Soldier]]s are known as Darknuts in the Japanese version of {{FSA|-}}.<ref>{{Cite Book|book= E|lang= ja|page= 183}}</ref> In the English guide, [[Soldier (Enemy)|Soldiers]] are sometimes erroneously called Darknuts.
+*The Darknut in the Temple of Time in {{TP|-}} has a Sword that resembles [[Ganon#Ganon's Swords|Ganondorf's Sword]] from the [[SpaceWorld 2000 GameCube Tech Demo]] and {{SSBM}}.
+*The Japanese name for a Darknut can be translated as "Tart Knuckle", implying some relation between Darknuts and Iron Knuckles, which are referred to as ''Aiannakku''. Darknuts and Iron Knuckles share this naming element with a number of other armored humanoid foes, including the boss [[Rebonack]] (''Rebonakku''), the [[Mad Bomber]] (''Bomu Nakku''), and the miniboss Darkhammer (''Hanmānakku'').
+*In {{LCT|-}}, the Darknut's ability to separate itself into swarms of insects is similar to [[Gomess]]'s own ability of turning into bats.
+
+==Nomenclature==
+{{Nomenclature}}
+
+===Other Names===
+{{Other Names
+|-
+| Dark Nut<ref>{{Cite Guide|TMC Nintendo|page= 46}}</ref>
+| {{TMC}}
+| {{Guide/TMC Nintendo}}
+| {{E}}
+}}
+
+==Gallery==
+<gallery>
+File:TAoL Link Fighting a Darknut Artwork.png|{{Game Label|{{TAoL|-}}}}Darknut artwork
+File:LADX Darknut Sprite 2.png|{{Game Label|{{LADX|-}}}}A Darknut
+File:LANS Darknut Model 2.png|{{Game Label|{{LANS|-}}}}A Darknut
+File:TWW White Shield Darknut Model.png|{{Game Label|{{TWW|-}}}}A white, Shield-carrying Darknut
+File:TWW White Shield Darknut Unarmored Model.png|{{Game Label|{{TWW|-}}}}A white, Shield-carrying Darknut with its armor removed
+File:TWW White & Red Darknut Model.png|{{Game Label|{{TWW|-}}}}A white and red Darknut
+File:TWW White & Red Darknut Unarmored Model.png|{{Game Label|{{TWW|-}}}}A white and red Darknut with its armor removed
+File:TWW White & Red Shield Darknut Model.png|{{Game Label|{{TWW|-}}}}A white and red, Shield-carrying Darknut
+File:TWW White & Red Shield Darknut Unarmored Model.png|{{Game Label|{{TWW|-}}}}A white and red, Shield-carrying Darknut with its armor removed
+File:TWW Silver Darknut Model.png|{{Game Label|{{TWW|-}}}}A Silver Darknut
+File:TWW Silver Darknut Unarmored Model.png|{{Game Label|{{TWW|-}}}}A Silver Darknut with its armor removed, performing a jumping kick
+File:TWW Red Shield Darknut Model 2.png|{{Game Label|{{TWW|-}}}}A red, Shield-carrying Darknut
+File:TWW Red Shield Darknut Unarmored Model.png|{{Game Label|{{TWW|-}}}}A red, Shield-carrying Darknut with its body armor removed
+File:TWW Red Shield Darknut Unarmored Model 2.png|{{Game Label|{{TWW|-}}}}A red, Shield-carrying Darknut with its body armor removed
+File:TWW Gold Darknut Model.png|{{Game Label|{{TWW|-}}}}A gold Darknut
+File:TWW Gold Darknut Unarmored Model.png|{{Game Label|{{TWW|-}}}}A gold Darknut with its armor removed
+File:TWW Gold Shield Darknut Model.png|{{Game Label|{{TWW|-}}}}A gold, Shield-carrying Darknut
+File:TWW Gold Shield Darknut Unarmored Model.png|{{Game Label|{{TWW|-}}}}A gold, Shield-carrying Darknut with its armor removed, wielding a Boko Stick
+File:TWW Black Shield Darknut Model.png|{{Game Label|{{TWW|-}}}}A black Darknut with a Shield
+File:TWW Black Shield Darknut Model 2.png|{{Game Label|{{TWW|-}}}}A black, Shield-carrying Darknut
+File:TWW Black Shield Darknut Unarmored Model.png|{{Game Label|{{TWW|-}}}}A black Darknut with a Shield and its body armor removed, attacking with a Bokoblin's Sword
+File:TWW Black Shield Darknut Unarmored Model 2.png|{{Game Label|{{TWW|-}}}}A black, Shield-carrying Darknut with its armor removed, wielding a Moblin Spear
+File:TWW Unused Darknut Statue Model.png|{{Game Label|{{TWW|-}}}}An unused stone statue of a Darknut
+File:TWWHD Darknut Model 2.png|{{Game Label|{{TWWHD|-}}}}A Darknut
+File:TWWHD Wind Temple Darknuts Pictograph.png|{{Game Label|{{TWWHD|-}}}}Pictograph of a pair of Darknuts in the Wind Temple
+File:Link Darknuts.jpg|{{Game Label|{{TP|-}}}}Link facing two Darknuts artwork
+File:Darknut with alternate helmet.png|{{Game Label|{{TP|-}}}}Alternate Darknut helmet worn by normal Darknuts
+File:TP Darknut Armorless Model.png|{{Game Label|{{TP|-}}}}A Darknut without armor as seen in-game
+File:Miniboss Darknut Sword.png|{{Game Label|{{TP|-}}}}The Sword wielded by the Temple of Time's Darknut as seen in-game
+File:Normal Darknut Sword.png|{{Game Label|{{TP|-}}}}The Sword wielded by normal Darknuts as seen in-game
+File:Backup Darknut Sword.png|{{Game Label|{{TP|-}}}}The small Sword wielded by Darknuts as seen in-game
+File:Temple O Time Darknut.png|{{Game Label|{{TP|-}}}}A Darknut without armor
+File:EoW Darknut Icon 2.png|{{Game Label|{{EoW|-}}}}Alternate icon of a Darknut
+File:Darknut (That Sinking Feeling).png|{{Game Label|{{TLoZ (TV Series)|Display}}}}A Darknut from "That Sinking Feeling"
+File:TFoE Darknut Sprite.png|{{Game Label|{{TFoE|-}}}}Sprite of a Darknut
+File:TWoG Darknut Sprite.png|{{Game Label|{{TWoG|-}}}}Sprite of a Darknut
+File:BSTLoZ Blue Darknut Sprite.png|{{Game Label|{{BSTLoZ|-}}}}A Blue Darknut
+File:BSTLoZ Red Darknut Sprite.png|{{Game Label|{{BSTLoZ|-}}}}A Red Darknut
+File:LCT Darknut Spawning Insects.png|{{Game Label|{{LCT|-}}}}A Darknut's armor spawning Insects
+File:SSB4 Darknut.jpg|{{Game Label|{{SSBfN3DS|-}}}}A Darknut
+File:HW Darknut Model.png|{{Game Label|{{HW|-}}}}Model of a Darknut
+File:HWDE Darknut Icon.png|{{Game Label|{{HW|-}}}}Darknut portrait
+File:HW Darknut Mini Map Icon.png|{{Game Label|{{HW|-}}}}Darknut Mini Map icon
+File:HW Darknut Adventure Mode Icon.png|{{Game Label|{{HW|-}}}}Darknut Adventure Mode icon
+File:HWL Darknut Render.png|{{Game Label|{{HWL|-}}}}Render of a Darknut
+File:HWL Darknut Mini Map Icon.png|{{Game Label|{{HWL|-}}}}Darknut Mini Map icon
+File:HWL Darknut Adventure Mode Icon.png|{{Game Label|{{HWL|-}}}}Darknut Adventure Mode icon
+File:HWDE Darknut Mini Map Icon.png|{{Game Label|{{HWDE|-}}}}Darknut Mini Map icon
+File:SSBU Darknut Spirit Artwork.png|{{Game Label|{{SSBU|-}}}}The Darknut Spirit
+File:CoH Darknut Sprite.png|{{Game Label|{{CoH|-}}}}Sprite of a Darknut
+</gallery>
+
+==See Also==
+{{See Also|
+ * Black Darknut
+ * Black Knight
+ * Blue Darknut
+ * Darknut Prime
+ * Golden Darknut
+ * Green Darknut
+ * Iron Knuckle
+ * Mighty Darknut
+ * Phantom
+ * Red Darknut
+ * Silver Darknut
+}}
+
+{{Ref|
+<!-- Echoes of Wisdom -->
+<ref name="EoW Notebook">{{Cite|{{Big|{{Color EoW|Pink|Darknut}}}}<br/>A martial monster in sturdy armor. It is slow and plodding, but its armor makes it utterly immune to blunt-force attacks.|Notebook|EoW}}</ref>
+}}
+
+{{Bosses|TP}}
+{{Categories
+ |Darknuts, Echoes, Knights, Shield Enemies, Sword Enemies
+ |characters= TLoZ (Valiant Comics)
+ |enemies= LA, LADX, LANS, FS, TP, TPHD, EoW, TLoZ (TV Series), TFoE, TWoG, BSTLoZ, HW, HWL, HWDE
+ |sub-bosses= TP, TPHD, CoH
+}}

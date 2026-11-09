@@ -1,0 +1,83 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork OoT= [[File:OoT Link Using Fairy Bow Artwork.png|320x320px]]
+ |Render OoT= [[File:OoT Fairy Bow Render.png|320x320px]]
+ |Model OoT= [[File:OoT Fairy Bow Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Fairy Bow Model.png|320x320px]]
+ |Sprite OoT= [[File:OoT Fairy Bow Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Fairy Bow Icon.png|160x160px]]
+ |Sprite OoTNS2= [[File:OoTNS2 Fairy Bow Icon.png|320x320px]]
+}}
+|caption= 
+|game= OoT
+|other= 
+|pronunciation= 
+|plural= 
+|cost= 
+|value= 
+|location= [[Forest Temple (Ocarina of Time)|Forest Temple]]
+|uses= 
+|strength= 
+{{Infobox Game Blocks
+ |OoT= {{HP|OoT|2}} {{Exp|With Arrows or Light Arrows}}, {{HP|OoT|4}} {{Exp|With Ice Arrows or Fire Arrows}}
+}}
+|durability= 
+|comp= 
+|sample= 
+|theme= 
+}}
+The '''Fairy Bow''' is an [[Item]] in {{OoT}}.
+
+{{Terminology
+|-
+| {{Term/Store|Fairy Bow||Series, OoT, OoT3D}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 118"/>
+ * {{OoT3D}}<ref name="E 118"/>
+ * {{OoTNS2}}<ref>{{Cite|You found the Fairy Bow! With this equipped, you can shoot arrows. Simply draw, aim, and fire!|N/A|OoTNS2}}</ref>
+}}
+}}
+
+==Location and Uses==
+{{Descriptions OoT}}
+In {{OoT}}, the Fairy Bow can be found in the [[Forest Temple (Ocarina of Time)|Forest Temple]], awarded after Link defeats three [[Stalfos]].<ref name="OoT N/A"/> As an [[Item]] obtained when Link is an adult, it cannot be used in the past as a child. The Bow is used to snipe [[Enemy|Enemies]] as well as Objects such as Switches, especially [[Eyeball Switch|Eye Switches]]. Most notably, the Bow is used to engage the first three [[Poe Sisters]] in combat by firing Arrows at their portraits, although they do not actually require the Bow to be defeated. The Bow can also be used to fight [[Phantom Ganon]], although it is not necessarily required either.
+
+Link can ride [[Epona]] and fire Arrows while galloping along. This method of archery is used to great extent in hunting [[Big Poe]]s in [[Hyrule Field]], which can only be attacked by shooting Arrows at them while riding Epona, as they will vanish if Link attempts to approach them himself. Link must also ride Epona to participate in the [[Horseback Archery Range]] near the [[Gerudo Fortress]], where Link must shoot at targets while Epona automatically gallops along the track.
+
+Another Shooting Gallery game can be played in [[Kakariko Village]] when Link is an adult and he is even provided a Bow to use if he does not already have the Fairy Bow. The prize for winning the game is a larger [[Quiver]]. However, Link will only be rewarded 50 Rupees if he is using a rented Bow.
+
+The Fairy Bow can be equipped with three Arrows: the Fire Arrow, Ice Arrow, and the aforementioned Light Arrow. These Arrows produce different effects when shot, making the Bow more versatile and useful in defeating certain Enemies and solving puzzles. These Arrows must first be equipped to the Bow to be used. The Bow becomes necessary to fight Ganon at his [[Ganon's Castle|Castle]] by shooting [[Light Arrow]]s at him when he is stunned.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:OoT Fairy Bow Fire Arrow Icon.png|{{Game Label|{{OoT|-}}}}Icon of the Fairy Bow equipped with Fire Arrows
+File:OoT Fairy Bow Ice Arrow Icon.png|{{Game Label|{{OoT|-}}}}Icon of the Fairy Bow equipped with Ice Arrows
+File:OoT Fairy Bow Light Arrow Icon.png|{{Game Label|{{OoT|-}}}}Icon of the Fairy Bow equipped with Light Arrows
+File:OoT3D Fairy Bow Fire Arrow Icon.png|{{Game Label|{{OoT3D|-}}}}Icon of the Fairy Bow equipped with Fire Arrows
+File:OoT3D Fairy Bow Ice Arrow Icon.png|{{Game Label|{{OoT3D|-}}}}Icon of the Fairy Bow equipped with Ice Arrows
+File:OoT3D Fairy Bow Light Arrow Icon.png|{{Game Label|{{OoT3D|-}}}}Icon of the Fairy Bow equipped with Light Arrows
+File:OoTNS2 Fairy Bow JP Promotional Screenshot.png|{{Game Label|{{OoTNS2|-}}}}Promotional screenshot of Link using the Fairy Bow in the Fire Temple
+</gallery>
+
+==See Also==
+{{See Also|
+ * Bow
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 118">{{Cite Book|quote= |book= E |publisher= |page= 118}}</ref>
+<ref name="OoT N/A">{{Cite|You found the {{Color OoT3D|Red|Fairy Bow}}! On the {{Color OoT3D|Dark Blue|Items subscreen}}, you can set it to {{Icon|OoT3D I}}, {{Icon|OoT3D X Yellow}}, {{Icon|OoT3D Y Yellow}}, or {{Icon|OoT3D II}}. Use {{Icon|OoT3D I}}, {{Icon|OoT3D X Yellow}}, {{Icon|OoT3D Y Yellow}}, or {{Icon|OoT3D II}} to take it out, or hold to aim with {{Icon|OoT3D Circle Pad}} and release to let fly with an {{Color OoT3D|Red|arrow}}.|N/A|OoT3D}}</ref>
+
+}}
+
+{{Categories
+ |Bows
+ |items= OoT, OoT3D, OoTNS2
+}}

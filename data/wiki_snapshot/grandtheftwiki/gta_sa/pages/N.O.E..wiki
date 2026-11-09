@@ -1,0 +1,103 @@
+{{infobox mission
+|name=N.O.E.
+|game=SA
+|image=N.O.E.-GTASA.png
+|size=300px
+|caption=[[Mike Toreno]] giving [[Carl Johnson]] instructions to send equipment to his friends.
+|for=[[Mike Toreno]]
+|location=[[Verdant Meadows]], [[Bone County]], [[San Andreas in GTA III Era|San Andreas]]
+|reward= [[Money|$]]15,000
+|unlocks=[[Stowaway]]
+|unlockedby=[[Learning to Fly]]
+}}
+'''N.O.E.''' is a mission in [[Grand Theft Auto: San Andreas]] given to [[protagonist]] [[Carl Johnson|Carl "CJ" Johnson]] by undercover government agent [[Mike Toreno|Michael "Mike" Toreno]] from the [[Verdant Meadows|Verdant Meadows Aircraft Graveyard]] in [[Bone County]], [[San Andreas in GTA III Era|San Andreas]].
+
+==Mission==
+Carl arrives at the airstrip. While he is there waiting calling out for Toreno, he sneaks up behind him, effectively getting Carl in a choke hold. After Toreno lets Carl go and tells him to "wake up and smell the coffee", he explains that his agents are in trouble and they need a package delivered to them; if they don't get it by nightfall, they will all be dead. Carl, after a little reluctance and confusion as to things, proceeds to the task.
+
+Carl gets in a [[Rustler]] with the payload attached to the fuselage of the plane. Carl takes off, with Toreno reminding Carl stay under the radar so that he would not be spotted. He does so, and eventually arrives at [[Angel Pine]], halfway across the state, to drop off the package. He releases the contraband, and makes his way back to Verdant Meadows, again while flying below the radar. Carl arrives at the airstrip, with Toreno congratulating him for a job well done.
+
+==Script==
+'''(''Carl is at the airstrip, when Toreno sneaks up from behind and choke-holds Carl.'')'''
+
+'''Toreno''': Got you again, Carl. You're half asleep. I could have killed you in 9 different ways. (''pushes him away to release him'') Wake up and smell the coffee.
+
+'''CJ''': You need to lay off the coffee.
+
+'''Toreno''': We got a problem. I got some guys out in the field need some equipment. If they don't get it, they'll be dead by nightfall.
+
+'''CJ''': Then take it to them. (''tries to leave'')
+
+'''Toreno''': (''grabs Carl by the wrist'') Me take it to them?
+
+'''CJ''': Yeah, why not?
+
+'''Toreno''': I got five guys watching me all the time. Two in that hill. One over there and two by satellite. If I go my guys and I will be dead. I don't have a death wish. I'm a man of peace, son.
+
+'''CJ''': Yeah, clearly.
+
+'''Toreno''': (''as he and Carl start walking towards a Rustler'') Take the plane. You're not ready yet so stay low under the radar. Questions?
+
+'''CJ''': Yeah, just one thing...
+
+'''Toreno''': (''tries to leave'') Get to it.
+
+'''CJ''': Wait. Hey. Listen! (''Toreno stops'') Listen to me for once. Why won't these guys come after me?
+
+'''Toreno''': Oh, they can't because they're all posted on me. One DEA. One FBI. A Russian, a Cuban double agent and my paymasters. Checks and balances. Nobody is watching anybody watching nobody. You know what I mean? Go.
+
+'''CJ''': Whatever, man.
+
+'''(''Carl hops into the Rustler, beginning the journey.'')'''
+
+'''Toreno''': Carl, you gotta stay nice and low on your approach or you'll pop up on the radar. Use the canyon as cover.
+
+'''CJ: '''You sure this thing is safe, I can see daylight through the floor?
+
+'''Toreno''': Hey that thing you look like an enthusiast. The US Air Force is less likely to shoot you down.
+
+'''CJ''': Cool. What's the problem then?
+
+'''Toreno''': I said less likely. If you did as many amphetamines as these guys do, you'd be lucky not to shoot anything that moves.
+
+'''CJ''': Aw, shit.
+
+'''Toreno''': Hey, just stay low and you'll be fine. (''if Carl flies over the radar'') Get below the radar! (''if Carl continues to fly high'') Nap of the earth, Carl. Nap of the earth. (''if Carl gets spotted while flying above the radar'') Shit, you've been spotted! (''Carl manages to return to the airstrip safely'') Nice going, Carl. Really, you did good, kid!
+
+==Post-mission phone call script==
+'''CJ''': Hey. 
+
+'''Catalina''': Tiny-balled idiota!
+
+'''CJ''': Catalina! Eh, I know it's you. What's eating you, baby? 
+
+'''Catalina''': I don't love you no more!
+
+'''CJ''': Well, hey, let's just... Hello?
+
+==Reward==
+The reward for completing the mission is [[Money|$]]15,000. The mission [[Stowaway]] is unlocked.
+
+==Trivia==
+*The name N.O.E. by itself stands for [[:wp:Nap of the Earth|Nap of the Earth]]. This is why Toreno suggests a low-altitude, under-the-radar flight.
+*The four jars attached to the bottom of the Rustler as part of the "equipment" are all identical; they closely resemble [[Green Goo|a vial of blob-and-slime Carl later steals for The Truth]].
+
+==Gallery==
+<gallery>
+File:N.O.E.-GTASA2.jpg|[[Carl Johnson]] piloting the [[Rustler]]
+File:N.O.E.-GTASA3.jpg|[[Carl Johnson]] about to fly through a corona.
+File:N.O.E.-GTASA2.png|[[Carl Johnson]] flies along the shoreline at an under-the-radar level.
+File:N.O.E.-GTASA3.png|CJ arrives at the drop-off point in [[Angel Pine]].
+File:N.O.E.-GTASA4.png|CJ makes it back to the airstrip.
+</gallery>
+
+==Video Walkthrough==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTASeriesVideos
+|-
+|<youtube>9D3n3RM1CJQ</youtube>
+|}
+</center>
+
+[[Category:Missions in GTA San Andreas]]

@@ -1,0 +1,80 @@
+{{Hatnote|This article is about the [[Dungeon]] in {{OoT}}. For other uses, see [[Bottom of the Well (Disambiguation)]]. For the mini-[[Dungeon]] in {{MM}}, see [[Beneath the Well]]. For the location in {{TotK}}, see [[Kakariko Village Well]].}}
+{{Infobox Dungeon
+|image= 
+{{Media
+ |Screenshot OoT= File:OoT Bottom of the Well.png
+ |Screenshot OoT3D= File:OoT3D Bottom of the Well.png
+}}
+|caption= 
+|pronunciation= 
+|location= [[Kakariko Village]]
+|game= OoT
+|other= 
+|item= 
+{{Icon List|OoT3D|
+ * Golden Skull Token {{Qty|3}}
+ * Lens of Truth
+}}
+|quest= 
+|mini-boss= [[Dead Hand]]
+|boss= 
+|temperature= 
+|theme= 
+|strategy= {{StrategyWiki|The Legend of Zelda: Ocarina of Time/Bottom of the Well#The Bottom of the Well|Bottom of the Well}}
+|zu= 
+}}
+The {{Term/Store|Bottom of the Well||Series, OoT, OoT3D}} is a [[Dungeon|mini-dungeon]] in {{OoT}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 149}}</ref> It is located in [[Kakariko Village]], more specifically at the bottom of the [[Well of Three Features]].<ref>{{Cite|Dark! Narrow! Scary!<br/>{{Color OoT3D|Purple|Well of Three Features}}|Sign|OoT3D}}</ref> It consists of an underground chamber that guards the [[Lens of Truth]]. On the whole, this [[Dungeon]] is optional, having no effect on the main quest if not attempted. However, without the Lens of Truth, places such as the [[Haunted Wasteland]], the [[Spirit Temple (Ocarina of Time)|Spirit Temple]], the [[Shadow Temple]], and [[Ganon's Castle (Ocarina of Time)|Ganon's Castle]] will be more difficult to navigate. Also, [[Link]] may miss out on many treasures hidden throughout [[Hyrule]] that only the Lens of Truth can uncover.
+
+==Entrance to the Well==
+When Link first finds the well, it is filled with [[Water (Terrain)|Water]]. However, as an adult, the Water has been drained and the well sealed. In order to enter the [[Dungeon]], young Link must play the "[[Song of Storms]]" to the [[Phonogram Man]] to super-charge the [[Kakariko Windmill]] and drain the well dry.
+
+According to [[Professor Shikashi]], the house of a man who could see the truth once stood on the location of the Well.<ref>{{Cite|A long time ago... There was a man in this very village who had an eye they said could see the truth! Now usually, you have to train your mind's eye most strenuously to actually see the truth... But this fella, no, they say he had a different way of doing things... His house stood where the well is now...|Professor Shikashi|OoT}}</ref> This is a reference to the item found inside the dungeon, the Lens of Truth.
+
+==Themes and Navigation==
+The Well contains many illusory walls and floors which can only be identified as fake using the Lens of Truth, as well as invisible sections of floor that can be made visible with the Lens of Truth. Deep within the Bottom of the Well, Link fights a [[Dead Hand]], which yields the Lens of Truth upon death.
+
+The Bottom of the Well has three floors, all treated as a basement. Only the first and largest floor must be explored in order to find the Lens of Truth. This first floor consists of a maze of tunnels with numerous side passages, as well as depressions in the floor that are filled with water. This water can be drained by playing "[[Zelda's Lullaby]]" on the [[Triforce]] emblem in one part of the central chamber, giving Link access to the rest of the first floor. The lowest floor is filled with many [[ReDead]]s and pools of [[Toxic Water]]. This floor can be reached after falling into any invisible holes. The only way to climb up to the first floor again is by collecting Silver [[Rupee]]s for the first time only. The second floor is the smallest, as it consists entirely of cross-sections of vertical shafts connecting the first and third floors.
+
+In the {{MQ}} version of {{OoT|-}}, the Lens of Truth is no longer useful in this dungeon, because all fake floors and walls are now visible to the naked eye. The reward for fighting Dead Hand is the [[Compass]], though a [[Small Key]] is found in its room. The Lens of Truth is now found on the bottom floor, which is now full of [[Boulder]]s, a [[Wallmaster]], and five ReDeads all together. The [[Green Bubble]] is now missing, as well as the [[Like Like]] and the [[Beamos]]. The room with coffins and [[Gibdo]]s is optional, too, containing only a [[Gold Skulltula]]. There are some hidden switches in the walls that unlock doors or drain the Well; playing "Zelda's Lullaby" in front of the statue unlocks some gates now. The new enemy here is a [[Floormaster]], which just so happens to be in the same small room as a Wallmaster.
+
+===Enemies===
+{{Gallery List|Enemies
+ |OoT= Beamos, Gibdo, Big Skulltula, Gold Skulltula, Green Bubble, Keese, Like Like, ReDead, Skulltula, Toxic Water, Wallmaster
+}}
+
+;{{MQ|-}}
+{{Gallery List|Enemies
+ |OoT= Beamos, Boulder, Floormaster, Gibdo, Big Skulltula, Gold Skulltula, Green Bubble, Keese, Like Like, ReDead, Skulltula, Toxic Water, Wallmaster
+}}
+
+==Trivia==
+* Because the well draws water from a reservoir rather than the ground water, it is in fact not a well, but a cistern.
+* The [[Poison Pool]] contains several skeletal arms reaching upwards in a manner somewhat resembling Dead Hand, which seemingly serve no purpose.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:WellLadderOoT.png|{{Game Label|{{OoT|-}}}}The ladder leading down the Bottom of the Well
+File:OoT Bottom of the Well Map.jpg|{{Game Label|{{OoT|-}}}}Dungeon Map
+File:OoT Statue Bottom of the Well Model.png|{{Game Label|{{OoT|-}}}}A Statue in the Bottom of the Well
+File:OoT3D Statue Bottom of the Well Model.png|{{Game Label|{{OoT3D|-}}}}A Statue in the Bottom of the Well
+</gallery>
+
+==See Also==
+{{See Also|
+ * Shadow Temple
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+
+}}
+
+{{Dungeons|OoT}}
+{{Categories
+ |Kakariko Village
+ |dungeons= OoT, OoT3D
+ |locations= OoT, OoT3D
+}}

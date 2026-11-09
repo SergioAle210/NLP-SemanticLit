@@ -1,0 +1,47 @@
+[[File:RDR2 Mini Map HUD.png|thumb|113px|The mini-map seen in ''[[Red Dead Redemption 2]]''.]]
+[[File:RRDheadup.jpg|thumb|130px|The mini-map seen in ''[[Red Dead Redemption]]''.]]
+'''Heads-Up Display''' (or '''HUD''' for short) is a term that refers to informational items on the game screen that overlay the display of the game world. HUD items are distinct from game menus or status pages in that they do not interrupt game play. In ''[[Red Dead Revolver]]'', ''[[Red Dead Redemption]]'' and ''[[Red Dead Redemption 2]]'', several types of HUD items are presented to inform the player of the status of the character, location, weapons, and other information. There indicated towards the north of black N. The mini map toward West, the map other toward W. The map is directed the South, the map other directed S. The mini map toward the east, the map directed E.
+
+== Description ==
+Standard, persistent HUD items:
+* Mini-map (circular map that is a staple in many Rockstar games, such as ''Grand Theft Auto IV'');
+** The mini-map includes icons representing locations, encounters, and friendly/enemy players/NPCs;
+* Horse&apos;s stamina (''[[Red Dead Redemption]]'' only, shown as blue bar to left of mini-map);
+* [[Dead Eye Targeting]] meter (shown as red bar to right of Mini-map)
+* Health indicator;
+** In ''[[Red Dead Revolver]]'', this is portrayed as a bar;
+** In ''Red Dead Redemption'', this is portrayed as a whole-screen effect (red tint);
+* Current Weapon and Ammo Counter;
+* Location name;
+* Objective and Warnings.
+
+Some HUD items only appear when chosen or in specific situations:
+* Weapon Wheel (selected by player to change weapons);
+* [[Fame]] (brief message after earning fame);
+* [[Honor]] (brief message after gaining/losing honor);
+* Money and loot (brief message after opening a chest, looting a corpse, skinning an animal, or otherwise gaining money/items);
+* Time;
+* Wanted level - appears when the player has a [[bounty]] and is being pursued.
+
+Redemption Multiplayer HUD items:
+* Player name/rank icon/[[title]] (appears over players&apos; heads);
+* Player place/score (in competitive game modes);
+** If the player is currently winning, the display includes the player&apos;s place (1st) and score and the next highest player&apos;s place and score for comparison;
+** If the player is not winning, the display includes the player&apos;s place and score and the winning player&apos;s place and score for comparison;
+* Goal statistics (e.g. bags captured);
+* Player list (selectable in Free Roam and competitive game modes to see all friendly/enemy players, posse affiliations, and statistics).
+
+== Notes ==
+*Holding LB on Xbox 360, L on Nintendo Switch or L1 on PlayStation 3/4 will open a radial menu with all the player's weapons in it. Using the right thumbstick, the player can choose their weapon.
+*The HUD can be disabled via the OPTIONS menu.
+*In ''[[Undead Nightmare]]'', the minimap is re-colored with a dark green and black color scheme. This makes the minimap more difficult to use in [[Nuevo Paraíso]], as the black overlay makes the map unreadable in certain areas.
+
+==Navigation==
+{{RDR}}
+{{RDRII}}
+[[Category:Gameplay]]
+[[Category:Red Dead Revolver]]
+[[Category:Red Dead Redemption]]
+[[Category:Red Dead Redemption II]]
+[[Category:Features]]
+[[Category:Terminology]]

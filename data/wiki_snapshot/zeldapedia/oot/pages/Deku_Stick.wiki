@@ -1,0 +1,73 @@
+{{Infobox Item
+|image=
+{{Media
+ |Render OoT=File:OoT Deku Stick Render.png
+ |Render MM=File:MM Deku Stick Render.png
+ |Model OoT=File:OoT Deku Stick Model.png
+ |Model OoT3D=File:OoT3D Deku Stick Model.png
+ |Model MM=File:MM Deku Stick Model.png
+ |Model MM3D=File:MM3D Deku Stick Model.png
+ |Sprite OoT=File:OoT Deku Stick Icon.png
+ |Sprite OoT3D=File:OoT3D Deku Stick Icon.png
+ |Sprite MM=File:MM Deku Stick Icon.png
+ |Sprite MM3D=File:MM3D Deku Stick Icon.png
+}}
+|caption=
+|game_debut={{OoT}}
+|spinoff_debut={{HW}}
+|cost=10 [[Rupee]]s<ref>{{Cite|Deku Stick (1 piece) 10 Rupees|Kokiri|OoT}}</ref><ref>{{Cite|Deku Stick: 10 Rupees|Trading Post|MM}}</ref> {{Exp|Shops}}<br/>15 Rupees<ref name= "Business Scrub">{{Cite|All right! You win! In return, I will sell you Deku Sticks! 1 piece, 15 Rupees they are!|Business Scrub|OoT}}</ref> {{Exp|Business Scrubs}}
+|uses=Lighting [[torch]]es<ref name="OoT3D Guide 21">{{Cite Guide|quote= |game= OoT3D|publisher= Prima|page= 21}}</ref><br/>Weapon<ref name="OoT3D Guide 21"/>
+|comp=[[Boko Stick]]
+|strength={{Infobox Game Blocks
+ |OoT= [[Weapon Strength#Ocarina of Time|2]]
+ |MM= [[Weapon Strength#Majora's Mask|2]]
+}}
+|comparable=[[Boko Stick]]
+}}
+{{Term/Store|Deku Stick|Deku Sticks|Series, OoT, OoT3D, MM, MM3D|plural}} are recurring [[Item]]s in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 121 {{Exp Game|OoT, MM}}}}</ref>
+
+==Location and Uses==
+==={{OoT|-}}===
+In {{OoT}}, Deku Sticks can be easily acquired by cutting the stalks of [[Deku Baba]]s.<ref>{{Cite|Deku Baba-Hit it when it lunges at you, and it will stand upright. Cut it quickly to get a Deku Stick!|Navi|OoT}}</ref> They can also be bought at some shops for 10 [[Rupee]]s a stick or from [[Business Scrub]]s for 15 Rupees.<ref name= "Business Scrub"/> [[Link]] can light a Deku Stick on fire by making it touch a lit torch.<ref name="OoT3D Guide 21"/> The stick eventually burns down to ashes, reducing Link's supply.<ref name="OoT3D Guide 21"/> To prevent it from burning out, Link can quickly put it away or swing his Sword.<ref name="OoT3D Guide 21"/> They can only be used when the [[Hero of Time]] is a child. Deku Sticks can also be used as a weapon as they are relatively solid;<ref name="OoT3D Guide 21"/> however, they will break apart after just one hit, rendering it useless afterwards.<ref>{{Cite|You can use it as a weapon, but it will break.|Kokiri|OoT}}</ref> Due to their long length, Link wields Deku Sticks in the same manner as his adult self holding the [[Megaton Hammer]] or [[Biggoron's Sword]], making him unable to use a [[Shield]]. He also cannot perform [[Spin Attack|Spin Attacks]]. If the shield button is pressed, however, he will crouch. Deku Sticks deal twice as much damage as the [[Kokiri Sword]] (therefore roughly the same as the [[Master Sword]]), making [[Jump Slash|Jump Attacks]] quite effective against early [[Bosses in Ocarina of Time|bosses]].
+
+Normally, Link can carry up to 10 Deku Sticks. He can increase the maximum number of Deku Sticks he can hold in his inventory up to 30.<ref>{{Cite|You can now pick up even more Deku Sticks! You can carry up to 30 of them!|N/A|OoT}}</ref> The first upgrade can be bought from a [[Business Scrub]] in the [[Lost Woods]] for 40 Rupees.<ref>{{Cite|I surrender! To make your quest easier, I can enable you to pick up more Deku Sticks! But, it'll cost you 40 Rupees!|Business Scrub|OoT}}</ref> The second one can be obtained in the [[Forest Stage]] by wearing the [[Skull Mask]].<ref>{{Cite|All of the young Deku Scrub brothers agree...you look exactly like our sacred forest totem! As an offering from us, please accept these Deku Sticks. We will also enhance your carrying skills! Abracadabra! Alakazaaaam!|Deku Scrub|OoT}}</ref>
+
+==={{MM|-}}===
+In {{MM}}, Deku Sticks function the same as in {{OoT|-}}. They can be acquired by cutting the stalks of Deku Babas or bought from the [[Trading Post]] for 10 Rupees.<ref>{{Cite|Don't tell me you don't know about the Deku Baba! Cut it down when it has extended its body and Deku Nuts or Sticks will come out.|Tatl|MM}}</ref> They can be lit by touching a torch. When doing so inside [[Woodfall Temple]], [[moth]]s will follow Link, damaging him if touched. Deku Sticks can also be used as weapons,<ref>{{Cite|This long stick can even be used as a weapon.|Trading Post|MM}}</ref> breaking upon impact. Like in ''Ocarina of Time'', they once again inflict double the damage as the Kokiri Sword (equal to the [[Razor Sword]]). Unlike its predecessor, however, there are no capacity upgrades for Deku Sticks in this game, so Link can only carry up to 10 Deku Sticks at a time.<ref>{{Cite|You can carry only 10, so use them wisely.|N/A|MM}}</ref>
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{HW|-}}===
+In {{HW}}, Deku Sticks appear as [[Item Card]]s in the [[Termina Map]]. They are used to light torches, revealing hidden enemies.
+{{Noncanon|End}}
+
+==Trivia==
+*Deku Sticks sold in the [[Kokiri Shop]] are actually long branches gathered from the [[Great Deku Tree]].<ref>{{Cite|A long branch gathered from the Great Deku Tree.|Kokiri|OoT}}</ref>
+*If a [[Bug#Butterfly|Butterfly]] lands on the tip of a Deku Stick, it will transform into a [[Fairy]].<ref>{{Cite|They say that if you get close to a butterfly while holding a Deku Stick in your hands, something good will happen.|Gossip Stone|OoT}}</ref>
+*The [[Deku Shield]] shares the same material as Deku Sticks.
+*In the beta version of {{OoT}}, [[Link]] was originally going to carry only one Deku Stick and he could swing it more like his [[Sword]]. Unlike the final game where the stick breaks entirely after a single hit against an enemy or object, it could withstand three hits. Link does not discard it when it breaks and the item can be used freely, with a 1/2 icon indicating its current state in the inventory. Restoring the stick would thus require finding a new one. Curiously, if the Deku Stick hits something more than once in the final game, Link will not automatically discard the broken stick, allowing him to continue using it until the player forces it.
+*In {{MM}}, [[Zubora]] derogatorily calls [[Gabora]] a "Deku Stick" when he suggests melting the ice of their hearth with [[Hot Spring Water]].<ref>{{Cite|Eh? What's that? You say if we had hot water, we could melt the ice off the hearth? Don't act like you know what you're talking about, you Deku Stick!|Zubora|MM}}</ref> This is likely a reference to the item's Japanese name pun.
+*Deku Sticks, alongside the [[Giant's Knife]], are the first items in the series that will break or wear down after regular use. It is succeeded by the [[Razor Sword]] in {{MM}} and items Link can obtain in {{BotW}} and {{TotK}}.
+*The [[Great Fairy's Sword]] in {{MM}} shares the same function as the Deku Stick when the Shield button is pressed, as Link can crouch and thrust at enemies.
+*In {{HW}}, [[Lana]] can use the [[Deku Spear]] weapon, which is similar to a Deku Stick. 
+
+==Nomenclature==
+The Japanese name for the Deku Stick, {{Romanize|デクの棒|Deku no Bou}}, derives from the Japanese idiom {{Romanize|木偶の坊|Deku no Bou}}.{{Fact|OoT, MM}} Both phrases have the same pronunciation but with different spelling and meaning. 木偶の坊 means "the wooden puppet," which is a metaphor for an incompetent person.
+
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:HW Deku Stick Sprite.png|A Term|HW|Deku Stick Item Card from {{HW|-}}
+File:HWDE Deku Stick Icon.png|A Deku Stick Item Card from {{HW|DE|-}}
+File:OoT beta Deku Stick usage.gif|Deku Stick usage in an earlier build of {{OoT}}
+</gallery>
+
+==See Also==
+*[[Boko Stick]]
+
+{{Ref}}
+{{Categories
+ |Deku, Weapons
+ |items= OoT, OoT3D, MM, MM3D
+}}

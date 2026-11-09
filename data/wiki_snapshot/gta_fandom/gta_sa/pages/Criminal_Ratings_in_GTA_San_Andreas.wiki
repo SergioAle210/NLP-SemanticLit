@@ -1,0 +1,208 @@
+{{DISPLAYTITLE:Criminal Ratings in ''Grand Theft Auto: San Andreas''}}
+{{Cleanup}}[[Image:Crime Rating SA.jpg|right|thumb|200px]]
+
+The '''Criminal Rating''' is a rating level in almost all games in the [[3D Universe]] based on the criminal activities of the player. In ''[[Grand Theft Auto: San Andreas]],'' the criminal rating can be viewed in the Stats section in the pause menu. A new game starts the criminal rating at 0.
+''GTA San Andreas'' does not feature the Media Attention statistic like ''[[Grand Theft Auto: Vice City]]'' did.
+
+==Scoring==
+*'''For each increment of $5000''' = 1 (If you spend [[Money|money]], points will go down with it.)
+*'''Using Cheat = -10'''
+*'''Getting Busted/Wasted''' = -3
+*'''For every 0.1% of game completed''' = 1 (100% completion counts, alone, as 1000 points.)
+*'''Killing pedestrians''' = Linked to the statistics "People killed since last checkpoint" and "Total legitimate kills" (in Stats > Crimes) instead of increasing immediately the rating, going to what the game defines to be a "checkpoint" (Finishing a mission, going to a [[Pay 'n' Spray]], or [[Save points|saving the game]]) is required to trigger the criminality point increase (and thus your total legitimate kills), with the amount of points obtained depends on the amount of kills this stat gives (for an example, 5 kills on the said statistic will increase by 5 points (the rating after going to the Pay 'n' Spray). Once the point increase has been applied, the game counts this action as a "checkpoint", resetting the stat "Number of people killed since last checkpoint", increasing the "Total legitimate kills" stat by the value obtained before attaining the checkpoint.
+** Running over pedestrians, i.e. ramming down someone with a car, will not be counted as a "legitimate kill", although increasing by 1 your "People you've wasted" stat, which is your true total kill count throughout the game.
+** Being [[Wasted|killed]], [[Busted|arrested]] will reset your "People killed since last checkpoint" stat to 0, thus all kills you've made before dying will not be registered as "legitimate kills".
+** Going to a [[TransFender (3D Universe)|TransFender]] garage is not a checkpoint.
+<!--For an example, let's say you have 10500 criminality points, if you killed 17 people, your stat "Number of people killed since last checkpoint" will be of 17, but when you go to a Pay'N'Spray, this stat is reset to 0 and your criminality points increase by 17.-->
+*'''Destroying ground vehicles''' = +0 (Empty vehicles don't reward you anything. Destroying ground vehicles with a driver and/or passengers in it grants you points only because you killed the civilians inside. Privileged targets are police cars with 2 officers in it, [[Enforcer (3D Universe)|SWAT trucks]] and [[FBI Rancher|Ranchers]] with 4 agents each. Randomly during game-play while near the road, you will also find some 4-door vehicles with 2+ passengers, giving you a chance at multiple points)
+*'''Destroying aircraft''' = +30
+**The scoring is not always the same with the [[Hydra]]. The basic amount of points for taking it down is +30 as with any other aircraft, but it varies if the player shoots one down with another Hydra. They can get as many as +120 points for taking a single Hydra down if they do it above the sea and then follow the enemy Hydra down until it crashes into the water.
+**The player doesn't have to destroy the plane with a weapon. It can be destroyed by jumping out of it mid-flight or landing it upside down.
+**Whenever an NPC-controlled plane crashes, the player will also be given +30.
+*'''Using Health and Armour cheat''' = +40 (+50 for $250,000 and -10 for cheat use)
+
+==Rating==
+{| class="wikitable" style="vertical-align:top;"
+!
+Criminal Rating
+!
+Points
+|-
+|
+Cheater
+|
+Less than -10,000
+|-
+|Crackhead
+| -10,000 - -6,000
+|-
+|Bitch-Made
+| -5,999 - -4,000
+|-
+|Off-Brand
+| -3,999 - -2,000
+|-
+|Scandalous
+| -1,999 - -500
+|-
+|Playa-Hater
+| -499 - -1
+|-
+|Vic
+|0-19
+|-
+|Square
+|20-49
+|-
+|Civilian
+|50-74
+|-
+|Rat
+|75-99
+|-
+|Snitch
+|100-119
+|-
+|Dry Snitch
+|120-149
+|-
+|Transformer
+|150-199
+|-
+|Punk-Ass Bitch
+|200-239
+|-
+|Sucka
+|240-269
+|-
+|Poot-butt
+|270-299
+|-
+|Buster
+|300-339
+|-
+|Mark
+|340-369
+|-
+|Chump
+|370-399
+|-
+|Trick
+|400-449
+|-
+|Red-Headed Stepchild
+|450-499
+|-
+|Peon
+|500-549
+|-
+|Pee-Wee
+|550-599
+|-
+|Prankster
+|600-609
+|-
+|Fool
+|610-649
+|-
+|Street Cat
+|650-699
+|-
+|Thug
+|700-799
+|-
+|Hustler
+|800-999
+|-
+|Playa Partner
+|1,000-1,149
+|-
+|Mack
+|1,150-1,299
+|-
+|Pimp
+|1,300-1,499
+|-
+|Crime Partner
+|1,500-1,699
+|-
+|Homeboy
+|1,700-1,999
+|-
+|Homie
+|2,000-2,099
+|-
+|Road Dawg
+|2,100-2,299
+|-
+|Hoodsta
+|2,300-2,499
+|-
+|Hard-ass
+|2,500-2,749
+|-
+|Banger
+|2,750-2,999
+|-
+|Lil' G
+|3,000-3,499
+|-
+|Loc
+|3,500-3,999
+|-
+|Jacker
+|4,000-4,999
+|-
+|Shooter
+|5,000-7,499
+|-
+|Foot Soldier
+|7,500-9,999
+|-
+|Hoo-Rider
+|10,000-19,999
+|-
+|Soldier
+|20,000-29,999
+|-
+|Hawg
+|30,000-39,999
+|-
+|Gangsta
+|40,000-49,999
+|-
+|Ghetto Star
+|50,000-64,999
+|-
+|Monster
+|65,000-79,999
+|-
+|Big Homie
+|80,000-99,999
+|-
+|Boss Hawg
+|100,000-149,999
+|-
+|Shot Caller
+|150,000-199,999
+|-
+|OG
+|200,000-299,999
+|-
+|High Roller
+|300,000-399,999
+|-
+|Four-Star General
+|400,000-499,999
+|-
+|Godfather
+|500,000-999,999
+|-
+|King of San Andreas
+|1,000,000+
+|}
+[[Category:GTA San Andreas]]
+[[Category:Miscellaneous]]
+[[Category:Statistics]]
+[[Category:Features]]
+[[Category:Features in GTA San Andreas]]

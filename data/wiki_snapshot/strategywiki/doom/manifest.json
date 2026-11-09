@@ -1,0 +1,283 @@
+{
+  "source": "strategywiki",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:16:30+00:00",
+  "total_chars": 166848,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Doom",
+      "url": "https://strategywiki.org/wiki/Doom",
+      "revid": 1180125,
+      "file": "pages/Doom.wiki",
+      "chars": 2214
+    },
+    {
+      "title": "Doom/Achievements and trophies",
+      "url": "https://strategywiki.org/wiki/Doom/Achievements_and_trophies",
+      "revid": 1083557,
+      "file": "pages/Doom__Achievements_and_trophies.wiki",
+      "chars": 5111
+    },
+    {
+      "title": "Doom/Cheats",
+      "url": "https://strategywiki.org/wiki/Doom/Cheats",
+      "revid": 604442,
+      "file": "pages/Doom__Cheats.wiki",
+      "chars": 2284
+    },
+    {
+      "title": "Doom/Controls",
+      "url": "https://strategywiki.org/wiki/Doom/Controls",
+      "revid": 1197902,
+      "file": "pages/Doom__Controls.wiki",
+      "chars": 3580
+    },
+    {
+      "title": "Doom/E1M1: Hangar",
+      "url": "https://strategywiki.org/wiki/Doom/E1M1%3A_Hangar",
+      "revid": 796277,
+      "file": "pages/Doom__E1M1_Hangar.wiki",
+      "chars": 3631
+    },
+    {
+      "title": "Doom/E1M2: Nuclear Plant",
+      "url": "https://strategywiki.org/wiki/Doom/E1M2%3A_Nuclear_Plant",
+      "revid": 796278,
+      "file": "pages/Doom__E1M2_Nuclear_Plant.wiki",
+      "chars": 4830
+    },
+    {
+      "title": "Doom/E1M3: Toxin Refinery",
+      "url": "https://strategywiki.org/wiki/Doom/E1M3%3A_Toxin_Refinery",
+      "revid": 796279,
+      "file": "pages/Doom__E1M3_Toxin_Refinery.wiki",
+      "chars": 6424
+    },
+    {
+      "title": "Doom/E1M4: Command Control",
+      "url": "https://strategywiki.org/wiki/Doom/E1M4%3A_Command_Control",
+      "revid": 796280,
+      "file": "pages/Doom__E1M4_Command_Control.wiki",
+      "chars": 3543
+    },
+    {
+      "title": "Doom/E1M5: Phobos Lab",
+      "url": "https://strategywiki.org/wiki/Doom/E1M5%3A_Phobos_Lab",
+      "revid": 796281,
+      "file": "pages/Doom__E1M5_Phobos_Lab.wiki",
+      "chars": 7187
+    },
+    {
+      "title": "Doom/E1M6: Central Processing",
+      "url": "https://strategywiki.org/wiki/Doom/E1M6%3A_Central_Processing",
+      "revid": 796282,
+      "file": "pages/Doom__E1M6_Central_Processing.wiki",
+      "chars": 5993
+    },
+    {
+      "title": "Doom/E1M7: Computer Station",
+      "url": "https://strategywiki.org/wiki/Doom/E1M7%3A_Computer_Station",
+      "revid": 1122533,
+      "file": "pages/Doom__E1M7_Computer_Station.wiki",
+      "chars": 5491
+    },
+    {
+      "title": "Doom/E1M8: Phobos Anomaly",
+      "url": "https://strategywiki.org/wiki/Doom/E1M8%3A_Phobos_Anomaly",
+      "revid": 796284,
+      "file": "pages/Doom__E1M8_Phobos_Anomaly.wiki",
+      "chars": 3362
+    },
+    {
+      "title": "Doom/E1M9: Military Base",
+      "url": "https://strategywiki.org/wiki/Doom/E1M9%3A_Military_Base",
+      "revid": 423747,
+      "file": "pages/Doom__E1M9_Military_Base.wiki",
+      "chars": 3350
+    },
+    {
+      "title": "Doom/E2M1: Deimos Anomaly",
+      "url": "https://strategywiki.org/wiki/Doom/E2M1%3A_Deimos_Anomaly",
+      "revid": 797744,
+      "file": "pages/Doom__E2M1_Deimos_Anomaly.wiki",
+      "chars": 4260
+    },
+    {
+      "title": "Doom/E2M2: Containment Area",
+      "url": "https://strategywiki.org/wiki/Doom/E2M2%3A_Containment_Area",
+      "revid": 797743,
+      "file": "pages/Doom__E2M2_Containment_Area.wiki",
+      "chars": 6220
+    },
+    {
+      "title": "Doom/E2M3: Refinery",
+      "url": "https://strategywiki.org/wiki/Doom/E2M3%3A_Refinery",
+      "revid": 797742,
+      "file": "pages/Doom__E2M3_Refinery.wiki",
+      "chars": 2894
+    },
+    {
+      "title": "Doom/E2M4: Deimos Lab",
+      "url": "https://strategywiki.org/wiki/Doom/E2M4%3A_Deimos_Lab",
+      "revid": 911042,
+      "file": "pages/Doom__E2M4_Deimos_Lab.wiki",
+      "chars": 5079
+    },
+    {
+      "title": "Doom/E2M5: Command Center",
+      "url": "https://strategywiki.org/wiki/Doom/E2M5%3A_Command_Center",
+      "revid": 1071895,
+      "file": "pages/Doom__E2M5_Command_Center.wiki",
+      "chars": 4986
+    },
+    {
+      "title": "Doom/E2M6: Halls of the Damned",
+      "url": "https://strategywiki.org/wiki/Doom/E2M6%3A_Halls_of_the_Damned",
+      "revid": 1071656,
+      "file": "pages/Doom__E2M6_Halls_of_the_Damned.wiki",
+      "chars": 5608
+    },
+    {
+      "title": "Doom/E2M7: Spawning Vats",
+      "url": "https://strategywiki.org/wiki/Doom/E2M7%3A_Spawning_Vats",
+      "revid": 797737,
+      "file": "pages/Doom__E2M7_Spawning_Vats.wiki",
+      "chars": 3367
+    },
+    {
+      "title": "Doom/E2M8: Tower of Babel",
+      "url": "https://strategywiki.org/wiki/Doom/E2M8%3A_Tower_of_Babel",
+      "revid": 1087577,
+      "file": "pages/Doom__E2M8_Tower_of_Babel.wiki",
+      "chars": 1590
+    },
+    {
+      "title": "Doom/E2M9: Fortress of Mystery",
+      "url": "https://strategywiki.org/wiki/Doom/E2M9%3A_Fortress_of_Mystery",
+      "revid": 1087583,
+      "file": "pages/Doom__E2M9_Fortress_of_Mystery.wiki",
+      "chars": 1638
+    },
+    {
+      "title": "Doom/E3M1: Hell Keep",
+      "url": "https://strategywiki.org/wiki/Doom/E3M1%3A_Hell_Keep",
+      "revid": 797736,
+      "file": "pages/Doom__E3M1_Hell_Keep.wiki",
+      "chars": 4554
+    },
+    {
+      "title": "Doom/E3M2: Slough of Despair",
+      "url": "https://strategywiki.org/wiki/Doom/E3M2%3A_Slough_of_Despair",
+      "revid": 797735,
+      "file": "pages/Doom__E3M2_Slough_of_Despair.wiki",
+      "chars": 2637
+    },
+    {
+      "title": "Doom/E3M3: Pandemonium",
+      "url": "https://strategywiki.org/wiki/Doom/E3M3%3A_Pandemonium",
+      "revid": 797734,
+      "file": "pages/Doom__E3M3_Pandemonium.wiki",
+      "chars": 2278
+    },
+    {
+      "title": "Doom/E3M4: House of Pain",
+      "url": "https://strategywiki.org/wiki/Doom/E3M4%3A_House_of_Pain",
+      "revid": 797733,
+      "file": "pages/Doom__E3M4_House_of_Pain.wiki",
+      "chars": 2581
+    },
+    {
+      "title": "Doom/E3M5: Unholy Cathedral",
+      "url": "https://strategywiki.org/wiki/Doom/E3M5%3A_Unholy_Cathedral",
+      "revid": 797732,
+      "file": "pages/Doom__E3M5_Unholy_Cathedral.wiki",
+      "chars": 4869
+    },
+    {
+      "title": "Doom/E3M6: Mt. Erebus",
+      "url": "https://strategywiki.org/wiki/Doom/E3M6%3A_Mt._Erebus",
+      "revid": 1071808,
+      "file": "pages/Doom__E3M6_Mt._Erebus.wiki",
+      "chars": 4843
+    },
+    {
+      "title": "Doom/E3M7: Limbo",
+      "url": "https://strategywiki.org/wiki/Doom/E3M7%3A_Limbo",
+      "revid": 1071665,
+      "file": "pages/Doom__E3M7_Limbo.wiki",
+      "chars": 4248
+    },
+    {
+      "title": "Doom/E3M8: Dis",
+      "url": "https://strategywiki.org/wiki/Doom/E3M8%3A_Dis",
+      "revid": 1148248,
+      "file": "pages/Doom__E3M8_Dis.wiki",
+      "chars": 2087
+    },
+    {
+      "title": "Doom/E3M9: Warrens",
+      "url": "https://strategywiki.org/wiki/Doom/E3M9%3A_Warrens",
+      "revid": 571345,
+      "file": "pages/Doom__E3M9_Warrens.wiki",
+      "chars": 3054
+    },
+    {
+      "title": "Doom/Monsters",
+      "url": "https://strategywiki.org/wiki/Doom/Monsters",
+      "revid": 1145482,
+      "file": "pages/Doom__Monsters.wiki",
+      "chars": 25277
+    },
+    {
+      "title": "Doom/Powerups",
+      "url": "https://strategywiki.org/wiki/Doom/Powerups",
+      "revid": 379659,
+      "file": "pages/Doom__Powerups.wiki",
+      "chars": 1990
+    },
+    {
+      "title": "Doom/Scoring",
+      "url": "https://strategywiki.org/wiki/Doom/Scoring",
+      "revid": 379663,
+      "file": "pages/Doom__Scoring.wiki",
+      "chars": 1233
+    },
+    {
+      "title": "Doom/Storyline",
+      "url": "https://strategywiki.org/wiki/Doom/Storyline",
+      "revid": 379660,
+      "file": "pages/Doom__Storyline.wiki",
+      "chars": 987
+    },
+    {
+      "title": "Doom/Table of Contents",
+      "url": "https://strategywiki.org/wiki/Doom/Table_of_Contents",
+      "revid": 1148184,
+      "file": "pages/Doom__Table_of_Contents.wiki",
+      "chars": 3939
+    },
+    {
+      "title": "Doom/Useful Moves",
+      "url": "https://strategywiki.org/wiki/Doom/Useful_Moves",
+      "revid": 588375,
+      "file": "pages/Doom__Useful_Moves.wiki",
+      "chars": 1937
+    },
+    {
+      "title": "Doom/Walkthrough",
+      "url": "https://strategywiki.org/wiki/Doom/Walkthrough",
+      "revid": 527530,
+      "file": "pages/Doom__Walkthrough.wiki",
+      "chars": 1679
+    },
+    {
+      "title": "Doom/Weapons",
+      "url": "https://strategywiki.org/wiki/Doom/Weapons",
+      "revid": 1087772,
+      "file": "pages/Doom__Weapons.wiki",
+      "chars": 6013
+    }
+  ]
+}

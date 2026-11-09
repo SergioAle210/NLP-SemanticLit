@@ -1,0 +1,151 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+''This page is about Turf Wars in general; for information about unlocking hidden territories, see the [[Grand Theft Auto: San Andreas/Glitches#178 Territories|178 territories glitch]].''
+
+A turf war consists of two rival gangs fighting for control of a territory. ''San Andreas''' implementation of gang rivalry is different from GTA2 in that gangs will only attack the Grove Street Families' turf (hereafter abbreviated GSF); they will not attack each other. Also, the only gangs that attack GSF's territories are the Ballas and Vagos.
+
+== Reasons for starting a Turf War ==
+
+Each territory controlled generates more money at The Johnson House on Grove Street and increases CJ's overall Respect rating. However, just as it is possible to take territory from the Ballas, so too can they take territory back from GSF, resulting in a loss of money and respect. In the 'Return to Los Santos' segment, you must take over 35 percent of the city to trigger the endgame. Note that it is not required to take over all of the territories to complete the game or get to 100%.
+
+You most likely won't want to take every territory in Los Santos, unless you're committed to 'finishing the job' and completely purging rival gangs — owning a sizeable territory while rival gangs still survive means spending the bulk of your time in Los Santos running around repelling attacks.  Generally speaking, a good rule of thumb for deciding which territories to take is whether or not they have some kind of building in them that you can use.  The most important examples are AmmuNation and the fast food outlets.  You want a clear area around the AmmuNation stores in case you need to buy weapons or replace armor while being pursued, and in addition to replacing energy, fast food outlets can serve as sanctuaries where you can wait for your wanted level to vanish if you are at only one star, or for enemy gang pursuit of you to also fade.
+
+Other important points which are worth securing are the area around the Johnson house, the freeway offramp not far from Grove Street, and possibly a narrow corridor from in front of Grove Street through to the city proper, which will allow you to get back to the Johnson house after missions.  If you are in a car which is already damaged, having Ballas gang members shooting at you at that point can mean the difference between a successful or failed mission.  You may also want to establish a buffer zone north of Grove Street, but this is may provoke attacks from the Vagos.
+
+== Locations that can be fought over ==
+[[Image:GTA San Andreas turf example.jpg|right|An example turf wars map]]
+There are a total of 54 territories to take over. There are some territories on the Westside, near the beach and towards the hills in the 'Vinewood' area, but most of the enemy turf is on the eastern side of Los Santos.
+
+Look at the colors on the map; if a territory is '''<font color=green>green</font>''', CJ's gang GSF controls it. If it is colored '''<font color=purple>purple</font>''' (Ballas) or '''<font color=goldenrod>yellow</font>''' (Vagos), CJ can choose to attack it. Territories successfully won will turn green, but if captured back by the enemy they will again change color.
+<br clear="both" />
+
+There is one tiny territory (originally belonging to the Ballas) that is a strip of sidewalk north of the street in the Temple neighborhoood, between the Burger Shot and the road that goes up to Mulholland.  You will have to be standing on the sidewalk to start the turf war there.
+
+== Turf War! ==
+
+=== Turf War Mechanics ===
+
+To begin with, there are only two periods in the game when you can engage in turf war. The first period is between the time that you are introduced to the concept of banging and when you have to leave Los Santos. During the successive missions in San Fierro, Las Venturas, and so on you will not be able to access turf wars (the rationale being that the Grove Street Gang is defunct during this time). Once you are into the end-game, turf wars open up again and even become crucial to finishing the game. The final mission will not be triggered unless you have about a third of the city under GSF control.
+
+You would be wise to complete the [[Grand Theft Auto: San Andreas/Gang Tags|Tagging]] mission before opening up one of the gang war phases.  It's harder to spray tags in enemy territory, and the weapons rewards will help a lot.
+
+As you haven't acquired some of the best weapons and skill levels during the first set of Los Santos missions, it is feasible and less frustrating to simply not focus on turf war until you return to Los Santos. At that point you will have gear like the rocket launcher and access to the tank (see below), which make turf wars a lot easier.
+
+To start a turf war, simply kill three (or sometimes four) rival gang members. The gang members do not actually have to be inside the colored territory for the kills to count -- what matters is that CJ is standing in the colored region when the kills occur. This is helpful for starting turf wars in some of the smaller territories; CJ can use a sniper rifle or other long-range weapon to kill gang members a ways off as long as he is standing in the territory you wish to take over.
+
+Also, these kills must take place while CJ is on foot -- gang members killed by vehicles or in drive-bys will not count towards starting a turf war. Gang members pulled from their cars and then killed DO count (as do kills performed by shooting gang members in the head through their car windscreens); often it's easier to find gang members in cars rather than waiting for them to spawn on foot.
+
+However, once the war starts you can enter a vehicle. You can then run over gang members as well as do drive-bys. The problem with this tactic is that with most vehicles your opponents can easily jack ''you'' out of the car, leaving you helpless and vulnerable for a moment or two. In addition, so many bullets are fired in your direction that most vehicles will quickly take massive damage and explode. The most suitable vehicle for turf war is the Tank, which isn't easily jacked and can take a lot of punishment (see below). The Hunter helicopter can also be effective.
+
+The gang members killed can belong to either rival gang. That is to say, killing three Vagos in Ballas-controlled territory will still start a gang war with the Ballas and vice-versa.
+
+Each turf war has three waves. When a wave starts, about a dozen rival gang members will converge on your location. You must kill all of the rival gang members in each wave to complete the wave.
+
+If you step outside of the disputed territory for more than about a minute while the war is in progress, the war is forfeited and must be begun again. Sometimes, the last few gang members will flee several blocks outside of the territory. Then you will have to chase them down before the time limit runs out. In some cases, you may be able to use the sniper rifle to take them out from several blocks away.
+
+In some territories, armor and hearts will spawn during a particular wave. Take advantage of them in the lull between the waves.
+
+You may also draw the attention of the police if you harm civilians or vehicles during the battle. This will complicate matters, so make sure you focus your fire on the rival gang members only. Remember, these are the guys with the bandanas on their heads.
+
+Gang war can be waged alongside your own gang members. You can recruit some homies and then either drive them or walk with them to the target area. The game tries to encourage you to do this. However, in practice it is best to have CJ go alone. Kills by your gang members don't count for starting a war, so it may be difficult to get a rumble started properly. In fact, in some areas, rival gang members may not even show up if there are guys 'flying the green' in the vicinity. Your gang's AI is not any different than rivals (which is to say, not too smart), so it is dubious whether they are much help during the battle. They may get in the way if you are in a constricted area. They can die from friendly fire or getting run over by vehicles, and you won't have any time to recruit replacements in the middle of a wave.
+
+Some missions require that you have an NPC (for instance CJ's brother) accompany you on a gang war, and the NPC will have their own health bar. You will fail the mission if they (or you) die. A message will nag you if you get separated from the NPC. Actually, you should ignore this. If the NPC is hanging out somewhere away from the action that is a good thing. They don't have any different AI than the standard friendly or rival gang member and if they get into the heat of battle they typically won't last very long.
+
+=== Strategy ===
+Essentially each turf war is an individual minigame which uses a portion of the terrain of San Andreas as a puzzle. To 'solve' a given turf war you need to find a good defensive position in the particular territory. If you just rush in and start shooting guys willynilly you won't last long.
+
+The first thing to consider is that (thankfully) the opposing gang member AI is pretty simple. They tend to follow the path of least resistance to CJ's location.
+
+The other fact is, in a nutshell, 'AIs can't jump.' CJ is the only being in the San Andreas universe who can climb, swim, or step over low obstacles! Exploit this fact to the max.  Note: there are some characters in the game with an AI that allows them to follow CJ more accurately, but these characters never appear as enemies during turf wars.
+
+If you find an enclosed area, get behind it.  If you are on the same elevation, the AI *will* use pincer movements and try to come at you from opposite sides, so avoid wide open areas at all costs.  If there is some higher ground, get on top of it. If there is a building you can get on the roof of, even better! The gang members will flock to the other side of the wall, or below you if you are on top of a building. They can't shoot you. You can see them milling around on the radar and hear them complaining about running into each other (they seem to be a bit adverse to touching each other!). Now you can take them out with grenades if you are behind a wall, or if you are on a roof, by sniping. In some cases if you get on top of a bridge or a bridge-like object (like the eastern wharf on the beach) the gang members won't follow you either.
+
+For instance, consider the BMX bike park. This has a fence with two entries in it. If you challenge the territory on the north side of this fence, run into the bike park and head for the inside northeast corner of the fence. The rival gang members will flock to that corner, on the outside. They are too stupid to run down the street and into the bike park. Toss a few grenades over the fence and voila.
+
+Another example is a street on the west side with a multi-story parking garage which has an external spiral ramp. Start a war, run up to the second or third story of the ramp, and the rival gang members will flock to the base of the spiral ramp. They are too dimwitted to follow you up the spiral. You can take them out with grenades and sniping.
+
+Yet again, taking over the area near the carwash to the north of the freeway is pretty easy. Just get on top of the carwash, crouch and snipe as the wave runs toward you. You can even do this at the very start of the game with a pistol, so it is a good 'starter' war.
+
+Some areas don't have stuff you can climb on top of or get behind. In this case, find an alley or passage between two buildings, and pick them off with your best gun (ideally a rocket launcher) as they come at you.
+
+For instance, there is an area to the north of the end of the dry river on the eastside. Run north down the stairs and into the alley on the right. Use rockets to hammer each guy as he comes up the alley.
+
+You can also go into fast food outlets during gang wars, which can be invaluable to prevent being wasted in the middle of a fight.
+
+It helps to use high-impact weapons like rockets and grenades for gangbanging. Finesse is not a virtue in this part of the game. To collect a good stockpile, grab a helicopter and fly it out to the San Fierro Airport. There is a rocket spawn point between the tanks on the southeastern side of the main airport field. Fly the helicopter back to the San Fierro garage save point and land in the construction zone. Go around the south edge of the garage and grab the grenades. Then save and repeat until you have a huge stock of rockets and grenades.
+
+There's grenades in the motel balcony behind the Well Stacked Pizza in Los Santos near Grove Street.
+
+In terms of guns, the machine guns are probably more effective than shotguns.  Not only do they have greater range, but machine gun fire immobilises enemy gang members and prevents them from returning fire while you are shooting them, even if it doesn't kill them immediately.
+
+=== Use the Tank! ===
+
+If you are late in the game and have unlocked the Verdant Meadows airfield in the desert area, you might consider the following strategy which will make taking over the entire map a snap (and a lot of fun). You'll need to have acquired either the jetpack or a helicopter.
+
+Start at the Verdant Meadows airfield. Make sure you have nothing parked in the garage. Fly the jetpack or a helicopter south into the 'forbidden zone.' There are some hangers on the north east side of the fenced compound; one of them has a tank in it. As your wanted rating will be maxed the moment you cross the fence, land immediately and jump into the tank. Drive the tank to the south east corner and through the breakable area of the fence (it will have a different texture than the rest of the fence).
+
+Drive the tank north like crazy, and into the Verdant Meadows air field. Park it in the garage. You will undoubtably have a traffic jam of high level heat on your tail. Use the tank to thin out the pursuers if they get too dense, but focus on getting the tank into the garage. Exit the tank and sprint into the hut. Save the game, which will drop your five-star wanted rating.
+
+Now drive the tank to Grove Street. It helps to take the rail lines. The tank has infinite vehicle health. No matter if you shoot with a minigun 24/7 on it, it won't explode. The only thing that can make a tank explode is fire/flames, crashing into walls and buildings excessively ''or'' if it lands upside down. If you drive over cars (or even sideswipe them) they will explode immediately. It's a long way to drive and it will take a lot of care not to destroy the tank if you take 'surface streets,' plus you will end up actually having to wait for lights to change. Taking the rail lines means that all you have to dodge is the occasional train.
+
+Park the tank in the Grove Street house's garage backwards. If you drive it in forward, you may not be able to get it out later. It will be a tight fit and if you have anything in the garage, you will have to lose it before you park your tank.
+
+Once you have the tank parked, save your game at Grove Street. Then go out and get into the tank. This may be a bit dicey. CJ will not get into the tank unless the hatch is on the front of the garage and there is some wiggle room. You may have to walk into the garage, get behind the tank and push it a bit to allow CJ to get into it.
+
+Now drive the tank to a rival gang area. Get out of the tank and shoot three rival gang members. Get back into the tank. Shoot or run over each of the three waves. Make sure you don't damage the tank too much. After you've won, drive carefully back to Grove Street and ''back'' the tank into the garage. Repeat until the entire map is yours!
+
+Instead of backing the tank in, which can get a little nerve-wracking if you have many wanted-stars, you can also drive it forwardly into the garage if you stay very close to the right wall. This will allow CJ to get into it from the left easily again.
+
+Sometimes, after obtaining the tank (from the Restricted Area), getting out of it and slowly parking can be a bit tricky while police are following you. If you enter a vehicle, such as the tank, the engine will start. Make sure to park it in one of your garages or one of your parking spots before you save the game, because the vehicle will disappear if you don't.
+
+The tank should remain if you save but don't quit the game, however on the save file it will not be present in it's location. Saving will clear your wanted level, and then you can drive the tank into the garage.
+
+== Counterattacks ==
+
+The enemy gangs can randomly decide to capture back a territory; they usually try to capture back a territory GSF took from them, but not always. It is usually adjacent to one they already control, but not always.
+
+These challenges will not occur if you are outside Las Santos city limits, so if you are on an expedition to Las Venturas or San Fierro you won't have to rush back and take care of business.
+
+There are a few options at this point.
+
+=== Do Nothing ===
+
+If you just save the game at this point, the territory will remain yours. This may not always be feasible (you may not be close to a save point), but it is worth considering.
+
+If you are wasted or busted before getting to the disputed territory, the territory remains yours.  This is a useful trick if you've dated Katie or Barbara which will allow to get wasted or busted (respectively) without losing money or weapons.  So it's like a do-over, and isn't too hard to trigger if you've attracted some police attention.
+
+If an enemy gang attacks and CJ does nothing, the territory is not completely conquered; instead it is simply a "no-man's land" that neither GSF nor the attacking gang owns. Sometimes both of GSF and the attacking gang will own it in a mixed way. In a mixed situation, gaining back the full turf is going to be hard. It would be better to load the game again if that happens.
+
+But, as always, attacking three gang members in this limbo territory will start a turf war. This turf war will still have three stages and be the same as any other.
+
+It's not that hard, as long as you stay within the territory and kill 3 enemy gang members, you will start a turf war. Easiest way to kill enemy gang members in limbo areas is not to look for enemy gang members on foot, but rather to aim for headshots on enemy gang members driving cars in traffic through the area. The traffic is an endless stream. And you won't have to leave the region or wander around endlessly beyond which resets the counter.
+
+The easiest way is to kill 2 gang members in a surrounding gang region, then come to the limbo area and kill one more. And it will trigger a gang war. Or lead gang members from the surrounding area into the limbo area.
+
+=== Penalty for Doing Nothing ===
+
+If CJ dies in a turf war (regardless of who started it) he will die and lose the territory. In the case of a limbo territory, it will be well and truly owned by the squatting gang, and the map shows their color for it. However it can still be attacked and taken over once more, no territory can be permanently owned by a gang in the sense of it being unable to be attacked, the exception being the core GSF territory with the The Johnson House and Grove Street at the centre.
+
+=== Respond to the attack ===
+
+Simply enough, race off to defend the turf and beat back the enemy. The game gives a generous amount of time for the player to arrive there, as San Andreas is quite a large region.
+
+There is just one wave and there are usually generous helpings of powerups, so none of the challenges are particularly difficult. They are simply a balancing element in the game, so the designers probably decided to make them a bit easier than taking over a neighborhood from scratch.  However, one drawback is that unlike during the procedure for taking a territory, when you defend one, cars and pedestrians remain active.
+
+The wave is only spawned the moment you enter the challenged territory, and they are all clumped in one place at that point. Typically a few rockets lobbed into the clump finishes the job.  The minigun also works well if you have enough bullets.  Stay a little bit away and just mow them down.  If you have neither, use your fastest weapon like an SMG.  Hold down the firing button and flick the aiming button to switch from target to target.  Another more risky strategy is to drive the car you are in right up to the attacking gang members, and exit it quickly.  Due to the amount that they will shoot the car, it will catch fire and explode, (hopefully after you have exited it) taking most of the attacking gang members with it.
+
+
+== R3 Mission Glitch ==
+There is a glitch that allows you to have the territory that is being attacked by other gangs, without having to fight them.  First, get into a vehicle that allows you to do a mission, such as a police car, taxi cab or ambulance, then activate the vehicle's mission and unactivate it and the territory shall still be yours!
+
+== Even more territories ==
+
+Some players finish all the turf wars but wish there was more to conquer; those seeking to conquer almost the entirety of San Andreas can activate the [[Grand Theft Auto: San Andreas/Glitches#178 Territories|178 territories glitch]].
+
+== External Links ==
+
+* [http://www.neoseeker.com/resourcelink.html?rlid=97051&rid=90101 Turf War FAQ]
+* [http://www.gtaforums.com/index.php?showtopic=157489 taking over gang territories] guide at GTAForums.com
+* Territory list above based on the list in [http://www.neoseeker.com/resourcelink.html?rlid=96785&rid=89853 Woezie's Territory Glitch Guide]
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=|nextpage=}}

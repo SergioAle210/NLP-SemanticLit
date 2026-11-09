@@ -1,0 +1,327 @@
+{{Hatnote|This article is about the recurring weapon. For the fashion accessory, see [[Ribbon]].}}
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Bow Artwork.png
+ |Artwork ALttP= File:ALttP Bow Artwork.png
+ |Artwork LA= File:LA Bow Artwork.png
+ |Artwork FS= File:FS Bow Artwork.png
+ |Artwork TWWHD= File:TWWHD Hero's Bow Artwork.png
+ |Artwork TMC= File:TMC Bow Artwork.png
+ |Render OoT= File:OoT Fairy Bow Render.png
+ |Render MM= File:MM Hero's Bow Render.png
+ |Render TPHD= File:TPHD Hero's Bow Artwork.png
+ |Render SS= File:SS Wooden Bow Render.png
+ |Render ALBW= File:ALBW Bow Render.png
+ |Render TFH= File:TFH Bow Render.png
+ |Model LANS= File:LANS Bow Model.png
+ |Model OoT= File:OoT Fairy Bow Model.png
+ |Model OoT3D= File:OoT3D Fairy Bow Model.png
+ |Model MM= File:MM Hero's Bow Model.png
+ |Model MM3D= File:MM3D Hero's Bow Model.png
+ |Model TWW= File:TWW Hero's Bow Model.png
+ |Model TWWHD= File:TWWHD Hero's Bow Model.png
+ |Model TP= File:TP Hero's Bow Model.png
+ |Model TPHD= File:TPHD Hero's Bow Model.png
+ |Model PH= File:PH Bow Model.png
+ |Model ST= File:ST Bow Model.png
+ |Model SS= File:SS Wooden Bow Model.png
+ |Model SSHD= File:SSHD Bow Model.png
+ |Model ALBW= File:ALBW Bow Model.png
+ |Model TFH= File:TFH Bow Model.png
+ |Model BotW= File:BotW Bow of Light Model.png
+ |Model TotK= File:TotK Old Wooden Bow Model.png
+ |Model EoW= File:EoW Bow of Might Lv. 2 Model.png
+ |Sprite TLoZ= File:TLoZ Bow Sprite.png
+ |Sprite ALttP= File:ALttP Bow Sprite.png
+ |Sprite LA= File:LA Bow Sprite.png
+ |Sprite LADX= File:LADX Bow Sprite.png
+ |Sprite LANS= File:LANS Bow Icon.png
+ |Sprite OoT= File:OoT Fairy Bow Icon.png
+ |Sprite OoT3D= File:OoT3D Fairy Bow Icon.png
+ |Sprite MM= File:MM Hero's Bow Icon.png
+ |Sprite MM3D= File:MM3D Hero's Bow Icon.png
+ |Sprite FS= File:FS Bow Sprite.png
+ |Sprite TWW= File:TWW Hero's Bow Sprite.png
+ |Sprite TWWHD= File:TWWHD Hero's Bow Icon.png
+ |Sprite FSA= File:FSA Bow Sprite.png
+ |Sprite TMC= File:TMC Bow Sprite.png
+ |Sprite TP= File:TP Hero's Bow Icon.png
+ |Sprite TPHD= File:TPHD Hero's Bow Icon.png
+ |Sprite PH= File:PH Bow Icon.png
+ |Sprite ST= File:ST Bow Icon.png
+ |Sprite SS= File:SS Wooden Bow Icon.png
+ |Sprite SSHD= File:SSHD Bow Icon.png
+ |Sprite ALBW= File:ALBW Bow Icon.png
+ |Sprite TFH= File:TFH Bow Icon.png
+ |Sprite BotW= File:BotW Bow of Light Icon.png
+ |Sprite TotK= File:TotK Old Wooden Bow Icon.png
+ |Sprite EoW= File:EoW Bow of Might Lv. 2 Icon.png
+}}
+|caption= 
+|pronunciation= 
+|plural= 
+|game= TLoZ, ALttP, LA, OoT, MM, FS, TWW, FSA, TMC, TP, PH, ST, SS, ALBW, TFH, BotW, TotK, EoW
+|other= TLoZ (TV Series), ZA, AST, SSBM, SCII, SSBB, NL, HW, SSB4, SSBU
+|cost= 
+{{Infobox Game Blocks
+ |LA= 980 [[Rupee]]s
+}}
+|value= 
+|location= 
+{{Infobox Game Blocks
+ |TLoZ= [[Level 1]] {{Exp|First Quest}}, [[Level 5]] {{Exp|Second Quest}}
+}}
+|uses= 
+{{List|
+ * Shooting [[Arrow]]s
+ * Defeating distant [[Enemy|Enemies]]
+ * Hitting [[Switch]]es
+}}
+|strength= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|2}} {{Exp|With Arrows}}, {{HP|TLoZ|4}} {{Exp|With Silver Arrows}}
+ |OoT= {{HP|OoT|2}} {{Exp|With Arrows or Light Arrows}}, {{HP|OoT|4}} {{Exp|With Ice Arrows or Fire Arrows}}
+}}
+|durability= 
+|comp= 
+{{List|
+ * [[Slingshot]]
+ * [[Seed Shooter]]
+ * [[Crossbow]]
+}}
+|sample= 
+|theme= 
+}}
+{{Term/Store|Bow|Bows|Series, TLoZ, ALttP, LA, LADX, LANS, FS, FSA, TMC, PH, ST, SS, ALBW, TFH, BotW, TotK, NL, HW, HWL, HWDE, CoH|plural}},{{Exp Game|TLoZ, ALttP, LA, FS, FSA, TMC, PH, ST, SS, ALBW, TFH, BotW, TotK, NL, HW, CoH}}<ref name="E 118">{{Cite Book|quote= |book= E |publisher= |page= 118 {{Exp Game|TLoZ, ALttP, LA, OoT, MM, TWW, FS, FSA, TMC, TP, PH, ST, SS, ALBW, TFH}}}}</ref><ref>{{Cite|Bow<br/>Attack far-off enemies while keeping your distance.|Inventory|LANS}}</ref><ref>{{Cite Guide|BotW Piggyback|page= 291}}</ref><ref>{{Cite Guide|TotK Piggyback|page= 420}}</ref><ref>{{Cite|Bow|Monita|NL}}</ref>{{Name Ref|HWDE}} also known as {{Term/Store|Hero's Bow|Hero's Bows|MM, MM3D, TWW, TWWHD, TP, TPHD|plural}},{{Exp Game|MM, TWW, TP, HWL}}<ref name="E 118"/><ref>{{Cite|{{Color HWDE|Green|Hero's Bow}}: Use this to dispel tornados.|Tutorial|HWDE}}</ref> and {{Term/Store|Fairy Bow|Fairy Bows|OoT, OoT3D|plural}},{{Exp Game|OoT}}<ref name="E 118"/> are recurring [[Item]]s in {{TLoZ Series}}.
+
+{{OTOC}}
+
+==Location and Uses==
+The Bow allows [[Link]] to fire [[Arrow]]s as its main ammunition, allowing him to snipe [[Enemy|Enemies]] and faraway objects such as [[Switch]]es.<ref>{{Cite Guide|PH Prima|page= 11}}</ref>
+
+Being a staple item in {{TLoZ Series}}, the Bow is almost always found in a [[Dungeon]]. Typically the item is often guarded by a [[Mini-Boss|Sub-Boss]], most commonly within the console ''Zelda'' games with a few exceptions. In the top-down styled ''Zelda'' games, the Bow can shoot Arrows at any cardinal direction. In the 3D console games, the Bow instead switches to a first-person view and can fire Arrows at any angle. Since its debut, the Bow has been expanded to be equipped with and fire other varieties of Arrows, such as the [[Fire Arrow|Fire]] and [[Ice Arrow]]s, among a few others.
+
+The [[Bow of Light]] is a recurring upgraded form of the Bow, which fires Arrows of sacred light. The [[Crossbow]] is a variant of the regular Bow, which instead fires Arrows from a wide angle, and has only appeared in ambiguous and non-canon media.
+
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+In {{TLoZ}}, the Bow is found in [[Level 1]] of the First Quest and in [[Level 5]] of the [[Second Quest]]. In order to use the Bow, [[Link]] must purchase an [[Arrow]] from a [[Shop]] for 80 [[Rupee]]s.<ref>{{Cite Manual|quote= Link can use them only if he has both the bow and an arrow.|game= TLoZ|page= 24}}</ref> After Link has done so, he will be able to shoot the Bow by consuming one [[Rupee]] per Arrow shot.<ref>{{Cite Manual|quote= For each arrow Link shoots, he loses one ruby.|game= TLoZ|page= 24}}</ref> The Bow and Arrow deals [[Weapon Strength#The Legend of Zelda|2]] damage to [[Enemy|Enemies]] that can be inflicted by them. [[Pols Voice]]s are weak to Arrows and will be defeated by them in one hit. [[Gohma]]s can only be defeated with the Bow and Arrow.<ref>{{Cite Manual|quote= Oh, by the way, there are some enemies that can be disposed of using only the bow and arrow. So be alert!|game= TLoZ|page= 24}}</ref> Link can also shoot [[Silver Arrow]]s from the Bow, which must be used as the final blow on [[Ganon]] to destroy him.
+
+==={{ALttP|-}}===
+{{Descriptions ALttP}}
+In {{ALttP}}, the Bow is found in the [[Eastern Palace]]. [[Arrows]] are now introduced as ammunition items, allowing the Bow to fire Arrows without using [[Rupee]]s. The Bow is a powerful weapon whose Arrows inflict piercing damage to most [[Enemy|Enemies]], making it a stronger weapon than the starting [[Sword]]. In some situations it is the only weapon that can damage certain Enemies, namely the [[Eyegore]]s. Aside from attacking Enemies at a distance, it can also be used to hit and activate [[Switch]]es that are out-of-reach. While mostly used to solve puzzles, the Bow is also necessary to defeat Ganon by shooting a Silver Arrow when he is weakened.
+
+The Bow is also used to play the [[Shooting Gallery]] game in the [[Village of Outcasts]].
+
+==={{LA|-}}===
+{{Descriptions LA}}
+In {{LA}}, the Bow is not found in any dungeon but is instead bought from the [[Town Tool Shop]] in [[Mabe Village]] for 980 Rupees, making it one of the most expensive items in ''The Legend of Zelda'' series. It can, however, simply be [[Thievery|stolen]]. The Bow becomes available once Link has bought the [[Deluxe Shovel]] from the store. Like the Bow in {{ALttP|-}}, the Bow is able to inflict heavy damage onto most [[Enemy|Enemies]], and in some cases is one of the very few items that can damage certain Enemies, such as the [[Armos]] who are normally invincible to the Sword. Despite its usefulness, the Bow is not actually required up to a certain point. It becomes necessary to shoot at a cyclops statue in [[Turtle Rock]] to make a [[Key]] drop.
+
+==={{OoT|-}}===
+{{Main|Fairy Bow}}
+In {{OoT}}, the [[Fairy Bow]] can be found in the [[Forest Temple (Ocarina of Time)|Forest Temple]], awarded after Link defeats the three [[Stalfos]].
+
+==={{MM|-}}===
+{{Descriptions MM}}
+In {{MM}}, the Hero's Bow is found in the [[Woodfall Temple]], guarded by a lone [[Dinolfos]]. The Bow is required to solve puzzles and defeat certain [[Enemy|Enemies]] and [[Mini-Bosses]], including [[Gekko]], the [[Wizzrobe]]s, [[Mad Jelly]], and Eyegores. As in {{OoT|-}}, Link obtains the Fire, Ice, and Light Arrows to equip his Bow with, all of which are found in the subsequent Temples.
+
+Horseback archery returns in {{MM|-}}, made possible by riding Epona once Link has retrieved her. Horseback archery plays a less significant role in {{MM|-}} as it is not required to complete anything, although it can be used as a strategy to fend off the [[Ghost (Majora's Mask)|Ghost]]s at [[Romani Ranch]] during the night of the [[First Day]].
+
+The Bow can also be used to play a variety of archery games found throughout [[Termina]]. It is used to play the Shooting Gallery games found in [[East Clock Town]] and the [[Southern Swamp]], as well as the archery game sponsored by the [[Swamp Tourist Center]], in which Link must shoot at [[Koume]]'s hanging target without actually shooting her. A fourth target-shooting game is provided in [[Honey and Darling's Shop]], although the Bow is not necessarily required to play it.
+
+==={{FS|-}}===
+{{Descriptions FS}}
+{{Stub|FS}}
+In {{FS}}, the Bow can be obtained as a temporary item in certain areas of Stages. It handles similarly to how it behaved in {{ALttP}}.
+
+==={{TWW|-}}===
+In {{TWW}}, the Hero's Bow is found in the [[Tower of the Gods]]. The Bow is used to shoot targets such as [[Eyeball Switch|Eye Plaques]] to activate doors and platforms. Some [[Enemy|Enemies]], such as [[Beamos]] and [[Gohdan]], can only be defeated using the Bow. Link also receives the Fire, Ice, and Light Arrows during his quest. Unlike previous games, {{TWW|-}} implements such Arrow varieties right into the Bow itself as modes, so that Link can easily and instantly switch between any of them (by use of the R-button) without needing to go into any subscreens beforehand.
+
+The Bow is also used to play a shooting mini-game with the [[Fishman]], provided Link has already had a portion of his [[Sea Chart]] filled. The game requires Link to shoot Arrows at the Fishman to help relieve his body aches.<ref>{{Cite|That's a fine-looking bow you got there! Where'd you get that? If you're not in any kind of hurry, why don't you stop and play with me a bit?|Fishman|TWW}}</ref>
+
+During the final battle against Ganondorf, Princess Zelda uses Link's Bow to cover for him by shooting Light Arrows at Ganondorf, stunning him and allowing Link to strike him with the [[Master Sword]]. 
+
+==={{FSA|-}}===
+{{Descriptions FSA}}
+In {{FSA}}, the Bow appears as a temporary item in certain Stages, similarly to {{FS|-}}. It is most often used to solve certain puzzles, but can also be used to attack [[Enemy|Enemies]] from afar. The [[Links]] can also upgrade their Bow by presenting it to a [[Great Fairy]] at her fountain, which she will raise to Level 2 - a stage at which not only gains the power to charge Arrows, but also can shoot an array of three Arrows at a time, instead of the standard one.<ref>{{Cite Manual|quote= Tap A Button to fire three rapid shots. The time that you have to hold the A Button is shorter than that for the normal high-speed arrow.|game= FSA|page= 29}}</ref>
+
+==={{TMC|-}}===
+{{Descriptions TMC}}
+In {{TMC}}, the Bow is found in the northwestern section of [[Castor Wilds]]. Link obtains it by shrinking to [[Minish]] size and entering a small hole beyond a puddle of water, where he fights a group of five [[Mulldozer]]s that relinquish the Bow once defeated. The Bow is used to defeat [[Enemy|Enemies]] and activate [[Switch]]es, most notably the wall-mounted [[Eyeball Switch]]es. It is also required to fight [[Eyegore Statue]]s, which are initially inactive and will only move once an Arrow is shot into their eye. Unlike previous games, the Bow is not nearly as powerful as it once was and the upgraded [[Four Sword]] is usually stronger in most circumstances.
+
+Link can also get his Bow upgraded to shoot Light Arrows, provided if he does so before traveling to the [[Palace of Winds]]. Once Link has [[Kinstone Fusion|Fused]] [[Kinstone]]s with [[Strato]] at [[Hyrule Town]], he will be able to enter the [[Home of the Wind Tribe]] via a portal. Link must then use the [[Gust Jar]] to remove a ghost from [[Gregal]], curing him of his possession and preventing his death. When Link later revisits him, he will receive the Light Arrows. The upgrade allows Link to charge his Bow by holding the button it is equipped to, which will allow it to shoot stronger Light Arrows.
+
+==={{TP|-}}===
+In {{TP}}, the Hero's Bow is kept in the [[Goron Mines]]. It is the treasure of the [[Goron]]s and once belonged to the hero of legend.<ref name="Hero's Bow">{{Cite|You got the Hero's Bow! This Goron treasure once belonged to a hero of legend.|N/A|TP}}</ref><ref name="Hero of the Past">{{Cite|...Ah! So THAT is why you are here! In that case, take the weapon of the Hero of the past...|Dangoro|TP}}</ref> The item is guarded by the Goron [[Dangoro]], who suspects that Link has come to steal the weapon.<ref>{{Cite|Whoa... Human?! What business does a human have coming here?! None! No business! This is a forbidden place! I will protect this treasure from you!|Dangoro|TP}}</ref> After being defeated, Dangoro realizes that Link has come to save [[Darbus]] and allows him to take the weapon so that he can save the Goron patriarch. While Link cannot obtain specialized Arrows in this game, he can combine his Arrows and [[Bomb]]s together to create explosive [[Bomb Arrow]]s.
+
+The [[Hawkeye]] can be used in conjunction with the Bow as a sniper scope, which adds a crosshair for better aim. The Hawkeye can be purchased in [[Malo Mart]] after playing a target-shooting game with [[Talo]] and [[Malo]] in Kakariko Village.
+
+As in {{OoT|-}} and {{MM|-}}, Link can also fire the Bow while riding Epona. This is used to great extent while escorting [[Telma]] and her wagon through Hyrule Field, as [[Bulblin]] archers will attempt to set fire to the wagon with Fire Arrows from afar and [[Kargarok]]s disrupt the journey by dropping explosives to scare Telma's horse. Horseback archery is also used to fight [[King Bulblin]] when he is encountered at the [[Great Hylian Bridge]] during the escort; Link must fire Arrows at the weak points in his armor to proceed.
+
+During the penultimate fight against Ganondorf, Princess Zelda calls upon the [[Spirits of Light]] to receive the Light Arrows and aids Link with her [[Zelda's Bow|own Bow]] by shooting at Ganondorf to stun him while on horseback. This allows Link to close in on Ganondorf without interference and strike him with the Master Sword.
+
+==={{PH|-}}===
+In {{PH}}, the Bow is found in the [[Temple of Courage]]. The Bow is used differently in this installment, as the stylus and touch screen are dominantly used during all aspects of gameplay. Unlike the manual aiming and shooting of the Bow as seen in previous titles, the Bow is shot simply by tapping the touch screen with the stylus in the direction of a target or at the target itself. A line may also be drawn from Link to the target to better aim and shoot an Arrow; even if the line does not reach the target in question, Link's vision range will increase, revealing targets previously concealed by the borders of the normal game screen. As in previous games, the Bow is used mainly to snipe [[Enemy|Enemies]] and far off objects, especially [[Eyeball Switch]]es. [[Arrow Aimer]]s are used to redirect Arrows to whichever direction they are pointing at, by shooting an Arrow into the orb. These Orbs allow Link to strike objects that are obscured at an angle.
+
+The Bow is also used to play a target-shooting game at [[Molida Island]].
+
+==={{ST|-}}===
+In {{ST}}, the Bow is obtained at the [[Fire Temple (Spirit Tracks)|Fire Temple]]. The Bow uses the same control scheme as in {{PH|-}}, by using the stylus and touch screen to aim and fire an Arrow. Arrow Aimers return and are again used to redirect Arrows to other directions.
+
+An upgrade to the Bow, called the [[Bow of Light]], is obtained at the [[Sand Temple]] after the defeat of [[Skeldritch]]. The Bow is able to charge its Arrows and fire bolts of sacred light, producing a stronger attack. It was once used by the [[Spirits of Good]] against the Demon King [[Malladus]], and Link and Zelda are urged to find it as a means of driving his spirit from Zelda's body.<ref>{{Cite|In the battle between the Demon King and the spirits, there was a weapon called the Bow of Light... Perhaps it can drive his spirit from your body.|Anjean|ST}}</ref> Aside from shooting stronger Arrows, the Bow plays a pivotal role in the final battle against Malladus. After reconnecting her spirit with her body, Zelda takes the Bow of Light and uses it to stun Malladus in [[Cole]]'s body, allowing Link to strike him.
+
+The [[Pirate Hideout]] features a target-shooting game in which Link must shoot at the [[Miniblin]]s with the Bow to rescue a Goron child trapped in the hideout.
+
+==={{SS|-}}===
+In {{SS}}, the Bow is kept at the [[Sandship]] and obtained after defeating [[LD-002G Scervo]]. The Bow is utilized by pulling back the Nunchuk similarly to how one would pull back the string of a bow. By holding the C-button on the Nunchuk, Link can shoot an Arrow by releasing said button. However, the A-Button can be pressed instead of using the aforementioned method, although it takes longer for the Arrow to charge up. Normal [[Enemy|Enemies]] can be shot with the Bow as well as items that can be knocked off of trees. Dropped items from Enemies (such as [[Heart]]s) can also be shot with an Arrow, causing them to stick in the side of walls. Doing so will allow Link to reclaim the Heart as well as the Arrow.
+
+Link can also upgrade the Bow at the [[Skyloft Bazaar]]'s [[Scrap Shop]] for a fee, which increases its range and strength.
+
+====Upgrades====
+{{Upgrades|SS|Bow}}
+
+==={{ALBW|-}}===
+In {{ALBW}}, the '''Rented Bow''' can be rented from [[Ravio's Shop]]. It is the first item that Ravio rents to Link, initially for free so he can enter the [[Eastern Palace]]. Afterwards the Bow can be rented for a fee of 10 Rupees,<ref>{{Cite|Oh dear... Look at you. Does this happen a lot? The hero business seems like awfully tough work. I'm not cut out for that kind of life. But I guess you just gotta get up off the floor and start again! You'll be needing the bow again? All right then! But this time, I'm afraid I'm going to have to ask for my rental fee. It's 10 Rupees, OK?|Ravio|ALBW}}</ref> followed by 50 Rupees once the Eastern Palace is cleared. Like Ravio's other rented items, Link will lose the Bow if he collapses during battle, in which Ravio's bird [[Sheerow]] will appear to recollect the Bow, forcing Link to rent the item again. Once Link obtains all three [[Pendants of Virtue]], he will be able to purchase the Bow to keep for 800 Rupees. The Bow is used similarly in past 2D ''Zelda'' games, but now no longer uses ammunition and instead uses [[Stamina]] to fire Arrows.
+
+The purchased Bow can be upgraded to the '''Nice Bow''' by [[Mother Maiamai]] once Link has rescued at least ten lost [[Maiamai]]s. This Bow fires an array of three Arrows at once.
+
+Link is also given the Bow of Light by Zelda during the last phases of the final battle against [[Yuga Ganon]], when he [[Wall Merging|merges into the wall]]. This Bow is unique as it allows Link to fire Arrows when he has wall merged, which becomes necessary to distract Yuga to strike him from behind.
+
+==={{TFH|-}}===
+In {{TFH}}, the Bow appears in certain [[Levels in Tri Force Heroes|Levels]] as an item the [[Links]] can use for the duration of that Level, similarly to those in {{FS|-}} and {{FSA|-}}. The Bow is used identically to the one from {{ALBW|-}}, as it uses Stamina instead of actual ammunition to launch Arrows. The Bow is often used in solving puzzles; some unique puzzles require the Links to form a [[Totem]] so that the top Link can fire an Arrow at a target. This can also be used as a strategy in fighting [[Enemy|Enemies]] who are stacked on top of each other. The [[Kokiri Clothes]] can be worn to upgrade the wearer's Bow, allowing it to shoot an array of three Arrows at once.
+
+The Bow is acquired by all three Links in the first Level of {{TFH|-}}, the [[Deku Forest (Level)|Deku Forest]]. It then appears in [[Buzz Blob Cave]] (three Bows), [[Moblin Base]] (two Bows), [[Forest Temple (Tri Force Heroes)|Forest Temple]], [[Hinox Mine]], [[Fire Temple (Tri Force Heroes)|Fire Temple]], [[Training Ground]], [[Palace Noir]], [[Floating Garden]], and [[Sky Temple]] (one Bow per Stage). They also appear in the [[Forest Zone]], [[Flooded Zone]], [[Fortified Zone]], [[Shadow Zone]] and [[Baneful Zone]] of the [[Den of Trials]], as well as the [[Coliseum]]'s Woodlands and The Ruins arenas.
+
+==={{BotW|-}}===
+{{Main|Bows in Breath of the Wild}}
+[[File:BotW Bow Icon.png|left]]
+Bows are no longer a singular item in {{BotW}}, but an entire class of weapons with varying stats that [[Link]] can equip. As such, Bows can be found much earlier and more easily than in previous games. However, Bows have a [[Durability]] system and will break after repeated uses. To counteract this, several Bows can be carried and switched between as needed. Different types of [[Arrow]]s, such as [[Fire Arrow]]s, can also be obtained and used with Link's currently equipped Bow.
+
+Some Bows, like [[Lynel Bow]]s and [[Forest Dweller's Bow]]s, shoot multiple Arrows. Most shoot three Arrows, although [[Duplex Bow]]s shoot two and a randomly-occurring item bonus allows some Bows to shoot five Arrows. Multiple-shot Bows do not consume multiple Arrows. Two additional types of Bow, [[Phrenic Bow]]s and [[Golden Bow]]s, allow Link zoom in and gain a clearer view of the area they are aiming at when the Bow is used. This effect also increases the range of the Bow's shots, allowing Link to hit targets that are further away then would otherwise be possible.
+
+A slow-down effect will occur when Link aims with a Bow while airborne. While aiming, Link's [[Stamina]] will be drained quickly and he will not be able to aim once it runs out. Link can stop the slow-down effect by pulling out the [[Paraglider]] or canceling it by pressing the B button twice.
+
+Link can carry a maximum of 13 Bows after completing upgrades with [[Hestu]].<ref>{{Cite|Shakalo... I can expand your {{Color BotW|Blue|bow stash}} no further.|Hestu|BotW}}</ref>
+
+==={{TotK|-}}===
+{{Main|Bows in Tears of the Kingdom}}
+Most of the Bows in {{BotW}} are also present in {{TotK}} alongside new varieties. Unlike in {{BotW|-}}, [[Link]]'s [[Stamina]] does not drain when he aims a Bow while airborne. Instead, 30% of a [[Stamina Wheel]] will be depleted for each shot he takes with a Bow. This is reduced to 10% in low-[[Gravity]] areas.
+
+==={{EoW|-}}===
+{{Main|Bow of Might}}
+{{Checklist
+ |game= EoW
+ |type= Items
+ |category= Items in Echoes of Wisdom
+ |needs= 
+Detailed information on the following:
+* Who owns/uses Bows
+* Whether there is an Arrow capacity limit
+}}
+{{Stub|EoW}}
+[[Link]] uses the [[Bow of Might Lv. 2]] while rescuing [[Zelda]] from [[Ganon]].
+
+==Arrows==
+{{Main|Arrow}}
+Arrows are the most important aspect of the Bow, considering they are the projectiles needed for it to function properly. Unlike the Bow, which must be equipped to use, Arrows are automatically drawn upon its use. While Arrows are the stable ammunition of the Bow, there also exists different varieties like the Fire Arrow and Bomb Arrow. These Arrows usually must be equipped to the Bow in order to use them. Some varieties require varying increments of [[Magic Power]]; these Arrows only exist in {{OoT|-}}, {{MM|-}}, and {{TWW|-}}, which actually incorporate Magic into the gameplay.
+
+==Other Appearances==
+==={{TLoZ|-}} TV Series===
+{{Noncanon|Start}}
+{{Main|Zelda's Bow}}
+In {{TLoZ (TV Series)}}, the Bow is mostly used by Princess Zelda and by [[Enemy|Enemies]] such as Stalfos and [[Moblin]]s. The Bow differs from its in-game appearance as it shoots beam-like Arrows instead of the usual Arrows. Link is only seen using it once in the "[[Underworld Connections]]" episode, where he fires an Arrow tied to a rope to walk to the princess's alcove.
+{{Noncanon|End}}
+
+==={{ZA|-}}===
+{{Noncanon|Start}}
+{{Descriptions ZA}}
+In {{ZA}}, the Bow & Arrow appears as a [[Spells of Zelda's Adventure|Spell]] which lets Zelda fire Arrows with her [[Items in Zelda's Adventure#Wand|Wand]]. It is dropped by a swarm of [[Loccasin]]s early in the [[Shrine of Air]]. The Spell costs 1 Rupee to use.
+{{Noncanon|End}}
+
+==={{SSB|-}}===
+{{Noncanon|Start}}
+{{Hatnote|See {{ssb|Main Page|SmashWiki's}} article on {{ssb|Hero's Bow|Bow}} for more information.}}
+[[File:Bow (SSBB).jpg|thumb|200px|right|Link getting ready to fire an Arrow from his Bow in {{SSBB|-}}]]
+In {{SSBM}}, {{SSBB}}, {{SSB4}}, and {{SSBU}}, the Bow is Link's, [[Young Link]]'s, and [[Toon Link]]'s {{ssb|Neutral special move}}. For all Bows used by the different Links, the more the Bow is charged, the farther the Arrow will travel and the more damage it will inflict.
+{{Noncanon|End}}
+
+==={{SSBM|-}}===
+{{Noncanon|Start}}
+Both Link and Young Link use the Fairy Bow from {{OoT|-}} in {{SSBM}}. However, instead of shooting normal Arrows, Young Link's Bow shoots Fire Arrows, although they do not travel as far as Link's and inflict less damage.
+{{Noncanon|End}}
+
+==={{SCII|-}}===
+{{Noncanon|Start}}
+:''How to perform:'' {{Icon|SCII Horizontal Attack}}{{Icon|SCII +}}{{Icon|SCII Vertical Attack}}
+In {{SCII}}, Link can take out the Fairy Bow by simultaneously pressing the horizontal attack button and the vertical attack button. By holding the vertical attack button, he will charge his Bow. The more time that the Bow is charged, the more powerful the attack becomes. A fully charged Bow will allow Link to release a Fire Arrow instead of a normal Arrow. By tilting the control stick upwards or downwards, Link can change the direction that the Arrow will take, making the Bow a high, mid, and low attack. A normal Arrow will deal at least 40 HP worth of damage, while a Fire Arrow will deal a maximum of 60 HP damage. A hit from a Bow's Arrow, whether charged or not, will cause Link's opponent to fall to the ground.
+{{Noncanon|End}}
+
+==={{SSBB|-}}===
+{{Noncanon|Start}}
+The Hero's Bow from {{TP}} replaces the Fairy Bow in {{SSBB}} as Link's Bow. The Arrows of this Bow fly much faster and farther than those in {{SSBM}}, able to easily clear the wide [[Bridge of Eldin]] stage when fully charged. This is more akin to their canon appearances, as Arrows in {{TLoZ Series}} always fly straight forward and never succumb to the more realistic effects of gravity as they always do in {{SSB}} In addition, {{TWW}}'s version of the Hero's Bow is used by Toon Link; however, the Arrows of his Bow fly more slowly than those of any previous game, and also have a slight upward arc to their trajectory.
+
+Zelda's Bow from {{TP|-}} also appears as a [[Sticker]], although it is referred to as the Hero's Bow.
+
+====Sticker Information====
+{{SSBSticker|header=yes}}
+{{#section:Sticker|Hero's Bow}}
+|}
+{{Noncanon|End}}
+
+==={{NL|-}}===
+{{Noncanon|Start}}
+{{Stub|NL}}
+{{Descriptions NL}}
+
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+The Bow appears as an item obtained in "[[The Sorceress of the Woods]]" Scenario in {{HW}}. The Bow is used to fire Arrows that inflict minor damage, but can also be used to stun or instantly kill certain [[Enemy|Enemies]]. The Bow can temporarily be upgraded to fire Light Arrows by picking up its power-up in battles, increasing its damage and area of effect for its duration. Its duration can be extended by crafting [[Hawkeye]] [[Badge]]s for Warriors. It is the only weapon that can kill [[Deku Baba]]s, which first appear in "The Sorceress of the Woods", as they emit a poisonous aura that they hide in whenever another attack is directed towards them, thus requiring the use of the Bow. The Bow is also used to stun [[Gohma]] when it shows its weak spot during the boss battles against it.
+
+A different kind of upgrade that fires Light Arrows is also temporarily granted by Zelda during "[[Liberation of the Triforce]]", where its use is necessary to stun and defeat Ganon. In [[Adventure Mode]] battles where Ganon is fought, the regular Bow is capable of stunning him.
+
+Princess Zelda also uses a Bow that fires Light Arrows as part of her [[Rapier]] moveset. This Bow is different compared to the item Bow, as it is executed by pressing the Strong Attack button, is used in her [[Special Attack]] and as her [[Weak Point Smash]].
+{{Noncanon|End}}
+
+==={{SSBU|-}}===
+{{Noncanon|Start}}
+The [[Traveler's Bow]] from {{BotW}} replaces the Hero's Bow as Link's Bow in {{SSBU}}. Like in {{BotW|-}}, when Link fires an [[Arrow]] it stays on the ground for a period of time, which can then be picked up and thrown or used to draw two Arrows at once for double damage.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+{{Stub|CoH}}
+The Bow appears as a key item that can assist [[Cadence]], [[Link]], and [[Princess Zelda|Zelda]] in attacking [[Enemy|Enemies]] at a distance.<ref>{{Cite|{{Color CoH|Yellow|Bow}} -- Assign it to {{Icon|CoH A}} {{Icon|CoH B}} {{Icon|CoH X}} {{Icon|CoH Y}}<br/>Hold the button down and release on the following beat to fire an attow that can hit enemies from a distance.|Inventory|CoH}}</ref> It can later be upgraded to the [[Great Bow]].
+{{Noncanon|End}}
+
+==Trivia==
+*The Bow has also been used as a weapon by several Enemies, including [[Bow Moblin]]s, [[Bow Soldier]]s, Bulblins, [[Bokoblin]]s, and [[Stalkoblin]]s. Generic Moblins and [[Shrouded Stalfos]] are also implied to carry Bows, as they shoot projectiles that resemble Arrows.
+*Given the name "Hero's Bow", it may well be the same Bow used throughout many of the games, or at least inspired by the original Bow. According to Dangoro, the Hero's Bow of {{TP|-}} is said to have once belonged to a hero from the past.<ref name="Hero's Bow"/><ref name="Hero of the Past"/>
+*In {{MM|-}}, all four main dungeon items pertain to the Bow. Woodfall Temple features the Bow itself, while the [[Snowhead Temple]] has Fire Arrows, the [[Great Bay Temple]] has Ice Arrows, and the [[Stone Tower Temple]] has Light Arrows.
+*A majority of [[Enemy|Enemies]] notably use Bows and Arrows throughout the series.
+*When the bow is used while airborne in {{TotK}}, the speed of the Arrow being fired and temporary status effect timer are not affected by the slow-down effect, unlike Flurry Rush.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{Gallery}}
+
+==See Also==
+{{See Also|
+ * Arrow
+ * Bow of Light
+ * Crossbow
+ * Fairy Bow
+ * Zelda's Bow
+}}
+
+{{Ref}}
+
+{{Categories
+ |Bows, Item Cards
+ |items= TLoZ, ALttP, LA, LADX, LANS, FS, FSA, TMC, PH, ST, SS, ALBW, TFH, BotW, TotK, EoW, AST, NL, HW, HWL, HWDE
+}}
+[[de:Bogen]]

@@ -1,0 +1,93 @@
+{{Disambiglink|For the fire department in the original [[Grand Theft Auto (1997 game)|Grand Theft Auto]], see [[San Andreas Fire Department (2D Universe)]].}}
+{{Infobox business
+|Name Change = FIRE DEPARTMENT
+|name = Fire Department of San Andreas
+|image = FDSAlogo-GTASA.png
+|caption = '''Fire Department of San Andreas''' logo.
+|type = Fire service
+|games = {{Games|SA=y|V={{H:title|Mentioned appearance|[?]}}}}
+|locations = '''[[State of San Andreas (3D Universe)|San Andreas]]'''
+*[[Los Santos (3D Universe)|Los Santos]]
+*[[Las Venturas (3D Universe)|Las Venturas]]
+*[[San Fierro (3D Universe)|San Fierro]]
+}}
+The '''Fire Department of San Andreas''' ('''FDSA'''<ref>As abbreviated on the side of [[Firetruck (3D Universe)|Fire Trucks]]</ref><ref>[[File:FireTruck-GTASA-Livery.png|thumb|left|300px|[[Firetruck (3D Universe)|Fire Truck]]'s texture.]]{{Clr}}</ref>), also known as the '''San Andreas Fire Department''' and '''San Andreas County Fire Department'''<ref>As named on the front of [[Firetruck (3D Universe)|Fire Trucks]]</ref>, is a [[:Category:Fire departments|fire service]] in {{SA}} and mentioned in {{V}}, operating in [[State of San Andreas (3D Universe)|San Andreas]].
+
+==Description==
+===''Grand Theft Auto: San Andreas''===
+The FDSA appears to be a state-wide service with individual department branches in each major city; [[Los Santos (3D Universe)|Los Santos]], [[San Fierro (3D Universe)|San Fierro]] and [[Las Venturas (3D Universe)|Las Venturas]].
+
+The stations themselves do not have any prominent use or appearances during missions; however, they do serve as spawn points for [[Firetruck (3D Universe)|Fire Trucks]]. There is also a small fire station near the control tower at [[Easter Bay Airport]], San Fierro.
+
+What appears to be an inconsistency is the signage and naming of the stations in each city. The [[San Fierro Fire Station]]'s signage reads "''San Fierro Fire Dept.''", indicating it operates its own fire service. Despite this, all fire stations, including the [[San Fierro (3D Universe)|San Fierro]] branch, utilize FDSA [[Firetruck (3D Universe)|Fire Trucks]]. The response of individual pedestrian firefighters who bear "LVFD", "LSFD" and "SFFD" markings on their backs further references inconsistency between a state-wide service and individual cities. This is likely a developer oversight.
+
+According to signage, the [[Las Venturas Fire Station]] houses the [[Hazardous Materials Response Team]], likely an allusion to [[wp:HAZMAT|HAZMAT]] services.
+
+===''Grand Theft Auto V''===
+[[File:SanAndreasFireDepartment-GTAV-FireHydrant.PNG|thumb|270px|'''SAFD''' fire hydrant.]]
+Although the San Andreas Fire Department doesn't make any physical appearance in {{V}}, "SAFD" is written on yellow fire hydrants across the state. Instead of the SAFD as a state-wide service, [[Los Santos Fire Department]], written also as "Los Santos County Fire Department" serves the counties of [[Los Santos County|Los Santos]] and [[Blaine County|Blaine]].
+
+{{Clr}}
+
+==Behavior==
+The FDSA will respond to any fires ablaze in San Andreas. Two firefighters will arrive at the scene in a [[Firetruck (3D Universe)|Fire Truck]] and utilize the on-board deck gun to extinguish the fire. After the fire is extinguished, they will leave the scene, but will remain on-call and return to fires if they do not despawn off-scene, in which case more firefighters will respond. Like the [[San Andreas Medical Service]], FDSA only respond within San Andreas' major cities: Los Santos, Las Venturas and San Fierro, and will not respond to emergencies in far outskirts, akin to the fact there are no rural fire stations.
+
+==Locations==
+The FDSA have stations at each of the three major cities in San Andreas, along with a smaller airport station at the [[Easter Bay Airport]].
+
+<gallery position="center" spacing="small" widths="250px">
+LosSantosFireStation-GTASA.jpg|[[Los Santos Fire Station]] in [[Commerce]], [[Los Santos (3D Universe)|Los Santos]].
+SanFierroFireStation-GTASA.jpg|[[San Fierro Fire Station]] in [[Doherty (3D Universe)|Doherty]], [[San Fierro (3D Universe)|San Fierro]].
+LasVenturasFireStation-GTASA.jpg|[[Las Venturas Fire Station]] in [[Redsands West]], [[Las Venturas (3D Universe)|Las Venturas]].
+EasterBayAirportFireStation-GTASA.jpg|[[Easter Bay Airport Fire Station]] at [[Easter Bay Airport]], San Fierro.
+</gallery>
+
+==Uniform==
+Different pedestrian models for the Fire Department of San Andreas are used for each city. The [[Los Santos (3D Universe)|Los Santos]] firefighter uniform consists of tan turnout gear with orange and white striping (with "LSFD" lettering at the back), and a yellow helmet (numbered 15) with transparent goggles. The [[San Fierro (3D Universe)|San Fierro]] firefighter uniform consists of black turnout gear with orange and white striping (with "SFFD" lettering at the back), and a black helmet (numbered 69) with black goggles. The [[Las Venturas (3D Universe)|Las Venturas]] firefighter uniform consists of yellow turnout gear with yellow and white striping (with "LVFD" lettering at the back), and a black helmet (numbered 69) with black goggles.
+
+All firefighters only appear as males. These pedestrian models are not seen outside fire stations or any other location, and only spawn when responding.
+
+<gallery position="center" spacing="small">
+FDSA-GTASA-LosSantosfirefighter.jpg|[[Los Santos (3D Universe)|Los Santos]] firefighter.
+FDSA-GTASA-SanFierrofirefighter.jpg|[[San Fierro (3D Universe)|San Fierro]] firefighter.
+FDSA-GTASA-LasVenturasfirefighter.jpg|[[Las Venturas (3D Universe)|Las Venturas]] firefighter.
+</gallery>
+
+==Vehicles==
+The FDSA operate three vehicles. The conventional vehicle for use is the [[Firetruck (3D Universe)|Fire Truck]] which is used to respond to emergencies and extinguish fires. This truck spawns with identification numbers 16, 47 or 64.<ref>[[File:FireTruck-GTASA-Livery2.png|thumb|left|300px|[[Firetruck (3D Universe)|Fire Truck]]'s numbers texture. Combinations are mapped individually]]{{Clr}}</ref> A second, much rarer variant of the [[Fire Truck (ladder)|Fire Truck]] featuring a ladder is used by the FDSA but only spawns parked outside the [[San Fierro Fire Station]]. This variant doesn't have any unit numbers and lacks the water gun, meaning it cannot be used to complete [[Firefighter]] side-missions. The third vehicle with FDSA markings is the [[Raindance]]. While not being seen used or utilized by the FDSA, it bears FDSA markings as well as the unit number "371" along the side and can be found parked near the [[Easter Bay Airport Fire Station]], but otherwise locked until completion of [[Learning to Fly]].
+
+<gallery position="center" spacing="small">
+FireTruck-GTASA-front.jpg|A '''Fire Department of San Andreas''' [[Firetruck (3D Universe)|Fire Truck]] in ''[[Grand Theft Auto: San Andreas]]''. (<small>[[:File:FireTruck-GTASA-rear.jpg|Rear quarter view]]</small>)
+FireTruck-GTASA-ladder-front.jpg|A '''Fire Department of San Andreas''' Ladder [[Fire Truck (ladder)|Fire Truck]] in ''[[Grand Theft Auto: San Andreas]]''. (<small>[[:File:FireTruck-GTASA-ladder-rear.jpg|Rear quarter view]]</small>)
+Raindance-GTASA-front.jpg|A '''Fire Department of San Andreas''' [[Raindance]] in ''[[Grand Theft Auto: San Andreas]]''. (<small>[[:File:Raindance-GTASA-RearQuarter.jpg|Rear quarter view]]</small>)
+</gallery>
+
+==Gallery==
+<gallery position="center" spacing="small" widths="270px">
+SanAndreasFireDepartment-GTASA-LosSantos.jpg|'''Fire Department of San Andreas''' firefighters putting out a fire in [[Los Santos (3D Universe)|Los Santos]].
+SanAndreasFireDepartment-GTASA-SanFierro.jpg|'''Fire Department of San Andreas''' firefighters putting out a fire in [[San Fierro (3D Universe)|San Fierro]].
+SanAndreasFireDepartment-GTASA-LasVenturas.jpg|'''Fire Department of San Andreas''' firefighters putting out a fire in [[Las Venturas (3D Universe)|Las Venturas]].
+</gallery>
+
+==Trivia==
+*The Los Santos firefighters' uniform colors are identical to the firefighter uniform of the [[Vice City Fire Department (3D Universe)|VCFD]].
+
+==References==
+{{Reflist}}
+
+==See Also==
+*[[Los Santos Fire Department]] {{nd}} {{HD}} equivalent.
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{3D rescue services|state=collapsed}}
+{{3D fire stations|state=collapsed}}
+}}
+
+[[Category:Fire departments]]
+[[Category:GTA San Andreas]]
+
+[[pl:San Andreas Fire Department]]
+[[ru:Пожарный департамент Сан-Андреаса вселенной 3D]]

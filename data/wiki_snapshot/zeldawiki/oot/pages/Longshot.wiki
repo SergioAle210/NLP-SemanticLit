@@ -1,0 +1,96 @@
+{{Infobox Item
+|image= 
+{{Media
+ |defaultTypeTab= Sprite
+ |Render OoT= [[File:OoT Longshot Render.png|320x320px]]
+ |Render OoT3D= [[File:OoT3D Longshot Render.png|320x320px]]
+ |Model OoT= [[File:OoT Longshot Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Longshot Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Longshot Model.png|320x320px]]
+ |Sprite OoT= [[File:OoT Longshot Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Longshot Icon.png|160x160px]]
+ |Sprite OoTNS2= [[File:OoTNS2 Longshot Icon.png|320x320px]]
+}}
+|caption= 
+|game= OoT
+|other= CoH
+|pronunciation= 
+|plural= 
+|cost= 
+|value= 
+|location= 
+{{Infobox Game Blocks
+ |OoT= [[Water Temple (Ocarina of Time)|Water Temple]]
+}}
+|uses= 
+{{List|
+ * Reaching distant targets
+ * Stunning and damaging [[Enemy|Enemies]]
+}}
+|strength= 
+{{Infobox Game Blocks
+ |OoT= {{HP|OoT|2}}
+}} 
+|durability= 
+|comp= [[Hookshot]]
+|sample= 
+|theme= 
+}}
+'''Longshots''' are recurring [[Item]]s in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Longshot|Longshots|Series, OoT, OoT3D, CoH}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 130"/>
+ * {{OoT3D}}<ref name="E 130"/>
+ * {{CoH}}<ref name="CoH Inventory"/>
+}}
+}}
+
+==Location and Uses==
+==={{OoT|-}}===
+<!-- Obtention:
+You found the {{Color OoT3D|Red|Longshot}}!<br/>It's an upgraded Hookshot that extends {{Color OoT3D|Red|twice}} as far!
+
+Inventory:
+{{Color OoT3D|Red|Longshot}}<br/>An enhanced version of the Hookshot. Its chain stretches to hook far-off targets.
+-->
+The Longshot is an upgraded form of the [[Hookshot]] which can be found inside the [[Water Temple (Ocarina of Time)|Water Temple]]. It is obtained after defeating [[Dark Link]] in the standard versions of {{OoT}}. However, it is obtained much earlier in {{MQ}}.{{Where}} The Longshot has twice the reach as the normal Hookshot,<ref name="OoT N/A"/> allowing [[Link]] to reach more distant targets. The Longshot can pull Link towards Hookshot [[Target]]s, wooden [[Object]]s and some [[Enemy|Enemies]], such as [[ReDead]]s. Similarly, it can pull certain Enemies towards Link, such as [[Morpha]]'s nucleus. The Longshot is required to fully navigate the Water Temple, as many Targets are out of reach for the regular Hookshot. The Longshot can be used to cross the broken bridge in [[Gerudo Valley]] as well as the [[River of Sand]] in the [[Haunted Wasteland]].
+
+Like the Hookshot, the Longshot can deal stun and deal damage to certain Enemies. When pointed at a target within range, a red dot acting as a reticle will appear on-screen. In {{OoT3D}}, this red reticle is accompanied by a circle that encompasses the dot. Additionally, the Longshot can be aimed with the [[Nintendo 3DS]] gyroscope.
+
+==Other Appearances==
+==={{CoH|-}}===
+{{Noncanon|Start}}
+[[File:CoH Longshot Sprite.png|left]]
+The Longshot can be obtained from any [[Dungeon]] in {{CoH}}. The Longshot is an upgrade to the [[Hookshot]], enabling it to stun more [[Enemy|Enemies]] and reach farther distances, including objects that cannot be seen on-screen.<ref name="CoH N/A"/>
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==See Also==
+{{See Also|
+ * Clawshot
+ * Grappling Hook
+ * Gripshot
+ * Hookshot
+ * Long Hook
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 130">{{Cite Book|quote= |book= E |publisher= |page= 130 {{Exp Game|OoT}}}}</ref>
+<ref name="OoT N/A">{{Cite|You found the {{Color OoT|Red|Longshot}}!<br/>It's an upgraded Hookshot. It extends {{Color OoT3D|Red|twice}} as far!|N/A|OoT}}<br/>{{Cite|You found the {{Color OoT3D|Red|Longshot}}!<br/>It's an upgraded Hookshot that extends {{Color OoT3D|Red|twice}} as far!|N/A|OoT3D}}</ref>
+
+<!-- Cadence of Hyrule -->
+<ref name="CoH Inventory">{{Cite|{{Color CoH|Yellow|Longshot}} -- Assign to {{Icon|CoH A}} {{Icon|CoH B}} {{Icon|CoH X}} {{Icon|CoH Y}}<br/>Use it to pull yourself to certain objects or stun and knock back enemies.|Inventory|CoH}}</ref>
+<ref name="CoH N/A">{{Cite|You got the {{Color CoH|Yellow|Longshot}}! Assign it to {{Icon|CoH A}}, {{Icon|CoH B}}, {{Icon|CoH X}}, or {{Icon|CoH Y}} on the inventory screen. An upgrade on your old Hookshot, this item extends farther and can stun more enemies!|N/A|CoH}}</ref>
+}}
+
+{{Categories
+ |Hookshots
+ |items= OoT, OoT3D, OoTNS2, CoH
+}}

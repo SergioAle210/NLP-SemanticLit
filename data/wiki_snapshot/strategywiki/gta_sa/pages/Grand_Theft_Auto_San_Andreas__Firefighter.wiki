@@ -1,0 +1,72 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{{control selector|PlayStation 2,PC,Xbox}}
+
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Vehicle''': Fire Truck.
+|}
+
+This is a very useful, very doable side mission.  Consider doing it early on.
+
+You can attract fire trucks by setting fires (for example, by shooting cars in their gas tanks or by throwing grenades at them), or go to a fire station to find one parked.  One such station is located just south of the Doherty garage in San Fierro.
+
+If you start a fire you might also attract the police, and it can be hard to shake them.  You can't take the firetruck to Pay-N-Spray.  But you can drive to the Pay-N-Spray, get out, get into another vehicle, then take ''that'' to the Pay-N-Spray.  
+
+Get into your fire truck and drive to a suitable location.  Press {{control|{{psx|R3}}|{{kbd|+}}|{{xbox|neutral|Rstick}}}} to start the mission.  Burning vehicles will appear on your map as blue targets.  
+
+Drive up to a burning vehicle and hit {{control|{{psx|X}}|{{mouse|l}}|{{xbox|A}} or {{xbox|B}}}} to activate the water pump on top of the truck.  Use the {{control|{{psx|neutral|Rstick}}|{{mouse}}|{{xbox|neutral|Rstick}}}} to direct the water.  
+
+After you extinguish the vehicle fire, burning passengers may get out.  Douse them the same way.  The only complication is that they run around a little bit.
+
+Each level has the same number of fires (cars plus people) as the level number, but each car will have at most three burning passengers.  After that another car will appear.
+* Level 1: One car
+* Level 2: One car with one passenger
+* Level 3: One car with two passengers
+* Level 4: One car with three passengers
+* Level 5: One car with three passengers and one empty car
+* Level 6: One car with three passengers and one car with one passenger
+* Level 7: One car with three passengers and one car with two passengers
+* Level 8: Two cars with three passengers 
+* Level 9: Two cars with three passengers and one empty car
+* Level 10: Two cars with three passengers and one car with one passengers
+* Level 11: Two cars with three passengers and one car with two passengers
+* Level 12: Three cars with three passengers
+In all you will put out 78 fires.  You have to complete all 12 levels sequentially.
+
+There is a time limit for each level, which increases at each level.
+
+== Tips ==
+* '''Do not hit {{control|{{psx|X}}|{{kbd|enter}}|{{xbox|Y}}}}!'''  This will end the mission and you will have to start over.  Any burning vehicles you were attempting to extinguish will explode.  This may result in the fire truck catching fire and exploding as well.  
+* The fire truck is pretty durable. It won't suffer too much damage in collisions with other vehicles, and it can run over fences and other low obstacles.  It is, however, very prone to rollover.  So watch your speed and cornering and be careful driving on nonlevel surfaces.
+* Aim the water hose '''above''' the heads of the victims, '''not''' at them (no water cannon style hitting). The fire should be put out in about one second if you ''sprinkle'' the water over them. 
+* Get close to the flaming vehicle to extinguish the fire faster. 
+* The flames you fight will not catch the fire truck on fire.
+* If you tip over and manage to not catch fire turn the wheels and hit the gas until you flip back onto the wheels. This works even when you have come to a complete stop on your side.
+
+== Locations ==
+Unlike the [[Grand Theft Auto: San Andreas/Paramedic|Paramedic]] mission, you can attempt this mission anywhere you want.  Look for a place which is flat and not too busy.  
+
+Las Venturas has been suggested as good choice because it's completley flat.  However, the other vehicles and cops can get in the way.  The cops are especially annoying because bumping in to them can get you wanted, and it's hard to run away from them in a fire truck.  
+
+Others like to do this mission in Angel Pine, which is also recommended as a good place for the Paramedic mission because of the low traffic level.  However, the highway south of Angel Pine is up on a hill which makes it easy for the fire truck to roll over.
+
+The northeast corner of Red County, along the expressway that runs north to Las Venturas, is a pretty good balance.  If you start far enough north of Las Santos but south of Hankypanky Point, you can avoid having to fight fires in LS, but also not have to manage too many overpasses.  You might need to go into Palamino Creek, but that's very easy.
+
+== Rewards ==
+{{achievement
+|name=Rescue a Kitten Too?
+|g=40
+|trophy=silver
+|image=GTASA DE Rescue a Kitten Too.png
+|description=Complete 12 levels of Firefighter.
+}}
+Finish level 12 to become fireproof.  This means you can walk through fires without being harmed.  But the concussive force of explosions can still hurt you.
+
+Also, you receive cash bonuses:
+
+* $1850(?) after completing level 4(?)
+* $13450 after completing level 12
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Pimping|nextpage=Paramedic}}

@@ -1,0 +1,777 @@
+{{Infobox Dungeon
+|image= 
+{{Media
+ |Screenshot OoT= [[File:OoT Gerudo Training Ground.png|320x320px]]
+ |Screenshot OoT3D= [[File:OoT3D Gerudo Training Ground.png|320x320px]]
+ |Screenshot OoTNS2= [[File:OoTNS2 Gerudo Proving Grounds.png|320x320px]]
+}}
+|caption= 
+|pronunciation= 
+|location= [[Gerudo's Fortress]]
+|game= OoT
+|other= 
+|item= 
+{{Icon List|OoT3D|
+ * Ice Arrow
+}}
+|quest= 
+|mini-boss= 
+|boss= 
+|temperature= 
+|counter= 
+|theme= 
+|strategy= {{StrategyWiki|The Legend of Zelda: Ocarina of Time/Gerudo Training Grounds|Gerudo Training Ground}}
+|zu= 
+}}
+The '''Gerudo Proving Grounds''', also known as the '''Gerudo Training Ground''', is an optional mini-dungeon in {{OoT}}. It consists of various difficult obstacles that [[Link]] must overcome in order to prove his abilities as a hero. If he manages to complete the training ground, he will be rewarded with the [[Ice Arrow]] as proof of his skill.<ref>{{Cite|You got the {{Color OoT|Dark Blue|Ice Arrow}}! Set it to {{icon|OoT C}} and your arrows will be powered up! If you hit your target, it will freeze. This arrow magic is granted only to those who complete the difficult training of the Gerudos, so use it with pride!|N/A|OoT}}</ref>
+
+{{Terminology
+|-
+| {{Term/Store|Gerudo Proving Grounds||Series, OoTNS2}}
+| {{OoTNS2}}<ref name="OoT Game Screen"/>
+|-
+| {{Term/Store|Gerudo Training Ground||OoT, OoT3D}}
+| 
+{{List|
+ * {{OoT}}<ref name="OoT N/A"/>
+ * {{OoT3D}}<ref name="OoT N/A"/>
+}}
+}}
+
+==Entrance to the Training Ground==
+The Gerudo Training Ground can be found within the [[Gerudo's Fortress]]. In order to enter, [[Link]] must speak to a [[Gerudo]] standing guard outside of the [[Dungeon]]. The cost for entry is proof of membership with the [[Gerudo Token]] and a fee of 10 [[Rupee]]s.<ref>{{Cite|This is the Gerudo's Training Ground. Nobody is allowed to enter without a membership card.|Gerudo|OoT}}</ref><ref>{{Cite|This is the Gerudo {{Color OoT3D|Red|Training Ground}}. Gerudo Token verified. One try for {{Color OoT3D|Red|10 Rupees!}}|Gerudo|OoT3D}}</ref> If Link leaves the Dungeon at any point after paying, the gate blocking its entrance will return and he will have to pay another fee to enter. The gate will also close if Link travels too far away from it while at the Gerudo's Fortress. Link will still be charged a fee to enter even if he completes the Dungeon.
+
+==Themes and Navigation==
+The Gerudo Training Ground consists of a labyrinth wherein each room serves as a trial. The room containing the [[Dungeon]]'s treasure, the [[Ice Arrow]], is accessible from the entrance, though the treasure can only be obtained by completing the trials and collecting [[Small Key]]s throughout the Dungeon. A total of nine [[Locked Door]]s are present in the Training Ground, though only seven are required to reach the treasure. A handful of these trials feature time limits which will void [[Link]] out if they are not completed in time, dealing a quarter of a [[Heart]] of damage and resetting their challenges. [[Silver Rupee]]s are also used as components for these trials, requiring Link to collect all of the Rupees in a room in order to complete their trials. Each Silver Rupee grants five [[Rupee]]s. If Link leaves a room or a room is reset, any Silver Rupees that were collected and any [[Enemy|Enemies]] that were defeated will return, though Link will be able to retain any money he obtained from collecting them. When a trial is completed, its puzzles will permanently remain completed and any Enemies that must be defeated to advance will no longer appear as well.
+
+To fully navigate the Gerudo Training Ground, Link needs the [[Fairy Bow]] from the [[Forest Temple (Ocarina of Time)|Forest Temple]], the [[Megaton Hammer]] from the [[Fire Temple (Ocarina of Time)|Fire Temple]], the [[Hookshot]] from [[Kakariko Village]]'s [[Graveyard]], and the [[Iron Boots]] from the [[Ice Cavern]]. The [[Silver Gauntlets]] from the [[Spirit Temple (Ocarina of Time)|Spirit Temple]], the [[Lens of Truth]] from the [[Bottom of the Well]], and the [[Hover Boots]] from the [[Shadow Temple]] are optional but useful tools to navigate the Dungeon. However, none of these three [[Item]]s are strictly necessary to reach the Dungeon's treasure as though the Lens of Truth helps to see through various illusory walls and floors and to locate a single [[Invisible Chest]], Link can navigate through the illusory segments and open the Invisible Chest without them. The Silver Gauntlets are used to obtain an optional Small Key and though they help with crossing the Lava Room, the [[Hover Boots]] are made unnecessary if Link summons Time Blocks instead.
+
+The entrance to the Training Ground opens into a cavern lit by two [[Torch]]es. Four pillars surround these Torches in a semicircular formation. Beyond these pillars, there are three doorways, decorated with [[Lion]] carvings. To the north is the Treasure Room housing the [[Ice Arrow]]. To the west is the stone garden room, and to the south is the [[Dinolfos]] room.
+
+An [[Eye Switch]] sits on the wall above the entrance. By striking the Eye Switch with an [[Arrow]], Link can cause two [[Treasure Chest]]s to appear. One is found between the northwestern pillars, while the other is between the northeastern pillars. Link can play the "[[Song of Storms]]" between the northern pillars to find a [[Big Fairy]]. This Big Fairy can be summoned at any point that Link reenters the entrance room. As Link approaches one of the [[Door]]s that lead further into the Dungeon, he will be given instructions to complete the trials ahead.<ref>{{Cite|If you can overcome the {{Color OoT3D|Red|trials}} in the chambers ahead, then and only then will you be qualified to hold our secret treasure!|N/A|OoT3D}}</ref>
+
+In {{MQ}} mode, the east and west Doors are blocked by portcullises and the two Torches at the center of the room have been replaced by another variety which are unlit by default. By igniting these Torches, Link can unlock the rooms to each side and advance. There is no longer an Eye Switch in this room and no Big Fairy that can be summoned.
+
+{{Collapsible
+|header= Treasure Chests specific to the entrance room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Between the northeastern pillars in the entrance room<br/>Appears after the [[Eye Switch]] above the entrance is hit
+|-
+| Treasure Chest
+| Blue Rupee
+| Between the northwestern pillars in the entrance room<br/>Appears after the [[Eye Switch]] above the entrance is hit
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bombchu
+| Between the northwestern pillars in the entrance room
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Between the northeastern pillars in the entrance room
+}}
+}}
+
+{{Heading|Dinolfos room}}
+The [[Dinolfos]] room is a chamber that is connected to the entrance room and the Lava Room. The sides of the room are accented with ledges that [[Link]] can climb onto. However, these ledges are guarded from the front by [[Flame Wall]]s. Two [[Recovery Heart]]s sit along the longest ledge. When Link enters the room, the [[Door]] to the Lava Room will be blocked by a portcullis and he will be instructed to defeat the [[Enemy|Enemies]] inside within a time limit of one minute and thirty seconds.<ref name="Limited Time"/> When this trial is completed, the portcullis over the Door to the Lava Room will raise and a [[Treasure Chest]] will appear.
+
+In {{MQ}} mode, the composition of Enemies has been changed. In addition to the removal of the [[Beamos]] at the center of the room, there are now two [[Dodongo]]s and a [[Lizalfos]] will descend from the ceiling when Link walks in. The Recovery Hearts are also absent, and the time limit has been reduced by thirty seconds, resulting in the trial lasting for one minute. Finally, the Flame Walls are now absent as a lone [[Armos]] sits atop the longest ledge. As before, the Door to the Lava Room is blocked by a portcullis until the Enemies have been defeated. A Treasure Chest will also appear at this time.
+
+{{Collapsible
+|header= Enemies specific to the Dinolfos room
+|collapse= true
+|content= 
+
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Beamos [Qty:1]{{List Note|One does not [[Zelda Wiki:Glossary#Reappear|reappear]]. However, it will reappear if Link leaves and returns before also defeating all of the Dinolfos in the room.}}, Dinolfos [Qty:2]{{List Note|Two do not [[Zelda Wiki:Glossary#Reappear|reappear]]. However, each will reappear if Link leaves and returns before defeating them both in addition to the Beamos.}}, Flame Wall [Qty:8]
+}}
+{{List Notes}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Armos [Qty:1], Dinolfos [Qty:2], Dodongo [Qty:2], Lizalfos [Qty:1]
+}}
+}}
+}}
+}}
+
+{{Collapsible
+|header= Treasure Chests specific to the Dinolfos room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Small Key
+| Appears in the [[Dinolfos]] room once all of the [[Enemy|Enemies]] have been defeated
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Small Key
+| Appears in the [[Dinolfos]] room once all of the [[Enemy|Enemies]] have been defeated
+}}
+}}
+
+{{Heading|Lava Room}}
+[[File:Fire Room.jpg|thumb|right|320px|alt= A screenshot of the Lava Room from the position of the Door to the underwater gem room. Several stone platforms populate the pit of Lava below.|The Lava Room]]
+The Lava Room<!-- Choosing to not make this a page. - Tony 30.6.2024 --> is a [[Lava]]-filled chamber with four exits.<ref>{{Cite eGuide|OoT3D Prima|quote= Gerudo Training Grounds|page= |section= Master Quest § Spirit Temple}}</ref> To the south, it is connected to the [[Dinolfos]] room. To the west it is connected to the dead-end portion of the Treasure Room. Its eastern exit is the only means of entering the underwater gem room, and its northern exit leads to the [[Megaton Hammer]] room. There are five stone platforms spread unevenly throughout the Lava. To safely travel between these platforms, [[Link]] must use the [[Hover Boots]] that are found in the [[Shadow Temple]]. However, there are also [[Torch]]es spread throughout the northern, eastern, and southern exits to the room which Link can instead grapple to with the [[Water Temple (Ocarina of Time)|Water Temple]]'s [[Longshot]]. Near the center of the room, Link can play the "[[Song of Time]]" to summon a couple [[Time Block]]s that act as stairs to the western exit, which is on a higher level than the rest of the room. A [[Small Key]] can be found on the ground of the level leading to the Treasure Room.
+
+When Link enters the room, he is instructed to "cross the sea of fire" as five [[Silver Rupee]]s are spread throughout the room. The [[Door]] to the underwater gem room will also be blocked by a portcullis, preventing entry. Three of these Silver Rupees sit in the open on the stone platforms, while one floats in the air near a [[Hookshot]] [[Target]] by the [[Door]] to the Megaton Hammer room. The fifth Rupee is found on a stone platform between the Megaton Hammer room and the Treasure Room. However, it is protected by a [[Flame Wall]], which can only be temporarily disabled by pressing the [[Floor Switch]] on the ledge south of the entrance to the Treasure Room. This disables the Flame Wall for roughly 20 seconds, allowing Link time to reach it and escape. When Link has obtained all five Silver Rupees, the portcullis blocking the underwater gem room will raise, granting him entry. If Link falls into the Lava, he will void out and the room will also reset if the Silver Rupees have not been collected.
+
+In {{MQ}} mode, there are now six Silver Rupees which have been relocated to sit atop each of the stone platforms and below the entrance to the Treasure Room. Flame Walls now guard each of the Silver Rupees and the Time Blocks and Floor Switch are now absent. There is no longer a Small Key sitting in the open within this room and the Torch by the underwater gem room has changed to a type of Torch that only temporarily stays lit. It is unlit by default, and igniting it will temporarily cause the Flame Walls to disappear. As before, the Door to the underwater gem room is blocked by a portcullis that will only raise when the Silver Rupees have been collected. When the Door is opened, Hookshot Target towers will raise from the Lava between the stone platforms, giving Link an alternate method of navigating the room to account for the Flame Walls reappearing. The ledge leading to the Megaton Hammer room features a [[Rusty Switch]] that summons a Hookshot Target tower atop the ledge leading to a segment of the Treasure Room.
+
+{{Collapsible
+|header= Enemies specific to the Lava Room
+|collapse= true
+|content= 
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Flame Wall [2][Qty:1], Lava, Red Bubble [Qty:2]{{List Notes|Two [[Zelda Wiki:Glossary#Reappear|reappear]] once certain loading zones have been entered.}}
+}}
+{{List Notes}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Flame Wall [2][Qty:5], Lava, Red Bubble [Qty:3]
+}}
+}}
+}}
+}}
+
+{{Heading|Underwater gem room}}
+The underwater gem room features a large stonework pool. The entrance to this pool is obstructed by four [[Time Block]]s which can be removed by playing the "[[Song of Time]]". Each wall of the pool's interior has four apertures and a single [[Hookshot]] [[Target]]. Inside the pool, there are a number of [[Silver Rupee]]s that Link must collect in order to pass its trial.<ref>{{Cite|Collect the {{Color OoT3D|Red|underwater gems}}!|N/A|OoT3D}}</ref> However, the pool moves in a counter-clockwise direction in tandem with a [[Blade Trap]] at its bottom. When all of the Rupees have been collected, a [[Treasure Chest]] will appear above the pool.
+
+In {{MQ}} mode, the Time Blocks obstructing the pool are absent and have been replaced by a [[Web]]. The number of Silver Rupees has been reduced to three and the composition of [[Enemy|Enemies]] within the room has been altered. Because of the mirroring effect that is present in {{OoT3D}}'s {{MQ|-}} mode, the [[Water (Terrain)|Water]] inside the pool now moves in a clockwise direction.
+
+{{Collapsible
+|header= Enemies specific to the underwater gem room
+|collapse= true
+|content= 
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Razor [Qty:1], Shell Blade [Qty:4]
+}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Bari [Qty:1], Shell Blade [Qty:1], Stinger [Qty:2]
+}}
+}}
+}}
+}}
+
+{{Collapsible
+|header= Treasure Chests specific to the underwater gem room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Small Key
+| Appears in the underwater gem room once the [[Silver Rupee]]s have been collected
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Small Key
+| Appears in the underwater gem room once the [[Silver Rupee]]s have been collected
+}}
+}}
+
+{{Heading|Megaton Hammer room}}
+The [[Megaton Hammer]] room is connected to the [[Statue]] room and the Lava Room. A stone pathway leading from the center of the room to the Statue room helps to distinguish the exits. Likewise, a [[Crest of the Gerudo]] sits above the entrance to the Lava Room. When [[Link]] enters the Megaton Hammer room, portcullises will cover the [[Door]]s leading from it, trapping him inside. Stacked stone [[Totem (Object)|Totems]] are spread along the walls of this room. These Totems can be destroyed with the Megaton Hammer to reveal things hiding beneath them. A circular [[Flame Wall]] guards a [[Treasure Chest]] at the center of the room and several [[Enemy|Enemies]] inhabit the room. By defeating these Enemies, Link can release the portcullises and cause a Treasure Chest to appear along one of the walls in the room. However, the Flame Wall will remain until its corresponding [[Floor Switch]] is pressed. This Floor Switch is hidden under a single Totem on the wall opposite the Statue room entrance, distinguished by the aforementioned stone pathway.
+
+In {{MQ}} mode, Link is instead required to defeat all of the Enemies in the room, excluding the Flame Wall at the center, within one minute.<ref name="Limited Time"/> As before, portcullises will block the exits to the room until the Enemies have been defeated and a Treasure Chest will then appear. The Totem blocks are no longer present, leaving the Floor Switch exposed. The Floor Switch will cause the Flame Wall to disappear, though the Treasure Chest that is normally found here is hidden by another puzzle. In order to reveal the Treasure Chest, Link must strike the Crest of the Gerudo along the wall above the Door leading to the Lava Room.
+
+{{Collapsible
+|header= Enemies specific to the Megaton Hammer room
+|collapse= true
+|content= 
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Fire Keese [Qty:2], Flame Wall [2][Qty:1], Torch Slug [Qty:2]
+}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Iron Knuckle [3][Qty:1], Flame Wall [2][Qty:1], Torch Slug [Qty:2]
+}}
+}}
+}}
+}}
+
+{{Collapsible
+|header= Treasure Chests specific to the Megaton Hammer room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Appears in the [[Megaton Hammer]] room once the [[Fire Keese]] and [[Torch Slug]]s have been defeated
+|-
+| Treasure Chest
+| Small Key
+| In the center of the [[Megaton Hammer]] room<br/>Surrounded by a [[Flame Wall]] that disappears after its corresponding [[Floor Switch]] is pressed
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Appears in the [[Megaton Hammer]] room once the [[Iron Knuckle]] and [[Torch Slug]]s have been defeated
+|-
+| Treasure Chest
+| Small Key
+| Appears in the [[Megaton Hammer]] room once the [[Crest of the Gerudo]] above the [[Door]] has been struck
+}}
+}}
+
+{{Heading|Statue room}}
+The [[Statue]] room is divided into two levels, the top level consists of a floor along the wall connected to the [[Silver Gauntlets]] room and an isolated section of the Treasure Room. The [[Door]] to the Treasure Room is obstructed by a portcullis, however. The bottom level features a circular floor along the wall with a pit of [[Lava]] in its center. When [[Link]] sets foot onto the circular floor, it will begin revolving around the room. A Door to the [[Megaton Hammer]] room can also be found on this level. Above this Door, there is a [[Hookshot]] [[Target]].
+
+Inside the Lava pit, there is a Statue with four faces. Each face has a single [[Eye]] which Link is prompted to strike with either the [[Bow]] or [[Hookshot]].<ref>{{Cite|Blind the {{Color OoT3D|Red|eyes of the statue}}!|N/A|OoT3D}}</ref> By doing so, Link can release the portcullis over the Door to the Treasure Room and cause a [[Treasure Chest]] to appear at the center of the room. However, Link has a limited amount of time to strike all of the Eyes. If he takes longer than 20.24 seconds, the Eyes will reset, forcing him to restart.{{Note|In {{OoT3D}}, the Eyes are set to reset after 624 frames. At 30 frames per second, this results in a time limit of 20.24 seconds. In prior versions of {{OoT}}, the Eyes are programmed to reset after 416 frames instead, which equals to 20.16 seconds at 20 frames per second. As a result, {{OoT3D}} provides an additional .08 seconds to complete the puzzle.}} By playing the "[[Scarecrow's Song]]", Link can summon [[Pierre]] at the top level, providing an easy way to travel between the room's levels via Hookshot.
+
+In {{MQ}} mode, the Statue at the center of the room is surrounded by [[Flame Wall]]s and both Pierre's spot and the Hookshot Target are absent. Instead, Hookshot Target towers can be seen at the top level and above the Statue. Striking the Eyes of the Statue now causes a Treasure Chest to appear along the circular floor instead, and it no longer raises the portcullis over the Door to the Treasure Room. To release this portcullis, Link can instead strike a [[Crystal Switch]] hidden in one of the Flame Walls opposite the top floor.
+
+{{Collapsible
+|header= Enemies specific to the Statue room
+|collapse= true
+|content= 
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Lava
+}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Flame Wall [2][Qty:8], Lava
+}}
+}}
+}}
+}}
+
+{{Collapsible
+|header= Treasure Chests specific to the Statue room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Small Key
+| Appears in the [[Statue]] room after all of the eyes have been struck
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bombchu
+| Appears in the [[Statue]] room after all of the eyes have been struck
+}}
+}}
+
+{{Heading|Silver Gauntlets room}}
+The [[Silver Gauntlets]] room is located between the obstacle course room and the [[Statue]] room. It is also the only room that connects to the sand pit room. This room is divided into two levels. AT the base level, there is an arena where [[Link]] must fight against [[Wolfos]]. Along the far wall opposite the obstacle course room's [[Door]], there is a large [[Block]] that can only be moved with the strength of the Silver Gauntlets. This Block guards the Door to the sand pit room, which is obstructed by a portcullis. Along the wall to the right of the Block there is a trick wall. Link can use the [[Lens of Truth]] to see through this trick wall to either reveal the second level, or see the first level below. There is a [[Hookshot]] [[Target]] on the ceiling behind this trick wall, which grants Link the ability to ascend to the second level. This second level leads to the Statue room. In front of the Door to this room there is a [[Floor Switch]], which lifts the portcullis over the Door to the sand pit room when pressed. Once all of the Wolfos have been defeated, a [[Treasure Chest]] will appear on the floor near the Block.
+
+In {{MQ}} mode, this arena contains a different set of [[Enemy|Enemies]] which Link must defeat within the span of a minute.<ref name="Limited Time"/> Additionally, there is a [[Blue Fire]] pedestal on the base level of the room. As before, both the trick wall and the heavy Block are present, though the door to the Statue room is now obstructed by both a portcullis and a wall of [[Red Ice]]. Once all of the Enemies have been defeated, a Treasure Chest will appear on the floor opposite the Blue Fire pedestal. As the Hookshot Target on the second level is now absent, Link must instead play the "[[Song of Time]]" near the trick wall to summon a [[Time Block]] to ascend up toward it.
+
+{{Collapsible
+|header= Enemies specific to the Silver Gauntlets room
+|collapse= true
+|content= 
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Door that Falls Down [Qty:1]{{List Note|One [[Zelda Wiki:Glossary#Reappear|reappears]] indefinitely.}}, White Wolfos [Qty:2]{{List Note|name= Wolfos|Two do not [[Zelda Wiki:Glossary#Reappear|reappear]]. However, both will reappear if Link leaves and returns before defeating all of the Wolfos and White Wolfos in the room.}}, Wolfos [Qty:2]{{List Note|name= Wolfos}}
+}}
+{{List Notes}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Big Skulltula [Qty:3], Stalfos [Qty:2]
+}}
+}}
+}}
+}}
+
+{{Collapsible
+|header= Treasure Chests specific to the Silver Gauntlets room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bundle of Arrows [2]
+| Appears in the [[Silver Gauntlets]] room once all of the Wolfos have been defeated
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Appears in the [[Silver Gauntlets]] room once all of the [[Enemy|Enemies]] have been defeated
+}}
+}}
+
+{{Heading|Sand pit room}}
+The sand pit room is a dead-end chamber that features three sand pits and an altar at its end. Like Likes occupy each of these sand pits, which all house [[Treasure Chest]]s. A [[Tricky Chest]] sits atop the altar as a trap, while an [[Invisible Chest]] can be found in the third sand pit. Two Treasure Chests will appear in the first and second pits when all of the Like Likes have been defeated.
+
+In {{MQ}} mode, the Like Likes have been replaced with [[Spike]]s and the Tricky Chest is now absent. A Treasure Chest will appear on the altar once all of the [[Enemy|Enemies]] in this room have been defeated.
+
+{{Collapsible
+|header= Enemies specific to the sand pit room
+|collapse= true
+|content= 
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Like Like [Qty:3], Tricky Chest [Qty:1]
+}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Freezard [Qty:2], Spike [Qty:3]
+}}
+}}
+}}
+}}
+
+{{Collapsible
+|header= Treasure Chests specific to the sand pit room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Invisible Chest
+| Small Key
+| In the third pit in the sand pit room
+|-
+| Treasure Chest
+| Gold Rupee
+| Appears in the first pit in the sand pit room once all of the [[Enemy|Enemies]] have been defeated
+|-
+| Treasure Chest
+| Blue Rupee
+| In the second pit in the sand pit room once all of the [[Enemy|Enemies]] have been defeated
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Purple Rupee
+| Appears in the sand pit room once all of the [[Enemy|Enemies]] have been defeated
+}}
+}}
+
+{{Heading|Obstacle course room}}
+The obstacle course room is situated between the stone garden room and the [[Silver Gauntlets]] room. It is composed of three corridors that rise in elevation with three hallways on each side of the central corridor connecting them. The flanking corridors have [[Boulder]]s rolling through them periodically as they appear from chutes at the beginnings of each corridor and fall into pits at their respective ends. Instead of containing walkable ramps like its flanking corridors, the final third of the central corridor is separated by a tall ledge. Within the central corridor, there are three [[Hookshot]] [[Target]]s spread along the ceiling. The first sits in the middle of the corridor while another sits above the ledge to allow quick access to its upper level. The [[Door]] to the Silver Gauntlets room is found at the end of the central corridor. However, it is blocked by a portcullis and a [[Flame Wall]] that divides it from the rest of the corridor. The third Hookshot Target is found beyond this Flame Wall, giving Link a method of bypassing it. Additionally, the first hallway to the right and third hallway to the left of the central corridor are blocked by Flame Walls.
+
+When Link enters the room, he is instructed to gather the five [[Silver Rupee]]s hidden throughout it within the time limit of one minute and thirty seconds.<ref>{{Cite|Gather the {{Color OoT3D|Red|jewels of white}} while avoiding traps and danger!|N/A|OoT3D}}</ref> The locations of these Rupees are as follows:
+
+<div style="max-width:46rem; margin:auto;"><gallery class="center" widths="320px">
+File:OoT Gerudo Training Ground Silver Rupee.png|Floating off the ledge in the central corridor
+File:OoT Gerudo Training Ground Silver Rupee 2.png|On the right side of the first hallway connecting the central and right-side corridors
+File:OoT Gerudo Training Ground Silver Rupee 3.png|Floating beneath the Hookshot Target in the middle of the central corridor
+File:OoT Gerudo Training Ground Silver Rupee 4.png|At the end of the left-side corridor
+File:OoT Gerudo Training Ground Silver Rupee 5.png|At the start of the left-side corridor
+</gallery></div>
+
+After this trial is completed, the portcullis over the Door to the Silver Gauntlets room will raise. However, the Boulders will continue to appear and roll through the flanking corridors.
+
+In {{MQ}} mode, the Boulders are no longer present as a number of [[Ice]]-related obstacles now occupy the room's flanking hallways. As before, the Door to the Silver Gauntlets room will be blocked by a portcullis until the trial is completed by collecting the Silver Rupees. However, there is no longer a time limit and there are only four Rupees to collect. The Hookshot Targets and Flame Walls have also been relocated.
+
+* Beneath the ledge in the central corridor
+* Beneath the Hookshot Target on the ceiling near the beginning of the central corridor
+* At the start of the left-side corridor
+* Inside the pit of the left-side corridor
+
+When the trial is completed, a Hookshot Target tower will appear near the Door to the Silver Gauntlets room, allowing an easy way to bypass the Flame Wall blocking it.
+
+{{Collapsible
+|header= Enemies specific to the obstacle course room
+|collapse= true
+|content= 
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Boulder [Qty:2], Flame Wall [Qty:3], Wallmaster [Qty:1]{{List Note|One does not [[Zelda Wiki:Glossary#Reappear|reappear]].}}
+}}
+{{List Notes}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Flame Wall [Qty:3], Freezard [Qty:1], Icicle [Qty:8], Wallmaster [Qty:1]
+}}
+}}
+}}
+}}
+
+{{Heading|Stone garden room}}
+The stone garden room is connected to the entrance chamber to the east and the obstacle course room to the north. It is a spacious chamber with a sandy arena at its center. Four rocks decorate the interior of the arena. As [[Link]] enters the room, a portcullis will close over the [[Door]] to the obstacle course room and a pair of [[Stalfos]] will appear to challenge him. In order to complete the trial, Link must defeat both Stalfos within one minute.<ref name="Limited Time">{{Cite|Defeat all the enemies in a {{Color OoT3D|Red|limited time}}!|N/A|OoT3D}}</ref> However, the sandy arena will draw Link down into it, slowing his movement if he stands still and making the trial more difficult. Once both Stalfos have been defeated, a Treasure Chest will appear and the portcullis blocking the Door to the obstacle course room will raise.
+
+In {{MQ}} mode, Link is instead tasked with defeating a single [[Iron Knuckle]]. As before, Link only has one minute's worth of time to complete the trial and a Treasure Chest will appear once it is completed. The [[Blade Trap]] near the Door to the entrance chamber is no longer present.
+
+{{Collapsible
+|header= Enemies specific to the stone garden room
+|collapse= true
+|content= 
+{{Listing Container|
+{{Listing Item|header= Enemies in ''Normal Quest'' mode|content= 
+{{Gallery List|Enemies
+ |OoT= Razor [Qty:1], Stalfos [Qty:2]{{List Note|Two do not [[Zelda Wiki:Glossary#Reappear|reappear]]. However, each will reappear if Link leaves and returns before defeating them both.}}
+}}
+{{List Notes}}
+}}
+
+{{Listing Item|header= Enemies in {{MQ|-}} mode|content= 
+{{Gallery List|Enemies
+ |OoT= Iron Knuckle [Qty:1]{{List Note|One does not [[Zelda Wiki:Glossary#Reappear|reappear]].}}
+}}
+{{List Notes}}
+}}
+}}
+}}
+
+{{Collapsible
+|header= Treasure Chests specific to the stone garden room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Small Key
+| Appears in the stone garden room after the [[Stalfos]] have been defeated
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Blue Rupee
+| Appears in the stone garden room once the [[Iron Knuckle]] has been defeated
+}}
+}}
+
+{{Heading|Treasure Room}}
+The Treasure Room<!-- Choosing to not make this a page. - Tony 30.6.2024 --> is connected to the entrance room, the upper level of the Lava Room, and the upper level of the [[Statue]] room.<ref>{{Cite Guide|OoT Versus|page= 121}}</ref> It is a spacious chamber separated by fencing which creates cells. These fences can be climbed, although this is only useful to do in one specific cell. Most of these cells are locked off from each other, requiring [[Small Key]]s to traverse between them. From the entrance room's [[Door]], the cells branch in two directions. The path to the left leads to the cell containing the [[Dungeon]]'s treasure, the [[Ice Arrow]]. The path to the right leads to a dead-end and connects to the Lava Room. A disconnected chamber in this room is accessible only by entering from the upper level of the Statue room. From this chamber, [[Link]] can see another seemingly disconnected chamber with a [[Treasure Chest]]. He is also able to view the cell housing the Treasure Chest containing the Ice Arrow from above.
+
+When Link enters the room, he is prompted to retrieve the Small Keys spread throughout the Dungeon.<ref>{{Cite|If you desire to acquire our hidden treasure, you must strive to obtain the {{Color OoT3D|Red|keys}} hidden in each chamber!|N/A|OoT3D}}</ref> In order to reach the Ice Arrow, Link must have a total of seven Small Keys, starting from the entrance room's Door. Two additional Small Keys may be used to fully unlock this room through its dead-end route. The aforementioned disconnected chamber with a Treasure Chest is accessible from the first cell to the left of the entrance Door. This cell has an illusory ceiling which can be passed through to reach it. Several of the cells have their own Treasure Chests, which only provide rewards like [[Rupee]]s.
+
+In {{MQ}} mode, only the three Doors leading to the central cell are locked. The Treasure Chest containing the Ice Arrow is also no longer located in the central cell. Instead, there is now a [[Wooden Box]] concealing a [[Rusty Switch]] that summons the Treasure Chest when activated. This Treasure Chest appears in the isolated segment of the room connected to the Statue room. This side chamber is now decorated with fuchsia flames where two Torches once stood which help to draw attention to it from below and from the adjacent chamber with the illusory floor.
+
+{{Collapsible
+|header= Treasure Chests specific to the Treasure Room
+|collapse= true
+|content= 
+{{Heading|Treasure Chests in ''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Small Key
+| In the segment of the Treasure Room connected to the upper floor of the [[Statue]] room
+|-
+| Treasure Chest
+| Bombchu {{Qty|5}}
+| In the segment of the Treasure Room connected to the Lava Room
+|-
+| Treasure Chest
+| Bundle of Arrows [2]
+| In the segment of the Treasure Room connected to the Lava Room
+|-
+| Treasure Chest
+| Small Key
+| On a floor above the first room to the left in the Treasure Room<br/>This floor is located above the fencing beside the [[Door]] inside the room; the ceiling is an illusion and can be passed through<br/>Requires at least one Small Key to access
+|-
+| Treasure Chest
+| Purple Rupee
+| Inside the second room to the left in the Treasure Room<br/>Requires at least two [[Small Key]]s to access
+|-
+| Treasure Chest
+| Red Rupee
+| Inside the fourth room to the left in the Treasure Room<br/>Requires at least four [[Small Key]]s to access
+|-
+| Treasure Chest
+| Bundle of Arrows [2]
+| Inside the fifth room to the left in the Treasure Room<br/>Requires at least five [[Small Key]]s to access
+|-
+| Treasure Chest [2]
+| Ice Arrow
+| In the center of the Treasure Room<br/>Requires at least seven [[Small Key]]s to access
+}}
+
+{{Heading|Treasure Chests in {{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Blue Rupee
+| In the segment of the Treasure Room connected to the Lava Room
+|-
+| Treasure Chest
+| Green Rupee
+| In the segment of the Treasure Room connected to the Lava Room
+|-
+| Treasure Chest
+| Purple Rupee
+| On a floor above the first room to the right in the Treasure Room<br/>This floor is located above the fencing beside the [[Door]] inside the room; the ceiling is an illusion and can be passed through
+|-
+| Treasure Chest
+| Green Rupee
+| Inside the second room to the right in the Treasure Room
+|-
+| Treasure Chest
+| Red Rupee
+| Inside the fourth room to the right in the Treasure Room
+|-
+| Treasure Chest
+| Green Rupee
+| Inside the fifth room to the right in the Treasure Room<br/>Requires at least one [[Small Key]] to access
+|-
+| Treasure Chest [2]
+| Ice Arrow
+| Appears in the segment of the Treasure Room connected to the upper floor of the [[Statue]] room once the [[Rusty Switch]] at the center of the room has been pressed<br/>Requires at least three [[Small Key]]s
+}}
+}}
+
+===Animals===
+{{Gallery List|Animals
+ |OoT= Fish
+}}
+
+===Enemies===
+{{Heading|''Normal Quest'' mode}}
+{{Gallery List|Enemies
+ |OoT= Beamos [Qty:1], Boulder [Qty:2], Dinolfos [Qty:2], Door that Falls Down [Qty:1], Fire Keese [Qty:2], Flame Wall [Qty:3], Flame Wall [2][Qty:2], Lava, Like Like [Qty:3], Razor [Qty:2], Red Bubble [Qty:2], Shell Blade [Qty:4], Stalfos [Qty:2], Torch Slug [Qty:2], Tricky Chest [Qty:1], Wallmaster [Qty:1], White Wolfos [Qty:2], Wolfos [Qty:2]
+ |OoT3D= Beamos [Qty:1], Blade Trap [Qty:2], Boulder [Qty:2], Dinolfos [Qty:2], Fire Keese [Qty:2], Flame Wall [Qty:3], Flame Wall [2][Qty:2], Lava, Like Like [Qty:3], Red Bubble [Qty:2], Shell Blade [Qty:4], Stalfos [Qty:2], Torch Slug [Qty:2], Trap Door [Qty:1], Tricky Chest [Qty:1], Wallmaster [Qty:1], White Wolfos [Qty:2], Wolfos [Qty:2]
+}}
+
+{{Heading|{{MQ|-}} mode}}
+{{Gallery List|Enemies
+ |OoT= Armos [Qty:1], Bari [Qty:1], Big Skulltula [Qty:3], Dinolfos [Qty:2], Dodongo [Qty:2], Flame Wall [Qty:3], Flame Wall [2][Qty:14], Freezard [Qty:3], Icicle [Qty:8], Iron Knuckle [Qty:1], Iron Knuckle [3][Qty:1], Lava, Lizalfos [Qty:1], Red Bubble [Qty:3], Shell Blade [Qty:1], Spike [Qty:3], Stalfos [Qty:2], Stinger [Qty:2], Torch Slug [Qty:2], Wallmaster [Qty:1]
+}}
+
+===Treasure Chests===
+{{Heading|''Normal Quest'' mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Between the northeastern pillars in the entrance room<br/>Appears after the [[Eye Switch]] above the entrance is hit
+|-
+| Treasure Chest
+| Blue Rupee
+| Between the northwestern pillars in the entrance room<br/>Appears after the [[Eye Switch]] above the entrance is hit
+|-
+| Treasure Chest
+| Small Key
+| Appears in the stone garden room after the [[Stalfos]] have been defeated
+|-
+| Treasure Chest
+| Bundle of Arrows [2]
+| Appears in the [[Silver Gauntlets]] room once all of the Wolfos have been defeated
+|-
+| Invisible Chest
+| Small Key
+| In the third pit in the sand pit room
+|-
+| Treasure Chest
+| Gold Rupee
+| Appears in the first pit in the sand pit room once all of the [[Enemy|Enemies]] have been defeated
+|-
+| Treasure Chest
+| Blue Rupee
+| In the second pit in the sand pit room once all of the [[Enemy|Enemies]] have been defeated
+|-
+| Treasure Chest
+| Small Key
+| Appears in the [[Statue]] room after all of the eyes have been struck
+|-
+| Treasure Chest
+| Small Key
+| In the segment of the Treasure Room connected to the upper floor of the [[Statue]] room
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Appears in the [[Megaton Hammer]] room once the [[Fire Keese]] and [[Torch Slug]]s have been defeated
+|-
+| Treasure Chest
+| Small Key
+| In the center of the [[Megaton Hammer]] room<br/>Surrounded by a [[Flame Wall]] that disappears after its corresponding [[Floor Switch]] is pressed
+|-
+| Treasure Chest
+| Bombchu {{Qty|5}}
+| In the segment of the Treasure Room connected to the Lava Room
+|-
+| Treasure Chest
+| Bundle of Arrows [2]
+| In the segment of the Treasure Room connected to the Lava Room
+|-
+| Treasure Chest
+| Small Key
+| Appears in the underwater gem room once the [[Silver Rupee]]s have been collected
+|-
+| Treasure Chest
+| Small Key
+| Appears in the [[Dinolfos]] room once all of the [[Enemy|Enemies]] have been defeated
+|-
+| Treasure Chest
+| Small Key
+| On a floor above the first room to the left in the Treasure Room<br/>This floor is located above the fencing beside the [[Door]] inside the room; the ceiling is an illusion and can be passed through<br/>Requires at least one Small Key to access
+|-
+| Treasure Chest
+| Purple Rupee
+| Inside the second room to the left in the Treasure Room<br/>Requires at least two [[Small Key]]s to access
+|-
+| Treasure Chest
+| Red Rupee
+| Inside the fourth room to the left in the Treasure Room<br/>Requires at least four [[Small Key]]s to access
+|-
+| Treasure Chest
+| Bundle of Arrows [2]
+| Inside the fifth room to the left in the Treasure Room<br/>Requires at least five [[Small Key]]s to access
+|-
+| Treasure Chest [2]
+| Ice Arrow
+| In the center of the Treasure Room<br/>Requires at least seven [[Small Key]]s to access
+}}
+
+{{Heading|{{MQ|-}} mode}}
+{{Treasure Chests|game= OoT3D
+|-
+| Treasure Chest
+| Bombchu
+| Between the northwestern pillars in the entrance room
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Between the northeastern pillars in the entrance room
+|-
+| Treasure Chest
+| Small Key
+| Appears in the [[Dinolfos]] room once all of the [[Enemy|Enemies]] have been defeated
+|-
+| Treasure Chest
+| Small Key
+| Appears in the underwater gem room once the [[Silver Rupee]]s have been collected
+|-
+| Treasure Chest
+| Blue Rupee
+| Appears in the stone garden room once the [[Iron Knuckle]] has been defeated
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Appears in the [[Silver Gauntlets]] room once all of the [[Enemy|Enemies]] have been defeated
+|-
+| Treasure Chest
+| Purple Rupee
+| Appears in the sand pit room once all of the [[Enemy|Enemies]] have been defeated
+|-
+| Treasure Chest
+| Bombchu
+| Appears in the [[Statue]] room after all of the eyes have been struck
+|-
+| Treasure Chest
+| Bundle of Arrows
+| Appears in the [[Megaton Hammer]] room once the [[Iron Knuckle]] and [[Torch Slug]]s have been defeated
+|-
+| Treasure Chest
+| Small Key
+| Appears in the [[Megaton Hammer]] room once the [[Crest of the Gerudo]] above the [[Door]] has been struck
+|-
+| Treasure Chest
+| Blue Rupee
+| In the segment of the Treasure Room connected to the Lava Room
+|-
+| Treasure Chest
+| Green Rupee
+| In the segment of the Treasure Room connected to the Lava Room
+|-
+| Treasure Chest
+| Purple Rupee
+| On a floor above the first room to the right in the Treasure Room<br/>This floor is located above the fencing beside the [[Door]] inside the room; the ceiling is an illusion and can be passed through
+|-
+| Treasure Chest
+| Green Rupee
+| Inside the second room to the right in the Treasure Room
+|-
+| Treasure Chest
+| Red Rupee
+| Inside the fourth room to the right in the Treasure Room
+|-
+| Treasure Chest
+| Green Rupee
+| Inside the fifth room to the right in the Treasure Room<br/>Requires at least one [[Small Key]] to access
+|-
+| Treasure Chest [2]
+| Ice Arrow
+| Appears in the segment of the Treasure Room connected to the upper floor of the [[Statue]] room once the [[Rusty Switch]] at the center of the room has been pressed<br/>Requires at least three [[Small Key]]s
+}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+===Other Names===
+{{Other Names
+|-
+| Gerudo's Training Ground<ref>{{Cite|This is the Gerudo's {{Color OoT|Red|Training Ground}}. Membership card verified. One try for 10 Rupees!|Gerudo|OoT}}</ref>
+| {{OoT}}
+| {{OoT}}
+| {{OoT3D}}
+}}
+
+==Gallery==
+<gallery>
+File:TrainingGroundEntrance.png|{{Game Label|{{OoT|-}}}}Entrance to the training ground
+File:OoT Gerudo Training Ground Map.jpg|{{Game Label|{{OoT|-}}}}Dungeon Map of the Gerudo Training Ground
+</gallery>
+
+{{Notes}}
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="OoT Game Screen">{{Cite|{{Big|Gerudo Proving Grounds}}|Game Screen|OoTNS2}}</ref>
+<ref name="OoT N/A">{{Cite|'''{{Big|Gerudo Training Ground}}'''|N/A|OoT}}<br/>{{Cite|'''{{Big|Gerudo Training Ground}}'''|N/A|OoT3D}}</ref>
+}}
+ 
+{{Dungeons|OoT}}
+{{Categories
+ |dungeons= OoTNS2
+ |locations= OoTNS2
+}}

@@ -1,0 +1,56 @@
+{{Header Nav|game=Doom}}
+
+Doom has all kinds of weapons to use. Note that some are only available in the PC version.
+
+==Fist==
+The Fist is your weapon of last resort. It does minimal damage and has a slow refire rate, so you really shouldn't use it over any other weapon. However, its usefulness is increased when you've picked up a Berserk powerup, as this increases your fist damage to ten times normal.
+
+Inflicts 2-20 damage per hit, averaging 11 damage. 
+
+==Chainsaw==
+The Chainsaw is essentially an upgraded Fist, though it has a fair amount of major differences. The most obvious difference is that it has a very short refire rate - meaning that if you concentrate your attack on one monster, there's a very good chance that they will be unable to attack you because they're busy recoiling in pain. This doesn't mean that they won't even try, though - be especially careful around tougher monsters like Barons.
+
+Inflict 2-20 damage per hit, averaging 11 damage per hit. 
+
+==Pistol==
+Your basic starting weapon. The Pistol fires slowly, is rather weak, and isn't all that accurate. Firing the pistol slowly will ensure 100% accuracy, but this just makes the weapon that much less useful. Becomes useless once you get the Chaingun (see below).
+
+Inflicts 5-15 damage per hit, averaging 10 damage. 
+
+==Shotgun==
+Your first truly good weapon, and possibly the most common weapon in Doom. The Shotgun fires a spread of 7 pellets, which individually do about as much damage as a single pistol bullet. You'll probably be using this weapon a lot. Although it has a somewhat slow refire rate, the firepower makes up for it.
+
+If all pellets hit, the weapon inflicts 35-105 damage, averaging 70. 
+
+==Super Shotgun==
+A new addition to Doom 2, this double-barreled weapon fires two shells at once.  These shells shoot out 20 pellets, each inflicting 5-15 damage (totalling 100-300 and averaging 200).  While this weapon has a slower reload time than the regular shotgun, but is much better for ammo efficiency and attack power, doing up to 3 times the damage than the regular shotgun while only using 2 shells per shot.  
+
+==Chaingun==
+A rapid-fire weapon that works wonders against lesser hellspawn, but becomes less useful against tough monsters. Individual bullets do about as much damage as the Pistol. Normally the Chaingun isn't very accurate, but there is a glitch that enables near-perfect accuracy. Instead of holding the fire button, simply tap it once to shoot off a 2-bullet burst. With good enough timing, you can keep tapping the fire button and be able to pick off foes from great distances using your new "chain sniper-rifle."
+
+==Rocket Launcher==
+A high-damage projectile weapon that is excellent for taking out large groups of difficult monsters.
+
+Rockets inflict 20-160 on a direct hit (average of 90), and they inflict up to an additional 128 through their explosion.  The combined hit and splash has an average damage of 190 damage.
+
+The biggest rule of this weapon is to use it very cautiously. It is the only weapon that will do self-harm, and can potentially kill the player if point blank range. Enemies like Lost Souls are very risky in that regard due to its lunge attack.
+
+The Cyberdemon and the Spider Mastermind have special rules on them that make them immune to blast damage, meaning that the rocket launcher will do far less damage against them and will take 1.5x to 2.0x the amount of ammo than it normally should.
+
+==Plasma Gun==
+A rapid-fire weapon capable of greater damage than the chaingun. It first appears in Episode 2.  It fires somewhat faster, but unlike the chaingun, uses slower projectiles which makes aiming over large distances more difficult.  The weapon goes through cells quickly, and there is a small pause when you stop firing a burst. To make matters worse, ammo for this is rare. 
+
+A plasma ball inflicts 5-40 damage per hit, averaging 22.5. 
+
+==BFG 9000==
+When you first find this weapon in Episode 3 in a secret area, you'll discover that this thing cooks. In fact, the BFG locations in Episode 3 are all located in secret areas, so it would be best to backtrack areas just to get the weapon if possible. After a short wind-up period, the Big Fraging Gun will use up 40 cells to shoot off a giant bolt of green plasma. The bolt itself does a lot of damage, but what most of the pain comes from is the "spray" damage. This is a little difficult to explain.
+
+The BFG has a chargeup sound that can be heard by other players.  However, this can be silenced if you fire it just before a hard landing on the ground (where you make a grunt sound instead.)
+
+When the BFG ball explodes, it triggers a "spray" that originates from yourself in the direction of the blast.  Think of the spray like a large, invisible shotgun blast - monsters in the direction of the BFG will be more likely to take spray damage, and closer monsters will be likely to take more sprays than others. Skillful use of the BFG can help to maximize damage against bosses and large groups of enemies.
+
+The spray has an angle of 45 degrees, and there are 40 traces from this spray.  Each individual attack inflicts 15-120 damage (1-8 * 15), and if all 40 streams hit, totals 600-4800 damage.  A direct hit from the BFG inflicts 100-800 damage, but is quickly followed the spray shown previously.  Overall, the average damage from the BFG is around 3130 on a perfect direct hit. Unlike the Rocket Launcher, while it does spread damage, it does not classify itself as blast damage, thus the Cyberdemon and Spider Mastermind are not immune to it. It is possible to kill a Spider Mastermind at close range.  
+
+The weapon should be reserved for large amounts of enemies present to justify 40 Plasma Cells used in 1 shot, since plasma cells are rare. Facing against a bunch of Cacodemons and smaller enemies at once? Go ahead. Enemies such as Barons of Hell would justify its use alone since it averages more than 40 shots with the Plasma Gun.  
+
+{{Footer Nav|game=Doom|prevpage=Controls|nextpage=Powerups}}

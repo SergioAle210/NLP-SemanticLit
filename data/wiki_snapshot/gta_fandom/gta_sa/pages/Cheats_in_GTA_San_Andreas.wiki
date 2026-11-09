@@ -1,0 +1,949 @@
+{{DISPLAYTITLE: Cheats in ''Grand Theft Auto: San Andreas''}}
+
+{{Cheats}}
+'''[[Cheats]]''' in {{SA}} are similar to those of its predecessors, requiring input of a series of controller button commands or a keyboard. When a cheat code is successfully entered, a "Cheat Activated" message will appear on the upper left corner of the screen to confirm the cheat has been entered. The following cheat codes must be entered during gameplay. Entering cheat codes on the pause menu will not activate the cheat, unlike in earlier games.
+
+Note that the [[PlayStation 2]] and [[Xbox]] require the use of the D-pad for directional input. For the [[PlayStation 3]] port of the game, the triggers that need to be pressed must be pressed in the ''opposite'' way. For example, where one would normally press {{Button|l1}}/{{Button|r1}} in a cheat, they must press {{Button|l2}}/{{Button|r2}}. 
+
+The pedestrian hate and riot cheats are permanent and cannot be reversed if the game is saved while the cheat is active. These pedestrian-related cheats can hinder progress during missions.
+
+On [[Personal Computer|PC]], due to the nature of the cheats requiring a hash code rather than just simply the input itself, it may result in hash collisions, thereby making the cheats enterable using a number of combinations, even by simply pressing the movement keys (WASD). The * denotes the intended cheat code found on the Android port of the game – other alternative cheat code combinations (such as HESOYAM and AEZAKMI) – were simply found by using a dictionary and were later widely accepted as the prime cheat code (as cheat codes were not explicitly given by [[Rockstar Games]] themselves in any guide, nor did the game executable contain them).
+
+On the mobile versions, the keyboard for the smartphone uses an {{WP|USB On-The-Go|OTG}} adapter; however, if OTG mode is not supported by the device, a wireless {{WP|Bluetooth}} keyboard can be connected. Alternatively, third-party applications can be used to enable the virtual keyboard, such as "iGame keyboard". 
+
+==Player==
+{|class="wikitable"
+!width="200" |Effect
+!PS2
+!width="200" |PC
+!Xbox
+!Xbox 360
+!Android 2013           
+|-
+|[[Adrenaline]] effects
+|{{Button|cross}}{{Button|cross}}{{Button|square}}{{Button|r1}}{{Button|l1}}{{Button|cross}}{{Button|psdown}}{{Button|psleft}}{{Button|cross}}
+|ANOSEONGLASS<br>MUNASEF<br>TAKEACHILLPILL*
+|{{Button|A}}{{Button|A}}{{Button|X}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|A}}
+|{{Button|A}}{{Button|A}}{{Button|X}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|A}}
+|SLSNRKK
+|-
+|[[Body Armor|Armor]], [[health]] and $250,000 in [[money]] (also repairs vehicles occupied by the player and increases the [[Criminal Ratings in GTA San Andreas|criminal rating]] to 40)
+
+''Note: Enabling the "Health and Armor" cheat during the bike chase of [[Just Business]] and during the drive-by portion of [[End of the Line]] will fail the mission, destroying the [[BF-400|bike]]/[[Feltzer]], leading to CJ's eventual death. Furthermore, enabling the cheat during [[Lure (GTA San Andreas)|Lure]] will automatically remove the doors of the [[Rancher (3D Universe)|Rancher]], leading to a more difficult mission completion.''
+|{{Button|r1}}{{Button|r2}}{{Button|l1}}{{Button|cross}}{{Button|psleft}}{{Button|psdown}}{{Button|psright}}{{Button|psup}}{{Button|psleft}}{{Button|psdown}}{{Button|psright}}{{Button|psup}}
+|HESOYAM<br>INEEDSOMEHELP*<br>ENABLEFORTUNEASPECTS<br>2A873S8A
+|{{Button|Xbox RT}}{{Button|black}}{{Button|Xbox LT}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}
+|{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox LT}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}
+|PJYNQCQ
+|-
+|[[Carl Johnson|CJ]] jumps 10 times higher
+|{{Button|psup}}{{Button|psup}}{{Button|triangle}}{{Button|triangle}}{{Button|psup}}{{Button|psup}}{{Button|psleft}}{{Button|psright}}{{Button|square}}{{Button|r2}}{{Button|r2}}
+|KANGAROO*
+LFGMHAL
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|black}}{{Button|black}}
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|Xbox RB}}{{Button|Xbox RB}}
+|BFMANNZP
+|-
+|Commit suicide / Instant death
+
+''Note: CJ will not die if the unlimited health cheat is activated.''
+|{{Button|psright}}{{Button|l2}}{{Button|psdown}}{{Button|r1}}{{Button|psleft}}{{Button|psleft}}{{Button|r1}}{{Button|l1}}{{Button|l2}}{{Button|l1}}
+|SZCMAWO<br>GOODBYECRUELWORLD*
+|{{Button|Xbox D-Pad Right}}{{Button|white}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|white}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Right}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LT}}
+|SLOTSFK
+|-
+|Hitman level for all [[Weapons in GTA San Andreas|weapons]]
+|{{Button|psdown}}{{Button|square}}{{Button|cross}}{{Button|psleft}}{{Button|r1}}{{Button|r2}}{{Button|psleft}}{{Button|psdown}}{{Button|psdown}}{{Button|l1}}{{Button|l1}}{{Button|l1}}
+|PROFESSIONALKILLER*<br>NCSGDAG
+|{{Button|Xbox D-Pad Down}}{{Button|X}}{{Button|A}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|black}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Down}}{{Button|X}}{{Button|A}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|
+|-
+|Lock [[Wanted Level in GTA San Andreas|wanted level]] (''Facilitates exploration of islands/cities and restricted areas before they're unlocked'')
+|{{Button|circle}}{{Button|psright}}{{Button|circle}}{{Button|psright}}{{Button|psleft}}{{Button|square}}{{Button|triangle}}{{Button|psup}}
+|AEZAKMI<br>IFIRSTDOZ<br>TESTEDUCATIONALSKILLS<br>IDOASIPLEASE*
+|{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|Y}}{{Button|Xbox D-Pad Up}}
+|{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|Y}}{{Button|Xbox D-Pad Up}}
+|BYKGOAB
+|-
+|Raise wanted level by two stars
+
+''Note: If the Lock wanted level cheat is on it will not attain. Entering this cheat during "555 We Tip" will fail the mission.''
+|{{Button|r1}}{{Button|r1}}{{Button|circle}}{{Button|r2}}{{Button|psleft}}{{Button|psright}}{{Button|psleft}}{{Button|psright}}{{Button|psleft}}{{Button|psright}}
+|TURNUPTHEHEAT*<br>OSRBLHH
+|{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|B}}{{Button|black}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}
+|{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|B}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}
+|NCBXXDX
+|-
+|Remove wanted level
+|{{Button|r1}}{{Button|r1}}{{Button|circle}}{{Button|r2}}{{Button|psup}}{{Button|psdown}}{{Button|psup}}{{Button|psdown}}{{Button|psup}}{{Button|psdown}}
+|TURNDOWNTHEHEAT*<br>ASNAEB<br>SOMEONESOMETIMEALAN
+|{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|B}}{{Button|black}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}
+|{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|B}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}
+|KDTZNHO
+|-
+|Six-star wanted level
+
+''Note: If the Lock wanted level cheat is on it will not attain. Entering this cheat during "555 We Tip" will fail the mission.''
+|{{Button|circle}}{{Button|psright}}{{Button|circle}}{{Button|psright}}{{Button|psleft}}{{Button|square}}{{Button|cross}}{{Button|psdown}}
+|BRINGITON*<br>LJSPQK
+|{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|A}}{{Button|Xbox D-Pad Down}}
+|{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|A}}{{Button|Xbox D-Pad Down}}
+|GWJZWC
+|-
+|Maximum [[Statistics|fat]]
+|{{Button|triangle}}{{Button|psup}}{{Button|psup}}{{Button|psleft}}{{Button|psright}}{{Button|square}}{{Button|circle}}{{Button|psdown}}
+|BTCDBCB
+HIVEMADETORPEDO<br>WHOATEALLTHEPIES*
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|B}}{{Button|Xbox D-Pad Down}}
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|B}}{{Button|Xbox D-Pad Down}}
+|AESHXWQI
+|-
+|Infinite [[Lung capacity]]
+|{{Button|psdown}}{{Button|psleft}}{{Button|l1}}{{Button|psdown}}{{Button|psdown}}{{Button|r2}}{{Button|psdown}}{{Button|l2}}{{Button|psdown}}
+|CVWKXAM<br>MANFROMATLANTIS*
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|black}}{{Button|Xbox D-Pad Down}}{{Button|white}}{{Button|Xbox D-Pad Down}}
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Down}}
+|POOOJOX
+|-
+|Maximum [[Statistics|muscle]]
+|{{Button|triangle}}{{Button|psup}}{{Button|psup}}{{Button|psleft}}{{Button|psright}}{{Button|square}}{{Button|circle}}{{Button|psleft}}
+|BUFFMEUP*<br>JYSDSOD
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|B}}{{Button|Xbox D-Pad Left}}
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|B}}{{Button|Xbox D-Pad Left}}
+|SGVDSQW
+|-
+|Maximum [[respect]]
+|{{Button|l1}}{{Button|r1}}{{Button|triangle}}{{Button|psdown}}{{Button|r2}}{{Button|cross}}{{Button|l1}}{{Button|psup}}{{Button|l2}}{{Button|l2}}{{Button|l1}}{{Button|l1}}
+|WORSHIPME*<br>OGXSDAG
+|{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Y}}{{Button|Xbox D-Pad Down}}{{Button|black}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|white}}{{Button|white}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Y}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RB}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|MTGIISR
+|-
+|Maximum [[Statistics|sex appeal]]
+|{{Button|circle}}{{Button|triangle}}{{Button|triangle}}{{Button|psup}}{{Button|circle}}{{Button|r1}}{{Button|l2}}{{Button|psup}}{{Button|triangle}}{{Button|l1}}{{Button|l1}}{{Button|l1}}
+|HELLOLADIES*<br>EHIBXQS
+|{{Button|B}}{{Button|Y}}{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|B}}{{Button|Xbox RT}}{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|Y}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|B}}{{Button|Y}}{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|B}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|Y}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|APGZLQR
+|-
+|Maximum [[Statistics|stamina]]
+|{{Button|psup}}{{Button|cross}}{{Button|triangle}}{{Button|cross}}{{Button|triangle}}{{Button|cross}}{{Button|square}}{{Button|r2}}{{Button|psright}}
+|VKYPQCF<br>ICANGOALLNIGHT*
+|{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|X}}{{Button|black}}{{Button|Xbox D-Pad Right}}
+|{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|X}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Right}}
+|AEZLCKXU
+|-
+|Maximum vehicle skills (Driving, flying, bike, cycling)
+|{{Button|square}}{{Button|l2}}{{Button|cross}}{{Button|r1}}{{Button|l2}}{{Button|l2}}{{Button|psleft}}{{Button|r1}}{{Button|psright}}{{Button|l1}}{{Button|l1}}{{Button|l1}}
+|NATURALTALENT*<br>VQIMAHA
+|{{Button|X}}{{Button|white}}{{Button|A}}{{Button|Xbox RT}}{{Button|white}}{{Button|white}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|X}}{{Button|Xbox LB}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|
+|-
+|Minimum [[Statistics|fat and muscle]]
+|{{Button|triangle}}{{Button|psup}}{{Button|psup}}{{Button|psleft}}{{Button|psright}}{{Button|square}}{{Button|circle}}{{Button|psright}}
+|KVGYZQK<br>LEANANDMEAN*
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|B}}{{Button|Xbox D-Pad Right}}
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|B}}{{Button|Xbox D-Pad Right}}
+|AWXDCRJ
+|-
+|CJ never gets hungry
+|{{Button|square}}{{Button|l2}}{{Button|r1}}{{Button|triangle}}{{Button|psup}}{{Button|square}}{{Button|l2}}{{Button|psup}}{{Button|cross}}
+|AEDUWNV<br>IAMNEVERHUNGRY*
+|{{Button|X}}{{Button|white}}{{Button|Xbox RT}}{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|A}}
+|{{Button|X}}{{Button|Xbox LB}}{{Button|Xbox RT}}{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|A}}
+|KBTMUVH
+|-
+|Spawn [[Jetpack]]
+|{{Button|psleft}}{{Button|psright}}{{Button|l1}}{{Button|l2}}{{Button|r1}}{{Button|r2}}{{Button|psup}}{{Button|psdown}}{{Button|psleft}}{{Button|psright}}
+|ROCKETMAN*<br>YECGAA
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|white}}{{Button|Xbox RT}}{{Button|black}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}
+|CDGUDEP
+|-
+|Spawn [[Parachute]]
+|{{Button|psleft}}{{Button|psright}}{{Button|l1}}{{Button|l2}}{{Button|r1}}{{Button|r2}}{{Button|r2}}{{Button|psup}}{{Button|psdown}}{{Button|psright}}{{Button|l1}}
+|AIYPWZQP<br>LETSGOBASEJUMPING*
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|white}}{{Button|Xbox RT}}{{Button|black}}{{Button|black}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}
+|GSUMLEG
+|-
+|Super punches (one hit kills)
+
+''Note: Pedestrians can also make a super punch attack. If a pedestrian punches CJ, he will be instantly killed. However, if the Unlimited Health cheat is activated, super punches do not affect CJ.''
+|{{Button|psup}}{{Button|psleft}}{{Button|cross}}{{Button|triangle}}{{Button|r1}}{{Button|circle}}{{Button|circle}}{{Button|circle}}{{Button|l2}}
+|STINGLIKEABEE*<br>IAVENJQ
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Y}}{{Button|Xbox RT}}{{Button|B}}{{Button|B}}{{Button|B}}{{Button|white}}
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Y}}{{Button|Xbox RT}}{{Button|B}}{{Button|B}}{{Button|B}}{{Button|Xbox LB}}
+|LRMYOJM
+|-
+|Unlimited ammunition with no reload for all weapons
+
+''Note: Using this cheat may glitch the game's sounds. This cheat also affects pedestrians.''
+|{{Button|l1}}{{Button|r1}}{{Button|square}}{{Button|r1}}{{Button|psleft}}{{Button|r2}}{{Button|r1}}{{Button|psleft}}{{Button|square}}{{Button|psdown}}{{Button|l1}}{{Button|l1}}
+|FULLCLIP*<br>WANRLTW
+|{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|X}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|black}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|X}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RB}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|NECUMZ
+|-
+|Unlimited health
+
+''Note: Explosions, drowning, falling, and gunshots from [[Police Maverick (3D Universe)|police-controlled helicopters]] still hurt the player. CJ will also die from being in a vehicle that explodes.''
+|{{Button|psdown}}{{Button|cross}}{{Button|psright}}{{Button|psleft}}{{Button|psright}}{{Button|r1}}{{Button|psright}}{{Button|psdown}}{{Button|psup}}{{Button|triangle}}
+|BAGUVIX<br>CAINEMVHZC<br>NOONECANHURTME*
+|{{Button|Xbox D-Pad Down}}{{Button|A}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Y}}
+|{{Button|Xbox D-Pad Down}}{{Button|A}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Y}}
+|BLOKKIK
+|-
+|Weapons, tier 1 {{Small|([[Brass Knuckles]], [[Baseball Bat]], [[Pistol (3D Universe)|Pistol]], [[Shotgun (3D Universe)|Shotgun]], [[Micro SMG (3D Universe)|Micro SMG]], [[AK47]], [[Rifle]], [[Rocket Launcher (3D Universe)|Rocket Launcher]], [[Molotov Cocktail]]s & [[Spray Paint]])}}
+
+''Note: Entering this cheat numerous times will give the player infinite ammo.''
+|{{Button|r1}}{{Button|r2}}{{Button|l1}}{{Button|r2}}{{Button|psleft}}{{Button|psdown}}{{Button|psright}}{{Button|psup}}{{Button|psleft}}{{Button|psdown}}{{Button|psright}}{{Button|psup}}
+|LXGIWYL
+POOLOWNERBRIEFCASE<br>THUGSARMOURY*
+|{{Button|Xbox RT}}{{Button|black}}{{Button|Xbox LT}}{{Button|black}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}
+|{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox LT}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}
+|BEFWKSBQ
+|-
+|Weapons, tier 2 {{Small|([[Fist]], [[Knife]], [[Desert Eagle]], [[Sawn-Off Shotgun]], [[TEC 9]], [[M4]], [[Sniper Rifle]], [[Flamethrower]], [[Fire Extinguisher]] & [[Grenades]])}}
+
+''Note: Entering this cheat during [[Tagging Up Turf]] will fail the mission.'' 
+
+''Note: Entering this cheat numerous times will give the player infinite ammo.''
+|{{Button|r1}}{{Button|r2}}{{Button|l1}}{{Button|r2}}{{Button|psleft}}{{Button|psdown}}{{Button|psright}}{{Button|psup}}{{Button|psleft}}{{Button|psdown}}{{Button|psdown}}{{Button|psleft}}
+|PROFESSIONALSKIT*<br>KJKSZPJ
+|{{Button|Xbox RT}}{{Button|black}}{{Button|Xbox LT}}{{Button|black}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}
+|{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox LT}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}
+|SHHIHJG
+|-
+|Weapons, tier 3 {{Small|([[Fist]], [[Chainsaw]], [[Silenced 9mm]], [[SPAS 12]], [[SMG (HD Universe)|SMG]], [[M4]], [[Heat-Seeking Rocket Launcher]], [[Satchel Charges]] & [[Detonator]])}}
+
+''Note: If the player uses the infinite ammo cheat, the detonator will still appear in the weapon list even when the player doesn't have any satchel charges.''
+
+''Note: Entering this cheat numerous times will give the player infinite ammo.''
+|{{Button|r1}}{{Button|r2}}{{Button|l1}}{{Button|r2}}{{Button|psleft}}{{Button|psdown}}{{Button|psright}}{{Button|psup}}{{Button|psleft}}{{Button|psdown}}{{Button|psdown}}{{Button|psdown}}
+|UZUMYMW<br>NUTTERSTOYS*
+|{{Button|Xbox RT}}{{Button|black}}{{Button|Xbox LT}}{{Button|black}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}
+|{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox LT}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}
+|GOIZSSX
+|-
+|Weapons, tier 4 {{Small|([[Minigun]], [[Vibrator]], Random: [[Night Vision|Night Vision Goggles]] or [[Thermal Vision|Thermal Vision Goggles]])}}
+|''This cheat is not available on PS2''
+|''This cheat is not available on PC''
+|''This cheat is not available on Xbox''
+|''This cheat is not available on Xbox''
+|BIEUHQY
+|-
+|Complete invulnerability
+''Note: No damage from guns, fire, falls, explosions, drowning, gunshots from [[Police Maverick (3D Universe)|police helicopters]] etc.; any vehicle the player enters is permanently invulnerable too.''
+|''This cheat is not available on PS2''
+|''This cheat is not available on PC''
+|''This cheat is not available on Xbox''
+|''This cheat is not available on Xbox''
+|GONPXWR
+|}
+
+==Vehicles==
+{| class="wikitable"
+! width="200" |Effect
+!PS2
+! width="200" |PC
+!Xbox
+!Xbox 360
+!Android 2013         
+|-
+|All cars have [[nitro]]us
+
+(''Note: When modifying a car, it appears as "2x Nitro".''
+|{{Button|psleft}}{{Button|triangle}}{{Button|r1}}{{Button|l1}}{{Button|psup}}{{Button|square}}{{Button|triangle}}{{Button|psdown}}{{Button|circle}}{{Button|l2}}{{Button|l1}}{{Button|l1}}
+|SPEEDFREAK*<br>COXEFGU
+|{{Button|Xbox D-Pad Left}}{{Button|Y}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Y}}{{Button|Xbox D-Pad Down}}{{Button|B}}{{Button|white}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Left}}{{Button|Y}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Y}}{{Button|Xbox D-Pad Down}}{{Button|B}}{{Button|Xbox LB}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|WUSDOTO
+|-
+|Cars drive on water
+|{{Button|psright}}{{Button|r2}}{{Button|circle}}{{Button|r1}}{{Button|l2}}{{Button|square}}{{Button|r1}}{{Button|r2}}
+|''This cheat is not available on PC''
+|{{Button|Xbox D-Pad Right}}{{Button|black}}{{Button|B}}{{Button|Xbox RT}}{{Button|white}}{{Button|X}}{{Button|Xbox RT}}{{Button|black}}
+|{{Button|Xbox D-Pad Right}}{{Button|Xbox RB}}{{Button|B}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|X}}{{Button|Xbox RT}}{{Button|Xbox RB}}
+|BDBGXNJI
+|-
+|Flying boats
+|{{Button|r2}}{{Button|circle}}{{Button|psup}}{{Button|l1}}{{Button|psright}}{{Button|r1}}{{Button|psright}}{{Button|psup}}{{Button|square}}{{Button|triangle}}
+|FLYINGFISH*<br>AFSNMSMW
+|{{Button|black}}{{Button|B}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Y}}
+|{{Button|Xbox RB}}{{Button|B}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Y}}
+|PTHSEO
+|-
+|Flying cars
+
+''Note: Cars are controlled like planes, except they have no left and right rudder.''
+|{{Button|square}}{{Button|psdown}}{{Button|l2}}{{Button|psup}}{{Button|l1}}{{Button|circle}}{{Button|psup}}{{Button|cross}}{{Button|psleft}}
+|RIPAZHA
+ANSWERTALKINVEHICLE<br>CHITTYCHITTYBANGBANG*
+|{{Button|X}}{{Button|Xbox D-Pad Down}}{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox D-Pad Left}}
+|{{Button|X}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox D-Pad Left}}
+|DOTBSFK
+|-
+|Spawn sport cars
+|{{Button|psup}}{{Button|l1}}{{Button|r1}}{{Button|psup}}{{Button|psright}}{{Button|psup}}{{Button|cross}}{{Button|l2}}{{Button|cross}}{{Button|l1}}
+|''This cheat is not available on PC''
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|white}}{{Button|A}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox LB}}{{Button|A}}{{Button|Xbox LT}}
+|
+|-
+|Improved suspensions
+|{{Button|square}}{{Button|square}}{{Button|r2}}{{Button|psleft}}{{Button|psup}}{{Button|square}}{{Button|r2}}{{Button|cross}}{{Button|cross}}{{Button|cross}}
+|STICKLIKEGLUE*<br>PGGOMOY
+|{{Button|X}}{{Button|X}}{{Button|black}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|black}}{{Button|A}}{{Button|A}}{{Button|A}}
+|{{Button|X}}{{Button|X}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox RB}}{{Button|A}}{{Button|A}}{{Button|A}}
+|DLNNHZJ
+|-
+|Full weapon aiming in vehicles + ''[[Micro SMG (3D Universe)|Micro SMG]] (If CJ doesn't have this type of weapon)''
+|{{Button|psup}}{{Button|psup}}{{Button|square}}{{Button|l2}}{{Button|psright}}{{Button|cross}}{{Button|r1}}{{Button|psdown}}{{Button|r2}}{{Button|circle}}
+|OUIQDMW<br>IWANNADRIVEBY*
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|white}}{{Button|Xbox D-Pad Right}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Down}}{{Button|black}}{{Button|B}}
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Right}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RB}}{{Button|B}}
+|RYSMRM
+|-
+|Massive bicycle bunny hops (Jump 100 feet in air)
+|{{Button|triangle}}{{Button|square}}{{Button|circle}}{{Button|circle}}{{Button|square}}{{Button|circle}}{{Button|circle}}{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|r1}}{{Button|r2}}
+|CJPHONEHOME*<br>JHJOECW
+|{{Button|Y}}{{Button|X}}{{Button|B}}{{Button|B}}{{Button|X}}{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|white}}{{Button|white}}{{Button|Xbox RT}}{{Button|black}}
+|{{Button|Y}}{{Button|X}}{{Button|B}}{{Button|B}}{{Button|X}}{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox RT}}{{Button|Xbox RB}}
+|TDBKCEH
+|-
+|Perfect handling
+|{{Button|triangle}}{{Button|r1}}{{Button|r1}}{{Button|psleft}}{{Button|r1}}{{Button|l1}}{{Button|r2}}{{Button|l1}}
+|STICKLIKEGLUE*<br>PGGOMOY
+|{{Button|Y}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|black}}{{Button|Xbox LT}}
+|{{Button|Y}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox RB}}{{Button|Xbox LT}}
+|DLNNHZJ
+|-
+|Spawn [[Bloodring Banger]]
+|{{Button|psdown}}{{Button|r1}}{{Button|circle}}{{Button|l2}}{{Button|l2}}{{Button|cross}}{{Button|r1}}{{Button|l1}}{{Button|psleft}}{{Button|psleft}}
+|OLDSPEEDDEMON*<br>CQZIJMB
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|B}}{{Button|white}}{{Button|white}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|B}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}
+|BIGLWCDD
+|-
+|Spawn [[Caddy]]
+|{{Button|circle}}{{Button|l1}}{{Button|psup}}{{Button|r1}}{{Button|l2}}{{Button|cross}}{{Button|r1}}{{Button|l1}}{{Button|circle}}{{Button|cross}}
+|RZHSUEW<br>18HOLES*
+|{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|white}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|B}}{{Button|A}}
+|{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|B}}{{Button|A}}
+|DAHESZY
+|-
+|Spawn [[Dozer]]
+|{{Button|r2}}{{Button|l1}}{{Button|l1}}{{Button|psright}}{{Button|psright}}{{Button|psup}}{{Button|psup}}{{Button|cross}}{{Button|l1}}{{Button|psleft}}
+|ITSALLBULL*<br>EEGCYXT
+|{{Button|black}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}
+|{{Button|Xbox RB}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}
+|
+|-
+|Spawn [[Hunter]]
+|{{Button|circle}}{{Button|cross}}{{Button|l1}}{{Button|circle}}{{Button|circle}}{{Button|l1}}{{Button|circle}}{{Button|r1}}{{Button|r2}}{{Button|l2}}{{Button|l1}}{{Button|l1}}
+|OHDUDE*
+|{{Button|B}}{{Button|A}}{{Button|Xbox LT}}{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox RT}}{{Button|black}}{{Button|white}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|B}}{{Button|A}}{{Button|Xbox LT}}{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox LB}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|
+|-
+|Spawn [[Hydra]]
+|{{Button|triangle}}{{Button|triangle}}{{Button|square}}{{Button|circle}}{{Button|cross}}{{Button|l1}}{{Button|l1}}{{Button|psdown}}{{Button|psup}}
+|JUMPJET*
+|{{Button|Y}}{{Button|Y}}{{Button|X}}{{Button|B}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}
+|{{Button|Y}}{{Button|Y}}{{Button|X}}{{Button|B}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}
+|AWPTMIIQ
+|-
+|Spawn [[Monster (monstera)|Monster Truck]] (second variant)
+|{{Button|psright}}{{Button|psup}}{{Button|r1}}{{Button|r1}}{{Button|r1}}{{Button|psdown}}{{Button|triangle}}{{Button|triangle}}{{Button|cross}}{{Button|circle}}{{Button|l1}}{{Button|l1}}
+|MONSTERMASH*<br>AGBDLCID
+|{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Down}}{{Button|Y}}{{Button|Y}}{{Button|A}}{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Down}}{{Button|Y}}{{Button|Y}}{{Button|A}}{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|
+|-
+|Spawn [[Quad]]
+|{{Button|psleft}}{{Button|psleft}}{{Button|psdown}}{{Button|psdown}}{{Button|psup}}{{Button|psup}}{{Button|square}}{{Button|circle}}{{Button|triangle}}{{Button|r1}}{{Button|r2}}
+|FOURWHEELFUN*<br>AKJJYGLC
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|B}}{{Button|Y}}{{Button|Xbox RT}}{{Button|black}}
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|B}}{{Button|Y}}{{Button|Xbox RT}}{{Button|Xbox RB}}
+|
+|-
+|Spawn [[Hotring Racer (hotrina)|Hotring Racer]] (second variant)
+|{{Button|r1}}{{Button|circle}}{{Button|r2}}{{Button|psright}}{{Button|l1}}{{Button|l2}}{{Button|cross}}{{Button|cross}}{{Button|square}}{{Button|r1}}
+|VROCKPOKEY<br>PDNEJOH<br>NOTFORPUBLICROADS*
+|{{Button|Xbox RT}}{{Button|B}}{{Button|black}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|white}}{{Button|A}}{{Button|A}}{{Button|X}}{{Button|Xbox RT}}
+|{{Button|Xbox RT}}{{Button|B}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|A}}{{Button|A}}{{Button|X}}{{Button|Xbox RT}}
+|BGJPSYC
+|-
+|Spawn [[Hotring Racer (hotrinb)|Hotring Racer]] (third variant)
+|{{Button|r2}}{{Button|l1}}{{Button|circle}}{{Button|psright}}{{Button|l1}}{{Button|r1}}{{Button|psright}}{{Button|psup}}{{Button|circle}}{{Button|r2}}
+|VPJTQWV<br>JUSTTRYANDSTOPME*
+|{{Button|black}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|B}}{{Button|black}}
+|{{Button|Xbox RB}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|B}}{{Button|Xbox RB}}
+|BIEAVBAY
+|-
+|Spawn [[Rancher (lure)|Rancher]] (Lure variant)
+|{{Button|psup}}{{Button|psright}}{{Button|psright}}{{Button|l1}}{{Button|psright}}{{Button|psup}}{{Button|square}}{{Button|l2}}
+|JQNTDMH
+DOUGHNUTHANDICAP**
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|white}}
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox LB}}
+|HPGPIJZ
+|-
+|Spawn [[Rhino (3D Universe)|Rhino]]
+|{{Button|circle}}{{Button|circle}}{{Button|l1}}{{Button|circle}}{{Button|circle}}{{Button|circle}}{{Button|l1}}{{Button|l2}}{{Button|r1}}{{Button|triangle}}{{Button|circle}}{{Button|triangle}}
+|AIWPRTON<br>TIMETOKICKASS*
+|{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|B}}{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|white}}{{Button|Xbox RT}}{{Button|Y}}{{Button|B}}{{Button|Y}}
+|{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|B}}{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox RT}}{{Button|Y}}{{Button|B}}{{Button|Y}}
+|AYNVQVK
+|-
+|Spawn [[Romero's Hearse|Romero]]
+|{{Button|psdown}}{{Button|r2}}{{Button|psdown}}{{Button|r1}}{{Button|l2}}{{Button|psleft}}{{Button|r1}}{{Button|l1}}{{Button|psleft}}{{Button|psright}}
+|WHERESTHEFUNERAL*<br>AQTBCODX
+|{{Button|Xbox D-Pad Down}}{{Button|black}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|white}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}
+|PSPNATX
+|-
+|Spawn [[Stretch|Stretch Limousine]]
+|{{Button|r2}}{{Button|psup}}{{Button|l2}}{{Button|psleft}}{{Button|psleft}}{{Button|r1}}{{Button|l1}}{{Button|circle}}{{Button|psright}}
+|CELEBRITYSTATUS*<br>KRIJEBR
+|{{Button|black}}{{Button|Xbox D-Pad Up}}{{Button|white}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox D-Pad Right}}
+|{{Button|Xbox RB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox D-Pad Right}}
+|IXSMWCQ
+|-
+|Spawn [[Stuntplane|Stunt Plane]]
+|{{Button|circle}}{{Button|psup}}{{Button|l1}}{{Button|l2}}{{Button|psdown}}{{Button|r1}}{{Button|l1}}{{Button|l1}}{{Button|psleft}}{{Button|psleft}}{{Button|cross}}{{Button|triangle}}
+|FLYINGTOSTUNT*<br>URKQSRK
+|{{Button|B}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|white}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Y}}
+|{{Button|B}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Y}}
+|
+|-
+|Spawn [[Tanker]] with attached [[Petrol Truck|tanker trailer]]
+|{{Button|r1}}{{Button|psup}}{{Button|psleft}}{{Button|psright}}{{Button|r2}}{{Button|psup}}{{Button|psright}}{{Button|square}}{{Button|psright}}{{Button|l2}}{{Button|l1}}{{Button|l1}}
+|AMOMHRER
+SCANDALOUSTRAILERGARY<br>HITTHEROADJACK*
+|{{Button|Xbox RT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|black}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|Xbox D-Pad Right}}{{Button|white}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox RT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LB}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|
+|-
+|Spawn [[Trashmaster]]
+|{{Button|circle}}{{Button|r1}}{{Button|circle}}{{Button|r1}}{{Button|psleft}}{{Button|psleft}}{{Button|r1}}{{Button|l1}}{{Button|circle}}{{Button|psright}}
+|TRUEGRIME*<br>UBHYZHQ
+|{{Button|B}}{{Button|Xbox RT}}{{Button|B}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox D-Pad Right}}
+|{{Button|B}}{{Button|Xbox RT}}{{Button|B}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|B}}{{Button|Xbox D-Pad Right}}
+|QPOLSVK
+|-
+|Spawn [[Vortex]]
+|{{Button|triangle}}{{Button|triangle}}{{Button|square}}{{Button|circle}}{{Button|cross}}{{Button|l1}}{{Button|l2}}{{Button|psdown}}{{Button|psdown}}
+|KGGGDKP<br>IWANTTOHOVER*
+|{{Button|Y}}{{Button|Y}}{{Button|X}}{{Button|B}}{{Button|A}}{{Button|Xbox LT}}{{Button|white}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}
+|{{Button|Y}}{{Button|Y}}{{Button|X}}{{Button|B}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}
+|
+|-
+|[[Taxi Driver|Taxi missions]] completed
+|{{Button|psup}}{{Button|cross}}{{Button|triangle}}{{Button|cross}}{{Button|triangle}}{{Button|cross}}{{Button|square}}{{Button|r2}}{{Button|psright}}
+|''This cheat is not available on PC''
+|{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|X}}{{Button|black}}{{Button|Xbox D-Pad Right}}
+|{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|X}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Right}}
+|
+|-
+|Carl's car is invincible and can instantly destroy other vehicles (auto-immune car)
+
+''Note: Invincibility is unreliable and occasionally turns itself off after cutscenes, inside the car when just finishing [[Girlfriends in GTA San Andreas|dates]] and missions or if Carl's inside the car when the cheat is turned on. The player has to exit and re-enter the car to re-enable the invincibility, or else Carl's car will blow up when blowing up another car. Also if the player disables this cheat while inside the vehicle, it will become all-proof and also not destroyed when using cheats "Blow up all vehicles". If the vehicle is stored into the garage, it will immediately lose its fire and damage-proof qualities, but retain the bullet-proofing and explosion-proofing.''
+|{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|psup}}{{Button|psdown}}{{Button|psdown}}{{Button|psup}}{{Button|r1}}{{Button|r2}}{{Button|r2}}
+|JCNRUAD<br>TOUCHMYCARYOUDIE*
+|{{Button|Xbox LT}}{{Button|white}}{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|black}}{{Button|black}}
+|{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox RB}}
+|BXBTUBTI
+|}
+<nowiki>**</nowiki>''This was not an intended cheat string as its hash was intentionally NULLed''
+
+==Themes/Pedestrian Behavior==
+Many of these cheats are used in the game during the [[Los Santos Riots]].
+
+{| class="wikitable"
+! width="200" |Effect
+!PS2
+! width="200" |PC
+!Xbox
+!Xbox 360
+!Android 2013                 
+|-
+|Aggressive drivers
+|{{Button|psright}}{{Button|r2}}{{Button|psup}}{{Button|psup}}{{Button|r2}}{{Button|circle}}{{Button|square}}{{Button|r2}}{{Button|l1}}{{Button|psright}}{{Button|psdown}}{{Button|l1}}
+|YLTEICZ<br>ALLDRIVERSARECRIMINALS*
+|{{Button|Xbox D-Pad Right}}{{Button|black}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|black}}{{Button|B}}{{Button|X}}{{Button|black}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Right}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RB}}{{Button|B}}{{Button|X}}{{Button|Xbox RB}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}
+|IOKXTFJ
+|-
+|Aggressive traffic
+|{{Button|r2}}{{Button|circle}}{{Button|r1}}{{Button|l2}}{{Button|psleft}}{{Button|r1}}{{Button|l1}}{{Button|r2}}{{Button|l2}}
+|YLTEICZ
+ALLDRIVERSARECRIMINALS*
+|{{Button|black}}{{Button|B}}{{Button|Xbox RT}}{{Button|white}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|black}}{{Button|white}}
+|{{Button|Xbox RB}}{{Button|B}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox RB}}{{Button|Xbox LB}}
+|IOKXTFJ
+|-
+|Beach party theme {{Small|(''CJ's outfit is changed to [[Victim]] olive shorts, flip-flops, and [[ProLaps (3D Universe)|ProLaps]] sunglasses. Traffic and pedestrians are replaced with those usually seen around [[Verona Beach]]. Weather set to very sunny.'')}}
+''Note: Enabling the "Beach party theme" cheat during the [[Valet]] will fail the mission''
+|{{Button|psup}}{{Button|psup}}{{Button|psdown}}{{Button|psdown}}{{Button|square}}{{Button|circle}}{{Button|l1}}{{Button|r1}}{{Button|triangle}}{{Button|psdown}}
+|LIFESABEACH*<br>CIKGCGX
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|X}}{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Y}}{{Button|Xbox D-Pad Down}}
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|X}}{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Y}}{{Button|Xbox D-Pad Down}}
+|BWCMMTD
+|-
+|Beater/cheap traffic
+|{{Button|l2}}{{Button|psright}}{{Button|l1}}{{Button|psup}}{{Button|cross}}{{Button|l1}}{{Button|l2}}{{Button|r2}}{{Button|r1}}{{Button|l1}}{{Button|l1}}{{Button|l1}}
+|BGKGTJH
+|{{Button|white}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox LT}}{{Button|white}}{{Button|black}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox LB}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox RB}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|JTBCSN
+|-
+|Black traffic
+|{{Button|circle}}{{Button|l2}}{{Button|psup}}{{Button|r1}}{{Button|psleft}}{{Button|cross}}{{Button|r1}}{{Button|l1}}{{Button|psleft}}{{Button|circle}}
+|IOWDLAC<br>SOLONGASITSBLACK*
+|{{Button|B}}{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|B}}
+|{{Button|B}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|B}}
+|GOYDVAO
+|-
+|Carnival/funhouse theme {{Small|(''CJ's outfit changes to a pink Cesar haircut, joker glasses and red heart boxers''.'' Pedestrians are replaced with [[Cluckin' Bell (3D Universe)|fast]] [[Burger Shot (3D Universe)|food]] workers and clowns. Traffic consists of [[Pizza Boy (3D Universe)|Pizza Boys]], [[BF Injection]]s, [[Hotknife]]s, [[Tug]]s, [[Quad]]s, [[Kart]]s, [[Mr. Whoopee]]s, and [[Hotdog]]s. All four-wheeled vehicles, except emergency vehicles, are equipped with hydraulics.'')}}
+''Note: Enabling the "Carnival/funhouse theme" cheat during the [[Valet]] will fail the mission''
+|{{Button|triangle}}{{Button|triangle}}{{Button|l1}}{{Button|square}}{{Button|square}}{{Button|circle}}{{Button|square}}{{Button|psdown}}{{Button|circle}}
+|CRAZYTOWN*<br>PRIEBJ
+|{{Button|Y}}{{Button|Y}}{{Button|Xbox LT}}{{Button|X}}{{Button|X}}{{Button|B}}{{Button|X}}{{Button|Xbox D-Pad Down}}{{Button|B}}
+|{{Button|Y}}{{Button|Y}}{{Button|Xbox LT}}{{Button|X}}{{Button|X}}{{Button|B}}{{Button|X}}{{Button|Xbox D-Pad Down}}{{Button|B}}
+|HDLIWGB
+|-
+|Cars float away when hit
+
+''Note: This cheat does not work in missions involving races and car chases.''
+|{{Button|square}}{{Button|r2}}{{Button|psdown}}{{Button|psdown}}{{Button|psleft}}{{Button|psdown}}{{Button|psleft}}{{Button|psleft}}{{Button|l2}}{{Button|cross}}
+|BUBBLECARS*<br>BSXSGGC
+|{{Button|X}}{{Button|black}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|white}}{{Button|A}}
+|{{Button|X}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox LB}}{{Button|A}}
+|JBVIJXA
+|-
+|Pedestrians riot
+
+''Note: Unlike previous games, this code can be turned on and off at will. However, keeping it on may cause problems during the storyline. This code brings up data from the Los Santos Riots except on a statewide scale.''
+|{{Button|l2}}{{Button|psright}}{{Button|l1}}{{Button|triangle}}{{Button|psright}}{{Button|psright}}{{Button|r1}}{{Button|l1}}{{Button|psright}}{{Button|l1}}{{Button|l1}}{{Button|l1}}
+|STATEOFEMERGENCY*<br>IOJUFZN
+|{{Button|white}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Y}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox LB}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Y}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|NJXPCYE
+|-
+|Explode all vehicles (except bicycles)
+
+''Note: Vehicles that have been already destroyed will also explode. Any deaths caused by this cheat will be counted in the player's kill count.''
+|{{Button|r2}}{{Button|l2}}{{Button|r1}}{{Button|l1}}{{Button|l2}}{{Button|r2}}{{Button|square}}{{Button|triangle}}{{Button|circle}}{{Button|triangle}}{{Button|l2}}{{Button|l1}}
+|ALLCARSGOBOOM*<br>CPKTNWT
+|{{Button|black}}{{Button|white}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|white}}{{Button|black}}{{Button|X}}{{Button|Y}}{{Button|B}}{{Button|Y}}{{Button|white}}{{Button|Xbox LT}}
+|{{Button|Xbox RB}}{{Button|Xbox LB}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox RB}}{{Button|X}}{{Button|Y}}{{Button|B}}{{Button|Y}}{{Button|Xbox LB}}{{Button|Xbox LT}}
+|BKFONFE
+|-
+|Invisible cars
+|{{Button|triangle}}{{Button|l1}}{{Button|triangle}}{{Button|r2}}{{Button|square}}{{Button|l1}}{{Button|l1}}
+|WHEELSONLYPLEASE*<br>XICWMD
+|{{Button|Y}}{{Button|Xbox LT}}{{Button|Y}}{{Button|black}}{{Button|X}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Y}}{{Button|Xbox LT}}{{Button|Y}}{{Button|Xbox RB}}{{Button|X}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|
+|-
+|Kinky theme/pimp mode {{Small|(''CJ's outfit changes to the [[Gimp Suit]]. Pedestrians consist of [[Pimp|pimps]] and [[prostitutes]] equipped with [[dildo]]s. Prostitutes are attracted to CJ and follow him around.'')}}
+''Note: Enabling the "Kinky theme/pimp mode" cheat during the [[Valet]] will fail the mission''
+|{{Button|square}}{{Button|psright}}{{Button|square}}{{Button|square}}{{Button|l2}}{{Button|cross}}{{Button|triangle}}{{Button|cross}}{{Button|triangle}}
+|BEKKNQV<br>LOVECONQUERSALL*
+|{{Button|X}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|X}}{{Button|white}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|Y}}
+|{{Button|X}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|X}}{{Button|Xbox LB}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|Y}}
+|BNIZWSB
+|-
+|[[Prostitutes]] pay Carl instead of taking Carl's money {{Small|(''For some unknown reason, this cheat will alternate between giving the player Thermal Vision Goggles and Night Vision Goggles every time this cheat is activated. It also gives him a Minigun with some ammo. Tested and confirmed on PS3.'')}}
+|{{Button|psright}}{{Button|l2}}{{Button|l2}}{{Button|psdown}}{{Button|l2}}{{Button|psup}}{{Button|psup}}{{Button|l2}}{{Button|r2}}
+|''This cheat is not available on PC''
+|{{Button|Xbox D-Pad Right}}{{Button|white}}{{Button|white}}{{Button|Xbox D-Pad Down}}{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|white}}{{Button|black}}
+|{{Button|Xbox D-Pad Right}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LB}}{{Button|Xbox RB}}
+|
+|-
+|No pedestrians/reduced traffic
+
+''Note: Parked cars still spawn.''
+|{{Button|cross}}{{Button|psdown}}{{Button|psup}}{{Button|r2}}{{Button|psdown}}{{Button|triangle}}{{Button|l1}}{{Button|triangle}}{{Button|psleft}}
+|GHOSTTOWN*<br>THGLOJ
+|{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|black}}{{Button|Xbox D-Pad Down}}{{Button|Y}}{{Button|Xbox LT}}{{Button|Y}}{{Button|Xbox D-Pad Left}}
+|{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Down}}{{Button|Y}}{{Button|Xbox LT}}{{Button|Y}}{{Button|Xbox D-Pad Left}}
+|DEHDRX
+|-
+|Pedestrians are Elvis
+|{{Button|l1}}{{Button|circle}}{{Button|triangle}}{{Button|l1}}{{Button|l1}}{{Button|square}}{{Button|l2}}{{Button|psup}}{{Button|psdown}}{{Button|psleft}}
+|BLUESUEDESHOES*
+ASBHGRB
+|{{Button|Xbox LT}}{{Button|B}}{{Button|Y}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|X}}{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}
+|{{Button|Xbox LT}}{{Button|B}}{{Button|Y}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|X}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}
+|LNHVOAE
+|-
+|Pedestrians attack Carl
+|{{Button|psdown}}{{Button|psup}}{{Button|psup}}{{Button|psup}}{{Button|cross}}{{Button|r2}}{{Button|r1}}{{Button|l2}}{{Button|l2}}
+|BAGOWPG<br>STOPPICKINGONME*
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|black}}{{Button|Xbox RT}}{{Button|white}}{{Button|white}}
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox RB}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|Xbox LB}}
+|FARYJHZ
+|-
+|Pedestrians attack Carl with guns
+|{{Button|cross}}{{Button|l1}}{{Button|psup}}{{Button|square}}{{Button|psdown}}{{Button|cross}}{{Button|l2}}{{Button|triangle}}{{Button|psdown}}{{Button|r1}}{{Button|l1}}{{Button|l1}}
+|BGLUAWML<br>ATTACKOFTHEVILLAGEPEOPLE*
+|{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox D-Pad Down}}{{Button|A}}{{Button|white}}{{Button|Y}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox D-Pad Down}}{{Button|A}}{{Button|Xbox LB}}{{Button|Y}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|ERFBFNI
+|-
+|Pedestrians have weapons {{Small|(Baseball Bat, Pistol, Shotgun, M4, Rocket Launcher)}}
+|{{Button|r2}}{{Button|r1}}{{Button|cross}}{{Button|triangle}}{{Button|cross}}{{Button|triangle}}{{Button|psup}}{{Button|psdown}}
+|FOOOXFT<br>SURROUNDEDBYNUTTERS*
+|{{Button|black}}{{Button|Xbox RT}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}
+|{{Button|Xbox RB}}{{Button|Xbox RT}}{{Button|A}}{{Button|Y}}{{Button|A}}{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}
+|GDNXHDK
+|-
+|Pedestrians riot (with golf club)
+
+''Note: This code changes the all ped acquaintances of the male and female ped types to hate, except for the [[Street Criminals|street criminals]], [[prostitutes]], and mission ped types. Madd Dogg will instantly jump off the [[Royal Casino|roof]] once Carl starts his [[Madd Dogg (mission)|mission]].''
+|{{Button|psdown}}{{Button|psleft}}{{Button|psup}}{{Button|psleft}}{{Button|cross}}{{Button|r2}}{{Button|r1}}{{Button|l2}}{{Button|l1}}
+|AJLOJYQY<br>ROUGHNEIGHBOURHOOD*
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|black}}{{Button|Xbox RT}}{{Button|white}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox RB}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|Xbox LT}}
+|AKOZBCH
+|-
+|Pink traffic
+|{{Button|circle}}{{Button|l1}}{{Button|psdown}}{{Button|l2}}{{Button|psleft}}{{Button|cross}}{{Button|r1}}{{Button|l1}}{{Button|psright}}{{Button|circle}}
+|LLQPFBN<br>PINKISTHENEWCOOL*
+|{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Down}}{{Button|white}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|B}}
+|{{Button|B}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Right}}{{Button|B}}
+|GYKVYTR
+|-
+|Rural traffic
+|{{Button|l1}}{{Button|l1}}{{Button|r1}}{{Button|r1}}{{Button|l2}}{{Button|l1}}{{Button|r2}}{{Button|psdown}}{{Button|psleft}}{{Button|psup}}
+|EVERYONEISPOOR*<br>KKZRPKW
+|{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|white}}{{Button|Xbox LT}}{{Button|black}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Up}}
+|{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox LB}}{{Button|Xbox LT}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Up}}
+|JTBCSN
+|-
+|Rural theme {{Small|(''CJ's outfit changes to a [[Binco (3D Universe)|Binco]] Trucker Cap and [[Rural Clothes|overalls]]. Traffic and pedestrians are replaced with those usually seen in [[Red County (3D Universe)|Red]] and [[Flint County (3D Universe)|Flint]] counties.'')}}
+''Note: Enabling the "Rural theme" cheat during the [[Valet]] will fail the mission''
+|{{Button|triangle}}{{Button|psleft}}{{Button|square}}{{Button|r2}}{{Button|psup}}{{Button|l2}}{{Button|psdown}}{{Button|l1}}{{Button|cross}}{{Button|l1}}{{Button|l1}}{{Button|l1}}
+|FVTMNBZ<br>HICKSVILLE*
+|{{Button|Y}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|black}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Y}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|OAXCCRI
+|-
+|Sports car traffic {{Small|(''Traffic consists of [[Buffalo (3D Universe)|Buffalos]], [[Cheetah (3D Universe)|Cheetahs]], [[Uranus]]es, [[Euros]]es, [[Bullet]]s, [[Infernus]]es, [[ZR-350]]s, [[Stratum (3D Universe)|Stratums]], [[Elegy|Elegies]], [[Flashback FM|Flashes]], [[Jester]]s, [[Sultan (3D Universe)|Sultans]], [[Club]]s, [[Phoenix (3D Universe)|Phoenixes]], [[Hotknife|Hotknives]], [[Super GT]]s, [[Banshee (3D Universe)|Banshees]], [[Comet]]s and [[Turismo]]s.'')}}''Note: Random vehicle spawn points also spawn sports cars. The cheat does not tend to spawn [[Alpha (3D Universe)|Alphas]], however.''
+|{{Button|psup}}{{Button|l1}}{{Button|r1}}{{Button|psup}}{{Button|psright}}{{Button|psup}}{{Button|cross}}{{Button|l2}}{{Button|cross}}{{Button|l1}}
+|EVERYONEISRICH*<br>GUSNHDE
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|white}}{{Button|A}}{{Button|Xbox LT}}
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}{{Button|A}}{{Button|Xbox LB}}{{Button|A}}{{Button|Xbox LT}}
+|FRIUBIL
+|-
+|Traffic lights always green
+|{{Button|psright}}{{Button|r1}}{{Button|psup}}{{Button|l2}}{{Button|l2}}{{Button|psleft}}{{Button|r1}}{{Button|l1}}{{Button|r1}}{{Button|r1}}
+|ZEIIVG<br>DONTTRYANDSTOPME*
+|{{Button|Xbox D-Pad Right}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Up}}{{Button|white}}{{Button|white}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox RT}}
+|{{Button|Xbox D-Pad Right}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox RT}}
+|ENQCFMA
+|-
+|[[San Fierro Triads|Triad]] theme {{Small|(''CJ is equipped with a [[katana]] and all pedestrians are replaced with groups of Triads. Traffic mostly consists of [[PCJ 600]]s, [[FCR-900]]s, and [[BF-400]]s. All vehicles spawn in all black, behaving identically to the black traffic cheat.'')}}
+|{{Button|cross}}{{Button|cross}}{{Button|psdown}}{{Button|r2}}{{Button|l2}}{{Button|circle}}{{Button|r1}}{{Button|circle}}{{Button|square}}
+|NINJATOWN*<br>AFPHULTL
+|{{Button|A}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|black}}{{Button|white}}{{Button|B}}{{Button|Xbox RT}}{{Button|B}}{{Button|X}}
+|{{Button|A}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox RB}}{{Button|Xbox LB}}{{Button|B}}{{Button|Xbox RT}}{{Button|B}}{{Button|X}}
+|AAUSQP
+|}
+
+==Gangs==
+{| class="wikitable"
+! width="200" |Effect
+!PS2
+! width="200" |PC
+!Xbox
+!Xbox 360
+!Android 2013            
+|-
+|Gang members spawn much faster (can be deactivated)
+|{{Button|psleft}}{{Button|psright}}{{Button|psright}}{{Button|psright}}{{Button|psleft}}{{Button|cross}}{{Button|psdown}}{{Button|psup}}{{Button|square}}{{Button|psright}}
+|MROEMZH
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox D-Pad Right}}
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox D-Pad Right}}
+|EAMLJNN
+|-
+|Gang wars break out all over [[State of San Andreas (3D Universe)|San Andreas]] (can be deactivated)
+
+''Note: Gangs will turn hostile and attack CJ and his gang.''
+|{{Button|l1}}{{Button|psup}}{{Button|r1}}{{Button|r1}}{{Button|psleft}}{{Button|r1}}{{Button|r1}}{{Button|r2}}{{Button|psright}}{{Button|psdown}}
+|ONLYHOMIESALLOWED*
+|{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|black}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}
+|{{Button|Xbox LT}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}
+|EAMLJNN
+|-
+|Gangs and workers (can be deactivated)
+|{{Button|psleft}}{{Button|psright}}{{Button|psright}}{{Button|psright}}{{Button|psleft}}{{Button|cross}}{{Button|psdown}}{{Button|psup}}{{Button|square}}{{Button|psright}}
+|MROEMZH
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox D-Pad Right}}
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Left}}{{Button|A}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Up}}{{Button|X}}{{Button|Xbox D-Pad Right}}
+|EAMLJNN
+|-
+|No citizens or cops, only gang members having gunfights (can be deactivated)
+
+''Note: Gangs will turn hostile and attack CJ and his gang.''
+|{{Button|l2}}{{Button|psup}}{{Button|r1}}{{Button|r1}}{{Button|psleft}}{{Button|r1}}{{Button|r1}}{{Button|r2}}{{Button|psright}}{{Button|psdown}}
+|BIFBUZZ<br>BETTERSTAYINDOORS*
+|{{Button|white}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|black}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}
+|{{Button|Xbox LB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RT}}{{Button|Xbox RT}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}
+|HAPOHXR
+|-
+|Recruit anyone into gang with [[Pistol (3D Universe)|Pistols]]
+
+''Note: If the player recruits a Ballas and/or Vagos gang member and starts a gang war, the recruited Ballas and/or Vagos will immediately attack the player.''
+|{{Button|psdown}}{{Button|square}}{{Button|psup}}{{Button|r2}}{{Button|r2}}{{Button|psup}}{{Button|psright}}{{Button|psright}}{{Button|psup}}
+|SJMAHPE<br>WANNABEINMYGANG*
+|{{Button|Xbox D-Pad Down}}{{Button|X}}{{Button|Xbox D-Pad Up}}{{Button|black}}{{Button|black}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}
+|{{Button|Xbox D-Pad Down}}{{Button|X}}{{Button|Xbox D-Pad Up}}{{Button|Xbox RB}}{{Button|Xbox RB}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Up}}
+|JEZRPI
+|-
+|Recruit anyone into gang with [[Rocket Launcher (3D Universe)|rocket launchers]]
+
+''Note: If the player recruits a Ballas and/or Vagos gang member and starts a gang war, the recruited Ballas and/or Vagos will immediately attack the player.''
+|{{Button|r2}}{{Button|r2}}{{Button|r2}}{{Button|cross}}{{Button|l2}}{{Button|l1}}{{Button|r2}}{{Button|l1}}{{Button|psdown}}{{Button|cross}}
+|ROCKETMAYHEM*<br>ZSOXFSQ
+|{{Button|black}}{{Button|black}}{{Button|black}}{{Button|A}}{{Button|white}}{{Button|Xbox LT}}{{Button|black}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Down}}{{Button|A}}
+|{{Button|Xbox RB}}{{Button|Xbox RB}}{{Button|Xbox RB}}{{Button|A}}{{Button|Xbox LB}}{{Button|Xbox LT}}{{Button|Xbox RB}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Down}}{{Button|A}}
+|QAONHOH
+|-
+|Recruit anyone into gang with [[AK47]]s
+
+''Note: If the player recruits a Ballas and/or Vagos gang member and starts a gang war, the recruited Ballas and/or Vagos will immediately attack the player.''
+|''This cheat is not available on PS2''
+|BMTPWHR<br>NOONECANSTOPUS*
+|''This cheat is not available on Xbox''
+|''This cheat is not available on Xbox''
+|AWIOMPH
+|}
+
+==Time and Weather==
+{| class="wikitable"
+! width="200" |Effect
+!PS2
+! width="200" |PC
+!Xbox
+!Xbox 360
+!Android 2013                
+|-
+|Always midnight (00:00)
+
+''Note: Odd sudden weather changes. If Carl is [[wasted]], the time reverts to 12:00. When disabled the time that passed is added to the current time.''
+
+''Only locks the timecycle (sky colour). Sun still rises/sets and map brightens/darkens as usual even with this cheat activated.''
+|{{Button|square}}{{Button|l1}}{{Button|r1}}{{Button|psright}}{{Button|cross}}{{Button|psup}}{{Button|l1}}{{Button|psleft}}{{Button|psleft}}
+|NIGHTPROWLER*<br>XJVSNAJ
+|{{Button|X}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|A}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}
+|{{Button|X}}{{Button|Xbox LT}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|A}}{{Button|Xbox D-Pad Up}}{{Button|Xbox LT}}{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}
+|AWUJNBB
+|-
+|Always 21:00 with orange sky
+
+''Note: When disabled the time that passed is added to the current time.''
+|{{Button|psleft}}{{Button|psleft}}{{Button|l2}}{{Button|r1}}{{Button|psright}}{{Button|square}}{{Button|square}}{{Button|l1}}{{Button|l2}}{{Button|cross}}
+|OFVIAC<br>DONTBRINGONTHENIGHT*
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|white}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|X}}{{Button|Xbox LT}}{{Button|white}}{{Button|A}}
+|{{Button|Xbox D-Pad Left}}{{Button|Xbox D-Pad Left}}{{Button|Xbox LB}}{{Button|Xbox RT}}{{Button|Xbox D-Pad Right}}{{Button|X}}{{Button|X}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|A}}
+|KTGDLXY
+|-
+|Cloudy weather
+|{{Button|l2}}{{Button|psdown}}{{Button|psdown}}{{Button|psleft}}{{Button|square}}{{Button|psleft}}{{Button|r2}}{{Button|square}}{{Button|cross}}{{Button|r1}}{{Button|l1}}{{Button|l1}}
+|ALNSFMZO<br>DULLDULLDAY*
+|{{Button|white}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|Xbox D-Pad Left}}{{Button|black}}{{Button|X}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|{{Button|Xbox LB}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Down}}{{Button|Xbox D-Pad Left}}{{Button|X}}{{Button|Xbox D-Pad Left}}{{Button|Xbox RB}}{{Button|X}}{{Button|A}}{{Button|Xbox RT}}{{Button|Xbox LT}}{{Button|Xbox LT}}
+|VBWEMQX
+|-
+|Fast gameplay
+|{{Button|triangle}}{{Button|psup}}{{Button|psright}}{{Button|psdown}}{{Button|l2}}{{Button|l1}}{{Button|square}}
+|SPEEDITUP*<br>PPGWJHT
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}{{Button|white}}{{Button|Xbox LT}}{{Button|X}}
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LB}}{{Button|Xbox LT}}{{Button|X}}
+|EHWBWDS
+|-
+|Slow gameplay
+|{{Button|triangle}}{{Button|psup}}{{Button|psright}}{{Button|psdown}}{{Button|square}}{{Button|r2}}{{Button|r1}}
+|SLOWITDOWN*<br>LIYOAAY
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}{{Button|X}}{{Button|black}}{{Button|Xbox RT}}
+|{{Button|Y}}{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Right}}{{Button|Xbox D-Pad Down}}{{Button|X}}{{Button|Xbox RB}}{{Button|Xbox RT}}
+|FNJFCZC
+|-
+|Speed up time
+
+''Note: Enter the same code again to deactivate.''
+|{{Button|circle}}{{Button|circle}}{{Button|l1}}{{Button|square}}{{Button|l1}}{{Button|square}}{{Button|square}}{{Button|square}}{{Button|l1}}{{Button|triangle}}{{Button|circle}}{{Button|triangle}}
+|YSOHNUL<br>TIMEJUSTFLIESBY*
+|{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|X}}{{Button|Xbox LT}}{{Button|X}}{{Button|X}}{{Button|X}}{{Button|Xbox LT}}{{Button|Y}}{{Button|B}}{{Button|Y}}
+|{{Button|B}}{{Button|B}}{{Button|Xbox LT}}{{Button|X}}{{Button|Xbox LT}}{{Button|X}}{{Button|X}}{{Button|X}}{{Button|Xbox LT}}{{Button|Y}}{{Button|B}}{{Button|Y}}
+|OWAKIJ
+|-
+|Foggy weather
+|{{Button|r2}}{{Button|cross}}{{Button|l1}}{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|l2}}{{Button|cross}}
+|CFVFGMJ<br>CANTSEEWHEREIMGOING*
+|{{Button|black}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|white}}{{Button|white}}{{Button|white}}{{Button|A}}
+|{{Button|Xbox RB}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|A}}
+|EGCEBVM
+|-
+|Overcast weather
+|{{Button|r2}}{{Button|cross}}{{Button|l1}}{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|l2}}{{Button|square}}
+|ALNSFMZO<br>DULLDULLDAY*
+|{{Button|black}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|white}}{{Button|white}}{{Button|white}}{{Button|X}}
+|{{Button|Xbox RB}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|X}}
+|VBWEMQX
+|-
+|Sandstorm
+|{{Button|psup}}{{Button|psdown}}{{Button|l1}}{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|l1}}{{Button|l2}}{{Button|r1}}{{Button|r2}}
+|CWJXUOC<br>SANDINMYEARS*
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|white}}{{Button|white}}{{Button|Xbox LT}}{{Button|white}}{{Button|Xbox RT}}{{Button|black}}
+|{{Button|Xbox D-Pad Up}}{{Button|Xbox D-Pad Down}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox RT}}{{Button|Xbox RB}}
+|JBWDWWO
+|-
+|Rainy weather
+|{{Button|r2}}{{Button|cross}}{{Button|l1}}{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|l2}}{{Button|cross}}
+|AUIFRVQS<br>STAYINANDWATCHTV*
+|n/a
+|n/a
+|TAVPIER
+|-
+|Stormy weather
+|{{Button|r2}}{{Button|cross}}{{Button|l1}}{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|l2}}{{Button|circle}}
+|SCOTTISHSUMMER*<br>MGHXYRM
+|{{Button|black}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|white}}{{Button|white}}{{Button|white}}{{Button|B}}
+|{{Button|Xbox RB}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|B}}
+|EAKILHM
+|-
+|Sunny weather
+|{{Button|r2}}{{Button|cross}}{{Button|l1}}{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|l2}}{{Button|triangle}}
+|PLEASANTLYWARM*<br>AFZLLQLL
+|{{Button|black}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|white}}{{Button|white}}{{Button|white}}{{Button|Y}}
+|{{Button|Xbox RB}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Y}}
+|AAEXPPQC
+|-
+|Very sunny weather
+|{{Button|r2}}{{Button|cross}}{{Button|l1}}{{Button|l1}}{{Button|l2}}{{Button|l2}}{{Button|l2}}{{Button|psdown}}
+|TOODAMNHOT*<br>ICIKPYH
+|{{Button|black}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|white}}{{Button|white}}{{Button|white}}{{Button|Xbox D-Pad Down}}
+|{{Button|Xbox RB}}{{Button|A}}{{Button|Xbox LT}}{{Button|Xbox LT}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox LB}}{{Button|Xbox D-Pad Down}}
+|HTRTTVJ
+|-
+|Advance 4 hours
+|''This cheat is not available on PS2''
+|''This cheat is not available on PC''
+|''This cheat is not available on Xbox''
+|''This cheat is not available on Xbox''
+|YACKMWS
+|}
+
+
+==Other Cheat Codes for Android Version 2013==
+*Complete the current mission: BYIXZIY
+*Debugging feature: "Show Mappings": KRRIHBT
+*Professional gambling player: AFJKBNRP
+*Debugging feature: "Show Tap To Target": MIZYXHZ
+*Debugging feature: "Show Targeting": JQFUDUB
+
+
+==Cheat Codes Exclusive to ''The Definitive Edition''==
+*Konami Code: the player and all NPCs have a big head: EXPANDDOME
+*Prostitutes pay CJ: DOTHEPIMPCHEAT
+*Cars drive on water: DRIVEONWATER
+*All taxis have nitro and hydraulic: TAXINITRO
+
+
+==Oversights==
+Cheating in ''GTA San Andreas'' has been proven to have some negative effects on missions and gameplay. The following list contains side effects that may arise by playing the game with cheats. To avoid any of these side effects, it is recommended to use cheat codes only after the game has been completed or on an alternate save file. However, some minor side effects from a save file with cheats can spread onto a file without cheats.
+
+*Cheating decreases the [[Criminal Ratings in GTA San Andreas|criminal rating]] by 10 (except for the "health and armor" cheat).
+*The "infinite ammo" cheat may cause the audio to glitch up. The reason this happens is unknown.
+*Enabling the "all cars explode" cheat in some gameplay [[cutscenes]] in some missions will cause the screen to freeze and the player will be stuck in cutscene mode. The game will still be in process, but the mission cannot be continued on. The only way to escape from this situation is to reload a game save or commit suicide via cheats, hacks or other means.
+*Enabling the "health and armor" cheat during the bike chase of [[Just Business]] and during the [[Drive-By Shooting|drive-by]] portion of [[End of the Line]] will fail the mission, destroying the [[BF-400]]/[[Feltzer]], and [[Carl Johnson|CJ]] will eventually be [[wasted]].
+**Also in Just Business, if the player has activated the "invulnerable cars" cheat before [[Big Smoke]] gets on the bike and then inputs the cheat during another cutscene, CJ won't get wasted, but the mission will fail, with the in-game text saying Big Smoke is killed.
+*Enabling the "health and armor" cheat during the [[Lure (GTA San Andreas)|Lure]] mission will immediately destroy the car doors, making the mission more difficult and challenging.
+*The "health and armor" cheat has no effect on the [[District Attorney|DA]]'s car during [[555 We Tip]].
+*Enabling the "health and armor" cheat at any time during a [[Taxi Driver in GTA San Andreas|taxi driver]] sub-mission will immediately empty the tip bar, making the player unable to get the speed bonus (this doesn't always happen on the [[Personal Computer|PC]] version).
+*Enabling the "lock wanted level" cheat will cause a glitch in the [[Mike Toreno (mission)|Mike Toreno]] mission, stopping the script after the red marker (unless the "lock wanted level" cheat is disabled).
+*The "maximum fat and max muscle" cheats make it difficult for the player to date [[Helena Wankstein]] (unless the player collected all [[oysters]]).
+*The "minimum fat and minimum muscle" cheats make it difficult for the player to date [[Michelle Cannes]] and [[Barbara Schternvart]] (unless the player has collected all oysters).
+*The "super punches" cheat is not recommended during the [[Los Santos Riots|riot events of Los Santos]], since any civilian (including CJ) being punched with this cheat enabled on will automatically die (unless the infinite health cheat is also on).
+*The "recruit anyone" cheats reverse in effect during [[Gang Warfare in GTA San Andreas|gang wars]].
+*The missions [[Burning Desire]], [[Life's a Beach]], [[Photo Opportunity]], and [[Madd Dogg (mission)|Madd Dogg]] cannot be completed if too many cheats have been used before them.
+*Enabling the [[Jetpack]] cheat whilst CJ has stepped on a red mission marker will cause the game to crash before the mission starts. This no longer happens on the PC version.
+*The "pedestrians riot" cheat makes the mission Madd Dogg impossible to complete, as [[Madd Dogg (3D Universe)|Madd Dogg]] falls off before CJ has enough time to park the [[Walton|truck]] under him.
+*The "pedestrians riot" cheat also makes the mission [[Tanker Commander]] impossible to complete, as [[Mr. Whittaker]] will instantly attack [[Catalina]] upon meeting her, causing her to shoot him, making the cutscene softlock.
+*The "weapons sets 1, 2, and 3" cheats make the mission [[Air Raid]] impossible to complete, as the [[Minigun]] will be replaced by the [[Rocket Launcher (3D Universe)|Rocket Launcher]], [[Flamethrower]], and [[Heat-Seeking Rocket Launcher]] respectively.
+*Entering the "weapons set 2" cheat during the mission [[Tagging Up Turf]] will instantly fail the mission, as the [[Spray Can]] will be replaced by the [[Fire Extinguisher]].
+*Entering the "kinky", "rural", "beach party", and "carnival" theme cheats during the [[Valet]] side mission will instantly fail the mission.
+*If the player inputs the "flying cars" cheat, and then drives a car into any body of [[water]], CJ will become stuck in the car and will not be able to get out and will drown (unless the "flying cars" cheat is disabled and the "infinite oxygen" cheat is enabled). The same applies when bailing out whilst in the air (rarely).
+*If the player enters the "cars float away when hit" cheat too many times, cars will sometimes spawn in midair and fall from the sky. Also, random cars will explode as soon as CJ is within spawning distance of them.
+*If the player inputs the "flying cars" cheat, random [[Pedestrians|NPC]] cars may suddenly lift off and fly away.
+*Enabling the "health and armor" cheat during the chase portion of the mission [[Reuniting the Families]] will not repair [[Sweet Johnson|Sweet]]'s car.
+*Enabling the "destroy all vehicles" cheat during the mission Reuniting The Families (possibly to quickly destroy [[Police (vehicle)|cop cars]] and [[HPV1000|bikes]]) will make Sweet's car explode and CJ will be stuck inside the car (unable to get out and he will get killed). This includes the [[Tanker]] exploding before Sweet's [[Greenwood (3D Universe)|Greenwood]] crashes into it, making the game stop.
+*If the "cars float on water" cheat is enabled, the [[Nevada]], [[Rustler]], [[Stuntplane]] and [[Cropduster]] will roll backwards when they spawn. It is unknown why this happens, but it is hypothesized that they roll backwards because their nose tilts upwards when parked.
+*Enabling time cheats may cause the in-game time to progress and it will never stop unless the cheat is enabled again (causing the clock to speed up like the "faster clock" cheat is enabled until it catches up to whatever it should be).
+*Enabling the maximum fat and maximum stamina cheats will disallow CJ from working out in any [[Gyms|gym]].
+*If the player has the "flying cars" cheat enabled while starting any [[Race Tournaments in GTA San Andreas|racing]] side mission, all of the opponents' cars will lift off and fly away as soon as the race starts.
+*If the player has the riot cheat enabled, pedestrians can be seen fighting each other in the background during mission cutscenes. Sometimes, pedestrians may interfere with the cutscene and attack CJ. Alternatively, the characters may join in with the riot during the cutscene, making the cutscene softlock, thus requiring a reload or a reset as the player's controls are locked during cutscenes without mods or cheats.
+*Sometimes, when the player steals or attacks an NPC's car, they walk away instead of running away or fighting Carl. This cheating side effect can occur after only one cheat is activated.
+*If the player activates the "health and armor" cheat when driving a vehicle that is about to explode when the vehicle is fixed, the vehicle will still explode on some occasions.
+*Enabling the "raise wanted level" and "six-star wanted level" cheats during the mission 555 We Tip will instantly fail the mission.
+*Enabling the "invulnerable cars" cheat after getting in a car is ineffective because if the player tries to damage a car and that car explodes, their car will also smoke and explode, eventually wasting CJ (if the player fails to exit the car in time).
+*If the player enables the Jetpack cheat while having a private dance in a [[Strip Club|strip club]], the dance will be skipped.
+*Enabling the "destroy all vehicles" cheat during missions that use a vehicle will cause the vehicle to explode, thus failing the mission. 
+*If the player spawns a [[Rhino (3D Universe)|Rhino]] via a cheat code while driving a boat, such as a [[Cuban Jetmax|Jetmax]], there is a chance that a serious bug/glitch will occur ({{URL|https://youtu.be/pXkz3f1kZSY?t{{=}}435|see this video}} {{URL|https://youtu.be/d5R_WDAdeKQ&t{{=}}364|and this one}}). If the spawned tank collides with the player's boat, one or both might get thrown into the air. The player's coordinates will be warped to a very big value beyond overflow limit and this will cause the gameplay screen to freeze or crash the game. When this happens, the screen turns overly bright, flashes, and only shows a text that says "Loading...". The screen will remain stuck in this way unless the player pauses and restarts the game.
+*Inputting cheats while the game is lagging will sometimes cause the cheat being inputted not to be activated.
+
+==Video==
+[[File:GTA San Andreas Cheats|center|350x350px]]
+
+==Trivia==
+===General===
+*The "CJPHONEHOME" cheat is a reference to {{WP|Steven Spielberg}}'s ''{{WP|E.T. the Extra-Terrestrial}}''.
+
+===''Grand Theft Auto: San Andreas''===
+*Up to seven (the normal [[Grove Street Families|GSF]] maximum) non-GSF peds can be recruited with cheats no matter how low CJ's [[respect]] is.
+*So far, {{SA}} is the only game to have a cheat code wherein the player cannot (automatically) earn any [[Wanted Level in GTA San Andreas|wanted level]] for trespassing in any prohibited area (in the case of ''GTA San Andreas'', [[San Fierro (3D Universe)|San Fierro]] and [[Las Venturas (3D Universe)|Las Venturas]] if both cities have yet to be unlocked), as wanted levels cannot be disabled for trespassing in prohibited areas, including the [[Washington Beach Police Station]] in {{VC}}, the tarmac of [[Francis International Airport (HD Universe)|Francis International Airport]], the [[Civilization Committee Complex]] and the areas that have yet to be unlocked in {{IV}}, and [[Fort Zancudo]], [[Bolingbroke Penitentiary]], [[Humane Labs and Research]] and the tarmac of [[Los Santos International Airport (HD Universe)|Los Santos International Airport]] in {{V}} (if the player has yet to purchase a hangar as [[Michael De Santa|Michael]] and [[Franklin Clinton|Franklin]] or when playing as [[Trevor Philips|Trevor]]).
+*While the "armor and health" cheat is the only cheat that does not decrease the player's [[Criminal Ratings in GTA San Andreas|criminal rating]], this is not due to the direct effect of the cheat, but because the cheat also grants the player [[Money|$]]250,000. Since each increment of $5,000 will increase the player's rating by one point, the cheat ends up granting the player +40 ratings instead (+50 for $250,000 and -10 for cheat use).
+*If the "pedestrians attack Carl with guns" cheat is activated while on [[Vigilante in GTA San Andreas|Vigilante]] missions, a glitch will occur where the targeted criminals will sometimes separate from their cars. For example, if Carl is on level 4 (where there are four criminals in a car), this cheat code will sometimes cause two of the criminals to abandon the car, while the other half will stay in it.
+*Enabling the "gang presence" cheat will also spawn [[Gang 9 and Gang 10|the ninth and tenth gangs that are unused normally]]. If the player activates this cheat in areas outside of [[Los Santos (3D Universe)|Los Santos]], they will see Los Santos gangs spawn in other areas (even rural areas), in a similar fashion to the situation during the [[Los Santos Riots|riot]]. However, the cheat cannot spawn [[Russian Mafia]] gangsters (that appear in some missions with unique models).
+*If the "time stuck at 00:00" cheat is used and some time has passed, sometimes an oval thing that resembles the sun, but is smaller in size appears. It has the same colour as sun. 
+*The "invulnerable cars" cheat doesn't protect the player's vehicle from the machine gun shots from the [[Police Maverick (3D Universe)|Police Maverick]] or the gun on the [[Predator]]s. If one of those vehicles explodes near CJ, his vehicle would be set on fire and explode, leading to a potential death or significant loss of [[health]].
+**Similarly, the cheat won't have an affect on boats (except for the [[Vortex]]). If the player had activated the cheat before CJ entered a boat and inputted the "destroy all vehicles" cheat code, the boat will still explode and CJ will most likely die.
+*If typing both the "gangs spawn much faster" and "gangs having gunfights" cheats, the [[Mafia]] will commonly spawn and act like a gang. Sometimes, they may be found holding beer bottles and they will even point a gun if provoked by nearby gunshots from other gang members or the player himself. They will drive in [[Admiral (3D Universe)|Admirals]], [[Feltzer]]s and [[Sentinel]]s. This can happen on the [[PlayStation 2|PS2]] and [[Personal Computer|PC]] versions.
+*If the player has typed the "maximum lung capacity" cheat before, and then drives a car into the water, they will not lose the lung capacity nor health, and when the vehicle reaches the underwater ground, its lights will turn off if they were turned on beforehand change and Carl will be able to drive it, albeit at a slower pace than on the ground. The player can also use this trick to drive their vehicle out of the water and then return to the land. However, if the player exits the vehicle while driving on the seafloor, it will be impossible to return to the car.
+**If doing this trick in some missions, the mission will fail, as the game will deem the vehicle to have been destroyed. The sunk vehicle still remains intact, however.
+*Typing the "Carl's vehicle becomes invincible and can destroy other vehicles instantly" cheat and then quickly deactivating it before Carl gets in the vehicle will make the car invincible.
+*By recruiting a police officer via the "recruit anyone in your gang" cheat, one will find the recruited police officer will immediately open fire on [[Street Criminals|street criminals]] upon sighting one, even if they're not doing any crime, just walking around or driving their vehicle. The same applies when using the same cheat to recruit normal NPCs.
+*If one turns on the "pedestrians attack Carl with guns" cheat, police officers will be replaced by [[Motor Officer|motor officer]]s (Who are on foot instead of riding a motorcycle) and [[Military (3D Universe)|soldiers]]. Normal pedestrians will be replaced by countryside pedestrians, construction workers and [[San Andreas Bikers|bikers]]. Gang members will still spawn. [[Firetruck (3D Universe)|Fire Trucks]] and [[Ambulance (3D Universe)|Ambulances]] will still respond to emergencies, but will never take care of the problem, instead driving recklessly.
+*If one turns on the "pedestrians attack Carl with the golf club" cheat, police officers are sometimes affected. In this case, they may use their [[fist]]s instead of their regular [[Pistol (3D Universe)|pistol]]s.
+*By giving weapons to the pedestrians with the use of cheats, some drivers will come out of their vehicle whenever someone fires a gun and then fire at the shooter, such as [[Taxi Drivers|taxi drivers]] and [[Security Guards|security guards]].
+**If they carry a [[Melee Weapons|melee weapon]] instead of a ranged weapon, they will ignore the gunshots.
+**Some pedestrians on foot will also shoot whoever fires a gun, such as [[tramps]].
+*The riot cheat is so far the only riot cheat in the {{S}} that affects drivers, as it either makes them get out of their vehicle and start fighting pedestrians, or it makes their vehicle explode.
+*If the player pulls out a weapon while having the "pedestrians hate CJ" cheat on, all pedestrians will run away and all drivers will drive recklessly as long as they are unarmed.
+*On Android, the "complete invincibility" cheat makes any vehicle CJ drives indestructible and unable to be destroyed by explosions. If the player damages a vehicle until it catches fire and then quickly enters it before it explodes, the vehicle will remain on fire indefinitely without exploding, and the flames will persist even if CJ exits and damages the vehicle even more. This won't work with the similar "unlimited health" cheat, as this one doesn't grant CJ or his vehicles immunity to explosions.
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox gta|state=collapsed}}
+{{Navbox gtasa|state=collapsed}}
+}}
+
+[[de:Cheats (SA)]]
+[[es:Trucos de Grand Theft Auto: San Andreas]]
+[[fr:Codes dans GTA San Andreas]]
+[[pl:Kody do GTA San Andreas]]
+[[ru:Читы в GTA San Andreas]]
+[[zh:侠盗猎车手：圣安地列斯中的作弊码]]
+
+[[Category:Cheats]]
+[[Category:GTA San Andreas]]

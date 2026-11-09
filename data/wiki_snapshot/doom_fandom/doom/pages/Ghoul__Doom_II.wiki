@@ -1,0 +1,22 @@
+{{Ghoul}}{{DISPLAYTITLE:Ghoul (Legacy of Rust)}}
+{{Infobox Enemy
+|name = Ghoul
+|image = Doom ghoul.webp
+|class=Lost Soul Descendant Relative
+|type = Enemy
+|hp = 50
+|attack = 3-24 <small>(total)</small>
+|speed = 140.0 map units per second}}
+The '''Ghoul''' is a new [[monster]] from ''[[Doom II]]''<nowiki>'</nowiki>s new expansion pack, ''[[Legacy of Rust]]''. Here, it is the unused beta [[Lost Soul]] design. 
+
+==Combat Characteristics==
+The Ghoul is a flying silver-colored, energy-filled horned skull similar in appearance to the Lost Soul, yet its horns are more downward-pointing and lacks the fire surrounding it, and the insides of its mouth and eyes change color from red to yellow to blue. It attacks by firing a single yellow energy projectile as the skull itself flashes yellow within. This is in stark contrast to the beta behavior, which was to attack the player with a psychic attack that always hit directly regardless of any intervening obstacles, being similar to a long-distance melee attack.
+
+==Tactical Analysis==
+Ghouls are faster than Lost Souls, but have less health; a single shotgun blast or a few [[chaingun]] rounds will be enough to destroy one. Their projectiles are not very powerful, causing the same amount of damage as an Imp fireball, but they travel much faster; as Ghouls are usually encountered in groups and can fly, they can quickly wear down a careless player.
+
+Although the Ghoul leaves a corpse behind when killed, it cannot be resurrected by an [[Arch-Vile]].
+{{Doom monsters}}
+[[Category:Doom monsters]]
+[[Category:Doom II monsters]]
+[[Category:Monsters]]

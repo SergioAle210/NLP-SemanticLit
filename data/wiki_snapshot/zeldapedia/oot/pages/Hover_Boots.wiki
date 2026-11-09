@@ -1,0 +1,80 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= File:OoT Hover Boots Render.png
+ |Render OoT3D= File:OoT3D Hover Boots Render.png
+ |Model OoT= File:OoT Hover Boots Model.png
+ |Model OoT3D= File:OoT3D Hover Boots Model.png
+ |Sprite OoT= File:OoT Hover Boots Icon.png
+ |Sprite OoT3D= File:OoT3D Hover Boots Icon.png
+}}
+|caption= 
+|game= {{OoT}}
+|other= {{HW}}<br/>{{CoH}}
+|cost= 
+|value= 
+|location= [[Shadow Temple]]
+|uses= Hovering across gaps
+|strength= 
+|durability= 
+|comp= [[Tingle Balloon]]
+|sample= 
+|theme= 
+}}
+{{Term/Store|Hover Boots|Hover Boots|Series, OoT, OoT3D, CoH|plural}},{{Exp Game|OoT, CoH}}<ref>{{Cite Book|quote= |book= E |publisher= |page= 127 {{Exp Game|OoT, OoT3D}}}}</ref>{{Name Ref|HWDE}}<ref>{{Cite|{{Color|CoH Yellow|Hover Boots}}|Inventory|CoH}}</ref> also known as the '''Sacred Feet''',{{Exp Game|OoT}}<ref>{{Cite|Only one who has {{Color|OoT3D Red|sacred feet}} can cross the valley of the dead.|Sign|OoT3D}}</ref>{{Note|The {{Term|Series|Hover Boots}} were referred to as the '''Pegasus Boots''' on the official Zelda.com website.<ref>{{Cite Web|quote= {{Big|Pegasus Boots}}<br/>A small tool used to smash pegs—and sometimes enemies!Enchanted boots that provide the wearer with incredible speed. Can also greatly enhance jumping ability when paired with Roc’s Feather.<br/>{{Small|Pegasus Boots as seen in: The Legend of Zelda: Ocarina of Time 3D}} |author= |published= |retrieved= January 15, 2022 |url= https://zelda.com/about/ |title= The official home for The Legend of Zelda - About |site= Zelda.com |type= }}</ref> However, as this contradicts the name given in-game, it is not considered [[Guidelines:Canon|Canon]].}} are recurring {{Plural|Series|Item|link}} in {{TLoZ|Series}}.
+
+==Location and Uses==
+==={{OoT|-}}===
+The Hover Boots are found within the [[Shadow Temple]] in the westernmost room of the first basement floor. The [[Lens of Truth]] can be used to see the room's entrance hidden behind a fake wall.<ref>{{Cite|I can hear the spirits whispering in this room... "Look for the eye of truth..." That's what they are saying!|Navi|OoT}}</ref> They are obtained after defeating [[Dead Hand]].
+
+The Hover Boots allow [[Link]] to hover across gaps and over water momentarily.<ref name= "Hover Boots">{{Cite|You got the Hover Boots! With these mysterious boots you can hover above the ground. The downside? No traction! You can even use these to walk for short periods where there is no solid ground. Be brave and trust in the boots!|N/A|OoT}}</ref> When equipped, they provide no traction, similar to ice, making the [[Hero of Time]] slide when walking or running.<ref name= "Hover Boots"/> In addition, his running animation becomes faster (though his speed does not increase). Link can be propelled by gusts of wind to cross over larger gaps.<ref>{{Cite|Here...I can hear the spirits whispering in this room..."Those who have sacred feet should let the wind guide them. Then, they will be led to the hidden path." That's what they are saying!|Navi|OoT}}</ref> The Hover Boots also prevent Link from sinking into the sands of the [[Haunted Wasteland]] and the [[Desert Colossus]].<ref>{{Cite|Only one who has sacred feet can cross the valley of the dead.|Sign|OoT}}</ref> They also prevent the platforms in the fire barrier section of [[Ganon's Castle]] from sinking.
+
+In {{OoT3D}}, the Hover Boots are changed from equipment to an item, simplifying their use.
+
+==Other Appearances==
+==={{HW|-}}===
+{{Noncanon|Start}}
+In {{HW}}, the Hover Boots appear as a [[Badge]]. When created, it lengthens the duration of the [[Focus Spirit]] of a Warrior.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+{{Term|CoH|Hover Boots}} appear in {{CoH}} as equipment that aid the heroes in crossing various terrains, allowing them to float and walk over water, gaps, and holes for at least two music beats before grounding them.<ref>{{Cite|Allows you to float across gaps.|Inventory|CoH}}</ref> However, using them costs durability and wearing down the boots too much will cause them to wear out unless the {{Term|CoH|Glass Ring of Preservation|link}} is equipped.
+
+They can be bought from a {{Term|CoH|Shopkeeper|link}} for 80 {{Plural|CoH|Rupee|link}} or found as loot from red {{Plural|CoH|Treasure Chest|link}}.
+{{Ambig|End}}
+
+==Trivia==
+*As they provide no traction, if [[Link]] is struck by a powerful foe such as the [[Club Moblin]], [[Iron Knuckle (Boss)|Iron Knuckles]], or [[Ganon]] himself, he will be sent flying and sliding on the ground great distances.
+**His reduced traction by the Hover Boots and brief floating could possibly be a reference to [[Luigi]] from the [[mariowiki:Mario_(franchise)|''Mario'' franchise]], as the character is known for this trend and can briefly stay in the air by his powerful jumps in some games.
+*In {{HW}}, [[Young Link]] momentarily uses winged boots for his sixth Strong Attack combo to move around quickly. These boots bear a resemblance to both the Hover Boots and the [[Pegasus Boots]].
+*When worn inside buildings, Link does not run at the higher animation speed, but rather at the same pace as when in his [[Kokiri Boots|normal boots]]. This is because he is programmed to move slightly slower.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:HW Hover Boots Badge Icon.png|The Hover Boots Badge from {{HW|-}}
+File:HW Young Link - Hover Boots.png|Young Link using winged boots from {{HW|-}}
+File:CoH Hover Boots Sprite.png|{{Term|CoH|Hover Boots}} from {{CoH|-}}
+</gallery>
+
+==See Also==
+*{{Term|Series|Boots of Power|link}}
+*{{Term|Series|Boots of Speed|link}}
+*{{Term|Series|Glass Slippers|link}}
+*{{Term|Series|Greaves|link}}
+*{{Term|Series|Iron Boots|link}}
+*{{Term|Series|Pegasus Boots|link}}
+*{{Term|Series|Spring Shoes|link}}
+*{{Term|Series|Tingle Balloon|link}}
+
+{{Notes}}
+
+{{Ref}}
+
+{{Categories
+ |Boots
+ |items= OoT, OoT3D, HW, HWL, HWDE, CoH
+}}

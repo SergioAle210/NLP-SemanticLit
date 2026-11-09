@@ -1,0 +1,54 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Red Candle Artwork.png
+ |Sprite TLoZ= File:TLoZ Red Candle Sprite.png
+}}
+|caption= 
+|type= 
+|game= TLoZ
+|other= HW, HWL, HWDE
+|cost= 
+|value= 
+|location= [[Level 7]]
+|uses= Damaging certain enemies, Illuminating dark rooms, Burning [[Tree]]s
+|strength= [[Weapon Strength#The Legend of Zelda|1]]
+|durability= 
+|comp= [[Blue Candle]], [[Candle]], [[Lantern]]
+|sample= 
+|theme= 
+}}
+The {{Term/Store|Red Candle|Red Candles|Series, TLoZ}} is an [[item]] first appearing in {{TLoZ}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 135 {{Exp Game|TLoZ}}}}</ref>
+
+==Location and uses==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Blue and red candles|Some of the rooms inside of the labyrinths are really dark. So use these to brighten them up. Blue candles are good for one screen only, but the red ones can light up rooms for several screens.}}
+The Red Candle is an upgrade to the [[Blue Candle]] that can be obtained in [[Level 7]] of the First Quest and the [[Second Quest]]. When used, the Red Candle will emit a temporary red [[Fire]] to a short distance in front of [[Link]], which can illuminate dark rooms within [[Dungeon]]s and damage certain enemies.<ref>{{Cite manual|quote= Some of the rooms inside of the labyrinths are really dark. So use these to brighten them up.|game= TLoZ|page= 25}}</ref> Link can be hurt by the Fire as well. It can also be used to burn certain [[Tree]]s throughout the [[Overworld]], which will reveal hidden staircases that often lead to [[cave]]s. Burning a certain Tree will reveal a staircase leading to [[Level 8]] of the First Quest or Level 7 of the Second Quest. While the Blue Candle can only be used once in a given area, the Red Candle is able to emit an unlimited amount of Fires in an area.<ref>{{Cite manual|quote= Blue candles are good for one screen only, but the red ones can light up rooms several screens.|game= TLoZ|page= 25}}</ref>
+
+==Spinoff appearances==
+==={{HW|-}}===
+{{Noncanon|Start}}
+{{Stub|HW}}
+[[File:HW 8-Bit Candle Icon.png|left|64px]]
+In the Master Quest DLC Pack of {{HW}}, the 8-Bit Red Candle from {{TLoZ|-}} appears as a Weapon for Link. It is statistically identical to and part of the [[Magic Rod]] weapon category.
+
+In [[Adventure Mode]], there is an [[Item Card]] named Candle,<ref>{{Cite|{{Color|HWDE Green|Candle}}: Use this on trees to uncover hidden stairways.|Tutorial|HWDE}}</ref> which depicts the Red Candle sprite from {{TLoZ|-}}. A Candle can be used on a [[Tree]] in a square to burn it away and reveal [[stairs]], usually unlocking an obtainable reward or a new challenge.
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Link Holding Red Candle.png|Artwork of Link holding the Red Candle from {{TLoZ|-}}
+File:TLoZ Link Red Candle Artwork.png|Artwork of Link holding the Red Candle from {{TLoZ|-}}
+File:HW Candle Sprite.svg|A Candle in {{HW|-}}
+File:HWDE Candle Icon.png|A Candle in {{HW|DE|-}}
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Candles
+ |items= TLoZ, HW
+}}

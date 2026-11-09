@@ -1,0 +1,17 @@
+{
+  "source": "wikipedia",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:16:31+00:00",
+  "total_chars": 130674,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Doom (1993 video game)",
+      "url": "https://en.wikipedia.org/wiki/Doom_%281993_video_game%29",
+      "revid": 1383857158,
+      "file": "pages/Doom_1993_video_game_.wiki",
+      "chars": 130674
+    }
+  ]
+}

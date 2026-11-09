@@ -1,0 +1,72 @@
+:''For the [[dungeon|mini-dungeon]] in {{MM}}, see [[Beneath the Well]]''.
+{{Infobox Dungeon
+|image= File:OoT Bottom of the Well.png
+|caption= The Well's central area in {{OoT}}
+|location= [[Kakariko Village]]
+|game={{OoT}}
+|other=
+|item=[[Lens of Truth]]<br/>[[Gold Skulltula]] ×3
+|mini-boss=[[Dead Hand]]
+|theme=
+}}
+The {{Term/Store|Bottom of the Well||Series, OoT, OoT3D, EoW}} is a [[Dungeon|mini-dungeon]] in {{OoT}} and a location in {{EoW}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 149}}</ref> It is located in [[Kakariko Village]], more specifically at the bottom of '''Kakariko Well''',<ref>{{Cite Guide|quote= |game= OoT|publisher= Nintendo|page= 84}}</ref> which is also known as the '''Well of Three Features'''.<ref>{{Cite|Dark! Narrow! Scary! Well of Three Features|Sign|OoT}}</ref> It consists of an underground chamber that guards the [[Lens of Truth]]. It is also similar to the [[Shadow Temple]] in overall theme. This dungeon is technically optional, having no effect on the main quest if not attempted. However, without the Lens of Truth, places such as the Shadow Temple, [[Haunted Wasteland]], the [[Spirit Temple]], and [[Ganon's Castle]] will be more difficult to navigate. Also, [[Link]], the [[Hero of Time]], may miss out on many treasures hidden throughout [[Hyrule]] that only the Lens of Truth can uncover.
+
+==Entrance to the Well==
+When Link first finds the [[well]], it is filled with water. However, as an adult, the water has been drained and the well is sealed. In order to enter the dungeon, Child Link must play the "[[Song of Storms]]" to [[Phonogram Man]] to super-charge the [[Kakariko Windmill]] and drain the well dry.
+
+According to [[Professor Shikashi]], the house of a man who could see the truth once stood on the location of the Well.<ref>{{Cite|A long time ago... There was a man in this very village who had an eye they said could see the truth! Now usually, you have to train your mind's eye most strenuously to actually see the truth... But this fella, no, they say he had a different way of doing things... His house stood where the well is now...|Professor Shikashi|OoT}}</ref> This is a reference to the important item found inside the dungeon, the Lens of Truth.
+
+==Themes and Navigation==
+The Well contains many illusory walls and floors which can only be identified as fake using the Lens of Truth, as well as invisible sections of floor that can be made visible with the Lens of Truth. Deep within the Bottom of the Well, Link fights the [[Dead Hand]], which yields the Lens of Truth upon death.
+
+The Bottom of the Well has three floors, all treated as a basement. Only the first and largest floor must be explored in order to find the Lens of Truth. This first floor consists of a maze of tunnels with numerous side passages, as well as depressions in the floor that are filled with water. This water can be drained by playing "[[Zelda's Lullaby]]" on the [[Triforce]] emblem in one part of the central chamber, giving Link access to the rest of the first floor. The lowest floor is filled with many [[ReDead]]s and pools of [[Toxic Water]]. This floor can be reached after falling into any invisible holes. The only way to climb up to the first floor again is by collecting Silver [[Rupee]]s for the first time only. The second floor is the smallest, as it consists entirely of cross-sections of vertical shafts connecting the first and third floors.
+
+=={{MQ|-}}==
+In the {{MQ}} version of {{OoT|-}}, the Lens of Truth is no longer useful in this dungeon, because all fake floors and walls are now visible to the naked eye. The reward for fighting Dead Hand is the [[Compass]], though a [[Small Key]] is found in its room. The Lens of Truth is now found on the bottom floor, which is now full of [[Boulder]]s, a [[Wallmaster]], and five ReDeads all together. The [[Bubble#Green Bubble|Green Bubble]] is now missing, as well as the [[Like Like]] and the [[Beamos]]. The room with coffins and [[Gibdo]]s is optional, too, containing only a [[Gold Skulltula]]. There are some hidden switches in the walls that unlock doors or drain the Well; playing "Zelda's Lullaby" in front of the statue unlocks some gates now. The new enemy here is a [[Floormaster]], which just so happens to be in the same small room as a Wallmaster.
+
+==Trivia==
+* Because the well draws water from a reservoir rather than the ground water, it is in fact not a well, but a cistern.
+* An unusual feature seen in {{TLoZ|Series}}, or any Nintendo game in general, stained red blood can be seen in some sections of the dungeon, like the Shadow Temple. It is visible even in the later revisions and in {{OoT3D}} (where the blood on [[Ganon]] was censored to green).
+*In {{TotK}}, a well in Kakariko Village leads to a small chamber with blood-stained walls, which could reference the bottom of the well.
+
+==Minor Enemies and Traps==
+<gallery>
+File:OoT Beamos Model.png|[[Beamos]]
+File:OoT Big Skulltula Model.png|[[Big Skulltula]]
+File:OoT Boulder Model.png|[[Boulder]] {{Exp|Master Quest only}}
+File:OoT Deku Baba Model.png|[[Deku Baba]]
+File:OoT Fire Keese Model.png|[[Fire Keese]]
+File:OoT Floormaster Model.png|[[Floormaster]] {{Exp|Master Quest only}}
+File:OoT Gibdo Model.png|[[Gibdo]]
+File:OoT Gold Skulltula Model.png|[[Gold Skulltula]]
+File:OoT Green Bubble Model.png|[[Green Bubble]]
+File:OoT Keese Model.png|[[Keese]]
+File:OoT Like Like Model.png|[[Like Like]]
+File:OoT Poe Model.png|[[Poe]] {{Exp|Master Quest only}}
+File:PoisonWaterOoT.png|[[Water (Terrain)#Poison Water|Poison Water]]
+File:OoT ReDead Model.png|[[ReDead]]
+File:OoT Skulltula Model.png|[[Skulltula]] {{Exp|Master Quest only}}
+File:OoT Skullwalltula Model.png|[[Walltula|Skullwalltula]] {{Exp|Master Quest only}}
+File:OoT Wallmaster Model.png|[[Wallmaster]]
+</gallery>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:KakarikoWellOoT.png|The Kakariko Well
+File:WellLadderOoT.png|The ladder leading down the Bottom of the Well
+File:Welloot.jpg|Dungeon Map
+</gallery>
+
+==See Also==
+* [[Shadow Temple]]
+
+{{Ref}}
+{{DungeonNav2|OoT}}
+{{Categories
+ |Kakariko Village, Wells
+ |dungeons= OoT, OoT3D
+ |locations= OoT, OoT3D
+}}

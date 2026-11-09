@@ -1,0 +1,121 @@
+{{Cleanup}}
+[[File:TerritortyGlitch-GTASA-Map.jpg|thumb|324px|A map showing the Territory Glitch.]]
+The '''Territory Glitch''' is a [[Glitches|glitch]] in ''[[Grand Theft Auto: San Andreas]]'' that affects the [[Gang Warfare in GTA San Andreas|Gang Warfare]] gameplay feature.
+
+Every area in San Andreas named on the map is a territory, including the state.<ref>https://web.archive.org/web/20130615105441/http://gta-sanan.ucoz.net/index/gang_territory_glitch/0-182</ref> The glitch involves activating territories that have been dummied out (by setting all gang ownership values in the territory to zero), and forcing them to be active again by making a [[Gangs in GTA San Andreas|gang]] own that territory.
+
+There are four known glitches that affect the Gang Warfare territories, declared Type 1 to Type 4 for this article.
+
+[[File:GTA San Andreas territory glitch|thumb|330x330px]]
+==Type 1==
+Type 1 involves traveling out towards the sea in any direction for approximately 30 minutes. The player must not stop their vehicle, turn back, or pause the game.
+
+This version of the glitch is caused by arrays related to maps, but not related to determining which parts of the map have been revealed or "un-fogged" (marked with a normal color instead of grayed out and having markers shown in it on the main menu map), being unintentionally modified by the game when attempting to reveal parts of the map while outside of the [[State of San Andreas (3D Universe)|San Andreas]] state as the player moves to these areas. Internally, the game uses a value of zero for undiscovered areas, and one for discovered areas.<ref>https://www.youtube.com/watch?v=L97xXbFnFWM</ref> <ref>https://gtaforums.com/topic/894867-mapping-off-the-map-turf-and-zone-glitches/</ref>
+
+Depending on which part of memory the game corrupts attempting to reveal newly accessed parts of the map, various parts of the game may be affected, most obviously the gang territories, but will also affect other elements depending on the game version. <ref>https://www.sportskeeda.com/gta/an-explanation-territory-glitch-gta-san-andreas</ref> Generally, gang territories introduced by this glitch have an internal game density of one, and as a result the "gang war" to take it over only lasts for a single wave with 'weaker' weapons (Pistol and Baseball Bats).
+
+Several of the following glitches can occur due to the array corruption:
+*More gang turf.
+*More Taxis.
+*More [[San Andreas Bikers|Biker]] [[Crack Dealers]], dealers may start spawning in [[San Fierro (3D Universe)|San Fierro]], and a specific dealer that normally only appears at the very start of the game may start to spawn as well.
+*One star wanted level suddenly activates during the trip.
+*Black Traffic Cheat activates.
+*Pedestrians and vehicles that are supposed to only spawn in certain types of zones may start spawning where they don't belong, for example desert vehicles may start appearing in built up business territory.
+*If the player still had any unexplored grayed out areas on the map, they will suddenly appear explored.
+*Named map territories, such as [[Willowfield]], may lose their name, causing their names to not appear on the map or when entering them in the overworld.
+*No taxi fares may be found during the [[Taxi Driver]] mission. (PC and Xbox version)
+*The scouting sequence of the [[Mike Toreno (mission)|Mike Toreno mission]] may break, making the player unable to advance the mission by going to the mission marker. If this occurs they must skip to the airport directly to finish the mission.
+
+If the turf comes up, it will probably be covered in gangs. Red territories may also appear when Ballas, Vagos and Grove sections are all added onto the same territory due to the combination of colors.  Depending where the player flies, they can even add the unused gangs Mafia, Gang 9 and Gang 10 to some territories.  Gang 9 and Gang 10 members look like Varios Los Aztecas, but they drive Sentinels.
+
+Up to 173 territories can be affected by Type 1 of this glitch in the original PS2 version, and due to changes in how the map arrays are stored, only 12 territories can be affected in other versions.
+
+This glitch will occur during normal completion of the game, as some required missions, such as [[Saint Mark's Bistro]] and [[Freefall]], require the player to access areas outside of the normal San Andreas zone and into the surrounding ocean. The former mission is a major cause of the Taxi Driver fare glitch on PC and Xbox, due to the terminator of the map-wide San Andreas territory being corrupted by reaching an area that players will likely access when piloting east to reach Liberty City. Driving straight east, or east and slightly south, to Liberty City will result in avoiding the corruption, while driving east and slightly north will hit the area that corrupts the terminator, breaking the Taxi Driver mission and preventing fares from spawning.
+
+This glitch does not work for the [[PlayStation 2]] Greatest Hits version, the [[Xbox (console)|Xbox]] Platinum Hits version, or the PC 1.1 version, as a sanity check to only modify the revealed map array in the correct bounds of the actual San Andreas area has been added in these versions. However, the Steam version is based on the original PC release, and thus doesn't have the sanity check to prevent this glitch from happening. Types 2-4 work for the versions with the sanity check though.
+
+The colors of turfs belonging to gangs that only have turfs by the use of the Territory Glitches can be seen below:
+{|class="wikitable"
+!'''Gang'''
+!'''Color'''
+|-
+|[[Varrios Los Aztecas (3D Universe)|Varrios Los Aztecas]]
+|Turquoise
+|-
+|[[San Fierro Rifa]]
+|Dark Blue
+|-
+|[[San Fierro Triads]]
+|Light Pink
+|-
+|[[Da Nang Boys]]
+|Orange
+|-
+|[[Mafia|Italian Mafia]]
+|Gray (no members appear on the streets) 
+|}
+
+===Car===
+*The player should enable the [[Cheats in GTA San Andreas|Cars fly cheat]] or [[Cheats in GTA San Andreas|Cars on water cheat]]. They should drive/fly in any direction off the map and keep doing so for 30 minutes, then swim underwater and allow Carl to drown. When they spawn at the hospital, the map may then be covered in territories.
+
+===Boat===
+*The player should sail their boat off the map for 30 minutes, then die. When they spawn back at the [[Hospitals|hospital]], the glitch should work.
+
+===Swimming===
+*Not a recommended way, but the player can do it by [[Swimming|swimming]] for 30 minutes (or more time), then going underwater and drowning, or just using the [[Cheats in GTA San Andreas|suicide cheat]].
+
+===Jetpack===
+*The player can also use the [[Jetpack|jetpack]]; it should take 30 minutes (or more) to do this, then again going underwater and drowning, or using the suicide cheat.
+
+===Air Travel===
+*Flying an airplane or helicopter away from map for 30 minutes, then jumping out and drowning can work as well. When the player spawns outside of the hospital, the map should be covered with territories.
+
+==Type 2==
+*The player can use this glitch if there are still enemy gang territories. When the player's turf is under attack, they should kill all of the attacker on the territory the player wants to give to GSF. A convenient way to do it is planting satchel charges on the attackers and then go to the desired place, but it can also be done by luring them to the desired area and killing them there. If the explosion doesn't go off, then go somewhere where it's in range. The player can make it stronger by doing it a couple of times (each time this glitch is used, 10 GSF density is added to the territory). If this cheat is used more than once in the same territory, it may get attacked by Ballas/Vagos if they own a territory nearby.
+
+<gallery position="center" spacing="small">
+GTA SA territory glitch in richman.jpg|A territory has been created in Richman.
+ThrowingSatchelsAtVagos.jpg|CJ is trying to put satchel charges on every attacker.
+</gallery>
+
+==Type 3==
+*The player can make other gangs attack their hood. For example, it is possible for the [[Varrios Los Aztecas (3D Universe)|Varrios Los Aztecas]] to attack [[Grove Street Families (3D Universe)|Grove Street]] territory. First, the player will have to wait for some Ballas to attack their hood. When their territory is attacked, they should lure three [[Ballas (3D Universe)|Ballas]] gangsters into [[El Corona]] or [[Little Mexico]], which is VLA turf, and kill them there. Then they should drive to the attacked hood. They will see blue points on the map, either [[Glendale (3D Universe)|Glendale]]s, [[Broadway]]s or [[Hermes]] blocking the turf and Varrios attacking it. Also, after spawning the Varrios, it is also possible to add them to a territory that only has Grove influence, by luring at least three Ballas or Vagos there (the territory must only have Grove, if it has another gang there it will increase the density of this gang rather than adding Varrios or whatever gang the player is using for this glitch).
+
+<gallery position="center" spacing="small">
+Varrio attack.PNG|Varrios Los Aztecas attacking Grove Street territory.
+Mastermind glitch- adding Varios Los Aztecas to Glen Park.
+</gallery>
+
+==Type 4==
+*The player can also give control of territories to Ballas/Vagos. When a territory gets attacked, they should kill four attackers on the desired territory and then wait for the attack to time out, or cancel it with a R3 mission (taxi, paramedic, vigilante, etc...). The territory should gain Ballas/Vagos density equal to the number of attackers left alive three times. Territories that the player puts Ballas/Vagos in may attack others, and might get attacked if taken over.
+*A way to add Ballas/Vagos density even more is waiting for an attack but not triggering it, then attacking random Ballas/Vagos in the desired territory and wait for the attack to time out, until the player gets the message that they left the attack unchecked. The territory will gain + 30 Ballas/Vagos density.
+*For type 4 to work, type 2 has to have been used previously, because type 4 only works in already activated territories.
+
+==Gallery==
+<gallery position="center" spacing="small">
+TerritoryGlitch-GTASA-PCZonesSpreadsheet.png|PC zones spreadsheet.
+TerritoryGlitch-GTASA-PS2ZonesSpreadsheet.png|PS2 zones spreadsheet.
+TerritoryCodes-SF-PS2-GTASA.jpg|Territories in San Fierro, gotten by the PS2 codes. Red turfs belong to the [[San Fierro Triads|Triads]], blue to the [[San Fierro Rifa|Rifa]] and Orange to the [[Da Nang Boys]].
+Rifa attack.PNG|San Fierro Rifa attacking Willowfield.
+Da nang Attack.PNG|Da Nang Boys attacking Temple.
+Triad attack.PNG|San Fierro Triads attacking Willowfield, near El Corona.
+TerritoriesNamesGTASA-map.png|This map contain the name of all territories in the game except for the territory SAN_AND, which is the whole map.
+</gallery>
+
+==Trivia==
+*Apparently, the entire State of San Andreas was originally going to be covered in gang territories in the [[Beta Content in GTA San Andreas|beta]].
+*If the player takes a territory by a gang war, it will not be affected by the territories (for an example: taking a [[Los Santos Vagos (3D Universe)|Los Santos Vagos]] hood at any place).
+*It's very hard if the player wants to take the [[San Fierro Bay]] gang territory because it's part of the sea. The only way to do that is by using the [[Minigun]], [[Sniper Rifle]], or [[Satchel Charges]].
+*If the player created territory in [[Red County (3D Universe)|Red County]], [[Flint County (3D Universe)|Flint County]], [[Tierra Robada]] and [[Bone County (3D Universe)|Bone County]], members of the gangs won't spawn. This is because the countryside is set to have no gangs in the "popcycle.dat".
+*On a very rare occasion, some effects of this glitch may already occur during the mission [[Saint Mark's Bistro]]. This may happen since the player has to fly about three minutes away from the map for this mission. Overall, the effects are very rare and very minimal due to the limited distance the player crosses and not worth being worried about.
+*In the original PlayStation 2 version, after completing Saint Mark's Bistro, [[Bayside Marina]] will be usually under control of the Vagos.
+*In the PlayStation 2 version, any territories spawned by the glitch, will only have the first round of 'weaker' enemies (Pistols and Baseball Bats) compared to the three rounds of territories in Los Santos.
+*Gangs like the Mafia, Aztecas, Rifa, Da Nang or the Triads can also spawn thanks to the Territory Glitch. This is more easily seen on the PS2 version.
+
+==References==
+{{Reflist}}
+
+[[pl:Usterka terytoriów]]
+
+[[Category:GTA San Andreas]]
+[[Category:Glitches]]

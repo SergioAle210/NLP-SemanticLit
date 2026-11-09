@@ -1,0 +1,388 @@
+{
+  "source": "reddead_fandom",
+  "license": "CC BY-SA",
+  "license_note": "Fandom reporta \"CC-BY-SA\" sin versión (normalmente 3.0).",
+  "downloaded_at": "2026-11-08T18:17:51+00:00",
+  "total_chars": 625937,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Red Dead Redemption",
+      "url": "https://reddead.fandom.com/wiki/Red_Dead_Redemption",
+      "revid": 476723,
+      "file": "pages/Red_Dead_Redemption.wiki",
+      "chars": 35576
+    },
+    {
+      "title": "100% Completion (RDR)",
+      "url": "https://reddead.fandom.com/wiki/100%25_Completion_%28RDR%29",
+      "revid": 474721,
+      "file": "pages/100_Completion_RDR_.wiki",
+      "chars": 20659
+    },
+    {
+      "title": "Activities in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Activities_in_Redemption",
+      "revid": 423686,
+      "file": "pages/Activities_in_Redemption.wiki",
+      "chars": 4506
+    },
+    {
+      "title": "Avatar Awards",
+      "url": "https://reddead.fandom.com/wiki/Avatar_Awards",
+      "revid": 407881,
+      "file": "pages/Avatar_Awards.wiki",
+      "chars": 1704
+    },
+    {
+      "title": "Bounty Hunting",
+      "url": "https://reddead.fandom.com/wiki/Bounty_Hunting",
+      "revid": 475781,
+      "file": "pages/Bounty_Hunting.wiki",
+      "chars": 30781
+    },
+    {
+      "title": "Casual Mode",
+      "url": "https://reddead.fandom.com/wiki/Casual_Mode",
+      "revid": 388350,
+      "file": "pages/Casual_Mode.wiki",
+      "chars": 1373
+    },
+    {
+      "title": "Characters in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Characters_in_Redemption",
+      "revid": 474744,
+      "file": "pages/Characters_in_Redemption.wiki",
+      "chars": 33057
+    },
+    {
+      "title": "Cheats in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Cheats_in_Redemption",
+      "revid": 476823,
+      "file": "pages/Cheats_in_Redemption.wiki",
+      "chars": 17849
+    },
+    {
+      "title": "Combat",
+      "url": "https://reddead.fandom.com/wiki/Combat",
+      "revid": 470160,
+      "file": "pages/Combat.wiki",
+      "chars": 4955
+    },
+    {
+      "title": "Compliments of the House",
+      "url": "https://reddead.fandom.com/wiki/Compliments_of_the_House",
+      "revid": 410161,
+      "file": "pages/Compliments_of_the_House.wiki",
+      "chars": 992
+    },
+    {
+      "title": "Controls in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Controls_in_Redemption",
+      "revid": 441581,
+      "file": "pages/Controls_in_Redemption.wiki",
+      "chars": 2398
+    },
+    {
+      "title": "Difficulty",
+      "url": "https://reddead.fandom.com/wiki/Difficulty",
+      "revid": 476776,
+      "file": "pages/Difficulty.wiki",
+      "chars": 9879
+    },
+    {
+      "title": "Drinking",
+      "url": "https://reddead.fandom.com/wiki/Drinking",
+      "revid": 470277,
+      "file": "pages/Drinking.wiki",
+      "chars": 5603
+    },
+    {
+      "title": "Easter Eggs & Secrets in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Easter_Eggs_%26_Secrets_in_Redemption",
+      "revid": 475482,
+      "file": "pages/Easter_Eggs_Secrets_in_Redemption.wiki",
+      "chars": 17747
+    },
+    {
+      "title": "Euphoria",
+      "url": "https://reddead.fandom.com/wiki/Euphoria",
+      "revid": 443366,
+      "file": "pages/Euphoria.wiki",
+      "chars": 1970
+    },
+    {
+      "title": "Executions",
+      "url": "https://reddead.fandom.com/wiki/Executions",
+      "revid": 452250,
+      "file": "pages/Executions.wiki",
+      "chars": 8449
+    },
+    {
+      "title": "Experience",
+      "url": "https://reddead.fandom.com/wiki/Experience",
+      "revid": 362074,
+      "file": "pages/Experience.wiki",
+      "chars": 3693
+    },
+    {
+      "title": "Fame",
+      "url": "https://reddead.fandom.com/wiki/Fame",
+      "revid": 477363,
+      "file": "pages/Fame.wiki",
+      "chars": 8721
+    },
+    {
+      "title": "Glitches in Outlaws to the End",
+      "url": "https://reddead.fandom.com/wiki/Glitches_in_Outlaws_to_the_End",
+      "revid": 362931,
+      "file": "pages/Glitches_in_Outlaws_to_the_End.wiki",
+      "chars": 16699
+    },
+    {
+      "title": "Greeting",
+      "url": "https://reddead.fandom.com/wiki/Greeting",
+      "revid": 463574,
+      "file": "pages/Greeting.wiki",
+      "chars": 4160
+    },
+    {
+      "title": "Hanging",
+      "url": "https://reddead.fandom.com/wiki/Hanging",
+      "revid": 465599,
+      "file": "pages/Hanging.wiki",
+      "chars": 8768
+    },
+    {
+      "title": "Heads-Up Display",
+      "url": "https://reddead.fandom.com/wiki/Heads-Up_Display",
+      "revid": 447474,
+      "file": "pages/Heads-Up_Display.wiki",
+      "chars": 3307
+    },
+    {
+      "title": "Hitch",
+      "url": "https://reddead.fandom.com/wiki/Hitch",
+      "revid": 388957,
+      "file": "pages/Hitch.wiki",
+      "chars": 2599
+    },
+    {
+      "title": "Hogtie",
+      "url": "https://reddead.fandom.com/wiki/Hogtie",
+      "revid": 436601,
+      "file": "pages/Hogtie.wiki",
+      "chars": 4727
+    },
+    {
+      "title": "Honor",
+      "url": "https://reddead.fandom.com/wiki/Honor",
+      "revid": 477362,
+      "file": "pages/Honor.wiki",
+      "chars": 22912
+    },
+    {
+      "title": "Hunting",
+      "url": "https://reddead.fandom.com/wiki/Hunting",
+      "revid": 466016,
+      "file": "pages/Hunting.wiki",
+      "chars": 30656
+    },
+    {
+      "title": "I Shot the Sheriff",
+      "url": "https://reddead.fandom.com/wiki/I_Shot_the_Sheriff",
+      "revid": 405705,
+      "file": "pages/I_Shot_the_Sheriff.wiki",
+      "chars": 1135
+    },
+    {
+      "title": "Jobs",
+      "url": "https://reddead.fandom.com/wiki/Jobs",
+      "revid": 458269,
+      "file": "pages/Jobs.wiki",
+      "chars": 2538
+    },
+    {
+      "title": "Journal (Redemption Interface)",
+      "url": "https://reddead.fandom.com/wiki/Journal_%28Redemption_Interface%29",
+      "revid": 435970,
+      "file": "pages/Journal_Redemption_Interface_.wiki",
+      "chars": 904
+    },
+    {
+      "title": "Kill to Death Ratio",
+      "url": "https://reddead.fandom.com/wiki/Kill_to_Death_Ratio",
+      "revid": 389209,
+      "file": "pages/Kill_to_Death_Ratio.wiki",
+      "chars": 704
+    },
+    {
+      "title": "Marston",
+      "url": "https://reddead.fandom.com/wiki/Marston",
+      "revid": 463837,
+      "file": "pages/Marston.wiki",
+      "chars": 971
+    },
+    {
+      "title": "Missions in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Missions_in_Redemption",
+      "revid": 475341,
+      "file": "pages/Missions_in_Redemption.wiki",
+      "chars": 5783
+    },
+    {
+      "title": "Money",
+      "url": "https://reddead.fandom.com/wiki/Money",
+      "revid": 468096,
+      "file": "pages/Money.wiki",
+      "chars": 15624
+    },
+    {
+      "title": "Multiplayer Challenges",
+      "url": "https://reddead.fandom.com/wiki/Multiplayer_Challenges",
+      "revid": 470187,
+      "file": "pages/Multiplayer_Challenges.wiki",
+      "chars": 9081
+    },
+    {
+      "title": "Multiplayer Glitches",
+      "url": "https://reddead.fandom.com/wiki/Multiplayer_Glitches",
+      "revid": 437090,
+      "file": "pages/Multiplayer_Glitches.wiki",
+      "chars": 18270
+    },
+    {
+      "title": "Options",
+      "url": "https://reddead.fandom.com/wiki/Options",
+      "revid": 312044,
+      "file": "pages/Options.wiki",
+      "chars": 463
+    },
+    {
+      "title": "Outfitter",
+      "url": "https://reddead.fandom.com/wiki/Outfitter",
+      "revid": 451654,
+      "file": "pages/Outfitter.wiki",
+      "chars": 6940
+    },
+    {
+      "title": "Outlaw II Challenges",
+      "url": "https://reddead.fandom.com/wiki/Outlaw_II_Challenges",
+      "revid": 389755,
+      "file": "pages/Outlaw_II_Challenges.wiki",
+      "chars": 541
+    },
+    {
+      "title": "Rancher Outfit",
+      "url": "https://reddead.fandom.com/wiki/Rancher_Outfit",
+      "revid": 445404,
+      "file": "pages/Rancher_Outfit.wiki",
+      "chars": 4701
+    },
+    {
+      "title": "Random Encounters in Red Dead Redemption",
+      "url": "https://reddead.fandom.com/wiki/Random_Encounters_in_Red_Dead_Redemption",
+      "revid": 475711,
+      "file": "pages/Random_Encounters_in_Red_Dead_Redemption.wiki",
+      "chars": 42705
+    },
+    {
+      "title": "Red Dead",
+      "url": "https://reddead.fandom.com/wiki/Red_Dead",
+      "revid": 466535,
+      "file": "pages/Red_Dead.wiki",
+      "chars": 30954
+    },
+    {
+      "title": "Red Dead Redemption Soundtrack",
+      "url": "https://reddead.fandom.com/wiki/Red_Dead_Redemption_Soundtrack",
+      "revid": 474910,
+      "file": "pages/Red_Dead_Redemption_Soundtrack.wiki",
+      "chars": 8430
+    },
+    {
+      "title": "Red Dead Redemption Videos",
+      "url": "https://reddead.fandom.com/wiki/Red_Dead_Redemption_Videos",
+      "revid": 52383,
+      "file": "pages/Red_Dead_Redemption_Videos.wiki",
+      "chars": 1108
+    },
+    {
+      "title": "Red Dead Redemption: The Man from Blackwater",
+      "url": "https://reddead.fandom.com/wiki/Red_Dead_Redemption%3A_The_Man_from_Blackwater",
+      "revid": 471570,
+      "file": "pages/Red_Dead_Redemption_The_Man_from_Blackwater.wiki",
+      "chars": 7009
+    },
+    {
+      "title": "Redemption Multiplayer",
+      "url": "https://reddead.fandom.com/wiki/Redemption_Multiplayer",
+      "revid": 475292,
+      "file": "pages/Redemption_Multiplayer.wiki",
+      "chars": 31441
+    },
+    {
+      "title": "Reyes' Rebels Outfit",
+      "url": "https://reddead.fandom.com/wiki/Reyes%27_Rebels_Outfit",
+      "revid": 472687,
+      "file": "pages/Reyes_Rebels_Outfit.wiki",
+      "chars": 4277
+    },
+    {
+      "title": "Robbery",
+      "url": "https://reddead.fandom.com/wiki/Robbery",
+      "revid": 474139,
+      "file": "pages/Robbery.wiki",
+      "chars": 10772
+    },
+    {
+      "title": "Save",
+      "url": "https://reddead.fandom.com/wiki/Save",
+      "revid": 433356,
+      "file": "pages/Save.wiki",
+      "chars": 3181
+    },
+    {
+      "title": "Single-player Challenges in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Single-player_Challenges_in_Redemption",
+      "revid": 475311,
+      "file": "pages/Single-player_Challenges_in_Redemption.wiki",
+      "chars": 12653
+    },
+    {
+      "title": "Social Club Challenges",
+      "url": "https://reddead.fandom.com/wiki/Social_Club_Challenges",
+      "revid": 476042,
+      "file": "pages/Social_Club_Challenges.wiki",
+      "chars": 10601
+    },
+    {
+      "title": "Taunt",
+      "url": "https://reddead.fandom.com/wiki/Taunt",
+      "revid": 325421,
+      "file": "pages/Taunt.wiki",
+      "chars": 1192
+    },
+    {
+      "title": "Titles",
+      "url": "https://reddead.fandom.com/wiki/Titles",
+      "revid": 455700,
+      "file": "pages/Titles.wiki",
+      "chars": 38225
+    },
+    {
+      "title": "Trophies/Achievements in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Trophies/Achievements_in_Redemption",
+      "revid": 469767,
+      "file": "pages/Trophies__Achievements_in_Redemption.wiki",
+      "chars": 28689
+    },
+    {
+      "title": "Weapons in Redemption",
+      "url": "https://reddead.fandom.com/wiki/Weapons_in_Redemption",
+      "revid": 470423,
+      "file": "pages/Weapons_in_Redemption.wiki",
+      "chars": 23305
+    }
+  ]
+}

@@ -1,0 +1,1483 @@
+{{DISPLAYTITLE:Interiors in ''Grand Theft Auto: San Andreas''}}{{Disambiglink|For other uses, see [[Interiors]].}}
+[[File:InteriorWorld-GTASA-Int0to3Example.gif|right|250px|An Enter-Exit arrow teleporting the player from a ground level location in Int 0 to a high altitude location in Int 3.]]
+'''Interiors''' are a part of the environment in {{SA}}.
+
+==Description==
+Building interiors are first made visible with the series' transition to full 3D graphics with the release of {{III}}.
+
+In ''Grand Theft Auto: San Andreas'', most of the interiors are placed in empty parallel worlds, usually high above the aircraft height limits. The player is teleported to these interiors through the yellow [[ENEX|Enter-Exit]] arrows found in front of certain building entrance doors in the "exterior world". The function of these yellow arrows is to teleport the player from the entrance of the building to the corresponding interior of the building.
+
+These separate "worlds" consists of replicas of the in-game map, where the main map's terrain and objects, except for their collision models, are completely unloaded and invisible, while each individual building interior model is made visible.
+
+===Ambience Sounds===
+Similarly to the interiors in {{VC}}, certain interiors have unique ambience sounds.
+*Fast food restaurants have cutlery and fryer sounds.
+*Fancy restaurants have unique ambience music (although muted during their only appearance in the dating activity cutscenes).
+*Tuning garages, wardrobes and other interiors have in-game radio stations playing in the background.
+
+===Particle Effects===
+Particle effects used in interiors such as fire, water and smoke are loaded in the exterior world, although not normally visible without using glitches and exploits.
+
+===Dynamic Objects===
+Dynamic objects that can be moved through the player's interactions or mission script are normally visible in the world. This includes physical doors used to load interiors, garage doors and interactive cranes.
+
+===Skybox and Weather Presets===
+The skybox is present inside interiors, and has two variations.
+*The '''colored skybox''' is used to simulate the exterior world's skybox and its weather presets. However, it does not feature particle effects such as clouds, rainbows or rain. It is mainly used for interiors with visible "fake" exterior, such as [[Marco's Bistro]] and [[World of Coq]].
+*The '''black skybox''' is intended for interiors without any visible exterior (windows closed). Despite the visual darkness, the weather presets and dynamic light sources are normally applied to the world itself. It is mainly used by ''all'' interiors that are normally loaded by ENEX arrows and mission markers, including all clothing stores, barber shops, restaurants, and it simulates the black ceiling inside stadiums.
+
+If the interior is loaded using the wrong skybox through exploits such as teleportation, it will be subject to glitches (usually mirrors not being rendered).
+
+{{Gallery
+|InteriorWorld-GTASA-NormalSkybox-WeatherPresets.gif|Several weather presets and time of day showcased on [[Saint Mark's]] (intended colored skybox).
+|InteriorWorld-GTASA-DarkSkybox.gif|Several weather presets and times of day showcased on Saint Mark's (black skybox).
+|InteriorWorld-GTASA-DarkSkybox-EffectonTextures.gif|Interior light sources in models and textures, tied to in-game time (independent from the skybox).
+}}
+
+==Interiors List==
+There are in total 18 different interior worlds, not including the exterior world where the San Andreas map is rendered. The following list includes all of the available interiors and their respective coordinates in the world map, including unused interiors.
+
+<tabber>
+1=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int1-AmmuNation1.png|200px]]
+|Ammu-Nation
+|Ammu-Nation interior (1/5)
+|289.7870
+|<nowiki>-35.7190</nowiki>
+|1003.5160
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-BurglaryHouse1.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (1/23).
+|224.6351
+|1289.012
+|1082.141
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-TheWelcomePump.png|200px]]
+|[[The Welcome Pump]]
+|Interior of The Welcome Pump in [[Dillimore]], used during dates and seen during [[First Date (GTA San Andreas)|First Date]].
+|681.65
+|<nowiki>-452.86</nowiki>
+|<nowiki>-25.62</nowiki>
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-WorldofCoq.png|200px]]
+|[[World of Coq]]
+|Restaurant interior seen during dates.
+|446.6941
+|<nowiki>-9.7977</nowiki>
+|1000.7340
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-CaligulasPalace.png|200px]]
+|[[Caligula's Palace|Caligula's Casino]]
+|Interior of the Caligula's Casino.
+|2235.2524
+|1708.5146
+|1010.6129
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-DeniseRobinsonsHouse.png|200px]]
+|[[Denise Robinson's House]]
+|Interior of [[Denise Robinson]]'s house.
+|244.0892
+|304.8456
+|999.1484
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-Shamal.png|200px]]
+|[[Shamal]]
+|Interior of the Forelli's Shamal seen in [[Freefall]].
+|1.6127
+|34.7411
+|1199.0
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-SaintMarks.png|200px]]<br>[[File:InteriorWorld-GTASA-Int1-SaintMarks-MarcosBistro.png|200px]]
+|[[Saint Mark's]]
+|A section of the Saint Mark's neighborhood in [[Portland]], including the interior of [[Marco's Bistro]]. Only the road and Marco's Bistro have collision. Reused ''GTA III'' assets and LODs are used in the background. Used during [[Saint Mark's Bistro]].
+|<nowiki>-750.80</nowiki>
+|491.00
+|1371.70
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-SweetsHouse.png|200px]]
+|[[Sweet's House]]
+|Interior of [[Sweet Johnson]]'s house seen during cutscenes of his missions.
+|2525.0420
+|<nowiki>-1679.1150</nowiki>
+|1015.4990
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-Transfender.png|200px]]
+|[[TransFender (3D Universe)|TransFender]]
+|Interior of the TransFender tuning garage visible while modifying a car. Retextured [[Joey's Auto Painting]] interior from ''GTA III''.
+|621.7850
+|<nowiki>-12.5417</nowiki>
+|1000.9220
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-SafeHouse4.png|200px]]
+|Penthouse Suite
+|Generic safehouse interior, shared by [[The Clown's Pocket Safehouse]] and [[The Camel's Toe Safehouse]].
+|2216.5400
+|<nowiki>-1076.2900</nowiki>
+|1050.4840
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-HymanMemorialStadium.png|200px]]
+|Trials Stadium
+|Unused stadium interior. Reused [[Hyman Memorial Stadium]] interior from ''GTA Vice City''.
+|<nowiki>-1401.13</nowiki>
+|106.110
+|1032.273
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-Warehouse1.png|200px]]
+|[[Smash TV Warehouse|Warehouse]]
+|Unused [[Smash TV]] warehouse.
+|1405.3120
+|<nowiki>-8.2928</nowiki>
+|1000.9130
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-DohertyGarage.png|200px]]
+|[[Doherty Garage]]
+|Interior of Doherty Garage seen during cutscenes. Includes a replica of the garage surroundings seen in the cutscene background.
+|<nowiki>-2042.42</nowiki>
+|178.59
+|28.84
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-SindaccoAbattoir.png|200px]]
+|[[Sindacco Abattoir]]
+|Sindacco Abattoir interior seen during [[The Meat Business]].
+|963.6078
+|2108.3970
+|1011.0300
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-SubUrban.png|200px]]
+|[[Sub Urban (3D Universe)|Sub Urban]]
+|Sub Urban clothing store interior.
+|203.8173
+|<nowiki>-46.5385</nowiki>
+|1001.8050
+|1
+|-
+|[[File:InteriorWorld-GTASA-Int1-WuZiMus.png|200px]]
+|[[Wu Zi Mu's Betting Shop|Wu Zi Mu's]]
+|Wu Zi Mu's betting shop and apartment building interior seen during the cutscenes of his missions in San Fierro.
+|<nowiki>-2159.9260</nowiki>
+|641.4587
+|1052.3820
+|1
+|-
+|}
+
+
+
+|-|
+2=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int2-RydersPlace.png|200px]]
+|[[Ryder's House|Ryder's Place]]
+|Interior of [[Ryder]]'s house seen during [[The Introduction]], [[Ryder (mission)|Ryder]] and [[Catalyst]].
+|2464.2110
+|<nowiki>-1697.9520</nowiki>
+|1013.5080
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-AngelPineTrailer.png|200px]]
+|[[Angel Pine Save Point|Angel Pine Trailer]]
+|Interior of the Angel Pine trailer safehouse seen during [[King in Exile]].
+|0.3440
+|<nowiki>-0.5140</nowiki>
+|1000.5490
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-ThePigPen.png|200px]]
+|[[The Pig Pen]]
+|Interior of The Pig Pen strip club.
+|1213.4330
+|<nowiki>-6.6830</nowiki>
+|1000.9220
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-BDupsCrackPalace.png|200px]]
+|[[B Dup's Crack Palace]]
+|Interior of [[B Dup]]'s Crack Palace seen during [[Beat Down on B Dup]].
+|1523.7510
+|<nowiki>-46.0458</nowiki>
+|1002.1310
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-BigSmokesCrackPalace.png|200px]]
+|[[Big Smoke's Crack Palace]]
+|Interior of [[Big Smoke]]'s Crack Palace seen during [[End of the Line]].
+|2543.6610
+|<nowiki>-1303.9320</nowiki>
+|1025.0700
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-CaligulasCasinoOffice.png|200px]]
+|Caligula's Casino Office
+|[[Ken Rosenberg]]'s office seen during various missions set in [[Caligula's Palace|Caligula's Casino]]. Completely non-solid.
+|2182.7590
+|<nowiki>1629.0750</nowiki>
+|1050.3880
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-BurglaryHouse2.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (2/23).
+|225.756
+|1240.000
+|1082.149
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-BurglaryHouse3.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (3/23).
+|447.470
+|1398.348
+|1084.305
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-BurglaryHouse4.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (4/23).
+|491.740
+|1400.541
+|1080.265
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-KatieZhansHouse.png|200px]]
+|[[Katie Zhan's House]]
+|Interior of [[Katie Zhan]]'s house.
+|267.2290
+|304.7100
+|999.1480
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-LocoLowCo.png|200px]]
+|[[Loco Low Co.]]
+|Interior of the Loco Low Co. tuning garage, seen when modifying a lowrider.
+|612.5910
+|<nowiki>-75.6370</nowiki>
+|997.9920
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-ReecesBarbershop.png|200px]]
+|[[Reece's Hair & Facial Studio]]
+|Interior of [[Old Reece]]'s barber shop.
+|411.6259
+|<nowiki>-21.4332</nowiki>
+|1001.8046
+|2
+|-
+|[[File:InteriorWorld-GTASA-Int2-PenthouseSuite.png|200px]]
+|Penthouse Suite
+|Generic safehouse interior, shared by the [[Pirates in Men's Pants Safehouse]] and [[Old Venturas Strip Safehouse]].
+|2237.5898
+|<nowiki>-1078.8699</nowiki>
+|1049.0699
+|2
+|}
+
+
+|-|
+3=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int3-JizzysPleasureDomes.png|200px]]
+|[[Jizzy's Pleasure Domes]]
+|Interior of Jizzy's Pleasure Domes seen during [[Jizzy]]'s missions and accessible during [[Ice Cold Killa]].
+|<nowiki>-2636.7190</nowiki>
+|1402.9170
+|906.4609
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-Brothel1.png|200px]]
+|[[Brothel (Unfinished)|Brothel]]
+|Unused Brothel interior.
+|940.6520
+|<nowiki>-18.4860</nowiki>
+|1000.9300
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-Brothel2.png|200px]]
+|[[Brothel (Whorehouse)|Brothel]]
+|Unused Brothel interior.
+|967.5334
+|<nowiki>-53.0245</nowiki>
+|1001.1250
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-BDupsApartment.png|200px]]
+|[[B Dup's Apartment]]
+|B Dup's apartment in the [[Ganton Courts]] seen during [[Cleaning the Hood]] and [[Beat Down on B Dup]].
+|1527.38
+|<nowiki>-11.02</nowiki>
+|1002.10
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-BikeSchool.png|200px]]
+|[[Turning Tricks Bike School|Bike School]]
+|Unused Bike School interior.
+|1494.3350
+|1305.6510
+|1093.2890
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-TheBigSpreadRanch.png|200px]]
+|[[The Big Spread Ranch]]
+|Interior of The Big Spread Ranch strip club.
+|1210.2570
+|<nowiki>-29.2986</nowiki>
+|1000.8790
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-LVTattooParlor.png|200px]]
+|Tattoo Parlor
+|Interior of the Las Venturas tattoo parlor.
+|<nowiki>-204.4390</nowiki>
+|<nowiki>-43.6520</nowiki>
+|1002.2990
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-LVPDHQ.png|200px]]
+|[[Las Venturas Police Headquarters|LVPD HQ]]
+|Interior of the Las Venturas Police Headquarters.
+|289.7703
+|171.7460
+|1007.1790
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-OGLocs.png|200px]]
+|[[OG Loc's House]]
+|Interior of [[OG Loc (3D Universe)|OG Loc]]'s house seen during [[House Party]]. The exterior model is reused from [[Big Smoke's House]].
+|516.8890
+|<nowiki>-18.4120</nowiki>
+|1001.5650
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-ProLaps.png|200px]]
+|[[ProLaps (3D Universe)|ProLaps]]
+|Interior of ProLaps clothing stores.
+|207.3560
+|<nowiki>-138.0029</nowiki>
+|1003.3130
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-PlanningDepartment.png|200px]]
+|[[Las Venturas City Planning Department]]
+|Planning department interior visited during [[Architectural Espionage]].
+|374.6708
+|173.8050
+|1008.3893
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-BlastinFoolsRecords.png|200px]]
+|[[Blastin' Fools Records Building]]
+|Record label hallway seen during the final cutscene of [[Cut Throat Business]].
+|1038.2190
+|6.9905
+|1001.2840
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-DrivingSchool.png|200px]]
+|[[Turning Tricks Driving School|Driving School]]
+|Interior of the Turning Tricks Advanced Driving School.
+|<nowiki>-2027.9200</nowiki>
+|<nowiki>-105.1830</nowiki>
+|1035.1720
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-JohnsonHouse.png|200px]]
+|[[Johnson House]]
+|Interior of Johnson House, the first acquired safehouse.
+|2496.0500
+|<nowiki>-1693.9260</nowiki>
+|1014.7420
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-BurglaryHouse5.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (5/23).
+|234.733
+|1190.391
+|1080.258
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-GayGordosBarbershop.png|200px]]
+|[[Gay Gordo's Bouffant Boutique]]
+|Interior of Gay Gordo's barber shop in Las Venturas.
+|418.6530
+|<nowiki>-82.6390</nowiki>
+|1001.8050
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-HelenaWanksteinsBarn.png|200px]]
+|[[Helena Wankstein's Farm|Helena Wankstein's Farm House]]
+|Interior of [[Helena Wankstein]]'s farm house.
+|292.4459
+|308.7790
+|999.1484
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-InsideTrack.png|200px]]
+|[[Inside Track]]
+|Interior shared between all Inside Track betting shops.
+|826.8863
+|5.5091
+|1004.4830
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-SexShop.png|200px]]
+|Sex Shop
+|Interior shared between all Sex Shops.
+|<nowiki>-106.7268</nowiki>
+|<nowiki>-19.6444</nowiki>
+|1000.7190
+|3
+|-
+|[[File:InteriorWorld-GTASA-Int3-WheelArchAngels.png|200px]]
+|[[Wheel Arch Angels]]
+|Interior of the Wheel Arch Angels tuning garage, seen while modifying a vehicle.
+|614.3889
+|<nowiki>-124.0991</nowiki>
+|997.9950
+|3
+|}
+
+
+
+
+|-|
+4=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int4-247Shop1.png|200px]]
+|24/7
+|24/7 shop (1/6)
+|<nowiki>-27.3769</nowiki>
+|<nowiki>-27.6416</nowiki>
+|1003.5570
+|4
+|-
+|[[File:InteriorWorld-GTASA-Int4-AmmuNation2.png|200px]]
+|Ammu-Nation
+|Ammu-Nation interior (2/5)
+|285.8000
+|<nowiki>-84.5470</nowiki>
+|1001.5390
+|4
+|-
+|[[File:InteriorWorld-GTASA-Int4-BurglaryHouse6.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (6/23).
+|<nowiki>-262.91</nowiki>
+|1454.966
+|1084.367
+|4
+|-
+|[[File:InteriorWorld-GTASA-Int4-BurglaryHouse7.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (7/23).
+|221.4296
+|1142.423
+|1082.609
+|4
+|-
+|[[File:InteriorWorld-GTASA-Int4-BurglaryHouse8.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (8/23).
+|261.1168
+|1286.519
+|1080.258
+|4
+|-
+|[[File:InteriorWorld-GTASA-Int4-Diner2.png|200px]]
+|Diner 2
+|Diner interior used during dates.
+|460.0
+|<nowiki>-88.43</nowiki>
+|999.62
+|4
+|-
+|[[File:InteriorWorld-GTASA-Int4-DirtbikeStadium.png|200px]]
+|Dirtbike Stadium
+|[[Blackfield Stadium]] interior used during the [[Dirt Track]] side mission.
+|<nowiki>-1435.8690</nowiki>
+|<nowiki>-662.2505</nowiki>
+|1052.4650
+|4
+|-
+|[[File:InteriorWorld-GTASA-Int4-MichelleCannesHouse.png|200px]]
+|[[Michelle's Auto Repair|Michelle Cannes' House]]
+|Interior of [[Michelle Cannes]]'s house.
+|302.6404
+|304.8048
+|999.1484
+|4
+|}
+
+
+|-|
+5=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int5-MaddDoggsCrib.png|200px]]
+|[[Madd Dogg's Crib]]
+|Interior of Madd Dogg's Crib.
+|1272.9116
+|<nowiki>-768.9028</nowiki>
+|1090.5097
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-PizzaStack.png|200px]]
+|[[The Well Stacked Pizza Co. (3D Universe)|Pizza Stack]]
+|Interior shared between all Pizza Stack branches.
+|377.7758
+|<nowiki>-126.2766</nowiki>
+|1001.4920
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-Victim.png|200px]]
+|[[Victim]]
+|Interior shared between all Victim clothing stores.
+|221.3310
+|<nowiki>-6.6169</nowiki>
+|1005.1977
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-VagosGangHouse.png|200px]]
+|[[Vagos Gang House]]
+|Interior of the [[Los Santos Vagos]] house burned during [[Burning Desire]]. Dynamic props such as broken walls are absent outside missions.
+|2351.1540
+|<nowiki>-1180.5770</nowiki>
+|1027.9770
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-ElQuebradosPoliceStation.png|200px]]
+|[[El Quebrados Sheriff's Station]]
+|Interior of [[Barbara Schternvart]]'s office.
+|322.1979
+|302.4979
+|999.1484
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-BurglaryHouse9.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (9/23).
+|22.79996
+|1404.642
+|1084.43
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-BurglaryHouse10.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (10/23).
+|228.9003
+|1114.477
+|1080.992
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-BurglaryHouse11.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (11/23).
+|140.5631
+|1369.051
+|1083.864
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-CrackDen.png|200px]]
+|[[Crack Den]]
+|Interior of the [[Front Yard Ballas]] crack den seen during [[Cleaning the Hood]].
+|322.1117
+|1119.3270
+|1083.8830
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-Diner1.png|200px]]
+|Diner 1
+|Diner interior seen during dates.
+|448.7435
+|<nowiki>-110.0457</nowiki>
+|1000.0772
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-GantonGym.png|200px]]
+|[[Ganton Gym]]
+|Interior of the Los Santos gym.
+|768.0793
+|5.8606
+|1000.7160
+|5
+|-
+|[[File:InteriorWorld-GTASA-Int5-VankHoffSafehouse.png|200px]]
+|Penthouse Suite
+|Interior of the [[Queens Safehouse]] inside [[Vank Hoff Hotel|Vank Hoff in the Park]].
+|2232.8210
+|<nowiki>-1110.0180</nowiki>
+|1050.8830
+|5
+|}
+
+
+
+|-|
+6=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int6-AmmuNation3.png|200px]]
+|Ammu-Nation
+|Ammu-Nation interior (3/5)
+|297.4460
+|<nowiki>-109.9680</nowiki>
+|1001.5160
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-AmmuNation4.png|200px]]
+|Ammu-Nation
+|Ammu-Nation interior (4/5)
+|317.2380
+|<nowiki>-168.0520</nowiki>
+|999.5930
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-LSPDHQ.png|200px]]
+|[[Los Santos Police Headquarters|LSPD HQ]]
+|Los Santos Police Headquarters interior, shared with [[Dillimore Police Station]].
+|246.4510
+|65.5860
+|1003.6410
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-SafeHouse3.png|200px]]
+|Safe House
+|Generic safehouse interior, shared by many safehouses around the countryside and the desert.
+|2333.0330
+|<nowiki>-1073.9600</nowiki>
+|1049.0230
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-SafeHouse5.png|200px]]
+|Safe House
+|Generic safehouse interior, shared by the [[Mulholland Safehouse]], [[Calton Heights Safehouse]] and [[Doherty Safehouse]].
+|2194.2910
+|<nowiki>-1204.0150</nowiki>
+|1049.0230
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-SafeHouse6.png|200px]]
+|Safe House
+|Generic safehouse interior, shared by the [[Chinatown Safehouse]], [[Paradiso Safehouse]] and [[Creek Safehouse]].
+|2308.8710
+|<nowiki>-1210.7170</nowiki>
+|1049.0230
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-CobraMaritalArtsGym.png|200px]]
+|[[Cobra Marital Arts Gym]]
+|San Fierro gym interior.
+|774.0870
+|<nowiki>-47.9830</nowiki>
+|1000.5860
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-247Shop2.png|200px]]
+|24/7
+|24/7 shop interior (2/6)
+|<nowiki>-26.7180</nowiki>
+|<nowiki>-55.9860</nowiki>
+|1003.5470
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-MilliesBedroom.png|200px]]
+|Millie's Bedroom
+|[[Millie Perkins' House]] interior.
+|344.5200
+|304.8210
+|999.1480
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-FannyBatters.png|200px]]
+|[[Fanny Batters]]
+|Unused brothel interior.
+|744.2710
+|1437.2530
+|1102.7030
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-SecretValley.png|200px]]
+|[[Secret Valley]]
+|Restaurant interior used during dates.
+|443.9810
+|<nowiki>-65.2190</nowiki>
+|1050.0000
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-BurglaryHouse15.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (15/23).
+|234.319
+|1066.455
+|1084.208
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-BurglaryHouse16.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (16/23).
+|<nowiki>-69.049</nowiki>
+|1354.056
+|1080.211
+|6
+|-
+|[[File:InteriorWorld-GTASA-Int6-ZeroRC.png|200px]]
+|[[Zero RC]]
+|[[Zero]]'s RC shop.
+|<nowiki>-2239.5698</nowiki>
+|130.0209
+|1035.4199
+|6
+|}
+
+
+
+|-|
+7=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int7-AmmuNation5.png|200px]]
+|Ammu-Nation
+|Ammu-Nation interior (5/5) – Unused two-floor interior.
+|315.3850
+|<nowiki>-142.2420</nowiki>
+|999.6010
+|7
+|-
+|[[File:InteriorWorld-GTASA-Int7-8TrackStadium.png|200px]]
+|8-Track Stadium
+|[[Los Santos Forum]] interior used during the [[8-Track]] side mission.
+|<nowiki>-1417.8720</nowiki>
+|<nowiki>-276.4260</nowiki>
+|1051.1910
+|7
+|-
+|[[File:InteriorWorld-GTASA-Int7-BelowtheBeltGym.png|200px]]
+|[[Below the Belt Gym]]
+|Las Venturas gym interior.
+|774.2430
+|<nowiki>-76.0090</nowiki>
+|1000.6540
+|7
+|-
+|[[File:InteriorWorld-GTASA-Int7-BurglaryHouse23.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (23/23).
+|<nowiki>225.6309</nowiki>
+|1022.4799
+|1084.0699
+|7
+|}
+
+
+
+
+|-|
+8=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int8-SafeHouse2.png|200px]]
+|Safe House
+|Generic safehouse interior, shared by the [[Verdant Bluffs Safehouse]], [[Santa Maria Beach Safehouse]], [[Verona Beach Safehouse]], [[Whitewood Estates Safehouse]], [[Redsands West Safehouse]] and [[Rockshore West Safehouse]].
+|2365.2383
+|<nowiki>-1134.2969</nowiki>
+|1050.875
+|8
+|-
+|[[File:InteriorWorld-GTASA-Int8-ColonelFuhrbergers.png|200px]]
+|[[Colonel Fuhrberger's House|Colonel Fuhrberger's]]
+|Colonel Fuhrberger's house seen during [[Home Invasion]].
+|2807.8990
+|<nowiki>-1172.9210</nowiki>
+|1025.5700
+|8
+|-
+|[[File:InteriorWorld-GTASA-Int8-BurglaryHouse22.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (22/23).
+|<nowiki>-42.490</nowiki>
+|1407.644
+|1084.43
+|8
+|}
+
+
+
+|-|
+9=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int9-UnusedJeffersonMotelRoom.png|200px]]
+|[[Motel Rooms|Motel room]] (1/2)
+|Unused save point interior.
+|2253.1740
+|<nowiki>-1139.0100</nowiki>
+|1050.6330
+|9
+|-
+|[[File:InteriorWorld-GTASA-Int9-Andromada.png|200px]]
+|Andromada
+|Interior of the Andromada seen in [[Stowaway]].
+|315.48
+|984.13
+|1959.11
+|9
+|-
+|[[File:InteriorWorld-GTASA-Int9-BurglaryHouse12.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (12/23).
+|85.32596
+|1323.585
+|1083.859
+|9
+|-
+|[[File:InteriorWorld-GTASA-Int9-BurglaryHouse13.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (13/23).
+|260.3189
+|1239.663
+|1084.258
+|9
+|-
+|[[File:InteriorWorld-GTASA-Int9-CluckinBell.png|200px]]
+|[[Cluckin' Bell (3D Universe)|Cluckin' Bell]]
+|Interior shared between all Cluckin' Bell branches.
+|365.67
+|<nowiki>-11.61</nowiki>
+|1002
+|9
+|-
+|[[File:InteriorWorld-GTASA-Int9-PricklePineSafehouse.png|200px]]
+|Safe House
+|[[Prickle Pine Safehouse]].
+|2317.8200
+|<nowiki>-1023.7252</nowiki>
+|1050.2109
+|9
+|}
+
+
+|-|
+10=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int10-FourDragons.png|200px]]
+|Four Dragons
+|Interior of [[The Four Dragons Casino]].
+|2009.4140
+|1017.8990
+|994.4680
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-NoMansLand.png|200px]]
+|[[RC Battle Ground]]
+|No Man's Land seen during [[New Model Army]].
+|<nowiki>-975.5766</nowiki>
+|1061.1312
+|1345.6719
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-BurgerShot.png|200px]]
+|[[Burger Shot (3D Universe)|Burger Shot]]
+|Interior shared between all Burger Shot branches.
+|366.4220
+|<nowiki>-73.4700</nowiki>
+|1001.5080
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-BurglaryHouse14.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (14/23).
+|21.241
+|1342.153
+|1084.375
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-FourDragonsJanitorRoom.png|200px]]
+|Four Dragons Maintenance Room
+|The [[Janitor]]'s room used as the [[Caligula's Palace|Caligula's Casino]] heist planning room. Actually located inside the real building, although in a separate "world".
+|1891.3960
+|1018.1260
+|31.8820
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-SafeHouse1.png|200px]]
+|[[Motel Rooms|Motel room]] (2/2)
+|Unused save point interior.
+|2262.83
+|<nowiki>-1137.71</nowiki>
+|1050.63
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-HashburySafehouse.png|200px]]
+|Safe House
+|[[Hashbury Safehouse]]
+|2264.5231
+|<nowiki>-1210.5229</nowiki>
+|1049.0234
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-247Shop3.png|200px]]
+|[[24/7 (3D Universe)|24/7]]
+|24/7 shop interior (3/6)
+|6.0780
+|<nowiki>-28.6330</nowiki>
+|1003.5490
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-AbandonedACTower.png|200px]]
+|[[Verdant Meadows Airfield|Abandoned AC Tower]]
+|Verdant Meadows Airfield safehouse interior. Located under the real building in a separate "world".
+|419.6140
+|2536.6030
+|10.0000
+|10
+|-
+|[[File:InteriorWorld-GTASA-Int10-SFPDHQ.png|200px]]
+|[[San Fierro Police Headquarters|SFPD HQ]]
+|Unused interior for the SFPD Headquarters in [[Downtown San Fierro]].
+|246.4410
+|112.1640
+|1003.2190
+|10
+|}
+
+
+|-|
+11=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int11-Bar.png|200px]]
+|Bar
+|Interior shared between [[Ten Green Bottles]], [[Misty's]] and [[The Craw Bar]].
+|502.3310
+|<nowiki>-70.6820</nowiki>
+|998.7570
+|11
+|-
+|[[File:InteriorWorld-GTASA-Int11-FourDragonsOffice.png|200px]]
+|Four Dragons Office
+|[[Wu Zi Mu]]'s office seen during various missions set in [[The Four Dragons Casino]]. Actually located inside the real building, although in a separate "world".
+|2011.6030
+|1017.0230
+|39.0910
+|11
+|-
+|[[File:InteriorWorld-GTASA-Int11-LSSafehouse.png|200px]]
+|Safe House
+|Generic safehouse interior, shared by the [[Jefferson Safehouse]] and [[Willowfield Safehouse]].
+|2282.9766
+|<nowiki>-1140.2861</nowiki>
+|1050.8984
+|11
+|}
+
+
+
+
+|-|
+12=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int12-AngelPineMotel.png|200px]]
+|[[U Get Inn Motel]]
+|Angel Pine motel interior seen during [[Body Harvest]].
+|444.6469
+|508.2390
+|1001.4194
+|12
+|-
+|[[File:InteriorWorld-GTASA-Int12-CasinoFloor.png|200px]]
+|[[Casino Floor]]
+|Casino in [[Redsands West]].
+|1132.9450
+|<nowiki>-8.6750</nowiki>
+|1000.6800
+|12
+|-
+|[[File:InteriorWorld-GTASA-Int12-MacislaBarbershop.png|200px]]
+|Macisla Unisex Hair Salon
+|Interior of the barber shop in [[Playa del Seville]].
+|411.6410
+|<nowiki>-51.8460</nowiki>
+|1001.8980
+|12
+|-
+|[[File:InteriorWorld-GTASA-Int12-UnusedSafehouse.png|200px]]
+|[[Los Santos Safehouse (labigsave)|Safe House]]
+|Unused modern safehouse interior.
+|2324.4990
+|<nowiki>-1147.0710</nowiki>
+|1050.7100
+|12
+|}
+
+
+|-|
+13=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int13-DohertyGarage.png|200px]]
+|[[Doherty Garage]] (Invisible interior)
+|Unused
+|<nowiki>-2043.966</nowiki>
+|172.932
+|28.835
+|13
+|-
+|[[File:InteriorWorld-GTASA-Int13-Atrium.png|200px]]
+|[[Atrium]] (Invisible interior)
+|Unused
+|1724.33
+|<nowiki>-1625.784</nowiki>
+|20.211
+|13
+|-
+|[[File:InteriorWorld-GTASA-Int13-Jefferson.png|200px]]<br/>[[File:InteriorWorld-GTASA-Int13-VagosGangHouse.png|200px]]
+|[[Vagos Gang House]] (Invisible interior)
+|Unused
+|2351.8730
+|<nowiki>-1168.5600</nowiki>
+|27.9709
+|13
+|}
+
+
+
+
+|-|
+14=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int14-KickstartStadium.png|200px]]
+|[[Kickstart]] Stadium
+|[[Blackfield Stadium]] interior used during the Kickstart side mission.
+|<nowiki>-1464.5360</nowiki>
+|1557.6900
+|1052.5310
+|14
+|-
+|[[File:InteriorWorld-GTASA-Int14-DidierSachs.png|200px]]
+|[[Didier Sachs (3D Universe)|Didier Sachs]]
+|Didier Sachs clothing store interior.
+|204.1789
+|<nowiki>-165.8740</nowiki>
+|1000.5230
+|14
+|-
+|[[File:InteriorWorld-GTASA-Int14-FrancisInternationalAirport-Exterior.png|200px]]<br>[[File:InteriorWorld-GTASA-Int14-FrancisInternationalAirport-Interior.png|200px]]
+|[[Francis International Airport (3D Universe)|Francis International Airport]]
+|Francis International Airport interior seen during [[In the Beginning]].
+|<nowiki>-1827.1473</nowiki>
+|7.2074
+|1061.1435
+|14
+|-
+|[[File:InteriorWorld-GTASA-Int14-LosSantosInternationalAirport.png|200px]]
+|[[Los Santos International Airport (3D Universe)|Los Santos International Airport]]
+|Los Santos International Airport interior seen during In the Beginning.
+|<nowiki>-1855.5687</nowiki>
+|41.2631
+|1061.1435
+|14
+|-
+|[[File:InteriorWorld-GTASA-Int14-Wardrobe.png|200px]]
+|Wardrobe
+|Wardrobe interior shared with all safehouses.
+|255.7190
+|<nowiki>-41.1370</nowiki>
+|1002.0230
+|14
+|}
+
+
+|-|
+15=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int15-Binco.png|200px]]
+|[[Binco (3D Universe)|Binco]]
+|Interior shared between all Binco clothing stores.
+|207.5430
+|<nowiki>-109.0040</nowiki>
+|1005.1330
+|15
+|-
+|[[File:InteriorWorld-GTASA-Int15-BloodringStadium.png|200px]]
+|[[Blood Ring (GTA San Andreas)|Blood Ring]] Stadium
+|[[Corvin Stadium]] interior. Reused Oval Ring/Bloodring stadium interior from ''GTA Vice City''.
+|<nowiki>-1394.20</nowiki>
+|987.62
+|1023.96
+|15
+|-
+|[[File:InteriorWorld-GTASA-Int15-JeffersonMotel.png|200px]]
+|[[Jefferson Motel (3D Universe)|Jefferson Motel]]
+|Jefferson Motel interior seen during [[Reuniting the Families]].
+|2217.6250
+|<nowiki>-1150.6580</nowiki>
+|1025.7970
+|15
+|-
+|[[File:InteriorWorld-GTASA-Int15-BurglaryHouse17.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (17/23).
+|<nowiki>-285.711</nowiki>
+|1470.697
+|1084.375
+|15
+|-
+|[[File:InteriorWorld-GTASA-Int15-BurglaryHouse18.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (18/23).
+|327.808
+|1479.74
+|1084.438
+|15
+|-
+|[[File:InteriorWorld-GTASA-Int15-BurglaryHouse19.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (19/23).
+|375.572
+|1417.439
+|1081.328
+|15
+|-
+|[[File:InteriorWorld-GTASA-Int15-BurglaryHouse20.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (20/23).
+|384.644
+|1471.479
+|1080.195
+|15
+|-
+|[[File:InteriorWorld-GTASA-Int15-BurglaryHouse21.png|200px]]
+|House
+|House interior used during the [[Burglar]] side mission (21/23).
+|295.467
+|1474.697
+|1080.258
+|15
+|}
+
+
+
+|-|
+16=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int16-SumoRingStadium.png|200px]]
+|[[Sumo (Adversary Mode)|Sumo Ring]] Stadium
+|Unused stadium interior.
+|<nowiki>-1400</nowiki>
+|1250
+|1040
+|16
+|-
+|[[File:InteriorWorld-GTASA-Int16-247Shop4.png|200px]]
+|[[24/7 (3D Universe)|24/7]]
+|24/7 shop interior (4/6)
+|<nowiki>-25.3730</nowiki>
+|<nowiki>-139.6540</nowiki>
+|1003.5470
+|16
+|-
+|[[File:InteriorWorld-GTASA-Int16-LSTattooParlor.png|200px]]
+|Tattoo Parlor
+|Interior shared between Tattoo Parlors in Los Santos.
+|<nowiki>-204.5580</nowiki>
+|<nowiki>-25.6970</nowiki>
+|1002.2730
+|16
+|}
+
+
+
+|-|
+17=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int17-247Shop5.png|200px]]
+|[[24/7 (3D Universe)|24/7]]
+|24/7 shop interior (5/6)
+|<nowiki>-25.3930</nowiki>
+|<nowiki>-185.9110</nowiki>
+|1003.5470
+|17
+|-
+|[[File:InteriorWorld-GTASA-Int17-Club.png|200px]]
+|Club
+|Interior used by all dancing minigame nightclubs.
+|493.4687
+|<nowiki>-23.0080</nowiki>
+|1000.6796
+|17
+|-
+|[[File:InteriorWorld-GTASA-Int17-RustyBrowns.png|200px]]
+|Rusty Brown's
+|[[Jim's Sticky Ring]] interior seen in [[Gray Imports]].
+|377.0030
+|<nowiki>-192.5070</nowiki>
+|1000.6330
+|17
+|-
+|[[File:InteriorWorld-GTASA-Int17-GeneratorHall.png|200px]]
+|[[Sherman Dam]] Generator Hall
+|The dam's generator hall seen during [[Dam and Blast]].
+|<nowiki>-942.1320</nowiki>
+|1849.1420
+|5.0050
+|17
+|-
+|[[File:InteriorWorld-GTASA-Int17-HemlockTattoo.png|200px]]
+|[[Hemlock Tattoo]]
+|Tattoo parlor in [[Hashbury]].
+|<nowiki>-204.4399</nowiki>
+|<nowiki>-8.469600</nowiki>
+|1002.299988
+|17
+|}
+
+
+
+
+|-|
+18=
+{| class="zebratable sortable" style="text-align: center;" width="100%"
+! class="sortable" width="100px" |Image
+! width="50px" |Location Name
+! width="50px" |Description
+! width="50px" |X
+! width="50px" |Y
+! width="50px" |Z
+! width="50px" |Interior
+|-
+|[[File:InteriorWorld-GTASA-Int18-LilProbeInn.png|200px]]
+|[[Lil' Probe'Inn]]
+|Bar located near [[Fort Carson (3D Universe)|Fort Carson]].<br/>Dating sidemission.
+|<nowiki>-227.0280</nowiki>
+|1401.2290
+|27.7690
+|18
+|-
+|[[File:InteriorWorld-GTASA-Int18-247Shop6.png|200px]]
+|[[24/7 (3D Universe)|24/7]]
+|24/7 interior (6/6).
+|<nowiki>-30.9460</nowiki>
+|<nowiki>-89.6090</nowiki>
+|1003.5490
+|18
+|-
+|[[File:InteriorWorld-GTASA-Int18-Atrium.png|200px]]
+|[[Atrium]]
+|Atrium interior seen during [[Just Business]].
+|1726.1370
+|<nowiki>-1645.2300</nowiki>
+|20.2260
+|18
+|-
+|[[File:InteriorWorld-GTASA-Int18-Warehouse2.png|200px]]
+|Warehouse
+|Unused extended replica of the [[Ocean Docks Freight Depot]] warehouse interior from [[Gray Imports]].
+|1296.6310
+|0.5920
+|1001.0230
+|18
+|-
+|[[File:InteriorWorld-GTASA-Int18-Zip.png|200px]]
+|[[ZIP (3D Universe)|ZIP]]
+|ZIP clothing store interior.
+|161.4620
+|<nowiki>-91.3940</nowiki>
+|1001.8050
+|18
+|}
+</tabber>
+
+===PlayStation 2 Exclusive Content===
+====Additional Ammu-Nation Inacessible Room====
+{{Beta|game=SA|type = building}}
+In the [[PlayStation 2]] version, two of the existing [[Ammu-Nation (3D Universe)|Ammu-Nation]] interiors (the [[Downtown Los Santos (3D Universe)|Downtown Los Santos]] and [[Queens]] branches) have a large, inaccessible empty room located next to the shooting range, behind the door at the side of the room. This, along with [[Beta Content in GTA San Andreas/Props#Rifle Range Targets|unused targets]] of characters from ''GTA III'', implies that an extra shooting range challenge, similar to the one featured in [[The Shootist]]/[[Rifle Range]] in ''GTA Vice City'', was planned at some point in development. This room was cut in all subsequent ports.<ref>https://www.youtube.com/watch?v=q7z96t8D0xQ</ref>
+
+Normally, the room can only be seen from the outside by using a [[jetpack]] to navigate all the way to the interior. The ceiling can only be seen from certain angles, becoming fully invisible if it is landed on. The ceiling, the walls and the floor are all solid, indicating that the room was not a last minute addition. Looking from the room towards the shooting range, a space may be seen in a wall from certain angles, instead of the door that can be properly seen if looking from the shooting range towards the empty room.
+
+{{Gallery
+|Ammu-Nation-GTASAps2-UnusedRoom1.png|The unused room viewed from the ceiling. Note the glitched shadows of the door that connects it to the shooting range.
+|Ammu-Nation-GTASAps2-UnusedRoom2.png|Yet another angle from the ceiling. Notice how the door looks different from this angle.
+|Ammu-Nation-GTASAps2-UnusedRoom3.png|An angle showing the rest of the Ammu-Nation interior. Note how glitched the shadows look from this angle.
+|Ammu-Nation-GTASAps2-UnusedRoom4.png|Another angle showing the two parts of the Ammu-Nation interior.
+|Ammu-Nation-GTASAps2-UnusedRoom5.png|An angle from a corner of the unused room.
+|Ammu-Nation-GTASAps2-UnusedRoom6.png|A view of the ceiling. It can only be seen by going beneath its level.
+|Ammu-Nation-GTASAps2-UnusedRoom7.png|Another view of the ceiling. Notice how the door that separates the shooting range from the empty room is properly displayed from this angle.
+}}
+
+==Oversights==
+===Unlocking Mission Interiors===
+Due to a glitch involving the Jetpack cheat in the introductory mission [[In the Beginning]], certain interior ENEX arrows available only through mission script can be unlocked.
+
+If the player enables the Jetpack cheat during the [[Police (vehicle)|Police Car]] segment, while Carl is inside the vehicle, the mission won't be able to throw him out of the car in the alleyway in order to progress. Instead, the player is [[Wasted]] and sent to the nearby hospital.
+
+Afterwards, seven ENEX arrows are unlocked in the map. All of these arrows are intended to be available during missions only, and unavailable before and after completing the mission (except for the [[Ammu-Nation (3D Universe)|Ammu-Nation]], which is temporarily disabled until its introduction).
+
+{{Gallery
+|InteriorWorld-GTASA-JetpackCheatGlitch-CrackDenAccessible.png|[[Crack Den]] <small>([[Cleaning the Hood]])</small>.
+|InteriorWorld-GTASA-JetpackCheatGlitch-MaddDoggsCribAccessible.png|[[Madd Dogg's Crib]] <small>([[Madd Dogg's Rhymes]])</small>.
+|InteriorWorld-GTASA-JetpackCheatGlitch-VagosGangHouseAccessible.png|[[Vagos Gang House]] <small>([[Burning Desire]])</small>.
+|InteriorWorld-GTASA-JetpackCheatGlitch-AmmuNationAccessible.png|[[Ammu-Nation (3D Universe)|Ammu-Nation]] <small>([[Doberman]])</small>.
+|InteriorWorld-GTASA-JetpackCheatGlitch-JizzysPleasureDomesRoofAccessible.png|[[Jizzy's Pleasure Domes]] roof access <small>([[Ice Cold Killa]])</small>.
+|InteriorWorld-GTASA-JetpackCheatGlitch-JizzysPleasureDomesAccessible.png|Jizzy's Pleasure Domes front access <small>(Ice Cold Killa)</small>.
+|InteriorWorld-GTASA-JetpackCheatGlitch-CityPlanningDepartmentAccessible.png|[[Las Venturas City Planning Department|City Planning Department]] <small>([[Architectural Espionage]])</small>.
+}}
+
+===Smoke Generators===
+Due to a glitch in the [[PC]] version{{vague|not tested on consoles}}, smoke particle generators used in interiors ([[Millie Perkins]]'s bedroom torches/[[Cluckin' Bell (3D Universe)|Cluckin' Bell]] fryers) may be visible from afar by the player: if the interior is entered, the particles are generated for a few seconds, after which the player can exit the interior and quickly look at the interior's location in the sky.
+
+The Fort Carson Cluckin' Bell is the easiest area to use to spot the smoke particles in the sky, due to its close proximity to the Cluckin' Bell sky interior location.
+
+{{Gallery
+|InteriorWorld-GTASA-SeenFromExterior-CluckinBellSmoke-Int9.png|The smoke particle generator used in the fryer at Cluckin' Bell (Int 9).
+|InteriorWorld-GTASA-SeenFromExterior-CluckinBellSmoke-Int0.png|Exterior loaded (Int 0).
+|InteriorWorld-GTASA-SeenFromExterior-CluckinBellSmoke.png|The smoke particles visible from the exterior.
+}}
+
+==References==
+{{Reflist}}
+[[Category:Locations in GTA San Andreas]]

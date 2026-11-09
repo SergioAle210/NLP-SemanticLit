@@ -1,0 +1,160 @@
+{{Header Nav|game=Assassin's Creed II}}
+{{Needcontrols|switch}}
+==General==
+These actions are used throughout the game, regardless of what profile Ezio is in.
+{| {{controlstable}}
+! PlayStation 3
+! Xbox 360/One
+! PC
+!PlayStation 4
+!Nintendo Switch
+! Action
+|-
+| {{psx|Neutral|Lstick}} || {{xbox|Neutral|Lstick}} || {{kbd|WASD}} 
+|{{psx|Neutral|Lstick}}
+|
+| {{desc}} Move
+|-
+| {{psx|R1}}|| {{xbox|RT}}|| {{mouse|r}}
+|{{psx|R2}}
+|
+| {{desc}} High profile
+|-
+|{{psx|S}}
+|{{xbox|X}}
+|{{mouse|l}}
+|{{psx|S}}
+|
+| {{desc}} Weapon hand
+|-
+|{{psx|C}}
+|{{xbox|B}}
+|{{kbd|Shift}}
+|{{psx|C}}
+|
+| {{desc}} Empty hand
+|-
+|{{psx|T}}
+|{{xbox|Y}}
+|{{kbd|E}}
+|{{psx|T}}
+|
+| {{desc}} Head
+|-
+|{{psx|X}}
+|{{xbox|A}}
+|{{kbd|Space}}
+|{{psx|X}}
+|
+| {{desc}} Legs
+|-
+| {{psx|Left|Dpad}}|| {{xbox|Left|Dpad}}|| {{kbd|1}}
+|{{psx|Left|Dpad}}
+|
+| {{desc}} Medicine
+|-
+| {{psx|Up|Dpad}} || {{xbox|Up|Dpad}} || {{kbd|2}}
+|{{psx|Up|Dpad}}
+|
+| {{desc}} Hidden blade
+|-
+| {{psx|Right|Dpad}} || {{xbox|Right|Dpad}} || {{kbd|3}}
+|{{psx|Right|Dpad}}
+|
+| {{desc}} Sword
+|-
+| {{psx|Down|Dpad}} || {{xbox|Down|Dpad}} || {{kbd|4}}
+|{{psx|Down|Dpad}}
+|
+| {{desc}} Fists
+|-
+| {{psx|R2}} || {{xbox|RB}} || {{kbd|Q}}
+|{{psx|R1}}
+|
+| {{desc}} Weapon wheel
+|-
+| {{psx|Neutral|Rstick}} || {{xbox|Neutral|Rstick}} || {{mouse}} /<br>{{kbd|Arrows}} 
+|{{psx|Neutral|Rstick}}
+|
+| {{desc}} Look
+|-
+| {{psx|L1}} || {{xbox|LT}} || {{kbd|F}} 
+|{{psx|L2}}
+|
+| {{desc}} Target lock
+|-
+| {{psx|L2}} || {{xbox|LB}} || {{kbd|T}}
+|{{psx|L1}}
+|
+| {{desc}} Contextual camera
+|-
+|{{psx|R3}}
+|{{xbox|R}}
+|{{kbd|C}}
+|{{psx|R3}}
+|
+| {{Desc}} Center camera
+|-
+| {{psx|Select}}|| {{xbox|Back}}/{{xbox|View}}|| {{kbd|Tab}} 
+|{{psx|Touchpad}}
+|
+| {{desc}} Map
+|-
+| {{psx|Start}}|| {{xbox|Start}}/{{xbox|Menu}}|| {{kbd|Esc}} 
+|{{psx|Options}}
+|
+| {{desc}} Pause menu
+|-
+| {{psx|L3}}|| {{xbox|L}}|| {{kbd|9}}
+|{{psx|L3}}
+|
+| {{desc}} First-person camera
+|}
+
+==Low profile==
+Ezio is naturally in low profile, where most actions won't alert guards and he won't attract any undue attention.
+
+{| {{controlstable}}
+! PlayStation 3/4
+! Xbox 360/One
+! PC
+!Nintendo Switch
+! Action
+|-
+| {{psx|S}} || {{xbox|X}} || {{mouse|l}}
+|
+| {{desc}} Draw or swing weapons or fists
+|-
+| {{psx|C}} || {{xbox|B}} || {{kbd|Shift}}
+|
+| {{desc}} Gentle push
+|-
+| {{psx|X}} || {{xbox|A}} || {{kbd|Space}}
+|
+| {{desc}} Fast walk or steal
+|}
+
+==High profile==
+When in high profile, Ezio can perform more athletic and aggressive actions. It is also easier to alert the guards when in high profile.
+
+{| {{controlstable}}
+! PlayStation 3/4
+! Xbox 360/One
+! PC
+!Nintendo Switch
+! Action
+|-
+| {{psx|S}} || {{xbox|X}} || {{mouse|l}}
+|
+| {{desc}} Attack with equipped weapon
+|-
+| {{psx|C}} || {{xbox|B}} || {{kbd|Shift}}
+|
+| {{desc}} Grab or tackle
+|-
+| {{psx|X}} || {{xbox|A}} || {{kbd|Space}}
+|
+| {{desc}} Free run
+|}
+
+{{Footer Nav|game=Assassin's Creed II|prevpage=Gameplay|nextpage=Combat}}

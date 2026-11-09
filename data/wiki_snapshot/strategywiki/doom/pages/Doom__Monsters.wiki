@@ -1,0 +1,173 @@
+{{Header Nav|game=Doom}}
+{{floatingtoc|left}}
+Here are descriptions for monsters that appear in [[Doom]], [[Doom II: Hell on Earth]], and [[Final Doom]]. Monsters introduced in ''Doom II'' never appear in ''Doom'', as they're filtered out by the engine.
+
+{| {{prettytable|notwide=1|style=font-size:90%}} 
+! Monster || Appear in 
+|-
+| Former human || All games
+|-
+| Shotgun guy || All games
+|-
+| Former commando || Doom II, Final Doom
+|-
+| Imp || All games
+|-
+| Demon || All games
+|-
+| Spectre || All games
+|-
+| Lost Soul || Doom Episodes 2-3, Doom II, Final Doom
+|-
+| Cacodemon || Doom Episodes 2-3, Doom II, Final Doom
+|-
+| Pain Elemental || Doom II, Final Doom
+|-
+| Mancubus || Doom II, Final Doom
+|-
+| Baron of Hell || All games (boss for Episode 1)
+|-
+| Hell Knight || Doom II, Final Doom
+|-
+| Revenant || Doom II, Final Doom
+|-
+| Arch-Vile || Doom II, Final Doom
+|-
+| Arachnotron || Doom II, Final Doom
+|-
+| Cyberdemon || Doom Episodes 2-4, Doom II, Final Doom
+|-
+| Spider Mastermind || Doom Episodes 3-4, Doom II, Final Doom
+|-
+| Icon of Sin || Doom II, Final Doom
+|-
+| Wolfenstein SS || Doom II only
+|}
+{{-}}
+==Zombies==
+'''Zombies''' are undead soldiers. They are the only non-demonic enemies in the game and the only ones to drop ammunition when killed. Due to their bullet weapons, they are the only enemies besides the [[#Spider Mastermind|Spider Mastermind]] that can be easily made to engage in monster infighting with others of the same type. They come in three types:
+* '''Former human''': 20 HP, wields a rifle, drops a clip when killed. Also known as '''zombieman'''. (Appears in ''Doom'' I, II and ''Final Doom'')
+* '''Former human sergeant''': 30 HP, wields a shotgun that does considerable damage at point blank range, drops the shotgun when killed. Also known as '''shotgun dude''' or '''shotgunner'''. (Appears in ''Doom ''I, II and ''Final Doom'')
+* '''Former commando''': 70 HP, wields a chaingun, drops the chaingun when killed. Also known as '''heavy weapons dude''' or '''chaingunner'''. (Appears in ''Doom II'' and ''Final Doom'', as well as the [[PlayStation]] version of ''Doom'' on the Ultra-Violence and Nightmare difficulty settings)
+The ammunition dropped by the zombies contains half the ammo of a fresh clip or a weapon pick-up.
+
+==Imp==
+The '''Imp''' is the basic demonic enemy and common in all of the games, where they appear with a relatively humanoid appearance. In the original games, Imps have brown skin, red eyes, and spikes on their shoulders, elbows and knees. They usually emit a hissing sound when alerted and have 60 HP.
+
+They attack at long distance by firing fireballs from their hands, and up close by scratching with sharp claws.
+
+==Demon==
+The '''Demon''' (or '''Pinky Demon''' or '''Bull Demon''') is a well known monster found in all incarnations of the series.
+
+In the original series, the Demon had a hunched back with pink skin (hence its name), clawed feet on its hind legs, a large head with sharp teeth pointing out, two large muscular arms, beady gold eyes, and two bull horns on the head. Its only gait is a run and it is never seen walking. Its only attack is a close range biting attack, but because of their brute strength and tendency to be in packs, they can be very deadly. They have 150 HP.
+
+==Spectre==
+'''Spectres''' first appear in ''Doom''. They are identical to Demons in all respects, even using the same resources, except that they have permanent partial invisibility, somewhat akin to the cloaking device used by the Alien Hunter from the movie Predator. This can make them extremely hard to see in darker areas or against certain textures.
+
+Note: In the PlayStation version of ''Doom'', Spectres do not "shimmer," as they do in the PC version of the game. Instead, they appear faded and semi-transparent. Also, this version of the game includes monsters called "Nightmare Spectres", which are identical to the regular Spectres, except that they appear dark, like walking shadows. They are also considerably tougher, dealing and taking twice the damage before going down.
+
+The Spectre does not appear in ''Doom 3'', although it is possibly replaced by the Wraith. The game designers originally intended to have a creature form out of flies but decided that it would be too difficult to spot in environments as dark as those in ''Doom 3'', so the idea was dropped.
+
+==Lost Soul==
+In the original ''Doom'' and ''Doom II'', the '''Lost Soul''' is portrayed as a floating skull with horns on the front of its forehead and flames coming out the back of its head. Lost Souls attack by charging forward in an attempt to ram their target. When killed, a Lost Soul will explode in a cloud of flame and smoke.
+
+Lost Souls are rarely seen alone, and are often in the company of other floating creatures like the Cacodemons. Also, it is not unusual to see fights break out between Lost Souls when they collide during their attack runs against players: a ''monster infight'' will ensue, often involving all the Lost Souls in a room; this is especially true when they appear in large groups. A direct hit from a weapon on a Lost Soul that is charging a player will force the creature from the direction of the hit, halting its attack. In this state, the Lost Souls are particularly vulnerable and almost harmless, since they cannot attack anything until they stop by hitting a wall or other monster.
+
+In [[Doom 3]], Lost Souls are essentially flying human heads. They look human from the front (except their insect-like mechanical mouth) and are propelled by rocket fuel by the likes of half-machine traits. Some theories to the Lost Soul are: A human face grafted onto a machine, and a modified human head.
+
+Since Lost Souls are generated by the Pain Elemental in ''Doom II'', they do not count towards the kill percentage.
+
+==Cacodemon==
+'''Cacodemons''' are large round floating red heads, with small horns, one eye, and a large mouth that can spit fireballs and bite. The Cacodemon graphic first appeared in the code of an alpha version of ''Doom'', released on May 22, 1993; [http://toastytech.com/dooma/alpha5.html] it first appeared as a live adversary in a press release version of ''Doom'' released on October 4, 1993. [http://www.rome.ro/lee_killough/versions/prnotes.shtml] In the finished game, played at the default skill level, the Cacodemon first appears in the first level of the second episode of ''Doom''. Cacodemons appear in almost every level in the second and third episodes. It typically takes two direct double barrel shotgun blasts up close to kill one, or six regular shotgun shots.
+
+==Pain Elemental==
+'''Pain Elementals''' are introduced in ''Doom II''. They are similar in appearance to Cacodemons, except that they are brown in coloration, and have two small horns, and stubby little arms.
+
+While the demon does not attack its targets directly, it spits an endless amount of Lost Souls to attack the target. The longer it takes to destroy the demon, the more lost souls will be summoned. However, if there are more than twenty Lost Souls in the level, no more will be spawned until some are killed, potentially making the Pain Elemental harmless. When killed (a few shotgun blasts or one or two rockets are usually sufficient), the Pain Elemental explodes, spawning three Lost Souls, unless restricted by the 20 Lost Soul limit.
+
+The ''Doom'' games that contain Pain Elementals (including the PlayStation version of ''Doom'') contain a glitch that sometimes occurs: when a Pain Elemental is destroyed near a wall, it may sometimes spawn one or two Lost Souls inside the wall. These Lost Souls are trapped, and cannot attack targets, only follow the wall back and forth.
+
+The Pain Elemental does not appear in either Doom 3 or Resurrection of Evil.
+
+==Mancubus==
+The '''Mancubus''' (Collectively referred to as Mancubi) is a horrendously fat, cybernetic humanoid demon which was introduced in ''Doom II''. They have fireball launchers bolted directly onto both arms, and fuel tanks for the weapons mounted on their backs. They can take tremendous damage (700 HP) and are usually best dealt with using the rocket launcher or plasma rifle. They move slowly but it is more difficult to avoid their attacks of multiple, spread-out fireballs than the singular fireball attacks of some other enemies. They are reasonably common in ''Doom II'', with their first appearance in the seventh level.
+
+==Baron of Hell==
+'''Barons of Hell''' resemble minotaurs, with pink torsos and brown legs. They attack players by scratching with their claws when close or throwing green balls of energy at a distance. A pair of Barons, referred to internally by id Software as the '''Bruiser Brothers''' (a reference to the Hammer Brothers from the [[:Category:Mario|Mario series]]), star as the boss at the end of ''Knee-Deep in the Dead'', the first episode of ''Doom''. Barons also appear as regular enemies in the later episodes and in the sequels to the game.
+
+They are described in the ''Doom'' manual as "''tough as a dump truck and nearly as big, these Goliaths are the worst things on two legs since Tyrannosaurus Rex''"; the ''Doom II'' manual later described them as follows: "''The Hell Knight was bad news but this is Big Daddy. These bruisers are a lot like the Knights, but look somewhat different and are twice as tough to kill. Keep your eyes open''". The original Baron of Hell description was given to the Hell Knight in ''Doom II''<nowiki>'</nowiki>s manual instead.
+
+; Strength
+Except for the Cyberdemon and the Spider Mastermind, Barons are the strongest of all creatures in ''Doom'', with 1000 hit points. They survive about five directly aimed rockets, 50 plasma cells, 100 bullets or 10 shotgun shots. A direct hit from a BFG9000 can kill a Baron in a single shot.
+
+Despite their remarkable endurance, Barons of Hell often pose a relatively lesser threat compared to some of the weaker, more maneuverable, and more numerous monsters. This is attributed to the fact that their projectiles are relatively easier to dodge if given sufficient space, especially by circlestrafing. As a result of their high stamina but low speed, the Baron of Hell was a rather unbalanced monster and it was infamously known for forcing a player to waste lots of ammunition to defeat it despite its relatively low threat level. In other words, Barons of Hell were considered "meat shields" unless they were at very close range.
+
+It should be noted that the Baron of Hell's first appearance in ''Doom'' was replaced with the Hell Knight in a similarly thematic cutscene in ''Doom 3''.
+
+==Hell Knight==
+In ''Doom II'', '''Hell Knights''' are identical to Barons of Hell, except they are tan-colored, have different sounds, and have half as many hit points. They were primarily created to add more balance to ''Doom II'', after complaints that the Barons of Hell were too tough, and were essentially 'meat shields'. With their lowered toughness, they can be used more frequently in the game.
+
+==Revenant==
+'''Revenants''', which first appeared in ''Doom II'', are tall humanoid skeletons with hollow eye sockets and armor on their upper body. On each shoulder rests a small rocket launcher. At a distance, it will fire rockets, and at close range, it will punch the target. Sometimes the rockets are heat-seeking so they will chase the target, however the missiles are not as powerful as the rockets fired by Cyberdemons and players. The missiles of a Revenant do half the direct damage of a normal rocket and have no splash damage, thus doomguy can usually survive multiple hits. The missiles are also extremely slow compared to other original ''Doom'' weapons, so a good player can usually avoid being hit, and more advanced players can draw the missiles towards another target, in hopes of starting a round of monster infighting.
+
+==Arch-Vile==
+'''Arch-Viles''' are lean humanoid demons with a grotesque appearance, and stigmata. They first appeared in ''Doom II'', but also appear in ''Final Doom'', and ''Doom 3''.
+
+Their primary attack consists of blasting their enemies. It first raises its arms up, which causes non-damaging fire to raise around the targeted foe. The Arch-Vile then hunches over and clamps its hands together, which causes the target considerable damage, with some splash damage, and can send it flying into the air. This attack will always hit the target, so long as there is a line of sight between the Arch-Vile and the target when the attack is finished. The attack can be avoided by either hiding behind an obstacle before the attack is finished, or by causing the Arch-Vile to flinch (by damaging it, though it is very resistant to pain). Monsters harmed directly by an Arch-Vile attack, or by the splash damage, will not attack the Arch-Vile; an Arch-Vile will still attack enemies of other types that harm it.
+
+In ''Doom II'' and ''Final Doom'', Arch-Viles are the fastest monsters, and encountering two of them at once can be quite challenging to some players. The Arch-Vile also has the unique ability to resurrect other monsters. They can revive all monsters except Cyberdemons, Spider Masterminds, Lost Souls (since they leave no body), and other Arch-Viles. Pain Elementals can be resurrected only if they were crushed to death, in which case they leave a crushed corpse rather than exploding. This power makes the Arch-Vile a priority to kill in battle, so that they do not keep reviving monsters and forcing player to waste precious ammo. Some user-made maps have Arch-Viles hiding within pillars or inside secret areas where they are close enough to revive monsters but are otherwise difficult to reach themselves.
+
+Its unique abilities are exploitable and can create some bugs. It can be used to obtain some extra ammo, although it is somewhat risky. If there are a few zombies in the area, the Arch-Vile may revive them, and every time they are killed again, they will drop either a clip, shotgun, or chaingun, depending on what type of zombie it is. Its fire attack can be exploited to do an ''Arch-Vile Jump'' and bypass some elements of a level and reduce game time. If an Arch-Vile resurrects a monster that was crushed to death, it can produce a ''ghost monster'' which is only vulnerable to splash damage from a rocket or barrel explosion and can move through some walls (as if noclip mode was used). However, that glitch has been fixed in several source ports for Doom.
+
+Killing a resurrected monster will count towards the "Kill" percentage at the end of a level, making it possible to get more than 100% kills. Since this may be exploited to ultimately get an extremely high kill percentage, the speedrun sites have declared that a true 100% kill rate involves killing every monster at least once (excluding Lost Souls).
+
+==Arachnotron==
+The '''Arachnotron''' is introduced in ''Doom II'', loosely resembling a robotic spider. It appears to be a much smaller version of the larger Spider Mastermind.
+
+It bears much of the same form as its larger counterpart, such as the large brain with two eyes, and is also attached to a metal platform with four mechanical legs. However, the eyes are blue instead of red, and they lack the sharkish teeth and evil grin of the Mastermind. Instead of a chain gun as a weapon, it is armed with a plasma rifle, like doomguy's. Arachnotrons can be deadly when encountered in groups as they fire plasma at an extremely high rate. Walls and other Arachnotrons can be used to block the firing, though the creatures are not subject to monster infighting with each other.
+
+The Arachnotron is often found in groups. Many of the shots are blocked by closer Arachnotrons. Arachnotrons are quite sensitive to pain and have a 50/50 chance of flinching when hit by an attack. The chaingun is often the best weapon when dealing with a single Arachnotron but the Super Shotgun, Plasma Gun and BFG 9000 are the most commonly used weapons. When engaged in monster infighting, Arachnotrons will defeat most enemies, but Barons of Hell, Spider Masterminds and Cyberdemons will usually prevail.
+
+==Cyberdemon==
+The '''Cyberdemons''' resemble large, 10+ foot tall brown-skinned minotaurs, somewhat resembling the weaker Baron of Hell, with several unnatural cyborg enhancements, including a mostly metallic right leg, a prosthetic rocket launcher for a left forearm, wires lining down their mid-sections, and wires protruding from the right shoulder areas.
+
+They are one of the most popular boss creatures in the history of first-person shooter games, and one has even appeared on the box art and the title screen of ''Doom II''. Cyberdemons attack players by using their arm-mounted rocket launcher with UAC-style rockets, which are shot in threes, one at a time, per attack. The rockets also have splash damage, allowing them to damage targets with missed, but close detonations. The Cyberdemon's attack is extremely powerful (even on the lower difficulty settings), and only one or two direct hits will kill even a well armored player.
+
+The Cyberdemon was originally designed as the end-of-chapter boss of the second episode of the original ''Doom'', in level 8: "Tower of Babel", where the cybernetic horror is awaiting players in the courtyard section of the level, flanked by Lost Souls (on higher difficulties). It would only make one additional appearance in the original ''Doom'' in the secret level of the third episode, but several Cyberdemons would appear in the sequels, ''Doom II'', ''Ultimate Doom'', and ''Final Doom''. The ''Final Doom'' secret level "Go 2 It" can contain more than a dozen cyberdemons, if you set the skill level high enough.
+
+Though the original Doom manual does not list it (possibly to shock the player when it appears) the PlayStation Doom manual describes "''Half unfeeling machine, half raging horned devil. This walking nightmare has a rocket launcher for an arm and will definitely reach out and touch you. Make sure you're loaded for bear before you get to this guy.''" The ''Doom II'' manual lists them as "''A missile-launching skyscraper with goat legs. 'Nuff said.''"
+
+In ''Doom 3'', the Cyberdemon is the end boss found in the center of Hell itself. To defeat it, you must use the alien artifact known as the '''Soulcube'''. After 5 or so hits from the Soulcube, the Cyberdemon loses it's left leg and falls into the lava pit, thus ending the game.
+
+; Strength
+Cyberdemons are the strongest of all monsters in ''Doom'' and its sequels. In fact, one of the later levels in ''Doom II'' was built around a battle between a Cyberdemon and a Spider Mastermind in which the Cyberdemon would almost always win. In most situations, only the Icon of Sin (which is not technically a true monster) can possibly pose more of a threat than a Cyberdemon. Cyberdemons have 4000 HP, signifying their massive endurance. It takes roughly either 45 Rockets, 400 Bullets, 200 Plasma Cells, 58 Shotgun Shells, 267 Cacodemon fireballs, 134 Baron Plasma Balls, 100 Revenant Missiles, or 4 BFG9000 shots to kill a Cyberdemon (assuming all are direct hits with no misses). Many veterans have coined the nickname "Stampy" for the Cyberdemon, due to its metallic leg, overwhelming strength, and the horrifying walking sound when awakened (which may have been inspired by the movie Jurassic Park).
+
+Cyberdemons are highly resistant to rockets. While they take damage on a direct hit, the size of the cyberdemon causes them to take less damage than most other monsters (128 damage less). This reduction is significant enough that they can fire rockets directly into a wall and not injure itself in the explosion. Any splash damage received from a missed shot will only appear in extremely rare situations, and will be minimal at best.
+
+; Weakness
+Even though it is the strongest monster in the game, veteran players these days can easily take on pairs or even trios of Cyberdemons at once, using a technique known as circlestrafing, allowing them to dodge their rockets. Although the rockets also have additional splash damage, veteran players usually try as best as they can to lure Cyberdemons into open spaces where they do not have too many walls around to worry about splash damage from the missiles. Another interesting note is due to ''Doom'' logic, Cyberdemons are immune to their own rockets and the rockets of other Cyberdemons, despite doomguy's rockets being able to hurt them, so you can not use monster infighting to turn them against each other, since they don't have any close-range attack.
+
+==Spider Mastermind==
+The '''Spider Mastermind''' is the second strongest enemy in the original ''Doom'' series. They have a powerful super chaingun (essentially a rapid-fire shotgun) that causes tremendous damage to anything caught in its path, especially at close range. The Spider Mastermind can be described as a large brain with two red eyes and a mouth filled with sharp teeth, attached to a metal platform with four mechanical legs. One to three direct hits from a BFG 9000 or about 150 shots from the plasma rifle are needed to kill it. The more common Arachnotrons in ''Doom II'' and ''Final Doom'' are a smaller version of the spider demon.
+
+In the first game, it appears twice, as the boss of the third and fourth episodes. It appears in ''Doom II'', most notably in level 20 where it is possible to trick the Spider Mastermind and a Cyberdemon into fighting each other. The Cyberdemon will usually win, unless a player intervenes. However, in this level, the combatants are prevented from getting close to one another, decreasing the hit/miss ratio of the Spider Mastermind's gun. In user-made maps which allow a Spider Masterminds and a Cyberdemons to battle in extremely close quarters, the Spider Mastermind actually stands higher chance of winning.
+
+Some concept art released before the release of ''Doom 3'', showed what appeared a Spider Mastermind. The concept art available on the internet is actually the art for an Arachnotron, a similar monster. The only 'real' Spider Mastermind concept art exists in the book "The Making of Doom 3," and is significantly different than the Arachnotron's concept art. It was speculated that either enemy was going to make a comeback but it never appeared. In its place was a spider-esque demon called the Vagary.
+
+In the ''Doom'' novels, a mastermind leads the Phobos and Deimos invasion, with several more on Earth. Relatively unchanged in appearance with the exception of a protective crystal dome over the brain. They can talk, encase humans in cocoons, and force a person to see their worst fears as a form of torture. Despite their intelligence, they are easy to anger and will kill their own forces. They are called "spiderminds".
+
+As with Cyberdemons, Spider Masterminds are resistant to rockets due to the large size.
+
+==Icon of Sin==
+The '''Icon of Sin''' or '''Baphomet''' is the final boss of ''Doom II'' and both chapters of ''Final Doom''. Its image appears in the original ''Doom'' on numerous pieces of stone tablets, although it is never an enemy in the game. The Icon of Sin takes its name from the final level of the game, in which it is fought.
+
+The Icon of Sin itself is a large demonic goat-like head set in a wall. This demon, the largest in the ''Doom'' series, continuously projects skull-faced cubes from its exposed brain. Upon landing, these cubes spawn monsters to attack players. It cannot summon cyberdemons, spider masterminds, or zombies. If a cube lands on a Doomguy, he will be immediately telefragged, even with an invulnerability powerup or the God Mode cheat. In normal play, a player can only defeat the Icon by shooting rockets into its exposed brain. Its size is further hinted at in part of the ''Doom II'' epilogue: "The monster shrivels up and dies, its thrashing limbs devastating untold miles of Hell's surface."
+
+Using the noclip cheat code, one can enter the Icon of Sin and see the "brain". Inside, there is a sprite of John Romero's head impaled on a spike. It is within the splash damage radius of the rocket launcher, and damaging the head is what kills the Icon of Sin. By using the noclip cheat, you can kill the head with only one or two point blank shotgun blasts. The arcane chant the Icon of Sin speaks is actually John Romero speaking "To win the game, you must kill me, John Romero!", distorted and reversed.
+
+In ''Doom II'', the Icon of Sin may have been the mastermind behind Hell's invasion of Earth (in a way similar to the Spider Mastermind's involvement in the first game), and it certainly was the Icon of Sin that was bringing forth all the monsters. In the ''Plutonia'' chapter of ''Final Doom'' it serves as Hell's gatekeeper. In the ''Evilution'' chapter of ''Final Doom'', it is simply referred to as the "demon-spitter". Whether or not this means that this demon is the devil is never explained or hinted at.
+
+==Wolfenstein SS==
+The '''Wolfenstein SS''', based on the Schutzstaffel enemies in Wolfenstein 3D, only appear in the two secret maps of ''Doom II'', which are based on Wolf 3D maps. They have 50 HP, and use rapid attacks that are slower and weaker than the Heavy Weapons Dude's chaingun. Notably, they say the same things as their Wolf3D counterparts, but different samples are used, with a higher pitched voice.
+
+{{Footer Nav|game=Doom|prevpage=Powerups|nextpage=Storyline}}

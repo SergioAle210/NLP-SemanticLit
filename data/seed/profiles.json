@@ -3,8 +3,42 @@
     "user_id": "novato",
     "role": "player",
     "progress": {
-      "zelda1": {"kind": "level_set", "quest": "first", "completed_levels": [1], "current_level": 2},
-      "ninja_gaiden_nes": {"kind": "linear_stage", "current_stage": "1-2"}
+      "zelda1": {
+        "kind": "level_set",
+        "quest": "first",
+        "completed_levels": [
+          1
+        ],
+        "current_level": 2
+      },
+      "ninja_gaiden_nes": {
+        "kind": "linear_stage",
+        "current_stage": "1-2"
+      },
+      "gta_sa": {
+        "kind": "linear_stage",
+        "current_stage": "los_santos"
+      },
+      "oot": {
+        "kind": "level_set",
+        "quest": "main",
+        "completed_levels": [
+          1
+        ],
+        "current_level": 2
+      },
+      "ac2": {
+        "kind": "linear_stage",
+        "current_stage": "2"
+      },
+      "doom": {
+        "kind": "linear_stage",
+        "current_stage": "E1M3"
+      },
+      "rdr1": {
+        "kind": "linear_stage",
+        "current_stage": "story"
+      }
     },
     "hint_level": 1
   },
@@ -12,8 +46,48 @@
     "user_id": "intermedio",
     "role": "player",
     "progress": {
-      "zelda1": {"kind": "level_set", "quest": "first", "completed_levels": [1, 2, 3, 4], "current_level": 5},
-      "ninja_gaiden_nes": {"kind": "linear_stage", "current_stage": "3-2"}
+      "zelda1": {
+        "kind": "level_set",
+        "quest": "first",
+        "completed_levels": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "current_level": 5
+      },
+      "ninja_gaiden_nes": {
+        "kind": "linear_stage",
+        "current_stage": "3-2"
+      },
+      "gta_sa": {
+        "kind": "linear_stage",
+        "current_stage": "san_fierro"
+      },
+      "oot": {
+        "kind": "level_set",
+        "quest": "main",
+        "completed_levels": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "current_level": 5
+      },
+      "ac2": {
+        "kind": "linear_stage",
+        "current_stage": "7"
+      },
+      "doom": {
+        "kind": "linear_stage",
+        "current_stage": "E2M5"
+      },
+      "rdr1": {
+        "kind": "linear_stage",
+        "current_stage": "story"
+      }
     },
     "hint_level": 2
   },
@@ -21,7 +95,16 @@
     "user_id": "segunda_vuelta",
     "role": "player",
     "progress": {
-      "zelda1": {"kind": "level_set", "quest": "second", "completed_levels": [1, 2, 3], "current_level": 4}
+      "zelda1": {
+        "kind": "level_set",
+        "quest": "second",
+        "completed_levels": [
+          1,
+          2,
+          3
+        ],
+        "current_level": 4
+      }
     },
     "hint_level": 1
   },

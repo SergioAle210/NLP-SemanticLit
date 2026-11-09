@@ -1,0 +1,17 @@
+{
+  "source": "wikipedia",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:17:11+00:00",
+  "total_chars": 168762,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Red Dead Redemption",
+      "url": "https://en.wikipedia.org/wiki/Red_Dead_Redemption",
+      "revid": 1384343898,
+      "file": "pages/Red_Dead_Redemption.wiki",
+      "chars": 168762
+    }
+  ]
+}

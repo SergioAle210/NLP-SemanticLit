@@ -1,0 +1,99 @@
+'''Paths''' in [[Grand Theft Auto IV|GTA IV]] are similar to the 64 node-files introduced with [[Grand Theft Auto: San Andreas|San Andreas]]. Like the first version of the format there are 64 node files where each file corresponds to a 750x750 square unit starting with <code>nodes0.nod</code> in the south-west corner (-3000.0, -3000.0) and ending in the north-east corner (3000.0, 3000.0) of the game's world in [[Wikipedia:row-major order|row-major order]].
+
+==Preamble==
+
+Before trying to understand the format of GTA IV's path files, it is recommended to read the [[Paths (GTA SA)|San Andreas paths]] article, since GTA IV paths are an update of the old format.
+
+Unlike San Andreas, paths are not stored in the major [[archive file]] ([[gta3.img]]) and the node files also do not have the extension <code>.dat</code> anymore. In GTA IV, paths are stored in the <code>~\pc\data\cdimages\paths.[[img]]</code> file as 64 <code>.nod</code> files. Furthermore the file structure has generally changed: If San Andreas had 7 sections per node file, GTA IV only got 2. Linking works in a different way and there are no navi nodes any longer.
+
+{{Incomplete}}
+
+==File Format==
+
+The following data types and structures are used within this article:
+* '''INT8/UINT8''' - signed/unsigned 8 bit integer ''(1 byte)''
+* '''INT16/UINT16''' - signed/unsigned 16 bit integer ''(2 byte)''
+* '''INT32/UINT32''' - signed/unsigned 32 bit integer ''(4 byte)''
+* '''FLOAT''' - single precision floating point number ''(4 byte)''
+
+===Header===
+
+The header is a structure of 4 values with a size of 16 bytes.
+
+ 4b - UINT32  - Number of nodes ([[Paths_(GTA4)#Section_1_-_Nodes|section 1]])
+ 4b - UINT32  - Number of car-nodes
+ 4b - UINT32  - Number of intersection nodes
+ 4b - UINT32  - Number of links ([[Paths_(GTA4)#Section_2_-_Links|section 2]])
+
+{{Incomplete}}
+
+===Section 1 - Nodes===
+
+ 4b - UINT32 - MemAddress
+ 4b - UINT32 - Zero (Allways)
+ 2b - UINT16 - Area ID
+ 2b - UINT16 - Node ID
+ 4b - UINT32 - Unknown - may be related into [[GTA_SA_Paths#Section_2_-_Navi_Nodes|interpolation]]
+ 2b - UINT16 - Allways 0x7FFE
+ 2b - UINT16 - LinkID
+ 6b - INT16[3] - Position (XYZ)
+ 1b - BYTE  - Path Width
+ 1b - BYTE  - Path Type
+ 4b - UINT32 - Flags
+
+;Area ID: defines the area where the node lays in. Usually this is the same number as the one of the node file.
+;Node ID: defines the id of the node. This is important for linking the node to others. Using the node and area id nodes can be identified as unique. There cannot be 2 nodes with the same area ''and'' node id.
+
+;Link ID: points to an link in section 2. The link ID cannot point into another node file. It points to a link in the same node file. However this link is able to point to an node in another or the same area.
+;Position (X,Y,Z): The world-coordinates of the node. To get the floating point X and Y coordinates divide the 16 bit integer by 8. For Z coords you have to divide by 128 (Unlike San Andreas).
+;Path Width: used to set the width of the paths. For cars this is related in how much space there is between 2 lanes. Divide the 8 bit unsigned integer by 8 to get the floating point value.
+;Path Type: descripes the type of an node. This is used to isolate certain nodes from others. For boats this is allways 0x01.
+;Flags: the flags are used to influence the behaviour of non-person-characters (NPC's), which are spawned along the paths on the nodes (See below).
+
+====Path Node Flags====
+
+ 0-4: unknown
+ 
+ Flag 05: Emergency only
+ Flag 06: Boats
+ Flag 07: Unknown
+ Flag 08: Exactly the same as 05
+ Flag 09: Intersection central node
+ Flag 10: Is highway
+ Flag 11: Is not highway
+ 
+ 12-15: Link count
+ 
+ Flag 16: Disable linking
+ 
+ 17-23: unknown (Perhaps related to lanes or other earlier [[GTA_SA_Paths#Navi_Node_Flags|Navi node flags]])
+ 
+ Flag 24: Is ped node?
+ Flag 25: Rarely used, police controls or roadblocks?
+ Flag 26: unknown ped flag
+ Flag 27: Unknown ped flag
+ 
+ 28-31: unknown
+
+* ''Structure unconfirmed and partially incomplete''
+
+{{Incomplete}}
+
+===Section 2 - Links===
+
+ 2b - UINT16  - Area ID
+ 2b - UINT16  - Node ID
+ 1b - UINT8   - Unknown
+ 1b - UINT8   - Link length
+ 2b - UINT16  - Flags
+
+* ''Structure unconfirmed and partially incomplete''
+
+{{Incomplete}}
+
+==Tools and Scripts==
+*  &ndash; a tool by {{U|Aschratt}} which allows to view paths and highlight nodes with special flags in 3D.
+
+
+{{gtaiv}}
+[[Category:Map Formats]][[Category:GTA San Andreas]]{{fdl}}

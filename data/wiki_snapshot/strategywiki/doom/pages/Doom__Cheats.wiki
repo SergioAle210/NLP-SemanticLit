@@ -1,0 +1,27 @@
+{{Header Nav|game=Doom}}
+
+Here are the cheats for Doom, sorted by platform.
+==PC/DOS==
+These cheats might also work in the Macintosh version of Doom. I have not tested them.
+* IDDQD - Toggles permanent invulnerability.
+** DQD stands for Delta Que Delta - presumably the name of a college fraternity that an id Software employee was a part of.
+* IDSPISPOPD - "No Clipping" mode, which allows you to walk through walls and climb ledges that are normally too high for the player.
+** SPISPOPD is shorthand for Smashing Pumpkins into Small Piles of Putrid Debris, an old Usenet joke directed towards id Software.
+* IDCLIP - Same as the above, except this one will only work in later versions of Doom and Doom II.
+* IDKFA - "Very Happy Ammo" - gives you all of the weapons (including the chainsaw), full ammo, and all six keys.
+* IDBEHOLD - Shows you the "powerup menu" which allows you to pick any of the game's powerup items. Type any of the following letters to get a powerup:
+** S - Berserk pack. Lasts through the entire level.
+** V - Invulnerability for 30 seconds.
+** I - Partial Invisibility for 30 seconds.
+** L - LightAmp goggles for 60 seconds.
+** A - Computer Area Map.
+** R - Anti-Radiation Suit for 30 seconds.
+* IDFA - Same as IDKFA except it does not give you keys. Only works in newer versions of Doom.
+* IDCLEV <num> - Warps you to the map specified. Type two numbers after the cheat to tell the game which level to go to - the first number is the episode, the second is the level. For example, IDCLEV15 would take you to Episode 1, Level 5.
+* IDMUS <num> - Changes the in-level music to the track you specify. Type the episode and level number after IDMUS to specify which track.
+* IDDT - Typing this cheat once will show you the complete area map, with all lines explored and filled in. Typing it a second time will show a bunch of triangles on the map - these are monsters, powerups, and decorations. Typing it a third time turns off all these effects.
+* IDCHOPPERS - Gives you the Chainsaw, and the message "Doesn't suck -GM".
+==Windows 95==
+* FHSHH - Enables "notarget" mode - monsters will ignore you until you shoot them. This only works in the Doom95 port included with the Doom Collector's Edition.
+
+{{Footer Nav|game=Doom|prevpage=Scoring|nextpage=Achievements}}

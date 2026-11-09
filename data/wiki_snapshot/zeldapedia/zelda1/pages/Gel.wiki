@@ -1,0 +1,84 @@
+{{Reorg}}
+{{Infobox Enemy
+|image=
+{{Media
+ |Artwork TLoZ= File:TLoZ Gel Artwork.png
+ |Model LANS= File:LANS Gel Model.png
+ |Model PH= File:PH Gel Model.png
+ |Sprite TLoZ= File:TLoZ Gel Sprite.png
+ |Sprite LA= File:LA Gel Sprite.png
+ |Sprite LADX= File:LADX Gel Sprite.png
+ |Sprite OoS= File:OoS Gel Sprite.png
+ |Sprite OoA= File:OoA Gel Sprite.png
+ |Sprite FS= File:FS Gel Sprite.png
+}}
+|caption= 
+|pronunciation= 
+|plural= Gels<ref name= "Encyclopedia">{{Cite Book|quote= |book= E |publisher= |page= 179 {{Exp Game|TLoZ, OoS, FS, PH}}}}</ref>
+|race= 
+|game= {{TLoZ}}<br/>{{OoS}}<br/>{{OoA}}<br/>{{FS}}<br/>{{PH}}
+|other= {{BSTLoZ}}<br/>{{CoH}}
+|habitat= 
+|member= 
+|health={{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|1}}
+ |LA= {{HP|LA|1}}
+}} 
+|attack={{Infobox Game Blocks
+ |TLoZ=Contact [[File:TMC Life Gauge Sprite 4.png|1/2 heart]]
+ |LA= Attach [[File:TMC Life Gauge Sprite 2.png|0 hearts]]
+}} 
+|weapon= 
+|spoils= 
+|exp= 
+|theme= 
+}}
+{{Term/Store|Gel|Gels|Series, TLoZ, OoS, FS, PH|plural}} are recurring {{Plural|Series|Enemy|link}} in {{TLoZ|Series}}.<ref name= "Encyclopedia"/>
+
+==Characteristics==
+When attacked with a weak weapon, [[Zol]]s have the ability to split into two Gels, which are smaller versions of Zols. Gels are circular, often green or red blobs that tend to bounce aimlessly around wherever they are found. They appear within Labyrinth, as seen in {{TLoZ}}, or across the overworld, as seen in {{LA}}. Sometimes, Gels can appear without the presence of Zols. In {{TLoZ|-}}, Gels never drop any items when defeated. Gels in {{LA|-}}, {{OoS}}, {{OoA}}, and {{PH}} do not cause damage, but can attach themselves to [[Link]]'s body.
+
+==Other Appearances==
+==={{AST|-}}===
+{{Noncanon|Start}}
+{{Stub|AST}}
+
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+Gels appear as enemies in {{CoH}}.
+{{Ambig|End}}
+
+==Trivia==
+*Both Zols and Gels from {{FS|-}} appear as unused enemies in the code of {{TMC}}.<ref>{{Cite Web|quote= Zol and Gel from Four Swords still exist in The Minish Cap's code.|author= |published= |retrieved= |url= https://tcrf.net/The_Legend_of_Zelda:_The_Minish_Cap#Zol_.26_Gel|title= The Legend of Zelda: The Minish Cap|site= The Cutting Room Floor|type= }}</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Zol Splitting Into Gels Artwork.png|Artwork of a Zol splitting into two Gels from {{TLoZ|-}}
+File:TLoZ Gel Sprite 2.png|A Gel from {{TLoZ|-}}
+File:TLoZ Gel Sprite 3.png|A Gel from {{TLoZ|-}}
+File:TLoZ Gel Sprite 4.png|A Gel from {{TLoZ|-}}
+File:TLoZ Gel Sprite 5.png|A Gel from {{TLoZ|-}}
+File:TLoZ Gel Sprite 6.png|A Gel from {{TLoZ|-}}
+File:TLoZ Gel Sprite 7.png|A Gel from {{TLoZ|-}}
+File:TMC Blue Gel Sprite.png|An unused {{Term|TMC|Blue Gel}}, as it would have appeared, from {{TMC|-}}
+File:TMC Green Gel Sprite.png|An unused {{Term|TMC|Green Gel}}, as it would have appeared, from {{TMC|-}}
+File:TMC Gel Sprite.png|An unused red {{Term|TMC|Gel}}, as it would have appeared, from {{TMC|-}}
+File:Zol2.gif|A Gel from {{BSTLoZ|-}}
+</gallery>
+
+==See Also==
+* [[Color-Changing Gel]]
+* [[Phasing Gel]]
+* [[Zol]]
+
+{{Ref}}
+
+{{Enemies}}
+{{Categories
+ |enemies= TLoZ, LA, LADX, LANS, OoS, OoA, FS, PH, BSTLoZ, CoH
+}}

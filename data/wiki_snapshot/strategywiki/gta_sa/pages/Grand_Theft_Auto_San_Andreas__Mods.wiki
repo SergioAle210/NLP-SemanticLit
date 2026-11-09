@@ -1,0 +1,271 @@
+{{cleanup}}
+{{wikify|there are links to images in a photobucket account?}}
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+Mods (short for modifications) are game-altering data files created to give an altered gameplay experience. They can remove certain features, change existing ones, or add entirely new things altogether.
+
+This page will not list every single mod ever made as there will be far too many to cover effectively, it is mostly total conversions and feature-restoration mods that will be covered.
+
+==Game-Enhancement Mods==
+These mods add things that make the game better, harder, more interesting, or whatever.
+
+===Gang Warfare Mod===
+* Forum Thread: [http://www.gtaforums.com/index.php?showtopic=209170 GTAForums.com] (in response to [http://www.gtaforums.com/index.php?showtopic=203346 another thread])
+* Support Forum: [http://www.gtagarage.com/discussion/forum.php?id=529 GTAGarage.com]
+
+This unlocks the lost territories ''without'' performing the [[Grand Theft Auto: San Andreas/Glitches#178 Territories|178 territories glitch]]. This mod also unlocks ALL other territories on the map that were not obtainable with either the PS2 glitch oe available from the normal San Andreas MAIN.scm
+
+Unlike most other mods, you do not need to start a new game; old saves still work with the new SCM.
+
+Unlike earlier mods, and indeed the Territory Glitch itself, this does ''not'' alter the car spawns in an area so there will still be non-GSF cars driving around in conquered areas. An additional file can be downloaded to perform this change, however.
+
+The following comes from the readme:
+:This mod adds several things to San Andreas' gameplay. Here is a list of the things added:
+
+:GANG TURF
+:Every district in the map has a gang influence. Some even have influence from 2 or more gangs. The gang that has influence in a district is randomly decided, so it will be a little bit different in each new game you play. For the territories that have both Ballas and Vagos influence, you can kill any combination of Ballas or Vagos to start the war. I don't yet understand how the gang you actually go to war with is determined in these areas.
+
+:NON-RETARDED HOMIES
+:When on foot, press "Look Behind" and "Yes" at the same time to spawn 5 GSF members around you. They will kill any Ballas or Vagos in gang wars and they are about equal to the gang that attacks you, not retarded like the recruitable homies are. They will hold a position for about 45 seconds, and then roam looking for any Ballas. You can't spawn more homies until the old ones start to roam like peds looking for Ballas. You can recruit these homies to do drive-bys and such in your car, but wait until they start to roam. If you don't wait, the homies will ditch you to look for Ballas when they would've left to find them if you didn't recruit them.
+
+==Content-Restoration Mods==
+These re-add things that Rockstar cut at some point in development; the majority of the content of these particular mods is official, but the actual reimplementation and tweaking of it is done by the modders.
+
+===Car Wash===
+* Download : [http://www.gtagaming.com/pafiledb.php?action=file&id=1283 GTAGaming]
+
+Makes the car washes around San Andreas fully functional.
+
+===The Homie Mod 2.0 and 3.0===
+* Download : [http://www.gtagaming.com/pafiledb.php?action=file&id=1077 GTAGaming]
+
+In the authors own words, "''Makes three new gang members spawn along with the rest of the Grove Street Families. Two of them can be seen in cutscenes in GTA:SA and one of them was in Rockstar’s original screenshots for GTA:SA.''" In other words, it restores some allied gang members originally cut out of the game but obviously still residing in its data.
+
+Povke released the 3.0 version but the mod does not come with the textures and model of FAM4 and FAM5. This requires you to install v2.0 before v3.0.
+
+Some computers freeze when you are in the vicinity of the Grove Street gang members.
+
+===10x Increased Draw Distance===
+* News report: [http://www.gtasanandreas.net/news/single.php?id=1468 GTASanAndreas.net]
+* Forum thread: [http://www.gtaforums.com/index.php?showtopic=195185 GTAForums.com]
+* Download page: [http://www.gtagaming.com/pafiledb.php?action=file&id=965 yes]
+* Screenshots: [http://gemini.redorchestragame.com/GTASAfar7.jpg], [http://toca.game-editing.net/tmp/distance.jpg]
+* Compatibility: PC only
+
+Increases Rockstar's original maximum draw distance tenfold. '''WARNING''': requires a high-end PC; applying this on a moderate system will result in a decline in performance.
+
+===4x Increased Draw Distance===
+* News report: none
+* Forum thread: [http://www.gtaforums.com/index.php?showtopic=195903 GTAForums.com], [http://boards.gamefaqs.com/gfaqs/genmessage.php?board=924362&topic=21553450 GameFAQs]
+* GTAGarage page: none
+* ModDB page: none
+* Screenshots: [http://i7.photobucket.com/albums/y272/Sunrie/4xDraw1200Vehicle/4xrocketman.jpg], [http://i7.photobucket.com/albums/y272/Sunrie/4xDraw1200Vehicle/4xchiliad.jpg], [http://i7.photobucket.com/albums/y272/Sunrie/4xDraw1200Vehicle/4xstuntplane.jpg]
+* Compatibility: PC only
+
+Based off the 10x mod but 4x instead of 10x so more moderate PCs can run it.
+
+===2x Increased Draw Distance===
+* News report: none
+* Forum thread: [http://boards.gamefaqs.com/gfaqs/genmessage.php?board=924362&topic=21546375 GameFAQs]
+* GTAGarage page: none
+* ModDB page: none
+* Screenshots: [http://i7.photobucket.com/albums/y272/Sunrie/2xDrawDistance/2xdrawcatalina.jpg], [http://i7.photobucket.com/albums/y272/Sunrie/2xDrawDistance/2xdrawrocketman.jpg], [http://i7.photobucket.com/albums/y272/Sunrie/2xDrawDistance/2xdrawstuntplane.jpg], [http://i7.photobucket.com/albums/y272/Sunrie/2xDrawDistance/2xdrawstuntplane2.jpg]
+* Compatibility : PC only
+
+Based off the 10x mod but 2x instead of 10x so more moderate PCs can run it. It apparently means little or no visible reduction in performance, meaning almost anyone can make this minor increase in draw distance..
+
+===The Skateboard===
+The skateboard was originally intended to be a drivable vehicle much like the bicycles, but was dumped at some point in development; all that remained in the PS2 version was the HUD icon, but Rockstar were generous enough to re-include the deleted textures and code in the PC version, knowing that the modding community would work to finish what they had started.
+
+The skateboard can be used straight away without any mods, but it can only be used as a melee weapon; Tony Hawk-style mods will no doubt be developed, but this will take time.
+
+In the meantime, read about [http://www.gtasanandreas.net/news/single.php?id=1455 how to restore the skateboard].
+
+===Hot Coffee===
+''See [[Grand Theft Auto: San Andreas/Hot Coffee]] for more''
+
+==Accessibility Mods==
+These let a player quickly access particular things: other islands, different weapons, girlfriends, asset properties, and so forth.
+
+===Speedometer Addon===
+* News report : [http://www.gtasanandreas.net/news/single.php?id=1550 GTASanAndreas.net]
+* Download page : [http://www.gtagarage.com/mods/show.php?id=73 GTAGarage.com]
+* Compatibility : PC only
+
+This addon allows use of a speedometer for all vehicles in San Andreas. It can be set in whichever corner of the screen is preferred, and can be switched between miles and kilometers.
+
+The program must be running at all times in order to use the speedometer in San Andreas; it is possible that quitting it with San Andreas still running could crash the game.
+
+Note that if it is in the bottom-left or top-right corners it will overlap the official HUD already in place there.
+
+<br clear=all />
+
+===TimeSynch Tool===
+* Download page : [http://www.gtagaming.com/pafiledb.php?action=file&id=957 GTAGaming.com File Database]
+* Compatibility : PC only!
+
+This utility replaces the traditional GTA clock (1 real-world minute = 1 in-game hour) with the PC's own clock setting.
+
+This means the game can be played in real-time. It also means that the player can literally spend all night doing [[Grand Theft Auto: San Andreas/Burglar|Burglary]] missions.
+
+Players wishing to have the most "real" GTA experience possible can play with this mod running the entire time, forcing them to wait until the right time comes for events such as girlfriend dating. They would also have to wait until it is actually dark outside in the real world before they can do burglary missions.
+
+The Tool must be running at all times in order to keep the San Andreas clock running at real-time speed. It can be disabled at any time to return the clock to its intended speed of timekeeping.
+
+===Gang War Mod===
+* Download page : [http://www.gtagaming.com/pafiledb.php?action=file&id=974 GTAGaming File DB]
+* Compatibility : pc and Xbox
+
+''With this mod, only gangs spawn in all areas of San Andreas; they are automatically assigned to hate each other, so they'll shoot on sight. Cops will occasionally spawn as well.''
+
+It is to be assumed that this mod could be used to easily find gang members to kill to start a [[Grand Theft Auto: San Andreas/Turf Wars|Turf War]] or to find otherwise elusive gang members in order to conquer "lost" territories unlocked by the [[Grand Theft Auto: San Andreas/Glitches#178 Territories|178 territories glitch]].
+
+===''San Andreas'' Opened Up===
+* News report: [http://www.gtasanandreas.net/news/single.php?id=1452 GTASanAndreas.net]
+* Forum thread: [http://www.gtaforums.com/index.php?showtopic=194350 GTAForums.com]
+* GTAGarage page: [http://www.gtagarage.com/mods/show.php?id=27 yes, files available]
+* Official site: the [http://www.gtaforums.com/index.php?showtopic=194350 GTAForums.com thread]
+* Compatibility: this mod has been found to work with the Xbox port
+
+''San Andreas'' Opened Up allows the player to access the other islands without acquiring a four-star wanted rating in the process.
+
+===New Game acts like 100% Game===
+* News report: [http://www.gtasanandreas.net/news/single.php?id=1467 GTASanAndreas.net]
+* GTAGarage page: [http://www.gtagarage.com/mods/show.php?id=39 yes, files available]
+* Official site: http://www.opius.tk
+* Compatibility: PC and Xbox
+
+''This mod sets up all of the features you would have obtained at the end of the game before the first mission even begins. So you have all the advantages of a 100% finished game, while still being able to play through the storyline. ''
+
+From a [http://boards.gamefaqs.com/gfaqs/genmessage.php?board=925634&topic=21659446 GameFAQs message boards thread] : ''this mod works for xbox ... but the wardrobe does not seem to work properly as it freezes when u try to change clothes ...'' [you] ''have to start a new game ...'' [can't] ''use old save files''
+
+===TransFender Fix===
+* Download: [http://www.gtagarage.com/mods/show.php?id=35 yes, files available]
+
+''This makes it so you can take most vehicles (even bikes and motorcycles) into the Transfender garage, and buy NOS, Paint them, Buy Hydraulics, and get a Car Stereo boost.''
+
+==Multiplayer Mods==
+These mods add multiplayer into the PC version. Not the simultaneous hotseat seen in the PS2 version though, but rather full online multiplayer support much like that of first-person shooters.
+
+===San Andreas 2 Player===
+* News report: [http://www.forumplanet.com/PlanetGrandTheftAuto/topic.asp?fid=7279&tid=1682877 Planet GTA]
+* Official site: [http://www.sa-2p.com San Andreas 2 Player]
+
+This is not a restoration of the PS2 and Xbox simultaneous hotseat feature, but rather a full online experience playing with (or against) another player. Because it only supports two players the synching and lag are very good.
+
+Status: Discontinued.
+
+===Multi Theft Auto: San Andreas===
+Built on the brand-new [http://www.mtablue.info MTA: Blue] core, MTA: SA is a multiplayer experience built on C++ code rather than main.scm alteration. This also means that mods can be made in turn for this mod to both make use of the superior C++ development environment (as opposed to the normal limits of the Renderware engine) and can also in turn have multiplayer elements included as a seamless extension of the single-player alteration.
+
+Status: Released.
+
+[http://www.mtasa.com Multi Theft Auto: San Andreas]
+
+===San Andreas Multiplayer===
+Currently being tested under Vice City, this mod has good synching of players and objects in the game world.
+
+Status: Unreleased.
+
+[http://www.sa-mp.com Official Site]
+
+==Total Conversions==
+
+Total Conversions are significant mods that largely or completely change the features or game world of a game to something completely different.
+
+It is also possible that the Liberty City team, currently modding ''Vice City'', will move their project to San Andreas.
+
+===Myriad Islands===
+* News report: [http://www.gtasanandreas.net/news/single.php?id=1583 GTASanAndreas.net]
+* Official site: http://www.myriadislands.com
+
+The famous Myriad Islands is moving from ''Vice City'' to ''San Andreas''.
+
+Status: unreleased
+
+===GTA London===
+* Official site: http://www.gtalondon.com
+* Compatibility: PC only
+
+The longest-awaited Total conversion, with a massive fanbase over the years. A new lease of life has been injected with the release of SA for PC. Expect to see progress soon,
+
+Status: unreleased
+
+===Grand Tani Islands===
+* GTAGarage page: [http://www.gtagarage.com/mods/show.php?id=10 yes, no files yet]
+* Official site: http://www.gtislands.com
+* Also available at http://www.gtagames.nl
+
+''Grand Tani Islands is a Dutch Total Confersation Mod like Myriad Islands. We're working on it with a team of 20 modders. The principe of the mod is the same as MI. Every good modder can rent a lot for placing objects on it. Now we're making some things in VC but when the tools for SA are ready we continue the mod in SA''
+
+===GTA: Great Britain===
+* GTAGarage page : [http://www.gtagarage.com/mods/show.php?id=14 yes, no files yet]
+* Official site : http://www.gtagb.com
+
+''3 new cities and countryside. Over 200 new cars. An entire storyline. Grand Theft Auto has moved to Great Britain. Because it's time a TC got finished. And partly because the Getaway sucked.''
+
+===Grand Theft Auto: Trinity===
+* Official Site : ''In Progress''
+* Progress : 10%
+
+Nothing much is known about this TC, this is mainly due to the instant messenger co-ordinated work that is taking place until such a time as the mod is mostly complete.
+
+''The trinity islands were found by Spanish Catholics, they dedicated them towards their god by naming them Trinity, the 3 islands also have religious names.''
+
+''They kept a small colony on Isla Santa but nothing much happened until the islands were sold to the USA. Then a small town was built on Toproso by the USA, ysing the flat land. The Spanish used the hilly IS for defence purposes...''
+
+''Main character is English, he arrives at Trinity on a Flying Boat to do a job which unsurprisingly fails, leaving him stranded in Trinity.''
+
+==Tools==
+External programs that allow editing or viewing of game files or data.
+
+===Photo Cleaner===
+* News report: [http://www.gtasanandreas.net/news/single.php?id=1466 GTASanAndreas.net]
+* Official site: [http://www.ps2savetools.com/download.php?op=viewdownloaddetails&lid=79&ttitle=GTA:_San_Andreas_Photo_Cleaner PS2SaveTools.com]
+* Compatibility: designed for Xbox, may work with PC
+
+The Xbox version's photo-storage is apparently not a clean JPEG, so the photos cannot be directly viewed on a PC. This utility cleans and compresses them.
+
+===San Andreas Radio===
+* Official site: [http://www.tinyted.net/eddie/SanAndreasRadio/ San Andreas Radio]
+* Compatibility: requires a PC running Windows and the PS2 ''San Andreas'' disc
+
+Allows the audio tracks to be ripped from the PS2 game disc into the WAV audio file format.
+
+Also note that ''the GTA: San Andreas disc is a DVD and can only be read in a DVD-ROM drive. If you do not have a DVD-ROM drive, your PC cannot read the disc.''
+
+This utility will '''not''' work with the Xbox or PC disc. For a utility that does work with the PC disc, see Radio Free San Andreas below.
+
+There is currently no utility for the Xbox version.
+
+===Radio Free San Andreas===
+* Official site: [http://www.lysator.liu.se/~creideiki/radio-free-san-andreas/ Radio Free San Andreas]
+* Compatibility: requires a PC running Windows or Linux (or any other system it can be successfully compiled on) and the PC ''San Andreas'' disc
+
+Allows the audio tracks to be ripped from the PC game disc into Ogg Vorbis audio files.
+
+Also note that ''the GTA: San Andreas disc is a DVD and can only be read in a DVD-ROM drive. If you do not have a DVD-ROM drive, your PC cannot read the disc.''
+
+This utility will '''not''' work with the PS2 disc and has not been tested with the Xbox disc.
+
+===Game Stats Uploader===
+* News report: [http://www.thegtaplace.com/forums/index.php?showtopic=2647 The GTA Place]
+* Official site: [http://www.thegtaplace.com/sastats/index.php TheGTAPlace.com]
+* Compatibility: PC only
+
+With this utility you can upload your HTML stats file that is generated by San Andreas. It will display it nicely with image bars etc. and you can even share links with your friends to compare stats. You can also translate it to languages other than English.
+
+==External links==
+The following websites all contain large download databases with many files to download and tweak your game or are modding orientated.
+
+* [http://www.gtanetwork.it GTANetwork.it] (Italian)
+* [http://www.gta-downloads.com GTA-Downloads]
+* [http://www.thegtaplace.com The GTA Place]
+* [http://www.gtagarage.com GTAGarage]
+* [http://www.gtagaming.com GTAGaming]
+* [http://www.gtaprojects.com GTAProjects]
+* [http://www.GTAAll.com GTAAll]
+* [http://gta.gamigo.de/ GTAInside] (German)
+* [http://www.evidentia.org/mgsv/ Evidentia.org] (Italian)
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas}}

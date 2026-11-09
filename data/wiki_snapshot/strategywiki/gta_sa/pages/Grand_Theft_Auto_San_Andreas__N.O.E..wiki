@@ -1,0 +1,24 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar School.png]][[Grand Theft Auto: San Andreas/Learning to Fly|Learning to Fly]]
+* '''Location''': [[File:GTA San Andreas radar Airfield.png]]CJ's airstrip, Verdant Meadows, Bone County
+|}
+
+You have to take the ex-WWII plane from the hangar, fly it to Angel Pine for an air-drop, and then return to the airstrip and land. You must keep your altitude really low or you get spotted, and intercepted by the air force. 
+
+== Tips ==
+Plan your route from the airstrip to Angel Pine carefully.  One path uses the water: Fly straight ahead (west) after takeoff, veer right of the big rock formations, then follow the road and swoop down toward the bay north of San Fierro.  Fly under (!) the Gant Bridge, then turn due south.  Keep flying until the target triangle is about 7:30 (thinking of your radar as a clock face), then turn around and approach the corona from the south or southeast.  Then turn back over the water and reverse the path home.
+
+After you make the drop, you still have to keep below radar.  The warning will sounds but you won't hear Mike anymore.  But you can still get shot down.
+
+Don't forget to lower your landing gear ({{psx|R3}}/{{kbd|+}}/{{xbox|neutral|Rstick}}) as you attempt to land.
+
+The radar-height requirement isn't really too strict - the bar goes up quite slowly, and even if it does hit maximum, you can lose your pursuers by staying below the radar for a while. However, if you hit the ground (or water, for more than just a brief skim) then the mission's over. Let this be a lesson.
+
+== Rewards ==
+'''Cash''': $15,000
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Learning to Fly|previmg=[[File:GTA San Andreas radar School.png]]|hereimg=[[File:GTA San Andreas radar Airfield.png]]|nextpage=Stowaway|nextimg=[[File:GTA San Andreas radar Airfield.png]]}}

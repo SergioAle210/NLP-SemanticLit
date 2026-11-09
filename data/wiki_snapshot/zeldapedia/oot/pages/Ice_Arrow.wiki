@@ -1,0 +1,104 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= File:OoT Ice Arrow Render.png
+ |Render MM= File:MM Ice Arrow Render.png
+ |Render TWW= File:TWW Fire and Ice Arrows Render.png
+ |Model OoT= File:OoT Ice Arrow Model.png
+ |Model OoT3D= File:OoT3D Ice Arrow Model.png
+ |Model MM= File:MM Ice Arrow Model.png
+ |Model MM3D= File:MM3D Ice Arrow Model.png
+ |Model TWW= File:TWW Fire and Ice Arrows Model.png
+ |Model TWWHD= File:TWW Ice Arrow Model.png
+ |Model BotW= File:BotW Ice Arrow Model.png
+ |Sprite OoT= File:OoT Ice Arrow Icon.png
+ |Sprite OoT3D= File:OoT3D Ice Arrow Icon.png
+ |Sprite MM= File:MM Ice Arrow Icon.png
+ |Sprite MM3D= File:MM3D Ice Arrow Icon.png
+ |Sprite BotW= File:BotW Ice Arrow Icon.png
+}}
+|caption= 
+|game= {{OoT}}<br/>{{MM}}<br/>{{TWW}}<br/>{{BotW}}<br/>{{TotK}}
+|other= {{HW}}<br/>{{CoH}}
+|cost= 
+|strength= {{Infobox Game Blocks
+ |OoT=[[Weapon Strength#Ocarina of Time|4]]
+ |MM=[[Weapon Strength#Majora's Mask|2]] {{exp|Enemies that freeze take no damage}}
+ |BotW=10
+}}
+|uses= Freeze enemies<br/>Freeze water based elements{{Exp Game|MM}}
+|comp= [[Fire Arrow]]<br/>[[Shock Arrow]]<br/>[[Light Arrow]]
+}}
+{{Term/Store|Ice Arrow|Ice Arrows|Series, OoT, OoT3D, MM, MM3D, TWW, TWWHD, BotW, HW, HWL, HWDE|plural}} are recurring {{Plural|Series|Item|link}} in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 128 {{Exp Game|OoT, MM, TWW}}}}</ref><ref name="Inventory">{{Cite|{{Big|Ice Arrow}}<br/>An arrow imbued with the power of ice. It breaks apart on impact, freezing objects in the immediate area. It's incredibly effective against hot things.|Inventory|BotW}}</ref><ref>{{Cite|{{Color|HWDE Green|Ice Arrow}}: Use this on circles of flame to uncover hidden staircases.|Tutorial|HWDE}}</ref><ref>{{Cite|{{Color|CoH Yellow|Ice Arrows}}<br/>Imbues your arrows with an ice effect, at the cost of stamina.|Inventory|CoH}}</ref>
+
+==Location and Uses==
+The weapon infuses Arrows with the power of [[ice]], allowing them to freeze many enemies and make [[Ice#Ice Floes|ice platforms]] across the water. They are also typically among the more powerful projectile weapons at Link's disposal. They deplete Link's [[Magic Meter]], so they must be used sparingly.
+
+==={{OoT|-}}===
+[[File:OoT3D Fairy Bow Ice Arrow Icon.png|left|The Fairy Bow equipped with Ice Arrows from {{OoT3D|-}}]]
+In {{OoT}}, Link can obtain the Ice Arrows from the [[Gerudo Training Ground]], a maze-like area in the [[Gerudo Fortress]].<ref>{{Cite|You got the Ice Arrow! Set it to (C) and your arrows will be powered up! If you hit your target, it will freeze. This arrow magic is granted only to those who complete the difficult training of the Gerudos, so use it with pride!|N/A|OoT}}</ref> It is an optional quest since the Ice Arrows are not required to complete the game. However, they can be used to freeze enemies. Frozen enemies thaw after a few seconds or when hit with another attack. The freezing also deals damage; Ice Arrows cause twice as much damage as regular, [[Fire Arrow|Fire]], or [[Light Arrow]]s against enemies that can be frozen. Enemies that are invulnerable to freezing will only take as much damage as they would from any other kind of Arrow. If an enemy takes enough damage to die and freezes in the process, it will not die until it thaws. If you beat the Gerudo Training Ground before the [[Shadow Temple]], the Ice Arrows can make [[Bongo Bongo]] easier, because not only will they stun his hand like most arrows, the other hand will try to thaw the ice instead of keeping the offensive.
+
+==={{MM|-}}===
+[[File:MM3D Hero's Bow Ice Arrow Icon.png|left|The Hero's Bow equipped with Ice Arrows from {{MM3D|-}}]]
+In {{MM}}, the Ice Arrows are required to complete the game, and are more of a puzzle-solving tool than a weapon. They are found in [[Great Bay Temple]] after defeating its mini-boss, [[Wart]]. They are used to freeze water to make ice paths, freeze waterfalls, and to trap enemies in [[Ice#Ice Block|blocks of ice]]. They are also necessary to cross the [[Ikana River]] and reach the upper portion of the [[Ikana Canyon]]. Unlike in {{OoT|-}}, where freezing does additional damage, in {{MM|-}}, enemies frozen with the Ice Arrows take no damage at all. Fewer enemies in {{MM|-}} can be frozen than in {{OoT|-}}. In {{MM3D}}, Ice Arrows can only freeze paths of sparkling water.
+
+==={{TWW|-}}===
+In {{TWW}}, Link must obtain the Ice Arrows to proceed further in the game. The young hero obtains the Ice Arrows (along with the Fire Arrows) from the [[Fairy Queen#The Wind Waker|Fairy Queen]] inside the larger island of the [[Mother and Child Isles]], which can only be accessed with the "[[Ballad of Gales]]".<ref>{{Cite|I like you. And so, I shall give new power to the bow that you wield. Ice Arrows can freeze the hottest flames, and Fire Arrows can melt the coldest ice.|Fairy Queen|TWW}}</ref> They must be used to freeze [[Fire Mountain]] so that Link can enter it and claim the [[Power Bracelet]]s. However, the Fairy Queen will not hand over the ability to use the Ice Arrows until Link has rescued his sister, [[Aryll]], from the [[Forsaken Fortress]]. 
+
+The Ice Arrows are a very effective weapon when used in conjunction with the {{Term|TWWHD|Skull Hammer|link}}. Upon freezing an enemy with an Ice Arrow, one blow with the {{Term|TWWHD|Skull Hammer}} will completely shatter almost every enemy, including the [[Wizzrobe]] Master. Some flying enemies can be destroyed simply from falling to the ground after being frozen.
+
+==={{BotW|-}}===
+{{Compendium/Extract|Ice Arrow}}
+Ice Arrows are a type of Arrow that can be used with any {{Term|BotW|Bow|link}} in {{BotW}}. They're also available in bundles.<ref name="IceArrow">{{Cite|{{Big|Ice Arrow x5}}<br/>A bundle of five ice arrows.<br/>Ice arrows break apart on impact, freezing objects in the immediate area. Incredibly effective against hot things.|N/A|BotW}}</ref><ref>{{Cite|{{Big|Ice Arrow x10}}<br/>A bundle of 10 ice arrows.<br/>Ice arrows break apart on impact, freezing objects in the immediate area.|N/A|BotW}}</ref> Incredibly effective against hot things. They can be found inside {{Plural|BotW|Treasure Chest|link}}, but they're also dropped by archer [[Enemies in Breath of the Wild|enemies]].
+
+The following locations sell Ice Arrows:
+* The [[Arrow Specialty Shop]] in [[Gerudo Town]]
+* The [[Goron Gusto Shop]] in {{Term|BotW|Goron City|link}}
+* The [[Slippery Falcon (Tarrey Town Branch)]]
+* [[Shaillu]]'s arrow shop in [[Kara Kara Bazaar]]
+* [[Botrick]] at [[Outskirt Stable]] (only while it rains)
+
+Ice Arrows immediately dissipate into a burst of [[Ice]] after impact.<ref name="Inventory"/> If [[Link]] or an enemy is shot by an Ice Arrow, they are frozen solid for a short period of time. If Link hits a frozen enemy with a {{Term|BotW|Weapon|link}}, the Ice shatters upon impact and more damage is dealt than normal. Ice Arrows deal an additional 10 damage to the attack power of the Bow being used. Link can immediately defeat [[Fire Wizzrobe]]s, [[Meteo Wizzrobe]]s, and [[Fire-Breath Lizalfos]] by shooting them with a single Ice Arrow.<ref name="Inventory"/>
+
+==={{TotK|-}}===
+Ice arrows as a unique arrow type, have been removed from [[The Legend of Zelda: Tears of the Kingdom|Tears of the kingdom]], to make way for the addition of [[Fuse]], which allows players to make their own Ice arrows, by Fusing a Arrow with a Ice Fruit or any other Elemental material.
+
+==Other Appearances==
+==={{HW|-}}===
+{{Noncanon|Start}}
+In {{HW}}, Ice Arrows appear in [[Adventure Mode]] as an [[Item Card]] to extinguish fire rings on the map to reveal the Reward.
+{{Noncanon|End}}
+
+{{Ambig|Start}}
+==={{CoH|-}}===
+{{Stub|AST}}
+{{Ambig|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Bow and Ice Arrows.png|The Fairy Bow equipped with Ice Arrows from {{OoT|-}}
+File:MM Bow of Ice Icon.png|The Hero's Bow equipped with Ice Arrows from {{MM|-}}
+File:HW Ice Arrow Sprite.svg|The {{Term|HW|Ice Arrow}} {{Term|HW|Item Card}} from {{HW|-}}
+File:HWDE Ice Arrow Icon.png|The {{Term|HWDE|Ice Arrow}} {{Term|HWDE|Item Card}} from {{HW|DE|-}}
+File:CoH Ice Arrow Sprite.png|{{Plural|CoH|Ice Arrow}} from {{CoH|-}}
+</gallery>
+
+==See Also==
+* [[Arrow]]
+* [[Fire Arrow]]
+* [[Shock Arrow]]
+* [[Bomb Arrow]]
+* [[Ancient Arrow]]
+* [[Light Arrow]]
+
+{{Ref}}
+{{CommonItems}}
+{{Categories
+ |Arrows, Item Cards
+ |items= OoT, OoT3D, MM, MM3D, TWW, TWWHD, BotW, HW, HWL, HWDE
+}}
+
+[[de:Eis-Pfeil]]

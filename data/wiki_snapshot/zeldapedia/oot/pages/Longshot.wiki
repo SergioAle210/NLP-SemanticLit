@@ -1,0 +1,63 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= File:OoT Longshot Render.png
+ |Render OoT3D= File:OoT3D Longshot Render.png
+ |Model OoT= File:OoT Longshot Model.png
+ |Model OoT3D= File:OoT3D Longshot Model.png
+ |Sprite OoT= File:OoT Longshot Icon.png
+ |Sprite OoT3D= File:OoT3D Longshot Icon.png
+}}
+|caption= 
+|type= 
+|game= {{OoT}}
+|other= {{CoH}}
+|cost= 
+|value= 
+|location= {{Term|OoT3D|Water Temple|link}} {{Exp Game|OoT}}
+|uses= Reaching distant targets
+|strength={{Infobox Game Blocks
+ |OoT=[[Weapon Strength#Ocarina of Time|2]]
+}} 
+|durability= 
+|comp= {{Term|Series|Hookshot|link}}
+|sample= 
+|theme= 
+}}
+{{Term/Store|Longshot|Longshots|Series, OoT, OoT3D, CoH|plural}} are recurring {{Plural|Series|Item|link}} in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 130 {{Exp Game|OoT}}}}</ref>{{Name Ref|CoH}}
+
+==Location and Uses==
+==={{OoT|-}}===
+<!-- Obtention:
+You found the {{Color|OoT3D Red|Longshot}}!<br/>It's an upgraded Hookshot that extends {{Color|OoT3D Red|twice}} as far!
+
+Inventory:
+{{Color|OoT3D Red|Longshot}}<br/>An enhanced version of the Hookshot. Its chain stretches to hook far-off targets.
+-->
+The Longshot is an upgraded form of the [[Hookshot]] which can be found inside the {{Term|OoT3D|Water Temple|link}}. It is obtained after defeating [[Dark Link]] in the standard versions of {{OoT}}. However, it is obtained much earlier in {{MQ}}. The Longshot has twice the reach as the normal Hookshot,<ref>{{Cite|You found the {{Color|OoT3D Red|Longshot}}!<br/>It's an upgraded Hookshot that extends {{Color|OoT3D Red|twice}} as far!|N/A|OoT3D}}</ref> allowing Link to reach more distant targets. The Longshot can pull Link towards Hookshot targets, wooden objects and some enemies, such as [[ReDead]]s. Similarly, it can pull certain enemies towards Link, such as [[Morpha]]'s eye. The Longshot is required to fully navigate the Water Temple, as many targets are out of reach from the regular Hookshot. The Longshot can be used to cross the broken bridge in [[Gerudo Valley]] as well as the [[River of Sand]] in the [[Haunted Wasteland]].
+
+Like the Hookshot, the Longshot can deal stun and deal damage to certain enemies. When pointed at a target within range, a red dot acting as a reticle will appear on-screen. In {{OoT3D}}, this red reticle is accompanied by a circle that encompasses the dot. Additionally, the Longshot can be aimed with the [[Nintendo 3DS]] gyroscope.
+
+==Other Appearances==
+==={{CoH|-}}===
+{{Ambig|Start}}
+[[File:CoH Longshot Sprite.png|left]]
+The {{Term|CoH|Longshot}} can be obtained from any dungeon in {{CoH}}. The {{Term|CoH|Longshot}} is an upgrade to the {{Term|CoH|Hookshot|link}}, enabling it to stun more enemies and reach farther distances, including objects that can't be seen on-screen.<ref>{{Cite|You got the {{Color|CoH Yellow|Longshot}}! Assign it to {{Icon|CoH A}}, {{Icon|CoH B}}, {{Icon|CoH X}}, or {{Icon|CoH Y}} on the inventory screen. An upgrade on your old Hookshot, this item extends farther and can stun more enemies!|N/A|CoH}}</ref>
+{{Ambig|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==See Also==
+* {{Term|Series|Clawshot|link}}
+* {{Term|Series|Grappling Hook|link}}
+* {{Term|Series|Gripshot|link}}
+* {{Term|Series|Hookshot|link}}
+* {{Term|Series|Long Hook|link}}
+
+{{Ref}}
+
+{{Categories
+ |Hookshots
+ |items= OoT, OoT3D, CoH
+}}

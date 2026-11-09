@@ -1,0 +1,91 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Magical Sword Artwork.png
+ |Artwork TAoL= File:TAoL Magical Sword Artwork.png
+ |Sprite TLoZ= File:TLoZ Magical Sword Sprite.png
+ |Sprite TAoL= File:TAoL Magical Sword Sprite.png
+}}
+|caption= 
+|game= {{TLoZ}}<br/>{{TAoL}}
+|other= {{TLoZ|TV Series}}<br/>{{BSTLoZ}}<br/>{{CN}}<br/>{{SCII}}<br/>{{HW}}
+|cost= 
+|uses= Killing enemies
+|comp= [[Master Sword]]
+|strength={{Infobox Game Blocks
+ |TLoZ= [[Weapon Strength#The Legend of Zelda|4]]
+}}}}
+The {{Term/Store|Magical Sword|Magical Swords|Series, TLoZ, TAoL, HW, HWL, HWDE}},{{Exp Game|TLoZ, TAoL, HW}}<ref>{{Cite Book|quote= |book= E |publisher= |page= 131 {{Exp Game|TLoZ, TAoL}}}}</ref>{{Fact}} also known as the {{Term/Store|Magic Sword||Soulcalibur II}},{{Fact}} is a recurring sword in {{TLoZ|Series}}. This sacred blade is known as [[Link]]'s strongest [[Sword]] prior to the [[Master Sword]]'s first appearance in ''[[The Legend of Zelda: A Link to the Past|A Link to the Past]]''.
+
+==Location and Uses==
+==={{TLoZ|-}}===
+[[File:TLoZ Magical Sword Sprite 2.png|left|21px]]
+In ''[[The Legend of Zelda]]'', Link finds the {{Term|TLoZ|Magical Sword}} in the possession of the [[Magical Sword-Giving Old Man]] who lives underneath a Grave in the {{Term|TLoZ|Cemetery|link}}. It is the third and most powerful [[Sword]] in the game. This particular [[Old Man]] requires that {{Term|TLoZ|Link}} have at least twelve [[Heart Container|Heart Containers]] in his [[Life Gauge]] before he gives the young hero the {{Term|TLoZ|Magical Sword}}. In the {{Term|TLoZ|Second Quest|link}}, the {{Term|TLoZ|Magical Sword}} is found in the northern mountains, one screen to the left of where the {{Term|TLoZ|White Sword|link}} is found. The Magical Sword has the same properties as all of the other swords in the game, such as the ability to shoot {{Plural|TLoZ|Sword Beam|link}}, but it does twice as much damage than the White Sword, and four times the damage as the Wooden Sword, equal to that of [[Bomb|Bombs]].<ref>The Legend of Zelda manual, page 19</ref> This weapon is entirely optional, however, as only the {{Plural|TLoZ|Silver Arrow|link}} and any kind of Sword are required to defeat {{Term|TLoZ|Ganon|link}}. Against the main antagonist, it takes only four hits by the blade to stun Ganon before finishing the Demon King off with one Silver Arrow, making the [[Final Boss]] encounter significantly easier than with weaker swords.
+
+==={{TAoL|-}}===
+In {{TAoL}}, Link departs on his quest with the Magical Sword in his left hand and the [[Magical Shield]] in his right, and is the only Sword in the game.<ref>{{Cite Manual|quote=Then, with a magical sword in his left hand and a magical shield in his right, he set off alone in his long travels.|game= TAoL|page=12}}</ref> Link is able to augment the Sword's ability to fire Sword Beams with the [[Fire]] spell, which allows the Sword to shoot fireballs even if Link is not at full health. The Sword will also do more damage if the hero levels up his Attack stats. Strangely, the weapon in-game more closely resembles a short sword when Link thrusts to attack enemies.
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{CN|-}}===
+Although not explicitly referred to as the Magical Sword, Link in {{CN}} wields a Sword similar to the Magical Sword. Like in {{TLoZ|TV Series}}, Link can use it to [[zap]] enemies, and this time, he can be seen attacking enemies with the Sword rather than just using it to defend himself or parry.
+
+==={{SCII|-}}===
+The Magical Sword is one of Link's ten weapons available in {{SCII}}, although it is known as the '''Magic Sword''' instead. Paired off with the Magical Shield, the Magic Sword and the shield can be bought in the Aldebaran Shop, Algol Shop, Pollux Shop, or the Merak Shop for 3000 Gold while playing the Weapon Master Mode. Although Link's offense and defense will not increase when he equips these weapons, the Magic Sword will cause 40% block damage, compared to the usual 10%, but will take minor damage from blocking opponents' attacks.<ref>{{Cite|Good at penetrating defenses, but weak against impact|N/A|Soulcalibur II}}</ref> The sword and shield's design are completely different from its original appearance, as the Magical Sword resembles the artwork from {{TLoZ}}, albeit with more detail and more proportional. The Magical Shield is also blue and silver rather than brown and lacks the Christian cross.
+
+{|class="wikitable" style="text-align:center; width:100%"
+!style="width:20%"|Image
+!style="width:10%"|Cost
+!style="width:20%"|Attributes
+!In-game Description
+|-
+|[[File:SCII Magic Sword and Magical Shield Model.png|x100px]]<br/>'''Magic Sword & Magic Shield'''
+|3000 Gold
+|Causes 40% block damage<br/>Weak against physical impact
+|style="text-align:left"|Ancient arms hidden deep in an underground tomb. This powerful sword holds an enchantment that counters the forces of darkness, and its holy aura allows it to deliver damage to the enemy even without making physical contact. The shield is enchanted with a spell that protects its user from enemy magic, but the actual shield itself is quite old and is weak against physical impact.
+|}
+
+==={{HW|-}}===
+{{Main|Hylian Sword, Naginata}}
+The Magical Sword appears as the third-tier weapon in Link's [[Hylian Sword]] category in {{HW}}. It is obtained as a reward through [[Adventure Mode]]. Its overall design was derived from both its artwork from {{TAoL}} and to a lesser extent the 8-Bit rendition of the Magical Sword from {{TLoZ}} An 8-Bit version of the Magical Sword from {{TLoZ|-}}, called the [[8-Bit Magical Sword?]], appears as the Lv.★ form of [[Impa]]'s [[Naginata]]. It was added to the game with the {{MM|-}} Pack DLC in {{HW|-}}.
+{{Noncanon|End}}
+
+==Trivia==
+[[File:TAoL NA NES Box Artwork.png|thumb|297x297px|The Magical Sword seen on the box art of ''The Adventure of Link'']]
+*The [[Sword]] featured in the international version of ''[[Zelda II: The Adventure of Link|The Adventure of Link]]''<nowiki/>'s box art is the Magical Sword.
+*The Magical Sword is the first holy sword in [[The Legend of Zelda (series)|''The Legend of Zelda'' series]].
+*Although it is unknown what exact sword is shown on the title screen of ''The Adventure of Link'', it is presumed to be the Magical Sword.
+*In the beta version of ''[[The Legend of Zelda]]'', the Magical Sword required only 8 Hearts to be obtained instead of 12.<ref>{{Cite Web|quote= The Magical Sword requires eight hearts in the prototype and 12 in the final.|author= |published= |retrieved= May 1, 2016|url= https://tcrf.net/Proto:The_Legend_of_Zelda#Gameplay_Changes|title= Proto:The Legend of Zelda|site= The Cutting Room Floor|type=}}</ref>
+*Due to the weapon's similar role, the Magical Sword is seen as the precursor of the [[Master Sword]], and it's likely the latter replaced it, as this sword was never seen again in the core series since ''The Adventure of Link'', released in 1987. However, it does make a spin-off appearance in ''[[Hyrule Warriors]]'', as well as ''[[SoulCalibur II]]''.
+**Some players do, however, mistake the Magical Sword as the Master Sword in its canonical [[Nintendo Entertainment System|NES]] appearances.
+*In the [[The Legend of Zelda: A Link to the Past — Nintendo Player's Guide|''A Link to the Past'' player's guide]], various artworks in the book referring to ''The Legend of Zelda'' and ''The Adventure of Link'' depicted [[Link]] wielding a sword strongly resembling the Master Sword rather than the Magical Sword, despite itself not yet officially existing by either games' release.
+*In ''The Legend of Zelda'', the sword Link is carrying on the [[File-Selection Screen|File Select screen]] when the [[Second Quest]] unlocked is the Magical Sword.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Magical Sword-Giving Old Man.png|The [[Magical Sword-Giving Old Man]] offering [[Link]] the Magical Sword from {{TLoZ|-}}
+File:TLoZ Second Quest Select.png|The Magical Sword on Link's hand in the file select screen from ''The Legend of Zelda''
+File:TLoZ Magical Sword Million Publishing Artwork.png|Artwork of the Magical Sword from ''The Legend of Zelda''
+File:TAoL Magical Sword Artwork 2.png|Artwork of the {{Term|TAoL|Magical Sword}} from {{TAoL|-}}
+File:TAoL Magical Sword Artwork 3.png|Artwork of the {{Term|TAoL|Magical Sword}} from {{TAoL|-}}
+File:Magical Sword.png|The Magical Sword from {{CN}}
+File:SCII Link with Magical Sword from Above.jpg|Link bearing the Magical Sword from {{SCII}}
+File:HW Magical Sword Render.png|The Magical Sword from {{HW}}
+File:HW Magical Sword Model.png|The Magical Sword from {{HW|-}}
+File:HW 8-Bit Magical Sword? Icon.png|The 8-Bit Magical Sword from {{HW|-}}
+File:HWDE Impa 8-Bit Magical Sword?.png|[[Impa]] wielding the 8-bit Magical Sword from {{HW|DE}}  
+</gallery>
+
+==See Also==
+* [[Crissword]]
+* [[Master Sword]]
+
+{{Ref}}
+
+{{Categories
+ |Equipment, Hylian Swords, Swords, Weapons
+ |items= TLoZ, TAoL, HW, HWL, HWDE
+}}

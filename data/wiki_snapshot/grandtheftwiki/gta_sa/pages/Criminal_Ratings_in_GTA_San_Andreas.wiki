@@ -1,0 +1,254 @@
+[[File:CriminalRatings-GTASA-menu.jpg|right|thumb|200px]]
+The '''Criminal Rating''' is a rating level in all games in the [[GTA III Era]] based on the criminal activities of the player. In [[Grand Theft Auto: San Andreas]], the criminal rating can be viewed in the Stats section in the pause menu. A new game starts the criminal rating at 0.
+GTA San Andreas did not feature the Media Attention statistic like Vice City did.
+
+==Scoring==
+*'''Game progress - For every increment of 0.1%''' = 1 point (100% completion is worth 1,000 points.)<br>
+*'''For each increment of $5000''' = 1 point (Maximum amount of $999,999,999 is worth 199,999 points.)<br>
+*'''For every 1% of accuracy''' = 5 (Your accuracy is: Bullets that hit/Bullets fired. A 100% accuracy is worth 500 points. NOTE: The game calculates accuracy past your 101st bullet. Before, accuracy points are simply not given.)<br>
+*'''Getting Busted or Wasted''' = -3 points each time<br>
+*'''Using a cheat''' = -10 points for each one<br>
+*'''For every legitimate kill''' = 1 point each after passing a checkpoint<br>
+** This is linked to the statistics "People killed since last checkpoint" and "Total legitimate kills" (in Stats > Crimes) instead of increasing immediately the rating, going to what the game defines to be a "checkpoint" (Finishing a mission, going to a [[Pay 'n' Spray]], or [[Save points|saving the game]]) is required to trigger the criminality point increase (and thus your total legitimate kills), with the amount of points obtained depends on the amount of kills this stat gives (for an example, 5 kills on the said statistic will increase by 5 points the rating after going to the Pay'n'spray). Once the point increase has been applied, the game counts this action as a "checkpoint", resetting the stat "Number of people killed since last checkpoint", increasing the "Total legitimate kills" stat by the value obtained before attaining the checkpoint.<br>
+** Running over pedestrians, i.e. ramming down someone with a car, will not be counted as a "legitimate kill", although increasing by 1 your "People you've wasted" stat, which is your true total kill count throughout the game.
+** Being [[Wasted|killed]], [[Busted|arrested]] will reset your "People killed since last checkpoint" stat to 0, thus all kills you've made before dying will not be registered as "legitimate kills".<br>
+** Going to a [[TransFenders]] is not a checkpoint.
+<!--For an example, let's say you have 10500 criminality points, if you killed 17 people, your stat "Number of people killed since last checkpoint" will be of 17, but when you go to a Pay'N'Spray, this stat is reset to 0 and your criminality points increase by 17 and you have 10517 points in total.-->
+*'''Destroying aircrafts''' = +30 outright, without the need of going to a Pay 'n' Spray or saving the game. Aircraft should be your prime target if you want to increase your score.
+
+*'''Destroying any other vehicle''' = +0 (Empty vehicles don't reward you anything. Destroying ground vehicles with a driver and/or passengers in it grants you points only because you killed the peds inside. Privileged targets are cop cars with 2 cops in it, [[Enforcer|SWAT trucks]] and [[FBI Rancher]]s with 4 agents each in them. Randomly on the road, you will also find some 4-doors with multiple passengers in them. Shoot them on sight if you want!)
+
+==Tips to increase the score==
+
+* The storyline missions can do you a great favor as finishing them earn points, but consider that in almost all of them, you will kill people, earn money (between end-mission money and money you might earn off your victims), destroy lots of vehicles and sometimes aircraft.
+* After completing the storyline missions, you should be left with a nice bank account and a solid 10,000 points at the very least. Of course, doing every [[Side mission|side mission]] will help you climb higher in the criminality ranks.
+* Sadly, though, completing everything, even with keeping all the money, won't make you go to the million points. You must know that maxed money alone is worth 199,999 points only in the score, you'll need obviously more to attain the million.
+* If you're worried about your accuracy, note that you will get points from killing with vehicle weapons (the [[Hunter]]'s minigun, the [[Rhino]]'s cannon, etc...) without effect on your accuracy as you didn't fire bullets from your own weapons. Using explosives do not count either - rockets, grenades, satchels each are counted in the "Kgs of explosives used", not in "bullets fired".
+
+If you wish to increase your criminal rating using other ways, your only solution is to get into a fight with the system and start making a killing spree. Here are a few tips if you want to "start a one-man war".<!--Arcade-like fun IMHO, as you have one chance at a time to score lots of points and "cash" them by using the checkpoint methods.-->
+
+===Methods===
+
+*Homelands Method
+This method is pretty simple. It consists in choosing a secluded place with narrow access, such as a backstreet, or anywhere far away enough from roads, so you can take out easily any intruder coming in, leaving you with clear shots to aircraft incoming.<br>
+Weapons recommended: [[Minigun]], [[M16|M4]], Any shotgun except the sawn-off (in case the intruders come close to you), [[Satchel Charges]] (if the shotgun is ineffective).<br>
+Escape methods: If you need to get out, I would suggest keeping a fast vehicle (preferably a [[NRG-500|fast]] [[FCR-900|motorbike]] to get out of your hiding place and rush to the [[Pay'n'Spray]])).<br>
+Advantages: Natural defense, and possibility to take out intruders quickly<br>
+Drawbacks: It happens often, helicopters blasted down can block your way out, if they don't come blasting right next to you.
+
+*My Castle is High
+Similar to the Homelands Method, except your main advantage is not in narrow access, but in height itself. Take advantage of your opponents by shooting them from a height.<br>
+<b>Recommended area: The pueblo reconstitution in [[Las Barrancas]]</b> <br>
+Weapons recommended: Minigun, [[M16|M4]], [[grenades]] or satchel charges to drop on your enemies, [[sniper rifle]] (Optional only, but it's a fun and challenging weapon, especially in high wanted level situations)<br>
+Escape methods: If you need to get out from a high place, the solution is simple: use a helicopter, the Hydra, a Jetpack, anything that allowed you or helped you to come to your shooting area.<br>
+Advantages: Natural defense, possibility to snipe on your intruders quickly as well.<br>
+Drawbacks: If you choose an area that's too low, your enemies will have a clear shot at you. On the other hand, if your shooting area is too high, you will have to rely on dropping explosives, or shooting their vehicles.
+
+*Deadly Wind
+This method requires you to never stop moving, and to kill all targets from a ground vehicle, using the drive-by method.
+Weapons recommended: [[MP5]] packed with lots of ammo.
+Vehicles recommended: Any fast bike, the obvious best being the [[NRG-500]].<br>
+Advantages: Mobility is a plus when you have to escape, plus this method allows you to escape whenever needed. Not to mention it allows for music!<br>
+Drawbacks: Single weapon without the ability to really aim, not to mention that higher levels will mean law enforcement swarming on the roads, and thus much higher chances to fall off your bike, be it because a cop busted you, or because of an obstacle, leaving your opponents with very clear shot at you.
+
+*Deadly Storm
+Similar to Deadly Wind, only that the danger for cops come from the air!
+Vehicles recommended: [[Hunter]] or [[Hydra]], of course. Using a [[Sea Sparrow]] is way too dangerous, due to this helicopter's fragility.<br>
+Advantages: You have an extremely deadly machine gun at your disposition, not to mention rocket launchers, all with unlimited ammo. Plus, as you're in the air, escaping becomes much easier. Not to mention that if you die, you will be granted with at least 27 points (30 of an aircraft taken down, minus 3 on player's death), although it won't make up for the much higher scores you can attain when you get away.<br>
+Drawbacks: At higher wanted levels, enemy Hydras will spawn, and they will shoot rockets to take you down. Plus, if you get too low, there's chances that enemy will open fire on you from the ground, and repeated fire WILL take you down as well. Not to mention there is no way to get a helicopter or Hydra in a Pay'n'spray, so you'll have to land and run to a save point to cash in your points.
+
+*Brown Thunder
+Similar in methods and means than Deadly Storm except it requires the [[Hunter]], the Brown Thunder [[Vigilante|Vigilante Mission]], and a high wanted level for the possibility of taking down helicopters.<br>
+The method is simple, you mix up vigilantism and killing spree. Killing the criminals in Vigilante mission rewards you with extra health for your helicopter, money, 1 point per criminal killed, and extra time to keep going. Nothing of course stops you from pummeling pedestrians and vehicles on the ground while you chase criminals, it's even recommended if you want to rack extra points.<br>
+Advantages: Your helicopter can go as far as being nearly invincible, as your health is refilled by huge chunks each time you complete a vigilante level. It allows you to endure more hits from possible enemy Hydras, making them less of a threat - with a bit of skill you can even take them down!<br>
+Drawbacks: As you know already with the Deadly Storm method, a Hunter can't fit in a Pay'n'Spray. When your spree is finished, try to land right near a save point without getting killed.
+
+===Tips===
+'''''Considered for a no-cheat, unmodded game, with primary focus on gaining points and losing none.'''''<br>
+''Nobody stops you from using any cheats if you wish to, but as the game advises, using them might cause trouble to your save game.''
+
+* Wearing [[Body Armor]] is ''essential'', but it is strongly advised to complete the [[Paramedic]] and [[Vigilante]] R3 missions to max out your health and armor levels. The point is, of course, to ''survive'' in order to get to a checkpoint.
+* Obviously, load yourself up with powerful weaponry. The [[Minigun]] will be your best tool as it can be used for multiple purposes, from killing clumps of running pedestrians to destroying aircraft swiftly and easily, if you go for an on-foot method 
+* Take down aircraft in priority! Each of those will grant you instantly 30 points each without having to "cash them" using the checkpoint method. In case you die during your killing spree, you will have at least the aircraft takedown points. The [[The Helicopter Sniping Trick|heli sniping trick]] might get useful if you're really accurate and don't want to waste Minigun ammo, in case you go for an on-foot method.
+* Choose your paths wisely. Plan how you're gonna do the killing spree, make an escape plan, make sure you can respond to any threat or retreat if needed. Whatever you do, try to survive. Don't waste time on health recovery, as spending time in front of a Sprunk dispenser will make you lose more than what you'll recover, and most importantly: do NOT go into a fast-food restaurant, unless you're fast, because upon exiting, a lot of cops will be waiting for you, guns ready of course.
+* A good place to start a killing spree would be in south [[San Fierro]]. Lots of people spawn on the streets of Doherty, especially those one block north from the [[Wang Cars]] and is an excellent place to do massive kills. It is also the perfect retreat place, as if you are too low on health, all you have to do is to run to the garage, pick a car upstairs and race the few feet separating you from the [[Pay'n'Spray]] that will make you cash in your points. Even better, there is a Sprunk dispenser near the [[Cranberry Station]] to quickly restore your health before starting a new killing spree.<br>
+* Optimize your chances of surviving by planning an escape route. Be sure there's always next to you a way for you to escape, be it a fast vehicle, an aircraft, back-alleys, spawn points of body armor or weapons or even [[Police Bribes|bribes]], just so you get the few extra protection needed to run your way to a checkpoint, provided you're close to one. Learn the streets, and don't plan a city-scale rampage. Instead, stay around your favorite places, those you know the best. Remember, a checkpoint can be any safehouse, and any Pay'n'Spray.
+* Avoid getting surrounded. In the case this happens, and you need at any costs to get out of the place you've been trapped in (such as a back-alley, a rooftop, or anywhere), try sniping your way out. A good shot in the head or in the gas tanks can give you an escape route, especially in higher wanted level situations.
+* There is no limit to how long a killing spree can go. It can be interesting to make a long one and do a big jump up to your stats, but (unless you use mods or have a stats editor) don't forget that dying can happen at any instant. Don't bite off more than you can chew, set yourself thresholds or time limits. Better to take down a few and get away with it, than to do lots of casualties and die doing more.
+
+==Rating==
+{|style="vertical-align:top;" class="wikitable"
+!Criminal Rating 
+!Points 
+|-
+|Crackhead
+| -6,000 - -10,000
+|-
+|Bitch-Made
+| -4,000 - -5,999
+|-
+|Off-Brand
+| -2,000 - -3,999
+|-
+|Scandalous
+| -500 - -1,999
+|-
+|Playa-Hater
+| -1 - -499
+|-
+|Vic
+|0-19
+|-
+|Square
+|20-49
+|-
+|Civilian
+|50-74
+|-
+|Rat
+|75-99
+|-
+|Snitch
+|100-119
+|-
+|Dry Snitch
+|120-149
+|-
+|Transformer
+|150-199
+|-
+|Punk-Ass Bitch
+|200-239
+|-
+|Sucka
+|240-269
+|-
+|Poot-butt
+|270-299
+|-
+|Buster
+|300-329
+|-
+|Mark
+|330-369
+|-
+|Chump
+|370-399
+|-
+|Trick
+|400-449
+|-
+|Red-Headed Stepchild
+|450-499
+|-
+|Peon
+|500-549
+|-
+|Pee-Wee
+|550-599
+|-
+|Prankster
+|600-609
+|-
+|Fool
+|610-649
+|-
+|Street Cat
+|650-699
+|-
+|Thug
+|700-849
+|-
+|Hustler
+|850-999
+|-
+|Playa
+|1,000-1,005
+|-
+|Playa Partner
+|1,006-1,299
+|-
+|Pimp
+|1,300-1,499
+|-
+|Crime Partner
+|1,500-1,699
+|-
+|Homeboy
+|1,700-1,999
+|-
+|Homie
+|2,000-2,099
+|-
+|Road Dawg
+|2,100-2,299
+|-
+|Hoodsta
+|2,300-2,499
+|-
+|Hard-ass
+|2,500-2,749
+|-
+|Banger
+|2,750-2,999
+|-
+|Lil' G
+|3,000-3,499
+|-
+|Loc
+|3,500-3,999
+|-
+|Jacker
+|4,000-4,999
+|-
+|Shooter
+|5,000-7,499
+|-
+|Foot Soldier
+|7,500-9,999
+|-
+|Hoo-Rider
+|10,000-19,999
+|-
+|Soldier
+|20,000-29,999
+|-
+|Hawg
+|30,000-39,999
+|-
+|Gangsta
+|40,000-49,999
+|-
+|Ghetto Star
+|50,000-64,999
+|-
+|Monster
+|65,000-79,999
+|-
+|Big Homie
+|80,000-99,999
+|-
+|Boss Hawg
+|100,000-149,999
+|-
+|Shot Caller
+|150,000-199,999
+|-
+|OG
+|200,000-299,999
+|-
+|High Roller
+|300,000-374,999
+|-
+|Four-Star General
+|375,000-499,999
+|-
+|Godfather
+|500,000-999,999
+|-
+|King of San Andreas
+|1,000,000 and above
+|}
+
+[[Category:GTA San Andreas]]
+[[Category:Miscellaneous]]

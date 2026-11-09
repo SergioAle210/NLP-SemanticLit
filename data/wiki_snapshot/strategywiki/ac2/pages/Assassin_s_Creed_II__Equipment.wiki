@@ -1,0 +1,280 @@
+{{Header Nav|game=Assassin's Creed II}}
+
+Ezio has many types of equipment to help him, and more come along as the game progresses. Some equipment like weapons, armor and pouches can be bought at stores in the city, while others will be gained for bringing back codex pages to Leonardo from assassinations.
+
+==Weapons==
+There are 22 weapons in the game, all of which can be purchased at a blacksmith. Each weapon is rated from one to five stars by damage, speed and deflection. Damage indicates how powerful the weapon is; a larger damage rating means it takes less hits from the weapon to defeat an enemy. Speed is how fast Ezio can attack with the weapon. Deflection is how well the weapon can fend off enemy strikes. Bigger enemy weapons hit harder and are harder to parry, so higher deflection is needed.
+
+In addition to purchasing the weapons when they become available, you'll also need to collect 50 feathers to unlock the Condottiero War Hammer. Both the Condottiero War Hammer and the Sword of Altaïr can only be purchased at the Monterrigioni blacksmith. All prices are listed at their normal prices, not affected by any discounts that may be available from the Monterrigioni blacksmith, except the Sword of Altaïr, which is listed at its fullest discount, as you should have the blacksmith fully upgraded by the point it becomes available.
+
+{|{{prettytable|sortable=1}}
+! Weapon !! Type !! Damage !! Speed !! Deflect !! Available !! Cost (ƒ)
+|-
+| Dagger || Small weapon
+| {{~t|Rating|1}}
+| {{~t|Rating|1}}
+| {{~t|Rating|2}}
+| [[../Sequence 3: Requiescat in Pace#Casa dolce casa|Sequence 3]] || 500
+|-
+| Stiletto || Small weapon
+| {{~t|Rating|2}}
+| {{~t|Rating|4}}
+| {{~t|Rating|1}}
+| [[../Sequence 3: Requiescat in Pace#A change of plans|Sequence 3]] || 2,200
+|-
+| Knife || Small weapon
+| {{~t|Rating|1}}
+| {{~t|Rating|2}}
+| {{~t|Rating|3}}
+| [[../Sequence 3: Requiescat in Pace#Casa dolce casa|Sequence 3]] || 1,300
+|-
+| Metal Cestus || Small weapon
+| {{~t|Rating|3}}
+| {{~t|Rating|5}}
+| {{~t|Rating|1}}
+| Sequence 6 || 2,000
+|-
+| Sultan's Knife || Small weapon
+| {{~t|Rating|3}}
+| {{~t|Rating|5}}
+| {{~t|Rating|3}}
+| [[../Sequence 6: Rocky Road#Road trip|Sequence 6]] || 4,300
+|-
+| Butcher Knife || Small weapon
+| {{~t|Rating|4}}
+| {{~t|Rating|3}}
+| {{~t|Rating|5}}
+| Sequence 7 || 6,400
+|-
+| Channeled Cinquedea || Small weapon
+| {{~t|Rating|3}}
+| {{~t|Rating|3}}
+| {{~t|Rating|4}}
+| Sequence 5 || 4,100
+|-
+| Notched Cinquedea || Small weapon
+| {{~t|Rating|5}}
+| {{~t|Rating|5}}
+| {{~t|Rating|4}}
+| Sequence 8 || 9,300
+|-
+| Common Sword || Sword
+| {{~t|Rating|1}}
+| {{~t|Rating|2}}
+| {{~t|Rating|2}}
+| [[../Sequence 1: Ignorance is Bliss#Family heirloom|Sequence 1]] || {{n/a}}
+|-
+| Captain's Sword || Sword
+| {{~t|Rating|2}}
+| {{~t|Rating|4}}
+| {{~t|Rating|3}}
+| Sequence 5 || 5,200
+|-
+| Milanese Sword || Sword
+| {{~t|Rating|3}}
+| {{~t|Rating|5}}
+| {{~t|Rating|3}}
+| Sequence 7 || 11,300
+|-
+| Schiavona || Sword
+| {{~t|Rating|4}}
+| {{~t|Rating|5}}
+| {{~t|Rating|4}}
+| Sequence 8 || 25,000
+|-
+| Sword of Altaïr || Sword
+| {{~t|Rating|5}}
+| {{~t|Rating|5}}
+| {{~t|Rating|5}}
+| Sequence 10 || 42,500
+|-
+| Old Syrian Sword || Sword
+| {{~t|Rating|1}}
+| {{~t|Rating|2}}
+| {{~t|Rating|3}}
+| [[../Sequence 3: Requiescat in Pace#Casa dolce casa|Sequence 3]] || 2,300
+|-
+| Venetian Falchion || Sword
+| {{~t|Rating|1}}
+| {{~t|Rating|3}}
+| {{~t|Rating|1}}
+| [[../Sequence 3: Requiescat in Pace#Casa dolce casa|Sequence 3]] || 1,900
+|-
+| Florentine Falchion || Sword
+| {{~t|Rating|2}}
+| {{~t|Rating|3}}
+| {{~t|Rating|4}}
+| Sequence 5 || 5,200
+|-
+| Scimitar || Sword
+| {{~t|Rating|3}}
+| {{~t|Rating|3}}
+| {{~t|Rating|5}}
+| [[../Sequence 6: Rocky Road#Road trip|Sequence 6]] || 11,300
+|-
+| Mercenario War Hammer || Hammer
+| {{~t|Rating|1}}
+| {{~t|Rating|1}}
+| {{~t|Rating|3}}
+| [[../Sequence 3: Requiescat in Pace#Casa dolce casa|Sequence 3]] || 1,900
+|-
+| Condottiero War Hammer || Hammer
+| {{~t|Rating|5}}
+| {{~t|Rating|3}}
+| {{~t|Rating|4}}
+| Collect 50 Feathers || 30,600
+|-
+| Maul || Hammer
+| {{~t|Rating|2}}
+| {{~t|Rating|1}}
+| {{~t|Rating|2}}
+| [[../Sequence 3: Requiescat in Pace#A change of plans|Sequence 3]] || 3,600
+|-
+| Flanged Mace || Hammer
+| {{~t|Rating|3}}
+| {{~t|Rating|3}}
+| {{~t|Rating|3}}
+| Sequence 6 || 10,500
+|-
+| Cavalieri Mace || Hammer
+| {{~t|Rating|4}}
+| {{~t|Rating|2}}
+| {{~t|Rating|2}}
+| Sequence 7 || 20,800
+|}
+
+==Armor==
+There are five different sets of armor, each containing four pieces that protect different parts of the body. Armor can be purchased at the blacksmith, except for Altaïr's armor, which can only be acquired by finding all six assassin's seals and bringing them back to the Sanctuary under your villa. Different pieces can be mixed and matched, except for Altaïr's armor by equipping different pieces in the armor room of the villa. Equipping a piece of Altaïr's armor will put the entire set on you, and equipping a piece from another set while wearing Altaïr's armor will equip that whole set.
+
+Armor is judged on its resistance to damage, which determines how much damage Ezio takes from enemy weapons, and the health the armor adds, which is shown as the number of squares that are added onto Ezio's synchronization bar. In addition to its natural resistance and added health, Altaïr's armor can't be broken and never needs to be repaired at a blacksmith. All prices are listed at their normal amount, without any discounts that may be available from the Monterrigioni blacksmith.
+
+{|{{prettytable|sortable=1}}
+! Armor !! Type !! Resist !! Health Added !! Available !! Cost (ƒ)
+|-
+| Leather || Spaulders
+| {{~t|Rating|3}}
+| <span style="display:none">1</span><big>♦</big>
+| [[../Sequence 1: Ignorance is Bliss#Family heirloom|Sequence 1]] || 2,300
+|-
+| Leather || Chest Guard
+| {{~t|Rating|4}}
+| <span style="display:none">2</span><big>♦♦</big>
+| [[../Sequence 3: Requiescat in Pace#Casa dolce casa|Sequence 3]] || 4,600
+|-
+| Leather || Vambraces
+| {{~t|Rating|6}}
+| <span style="display:none">1</span><big>♦</big>
+| Sequence 4 || 1,100
+|-
+| Leather || Greaves
+| {{~t|Rating|2.5}}
+| <span style="display:none">1</span><big>♦</big>
+| [[../Sequence 3: Requiescat in Pace#Casa dolce casa|Sequence 3]] || 1,200
+|-
+| Helmschmied || Spaulders
+| {{~t|Rating|4.5}}
+| <span style="display:none">2</span><big>♦♦</big>
+| [[../Sequence 3: Requiescat in Pace#A change of plans|Sequence 3]] || 6,200
+|-
+| Helmschmied || Chest Guard
+| {{~t|Rating|5}}
+| <span style="display:none">3</span><big>♦♦♦</big>
+| Sequence 5 || 10,800
+|-
+| Helmschmied || Vambraces
+| {{~t|Rating|3}}
+| <span style="display:none">1</span><big>♦</big>
+| Sequence 5 || 2,900
+|-
+| Helmschmied || Greaves
+| {{~t|Rating|3.5}}
+| <span style="display:none">2</span><big>♦♦</big>
+| [[../Sequence 3: Requiescat in Pace#Casa dolce casa|Sequence 3]] || 5,200
+|-
+| Metal || Pauldrons
+| {{~t|Rating|5.5}}
+| <span style="display:none">3</span><big>♦♦♦</big>
+| Sequence 7 || 12,000
+|-
+| Metal || Chest Guard
+| {{~t|Rating|6}}
+| <span style="display:none">4</span><big>♦♦♦♦</big>
+| Sequence 7 || 17,200
+|-
+| Metal || Vambraces
+| {{~t|Rating|4}}
+| <span style="display:none">2</span><big>♦♦</big>
+| Sequence 6 || 6,300
+|-
+| Metal || Greaves
+|{{~t|Rating|4.5}}
+| <span style="display:none">2</span><big>♦♦</big>
+| Sequence 7 || 7,200
+|-
+| Missaglias || Pauldrons
+| {{~t|Rating|7}}
+| <span style="display:none">4</span><big>♦♦♦♦</big>
+| Sequence 10 || 21,300
+|-
+| Missaglias || Chest Guard
+| {{~t|Rating|8}}
+| <span style="display:none">5</span><big>♦♦♦♦♦</big>
+| Sequence 9 || 27,900
+|-
+| Missaglias || Vambraces
+| {{~t|Rating|6}}
+| <span style="display:none">3</span><big>♦♦♦</big>
+| Sequence 9 || 12,000
+|-
+| Missaglias || Greaves
+| {{~t|Rating|6.5}}
+| <span style="display:none">3</span><big>♦♦♦</big>
+| Sequence 8 || 14,600
+|-
+| Armor of Altaïr || Pauldrons
+| {{~t|Rating|7}}
+| <span style="display:none">4</span><big>♦♦♦♦</big>
+|  || {{n/a}}
+|-
+| Armor of Altaïr || Chest Guard
+| {{~t|Rating|8}}
+| <span style="display:none">6</span><big>♦♦♦♦♦♦</big>
+|  || {{n/a}}
+|-
+| Armor of Altaïr || Vambraces
+| {{~t|Rating|6}}
+| <span style="display:none">2</span><big>♦♦</big>
+|  || {{n/a}}
+|-
+| Armor of Altaïr || Greaves
+| {{~t|Rating|6.5}}
+| <span style="display:none">3</span><big>♦♦♦</big>
+|  || {{n/a}}
+|}
+
+==Other==
+{| {{prettytable}}
+! Item !! Description !! Available !! Cost
+|-
+| Small Medicine Pouch || Holds up to 5 medicine vials. Default. || Sequence 1 || {{n/a}}
+|-
+| Medium Medicine Pouch || Holds up to 10 medicine vials. || Sequence 1 || 3,000
+|-
+| Large Medicine Pouch || Holds up to 15 medicine vials. || Sequence 1 || 6,000
+|-
+| Small Knife Belt || Holds up to 10 throwing knives. Default. || Sequence 3 || {{n/a}}
+|-
+| Medium Knife Belt || Add five knives to the total you can carry. || [[../Sequence 6: Rocky Road#Tutti a bordo|Sequence 6]] || 3,000
+|-
+| Large Knife Belt || Add five knives to the total you can carry. || Sequence 8 || 6,000
+|-
+| Extra-large Knife Belt || Add five knives to the total you can carry. || [[../Sequence 4: The Pazzi Conspiracy#Novella's secret|Sequence 4]] || {{uplay|20}}
+|-
+| Small Poison Vial || Holds up to 5 poison vials. Default || Sequence 5 || {{n/a}}
+|-
+| Medium Poison Vial || Holds up to 10 poison vials. || Sequence 7 || 3,000
+|-
+| Large Poison Vial || Holds up to 15 poison vials. || Sequence 10 || 6,000
+|}
+
+{{Footer Nav|game=Assassin's Creed II|prevpage=Combat|nextpage=Walkthrough}}

@@ -1,0 +1,62 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar Triads.png]][[Grand Theft Auto: San Andreas/Yay Ka-Boom-Boom|Yay Ka-Boom-Boom]]
+* '''Location''': [[File:GTA San Andreas radar School.png]]Bayside Marina, Bayside, Tierra Robada 
+|}
+
+This is probably one of the easiest schools in the entire game. Like driving school, go to the red marker near the TV to start each challenge.
+
+== Basic Seamanship ==
+
+* '''Vessel:''' Coastguard
+* '''Scoring:''' 10 seconds for bronze, 9.6 second for gold
+
+Accelerate the boat and decelerate to stop in the area marked by the buoys.  No turning is necessary!
+
+To get the required time you need to start braking just after 6 seconds, it will probably take several attempts to get the timing right. Alternative: Speed up until second 7 and then push brake/backwards ''and'' handbrake.
+
+If you have a tool that can simulate keystrokes, set it up to hold {{kbd|W}} for exactly 6.56 seconds and then immediately press {{kbd|S}} for about 3 seconds to stop.
+
+== Plot a Course ==
+* '''Vessel:''' Coastguard
+* '''Scoring:''' less than 30 seconds for gold
+
+As in several of the tests, you have to maneuver your boat between the ''checkpoints'' — pairs of buoys.  On the radar, the pair you have to go through currently is indicated as a pair of yellow squares.  The following pair (which you can use to help position yourself through the current pair) is indicated as brown dots.  Take care not to hit the buoys as they slow you down and cause damage, which is subtracted from your test time at the end.
+
+The important things to remember about the boats is they continue to turn after you stop moving the rudder, and that you have to be moving to turn.  Make your turns only "halfway" then accelerate, and the boat will finish its turn in the direction you want to be going.  Letting off the gas ona turn makes it a little sharper at the expense of speed.
+
+First person view helps a lot on these.
+
+== Fresh Slalom ==
+* '''Vessel:''' Dinghy
+* '''Scoring:''' less than 80 seconds for gold.
+
+Another maneuvering between the buoys test. 
+
+== Flying Fish ==
+{{control selector|PlayStation 2,Xbox,Windows}}
+* '''Vessel:''' Vortex
+* '''Scoring:''' more than 57m for bronze, more than 65m for gold
+
+The ramp is to your left as you start the test.  But you have 40 seconds, which gives you plenty of time to go to the right, make a U turn, and accelerate towards the ramp head-on. While in the air, you can use {{control|{{psx|Up|Lstick}} and {{psx|Down|Lstick}}|{{xbox|Up|Lstick}} and {{xbox|Down|Lstick}}|{{kbd|up}} and {{kbd|down}}}} to direct the Vortex's nose down or up, thus shortening or lengthening the jump.
+
+== Land, Sea and Air ==
+* '''Vessel:''' Vortex
+* '''Scoring:''' less than 130 seconds for gold
+
+Just follow the course, trying not to bump into anything as there is a damage penalty.
+
+== Rewards ==
+As in the other schools, "bronze" means "at least bronze in every test," etc.
+
+* '''{{bronze}}''': Marquis spawns at the boat school.
+* '''{{silver}}''': Marquis and Squalo spawn at the boat school.
+* '''{{gold}}''': Marquis, Squalo and Jetmax spawns at the boat school.
+
+Bronze is all you need to earn progress toward [[Grand Theft Auto: San Andreas/100 percent checklist|100% completion]] as well.
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Bike School|previmg=[[File:GTA San Andreas radar School.png]]|hereimg=[[File:GTA San Andreas radar School.png]]|nextpage=Flying School|nextimg=[[File:GTA San Andreas radar School.png]]}}

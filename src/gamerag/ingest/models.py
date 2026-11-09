@@ -16,6 +16,10 @@ class Location(BaseModel):
     level: int | None = None  # Zelda: mazmorra 1-9
     act: int | None = None  # Ninja Gaiden: acto 1-6
     stage: str | None = None  # Ninja Gaiden: "2-3"
+    # Sin ubicación asignada en una fuente que no la trae en sus títulos (Wikipedia, wikis de fans): solo la ven
+    # perfiles sin restricción hasta que se etiquete. Evita que contenido de cualquier punto del juego cuente
+    # como "general" y se filtre a un jugador que apenas empieza.
+    restricted: bool = False
 
 
 class Chunk(BaseModel):
@@ -36,3 +40,7 @@ class Chunk(BaseModel):
     # --- acceso ---
     game: str
     location: Location = Location()
+    # --- memoria (notas generadas por `gamerag.dream`) ---
+    origin: str = "strategywiki"  # wiki de la que sale el chunk (las extra van a la busqueda secundaria)
+    kind: str = "source"  # "source" (wiki) | "note" (derivada, verificada contra sus fuentes)
+    derived_from: list[str] = []  # chunk_ids de los que sale una nota (su acceso depende de todos ellos)

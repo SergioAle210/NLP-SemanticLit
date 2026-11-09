@@ -1,0 +1,154 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork ALttP= File:Mirrorshieldlttp.png
+ |Artwork LA= File:LA Mirror Shield Artwork.png
+ |Artwork MM3D= File:MM3D Mirror Shield Artwork.png
+ |Artwork TWWHD= File:TWWHD Mirror Shield Artwork.png
+ |Render OoT= File:OoT Mirror Shield Render.png
+ |Render OoT3D= File:OoT3D Mirror Shield Render.png
+ |Render MM= File:MM Mirror Shield Render.png
+ |Model LANS= File:LANS Mirror Shield Model.png
+ |Model OoT= File:OoT Mirror Shield Model.png
+ |Model OoT3D= File:OoT3D Mirror Shield Model.png
+ |Model MM= File:MM Mirror Shield.png
+ |Model MM3D= File:MM3D Mirror Shield Model.png
+ |Model TWW= File:Mirror Shield TWW.png
+ |Model TWWHD= File:TWWHD Mirror Shield Model.png
+ |Sprite ALttP= File:ALttP Mirror Shield Sprite.png
+ |Sprite LA= File:LA Mirror Shield Sprite.png
+ |Sprite LADX= File:LADX Mirror Shield Sprite.png
+ |Sprite LANS= File:LANS Mirror Shield Icon.png
+ |Sprite OoT= File:OoT Mirror Shield Icon.png
+ |Sprite OoT3D= File:OoT3D Mirror Shield Icon.png
+ |Sprite MM= File:MM Mirror Shield Icon.png
+ |Sprite MM3D= File:MM3D Mirror Shield Icon.png
+ |Sprite OoS= File:OoS Mirror Shield Sprite.png
+ |Sprite OoA= File:OoA Mirror Shield Sprite.png
+ |Sprite TWW= File:TWW Mirror Shield Icon.png
+ |Sprite TWWHD= File:TWWHD Mirror Shield Icon.png
+ |Sprite TMC= File:TMC Mirror Shield Sprite.png
+}}
+|caption= 
+|game= {{ALttP}}<br/>{{LA}}<br/>{{OoT}}<br/>{{MM}}<br/>{{OoS}}<br/>{{OoA}}<br/>{{TWW}}<br/>{{TMC}}<br/>{{TotK}}
+|other= {{AST}}<br/>{{SCII}}<br/>{{HW}}<br/>{{CoH}}
+|cost= 
+|location= [[Turtle Rock]] {{Exp Game|ALttP}}<br/>[[Eagle's Tower]] {{Exp Game|LA}}<ref name="LA Location">{{Cite Guide|quote= |game= LA|publisher= Nintendo|page= 72}}</ref><br/>[[Spirit Temple]] {{Exp Game|OoT}}<br/>[[Beneath the Well]] {{Exp Game|MM}}<br/>[[Earth Temple]] {{Exp Game|TWW}}<br/>[[Veil Falls]] {{Exp Game|TMC}}
+|uses= 
+|comparable = [[Hylian Shield]]
+}}
+The {{Term/Store|Mirror Shield||Series, ALttP, LA, LADX, OoS, OoA, OoT, OoT3D, MM, MM3D, TWW, TWWHD, TMC}} is a recurring [[Shield]] in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 131{{Exp Game|ALttP, LA, OoS, OoA, OoT, MM, TWW, TMC}}}}</ref>{{Name Ref|AST, HWDE, CoH}} It is a powerful {{Term|Series|Shield|link}} that allows {{Term|Series|Link|link}} to reflect [[Light Beam]]s or [[Magic]] from one place to another due to its reflective surface. It is often the strongest shield the hero obtains in the core series.
+
+==Location and Uses==
+==={{ALttP|-}}===
+[[File:Alttp Link with Mirror Shield.png|left|thumb|125x125px|Link wielding the Mirror Shield in ''A Link to the Past'']]
+In {{ALttP}}, its first appearance, the Mirror Shield is the strongest {{Term|ALttP|Shield}} that {{Term|ALttP|Link|link}} can obtain and is found in {{Term|ALttP|Turtle Rock|link}}. It is more advanced than the previous two shields, known for its ability to stop beams, such as those fired by {{Plural|ALttP|Laser Eye|link}}, and attacks from enemies such as {{Plural|ALttP|Lynel|link}}, and it can even reflect {{Term|ALttP|Wizzrobe|link}} projectiles. However, it still cannot stop the beams of a {{Term|ALttP|Beamos|link}}. It is very large; only half of [[Link]]'s body being visible behind it during gameplay. It cannot be stolen by {{Plural|ALttP|Pikit|link}}, but in {{ALttP&FS}}, the game's [[Game Boy Advance|GBA]] remake, it can still be eaten by {{Term|ALttP|Like Like|link}}. Because of this, a shop in the {{Term|ALttP|Dark World|link}} will sell a replacement {{Term|ALttP|Mirror Shield}} if Link loses it in this version of the game.
+
+==={{LA|-}}===
+In {{LA}}, the {{Term|LANS|Mirror Shield}} is found in {{Term|LANS|Eagle's Tower|link}}.<ref name="LA Location"/> Because the {{Term|LANS|Shield}} can protect its user from {{Term|LANS|Fire|link}}, {{Term|LANS|Wind|link}} and lasers from {{Plural|LANS|Beamos|link}},<ref>{{Cite|You've got the Mirror Shield! You can now turn back the beams you couldn't block before!|N/A|LADX}}</ref><ref name="LA Location"/> it is essential for getting to the last {{Term|LANS|Dungeon|link}}, {{Term|LANS|Turtle Rock|link}}, as it is used to pass through {{Plural|LANS|Fire|link}}.<ref>{{Cite Guide|quote= |game= LA|publisher= Nintendo|page= 77}}</ref> The {{Term|LANS|Mirror Shield}} is also unable to be eaten by {{Plural|LANS|Like Like}}.{{Fact|LANS}}
+
+==={{OoT|-}}===
+In {{OoT}}, the Mirror Shield is the third and final shield that Link acquires in his adventure. It is found in the [[Spirit Temple]] as one of its key items (alongside the [[Silver Gauntlets]]) on a ledge that can only be reached after defeating an [[Iron Knuckle (Boss)|Iron Knuckle]] on the Adult Link portion of the temple. Unlike the slightly smaller [[Hylian Shield]], the Mirror Shield has a polished surface, allowing it to reflect light and offensive magic. This allows the [[Hero of Time]] to solve the [[light]] puzzles in the Dungeon, specifically the [[Spirit Temple]] and [[Ganon's Castle]]. Otherwise, the Mirror Shield acts the same except for the fact that it also destroys the projectiles spat at Link by [[Octorok]]s, [[Deku Scrub]]s, and [[Business Scrub]]s, instead of reflecting them. It can also somewhat reflect one of [[Ganondorf]]'s magic attacks. The shield itself is indestructible, as it cannot be stolen and eaten by Like Likes. It cannot be used by Link as a child, due to its size.
+[[File:Twinrova battle.jpg|thumb|236x236px|Link using the Mirror Shield to redirect Kotake's ice magic beam back toward Koume in ''Ocarina of Time'']]
+The Mirror Shield also plays an important role in defeating [[Twinrova]], the [[Boss]] of the Spirit Temple, as it is required. When [[Koume]] and [[Kotake]] are separate, the Mirror Shield can be used to reflect - and in turn, direct to the other sister - the fire or ice beam that a sister will fire at Link to cause damage. When in their combined form, the Mirror Shield can absorb Twinrova's elemental magic energies, and after three of the same type of energy is absorbed, a wind-like beam of that particular element is automatically fired that can stun Twinrova temporarily for a quick few slashes.
+
+The original [[Nintendo 64]] version of the game featured the Mirror Shield with a [[Controversy in The Legend of Zelda Series|controversial symbol]] resembling the Islamic {{Wp|star and crescent}} symbol (as with [[Block|Blocks]] and [[Switch|Switches]]), but this was changed in later releases and remakes to the [[Crest of the Gerudo]] seen since ''[[The Legend of Zelda: Majora's Mask|Majora's Mask]]'' because of [[Nintendo]]'s policy of avoiding real-world religious imagery.
+
+<center><gallery>
+File:Mirrorshield old.jpg|Nintendo 64 original version
+File:Mirrorshield new.jpg|Nintendo GameCube version
+</gallery>'''Comparison of the two different versions of the Mirror Shield'''</center>
+
+==={{MM|-}}===
+In {{MM}}, the Mirror Shield appears depicted as a decagonal shield with a picture of an unhappy or screaming face upon it. It is found in a {{Term|MM|Treasure Chest|link}} within [[Beneath the Well]] after {{Term|MM|Link|link}} bargains his way past several [[Gibdo]]s. Once obtained, it permanently replaces the [[Hero's Shield]] and functions similarly to its ''Ocarina of Time'' counterpart. It can reflect light, and is vital for progressing through the [[Ancient Castle of Ikana|Ikana Castle]] and solving the few light puzzles in the [[Stone Tower Temple]]. Light directed from the Mirror Shield also has the ability to instantly defeat most [[:Category:Undead|undead]] enemies, such as [[Floormaster]]s and [[ReDead]]s. As in the game's prequel, it destroys the projectiles spat at {{Term|MM|Link}} by {{Plural|MM|Octorok|link}} and {{Plural|MM|Deku Scrub|link}}, instead of reflecting them.
+==={{OoS|-}}===
+In {{OoS}}, the {{Term|OoS|Mirror Shield}} appears as third and final {{Term|OoS|Wooden Shield|link}} upgrade. The {{Term|OoS|Mirror Shield}} can only be obtained in a {{Term|OoS|Linked Game|link}}, via upgrading the {{Term|OoS|Wooden Shield}} into the {{Term|OoS|Iron Shield|link}}, and the {{Term|OoS|Iron Shield}} into the {{Term|OoS|Mirror Shield}} through both gameplay and use of a password. These upgrades can be performed in either order. As in {{OoT|-}}, the {{Term|OoS|Mirror Shield}} can block {{Term|OoS|Twinrova|link}}'s energy attacks, although it cannot reflect them, nor can it reflect anything else the other {{Plural|OoS|Shield}} cannot.{{Verify|OoS}} It is simply able to block things that the {{Term|OoS|Iron Shield|link}} cannot.
+
+Like the other {{Plural|OoS|Shield}}, the {{Term|OoS|Mirror Shield}} can be eaten by {{Plural|OoS|Like Like|link}}. The {{Term|OoS|Mirror Shield}} can be regained by purchasing one at any {{Term|OoS|Shop|link}} for 80 {{Plural|OoS|Rupee|link}}, as it appears in shops after upgrading the {{Term|OoS|Iron Shield}}.
+
+==={{OoA|-}}===
+In {{OoA}}, the {{Term|OoA|Mirror Shield}} appears as the third and final {{Term|OoA|Wooden Shield|link}} upgrade. It can only be obtained in a {{Term|OoA|Linked Game|link}}, via upgrading the {{Term|OoA|Wooden Shield}} into the {{Term|OoA|Iron Shield|link}}, and further upgrading into the {{Term|OoA|Mirror Shield}} through both gameplay and using a password. These upgrades can be performed in either order. As in {{OoT|-}}, the {{Term|OoA|Mirror Shield}} can block {{Term|OoA|Twinrova|link}}'s energy attacks, although it cannot reflect them, nor can it reflect anything else the other {{Plural|OoA|Shield}} cannot.{{Verify|OoA}} It is simply able to block things that the {{Term|OoA|Iron Shield}} cannot.
+
+Like the other {{Plural|OoA|Shield}}, the {{Term|OoA|Mirror Shield}} can be eaten by {{Plural|OoA|Like Like|link}}. The {{Term|OoA|Mirror Shield}} can be regained by purchasing one at any {{Term|OoA|Shop|link}} for 80 {{Plural|OoA|Rupee|link}}, as it appears in shops after upgrading the {{Term|OoA|Iron Shield}}.
+
+==={{TWW|-}}===
+In {{TWW}}, the {{Term|TWWHD|Mirror Shield}} is found in the {{Term|TWWHD|Earth Temple|link}}. It is obtained by defeating three {{Plural|TWWHD|Stalfos|link}}, the {{Plural|TWWHD|Miniboss|link}} of the {{Term|TWWHD|Earth Temple}}. It is the second and final {{Term|TWWHD|Shield|link}} and automatically replaces the {{Term|TWWHD|Hero's Shield|link}} once obtained.
+
+The {{Term|TWWHD|Mirror Shield}} is required to solve light puzzles.<ref>{{Cite|This mirror-plated shield can reflect beams of light.|Inventory|TWWHD}}</ref> It occasionally must be paired with another light beam to successfully solve a puzzle, usually by utilizing {{Term|TWWHD|Medli's Harp|link}} as it acts much, if not the same, as the {{Term|TWWHD|Mirror Shield}} does regarding light. Light that bounces off the {{Term|TWWHD|Mirror Shield}} can also paralyze certain enemies such as {{Plural|TWWHD|ReDead|link}}. Using the {{Term|TWWHD|Mirror Shield}} is the only way to solidify {{Plural|TWWHD|Poe|link}} and thereby required to defeat {{Term|TWWHD|Jalhalla|link}}, and allows {{Plural|TWWHD|Dark Chuchu|link}} to be turned to stone.
+
+The {{Term|TWWHD|Mirror Shield}} can also cause certain stone statues to break and reflect light along a large network of mirrors, as seen in the Earth Temple. The ability to break stone statues is needed to carry on past Floor 30 of the {{Term|TWWHD|Savage Labyrinth|link}}. Lastly, it proves invaluable in the final battle, during which {{Term|TWWHD|Link}} uses it to reflect {{Term|TWWHD|Princess Zelda|link}}'s {{Plural|TWWHD|Light Arrow|link}} onto {{Term|TWWHD|Ganondorf|link}} when he begins to dodge them, giving the Hero of Winds an opportunity to land the finishing blow.
+
+==={{TMC|-}}===
+After defeating {{Term|TMC|Vaati|link}}, {{Term|TMC|Link}} can find {{Term|TMC|Biggoron|link}} at the peak of {{Term|TMC|Veil Falls|link}} and let him eat his {{Term|TMC|Small Shield|link}}. If {{Term|TMC|Link}} returns later, {{Term|TMC|Biggoron}} will give him the {{Term|TMC|Mirror Shield}} as compensation. While {{Term|TMC|Link}} guards with the {{Term|TMC|Mirror Shield}}, any projectiles that hit it are converted into a beam that shoots back in the direction that {{Term|TMC|Link}} is facing. The {{Term|TMC|Mirror Shield}} does not fire a beam when hit by an enemy at close range. The design is the same as the {{Term|TWW|Mirror Shield}} from {{TWW|-}}.
+
+==={{TotK|-}}===
+In {{TotK}}, a Mirror Shield is created by using {{Term|TotK|Fuse|link}} with any {{Term|TotK|Shield}} on a Mirror {{Term|TotK|Zonai Devices|link|display=Zonai Device}}. As it functions as the mirror device itself, it only reflects sunlight or other bright light sources and does not reflect or protect against magic.{{Verify}} The reflected light can be pointed at minor enemies, which stuns them for a short time and makes them drop their weapons.
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{AST|-}}===
+{{Stub|AST}}
+The {{Term|AST|Mirror Shield}} is found in {{Term|AST|Level 8|link}} in {{AST}}.
+
+==={{SCII|-}}===
+In {{SCII}}, the Mirror Shield from {{OoT|-}} is one of shields available to Link. Paired off with the Master Sword, the Mirror Shield can be bought in the Pollux Shop, Rigel Shop or the Aldebaran Shop for 2200 Gold while playing the Weapon Master Mode. Although Link's offense and defense stays the same when he equips this shield, all of the hits the young hero takes are counters, and 33% of damage received is inflicted back to the opponent.<ref>{{Cite|Reflects attacks, but may cause Link to lose balance|N/A|Soulcalibur II}}</ref>
+
+{|class="wikitable"
+! Image
+!width="60px"|Cost
+!width="160px"|Attributes
+!In-game Description
+|-
+|[[File:SCII Master Sword and Mirror Shield Model.png|80px]]
+|<center>2200 Gold</center>
+|<center>Hits taken are counters</center>
+<center>33% of damage received is inflicted back onto opponent</center>
+|A mirror-like shield found in the [[Spirit Temple]]. It is an amazing work of art, and there are few who would argue that it is not one of the finest shields in Hyrule. It is said that its surface reflects not only light but hostile intent as well.
+|}
+
+==={{HW|-}}===
+In {{HW}}, the Mirror Shield from {{MM|-}} appears as a Defense [[Badge Market|Badge]]. It decreases the damage taken from battles with {{Term|HWDE|Element|link|display=Darkness}} as a recommended element. Its damage reduction effect can also be further increased by crafting its enhanced Badges. 
+In {{HW|-}} and {{HW|L}}, the Mirror Shield from {{TWW|-}} also appears paired with the [[Lokomo Sword]] from {{ST}} as the third tier of [[Toon Link]]'s [[Light Sword]] weapon.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+{{Stub|CoH}}
+{{Ambig|End}}
+
+==Trivia==
+*The Mirror Shield may be a direct reference to the [[w:c:kidicarus:Mirror Shield|Mirror Shield]] of the ''[[w:c:kidicarus:Kid Icarus (series)|Kid Icarus]]'' series, used by [https://kidicarus.fandom.com/wiki/Pit Pit], the main protagonist, to defend against [[w:c:kidicarus:Medusa|Medusa]]'s eye beams. The Mirror Shield is first used in [[The Legend of Zelda (series)|''The Legend of Zelda'' series]] to similarly defend against [[Laser Eye]]s. The Shield in both series is likely a reference to the Greek myth of {{Wp|Perseus}}, where he used a shield to reflect the image of {{Wp|Medusa}} so he could avoid her gaze. The ''Kid Icarus'' series also includes the [https://www.kidicaruswiki.org/wiki/Arrow_of_Light Arrow of Light], both items predating their appearance in the ''Zelda'' series.
+*Despite being in a [[Treasure Chest|Big Chest]] in [[Turtle Rock]] in {{ALttP}}, it is not required to complete the game, unlike other key items.
+*The [[Magical Shield]] from ''[[The Legend of Zelda]]'' and ''[[Zelda II: The Adventure of Link|The Adventure of Link]]'' is considered a precursor to the Mirror Shield.
+*The Mirror Shield also appears in ''{{Wp|Kaeru no Tame ni Kane wa Naru|The Frog For Whom the Bell Tolls}}''. ''[[The Legend of Zelda: Link's Awakening|Link's Awakening]]'' borrows much from this game, including the game's engine and the cameo appearance of [[Prince Richard]]. In the [[Game Boy]] installment, the shield is used to reflect a mammoth boss's image, causing it to hesitate and leave itself open to attack. The Mirror Shield is found in the [[Ice Cavern]] and is the strongest shield in the game. [[File:For The Frog The Bell Tolls - Mirror Shield.png]]
+*The [[Happy Mask Salesman]]'s backpack has a [[Mask]] in the shape of ''[[The Legend of Zelda: Majora's Mask|Majora's Mask]]''<nowiki/>'s Mirror Shield.
+*In ''[[The Legend of Zelda: Ocarina of Time|Ocarina of Time]]'', when the Mirror Shield absorbs the combined [[Twinrova]]'s attacks, a [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_MirrorShield_Absorb1.wav distinctive sound effect] plays that goes faster and higher-pitched as it gains more power until it finally redirects the magic beam back at her.
+**Contrary to popular belief, it is not necessarily required to press and hold the Shield button to hit Twinrova as the Mirror Shield fires the absorbed magical attack (though it is more effective), as it is possible for [[Link]] to redirect it by simply turning around.
+*In the {{CE}} version of {{MM|-}} on the [[Nintendo GameCube]], the Mirror Shield causes a slight graphical error. When reflecting light, a green and black stripe slowly slides across the light-ray every second or so. This is likely a result of poor emulation.
+*The Japanese [[Nintendo 64]] release of {{MM|-}} has a different Mirror Shield in the game's programming as an unused item. It has a finished select icon and appears identical to what would later be the revised Mirror Shield of ''Ocarina of Time'', predating the GameCube edition. However, the use of this item crashes the game.
+*In ''[[The Legend of Zelda: The Wind Waker|The Wind Waker]]'', the Mirror Shield momentarily vanishes from Link's back during the cutscene after the final battle, due to him dropping it following the final blow against [[Ganondorf]]. It reappears following the end credits when he departs from [[Outset Island]], though it is unknown how he reobtained it following [[Hyrule]] being completely swept away by the [[Great Sea]]'s water.
+*In ''[[The Legend of Zelda: The Minish Cap|The Minish Cap]]'', unused text implies that the Mirror Shield, along with the [[Magic Boomerang]] and the unused [[Fire Rod]], was sold for 350 [[Rupee]]s instead.<ref>{{Cite Web|quote= Mirror Shield 350 Rupees|author= |published= |retrieved= August 8, 2015|url= http://www.zeldalegends.net/files/emulation/dumps/tmc/tmc_dump_english-american.txt|title= The Minish Cap Text Dump|site= Zelda Legends|type=}}</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Mirror Shield Sprite LttP.gif|The Mirror Shield on the subscreen of {{ALttP|-}}
+File:LADX Mirror Shield Wielded Sprite.gif|The {{Term|LADX|Mirror Shield}} when used by {{Term|LADX|Link}} from {{LA|DX|-}}
+File:OoT Mirror Shield Model 2.png|The original design of the {{Term|OoT|Mirror Shield}} from {{OoT|-}}
+File:OoT Mirror Shield Icon 2.png|The original icon of the {{Term|OoT|Mirror Shield}} from {{OoT|-}}
+File:SCII Mirror Shield Model.png|The Mirror Shield as seen in {{SCII|-}}
+File:HW Mirror Shield Badge Icon.png|The Mirror Shield Badge icon from {{HW|-}}
+File:TWW Mirror Shield Icon.png|The Mirror Shield icon from [[The Wind Waker]]
+File:HWL Lokomo Sword Artwork.png|Artwork of the Mirror Shield with the Lokomo Sword from {{HW|-}}
+File:HW Lokomo Sword.png|The Mirror Shield in the Lokomo Sword icon from {{HW|-}}
+File:CoH Mirror Shield Sprite.png|The {{Term|CoH|Mirror Shield}} from {{CoH|-}}
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Mirrors, Shields
+ |items= ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, TWW, TWWHD, TMC, AST, Soulcalibur II, HW, HWL, HWDE, CoH
+}}

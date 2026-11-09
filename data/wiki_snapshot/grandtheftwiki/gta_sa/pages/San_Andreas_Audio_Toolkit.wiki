@@ -1,0 +1,30 @@
+{{ToolBox
+| name    = San Andreas Audio Toolkit
+| version = 1.10
+| patrol  = no
+| date    = 12 January 2006
+| author  = [[User:pdescobar|pdescobar]]
+| game    = [[GTA SA]]
+| genre   = [[Audio streams|audio importer and exporter]]
+| site    = http://pdescobar.home.comcast.net/gta/saat/
+}}
+'''San Andreas Audio Toolkit (SAAT)''' is a tool created by [[User:pdescobar|pdescobar]] that lets you import and export audio files to and from San Andreas.
+
+==Initial installation==
+This article will show you the first few steps to make the tool work. All directions are located on the [http://pdescobar.home.comcast.net/gta/saat/ official website].
+* Extract the files to anywhere in the computer, preferably somewhere convenient.
+* Open <code>cmd.exe</code>, which is usually located at Start>All Programs>Accessories>Command Prompt on Windows XP and Vista.
+* Type the name of the drive where the tool is extracted (ex. type <code>C:</code> if the tool is in the C drive) and hit Return.
+* Next type or copy and paste the location of the tool using the <code>cd</code> command (ex. type <code>cd "C:\Program Files\Rockstar Games\GTA San Andreas"</code> if it is installed in that folder) and hit Return.
+
+==External links==
+* [http://pdescobar.home.comcast.net/gta/saat/ The San Andreas Audio Toolkit (SAAT)] - Official Website
+* [http://pdescobar.home.comcast.net/gta/saat/GFS_Setup1.1.rar Pho3niXx's GUI For SAAT] - Direct download (mirror on official site)
+* [http://gta-worldmods.t-n-network.de/phpkit/start/include.php?path=content/download.php&contentid=2211 Alci's SAAT GUI FrontEnd 1.0] - GTA-Worldmods.de download
+
+{{modding}}
+{{gtasa}}
+{{fdl}}
+
+[[Category:Audio Formats]]
+[[Category:GTA San Andreas]]

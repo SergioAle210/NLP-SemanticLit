@@ -1,0 +1,195 @@
+{{Hatnote|This article refers to the [[Item]]. For the [[Enemy]], see [[Real Bombchu]].}}
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= [[File:OoT Bombchu Render.png|320x320px]]
+ |Render MM= [[File:MM Bombchu Render.png|320x320px]]
+ |Model OoT= [[File:OoT Bombchu Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Bombchu Model.png|320x320px]]
+ |Model OoTNS2= {{Please Upload|File:OoTNS2 Bombchu Model.png}}
+ |Model MM= [[File:MM Bombchu Model.png|320x320px]]
+ |Model MM3D= [[File:MM3D Bombchu Model.png|320x320px]]
+ |Model PH= [[File:PH Bombchu Model.png|320x320px]]
+ |Model EoW= [[File:EoW Bombchu Model.png|320x320px]]
+ |Sprite OoT= [[File:OoT Bombchu Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Bombchu Icon.png|160x160px]]
+ |Sprite OoTNS2= [[File:OoTNS2 Bombchu Icon.png|320x320px]]
+ |Sprite MM= [[File:MM Bombchu Icon.png|160x160px]]
+ |Sprite MM3D= [[File:MM3D Bombchu Icon.png|160x160px]]
+ |Sprite OoS= [[File:OoS Bombchu Sprite.png|160x160px]]
+ |Sprite OoA= [[File:OoA Bombchu Sprite.png|160x160px]]
+ |Sprite PH= [[File:PH Bombchu Icon.png|160x160px]]
+}}
+|caption= 
+|pronunciation= {{IPA|ˈbɒmtʃuː}} {{Respell|BOM|choo}}<ref name="HW YouTube"/>
+|plural= 
+|game= OoT, MM, OoS, OoA, PH, EoW
+|other= HW, SSB4, SSBU, CoH
+|cost= 
+|value= 
+|location= 
+|uses= 
+|strength= 
+{{Infobox Game Blocks
+ |OoT= {{HP|OoT|2}}
+ |MM= {{HP|MM|2}}
+}} 
+|durability= 
+|comp= [[Bombling]]
+|sample= 
+|theme= 
+}}
+'''Bombchus''' are recurring [[Item]]s in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Bombchu|Bombchus|Series, OoT, OoT3D, OoTNS2, MM, MM3D, OoS, OoA, PH, EoW, CoH}}
+| '''Bombchus'''
+| 
+{{List|
+ * {{OoT}}<ref name="E 118"/>
+ * {{OoT3D}}<ref name="E 118"/>
+ * {{OoTNS2}}<ref name="OoTNS2 Items"/>
+ * {{MM}}<ref name="E 118"/>
+ * {{MM3D}}<ref name="E 118"/>
+ * {{OoS}}<ref name="E 118"/>
+ * {{OoA}}<ref name="E 118"/>
+ * {{PH}}<ref name="E 118"/>
+ * {{EoW}}<ref name="EoW Key Items"/>
+ * {{HWDE}}{{Name Ref|HWDE}}
+ * {{SSBfN3DS}}{{Name Ref|SSBfN3DS}}
+ * {{SSBfWU}}{{Name Ref|SSBfWU}}
+ * {{SSBU}}{{Name Ref|SSBU}}
+ * {{CoH}}<ref name="CoH Inventory"/>
+}}
+}}
+
+==Location and Uses==
+==={{OoT|-}}===
+{{Descriptions OoT}}
+Bombchus are a type of mobile explosive that travel along the ground, walls and ceilings until they either self-destruct, which is indicated by red flashing, or touch an [[Object]] or [[Enemy]].<ref name="OoT Manual"/> They can be used to deliver explosive power to areas that regular Bombs and other weapons cannot reach and to attack enemies or activate switches without [[Link]] needing to get too near.
+
+They are usually found in [[Treasure Chest]]s in [[Dungeon]]s, but may also be obtained through the following ways:
+
+*There is a [[Bombchu Shop]] open at night in the Back Alley of [[Hyrule Castle Town|Castle Town]], although their stock is limited, and each item can only be bought once before selling out.<ref name="OoT Bombchu Shop Owner"/>
+*The [[Bombchu Bowling Alley]] will give out Bombchus as one of the random prizes Link wins if he wins the mini-game.
+*After finding 40 [[Gold Skulltula]] Tokens, Link can receive 20 Bombchus from the fourth son at the [[House Covered in Cobwebs]] in [[Kakariko Village]].
+*Bombchu can be bought from the [[Carpet Merchant]] in the [[Haunted Wasteland]]. He sells packs of 10 Bombchus for 200 [[Rupee]]s.<ref name="OoT Carpet Merchant"/>
+
+Link can hold up to 50 of them at a time.
+
+==={{MM|-}}===
+{{Descriptions MM}}
+In {{MM}}, Bombchus may be purchased at the [[Bomb Shop#Majora's Mask|Bomb Shop]] in [[Clock Town]], which sells a pack of 10 Bombchus for 40 Rupees. Link may carry only up to 40 of them at a time. Link can also find them in [[Treasure Chest]]s in [[Secret Grotto]]es around [[Termina]], needing either a Bomb or the [[Blast Mask]] to open the entrance.
+
+==={{OoS|-}}===
+[[Link]] can purchase Bombchus from [[Syrup's Potion Shop]], but only once he has obtained them once before, which he can do by completing the [[Subrosian Secret]] and getting Bomchus from the golden [[Subrosian]] or by telling [[Farore]] the [[Troy Secret]]. Once obtained, [[Syrup]] will begin selling packs of them at the price of 100 [[Rupee]]s for five Bombchus.
+
+In {{OoA}} and {{OoS}}, Bombchus only travel in a straight line if there are no [[Enemy]] present. Otherwise, they lock on their target and follow it until they are able to hit it and explode.
+
+==={{OoA|-}}===
+Bomchus can be purchased from [[Syrup's Potion Shop]], but they are not on sale until [[Link]] first obtains them elsewhere. In order to do this, he can complete the [[Troy Secret]] and obtain them from [[Dr. Troy]] or tell [[Farore]] the [[Subrosian Secret]]. Then, [[Syrup]] will add Bombchus to her stock, which Link can buy by packs of five for 100 [[Rupee]]s.
+
+Bombchus will lock onto a target and follow it until they impact and explode. If no [[Enemy]] is present, the Bombchu will simply travel forward in a straight line.
+
+==={{PH|-}}===
+In {{PH}}, Bombchus and the [[Bombchu Bag]] are found in the [[Goron Temple]]. Link can initially carry 10 Bombchus, but may acquire two more Bombchu Bags, allowing him to carry up to 30. The usefulness of Bombchus are expanded and their functions differ compared to earlier games since [[Link]] must draw out a path for it to follow on the map.<ref name="PH N/A"/> When used, the map goes to the bottom screen so that Link can draw the path he wants the Bombchu to take.<ref name="PH Guide 12"/> They do not automatically travel in a straight line nor home in on enemies, and they travel at a noticeably slower space. They can be used to scout areas ahead of Link, or attack enemies around corners long before they notice Link's presence. They are also the only items which can go through small holes in walls.<ref name="PH Guide 12"/> Link can move around at the same time as the Bombchu,<ref name="PH Guide 12"/> which is required to solve certain puzzles. Bombchus in {{PH|-}} are also the only kind that are given their own [[Bombchu Bag]], as well as the first in which Link can increase his capacity of them. While they still appear often in shops, Bombchus can also be found throughout the [[Overworld]] much like other ammunition, such as inside Jars.
+
+==={{EoW|-}}===
+{{Main|Bombs of Might, Bombs of Might Lv. 2, Bombs of Might Lv. 3}}
+When fighting [[Ganon]] in the [[Suthorn Ruins]], [[Link]] is able to transform the [[Swordsman's Bombs]] into a Bombchu by holding the A button for a couple seconds after taking out a [[Bomb]].<ref name="EoW Key Items"/> In [[Eldin Temple]], the [[Echo]] of [[Link]] is also able to attack [[Princess Zelda]] with both Bombs and Bombchus. Once she beats him, the Princess will be able to use [[Bombs of Might]] in her [[Swordfighter Form]], but they cannot turn into Bombchus. In orders to use Bombchus herself, Zelda will need to upgrade the Bombs of Might into [[Bombs of Might Lv. 2]] at [[Lueburry's House]] for 10 [[Might Crystal]]s after completing the [[Main Quest]] "[[The Mysterious Rifts]]". The [[Bombs of Might Lv. 3]] can also be turned into Bombchus.
+
+==Other Appearances==
+==={{HW|-}}===
+{{Frameless|[[File:HW Bombchu Model.png|100px|thumb|right|A Bombchu in {{HW|-}}]]}}
+{{Noncanon|Start}}
+In {{HW}}, Bombchus appear in a giant variation. They are used by both [[Allied Forces]] and [[Enemy Forces]] in certain battles. Once obtained, they move in a set path. They can be used to destroy giant obstacles blocking the way.<ref name="HW YouTube 2"/> Enemies will try to attack them to stop their advance. Enemy Forces can also use Bombchus against the Allied Forces as a weapon, which will target key [[Keep]]s and explode, causing massive damage that reclaims the Keep. These Bombchus must be destroyed before they can reach the Keeps. A [[Bombchu Operator]] is a type of [[Captain (Hyrule Warriors)|Captain]] that appears in certain battles, which operate Bombchus. If they are defeated, their Bombchus can be claimed and sent back to target the Enemy Forces.
+{{Noncanon|End}}
+
+==={{SSB4|-}}===
+{{Noncanon|Start}}
+[[File:SSB4 Bombchu Icon.png|left|40px]]
+In {{SSB4}}, Bombchus appear as explosive items. Once thrown, they will follow their path until hitting an opponent, exploding upon impact. Bombchus also appear as a [[Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Trophy]]
+{{clear}}
+{{SSBTrophy|SSB4|header=yes}}
+{{#section:Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Bombchu}}
+|}
+{{Noncanon|End}}
+
+==={{SSBU|-}}===
+{{Noncanon|Start}}
+Bombchus once again appear as Throwing Items in {{SSBU}}.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+Bombchus appear as a type of mobile [[Bomb]] that move to the beat of the music. Once they are placed down by one of the characters, they move in a straight line until they make contact with something or if no contact is made, explode after seven music beats.<ref name="CoH Inventory"/>
+{{Noncanon|End}}
+
+==Trivia==
+*[[Real Bombchu]]s are named after Bombchus.
+
+==Nomenclature==
+The name Bombchu is a combination of Bomb and "chu," Japanese {{wp|onomatopoeia}} for the sound a mouse makes, referring to their mouse-like shape. The plural form of Bombchu can be either Bombchu<ref name="MM N/A"/> or Bombchus.<ref name="PH Shopkeeper"/>
+
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoT Bombchu Bowling Alley 2.jpg|{{Game Label|{{OoT|-}}}}The Bombchu Bowling Alley
+File:Bomchu Puzzle PH.png|{{Game Label|{{PH|-}}}}Using a Bombchu to activate a Shock Switch
+File:Bombchu Path.png|{{Game Label|{{PH|-}}}}Drawing a Bombchu path
+File:Dongorongo Strategy.png|{{Game Label|{{PH|-}}}}Using a Bombchu to defeat Dongorongo
+File:EoW Bombchu Model 2.png|{{Game Label|{{EoW|-}}}}Bombchu form of the Bombs of Might Lv. 2
+File:EoW Bombchu Model 3.png|{{Game Label|{{EoW|-}}}}Bombchu form of the Bombs of Might Lv. 3
+File:HW Bombchu Render.png|{{Game Label|{{HW|-}}}}Render of a Bombchu
+File:HW Bombchu Mini Map Icon.png|{{Game Label|{{HW|-}}}}Bombchu Mini Map icon
+File:HWL Bombchu Mini Map Icon.png|{{Game Label|{{HWL|-}}}}Bombchu Mini Map icon
+File:HWDE Bombchu Mini Map Icon.png|{{Game Label|{{HWDE|-}}}}Bombchu Mini Map icon
+File:SSBU Bombchu Render.png|{{Game Label|{{SSBU|-}}}}Render of a Bombchu
+File:SSBU Bombchu Model.png|{{Game Label|{{SSBU|-}}}}A Bombchu, as seen in-game
+File:CoH Bombchu Sprite.png|{{Game Label|{{CoH|-}}}}Sprite of a Bombchu
+File:CoH Bombchu Sprite 2.png|{{Game Label|{{CoH|-}}}}A moving Bombchu
+</gallery>
+
+==See Also==
+{{See Also|
+ * Bombling
+ * Real Bombchu
+}}
+
+{{Ref|
+<!-- Encyclopedia -->
+<ref name="E 118">{{Cite Book||quote= |book= E |publisher= |page= 118 {{Exp Game|OoT, MM, OoS, OoA, PH}}}}</ref>
+
+<!-- Ocarina of Time -->
+<ref name="OoT Manual">{{Cite Manual|quote= Pick up a Bombchu and set it at your feet. It will start running by itself. If it hits an object, or runs for a while without hitting anything, it will explode. Once it starts running, you have no control over it.|game= OoT|page= 23}}</ref>
+<ref name="OoT Bombchu Shop Owner">{{Cite|This is a new type of bomb! It's available only in limited quantities, and when I'm sold out, that's it!|Bombchu Shop Owner|OoT}}</ref>
+<ref name="OoT Carpet Merchant">{{Cite|I am selling stuff, strange and rare, from all over the world to everybody. Today's special is... A dangerous, running object! Terrifying! I won't tell you what it is until I see the money.... How about 200 Rupees?|Carpet Merchant|OoT}}</ref>
+
+<ref name="OoTNS2 Items">{{Cite|{{Big|Bombchu}}<br/>Once placed on the ground, this wall-climbing bomb zooms off on its own before exploding after a certain distance.|Items|OoTNS2}}</ref>
+
+<!-- Majora's Mask -->
+<ref name="MM N/A">{{Cite|You got 10 Bombchu!<br/>Set them to (<), (>) or (v) on the<br/>Select Item Screen.|N/A|MM}}</ref>
+
+<!-- Phantom Hourglass -->
+<ref name="PH N/A">{{Cite|You got a Bombchu! You can carry up to 10 Bombchus in your bag! They will follow the path that you draw on your map!|N/A|PH}}</ref>
+<ref name="PH Guide 12">{{Cite Guide|PH Prima|page= 12}}</ref>
+<ref name="PH Shopkeeper">{{Cite|I can't sell you Bombchus if you don't have a Bombchu bag.|Shopkeeper|PH}}</ref>
+
+<!-- Echoes of Wisdom -->
+<ref name="EoW Key Items">{{Cite|{{Big|{{Color EoW|Pale Yellow|Swordsman's Bombs}}}}<br/>Press {{Icon|EoW A}} to create a bomb, or hold {{Icon|EoW A}} to charge one up and change it into a Bombchu.|Key Items|EoW}}</ref>
+
+<!-- Hyrule Warriors -->
+<ref name="HW YouTube">{{Cite YouTube|quote= A Bombchu is a type of mouse-shaped bomb that moves forward automatically.|title= Hyrule Warriors Direct 8.4.2014|channel= @NintendoAmerica|date= August 4, 2014|url= https://www.youtube.com/watch?v=3_DZtTR3zu0|archive= |time= 868s}}</ref>
+<ref name="HW YouTube 2">{{Cite YouTube|quote= |title= Hyrule Warriors Reactions from SDCC|channel= @IGN|date= July 24, 2014|url= https://www.youtube.com/watch?v=VHOOdOCSllI|archive= |time= 129s}}</ref>
+
+<!-- Cadence of Hyrule -->
+<ref name="CoH Inventory">{{Cite|{{Color CoH|Yellow|Bombchu}} -- Assign it to {{Icon|CoH A}} {{Icon|CoH B}} {{Icon|CoH X}} {{Icon|CoH Y}}<br/>It moves in a straight line and explodes after seven beats or if it makes contact with something.|Inventory|CoH}}</ref>
+}}
+
+{{Categories
+ |Bombs, Explosives
+ |enemies= HW, HWL, HWDE
+ |items= OoT, OoT3D, OoTNS2, MM, MM3D, OoS, OoA, PH, EoW, SSBfN3DS, SSBfWU, SSBU
+}}

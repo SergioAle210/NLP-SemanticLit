@@ -1,0 +1,129 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Stepladder Artwork.png
+ |Model OoT= File:OoT Ladder Model.png
+ |Model OoT3D= File:OoT3D Ladder Model.png
+ |Model MM= File:MM Ladder Model.png
+ |Model MM3D= File:MM3D Ladder Model.png
+ |Model TWW= File:TWW Ladder Model.png
+ |Model TWWHD= File:TWWHD Ladder Model.png
+ |Model TP= File:TP Ladder Model.jpg
+ |Model TPHD= File:TPHD Ladder Model.png
+ |Model SS= File:SS Ladder Model.png
+ |Model SSHD= File:SSHD Ladder Model.png
+ |Model BotW= File:BotW Ladder Model.png
+ |Model TotK= File:TotK Ladder Model.png
+ |Model EoW= File:EoW Ladder Model.png
+ |Sprite TLoZ= File:TLoZ Stepladder Sprite.png
+ |Sprite TMC= File:TMC Ladder Sprite.png
+ |Sprite EoW= [[File:EoW Ladder Icon.png|160x160px]]
+}}
+|caption= 
+|game= TLoZ, OoT, MM, TWW, TMC, TP, SS, BotW, TotK, EoW
+|other= BSTLoZ, ZA, HW
+|uses= Crossing small spans of [[Water (Terrain)|Water]], [[Hole]]s, or [[Lava]]
+|comp= 
+}}
+{{Term/Store|Ladder|Ladders|Series, BotW, TotK, HW, HWL, HWDE|plural}},{{Exp Game|Series, BotW, TotK, HW}}<ref name="E 129">{{Cite Book|quote= |book= E |publisher= |page= 129 {{Exp Game|Series, TLoZ}}}}</ref><ref>{{Cite|{{Big|Ladders}}<br/>Climbing ladders will not deplete your stamina. However, using {{Icon|BotW X}} to jump up a ladder will.|Tips and Tricks|BotW}}</ref><ref>{{Cite|{{Big|Ladders}}<br/>Climbing ladders will not deplete your stamina. However, using {{Icon|TotK X}} to jump up a ladder will.|Tips and Tricks|TotK}}</ref><ref>{{Cite|{{Color HWDE|Green|Ladder}}: Use this to move across a single space of water.|Tutorial|HWDE}}</ref> also known as the {{Term/Store|Stepladder|Stepladders|TLoZ|plural}},{{Exp Game|TLoZ}}<ref name="E 129"/> are recurring [[Item]]s and [[Object]]s in {{TLoZ Series}}.{{Name Ref|OoT3D, BSTLoZ, ZA}}
+
+==Location and Uses==
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+The Stepladder is found in [[Level 4]] in the First Quest and in [[Level 6]] in the [[Second Quest]]. It is used to traverse small spans of [[Water (Terrain)|Water]], [[Hole]]s, or [[Lava]], which would otherwise block [[Link]]'s progress. It is used automatically when Link needs to cross any of these obstacles.
+
+==={{OoT|-}}===
+{{Stub|OoT3D}}
+
+==={{MM|-}}===
+{{Stub|MM3D}}
+
+==={{TWW|-}}===
+{{Checklist
+ |game= TWW
+ |type= Objects
+ |category= Objects in The Wind Waker
+ |needs= 
+Detailed information on the following:
+* Where it can be found
+* Whether it can be interacted with and if it is important to the story or a Quest
+}}
+{{Stub|TWW}}
+
+==={{TMC|-}}===
+Ladders are found across [[Hyrule]] in {{TMC}}. They can be found inside [[Tree]]s, [[Secret Cave]]s, [[Minish]]-sized cracks in the [[Overworld]], and within other cave systems throughout the land. They often lead down to rooms that contain [[Chest]]s or the homes of [[Forest Picori]].
+
+All the Ladders in the game already exist in place with the exception of one; after [[Link]] has [[Kinstone Fusion|Fused]] [[Kinstone Piece]]s with all four of the [[Tingle Siblings?]], a Ladder extends down from the center of [[North Hyrule Field]], leading to a large Chest containing the [[Magical Boomerang]].
+
+==={{TP|-}}===
+{{Stub|TPHD}}
+
+==={{SS|-}}===
+{{Stub|SS}}
+
+==={{BotW|-}}===
+Ladders are within shrines and on the sides of some buildings. They enable Link to climb without using [[Stamina]].
+
+==={{TotK|-}}===
+[[Bokoblin]]s are shown to utilize a Ladder during a mining operation in an underground cavern.
+
+==={{EoW|-}}===
+{{Checklist
+ |game= EoW
+ |type= Objects
+ |category= Objects in Echoes of Wisdom
+ |needs= 
+Detailed information on the following:
+* Where it can be found
+* Whether it can be interacted with and if it is important to the story or a Quest
+* Whether it can be copied as an Echo
+}}
+{{Stub|EoW}}
+Ladders are [[Object]]s that [[Princess Zelda]] can [[Climbing|Climb]]. They are commonly found inside of [[Cave]]s or within [[Well]]s.
+
+==Other Appearances==
+==={{BSTLoZ|-}}===
+{{Noncanon|Start}}
+{{Stub|BSTLoZ}}
+{{Noncanon|End}}
+
+==={{ZA|-}}===
+{{Noncanon|Start}}
+In {{ZA}}, the Ladder can be found next to a tree in the [[Forest of Ogbam]]. Its only use is to bridge and cross the giant chasm near the entrance of the [[Shrine of Earth]].
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+{{Stub|HW}}
+In {{HW}}, Ladders appear as [[Item Card]]s in [[Adventure Mode]].
+
+{{Main|8-Bit Stepladder}}
+In the Master Quest DLC Pack for {{HW}}, the [[8-Bit Stepladder]] from {{TLoZ|-}} appears as a [[Weapon]] for [[Sheik]]. It is part of the [[Harp]] Weapon-type, and statistically-identical to the [[Triforce Harp]].
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:TLoZ Stepladder Artwork 2.png|{{Game Label|{{TLoZ|-}}}}Artwork of the Ladder
+File:TMC Ladder Sprite 2.png|{{Game Label|{{TMC|-}}}}A Ladder on Mount Crenel
+File:TotK Ladder Model 2.png|{{Game Label|{{TotK|-}}}}A Zonai-style Ladder
+File:EoW Ladder Icon 2.png|{{Game Label|{{EoW|-}}}}Alternate icon of a Ladder
+File:BSTLoZ Ladder Sprite.png|{{Game Label|{{BSTLoZ|-}}}}A Ladder
+File:ZA Ladder Sprite.png|{{Game Label|{{ZA|-}}}}The Ladder
+File:HW 8-Bit Stepladder Icon.png|{{Game Label|{{HW|-}}}}The 8-Bit Stepladder
+File:HW Ladder Sprite.svg|{{Game Label|{{HW|-}}}}The Ladder Item Card
+File:HWL Ladder Icon.png|{{Game Label|{{HWL|-}}}}The Ladder Item Card
+File:HWDE Ladder Icon.png|{{Game Label|{{HWDE|-}}}}The Ladder Item Card
+File:HWDE Sheik 8-Bit Stepladder.png|{{Game Label|{{HWDE|-}}}}Promotional screenshot of Sheik wielding the 8-Bit Stepladder
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Item Cards
+ |items= ZA, HW, HWL, HWDE
+ |objects= OoT, OoT3D, MM, MM3D, TWW, TWWHD, TMC, TP, TPHD, SS, SSHD, BotW, TotK, EoW
+}}

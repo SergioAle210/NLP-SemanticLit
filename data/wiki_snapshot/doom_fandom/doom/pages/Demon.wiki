@@ -1,0 +1,39 @@
+:''This article is about the specific enemy. For the collective term "demons" that refers to all the enemies in [[Doom]], see [[Monster]].''
+{{Demon}}
+
+{{quote|Sorta like a shaved gorilla, except with horns, a big head, lots of teeth, and harder to kill. Don't get too close or they'll rip your fraggin' head off.|''Doom'' manual description}}
+The '''Demons''' (also commonly known as the '''Pinkies''' or '''Bull Demons''') are demonic monsters found in all classic ''DOOM'' games up to date. The [[id Software]] staff has called these monsters "Pinkies" in reference to their coloration, especially during the development of ''[[Doom 3|DOOM 3]]'', when a [[Demon/Doom 3|new version]] of the monster was designed, although they made them grayish instead of pink. Demons and [[Spectre]]s also are sometimes collectively called "[[wikipedia:pig|Pigs]]"; this word is used in more than 100 [[Compet-n]] submissions.
+
+== Notes ==
+* The name of the Demon [[thing]] or object in the source code is <tt>MT_SERGEANT</tt>, as it fits into the role of a "Demon Sergeant" according to the [[Doom Bible|DOOM Bible]] in section 7.2. Correspondingly, the root of the sprite name of the monster is <tt>SARG</tt>.[[File:Demon-exp.gif|frame|The Alpha 0.5 death animation.]]In the [[Doom 0.5]] alpha, the Demons use a different death animation where they stretch and distort horizontally and explodes into a ball of yellow hell-fire. This could have been the standard death animation, or it could have been a gib animation (when hit with explosive weaponry).
+* The Demon's attacking animation would show them biting a bloody bit of flesh off their intended targets regardless of whether the attack landed or not.
+* The Demons, along with the [[Mancubus|Mancubi]], [[Spiderdemon]]s and [[Cyberdemon]]s are the only monsters whose death sound clips includes noise other than the monsters' vocals; in this case, the Demons make an audible thud when they hit the ground after they physically die. This and the Mancubi are the only monsters to do so, although the Demons are much clearer.
+* Demons are capable of gibbing [[Zombieman|Zombiemen]].
+* In a [[ZDoom|ZDOOM]]-based [[source port]], if the player is killed by a Demon (monster is credited with delivering the blow that reduces player's health to 0%), an obituary message is displayed at the top of the screen: "[player name] was bit by a Demon."
+* The Bull Demons in the DOOM RPG series use a brighter olive color, further connecting the two.
+
+== ''[[Doom RPG|DOOM RPG]]'' / ''[[Doom II RPG|DOOM II RPG]]'' ==
+In both ''DOOM RPG'' and ''Doom II RPG'', the Demon appears as the "Pinky" class of monster. There are three variations, identified by color:
+
+* [[Bull demon|Bull Demon]] (olive green)<ref>Smaller than the other types in ''Doom II RPG''; pink in the Java and BREW versions, but olive-colored in the iOS version).</ref>
+* [[Pinky (Doom RPG)|Pinky]] (normal colors)
+* [[Belphagor]] (blue)
+
+A Pinky will attack automatically the moment the player steps into an adjacent square, even if he has already moved that turn. They are resistant to rockets but susceptible to shotgun blasts.
+
+Also in ''DOOM II RPG'', in addition to a regular biting attack, each of the "Pinky" class monsters have a charging attack which can cause the player to be knocked backwards a tile (and potentially into a hazard). The [[Pinkinator]] boss gives birth to Bull Demons over the course of the battle. Looting her corpse yields Pinky embryos (unusable loot items), and as such it can be presumed that the Pinkinator is the progenitor of all the "Pinky" class monsters.
+
+==''[[Mighty Doom]]''==
+Demons appear in ''Mighty DOOM'' as the ''Eternal'' incarnation of Pinkies.  Their only attack is to charge and ram the Slayer for high melee damage, and are vulnerable to toxic weaponry.  The boss version has two different ram attacks: a straightforward ram that dislodges rocks that fall onto random areas of the arena to inflict ranged damage, or a more guided ram that requires increased and more active movement to successfully avoid. 
+
+== References ==
+<references />
+
+==See also==
+* [[Spectre]]
+* [[Monsters open locked doors]]
+
+[[Category:Monsters]]
+[[Category:Demons]]
+[[Category:Aliens]]
+[[Category:Doom monsters]]

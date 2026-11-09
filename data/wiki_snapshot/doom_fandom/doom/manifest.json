@@ -1,0 +1,297 @@
+{
+  "source": "doom_fandom",
+  "license": "CC BY-SA",
+  "license_note": "Fandom reporta \"CC-BY-SA\" sin versión (normalmente 3.0).",
+  "downloaded_at": "2026-11-08T18:17:03+00:00",
+  "total_chars": 211323,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Monster",
+      "url": "https://doom.fandom.com/wiki/Monster",
+      "revid": 169986,
+      "file": "pages/Monster.wiki",
+      "chars": 45186
+    },
+    {
+      "title": "Arachnotron",
+      "url": "https://doom.fandom.com/wiki/Arachnotron",
+      "revid": 166726,
+      "file": "pages/Arachnotron.wiki",
+      "chars": 3172
+    },
+    {
+      "title": "Arachnotron/Doom 64",
+      "url": "https://doom.fandom.com/wiki/Arachnotron/Doom_64",
+      "revid": 169185,
+      "file": "pages/Arachnotron__Doom_64.wiki",
+      "chars": 2037
+    },
+    {
+      "title": "Arachnotron/Doom Eternal",
+      "url": "https://doom.fandom.com/wiki/Arachnotron/Doom_Eternal",
+      "revid": 166729,
+      "file": "pages/Arachnotron__Doom_Eternal.wiki",
+      "chars": 5250
+    },
+    {
+      "title": "Arachnotron/Doom II",
+      "url": "https://doom.fandom.com/wiki/Arachnotron/Doom_II",
+      "revid": 166730,
+      "file": "pages/Arachnotron__Doom_II.wiki",
+      "chars": 9572
+    },
+    {
+      "title": "Arachnotron/Doom II RPG",
+      "url": "https://doom.fandom.com/wiki/Arachnotron/Doom_II_RPG",
+      "revid": 166731,
+      "file": "pages/Arachnotron__Doom_II_RPG.wiki",
+      "chars": 541
+    },
+    {
+      "title": "Arch-vile",
+      "url": "https://doom.fandom.com/wiki/Arch-vile",
+      "revid": 169946,
+      "file": "pages/Arch-vile.wiki",
+      "chars": 5621
+    },
+    {
+      "title": "Arch-vile/Doom 3",
+      "url": "https://doom.fandom.com/wiki/Arch-vile/Doom_3",
+      "revid": 169950,
+      "file": "pages/Arch-vile__Doom_3.wiki",
+      "chars": 5162
+    },
+    {
+      "title": "Arch-vile/Doom II",
+      "url": "https://doom.fandom.com/wiki/Arch-vile/Doom_II",
+      "revid": 169948,
+      "file": "pages/Arch-vile__Doom_II.wiki",
+      "chars": 10253
+    },
+    {
+      "title": "Arch-vile/Doom RPG",
+      "url": "https://doom.fandom.com/wiki/Arch-vile/Doom_RPG",
+      "revid": 169949,
+      "file": "pages/Arch-vile__Doom_RPG.wiki",
+      "chars": 1162
+    },
+    {
+      "title": "Banshee",
+      "url": "https://doom.fandom.com/wiki/Banshee",
+      "revid": 167872,
+      "file": "pages/Banshee.wiki",
+      "chars": 1556
+    },
+    {
+      "title": "Baron of Hell",
+      "url": "https://doom.fandom.com/wiki/Baron_of_Hell",
+      "revid": 169327,
+      "file": "pages/Baron_of_Hell.wiki",
+      "chars": 6354
+    },
+    {
+      "title": "Cacodemon",
+      "url": "https://doom.fandom.com/wiki/Cacodemon",
+      "revid": 167359,
+      "file": "pages/Cacodemon.wiki",
+      "chars": 8124
+    },
+    {
+      "title": "Cosmic Baron",
+      "url": "https://doom.fandom.com/wiki/Cosmic_Baron",
+      "revid": 169677,
+      "file": "pages/Cosmic_Baron.wiki",
+      "chars": 3518
+    },
+    {
+      "title": "Cyber-Mancubus/Doom (2016)",
+      "url": "https://doom.fandom.com/wiki/Cyber-Mancubus/Doom_%282016%29",
+      "revid": 169332,
+      "file": "pages/Cyber-Mancubus__Doom_2016_.wiki",
+      "chars": 3584
+    },
+    {
+      "title": "Cyberdemon",
+      "url": "https://doom.fandom.com/wiki/Cyberdemon",
+      "revid": 167344,
+      "file": "pages/Cyberdemon.wiki",
+      "chars": 9033
+    },
+    {
+      "title": "Cybernetic Monster",
+      "url": "https://doom.fandom.com/wiki/Cybernetic_Monster",
+      "revid": 166602,
+      "file": "pages/Cybernetic_Monster.wiki",
+      "chars": 1108
+    },
+    {
+      "title": "Demon",
+      "url": "https://doom.fandom.com/wiki/Demon",
+      "revid": 168910,
+      "file": "pages/Demon.wiki",
+      "chars": 4240
+    },
+    {
+      "title": "Demon/Doom (2016)",
+      "url": "https://doom.fandom.com/wiki/Demon/Doom_%282016%29",
+      "revid": 168914,
+      "file": "pages/Demon__Doom_2016_.wiki",
+      "chars": 5518
+    },
+    {
+      "title": "Demonic monster",
+      "url": "https://doom.fandom.com/wiki/Demonic_monster",
+      "revid": 166192,
+      "file": "pages/Demonic_monster.wiki",
+      "chars": 14103
+    },
+    {
+      "title": "Former Human",
+      "url": "https://doom.fandom.com/wiki/Former_Human",
+      "revid": 164323,
+      "file": "pages/Former_Human.wiki",
+      "chars": 2720
+    },
+    {
+      "title": "Former Humans",
+      "url": "https://doom.fandom.com/wiki/Former_Humans",
+      "revid": 169027,
+      "file": "pages/Former_Humans.wiki",
+      "chars": 5899
+    },
+    {
+      "title": "Ghoul/Doom II",
+      "url": "https://doom.fandom.com/wiki/Ghoul/Doom_II",
+      "revid": 169989,
+      "file": "pages/Ghoul__Doom_II.wiki",
+      "chars": 1600
+    },
+    {
+      "title": "Harbinger of Doom",
+      "url": "https://doom.fandom.com/wiki/Harbinger_of_Doom",
+      "revid": 169823,
+      "file": "pages/Harbinger_of_Doom.wiki",
+      "chars": 2624
+    },
+    {
+      "title": "Hell Knight",
+      "url": "https://doom.fandom.com/wiki/Hell_Knight",
+      "revid": 166758,
+      "file": "pages/Hell_Knight.wiki",
+      "chars": 3144
+    },
+    {
+      "title": "Hell Knight/Doom (2016)",
+      "url": "https://doom.fandom.com/wiki/Hell_Knight/Doom_%282016%29",
+      "revid": 167808,
+      "file": "pages/Hell_Knight__Doom_2016_.wiki",
+      "chars": 4053
+    },
+    {
+      "title": "Hell Knight/Doom 3",
+      "url": "https://doom.fandom.com/wiki/Hell_Knight/Doom_3",
+      "revid": 166760,
+      "file": "pages/Hell_Knight__Doom_3.wiki",
+      "chars": 8305
+    },
+    {
+      "title": "Hell Knight/Doom 64",
+      "url": "https://doom.fandom.com/wiki/Hell_Knight/Doom_64",
+      "revid": 167858,
+      "file": "pages/Hell_Knight__Doom_64.wiki",
+      "chars": 1897
+    },
+    {
+      "title": "Hell Knight/Doom II",
+      "url": "https://doom.fandom.com/wiki/Hell_Knight/Doom_II",
+      "revid": 168333,
+      "file": "pages/Hell_Knight__Doom_II.wiki",
+      "chars": 11061
+    },
+    {
+      "title": "Hell Knight/Doom RPG",
+      "url": "https://doom.fandom.com/wiki/Hell_Knight/Doom_RPG",
+      "revid": 166764,
+      "file": "pages/Hell_Knight__Doom_RPG.wiki",
+      "chars": 444
+    },
+    {
+      "title": "Hellhound",
+      "url": "https://doom.fandom.com/wiki/Hellhound",
+      "revid": 166719,
+      "file": "pages/Hellhound.wiki",
+      "chars": 1352
+    },
+    {
+      "title": "Helper dog",
+      "url": "https://doom.fandom.com/wiki/Helper_dog",
+      "revid": 162277,
+      "file": "pages/Helper_dog.wiki",
+      "chars": 3544
+    },
+    {
+      "title": "Hissy",
+      "url": "https://doom.fandom.com/wiki/Hissy",
+      "revid": 162285,
+      "file": "pages/Hissy.wiki",
+      "chars": 3274
+    },
+    {
+      "title": "Icon of Sin",
+      "url": "https://doom.fandom.com/wiki/Icon_of_Sin",
+      "revid": 169938,
+      "file": "pages/Icon_of_Sin.wiki",
+      "chars": 575
+    },
+    {
+      "title": "Icon of Sin/Final Doom",
+      "url": "https://doom.fandom.com/wiki/Icon_of_Sin/Final_Doom",
+      "revid": 169940,
+      "file": "pages/Icon_of_Sin__Final_Doom.wiki",
+      "chars": 877
+    },
+    {
+      "title": "Imp",
+      "url": "https://doom.fandom.com/wiki/Imp",
+      "revid": 167837,
+      "file": "pages/Imp.wiki",
+      "chars": 4707
+    },
+    {
+      "title": "Imp Stalker",
+      "url": "https://doom.fandom.com/wiki/Imp_Stalker",
+      "revid": 167436,
+      "file": "pages/Imp_Stalker.wiki",
+      "chars": 3176
+    },
+    {
+      "title": "Imp/Doom: The Dark Ages",
+      "url": "https://doom.fandom.com/wiki/Imp/Doom%3A_The_Dark_Ages",
+      "revid": 168871,
+      "file": "pages/Imp__Doom_The_Dark_Ages.wiki",
+      "chars": 1003
+    },
+    {
+      "title": "Episodes",
+      "url": "https://doom.fandom.com/wiki/Episodes",
+      "revid": 160898,
+      "file": "pages/Episodes.wiki",
+      "chars": 2835
+    },
+    {
+      "title": "IDCLEV idiosyncrasies",
+      "url": "https://doom.fandom.com/wiki/IDCLEV_idiosyncrasies",
+      "revid": 61109,
+      "file": "pages/IDCLEV_idiosyncrasies.wiki",
+      "chars": 1355
+    },
+    {
+      "title": "Knee-Deep in the Dead E1b",
+      "url": "https://doom.fandom.com/wiki/Knee-Deep_in_the_Dead_E1b",
+      "revid": 167183,
+      "file": "pages/Knee-Deep_in_the_Dead_E1b.wiki",
+      "chars": 1784
+    }
+  ]
+}

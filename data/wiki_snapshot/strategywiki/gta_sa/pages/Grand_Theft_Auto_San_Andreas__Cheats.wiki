@@ -1,0 +1,631 @@
+{{wikify|include all cheats here and get rid of extraneous links}}
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+==PC==
+{{needcontrols|win}}
+EdisonCarter once again used his cheat-finding methods to crawl his way through the game finding cheats by choosing the closest path as well as textdumping from possible cheat keywords.
+
+These cheats were taken from [http://www.gtasanandreas.net/news/single.php?id=1424 GTASanAndreas.net's news report], [http://www.maxbot.com/gta/sapc.htm EdisonCarter's updated cheat list], the [http://www.gtaforums.com/index.php?showtopic=194192 forum thread] where on-the-spot discoveries are made and findings announced.
+
+These are both intelligible-word and button-press cheats. As more are discovered they will be added here and their unintelligible button-combo equivalent will be removed from the list below. All these cheats will still work in the meantime.
+
+===Weapons, Health, Armor and Money===
+{| {{prettytable}}
+! Text code || 7 character code || Effect
+|-
+| THUGSARMOURY || LXGIWYL || Weapon Set 1, Thug's Tools
+|-
+| PROFESSIONALSKIT ||KJKSZPJ || Weapon Set 2, Professional Tools
+|-
+| NUTTERSTOYS || UZUMYMW || Weapon Set 3, Nutter Tools
+|-
+| ROCKETMAN || YECGAA || Have Jetpack
+|-
+| LETSGOBASEJUMPING || AIYPWZQP || Have Parachute
+|-
+| INEEDSOMEHELP || HESOYAM || Health, Armor, $250,000
+|-
+| NOONECANHURTME || BAGUVIX || Infinite Health
+|-
+| FULLCLIP || WANRLTW || Infinite Ammo, No Reload
+|-
+| MANFROMATLANTIS || CVWKXAM || Infinite Oxygen (lung capacity when underwater
+|-
+| GOODBYECRUELWORLD || SZCMAWO || Suicide
+|-
+| TAKEACHILLPILL || MUNASEF || Adrenaline Mode
+|-
+| IAMNEVERHUNGRY || AEDUWNV || Never Get Hungry
+|-
+| PROFESSIONALKILLER || NCSGDAG || Hitman In All Weapon Stats
+|-
+| ICANGOALLNIGHT || VKYPGCF || Maximum Stamina
+|}
+
+===Police, Stats & Gangs===
+{| {{prettytable}}
+! Text code || 7 character code || Effect
+|-
+| PAWNDARBY || AEZAKMI || Never Wanted
+|-
+| BRINGITON || || Six-Star Wanted Level
+|-
+| TURNDOWNTHEHEAT || || lower Wanted Level Two Stars
+|-
+| TURNUPTHEHEAT || || Increase Wanted Level Two Stars
+|-
+| TESTEDUCATIONALSKILLS || || Clear Wanted Level
+|-
+| {{n/a}} || AEZAKMI || Never Wanted
+|-
+| {{n/a}} || SJMAHPE || Recruit Anyone (9mm)
+|-
+| ROCKETMAYHEM || || Recruit Anyone (Rockets)
+|-
+| NATURALTALENT || || Max All Vehicle Skill Stats
+|-
+| WORSHIPME || OGXSDAG || Max Respect
+|-
+| HELLOLADIES || EHIBXQS || Max Sex Appeal
+|-
+| UNDISTURBABLEBELLOWS || || Really Fat CJ
+|-
+| {{n/a}} || KVGYZQK || Really Skinny CJ (0 fat and muscle)
+|-
+| BUFFMEUP || JYSDSOD || Max Muscle
+|-
+| BIFBUZZ || || Gangs Control the Streets
+|-
+| ONLYHOMIESALLOWED || || Gang Members Everywhere
+|}
+
+===Vehicle Spawning===
+{| {{prettytable}}
+! Text code || 7 character code || Effect
+|-
+| OHDUDE || BEJQAHE || Spawn Hunter
+|-
+| HITTHEROADJACK || AMOMHRER || Spawn Tanker Truck
+|-
+| ITSALLBULL || EEGCYXT || Spawn Dozer
+|-
+| MONSTERMASH || AGBDLCID || Spawn Monster
+|-
+| FOURWHEELFUN || AKJJYGLC || Spawn Quad
+|-
+| FLYINGTOSTUNT || URKQSRK || Spawn Stunt Plane
+|-
+| TIMETOKICKASS || AIWPRTON || Spawn Rhino Tank
+|-
+| DOUGHNUTHANDLEDHANDICAP || JQNTDMH || Spawn Rancher
+|-
+| NOTFORPUBLICROADS || PDNEJOH || Spawn Hotring Racer 1
+|-
+| JUSTTRYANDSTOPME || VPJTQWV || Spawn Hotring Racer 2
+|-
+| OLDSPEEDDEMON || CQZIJMB || Spawn Bloodring Banger
+|-
+| WHERESTHEFUNERAL || AQTBCODX || Spawn Romero's Hearse
+|-
+| 18HOLES || RZHSUEW || Spawn Caddy
+|-
+| JUMPJET || JHDDT5 || Spawn Hydra
+|-
+| CELEBRITYSTATUS || KRIJEBR || Spawn Stretch
+|-
+| TRUEGRIME || UBHYZHQ || Spawn Trashmaster
+|-
+| IWANTTOHOVER || KGGGDKP || Spawn Vortex Hovercraft
+|}
+
+===Vehicles===
+{| {{prettytable}}
+! Text code || 7 character code || Effect
+|-
+| SPEEDFREAK || COXEFGU || All Cars Have Nitro
+|-
+| BUBBLECARS || BSXSGGC || Cars Float Away When Hit
+|-
+| CHITTYCHITTYBANGBANG || RIPAZHA || Cars Fly
+|-
+| FLYINGFISH || AFSNMSMW || Boats fly
+|-
+| HICKSVILLE || FVTMNBZ || Traffic is Country Vehicles
+|-
+| EVERYONEISPOOR || BGKGTJH || Traffic is Cheap Cars
+|-
+| EVERYONEISRICH || GUSNHDE || Traffic is Fast Cars
+|-
+| STICKLIKEGLUE || PGGOMOY || Perfect Handling
+|-
+| DONTTRYANDSTOPME || ZEIIVG || All green lights
+|-
+| PINKISTHENEWCOOL || LLQPFBN || Pink traffic
+|-
+| SOLONGASITSBLACK || IOWDLAC || Black traffic
+|-
+| GHOSTTOWN || THGLOJ || Reduced Traffic
+|-
+| ALLDRIVERSARECRIMINALS || YLTEICZ || Aggressive Drivers
+|-
+| WHEELSONLYPLEASE || XICWMD || Invisible car body (wheels visible)
+|-
+| ALLCARSGOBOOM || CPKTNWT || Blow Up All Cars
+|-
+| TOUCHMYCARYOUDIE || JCNRUAD || Smash n' Boom (player's vehicle acts like a Rhino tank)
+|-
+| IWANNADRIVEBY || OUIQDMW || Full Weapon Aiming While Driving, never fall off bike
+|-
+| SEAROADER || || Cars drive on water (Requires [http://www.gtagarage.com/mods/show.php?id=25368 SilentPatch])
+|}
+
+===Gameplay===
+{| {{prettytable}}
+! Text code || 7 character code || Effect
+|-
+| BLUESUEDESHOES || || Elvis Is Everywhere
+|-
+| NINJATOWN || || Ninja Theme
+|-
+| LIFESABEACH || || Beach Party Theme
+|-
+| CRAZYTOWN || || Funhouse Theme
+|-
+| STINGLIKEABEE || || Mega Punch [http://www.gtaforums.com/index.php?showtopic=194192&view=findpost&p=3357380]
+|-
+| KANGAROO || || Mega Jump
+|-
+| CJPHONEHOME || || Huge Bunny Hop
+|-
+| {{n/a}} || BEKKNQV || Slut Magnet
+|-
+| colspan="2"| '''WARNING''': do not save with the following codes enabled, they cannot be turned off
+|-
+| {{n/a}} || FOOOXFT || Everyone is armed
+|-
+| {{n/a}} || AJLOJYQY || Peds Attack Each Other, Get Golf Club
+|-
+| {{n/a}} || BAGOWPG || Have a bounty on your head (Peds attack)
+|-
+| {{n/a}} || BGLUAWML || Peds Attack You With Weapons, Rocket Launcher
+|-
+| STATEOFEMERGENCY || || Riot Mode
+|}
+
+===Weather and Time===
+{| {{prettytable}}
+! Text code || 7 character code || Effect
+|-
+| SPEEDITUP || || Faster Gameplay
+|-
+| SLOWITDOWN || || Slower Gameplay
+|-
+| {{n/a}} || YSOHNUL || Faster Clock
+|-
+| PLEASANTLYWARM || || Sunny Weather
+|-
+| TOODAMNHOT || || Very Sunny Weather
+|-
+| {{n/a}} || ALNSFMZO || Overcast Weather
+|-
+| {{n/a}} || AUIFRVQS || Rainy Weather
+|-
+| {{n/a}} || CFVFGMJ || Foggy Weather
+|-
+| SCOTTISHSUMMER || || Thunderstorm
+|-
+| HITHERSALVATORERIDES || || Sandstorm
+|-
+| DEBUGCAMPPEACE || || Orange Sky, Clock Fixed at 21:00 (like in the beta screenshots)
+|-
+| NIGHTPROWLER || || Always Midnight
+|}
+
+According to EdisonCarter's findings, the following cheats were not implemented in the PC version:
+* Drive On Water
+* Do Nothing
+* Hookers Pay You
+
+==PlayStation 2 and Xbox==
+Any of the Xbox cheats listed below will work on the PlayStation 2 given the following mappings between Xbox and PlayStation 2 controls:
+* {{xbox|LT}} → {{psx|L1}}
+* {{xbox|RT}} → {{psx|R1}}
+* {{xbox|white}} → {{psx|L2}}
+* {{xbox|black}} → {{psx|R2}}
+
+Currently, the most comprehensive guide is at: [http://www.gtasanandreas.net/cheats/ps2.php PS2 Cheats @ GTASanAn.com]
+
+There is also a cheats list at [http://www.gamefaqs.com/console/ps2/code/914983.html GameFAQs.com], but this currently contains many duplicate and non-working codes.
+
+[http://www.acheat.com/ PS Cheat Codes] San Andreas Cheats, PS2 + many other platform Game Cheats.
+
+Riters.com hosts a [http://riters.com/GtaSaCheats/ San Andreas cheats] wiki.
+
+Codemasters-Project.com has lists of Action Replay Max codes for both [http://www.codemasters-project.net/members/Skiller/GtaPalukArMax/GtaSacodes.htm PAL] and [http://www.codemasters-project.net/members/Skiller/GtaNtscArMax/GtaSacodes.htm NTSC]
+
+[http://www.maxbot.com/gta/ EdisonCarter's own site] has all the cheats he discovered with his device
+
+[http://www.gtaforums.com/index.php?showtopic=152601 All PS2 Button Codes] at GTAForums.com. All tested and fully functional.
+
+[http://www.gtaforums.com/index.php?showtopic=188677 Action Replay codes] at GTAForums.com
+
+[http://www.gtaforums.com/index.php?showtopic=171732 "complete" Action Replay codes] at GTAForums.com (draws from several sources so possibly more complete than the link above)
+
+[http://www.gtaforums.com/index.php?showtopic=183941 Code Conversion Requests] at GTAForums.com. If a code is for the "other" region's Action Replay, these users will convert it.
+
+[http://www.gta-sanandreas.com/forums/index.php?showtopic=33310 GTA-SanAndreas.com Forums] has a list of sites with cheat-device codes.
+
+[http://www.gamesradar.com/ps2/cheats/l-G/s-a-z/p-31 GamesRadar.com] offers cheat codes and walkthroughs.
+{| {{prettytable}}
+!PS2
+!Xbox
+!Effect
+|-
+|{{psx|R1}} {{psx|R2}} {{psx|L1}} {{psx|X}} {{psx|Left|Dpad}} {{psx|Down|Dpad}} {{psx|Right|Dpad}} {{psx|Up|Dpad}} {{psx|Left|Dpad}} {{psx|Down|Dpad}} {{psx|Right|Dpad}} {{psx|Up|Dpad}}
+|{{xbox|RT}}{{xbox|Black}}{{xbox|LT}}{{xbox|A}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}
+|$250, 000 + Full Health & Armor (a.k.a. Money, Full Health, and Full Armor)
+|-
+|
+|{{xbox|B}}{{xbox|Right|Dpad}}{{xbox|B}}{{xbox|Right|Dpad}}{{xbox|Left|Dpad}}{{xbox|X}}{{xbox|A}}{{xbox|Down|Dpad}}
+|Add Stars to Wanted Level
+|-
+|
+|{{xbox|Right|Dpad}}{{xbox|Black}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Black}}{{xbox|B}}{{xbox|X}}{{xbox|Black}}{{xbox|LT}}{{xbox|Right|Dpad}}{{xbox|Down|Dpad}}{{xbox|LT}}
+|Aggressive Drivers
+|-
+|
+|{{xbox|Black}}{{xbox|B}}{{xbox|RT}}{{xbox|White}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|Black}}{{xbox|White}}
+|Aggressive Traffic
+|-
+|
+|{{xbox|Left|Dpad}}{{xbox|Y}}{{xbox|RT}}{{xbox|LT}}{{xbox|Up|Dpad}}{{xbox|X}}{{xbox|Y}}{{xbox|Down|Dpad}}{{xbox|B}}{{xbox|White}}{{xbox|LT}}{{xbox|LT}}
+|All Cars Have Nitrous
+|
+|-
+|
+|{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|Up|Dpad}}{{xbox|RT}}{{xbox|Black}}{{xbox|Black}}
+|All Cars have Tank Properties.
+|
+|-
+|
+|{{xbox|White}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|Up|Dpad}}{{xbox|A}}{{xbox|LT}}{{xbox|White}}{{xbox|Black}}{{xbox|RT}}{{xbox|LT}}{{xbox|LT}}{{xbox|LT}}
+|All Traffic are Junk Cars
+|-
+|
+|{{xbox|Y}}{{xbox|LT}}{{xbox|Y}}{{xbox|Black}}{{xbox|X}}{{xbox|LT}}{{xbox|LT}}
+|All Vehicles are Invisible (Not Motorcycles)
+|-
+|
+|{{xbox|X}}{{xbox|LT}}{{xbox|RT}}{{xbox|Right|Dpad}}{{xbox|A}}{{xbox|Up|Dpad}}{{xbox|LT}}{{xbox|Left|Dpad}}{{xbox|Left|Dpad}}
+|Always Midnight
+|-
+|
+|{{xbox|A}}{{xbox|A}}{{xbox|X}}{{xbox|RT}}{{xbox|LT}}{{xbox|A}}{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}{{xbox|A}}
+|Andrenaline Mode
+|-
+|
+|{{xbox|X}}{{xbox|Right|Dpad}}{{xbox|X}}{{xbox|X}}{{xbox|White}}{{xbox|A}}{{xbox|Y}}{{xbox|A}}{{xbox|Y}}
+|Attracts Prostitutes (Pimp Mode)
+|-
+|
+|{{xbox|X}}{{xbox|X}}{{xbox|Black}}{{xbox|Left|Dpad}}{{xbox|Up|Dpad}}{{xbox|X}}{{xbox|Black}}{{xbox|A}}{{xbox|A}}{{xbox|A}}
+|Better Suspension
+|-
+|
+|{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|X}}{{xbox|B}}{{xbox|LT}}{{xbox|RT}}{{xbox|Y}}{{xbox|Down|Dpad}}
+|Bikini Beach Babe Mode
+|-
+|
+|{{xbox|B}}{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|RT}}{{xbox|Left|Dpad}}{{xbox|A}}{{xbox|RT}}{{xbox|LT}}{{xbox|Left|Dpad}}{{xbox|B}}
+|Black Traffic
+|-
+|
+|{{xbox|X}}{{xbox|Down|Dpad}}{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|LT}}{{xbox|B}}{{xbox|Up|Dpad}}{{xbox|A}}{{xbox|Left|Dpad}}
+|Cars Can Fly
+|-
+|
+|{{xbox|Right|Dpad}}{{xbox|Black}}{{xbox|B}}{{xbox|RT}}{{xbox|White}}{{xbox|X}}{{xbox|RT}}{{xbox|Black}}
+|Cars Drive on Water (Boat Properties)
+|-
+|
+|{{xbox|X}}{{xbox|Black}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}{{xbox|Left|Dpad}}{{xbox|White}}{{xbox|A}}
+|Cars Fly Away When Hit
+|-
+|
+|{{xbox|White}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|Y}}{{xbox|Right|Dpad}}{{xbox|Right|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|LT}}{{xbox|LT}}
+|Chaos mode
+|-
+|
+|{{xbox|Up|Dpad}}{{xbox|A}}{{xbox|Y}}{{xbox|A}}{{xbox|Y}}{{xbox|A}}{{xbox|X}}{{xbox|Black}}{{xbox|Right|Dpad}}
+|Click Left Thumb Stick to make cars jump
+|-
+|
+|{{xbox|White}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}{{xbox|X}}{{xbox|Left|Dpad}}{{xbox|Black}}{{xbox|X}}{{xbox|A}}{{xbox|RT}}{{xbox|LT}}{{xbox|LT}}
+|Cloudy
+|-
+|
+|{{xbox|Black}}{{xbox|White}}{{xbox|RT}}{{xbox|LT}}{{xbox|White}}{{xbox|Black}}{{xbox|X}}{{xbox|Y}}{{xbox|B}}{{xbox|Y}}{{xbox|White}}{{xbox|LT}}
+|Destroy All Cars
+|-
+|
+|{{xbox|Right|Dpad}}{{xbox|RT}}{{xbox|Up|Dpad}}{{xbox|White}}{{xbox|White}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|RT}}{{xbox|RT}}
+|Faster Cars
+|-
+|
+|{{xbox|B}}{{xbox|B}}{{xbox|LT}}{{xbox|X}}{{xbox|LT}}{{xbox|X}}{{xbox|X}}{{xbox|X}}{{xbox|LT}}{{xbox|Y}}{{xbox|B}}{{xbox|Y}}
+|Faster Clock
+|-
+|
+|{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|Right|Dpad}}{{xbox|Down|Dpad}}{{xbox|White}}{{xbox|LT}}{{xbox|X}}
+|Faster Gameplay
+|-
+|
+|{{xbox|Black}}{{xbox|B}}{{xbox|Up|Dpad}}{{xbox|LT}}{{xbox|Right|Dpad}}{{xbox|RT}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|X}}{{xbox|Y}}
+|Flying Boats
+|-
+|
+|{{xbox|Black}}{{xbox|A}}{{xbox|LT}}{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|White}}{{xbox|A}}
+|Foggy
+|-
+|
+|{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|X}}{{xbox|White}}{{xbox|Right|Dpad}}{{xbox|A}}{{xbox|RT}}{{xbox|Down|Dpad}}{{xbox|Black}}{{xbox|B}}
+|Full Weapon Aiming While Driving
+|-
+|
+|{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|White}}{{xbox|RT}}{{xbox|Black}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}
+|Have Jetpack
+|-
+|
+|{{xbox|Down|Dpad}}{{xbox|X}}{{xbox|A}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|Black}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|LT}}{{xbox|LT}}{{xbox|LT}}
+|Hitman Rank (All Weapons)
+|-
+|
+|{{xbox|Up|Dpad}}{{xbox|LT}}{{xbox|RT}}{{xbox|Up|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|A}}{{xbox|White}}{{xbox|A}}{{xbox|LT}}
+|Increase Car Speed
+|-
+|
+|{{xbox|LT}}{{xbox|RT}}{{xbox|X}}{{xbox|RT}}{{xbox|Left|Dpad}}{{xbox|Black}}{{xbox|RT}}{{xbox|Left|Dpad}}{{xbox|X}}{{xbox|Down|Dpad}}{{xbox|LT}}{{xbox|LT}}
+|Infinite Ammo
+|-
+|
+|{{xbox|Down|Dpad}}{{xbox|A}}{{xbox|Right|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|RT}}{{xbox|Right|Dpad}}{{xbox|Down|Dpad}}{{xbox|Up|Dpad}}{{xbox|Y}}
+|Infinite health (Explosions, drowning, and falling will still hurt)
+|-
+|
+|{{xbox|Right|Dpad}}{{xbox|White}}{{xbox|Down|Dpad}}{{xbox|RT}}{{xbox|Left|Dpad}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|White}}{{xbox|LT}}
+|Kill yourself (instantly die)
+|-
+|
+|{{xbox|Y}}{{xbox|Y}}{{xbox|LT}}{{xbox|X}}{{xbox|X}}{{xbox|B}}{{xbox|X}}{{xbox|Down|Dpad}}{{xbox|B}}
+|Killer Clown Mode
+|-
+|
+|{{xbox|B}}{{xbox|Right|Dpad}}{{xbox|B}}{{xbox|Right|Dpad}}{{xbox|Left|Dpad}}{{xbox|X}}{{xbox|Y}}{{xbox|Up|Dpad}}
+|Lock Wanted Level
+|-
+|
+|{{xbox|RT}}{{xbox|RT}}{{xbox|B}}{{xbox|Black}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}
+|Lower Wanted Level
+|-
+|
+|{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|X}}{{xbox|B}}{{xbox|Down|Dpad}}
+|Max Fat
+|-
+|
+|{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|X}}{{xbox|B}}{{xbox|Left|Dpad}}
+|Max Muscle
+|-
+|
+|{{xbox|LT}}{{xbox|RT}}{{xbox|Y}}{{xbox|Down|Dpad}}{{xbox|Black}}{{xbox|A}}{{xbox|LT}}{{xbox|Up|Dpad}}{{xbox|White}}{{xbox|White}}{{xbox|LT}}{{xbox|LT}}
+|Max Respect
+|-
+|
+|{{xbox|B}}{{xbox|Y}}{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|B}}{{xbox|RT}}{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|Y}}{{xbox|LT}}{{xbox|LT}}{{xbox|LT}}
+|Max Sex Appeal
+|-
+|
+|{{xbox|X}}{{xbox|White}}{{xbox|A}}{{xbox|RT}}{{xbox|White}}{{xbox|White}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|LT}}{{xbox|LT}}
+|Max Vehicle Stats
+|-
+|
+|{{xbox|Black}}{{xbox|A}}{{xbox|LT}}{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|White}}{{xbox|X}}
+|Morning
+|-
+|
+|{{xbox|X}}{{xbox|White}}{{xbox|RT}}{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|X}}{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|A}}
+|Never Hungry
+|-
+|
+|{{xbox|Black}}{{xbox|A}}{{xbox|LT}}{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|White}}{{xbox|Y}}
+|Night
+|-
+|
+|{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|X}}{{xbox|B}}{{xbox|Right|Dpad}}
+|No Muscle and No Fat
+|-
+|
+|{{xbox|A}}{{xbox|Down|Dpad}}{{xbox|Up|Dpad}}{{xbox|Black}}{{xbox|Down|Dpad}}{{xbox|Y}}{{xbox|LT}}{{xbox|Y}}{{xbox|Left|Dpad}}
+|No Pedestrians / Low Traffic
+|-
+|
+|{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|RT}}{{xbox|RT}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|RT}}{{xbox|Black}}{{xbox|Right|Dpad}}{{xbox|Down|Dpad}}
+|No Pedestrians or Cops (Gan Riots)
+|-
+|
+|{{xbox|Black}}{{xbox|A}}{{xbox|LT}}{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|White}}{{xbox|Down|Dpad}}
+|Noon
+|-
+|
+|{{xbox|Left|Dpad}}{{xbox|Left|Dpad}}{{xbox|White}}{{xbox|RT}}{{xbox|Right|Dpad}}{{xbox|X}}{{xbox|X}}{{xbox|LT}}{{xbox|White}}{{xbox|A}}
+|Orange Sky
+|-
+|
+|{{xbox|Black}}{{xbox|A}}{{xbox|LT}}{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|White}}{{xbox|X}}
+|Overcast
+|-
+|
+|{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|White}}{{xbox|RT}}{{xbox|Black}}{{xbox|Black}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}{{xbox|Right|Dpad}}{{xbox|LT}}
+|Parachute
+|-
+|
+|{{xbox|Down|Dpad}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|A}}{{xbox|Black}}{{xbox|RT}}{{xbox|White}}{{xbox|White}}
+|Pedestrian Attack (cannot be turned off without resetting the game)
+|-
+|
+|{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|A}}{{xbox|Black}}{{xbox|RT}}{{xbox|White}}{{xbox|LT}}
+|Pedestrian Riot Mode (cannot be turned off without resetting the game)
+|-
+|
+|{{xbox|LT}}{{xbox|B}}{{xbox|Y}}{{xbox|LT}}{{xbox|LT}}{{xbox|X}}{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}
+|Pedestrians Are Elvis
+|-
+|
+|{{xbox|A}}{{xbox|LT}}{{xbox|Up|Dpad}}{{xbox|X}}{{xbox|Down|Dpad}}{{xbox|A}}{{xbox|White}}{{xbox|Y}}{{xbox|Down|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|LT}}
+|Pedestrians Attack with Guns
+|-
+|
+|{{xbox|Black}}{{xbox|RT}}{{xbox|A}}{{xbox|Y}}{{xbox|A}}{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}
+|Pedestrians have weapons
+|-
+|
+|{{xbox|Y}}{{xbox|RT}}{{xbox|RT}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|Black}}{{xbox|LT}}
+|Perfect Handling in Vehicles
+|-
+|
+|{{xbox|B}}{{xbox|LT}}{{xbox|Down|Dpad}}{{xbox|White}}{{xbox|Left|Dpad}}{{xbox|A}}{{xbox|RT}}{{xbox|LT}}{{xbox|Right|Dpad}}{{xbox|B}}
+|Pink Traffic
+|-
+|
+|{{xbox|Right|Dpad}}{{xbox|White}}{{xbox|White}}{{xbox|Down|Dpad}}{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|White}}{{xbox|Black}}
+|Prostitutes pay you (Pimp Mode 2)
+|-
+|
+|{{xbox|RT}}{{xbox|RT}}{{xbox|B}}{{xbox|Black}}{{xbox|Right|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|Left|Dpad}}
+|Raise Wanted Level
+|-
+|
+|{{xbox|Down|Dpad}}{{xbox|X}}{{xbox|Up|Dpad}}{{xbox|Black}}{{xbox|Black}}{{xbox|Up|Dpad}}{{xbox|Right|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}
+|Recruit Anyone (9mm)
+|-
+|
+|{{xbox|Black}}{{xbox|Black}}{{xbox|Black}}{{xbox|A}}{{xbox|White}}{{xbox|LT}}{{xbox|Black}}{{xbox|LT}}{{xbox|Down|Dpad}}{{xbox|A}}
+|Recruit Anyone (Rockets)
+|-
+|
+|{{xbox|Up|Dpad}}{{xbox|Down|Dpad}}{{xbox|LT}}{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|LT}}{{xbox|White}}{{xbox|RT}}{{xbox|Black}}
+|Sand Storm
+|-
+|
+|{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|X}}{{xbox|B}}{{xbox|Right|Dpad}}
+|Skinny
+|-
+|
+|{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|Right|Dpad}}{{xbox|Down|Dpad}}{{xbox|X}}{{xbox|Black}}{{xbox|RT}}
+|Slow down Game Play
+|-
+|
+|{{xbox|Down|Dpad}}{{xbox|RT}}{{xbox|B}}{{xbox|White}}{{xbox|White}}{{xbox|A}}{{xbox|RT}}{{xbox|LT}}{{xbox|Left|Dpad}}{{xbox|Left|Dpad}}
+|Spawn Bloodring Banger
+|-
+|
+|{{xbox|B}}{{xbox|LT}}{{xbox|Up|Dpad}}{{xbox|RT}}{{xbox|White}}{{xbox|A}}{{xbox|RT}}{{xbox|LT}}{{xbox|B}}{{xbox|A}}
+|Spawn Caddy
+|-
+|
+|{{xbox|Black}}{{xbox|LT}}{{xbox|LT}}{{xbox|Right|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|A}}{{xbox|LT}}{{xbox|Left|Dpad}}
+|Spawn Dozer
+|-
+|
+|{{xbox|RT}}{{xbox|B}}{{xbox|Black}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|White}}{{xbox|A}}{{xbox|A}}{{xbox|X}}{{xbox|RT}}
+|Spawn Hotring Racer #1
+|-
+|
+|{{xbox|Black}}{{xbox|LT}}{{xbox|B}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|RT}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|B}}{{xbox|Black}}
+|Spawn Hotring Racer #2
+|-
+|
+|{{xbox|B}}{{xbox|A}}{{xbox|LT}}{{xbox|B}}{{xbox|B}}{{xbox|LT}}{{xbox|B}}{{xbox|RT}}{{xbox|Black}}{{xbox|White}}{{xbox|LT}}{{xbox|LT}}
+|Spawn Hunter
+|-
+|
+|{{xbox|Y}}{{xbox|Y}}{{xbox|X}}{{xbox|B}}{{xbox|A}}{{xbox|LT}}{{xbox|LT}}{{xbox|Down|Dpad}}{{xbox|Up|Dpad}}
+|Spawn Hydra
+|-
+|
+|{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|RT}}{{xbox|RT}}{{xbox|RT}}{{xbox|Down|Dpad}}{{xbox|Y}}{{xbox|Y}}{{xbox|A}}{{xbox|B}}{{xbox|LT}}{{xbox|LT}}
+|Spawn Monster
+|-
+|
+|{{xbox|Left|Dpad}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|X}}{{xbox|B}}{{xbox|Y}}{{xbox|RT}}{{xbox|Black}}
+|Spawn Quadbike
+|-
+|
+|{{xbox|Up|Dpad}}{{xbox|Right|Dpad}}{{xbox|Right|Dpad}}{{xbox|LT}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|X}}{{xbox|White}}
+|Spawn Rancher
+|-
+|
+|{{xbox|B}}{{xbox|B}}{{xbox|LT}}{{xbox|B}}{{xbox|B}}{{xbox|B}}{{xbox|LT}}{{xbox|White}}{{xbox|RT}}{{xbox|Y}}{{xbox|B}}{{xbox|Y}}
+|Spawn Rhino
+|-
+|
+|{{xbox|Black}}{{xbox|Up|Dpad}}{{xbox|White}}{{xbox|Left|Dpad}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|B}}{{xbox|Right|Dpad}}
+|Spawn Stretch
+|-
+|
+|{{xbox|B}}{{xbox|Up|Dpad}}{{xbox|LT}}{{xbox|White}}{{xbox|Down|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|LT}}{{xbox|Left|Dpad}}{{xbox|Left|Dpad}}{{xbox|A}}{{xbox|Y}}
+|Spawn Stunt Plane
+|-
+|
+|{{xbox|RT}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|Black}}{{xbox|Up|Dpad}}{{xbox|Right|Dpad}}{{xbox|X}}{{xbox|Right|Dpad}}{{xbox|White}}{{xbox|LT}}{{xbox|LT}}
+|Spawn Tanker
+|-
+|
+|{{xbox|Y}}{{xbox|Y}}{{xbox|X}}{{xbox|B}}{{xbox|A}}{{xbox|LT}}{{xbox|White}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}
+|Spawn Vortex
+|-
+|
+|{{xbox|Black}}{{xbox|A}}{{xbox|LT}}{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|White}}{{xbox|B}}
+|Stormy
+|-
+|
+|{{xbox|Y}}{{xbox|X}}{{xbox|B}}{{xbox|B}}{{xbox|X}}{{xbox|B}}{{xbox|B}}{{xbox|LT}}{{xbox|White}}{{xbox|White}}{{xbox|RT}}{{xbox|Black}}
+|Super Bike Jumps
+|-
+|
+|{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Y}}{{xbox|Y}}{{xbox|Up|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Right|Dpad}}{{xbox|X}}{{xbox|Black}}{{xbox|Black}}
+|Super Jumps
+|-
+|
+|{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}{{xbox|LT}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|Black}}{{xbox|Down|Dpad}}{{xbox|White}}{{xbox|Down|Dpad}}
+|Super Lung Capacity (Infinite Air)
+|-
+|
+|{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|A}}{{xbox|Y}}{{xbox|RT}}{{xbox|B}}{{xbox|B}}{{xbox|B}}{{xbox|White}}
+|Super Punches
+|-
+|
+|{{xbox|Right|Dpad}}{{xbox|RT}}{{xbox|Up|Dpad}}{{xbox|White}}{{xbox|White}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|LT}}{{xbox|RT}}{{xbox|RT}}
+|Traffic Lights Stay Green
+|-
+|
+|{{xbox|RT}}{{xbox|Black}}{{xbox|LT}}{{xbox|Black}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}
+|Weapon Set 1
+|-
+|
+|{{xbox|RT}}{{xbox|Black}}{{xbox|LT}}{{xbox|Black}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|Left|Dpad}}
+|Weapon Set 2
+|-
+|
+|{{xbox|RT}}{{xbox|Black}}{{xbox|LT}}{{xbox|Black}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Right|Dpad}}{{xbox|Up|Dpad}}{{xbox|Left|Dpad}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}{{xbox|Down|Dpad}}
+|Weapon Set 3
+|-
+|
+|{{xbox|A}}{{xbox|A}}{{xbox|Down|Dpad}}{{xbox|Black}}{{xbox|White}}{{xbox|B}}{{xbox|RT}}{{xbox|B}}{{xbox|X}}
+|Yakuza Mode (Pedestrians and cars are asian gang members)
+|-
+|
+|{{xbox|White}}{{xbox|Up|Dpad}}{{xbox|RT}}{{xbox|RT}}{{xbox|Left|Dpad}}{{xbox|RT}}{{xbox|RT}}{{xbox|Black}}{{xbox|Right|Dpad}}{{xbox|Down|Dpad}}
+|Gang Members Everywhere
+|}
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Glitches|nextpage=Mods}}

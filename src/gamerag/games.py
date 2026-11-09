@@ -46,6 +46,18 @@ class ManualRef(BaseModel):
     local_path: Path
 
 
+class ExtraSource(BaseModel):
+    """Una fuente adicional de texto para el juego (otra wiki), con su política de ubicación."""
+
+    site: str  # nombre del sitio (carpeta bajo data/wiki_snapshot/)
+    snapshot_dir: Path
+    # restricted: lo que no traiga ubicación queda restringido (salvo `general_headings`); general: como la fuente
+    # principal. Para fuentes sin ubicación en el título, usar siempre restricted.
+    unlocated: Literal["restricted", "general"] = "restricted"
+    general_headings: str | None = None  # regex de encabezados de contenido sin spoilers (p. ej. Gameplay|Reception)
+    exclude_pages: list[str] = []
+
+
 class GameConfig(BaseModel):
     game_id: str = Field(pattern=r"^[a-z0-9_]+$")
     title: str
@@ -54,12 +66,16 @@ class GameConfig(BaseModel):
     aliases: list[str] = []
     snapshot_dir: Path
     manual: ManualRef | None = None
+    extra_sources: list[ExtraSource] = []  # otras wikis (ver config/sources.yaml)
 
     progress_model: ProgressModel
     levels: list[int] | None = None
     quests: list[str] | None = None
     stages: list[str] | None = None
 
+    # Ubicación por título de página (último componente), para wikis cuyos títulos no traen un número:
+    # {"Inside the Deku Tree": {"level": 1}}. Tiene prioridad sobre las regex.
+    title_locations: dict[str, dict[str, int | str]] = {}
     location_from_title: str | None = None
     location_from_heading: str | None = None
 

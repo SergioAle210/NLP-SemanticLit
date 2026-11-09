@@ -1,0 +1,120 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TWWHD= [[File:TWWHD Iron Boots Artwork.png|320x320px]]
+ |Render OoT= [[File:OoT Iron Boots Render.png|320x320px]]
+ |Render TP= [[File:TP Iron Boots Render.png|320x320px]]
+ |Model OoT= [[File:OoT Iron Boots Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Iron Boots Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Iron Boots Model.png|320x320px]]
+ |Model TWW= [[File:TWW Iron Boots Model.png|320x320px]]
+ |Model TWWHD= {{Please Upload|File:TWWHD Iron Boots Model.png}}
+ |Model TP= [[File:TP Iron Boots Model.png|320x320px]]
+ |Model TPHD= [[File:TPHD Iron Boots Model.png|320x320px]]
+ |Sprite OoT= [[File:OoT Iron Boots Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Iron Boots Icon.png|160x160px]]
+ |Sprite OoTNS2= [[File:OoTNS2 Iron Boots Icon.png|320x320px]]
+ |Sprite TWW= [[File:TWW Iron Boots Icon.png|160x160px]]
+ |Sprite TWWHD= [[File:TWWHD Iron Boots Icon.png|160x160px]]
+ |Sprite TP= [[File:TP Iron Boots Icon.png|160x160px]]
+ |Sprite TPHD= [[File:TPHD Iron Boots Icon.png|160x160px]]
+}}
+|caption= 
+|game= OoT, TWW, TP
+|other= MNPTP, CoH
+|pronunciation= 
+|plural= 
+|cost= 
+|value= 
+|location= {{Infobox Game Blocks
+|OoT= [[Ice Cavern]]
+|TWW= [[Ice Ring Isle]]
+|TP= [[Ordon Village]]
+}}
+|uses= 
+{{List|
+ * Weighing down [[Switch]]es
+ * Sinking underwater<ref name="E 128">{{Cite Book|quote= |book= E |publisher= |page= 128 {{Exp Game|OoT, TWW, TP}}}}</ref>
+ * Maintaining footing in strong winds<ref name="E 128"></ref>
+ * Walking on magnetic surfaces
+}}
+|strength= 
+|durability= 
+|comp= [[Hover Boots]]
+|sample=
+|theme= 
+}}
+{{Term/Store|Iron Boots|Iron Boots|Series, OoT, OoT3D, TWW, TWWHD, TP, TPHD|plural}} are recurring [[Item]]s in {{TLoZ Series}}.<ref name="E 128"/><ref name="Inventory">{{Cite|{{Color CoH|Yellow|Iron Boots}}<br/>Move easily through shallow water and prevent knockback, wind effects, and slipping on ice.|Inventory|CoH}}</ref>{{Name Ref|MNPTP}}
+
+==Location and Uses==
+==={{OoT|-}}===
+{{Descriptions OoT}}
+The Iron Boots can be found in the [[Ice Cavern]] near [[Zora's Fountain]] in {{OoT}}. When equipped, they make [[Link]] walk slower due to their extreme weight,<ref>{{Cite|You got the Iron Boots! So heavy, you can't run. So heavy, you can't float.|N/A|OoT}}</ref> but he can descend to the bottom of lakes and other sources of water.<ref>{{Cite|Those Iron Boots look like they weigh a ton! If you wear those boots, you may be able to walk at the bottom of a lake.|Navi|OoT}}</ref> Link must wear the [[Zora Tunic]] in order to stay underwater; otherwise, a timer will appear and, if he does not take off the boots and resurface before time runs out, he will drown. They are required to traverse the deep water in the [[Water Temple (Ocarina of Time)|Water Temple]], and are also useful in the [[Shadow Temple]], as they enable Link to walk against the fan currents.
+
+In {{OoT3D}}, the Iron Boots are changed from equipment to an item, simplifying their use.
+
+==={{TWW|-}}===
+{{Checklist
+ |game= TWW
+ |type= Characters
+ |category= Items in The Wind Waker
+ |needs= 
+Detailed information on the following:
+* Where they are found
+* How much they cost
+* What they do
+}}
+The Iron Boots are found inside a cave in the [[Ice Ring Isle]] in {{TWW}}. Link can use the Iron Boots to avoid being blown away by the wind,<ref>{{Cite|You got the Iron Boots! These boots are so heavy you can hardly walk, but the wind can't blow you around when you wear them!|N/A|TWW}}</ref>  making them required for the [[Wind Temple]]. They also allow him to activate [[springboard]]s by wearing the boots and then taking them off. Additionally, wearing the Iron Boots and using the [[Hookshot]] on some statues allows Link to pull them down. Unlike in {{OoT|-}}, the boots cannot be used to sink beneath the water, as they are automatically unequipped should Link enter deep water.
+
+==={{TP|-}}===
+In {{TP}}, the Iron Boots are given to Link by [[Mayor Bo]] in the latter's house in [[Ordon Village]] after defeating him in a [[Sumo]] match. They are an item assignable to specific buttons. They are used to ward off the [[Goron]]s while ascending [[Death Mountain]],<ref>{{Cite|You got the {{Color TPHD|Red|Iron Boots}}! Set them to and wear them with {{Icon|TPHD Y}}, {{Icon|TPHD X}}, or {{Icon|TPHD R}}, and you'll become so heavy, not even a Goron will be able to move you!|Main Screen|TPHD}}</ref> to prevent Link from being knocked about by steam jets and to defeat [[Gor Coron]], [[Dangoro]] and [[Fyrus]].
+
+In the [[Goron Mines]], the Iron Boots are needed to allow Link to walk on magnetic roofs and walls,<ref>{{Cite|If you could wear something metal that would be attracted by the magnet, you'd be in for quite a ride.|Midna|TP}}</ref> to weigh down large platforms that open gates and to depress [[Floor Switch]]es. They are also required to complete the [[Lakebed Temple]], as they allow Link to use [[Water Bomb]]s while underwater. In the [[City in the Sky]], they can be used to hold Link steady in strong gusts of wind. Link can also roll with them equipped and hurt enemies.
+
+==Other Appearances==
+==={{MNPTP|-}}===
+{{Noncanon|Start}}
+[[File:MNPTP Iron Boots Sprite.png|left|50px]]
+The thirteenth puzzle in the ''Picross'' series and the twelfth puzzle in the ''Mega Picross'' series depict Iron Boots.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+The Iron Boots appear in Cadence of Hyrule as a temporary item that can be found in random locations, which negates the effects of icy surfaces and shallow waters, allowing the user to walk over them as though they were regular floors.<ref name="Inventory"/> Upon being defeated, or the gauge of its usage being depleted, the boots will wear out and be lost to the player until they can find a new pair. They can be bought from a [[Shopkeeper]] for 80 [[Rupee]]s or found as loot from red [[Treasure Chest]]s.
+{{Noncanon|End}}
+
+==Trivia==
+*A pair of boots called the Water Boots were set to appear in {{TWW|-}}.<ref>{{Cite Web|quote= The icon spells out the English words "Water Boots" in hiragana (oddly, since foreign words are almost always written in katakana).|author= |published= |retrieved= |url= http://tcrf.net/The_Legend_of_Zelda:_The_Wind_Waker/Unused_Textures_and_Models#Item_icons|title= The Wind Waker/Unused Textures and Models|site= The Cutting Room Floor|type=}}</ref> They were possibly an earlier version of the Iron Boots or a separate version which would allow Link to sink underwater.<ref>{{Cite Web|quote= Notably, the water is transparent, an exception to the opaque blue of the water in the final game. There is also walkable terrain at the bottom of the pool. This may have been used to test the Water Boots, an item akin to the Iron Boots from Ocarina of Time that was ultimately cut from the game.|author= |published= |retrieved= |url= https://tcrf.net/The_Legend_of_Zelda:_The_Wind_Waker/Unused_Rooms/Page_One#Amos_T_-_Terrain_Test_Map|title= The Legend of Zelda: The Wind Waker/Unused Rooms/Page One|site= The Cutting Room Floor|type=}}</ref>
+*In ''Twilight Princess'' the Iron Boots will remain equipped during certain cutscenes (such as Zant's attack at Lake Hylia), and will continue to making their loud clanging sound whenever Link walks.
+*In {{HW}}, the design of [[Linkle]]'s [[Winged Boots]] and [[Roc Boots]] are based on the Iron Boots from {{OoT|-}} and {{TP|-}}, respectively.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoTNS2 Iron Boots Promotional Screenshot.png|{{Game Label|{{OoTNS2|-}}}}Promotional screenshot of Link using the Iron Boots
+File:Magnetic.jpg|{{Game Label|{{TP|-}}}}Link using the Iron Boots underwater
+File:TP Iron Boots Concept Artwork.jpg|{{Game Label|{{TP|-}}}}Concept Artwork of the Iron Boots
+File:MNPTP Iron Boots Sprite.png|{{Game Label|{{MNPTP|-}}}}The Iron Boots puzzle
+File:CoH Iron Boots Sprite.png|{{Game Label|{{CoH|-}}}}Iron Boots
+</gallery>
+
+==See Also==
+{{See Also|
+ * Boots of Leaping
+ * Boots of Power
+ * Boots of Speed
+ * Glass Slippers
+ * Greaves
+ * Hover Boots
+}}
+
+{{Ref|
+
+}}
+
+{{Categories
+ |Boots, Magnetism
+ |items= OoT, OoT3D, OoTNS2, TWW, TWWHD, TP, TPHD, CoH
+}}

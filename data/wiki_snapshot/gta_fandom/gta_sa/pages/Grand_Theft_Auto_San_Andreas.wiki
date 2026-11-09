@@ -1,0 +1,362 @@
+[[Grand Theft Auto (1997 game)]]{{Audio
+|file     = GTA San Andreas Theme Song.ogg
+|position = 
+|artist   = Michael Hunter
+|track    = Theme from San Andreas
+|detail   = ''Grand Theft Auto: San Andreas'' Main Theme
+}}
+{{/infobox}}
+{{Wikipedia|Grand Theft Auto: San Andreas|''Grand Theft Auto: San Andreas''}}
+{{Quote|Five years ago Carl Johnson escaped from the pressures of life in Los Santos, San Andreas — a city tearing itself apart with gang trouble, drugs, and corruption. Where film stars and millionaires do their best to avoid the dealers and gangbangers.<br>Now, it's the early '90s. Carl's got to go home. His mother has been murdered, his family has fallen apart and his childhood friends are all heading toward disaster.<br>On his return to the neighborhood, a couple of corrupt cops frame him for homicide. CJ is forced on a journey that takes him across the entire state of San Andreas, to save his family and to take control of the streets.|Official Description}}
+'''''Grand Theft Auto: San Andreas''''' (also referred to as '''''GTA San Andreas''''', '''''GTA SA''''' or simply '''''San Andreas''''') is a [[Rockstar North]]-developed video game released on 26th October [[2004]] by [[Rockstar Games]], and is the seventh title in the {{S}} and the third game in the {{3D}} of the series. It is the sequel to {{VC}} and the prequel to {{LCS}} and {{III}}. It was released on the same date as {{A}}. ''GTA San Andreas'' is set in the fictional state of [[State of San Andreas (3D Universe)|San Andreas]].
+
+On November 11, [[2021]], the game was re-released on 8th and 9th generation consoles in honor of ''Grand Theft Auto III''{{'}}s 20-year anniversary under the title ''Grand Theft Auto: San Andreas - The Definitive Edition'', included in {{TDE}} bundle.
+
+==Synopsis==
+{{Main|Plot in GTA San Andreas}}
+{{Quote|Five years ago Carl Johnson escaped from the pressures of life in Los Santos, San Andreas... a city tearing itself apart with gang trouble, drugs and corruption. Where film stars and millionaires do their best to avoid the dealers and gang-bangers. Now, it's the early 90s. Carl's got to go home. His mother has been murdered, his family has fallen apart and his childhood friends are all heading towards disaster. On his return to the neighborhood, a couple of corrupt cops frame him for homicide. CJ is forced on a journey that takes him across the entire state of San Andreas, to save his family and to take back control of the streets.|[[Rockstar Games]] website.}}
+
+===Setting===
+San Andreas is 6 by 6 kilometers, or 36 million square meters, in size. "That's just the outside map and doesn't include the interior locations in the game, of which there are many". On top of that, the player is not restricted to the populated area of the map. The player can take a boat or plane and travel in any direction as far as they may want.{{Ref|name=GameSpotInterview1|type=website|ref={{URL|https://www.gamespot.com/articles/grand-theft-auto-san-andreas-qanda-under-the-hood/1100-6126774/|Grand Theft Auto: San Andreas Q&A - Under the Hood}}}}
+
+[[Pedestrians]] in the game were made to be more reactive to the player's actions and even the appearance they choose for [[Carl Johnson|CJ]]. Producer [[Dan Houser]], on the subject of giving CJ "stupid hair", commented that "if you've got a stupid haircut, people will say, 'You look stupid'".{{Ref|name=EuroGamerInterview1|type=website|ref={{URL|https://www.eurogamer.net/interview-120704-gtadanhouser|Dan Houser: The GTA San Andreas interview}}}}
+
+===Game Mechanics===
+[[Swimming]] was a feature that was allegedly added just to quieten the fanbase that had been asking for it since ''GTA III''. On the addition of swimming to the series for the first time, Dan Houser simply commented "swimming we never had before. We just got pissed off with people saying, 'We can't do swimming.' It works well in the game. So if you drive off a bridge you're not going to drown. But that said, it’s not a swimming game."{{Ref|name=EuroGamerInterview1}} On being able to exit a vehicle which has fallen into the [[water]], Houser added "If you don't choose to exit the car, you will sink with the car, then you'll have a certain amount of stamina under water which you can build up. There'll be a few missions that will have swimming in them, but it's not going to be like a PSone-era action adventure game where everyone was obsessed with swimming periodically. Definitely not. It just gives it playability."{{Ref|name=EuroGamerInterview1}}
+
+===Scripting===
+When asked by {{WP|GameSpot}} if a single event could be scripted to occur extremely rarely, such as once a year, like in the case of the viral [[Sasquatch|Bigfoot]] rumours, programmer John Whyte confirmed that "there isn't any way of the scripts identifying the date and creating events that are scheduled like this."{{Ref|name=GameSpotInterview1}} 
+
+Senior level designer [[Chris Rothwell]] confirmed that the scripting language and engine used in ''GTA San Andreas'' hadn't changed much since it was used to make ''GTA III'' several years earlier. "Since ''GTA Vice City'', numerous improvements have been made to make scripting more powerful, such as the addition of arrays, switch statements, sequence tasks for character artificial intelligence, and uncountable game-specific commands." A favorite tool that was added during the development was the ability to record cars' positions while driving them around the city in the game, then being able to replay these car recordings in real time during a mission. This enabled the development team to really polish and improve the on-rails missions and scripted [[cutscenes]].{{Ref|name=GameSpotInterview1}} 
+
+A lot of the new gameplay features in ''GTA San Andreas'' were only made possible by these advancements in the scripting language. For example, the 2D-based casino and console games weren't viable in ''GTA Vice City'' until a host of heads-up display sprite commands were added during the development of ''GTA San Andreas''. "There were also very few custom animations used during missions in ''GTA Vice City'', but for ''GTA San Andreas'' we had a brand-new animation scripting interface." This system allowed the designers to implement animation-heavy gameplay coded entirely within the scripting language, such as in the [[pool]] game, the [[basketball]] odd job, the [[parachute]], and in numerous other areas.{{Ref|name=GameSpotInterview1}} 
+
+"We have an overall governing script we call the "main script." Among other things, this main script keeps track of your progress in the game, then loads and launches a mission script when you step on a mission trigger or start one of the odd jobs. Only one mission script is in memory and running at one time. In addition to the missions, we have ambient scripts resident in memory throughout the duration of the game that keep track of a wide variety of in-game systems. Examples of these are the mobile phone, stunt jumps, and shop interface scripts."{{Ref|name=GameSpotInterview1}} 
+
+===Character Design===
+When asked if players would be able to reskin characters on the [[Personal Computer|PC]] version of the game, as they were able to in ''GTA Vice City'', John Whyte noted that "reskinning is a much more complicated task in ''GTA San Andreas''. This is because the model for CJ has three variations (normal, buff, and fat, depending on gameplay), and the clothes for the model have to be put together item by item because you have full control over CJ's wardrobe."{{Ref|name=GameSpotInterview1}} 
+
+==Gameplay and Information==
+[[File:CJ-GTASA.png|left|thumb|200x200px|The [[protagonist]] of ''Grand Theft Auto: San Andreas'', [[Carl Johnson|Carl "CJ" Johnson]].]]
+''Grand Theft Auto: San Andreas'' is similarly structured to the previous two games in the series. The core gameplay consists of elements of [[Third-Person View|third-person]] shooter and a driving game, affording the player a large, open environment in which to move around. On foot, the player's character is capable of walking, running, [[swimming]] (the first ''[[Grand Theft Auto]]'' game in which diving and swimming without drowning is possible), limited climbing, and [[jumping]], as well as using [[Weapons in GTA San Andreas|weapons]] and various forms of hand-to-hand combat. Players can operate a variety of [[Vehicles in GTA San Andreas|vehicles]], including automobiles, [[boats]], [[airplanes]], [[helicopters]], trains, tanks, [[motorcycles]], and [[bicycles]]. Players may also import vehicles rather than steal them.
+
+[[Carl Johnson]] is ''Grand Theft Auto''{{'}}s most customizable protagonist due to the possibility to change his [[Clothing in GTA San Andreas|clothes]], [[Tattoo Parlors/GTA San Andreas|tattoos]], [[Barbers/Hairstyles in GTA San Andreas|hairstyle]], and even his body mass in which he can be fat, skinny, or muscular. Later 3D-era games eliminated many of these aspects. The ability to change body mass (due to eating and exercise {{nd}} or lack thereof {{nd}} which requires ongoing maintenance) is as of 2025 unique to ''GTA San Andreas'', as it has not been attempted again with any further {{3D}} or {{HD}} games.
+
+One aspect of {{III}} and {{VC}} (and the later {{LCS}} and {{VCS}}) that is eliminated in ''GTA San Andreas'' is the "Welcome to" loading screens, which often disrupted game flow in those games; in ''GTA San Andreas'', transition between areas occurs with no such interruption.
+
+==Gangs in San Andreas==
+Rockstar North conducted massive amounts of research before developing the [[Gangs in GTA San Andreas|gangs of San Andreas]]; this primarily involved talking to [[DJ Pooh]], {{WP|Mister Cartoon}}, {{WP|Estevan Oriol}}, and hundreds of other well-known faces.
+
+Gangs play a much larger role in ''GTA San Andreas'' than they did in ''GTA Vice City''.
+
+*The number of gangs has increased. As well as having the large, dominating gangs, there are smaller, more local gangs.
+*''GTA San Andreas'' gives the ability to [[Gang Warfare in GTA San Andreas|"take over" areas]] of the map, and recruit new members into gangs to help and defend as "bodyguards".
+
+==Influence==
+''Grand Theft Auto: San Andreas'' {{nd}} just like ''Grand Theft Auto: Vice City'' {{nd}} is heavily based on many crime-drama movies in the late 1980s and early 1990s. The game's soundtrack, which features, amongst others, {{WP|gangsta rap}}, {{WP|Alternative rock|alternative}}/{{WP|grunge}}/{{WP|Heavy metal music|metal}} and {{WP|new jack swing}}, was also taken from that same era.
+
+The biggest counterpart of ''GTA San Andreas'' is the 1993 hood film ''{{WP|Menace II Society}}''. Many aspects were taken from this movie, such as [[Los Santos (3D Universe)|Los Santos]] being based on {{WP|Los Angeles}} during the movie, plus [[Grove Street (3D Universe)|Grove Street]] itself is a reference to the film. Also, some of the lines in the game were taken from the movie. Furthermore, the event in which [[Beverly Johnson]] dies, the trigger of the game's storyline, is inspired by the {{URL|http://www.youtube.com/watch?v{{=}}LYnL2RnuG-w|final scene}} of the movie. One of the player's [[Grove Street Families|gang members]] with the green flannel shirt and the braids resembles O-Dog played by {{WP|Larenz Tate}}, one of the main characters from the film. Also, the [[Ballas (3D Universe)|Balla]] wearing the beanie and shades resembles Harold's killer/carjacker who was later killed by O-Dog and Caine in a revenge killing in the film. [[MC Eiht]], who plays A-Wax in the movie, provides the voice for [[Ryder]] and a couple of his songs are in the game. [[Clifton Powell]], [[Samuel L. Jackson]] and [[Yolanda Whittaker]] (Yo-Yo), who were also in the film, voice [[Big Smoke]], [[Frank Tenpenny|Tenpenny]] and [[Kendl Johnson|Kendl]] respectively.
+
+Another film that greatly influenced ''Grand Theft Auto: San Andreas'' was the 1988 film ''{{WP|Colors (1988 film)|Colors}}''. The {{WP|Community Resources Against Street Hoodlums|C.R.A.S.H.}} unit of the {{WP|Los Angeles Police Department|LAPD}} deals with {{WP|Bloods}}, {{WP|Crips}}, and Hispanic gangs at war, which much of the Los Santos storyline is based upon. Many of the missions in the game are influenced by scenes from the film. Officer [[Eddie Pulaski]], played by the late [[Chris Penn]], is based on Officer Danny "Pac Man" McGavin, which is played by his brother {{WP|Sean Penn}} in the movie.
+
+''{{WP|New Jack City}}'' is another film that influenced ''Grand Theft Auto: San Andreas'', particularly the [[San Fierro (3D Universe)|San Fierro]] chapter. CJ befriends and works for [[Jizzy B]] to infiltrate and bring down the [[Loco Syndicate]], just like Scotty Appleton ([[Ice-T]]) did to Nino Brown ({{WP|Wesley Snipes}}) and the Cash Money Brothers in the film. Jizzy B. is loosely based on Nino Brown, and CJ can be made look similar to Nino Brown (if CJ buys the clothes from [[Victim]]), and [[Big Smoke's Crack Palace]] closely resembles the Carter Apartment Buildings in the film.
+
+''Grand Theft Auto: San Andreas'' is also inspired by real-life events that occurred in the game's real-world counterpart Los Angeles in the 1990s, such as the {{WP|1992 Los Angeles riots|Los Angeles riots}}, {{WP|Rampart scandal}}, and the {{WP|Crack epidemic in the United States|crack epidemic}}.
+
+Other influences on the game are:
+*''{{WP|Boyz n the Hood}}'' {{nd}} Some of the gameplay is influenced by elements from this film. Some characters in the game are visually and/or mentally based on characters from the film, as well as some events that take place.
+<ref>3r3</ref>''{{WP|Casino (1995 film)|Casino}}'' {{nd}} The [[Las Venturas (3D Universe)|Las Venturas]] portion of the game is based on this movie.
+*''{{WP|Con Air}}'' {{nd}} There are at least two scenes in the game that are quite the same to what can be seen in this movie (when two cops on motorbikes drop their donuts on the street and, at the end of the game, when the [[Fire Truck (ladder)|fire truck]] is chased). Moreover, the [[Verdant Meadows Airfield|aircraft graveyard]] is similar to the one in the film as well.
+*''{{WP|Easy Rider}}'' {{nd}} [[The Truth]] (who was also voiced by [[Peter Fonda]]) is a parody of his character in this film. As a minor note, a [[San Andreas Bikers|San Andreas Biker]] directly references Peter Fonda in his role in this film.
+*''{{WP|Pulp Fiction}}'' {{nd}} As the character Vincent Vega calls his friend Lance, Lance realizes that Vincent is on his cellphone about how he has a girl in his car who is flat-lining fast, and Lance hangs up knowing how the cops might be listening on them repeating the line: "''I don't know you, wrong number, prank caller, prank caller!''" This line was said in the game when The Truth calls Carl about the drugs Tenpenny needs Carl to get before saying the line.
+*''{{WP|To Live and Die in L.A. (film)|To Live and Die in L.A.}}'' {{nd}} One of the car chases in the game is similar to the car chase in this movie.
+*''{{WP|Terminator 2: Judgment Day}}'' {{nd}} A couple of the early car chases bear similarities to the ones in the film, namely the bike chase in [[Just Business]]. The SAPD [[Motor Officer|motor officer]] also bears a strong resemblance to the motorcycle cop that the T-1000 assumes the appearance of at one point in the film.
+*''{{WP|Training Day}}'' {{nd}} Officer Tenpenny is a parody of {{WP|Denzel Washington}}'s character, while Jimmy Hernandez draws influence from {{WP|Jake Hoyt}}'s character.
+
+==Timeframe==
+Although it is not explicitly stated when in [[1992]] the game takes place, it can be inferred to be around early to mid-spring, most likely April. Sunlight lasts around 13 hours, which in real-life {{WP|California}} corresponds to around mid-April or late August. However, when Carl travels to [[Liberty City (3D Universe)|Liberty City]] during [[Saint Mark's Bistro]], the city is covered by snow, which in real-life {{WP|New York City|New York}} is not possible in August, but can occur occasionally during April. A timeframe of April is also consistent with the pedestrians' clothing {{nd}} they generally do not wear heavy winter clothing, but some can be seen with long-sleeves and trousers, implying that it is neither cold nor hot. It is also not uncommon to see pedestrians at beaches.
+
+==Development==
+''Grand Theft Auto: San Andreas'' was developed by [[Rockstar North]]. It had a development budget of $10 million.{{Ref|name=budget|type=website|url=https://www.newspapers.com/clip/84996569/gta-sa-budget/}}
+
+According to Rockstar North technical director [[Obbe Vermeij]], for ''GTA San Andreas'', a completely new level of detail system was implemented whereby a number of models (buildings) can share a single low-detail (LOD) model. This way, the low-detail models could be loaded as the player moves around the map as opposed to in one go as the player moves between islands, like in ''GTA Vice City''.{{Ref|name=GameSpotInterview1}} The [[Personal Computer|PC]] version has a further clip distance so that more of the map is always visible, and the map has a lot of the detail that had to be removed from the [[PlayStation 2]] version to get it to fit into the smaller memory footprint. The clip distances for cars and pedestrians are increased, as well. "We have to draw these things further out because the PC will run at a higher resolution. In total, this means that the PC is pushing around a lot more than the PS2."{{Ref|name=GameSpotInterview1}}
+
+==Reception==
+Prior to its release for the PlayStation 2, ''Grand Theft Auto: San Andreas'' was one of the most highly anticipated video games of [[2004]], along with ''{{WP|Halo 2}}'', ''{{WP|Doom 3}}'', and ''{{WP|Half-Life 2}}''. ''GTA San Andreas'' met most of these expectations, as it was critically acclaimed and commercially successful, and praised as one of the PlayStation 2's best games.
+
+The ''{{WP|Official U.S. PlayStation Magazine}}'' awarded the game with a perfect 10/10, praising the game's open-endedness, the size of the state, and its engaging storyline and voice acting.
+
+''{{WP|Metacritic}}'' awarded the game with 95/100, making it the fifth highest rated PlayStation 2 game of all time.
+
+''{{WP|IGN}}'' rated the game a 9.9/10 (the highest score it has ever awarded to a PlayStation 2 game), calling it "the defining piece of software" for the PlayStation 2. 
+
+''{{WP|GameSpot}}'' rated the game 9.6/10, giving it an Editor's Choice award. Jeff Gerstmann of ''GameSpot'' said "''San Andreas'' definitely lives up to the ''Grand Theft Auto'' name. In fact, it's arguably the best game in the series."
+
+''{{WP|1Up Network|1UP.com}}'' awarded the game with an A rating. John Davison of ''1UP.com'' said in his review that "San Andreas is shocking, not necessarily because of its typically contentious subject matter, but because of the sheer scale of the experience... is it really the best game ever made? Quite possibly, yes."
+
+In ''{{WP|Edge (magazine)|Edge's}}'' "Top 100 Games to Play Today", ''GTA San Andreas ''ranked at number 27 in that list. ''Edge'' declared that the game remains "the ultimate expression of freedom, before next-gen reined it all back in."
+
+The {{WP|Guinness World Records}} 2009 Gamer's Edition listed ''GTA San Andreas'' as the best selling PlayStation 2 game of all time, with 17.33 million copies sold for that console alone.
+
+In 2014, {{WP|WatchMojo}} placed ''GTA San Andreas'' at the #1 spot in their "Top 10 Grand Theft Auto Games" list countdown, and at the #2 spot in their "Every Grand Theft Auto Game Ranked" video over on their sister channel MojoPlays in 2021 (right behind {{IV}}).
+
+===Sales===
+In 2011, ''Kotaku'' reported that, according to [[Rockstar Games]], ''Grand Theft Auto: San Andreas'' had sold 27.5 million copies worldwide, making it the second best selling ''[[Grand Theft Auto]]'' game in the series (right behind {{V}}).
+
+===Accolades===
+{| class="wikitable sortable" style="text-align: center;" width="100%"
+! width="50" class="sortable" |Date
+! width="50" |Award
+! width="50" |Category
+! width="50" |Recipient(s) and Nominee(s)
+! width="50" |Result
+|-
+|14 December 2004
+|{{WP|Spike Video Game Awards}}
+|Game of the Year
+|''Grand Theft Auto: San Andreas''
+|Won
+|-
+|14 December 2004
+|Spike Video Game Awards
+|Best Action Game
+|''Grand Theft Auto: San Andreas''
+|Won
+|-
+|14 December 2004
+|Spike Video Game Awards
+|Best Soundtrack
+|''Grand Theft Auto: San Andreas''
+|Won
+|-
+|14 December 2004
+|Spike Video Game Awards
+|Best Performance by a Human Male
+|[[Samuel L. Jackson]]
+|Won
+|-
+|14 December 2004
+|Spike Video Game Awards
+|Designer of the Year
+|[[Sam Houser]] and [[Rockstar North]]
+|Nominated
+|-
+|1 February 2005
+|{{WP|Academy of Interactive Arts & Sciences}}
+|Outstanding Achievement in Soundtrack
+|Rockstar North
+|Won
+|-
+|1 February 2005
+|Academy of Interactive Arts & Sciences
+|Action/Adventure Game of the Year
+|Rockstar North
+|Won
+|-
+|1 February 2005
+|Academy of Interactive Arts & Sciences
+|Game of the Year
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|-
+|1 February 2005
+|Academy of Interactive Arts & Sciences
+|Outstanding Achievement in Character or Story Development
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|-
+|1 February 2005
+|Academy of Interactive Arts & Sciences
+|Outstanding Achievement in Game Design
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|-
+|12 February 2005
+|{{WP|British Academy Film Awards|BAFTA Awards}}
+|Best PS2 Game Award
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|-
+|12 February 2005
+|BAFTA Awards
+|Best Animation
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|-
+|12 February 2005
+|BAFTA Awards
+|Best Action and Adventure Game
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|-
+|12 February 2005
+|BAFTA Awards
+|Best Game
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|-
+|12 February 2005
+|BAFTA Awards
+|{{WP|The Sunday Times|Sunday Times}} Reader Award for Games
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|-
+|9 March 2005
+|{{WP|Game Developers Choice Awards}}
+|Best Game
+|[[Leslie Benzies]]<br>[[Adam Fowler]]<br>[[Aaron Garbut]]<br>[[Sam Houser]]<br>[[Alexander Roger]]<br>[[Obbe Vermeij]]
+|Nominated
+|-
+|9 March 2005
+|Game Developers Choice Awards
+|Best Writing
+|[[Dan Houser]]<br>James Worrall
+|Nominated
+|-
+|14 August 2005
+|{{WP|Teen Choice Awards}}
+|Choice Video Game
+|''Grand Theft Auto: San Andreas''
+|Won
+|-
+|17 December 2005
+|{{WP|10th Satellite Awards}}
+|Outstanding Action/Adventure Game
+|''Grand Theft Auto: San Andreas''
+|Nominated
+|}
+
+==Editions==
+===The Definitive Edition===
+{{Main|Grand Theft Auto: The Trilogy - The Definitive Edition}}
+[[File:GTASA-DefinitiveEdition-BoxArt.png|150px|thumb|''[[Grand Theft Auto: The Trilogy - The Definitive Edition|Grand Theft Auto: San Andreas - The Definitive Edition]]''.]]
+''The Definitive Edition'' was announced by Rockstar on October 8th, [[2021]], as part of the ''Grand Theft Auto: The Trilogy - The Definitive Edition'' pack. The edition was released on November 11, 2021, for [[PlayStation 5]], [[PlayStation 4]], [[Xbox Series X and Series S|Xbox Series X|S]], [[Xbox One]], [[Nintendo Switch]] and [[Personal Computer|PC]]; and was released on December 14, [[2023]], for [[Apple iOS]] and [[Android OS|Android]].
+
+The edition features across-the-board upgrades, including graphical improvements and modern gameplay enhancements, while still maintaining the classic look and feel of its original version.
+
+{{Clear}}
+==Controversy==
+The game has received widespread acclaim for its technical achievements and free gameplay. However, it also received widespread criticism―initially due to its "gangster" elements, which include drugs, prostitution, and murder; but later due to the discovery of disabled interactive sex scenes, nicknamed [[Modifications/Hot Coffee|Hot Coffee]], which could be re-enabled using third-party mods. This led to the re-rating by the [[Entertainment Software Rating Board|ESRB]] of the game from Mature to Adults-Only until a second version, with the sex scenes fully removed (and removed the ability to mod the PC version), was released.
+
+==Gallery==
+===Screenshots===
+<!----:''See more, [[Grand Theft Auto: San Andreas/Screenshots]]''---->
+====Original Versions====
+<gallery position="center" spacing="small" widths="250px">
+PromotionalWebsite-GTASA-screen13.jpg
+PromotionalWebsite-GTASA-screen14.jpg
+PromotionalWebsite-GTASA-screen03.jpg
+PromotionalWebsite-GTASA-screen04.jpg
+PromotionalWebsite-GTASA-screen16.jpg
+PromotionalWebsite-GTASA-screen17.jpg
+PromotionalWebsite-GTASA-screen07.jpg
+PromotionalWebsite-GTASA-screen08.jpg
+PromotionalWebsite-GTASA-screen09.jpg
+PromotionalWebsite-GTASA-screen10.jpg
+PromotionalWebsite-GTASA-screen11.jpg
+PromotionalWebsite-GTASA-screen12.jpg
+</gallery>
+
+====''The Definitive Edition''====
+<gallery position="center" spacing="small" widths="250px">
+GTATrilogyDE-GTASA-Screenshot1.png
+GTATrilogy-GTASAde-November102021-Screenshot1.jpg
+GTATrilogyDE-GTASA-Screenshot2.png
+GTATrilogy-GTASAde-MicrosoftStore-Screenshot2.jpg
+GTATrilogyDE-GTASA-Screenshot5.jpg
+GTATrilogy-GTASAde-November102021-Screenshot2.jpg
+GTATrilogy-GTASAde-Amazon-Screenshot2.jpg
+GTATrilogyDE-GTASA-Screenshot6.jpg
+GTATrilogy-GTASAde-NintendoSwitch-Screenshot1.jpg
+GTATrilogy-GTASAde-GroveStreetGames-Screenshot1.jpg
+GTATrilogyDE-GTASA-Screenshot7.jpg
+GTATrilogy-GTASAde-Amazon-Screenshot1.jpg
+</gallery>
+
+===Artworks===
+<!----:''See more, [[Grand Theft Auto: San Andreas/Artwork]]''---->
+<gallery position="center" spacing="small" widths="250px">
+Artwork-GroveStreetFamily-GTASA.jpg
+Artwork-GSF-GTASA.jpg
+T-BoneMendez-Artwork.jpg
+Artwork-GTASA-RanFaLi.jpg
+Artwork-BMX-GTASA.jpg
+Artwork-LSPDHelicopter-GTASA.jpg
+GroveStreet-GTASA-GangMemberArtwork.jpg
+BigSmoke-Artwork.jpg
+Artwork-TheTruth-GTASA.jpg
+Rochell'le-Artwork.jpg
+</gallery>
+
+==Trailers==
+<!--------{{Main|Grand Theft Auto: San Andreas/Trailers}}-------->
+{{#ev:youtube|D71cBUeAL58|275px|center|'''Grand Theft Auto: The Trilogy – The Definitive Edition Trailer'''}}
+<gallery widths="300px" spacing="small" captionalign="center" position="center">
+GTA San Andreas - Official Trailer 1 HD|GTA San Andreas - Official Trailer 1
+GTA San Andreas - Official Trailer 2 HD|GTA San Andreas - Official Trailer 2
+GTA San Andreas - Official Trailer 3 HD|GTA San Andreas - Official Trailer 3
+GTA San Andreas - Official Xbox Trailer|GTA San Andreas - Official Xbox Trailer
+</gallery>
+
+==Trivia==
+===General===
+*In the 2006 film ''{{WP|The Break-Up}}'', some of the film scenes show the main character of the film, Gary Grobowski, playing ''GTA San Andreas'' on [[PlayStation 2|PS2]].
+*[[Rockstar Games]] denied claims made by {{WP|50 Cent}} about him being asked to voice [[Carl Johnson|Carl]], but turned it down because if he were to ever voice a character in a video game, it would be {{WP|50 Cent: Bulletproof|as himself}}.
+
+===''Grand Theft Auto''===
+*''Grand Theft Auto: San Andreas'' partly takes place in the winter, as seen in [[Saint Mark's Bistro]].
+*BradyGames published the Official Strategy Guide for the game; however, the book contains many errors and appears to be based upon a pre-release version of the game. For example, locations of many pickups and "hidden package"-style items shown on the maps differ to where they really are in the game. Also, there are additional pickups for [[adrenaline]] shown, even though the item is not available in the final game. Some mission walkthroughs also refer to gameplay elements not evidently available in the final game (such as evading the [[Los Santos Police Department (3D Universe)|police]] during the [[Madd Dogg's Rhymes]] mission), and in a few cases, some activities are stated as being unlocked by certain missions despite being available earlier in the game (such as the [[Rhythm-based Minigame|dancing minigame]]).
+*Because of the [[Modifications/Hot Coffee|Hot Coffee]] controversy, this became the only game in the series to have an AO (Adults Only) rating.
+*The "splat" sound effect when [[wasted]] from a high fall was re-used from the first {{1}} (and its expansions) and {{2}}.
+*According to [[Lazlow Jones|Lazlow]], actual gang members were asked to voice some of the gang members in the game.{{Ref|name=realgangsta|type=website|url=https://musictech.com/news/music/gta-san-andreas-real-gang-members-voice/}}
+
+==Further Reading==
+*[[Beta Content in GTA San Andreas]]
+*[[Glitches in GTA San Andreas]]
+
+==References==
+{{Reflist}}
+
+==Official Site==
+*{{URL|http://www.rockstargames.com/sanandreas/|Rockstar Games' ''Grand Theft Auto: San Andreas'' website}}
+
+==External Link==
+*{{URL|https://www.facebook.com/grandtheftautosanandreas/|''Grand Theft Auto: San Andreas'' on Facebook}}
+
+{{Clear}}
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox gtasa|state=collapsed}}
+{{Navbox gta|state=collapsed}}
+}}
+
+[[Category:GTA San Andreas| ]]
+
+[[ar:غراند ثفت أوتو: سان أندرياس]]
+[[be:Grand Theft Auto: San Andreas]]
+[[ca:Grand Theft Auto: San Andreas]]
+[[cs:Grand Theft Auto: San Andreas]]
+[[de:Grand Theft Auto: San Andreas]]
+[[es:Grand Theft Auto: San Andreas]]
+[[fi:Grand Theft Auto: San Andreas]]
+[[fr:Grand Theft Auto: San Andreas]]
+[[he:גראנד ט'פט אוטו: סאן אנדרס]]
+[[hu:Grand Theft Auto: San Andreas]]
+[[id:Grand Theft Auto: San Andreas]]
+[[it:Grand Theft Auto: San Andreas]]
+[[ja:グランド・セフト・オート・サンアンドレアス]]
+<!-- [[ka:Grand Theft Auto: San Andreas]] -->
+[[nl:Grand Theft Auto: San Andreas]]
+[[no:Grand Theft Auto: San Andreas]]
+[[pl:Grand Theft Auto: San Andreas]]
+[[pt:Grand Theft Auto: San Andreas]]
+[[ro:Grand Theft Auto: San Andreas]]
+[[ru:Grand Theft Auto: San Andreas]]
+[[sr:Grand Theft Auto: San Andreas]]
+<!-- [[sv:Grand Theft Auto: San Andreas]] -->
+[[tr:Grand Theft Auto: San Andreas]]
+[[uk:Grand Theft Auto: San Andreas]]
+[[vi:Grand Theft Auto: San Andreas]]
+[[zh:侠盗猎车手：圣安地列斯]]

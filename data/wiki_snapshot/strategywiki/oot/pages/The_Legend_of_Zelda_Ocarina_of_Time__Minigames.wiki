@@ -1,0 +1,152 @@
+{{Header Nav|game=The Legend of Zelda: Ocarina of Time}}
+{{Control selector|Nintendo 64, GameCube, Wii (classic), 3DS, Switch}}
+
+Through his quest, Link will have the opportunity to participate in a number of '''minigames'''. Although none of them are mandatory to complete, they often have rewards that are well worth obtaining. Many minigames can be completed multiple times, but after each special prize is obtained, the reward will usually be rupees. Detailed strategies and relevant maps will be provided for some of the more complex minigames.
+
+== Fishing ==
+The fishing pond is located at Lake Hylia and can be accessed as both a child and an adult after the lake is filled. You can also use a {{im/oot|Items|Magic Beans|display=Magic Bean}} or play the {{im/oot|Ocarina Songs|Scarecrow's Song}} to get up there if you have a {{im/oot|Items|Hookshot}}. It costs 20 rupees to rent a fishing rod, for an unlimited amount of time.
+
+After renting a fishing rod, you can {{control|{{n64|z}}|{{gc|l}}|{{wii-cc|l}}|{{3ds|L}}|{{switch|ZL}}}}-Target a fish and then cast your line with {{control|{{n64|b}}|{{gc|b}}|{{wii-cc|b}}|{{3ds|b}}|{{switch|B}}}}. Press {{control|{{n64|a}}|{{gc|a}}|{{wii-cc|a}}|{{3ds|a}}|{{switch|A}}}} to brake the line while it is being cast. When the lure drops into the water, wiggle it with either the {{control|{{n64|neutral|control}}|{{gc|neutral|control}}|{{wii-cc|neutral|lstick}}|{{3ds|neutral|cpad}}|{{switch|neutral|lstick}}}} or {{control|{{n64|b}}|{{gc|b}}|{{wii-cc|b}}|{{3ds|b}}|{{switch|B}}}}. Reel in your lure with {{control|{{n64|a}}|{{gc|a}}|{{wii-cc|a}}|{{3ds|a}}|{{switch|A}}}}, and hold down {{control|{{n64|a}}|{{gc|a}}|{{wii-cc|a}}|{{3ds|a}}|{{switch|A}}}} and {{control|{{n64|r}}|{{gc|r}}|{{wii-cc|r}}|{{3ds|r}}|{{switch|R}}}} to reel it in faster. If you feel a hit, press {{control|{{n64|a}}|{{gc|a}}|{{wii-cc|a}}|{{3ds|a}}|{{switch|A}}}} and {{control|{{n64|down|control}}|{{gc|down|control}}|{{wii-cc|down|lstick}}|{{3ds|down|cpad}}|{{switch|down|lstick}}}} to set the hook, then use {{control|{{n64|a}}|{{gc|a}}|{{wii-cc|a}}|{{3ds|a}}|{{switch|A}}}} and {{control|{{n64|r}}|{{gc|r}}|{{wii-cc|r}}|{{3ds|r}}|{{switch|R}}}} to reel it in. Use the {{control|{{n64|neutral|control}}|{{gc|neutral|control}}|{{wii-cc|neutral|lstick}}|{{3ds|neutral|cpad}}|{{switch|neutral|lstick}}}} to tilt the fishing rod {{control|{{n64|left|control}}|{{gc|left|control}}|{{wii-cc|left|lstick}}|{{3ds|left|cpad}}|{{switch|left|lstick}}}} or {{control|{{n64|right|control}}|{{gc|right|control}}|{{wii-cc|right|lstick}}|{{3ds|right|cpad}}|{{switch|right|lstick}}}} and hopefully pull the fish closer to you. After you cast, you can change your view with {{control|{{n64|z}}|{{gc|l}}|{{wii-cc|l}}|{{3ds|l}}|{{switch|ZL}}}}. If you have a Rumble Pak or Rumble Feature on the GameCube, you can feel the vibrations of a fish on your hook.
+
+[[File:LoZ OoT Golden Scale.jpg|thumb|You got the Golden Scale!]]
+The biggest fish ever caught at the pond (by Link) is displayed in a fishtank on the counter. You can keep only one fish at a time. If you caught a fish smaller than your largest catch, throw it back. If you caught a larger fish, take it to the man at the counter to receive your reward. If you catch a fish weighing over 7 pounds as a child (over 9 pounds in OOT v1.0 US) or 14 pounds as an adult, you will receive a {{im/oot|Upgrades|Piece of Heart}} and the {{im/oot|Upgrades|Golden Scale}}, respectively.
+{{-}}
+
+===Fishing Tips===
+The best time to fish is right before the sun rises or sets; simply play the {{im/oot|Ocarina Songs|Sun's Song}} before entering the pond. There are two optimal fishing spots: near the small stream and on the log in the pond. The largest fish can usually be found near this log or near the group of three water reeds. Try not to attract small fish, as they will scare the bigger fish away if they bite.
+
+To quickly and easily reel a fish in, turn {{control|{{n64|neutral|control}}|{{gc|neutral|control}}|{{wii-cc|neutral|lstick}}|{{3ds|neutral|cpad}}|{{switch|neutral|lstick}}}} right or left when the fish turns in the corresponding direction. This should surprise the fish. Once the fish gets so close that you can see Link, reel him in normally but hold {{control|{{n64|neutral|control}}|{{gc|neutral|control}}|{{wii-cc|neutral|lstick}}|{{3ds|neutral|cpad}}|{{switch|neutral|lstick}}}} either left or right to apply tension to the line. If you overdo this, however, the fish might get away.
+
+It is sometimes helpful to equip the {{im/oot|Equipment|Zora Tunic}} and {{im/oot|Equipment|Iron Boots}} to go underwater to find big fish. When near the log, after you cast, reel in until the fish starts to follow the bobber. Then tap {{control|{{n64|A}}|{{gc|A}}|{{wii-cc|A}}|{{3ds|a}}|{{switch|A}}}} repeatedly until it bites. There's a good chance that it will work every time.
+
+===The Sinking Lure===
+[[File:LoZ OoT Sinking_Lure.jpg|thumb|Link after catching the Sinking Lure]]
+At any time as a child or adult after claiming prizes, it is possible to find the secret, illegal sinking lure somewhere in the pond. It is most commonly found in the grass along the wall of the pond, but is sometimes hidden by the rocks near the stream or on the log in the pond. With the sinking lure, it is much easier to catch any fish, including the mysterious Hylian Loach.
+
+Please note that the fisherman will not let you claim any prizes if you use the sinking lure because it is against the pond rules, and any fish displayed in the fishtank caught with the sinking lure will include the disclaimer, "With illegal sinking lure." After finding the sinking lure, however, if you talk to the fisherman he will eventually make the sinking lure legal for you to use.
+{{-}}
+
+===The Hylian Loach===
+[[File:LoZ OOT Hyrule Loach.jpg|thumb|Link after catching the rare Hylian Loach]]
+The Hylian Loach is a long, eel-like fish that appears very rarely in the fishing pond. The loach usually weighs about 35 pounds as adult Link and about 16 pounds as young Link. If you catch it, the fisherman will reward you with a {{im/oot|Consumables|Purple Rupee}}, but will not keep it in his fishtank because the loach is an endangered species.
+
+The loach primarily resides on the bottom of the pond, and is thus very hard to catch. Every few minutes, the loach will come up for air for a few seconds. When it reaches the top of the water, it makes a sort of "thap" sound. This is the only time that you will be able to {{control|{{n64|z}}|{{gc|l}}|{{wii-cc|l}}|{{3ds|L}}|{{switch|ZL}}}}-Target the loach. However, you cannot catch the loach while it is swimming around. Wait until it is resting in one spot on the lake floor, and cast the sinking lure so it lands right in front of him. Now wait. Don't move the lure, or he won't bite. Just let it sit in front of him and he'll either swim away or check out the lure and bite it. But it's a few minutes of a wait (usually one-two minutes).
+
+If you catch the Hylian Loach, the fisherman says: "''Well, well... WOW! What a rare fish! This is a Hylian Loach! For this fish, size doesn't matter. I'll give you this prize! Recently, the number of these fish has decreased tremendously, so I'm going to release this one.''"
+
+===Oddities===
+;The fisherman's hat
+As adult Link, it is possible to hook the fisherman's hat with your lure. He will then add a new rule: "No aiming at people." He will get mad at you and ask you to return it. If you cast his hat back into the pond, he will charge you a 50 rupee fine for it.
+<gallery>
+File:LegendofZeldaOcarinaofTimeFishermanshat1.jpg|A picture of the fisherman without his hat. His hat is on the end of the hook, right behind Link's sword.
+File:LegendofZeldaOcarinaofTimeFishermanshat2.jpg|Better picture of the fisherman's hat on the end of the hook.
+File:LegendofZeldaOcarinaofTimeFishermanshat3.jpg|Fisherman asking for his hat back. After you snag the hat, go back and talk to him. He'll ask for it back.
+File:LegendofZeldaOcarinaofTimeFishermanshat4.jpg|Cast the line, with the hat hooked on it, into the pond. The hat falls off the hook, and the fisherman fines you 50 rupees for it. It can take multiple casts before the hat falls off.
+</gallery>
+
+===Glitches===
+:''The following are glitches that have most likely been fixed for the 3DS version. Further research is required.''
+
+;Stealing the pole
+It is also possible to take the fishing rod out of the pond. After getting a rod, equip the Hover Boots and run onto the water. Quickly cast the line, hold {{control|{{n64|z}}|{{gc|l}}|{{wii-cc|l}}|{{3ds|L}}|{{switch|ZL}}}}, and do a back flip. If performed correctly, Link will still be able to walk around (but the camera view is weird) and leave the pond with the rod. Outside, Link looks like he is holding an invisible fishing rod. Trying to cast while outside will crash the game, however. You can get your sword back by re-equipping and selecting the {{im/oot|Equipment|Master Sword}} or {{im/oot|Equipment|Biggoron's Sword}} at the equipment select screen.
+
+In the 3DS version, you cannot cast the line while the {{im/oot|Equipment|Hover Boots}} are active. However, it is still possible to steal the fishing rod using the Use Restricted Items Glitch. To do this, have either the {{im/oot|Equipment|Iron Boots}} or the Hover Boots set to any of the item buttons ({{control|{{3ds|x}}}} or {{control|{{3ds|y}}}} preferred). Then switch the boots with {{im/oot|Items|Bomb|display=bombs}} or {{im/oot|Items|Farore's Wind}} (if you set a warp point outside of the Fishing Pond). When you close the item menu, the button where your boots used to be will be active for a split second. When you press that button if timed correctly, you will use either the bombs or Farore's Wind. If you are using bombs, quickly cast the rod and let the bomb damage you so you can freely move around with the rod still cast. Then, exit the Fishing Pond. If you use Farore's Wind and you have a warp point, return to that warp point.
+
+;Acquiring the Golden Scale as a child
+You can get the {{im/oot|Upgrades|Golden Scale}} as a child, which helps with various shortcuts and Pieces of Heart. Because you normally receive a {{im/oot|Upgrades|Piece of Heart}} for catching a fish, it is possible to lose the chance of receiving that reward. If you want the Piece of Heart and the Golden Scale, acquire the Piece of Heart before attempting this glitch.
+
+As a child, catch a fish bigger than the fish in the tank at the desk. After you do this, swim into the middle of the pond. Shift your view so that Navi is not hovering over any fish, then press and hold {{control|{{n64|z}} and {{n64|r}}|{{gc|l}} and {{gc|r}}|{{wii-cc|l}} and {{wii-cc|r}}|{{3ds|l}} and {{3ds|r}}|{{switch|ZL}} and {{switch|R}}}} and don't let go. Make your way to the front desk and talk to the fisherman (don't let go through the conversation). Have him weigh your fish. Instead of giving you a Piece of Heart like he should, he'll give you the Golden Scale. Sometimes, depending on the fish and how the game decides to see the glitch, pressing {{control|{{n64|r}}|{{gc|r}}|{{wii-cc|r}}|{{3ds|r}}|{{switch|R}}}} is not needed. Once the Golden Scale has been acquired through this glitch it is also possible for the sinking lure to be found as a child. ''Note: Make sure you have a {{im/oot|Equipment|Deku Shield}} equipped for this, as the {{im/oot|Equipment|Hylian Shield}} makes you crouch and you will stop moving.''
+
+;off the Hook
+When you steal the fisherman's hat he will make you pay 50 rupees. This is avoidable, when the fisherman screams "WHAAAAT" after you lose his hat, run to the door and do not continue the conversation, he will then forget about the hat and tell you not to leave without the fishing pole.
+
+== Horseback Archery ==
+After saving the carpenters from Gerudo Fortress and becoming an honorary Gerudo, you can participate in the Gerudo Horseback Archery game provided that you have a horse on which to ride. It costs 20 rupees to play, and if you score over 1,000 points or 1,500 points, you receive a {{im/oot|Upgrades|Piece of Heart}} and the {{im/oot|Upgrades|Biggest Quiver}}, respectively.
+
+If you play, you get twenty arrows with which to score as many points possible while Epona follows a set course. Epona first passes a row of seven pots, with three large targets on the wall behind, then rounds a large target at the end before passing by the row of pots again, towards a final target on the opposite end of the course. On the first pass, it is advisable to aim for the pots (100 points) first, and then try to score at least two bulls eyes on the far target. When coming back, score as many points as possible on the targets on the wall, before shooting at the final target. It is easy to accomplish both of these goals with a little practice. The most successful way of doing this is that if you have arrows remaining near the end, you can use all the arrows to try to hit the bulls eyes on the final target.
+
+== Bombchu Bowling ==
+[[File:Oot bbgame.jpg|thumb|right|The Bombchu Bowling alley's check in desk.]]
+The Bombchu Bowling Alley is located in Hyrule Market as young Link. For 30 rupees, you are given 10 Bombchus, with the goal of using the Bombchus to hit three targets. The reward for each game is different, and is not revealed until after you decide to play. These rewards include {{im/oot|Items|Bomb|display=Bombs}}, {{im/oot|Items|Bombchu|display=Bombchus}}, a {{im/oot|Upgrades|Bigger Bomb Bag}}, a {{im/oot|Upgrades|Piece of Heart}}, or a {{im/oot|Consumables|Purple Rupee}}. The first target and the final target are always in the center on the screen. The middle target, however, can be either on the left, right, or center. It is easiest to hit the target if it is in the center. In general, it should take no more than four Bombchus to hit the first two targets.
+
+'''First Level''': In the first level there is only one obstacle, a spike trap sliding back and forth, and the target is relatively close.
+
+'''Second Level''': In the second level an additional obstacle is added—a small Cucco. The Cucco waddles left and right and occasionally stops for a moment. If the Cucco is hit, it will stand still in shock for 5 seconds, obstructing further shots.
+
+'''Third Level''': The third and final level includes a large Cucco in addition to the other obstacles. Careful timing is needed to win a prize. As with the other Cucco, it stands still when hit. Wait until the big Cucco is facing you right in the middle and the little one on the far right is facing the right wall.
+
+'''Alternate strategy''': If you angle the bomchu towards the wall the right way you should be able to avoid the spike trap and both Cuccos completely, this may take a bit of practice, but it should pay off.
+
+== Horse Racing ==
+{{sidebar
+|width=300px
+|title=Glitch: quickly steal a horse
+|contents=If you save the game after winning Epona, you can restart your game, go to Hyrule field, and play {{im/oot|Ocarina Songs|Epona's Song}}. She will come to you, without you having to jump her over the gate at Lon Lon Ranch.
+}}
+The first horse race in which Link can participate is against Ingo, the proprietor of Lon Lon Ranch after Link first becomes an adult. Pay Ingo to let you into the corral, and then use {{im/oot|Ocarina Songs|Epona's Song}} to call Epona. Ride her around the corral for a bit, jumping over the fences by pressing {{control|{{n64|a}}|{{gc|a}}|{{wii-cc|a}}|{{3ds|a}}|{{switch|A}}}} just before you reach them, earning back what you paid to ride in the first place. Pay to come in again then talk to Ingo while on her to challenge him to a race. You will race Ingo around the corral twice. Always try to stay on the inside of the track, make tight turns, and use carrots wisely. Either get ahead of Ingo and try to stay ahead of him by using your carrots and blocking him, or wait until you're near the end and speed past him by using all your carrots. If you win, Ingo will let you keep Epona, but he will lock you inside the ranch. To escape, you can either try to jump over the gate he closed, or jump over one of the ranch walls. Epona is not required to beat the game, but she will make things easier. Even if you do get her, you don't have to use her if you don't want to.
+
+After Link obtains Epona, Malon will allow you to try an obstacle course. You will have to race around the circumference of the corral twice, using your carrots to successfully jump over gates. You do not need to use carrots to jump over the very small gates, but you must approach every gate head-on to make Epona jump. If you can complete the course in under 50 seconds, Malon will deliver a cow to your house to provide you with an endless supply of {{im/oot|Items|Milk|display=Lon Lon Milk}}. If you race again and beat your old record, she will give you a {{im/oot|Consumables|Purple Rupee}}.
+<gallery>
+File:LoZ OoT Malon Obstacle Course.jpg|thumb|How about trying your skill with Epona on an obstacle course?
+File:LoZ OoT The Present Is Too Heavy.jpg|thumb|The present is a little too heavy to give you here, so I'll have it delivered to your house
+File:LoZ OoT Cow In Links House.jpg|thumb|Malon's Cow Gift in Link's House
+</gallery>
+
+== Shooting Gallery ==
+As a child, Link can test his accuracy at the Shooting Gallery in Hyrule Castle Market. If he manages to break all ten of the targets, he will be rewarded with a {{im/oot|Upgrades|Bigger Deku Seed Bag}}, or a {{im/oot|Consumables|Purple Rupee}}.
+
+As an adult, Link can test his accuracy at the Shooting Gallery in Kakariko Village. If he manages to break all ten of the targets, he will be rewarded with a {{im/oot|Upgrades|Bigger Quiver}}, or a Purple Rupee. The most successful way of doing this is, since the order is random, is to aim towards the middle to minimize the distance that you have to move to hit any given rupee. Move left and right when the Blue Rupees appear, and quickly move up and shoot the jumping Green Rupee when it appears.
+
+== Treasure Chest Game ==
+[[File:Oot ttshop.jpg|thumb|right|Treasure Chest shop check in desk.]]
+The Treasure Chest Game can be played in the Hyrule Castle Market as young Link, but only at night. In each room, you are presented with two chests—one contains a rupee, the other a key to the next room. As you progress, the value of the rupees increases, until you reach the final room which contains a {{im/oot|Upgrades|Piece of Heart}} (or a {{im/oot|Consumables|Purple Rupee}}).
+
+If you equip the {{im/oot|Items|Lens of Truth}}, however, you are able to see the contents of each chest and easily reach the final room. The game is reset each time you play, so it can end up costing a bit more money.
+{{-}}
+
+== Racing Dampe ==
+As an adult, there is one additional grave in the Kakariko Village Graveyard. Pull back the gravestone to reveal the grave of Dampe the Gravekeeper, whose ghost is all too willing to race you.
+
+The first prize for racing Dampe is the {{im/oot|Items|Hookshot}}, which can be obtained simply by successfully following Dampe to the finish.
+
+The second prize for racing Dampe is a {{im/oot|Upgrades|Piece of Heart}}, which can be obtained only by finishing the course in under one minute. The keys to this are to know the layout of his grave, and to make efficient use of the roll attack. Rolling will carry your momentum, but at the end of a roll you have none, so ensure you don't roll again right away.
+
+Alternatively, if you have the {{im/oot|Items|Longshot}}, in the room with a winding ramp before the finish you can use it to grab a torch near the doorway; you should reach the finish before Dampe's ghost.
+
+== Diving Game ==
+The diving game can be found in Zora's Domain as a child, at the top of the waterfall near King Zora's Throne Room. After paying 20 rupees to play, the game's proprietor will throw five {{im/oot|Consumables|Blue Rupee|display=blue rupees}} into the water below. Dive off the waterfall and try to collect them all within the time limit to receive the {{im/oot|Upgrades|Silver Scale}}. If you play the game after that, she will sometimes throw more valuable ones, such as {{im/oot|Consumables|Red Rupee|display=red}}, {{im/oot|Consumables|Purple Rupee|display=purple}}, and if you are really lucky {{im/oot|Consumables|Orange Rupee|display=orange rupees}} into the water.
+
+This game relies on being able to quickly locate and collect the underwater rupees. The dispersion of the rupees is random. Dive where you see the bubbles coming up at the surface to land on the rupees.
+
+== Skull Kid Jam Session ==
+[[File:LoZ OOT Skmemory game.jpg|thumb|right|Play simon says with the two Skull Kids.]]
+Enter the Lost Woods and take a right to find two Skull Kids. Hop on the nearby stump and show them your {{im/oot|Items|Fairy Ocarina|display=ocarina}}, after which they will invite you to play a musical memory game with them. They will start by playing, twice, a three note tune, the notes of which you will be able to see on the staff. You will then have to repeat the notes, and they will add a note to the tune until you either fail to repeat them correctly or they are satisfied with your performance and reward you with {{im/oot|Consumables|Green Rupee|display=rupees}} and, eventually, a {{im/oot|Upgrades|Piece of Heart}}.
+
+It is not overly difficult to remember the tune, but the easiest way to win is to simply write down the notes as they are played.
+
+== Musical Frogs ==
+As young Link, there are five frogs near a log in Zora's River. Use your {{im/oot|Items|Fairy Ocarina|display=ocarina}} on the spot in front of the log (it looks shaved or smoothed out compared to the rest of the log) and they will assemble into a choir of sorts, waiting for you to play a song. You will have to play all of the white non-warp songs to the frogs in Zora's River near the logs in order to get some rewards. Some songs will make a frog grow in size. Each frog that you help grow will give you a {{im/oot|Consumables|Purple Rupee}}. To get a {{im/oot|Upgrades|Piece of Heart}}, play the {{im/oot|Ocarina Songs|Song of Storms}}.
+
+To make each frog grow up, play these songs:
+*White frog: {{im/oot|Ocarina Songs|Epona's Song}}.
+*Blue frog: {{im/oot|Ocarina Songs|Zelda's Lullaby}}.
+*Yellow/orange frog: {{im/oot|Ocarina Songs|Saria's Song}}.
+*Aqua/teal frog: {{im/oot|Ocarina Songs|Sun's Song}}.
+*Red/magenta frog: {{im/oot|Ocarina Songs|Song of Time}}.
+
+After all five frogs have grown, they will ask you to play along with them to help them catch bugs in their mouths. A butterfly will appear over one of the frogs, and you must play the note on your ocarina that corresponds to that frog to make it jump and eat the butterfly. Feed all of the frogs to earn a second {{im/oot|Upgrades|Piece of Heart}}.
+
+The notes you must play, to help the frogs catch the bugs, are:
+
+{{control
+|{{n64|A}} {{n64|Left|C}} {{n64|Right|C}} {{n64|Down|C}} {{n64|Left|C}} {{n64|Right|C}} {{n64|Down|C}} {{n64|A}} {{n64|Down|C}} {{n64|A}} {{n64|Down|C}} {{n64|Right|C}} {{n64|Left|C}} {{n64|A}}
+|{{gc|A}} {{gc|Left|Cstick}} {{gc|Right|Cstick}} {{gc|Down|Cstick}} {{gc|Left|Cstick}} {{gc|Right|Cstick}} {{gc|Down|Cstick}} {{gc|A}} {{gc|Down|Cstick}} {{gc|A}} {{gc|Down|Cstick}} {{gc|Right|Cstick}} {{gc|Left|Cstick}} {{gc|A}}
+|{{wii-cc|A}} {{wii-cc|Left|Rstick}} {{wii-cc|Right|Rstick}} {{wii-cc|Down|Rstick}} {{wii-cc|Left|Rstick}} {{wii-cc|Right|Rstick}} {{wii-cc|Down|Rstick}} {{wii-cc|A}} {{wii-cc|Down|Rstick}} {{wii-cc|A}} {{wii-cc|Down|Rstick}} {{wii-cc|Right|Rstick}} {{wii-cc|Left|Rstick}} {{wii-cc|A}}
+|{{3ds|L}} {{3ds|X}} {{3ds|Y}} {{3ds|R}} {{3ds|X}} {{3ds|Y}} {{3ds|R}} {{3ds|L}} {{3ds|R}} {{3ds|L}} {{3ds|R}} {{3ds|Y}} {{3ds|X}} {{3ds|L}}
+|{{switch|A}} {{switch|left|rstick}} {{switch|right|rstick}} {{switch|down|rstick}} {{switch|left|rstick}} {{switch|right|rstick}} {{switch|down|rstick}} {{switch|A}} {{switch|down|rstick}} {{switch|A}} {{switch|down|rstick}} {{switch|right|rstick}} {{switch|left|rstick}} {{switch|A}}
+}}
+
+== Dampe's Gravedigging Tour ==
+Dampe the Gravekeeper's Heart-Pounding Gravedigging Tour can only be accessed at night, from 18:00 to 21:00 Hyrule Time. Dampe will walk around the Graveyard with a shovel, and dig wherever you tell him to for a nominal fee. He can only dig on patches of soil, uncovered by cobblestones, and will either find nothing, unearth {{im/oot|Consumables|Green Rupee|display=rupees}}, or eventually dig up a {{im/oot|Upgrades|Piece of Heart}}. The location of this Piece of Heart can be in any random soft soil patch that Dampé passes. Often, two items are hidden within one patch of soil, so try digging on each half of an individual soil patch when looking for the Piece of Heart.
+
+{{Footer Nav|game=The Legend of Zelda: Ocarina of Time|prevpage=Gold Skulltulas|nextpage=Dungeon Items}}

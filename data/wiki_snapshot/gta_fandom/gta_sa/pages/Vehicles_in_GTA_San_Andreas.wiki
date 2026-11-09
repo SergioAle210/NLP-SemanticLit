@@ -1,0 +1,288 @@
+The following is a list of all entries defined as '''vehicles''' in the <code>vehicles.ide</code> file of {{SA}}, which includes 212 vehicles. The [[Jetpack]] is also deliberately listed on this page, despite not being defined as a vehicle by the game, for a total of 213 entries.
+
+{| class="wikitable"
+|-
+! Sports Cars
+! {{WP|Sport utility vehicle|SUVs}} & {{WP|Pickup truck|Pickup Trucks}}
+! {{WP|Lowrider}}s
+! {{WP|Tuner (car)|Tuners}}
+! {{WP|Van}}s
+! Industrial
+|-
+|
+*[[Alpha (3D Universe)|Alpha]]
+*[[Banshee (3D Universe)|Banshee]]
+*[[Buffalo (3D Universe)|Buffalo]]
+*[[Bullet]]
+*[[Cheetah (3D Universe)|Cheetah]]
+*[[Comet]]
+*[[Euros]]
+*[[Hotknife]]
+*[[Infernus]]
+*[[Phoenix (3D Universe)|Phoenix]]
+*[[Super GT]]
+*[[Turismo]]
+*[[Windsor]]
+*[[ZR-350]]
+|
+*[[Bobcat (3D Universe)|Bobcat]]
+*[[Huntley]]
+*[[Landstalker]]
+*[[Mesa Grande|Mesa]]
+*[[Monster (3D Universe)|Monster]]
+*[[Monster (monstera)]]
+*[[Monster (monsterb)]]
+*[[Patriot]]
+*[[Picador]]
+*[[Rancher (3D Universe)|Rancher]]
+*[[Rancher (lure)]]
+*[[Sadler]]
+*[[Sadler (beater)]]
+*[[Sandking]]
+*[[Walton]]
+*[[Yosemite]]
+|
+*[[Blade (car)|Blade]]
+*[[Broadway]]
+*[[Remington]]
+*[[Savanna]]
+*[[Slamvan (3D Universe)|Slamvan]]
+*[[Tahoma]]
+*[[Tornado]]
+*[[Voodoo (3D Universe)|Voodoo]]
+|
+*[[Elegy]]
+*[[Flash]]
+*[[Jester]]
+*[[Stratum (3D Universe)|Stratum]]
+*[[Sultan (3D Universe)|Sultan]]
+*[[Uranus]]
+|
+*[[Berkley's RC Van]]
+*[[Burrito (3D Universe)|Burrito]]
+*[[Hotdog]]
+*[[Moonbeam (3D Universe)|Moonbeam]]
+*[[Mr Whoopee]]
+*[[Newsvan]]
+*[[Pony]]
+*[[Rumpo]]
+*[[Securicar (3D Universe)|Securicar]]
+|
+*[[Benson (3D Universe)|Benson]]
+*[[Boxville (3D Universe)|Boxville]]
+*[[BoxBurg]]
+*[[Cement Truck]]
+*[[Combine Harvester]]
+*[[DFT-30]]
+*[[Dozer]]
+*[[Dumper]]
+*[[Flatbed]]
+*[[Forklift (3D Universe)|Forklift]]
+*[[Linerunner]]
+*[[Mule]]
+*[[Packer]]
+*[[Roadtrain]]
+*[[Tanker]]
+*[[Tractor]]
+*[[Yankee]]
+|-
+! {{WP|Coupé|Coupes}} & {{WP|Hatchback}}s
+! {{WP|Sedan (automobile)|Sedans}} & {{WP|Station wagon|Station Wagons}}
+! Trains/Rolling Stock
+! Public Service
+! Novelty
+! Government
+|-
+|
+*[[Blista Compact (3D Universe)|Blista Compact]]
+*[[Bravura]]
+*[[Buccaneer (3D Universe)|Buccaneer]]
+*[[Cadrona]]
+*[[Clover]]
+*[[Club]]
+*[[Esperanto (3D Universe)|Esperanto]]
+*[[Feltzer]]
+*[[Fortune]]
+*[[Hermes]]
+*[[Hustler]]
+*[[Majestic]]
+*[[Manana]]
+*[[Previon]]
+*[[Sabre]]
+*[[Stallion]]
+*[[Tampa]]
+*[[Virgo (3D Universe)|Virgo]]
+|
+*[[Admiral (3D Universe)|Admiral]]
+*[[Elegant]]
+*[[Emperor (3D Universe)|Emperor]]
+*[[Glendale (3D Universe)|Glendale]]
+*[[Glendale (beater)]]
+*[[Greenwood (3D Universe)|Greenwood]]
+*[[Intruder (3D Universe)|Intruder]]
+*[[Merit]]
+*[[Nebula]]
+*[[Oceanic]]
+*[[Perennial]]
+*[[Premier]]
+*[[Primo (3D Universe)|Primo]]
+*[[Regina]]
+*[[Romero's Hearse|Romero]]
+*[[Sentinel]]
+*[[Solair]]
+*[[Stafford]]
+*[[Stretch]]
+*[[Sunrise]]
+*[[Vincent]]
+*[[Washington]]
+*[[Willard]]
+|
+*[[Brown Streak]]
+*[[Brown Streak (coach)]]
+*[[Freight]]
+*[[Freight (flatcar)]]
+*[[Freight Box]]
+*[[Tram]]
+|
+*[[Baggage Handler|Baggage]]
+*[[Bus (3D Universe)|Bus]]
+*[[Cabbie]]
+*[[Coach]]
+*[[Sweeper]]
+*[[Taxi (3D Universe)|Taxi]]
+*[[Tow Truck]]
+*[[Trashmaster]]
+*[[Tug]]
+*[[Utility Van]]
+|
+*[[Bandito]]
+*[[BF Injection]]
+*[[Caddy]]
+*[[Camper (3D Universe)|Camper]]
+*[[Dune]]
+*[[Journey]]
+*[[Kart]]
+*[[Mower]]
+*[[Quad]]
+*[[Vortex]]
+|
+*[[Ambulance (3D Universe)|Ambulance]]
+*[[Barracks OL|Barracks]]
+*[[Enforcer (3D Universe)|Enforcer]]
+*[[FBI Rancher]]
+*[[FBI Truck]]
+*[[Firetruck (3D Universe)|Fire Truck]]
+*[[Fire Truck (ladder)]]
+*[[HPV1000]]
+*[[Police (vehicle)|Police (LSPD)]]
+*[[Police (SFPD)]]
+*[[Police (LVPD)]]
+*[[Ranger]]
+*[[Rhino (3D Universe)|Rhino]]
+*[[S.W.A.T. (vehicle)|S.W.A.T.]]
+|-
+! Aircraft
+! Boats
+! Motorcycles & Bicycles
+! Remote Control
+! Miscellaneous
+! Trailers
+|-
+|
+*[[Andromada]]
+*[[AT-400]]
+*[[Beagle]]
+*[[Cargobob (3D Universe)|Cargobob]]
+*[[Cropduster]]
+*[[Dodo (3D Universe)|Dodo]]
+*[[Hunter]]
+*[[Hydra]]
+*[[Jetpack]]
+*[[Leviathan]]
+*[[Maverick (3D Universe)|Maverick]]
+*[[Nevada]]
+*[[VCN Maverick|News Chopper]]
+*[[Police Maverick (3D Universe)|Police Maverick]]
+*[[Raindance]]
+*[[Rustler]]
+*[[Sea Sparrow (3D Universe)|Seasparrow]]
+*[[Shamal]]
+*[[Skimmer]]
+*[[Sparrow (3D Universe)|Sparrow]]
+*[[Stuntplane]]
+|
+*[[Coast Guard|Coastguard]]
+*[[Dinghy (3D Universe)|Dinghy]]
+*[[Cuban Jetmax|Jetmax]]
+*[[Launch]]
+*[[Marquis]]
+*[[Predator]]
+*[[Reefer]]
+*[[Speeder (boat)|Speeder]]
+*[[Squalo (3D Universe)|Squalo]]
+*[[Tropic]]
+|
+*[[BF-400]]
+*[[Bike (bicycle)|Bike]]
+*[[BMX (3D Universe)|BMX]]
+*[[Faggio (3D Universe)|Faggio]]
+*[[FCR-900]]
+*[[Freeway (3D Universe)|Freeway]]
+*[[Mountain Bike]]
+*[[NRG-500]]
+*[[PCJ 600|PCJ-600]]
+*[[Pizza Boy (3D Universe)|Pizzaboy]]
+*[[Sanchez]]
+*[[Wayfarer]]
+|
+*[[RC Bandit]]
+*[[RC Baron]]
+*[[RC Goblin]]
+*[[RC Raider]]
+*[[RC Tiger]]
+|
+*[[Bloodring Banger]]
+*[[Hotring Racer]]
+*[[Hotring Racer (hotrina)]]
+*[[Hotring Racer (hotrinb)]]
+*[[RC Cam]]
+|
+*[[Articulated Trailer]]
+*[[Articulated Trailer (hopper)]]
+*[[Articulated Trailer (short)]]
+*[[Baggage Box]]
+*[[Baggage Box (open)]]
+*[[Farm Trailer]]
+*[[Petrol Truck]]
+*[[Tug Stairs]]
+*[[Utility Trailer]]
+|}
+
+==Imagery Table==
+{{/images|Land vehicles Sports & super cars Alpha Banshee Buffalo Bullet Cheetah Comet Euros Hotknife Infernus Phoenix Super GT Turismo Windsor ZR-350 SUVs & pickup trucks Bobcat Huntley Landstalker Mesa Monster Monster (monstera) Monster (monsterb) Patriot Picador Rancher Sadler Sandking Sadler (beater) Walton Yosemite Lowriders Blade Broadway Remington Savanna Slamvan Tahoma Tornado Voodoo Tuners Elegy Flash Jester Stratum Sultan Uranus Coupes & compact cars Blista Compact Bravura Buccaneer Cadrona Clover Club Esperanto Feltzer Fortune Hermes Hustler Majestic Manana Previon Sabre Stallion Tampa Virgo Sedans & station wagons Admiral Elegant Emperor Glendale Glendale (beater) Greenwood Intruder Merit Nebula Oceanic Perennial Premier Primo Regina Romero Sentinel Solair Stafford Stretch Sunrise Vincent Washington Willard Vans Berkley's RC Van Burrito Hotdog Moonbeam Mr Whoopee Newsvan Pony Rumpo Securicar Motorcycles & bicycles BF-400 Bike BMX Faggio FCR-900 Freeway Mountain Bike NRG-500 PCJ-600 Pizzaboy Sanchez Wayfarer Emergency & government Ambulance Barracks OL Enforcer FBI Rancher Fire Truck Fire Truck (ladder) HPV1000 Police Police (SFPD) Police (LVPD) Ranger Rhino S.W.A.T. Commercial & industrial Benson Boxville BoxBurg Cement Truck Combine Harvester DFT-30 Dozer Dumper Flatbed Forklift Linerunner Mule Packer Roadtrain Tanker Tractor Yankee Trains Brown Streak Brown Streak (coach) Freight Freight (flatcar) Tram Public service Baggage Bus Cabbie Coach Sweeper Taxi Tow Truck Trashmaster Tug Utility Van Miscellaneous Bandito BF Injection Bloodring Banger Caddy Camper Dune Hotring Racer Hotring Racer (hotrina) Hotring Racer (hotrinb) Journey Kart Mower Quad Vortex Trailers Articulated Trailer Articulated Trailer (hopper) Articulated Trailer (short) Baggage Box Baggage Box (open) Farm Trailer Petrol Truck Tug Stairs Sea vehicles Boats Coastguard Dinghy Jetmax Launch Marquis Predator Reefer Speeder Squalo Tropic Air vehicles Helicopters Cargobob Hunter Leviathan News Chopper Maverick Police Maverick Raindance Sea Sparrow Sparrow Planes Andromada AT-400 Beagle Cropduster Dodo Hydra Nevada Rustler Shamal Skimmer Stuntplane Jetpacks Jetpack Remote controlled vehicles RC Vehicles RC Bandit RC Baron RC Goblin RC Raider RC Tiger=Ssssss}}
+
+==See also==
+*[[Vehicle Stats in GTA San Andreas|Vehicle Stats in ''GTA San Andreas'']]
+*[[Mod Garages|Mod shops]] in ''Grand Theft Auto: San Andreas'':
+**[[Loco Low Co.]]
+**[[TransFender (3D Universe)|TransFender]]
+**[[Wheel Arch Angels]]
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 =
+{{Navbox gtasa|state=collapsed}}
+{{Navbox vehicles|state=collapsed}}
+{{Navbox gtasa vehicles|state=collapsed}}
+}}
+
+{{DISPLAYTITLE:Vehicles in ''Grand Theft Auto: San Andreas''}}
+
+[[es:Vehículos de Grand Theft Auto: San Andreas]]
+[[pl:Pojazdy w GTA San Andreas]]
+[[ru:Транспорт в GTA San Andreas]]
+[[uk:Транспорт в GTA San Andreas]]
+
+[[Category:GTA San Andreas]]
+[[Category:Vehicles by game| 07]]

@@ -1,0 +1,44 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+{| {{prettytable|float=right|notwide=true}}
+!Respect||Members
+|-
+|1%||2
+|-
+|10%||3
+|-
+|20%||4
+|-
+|40%||5
+|-
+|60%||6
+|-
+|80%||7
+|}
+
+You can get gang members for your crew.  The more respect you have, the more gang members you can have.
+
+== Total Respect ==
+
+Your total respect is calculated as follows:
+
+* [[#Running Respect|Running Respect]]: '''40%'''
+* [[Grand Theft Auto: San Andreas/Walkthrough|Mission advancement]]: '''36%'''
+* [[Grand Theft Auto: San Andreas/Territories|Territories]] owned: '''6%'''
+* Amount of money: '''6%'''
+* Muscle (physical fitness): '''4%'''
+* [[Grand Theft Auto: San Andreas/Dating|Progress with girlfriend]]: '''4%'''
+* [[Grand Theft Auto: San Andreas/Appearance|Appearance]]: '''4%'''
+
+== Running Respect ==
+
+Running respect is everything you do in general, which is amounted as thus:
+
+* Killing a drug dealer: '''+.005%'''
+* Killing a rival gang member: '''+.5%'''
+* Killing one of your gang members: '''&ndash;.0005%'''
+* One of your gang members dies: '''&ndash;2%'''
+* [[Grand Theft Auto: San Andreas/Territories|Territories]] won: '''+30%''' (a major part of the Los Santos section of the game)
+* [[Grand Theft Auto: San Andreas/Territories|Territories]] lost: '''&ndash;3%'''
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Stats|nextpage=Appearance}}

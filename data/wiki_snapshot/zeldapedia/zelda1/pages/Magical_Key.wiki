@@ -1,0 +1,47 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Magical Key Artwork.png
+ |Artwork TAoL= File:TAoL Magical Key Artwork.png
+ |Sprite TLoZ= File:TLoZ Magical Key Sprite.png
+ |Sprite TAoL= File:TAoL Magical Key Sprite.png
+}}
+|caption= 
+|game= {{TLoZ}}<br/>{{TAoL}}
+|other= {{HW}}
+|uses= Unlocking doors
+|comp= 
+}}
+The {{Term/Store|Magical Key|Magical Keys|Series, TLoZ, TAoL}} is a recurring {{Term|Series|Item|link}} in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= A&A |publisher= |page= 383 {{Exp Game|TLoZ}} & 386 {{Exp Game|TAoL}}}}</ref> It allows [[Link]] to unlock any [[Locked Door]].<ref>{{Cite manual|quote= A magical key that can open several of the locked doors.|game= TAoL|page= 46}}</ref> Unlike a normal [[Key]], it is reusable, meaning that regular Keys are rendered useless once obtained.
+
+==Location and Uses==
+==={{TLoZ|-}}===
+In {{TLoZ}}, the Magical Key can be found in {{Term|TLoZ|Level 8|link}}. It is golden and has a [[Wikipedia:Key (lock)|bow]] shaped like the head of a lion. Once obtained, the Key count is replaced with the letter "A",<ref>{{Cite manual|quote= Once he's got this magical key, "A" will be displayed showing he's unstoppable!|game= TLoZ|page= 22}}</ref> which stands for "almighty."<ref>{{Cite manual|quote= When you have it, the display will show an "A" (for "Almighty").|game= TLoZ|page= }}</ref>
+
+==={{TAoL|-}}===
+In {{TAoL}}, the Magical Key is found after using the [[Magic of The Adventure of Link#Spell|Spell]] at the edge of Hidden [[Kasuto]].<ref>{{Cite|THERE IS A SECRET AT EDGE OF TOWN.|Old Woman|TAoL}}</ref> It is also gold-colored, but the lead shape resembles a {{wp|coat of arms}}.
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{HW|-}}===
+{{Stub|HW}}
+In {{HW}} and {{HW|DE}}, The Magical Key appears as [[Ganondorf]]'s 8-Bit Weapon for the [[Great Swords]].
+{{Noncanon|End}}
+
+==Trivia==
+* In the original Japanese release of the first game, one of the old men in Level-8 tells Link to search for the Magical Key within the dungeon.<ref>{{Cite|Search for the Lion Key.|Old Man|TLoZ}}</ref> However, the Western releases changed this line to a vague reference in exploiting enemy spoils.<ref>{{Cite|10TH ENEMY HAS THE BOMB.|Old Man|TLoZ}}</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:HW 8-Bit Magical Key Icon.png|8-Bit Magical Keys Weapon in {{HW|-}}
+File:HWDE Ganondorf 8-Bit Magical Key.png|Ganondorf wielding the 8-Bit Magical Key in {{HW|DE|-}}
+</gallery>
+
+{{Ref}}
+{{Categories
+ |Keys
+ |items= TLoZ, TAoL
+}}

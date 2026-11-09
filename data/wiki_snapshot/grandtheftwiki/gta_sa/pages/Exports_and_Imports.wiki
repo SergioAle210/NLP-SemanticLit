@@ -1,0 +1,265 @@
+{{also|This article is about a side mission in [[Grand Theft Auto: San Andreas|GTA San Andreas]]. For the side mission in [[Grand Theft Auto III|GTA III]], see [[Import/Export]]. For the side mission in [[Grand Theft Auto: Vice City|GTA Vice City]], see [[Sunshine Autos Import Garage]].}}
+[[File:Exports&imports-GTASA-wantedlist.jpg|thumb|right|250px|The board for the exports and imports feature in GTA San Andreas.]]
+'''Exports and Imports''' are a series of side-missions in [[Grand Theft Auto: San Andreas]] which become available after "[[Customs Fast Track]]" for [[Cesar Vialpando]]. Similar to [[Grand Theft Auto III]]'s [[Import/Export]] feature, Exports and Imports consists of a series of vehicle deliveries for money, as well as the ability to purchase any of the vehicle delivered.
+
+== Description ==
+To "export" or sell a vehicle, the player must obtain a "wanted" vehicle (as shown when the player is told via an on-screen message: "You can export this vehicle over at Easter Basin Docks.") and take it to specific marker on a cargo ship in [[Easter Basin]], [[San Fierro]], where it can be lifted in place via a magnetic dockside [[crane]], or simply driven up a ramp linking the dock to the deck of the ship if the vehicle is compact enough to be driven onto the ship. Once the vehicle is in contact of the marker (and released from the crane magnet, if lifted using the crane), a message will show up that the player has successfully exported that vehicle. The player will then receive money depending on the type and condition of the vehicle.
+
+To "import" or buy a vehicle, the player simply needs to walk up to the board in [[Easter Basin]] and select which vehicle they would like to import. The player can only import certain vehicles depending on the [[Days of the Week|day of the week]] and vehicles are unlocked for importing once they have exported a certain vehicle in the list.
+
+Exporting all 30 wanted vehicles is a requirement for [[Completion in GTA San Andreas|100% completion]].
+
+== Wanted lists ==
+Each wanted list consists of ten different vehicles needed for export, ranging from motorbikes and regular sedans to off-roaders and sports cars.
+
+Players have the option of either plucking a vehicle that spawns normally in traffic or  parking space, or locate one specifically spawned in one spot when they are requested in the list. Note that vehicles will only spawn at certain locations if it is currently on a list; for example, the [[Euros]] will only spawn at [[The Camel's Toe]] if the player is on the third list of cars and has not exported a Euros already.
+
+Wanted vehicles that are specifically spawned usually have [[Custom Vehicle License Plates|custom license plates]].
+
+The max rewards are dependent on the Monetary Value of the vehicle set in the [[Handling.cfg]] file.
+
+=== List 1 ===
+{| class="wikitable"
+! width="100" | Vehicle || width="50" | Max reward || width="600" | Notable locations
+|-
+| [[Admiral]] || [[Money|$]]35,000 || [[Doherty]], San Fierro or [[Queens]]. Spawns at the [[Los Santos Conference Center]] in [[Verona Beach]].
+|-
+| [[Buffalo]] || $35,000 || At [[Fern Ridge]], [[Catalina's Hideout]]. Also spawns at the [[Xoomer]] gas station in Easter Basin, San Fierro.
+|-
+| [[Camper]] || $26,000 || Top of [[Mount Chiliad in GTA III Era|Mount Chiliad]] or [[Hashbury]], [[San Fierro]].
+|-
+| [[Feltzer]] || $35,000 || [[Vank Hoff Hotel]], San Fierro in [[Valet]] side mission or in [[Downtown Los Santos in GTA III Era|Downtown]], [[Los Santos in GTA III Era|Los Santos]]. Also parked in a parking lot at the [[Santa Maria Freeway Extension]].
+|-
+| [[Infernus]] || $95,000 || Sometimes in [[Paradiso]], San Fierro or in [[Prickle Pine]], [[Las Venturas]].
+|-
+| [[Patriot]] || $40,000 || [[Easter Bay Chemicals]] and any [[Military]] bases (beware the [[Wanted Level in GTA III Era#Five stars|5-star wanted level]] though).
+|-
+| [[Remington]] || $30,000 ||  [[Unity Station]], Los Santos, where you can find the [[Lowrider Challenge]].
+|-
+| [[Sanchez]] || $10,000 || Countryside or in an alleyway in [[Hashbury]], San Fierro.
+|-
+| [[Sentinel]] || $35,000 || In the [[Vinewood in GTA III Era|Vinewood]] filming studio.
+|-
+| [[Stretch]] || $40,000 || Behind the [[Wang Cars]] showroom.
+|}
+Completion of the first list awards the player an additional $50,000 on top of the reward granted delivering the last vehicle on the list.
+
+=== List 2 ===
+{| class="wikitable"
+! width="100" | Vehicle || width="50" | Max reward || width="600" | Notable locations
+|-
+| [[Blista Compact]] || $35,000 || [[Easter Bay Airport]].
+|-
+| [[Cheetah]] || $105,000 || Parked outside a house in [[Prickle Pine]].
+|-
+| [[Comet]] || $35,000 || [[Avispa Country Club]], San Fierro; also in Prickle Pine, Las Venturas.
+|-
+| [[FCR-900]] || $10,000 || Get all Silver in [[Bike School]], or at the [[The Well Stacked Pizza Co.]].
+|-
+| [[Rancher]] || $40,000 || In the countryside or in [[Tierra Robada]]. (Note: the [[Rancher]] spawned by cheats ("rnchlure") cannot be exported).
+|-
+| [[Sabre]] || $19,000 || [[Jefferson, Los Santos|Jefferson]] and [[Little Mexico]], Los Santos, or on [[San Fierro Rifa]] turf.
+|-
+| [[Slamvan]] || $19,000 || [[The Strip]], Las Venturas or behind [[Nude & XXX Shop]] in [[El Corona]], Los Santos.
+|-
+| [[Stafford]] || $35,000 || [[Queens]] or [[Garcia]], San Fierro.
+|-
+| [[Stallion]] || $19,000 || [[Juniper Hill]] or [[Paradiso]], San Fierro.
+|-
+| [[Tanker]] || $35,000 || In the countryside or at [[RS Haul]] in [[Flint County]].
+|}
+Completion of the second list awards the player an additional $100,000 on top of the reward granted delivering the last vehicle on the list.
+
+=== List 3 ===
+{| class="wikitable"
+! width="100" | Vehicle || width="50" | Max reward || width="600" | Notable locations
+|-
+| [[Banshee]] || $45,000 || Lots in [[Las Venturas]]. Also, one is always parked beside the [[Cobra Marital Arts Gym]].
+|-
+| [[BF Injection]] || $10,000 || Beaches near [[Avispa Country Club]] or [[Santa Maria Beach]].
+|-
+| [[Blade]] || $19,000 || Car park near [[Zero RC]].
+|-
+| [[Euros]] || $35,000 || [[The Camel's Toe]] in [[Las Venturas]].
+|-
+| [[Freeway]] || $10,000 || Countryside or in [[Whetstone]]. Also spawns outside the Bike School after achieving at least all Bronze.
+|-
+| [[Journey]] || $22,000 || On top of [[Mount Chiliad in GTA III Era|Mount Chiliad]] or in the studio area in [[Vinewood in GTA III Era|Vinewood]].
+|-
+| [[Huntley]] || $40,000 || Parked near the [[Driving School]].
+|-
+| [[Mesa]] || $25,000 || Countryside or at the base of [[Mount Chiliad in GTA III Era|Mount Chiliad]].
+|-
+| [[Super GT]] || $105,000 || Get all Bronze in the [[Driving School]]. Also parked at [[Auto Bahn]] near [[Royal Casino]].
+|-
+| [[ZR-350]] || $45,000 || Parked near the [[Las Venturas Airport]]. Also parked at [[The Clown's Pocket]] and [[LVA Freight Depot]].
+|}
+Completion of the final list awards the player an additional $200,000 on top of the reward granted delivering the last vehicle on the list.
+
+== Import lists ==
+Once unlocked, available vehicles for import originally consist of a base selection of a few cars uncovered from the shipping containers during "[[Customs Fast Track]]" (including the [[Club]], [[Perennial]], and [[Jester]]), with no vehicles available for Saturday. A specific model of vehicle wanted on the list will appear to purchase once it is delivered, but will only be available on a specific [[Days of the Week|day of the week]]. Vehicles exported will be available for purchase at 80% of their export value (e.g. if a vehicle grants $999,000 when exported in 100% health, it can be purchased for $799,200).
+
+The import lists are listed depending on the order of vehicles delivered. The first vehicle on the first list to be delivered will be available on Saturday (which initially has no available vehicles). Subsequent vehicles delivered will be made available in following days, in addition to any a milestone reached when a bonus vehicle is also made available in the next day.
+
+=== Sunday ===
+{| class="wikitable"
+! width="100" | Vehicle 
+! width="50" | Price
+! width="325" | Added after
+|-
+| [[Club]]
+| $28,000
+| ''Already available.''
+|-
+|colspan="3"| ''2nd vehicle on 1st wanted list to be delivered.''
+|-
+|colspan="3"| ''8th vehicle on 1st wanted list to be delivered.''
+|-
+|colspan="3"| ''4th vehicle on 2nd wanted list to be delivered.''
+|-
+|colspan="3"| ''10th vehicle on 2nd wanted list to be delivered.''
+|-
+| [[Vortex]]
+| $20,800
+| Delivering 5 out of 10 vehicles on the 3rd wanted list. 
+|}
+
+=== Monday ===
+{| class="wikitable"
+! width="100" | Vehicle 
+! width="50" | Price
+! width="325" | Added after
+|-
+| [[Perennial]]
+| $8,000
+| ''Already available.''
+|-
+|colspan="3"| ''3rd vehicle on 1st wanted list to be delivered.''
+|-
+|colspan="3"| ''9th vehicle on 1st wanted list to be delivered.''
+|-
+|colspan="3"| ''5th vehicle on 2nd wanted list to be delivered.''
+|-
+| [[Turismo]]
+| $76,000
+| Completing 2nd wanted list.
+|-
+|colspan="3"| ''6th vehicle on 3rd wanted list to be delivered.''
+|}
+
+=== Tuesday ===
+{| class="wikitable"
+! width="100" | Vehicle 
+! width="50" | Price
+! width="325" | Added after
+|-
+| [[Jester]]
+| $28,000
+| ''Already available.''
+|-
+|colspan="3"| ''4th vehicle on 1st wanted list to be delivered.''
+|-
+|colspan="3"| ''10th vehicle on 1st wanted list to be delivered.''
+|-
+| [[Bandito]]
+| $12,000
+| Delivering 5 out of 10 vehicles on the 2nd wanted list.
+|-
+|colspan="3"| ''1st vehicle on 3rd wanted list to be delivered.''
+|-
+|colspan="3"| ''7th vehicle on 3rd wanted list to be delivered.''
+|}
+
+=== Wednesday ===
+{| class="wikitable"
+! width="100" | Vehicle 
+! width="50" | Price
+! width="325" | Added after
+|-
+| [[Club]]
+| $28,000
+| ''Already available.''
+|-
+|colspan="3"| ''5th vehicle on 1st wanted list to be delivered.''
+|-
+| [[Windsor]]
+| $28,000
+| Completing 1st wanted list.
+|-
+|colspan="3"| ''6th vehicle on 2nd wanted list to be delivered.''
+|-
+|colspan="3"| ''2nd vehicle on 3rd wanted list to be delivered.''
+|-
+|colspan="3"| ''8th vehicle on 3rd wanted list to be delivered.''
+|}
+
+=== Thursday ===
+{| class="wikitable"
+! width="100" | Vehicle 
+! width="50" | Price
+! width="325" | Added after
+|-
+| [[Perennial]]
+| $8,000
+| ''Already available.''
+|-
+| [[Monster]]
+| $32,000
+| Delivering 5 out of 10 vehicles on the 1st wanted list.
+|-
+|colspan="3"| ''1st vehicle on 2nd wanted list to be delivered.''
+|-
+|colspan="3"| ''7th vehicle on 2nd wanted list to be delivered.''
+|-
+|colspan="3"| ''3rd vehicle on 3rd wanted list to be delivered.''
+|-
+|colspan="3"| ''9th vehicle on 3rd wanted list to be delivered.''
+|}
+
+=== Friday ===
+{| class="wikitable"
+! width="100" | Vehicle 
+! width="50" | Price
+! width="325" | Added after
+|-
+| [[Jester]]
+| $28,000
+| ''Already available.''
+|-
+|colspan="3"| ''6th vehicle on 1st wanted list to be delivered.''
+|-
+|colspan="3"| ''2nd vehicle on 2nd wanted list to be delivered.''
+|-
+|colspan="3"| ''8th vehicle on 2nd wanted list to be delivered.''
+|-
+|colspan="3"| ''4th vehicle on 3rd wanted list to be delivered.''
+|-
+|colspan="3"| ''10th vehicle on 3rd wanted list to be delivered.''
+|}
+
+=== Saturday ===
+{| class="wikitable"
+! width="100" | Vehicle 
+! width="50" | Price
+! width="325" | Added after
+|-
+|colspan="3"| ''1st vehicle on 1st wanted list to be delivered.''
+|-
+|colspan="3"| ''7th vehicle on 1st wanted list to be delivered.''
+|-
+|colspan="3"| ''3rd vehicle on 2nd wanted list to be delivered.''
+|-
+|colspan="3"| ''9th vehicle on 2nd wanted list to be delivered.''
+|-
+|colspan="3"| ''5th vehicle on 3rd wanted list to be delivered.''
+|-
+| [[Bullet]]
+| $84,000
+| Completing 3rd wanted list.
+|}
+
+== Glitch ==
+* If the crane magnet is left hanging just above the vehicle delivery point on the ship and the player delivers the vehicle without using the crane, the vehicle will still be delivered, but the vehicle will immediately be stuck on the magnet upon being parked, suspending the vehicle in the air during delivery. Being required to exit the vehicle, the player will inevitably receive fall damage, depending on how high the magnet is positioned.
+
+[[Category:Missions in GTA San Andreas]]
+[[Category:Side Missions]]

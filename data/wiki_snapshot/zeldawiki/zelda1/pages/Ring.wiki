@@ -1,0 +1,132 @@
+{{Noncanon}}
+{{Hatnote|This page is about the [[Weapon]] used by [[Wizzro]] in {{HW}}. For other uses, see [[Ring (Disambiguation)]].}}
+{{Infobox Item
+|image= File:HW Wizzro Red Ring.png
+|caption= Wizzro wielding the Red Ring
+|game= HW
+|other= 
+|cost= 
+|location= 
+|uses= Defeating [[Enemy|Enemies]]
+|comp= 
+|sample= 
+|theme= 
+}}
+The {{Term/Store|Ring|Rings|Series, HW}} is a class of [[Weapon]] used by [[Wizzro]] in {{HW}}.{{Name Ref|HW}} It is associated with [[Element|Darkness]].
+
+==Variations==
+The default Ring is the [[Blue Ring]], which is based on its namesake. The second form of the Ring is the [[Red Ring]], which is based on its [[Red Ring|namesake]]. The third form is the [[Magical Ring]].
+
+{| class="wikitable" style="text-align:center; width:100%; max-width:40em"
+|+Weapon Power
+!colspan="3"|Weapon
+!colspan="6"|Number of Stars
+|-
+! style="width:5%"|Tier
+! Icon
+! Element(s)
+! 0
+! 1
+! 2
+! 3
+! 4
+! 5
+|-
+! Lv.1
+| [[File:HW Blue Ring Icon.png|link=]]<br/>'''[[Blue Ring]]'''
+| [[File:HWDE Darkness Element Icon.png|link=|20px]] '''<span style="color:#3c1463">Darkness</span>'''
+| 80
+| 88
+| 96
+| 104
+| 112
+| 120
+|-
+! Lv.2
+| [[File:HW Red Ring Icon.png|link=]]<br/>'''[[Red Ring]]'''
+| [[File:HWDE Darkness Element Icon.png|link=|20px]] '''<span style="color:#3c1463">Darkness</span>'''
+| 150
+| 165
+| 180
+| 195
+| 210
+| 225
+|-
+! Lv.3
+| [[File:HW Magical Ring Icon.png|link=]]<br/>'''[[Magical Ring]]'''
+| [[File:HWDE Darkness Element Icon.png|link=|20px]] '''<span style="color:#3c1463">Darkness</span>'''
+| 280
+| 308
+| 336
+| 364
+| 392
+| 420
+|-
+! Lv.4 {{Exp Game|HWL, HWDE}}
+| [[File:HW Magical Ring Icon.png|link=]]<br/>'''[[Magical Ring +]]'''
+| [[File:HWDE Darkness Element Icon.png|link=|20px]] '''<span style="color:#3c1463">Darkness</span>'''
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+|-
+! Lv.4+ {{Exp Game|HWL, HWDE}}
+| [[File:HW Magical Ring Icon.png|link=]]<br/>'''[[Darkwater Ring]]'''
+| [[File:HWDE Darkness Element Icon.png|link=|20px]] '''<span style="color:#3c1463">Darkness</span>'''<br/>[[File:HWDE Water Element Icon.png|link=|20px]] '''<span style="color:#70DBFF">Water</span>'''
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+|}
+
+==Attack Combinations==
+{| class="wikitable" style="text-align:center; width:100%;"
+|-
+!Attack Pattern
+!Effect
+|-
+| '''Y Y Y Y Y Y'''
+| 
+|-
+| '''Y Y Y X'''
+| 
+|-
+| '''Y Y Y Y Y Y Y'''
+| 
+|-
+| '''Y Y Y Y X '''
+| 
+|}
+
+===Special Attack===
+{{Main|Special Attack}}
+Wizzro cackles, sinking into the ground as slimy, cycloptic fish-like creatures leap from a pool of dark magic in the ground. The magic compresses into a ball and explodes, blowing enemies away, while the giggling Wizzro re-emerges from the ground. This attack deals damage in a wide area around Wizzro and carries no Element.{{verify}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:HW Blue Ring Artwork.png|{{Game Label|{{HW|-}}}}Artwork of the Blue Ring
+File:HW Red Ring Artwork.png|{{Game Label|{{HW|-}}}}Artwork of the Red Ring
+File:HW Magical Ring Artwork.png|{{Game Label|{{HW|-}}}}Artwork of the Magical Ring
+File:HW Blue Ring Model.png|{{Game Label|{{HW|-}}}}The Blue Ring
+File:HW Red Ring Model.png|{{Game Label|{{HW|-}}}}The Red Ring
+File:HW Magical Ring Model.png|{{Game Label|{{HW|-}}}}The Magical Ring
+File:HW Wizzro Standard Outfit (Twilight) Model.png|{{Game Label|{{HW|-}}}}Wizzro wielding the Magical Ring
+File:HW Ring Adventure Mode Icon.png|{{Game Label|{{HW|-}}}}Ring Adventure Mode icon
+File:HW Ring Flame Adventure Mode Icon.png|{{Game Label|{{HW|-}}}}A flame, used to represent Wizzro's attack with the Ring in Adventure Mode
+File:HWDE Wizzro Darkwater Ring.png|{{Game Label|{{HWDE|-}}}}Wizzro wielding the Darkwater Ring
+</gallery>
+
+===Video Gallery===
+{{Youtube|fhIN5jkgH-o|200|Ring gameplay}}
+
+{{Categories
+ |Jewelry, Rings, Weapons
+ |items= HW, HWL, HWDE
+}}

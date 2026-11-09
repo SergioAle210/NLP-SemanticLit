@@ -1,0 +1,611 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= [[File:TLoZ Master Sword Artwork.png|320x320px]]
+ |Artwork ALttP= [[File:ALttP Master Sword Artwork.png|320x320px]]
+ |Artwork OoT= [[File:OoT Master Sword Artwork.png|320x320px]]
+ |Artwork TWWHD= [[File:TWWHD Master Sword Artwork.png|320x320px]]
+ |Artwork TPHD= [[File:TPHD Master Sword Artwork.png|320x320px]]
+ |Artwork SS= [[File:SS Master Sword Artwork.png|320x320px]]
+ |Artwork BotW= [[File:BotW Master Sword Artwork.png|320x320px]]
+ |Render OoT= [[File:OoT Master Sword Render.png|320x320px]]
+ |Render OoTNS2= [[File:OoTNS2 Master Sword Render.png|320x320px]]
+ |Render TP= [[File:TP Master Sword Render.png|320x320px]]
+ |Render ALBW= [[File:ALBW Master Sword Render.png|320x320px]]
+ |Model OoT= [[File:OoT Master Sword Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Master Sword Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Master Sword Model.png|320x320px]]
+ |Model TWW= [[File:TWW Master Sword Model.png|320x320px]]
+ |Model TWWHD= {{Please Upload|File:TWWHD Master Sword Model.png}}
+ |Model TP= [[File:TP Master Sword Model.png|320x320px]]
+ |Model TPHD= [[File:TPHD Master Sword Model.png|320x320px]]
+ |Model SS= [[File:SS Master Sword Model.png|320x320px]]
+ |Model SSHD= [[File:SSHD Master Sword Model.png|320x320px]]
+ |Model ALBW= [[File:ALBW Master Sword Model.png|320x320px]]
+ |Model BotW= [[File:BotW Master Sword Model.png|320x320px]]
+ |Model TotK= [[File:TotK Master Sword Model.png|320x320px]]
+ |Sprite ALttP= [[File:ALttP Master Sword Inventory Sprite.png|160x160px]]
+ |Sprite OoT= [[File:OoT Master Sword Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Master Sword Icon.png|160x160px]]
+ |Sprite OoS= [[File:OoS Master Sword Sprite.png|160x160px]]
+ |Sprite OoA= [[File:OoA Master Sword Sprite.png|160x160px]]
+ |Sprite TWW= [[File:TWW Master Sword Icon.png|160x160px]]
+ |Sprite TWWHD= [[File:TWWHD Master Sword Icon.png|160x160px]]
+ |Sprite TP= [[File:TP Master Sword Icon.png|160x160px]]
+ |Sprite TPHD= [[File:TPHD Master Sword Icon.png|160x160px]]
+ |Sprite SS= [[File:SS Master Sword Icon.png|160x160px]]
+ |Sprite SSHD= {{Please Upload|File:SSHD Master Sword Icon.png}}
+ |Sprite ALBW= [[File:ALBW Master Sword Icon.png|320x320px]]
+ |Sprite BotW= [[File:BotW Master Sword Icon.png|320x320px]]
+ |Sprite TotK= [[File:TotK Master Sword Icon.png|320x320px]]
+}}
+|caption= 
+|game= ALttP, OoT, OoS, OoA, FSAE, TWW, TP, SS, ALBW, BotW, TotK
+|other= ALttP (Ishinomori), AST, SSB, SSBM, SCII, SSBB, Scribblenauts Unlimited, NL, MK8, HW, MNPTP, SSB4, Skyrim, SSBU, AoC, AoI
+|pronunciation= 
+|plural= 
+|cost= 
+{{Infobox Game Blocks
+ |BotW= 13 Hearts
+}}
+|value= 
+|location= 
+|uses= 
+{{Infobox Game Blocks
+ |Series= Damaging enemies, Destroying evil entities and objects, Shooting [[Sword Beam]]s
+ |OoT= Traveling across time
+ |SS= [[Dowsing]], Executing [[Skyward Strike]]s
+}}
+|strength= 
+{{Infobox Game Blocks
+ |ALttP= {{HP|ALttP|2}}
+ |OoT= {{HP|OoT|2}}
+ |OoS= {{HP|OoS|5}}
+ |OoA= {{HP|OoA|5}}
+ |TWW= {{HP|TWW|2}}
+ |SS= {{HP|SS|4}}
+ |ALBW= {{HP|ALBW|2}}
+ |BotW= {{HP|BotW|30-60}}
+}}
+|durability= 
+|comp= 
+{{List|
+ * [[Four Sword]]
+ * [[Phantom Sword]]
+ * [[Lokomo Sword]]
+ * [[Goddess Sword]]
+ * [[Gilded Sword]]
+}}
+|sample= 
+|theme= 
+}}
+The '''Master Sword''', also known as the '''Blade of Evil's Bane''', the '''Legendary Sword''', the '''Sword of Legend''', the '''Master Sword of Resurrection''', the '''Sword that Seals the Darkness''', and the '''Sacred Sword''', is a recurring legendary [[Sword]] in the {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Master Sword||Series, ALttP, OoT, OoT3D, OoS, OoA, FS, TWW, TWWHD, TP, TPHD, SS, SSHD, ALBW, BotW, TotK, NL, AoC}}
+| 
+{{List|
+ * {{ALttP}}<ref name="E 131"/>
+ * {{OoT}}<ref name="E 131"/>
+ * {{OoT3D}}<ref name="E 131"/>
+ * {{OoS}}<ref name="E 131"/>
+ * {{OoA}}<ref name="E 131"/>
+ * {{FS}}<ref name="E 131"/>
+ * {{TWW}}<ref name="E 131"/>
+ * {{TWWHD}}<ref name="E 131"/>
+ * {{TP}}<ref name="E 131"/>
+ * {{TPHD}}<ref name="E 131"/>
+ * {{SS}}<ref name="E 131"/>
+ * {{SSHD}}{{Name Ref|SSHD}}
+ * {{ALBW}}<ref name="E 131"/>
+ * {{BotW}}<ref name="BotW Inventory"/>
+ * {{TotK}}{{Name Ref|TotK}}
+ * {{NL}}<ref name="NL Monita"/>
+ * {{AoC}}<ref name="AoC Allies"/>
+}}
+|-
+| '''Blade of Evil's Bane'''
+| 
+{{List|
+ * {{ALttP}}<ref name="ALttP Manual 5"/>
+ * {{OoT}}<ref name="E 26"/>
+ * {{OoT3D}}<ref name="E 26"/>
+ * {{TWW}}<ref name="TWW Ganondorf"/>
+ * {{TWWHD}}<ref name="TWW Ganondorf"/>
+ * {{TP}}<ref name="TP Princess Zelda 2"/>
+ * {{TPHD}}<ref name="TP Princess Zelda 2"/>
+}}
+|-
+| '''Legendary Sword'''
+| 
+{{List|
+ * {{BotW}}<ref name="BotW Aliza"/>
+ * {{TotK}}<ref name="TotK Onya"/>
+}}
+|-
+| '''Sword of Legend'''
+| {{BotW}}<ref name="BotW Rex"/>
+|-
+| '''Master Sword of Resurrection'''
+| {{BotW}}<ref name="YouTube"/>
+|-
+| '''Sword that Seals the Darkness'''
+| 
+{{List|
+ * {{BotW}}<ref name="BotW Riju"/>
+ * {{TotK}}<ref name="TotK Rumor Mill"/>
+}}
+|-
+| '''Sacred Sword'''
+| 
+{{List|
+ * {{HW}}<ref name="HW Select Scenario"/>
+ * {{HWL}}<ref name="HW Select Scenario"/>
+ * {{HWDE}}<ref name="HW Select Scenario"/>
+}}
+|-
+| ''No name is given''
+| 
+{{List|
+ * {{ALttP (Ishinomori)}}
+ * {{AST}}
+ * {{SSB}}
+ * {{SSBM}}
+ * {{SCII}}
+ * {{SSBB}}
+ * {{Scribblenauts Unlimited}}
+ * {{MK8}}
+ * {{MNPTP}}
+ * {{SSB4}}
+ * {{Skyrim}}
+ * {{SSBU}}
+ * {{AoC}}
+ * {{AoI}}
+}}
+}}
+
+==Overview==
+The Master Sword was originally crafted by the goddess [[Hylia]] as the [[Goddess Sword]],<ref name="Goddess Sword">{{Cite|Link, the goddess created Fi and the great blade she's a part of for very specific reasons.|Zelda|SS}}</ref> and was later forged into the Master Sword by the [[Link#Skyward Sword|Goddess's chosen hero]] and its spirit, [[Fi]], who bathed it in the three [[Sacred Flames]] located across the land that would become the Kingdom of [[Hyrule]].<ref name="tempering"/> Din's Flame, in particular, imbued the sword with the [[Power to Repel Evil]],<ref name="din's flame">{{Cite|The sacred red flame has imbued your blade with a divine power that repels evil.|N/A|SS}}</ref><ref name=legendary>{{Cite|You got the Master Sword! The legendary blade with the power to repel evil...once wielded by the legendary hero himself!|N/A|TWW}}</ref> a power augmented after the Sword received the blessing of Zelda, which transformed the blade into the true Master Sword.<ref name=bless/><ref>{{Cite|The goddess has blessed your blade, and the Master Sword has at last achieved its ultimate form! The sword is now imbued with the mythical power to drive back demons, and only {{Color SS|Blue|Link}} may wield it!|N/A|SS}}</ref> Although not always, it is the only weapon that can defeat [[Ganon]] in the games it appears in.<ref>{{Cite|It is none other than the Master Sword... The blade of evil's bane. It is the only sword that can banish Ganon from the world above!|King of Red Lions|TWW}}</ref> 
+
+The Master Sword is often seen to choose or accept its master by its own will, always [[Link|a hero]] who has gone through great trials that test his courage, wisdom, and power to prove him worthy of wielding it. This may be the conscious choice of the sword's spirit, Fi, who sleeps eternally within the sword and only assists her heroic master.<ref name=fi/>
+
+===Appearance===
+
+When the Master Sword was originally introduced in artworks of {{ALttP|-}}, the Sword's grip was red and its cross-guard yellow (in-game, both the grip and guard are red). However, in its pedestal, the Master Sword has a purple grip and blue guard.
+
+Its most conventional appearance was clearly defined in {{OoT|-}}, with the purple grip and purple guard, though in subsequent games and the re-release of {{OoT3D|-}}, the purple has become more blue or indigo. In {{TWW|-}}, the grip and guard are royal blue as opposed to a deeper color.
+
+For the rest of the games, the Master Sword is merely a bastard sword with a narrow {{Wp|ricasso}} and a wide, shallow {{Wp|Fuller (weapon)|fuller}} that runs almost the entire length of the blade, although in some appearances it has no fuller at all. The Triforce can be seen engraved in the lower part of the blade and yellow gemstone is embedded in the cross guard.
+
+It is seen in {{TWW|-}} and {{SS|-}} that the state of the gem and the cross guard are indicative of the sword's awakening and power. When Link acquires the unawakened Master Sword in {{TWW|-}} and the first form of the Master Sword in {{SS|-}}, the gem in its cross guard is dark and the guard is retracted toward the grip. Once the Master Sword has been restored to its full power in both games, its cross guard regains its winged form and the gem its yellow color.
+
+==Abilities==
+The Master Sword's classic ability is the power to vanquish evil. Infused with the sacred flames provided by the Golden Goddesses and blessed with Hylia's power, the sword is effective even against evil ones possessing the Triforce. However, in order to keep the power to repel evil intact, two Sages, known as the [[Sage of Earth]] and the [[Sage of Wind]], are in charge of praying to the gods and thus infuse the Master Sword with the gods' power (in  case of ''[[The Legend of Zelda: The Wind Waker|The Wind Waker]]'') <ref name="korl">{{Cite|The fact that the Master Sword lost the power to repel evil suggests to me that something has happened to the sages who infused the blade with the gods' power.|King of Red Lions|TWW}}</ref> Should something happen to these Sages, the Master Sword will weaken and lose its might to combat evil.
+
+The sacred blade is also capable of destroying magical barriers<ref>{{Cite|The sword you hold in your hand is the one and only Master Sword! Now that you possess that blade, you can break the barrier at the castle. [...] Why, that's incredible! How easily it cuts through such dark magic!|Sahasrahla|ALBW}}</ref><ref name="BreakBarrier"/> and breaking curses that involve powerful, dark magic.<ref name="TP Princess Zelda 3"/> In addition, it has the ability to lock away the remains of a Demon.<ref>{{Cite|The last remnants of {{Color SS|Blue|Demise}} are decaying slowly within the sword.|Impa|SS}}</ref><ref name="Demise's sealing"/> The Master Sword can also unleash [[Skyward Strike]]s by channeling heavenly energy.<ref>{{Cite|To gather energy from the heavens and charge up a {{Color SS|Red|Skyward Strike}}, {{Color SS|Green|point your sword skyward}}.|Fi|SS}}</ref> Even when low on power, the Master Sword can unleash Skyward Strikes through the use of lightning when it strikes the blade.
+
+Only a true hero that is "pure of heart and strong of body" is capable of wielding the sacred blade,<ref>{{Cite Manual|quote= It was so powerful that only one who was pure of heart and strong of body could wield it. |game= ALttP |page= 5}}</ref><ref>{{Cite|You got the Master Sword! Only the true hero can wield this legendary weapon!|N/A|TP}}</ref> and as such, those with tainted hearts can't even touch this sword.<ref name=rauru>{{Cite|The Master Sword is a sacred blade which evil ones may never touch....|Rauru|OoT}}</ref><ref>{{Cite|The blade of evil's bane. Those with evil hearts cannot touch it.|Inventory|TP}}</ref> If a hero who is too young to bear the title that comes with the Master Sword withdraws this blade from its pedestal, the Master Sword will seal away the hero's soul and awaken him when the bearer comes of age to wield it, as seen in ''[[The Legend of Zelda: Ocarina of Time|Ocarina of Time]]''.<ref>{{Cite|Only one worthy of the title of "Hero of Time" can pull it from the Pedestal of Time....However, you were too young to be the Hero of Time.... Therefore, your spirit was sealed here for seven years.|Rauru|OoT}}</ref><ref>{{Cite|After you opened the door of time, the Master Sword sealed you away in the Sacred Realm...|Princess Zelda|OoT}}</ref> However, if someone that is weak attempts to draw the Master Sword from its pedestal, they will lose their life.{{Fact}}
+
+The Master Sword also acts as a key to gain entrance to the [[Temple of Light]]. If the Master Sword is retrieved from its pedestal in the [[Temple of Time]], the portal to the [[Sacred Realm]] will open, eventually leading to the [[Triforce]].<ref>{{Cite|The Temple of Light, situated in the very center of the Sacred Realm, is the last stronghold against Ganondorf's evil forces. The Master Sword--the evil-destroying sword that you pulled out of the Pedestal of Time--was the final key to the Sacred Realm.|Rauru|OoT}}</ref> Additionally, the bearer of the sword can travel through time to some extent by simply thrusting the Master Sword into the Pedestal of Time.<ref>{{Cite|The Master Sword is a ship with which you can sail upstream and downstream through time's river... The port for that ship is in the Temple of Time...|Sheik|OoT}}</ref> The hero is able to travel backwards and forwards through the seven years of his life that were lost when he was kept in the Sacred Realm until he was old enough to hold the sword.
+
+When in the [[Twilight]], the Master Sword itself can be infused with the power of the [[Sol]]s from the [[Twilight Realm]], allowing it to cut through the dark fog that exists in the realm.<ref name=sol>{{Cite|Light filled the Master Sword! Its blade glows with a golden light in the Twilight Realm. With it, you can cut through dark fog!|N/A|TP}}</ref>
+
+Even in its final form, it is seen in {{ALttP}} that the Master Sword can be further  improved by smithing or magic means. However, after its task is accomplished and the sword returned into its pedestal, it will revert back its original shape.<ref>{{ALttP|-}} ending</ref>
+
+==Location and Uses==
+==={{TLoZ|-}}===
+The Master Sword does not appear in {{TLoZ}}, as the original game had the [[Magical Sword]], its precursor. However, a sword closely resembling it can be seen on an artwork referring to {{TLoZ|-}} in {{Guide/ALttP Nintendo}}.<ref>{{Cite Guide|ALttP Nintendo|page= 4}}</ref>
+
+==={{ALttP|-}}===
+{{ALttP|-}} is the Master Sword's debut in the Zelda series. It is the legendary blade that rests in the [[Lost Woods]] of northwestern Hyrule in a pedestal with ancient [[Hylian (Language)|Hylian]] inscribed on it.<ref>{{Cite|Take the three Pendants into the Lost Woods. The Master Sword awaits you there.|Sahasrahla|ALttP}}</ref> The ancient text says the hero with three symbols of virtue will wield it on cataclysm's eve, reading: "''The Hero's triumph on Cataclysm's Eve wins three Symbols of Virtue. The Master Sword he will then retrieve, keeping the knights' line true''."<ref>{{Cite|The Hero's triumph on Cataclysm's Eve Wins three symbols of virtue. The Master Sword he will then retrieve, Keeping the Knight's line true.|N/A|ALttP}}</ref> 
+
+In order to defeat the evil wizard [[Agahnim]] that has taken over [[Hyrule Castle (Dungeon)|Hyrule Castle]], Link must obtain the Master Sword.<ref>{{Cite|The only weapon potent enough to defeat the wizard is the legendary Master Sword.|Loyal Sage|ALttP}}</ref> However, before the young hero can wield it, he must first acquire the three [[Pendants of Virtue]] that are scattered throughout the land.<ref>{{Cite|Not just anyone can use that weapon. Legends say only the Hero who has won the three Pendants can wield the sword.|Sahasrahla|ALttP}}</ref> After doing so, he retrieves the sacred blade from the [[Pedestal of Time]] within the Lost Woods. With it, he is able to destroy the electrical barrier that Agahnim had placed in the upper floor of Hyrule Castle. With the Master Sword in hand Link manages to defeat Agahnim twice in the game and, eventually, [[Ganon]]. With Hyrule safe from evil, Link places the Master Sword back in its pedestal, never to be used again.<ref>{{Cite|AND THE MASTER SWORD SLEEPS AGAIN... FOREVER!|N/A|ALttP}}</ref>
+
+The Master Sword is twice as powerful as the [[Fighter's Sword]] and has a longer reach.{{Fact|ALttP}} When at full [[Life Gauge|health]], the Master Sword will also fire a [[Sword Beam]] when swung. In {{ALttP&FS}}, the Master Sword can also break [[Sign]]s.{{Verify|ALttP}}
+
+During the course of the game, Link can actually upgrade the Master Sword. Its first upgrade is the [[Tempered Sword]], which is acquired when the [[Dwarven Swordsmith]] is reunited with his partner on the outskirts of Kakariko Village.<ref>{{Cite|Oh! Happy days are here again! You found my partner! ... We are very happy now... Drop by here again! At that time, we will temper your sword perfectly!|Dwarven Swordsmith|ALttP}}</ref> In the tempered shape, the Master Sword is two times stronger than its standard form, has a glowing orange blade and makes a deeper swing sound as opposed to the usual slash sound. Its second and last upgrade is the [[Golden Sword]], acquired by giving the Master Sword or Tempered Sword to the [[Cursed Fairy]] in the [[Mysterious Pond]] of the Dark World within the [[Pyramid of Power]]. In the golden shape, the Master Sword is four times stronger than its standard form, killing almost any enemy in one hit, has a golden blade and green hilt, has the ability to break jars and skull jars (in the GBA remake), and also make a deeper swing sound than the tempered form.
+
+Moreover, Link can obtain the magic of the [[Bombos Medallion|Bombos]] and [[Ether Medallion]] by holding the Master Sword up into the sky next to certain inscriptions around Hyrule.<ref>{{Cite|Hold up the Master Sword and you will get the magic of Ether.|N/A|ALttP}}</ref>
+
+==={{OoT|-}}===
+{{Descriptions OoT}}
+Ten years after the [[Hyrulean Civil War|Unification War]] in which a young [[Link#Ocarina of Time|Hero of Time]] is left an orphan in [[Kokiri Forest]], he is sent out on a great quest to help him combat the [[Gerudo]] thief known as [[Ganondorf]]. To retrieve it from its pedestal, [[Link]] must collect the three [[Spiritual Stones]], and play the "[[Song of Time]]" on the [[Ocarina of Time (Item)|Ocarina of Time]] in front of the [[Door of Time]] to open the chamber where it is sealed.<ref>{{Cite|That's right... The Temple of Time is the entrance through which you can enter the Sacred Realm from our world. But the entrance is sealed with a stone wall called the Door of Time. And, in order to open the door, it is said that you need to collect three Spiritual Stones. And another thing you need...is the treasure that the Royal Family keeps along with this legend...|Princess Zelda|OoT}}</ref> Only the one worthy of the title of the Hero of Time can draw the Master Sword; however, since Link was too young to bear such a title, the sacred blade sealed his spirit away in the [[Chamber of Sages]] until he became old enough to be the Hero of Time, resulting 7 years have passed.<ref name=Quote2>{{Cite|Only one worthy of the title of "Hero of Time" can pull it from the Pedestal of Time.... However, you were too young to be the Hero of Time.... Therefore, your spirit was sealed here for seven years.|Rauru|OoT}}</ref> Additionally, because the Master Sword serves as a gateway between Hyrule and the Sacred Realm, Ganondorf was able to access the Temple of Light and steal the Triforce shortly after Link pulled the sword from its pedestal.<ref>{{Cite|But, remember... Though you opened the Door of Time in the name of peace... Ganondorf, the Gerudo King of Thieves, used it to enter this forbidden Sacred Realm! He obtained the Triforce from the Temple of Light, and with its power, he became the King of Evil...|Rauru|OoT}}</ref> 
+
+After clearing the [[Forest Temple (Ocarina of Time)|Forest Temple]], Link can travel back to his original time by placing the Master Sword in the Pedestal of Time.<ref>{{Cite|If you want to return to your original time, return the Master Sword to the Pedestal of Time. By doing this, you will travel back in time seven years....|Sheik|OoT}}</ref> This becomes necessary as the young hero journeys to awaken the remaining five Sages.<ref>{{Cite|When evil rules all, an awakening voice from the Sacred Realm will call those destined to be Sages, who dwell in the five temples. One in a deep forest... One on a high mountain... One under a vast lake... One within the house of the dead... One inside a goddess of the sand... Together with the Hero of Time, the awakened ones will bind the evil and return the light of peace to the world...|Sheik|OoT}}</ref> Similarly, he can travel seven years into the future by simply taking the sword from its pedestal. Eventually, the young hero confronts the King of Evil and is able to defeat him with the power of the Master Sword along with the help of the Seven Sages.<ref name="finishing blow">{{Cite|Link! Finish him off with the sword of time, the Master Sword!|Zelda|OoT}}</ref> Princess Zelda feels guilt for the Hero of Time having lost his childhood just to save Hyrule and sends him back in time to relive the days he missed and thus creates a [[Child Timeline|new history]]. Following this, Link returns the Master Sword to the [[Pedestal of Time]] and sealed the entrance to the Sacred Realm.<ref>{{Cite|You must lay the Master Sword to rest and close the Door of Time... However, by doing this, the road between times will be closed...|Princess Zelda|OoT}}</ref>
+
+Ever since the Master Sword was pulled from the Pedestal of Time, it has become analogous with the [[Mythology in The Legend of Zelda Series#Legend of the Hero of Time|legend of the Hero of Time]].<ref>{{Cite|You got the Master Sword! The legendary blade with the power to repel evil...once wielded by the legendary hero himself!|N/A|TP}}</ref>
+
+==={{OoS|-}}===
+[[File:Master Sword Pedestal.png|left|The Master Sword in Oracle of Seasons]]
+The Master Sword makes a reappearance in {{OoS}} and {{OoA}}, fittingly as the most powerful sword in the game. The only way to unlock the Master Sword is to have finished one of the games, and to have started a [[Linked Game]] on the opposite game. When a certain [[Secret]] in the game is found and told to [[Farore (Oracle)|Farore]], she will upgrade the [[Noble Sword]] Link currently holds into the Master Sword. However, if Link still has the Wooden Sword, the Wooden Sword will become the Noble Sword, and the Master Sword will be found where the Noble Sword would have been.
+
+The Master Sword in these games is '''not''' the actual sword itself, but is simply the Noble Sword upgraded so its power is similar to that of the real Master Sword.<ref>{{Cite Book|quote= In {{OoS|-}} and {{OoA|-}}, connecting {{OoS|-}} and {{OoA|-}} upgrades the Noble Sword, giving it power akin to the Master Sword. |book= E |publisher= |page= 83}}</ref>
+
+To get the Master Sword, Link must find the Old Woman in South Lynna who will tell the Clock Shop Secret. She instructs the player to dig around the Clock Shop located in Holodrum. The old man inside will ask the player to play a game wherein 12 beasts must be beaten within 30 seconds. 
+
+If Link discovers the [[Linked Game/Secrets#King Zora Secret|King Zora Secret]] after completing the [[Trading Quest|Trading Game]], a [[Zora]] in [[Hero's Cave]] will reward him with the Master Sword. However, if Link has already completed the Trading Game, then the legendary blade will be found resting in its pedestal in the [[Lost Woods]] of northwestern [[Holodrum]].
+
+==={{OoA|-}}===
+If Link discovers the [[Linked Game/Secrets#Clock Shop Secret|Clock Shop Secret]] after completing the Trading Sequence, the legendary blade will be given to him by the Old Woman in [[South Lynna]]. However, if the Secret is discovered before the Trading Sequence is complete, then Link will have to bring the [[Broken Sword]] that was given to him by the [[Old Zora]] who lives at the [[Coast of No Return]] to [[Patch]] on top of [[Restoration Wall]] for repairs. If the ceremony is successful, Patch will restore the Broken Sword. This will give Link an upgraded version of his sword, depending on what he had when the ceremony began. If Link had the Wooden Sword, Patch's restoration will give him the Noble Sword. If Link had the Noble Sword, the restoration will give him the Master Sword.
+
+To obtain the Master Sword if Patch repairs the Broken Sword into the Noble Sword, the player will need to use the Clock Shop Secret given to them by the Old Woman. By taking her secret back to Oracle of Seasons and obtaining the Master Sword in that game, they will get a new secret. This secret can be given to Farore in Oracle of Ages, and the player will then obtain the Master Sword.
+
+==={{TWW|-}}===
+{{Checklist
+ |game= TWW
+ |type= Characters
+ |category= Items in The Wind Waker
+ |needs= 
+Detailed information on the following:
+* Where they are found
+* How much they cost
+* What they do
+}}
+[[File:TWW Master Sword Model 2.png|left|40px|The non-awakened Master Sword from {{TWW|-}}]]
+The Master Sword is predominately referred to as the Blade of Evil's Bane in {{TWW}}'s legends and lies in a hidden chamber in [[Hyrule Castle]], deep beneath the waves of the [[Great Sea]], once wielded by the [[Hero of Time]].<ref name="TWW King of Red Lions"/><ref>{{Cite|The item you seek is hidden somewhere in this castle. To find it, you must find the entrance to the basement. But...that entrance has been blocked by a mighty threshold, firmly sealed to prevent evil from ever gaining access.|King of Red Lions|TWW}}</ref> With the Master Sword resting in the Pedestal of Time, the sacred blade serves as a key to seal away Ganondorf's magic, keeping Hyrule frozen in time and all those who inhabit it.<ref name="TWW Ganondorf"/> However, the Master Sword's use as a key to lock evil away is broken when a young [[Hero of Winds]] unknowingly draws the blade under the direction of the [[King of Red Lions]].<ref name="TWW Ganondorf"/> In doing so, he unwittingly awakens Ganondorf's army from their ancient slumber and also allows Ganon to use his full magic again.
+
+Later, [[Link]] learns that since Ganon murdered the original Sages of Earth and Wind, [[Laruto]] and [[Fado (The Wind Waker)|Fado]] respectively, the Master Sword's edge has dulled and its [[Power to Repel Evil]] has faded.<ref>{{Cite|You cannot defeat me with a blade that does not sparkle with the power to repel evil! What you hold is useless. Go back to the world below, and tell that to the pathetic fools who made this blade! Its power is gone, and its edges are dull!|Ganon|TWW}}</ref> As such, Link must awaken the two new [[Sage]]s in order to regain that lost power: his friends [[Medli]] and [[Makar]].<ref name=Quote3>{{Cite|O great hero, chosen by the Master Sword! My name is Laruto. I am a Zora sage. For an age, I offered my prayers here in the Earth Temple, praying that the power to repel evil would ever remain within the Master Sword. And yet... unfortunately, due to Ganondorf's evil designs, the Master Sword you hold has lost this power. After his defeat at the hands of the Hero of Time, Ganondorf was sealed away... but not for all time. He was revived, and he returned to Hyrule in a red wrath. He attacked this temple and stole my soul, knowing that he had to remove the power contained in that enchanted blade. In order to return the power to repel evil to your sword, you must find another to take my stead in this temple and ask the gods for their assistance.|Laruto|TWW}}</ref> It is then explained that those Sages are necessary in order to pray to the gods for the Master Sword and the Hero who wields it, to restore its edge, and to keep it glowing with the power to repel evil.<ref name=korl/>
+
+[[File:TWW Stone Ganondorf.png|thumb|right|{{Game Label|{{TWW|-}}}}The Master Sword stuck in Ganon's forehead causes him to turn into stone]]
+When Link first draws the weakened Master Sword from its pedestal, its guard is curved into the blade rather than extending outward as it once did; moreover, the gem that rests at the base of the blade is black rather than gold, and the symbol of the Triforce is missing. As Link awakens the new Sages of Earth and Wind, the Sages return the power to repel evil to the blade: the guard's original position is recovered with the [[Medli|Earth Sage]]'s prayers,<ref>{{Cite|Link, the power to repel evil is not yet fully awakened. To complete the awakening of the Master Sword, you must go to the Wind Temple for one more prayer. Now, Link... Step into the light behind you and return to the surface. Your next duty is to find the sage of the Wind Temple. I will remain here and continue to pray.|Medli|TWW}}</ref> and the gem and the Triforce symbol are restored with the prayers of the [[Makar|Wind Sage]].<ref>{{Cite|Link, I have fully restored the power to repel evil to your Master Sword. ...And my ancestors are most satisfied. I shall continue praying to the gods here.|Makar|TWW}}</ref> When the sword is fully restored, it glows with the power to repel evil, allowing Link to shatter the magical barrier in Hyrule that impedes his path to [[Ganon's Castle]].<ref name="BreakBarrier">{{Cite|Now that the Master Sword is once again blessed with the power to repel evil, you should be able to break through Ganon's Barrier and enter the tower!|King of Red Lions|TWW}}</ref> 
+
+After making his way to the top of the tower, Link, with the help of [[Princess Zelda]], fights against Ganondorf using the Master Sword's power. To deal the final blow, the young hero thrusts the sacred blade into Ganondorf's forehead, which causes the King of Evil to completely turn into stone. Hyrule is then flooded by the wishes of the [[King Daphnes Nohansen Hyrule]], leaving the Master Sword impaled in Ganon's skull as the forgotten kingdom is permanently destroyed by the massive waves.
+
+==={{TP|-}}===
+The Master Sword in {{TP}} is located deep within the [[Faron Woods]] in the [[Sacred Grove]], which are the ruins of the [[Temple of Time]].<ref name="TP Princess Zelda"/> The blade is said to have once been held by the legendary [[Hero of Time]].<ref name=legendary/> 
+
+When Link is permanently turned into a [[Wolf Link|Wolf]] by [[Zant]]'s curse in the form of the [[Shadow Crystal]],<ref>{{Cite|Get that sword and let's undo the curse that Zant put on you!|Midna|TPHD}}</ref> Princess Zelda mentions that the Master Sword is the only relic that can break the curse placed on him.<ref name="TP Princess Zelda 3"/> Link then ventures to the Sacred Grove and draws the blade from its pedestal which ejects the shadow crystal from his body, returning Link to his Hylian form and allowing Midna to collect the crystal.<ref>{{Cite|But on the other hand... if we kept it, you'd be able to transform into a beast anytime you wanted...|Midna|TP}}</ref>
+[[File:TP Master Sword Closeup.png|thumb|{{Game Label|{{TP|-}}}}The Master Sword]]
+The Master Sword in this game also allows Link access to other numerous hidden temples later in the game, such as the [[Temple of Time (Dungeon)|Temple of Time]]. When Link goes through the [[Door of Time]] in the Sacred Grove, he travels back to when the Temple of Time stood tall and before it fell into ruin. Here, Link can briefly thrust the Master Sword in the Pedestal of Time, making a set of staircases appear that lead to an unexplored area of the temple that serves as one of the game's dungeons. The sword's initial locations marks a link between {{ALttP|-}} and {{OoT}}, as it resides in the temple's ruins, a place that is notably similar to the sword's resting place in {{ALttP|-}}. 
+[[File:lightsword.jpg|thumb|right|320px|{{Game Label|{{TP|-}}}}The Master Sword infused with the power of the Sols]]
+The sword is, in comparison with the shield and the overall height of Link, considerably bigger than in the other 3D releases. Regardless, the general design is consistent throughout them all.
+
+In the [[Palace of Twilight]], Link fuses the Master Sword with the power of the [[Sol]]s. This Light-Infused Master Sword enables Link to defeat most monsters of Twilight in a single blow. The sword is also capable of clearing away the [[Dark Fog]] that causes Link to revert back to [[Wolf Link|wolf form]].<ref name="sol"/>
+
+[[Midna]] notes that the [[Sol]]s' light being transferred to the Master Sword is the work of the gods of the [[Twilight Realm]], and that they too are on Link's side.<ref>{{Cite|Amazing... The power of the Sols has been transferred to your sword... The guardian deities of my world are on our side, too! You really are the chosen one, Link... A true hero! As long as you have that sword, you should be able to repel the shadows Zant has spread!|Midna|TP}}</ref>
+
+In the final battle against Ganondorf, Link uses the [[Ending Blow]] to thrust the Master Sword into Ganondorf's chest, defeating him. During the ending credits, the sword is shown resting in its pedestal in the Sacred Grove.
+
+==={{SS|-}}===
+:''See also: [[Goddess Sword]] and [[Fi]]''
+In {{SS}}, it is revealed that the Master Sword was originally known as the Goddess Sword, which rested in [[Skyloft]], a floating island above the clouds. After sealing Demise, the goddess Hylia created Fi, an intelligent humanoid spirit who resides in the Sword, and gave it the purpose of assisting her chosen hero throughout his journey.<ref>{{Cite|First, she created {{Color SS|Blue|Fi}}. She made the spirit that resides in your sword to serve a single purpose: to assist her {{Color SS|Red|chosen hero}} on his mission.|Zelda|SS}}</ref> Eventually, in order to open the Gate of Time at the Sealed Grounds, [[Impa]] explains to Link that he must seek out the three Sacred Flames and purify the Sword into their heat.<ref>{{Cite|First, you and your sword must grow together. {{Color SS|Red|Faron Woods}}...{{Color SS|Red|Eldin Volcano}}...and {{Color SS|Red|Lanayru Desert}}... A {{Color SS|Red|sacred flame}} is hidden somewhere in each of these lands. Seek them out, and purify your sword in their heat. Only after your blade has been tempered by these three fires will it be fully imbued with the {{Color SS|Red|great power}} for which you search.|Impa|SS}}</ref> Each time Link bathes the Goddess Sword in one of the flames, the Sword is empowered and is physically altered, with Din's Flame tempering the Goddess White Sword into the Master Sword and giving it the power to repel evil.<ref>{{Cite|Master, now that it has been tempered by the last of the sacred flames, your blade has finally revealed its true form. You now hold the {{Color SS|Red|Master Sword}}.|Fi|SS}}</ref><ref name="din's flame"/> Although it is in the same incomplete state as in {{TWW|-}}, it holds a sacred force of "tremendous power" considered to be a divine power that was left by the gods of old, and it is also capable of activating the Gate of Time.<ref name="impa">{{Cite|There can be no doubt. The sacred flames have purified this blade. Well done, Link. That sword holds tremendous power. That power is a sacred {{Color SS|Red|force}}. It is a divine power left to us by the gods of old. The same power that is spoken of in the Ballad of the Goddess.|Impa|SS}}</ref>
+
+In the past, Link's Sword is then blessed by Zelda to become the True Master Sword.<ref name="bless">{{Cite|{{Color SS|Gold|Along your travels you have found wisdom, power, and courage, and for this I shall bless your sword with the goddess's power. May it give you and your sword the strength to drive back the abomination that threatens this land!}}|Zelda|SS}}</ref> Once blessed, it possesses the [[Light Force]].<ref>{{Cite Book|quote= The True Master Sword, blessed by the goddess Hylia in {{SS|-}}, possesses the Light Force that is the source of all life in the world. |book= E |publisher= |page= 82}}</ref> In the form of the True Master Sword, the damage dealt by a sword strike increases threefold, and the [[Skyward Strike]] charges much faster and is colored blue. The Sword's appearance also slightly changes, similar to {{TWW|-}}: the cross-guard extends outwards and turns into a brighter shade of purple, the blade takes on a slight bluish luster, and the gem and the Triforce symbol are restored. Additionally, if looked at closely when it is in a hilt, or placed in the pedestal in the post-battle cutscenes, the guard forms the shape of a blue Loftwing, with the gem as the beak, and gold detailing as the talons. The Master Sword is used to defeat [[Demise]], whose "residual consciousness" is absorbed into the Master Sword and is sealed away before promising that an [[Ganon|incarnation of his hatred]] would haunt those with the [[Link|Spirit of the Hero]] and the [[Princess Zelda|blood of the Goddess]].<ref name="Demise's sealing">{{Cite|I have confirmed the eradication of the demon king. His residual consciousness has been absorbed into the {{Color SS|Gold|Master Sword}}...and is now {{Color SS|Red|sealed away}}.|Fi|SS}}</ref> Link then relinquishes the Sword into a pedestal in the [[Sealed Grounds]] and, thereafter, Fi enters the Master Sword to sleep forever.<ref name="fi">{{Cite|But now, at the end of my journey with you, as I prepare to sleep within the Master Sword forever, I experience a feeling I am unable to identify.|Fi|SS}}</ref>
+
+==={{ALBW|-}}===
+{{Lacking Sources|ALBW}}
+The Master Sword in {{ALBW}} is the same legendary blade from {{ALttP|-}}, which is once again found inside of the Lost Woods, presumably having been left there by the Link from {{ALttP|-}}. Much like in {{ALttP|-}}, the Master Sword is obtained by collecting the three [[Pendants of Virtue]]. One of the Pendants is given to Link by Princess Zelda, and the others are found in the [[Tower of Hera]] and the [[House of Gales]]. The Master Sword is the only thing that has the power to break the Barrier surrounding Hyrule Castle, which is necessary for Link to face [[Yuga]] atop the Castle, and subsequently travel to [[Lorule]] for the first time. When obtained, it replaced the previously-used [[Forgotten Sword]].
+
+The Master Sword can be upgraded twice by collecting pieces of [[Master Ore]] hidden throughout Lorule. By taking the Master Sword to the [[Blacksmith]] in Hyrule with two pieces of Master Ore, he will upgrade it to the Master Sword Lv2. The [[Master Sword Lv2]] is twice as powerful as the standard Master Sword and has a tempered, red blade, making it almost identical to the Tempered Sword from {{ALttP|-}}. When Link collects the remaining two pieces of Master Ore and takes them to the Blacksmith in Lorule, he will upgrade the sword again to the [[Master Sword Lv3]]. This final upgrade of the Master Sword is again twice as powerful, making it eight times as powerful as the [[Forgotten Sword]]. It also has a golden blade, making it almost identical to the Golden Sword from the {{ALttP|-}}.
+
+Despite its increased strength, the Master Sword Lv2's Sword Beam does the same base amount of damage as the Master Sword. The StreetPass [[Shadow Link]]s and [[Gramps]], the elderly man in [[Kakariko Village]], are able to wield the Master Sword Lv3. The former can be attributed to the Shadow Links being mere shades,<ref>{{Cite|"Their characters become Shadow Link characters in this world. Once they appear you can then battle them."|Gramps|ALBW}}</ref><ref>{{Cite Web|quote="He might be a shadow, but he seems pretty solid to your sword."|author=Nintendo|url=http://zelda.com/link-between-worlds/heroic/|site=Official Website for A Link Between Worlds}}</ref> but no explanation is given as to why Gramps can wield the sword.
+
+==={{BotW|-}}===
+{{Compendium/Extract|Master Sword}}
+10,000 years prior to the events of {{BotW}}, a [[Link#The Hero 10,000 Years Prior to Breath of the Wild|Hero]] wielded the Master Sword and sealed [[Calamity Ganon]] away within [[Hyrule Castle]] using the its power.<ref>{{Cite|And when the hero wielding the sword that seals the darkness delivered his final blow... The princess used her sacred power to seal away Calamity Ganon.|Impa|BotW}}</ref><ref>{{Cite|The hero with the sealing sword struck the final blow,<br/>And the holy power of the princess sealed Ganon so.<br/><br/>And that is the story of the brazen attack,<br/>On Calamity Ganon 10,000 years back.|Kass|BotW}}</ref> The Master Sword was also wielded by the [[Link]] one hundred years before he awoke from the [[Slumber of Restoration]]. He likely drew it from its [[Pedestal of the Master Sword|Pedestal]] when he was twelve or thirteen years old, after its location had long been a mystery.<ref>{{Cite Book|quote= It is said that the legendary Master Sword can only be wielded by a hero chosen by the sword itself, and its whereabouts had long been a mystery. The details of how Link obtained the sword a hundred years ago have been lost to the mists of time, but since he was in possession of it for a number of years prior to becoming a Champion, he was likely around twelve or thirteen years old when it happened. |book= CaC |publisher= |page= 376}}</ref> During Link's first [[Recovered Memory]], "[[Subdued Ceremony]]", the royal speech that [[Princess Zelda|Zelda]] recites states that the Sword is bound to the Hero of Hyrule and always aided him whether "[[The Legend of Zelda: Skyward Sword|skyward bound]]", [[The Legend of Zelda: Ocarina of Time|adrift in time]], or steeped in the glowing embers of [[The Legend of Zelda: Twilight Princess|twilight]]."<ref>{{Cite|Whether skyward bound, adrift in time, or steeped in the glowing embers of twilight...The sacred blade is forever bound to the soul of the Hero|Zelda|BotW}}</ref> In Link's third Recovered Memory, "[[Resolve and Grief]]", Zelda asks Link if he can hear the Master Sword speaking to him.<ref>{{Cite|Legend says that an ancient voice resonates inside it. Can you hear it yet...hero?|Zelda|BotW}}</ref> During Link's 17th Recovered Memory, "[[Zelda's Awakening]]", Link is greatly wounded and the Master Sword is in poor condition. After Zelda awakens her [[Triforce|sealing power]] to save Link from a [[Guardian Stalker]], Link collapses in exhaustion.<ref>{{Cite|No, no... Link! Get up!|Princess Zelda|BotW}}</ref> The [[Fi|Master Sword]] speaks to Zelda, informing her what she must do to save both Link and [[Hyrule Kingdom]].<ref>{{Cite|The sword...? So he can... He can still be saved?|Princess Zelda|BotW}}</ref> After putting Link in the [[Shrine of Resurrection]] for his one hundred year slumber,<ref>{{Cite|Take Link to the Shrine of Resurrection. If you don't get him there immediately, we are going to lose him forever! Is that clear?!|Princess Zelda|BotW}}</ref> Zelda takes the Master Sword to its [[Pedestal of the Master Sword|Pedestal]] in [[Korok Forest]], where she promises that Link will return for it.<ref>{{Cite|Your master will come for you. Until then, you shall rest safely here. Although the Slumber of Restoration will most certainly deprive him of his memories, please trust me when I say that I know he will arrive before you yet again.|Princess Zelda|BotW}}</ref>
+
+After Link awakens 100 years later, the Master Sword still remains in the Korok Forest beyond the [[Lost Woods]]. During his journey, Link may come across several rumors pertaining to its location.<ref>{{Cite|However... Well, as a {{Color BotW|Blue|Hylian}}, you probably already know this, but... Apparently, 100 years ago, the {{Color BotW|Blue|Hylian Champion}} had a legendary {{Color BotW|Red|blade}}—{{Color BotW|Red|the sword that seals the darkness}}. They say the {{Color BotW|Red|sword}} sleeps in a {{Color BotW|Red|forest}} somewhere... Waiting... I bet you'd like to find it, eh? You should go lookin'!|Bludo|BotW}}</ref><ref>{{Cite|I'm talking about {{Color BotW|Red|the sword that seals the darkness}}, of course! Legend has it that it's hidden somewhere in Hyrule!|Danton|BotW}}</ref><ref>{{Cite|They do indeed... If I recall correctly, it was called the {{Color BotW|Red|sword that seals the darkness}}. The Princess of Hyrule supposedly hit it away in {{Color BotW|Blue|a forest somewhere}}.|Riju|BotW}}</ref><ref>{{Cite|{{Big|The Sword that Seals the Darkness}}<br/>The only one who can wield this sword carries the blood of the hero in their veins. That's what they say about this special blade! Rumor has it the blade has been hidden away in a forest somewhere...|Rumor Mill: Volume 2|BotW}}</ref> Upon reaching the Lost Woods, Link has to walk a certain path that leads to the Korok Forest. There, the Master Sword rests on its Pedestal. When Link approaches it, [[Great Deku Tree]] will inform him that if a person who is deemed weak attempts to draw the Sword, they would surely lose their life.<ref>{{Cite|The sword stands as a test to anyone who would dare attempt to possess it. As you are now, I cannot say whether you are worthy or not... If you sought to free the sword in any sort of weakened state, you would surely lose your life where you stand.|Great Deku Tree|BotW}}</ref> Link must have at least 13 [[Heart]]s to be able to draw the blade from its resting slumber. However, obtaining it is not necessary in order to defeat Calamity Ganon.
+
+The Master Sword has a base strength of 30 damage; however, its holy power is awakened in the presence of evil. While Link is inside a [[Dungeon]], near [[Guardian]]s, or in proximity to [[Malice]], the blade glows with a blue aura. In this state, the Master Sword's power is doubled to 60. Unlike all other [[Weapon]]s, it runs out of energy temporarily after a certain amount of uses instead of breaking. It is unusable in this state and will regain its energy after 10 minutes. While in the awakened state, the Master Sword's energy lasts much longer, enduring approximately 11,400 damage before needing to recharge. Also unlike most other weapons, the Master Sword cannot be thrown. Instead, it can fire a [[Sword Beam]] when the 'R' button is held and released if Link has full health.<ref>{{Cite|{{Big|Master Sword}}<br/>When your hearts are full, you can fire a beam from the sword with {{Icon|BotW R}}. The more Heart Containers you have, the further the beam's range.|Tips and Tricks|BotW}}</ref> The Beam inflicts 10 damage on [[Enemy|Enemies]], and its range is increased by the total amount of [[Heart Container]]s that Link has obtained. Firing a Sword Beam will also slightly reduce the Master Sword's [[Durability]]. The Sword Beam appears and functions like the [[Skyward Strike|Sword Beam]] from {{SS|-}}, with Link sending off a blue disc of energy from the Master Sword after charging it in the air. After completing the [[Trial of the Sword|Sword Monk's Shrine]] from {{TMT}} [[Downloadable Content]] pack, the Master Sword will be awakened permanently, and using the Sword Beam will no longer affect its Durability.<ref>{{Cite|{{Big|Master Sword}}<br/>The Legendary sword that seals the darkness, a blade whose sacred glow can combat the Calamity. Link's triumphs over the Trial of the Sword has awakened its true splendor.|Inventory|BotW}}</ref>
+
+Being made of metal, the Master Sword will attract [[Lightning]] if it is equipped during a [[Thunderstorm]], and it will likewise conduct [[Electricity]]. Unlike other Weapons, however, it can not be knocked out of Link's hands or dropped, nor can it be hung on a [[Weapon Mount]] in Link's House.<ref>{{Cite|You cannot display the Master Sword.|N/A|BotW}}</ref> It also does not burn when exposed to [[Fire]] or a [[Scorching Climate]].
+
+{{BotW Weapon Parameters
+ |ActorName                     = "Weapon_Sword_070"
+ |Life                          = 40
+ |Power                         = 30
+ |SpHitActor                    = ""
+ |SpHitRatio                    = 2.0
+ |IsHammer                      = false
+ |IsWeakBreaker                 = false
+ |IsBoomerang                   = false
+ |IsLuckyWeapon                 = false
+ |IsPikohan                     = false
+ |IsThrowingWeapon              = false
+ |IsThrowingBreakWeapon         = false
+ |ThrowRange                    = 50.0
+ |ChemicalEnergyMax             = 0
+ |ChemicalEnergyAmountUsed      = 0
+ |ChemicalEnergyRecoverRate     = 0.0
+ |ChemicalEnergyRecoverInterval = 60
+ |ShootBeam                     = [https://zeldawiki.wiki/wiki/Sword_Beam "PlayerBeam"] 
+ |SharpWeaponAddAtkMin          = 0
+ |SharpWeaponAddAtkMax          = 0
+ |SharpWeaponAddLifeMin         = 0
+ |SharpWeaponAddLifeMax         = 0
+ |SharpWeaponAddCrit            = false
+ |PoweredSharpAddAtkMin         = 0
+ |PoweredSharpAddAtkMax         = 0
+ |PoweredSharpAddLifeMin        = 0
+ |PoweredSharpAddLifeMax        = 0
+ |PoweredSharpAddThrowMin       = 1.0
+ |PoweredSharpAddThrowMax       = 1.0
+ |ThrowSpeed                    = 1.0
+ |ThrowRotSpeed                 = 50.0
+ |SellingPrice                  = 1
+ |BuyingPrice                   = 1
+}}
+
+==={{TotK|-}}===
+{{Compendium/Extract/TotK|Master Sword}}
+{{Hatnote|See Also: [[Decayed Master Sword]]}}
+{{Stub|TotK}}
+The Master Sword is heavily damaged by the [[Gloom]] upon [[Demon King Ganondorf]]'s revival, leaving it corroded and damaged seemingly beyond repair. Though [[Link]] recovers it when he awakens in the [[Room of Awakening]] on the [[Great Sky Island]], its base strength is dropped to 1, making it less powerful than even a [[Tree Branch]]. The [[Decayed Master Sword]] vanishes in a sphere of light shortly before Link leaves the Great Sky Island, where it is recovered by [[Zelda]] in the distant past. 
+
+The repaired Master Sword can be found embedded in the head of the [[Light Dragon]]. However, Link must have at least two full [[Stamina Wheel]]s to pull the Sword from her head or she will fling him off while writhing in pain. Alternatively, Link will pull out the Master Sword just before fighting the [[Demon Dragon]] if it is not obtained beforehand, regardless of stamina. Link can go straight to the dragon, or he can talk with the Great Deku Tree after defeating Phantom Ganon and saving Korok Forest, after which the location of the [[Light Dragon]] will be marked on the Purah Pad. Obtaining the Master Sword is not required in order to face Demon King Ganondorf.
+
+When an [[Item]] or [[Object]] is fused with the Master Sword, it becomes a silhouette that disappears when the sword is not in use. Additionally, Zonai runes become visible on the blade. Unlike other weapons, [[Pelison]] at the [[Break-a-Part Shop]] cannot remove fused items from the Master Sword.
+[[File:TotK Recovering the Hero's Sword.png|thumb|right|320px|{{Game Label|{{TotK|-}}}}Link pulling The Master Sword out of the Light Dragon]]
+
+The Master Sword has a base attack power of 30, which increases to 45 when in the presence of [[Gloom-Wreathed Enemy|Gloom-Wreathed Enemies]]. It has a base [[Durability]] of 40, and gains 25 bonus Durability when something is fused to it. When the Master Sword runs out of durability, it will become inactive for 10 real-life minutes, after which it will recharge its base Durability, but not its bonus Durability. When in the presence of [[Phantom Ganon]] or Demon King Ganondorf, the Master Sword's base attack power increases to 60, and it will not lose Durability.{{Note|On version 1.0.0, this effect is also active when in the presence of Gloom Spawn.}}
+
+The Master Sword cannot be thrown, instead firing a beam attack when Link is at full health, or at any health if the [[Master Sword Beam Always Available]] hidden [[Added Effect|Effect]] is active. The beam has a base attack power of 10, and its travel distance scales with Link's maximum Health. The attack power increases to 15 when in the presence of Gloom-Wreathed Enemies, or 20 when in the presence of Phantom Ganon or Demon King Ganondorf. This increase also stacks with the 50% increase granted by the [[Master Sword Beam Up]] Effect.
+
+{{Gallery List|Items|widths= 120|heights= 120
+ |TotK= Master Sword [3] {{Small|(Intro)}}, Decayed Master Sword, Master Sword, Master Sword [Fused] {{Small|(Fused)}}, Master Sword [2], Master Sword [File:TotK Master Sword Fused Icon 2.png] {{Small|(Fused)}}
+}}
+
+== Discrepancies==
+Until the release of {{SS|-}}, the origin of the Master Sword was never seen and only alluded to in what could be considered legends that were corrupted by oral tradition; mistranslations from Japanese have further clouded the facts.
+
+For instance, according to the English manual of {{ALttP|-}}, after [[Ganon]] entered the [[Golden Land]] and obtained the [[Triforce]], the people of [[Hyrule]] forged a Sword resistant to magic, which could even repulse powers granted by the Triforce.<ref>{{Cite Manual|quote= Suspecting that Ganon's power was based on the Triforce's magic, the people of Hyrule forged a sword resistant to magic which could repulse even powers granted by the Triforce. This mighty weapon became known as the blade of evil's bane, or the Master Sword. |game= ALttP |page= 5}}</ref> The seven Sages searched for one worthy of wielding the Master Sword, but never found such a person, leaving them, with the aid of the knights of Hyrule, to seal away Ganon instead.<ref>{{Cite Manual|quote= As the Seven Wise Men searched for a valiant person to take up the Master Sword, Ganon's evil army swarmed from the tainted Golden Land into Hyrule and attacked the castle. |game= ALttP |page= 6}}</ref>
+
+Although the mistranslated English manual states that the Master Sword was not created until after Ganon obtained the Triforce, the Japanese manual states that it was forged long before the [[Imprisoning War]].<ref name="Origin">{{Cite Manual|quote=However, it could not be assumed that only a good person would get their hands on the Triforce. For that reason, the people of Hyrule were told by the gods to make something that would repulse any evil that may kidnap the Triforce: the blade of evil's bane.|game= ALttP|version= Japanese|page= 7}}</ref> The location of the blade was already forgotten by the time of the Imprisoning War, and no hero was found worthy of wielding it.<ref>{{Cite Manual|quote= The Sages first had to search for the existence of the Master Sword and a hero to use it.|game= ALttP|version= Japanese|page= 7}}</ref> This notion that the Master Sword was forged to protect the Triforce is supported by the fact that Hylia (The first wielder of the Goddess Sword) was the Triforce's guardian.[[Category:A Link to the Past articles needing attention]]<!-- The quotes from the Japanese manual should contain the original Japanese text and use Template:Romanize to translate. Given our canon policy [[Guidelines:Canon]] it's questionable whether we should be using this material here at all. -->
+
+Both the English and Japanese manuals of {{ALttP|-}} describe that the Master Sword was forged by the people of Hyrule, and not necessarily by the ancient Sages. It is not until {{TP|-}} that [[Princess Zelda#Twilight Princess|Princess Zelda]] officially mentions that the ancient Sages crafted the Master Sword.<ref name="TP Princess Zelda 2"/>
+
+{{Frameless|[[File:SS Sealed Temple Mural Texture.png|thumb|right|320px|{{Game Label|{{SS|-}}}}The mural in the [[Temple of Hylia]] featuring the symbols of the Sages along the outer ring]]}}
+{{SS|-}}, which takes place at the beginning of the [[Zelda Timeline]], reveals the complete origin of the Master Sword, revealing that it was forged into its well-known current form from being the Goddess Sword created by the goddess Hylia.<ref name="Goddess Sword"/><ref name="tempering">{{Cite Book|quote=All the while, Link continued with his task of tempering the Goddess Sword in the Sacred Flames of the Golden Goddesses. Imbued with the immense, sacred power of the Force, the Goddess Sword was transformed into the Master Sword. |book= HH |publisher= |page= 75}}</ref><ref name="bless"/> However, as the Goddess Sword and the Master Sword are one and the same at different points in time, many of the questions concerning the creation of the Master Sword have passed onto the Goddess Sword. For instance, it has never been stated whether the Goddess Sword was created by Hylia in its entirety, or whether she was assisted by the ancient Sages or the general population of Hyrule like in previously stated material.
+
+The ending of {{ALttP|-}} metaphorically claims that the Master Sword "sleeps again, forever" after Link places it back in its shrine in the Lost Woods.
+
+==Other Appearances==
+==={{AST|-}}===
+{{Noncanon|Start}}
+In {{AST}}, the [[Hero of Light]] can obtain the Master Sword from the Lost Woods during week 4. During previous weeks, a Soldier blocks the entrance to its resting place. The Master Sword is the most powerful Sword in the game. When at full health, it can shoot Sword Beams. During the ending of the game, the Hero of Light, alongside Princess Zelda and [[Aginah]], return the Master Sword to its pedestal.
+{{Noncanon|End}}
+
+==={{ALttP|-}} (Ishinomori)===
+{{Noncanon|Start}}
+[[File:Master Sword (comic).png|thumb|right|80px|{{Game Label|{{ALttP (Ishinomori)|-}}}}The Master Sword]]
+In the {{ALttP (Ishinomori)}}, [[Sahasrahla's Wife]] elaborates on part of the Master Sword's history: she tells of ancient scrolls that speak of the prosperous people who once inhabited the land of Hyrule. According to the scrolls, they made many powerful weapons, including the ultimate treasure, the Master Sword, crafted specifically to resist evil power and which now rests in the [[Lost Woods]].<ref>{{Cite Book|quote=Master Sword?! I've heard of that legend... The ancient scrolls tell of a prosperous people who once inhabited this land... They created many powerful weapons and hid them throughout Hyrule. The Master Sword was their ultimate treasure... Its blade was specially tempered to resist evil power, or so I've heard... Now, it is sleeping deep in the forest known as the Lost Woods!|book= ALttP (Ishinomori)|publisher= |page=6}}</ref> Link begins his quest to search for the Master Sword after [[Agahnim]] kidnaps [[Princess Zelda]] to cast the third and final incantation on her and thus break the seal that binds [[Ganon]] to the [[Dark World]]. Before Agahnim is able to take her away, Zelda reveals to Link that only the Master Sword can harm Agahnim.<ref>{{Cite Book|quote=It's no use fighting Agahnim with an ordinary sword! You need the Master Sword of legends past!|book= ALttP (Ishinomori)|publisher= |page=17}}</ref> The young hero eventually finds [[Sahasrahla]], and although the old man is puzzled as to how someone so young like Link could be searching for the Master Sword,<ref>{{Cite Book|quote=Yes... I am INDEED Sahasrahla! But you... You are just a BOY... I cannot believe a youngster like you is looking for the Master Sword! Not just anyone can use that mighty blade!|book= ALttP (Ishinomori)|publisher= |page=12,13}}</ref> he tells Link he must recover the [[Pendants of Virtue]] to claim the legendary weapon. After acquiring the three Pendants of Virtue, Link heads out to the [[Lost Woods]] and retrieves the legendary weapon out of its [[Pedestal of Time|pedestal]].
+
+Link, now confident with the power of the Master Sword, heads out to battle Agahnim atop [[Hyrule Castle]]. Sahasrahla contacts Link and tells him not to trust all his power in the Master Sword, for even the legendary blade cannot harm Agahnim's body.<ref>{{Cite Book|quote=Link, do not put all your trust in the Master Sword! Even its mighty magic cannot harm Agahnim's body!|book= ALttP (Ishinomori)|publisher= |page=10}}</ref> Link attacks him anyway, but the Master Sword passes right through the evil wizard,<ref>{{Cite Book|quote=What are you '''saying'''?! It's my only chance! '''Huh'''?! Then it's '''true'''?!|book= ALttP (Ishinomori)|publisher= |page=10}}</ref> which causes him to turn around and paralyze Link by only looking at him.<ref>{{Cite Book|quote='''Link''':I...I can't move!!|book= ALttP (Ishinomori)|publisher= |page=14}}</ref> Agahnim then casts Zelda into the Dark World, which causes for Link's rage towards Agahnim begins to channel through the Master Sword since the young hero and the legendary blade are as one.<ref>{{Cite Book|quote=Hummph... The puny fool's rage is somehow being channeled by the Master Sword! '''He''' and the '''sword''' are as '''one!'''|book= ALttP (Ishinomori)|publisher= |page=2}}</ref> Agahnim and Link begin to battle, and after Sahasrahla reveals to the young hero that the Master Sword was also forged to repel evil magic,<ref>{{Cite Book|quote=Link, listen! Agahnim's magic is like a double-edged sword... The Master Sword was also forged to repel evil magic!|book= ALttP (Ishinomori)|publisher= |page=4}}</ref> Link uses the sword to turn back Agahnim's magic against him and successfully defeat him.<ref>{{Cite Book|quote=It can defend as well as attack? I have you now, Agahnim! Your own evil energy will be the end of you!|book= ALttP (Ishinomori)|publisher= |page=4}}</ref> 
+
+Link also uses the Master Sword to battle against Ganon, which he uses to stun the King of Thieves while Zelda delivers the final blow with the [[Silver Arrow]]. With [[Hyrule]] now at peace, Link returns the Master Sword to its pedestal in the Lost Woods. The comic's final scene shows the Master Sword overgrown by foliage as it sleeps, waiting for a new bearer when disaster befalls Hyrule again.<ref>{{Cite Book|quote=And as the centuries pass, the legendary Master Sword lies waiting in the depths of the Lost Woods, waiting for the time when disaster again befalls Hyrule..waiting to call a '''hero''' to arms.|book= ALttP (Ishinomori)|publisher= |page=15}}</ref>
+{{Noncanon|End}}
+
+===''Super Mario-kun''===
+{{Noncanon|Start}}
+[[File:Mushroom Sword SMKun.jpg|thumb|{{Game Label|{{Super Mario-kun|-}}}}Artwork from Volume 4's back cover]]
+In chapter 4 of volume 4, {{Smw|Mario}} and {{Smw|Yoshi}} are sent to the world of ''[[The Legend of Zelda: A Link to the Past]]''. During the adventure, Yoshi is turned into a shield and Mario is in possession of a sword called "Mushroom Sword" ({{Romanize|キノコソード|Kinoko Sōdo|Mushroom Sword|3}}). Later, when fighting [[Agahnim]], Mario receives from {{Smw|Luigi}} some {{Smw|Super Mushroom}}s that power-up the Mushroom Sword into the "Master Mushroom Sword" ({{Romanize|マスターキノコソード|Masutā Kinoko Sōdo|Master Mushroom Sword|3}}) with which Mario is able to defeat the sorcerer.
+
+Later, in chapter 3 of volume 13, Mario is visiting a future timeline where Bowser won and he is now the janitor of a museum about Bowser's adventures. {{Smw|Ludwig von Koopa}} appears and attacks Mario. Janitor Mario hands him the Master Mushroom Sword he kept all these years and Mario defeats Ludwig with it.
+{{Noncanon|End}}
+
+==={{SSB|-}}===
+{{Noncanon|Start}}
+{{smashwiki}}
+In {{SSB}}, the Master Sword is [[Link]]'s main weapon.
+{{Noncanon|End}}
+
+===''Animal Crossing'' series===
+{{Noncanon|Start}}
+The Master Sword in [[Pedestal of the Master Sword|its pedestal]] is an obtainable furniture item in the {{Np|Nintendo Set}} in several games in the {{Np|Animal Crossing series|''Animal Crossing'' series}}, in which it can be placed as decoration in the player's house or the houses of {{Np|villager}}s. In the series's {{Np|first generation|first-generation}} games, {{Np|Item:Master Sword (Animal Crossing)|the item}} is based on its appearance in {{OoT|-}}, as is its {{Np|Item:Master Sword (Wild World)|its counterpart}} from ''{{Np|Animal Crossing: Wild World}}''. In ''{{Np|Animal Crossing: City Folk}}'', the sword and pedestal are based on their appearance in {{TP|-}}. In ''{{Np|Animal Crossing: New Leaf}}'' they are based on the appearance in {{SS|-}}.
+{{Noncanon|End}}
+
+==={{SSBM|-}}===
+{{Noncanon|Start}}
+The Master Sword reappears as [[Link]]'s primary weapon in {{SSBM}}. It can also be obtained as a [[Trophy (Super Smash Bros.)|Trophy]].
+
+{{SSBTrophy|SSBM|header=yes}}
+{{#section:Trophies in Super Smash Bros. Melee|Master Sword}}
+|}
+{{Noncanon|End}}
+
+==={{SCII|-}}===
+{{Noncanon|Start}}
+The Master Sword is one of Link's weapons in {{SCII}}, and it can be used with either the [[Hylian Shield]] or the [[Mirror Shield]]. Since it is Link's most familiar sword, the Master Sword in conjunction with the Hylian Shield is considered to be Link's most balanced weapon.<ref>{{Cite|Link's most familiar and well-balanced weapon.|N/A|SCII}}</ref>
+
+{|class="wikitable" style="text-align:center"
+!width="100px"|Weapon
+!width="60px"|Cost
+!width="160px"|Attributes
+!In-game Description
+|-
+|[[File:SCII Master Sword Model.png|80px]]<br/>'''Master Sword & [[Hylian Shield]]'''
+|<center>Free</center>
+|<center>Well-balanced</center>
+|A magic sword and shield that have accompanied Link on many adventures and helped him repeatedly save the land of Hyrule. This journey is no less dire, and Link once again goes into battle equipped with these items, this time in another world. These are well-balanced arms for Link.
+|-
+|[[File:SCII Master Sword and Mirror Shield Model.png|80px]]<br/>'''[[Mirror Shield#Soulcalibur II|Mirror Shield]]'''
+|<center>2200 Gold</center>
+|<center>Hits taken are counters</center>
+<center>33% of damage received is inflicted back onto opponent</center>
+|A mirror-like shield found in the Spirit Temple. It is an amazing work of art, and there are few who would argue that it is not one of the finest shields in Hyrule. It is said that its surface reflects not only light but hostile intent as well.
+|}
+{{Noncanon|End}}
+
+==={{SSBB|-}}===
+{{Noncanon|Start}}
+The Master Sword is both [[Link]]'s and [[Toon Link]]'s main weapon in {{SSBB|-}}. The [[Subspace Emissary]] shows a cutscene where Link pulls out the Master Sword from the Pedestal of Time in the middle of a forest when he is first introduced.
+{{Noncanon|End}}
+
+==={{NL|-}}===
+{{Noncanon|Start}}
+{{Descriptions NL}}
+The Master Sword appears in {{NL}} as well. It is one of the 200 prizes that can be won using the coins at the game on the top of the central tower located in the middle of the plaza. Upon touching the prize in the plaza using the touch screen or simply jumping into it, [[Monita]] will comment on it.
+{{Noncanon|End}}
+
+==={{MK8|-}}===
+{{Noncanon|Start}}
+In  {{MK8|-}}, Link uses the Master Sword as part of his tricks. The Master Sword also can be seen resting in a pedestal in [[Hyrule Castle]] on [[Hyrule Circuit]]. Touching the three crystals that appear before the Master Sword activates the dash panel ramp which allows drivers to go through and perform a trick.
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+[[File:HW True Master Sword.png|thumb|right|320px|{{Game Label|{{HW|-}}}}The True Power of the Master Sword being awoken]]
+The Master Sword, combined with the [[Hylian Shield]], appears as one of Link's unlockable weapons in {{HW}}. It is obtained by completing "[[The Sacred Sword]]" [[Scenario]] in [[Legend Mode]]. It performs similarly to Link's Hylian Sword moveset, although with a base attack power of 300, being much more powerful than most obtainable Swords. It also performs a wider and faster Spin Attack combo than the other Swords. After completing the "[[A War of Spirit]]" Scenario, Link can fire [[Sword Beam]]s with certain combos at full health. It is of the Light element.
+
+Unlike other weapons, the Master Sword is one-of-a-kind and multiples cannot be obtained from weapon drops. In {{HW|-}} it has one [[Skill]] known as Evil's Bane, which is unlocked after collecting all Level 1, 2 and 3 Weapons found in Scenarios in Legend Mode and in the [[Adventure Map]] in [[Adventure Mode]] and then accumulating 25,000 KOs with the Master Sword. In {{HWL}} and {{HWDE}}, it has two Skills, one being Evil's Bane, and the other being Exorcism. In {{HWL|-}} and {{HWDE|-}}, Evil's Bane is unlocked in the same manner as in {{HW|-}}, but the KOs requirement is lowered to 10,000. In {{HWL|-}}, Exorcism requires unlocking all of the Level 4 Weapons found in the [[Twilight Map]] and the [[Termina Map]] in Adventure Mode and then accumulating 25,000 KOs with the Master Sword while in {{HWDE|-}}, all Weapons, including the [[Multi-Element Weapon]]s, must be collected but the KOs required is lowered to 15,000. The Evil's Bane Skill increases the Master Sword's base attack power by 200 and, in {{HW|-}}, also unlocks the Legendary seal for other Warriors' weapons that have that Skill available. In {{HWL|-}} and {{HWDE|-}}, the Exorcism Skill unlocks the Legendary seal and also increases the Master Sword's base power by an additional 400 points, bringing the total to 900. Unlocking the Evil's Bane skill awards the "True Master Sword" [[Medal]] in {{HW|-}}, while Exorcism does this in {{HWL|-}}and {{HWDE|-}}.
+
+In the Legend Mode Scenarios, after obtaining the Sword, Link becomes cocky and overconfident in his abilities. In "A War of Spirit", while Link goes to face [[Cia]] at the [[Temple of Souls]], she uses his overconfidence against him by using the darkness in his heart to create [[Dark Link]]s to fight him repeatedly. With the aid of his allies, he is able to overcome these threats, and the bond shared between them awakens the True Power of the Master Sword. From that point, at full health, Link can fire Sword Beams with certain combos. After Link defeats Ganon in "[[Liberation of the Triforce]]", he returns the Master Sword to its pedestal at the [[Temple of the Sacred Sword]] to rest.
+{{Noncanon|End}}
+
+==={{MNPTP|-}}===
+{{Noncanon|Start}}
+[[File:MNPTP Master Sword Sprite.png|left|50px]]
+The twenty-forth puzzle in the ''Picross'' series and the sixteenth puzzle in the ''Mega Picross'' series depict the Master Sword.
+{{Noncanon|End}}
+
+==={{SSB4|-}}===
+{{Noncanon|Start}}
+Like in {{SSBB}}, both [[Link]] and [[Toon Link]] use the Master Sword.
+{{Noncanon|End}}
+
+===''The Elder Scrolls V: Skyrim''===
+{{Noncanon|Start}}
+The Master Sword is available exclusively in the [[Nintendo Switch]] version of ''[[The Elder Scrolls V: Skyrim]]''. It can be obtained from either scanning an [[amiibo]] related to {{TLoZ Series}},<ref>{{Cite Web|quote= The Elder Scrolls V: Skyrim for the Nintendo Switch includes all-new gameplay features like motion controls for combat and lockpicking, outfits and gear from The Legend of Zelda, plus additional loot unlocked from compatible The Legend of Zelda Amiibos. Take down enemies with the Master Sword, protect yourself with the Hylian Shield or look heroic in the Champion’s Tunic. Skyrim also includes all official add-ons – Dawnguard, Hearthfire, and Dragonborn.|author= |published= June 12, 2017 |retrieved=June 12, 2017|url= https://elderscrolls.bethesda.net/en/skyrim |title= The Elder Scrolls V: Skyrim for Nintendo Switch |site= The Elder Scrolls Official Site |type=}}</ref> or through finding it in a [[Treasure Chest]] near Paarthurnax at the Throat of the World.<ref>{{Cite Web|quote= The Champion's Tunic, the Hylian Shield, and the Master Sword can be acquired by tapping a compatible ''Legend of Zelda'' amiibo figure. Or, you can always seek out these treasures as you explore the vast world. |author= Nintendo |published= September 13, 2017 |retrieved= September 13, 2017 |url= https://www.youtube.com/watch?v=ztMGTTAjsAQ |title= Nintendo Direct 9.13.2017 |site= YouTube |type= Video}}</ref>
+{{Noncanon|End}}
+
+===''Super Mario Maker 2''===
+{{Noncanon|Start}}
+[[File:Super Mario Maker 2 Master Sword Sprite.gif|left]]
+The {{Smw|Master Sword}}, introduced in the Ver. 2.0.0 update, is a special power-up exclusive to the ''Super Mario Bros.'' style. When collected, Mario is transformed in Link from ''[[The Legend of Zelda]]'' and is able to make the hero's typical moves such as deploying and picking up bombs, swiping his sword to defeat enemies, shooting arrows (in multiple direction), using the shield to stop enemies' projectiles, and can also do a [[Down Thrust]] and a [[Dash Attack]], even though they were moves introduced in later installments.
+
+The Master Sword Link-Mario uses is in the style of the other swords from the original game. A much more modern 8-bit depiction of the sword in its pedestal is sometimes shown in the intro screen.
+{{Noncanon|End}}
+
+==={{SSBU|-}}===
+{{Noncanon|Start}}
+The Master Sword is used by both [[Link]] and [[Toon Link]] in {{SSBU}}. When Link's damage is at 0%, he is capable of firing [[Sword Beam]]s from the Master Sword by performing his Forward Smash attack.
+{{Noncanon|End}}
+
+==={{AoC|-}}===
+{{Noncanon|Start}}
+In {{AoC}}, the Master Sword is first seen in the [[Scenario]], "[[Freeing Korok Forest]]", where [[Zelda]], [[Link]], [[Impa]], the four [[Champion]]s, and [[Hestu]] go to the pedestal, only to be blocked by [[Astor]]. Astor summons four [[Hollow]]s to battle Link. Link is drawn near the Master Sword and pulls it out when his old sword breaks. Astor then engages in a fight against Link, summoning his Hollows. Once he is beaten, he admits how strong the Master Sword is.
+
+The Master Sword initially has an attack power of 51.
+{{Noncanon|End}}
+
+==={{AoI|-}}===
+When the Master Sword was shattered at the beginning of {{TotK}}, a piece of the broken blade went back in time unintentionally alongside Zelda when she traveled to distant past. Ending up in the [[Depths]], the piece of the sword is found by a [[Korok]] adventurer named [[Calamo]]. When Calamo lifts up the sword piece, it glows and lets out a sound as it gets closer to the body of the [[Knight Construct]]. The Master Sword's fragment then becomes embedded in the Knight Construct's core, awakening him from his slumber, leading him to end up traveling alongside Calamo as his companion.
+
+In the Knight Construct's final battle with the [[Forbidden Construct]], he is able to use the Master Sword shard's energy to form an ethereal Master Sword to deal the finishing blow. This has the consequence of completely destroying the shard in the process, resulting in the Knight Construct breaking apart.
+
+==Trivia ==
+*The Master Sword is a signature symbol of {{TLoZ Series}}, being displayed in title logos such as in {{ALttP}} and appearing as Link's main weapon in other games like {{SCII}} and the {{SSB}} games.
+*Although many ''Zelda'' games heavily suggest the Master Sword to be the ultimate weapon in their storyline and is normally required to defeat Ganon, in terms of actual gameplay, weapons stronger than the mighty sacred sword exist; The [[Biggoron's Sword]], [[Silver Arrow]]s, and [[Light Arrow]]s are some known examples in the series to be more powerful than the Master Sword in raw strength.
+*{{ALttP|-}} and {{ALBW}} are the only games in which the Master Sword, already seemingly at its full power (as opposed to its powered-down appearances in {{TWW|-}}, {{SS|-}}, and {{BotW}}), can be permanently upgraded to deal more damage.
+*In the {{ALttP (Himekawa)}}, it is said that the Master Sword was made by the [[Sages]] by instruction of the Gods.<ref>{{Cite|The King called the 7 Sages and the Guardian Knights to seal the origin of the evil flow. Then, the Sages, by a divine message from God, created the sword that could repel the power of the Triforce being controlled by evil. The Master Sword was made.|Sahasrahla|ALttP (Himekawa)}}</ref>
+*In {{TWW}}, according to the original Japanese text, the Master Sword was not only sealing Ganon's magic, but also his minions, as can be observed in-game.<ref name="TWW Ganondorf"/><ref>{{Cite|その剣は、魔を撃退する{{Color TWW|Vermilion|退魔の剣}} であると同時に、 我が魔族を封じていた、いまいましい{{Color TWW|Vermilion|封印}} そのものなのだよ！|translation= That sword is the {{Color TWW|Vermilion|Anti-Demon Sword}} that repels demons. However, it is also the annoying {{Color TWW|Vermilion|seal}} that was sealing my demon tribe.|Ganondorf|TWW|lang= ja}} <small>(Translation by [http://forums.legendsalliance.com/topic/14202-translation-of-japanese-game-texts/page-27#entry404295 jacensolo06])</small></ref>
+*In {{FSA}}, there is cut dialogue reading "Master Sword ahead! Don't miss it!" and "Not so fast! The Master Sword cannot be gained so easily".<ref>{{Cite Web|quote= |author= |title= The Legend of Zelda: Four Swords Adventures/Unused Text From French Translation |url= https://tcrf.net/The_Legend_of_Zelda:_Four_Swords_Adventures/Unused_Text_From_French_Translation |archive= |published= May 24, 2013 |retrieved= October 5, 2024 |site= The Cutting Room Floor |type= }}</ref>
+*In {{TP}}, the gem and round area above the grip of the Master Sword are engraved with boxlike symbols reminiscent of Hylian. In {{TPHD}}, the symbols were removed from the gem, and the cross guard engravings were replaced with the {{Wp|Latin alphabet}} represented by equivalent characters from the {{Wp|Greek alphabet}}. The exceptions are 'j' and 'v', for which there are no Greek equivalents; other characters are used instead.
+*In {{FSAE}}, completing the [[Realm of Memories]] unlocks the Master Sword as Link's new sword. However, Link remains divided into four even after obtaining the sword, which implies that this sword is not the same as the true Master Sword, merely an upgrade of the conventional [[Four Sword]]. It is interesting to note that the Four Sword's original form, the [[Picori Blade]], greatly resembled the Master Sword.
+*At the end of {{SS}}, because of the time-travel involved, the Goddess Sword and Master Sword exist simultaneously. The Master Sword is within the Sealed Temple while the Goddess Sword is up in Skyloft.
+*Though the Master Sword is not present in {{TFH}}, two differently-sized versions of the blade appeared in the [[The Legend of Zelda: Tri Force Heroes/Unused Content|E3 2015 Demo]] as placeholders for the [[Sword Suit]] and [[Sword Master Suit]], before they received new designs for the final release.
+*A weapon known as a {{Few|Master Sword}} appears in ''{{Few|Fire Emblem: Mystery of the Emblem}}'', released shortly after {{ALttP|-}}. While it bears the same name and is a powerful weapon, it has a very different appearance to the weapon from {{TLoZ|-}} series. It also appears in the [[Nintendo DS|DS]] remake, and in ''{{Few|Fire Emblem: Thracia 776}}'', where its appearance is closer to that of the ''Zelda'' blade. It also appears in ''{{Few|Fire Emblem Heroes}}'' under the ownership of Reinhardt: Thunder's Sword, where it is called "Meisterschwert."
+*The Snake Killer from ''{{Wp|Kaeru no Tame ni Kane wa Naru|The Frog For Whom the Bell Tolls}}'' is quite similar to the Master Sword. The Snake Killer was pulled from the ground in an area called the "Ice Cave", and was necessary to defeat the final boss, Delarin, who was a snake. An ancient tablet regarding the Snake Killer had this inscribed on it: "When thou seeth thy true friend, the golden sword shalt awaken." When the spring bell had rung, and Richard turned back into a human, the Snake Killer begins to glow, and Prince Sable uses the sword to slay Delarin.
+
+{{Notes}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{Gallery|Gallery:Master Sword}}
+
+==See Also==
+{{See Also|
+ * Decayed Master Sword
+ * Four Sword
+ * Goddess Sword
+}}
+
+{{Ref|
+<!-- Encyclopedia -->
+<ref name="E 26">{{Cite Book|quote= Beyond that, the Blade of Evil's Bane and key to the Sacred Realm (page 24), the Master Sword, sat in the Pedestal of Time.|book= E |page= 26}}</ref>
+<ref name="E 131">{{Cite Book|quote= |book= E |page= 131}}</ref>
+
+<!-- A Link to the Past -->
+<ref name="ALttP Manual 5">{{Cite Manual|quote= This mighty weapon became known as the blade of evil's bane, or the Master Sword. |game= ALttP |page= 5}}</ref>
+
+<!-- Ocarina of Time -->
+
+<!-- Oracle of Seasons -->
+
+<!-- Oracle of Ages -->
+
+<!-- Four Swords -->
+
+<!-- The Wind Waker -->
+<ref name="TWW Ganondorf">{{Cite|Foolish child. While that sword is indeed the {{Color TWW|Vermilion|blade of evil's bane}}, at the same time, it has long played another role... You see, it is also a sort of key...a most wretched little key that has kept the {{Color TWW|Vermilion|seal}} on me and my magic intact!|Ganondorf|TWW}}<br/>{{Cite|Foolish child. While that sword is indeed the {{Color TWWHD|Vermilion|blade of evil's bane}}, at the same time, it has long played another role... You see, it is also a sort of key...a most wretched little key that has kept the {{Color TWWHD|Vermilion|seal}} on me and my magic intact!|Ganondorf|TWWHD}}</ref>
+<ref name="TWW King of Red Lions">{{Cite|Excellent, {{Player Name}}. To perceive such a puzzle and decipher it is no small feat. Now, take the sword that lies before you. It is none other than the {{Color TWWHD|Vermilion|Master Sword}}... The blade of evil's bane. It is the only sword that can banish Ganon from the world above!|King of Red Lions|TWWHD}}</ref>
+
+<!-- Twilight Princess -->
+<ref name="TP Princess Zelda">{{Cite|Head for the {{Color TPHD|Red|sacred grove}} that lies {{Color TPHD|Red|deep}} within the lands guarded by the spirit {{Color TPHD|Red|Faron}}.|Princess Zelda|TPHD}}</ref>
+<ref name="TP Princess Zelda 2">{{Cite|There you will find {{Color TP|Red|the blade of evil's bane}} that was crafted by the wisdom of the ancient sages...the {{Color TP|Red|Master Sword}}.|Princess Zelda|TP}}<br/>{{Cite|There you will find {{Color TPHD|Red|the blade of evil's bane}} that was crafted by the wisdom of the ancient sages...the {{Color TPHD|Red|Master Sword}}.|Princess Zelda|TPHD}}</ref>
+<ref name="TP Princess Zelda 3">{{Cite|The Master Sword is a sacred blade that evil can never touch.|Princess Zelda|TPHD}}<br/>{{Cite|Evil cloaks you like a dark veil...and that blade is the only thing that can cleave it.|Princess Zelda|TPHD}}</ref>
+
+<!-- Skyward Sword -->
+
+<!-- A Link Between Worlds -->
+
+<!-- Breath of the Wild -->
+<ref name="BotW Inventory">{{Cite|{{Big|Master Sword}}<br/>The Legendary sword that seals the darkness. Its blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it.|Inventory|BotW}}</ref>
+<ref name="BotW Aliza">{{Cite|I knew it! At long last I— ...Wait a minute! You can't fool me! Everyone knows the hero of Hyrule wields the {{Color BotW|Red|legendary sword}}! You don't have it!|Aliza|BotW}}</ref>
+<ref name="BotW Rex">{{Cite|I take it you're looking for the fabled {{Color BotW|Red|sword of legend}} too?|Rex|BotW}}</ref>
+<ref name="YouTube">{{Cite Web|quote= This is the Master Sword of Resurrection. It is the Master Sword that you see here in the game logo, with a flower growing alongside it. This Master Sword has a slightly old and battered look to it. |author= Eiji Aonuma|published= February 22, 2017 |retrieved=July 26, 2017 |url= https://www.youtube.com/watch?v=tirsoK5Jwj4 |title= The Legend of Zelda: Breath of the Wild - Limited Edition - Mr Aonuma unboxing |site= YouTube |type= Video}}</ref>
+<ref name="BotW Riju">{{Cite|They do indeed... If I recall correctly, it was called the {{Color BotW|Red|sword that seals the darkness}}. The Princess of Hyrule supposedly hid it away in {{Color BotW|Blue|a forest somewhere}}.|Riju|BotW}}</ref>
+
+<!-- Tears of the Kingdom -->
+<ref name="TotK Onya">{{Cite|If the {{Color TotK|Red|legendary sword}} gets stolen while I'm stuck here waiting for the rain to pass, I swear...|Onya|TotK}}</ref>
+<ref name="TotK Rumor Mill">{{Cite|Greetings from Traysi—your source for the best gossip and news!<br/><br/>Have you been hearing any good stories on your travels? I've got a great one for you today!<br/><br/>"The Sword That Seals the Darkness."<br/><br/>The only one who can wield this sword carries the blood of the hero in their veins.<br/><br/>That's what they say about this special blade! Rumor has it the blade has been hidden away in a forest somewhere...<br/><br/>I have to admit that this rumor really has me interested, but sometimes you have to face reality.<br/><br/>My reality is... There isn't any hero in my bloodline, so this sword would just be a big paperweight to me...<br/><br/>Traysi's Recommendation: ★☆☆☆☆|Rumor Mill|TotK}}</ref>
+
+<!-- A Link to the Past (Ishinomori) -->
+
+<!-- Ancient Stone Tablets -->
+
+<!-- Super Smash Bros. -->
+
+<!-- Super Smash Bros. Melee -->
+
+<!-- SoulCalibur II -->
+
+<!-- Super Smash Bros. Brawl -->
+
+<!-- Scribblenauts Unlimited -->
+
+<!-- Nintendo Land -->
+<ref name="NL Monita">{{Cite|{{Big|Master Sword}}|Monita|NL}}</ref>
+
+<!-- Mario Kart 8 -->
+
+<!-- Hyrule Warriors -->
+<ref name="HW Select Scenario">{{Cite|{{Color HW|Green|The Sacred Sword}}|Select Scenario|HW}}<br/>{{Cite|{{Color HWDE|Green|The Sacred Sword}}|Select Scenario|HWL}}<br/>{{Cite|{{Color HWL|Green|The Sacred Sword}}|Select Scenario|HWDE}}</ref>
+
+<!-- My Nintendo Picross: Twilight Princess -->
+
+<!-- Super Smash Bros. for Nintendo 3DS / Wii U -->
+
+<!-- Skyrim -->
+
+<!-- Super Smash Bros. Ultimate -->
+
+<!-- Age of Calamity -->
+<ref name="AoC Allies">{{Cite|{{Big|Master Sword}}<br/>The Legendary sword that seals the darkness. Its blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it.|Allies|AoC}}</ref>
+
+<!-- Age of Imprisonment -->
+
+}}
+
+{{OoS Trading Quest}}
+{{OoA Trading Quest}}
+{{Categories
+ |Master Sword, Quest Items, Swords, Trading Quest Items, Weapons, One-Handed Weapons
+ |items= ALttP, OoT, OoT3D, OoTNS2, OoS, OoA, TWW, TWWHD, TP, TPHD, SS, SSHD, ALBW, BotW, TotK, AST, SSB, SSBM, SSBB, HW, HWL, HWDE, SSBfN3DS, SSBfWU, SSBU, AoC
+ |objects= AoI
+}}
+[[de:Master-Schwert]]
+[[es:Espada Maestra]]

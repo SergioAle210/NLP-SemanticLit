@@ -1,0 +1,80 @@
+{{Infobox Boss
+|type= 
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Patras Artwork.png
+ |Sprite TLoZ= File:TLoZ Patra Sprite.png
+}}
+|caption= 
+|pronunciation= 
+|title= 
+|race= 
+|gender= 
+|game= TLoZ
+|other= TLoZ (TV Series), TLoZ (Valiant Comics), BSTLoZ, ZA
+|dungeon=[[Level 9]] 
+|habitat= 
+|health= [[Weapon Strength#The Legend of Zelda|59]]
+|weakness= 
+|reward= [[Heart]], [[Fairy]], One [[Rupee]]
+|exp= 
+|theme= 
+|strategy= 
+|voice actor= 
+}}
+{{Term/Store|Patra|Patras|Series, TLoZ|plural}} are [[boss]]es in ''[[The Legend of Zelda]]'' and ''[[BS The Legend of Zelda|BS Legend of Zelda]]''.<ref>{{Cite Book|quote= |book= E |publisher= |page= 176 {{Exp Game|TLoZ, OoA}}}}</ref>
+
+==Characteristics==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Patra|The Patra attack in groups, in two types of formations. Both formation groups are strong. So be on your toes!}}
+Several groups of Patras appear throughout [[Level-9]] in both the First Quest and the [[Second Quest]]. Patras are flying eyeballs with wings that are always found in a circular shaped group with a larger Patra in the center. Patra groups come in two types of formations.<ref>{{Cite manual|quote= The Patra attack in groups, in two types of formations. Both formation groups are strong. So be on your toes!|game= TLoZ|page= 38}}</ref> While both types have the smaller Patras flying in a continuous circle, one type periodically expands and contracts across the room, while the other type rotates like a {{Wp|gyroscope}}. [[Link]] cannot damage the Patra in the center until he has defeated all eight of the smaller Patras that circle it. Each smaller Patra has 6 health and the larger Patra has 11 health, totaling the entire group at 59 health. Patras are only vulnerable to Swords and physical hits from [[Magical Rod]]. When defeated, the large Patra may drop either a [[Heart]], a [[Fairy]] or one [[Rupee]].{{Note|If [[Link]] defeats 10 enemies without getting hit or teleporting with the [[Recorder]], then the 10th enemy defeated will drop five [[Rupee]]s. However, if the 10th enemy is defeated with a [[Bomb]], then it will drop four Bobms. If Link defeats 16 enemies without getting hit or teleporting, then the 16th enemy will drop a [[Fairy]]. After the 16th enemy, Link must get hit and reset the counter to zero in order to achieve this effect again. Defeating [[Armos]], [[Like Like]]s, [[Keese]], or [[Gel]]s will not be counted.<ref>{{Cite Web|quote= |author= n.a. |published= n.d. |retrieved= August 17, 2017 |url= http://redcandle.us/The_Legend_of_Zelda#Forced_drops |title= Forced Drops |site= redcandle.us}}</ref>}}
+
+==In other media==
+{{Noncanon|Start}}
+==={{TLoZ|-}} TV series===
+Some Patras briefly appear in the "[[Stinging a Stinger]]" episode of {{TLoZ|TV Series}}. When Link hears [[Princess Zelda]]'s screams, he rushes over to where she is and sees that she is being attacked by Patras.<ref>{{Cite Episode|quote= Eeh! Get away from me, you stupid Patra! Link! Link! Where are you?|name= Princess Zelda|show= The Legend of Zelda|episode= 9}}</ref> Link, confident about his new [[Sword#The Legend of Zelda TV series|Sword]], faces an incoming Patra, but one light-beam from the foe breaks the Sword in half and causes Link to collapse from the attack. Zelda then rushes towards Link and swiftly scares the Patras off.<ref>{{Cite Episode|quote= Get away, you gross things!|name= Princess Zelda|show= The Legend of Zelda|episode= 9}}</ref>
+
+==={{TLoZ|-}} (Valiant Comics)===
+Patra appears in the ''[[To the First Power]]'' story of {{TLoZ|Valiant Comics}}. While Princess Zelda is busy fighting a [[Gohma]] in {{Term|TLoZ|Level 1|link}}, a group of Patras fly in and attack her. Although the Princess is successful in defeating one of them, she admits that the fight has gotten too tough for her and manages to escape the room.{{Fact}}
+{{Noncanon|End}}
+
+==Spinoff appearances==
+{{Noncanon|Start}}
+==={{BSTLoZ|-}}===
+{{Stub|BSTLoZ}}
+[[File:BSPatra.gif|left|60px]]
+Patras appear in {{BSTLoZ}}. A group of Patras can be found in [[Level-5 (BS The Legend of Zelda)|Level-5]], [[Level-7 (BS The Legend of Zelda)|Level-7]] and [[Level-8 (BS The Legend of Zelda)|Level-8]]. They spin around continuously. This game depicts it with a fly-like appearance as opposed to the usual depiction of eyeballs with wings.
+
+==={{ZA|-}}===
+[[File:ZA Patra Sprite.png|frame|left]]
+Patras are encountered in the [[Shrine of Illusion]] and the [[Shrine of Air]] in {{ZA}}. Patras are one of the weakest enemies, as they inflict only half a [[Heart]] of damage to [[Princess Zelda|Zelda]], and can be defeated within a single hit.
+
+In a room of the Shrine of Illusion, Zelda can defeat the Patras to obtain a [[Black Orb]]. In the Shrine of Air, Zelda can defeat every Patra in the room east of the first [[Vapora]] fight to obtain the shrine's [[Compass]].
+{{Noncanon|End}}
+
+==Trivia==
+*[[Eyesoar]] is named Patra in Japanese, implying that they are intended to be the same creature.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Patra (Stinging a Stinger).png|A group of Patras in ''The Legend of Zelda'' TV series
+File:Patra (VC).png|Zelda fighting Patras in ''The Legend of Zelda'' comic
+</gallery>
+
+==See also==
+* [[Eyesoar]]
+* [[Chasupa]]
+* [[Eyeball Monster]]
+
+{{Notes}}
+
+{{Ref}}
+
+{{Categories
+ |Bat-Like Enemies, Eye Enemies, Flying Enemies
+ |bosses= TLoZ, TLoZ (TV Series), BSTLoZ
+ |enemies=zA
+}}

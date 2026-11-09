@@ -1,0 +1,34 @@
+{{Icons|game = doom 64}}
+{{Hell Knight}}
+{{DISPLAYTITLE:Hell Knight (Doom 64)}}
+
+{{Infobox Enemy
+|name=Hell Knight
+|image=Hellknight64transparent.webp
+|hp=500
+|speed=80 map units/second
+|class=Hellspawn
+|melee=
+|attack=11-88 (Melee)
+8-64 (Ranged)
+}}
+==Background==
+The Hell Knights of ''Doom 64'' are the resurrected carcasses of those from ''Doom II'', revived by the [[Mother Demon]]. They are made from systematically altered dead carnage remade back into corrupted living tissue. The mutations were devastating. The demons have returned stronger and more vicious than before.
+
+Though overall similar to the standard Hell Knight, the mutated variant found in ''[[Doom 64]]'' is less pale in color, and more closely resembles Doom's [[Baron of Hell]].
+
+==Tactical Analysis==
+[[File:HellKnightD64.jpg|left|frameless|250x250px]]
+In ''Doom 64'', the Hell Knight appears far more frequently than in earlier titles, and in larger groups, possibly to compensate for the lack of other demons that didn't make it into the game, e.g. the Reverent and Arch-vile. This makes combat against them more treacherous, especially when placed in tight hallways and rooms. The rocket launcher is preferred at range, with the super shotgun still more than capable up close. Their projectiles are easy to avoid one-on-one, but larger groups make dodging much more difficult.
+
+The Hell Knight's projectile remains green in this game in contrast to the Baron of Hell's, which has changed to red. As their projectiles now differ and the hard-coded exception to damage is not present, [[Monster infighting|infighting]] between them is now possible.
+
+==Gallery==
+<gallery>
+File:Doom64Flinch02-D64ex.jpg|A Hell Knight in ''Doom 64''
+File:Knightendo power.jpg|A Hell Knight render as seen in ''Nintendo Power'' issue 96
+</gallery>
+{{Doom 64 monsters}}
+[[Category:Doom 64 monsters]]
+[[Category:Monsters]]
+[[Category:Demons]]

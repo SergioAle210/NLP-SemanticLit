@@ -1,0 +1,472 @@
+{{Hatnote|This article is about the regular Boomerang. For other variants, see [[Magical Boomerang]], [[Gale Boomerang]], and [[Nice Boomerang]].}}
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= [[File:TLoZ Boomerang Artwork.png|320x320px]]
+ |Artwork ALttP= [[File:ALttP Boomerang Artwork.png|320x320px]]
+ |Artwork LA= [[File:LA Boomerang Artwork.png|320x320px]]
+ |Artwork OoS= [[File:OoS Boomerang Artwork.png|320x320px]]
+ |Artwork OoA= [[File:OoA Boomerang Artwork.png|320x320px]]
+ |Artwork FS= [[File:FS Boomerang Artwork.png|320x320px]]
+ |Artwork TWWHD= [[File:TWWHD Boomerang Artwork.png|320x320px]]
+ |Artwork TMC= [[File:TMC Boomerang Artwork.png|320x320px]]
+ |Artwork ST= [[File:ST Link Boomerang Artwork.png|320x320px]]
+ |Render OoT= [[File:OoT Boomerang Render.png|320x320px]]
+ |Render OoTNS2= [[File:OoTNS2 Boomerang Render.png|320x320px]]
+ |Render ALBW= [[File:ALBW Boomerang Render.png|320x320px]]
+ |Render TFH= [[File:TFH Boomerang Render.png|320x320px]]
+ |Model LANS= [[File:LANS Boomerang Model.png|320x320px]]
+ |Model OoT= [[File:OoT Boomerang Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Boomerang Model.png|320x320px]]
+ |Model OoTNS2={{Please Upload|File:OoTNS2 Boomerang Model.png}}
+ |Model TWW= [[File:TWW Boomerang Model.png|320x320px]]
+ |Model TWWHD= {{Please Upload|File:TWWHD Boomerang Model.png}}
+ |Model PH= [[File:PH Boomerang Model.png|320x320px]]
+ |Model ST= [[File:PH Boomerang Model.png|320x320px]]
+ |Model ALBW= [[File:ALBW Boomerang Model.png|320x320px]]
+ |Model TFH= {{Please Upload|File:TFH Boomerang Model.png}}
+ |Model BotW= [[File:BotW Boomerang Model.png|320x320px]]
+ |Model TotK= [[File:TotK Boomerang Model.png|320x320px]]
+ |Sprite TLoZ= [[File:TLoZ Boomerang Sprite.png|160x160px]]
+ |Sprite ALttP= [[File:ALttP Boomerang Sprite.png|160x160px]]
+ |Sprite LA= [[File:LA Boomerang Sprite.png|160x160px]]
+ |Sprite LADX= [[File:LADX Boomerang Sprite.png|160x160px]]
+ |Sprite LANS= [[File:LANS Boomerang Icon.png|160x160px]]
+ |Sprite OoT= [[File:OoT Boomerang Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Boomerang Icon.png|160x160px]]
+ |Sprite OoTNS2= [[File:OoTNS2 Boomerang Icon.png|320x320px]]
+ |Sprite OoS= [[File:OoS Boomerang Sprite.png|160x160px]]
+ |Sprite OoA= [[File:OoA Boomerang Sprite.png|160x160px]]
+ |Sprite FS= [[File:FS Boomerang Sprite.png|160x160px]]
+ |Sprite TWW= [[File:TWW Boomerang Icon.png|160x160px]]
+ |Sprite TWWHD= [[File:TWWHD Boomerang Icon.png|160x160px]]
+ |Sprite FSA= [[File:FSA Boomerang Sprite.png|160x160px]]
+ |Sprite TMC= [[File:TMC Boomerang Sprite.png|160x160px]]
+ |Sprite PH= [[File:PH Boomerang Icon.png|160x160px]]
+ |Sprite ST= [[File:ST Boomerang Icon.png|160x160px]]
+ |Sprite ALBW= [[File:ALBW Boomerang Icon.png|160x160px]]
+ |Sprite TFH= [[File:TFH Boomerang Icon.png|160x160px]]
+ |Sprite BotW= [[File:BotW Boomerang Icon.png|320x320px]]
+ |Sprite TotK= [[File:TotK Boomerang Icon.png|320x320px]]
+}}
+|caption= 
+|game= TLoZ, ALttP, LA, OoT, OoS, OoA, FS, TWW, FSA, TMC, PH, ST, ALBW, TFH, BotW, TotK
+|other= TLoZ (TV Series), TLoZGW, TLoZ (Valiant Comics), ZA, AST, SSB, SSBM, SCII, SSBB, PH (Himekawa), HW, SSB4, SSBU, CoH, AoC
+|cost= 
+{{Infobox Game Blocks
+ |TMC= {{Rupee|TMC|300}}
+ |ALBW= {{Rupee|ALBW|800}}
+}}
+|value= 
+|location= 
+{{Infobox Game Blocks
+ |TLoZ= [[Level 1]]
+ |ALttP= [[Hyrule Castle (Dungeon)|Hyrule Castle]], [[Kakariko Village]]
+ |LA= [[Cave]] at [[Toronbo Shores]]
+ |OoT= [[Inside Jabu-Jabu's Belly]]
+ |OoS= [[Dance Hall]]
+ |OoA= [[Shooting Gallery#Oracle of Ages|Goron Shooting Gallery]]
+ |TWW= [[Forbidden Woods]]
+ |TMC= [[Stockwell's Shop]]
+ |PH= [[Temple of Fire]]
+ |ST= [[Snow Temple]]
+ |ALBW= [[Ravio's Shop]]
+}}
+|uses= 
+{{List|
+ * Stunning [[Enemy|Enemies]]
+ * Retrieving distant [[Item]]s
+ * Hitting [[Switch]]es
+}}
+|strength= 
+{{Infobox Game Blocks
+ |ALttP= {{HP|ALttP|0.5}}
+ |OoT= {{HP|OoT|1}}
+ |ALBW= {{HP|ALBW|1}}
+ |TFH= {{HP|TFH|0.5}}
+ |BotW= 8
+}}
+|durability= 
+{{Infobox Game Blocks
+ |BotW= 18
+ |TotK= 
+}}
+|comp= 
+|sample= 
+|theme= 
+}}
+'''Boomerangs''' are recurring [[Item]]s in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Boomerang|Boomerangs|Series, TLoZ, ALttP, LA, LADX, OoT, OoT3D, OoTNS2, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, PH, ST, ALBW, TFH, BotW, TotK}}
+| 
+{{List|
+ * {{TLoZ}}<ref name="E 118"/>
+ * {{ALttP}}<ref name="E 118"/>
+ * {{LA}}<ref name="E 118"/>
+ * {{LADX}}<ref name="E 118"/>
+ * {{OoT}}<ref name="E 118"/>
+ * {{OoT3D}}<ref name="E 118"/>
+ * {{OoTNS2}}<ref name="OoTNS2 Items"/>
+ * {{OoS}}<ref name="E 118"/>
+ * {{OoA}}<ref name="E 118"/>
+ * {{FS}}<ref name="E 118"/>
+ * {{TWW}}<ref name="E 118"/>
+ * {{TWWHD}}<ref name="E 118"/>
+ * {{FSA}}<ref name="E 118"/>
+ * {{TMC}}<ref name="E 118"/>
+ * {{PH}}<ref name="E 118"/>
+ * {{ST}}<ref name="E 118"/>
+ * {{ALBW}}<ref name="E 118"/>
+ * {{TFH}}<ref name="E 118"/>
+ * {{BotW}}<ref name="BotW Inventory"/>
+ * {{TotK}}<ref name="TotK Inventory"/>
+ * {{AoC}}{{Name Ref|AoC}}
+}}
+}}
+
+==Location and Uses==
+The Boomerang is an [[Item]] that [[Link]] can throw, at which point it will return to him. It can be used for both combat and [[Puzzle]] solving. It can be used to stun enemies, although a single hit will defeat weak enemies, such as [[Keese]].<ref name="PH Guide 11">{{Cite Guide|PH Prima|page= 11}}</ref> It can also be used to retrieve items that are out of [[Link]]'s reach.<ref>{{Cite Manual|quote= If you hit an enemy with this, it will be stunned for a short time (some enemies will sustain damage when hit by the boomerang). The boomerang can also retrieve distant Rupees and Hearts.|game= ALttP|page= 37}}</ref> The Boomerang first appeared in {{TLoZ}} and has gone through several design changes since then. In {{PH}} and {{ST}}, Link can draw the path that the Boomerang will take, allowing a more direct control of it.<ref name="PH Guide 11"/> Moreover, the Boomerang can also be used to turn [[Spark]]s and [[Bubbles]] into [[Fairy|Fairies]] in certain games.
+
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+In {{TLoZ}}, Link can acquire a Boomerang by defeating all of the red [[Goriya]]s in a certain room within [[Level 1]] of both the First Quest and the [[Second Quest]]. Goriyas attack Link with Boomerangs. Link can use the Boomerang to stun certain enemies for a brief period of time.<ref>{{Cite Manual|quote= He can also stop most of the enemy in their tracks if he throws the boomerang on target.|game= TLoZ|page= 24}}</ref> He can also use it to instantly defeat [[Keese]] and [[Gel]]s.<ref>{{Cite Manual|quote= Link can use these to inflict damage on weak enemies.|game= TLoZ|page= 24}}</ref> The Boomerang can also be used to collect items from a distance. The Boomerang can be replaced with the [[Magical Boomerang]], which can be thrown further.<ref>{{Cite Manual|quote= The magical boomerang flies further than the wooden boomerang.|game= TLoZ|page= 24}}</ref>
+
+{| class="wikitable mw-collapsible mw-collapsed" style="text-align:center"
+|+ style="white-space:nowrap" | Effects on Enemies
+! Defeats
+! Stuns
+! No Effect
+|-
+| [[File:TLoZ Gel Sprite.png]]<br/>'''[[Gel]]'''
+| [[File:TLoZ Armos Sprite.png]]<br/>'''[[Armos]]'''
+| [[File:TLoZ Aquamentus Sprite.png]]<br/>'''[[Aquamentus]]'''
+|-
+| [[File:TLoZ Keese Sprite.png]]<br/>'''[[Keese]]'''
+| [[File:TLoZ Digdogger Sprite 2.png]]<br/>'''[[Digdogger]]''' {{Exp|While weakened}}
+| [[File:TLoZ Bubble Sprite.png]]<br/>'''[[Bubble]]'''
+|-
+|rowspan="15"|
+| [[File:TLoZ Ghini Sprite.png]]<br/>'''[[Ghini]]'''
+| [[File:TLoZ Red Darknut Sprite.png]]<br/>'''[[Darknut]]'''
+|-
+| [[File:TLoZ Gibdo Sprite.png]]<br/>'''[[Gibdo]]'''
+| [[File:TLoZ Dodongo Sprite.png]]<br/>'''[[Dodongo]]'''
+|- 
+| [[File:TLoZ Red Goriya Sprite.png]]<br/>'''[[Goriya]]'''
+| [[File:TLoZ Gleeok Sprite.png]]<br/>'''[[Gleeok]]'''
+|-
+| [[File:TLoZ Red Leever Sprite.png]]<br/>'''[[Red Leever]]'''
+| [[File:TLoZ Blue Gohma Sprite.png]]<br/>'''[[Blue Gohma]]'''
+|-
+| [[File:TLoZ Like Like Sprite.png]]<br/>'''[[Like Like]]'''
+| [[File:TLoZ Gleeok Head Sprite.png]]<br/>'''[[Gleeok Head]]'''
+|-
+| [[File:TLoZ Red Lynel Sprite.png]]<br/>'''[[Red Lynel]]'''
+| [[File:TLoZ Red Lanmola Sprite.png]]<br/>'''[[Red Lanmola]]'''
+|-
+| [[File:TLoZ Red Moblin Sprite.png]]<br/>'''[[Red Moblin]]'''
+| [[File:TLoZ Manhandla Sprite.png]]<br/>'''[[Manhandla]]'''
+|-
+| [[File:TLoZ Red Octorok Sprite.png]]<br/>'''[[Red Octorok]]'''
+| [[File:TLoZ Moldorm Sprite.png]]<br/>'''[[Moldorm]]'''
+|-
+| [[File:TLoZ Peahat Sprite.png]]<br/>'''[[Peahat]]'''
+| [[File:TLoZ Patra Sprite.png]]<br/>'''[[Patra]]'''
+|-
+| [[File:TLoZ Rope Sprite.png]]<br/>'''[[Rope]]'''
+| [[File:TLoZ Pols Voice Sprite.png]]<br/>'''[[Pols Voice]]'''
+|-
+| [[File:TLoZ Stalfos Sprite.png]]<br/>'''[[Stalfos]]'''
+| [[File:TLoZ Red Wizzrobe Sprite.png]]<br/>'''[[Red Wizzrobe]]'''
+|-
+| [[File:TLoZ Red Tektite Sprite.png]]<br/>'''[[Tektite]]'''
+| [[File:TLoZ Zora Sprite.png]]<br/>'''[[Zora]]'''
+|-
+|rowspan="3"|
+| [[File:TLoZ Vire Sprite.png]]<br/>'''[[Vire]]'''
+|-
+| [[File:TLoZ Wallmaster Sprite.png]]<br/>'''[[Wallmaster]]'''
+|-
+| [[File:TLoZ Zol Sprite.png]]<br/>'''[[Zol]]'''
+|}
+
+==={{ALttP|-}}===
+{{Descriptions ALttP}}
+In {{ALttP}}, Link can obtain a Boomerang in [[Hyrule Castle (Dungeon)|Hyrule Castle]]. It is contained in a [[Treasure Chest]] a few rooms before the prison where the [[Ball and Chain Trooper]] holds [[Princess Zelda]] captive. It appears as a Big Chest on the Map, but is in fact a Small Chest. If Link fails to collect the Boomerang in the Hyrule Castle, he can find another one in the house of the [[Sweeping Lady]] in [[Kakariko Village]]. If Link does not open either Chest, he can obtain a Magical Boomerang from a Chest in the [[Village of Outcasts]]. Link can also obtain a Magical Boomerang as an upgrade to the Boomerang at the [[Waterfall of Wishing]]. The Boomerang is blue, while the Magical Boomerang is red, faster and can be thrown farther.<ref>{{Cite|You got the Magical Boomerang! You can throw this faster and farther than your old one!|N/A|ALttP}}</ref> Both varieties can be used to stun enemies, hit [[Switch]]es, and collect items from a distance.
+
+==={{LA|-}}===
+In {{LA}}, Link can obtain the Boomerang by completing the [[Trading Quest]] and using the [[Magnifying Lens]] inside a hidden [[Cave]] at the eastern side of [[Toronbo Shores]]. Here Link will meet a Goriya who will offer to give Link a Boomerang in exchange for an item. The Boomerang can be used to stun enemies, hit Switches, collect items from a distance, and cut bushes. The Boomerang is one of the two items able to destroy [[Bubble|Anti-Fairies]], the other being the [[Magic Powder]]. It is also the only weapon able to defeat a [[Spark]]. It can also defeat certain enemies in one hit, such as [[Ghini]]s. The Boomerang is the most effective weapon against the final form of [[Nightmare]], as it can be defeated in one hit.
+
+==={{OoT|-}}===
+{{Descriptions OoT}}
+In {{OoT}}, the Boomerang can only be used by Link as a child. It is the main item [[Inside Jabu-Jabu's Belly]]. The Boomerang is needed in order to defeat [[Tailpasaran]]s, [[Parasitic Tentacle]]s, the [[Big Octo#Ocarina of Time|Big Octo]], and the [[Boss]] of the Dungeon, [[Barinade]]. It also allows Link to collect distant items such as [[Gold Skulltula]] Tokens. It can be used to stun and defeat certain enemies. Before being thrown, the camera shifts to a first-person perspective, allowing Link to aim. The camera will remain in a third-person perspective if Link is [[Targeting]] something. When Targeting, the Boomerang will follow its target until impact.
+
+==={{OoS|-}}===
+{{Descriptions OoS}}
+In {{OoS}}, the Boomerang can be found in [[Subrosia]] as a prize from the [[Dance Hall]]. It is upgraded to the [[Magical Boomerang]] in the [[Ancient Ruins]]. The Magical Boomerang is faster, can fly higher distances and can be controlled at will. The normal Boomerang is an optional item in this game, whereas the Magical Boomerang is a required item.
+
+In certain dungeons, red [[Moblin]]s wield Boomerangs. They are blue in color, but do damage to Link instead of having the stun effect of Link's Boomerang. Also, the miniboss of the [[Gnarled Root Dungeon|first dungeon]] features a pair of [[Brother Goriyas]] who throw a Boomerang to each other, injuring Link when in the way.
+
+==={{OoA|-}}===
+In {{OoA}}, the Boomerang can be found in the [[Rolling Ridge]] as a prize from either the [[Shooting Gallery#Oracle of Ages|Goron Shooting Gallery]] or the [[Target Carts]]. It is an optional item in this game.
+
+In certain dungeons, red [[Moblin]]s wield Boomerangs. They are blue in color, but do damage to Link instead of having the stun effect of Link's Boomerang.
+
+==={{FS|-}}===
+{{Descriptions FS}}
+In {{FS}}, the Boomerang appears in various [[Stage]]s. It can only be used in the Stage where it was obtained. It is useful for collecting [[Rupee]]s.
+
+==={{TWW|-}}===
+{{Checklist
+ |game= TWW
+ |type= Characters
+ |category= Items in The Wind Waker
+ |needs= 
+Detailed information on the following:
+* Where they are found
+* How much they cost
+* What they do
+}}
+The Boomerang is the main item of the [[Forbidden Woods]] in {{TWW}}. In addition to stunning and defeating enemies, collecting distant items, and activating Switches, the Boomerang can lock on to up to five different targets.<ref>{{Cite|You got the Boomerang! Set it to and throw it with [Y], [Z], or [X]. Target specific objects by holding the button you set it to and aiming at something until the red targeting cursor changes to a [Target lock mark]. You can target up to five objects at once.|N/A|TWW}}</ref> This ability can be used for solving puzzles involving Switches or for collecting multiple items in one throw. The Boomerang is needed in order to defeat [[Kalle Demos]], the Boss of the Forbidden Woods, and [[Puppet Ganon]].
+
+==={{FSA|-}}===
+{{Descriptions FSA}}
+In {{FSA}}, the Boomerang can be held in place before returning to Link. This is useful for retrieving moving [[Force Gem]]s. The Boomerang can be upgraded to the Level 2 Boomerang, which is faster and has a longer reach.
+
+==={{TMC|-}}===
+{{Descriptions TMC}}
+In {{TMC}}, the Boomerang can be bought in [[Stockwell's Shop]] for 300 Rupees. It can be upgraded to the Magical Boomerang by [[Kinstone Fusion|Fusing]] [[Kinstone]]s with the [[Tingle Siblings?]].
+
+==={{PH|-}}===
+In {{PH}}, the Boomerang allows Link to to draw a specific path for it to follow. The Boomerang's path has a range limit.<ref name="PH Guide 11"/> It can be used to stun and defeat enemies, hit Switches, and collect items from a distance. It is the main item of the [[Temple of Fire]].
+
+==={{ST|-}}===
+The Boomerang's flight path can be drawn in {{ST}}, similarly to how it behaved in {{PH}}. It can be used to stun and defeat enemies, collect distant items, and hit Switches from afar. It can also fly through [[Fire]] to light [[Torch]]es or fly through ice to freeze water. It is the main item of the [[Snow Temple]].
+
+==={{ALBW|-}}===
+In {{ALBW}}, the Boomerang can be obtained from [[Ravio's Shop]]. Like all Items in the game, it uses Link's [[Energy Gauge]] with each use. The Boomerang can be rented for 50 Rupees and bought permanently for 800.{{Note|The first Item purchased from Ravio always costs 400 Rupees}} The Boomerang can be upgraded to the [[Nice Boomerang]] by bringing 10 Lost [[Maiamai]]s to [[Mother Maiamai]]. The upgrade improves the speed and range of the Boomerang and allows Link to throw three Boomerangs at a time. The Boomerang can be thrown in any direction according to which way Link is facing.
+
+==={{TFH|-}}===
+In {{TFH}}, the Boomerang can be used to grab another Link and pull him toward the wielder, and has the ability to hover in place for several seconds at its furthest point by holding the Item button. While wearing the [[Boomeranger]] [[Outfit]], the Boomerang becomes larger and gains the ability to carry two Links, pass through enemies, and deal damage to them.
+
+Boomerangs first appear in the [[Blazing Trail]] where all three Links acquire one, then reappear in Hinox Mine (two Boomerangs), [[Den of Flames]], [[Fire Temple (Tri Force Heroes)|Fire Temple]], [[Snowball Ravine]], [[Sealed Gateway]] (two Boomerangs), [[The Lady's Lair]], [[Stone Corridors]], [[Desert Temple]], [[Illusory Mansion]] (three Boomerangs), [[Grim Temple]], [[Dragon Citadel]], and [[Sky Temple]] (one Boomerang per Stage). They also appear in the [[Forest Zone]], [[Frozen Zone]], [[Shadow Zone]] and [[Baneful Zone]] of the [[Den of Trials]], as well as the [[Coliseum]]'s Volcano and The Ruins arenas.
+
+==={{BotW|-}}===
+{{Compendium/Extract|Boomerang}}
+Boomerangs are a throwing [[Weapon]] in {{BotW}} originally used by [[Korok]]s.<ref name="BotW Inventory"/> Several other varieties of Boomerangs can also be found, including [[Lizal Boomerang]]s, Lizal Forked Boomerangs, [[Lizal Tri-Boomerang]]s, and [[Giant Boomerang]]s. The [[Sea-Breeze Boomerang]], which is based on the Boomerang from {{TWW|-}}, can also be obtained at random from using the [[Amiibo (Ability)|amiibo]] [[Rune]]. After being thrown, Link must manually catch the Boomerang when it returns to him. If the Boomerang flies into an [[Object]] or wall, it will fall to the ground and will not return to Link.
+
+A regular Boomerang has a chance to appear in a [[Treasure Chest]] spawned by scanning the following [[amiibo]] with the amiibo Rune:
+* {{SSB}} Series [[Toon Link]] amiibo
+* {{TLoZ Series}} Series Toon Link amiibo
+
+Being made from wood, Boomerangs will catch on [[Fire]] if they make contact with a [[Campfire]] or if they are exposed to a [[Scorching Climate]]. They will not attract [[Lightning]] during a [[Thunderstorm]], and they do not conduct [[Electricity]] either. They will float if dropped in [[Water (Terrain)|Water]]. Finally, the [[Magnesis]] Rune is unable to pick up Boomerangs.
+
+{{BotW Weapon Parameters
+ |ActorName                     = "Weapon_Sword_051"
+ |Life                          = 18
+ |Power                         = 8
+ |SpHitActor                    = ""
+ |SpHitRatio                    = 2.0
+ |IsHammer                      = false
+ |IsWeakBreaker                 = false
+ |IsBoomerang                   = true
+ |IsLuckyWeapon                 = false
+ |IsPikohan                     = false
+ |IsThrowingWeapon              = true
+ |IsThrowingBreakWeapon         = false
+ |ThrowRange                    = 20.0
+ |ChemicalEnergyMax             = 0
+ |ChemicalEnergyAmountUsed      = 0
+ |ChemicalEnergyRecoverRate     = 0.0
+ |ChemicalEnergyRecoverInterval = 60
+ |ShootBeam                     = ""
+ |SharpWeaponAddAtkMin          = 5
+ |SharpWeaponAddAtkMax          = 8
+ |SharpWeaponAddLifeMin         = 2
+ |SharpWeaponAddLifeMax         = 4
+ |SharpWeaponAddCrit            = true
+ |PoweredSharpAddAtkMin         = 9
+ |PoweredSharpAddAtkMax         = 13
+ |PoweredSharpAddLifeMin        = 5
+ |PoweredSharpAddLifeMax        = 9
+ |PoweredSharpAddThrowMin       = 1.0
+ |PoweredSharpAddThrowMax       = 1.0
+ |ThrowSpeed                    = 1.0
+ |ThrowRotSpeed                 = 1500.0
+ |SellingPrice                  = 25
+ |BuyingPrice                   = 100
+}}
+
+==={{TotK|-}}===
+{{Compendium/Extract/TotK|name=Boomerang}}
+{{Stub|TotK}}
+Boomerangs are throwing [[Weapon]]s.<ref name="TotK Inventory"/>
+
+==Other Appearances==
+==={{TLoZ|-}} TV Series===
+{{Noncanon|Start}}
+[[File:ZCS That Sinking Feeling Kangaroo Boomerang.png|right|150px]]
+[[File:ZCS That Sinking Feeling Boomerang.png|left|thumb|Zelda wielding a Boomerang]]
+The Boomerang is one of the most used items in {{TLoZ (TV Series)}}, and one hit from this weapon is capable of defeating most of Ganon's minions. It is mostly used by [[Princess Zelda]], although Link, [[Moblin]]s, and [[Goriya]]s wield it as well. The Boomerang first appears in "[[Cold Spells]]", where Zelda defeats various magically-possessed cleaning supplies with it. Later, in "[[Sing for the Unicorn]]", Zelda once again uses it to defeat an [[Armos Knight]] and [[Ganon]], rescuing Link and [[King Harkinian|her father]] in the process. The Boomerang shown in "[[That Sinking Feeling]]" is given to Zelda by Link so that the two of them can fight off several [[Tektite]]s that have ambushed them. Link is not shown wielding this item until the "[[Stinging a Stinger]]" episode, which he uses it to defeat a [[Gohma]] with the help of Zelda's [[Magic Rope]]. Although the series mostly exemplifies the use of the Boomerang for fighting enemies, the "[[Doppelganger]]" episode demonstrates how Zelda uses the Boomerang to break free from the ropes that Ganon had tied around her hands.
+{{Noncanon|End}}
+
+==={{TLoZ|-}} Game Watch===
+{{Noncanon|Start}}
+[[File:TLoZGW Boomerang Artwork.png|left]]
+The Boomerang appears in {{TLoZGW}}. One appears in each room, and Link must collect it and use it to defeat all the [[Iron Ball]]s.
+{{Noncanon|End}}
+
+==={{TLoZ (Valiant Comics)|Display}}===
+{{Noncanon|Start}}
+The Magic Boomerang from ''The Legend of Zelda'' makes an appearance in the ''[[Day of the Triforce]]'' story of {{TLoZ (Valiant Comics)}} comic. After [[Princess Zelda]] and [[Cassiopia]] arrive to the [[Water Town of Saria]] to fight off the monsters that have attacked the town, Cassiopia uses the Magic Boomerang to free her husband, the [[River Man]], from the chains that bind him.<ref>{{Cite Book|quote=Wait till I have freed you with the magic boomerang!|book=TLoZ (Valiant Comics)|publisher= |page=4}}</ref>
+{{Noncanon|End}}
+
+==={{ZA|-}}===
+{{Noncanon|Start}}
+{{Descriptions ZA}}
+In {{ZA}}, the Boomerang appears as a [[Spells of Zelda's Adventure|Spell]] which lets Zelda cast Boomerang projectiles with her [[Items in Zelda's Adventure#Wand|Wand]]. It can be found in a small area in western [[Plain of Andor]] with a lone [[Goriya]], which drops the Spell after being defeated. The Spell costs 1 Rupee to use.
+{{Noncanon|End}}
+
+==={{AST|-}}===
+{{Noncanon|Start}}
+{{Stub|AST}}
+
+{{Noncanon|End}}
+
+==={{SSB|-}}===
+{{Noncanon|Start}}
+{{Hatnote|See {{Ssb|Main Page|SmashWiki's}} article on {{Ssb|Boomerang}} for more information.}}
+[[File:SSBB Toon Boomerang.jpg|thumb|right|Toon Link using the Boomerang from {{SSBB|-}}]]
+The Boomerang functions as [[Link]]'s {{Ssb|Neutral Special Move}} in {{SSB}}. The Boomerang is based on its iteration from {{OoT}}.
+{{Noncanon|End}}
+
+==={{SSBM|-}}===
+{{Noncanon|Start}}
+The Boomerang is [[Link]]'s {{Ssb|Side Special Move}} in {{SSBM}}. [[Young Link]] also wields the Boomerang as his Side Special Move. Both Boomerangs are based on their {{OoT}} iteration.
+{{Noncanon|End}}
+
+==={{SCII|-}}===
+{{Noncanon|Start}}
+:''How to perform:'' {{Icon|SCII Horizontal Attack}}{{Icon|SCII +}}{{Icon|SCII Kick}}
+In {{SCII}}, the Boomerang from {{OoT|-}} is part of [[SoulCalibur II/Command List|Link's fighting style]]. To get into the Boomerang Stance, the player must press the horizontal attack button and the kick button at the same time. Pressing the horizontal attack again will cause Link to release the Boomerang towards his enemy. The Boomerang attack is considered to be a high attack, dealing 25 HP worth of damage to the opponent.
+{{Noncanon|End}}
+
+==={{SSBB|-}}===
+{{Noncanon|Start}}
+The Boomerang is [[Link]] and [[Toon Link]]'s {{Ssb|Side Special Move}} in {{SSBB}}. Link's Boomerang resembles the [[Gale Boomerang]] from {{TP}} whereas Toon Link's Boomerang resembles the Boomerang from {{TWW}}.
+
+The Boomerang from {{TWW|-}} also appears as a collectible [[Sticker]].
+
+====Sticker Information====
+{{SSBSticker|header=yes}}
+{{#section:Sticker|Boomerang}}
+|}
+{{Noncanon|End}}
+
+==={{PH|-}} (Himekawa)===
+{{Noncanon|Start}}
+As Link battles [[Blaaz]] in the Temple of Fire, [[Ciela]] points out the location of a [[Treasure Chest]].<ref>{{Cite Book|quote= Look!|book= PH (Himekawa)|publisher= |page= 56}}</ref><ref>{{Cite Book|quote= A Treasure Chest?!|book= PH (Himekawa)|publisher= |page= 56}}</ref> Link opens the Chest to find the Boomerang.<ref>{{Cite Book|quote= A Boomerang!|book= PH (Himekawa)|publisher= |page= 56}}</ref> With Ciela's guidance, Link uses the Boomerang to defeat Blaaz's split form and eventually destroys the monster.
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+The Boomerang appears as an item in {{HW}}. It can be upgraded temporarily to the Gale Boomerang by collecting the Boomerang power ups. The Boomerang is able to slice through vines that block pathways. [[Manhandla]]s and their [[Manhandla Stalk|Stalks]] are weak to the Boomerang and it is also one of the items used to fight [[Ganon]] with. In the Master Quest DLC pack, the 8-Bit Boomerang from {{TLoZ}} appears as a weapon for [[Impa]]. It is statistically identical to and part of the [[Biggoron's Sword]] weapon type.
+{{Noncanon|End}}
+
+==={{SSB4|-}}===
+{{Noncanon|Start}}
+The Boomerang is [[Link]] and [[Toon Link]]'s {{Ssb|Side Special Move}} in {{SSB4}}. Like in {{SSBB}}, Link's Boomerang resembles the [[Gale Boomerang]] from {{TP}} and Toon Link's Boomerang resembles the Boomerang from {{TWW}}.
+{{Noncanon|End}}
+
+==={{SSBU|-}}===
+{{Noncanon|Start}}
+In {{SSBU}}, the Boomerang is used by [[Link]], [[Toon Link]], and [[Young Link]] as their {{Ssb|Side Special Move}}. Link uses the Boomerang from {{BotW}} whereas Toon Link uses the Boomerang from {{TWW}}, and Young Link uses the Boomerang from {{OoT}}. A Boomerang also appears as an [[Item]] that can be used by [[Spirit]]s in [[Spirit Battle]]s.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+{{Stub|CoH}}
+The Boomerang appears as an Item in {{CoH}}, where it can be wielded by [[Cadence]], [[Link]], and [[Zelda]]. Its primary use is to stun [[Enemy|Enemies]], though it can be used to break open [[Treasure Chest]]s and retrieve their contents from afar.<ref>{{Cite|{{Color CoH|Yellow|Boomerang}} -- Assign it to {{Icon|CoH A}} {{Icon|CoH B}} {{Icon|CoH X}} {{Icon|CoH Y}}<br/>Throw this at enemies to stun them. It always finds its way back to you.|Inventory|CoH}}</ref>
+{{Noncanon|End}}
+
+==={{AoC|-}}===
+{{Noncanon|Start}}
+{{Stub|AoC}}
+
+{{Noncanon|End}}
+
+==Trivia==
+*Though Link cannot obtain a Boomerang in {{TAoL}}, Goriyas use them as weapons.
+*The Boomerang was also planned to be included in ''[[The Legend of Zelda: Majora's Mask|Majora's Mask]]'', but was scrapped.
+*During development of {{SS}}, a Remote Boomerang was planned to be included. With it, Link would have been able to drop anywhere after grabbing it and controlling its trajectory. The idea was later abandoned as it might have led to the skipping of important items and areas. This idea eventually evolved into the creation of the [[Beetle (Item)|Beetle]].<ref>{{Cite Book|quote= |book= E |publisher= |page= 297}}</ref>
+**At another point during development of {{SS|-}}, a Rocket Punch was proposed for grabbing items. This idea as well led to the creation of the Beetle.
+*Despite being incredibly useful in {{ALttP}}, it is not required to complete the game and can be completely skipped.
+*In Hyrule Warriors, the dominant hand that a character uses items with changes. Most use them right-handed, with Link, Young Link, Toon Link, and Ravio using them left-handed. The boomerang is the only item that changes gameplay in accordance with this, as it will reach enemies and objects on different sides first depending on the thrower.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Boomerang Artwork 2.png|{{Game Label|{{TLoZ|-}}}}Artwork of a Boomerang from {{TLoZ|-}}
+File:TLoZ Boomerang Sprite 2.png|{{Game Label|{{TLoZ|-}}}}A Boomerang while Link is wearing the Blue Ring from {{TLoZ|-}}
+File:TLoZ Boomerang Sprite 3.png|{{Game Label|{{TLoZ|-}}}}A Boomerang while Link is wearing the Red Ring from {{TLoZ|-}}
+File:TLoZ Boomerang Sprite 4.png|{{Game Label|{{TLoZ|-}}}}A Boomerang from the All Treasures section of the intro from {{TLoZ|-}}
+File:TLoZ Link in Ladder Throwing Boomerang at Red Octorok Figure.png|{{Game Label|{{TLoZ|-}}}}Action figure of Link using the Boomerang from {{TLoZ|-}}
+File:ALttP Boomerang Inventory Sprite.png|{{Game Label|{{ALttP|-}}}}A Boomerang in the Inventory
+File:LA Boomerang.png|{{Game Label|{{LADX|-}}}}Link obtaining the Boomerang
+File:FSA Boomerang Sprite 2.png|{{Game Label|{{FSA|-}}}}The Boomerang icon
+File:ALBW Ravio Boomerang Artwork.png|{{Game Label|{{ALBW|-}}}}Ravio demonstrating the Boomerang's use
+File:ALBW Rented Boomerang Model.png|{{Game Label|{{ALBW|-}}}}The Rented Boomerang
+File:ALBW Rented Boomerang Icon.png|{{Game Label|{{ALBW|-}}}}The Rented Boomerang icon
+File:TFH Nice Boomerang Icon.png|{{Game Label|{{TFH|-}}}}The Boomerang equipped with the Boomeranger Outfit
+File:TFH Nice Boomerang Model.png|{{Game Label|{{TFH|-}}}}The Boomerang equipped with the Boomeranger Outfit
+File:TLoZ (Valiant Comics) Boomerang Artwork.png|{{Game Label|{{TLoZ (Valiant Comics)|Display}}}}A Boomerang
+File:BSTLoZ Item Mighty Boomerang.png|{{Game Label|{{BSTLoZ|-}}}}The Mighty Boomerang
+File:ZA Boomerang Sprite.png|{{Game Label|{{ZA|-}}}}The Boomerang Spell icon
+File:SSBM Adult Boomerang.jpg|{{Game Label|{{SSBM|-}}}}Link using the Boomerang
+File:SSBM Young Boomerang.jpg|{{Game Label|{{SSBM|-}}}}Young Link using the Boomerang
+File:SCII Link Using Boomerang.png|{{Game Label|{{SCII|-}}}}Link using the Boomerang
+File:HW Lana Boomerang.png|{{Game Label|{{HW|-}}}}Lana obtaining the Boomerang
+File:HW 8-Bit Boomerang? Icon.png|{{Game Label|{{HW|-}}}}The 8-Bit Boomerang Weapon
+File:HW Boomerang Icon.png|{{Game Label|{{HW|-}}}}The Boomerang icon
+File:HWL Boomerang Icon.png|{{Game Label|{{HWL|-}}}}Boomerang Item Card icon used in the Great Sea and Master Wind Waker Maps
+File:HWL Boomerang Icon 2.png|{{Game Label|{{HWL|-}}}}Boomerang Item Card icon used in the Lorule Map
+File:HWL Boomerang Icon 3.png|{{Game Label|{{HWL|-}}}}Boomerang Sub-Weapon obtention icon
+File:HWL Boomerang Icon 4.png|{{Game Label|{{HWL|-}}}}Boomerang Sub-Weapon icon
+File:HWDE Boomerang Icon.png|{{Game Label|{{HWDE|-}}}}Boomerang Item Card icon used in the Great Sea and Master Wind Waker Maps
+File:HWDE Boomerang Icon 2.png|{{Game Label|{{HWDE|-}}}}Boomerang Item Card icon used in the Lorule Map
+File:HWDE Boomerang Sub-Weapon Icon.png|{{Game Label|{{HWDE|-}}}}The Boomerang Sub-Weapon icon
+File:CoH Boomerang Red Goriya Sprite.png|{{Game Label|{{CoH|-}}}}A Boomerang thrown by a Red Goriya
+File:CoH Boomerang Blue Goriya Sprite.png|{{Game Label|{{CoH|-}}}}A Boomerang thrown by a Blue Goriya
+</gallery>
+
+==See Also==
+{{See Also|
+ * Gale Boomerang
+ * Magical Boomerang
+ * Nice Boomerang
+}}
+
+{{Notes}}
+{{Ref|
+<!-- Encyclopedia -->
+<ref name="E 118">{{Cite Book|quote= |book= E |publisher= |page= 118 {{Exp Game|TLoZ, ALttP, LA, OoT, OoS, OoA, TWW, FS, FSA, TMC, PH, ST, ALBW, TFH}}}}</ref>
+
+<!-- Ocarina of Time -->
+<ref name="OoTNS2 Items">{{Cite|{{Big|Boomerang}}<br/>A trusty weapon that always returns. You can even use it to collect distant, out-of-reach items.|Items|OoTNS2}}</ref>
+
+<!-- Breath of the Wild -->
+<ref name="BotW Inventory">{{Cite|{{Big|Boomerang}}<br/>This throwing weapon was originally used by the forest-dwelling Koroks. Its unique shape allows it to return after being thrown.|Inventory|BotW}}</ref>
+
+<!-- Tears of the Kingdom -->
+<ref name="TotK Inventory">{{Cite|{{Big|Boomerang}}<br/>A decayed wooden boomerang. A useful tool that {{Color TotK|Teal|comes back after you throw it}}. Its current state has not lessened its performance.|Inventory|TotK}}</ref>
+}}
+
+{{Categories
+ |Boomerangs, Item Cards, Spells, Weapons
+ |items= TLoZ, ALttP, LA, LADX, LANS, OoT, OoT3D, OoTNS2, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, PH, ST, ALBW, TFH, BotW, TotK, TLoZ (TV Series), TLoZGW, TLoZ (Valiant Comics), ZA, AST, SSB, SSBM, SCII, SSBB, PH (Himekawa), HW, HWL, HWDE, SSBfN3DS, SSBfWU, SSBU, CoH, AoC
+}}
+[[de:Bumerang]]

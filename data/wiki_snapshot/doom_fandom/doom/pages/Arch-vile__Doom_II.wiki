@@ -1,0 +1,205 @@
+{{Arch-vile}}{{DISPLAYTITLE:Arch-vile (Doom II)}}
+{{Infobox Enemy
+|image = <gallery>
+archvile_sprite.png|Final
+Old-vile.png|Old
+</gallery>
+|name = Arch-vile
+|class = Demon (Infernal High Priest)
+|type = Enemy
+|hp = 700
+|attack = 20 <small>(direct hit)</small>
+0-70 <small>([[blast radius]])</small>
+|speed = 262.5 map units/s
+|caption = Able to revive deceased demons.
+|entity = VILE
+}}
+{{quote|One of the worst of a bad lot. You can't think of enough rotten things to say about him. He's fast, hard to kill, casts spells, and resurrects dead monsters! At least these suckers are rare.|Doom II Manual description}}
+'''The Arch-vile''' is an enemy who is introduced in [[Doom II]], making its first appearance in [[MAP11: Circle of Death (Doom II)|MAP11: Circle of Death]].
+
+==Physical appearance==
+Arch-viles are very tall, emaciated-looking, peach-skinned humanoid figures with a stigmata appearance. They have no flesh around their abdomens, revealing some of their rib cage and spinal column.
+
+==Combat characteristics==
+Upon spotting the player, the Arch-vile emits a high-pitched screech similar to that of an [[Arachnotron]]. When in pain, it makes a high pitched groan, but otherwise gives out a sinister low-pitched laugh while it is searching for the player.
+
+The Arch-vile possesses two sets of attacks that are unique from other monsters. The first attack consists of them raising their arms up to summon flames around their victim, although the engulfing flames don't deal damage. They then finish this attack by hunching over and clapping their hands together, which will cause the flame to erupt around their victim, usually launching them up in the air, and doing tremendous damage. 
+
+The second attack allows Arch-viles to resurrect other monsters. They will approach a nearby enemy corpse, and stand next to the downed enemy with their arms stretched and head tilted upward, to resurrect it. The resurrection time takes approximately 1–2 seconds. Arch-viles can resurrect any monsters in the game, except any monster that doesn't leave a corpse upon death ([[Lost Soul/Doom|Lost Souls]] and [[Pain Elemental/Doom II|Pain Elementals]]), boss-level monsters ([[Cyberdemon/Doom|Cyberdemons]] and [[Spiderdemon]]s), [[Commander Keen]]s, or other Arch-viles. 
+
+Arch-viles possess 700 hit points, having one of the highest health of any other monster in game. They are also the fastest monsters (surpassing that of a Cyberdemon), and possess the lowest pain chance of any monsters, making them very difficult to stun upon attacking them.
+
+When killed, the Arch-vile utters an anguished, gurgling laugh as its body falls apart - his mid-section and left leg broken in half, right hand disintegrated into a bloody stump, collapsing in on itself into a bloody heap.
+
+== Tactical analysis ==
+Players are expected to engage the Arch-vile with extreme precautions, as they are very dangerous adversaries. Their incredibly powerful attacks and their ability to resurrect monsters will only make it worse for the player, meaning that smart players will target them first and foremost when they appear.
+
+It is strongly recommended to use the more powerful weapons to take down Arch-viles at long range, such as the [[Rocket launcher/Doom|rocket launcher]] or the [[BFG 9000]]. The BFG9000 will guarantee to kill them in one or two shots, while four-five rockets from the rocket launcher will neutralize them. If the player cannot access those weapons, the [[plasma rifle]] can also work as it will usually suppress an Arch-vile from attacking due to its high rate of fire and high attack power compared to its cousin the [[Chaingun/Doom|chaingun]]. 
+
+Due to their high speed, Arch-viles have the ability to quickly close in, forcing the player to confront them in close quarters. Their flame eruption attacks do significant damage to the player, but this can be avoided if the player moves away from the Arch-vile's line of sight. As it takes the Arch-vile full three seconds to execute the attack, this can provide players enough opportunity to either take cover or move away from the Arch-vile's line of attack. The [[super shotgun]] works well in close combat against the Arch-vile, as four shots at point blank range can neutralize them. One point-blank blast can often be sufficient to disrupt their attacks, despite the low pain chance they possess. But proper cover should be provided for the player after firing each shot, in order to avoid getting caught in line from the Arch-vile's attacks. 
+
+Arch-viles will sometimes be accompanied by other lesser demons. This moment can actually make an Arch-vile much more dangerous. If any of the enemies in the vicinity are already slain, the Arch-vile can quickly rush towards their corpses to resurrect them. The BFG9000 or the rocket launcher can both make short work on the Arch-vile even if it is surrounded by other enemies. However, players must prioritize on targeting the Arch-vile first; if it is not killed right away, it will resurrect more downed enemies, making players further outnumbered and waste their valuable ammo. On occasions, should the player find a lone Arch-vile in an area free from enemy corpses, it is advisable to not let them wander off further to revive any dead enemies nearest to them. 
+
+Arch-viles can be hurt by the [[blast damage]] of their own flame attack, so it is possible for an attacking Arch-vile to hurt itself or any Arch-vile close to its target. However, due to their high HP and the lack of projectile attacks they have, Arch-viles generally don't benefit the player well in [[monster infighting]]. Monsters (including other Arch-viles) damaged by an Arch-vile's attack will never retaliate because there is an exception in the [[Doom source code|source code]] that prevents other monsters from targeting them. However, this does not stop Arch-viles themselves from targeting and damaging other monsters. While Arch-viles are easy to distract because of their lack of [[Monster behavior#Choosing target|targeting threshold]] (they will always switch target when hit), this can be mostly inconvenient as once they immediately focus on the player after killing a monster, they are likely to resurrect that same monster which will instantly attack the player.
+
+== Data ==
+<div class="divTable" style="width:100%;">
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell" style="width:33%;">
+{| class="WikiaTable"
+! colspan="2" |Attributes
+|-
+|ID #||64 (decimal), 40 (hex)
+|-
+|[[Hit points]]||700
+|-
+|Speed||15 [[map unit]]s per frame<br />(262.5 map units per second)
+|-
+|Width||40
+|-
+|Height||56
+|-
+|Reaction time||8
+|-
+|[[Pain chance]]||10 (3.91%)
+|-
+|Pain time||10 tics
+|-
+|[[Mass]]||500
+|-
+|Bits||4194310
+|}
+
+{| class="WikiaTable"
+!Bits list
+|-
+|
+1: Obstacle
+
+2: Shootable
+
+22: Affects Kill %
+|}
+</div>
+<div class="divTableCell" style="width:34%;">
+{| class="WikiaTable"
+! colspan="2" |[[Sprite]]s & [[sound]]s
+|-
+|Sprite name||VILE
+|-
+|Alert sound||DSVILSIT
+|-
+|Action sound||DSVILACT
+|-
+|Pain sound||DSVIPAIN
+|-
+|[[Types of death|Death]] sound||DSVILDTH
+|}
+</div>
+<div class="divTableCell" style="width:33%;">
+{| class="WikiaTable"
+! colspan="2" |Ranged attack
+|-
+|Type||Special<br />[[Blast damage|Blast]]
+|-
+|Damage||20 (direct hit)<br />0-70 ([[Blast damage|blast radius]])
+|-
+|Sprite name||FIRE
+|-
+|Sound||DSVILATK (incantation)<br />DSFLAMST (fire column)<br />DSFLAME (fire column)<br />DSBAREXP (explosion)
+|}
+</div></div></div>
+</div>
+
+{| class="WikiaTable"
+|-
+! Shots needed to kill<sup>1</sup>
+! Mean
+! [[Wikipedia:Standard deviation#Interpretation and application|Standard<br />deviation]]
+! Min
+! Max
+|-
+|[[Player]] (100%<br />[[health]], no [[armors|armor]])||2.00||0.00||2||2
+|-
+|Player (100%<br />health, [[security armor]])||2.00||0.00||2||2
+|-
+|Player (200%<br />health, [[combat armor]])||5.00||0.00||5||5
+|-
+|[[Barrel]]<sup>2</sup> ||1||0||1||1
+|-
+|[[Zombieman]]||1.00||0.00||1||1
+|-
+|[[Shotgun Guy]]||1.00||0.00||1||1
+|-
+|[[Wolfenstein SS]]||1.00||0.00||1||1
+|-
+|[[Imp]]||1.00||0.00||1||1
+|-
+|[[Heavy Weapon Dude]]||1.00||0.00||1||1
+|-
+|[[Lost Soul]]||2.00||0.00||2||2
+|-
+|[[Commander Keen]] <sup>2</sup> ||2||0||2||2
+|-
+|[[Demon]]||2.00||0.00||2||2
+|-
+|[[Spectre]]||2.00||0.00||2||2
+|-
+|[[Boss Brain]]<sup>2</sup> ||4||0||4||4
+|-
+|[[Revenant]]||4.00||0.00||4||4
+|-
+|[[Cacodemon]]||5.00||0.00||5||5
+|-
+|[[Pain Elemental]]<sup>2</sup> ||5||0||5||5
+|-
+|[[Hell Knight]]||6.00||0.00||6||6
+|-
+|[[Arachnotron]]||6.00||0.00||6||6
+|-
+|[[Mancubus]]||7.00||0.00||7||7
+|-
+|[[Arch-vile]]<sup>3</sup> ||8||0||8||8
+|-
+|[[Baron of Hell]]||12.00||0.00||12||12
+|-
+|[[Spiderdemon]]||150.00||0.00||150||150
+|-
+|[[Cyberdemon]]||200.00||0.00||200||200
+|}
+#<small>Assumes that the victim never takes blast damage from an attack on a different target. </small>
+#<small>Cannot be targeted because Arch-viles attack other monsters only in retaliation, but may be accidentally hurt by blast damage. </small>
+#<small>Arch-viles can never be Arch-vile targets, but may suffer accidental blast damage. </small>
+
+== Appearance statistics ==
+In the [[Doom games]], the Arch-vile is first encountered on these levels:
+{| class="WikiaTable"
+|-
+!Game!![[I'm Too Young To Die|ITYTD]] and [[Hey, Not Too Rough|HNTR]]!![[Hurt Me Plenty|HMP]]!![[Ultra-Violence|UV]] and [[Nightmare!|NM]]
+|-
+|[[Doom II]]||[[MAP11: Circle of Death (Doom II)|MAP11: Circle of Death]]||[[MAP11: Circle of Death (Doom II)|MAP11: Circle of Death]]||[[MAP11: Circle of Death (Doom II)|MAP11: Circle of Death]]
+|-
+|[[TNT: Evilution]]||[[MAP12: Crater (TNT: Evilution)|MAP12: Crater]]||[[MAP03: Power Control (TNT: Evilution)|MAP03: Power Control]]||[[MAP03: Power Control (TNT: Evilution)|MAP03: Power Control]]
+|-
+|[[Plutonia]]||[[MAP03: Aztec (The Plutonia Experiment)|MAP03: Aztec]]||[[MAP01: Congo (The Plutonia Experiment)|MAP01: Congo]]||[[MAP01: Congo (The Plutonia Experiment)|MAP01: Congo]]
+|}
+
+The [[IWAD]]s contain the following numbers of Arch-viles per [[skill level]]:
+{| class="WikiaTable"
+|-
+!Game!!1-2!!3!!4-5
+|-
+|[[Doom II]]||8||15||17
+|-
+|[[TNT: Evilution]]||10||27||38
+|-
+|[[Plutonia]]||65||86||99
+|}
+
+{{Doom monsters}}
+[[Category:Doom II monsters]]
+[[Category:Doom monsters]]
+[[Category:Demonic Priests]]
+[[Category:Demons]]
+[[Category:Monsters]]

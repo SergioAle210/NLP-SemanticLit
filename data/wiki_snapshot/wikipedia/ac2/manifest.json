@@ -1,0 +1,17 @@
+{
+  "source": "wikipedia",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:16:02+00:00",
+  "total_chars": 78146,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Assassin's Creed II",
+      "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_II",
+      "revid": 1383600819,
+      "file": "pages/Assassin_s_Creed_II.wiki",
+      "chars": 78146
+    }
+  ]
+}

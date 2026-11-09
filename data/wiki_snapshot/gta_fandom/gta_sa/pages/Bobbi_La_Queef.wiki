@@ -1,0 +1,29 @@
+{{Beta|game=SA}}
+{{Infobox_character
+|image         = unknown
+|name          = Bobbi La Queef
+|games         = {{Games|SA={{UN|cutcontent}}}}
+|nationality   = {{Country|US|adj=y}}
+|home          = [[Los Santos (3D Universe)|Los Santos]], [[State of San Andreas (3D Universe)|San Andreas]]
+|gender        = F
+}}
+'''Bobbi La Queef''' is a cut character in {{SA}}.
+
+==Description==
+Bobbi was a cut [[Girlfriends in GTA San Andreas|girlfriend]], originally intended to be found at the [[Verona Beach Gym]] in [[Los Santos (3D Universe)|Los Santos]]. She is described a a stereotypical {{WP|Beverly Hills}}-style cheerleader.
+
+According to [[Rockstar North]]'s "Game Ideas Doc" for ''Grand Theft Auto: San Andreas'', dated [[2002]], Bobbi's house is ambiguously located in the Beverly Hills-inspired areas of Los Santos.{{Ref|name = gtasagdd-bobbi|type = designdoc|date = 12/25/2024|ref = "Girlfriend 2; Bobbi La Queef"; ''GTA San Andreas: Game Ideas Doc - 1st November 2002.'' Rockstar North. (Page 3)}}
+
+==Leftovers==
+Bobbi's bedroom interior model "<code>bobbi-room01</code>" (ID: 14865) can be found in the game at X: 267.2290, Y: 304.7100, Z: 999.1480 in [[Interiors in GTA San Andreas|Interior World]] 2, intended to be reused for [[Katie Zhan]]. It is identified as Bobbi's original room through its model file name and its cheerleader-themed decorations (sports team flags).
+<gallery position="center" spacing="small" widths="270px">
+InteriorWorld-GTASA-Int2-KatieZhansHouse.png|'''Bobbi's''' bedroom interior in Los Santos, recycled as the interior of [[Katie Zhan's House]] in [[San Fierro (3D Universe)|San Fierro]].
+</gallery>
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Navbox gtasa characters}}
+[[Category:Characters in GTA San Andreas]]
+[[Category:Beta characters]]

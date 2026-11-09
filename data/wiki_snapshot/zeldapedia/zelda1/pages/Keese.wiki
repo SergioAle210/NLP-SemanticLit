@@ -1,0 +1,281 @@
+{{Infobox Enemy
+|image= File:Keese_Echo.png
+|caption=Keese from {{EoW|-}} 
+|pronunciation= 
+|race= 
+|habitat= Caves<br/>Dungeons<br/>[[Castle Dungeon]]{{Exp Game|ALttP}}
+|member=[[Fire Keese]]<br/>[[Ice Keese]]<br/>[[Electric Keese]] 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|1}}
+ |ALttP= {{HP|ALttP|1}}
+ |LA= {{HP|LA|1}}
+ |OoT= {{HP|OoT|1}}
+ |MM= {{HP|MM|1}}
+ |TWW= {{HP|TWW|1}}
+ |TMC= {{HP|TMC|1}}
+ |SS={{HP|SS|2}}
+ |BotW= {{HP|BotW|1}}<ref>{{Cite Guide|quote= |game= BotW|page= 303|publisher= Piggyback|edition= Expanded Edition|year= 2018}}</ref>
+}}
+|attack= 
+{{Infobox Game Blocks
+ |TLoZ= {{Damage
+|attack1= Contact|damage1= 0.50}}
+ |ALttP= {{Damage
+|attack1= Contact|damage1= 0.25}}
+ |LA= {{Damage
+|attack1= Contact|damage1= 0.50}}
+ |OoT= {{Damage
+|attack1= Contact|damage1= 0.25}}
+ |MM= {{Damage
+|attack1= Contact|damage1= 0.25}}
+ |TWW= {{Damage
+|attack1= Contact|damage1= 0.25}}
+ |TMC= {{Damage
+|attack1= Contact|damage1= 0.25}}
+}} 
+|weapon= [[Sword]]<br/>[[Bow]]<br/>[[Boomerang]]<br/>[[Hookshot]]
+|spoils=[[Monster Claw]] {{Exp Game|SS}}<br/>[[Goddess Plume]]  {{Exp Game|SS}}<br/>[[Keese Wing]] {{Exp Game|BotW}}<br/>[[Keese Eyeball]] {{Exp Game|BotW}} 
+|exp= 
+|theme= 
+|game_debut={{TLoZ}}
+|spinoff_debut={{LCT}}
+}}
+{{Term/Store|Keese|Keese|Series, TLoZ, ALttP, LA, OoT, MM, OoS, OoA, TWW, FS, FSA, TMC, TP, PH, ST, SS, ALBW, TFH, LCT, NL|plural}} are recurring {{Plural|Series|Enemy|link}} in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 187 {{Exp Game|TLoZ, ALttP, LA, OoT, MM, OoS, OoA, TWW, FS, FSA, TMC, TP, PH, ST, SS, ALBW, TFH}}}}</ref><ref>{{Cite|'''{{Color|BotW Shrine Quest|Keese}}'''|Hyrule Compendium|BotW}}</ref><ref>{{Cite|{{Big|Hyrule Castle: Defender}}<br/>Those Keese aren't making this graveyard any more inviting. Watch your radar, and take them down!|Stage Select|LCT}}</ref><ref>{{Cite|{{Big|''Keese''}}|Monita|NL}}</ref>{{Note|Keese are pluralized as "Keeses" in {{TLoZ}} manual and in {{TWW}}.<ref name="TLoZ Manual">{{Cite manual|quote= Vire is a devil that controls the Keeses. When Link cuts it with his sword, it turns into two Keeses.|game= TLoZ|page= 35}}</ref><ref>{{Cite|These bats fly around dark places and attack anything that moves. Great care should be taken around Fire Keeses that appear during times of volcanic activity.|Figurine|TWWHD}}</ref> However, as the enemy's plural was officially stated as Keese in {{E}}, "Keeses" is not considered [[Guidelines:Canon|Canon]].}}
+
+==Characteristics==
+Keese are [[bat]]-like creatures that inhabit [[dungeon]]s and [[cave]]s, similarly to their real-life counterparts. Following their debut in {{TLoZ}}, they have since become a staple of {{TLoZ|Series}} and have appeared in the majority of games with the exception of {{TAoL}}, where Keese are absent and are instead replaced by the similar [[Ache]]s.
+
+Keese often exist in clusters in the places where they are found. They fly around the screen erratically, not heading towards anything in particular, and stop to rest for a short amount of time on a neighboring wall or rock face. In some games, such as {{ALttP}} and {{LA}}, Keese move about the screen only when {{Term|Series|Link|link}} is within close proximity, otherwise they remain still. Later games, such as {{TWW}} and {{TP}}, introduce Keese with a slightly more active attack strategy, targeting Link, but pausing above him before striking, providing an opportunity for him to strike.
+
+As small and commonplace creatures, Keese are relatively weak and can be dispatched with a variety of weaponry, including [[Sword]]s, [[Boomerang]]s, [[Bomb]]s, and [[Arrow]]s.
+
+Keese are known to inhabit various forms in adapting to their surrounding environment. Notable variants include [[Fire Keese]] and [[Ice Keese]], which are enveloped in fiery and icy mist, respectively. Less common forms include [[Keese Swarm]]s, [[Shadow Keese]], [[Thunder Keese]], and [[Dark Keese]]. [[Vire]]s, when defeated, will also split into a pair of Keese, which may or may not be fought.<ref name="TLoZ Manual"/>
+
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Vire & Keese|Vire is a devil that controls the Keeses. When Link cuts it with his sword, it turns into two Keeses. Keeses have little attacking power, but Vire is a little stronger.}}
+Keese inhabit [[dungeon]]s in {{TLoZ}}. They resemble blue bats, and commonly appear in small to medium-sized groups. Keese flutter through rooms in a random path, stopping only periodically to rest. They are also the only enemies that are encountered in the game's side-scrolling chambers, where they can be found resting against the walls before taking flight. Keese can be defeated by any weapon in [[Link]]'s arsenal, including the [[Sword]], [[Bow]], and [[Candle]] As they are very small enemies, the [[Boomerang]] will also defeat them as opposed to stunning them. [[Vire]]s will split into two red Keese when defeated. These Keese are fought in the same manner as the common variety. Keese never drop any items when defeated.
+
+==={{ALttP|-}}===
+[[File:Keese ALttP.gif|30px|left]]
+Keese inhabit [[cave]]s and tunnels in the [[Light World]] of [[Hyrule]] in {{ALttP}}. Unlike their previous incarnation, Keese remain still along cave walls and crevices, but take flight when [[Link]] draws close. Keese have a more direct flight pattern than previous appearances, soaring in a curving arc as opposed to random flight, before resting again on the next wall. They are also encountered less frequently in groups, though they can still occasionally be found huddled together. They are weak enemies and can be defeated by any means of attack. In the [[Game Boy Advance]] version of {{ALttP|-}}, Keese also appear as enemies in the [[Palace of the Four Sword]].
+
+The [[Dark World]] counterparts of Keese are [[Chasupa]]s, which behave identically but are significantly stronger.
+
+==={{LA|-}}===
+Keese often appear in small groups in [[cave]]s and [[dungeon]]s in {{LA}}. They remain still until [[Link]] approaches, whereupon they take to the air and fly in a curving arc before briefly stopping to rest. They are much smaller than past appearances, and their darker coloration provides camouflage against pits and makes them difficult to see. Despite this, Keese are still weak enemies and can be defeated by any attack.
+
+[[Battle Bat]]s are a similar enemy summoned by the [[Grim Creeper]], and are also referred to as Keese.<ref>{{Cite Guide|quote= |game= LA|publisher= Nintendo|page= 75}}</ref> When [[Vire]]s are defeated, they will turn into a pair of Keese with skull faces, attempting to dive at Link before flying away.
+
+==={{OoT|-}}===
+{{Navi
+|quote1= {{Color|OoT White|Keese}}<br/>When you get close to it, use Z Targeting. Even if it flies away, you can still target it.
+}}
+
+Keese are much more active than their previous appearances in {{OoT}}; most fly around rooms without ever stopping to rest. They can occasionally be found huddled against walls, but take flight when disturbed. Keese are also much more aggressive, and will attempt to dive at [[Link]] whenever they spot him. Their attacks can be blocked by holding up the [[Shield]]. Keese can be defeated with any conventional weapon; however, due to the 3D environment and their high-altitude flight, Link may have to resort to using ranged weapons such as the [[Fairy Slingshot]], [[Boomerang]], [[Fairy Bow]], or [[Hookshot]] to reach these enemies. Yet as many are constantly in flight, they can be difficult to aim at without [[targeting]]. Keese in {{OoT|-}} do not inhabit caves, and are instead only encountered in [[dungeon]]s, especially within dark corridors.
+
+{{OoT|-}} also introduces two variations: [[Fire Keese]] and [[Ice Keese]]. They are Keese that are enveloped in fiery and icy mist, respectively.  Fire Keese will set Link on fire if they hit him and have their flames extinguished by blocking their attacks with the Shield. Ice Keese freeze Link and retain their flame when blocked by Link's shield.
+
+==={{MM|-}}===
+{{Tatl
+|context1= {{MM3D|-}}
+|quote1= A {{Color|MM3D White|Keese}}. Use L-Targeting when it gets close. Even if it flies off, I'll follow it for you.
+
+|context2= {{MM|-}}
+|quote2= What?! Don't you know about the {{Color|MM White|Keese}}? Use Z Targeting when it gets close. Even if it flies off, I'll follow it for you.
+}}
+
+In {{MM}}, Keese return, along with Fire Keese and Ice Keese, all identically to their {{OoT|-}} incarnations. They fly through the space they inhabit, and dive at [[Link]] whenever they spot him. Long-range weapons, such as the [[Boomerang]], the [[Hero's Bow]], and the [[Hookshot]], are effective against them. They can only be found in a few areas, including [[Beneath the Well]] and the [[Stone Tower Temple]].
+
+{{MM|-}} also introduces similar enemies called [[Bad Bat]]s, which behave similarly to Keese, but are much larger in size.
+
+==={{OoS|-}} / {{OoA|-}}===
+Keese in {{OoS}} and {{OoA}} closely resemble their {{LA|-}} incarnation, appearing as small, dark-colored bats. They inhabit caverns and dungeons in large groups. Keese are easily disturbed, and will fly sporadically around their space. Like those from {{LA|-}}, their small size and dark coloration can make them difficult to see, especially over dark pits or against the walls of side-scrolling areas. They can be defeated by any means of attack.
+
+[[Fire Keese]] also return, and extinguishing the flames of one turns it back into a Keese. However, they retain their original flight pattern and can fly through fire to turn back into Fire Keese.
+
+[[Vire]]s will turn into a pair of Keese with skull faces when it is defeated.
+
+==={{FS|-}}===
+Keese appear as enemies in {{FS}}. They behave similarly as in previous two-dimensional games of {{TLoZ|-}} series. One of the [[Links]] can defeat a Keese by attacking it with his [[Sword]].
+
+==={{TWW|-}}===
+{{Figurine|TWW|Keese & Fire Keese}}
+{{Tingle
+|quote1= It's a '''Keese'''!  Fighting them would be simple if you could attack them all at once!
+}}
+
+Keese appear in caves and dungeons in {{TWW}}. They constantly fly around the areas they inhabit, and will fly over to [[Link]] when they notice him. Their attack strategy differs slightly from previous appearances, and they will pause just before striking Link. Any conventional weapons are effective against them, with long-ranged weapons, such as the [[Boomerang]], the [[Hero's Bow]], and the [[Hookshot]], necessary to engage them from a distance.
+
+[[Fire Keese]] also appear in {{TWW|-}}, and they can be turned into normal Keese by blowing out their flames with the [[Deku Leaf]].
+
+==={{FSA|-}}===
+Keese in {{FSA}} are based on those from {{ALttP|-}}. They initially sit still, but fly in a curving path as they are approached by the [[Link]]. They can be found inside caverns and dungeons. Unlike other appearances, Keese in {{FSA|-}} often appear alone or secluded from one another. They can be defeated with a single strike from the [[sword]].
+
+{{FSA|-}} also introduces a variant called a [[Keese Swarm]], which surround the Links in a trail of copies, and can only be defeated by striking the red Keese of the Swarm.
+
+==={{TMC|-}}===
+{{Figurine|TMC|Keese}}
+Keese in {{TMC}} appear and behave similarly to those from {{OoS}} and {{OoA}}. They are small enemies that are easily disturbed and flap about rooms in an unpredictable pattern, stopping only periodically to rest. Unlike other appearances, they have no way to camouflage themselves, and they inhabit [[cave]]s and [[dungeon]]s across [[Hyrule]]. Any conventional weapon can defeat them.
+
+==={{TP|-}}===
+Keese in {{TP}} more closely resemble real-world bats, but with ghastly features and tattered wings, as well as the addition of a curved hook on their tails. These enemies are constantly in flight as they patrol the space they occupy. Similarly to those of {{TWW|-}}, Keese fly at [[Link]] and pause before striking, giving him an opportunity to attack before they do. As small and lightweight enemies, any weapon in Link's arsenal is able to defeat them.
+
+[[Fire Keese]] and [[Ice Keese]] both return. The [[Gale Boomerang]] can be used to extinguish their flames and icy mist, turning them back into normal Keese. [[Shadow Keese]] are a [[Twilight]] version appearing only in the [[Twilight Realm]].
+
+==={{PH|-}}===
+Keese return in {{PH}}, alongside are common enemies that inhabit {{Plural|PH|Cave|link}} and {{Plural|PH|Dungeon|link}}. Closer to their 3D console appearances, they are constantly in flight and fly in circular, random motions, and often appear in small groups. These enemies can be easily defeated merely by striking them with the {{Term|PH|Sword|link}}, though many other weapons are also effective at dispatching them.
+
+{{Plural|PH|Fire Keese|link|display=Fire}} and {{Plural|PH|Ice Keese|link}} reappear in {{PH|-}}.
+
+==={{ST|-}}===
+Keese return as enemies, along with Fire Keese and Ice Keese, and commonly appear in groups within caves and dungeons. Keese constantly fly in random circular motions, closer to three-dimensional installments of {{TLoZ|-}} series. Keese can be defeated from a [[sword]] strike and most other items. If [[Link]] uses a [[Whirlwind]] on either a Fire Keese or an Ice Keese, this turns it into a regular Keese.
+
+==={{SS|-}}===
+{{Fi
+|quote1= <p>Target lock: {{Color|SS Blue|Keese}}</p><p>Found in many locations, these winged monsters are attracted to dark places, such as caves.</p><p>They often gather in colonies, are active at night, and sleep in the day. Those who come too close and awaken them often fall victim to attack.</p>
+}}
+
+Keese in {{SS}} patrol the areas they reside in while in flight high above. When they notice [[Link]], Keese fly down to his level, and pause before attacking. Their distinctive yellow eyes will glow red just before they strike. Keese can defeated from a [[Sword]] strike, as well as shot down from the sky using a long-range weapon such as the [[Slingshot]], [[Beetle]], and [[Bow]]. A Keese has to be hit with the [[Practice Sword]] twice to be defeated.
+
+Aside from the returning [[Fire Keese]], the game introduces two additional variants of Keese: [[Thunder Keese]], an electrified variant, and [[Dark Keese]], a skeletal variant capable of inflicting a [[curse]] upon Link.
+
+==={{ALBW|-}}===
+Keese in {{ALBW}} are closely based on their {{ALttP|-}} incarnation. They sit quietly, taking to the air only when approached. Keese will generally make for [[Link]]'s direction as they fly. As before, any conventional weapon is able to dispel or otherwise stun them. If left alone, they will return to their original positions.
+
+==={{TFH|-}}===
+Keese in {{TFH}} behave similarly to their 3D console appearances. They patrol their territory in short, circular paths, yet when they spot one of the [[Links]], they will back away before swiftly diving at them to attack. They can be defeated or stunned by any weapons in the Links' possession. [[Fire Keese]] and [[Ice Keese]] also appear, and a Link can use a [[Gust Jar]] to turn them into regular Keese.
+
+==={{BotW|-}}===
+{{Compendium/Extract|Keese}}
+Keese in {{BotW}} are bat-like enemies with sharp teeth and a single, glowing eye. They can potentially drop [[Keese Eyeball]]s or [[Keese Wing]]s when defeated. Keese are found during nighttime, and sometimes on the ceilings of [[cave]]s. They will often attack in swarms. If Link [[Parry|parries]] their charge attack, they will be killed without any loss of durability, unless if it is any Lynel shields.
+
+[[Electric Keese|Electric]], [[Fire Keese|Fire]], and [[Ice Keese]] also reappear in {{BotW|-}}. These drop [[Fire Keese Wing]]s, [[Ice Keese Wing]]s, and [[Electric Keese Wing]]s, respectively, as well as Keese Eyeballs.
+
+When blown away using a [[Korok Leaf]], Keese will momentarily fall to the ground before they start flying again.
+
+==={{TotK|-}}===
+{{Compendium|number=97|name=Keese|desc= The unpredictable flight pattern of this nocturnal, bat-like species can make fighting them a nuisance, but they're weak enough to fell with a single strike. Sometimes they like to form packs, and they have been seen swarming out of caves together.|locs= Hyrule Field, West Necluda|loot= Keese Wing, Keese Eyeball}}
+Keese in {{TotK}} are largely similar as in {{BotW|-}}. In addition to appearing at night and on cave ceilings, they may also exit caves in swarms as Link enters. In these instances, they will not cause immediate contact damage and will pass through Link, but can receive damage from weapons and explosives if the player is able to attack them before they disappear. When parried, won't use up any durability, unless a sharp object is fused with it or using [[Lynel Shield]]s.
+
+==={{EoW|-}}===
+{{Manual|EoW|Keese|A monster resembling a bat. If you hold one aloft and step off a ledge, you can glide a bit.<ref name="EoW Keese">{{Cite|A monster resembling a bat. If you hold one aloft and step off a ledge, you can glide a bit.|Notebook|EoW}}</ref>}}
+The Keese in [[The Legend of Zelda: Echoes of Wisdom|Echoes of Wisdom]] acts like a normal Keese in [[The Legend of Zelda: Link's Awakening (Nintendo Switch)|Link's Awaking]]. It will fly high and dive bomb to attack you. There are four different variants of the Keese, normal, fire, ice, and electric. The normal Keese are black and have no special properties, the fire Keese are red and will set the player on fire on contact, the ice Keese is white and will freeze the player on contact, and the electric Keese are green and will stun the player with electricity on contact. The normal Keese costs one [[echo]] [[energy]], and the fire, ice, and eclectic Keese cost four energy.
+
+==Spinoff appearances==
+{{Noncanon|Start}}
+==={{TLoZ|-}} Game Watch===
+[[File:Bat GW.png|right]]
+In {{TLoZGW}}, Keese are referred to as '''Bats'''.<ref>{{Cite manual|quote= Link is attacked by crushing Iron Balls, {{typo|Ferocious|ferocious}} bats, and a fire breathing {{typo|Dragons|Dragon}} |game= TLoZGW|page= }}</ref> They can only be defeated with the [[Sword]]. They appear from the second [[dungeon]] onward, and only once all of the [[Iron Ball]]s have been defeated. Once all of the Bats in a room are defeated, a [[Key]] appears, which [[Link]] can use to proceed to the next room.
+
+==={{TFoE|-}} / {{TWoG|-}}===
+{{stub|TFoE, TWoG}}
+Keese are among the enemies encountered by [[Link]] and [[Princess Zelda|Zelda]] in {{TFoE}} and {{TWoG}}, respectively.
+{{Noncanon|End}}
+
+{{Ambig|Start}}
+==={{LCT|-}}===
+Keese are enemy targets encountered in a few stages in {{LCT}}. Keese first appear in [[Hyrule Castle: Defender]], followed by [[Snowpeak Ruins: Ranger]], [[Temple of Time: Ranger]], [[Snowpeak Ruins: Defender]], and lastly [[Ranch Target Practice]]. Keese typically attack by flying at the player in swarms. Keese reward 30 points when defeated.
+
+==={{HWAoC|-}}===
+Keese return as enemies in {{HWAoC}}, along with a few of their elemental counterparts: [[Fire Keese]], [[Ice Keese]], and [[Electric Keese]]. Keese and their variants are all depicted after their appearance in {{BotW|-}}. Keese are weak enemies that can usually be defeated quickly, and defeating a Keese may result in it dropping either a [[Keese Wing]] or a [[Keese Eyeball]].
+{{Ambig|End}}
+
+==In other media==
+==={{OoS|-}} (Himekawa)===
+A Keese has a major role in the {{OoS|-}} manga, flying off to warn [[Onox]] of Link's potential after [[Blaino]]'s defeat, while having a [[Crow]] (Named Crowley) plant [[Manhandla]] to handle him. He later reports to Onox after [[Medusa Head]] is defeated and Link's progress through the northern mountains, earning a near death brush from his weapon and a berating to secure the perimeter, instead of reporting to him.
+{{Noncanon|End}}
+
+==Crossover appearances==
+{{Noncanon|Start}}
+==={{NL|-}}===
+{{Monita|Keese are bat-like monsters usually found in dark places. They ram you if you get close and then fly out of reach when you finally manage to draw your sword. How rude!}}
+
+Keese appear within caves and dungeons in the later stages of "Battle Quest" mode in {{NL}}. Keese are usually encountered in large swarms on the ceiling. Keese first appear in [[Death Mountain Climb]]. When the player draws near, Keese drop down and fly directly at them, one after the other, and must be defended against or defeated before they strike. After attacking, they will pass by and not strike again. They are also summoned by [[Wizzrobe]]s when playing as an Archer, appearing as pairs or in groups of three. They are best shot down with charged shots as they appear.
+
+Keese are one of the 200 Prizes that can be won using the Coins in the main Plaza. Upon touching the Keese Prize in the Plaza, the Keese will become animated temporarily and [[Monita]] will comment on it.
+
+==={{SLW|-}}===
+Keese appear as enemies in [[The Legend of Zelda Zone|{{TLoZ|-}} Zone]] from {{SLW}}, using their design from {{SS|-}}. They behave identically to the Batbrain enemies from the main game.
+
+==={{MK8|-}} / {{MK8|D|-}}===
+In {{MK8}} and its {{MK8|D}}, Keese, which take on their {{SS|-}} appearance, are obstacles encountered late into [[Hyrule Circuit]], where they fly in the opposite direction of the racers. Anyone who drives into a Keese stops moving temporarily. Keese behave identically to [[mariowiki:Swooper|Swoopers]], a similar bat enemy from the ''Mario'' franchise, and take over their role in Hyrule Circuit.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+[[File:CoH Keese Sprite.png|left]]
+Keese are enemies in {{CoH}}, where they move to the beat of the music. They fly on every other beat, holding out their wings for one beat, facing the direction they want to fly in before moving on the second beat.
+{{Ambig|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+===Sprite===
+<gallery>
+File:TLoZ Keese Sprite.png|Sprite from {{TLoZ|-}}
+File:ALttP Keese Sprite.png|Sprite from {{ALttP|-}}
+File:LA Keese Sprite.png|Sprite from {{LA|-}}
+File:LADX Keese Sprite.png|Sprite from {{LA|DX|-}}
+File:OoS Keese Sprite.png|Sprite from {{OoS|-}}
+File:OoA Keese Sprite.png|Sprite from {{OoA|-}}
+File:FS Keese Sprite.png|Sprite from {{FS|-}}
+File:FSA Keese Sprite.png|Sprite from {{FSA|-}}
+File:TMC Keese Sprite.png|Sprite from {{TMC|-}}
+</gallery>
+===Models===
+<gallery>
+File:OoT Keese Model.png|Model from {{OoT|-}}
+File:OoT3D Keese Model.png|Model from {{OoT3D|-}}
+File:MM Keese Model.png|Model from {{MM|-}}
+File:TWW Keese Figurine.png|Model from {{TWW|-}}
+File:TP Keese Model.png|Model from {{TP|-}}
+File:PH Keese Model.png|Model from {{PH|-}}
+File:ST Keese Model.png|Model from {{ST|-}}
+File:SS Keese Model.png|Model from {{SS|-}}
+File:SSHD Keese Model.png|Model from {{SSHD|-}}
+File:SS Keese Render.png|Render from {{SS|-}}
+File:ALBW Keese Model.png|Model from {{ALBW|-}}
+File:TFH Keese Model.png|Model from {{TFH|-}}
+File:LANS Keese Model.png|Model from {{LA|NS|-}}
+File:BotW Keese Model.png|Model from {{BotW|-}}
+</gallery>
+===Artwork===
+<gallery>
+File:TLoZ Keese Blue Artwork.png|Artwork for {{TLoZ|-}}
+File:TotK Keese Artwork.png|Artwork for {{TotK|-}}
+</gallery>
+===Other===
+<gallery>
+File:EoW Keese rift.png|[[Dark Echo]] from {{EoW|-}}
+</gallery>
+{{Gallery}}
+
+==See also==
+* [[Ache]]
+* [[Acheman]]
+* [[Bad Bat]]
+* [[Bat]]
+* [[Chasupa]]
+* [[Dark Keese]]
+* [[Electric Keese]]
+* [[Fire Keese]]
+* [[Ice Keese]]
+* [[Keese Swarm]]
+* [[Shadow Keese]]
+* [[Vire]]
+
+{{Notes}}
+{{Ref}}
+
+{{Enemies}}
+{{Categories
+ |Bat-Like Enemies, Eye Enemies, Flying Enemies, Keese, Echoes
+ |enemies= TLoZ, ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, TP, TPHD, PH, ST, SS, ALBW, TFH, BotW, TotK, EoW, TLoZGW, TFoE, TWoG, BSTLoZ, AST, LCT, NL, CoH
+}}
+
+[[de:Flederbeißer]]
+[[es:Keese]]
+[[fr:Chauve-Souris]]
+[[ja:キース]]

@@ -1,0 +1,176 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork ALttP= File:Lttp - Hookshot.png
+ |Artwork LA= File:LA Hookshot Artwork.png
+ |Artwork TWWHD= File:TWWHD Hookshot Artwork.png
+ |Render OoT= File:OoT Hookshot Render.png
+ |Render MM= File:MM Hookshot Render.png
+ |Render MM3D= File:MM3D Hookshot.png
+ |Render ALBW= File:ALBW Hookshot.png
+ |Model LANS= File:LANS Hookshot Model.png
+ |Model OoT= File:OoT Hookshot Model.png
+ |Model OoT3D= File:OoT3D Hookshot Model.png
+ |Model MM= File:MM Hookshot.png
+ |Model MM3D= File:MM3D Hookshot Model.png
+ |Model TWW= File:Hookshot TWW.png
+ |Model TWWHD= File:TWWHD Hookshot Model.png
+ |Sprite ALttP= File:Hookshot.png
+ |Sprite LA= File:LA Hookshot Sprite.png
+ |Sprite LADX= File:LADX Hookshot Sprite.png
+ |Sprite LANS= File:LANS Hookshot Icon.png
+ |Sprite OoT= File:OoT Hookshot Icon.png
+ |Sprite OoT3D= File:OoT3D Hookshot Icon.png
+ |Sprite MM= File:MM Hookshot Icon.png
+ |Sprite MM3D= File:MM3D Hookshot Icon.png
+ |Sprite TWW= File:TWW Hookshot Icon.png
+ |Sprite TWWHD= File:TWWHD Hookshot Icon.png
+ |Sprite ALBW= File:ALBW Hookshot Icon.png
+}}
+|caption= 
+|pronunciation= {{IPA|ˈhʊkˌʃɒt}} {{Respell|HUUK|shot}}<ref>{{Cite Web|quote= In addition to destroying walls with bombs, you can attack distant enemies with arrows, climb up walls with the Hookshot, and more. |author= Nintendo of America |published= August 4, 2014 |retrieved= August 4, 2014|url= https://www.youtube.com/watch?v=3_DZtTR3zu0&t=313s |title= Hyrule Warriors Direct 8.4.2014 |site= YouTube |type= video}}</ref>
+|plural= 
+|game= ALttP, LA, OoT, MM, TWW, ALBW
+|other= AST, HW
+|crossover= SSB, SSBM, SSBB, SSB4, CoH
+|cost= 
+|value= 
+|location= 
+|uses= Reaching faraway areas and objects
+|strength=
+{{Infobox Game Blocks
+ |OoT= [[Weapon Strength#Ocarina of Time|2]]
+}}
+|durability= 
+|comp= [[Clawshot]], [[Grappling Hook]], [[Gripshot]], [[Longshot]], [[Switch Hook]]
+|sample= 
+|theme= 
+}}
+{{Term/Store|Hookshot|Hookshots|Series, ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, TWW, TWWHD, ALBW, SSB, HW, HWL, HWDE, CoH|plural}},{{Exp Game|ALttP, LA, LADX, OoT, OoT3D, MM, MM3D, TWW, TWWHD, ALBW, SSB, HW, CoH}}<ref>{{Cite Book|quote= |book= E |page= 127{{Exp Game|ALttP, LA, OoT, MM, TWW, ALBW}}}}</ref><ref>{{Cite|{{Color|HWDE Green|Hookshot}}: Use this on distant targets to pull yourself to them.|Tutorial|HWDE}}</ref>{{Name Ref|SSB, LANS}}, also known as '''Hook Shots''',{{Exp Game|ALttP, LA}}<ref>{{Cite|BOING! This is the Hook Shot! It extends and contracts and... BOING! It can grapple many things!|N/A|ALttP}}</ref><ref>{{Cite|You've got the Hook Shot! Its chain stretches long when you use it!|N/A|LADX}}</ref><ref>{{Cite Web|quote= This is the Hook Shot in The Legend of Zelda: Link's Awakening. Latch it onto something far away and ZIP, off you go! It's also great for stunning enemies if you hit them with it. |author= The Legend of Zelda |published= August 15, 2019 |retrieved= August 15, 2019 |url= https://www.facebook.com/LegendofZelda/videos/2183059131821199/ |title= The Legend of Zelda - The Legend of Zelda: Link&#039;s Awakening - Hook Shot {{!}} Facebook |site= Facebook |type= }}</ref> are recurring [[item]]s in {{TLoZ|Series}}. A Hookshot first appears in {{ALttP}}.
+
+==Location and uses==
+[[File:Link Hookshot.png|left|150px]]
+Hookshots are machines consisting of a chain and hook. When used, the chains extend and send the hook attached towards their targets. The main purpose of the Hookshot is to grapple on to distant targets to pull [[Link]] toward them, allowing him to go to otherwise inaccessible areas. In most cases, attacking an enemy with the Hookshot will only stun them, but some weaker enemies such as [[Keese]] are defeated when hit with the Hookshot. However, certain enemies will pull Link toward them when hit by the Hookshot, such as [[Like Like]]s. Similarly to a [[Boomerang]], the Hookshot can retrieve [[Rupee]]s and activate distant [[switch]]es.
+
+In most of its appearances, a Hookshot is a [[Dungeon Item]], typically found within a water-themed or flooded [[Dungeon]]. The Hookshot is usually guarded by the dungeon's mini-boss, and it often becomes necessary to navigate the remainder of the dungeon where it is found, as well as for defeating the boss.
+
+In 2D installments of {{TLoZ|Series}}, the Hookshot can latch on to certain solid objects that stand in any of the four cardinal directions, including [[Block]]s, small [[Treasure Chest]]s, [[Skull]]s, [[Pot]]s, and [[Jar]]s. The Hookshot is often used to pull Link over water, chasm, and unsafe hazards. Meanwhile, in 3D installments of the series, the Hookshot can be used to reach higher or lower heights, and objects that can be grappled onto are usually marked with a bulls-eye target.
+
+==Mainline appearances==
+==={{ALttP|-}}===
+{{Manual|ALttP|Hook Shot|This device consists of a long chain with a hook on the end. You can fling the hook into a tree, pot or treasure chest and then pull yourself to the location of the hook by reeling in the chain. This will enable you to cross holes in the ground or other such obstacles. The Hook Shot can also be used as a weapon.}}
+{{Manual|ALttP&FS|Hookshot|Use the chain attached to this hook to travel to distant points. It can also be used as a weapon.}}
+In {{ALttP}}, its first appearance, the Hookshot is found in the [[Swamp Palace]]. Link uses the Hookshot to explore many areas, both in [[Dungeons in A Link to the Past|dungeons]] and, primarily, in the [[Dark World]]. The Hookshot can also stun certain types of enemies and defeat a few others instantly. Link cannot move while using the Hookshot, but he becomes temporarily invulnerable while using it.
+
+The Hookshot is an essential part of the [[boss]] fight against [[Arrghus]], as Link must use it to pull the [[Arrgi]] off of Arrghus itself before he can attack and defeat the monster.
+
+==={{LA|-}}===
+{{Manual|LA|Hook Shot|The business end of the Hook Shot can be thrust into pots, treasure chests or blocks. You can then reel in the chain and pull yourself to the hook. This grappling hook can also be used to attack enemies or pick up items that are out of reach.}}
+In {{LA}}, the Hookshot is located in [[Catfish's Maw]]. To obtain it, Link must defeat the [[Master Stalfos]] [[Sub-Boss|mini-boss]], who has taken it from a treasure chest inside the dungeon. The Hookshot is used similarly as in {{ALttP|-}}, although a notable difference is that the item can be used to grab various bridges to extend them toward Link to use as platforms. The Hookshot is required to defeat the [[boss]] of Catfish's Maw, [[Slime Eel]], by pulling its head from the wall, leaving it vulnerable. The Hookshot is required to complete the [[Signpost Maze]].
+
+==={{OoT|-}}===
+In {{OoT}}, the Hookshot is found in [[Dampé]]'s [[?|grave]] after besting Dampé the first time in a race when Link is an adult. The Hookshot can be aimed around the environment from a stationary point from a first-person perspective. The Hookshot also produces a laser light used for aiming. When [[targeting]], however, Link can aim up and down while moving side to side. The Hookshot has an upgrade, the [[Longshot]], which has a longer reach than it, which can be acquired by defeating [[Dark Link]] in the [[Water Temple]]. Both the Hookshot and its variant are only usable by Link as the [[Hero of Time]].
+
+The Hookshot is required to enter the [[Forest Temple]], as Link cannot access the Temple and must aim the Hookshot at a nearby tree to enter. The game utilizes this idea of grappling to nearby targets to move around the environment (such as crossing gaps and traps) for the rest of the game. The Hookshot can collect [[Golden Skulltula Spirit|Gold Skulltula Tokens]] and defeat weaker [[enemy|enemies]]. The sixth [[boss]], [[Morpha]], strongly focuses its attention on the Hookshot, using it to pull out its nucleus, making it vulnerable. 
+
+The Hookshot can be used underwater if Link has the [[Iron Boots]] equipped. Certain underwater enemies can only be defeated from the Hookshot.
+
+In {{OoT3D}}, the laser dot is surrounded by an extra red ring when the Hookshot is pointed at a viable object. The Hookshot can also be aimed by moving the [[Nintendo 3DS]].
+
+==={{MM|-}}===
+The Hookshot is found in the [[Pirates' Fortress]] in {{MM}}. It is one of the items that Link can only use in his regular form. The Hookshot is yellow and has only one chain length, although it can extend to about the same length as the Longshot in {{OoT|-}}. Other than these differences, the Hookshot is otherwise the same as in the previous game.
+
+==={{TWW|-}}===
+In {{TWW}}, the Hookshot is located in the [[Wind Temple]], where Link can obtain it after defeating the [[Mini-Boss]], the summoning [[Wizzrobe]]. The Hookshot functions similarly as in previous 3D installments. Just like before, a red dot is used a pointer but a yellow starburst indicates any objects that can be grabbed. The Hookshot is used differently with the [[Iron Boots]]. If the Hero of Winds equips both items simultaneously, he becomes so heavy and does not get pulled towards his target. Because of this, the Hookshot gives Link a much stronger pull on objects, allowing for them to be moved toward him.
+
+Using the Hookshot is required to free [[Makar]] from the Wind Temple, as it can pull the heavy stones off the wall. The boss of the Wind Temple, [[Molgera]], can only be attacked after Link uses the Hookshot to grab its tongue and be pulled toward it. The Hookshot is also required to climb up [[Ganon's Tower]].
+
+==={{ALBW|-}}===
+The Hookshot can be rented for 50 [[Rupee]]s or bought for 800 Rupees from [[Ravio's Shop]] in {{ALBW}}. The Hookshot can be upgraded to the [[Nice Hookshot]] by [[Mother Maiamai]], if Link has purchased the Hookshot from Ravio's Shop and has found at least 10 Lost [[Maiamai]]s. The Nice Hookshot deals more damage and extends farther.
+
+The Hookshot can be used to grapple onto switches as well as wooden walls, which Link can then quickly [[Wall Merging|merge]] with. Certain Floodgate switches in the [[Swamp Palace]] can only be grabbed with the Hookshot. These change the water level of the dungeon. 
+
+Other than this, it behaves similarly to how it did in {{ALttP}} and is used to defeat the updated version of [[Arrghus]].
+
+==Spinoff appearances==
+==={{HW|-}}===
+{{Ambig|Start}}
+In {{HW}}, the Hookshot is an item obtained in the "[[The Shadow King]]" [[scenario]]. The Hookshot is used to grapple onto ledges, indicated by a bulls eye target overhead and a glowing space when the Hookshot is selected. It can also be used to grapple onto enemies and quickly move towards them, sometimes also while performing an attack on certain enemies in some instances, such as on [[Aeralfos]] when it is in flight. The Hookshot can temporarily be upgraded by finding a item upgrade power-up in battles, which increases its strength for its duration. In this state it can also be used to pull and crash a tiny [[Moon (Object)|Moon]] onto enemies. Its duration can be increased by crafting [[Whip]] [[Badge]]s. The Hookshot is also used to pull down and stun [[Argorok]] when its tail glows blue, as well as weaken a part of [[Ganon]] when his tail glows. The Hookshot can expose an Aeralfos' [[Weak Point Gauge]].
+
+In [[Adventure Mode]], the Hookshot is an [[Item Card]]. It can latch on to certain targets on the map, pulling the player's warrior there and unlocking the square that the target is in.
+{{Ambig|End}}
+
+==Crossover appearances==
+{{Noncanon|Start}}
+==={{SSB|-}} series===
+[[File:Hookshot (SSBM).jpg|thumb|right|Link using the Hookshot in {{SSBM|-}}]]
+The Hookshot is Link's {{ssb|grab}} in {{SSB}} and {{SSBM}}. In {{SSBB}} and {{SSB4}}, it was replaced by the [[Clawshot#Super Smash Bros. Brawl|Clawshot]]. Link, [[Young Link]], and [[Toon Link]] can use this move as a {{ssb|tether recovery}} to grab the edge of the stage and pull themselves back up to it. Young Link and Toon Link's versions of the Hookshot have a shorter range compared to the adult Link version. The Hookshot returns in {{SSBU}} for Young Link and Toon Link. However, normal (or adult) Link for the first time, does not have a Hookshot or Clawshot, but rather a normal grab.
+
+Young Link, in both {{SSBM|-}} and {{SSBU|-}}, uses the Hookshot from {{OoT|-}}, even though he couldn't use it in that game, and he uses a different Hookshot in {{MM|-}}. Toon Link's Hookshot is directly from {{TWW|-}}.
+
+The Hookshot, from {{OoT|-}} is also a [[Sticker]] in {{SSBB|-}}.
+
+{{SSBSticker|header=yes}}
+{{#section:Sticker|Hookshot}}
+|}
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+{{Stub|CoH}}
+The Hookshot appears as a key item that can assist [[Cadence]], [[Link]], [[Yves]], and [[Princess Zelda]] in reaching areas that would otherwise be out of reach to them, along with stunning and knocking back enemies.<ref>{{Cite|{{Color|CoH Yellow|Hookshot}} -- Assign it to {{Icon|CoH A}} {{Icon|CoH B}} {{Icon|CoH X}} {{Icon|CoH Y}}<br/>Use it to pull yourself to certain objects or stun and knock back enemies.|Inventory|CoH}}</ref> It can later be upgraded to the [[Longshot]].
+{{Ambig|End}}
+
+== Trivia ==
+
+* The Hookshot, thanks to its innovation in the core series and its usage in the [[Super Smash Bros. (series)|''Super Smash Bros.'' series]], is a signature [[item]] for [[Link]], though it did not make as many appearances in comparison to the [[Bow]], [[Bomb]], and [[Boomerang]]. It even does not appear in ''[[SoulCalibur II]]''.
+* According to [[The Legend of Zelda: Encyclopedia|''Zelda Encyclopedia'']], although the Hookshot's length varies between games, its chain and hook can reach between 7 to over 25 meters.
+* The Hookshot (or [[Longshot]]), especially in {{OoT}}, due to its appearance, when Link is aiming at an enemy via [[Targeting]] and in the case of the aforementioned [[Nintendo 64]] title, listening to [[Navi]]'s advice afterwards, some fans like to make fun of it into believing the hero is wielding a firearm toward his foes, especially since in ''[[The Legend of Zelda: Ocarina of Time 3D|Ocarina of Time 3D]]'', it was given a laser sighting.
+** [[Tetra]] in ''[[Hyrule Warriors]]'' does, however, use an actual pistol known as the [[Cutlass]], which itself is a first for the [[The Legend of Zelda (series)|franchise]].
+
+* Although well-known to use a chain for it to fire, an artwork of {{LA}} exists showing the Hookshot's mechanism being a spring, instead.
+* In {{OoT|-}}, during the final battle against [[Ganon]], if Link were to use a [[Deku Nut]] or [[Din's Fire]] while in front of his archnemesis, although they cannot damage the Demon King unless hit by the tail (despite making him momentarily stop and shake his head), the sound effect of the Hookshot [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_Hookshot_Clang.wav fired directly into a wall] can be heard. Although rather strange since the main antagonist does not wear anything metal, this is likely due to his near-invulnerability by the [[Triforce of Power]].
+* In the ''Super Smash Bros.'' games, as the Hookshot's end is indeed a hook-like spear and it pulls opponents toward Link, some in the ''Zelda'' community compare it to the famous Spear Throw special move used by [https://mortalkombat.fandom.com/wiki/Hanzo_Hasashi Scorpion] from the ''[https://mortalkombat.fandom.com/wiki/Mortal_Kombat_series Mortal Kombat]'' fighting game series, in which the character says the iconic line "''Get over here!!''" or "''Come here!!''".
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Hookshoticon.png|The {{Term|ALttP|Hookshot}}, as seen in the {{Term|ALttP|Inventory}} of {{ALttP|-}}
+File:LA Hookshot Artwork 2.png|Artwork of the Hookshot from {{LA|-}}
+File:LA Hookshot Artwork 3.png|Artwork of the Hookshot from {{LA|-}}
+File:Hookshot OcarinaOfTime.png|Link obtains the Hookshot in {{OoT|-}}
+File:Hookshot obtained MM.jpg|The Hookshot being obtained in {{MM|-}}
+File:Hookshot WindWaker.png|Link obtains the Hookshot in [[The Legend of Zelda: The Wind Waker HD|''The Wind Wake''r ''HD'']]
+File:ALBW Ravio Hookshot Artwork.png|Ravio demonstrating the Hookshot's use from {{ALBW|-}}
+File:ALBW Rented Hookshot Model.png|The {{Term|ALBW|Rented Hookshot|link}} from {{ALBW|-}}
+File:ALBW Rented Hookshot Icon.png|The {{Term|ALBW|Rented Hookshot}} icon from {{ALBW|-}}
+File:ALBW Nice Hookshot Model.png|The {{Term|ALBW|Nice Hookshot}} from {{ALBW|-}}
+File:ALBW Nice Hookshot Icon.png|The {{Term|ALBW|Nice Hookshot}} icon from {{ALBW|-}}
+File:Hookshot 2 (SSBM).jpg|Link using the Hookshot from {{SSBM|-}}
+File:Hookshot 3 (SSBM).jpg|Young Link using the Hookshot from {{SSBM|-}}
+File:Hookshot (SSBB).jpg|Toon Link using the Hookshot from {{SSBB|-}}
+File:HW Hookshot Icon.png|Hookshot icon from {{HW|-}}
+File:HW Hookshot Sprite.svg|The {{Term|HW|Hookshot}} {{Term|HW|Item Card}} from {{HW|-}}
+File:HWDE Hookshot Icon.png|The {{Term|HWDE|Hookshot}} {{Term|HWDE|Item Card}} from {{HW|DE|-}}
+File:HWDE Hookshot Icon 2.png|The {{Term|HWDE|Hookshot}} {{Term|HWDE|Sub-Weapon}} from {{HW|DE|-}}
+File:CoH Hookshot Sprite.png|Sprite of the Hookshot from {{CoH|-}}
+</gallery>
+
+==See Also==
+* [[Clawshot]]
+* [[Grappling Hook]]
+* [[Gripshot]]
+* [[Longshot]]
+* [[Switch Hook]]
+
+{{Notes}}
+
+{{Ref}}
+
+{{CommonItems}}
+{{Categories
+ |Hookshots, Item Cards
+ |items= ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, TWW, TWWHD, ALBW, AST, SSB, HW, HWL, HWDE, CoH
+}}

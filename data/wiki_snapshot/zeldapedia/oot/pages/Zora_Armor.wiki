@@ -1,0 +1,145 @@
+{{Infobox Item
+|type= Armor
+|image= 
+{{Media
+ |Render OoT= File:OoT Zora Tunic Render.png
+ |Model OoT= File:Zora tunic.png
+ |Model OoT3D= File:OoT3D Zora Tunic Model.png
+ |Model TP= File:Zoraarmour.png
+ |Model TPHD= File:TPHD Zora Armor Model.png
+ |Model BotW= File:BotW Zora Armor Model.png
+ |Sprite OoT= File:OoT Zora Tunic Icon.png
+ |Sprite OoT3D= File:OoT3D Zora Tunic Icon.png
+ |Sprite TP= File:TP Zora Armor Icon.png
+ |Sprite TPHD= File:TPHD Zora Armor Icon.png
+ |Sprite BotW= File:BotW Zora Armor Icon.png
+}}
+|caption= 
+|game= {{OoT}}<br/>{{TP}}<br/>{{BotW}}<br/>{{TotK}}
+|other= {{SSB}}<br/>{{SSBM}}<br/>{{SSBB}}<br/>{{HW}}<br/>{{SSB4}}<br/>{{HWAoC}}
+|cost= 300 [[Rupee]]s {{Exp Game|OoT}}
+|location= [[Kakariko Village Graveyard]] {{Exp Game|TP}}<br/>{{Term|BotW|Zora's Domain|link}} {{Exp Game|BotW}}
+|uses= Breathing Underwater {{Exp Game|OoT, TP}}<br/>Increasing Swim Speed {{Exp Game|BotW}}<br/> Swimming Up Waterfalls {{Exp Game|BotW}}
+|comp= 
+}}
+The {{Term/Store|Zora Armor||Series, TP, TPHD, BotW, HWAoC}},{{Exp Game|TP, BotW, HWAoC}}<ref name="E 143">{{Cite Book|quote= |book= E |publisher= |page= 143 {{Exp Game|OoT, TP}}}}</ref><ref name="Inventory">{{Cite|{{Big|Zora Armor}}<br/>Armor crafted by each generation's Zora princess for her future husband. Equip it to swim up waterfalls.|Inventory|BotW}}</ref><ref>{{Cite|{{Big|Zora Armor}}<br/>Custom armor painstakingly crafted by each generation's Zora princess for her future husband. It's probably fine to be wearing this. Probably.|Allies|HWAoC}}</ref> also known as the {{Term/Store|Zora Tunic|Zora Tunics|OoT, OoT3D}},{{Exp Game|OoT}}<ref name="E 143"/>, or '''Diving Suit''', is a recurring {{Term|Series|Item|link}} in {{TLoZ|Series}}.{{Note|The {{Term|Series|Zora Armor}} was referred to as '''Zora's Armor''' in {{Guide|TP|Nintendo}}.<ref>{{Cite Guide|quote= |game= TP|publisher= Nintendo|page= 192}}</ref> However, as this contradicts the name given in {{E}}, it is not considered [[Guidelines:Canon|Canon]].}} This [[Clothes|clothing]] is a variant of [[Link]]'s [[Green Clothes|Green Tunic]].
+
+==Location and Uses==
+==={{OoT|-}}===
+[[File:Link Zora Tunic.png|thumb|Link wearing the Zora Tunic in ''Ocarina of Time'']]
+In {{OoT}}, the Zora Tunic allows [[Link]] to breathe {{Term|OoT3D|Water (Terrain)|link|display=underwater}}.<ref>{{Cite|You got a Zora Tunic! This diving suit is adult size, so it won't fit a kid. Wear it, and you won't drown underwater.|N/A|OoT}}</ref> Like the [[Goron Tunic]], it can only be worn as an adult. This tunic is mostly used in conjunction with the {{Term|OoT3D|Iron Boots|link}} and is essential when exploring the {{Term|OoT3D|Water Temple|link}} and the lower section of [[Zora's Fountain]]. Unlike the Goron Tunic, however, it does not offer any defense bonuses, meaning Link still takes damage as in his regular [[Kokiri Tunic]]. Like the [[Hylian Shield]] and its [[Goron]] counterpart, the Zora Tunic can be stolen and eaten by a {{Term|OoT3D|Like Like|link}} if the [[Hero of Time]] is still wearing it when he gets spit out.
+
+This tunic is highly expensive, as its price at the {{Term|OoT3D|Zora Shop|link}} is 300 {{Plural|OoT3D|Rupee|link}}, even greater than the Goron Tunic's 200 by comparison. However, it can also be given to Link for free by the {{Term|OoT3D|King Zora|link}} when he unfreezes him from the {{Term|OoT3D|Red Ice|link}} using {{Term|OoT3D|Blue Fire|link}}.<ref>{{Cite|Oh--I've come back to life! Was it you who saved me? Don't be nervous! It looks like you have a hard time breathing underwater. As an expression of my gratitude, I grant you this tunic. With this, you won't choke underwater.|King Zora|OoT}}</ref>
+
+The {{Term|OoT3D|Zora Tunic}} is made out of fish gills, although aesthetically it looks identical to his standard outfit, with the color being only blue rather than green.<ref>{{Cite Guide|quote= |game= OoT|publisher= Nintendo|page= 78}}</ref>
+
+==={{TP|-}}===
+In {{TP}}, the {{Term|TPHD|Zora Armor}} is given to Link by {{Term|TPHD|Rutela|link}} after delivering {{Term|TPHD|Ralis|link}} to {{Term|TPHD|Kakariko Village|link}} safely. It is located behind the {{Term|TPHD|Kakariko Village Graveyard|link}} under the tomb of King Zora, its creator.<ref>{{Cite|...There is armor here that my husband made for the coming hero.|Rutela|TP}}</ref><ref>{{Cite|During his lifetime, my husband created garments specifically for the chosen hero, garments that house the abilities of the Zora.|Rutela|TP}}</ref> 
+
+When equipped, the {{Term|TPHD|Zora Armor}} allows {{Term|TPHD|Link}} to breathe and swim underwater.<ref>{{Cite|If you do this thing, I will bestow upon you the protection of water. This power will grant you the ability to swim and respire in very deep water as if you were a Zora.|Rutela|TP}}</ref> If combined with the Iron Boots, {{Term|TPHD|Link}} can walk deep on riverbeds. However, wearing the armor makes the Hero of Twilight take 10 times the damage from {{Term|TPHD|Fire|link}} and {{Term|TPHD|Ice|link}} attacks (including falling in [[lava]] or freezing [[water]]).<ref>{{Cite|If you have it equipped, you can move freely through the water... but you will be more vulnerable to fire and ice attacks.|N/A|TP}}</ref>
+
+The {{Term|TPHD|Zora Armor}} itself is made of Zora scales in a scale mail arrangement,{{Fact|TPHD}} and includes a mask that {{Term|TPHD|Link}} pulls over his face while underwater.
+
+==={{BotW|-}}===
+In {{BotW}}, the Zora Armor was hand crafted specifically for [[Link#Breath of the Wild|Link]] as a symbol of love by the [[Zora]] princess and [[Champion]], [[Mipha]].<ref>{{Cite|He who stands here...the man called Link...is the one whom my sister, Mipha, had feelings for.|Sidon|BotW}}</ref><ref>{{Cite|Countless generations of Zora princesses have gifted that armor to the one they have sworn to marry! Princess Mipha made that one there with her own hands! It is far too important to entrust to a shady Hylian!|Muzu|BotW}}</ref> Link receives it from [[King Dorephan]] 100 years later when first visiting [[Zora's Domain]]. If Link's pouch is full, he will receive it after making space in the inventory.<ref>{{Cite|Link, your pouch appears to be full. Please make some space in there so I may gift you this {{Color|BotW Blue|Zora armor}}.|King Dorephan|BotW}}</ref>
+
+When worn, the Zora Armor provides one level of Swim Speed Up and grants the Hero of the Wild the ability to Swim Upward through waterfalls.<ref name="Inventory"/> The Armor can be enhanced by a [[Great Fairy]] and can be [[Dye]]d at the [[Kochi Dye Shop]]. The Zora Armor, alongside the [[Zora Helm]] and the [[Zora Greaves]], compose the [[Zora Set]]. When each piece of the Set has been enhanced at least two times by a Great Fairy and the full Set is worn, it provides a Swim Dash Stamina Up [[Set Bonus]]. Unlike most armor, however, this Set cannot be sold due to the Armor's unique story behind it.
+
+The Armor itself consists of a large full breastplate, a set of scale mail covering the shoulders and part of Link's back, two pauldrons made from steel, and bracers made from a combination of silver and steel plates.
+
+{| class="wikitable" style="width:50%; text-align:left;"
+|-
+! width="10%" |Armor
+! width="20%" |Description
+! width="15%" |Location
+|-
+| style="text-align:center" |{{Section|Zora Armor|[[File:BotW Zora Armor Icon.png|link=]]<br/> '''Zora Armor'''}}
+|''Custom armor painstakingly crafted by each generation's Zora princess for her future husband. Wearing it will give you the ability to swim up waterfalls.''
+|{{Term|BotW|Zora's Domain|link}}
+|}
+
+{{Armor Enhancement/Start|3|description= 228}}
+{{Armor Enhancement|1|3|Lizalfos Horn}}
+{{Armor Enhancement|2|5|Lizalfos Talon|5|Hyrule Bass}}
+{{Armor Enhancement|3|5|Lizalfos Tail|5|Hearty Bass}}
+{{Armor Enhancement|4|10|Lizalfos Tail|15|Opal}}
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{SSB|-}}===
+Link's blue costume in this game is based on the Zora Tunic.
+
+==={{SSBM|-}}===
+Link's blue color palette based on the Zora Tunic returns from ''Super Smash Bros.''. Young Link has a blue costume that is also based on the Zora Tunic, even though he was never able to wear it in his original games.
+
+==={{SSBB|-}}===
+Although Link in ''Brawl'' uses his design from {{TP}}, his blue color palette is still based on the Zora Tunic from {{OoT}}.
+
+==={{HW|-}}===
+The Zora Tunic appears as an unlockable costume in {{HW}}.
+
+==={{SSB4|-}}===
+Link's blue palette swap in ''SSB4'', like in ''Brawl'', is again slightly based on the Zora Tunic.
+
+==={{HWAoC|-}}===
+In ''Hyrule Warriors: Age of Calamity'', the Zora Armor has the same design as in ''Breath of the Wild''. You can get the it by completing the [[Heart's Escort]] challenge. It then becomes part of Link's attire and can be worn by him whenever. You can also dye the armor at the [[Kochi Dye Shop]].
+
+==={{SSBU|-}}===
+Young Link returns with his original blue palette swap, based on the Zora Tunic.
+{{Noncanon|End}}
+
+==Trivia==
+[[File:OoT Gerudo Warrior Model 3.png|thumb|250x250px|The Gerudo Warrior when Link wears the Zora Tunic in ''Ocarina of Time'']]
+*The [[Gerudo Warrior]] from [[Gerudo's Fortress]] in ''Ocarina of Time'' shares the same color palette as [[Green Clothes|Link's tunic]] and will change correspondingly whenever he switches to the [[Goron Tunic|Goron]] or Zora Tunics, due to graphical limitations of the [[Nintendo 64]]. This is fixed in ''[[The Legend of Zelda: Ocarina of Time 3D|Ocarina of Time 3D]]''.
+*The Zora Tunic is based on the [[Blue Mail]] from [[The Legend of Zelda: A Link to the Past|''A Link to the Past'']], despite it not granting [[Defense|defensive upgrades]] unlike its [[Super Nintendo Entertainment System|Super NES]] counterpart.
+*Although the Zora Tunic in ''Ocarina of Time'' is known to make [[Link]] breathe underwater, it serves no such purpose in its spin-off appearances such as the [[Super Smash Bros. (series)|''Super Smash Bros.'' series]] or ''[[SoulCalibur II]]''.
+*The Zora Armor in ''Twilight Princess'' and ''Breath of the Wild'' is of a completely different appearance in comparison to the Zora Tunic in ''Ocarina of Time'', as it's not based on Link's clothes.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+===Render===
+<gallery>
+File:SSB Link Blue Costume.png|Link's Zora Tunic alternate costume in [[Super Smash Bros.|''Super Smash Bros.'']]
+File:SSBM Link Alternative Costume 2.png|Link's Zora Tunic alternate costume from {{SSBM}}
+File:SSBB Link Alternative Costume 2.png|Link's Zora Tunic alternate costume from {{SSBB}}
+File:SSB4 Link Alternative Costume 2.png|Link's Zora Tunic alternate costume from {{SSB4}}
+File:SCII Link with Blue Tunic Model.png|Link's Zora Tunic alternate costume from {{SCII}}
+File:SCII Link unlockable 1 icon .png|Link's Zora Tunic alternate costume icon from ''SoulCalibur II''
+File:HW Link Zora Tunic Model.png|Link wearing the Zora Tunic from {{HW}}
+File:HW Zora Tunic Badge Icon.png|The Zora Tunic [[Badge Market|Badge]] from {{HW|-}}
+File:Link Zora Armor.png|Link wearing the Zora Armor from {{TP|-}}
+File:Zora Armor concept.jpg|Concept art of the Zora Armor from {{TP|-}}
+File:BotW Zora Armor Blue Icon.png|Zora Armor with [[Blue Dye]] from {{BotW|-}}
+File:BotW Zora Armor Red Icon.png|Zora Armor with [[Red Dye]] from {{BotW|-}}
+File:BotW Zora Armor Yellow Icon.png|Zora Armor with [[Yellow Dye]] from {{BotW|-}}
+File:BotW Zora Armor White Icon.png|Zora Armor with [[White Dye]] from {{BotW|-}}
+File:BotW Zora Armor Black Icon.png|Zora Armor with [[Black Dye]] from {{BotW|-}}
+File:BotW Zora Armor Purple Icon.png|Zora Armor with [[Purple Dye]] from {{BotW|-}}
+File:BotW Zora Armor Green Icon.png|Zora Armor with [[Green Dye]] from {{BotW|-}}
+File:BotW Zora Armor Light Blue Icon.png|Zora Armor with [[Light Blue Dye]] from {{BotW|-}}
+File:BotW Zora Armor Navy Icon.png|Zora Armor with [[Navy Dye]] from {{BotW|-}}
+File:BotW Zora Armor Orange Icon.png|Zora Armor with [[Orange Dye]] from {{BotW|-}}
+File:BotW Zora Armor Peach Icon.png|Zora Armor with [[Peach Dye]] from {{BotW|-}}
+File:BotW Zora Armor Crimson Icon.png|Zora Armor with [[Crimson Dye]] from {{BotW|-}}
+File:BotW Zora Armor Light Yellow Icon.png|Zora Armor with [[Light Yellow Dye]] from {{BotW|-}}
+File:BotW Zora Armor Brown Icon.png|Zora Armor with [[Brown Dye]] from {{BotW|-}}
+File:BotW Zora Armor Gray Icon.png|Zora Armor with [[Gray Dye]] from {{BotW|-}}
+</gallery>
+
+===Screenshots===
+<gallery>
+Blue Tunic 3D.png|Link obtaining the Zora Tunic from [[King Zora]] in [[Zora's Domain]].
+Link's Zora Tunic.png|Link wearing the Zora tunic while talking to the [[Cucco Lady]] in [[Kakariko Village]].
+Zora Tunic HW.png|The Zora Tunic in ''Hyrule Warriors''.
+</gallery>
+
+{{Notes}}
+{{Ref}}
+
+{{Categories
+ |Armor, Attire
+ |items= TP, TPHD, BotW, HWAoC
+}}
+[[Category:Items in Tears of the Kingdom]]

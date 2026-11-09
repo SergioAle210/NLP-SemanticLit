@@ -15,7 +15,9 @@ from gamerag.ingest.sections import Section
 
 
 def locate(cfg: GameConfig, page_title: str, section: Section) -> Location:
-    found: dict[str, str] = {}
+    found: dict[str, str | int] = {}
+    if explicit := cfg.title_locations.get(page_title.rsplit("/", 1)[-1]):
+        found |= explicit
     if cfg.location_from_title and (m := re.search(cfg.location_from_title, page_title)):
         found |= {k: v for k, v in m.groupdict().items() if v}
     if cfg.location_from_heading:
@@ -26,11 +28,14 @@ def locate(cfg: GameConfig, page_title: str, section: Section) -> Location:
     loc = Location()
     if "quest" in found and cfg.quests:  # "1" -> "first" según el orden de `quests` en la config
         loc.quest = cfg.quests[int(found["quest"]) - 1]
+    if "quest_name" in found:
+        loc.quest = str(found["quest_name"])
     if "level" in found:
         loc.level = int(found["level"])
     if "act" in found:
         loc.act = int(found["act"])
     if "stage" in found:
-        loc.stage = found["stage"]
-        loc.act = loc.act or int(found["stage"].split("-")[0])
+        loc.stage = str(found["stage"])
+        if m := re.match(r"(\d+)-", loc.stage):  # "2-3" -> acto 2 (otros formatos de etapa no tienen acto)
+            loc.act = loc.act or int(m.group(1))
     return loc

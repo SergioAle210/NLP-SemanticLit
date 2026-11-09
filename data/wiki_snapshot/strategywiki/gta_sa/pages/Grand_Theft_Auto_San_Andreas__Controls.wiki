@@ -1,0 +1,194 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+==Foot==
+{|{{controlstable}}
+! Action
+! PlayStation 2
+! PC
+! Xbox
+|-
+| {{Desc}} Fire
+| {{psx|C}}|| {{kbd|Num 0}} / {{kbd|Left Ctrl}} / {{mouse|l}} / Joy 1|| {{xbox|B}}
+|-
+| {{Desc}} Next weapon/target
+|{{psx|R2}}
+|{{kbd|E}} / {{kbd|Num Enter}} / {{mouse|wheeldown}} / Joy 6
+|{{xbox|Black}}
+|-
+| {{Desc}} Previous weapon/target
+| {{psx|L2}} || {{kbd|Q}} / {{kbd|Num .}} / {{mouse|wheelup}} / Joy 5|| {{xbox|White}} 
+|-
+| {{Desc}} Group ctrl forward
+| {{psx|Up|Dpad}} || {{kbd|G}} / Joy 13|| {{xbox|Up|Dpad}} 
+|-
+| {{Desc}} Group ctrl back
+| {{psx|Down|Dpad}} || {{kbd|H}} / Joy 15|| {{xbox|Down|Dpad}} 
+|-
+| {{Desc}} Conversation: No
+| {{psx|Left|Dpad}} || {{kbd|N}} / Joy 16|| {{xbox|Left|Dpad}} 
+|-
+| {{Desc}} Conversation: Yes
+| {{psx|Right|Dpad}} || {{kbd|Y}} / Joy 14|| {{xbox|Right|Dpad}} 
+|-
+| {{Desc}} Character movement
+|{{psx|Neutral|Lstick}}
+|{{kbd|Arrows}}<br>/<br>{{kbd|WASD}}<br>/ X/Y Axis / POV Hat
+|{{xbox|Neutral|Lstick}}
+|-
+| {{Desc}} Zoom in
+|{{psx|L2}}
+|{{kbd|X}} / {{kbd|Page Up}} / {{mouse|wheelup}} / Joy 3
+|{{xbox|White}}
+|-
+| {{Desc}} Zoom out
+|{{psx|R2}}
+|{{kbd|Z}} / {{kbd|Page Down}} / {{mouse|wheeldown}} / Joy 2
+|{{xbox|Black}}
+|-
+| {{Desc}} Enter
+| {{psx|T}}|| {{kbd|F}} / {{kbd|Enter}} / Joy 4|| {{xbox|Y}}
+|-
+| {{Desc}} Change camera
+| {{psx|Select}}|| {{kbd|V}} / {{kbd|Home}} / Joy 9|| {{xbox|Back}}
+|-
+| {{Desc}} Jump
+| {{psx|S}}|| {{kbd|Left Shift}} / {{kbd|Right Ctrl}} / Joy 3|| {{xbox|X}}
+|-
+| {{Desc}} Sprint
+| {{psx|X}}|| {{kbd|Space}} / Joy 2|| {{xbox|A}}
+|-
+| {{Desc}} Aim weapon
+| {{psx|R1}}|| {{kbd|Delete}} / {{kbd|Caps Lock}} / {{mouse|r}} / Joy 8|| {{xbox|RT}}
+|-
+| {{Desc}} Crouch
+| {{psx|L3}} || {{kbd|C}} / Joy 10|| {{xbox|L|Button}} 
+|-
+| {{Desc}} Action
+| {{psx|L1}}|| {{kbd|Tab}} / Joy 7|| {{xbox|LT}}
+|-
+| {{Desc}} Walk
+|{{psx|Neutral|Lstick}}
+|{{kbd|Left Alt}}
+|{{xbox|Neutral|Lstick}}
+|-
+| {{Desc}} Look behind
+| {{psx|R3}} || {{kbd|Num 1}} / {{mouse|m}} / Joy 11|| {{xbox|R}} 
+|-
+| {{Desc}} Camera movement
+| {{psx|Neutral|Rstick}} || {{mouse}} /<br>{{kbd|Num 8}}<br>{{kbd|Num 4}} {{kbd|Num 6}}<br>{{kbd|Num 2}}<br>/ Z Axis/Rotation|| {{xbox|Neutral|Rstick}} 
+|-
+| {{Desc}} Center camera
+| rowspan="2" |{{psx|L1}}
+|{{kbd|<nowiki>#</nowiki>}}
+| rowspan="2" |{{xbox|LT}}
+|-
+| {{Desc}} Secondary fire
+|{{kbd|\}} / Joy 7
+|-
+| {{Desc}} Pause menu
+| {{psx|Start}} || {{kbd|Esc}}|| {{xbox|Start}} 
+|}
+
+== Vehicle ==
+
+=== General ===
+{| {{controlstable}}
+! Action
+! PlayStation 2
+! PC
+! Xbox
+|-
+| {{Desc}} Fire
+| {{psx|C}} || {{kbd|Right Ctrl}} / {{kbd|Left Alt}} / {{mouse|l}} / Joy 1|| {{xbox|A}} 
+|-
+| {{Desc}} Secondary fire
+| {{psx|L1}} || {{kbd|Left Ctrl}} / {{kbd|Num 0}} / Joy 7|| {{xbox|B}} 
+|-
+| {{Desc}} Accelerate
+| {{psx|X}} || {{kbd|W}} / Joy 2|| {{xbox|RT}} 
+|-
+| {{Desc}} Brake / Reverse
+| {{psx|S}} || {{kbd|S}} / Joy 3|| {{xbox|LT}} 
+|-
+| {{Desc}} Steer left/right
+| rowspan="3" | {{psx|Neutral|Lstick}}|| {{kbd|A}} {{kbd|D}} / {{kbd|Left}} {{kbd|Right}}|| rowspan="3" | {{xbox|Neutral|Lstick}}
+|-
+| {{Desc}} Steer forward/down
+|{{kbd|up}}
+|-
+| {{Desc}} Steer backward/up
+|{{kbd|down}}
+|-
+| {{Desc}} Exit
+| {{psx|T}} || {{kbd|F}} / {{kbd|Enter}} / Joy 4|| {{xbox|Y}} 
+|-
+| {{Desc}} Trip skip
+| {{psx|Right|Dpad}} || {{kbd|Y}} / Joy 14|| {{xbox|Right|Dpad}} 
+|-
+| {{Desc}} Next radio station
+| {{psx|Up|Dpad}} || {{kbd|Insert}} / {{kbd|4}} / {{mouse|wheelup}} / Joy 13|| {{xbox|Up|Dpad}} 
+|-
+| {{Desc}} Previous radio station
+|{{psx|Down|Dpad}}
+|{{kbd|Delete}} / {{kbd|R}} / {{mouse|wheeldown}} / Joy 15
+|{{xbox|Down|Dpad}}
+|-
+| {{Desc}} User track skip||{{N/a}}
+|{{kbd|F5}}||{{N/a}}
+|-
+| {{Desc}} Horn
+| {{psx|L3}} || {{kbd|Caps Lock}} / {{kbd|H}} / Joy 10|| {{xbox|L|Button}} 
+|-
+| {{Desc}} Sub-mission
+| {{psx|R3}} || {{kbd|2}} / {{kbd|Num +}} / Joy 11|| {{xbox|R|Button}} 
+|-
+| {{Desc}} Change camera
+| {{psx|Select}}|| {{kbd|V}} / {{kbd|Home}} / Joy 9|| {{xbox|Back}}
+|-
+| {{Desc}} Handbrake
+| {{psx|R1}} || {{kbd|Space}} / {{kbd|Right Ctrl}} / Joy 8|| {{xbox|X}} 
+|-
+| {{Desc}} Look behind
+|{{psx|L2}} {{Plus}} {{psx|R2}}
+|{{mouse|m}}
+|{{xbox|White}} {{Plus}} {{xbox|Black}}
+|-
+| {{Desc}} Mouse look
+|{{N/a}}
+|{{mouse|r}}
+|{{N/a}}
+|-
+| {{Desc}} Look left
+| {{psx|L2}} || {{kbd|Q}} / Joy 5|| {{xbox|White}} 
+|-
+| {{Desc}} Look right
+| {{psx|R2}} || {{kbd|E}} / Joy 6|| {{xbox|Black}} 
+|-
+| {{Desc}} Special ctrl left/right
+| rowspan="3" |{{psx|Neutral|Rstick}}
+|{{kbd|Num 4}} {{kbd|Num 6}} / {{Mouse}}
+| rowspan="3" |{{xbox|Neutral|Rstick}}
+|-
+| {{Desc}} Special ctrl up
+|{{kbd|Num 8}} / {{kbd|Delete}} / {{Mouse}}
+|-
+| {{Desc}} Special ctrl down
+|{{kbd|Num 2}} / {{kbd|End}} / {{Mouse}}
+|-
+| {{Desc}} Pause menu
+| {{psx|Start}} || {{kbd|Esc}}|| {{xbox|Start}} 
+|}
+
+== Other ==
+{| {{controlstable}}
+!Action
+!PC
+|-
+| {{Desc}} Clear
+|{{kbd|Backspace}}
+|-
+| {{Desc}} Change
+|{{mouse|l}}
+|}
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Gameplay|nextpage=Characters}}

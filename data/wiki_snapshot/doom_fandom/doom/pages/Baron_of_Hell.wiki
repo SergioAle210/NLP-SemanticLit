@@ -1,0 +1,53 @@
+{{Game Tabs|first = main|second = Doom|third = Doom 64|fourth = doom rpg|fifth = Doom 2016|sixth = Doom Eternal}}
+{{Quote|Tough as a dump truck and nearly as big, these Goliaths are the worst things on two legs since [[Wikipedia:Tyrannosaurus rex|Tyrannosaurus rex]].|''Doom'' instruction manual.}}
+'''Barons of Hell''' are one of the most powerful demonic creatures encountered in all classic ''Doom'' games.
+
+==Background==
+===Doom/Doom II===
+A pair of Barons, referred to internally by [[id Software]] as the "[[Bruiser Brothers]]", start as the [[boss]]es at the end of [[Knee-Deep in the Dead]], the first episode of [[Doom]]. Barons also appear as regular enemies in the later episodes and in the sequels; coincidentally, they and their weaker counterparts, the Hell Knights, frequently appear in pairs.
+
+The ''[[Doom II]]'' manual later described them as follows: "''The Hell Knight was bad news but this is Big Daddy. These bruisers are a lot like Hell Knights, but look a little different and are twice as tough to kill". ''The original Baron of Hell description was given to the Hell Knight in ''Doom II''<nowiki/>'s manual instead.
+
+A texture displaying the face of the Barons/Knight of Hell can be found in [[E2M8: Tower of Babel]] on pillars throughout the level (a similar texture appears in Doom Eternal as well).
+
+===Doom 64===
+===Doom RPG/Doom II RPG===
+In ''[[Doom RPG]]'' and ''[[Doom II RPG]]'', the Baron of Hell and Hell Knight both belong to the "Baron" monster class. There are three variations, identified by color:
+* [[Ogre]] (green torso, red hands, brown legs)
+* [[Hell Knight/Doom RPG|Hell Knight]] (brown torso, brown hands, pink legs)
+* [[Baron]] (pink torso, orange hands, brown legs)
+
+As in the original, the Hell Knight is not as powerful as the Baron, though both are more powerful than the new "Ogre" variation. This class of monster is especially weak against attacks from shotguns.
+===The ''Doom'' reboot trilogy===
+A texture showing the classic Doom Baron of Hell can be found in some levels of the reboot game (this is based on a similar texture in Doom 1). ''Doom Eternal'' introduces the [[Fireborne Baron]]s as a new breed of Barons of Hell. In ''The Dark Ages,'' instead of the traditional Baron, a [[Cosmic Baron]] appears, which has similar behavior, but with different attacks.
+
+===Mighty DOOM===
+The Baron of Hell appears in ''[[Mighty Doom]]'' exclusively as a boss, resembling the Fireborne Barons.  The Baron of Hell, as a purely infernal creature, is vulnerable to ice weaponry.  It primarily attempts melee attacks against the Slayer by either making targeted long-jumps or making several very short-ranged slashes towards the Slayer, with the former more likely to connect and deal serious damage.  The Baron of Hell can also hurl a salvo of three fireballs that move at unnatural speed. 
+
+==Inspiration and development==
+The Barons were known as the "bruiser brothers" internally to [[id Software|id]] because of the first encounter with them and as a parody of the [[Wikipedia:Hammer Bros.|Hammer Brothers]] in [[Wikipedia:Super Mario Bros.|Super Mario Brothers]].
+
+Having many hit points, the Baron of Hell appears only sparingly in ''Doom'', as a boss or a champion-type monster. In ''Doom II'' the game dynamics change with the inclusion of a greater variety of relatively tough monsters, and the addition of two items, the [[super shotgun]], and the [[megasphere]]. The Hell Knight, essentially the same as the Baron but with only half as much health, was added to serve as a standard medium-strength monster, falling more quickly to small arms fire such as from the [[shotgun]] or [[chaingun]].
+
+==Trivia==
+* Barons have green blood, as is evident in their death animation, as well as the wall textures of the "crucified" Baron. However, due to the limitations of the Doom engine, they, like every other monster in the game, will bleed red.
+*The Barons were known as the "Bruiser Brothers" internally to [[id Software]] devs because of the first encounter with them and as a parody of the [[Wikipedia:Hammer Bros.|Hammer Brothers]] in [[Wikipedia:Super Mario Bros.|Super Mario Brothers]].
+
+==Notes==
+*Barons of Hell were originally known as "Bruisers". The first two were known as the "Bruiser Brothers".<ref>https://www.youtube.com/watch?v=YUU7_BthBWM</ref>
+* The Baron of Hell's face is displayed periodically throughout the games in the [[texture]]s MARBFAC3 & MARBFAC4.
+*Although the Baron of Hell was never featured in ''[[Doom 3]]'', the [[Hell Knight/Doom 3|Hell Knight]] iteration shares a lot more similarities to it than it's [[Hell Knight/Doom II|classic counterpart]] in that game. The ''Doom 3'' Hell Knight has nearly equivalent hitpoints of 900 (original Baron of Hell had 1000 points) thus serving as one of the elite high-tier enemies, and it's introductory cutscene mirrors the Baron of Hell's debut in the [[Knee-Deep in the Dead|first episode]] of the original ''[[Doom]]''.  
+* The [[thing]] name assigned to them within the [[Doom source code]] is MT_BRUISER.
+* The projectile thrown by the Hell Knight and by the Baron of Hell are the same thing, and if a Hell Knight accidentally hits a Baron with his fireball (or vice versa), it will have no effect (this is a special exception to the usual rules). However, this is not the case in either the [[PlayStation]] and [[Saturn]] ports, the PlayStation port of ''[[Final Doom]]'' or ''[[Doom 64]]''; in these games their projectiles are each classed as different things altogether (something which is only visually noticeable in Doom 64 due to Barons throwing red fireballs), and as such direct infighting between the two is possible.
+* In a [[ZDoom]]-based [[source port]], if the player is killed by a Baron of Hell (monster is credited with delivering the blow that reduces player's health to 0%), one of two obituary messages will be displayed at the top of the screen depending on which attack the Baron used to kill the player: "[player name] was ripped open by a Baron of Hell" or "[player name] was bruised by a Baron of Hell" for the claw and green fireball attacks respectively.
+==See also==
+* [[Models]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://mykdoom.tripod.com/baron_sketch.jpg Adrian Carmack's Baron of Hell sketch.]
+[[Category:Monsters]]
+[[Category:Demons]]
+[[Category:Mighty Doom monsters]]

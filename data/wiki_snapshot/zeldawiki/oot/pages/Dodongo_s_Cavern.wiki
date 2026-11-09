@@ -1,0 +1,100 @@
+{{Infobox Dungeon
+|image= 
+{{Media
+ |Artwork OoT= [[File:OoT Dodongo's Cavern Artwork.png|320x320px]]
+ |Screenshot OoT= [[File:OoT Dodongo's Cavern.png|320x320px]]
+ |Screenshot OoT3D= [[File:OoT3D Dodongo's Cavern.png|320x320px]]
+ |Screenshot OoTNS2= [[File:OoTNS2 Dodongo's Cavern.png|320x320px]]
+}}
+|caption= 
+|location= [[Death Mountain Trail]]
+|game= OoT
+|item= 
+{{Icon List|OoT3D|
+ * Bomb Bag
+ * Golden Skull Token {{Qty|5}}
+}}
+|mini-boss= [[Lizalfos]]
+|boss= ''Infernal Dinosaur:'' [[King Dodongo]]
+|quest= 
+{{Icon List|OoT3D|
+ * Heart Container
+ * Spiritual Stone of Fire
+}}
+|theme= 
+|strategy= {{StrategyWiki|The Legend of Zelda: Ocarina of Time/Dodongo's Cavern|Dodongo's Cavern}}
+}}
+{{Term/Store|Dodongo's Cavern||Series, OoT, OoT3D}} is a [[Dungeon]] in {{OoT}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 149}}</ref> It is the second of three dungeons that child [[Link]] must visit in order to acquire the three [[Spiritual Stones]]. It also has a great amount of rocks in it that the [[Goron]]s that live nearby eat, and it is used for mining food for them.<ref name="OoT Dodongo">{{Cite|We are in danger of extinction! It's all because we can't enter our quarry, the Dodongo's Cavern. We Gorons live on a diet of rocks... And the most delicious and nutritious rocks around are found in the Dodongo's Cavern!|Goron|OoT}}</ref>
+
+{{Terminology
+|-
+| {{Term/Store|Dodongo's Cavern||Series, OoT}}
+| 
+{{List|
+ * {{OoT}}<ref name="OoT Dodongo"/>
+ * {{OoT3D}}<ref name="OoT Dodongo"/>
+}}
+|-
+| {{Term/Store|Dodongo Cavern||Series, OoT}}
+| 
+{{List|
+ * {{OoTNS2}}<ref name="OoT Game Screen">{{Cite|{{Big|Ganondorf's Castle}}|Game Screen|OoTNS2}}</ref>
+}}
+}}
+
+==Entrance to the Cavern==
+The cave is located about halfway up [[Death Mountain Trail]]. Prior to the events of the game, [[Ganondorf]] came to Death Mountain to get the [[Goron's Ruby]] from [[Darunia]], the chief of the Gorons, who refused. Because of that, Ganondorf infested the cavern with [[Dodongo]]s and sealed the entrance with a boulder.<ref>{{Cite|All this trouble must have been caused by that Gerudo thief, Ganondorf! He said, "Give me the Spiritual Stone! Only then will I open the cave for you!"|Darunia|OoT}}</ref>
+
+Link, who comes to Death Mountain to get the Spiritual Stone as well, is, unlike Ganondorf, able to gain the trust and respect of the Gorons. By using a [[Bomb Flower]] (usable only after collection of the [[Goron's Bracelet]])<ref>{{Cite|You got the Goron's Bracelet! Now you can pull up Bomb Flowers.|N/A|OoT}}</ref> to destroy the boulder blocking the entrance, he is able to enter the cavern and navigate his way through it, defeating the creatures all the way through up to [[King Dodongo]], the boss of the dungeon. In return for this, he is able to receive the Spiritual Stone from the Gorons and proceed with his quest.<ref>{{Cite|You, on the other hand, risked your life for us... Kid, I like you! How's about you and I become Sworn Brothers?! No, there's no big ceremony involved! Just take this as a token of our friendship!|Darunia|OoT}}</ref>
+
+==Themes and Navigation==
+Dodongo's Cavern has two floors, some of which include bridges and statues. Some rooms are smaller and darker. Link regularly has to move blocks to depress [[Switch]]es, use Bomb Flowers to destroy walls (which can also be destroyed by defeating a [[Baby Dodongo]]), and occasionally shut off rings of fire by shooting eye switches with the [[Fairy Slingshot]]. It is home to lizard-like creatures, such as the several varieties of Dodongos for which the Cavern is named and [[Lizalfos]], which are the first mini-bosses found in the game. A small, hidden room is located behind the lava-waterfall in the chamber where the first two Lizalfos are fought. This room contains a single [[Heart]]. Many Bomb Flowers grow within the Cavern and are often necessary for solving puzzles before Link obtains the [[Bomb Bag]]. In the main chamber of Dodongo's Cavern lies the remains of a giant dead Dodongo, whose mouth must be opened to progress further into the Dungeon.<ref>{{Cite|Giant dead Dodongo... When it sees red, a new way to go will be open.|Stone Tablet|OoT3D}}</ref>
+
+In the {{MQ}} version, the dungeon is largely played in a backwards fashion. Instead of going first to the right, Link must go to the left and to the upper floor. The Lizalfos are first fought in the second floor and then in the first. [[Bomb]]s are obtained much later, where the [[Compass]] was originally found. There are also more [[Business Scrub]]s. The rooms where [[Gold Skulltula]]s were originally found have now many enemies such as [[Skulltula]]s and [[Mad Scrub]]s, giving a reward of only five [[Rupee]]s. [[Poe]]s now appear in the Dodongo room. [[Baby Dodongo]]s are plentiful and Dodongos are found in a different room. There are almost no [[Keese]] and there is a room with several [[Armos]]. Most puzzles feature a sequence of Bomb Flowers on the walls.
+
+Dodongo's Cavern is the only dungeon from the Child Link portion of the game that can be accessed as Adult Link without glitches; this is exploited to hide a Gold Skulltula which can only be reached using the [[Hookshot]] and the "[[Scarecrow's Song]]".
+
+===Areas===
+{{Transclude Locations|Locations in Ocarina of Time|Dodongo's Cavern}}
+
+===Enemies===
+{{Gallery List|Enemies
+ |OoT3D= Armos, Baby Dodongo, Beamos, Business Scrub, Dodongo, Gold Skulltula, Keese, Fire Keese, Lava Pit, Lizalfos, Razor, Skullwalltula
+}}
+
+{{Condition|{{MQ|-}}}}
+{{Gallery List|Enemies
+ |OoT3D= Gohma Larva, Mad Scrub, Poe, Skulltula
+}}
+
+==Trivia==
+*The sign which explains the giant dead Dodongo uses the same texture of a sign seen in a fountain in ''{{Smw|Super Mario 64}}''. It was changed in {{OoT3D}} to a different, more detailed sign that shows visible Hylian at a distance.
+*The map items in {{OoT|-}} and {{MM}}, when taken from a Treasure Chest, show a map of Dodongo's Cavern on them.
+*Dodongo's Cavern is mentioned in {{MM|-}} by the Goron that gives Link [[Don Gero's Mask]], however, he calls it "Dodongo Cavern".<ref>{{Cite|Th-That's it! It's so good that I dream about it... Dodongo Cavern's finest quality rock sirloin!|Goron|MM}}</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoT Dodongo's Cavern Map.jpg|{{Game Label|{{OoT|-}}}}Map of Dodongo's Cavern
+</gallery>
+
+==See Also==
+{{See Also|
+ * King Dodongo's Chamber
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+
+}}
+
+{{Dungeons|OoT}}
+{{Categories
+ |Caverns
+ |dungeons= OoT, OoT3D, OoTNS2
+ |locations= OoT, OoT3D, OoTNS2
+}}
+
+[[Category:Dodongos]]

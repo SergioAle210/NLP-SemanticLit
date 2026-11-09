@@ -1,0 +1,12 @@
+{{stub}}
+Using the <tt>idclev</tt> [[Doom cheat codes##All Doom versions|cheat code]] to warp to a level has the following side effects:
+
+* The player's status is reset to that of a newly launched game. That is, 100 percent health, no armor, the [[pistol]] in hand, and 50 [[bullets]]. This naturally deactivates any other powerups still in effect and eliminates any keys or weapons previously acquired, whether obtained using cheat codes or otherwise.
+* If the second digit of the level number warped to is 1 (and if typed quickly in succession, even if the first digit is 1), the player will switch to the [[fist]] upon entering the new level.
+* The <tt>-respawn</tt> and <tt>-nomonsters</tt> [[parameter]]s are ignored, if either was used when originally launching the game.
+* If [[fast monsters]] were being used before warping on a [[skill level]] other than "Nightmare!", their attack frequency reverts to normal, although the increased speed of [[demon]]s, [[spectre]]s, and certain [[projectile]] attacks remains the same.
+* If activated while the menu system is being used (by pressing <tt>idclev</tt>, the Esc key, and then the level numbers), only half the screen will be updated. The other half will continue displaying a view of the old level until the menus are exited.
+
+[[Category:Errors and bugs]]
+[[Category:Cheating]]
+[[Category:Levels]]

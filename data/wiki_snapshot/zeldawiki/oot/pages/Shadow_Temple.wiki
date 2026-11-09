@@ -1,0 +1,108 @@
+{{Infobox Dungeon
+|image= 
+{{Media
+ |Artwork OoT= [[File:Shadow Temple Artwork.png|320x320px]]
+ |Screenshot OoT= [[File:OoT Shadow Temple.png|320x320px]]
+ |Screenshot OoT3D= [[File:OoT3D Shadow Temple.png|320x320px]]
+ |Screenshot OoTNS2= [[File:OoTNS2 Shadow Temple.png|320x320px]]
+}}
+|caption= 
+|game= OoT
+|other= 
+|location= [[Kakariko Village Graveyard]]
+|item= 
+{{Icon List|OoT3D|
+ * Golden Skull Token {{Qty|5}}
+ * Hover Boots
+}}
+|mini-boss= [[Dead Hand]]
+|boss= ''Phantom Shadow Beast:'' [[Bongo Bongo]]
+|quest= 
+{{Icon List|OoT3D|
+ * Heart Container
+ * Shadow Medallion
+}}
+|theme= 
+|strategy= {{StrategyWiki|The Legend of Zelda: Ocarina of Time/Shadow Temple|Shadow Temple}}
+}}
+The '''Shadow Temple''', also known as the '''House of the Dead''', is a [[Dungeon]] in {{OoT}}.
+
+{{Terminology
+|-
+| {{Term/Store|Shadow Temple||Series, OoT, OoT3D}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 149"/>
+ * {{OoT3D}}<ref name="E 149"/>
+}}
+|-
+| '''House of the Dead'''
+| 
+{{List|
+ * {{OoT}}<ref name="OoT Sheik"/>
+ * {{OoT3D}}<ref name="OoT Sheik"/>
+}}
+}}
+
+==Features and Overview==
+The entrance is found in the back of the [[Kakariko Village Graveyard]] in a little alcove only accessible using the [[Nocturne of Shadow]]. The song is taught to [[Link]] by [[Sheik]] after [[Bongo Bongo]] is freed from its imprisonment in [[Kakariko Village]].
+
+The Shadow Temple was historically a place used by the Sheikah to interrogate enemies of the [[Royal Family of Hyrule]]. Because of the dark stain on [[Hyrule]]'s history that it represents, it is taboo for the Royal Family to speak of the Shadow Temple.<ref>{{Cite Book|quote= The Shadow Temple, located in the Kakariko Village graveyard. It is a place where the Sheikah, entrusted with the lives of Hyrule's royal family, have historically taken enemies of the royal family to be interrogated or worse. Because it stands as a symbol of Hyrule's dark history, it is taboo for the royal family to speak of this temple and its horrific purpose. |book= E |page= 44 }}</ref> Consequently, some of the walls and floors are stained with blood, and torture equipment is located in several rooms.
+
+In comparison to other temples, the Shadow Temple guides [[Link]] through a straight route, except in some parts where the young hero has to deviate in order to find [[Small Key]]s or an [[Item]]. The temple is filled with undead creatures, deadly twisted traps, and mind-bending puzzles everywhere all designed to trap anyone who enters the crypt. It is also filled to the brim with invisible walls and passageways only visible using the [[Lens of Truth]]. Many concealed [[Skulltula]]s hang in rooms and corridors within the temple's walls. Link's goal is to go to the bottom of the temple, where Bongo Bongo is found; because of the temple's mostly linear structure, its difficulty is based on the numerous enemies, silver Rupee collections, invisible obstacles and traps within. There is also a [[Bomb Flower]] puzzle similar to those seen in [[Dodongo's Cavern]].
+
+These are the two keys to finishing the Shadow Temple: being able to see through illusion and the adjusting of one's weight, from lighter than air with the [[Hover Boots]] to being heavy enough to walk on the ocean floor with the [[Iron Boots]]. Without being able to do either, the Shadow Temple cannot be finished. A little used strategy in the Shadow Temple is when Link comes across the active fans in a corridor, the Iron Boots can be used to resist their push. The [[Hover Boots]], the temple's treasure item, are known by all to be used to cross large gaps otherwise uncrossable.
+
+The Lens of Truth reduces the difficulty of the Shadow Temple drastically, particularly against Bongo Bongo. It allows its user to see through fake walls and holes, as well as invisible obstacles, platforms and even enemies.
+
+The ferry to the other world sails away when you play "[[Zelda's Lullaby]]" on the [[Ocarina of Time (Item)|ocarina]]. Once the ship sinks, you won't come back.
+
+The mini-boss of this dungeon is [[Dead Hand]]; it is unknown whether or not this is the same one as at the [[Bottom of the Well]], but it's known that it's guarding the [[Hover Boots]] in the temple. The boss of the temple, as mentioned above, is Bongo Bongo; it's an undead monster consisting of a giant torso, one protruding eye, and two huge disembodied hands beating on a giant drum. It is never sufficiently explained why there is a giant drum in the basement.
+
+{{Condition|{{MQ|-}} mode}}
+Compared to other {{MQ}} [[Dungeon]]s, the Shadow Temple presents much less of a challenge. The main changes to the Dungeon involves the type and number of [[Enemy|Enemies]] encountered. The number of [[Beamos]] and [[Keese]] has been increased, and there are fewer [[Skulltula]]s than before. The order in which the rooms are visited is still the same, and the [[Hover Boots]] are less useful than in the original quest. Instead of a [[Floormaster]], there are now [[Blue Bubble]]s and a [[Like Like]] in the room with invisible walls. There is now a silver Rupee [[Puzzle]] in the invisible reaper room, and one of the reaper statues constantly changes the speed of its swirling scythes. One of the rooms with giant rotating skulls now contains [[Stalfos]], which give a reward of 20 [[Rupee]]s when defeated. The most notorious change is a room with several [[Bomb Flower]]s. Instead of an invisible Floormaster, a second [[Dead Hand]] with no hands now appears, defeating it awards the young hero with a bundle of [[Arrow]]s.
+
+===Enemies===
+{{Gallery List|Enemies
+ |OoT= Beamos, Big Blade (Ocarina of Time), Compactor, Falling Spikes, Fire Eye, Floor Spikes, Floormaster, Giant Beamos, Gibdo, Gold Skulltula, Guillotine, Keese, Like Like, Razor, Red Bubble, ReDead, Skulltula, Stalfos, Toxic Water, Wall Spikes, Wallmaster
+ |OoT3D= Beamos, Blade Trap, Compactor, Falling Spikes, Fire Eye, Floor Spikes, Floormaster, Giant Beamos, Gibdo, Gold Skulltula, Guillotine, Keese, Like Like, Reaper Blade, Red Bubble, ReDead, Skulltula, Stalfos, Toxic Water, Wall Spikes, Wallmaster
+}}
+
+==Trivia==
+* According to ''The Great Hyrule Encyclopedia'', the Shadow Temple was built using the bones of Hyrule's "evil dead" and the traps within were designed to add more bodies to the crypts.<ref>{{Cite Web|quote= Lying behind the Kakariko Graveyard, the Shadow Temple was built with the blood and bones of Hyrule's evil dead. A labyrinth of illusions and puzzles, the Shadow Temple is a tangle of illusions and puzzles, each designed to add another resident to its already overflowing crypts. |author= |published= |retrieved= |url= http://web.archive.org/web/20160311084700/http://zelda.com/universe/pedia/s.jsp#ShadowTemple|title= The Great Hyrule Encyclopedia |site= Zelda.com |type= Archive}}</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Opening temple shadow.jpg|{{Game Label|{{OoT|-}}}}Link opening the Door to Temple with Din's Fire
+File:OoT Shadow Temple.png|{{Game Label|{{OoT|-}}}}The entrance to the Temple
+File:Shadow temple fake wall.jpg|{{Game Label|{{OoT|-}}}}A fake wall seen with the Lens of Truth
+File:Shadow temple run.jpg‎|{{Game Label|{{OoT|-}}}}A corridor of the Temple
+File:OoT Shadow Temple Room.jpg|{{Game Label|{{OoT|-}}}}A room inside the Temple
+File:Shadow temple boat battle.jpg|{{Game Label|{{OoT|-}}}}Link fighting off Stalfos on the ferry
+File:OoT Fan Model.png|{{Game Label|{{OoT|-}}}}One of the Fans in the Temple
+File:OoT Bongo Bongo Introduction.png|{{Game Label|{{OoT|-}}}}The Temple's Boss, Bongo Bongo
+File:OoT Shadow Temple Map.jpg|{{Game Label|{{OoT|-}}}}The Dungeon Map of the Shadow Temple
+File:OoTNS2 Shadow Temple Ship.png|{{Game Label|{{OoTNS2|-}}}}The Ship in the Shadow Temple
+</gallery>
+
+==See Also==
+{{See Also|
+ * Shadow
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 149">{{Cite Book|quote= |book= E |publisher= |page= 149}}</ref>
+<ref name="OoT Sheik">{{Cite|When evil rules all, an awakening voice from the Sacred Realm will call those destined to be Sages, who dwell in the {{Color OoT|Red|five temples}}. One in a {{Color OoT|Green|deep forest}}... One on a {{Color OoT|Red|high mountain}}... One under a {{Color OoT|Dark Blue|vast lake}}... One within the {{Color OoT|Purple|house of the dead}}... One inside a {{Color OoT|Yellow|goddess of the sand}}... Together with the Hero of Time, the awakened ones will bind the evil and return the light of peace to the world... This is the legend of the temples passed down by my people, the {{Color OoT|Dark Blue|Sheikah}}.|Sheik|OoT}}<br/>{{Cite|When evil rules all, an awakening voice from the Sacred Realm will call those destined to be Sages, who dwell in the {{Color OoT3D|Red|five temples}}. One in a {{Color OoT3D|Green|deep forest}}... One on a {{Color OoT3D|Red|high mountain}}... One under a {{Color OoT3D|Dark Blue|vast lake}}... One within the {{Color OoT3D|Purple|house of the dead}}... One inside a {{Color OoT3D|Yellow|goddess of the sand}}... Together with the Hero of Time, the awakened ones will bind the evil and return the light of peace to the world... This is the legend of the temples passed down by my people, the {{Color OoT3D|Dark Blue|Sheikah}}.|Sheik|OoT3D}}</ref>
+
+}}
+
+{{Dungeons|OoT}}
+{{Categories
+ |Temples
+ |dungeons= OoT, OoT3D, OoTNS2
+ |locations= OoT, OoT3D, OoTNS2
+}}

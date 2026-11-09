@@ -1,0 +1,92 @@
+{{Infobox Dungeon
+|image= 
+{{Media
+ |Screenshot OoT= [[File:OoT Spirit Temple.png|320x320px]]
+ |Screenshot OoT3D= [[File:OoT3D Spirit Temple.png|320x320px]]
+ |Screenshot OoTNS2= [[File:OoTNS2 Spirit Temple.png|320x320px]]
+ |Screenshot TotK= [[File:TotK Spirit Temple.png|320x320px]]
+}}
+|caption= 
+|game= OoT, TotK
+|other= 
+|pronunciation= 
+|location= 
+{{Infobox Game Blocks
+ |OoT= [[Desert Colossus]]
+ |TotK= [[West Necluda Depths]]
+}}
+|item= 
+|quest= 
+|mini-boss= 
+|boss= 
+|temperature= 
+|counter= 
+|theme= 
+|strategy= 
+|zu= 
+}}
+The '''Spirit Temple''' is a recurring [[Dungeon]] in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Spirit Temple|Spirit Temples|Series, OoT, OoT3D, TotK}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 149"/>
+ * {{OoT3D}}<ref name="E 149"/>
+ * {{TotK}}<ref name="TotK Game Screen"/>
+}}
+}}
+
+==Features and Overview==
+==={{OoT|-}}===
+{{Main|Spirit Temple (Ocarina of Time)}}
+The Spirit Temple is located in the westernmost area of the [[Desert Colossus]] in the [[Haunted Wasteland]]. Its main [[Item]] is the [[Mirror Shield]] and its [[Boss]] is [[Twinrova]].
+
+==={{TotK|-}}===
+{{Main|Spirit Temple (Tears of the Kingdom)}}
+{{Quests|
+{{TotK Quest
+ |name= Find the Fifth Sage
+ |type= Main Quest
+ |giver= [[Purah]]
+ |location= [[Lookout Landing]]
+}}
+{{TotK Quest
+ |name= Guidance from Ages Past
+ |type= Main Quest
+ |giver= [[Zonai Relic]]
+ |location= [[Dragonhead Island]]
+}}
+{{TotK Quest
+ |name= Trail of the Master Sword
+ |type= Main Quest
+ |giver= [[Mineru]]
+ |location= Spirit Temple
+}}
+}}
+The Spirit Temple is located in the [[West Necluda Depths]]. Its [[Boss]] is the [[Seized Construct]].
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+
+==See Also==
+{{See Also|
+ * Spirit Temple (Ocarina of Time)
+ * Spirit Temple (Tears of the Kingdom)
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 149">{{Cite Book|quote= |book= E |publisher= |page= 149}}</ref>
+
+<!-- Tears of the Kingdom -->
+<ref name="TotK Game Screen">{{Cite|{{Big|Spirit Temple}}<br/>The Vessel of Spirit's Resting Place|Game Screen|TotK}}</ref>
+}}
+
+{{Categories
+ |Temples
+}}

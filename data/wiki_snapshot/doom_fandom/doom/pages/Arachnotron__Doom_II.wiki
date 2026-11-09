@@ -1,0 +1,204 @@
+{{Arachnotron}}{{DISPLAYTITLE:Arachnotron (Doom II)}}
+{{Infobox Enemy
+|name = Arachnotron
+|image = spiderdemon_sprite.png
+|class = Cyborg Demon
+|type = Enemy
+|hp = 500
+|attack = 5-40 <small>(263 shots/minute)</small>
+|speed = 140 map units per second
+}}
+{{quote|Maybe cybernetics wasn't such a great idea after all. Look what the demons have done with it. It seems unfair somehow you're not the only guy in [[Hell]] with a [[plasma gun]].|Description in the Doom II manual}}
+The '''Arachnotron''' is a [[monster]] introduced in ''[[Doom II]]''. They make their first appearance in [[MAP07: Dead Simple (Doom II)|MAP07: Dead Simple]], where the player must fight a large swarm of them after defeating a pack of [[Mancubus|Mancubi]].
+
+==Physical appearance==
+The Arachnotron is similar in appearance to the [[Spiderdemon]]; its body consists primarily of a large brain along with two small arms, that is supported by a metal chassis with four mechanical legs.  
+
+The main difference is the Arachnotron is smaller in size, and has large blue eyes by default, which change color depending on the monster's current state (moving, hurt, or attacking). Its brain appears to be less wrinkled than that of the Spiderdemon, and instead of a large chaingun mounted on the middle of its chassis, it has a plasma gun.  
+
+==Combat characteristics==
+An Arachnotron emits a crescendo-ing mechanical cry (akin to machinery powering up) when spotting a player. When in pain, they will make a low-pitch demonic moan that most other monsters make. Like the [[Spiderdemon]], it has audible footsteps, in their case sounding like buzzing machinery punctuated with occasional electronic crackling. 
+
+The Arachnotron is armed with a powerful plasma gun installed on its chassis, which fires quick bursts of yellow green energy. Once the Arachnotron engages an enemy, it will continue to fire until the enemy is killed or moves out of its field of view, or until the monster itself flinches in pain or is destroyed - similar behavior can be observed with the [[Spiderdemon]], [[Wolfenstein SS]] and [[Heavy Weapon Dude]].
+
+When this monster dies, its head explodes into a morass of gore as its mechanical body collapses while unleashing an electronically pitched dying tone that resembles failing machinery.
+
+==Tactical analysis==
+The multiple bursts from the Arachnotron's plasma shots can be quite devastating. And their habit of continuously firing at their enemy upon first sight of them can make short work on an inexperienced player. Furthermore, their plasma bursts are among the fastest [[projectile]]s, and it can obscure the player's vision upon a successful hit. The best course of action is once you see the Arachnotron firing its shots, do not stay at one place. Instead, immediately move out of the way and find cover to stop it from continuously firing.
+
+The basic strategy to take out an Arachnotron is from range. As players are able to read the trail of the Arachnotron's plasma bursts from a distance, this can serve as a good indicator for the player to avoid their shots without taking damage. The [[Rocket launcher/Doom|rocket launcher]] is an effective long-range weapon as it takes two-three rockets to destroy an Arachnotron. The repeating shots from the [[Plasma gun/Doom|plasma gun]] can also work wonders as Arachnotrons have a medium pain chance, making couple of initial plasma shots to stun them. Due to their robust health and speed of attack and reaction, melee combat is highly discouraged - in some rare instances, a player with a [[Chainsaw]] can get lucky to rapidly reach the creature and start sawing it before it can open fire due to their pretty high pain chance. 
+
+While the Arachnotrons' plasma shots are fairly powerful, their projectiles are also wide enough that narrow obstacles like pillars, can sometimes act as excellent cover from their shots. On occasions, should players be forced to take them down from a higher plane, Arachnotrons will repeatedly fire, but their plasma shots will only dissipate on the wall of a high ledge where the player is standing, although this requires the monster to stand close to the wall.
+
+Although they may seem slow, Arachnotrons are actually faster than quite a few of the other monsters and can catch up with the [[player]] at an alarming rate. If the player must resort to fighting them at close range, the [[chaingun]] can work well. A skilled player can also rely on using the [[Super shotgun/Doom II|super shotgun]] to take them down at point blank range. However, this will require players to [[Strafing|circle around the monster]] as it takes two-three-point blank shots to obliterate them.
+
+Because of their sustained, extremely fast rate of fire, they are often more than capable of defeating almost any monster if provoked via [[monster infighting]], especially when multiple Arachnotrons attack; however, stronger enemies like the [[Mancubus]] would even out the fight, given that it also displays near identical behavior to the Arachnotron as well having attacks just as potent. A [[Baron of Hell]] will usually prevail in smaller battles because of their higher health.
+
+==Data==
+{| class="WikiaTable"
+! colspan="2" |Attributes
+|-
+|ID #||68 (decimal), 44 (hex)
+|-
+|[[Hit points]]||500
+|-
+|Speed||12 [[map unit]]s per frame<br />(140.0 map units per second)
+|-
+|Width||128
+|-
+|Height||64
+|-
+|Reaction time||8
+|-
+|[[Pain chance]]||128 (50%)
+|-
+|Pain time||6 tics
+|-
+|[[Mass]]||600
+|-
+|Bits||4194310
+|}
+
+{| class="WikiaTable"
+!Bits list
+|-
+|
+1: Obstacle
+
+2: Shootable
+
+22: Affects Kill %
+|}
+
+{| class="WikiaTable"
+! colspan="2" |[[Sprite]]s & [[sound]]s
+|-
+|Sprite name||BSPI
+|-
+|Alert sound||DSBSPSIT
+|-
+|Chase sound||DSBSPWLK
+|-
+|Action sound||DSBSPACT
+|-
+|Pain sound||DSDMPAIN
+|-
+|[[Types of death|Death]] sound||DSBSPDTH
+|}
+
+{| class="WikiaTable"
+! colspan="2" |Ranged attack
+|-
+|Type||[[Projectile]]
+|-
+|Speed||25 [[map unit]]s per tic<br />(875 map units per second)
+|-
+|Damage||5-40
+|-
+|Shots per minute||263
+|-
+|Width||13
+|-
+|Height||8
+|-
+|Sprite name||APLS (in flight)<br />APBX (impact)
+|-
+|Sound||DSPLASMA (firing)<br />DSFIRXPL (impact)
+|}
+[[File:PlasmaHistogram.png|300x300px]]
+{| class="WikiaTable"
+|-
+| '''Shots needed to kill'''
+| Mean
+| [[Wikipedia:Standard deviation#Interpretation and application|Standard<br />deviation]]
+| Min
+| Max
+|-
+|[[Player]] (100%<br />[[health]], no [[armors|armor]])||5.02||1.09||3||8
+|-
+|Player (100%<br />health, [[security armor]])||7.16||1.23||5||10
+|-
+|Player (200%<br />health, [[combat armor]])||17.99||1.97||13||22
+|-
+|[[Barrel]]||1.44||0.60||1||4
+|-
+|[[Trooper]]||1.44||0.60||1||4
+|-
+|[[Sergeant]]||1.80||0.75||1||4
+|-
+|[[Wolfenstein SS]]||2.75||0.78||2||5
+|-
+|[[Imp]]||3.16||0.86||2||6
+|-
+|[[Chaingunner]]||3.61||0.91||2||6
+|-
+|[[Lost Soul]]||5.02||1.09||3||8
+|-
+|[[Commander Keen]]||5.02||1.09||3||8
+|-
+|[[Demon]]||7.22||1.29||5||10
+|-
+|[[Spectre]]||7.22||1.29||5||10
+|-
+|[[Boss Brain]]<sup>2</sup>||11.68||1.70||8||16
+|-
+|[[Revenant]]||13.90||1.83||9||18
+|-
+|[[Cacodemon]]||18.27||2.04||13||22
+|-
+|[[Pain Elemental]]||18.27||2.04||13||22
+|-
+|[[Hell Knight]]||22.80||2.24||17||28
+|-
+|[[Arachnotron]]<sup>3</sup>|| || || ||
+|-
+|[[Mancubus]]||27.28||2.45||21||33
+|-
+|[[Arch-vile]]||31.76||2.58||25||37
+|-
+|[[Baron of Hell]]||45.16||3.09||36||52
+|-
+|[[Spider Mastermind]]||134.41||2.61||128||140
+|-
+|[[Cyberdemon]]||179.12||2.55||173||184
+|}
+
+# <small>This table assumes that all calls to [[Pseudorandom number generator|P_Random]] for damage, [[pain chance]], impact animations, and backfire checks are consecutive. In real play, this is never the case: counterattacks and AI pathfinding must be handled, and of course the map may contain additional moving monsters and other randomized phenomena (such as [[Sector#Vanilla Doom|flickering lights]]). Any resulting errors are probably toward the single-shot average, as they introduce noise into the correlation between the indices of "consecutive" calls. </small>
+# <small>Assumes that direct hits are possible, which [[Icon of Sin|does not occur]] in any stock map. </small>
+# <small>Hardcoded exception to [[infighting]] negates damage (excepting indirect damage caused by exploding barrels).</small>
+
+==Trivia==
+The Arachnotron's sprites have numerous holes in them.
+
+==Appearance statistics==
+In [[classic Doom]], the Arachnotron is first encountered on these maps:
+{| class="WikiaTable"
+|-
+!Game!![[I'm Too Young To Die|ITYTD]] and [[Hey, Not Too Rough|HNTR]]!![[Hurt Me Plenty|HMP]]!![[Ultra-Violence|UV]] and [[Nightmare!|NM]]
+|-
+|[[Doom II]]||[[MAP07: Dead Simple (Doom II)|MAP07: Dead Simple]]||[[MAP07: Dead Simple (Doom II)|MAP07: Dead Simple]]||[[MAP07: Dead Simple (Doom II)|MAP07: Dead Simple]]
+|-
+|[[TNT: Evilution]]||[[MAP06: Open Season (TNT: Evilution)|MAP06: Open Season]]||[[MAP08: Metal (TNT: Evilution)|MAP08: Metal]]||[[MAP04: Wormhole (TNT: Evilution)|MAP04: Wormhole]]
+|-
+|[[Plutonia]]||[[MAP03: Aztec (The Plutonia Experiment)|MAP03: Aztec]]||[[MAP03: Aztec (The Plutonia Experiment)|MAP03: Aztec]]||[[MAP03: Aztec (The Plutonia Experiment)|MAP03: Aztec]]
+|}
+
+The [[IWAD]]s contain the following numbers of Arachnotrons:
+{| class="WikiaTable"
+|-
+!Game!![[I'm Too Young To Die|ITYTD]] and [[Hey, Not Too Rough|HNTR]]!![[Hurt Me Plenty|HMP]]!![[Ultra-Violence|UV]] and [[Nightmare!|NM]]
+|-
+|[[Doom II]]||15||41||64
+|-
+|[[TNT: Evilution]]||29||52||57
+|-
+|[[Plutonia]]||68||87||94
+|}
+
+{{Doom monsters}}
+[[Category:Doom II monsters]]
+[[Category:Sony PlayStation Doom monsters]]
+[[Category:Doom monsters]]
+[[Category:Synthetic Demon]]
+[[Category:Demons]]
+[[Category:Monsters]]

@@ -1,0 +1,106 @@
+{{Infobox Dungeon
+|image= 
+{{Media
+ |Artwork OoT= File:OoT Artwork Dodongo's Cavern.jpg
+ |Screenshot OoT= File:OoT Dodongo's Cavern.png
+ |Screenshot OoT3D= File:OoT3D Dodongo's Cavern.png
+}}
+|caption= 
+|location= [[Death Mountain Trail]]
+|game= {{OoT}}
+|item= [[Bomb Bag]]<br/>[[Gold Skulltula]] ×5
+|mini-boss= [[Lizalfos]] ×4
+|boss= ''Infernal Dinosaur:'' [[King Dodongo]]
+|quest= [[Goron's Ruby]]<br/>[[Heart Container]]
+|theme= 
+}}
+{{Term/Store|Dodongo's Cavern||Series, OoT, OoT3D}} is a {{Term|OoT3D|Dungeon|link}} in {{OoT}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 149}}</ref> It is the second of three dungeons that child [[Link]] must visit in order to acquire the three [[Spiritual Stones]]. It also has a great amount of rocks in it that the [[Goron]]s that live nearby eat, and it is used for mining food for them.<ref>{{Cite|We are in danger of extinction! It's all because we can't enter our quarry, the Dodongo's Cavern. We Gorons live on a diet of rocks... And the most delicious and nutritious rocks around are found in the Dodongo's Cavern!|Goron|OoT}}</ref>
+
+==Entrance to the Cavern==
+The cave is located about halfway up [[Death Mountain Trail]]. Prior to the events of the game, [[Ganondorf]] came to Death Mountain to get the [[Goron's Ruby]] from [[Darunia]], the chief of the Gorons, who refused. Because of that, Ganondorf infested the cavern with [[Dodongo]]s and sealed the entrance with a giant boulder.<ref>{{Cite|All this trouble must have been caused by that Gerudo thief, Ganondorf! He said, "Give me the Spiritual Stone! Only then will I open the cave for you!"|Darunia|OoT}}</ref>
+
+Link, who comes to Death Mountain to get the Spiritual Stone as well, is, unlike Ganondorf, able to gain the trust and respect of the Gorons. By using a [[Bomb Flower]] (usable only after collection of the [[Goron's Bracelet]])<ref>{{Cite|You got the Goron's Bracelet! Now you can pull up Bomb Flowers.|N/A|OoT}}</ref> to destroy the boulder blocking the entrance, he is able to enter the cavern and navigate his way through it, defeating the creatures all the way through up to [[King Dodongo]], the boss of the dungeon. In return for this, he is able to receive the Spiritual Stone from the Gorons and proceed with his quest.<ref>{{Cite|You, on the other hand, risked your life for us... Kid, I like you! How's about you and I become Sworn Brothers?! No, there's no big ceremony involved! Just take this as a token of our friendship!|Darunia|OoT}}</ref>
+
+==Themes and Navigation==
+Dodongo's Cavern has two floors, some of which include bridges and statues. Some rooms are smaller and darker. Link regularly has to move blocks to press [[Switch]]es, use Bomb Flowers to destroy walls (which can also be destroyed by defeating a [[Baby Dodongo]]), and occasionally shut off rings of fire by shooting eye switches with the [[Fairy Slingshot]]. It is home to lizard-like creatures, such as the several varieties of Dodongos for which the Cavern is named and [[Lizalfos]], which are the first mini-bosses found in the game. A small, hidden room is located behind the lava-waterfall in the chamber where the first two Lizalfos are fought. This room contains a single [[Heart]]. Many Bomb Flowers grow within the Cavern and are often necessary for solving puzzles before Link obtains the [[Bomb Bag]]. In the main chamber of Dodongo's Cavern lies the remains of a giant dead Dodongo, whose mouth must be opened to progress further into the dungeon.<ref>{{Cite|Giant dead Dodongo... when it sees red, a new way to go will be open.|Sign|OoT}}</ref>
+
+In the {{MQ}} version, the dungeon is largely played in a backwards fashion. Instead of going first to the right, Link must go to the left and to the upper floor. The Lizalfos are first fought in the second floor and then in the first. [[Bomb]]s are obtained much later, where the [[Compass]] was originally found. There are also more [[Business Scrub]]s. The rooms where [[Gold Skulltula]]s were originally found have now many enemies such as [[Skulltula]]s and [[Mad Scrub]]s, giving a reward of only five [[Rupee]]s. [[Poe]]s now appear in the Dodongo room. [[Baby Dodongo]]s are plentiful and Dodongos are found in a different room. There are almost no [[Keese]] and there is a room with several [[Armos]]. Most puzzles feature a sequence of Bomb Flowers on the walls.
+
+===Minor Enemies and Traps===
+{{Tabs
+|align= 
+|default= 2
+|tab1= {{OoT|-}}
+|content1= <gallery>
+File:OoT Armos Model.png|{{Term|OoT|Armos|link}}
+File:OoT Baby Dodongo Model.png|{{Term|OoT|Baby Dodongo|link}}
+File:OoT Beamos Model.png|{{Term|OoT|Beamos|link}}
+File:OoT Blade Trap Model.png|{{Term|OoT|Blade Trap|link}}
+File:OoT Business Scrub Model.png|{{Term|OoT|Business Scrub|link}}
+File:OoT Dodongo Model.png|{{Term|OoT|Dodongo|link}}
+File:OoT Gold Skulltula Model.png|{{Term|OoT|Gold Skulltula|link}}
+File:OoT Keese Model.png|{{Term|OoT|Keese|link}}
+File:OoT Fire Keese Model.png|{{Term|OoT|Fire Keese|link}}
+File:OoT Lizalfos Model.png|{{Term|OoT|Lizalfos|link}}
+File:OoT Skullwalltula Model.png|{{Term|OoT|Skullwalltula|link}}
+</gallery>
+|tab2= {{OoT3D|-}}
+|content2= <gallery>
+File:OoT3D Armos Model.png|{{Term|OoT3D|Armos|link}}
+File:OoT3D Baby Dodongo Model.png|{{Term|OoT3D|Baby Dodongo|link}}
+File:OoT3D Beamos Model.png|{{Term|OoT3D|Beamos|link}}
+File:OoT3D Blade Trap Model.png|{{Term|OoT3D|Blade Trap|link}}
+File:OoT3D Business Scrub Model.png|{{Term|OoT3D|Business Scrub|link}}
+File:OoT3D Dodongo Model.png|{{Term|OoT3D|Dodongo|link}}
+File:OoT3D Gold Skulltula Model.png|{{Term|OoT3D|Gold Skulltula|link}}
+File:OoT3D Keese Model.png|{{Term|OoT3D|Keese|link}}
+File:OoT3D Fire Keese Model.png|{{Term|OoT3D|Fire Keese|link}}
+File:OoT3D Lizalfos Model.png|{{Term|OoT3D|Lizalfos|link}}
+File:OoT3D Skullwalltula Model.png|{{Term|OoT3D|Skullwalltula|link}}
+</gallery>
+}}
+
+===={{MQ|-}}====
+{{Tabs
+|align= 
+|default= 2
+|tab1= {{OoT|-}}
+|content1= <gallery>
+File:OoT Gohma Larva Model.png|{{Term|OoT|Gohma Larva|link}}
+File:OoT Mad Scrub Model 2.png|{{Term|OoT|Mad Scrub|link}}
+File:OoT Poe Model.png|{{Term|OoT|Poe|link}}
+File:OoT Skulltula Model.png|{{Term|OoT|Skulltula|link}}
+</gallery>
+|tab2= {{OoT3D|-}}
+|content2= <gallery>
+File:OoT3D Gohma Larva Model.png|{{Term|OoT3D|Gohma Larva|link}}
+File:OoT3D Mad Scrub Model 2.png|{{Term|OoT3D|Mad Scrub|link}}
+File:OoT3D Poe Model.png|{{Term|OoT3D|Poe|link}}
+File:OoT3D Skulltula Model.png|{{Term|OoT3D|Skulltula|link}}
+</gallery>
+}}
+
+==Trivia==
+*The sign which explains the giant dead Dodongo uses the same texture of a sign seen in a fountain in ''{{Smw|Super Mario 64}}''. It was changed in {{OoT3D}} to a different, more detailed sign that shows visible Hylian at a distance.
+*The map items in {{OoT|-}} and {{MM}}, when taken from a Treasure Chest, show a map of Dodongo's Cavern on them.
+*Dodongo's Cavern is mentioned in {{MM|-}} by the Goron that gives Link [[Don Gero's Mask]], however, he calls it "Dodongo Cavern".<ref>{{Cite|Th-That's it! It's so good that I dream about it... Dodongo Cavern's finest quality rock sirloin!|Goron|MM}}</ref>
+*With the exception of parts of the Spirit Temple, this is the only temple meant to be played as Young Link that can later be entered again as an adult.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Deku in the Cave.png|Link aims his Slingshot at a Business Scrub.
+File:Lizalfos Battle.png|Link vs. a Lizalfos.
+File:Dodongo Room.png|Link crosses a Dodongo while holding a Deku Stick.
+File:Dodongooot.jpg|Map of Dodongo's Cavern
+</gallery>
+
+{{Ref}}
+{{DungeonNav2|OoT}}
+{{Categories
+ |Caverns
+ |dungeons= OoT, OoT3D
+ |locations= OoT, OoT3D
+}}

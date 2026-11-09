@@ -1,0 +1,394 @@
+{
+  "source": "zeldapedia",
+  "license": "GFDL",
+  "license_note": "GNU Free Documentation License. Copyleft distinto de CC BY-SA; mantener separada y atribuida.",
+  "downloaded_at": "2026-11-08T18:07:52+00:00",
+  "total_chars": 1407053,
+  "missing_titles": [
+    "Level 1 (The Legend of Zelda)",
+    "Level 2 (The Legend of Zelda)",
+    "Level 3 (The Legend of Zelda)",
+    "Level 4 (The Legend of Zelda)",
+    "Level 9 (The Legend of Zelda)"
+  ],
+  "pages": [
+    {
+      "title": "The Legend of Zelda",
+      "url": "https://zelda.fandom.com/wiki/The_Legend_of_Zelda",
+      "revid": 1027979,
+      "file": "pages/The_Legend_of_Zelda.wiki",
+      "chars": 70840
+    },
+    {
+      "title": "Hyrule",
+      "url": "https://zelda.fandom.com/wiki/Hyrule",
+      "revid": 1026717,
+      "file": "pages/Hyrule.wiki",
+      "chars": 52990
+    },
+    {
+      "title": "Ganon",
+      "url": "https://zelda.fandom.com/wiki/Ganon",
+      "revid": 1027874,
+      "file": "pages/Ganon.wiki",
+      "chars": 164307
+    },
+    {
+      "title": "Link",
+      "url": "https://zelda.fandom.com/wiki/Link",
+      "revid": 1027853,
+      "file": "pages/Link.wiki",
+      "chars": 220546
+    },
+    {
+      "title": "Princess Zelda",
+      "url": "https://zelda.fandom.com/wiki/Princess_Zelda",
+      "revid": 1027245,
+      "file": "pages/Princess_Zelda.wiki",
+      "chars": 143859
+    },
+    {
+      "title": "Triforce",
+      "url": "https://zelda.fandom.com/wiki/Triforce",
+      "revid": 1027799,
+      "file": "pages/Triforce.wiki",
+      "chars": 94767
+    },
+    {
+      "title": "Triforce of Wisdom",
+      "url": "https://zelda.fandom.com/wiki/Triforce_of_Wisdom",
+      "revid": 1009659,
+      "file": "pages/Triforce_of_Wisdom.wiki",
+      "chars": 17817
+    },
+    {
+      "title": "Triforce of Power",
+      "url": "https://zelda.fandom.com/wiki/Triforce_of_Power",
+      "revid": 1024688,
+      "file": "pages/Triforce_of_Power.wiki",
+      "chars": 18815
+    },
+    {
+      "title": "Triforce of Courage",
+      "url": "https://zelda.fandom.com/wiki/Triforce_of_Courage",
+      "revid": 1027797,
+      "file": "pages/Triforce_of_Courage.wiki",
+      "chars": 19609
+    },
+    {
+      "title": "Boomerang",
+      "url": "https://zelda.fandom.com/wiki/Boomerang",
+      "revid": 1023680,
+      "file": "pages/Boomerang.wiki",
+      "chars": 29682
+    },
+    {
+      "title": "Magical Boomerang",
+      "url": "https://zelda.fandom.com/wiki/Magical_Boomerang",
+      "revid": 954489,
+      "file": "pages/Magical_Boomerang.wiki",
+      "chars": 6772
+    },
+    {
+      "title": "Blue Candle",
+      "url": "https://zelda.fandom.com/wiki/Blue_Candle",
+      "revid": 971489,
+      "file": "pages/Blue_Candle.wiki",
+      "chars": 2784
+    },
+    {
+      "title": "Red Candle",
+      "url": "https://zelda.fandom.com/wiki/Red_Candle",
+      "revid": 977328,
+      "file": "pages/Red_Candle.wiki",
+      "chars": 3029
+    },
+    {
+      "title": "Flute",
+      "url": "https://zelda.fandom.com/wiki/Flute",
+      "revid": 1023803,
+      "file": "pages/Flute.wiki",
+      "chars": 13250
+    },
+    {
+      "title": "Raft",
+      "url": "https://zelda.fandom.com/wiki/Raft",
+      "revid": 977318,
+      "file": "pages/Raft.wiki",
+      "chars": 5752
+    },
+    {
+      "title": "Ladder",
+      "url": "https://zelda.fandom.com/wiki/Ladder",
+      "revid": 977282,
+      "file": "pages/Ladder.wiki",
+      "chars": 3850
+    },
+    {
+      "title": "Power Bracelet",
+      "url": "https://zelda.fandom.com/wiki/Power_Bracelet",
+      "revid": 957157,
+      "file": "pages/Power_Bracelet.wiki",
+      "chars": 13048
+    },
+    {
+      "title": "Magical Key",
+      "url": "https://zelda.fandom.com/wiki/Magical_Key",
+      "revid": 959655,
+      "file": "pages/Magical_Key.wiki",
+      "chars": 2502
+    },
+    {
+      "title": "Blue Ring",
+      "url": "https://zelda.fandom.com/wiki/Blue_Ring",
+      "revid": 1026692,
+      "file": "pages/Blue_Ring.wiki",
+      "chars": 8741
+    },
+    {
+      "title": "Red Ring",
+      "url": "https://zelda.fandom.com/wiki/Red_Ring",
+      "revid": 1027315,
+      "file": "pages/Red_Ring.wiki",
+      "chars": 5299
+    },
+    {
+      "title": "Wooden Sword",
+      "url": "https://zelda.fandom.com/wiki/Wooden_Sword",
+      "revid": 991996,
+      "file": "pages/Wooden_Sword.wiki",
+      "chars": 3479
+    },
+    {
+      "title": "White Sword",
+      "url": "https://zelda.fandom.com/wiki/White_Sword",
+      "revid": 929801,
+      "file": "pages/White_Sword.wiki",
+      "chars": 6769
+    },
+    {
+      "title": "Magical Sword",
+      "url": "https://zelda.fandom.com/wiki/Magical_Sword",
+      "revid": 1027521,
+      "file": "pages/Magical_Sword.wiki",
+      "chars": 8957
+    },
+    {
+      "title": "Bow",
+      "url": "https://zelda.fandom.com/wiki/Bow",
+      "revid": 1026619,
+      "file": "pages/Bow.wiki",
+      "chars": 39526
+    },
+    {
+      "title": "Silver Arrow",
+      "url": "https://zelda.fandom.com/wiki/Silver_Arrow",
+      "revid": 1027669,
+      "file": "pages/Silver_Arrow.wiki",
+      "chars": 14702
+    },
+    {
+      "title": "Magical Shield",
+      "url": "https://zelda.fandom.com/wiki/Magical_Shield",
+      "revid": 1003838,
+      "file": "pages/Magical_Shield.wiki",
+      "chars": 7055
+    },
+    {
+      "title": "Heart Container",
+      "url": "https://zelda.fandom.com/wiki/Heart_Container",
+      "revid": 1008265,
+      "file": "pages/Heart_Container.wiki",
+      "chars": 21482
+    },
+    {
+      "title": "Water of Life",
+      "url": "https://zelda.fandom.com/wiki/Water_of_Life",
+      "revid": 976867,
+      "file": "pages/Water_of_Life.wiki",
+      "chars": 5110
+    },
+    {
+      "title": "Aquamentus",
+      "url": "https://zelda.fandom.com/wiki/Aquamentus",
+      "revid": 1023647,
+      "file": "pages/Aquamentus.wiki",
+      "chars": 6853
+    },
+    {
+      "title": "Dodongo",
+      "url": "https://zelda.fandom.com/wiki/Dodongo",
+      "revid": 1009966,
+      "file": "pages/Dodongo.wiki",
+      "chars": 9094
+    },
+    {
+      "title": "Manhandla",
+      "url": "https://zelda.fandom.com/wiki/Manhandla",
+      "revid": 1025800,
+      "file": "pages/Manhandla.wiki",
+      "chars": 12676
+    },
+    {
+      "title": "Gleeok",
+      "url": "https://zelda.fandom.com/wiki/Gleeok",
+      "revid": 1023850,
+      "file": "pages/Gleeok.wiki",
+      "chars": 16626
+    },
+    {
+      "title": "Digdogger",
+      "url": "https://zelda.fandom.com/wiki/Digdogger",
+      "revid": 962440,
+      "file": "pages/Digdogger.wiki",
+      "chars": 3748
+    },
+    {
+      "title": "Gohma",
+      "url": "https://zelda.fandom.com/wiki/Gohma",
+      "revid": 1027682,
+      "file": "pages/Gohma.wiki",
+      "chars": 20384
+    },
+    {
+      "title": "Lanmola",
+      "url": "https://zelda.fandom.com/wiki/Lanmola",
+      "revid": 1021562,
+      "file": "pages/Lanmola.wiki",
+      "chars": 9498
+    },
+    {
+      "title": "Moldorm",
+      "url": "https://zelda.fandom.com/wiki/Moldorm",
+      "revid": 977936,
+      "file": "pages/Moldorm.wiki",
+      "chars": 5590
+    },
+    {
+      "title": "Patra",
+      "url": "https://zelda.fandom.com/wiki/Patra",
+      "revid": 1008113,
+      "file": "pages/Patra.wiki",
+      "chars": 5377
+    },
+    {
+      "title": "Wizzrobe",
+      "url": "https://zelda.fandom.com/wiki/Wizzrobe",
+      "revid": 1026804,
+      "file": "pages/Wizzrobe.wiki",
+      "chars": 23985
+    },
+    {
+      "title": "Like Like",
+      "url": "https://zelda.fandom.com/wiki/Like_Like",
+      "revid": 1027504,
+      "file": "pages/Like_Like.wiki",
+      "chars": 21183
+    },
+    {
+      "title": "Darknut",
+      "url": "https://zelda.fandom.com/wiki/Darknut",
+      "revid": 1023733,
+      "file": "pages/Darknut.wiki",
+      "chars": 27618
+    },
+    {
+      "title": "Lynel",
+      "url": "https://zelda.fandom.com/wiki/Lynel",
+      "revid": 1024083,
+      "file": "pages/Lynel.wiki",
+      "chars": 17681
+    },
+    {
+      "title": "Octorok",
+      "url": "https://zelda.fandom.com/wiki/Octorok",
+      "revid": 1026790,
+      "file": "pages/Octorok.wiki",
+      "chars": 34740
+    },
+    {
+      "title": "Moblin",
+      "url": "https://zelda.fandom.com/wiki/Moblin",
+      "revid": 1026761,
+      "file": "pages/Moblin.wiki",
+      "chars": 46968
+    },
+    {
+      "title": "Zora",
+      "url": "https://zelda.fandom.com/wiki/Zora",
+      "revid": 1027859,
+      "file": "pages/Zora.wiki",
+      "chars": 36215
+    },
+    {
+      "title": "Peahat",
+      "url": "https://zelda.fandom.com/wiki/Peahat",
+      "revid": 1021936,
+      "file": "pages/Peahat.wiki",
+      "chars": 16911
+    },
+    {
+      "title": "Tektite",
+      "url": "https://zelda.fandom.com/wiki/Tektite",
+      "revid": 1025211,
+      "file": "pages/Tektite.wiki",
+      "chars": 19615
+    },
+    {
+      "title": "Vire",
+      "url": "https://zelda.fandom.com/wiki/Vire",
+      "revid": 1009058,
+      "file": "pages/Vire.wiki",
+      "chars": 11637
+    },
+    {
+      "title": "Keese",
+      "url": "https://zelda.fandom.com/wiki/Keese",
+      "revid": 1023940,
+      "file": "pages/Keese.wiki",
+      "chars": 23619
+    },
+    {
+      "title": "Gel",
+      "url": "https://zelda.fandom.com/wiki/Gel",
+      "revid": 937633,
+      "file": "pages/Gel.wiki",
+      "chars": 3174
+    },
+    {
+      "title": "Zol",
+      "url": "https://zelda.fandom.com/wiki/Zol",
+      "revid": 1008668,
+      "file": "pages/Zol.wiki",
+      "chars": 8275
+    },
+    {
+      "title": "Level 5",
+      "url": "https://zelda.fandom.com/wiki/Level_5",
+      "revid": 1027219,
+      "file": "pages/Level_5.wiki",
+      "chars": 5354
+    },
+    {
+      "title": "Level 6",
+      "url": "https://zelda.fandom.com/wiki/Level_6",
+      "revid": 1027220,
+      "file": "pages/Level_6.wiki",
+      "chars": 4491
+    },
+    {
+      "title": "Level 7",
+      "url": "https://zelda.fandom.com/wiki/Level_7",
+      "revid": 1027221,
+      "file": "pages/Level_7.wiki",
+      "chars": 5120
+    },
+    {
+      "title": "Level 8",
+      "url": "https://zelda.fandom.com/wiki/Level_8",
+      "revid": 1027222,
+      "file": "pages/Level_8.wiki",
+      "chars": 5282
+    }
+  ]
+}

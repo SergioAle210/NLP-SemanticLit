@@ -1,0 +1,67 @@
+{{Infobox business
+|type = Spa
+|locations = [[State of San Andreas (3D Universe)|San Andreas]]
+|games = ''[[Grand Theft Auto: San Andreas]]''
+}}
+'''Herr Gruber's Spa''' is a spa advertised on the in-game radio in ''[[Grand Theft Auto: San Andreas]]''.
+
+==Description==
+The spa is run by Herr Gruber and appears to use physical and verbal abuse to achieve results.
+
+It is located somewhere in the [[State of San Andreas (3D Universe)|state of San Andreas]]; however, it is only mentioned and cannot be found in-game.
+
+==Influence==
+The name "Herr Gruber" may be a reference to the character {{WP|Hans Gruber}} from the [[1988]] movie ''{{WP|Die Hard}}''.
+
+{{Clr}}
+==Commercial==
+{{Scriptbox|color=SA|
+[[File:RadioAdverts-GTASA-Herr Gruber's Spa.ogg|center|noicon]]
+{{line
+|name=Doctor
+|dialogue=They say beauty is skin deep. But what about the energy?}}
+{{line
+|background=(Whip sounds)}}
+{{line
+|name=Doctor
+|dialogue=I have inflicted a lot of pain in my time. And some of it was really beautiful.}}
+{{line
+|name=Woman
+|dialogue=For those who know what it takes to be really beautiful, Herr Gruber’s Spa.}}
+{{line
+|name=Doctor
+|dialogue=You are nothing! Do what I say!}}
+{{line
+|name=Woman
+|dialogue=After running residential facilities in Germany, Switzerland, and then Brazil for many years, the renowned German beautician, scientist, and disciplinarian has come to San Andreas. At Herr Gruber’s Spa, you’ll be taken to a whole new level.}}
+{{line
+|background=(Whip sounds)}}
+{{line
+|name=Doctor
+|dialogue=Have you not read the book?}}
+{{line
+|background=(Whip sounds)}}
+{{line
+|name=Doctor
+|dialogue=Strength, good! Weakness, bad, bad, bad, bad!}}
+{{line
+|name=Woman
+|dialogue=We won’t pretend it doesn’t hurt, but these days, beauty is worth fighting for.}}
+{{line
+|name=Doctor
+|dialogue=Oh, you want a potato. You are less than a potato! Less! Less!}}
+{{line
+|background=(Sound of woman groaning and crying)}}
+{{line
+|name=Woman
+|dialogue=Who needs dignity when you’re thin? You’ll never see people so skinny, happy, and undignified as when they leave our spa. Herr Gruber’s Spa.}}
+}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Gtasa commercials|state=collapsed}}
+}}
+[[Category:Businesses in GTA San Andreas]]
+[[Category:Locations in GTA San Andreas]]

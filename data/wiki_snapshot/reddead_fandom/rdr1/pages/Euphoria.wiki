@@ -1,0 +1,26 @@
+[[File:Euphoria-logo.jpg|center]]
+
+'''[[wikipedia:Euphoria_(software)|Euphoria Physics]]''' is a game animation engine created by [[wikipedia:NaturalMotion|NaturalMotion]] based on Dynamic Motion Synthesis, NaturalMotion's proprietary technology for animating 3D characters on-the-fly "based on a full simulation of the 3D character, including body, muscles and motor nervous system".
+
+Instead of using predefined animations, the characters' actions and reactions are synthesized in real-time within the game engine; they are different every time, even when replaying the same scene over and over. While it is common for current video games to use limp "ragdolls" for animations generated on the fly, Euphoria employs a more complex method to animate the entirety of physically-bound objects within the game environment. According to its web site, Euphoria runs on the PlayStation 3, Xbox 360, and PC hardware platforms and is compatible with all commercial physics engine.
+
+In February 2007, NaturalMotion and Rockstar Games announced that Euphoria would be used in future [[Rockstar Games]] titles. ''[[w:c:gta:Grand_Theft_Auto_IV|Grand Theft Auto IV]]'' was the first of Rockstar's games to feature Euphoria. ''[[Red Dead Redemption]]'' uses the engine as well, as does Rockstar's ''[[wikipedia:Max_Payne_3|Max Payne 3]]'', released in 2012.
+
+==Rockstar Games Powered by Euphoria Physics==
+*''[[w:c:gta:Grand Theft Auto IV|Grand Theft Auto IV]]''
+*''[[w:c:gta:The Lost and Damned|The Lost and Damned]]''
+*''[[w:c:gta:The Ballad Of Gay Tony|The Ballad Of Gay Tony]]''
+*''[[Red Dead Redemption]]''
+*''[[Undead Nightmare]]''
+*''[[w:c:maxpayne:Max Payne 3|Max Payne 3]]''
+*''[[w:c:gta:Grand Theft Auto V|Grand Theft Auto V]]''
+*''[[w:c:gta:Grand Theft Auto Online|Grand Theft Auto Online]]''
+*''[[Red Dead Redemption 2]]''
+*''[[Red Dead Online]]''
+
+[[Category:Gameplay]]
+[[Category:Images]]
+[[Category:Red Dead Redemption]]
+[[es:Euphoria]]
+[[fr:Euphoria]]
+[[it:Euphoria]]

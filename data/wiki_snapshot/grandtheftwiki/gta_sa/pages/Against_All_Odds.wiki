@@ -1,0 +1,87 @@
+{{infobox mission
+| name = Against All Odds
+| game = SA
+| image = AgainstAllOdds-GTASA.png
+| size = 400x400px
+| caption = [[Catalina]] pointing a gun at the [[Inside Track]] cashier whilst [[Carl Johnson]] prepares to blow open the safe door with [[Satchel Charges]]
+| for = [[Catalina]]
+| target = [[Inside Track]] betting shop
+| location = [[Montgomery]], [[Red County]], [[San Andreas in GTA III Era|San Andreas]]
+| fail = [[Wasted|Death]] of [[Carl Johnson]]<br />[[Busted|Arrest]] of Carl Johnson<br />Death of [[Catalina]]<br />Running out of [[Satchel Charges]]
+| reward = [[Money|$]]2,000
+| unlocks = [[Body Harvest]]<small> '''(if chosen after [[First Date (GTA SA)|First Date]])'''</small><br />[[Gone Courting]] and [[Wu Zi Mu (mission)|Wu Zi Mu]]<small> '''(if chosen after [[First Base]])'''</small><br />[[Made in Heaven]]<small> '''(if chosen after [[Gone Courting]])'''</small><br />[[Farewell, My Love...]]<small> '''(if chosen after [[Made in Heaven]], provided [[Wu Zi Mu (mission)|Wu Zi Mu]] has been completed)'''</small>
+| unlockedby = ''' ''Case A''. The mission was not played beforehand and just unlocked :-'''<br />[[First Date (GTA SA)|First Date]]<br />''' ''Case B''. The mission was not played during First Date, but was chosen in the second outfit :-'''<br />[[First Base]]<br />''' ''Case C''. The mission was not played either during First Date or during First Base :-'''<br />[[Gone Courting]]<br />''' ''Case D''. The mission was not played until the last resort :-'''<br />[[Made in Heaven]]
+}}
+
+'''Against All Odds''' is a mission in [[Grand Theft Auto: San Andreas]] given to [[protagonist]] [[Carl Johnson|Carl "CJ" Johnson]] by countryside criminal [[Catalina]] from outside the [[Inside Track]] betting shop in the town of [[Montgomery]], [[Red County]], [[San Andreas in GTA III Era|San Andreas]].
+
+== Mission ==
+Carl and Catalina arrive at the betting shop in Montgomery, having already decided to rob the shop at Catalina's hideout. The two enter the building with Catalina pointing a gun at the female cashier, threatening to kill her if she does not open the back door. The cashier, however, pushes the panic button and an alarm goes off, with Catalina shooting the cashier, who is protected by bullet-proof glass. Catalina, in anger, then kills one of the customers before telling Carl to open the door and then the safe with [[Satchel Charges]] that she had obtained. After doing so, Carl collects the money from the safe and the two leave. They leave the shop and, after losing the [[Rural Police|police]] chasing for a [[Wanted Level in GTA III Era#Four stars|4-star wanted level]], return to Catalina's hideout in [[Fern Ridge]] where Catalina giving Carl his share of the money.
+
+== Script ==
+'''CJ''': You wanna rob a betting shop?
+
+'''Catalina''': Yeah. You not man enough? Here, Carl.
+
+'''CJ''': Satchel charges?! Where the hell'd you get them?
+
+'''(''Catalina and Carl enter the betting shop and hold it up.'')'''
+
+'''Catalina''': Open the backroom door or I blow your fucking face off! Leave the panic button or I'll kill your children too!
+
+'''(''The cashier hits the panic button and an alarm goes off.'')'''
+
+'''Catalina''': I warned you, you stupid bitch! Stupid fucking bitch! Now I'll kill you, eat my shit. Carl, c'mon, stop playing with your balls and hurry up!
+
+'''(''Catalina fires the gun towards the employee, who is unharmed due to bullet-proof glass. Catalina then kills one of the customers. Carl then uses the satchel charges to blow up the door and then the safe.'')'''
+
+'''CJ''': OK, I got it!
+
+'''Catalina''': About fucking time, you're a fucking sloth!
+
+'''CJ''': Whatever. Let's roll!
+
+'''(''Carl and Catalina get out of the betting shop.'')'''
+
+'''Catalina''': Get in the fucking car!
+
+'''(''Catalina and Carl evade the police and return to Catalina's hideout.'')'''
+
+'''Catalina''': You impress me, Carl Johnson! Here's your cut, big man.
+
+== Reward ==
+The reward for completing the mission is [[Money|$]]2,000. 
+
+*If the mission was played after [[First Date (GTA SA)|First Date]], the mission [[Body Harvest]] is unlocked.
+*If the mission was played after [[First Base]], the cutscene [[Gone Courting]] and the mission [[Wu Zi Mu (mission)|Wu Zi Mu]] are unlocked.
+*If the mission was played after [[Gone Courting]], the cutscene [[Made in Heaven]] is unlocked.
+*If the mission was played after [[Made in Heaven]], the mission [[Farewell, My Love...]] is unlocked, given that the mission [[Wu Zi Mu (mission)|Wu Zi Mu]] has been completed beforehand.
+
+[[Satchel Charges]] will now become avaliable for purchase at [[Ammu-Nation]] for [[Money|$]]2,000.
+
+==Trivia==
+*This is the only major storyline mission in which a wanted level higher than [[Wanted Level in GTA III Era #Three stars|3 stars]] is assigned by default when committing a crime. All other missions where a wanted level is assigned usually deal with a [[Wanted Level in GTA III Era #Two stars|2-star]] or [[Wanted Level in GTA III Era #Three stars|3-star wanted level]], and in very rare cases, a [[Wanted Level in GTA III Era #One star|1-star wanted level]].
+*This is the only mission, apart from the [[Trucking #Mission 8|final trucking side mission]], to warrant a [[Wanted Level in GTA III Era #Four stars|4-star wanted level]].
+*Catalina's dialogue, "Get in the fucking car", contains a possible reference to a similar dialogue used by Bowser which is often repeated in spoof videos and bloopers in the Super Mario Bros. game series.
+
+== Gallery ==
+<gallery width="auto" perrow="1" style="font-size:95%; padding:0;" widths="250">
+File:AgainstAllOdds-GTASA2.png|[[Carl Johnson]] empties out the contents of the safe.
+</gallery>
+
+== Video walkthrough ==
+<center>
+{| class="wikitable"
+! [[Personal Computer|PC]] Version - GTASeriesVideos<br />With [[Gone Courting]]
+|-
+| {{youtube|video1=GbD0qcIlS3I}}
+|}
+</center>
+
+{{Navboxes
+| title = Navigation
+| list1 = {{missions|state=collapsed}}
+{{Gtasa missions|state=collapsed}}
+}}
+
+[[Category:Missions in GTA San Andreas]]

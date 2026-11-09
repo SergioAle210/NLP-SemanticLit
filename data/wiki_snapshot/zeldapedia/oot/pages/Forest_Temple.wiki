@@ -1,0 +1,330 @@
+{{Infobox Dungeon
+|type= 
+|image= 
+{{Media
+ |Artwork OoT= File:Forest Temple Artwork.png
+ |Screenshot OoT= File:OoT Forest Temple.png
+ |Screenshot OoT3D= File:OoT3D Forest Temple Exterior.png
+ |Screenshot TP= File:Foresttemple.jpg
+ |Screenshot TPHD= File:TPHD Forest Temple.png
+ |Screenshot ST= File:Forest Temple.png
+ |Screenshot SS= File:SS Forest Temple.png
+ |Screenshot SSHD= File:SSHD Forest Temple.png
+ |Screenshot TFH= File:TFH Forest Temple.png
+}}
+|caption= 
+|pronunciation= 
+|location= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Sacred Forest Meadow|link}}
+ |TP= {{Term|TPHD|Faron Woods|link}}
+ |ST= {{Term|ST|Forest Realm|link}}
+ |SS= {{Term|SS|Deep Woods|link}}
+ |TFH= {{Term|TFH|Woodlands|link}}
+}}
+|game= {{OoT}}<br/>{{TP}}<br/>{{ST}}<br/>{{SS}}<br/>{{TFH}}
+|other= 
+|item= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Fairy Bow|link}}<br/>{{Term|OoT3D|Quiver|link}}
+ |TP= {{Term|TPHD|Gale Boomerang|link}}
+ |ST= {{Term|ST|Whirlwind|link}}<br/>"{{Term|ST|Song of Healing|link}}"
+ |TFH= {{Term|TFH|Bomb|link}}<br/>{{Term|TFH|Bow|link}}
+}}
+|quest= {{Term|Series|Heart Container|link}} {{Exp Game|OoT, TP, ST}}<br/>
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Forest Medallion|link}}
+ |TP= {{Term|TPHD|Fused Shadow|link}}
+ |ST= {{Term|ST|Force Gem|link}}<br/>{{Term|ST|Forest Seal|link}}
+ |TFH= {{Term|TFH|Lady's Glasses|link}}
+}}
+|mini-boss= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Amy|link}}<br/>{{Term|OoT3D|Beth (Poe)|link}}<br/>{{Term|OoT3D|Joelle|link}}<br/>{{Term|OoT3D|Meg|link}}<br/>{{Term|OoT3D|Stalfos|link}} ×5<br/>Stalfos ×4{{Exp|Master Quest}}<br/>Amy{{Exp|Master Quest}}<br/>Beth{{Exp|Master Quest}}<br/>Joelle{{Exp|Master Quest}}<br/>Meg{{Exp|Master Quest}}
+ |TP= {{Term|TPHD|Ook|link}}
+ |ST= {{Term|ST|Mothula|link}}
+ |TFH= 
+}}
+|boss= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT3D|Phantom Ganon|link}}
+ |TP= {{Term|TPHD|Diababa|link}}
+ |ST= {{Term|ST|Stagnox|link}}
+ |TFH= {{Term|TFH|Margoma|link}}
+}}
+|temperature= 
+|theme= "{{Term|Series|Forest Temple (Theme)|link}}"
+}}
+The {{Term/Store|Forest Temple|Forest Temples|Series, OoT, OoT3D, TP, TPHD, ST, SS, SSHD}} is a recurring dungeon and location in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 159,{{Exp Game|TFH}} 240,{{Exp Game|OoT, OoT3D}} 278,{{Exp Game|TP, TPHD}} 290 {{Exp Game|ST}}}}</ref><ref>{{Cite|Forest Temple|Map|SSHD}}</ref>{{Note|The {{Term|Series|Forest Temple}} was referred to as '''The Temple''' in the [[E3 2015]] demo build of {{TFH}}.{{Fact}} However, as this contradicts the name given in the final build, it is not considered [[Guidelines:Canon|Canon]].}}
+
+==Overview==
+==={{OoT|-}}===
+The {{Term|OoT3D|Forest Temple}} is the first {{Term|OoT3D|Dungeon|link}} that {{Term|OoT3D|Link|link}} is directed to as an adult in {{OoT}}. He must journey here to save his childhood friend, the {{Term|OoT3D|Kokiri|link}} named {{Term|OoT3D|Saria|link}}, only to awaken her to her role as the {{Term|OoT3D|Sage|link|display=Sage of Forest}}.<ref>{{Cite|Thank you... Because of you, I could awaken as a Sage... I am Saria. The Sage of the Forest Temple...|Saria|OoT}}</ref> The primary item of the {{Term|OoT3D|Forest Temple|display=Temple}} is the {{Term|OoT3D|Fairy Bow|link}}, and its [[boss]] is {{Term|OoT3D|Phantom Ganon|link}}.
+
+====Entrance to the {{Term|OoT3D|Forest Temple|display=Temple}}====
+Deep within the {{Term|OoT3D|Sacred Forest Meadow|link}} in the {{Term|OoT3D|Lost Woods|link}} lies the abandoned mansion-like {{Term|OoT3D|Forest Temple}},<ref>{{Cite|The Forest Temple is located in the Sacred Forest Meadow in the far side of the Lost Woods.|N/A|OoT}}</ref> inhabited by many fierce foes. Since the stairway leading to the {{Term|OoT3D|Forest Temple|display=Temple}} is now broken, the only way to gain access to the {{Term|OoT3D|Forest Temple|display=Temple}} is by obtaining the {{Term|OoT3D|Hookshot|link}} from the {{Term|OoT3D|Kakariko Village Graveyard|link}} and using it to grab onto a {{Term|OoT3D|Tree|link}} branch hanging off of the entrance platform.<ref>{{Cite|Unfortunately, equipped as you currently are, you cannot even enter the temple... But, if you believe what I'm saying, you should head to Kakariko Village...|Sheik|OoT}}</ref>
+
+====Themes and Navigation====
+[[File:Forest Temple interior OoT.jpg|thumb|left|One of the {{Term|OoT3D|Forest Temple|display=Temple}}'s twisted corridors|267x267px]]
+The {{Term|OoT3D|Forest Temple}} is an eerie, complex {{Term|OoT3D|Temple}} filled with strange puzzles and other features designed to confuse its explorers, such as an array of {{Plural|OoT3D|Switch|link}} which have the ability to twist entire hallways in an unnatural manner, rearranging the very {{Term|OoT3D|Dungeon}}, making walls become floors. It is one of the few {{Plural|OoT3D|Dungeon}} in {{TLoZ|Series}} whose structure can be altered in this manner. The {{Term|OoT3D|Dungeon}}'s interior design is reminiscent of a mansion or castle, with portraits hanging in certain rooms and quaint red carpets decorating the floor. This is also one of the few {{Plural|OoT3D|Dungeon}} that has open-air elements, walled gardens are found on the east and west sides of the {{Term|OoT3D|Dungeon}}, connected by two wells. Most of its rooms and corridors are covered with moss and {{Plural|OoT3D|Vine|link}}, and many hold enemies. However, most of the threats the [[Hero of Time]] will encounter in this {{Term|OoT3D|Dungeon}} are undead.
+
+The {{Term|OoT3D|Forest Temple|display=Temple}} is also where the four certain [[Poe|Poes]] named the [[Poe Sisters]] appear by stealing the flames from four multicolored {{Plural|OoT3D|Torch|link}} in the center of the main room of the {{Term|OoT3D|Dungeon}} and disabling the elevator in the center. This becomes the primary puzzle that the {{Term|OoT3D|Dungeon}} is centered around: Link must hunt down and destroy them to restore the flames and complete the {{Term|OoT3D|Forest Temple|display=Temple}}. The first two {{Term|OoT3D|Poe Sisters|display=Sisters}} can be found on the upper levels of the {{Term|OoT3D|Forest Temple|display=Temple}}, in passageways with staircases; the third {{Term|OoT3D|Poe Sisters|display=Sister}} appears in the eastern end of the upper levels after Link solves a jigsaw puzzle, and the final {{Term|OoT3D|Poe Sisters|display=Sister}} mournfully returns to the {{Term|OoT3D|Dungeon}}'s main chamber after her sisters are defeated. When all ghosts are slain, Link can access the basement.
+[[File:OoT Phantom Ganon Artwork.png|thumb|242x242px|Phantom Ganon, the Temple's [[boss]] in {{OoT|-}}]]
+The {{Term|OoT3D|Forest Temple|display=Temple}}'s music uses a mix of haunting, eerie sounds and a slow, gentle melody driven by wind instruments. Its boss is Phantom Ganon,<ref>{{Cite|Phantom Ganon It's an evil ghost of the Forest Temple! He comes out of one of the pictures. Answer his magic attack with an attack of your own!|Navi|OoT}}</ref> a ghost of {{Term|OoT3D|Ganondorf|link}}'s creation.
+
+In {{MQ}}, the locations of {{Plural|OoT3D|Small Key|link}} and {{Plural|OoT3D|Locked Door}} have changed. The two {{Plural|OoT3D|Wolfos}} are no longer at the entrance of the {{Term|OoT3D|Forest Temple|display=Temple}}, but rather at the room where the first {{Term|OoT3D|Stalfos|link}} was fought. The {{Term|OoT3D|Stalfos}} now appears in a small connecting room and rewards {{Term|OoT3D|Link}} with the {{Term|OoT3D|Dungeon Map|link}}. More {{Plural|OoT3D|Skulltula|link}} and {{Plural|OoT3D|Skullwalltula|link}} can be found throughout the {{Term|OoT3D|Dungeon}}. The room with the {{Term|OoT3D|Floormaster}} has been altered to host a single {{Term|OoT3D|ReDead|link}} whereas the {{Term|OoT3D|Floormaster}} has been moved elsewhere. There are two extra blocks in the jigsaw puzzle room, but they serve no purpose other than to obfuscate the puzzle further. The first twisted room is straightened when it is first found, and is twisted by activating a {{Term|OoT3D|Crystal Switch|link}} instead of an {{Term|OoT3D|Eyeball Switch|link}}. Puzzles involving {{Plural|OoT3D|Time Block|link}} have been added throughout the {{Term|OoT3D|Dungeon}} as well. The wells are now emptied by shooting an {{Term|OoT3D|Eyeball Switch}} with an {{Term|OoT3D|Arrow|link}}.
+
+=====Small Keys=====
+*In the original, there are five small keys.
+*In Master Quest, there are six.
+
+=====Minor Enemies=====
+{{Tabs
+|align= 
+|default= 2
+|tab1= {{OoT|-}}
+|content1= <gallery>
+File:OoT Big Deku Baba Model.png|{{Term|OoT|Big Deku Baba|link}}
+File:OoT Blue Bubble Model.png|{{Term|OoT|Blue Bubble|link}}
+File:OoT Deku Baba Model.png|{{Term|OoT|Deku Baba|link}}
+File:OoT Floormaster Model.png|{{Term|OoT|Floormaster|link}}
+File:OoT Gold Skulltula Model.png|{{Term|OoT|Gold Skulltula|link}}
+File:OoT Green Bubble Model.png|{{Term|OoT|Green Bubble|link}}
+File:OoT Octorok Model.png|{{Term|OoT|Octorok|link}}
+File:OoT Skulltula Model.png|{{Term|OoT|Skulltula|link}}
+File:OoT Skullwalltula Model.png|{{Term|OoT|Skullwalltula|link}}
+File:OoT Stalfos Model.png|{{Term|OoT|Stalfos|link}}
+File:OoT Wallmaster Model.png|{{Term|OoT|Wallmaster|link}}
+File:OoT Wolfos Model.png|{{Term|OoT|Wolfos|link}}
+</gallery>
+|tab2= {{OoT3D|-}}
+|content2= <gallery>
+File:OoT3D Big Deku Baba Model.png|{{Term|OoT3D|Big Deku Baba|link}}
+File:OoT3D Blue Bubble Model.png|{{Term|OoT3D|Blue Bubble|link}}
+File:OoT3D Deku Baba Model.png|{{Term|OoT3D|Deku Baba|link}}
+File:OoT3D Floormaster Model.png|{{Term|OoT3D|Floormaster|link}}
+File:OoT3D Gold Skulltula Model.png|{{Term|OoT3D|Gold Skulltula|link}}
+File:OoT3D Green Bubble Model.png|{{Term|OoT3D|Green Bubble|link}}
+File:OoT3D Octorok Model.png|{{Term|OoT3D|Octorok|link}}
+File:OoT3D Skulltula Model.png|{{Term|OoT3D|Skulltula|link}}
+File:OoT3D Skullwalltula Model.png|{{Term|OoT3D|Skullwalltula|link}}
+File:OoT3D Stalfos Model.png|{{Term|OoT3D|Stalfos|link}}
+File:OoT3D Wallmaster Model.png|{{Term|OoT3D|Wallmaster|link}}
+File:OoT3D Wolfos Model.png|{{Term|OoT3D|Wolfos|link}}
+</gallery>
+}}
+
+======{{MQ|-}}======
+{{Tabs
+|align= 
+|default= 2
+|tab1= {{OoT|-}}
+|content1= <gallery>
+File:OoT Big Deku Baba Model.png|{{Term|OoT|Big Deku Baba|link}}
+File:OoT Blue Bubble Model.png|{{Term|OoT|Blue Bubble|link}}
+File:OoT Deku Baba Model.png|{{Term|OoT|Deku Baba|link}}
+File:OoT Floormaster Model.png|{{Term|OoT|Floormaster|link}}
+File:OoT Gold Skulltula Model.png|{{Term|OoT|Gold Skulltula|link}}
+File:OoT Green Bubble Model.png|{{Term|OoT|Green Bubble|link}}
+File:OoT Octorok Model.png|{{Term|OoT|Octorok|link}}
+File:OoT ReDead Model.png|{{Term|OoT|ReDead|link}}
+File:OoT Skulltula Model.png|{{Term|OoT|Skulltula|link}}
+File:OoT Skullwalltula Model.png|{{Term|OoT|Skullwalltula|link}}
+File:OoT Stalfos Model.png|{{Term|OoT|Stalfos|link}}
+File:OoT Wallmaster Model.png|{{Term|OoT|Wallmaster|link}}
+File:OoT Wolfos Model.png|{{Term|OoT|Wolfos|link}}
+</gallery>
+|tab2= {{OoT3D|-}}
+|content2= <gallery>
+File:OoT3D Big Deku Baba Model.png|{{Term|OoT3D|Big Deku Baba|link}}
+File:OoT3D Blue Bubble Model.png|{{Term|OoT3D|Blue Bubble|link}}
+File:OoT3D Deku Baba Model.png|{{Term|OoT3D|Deku Baba|link}}
+File:OoT3D Floormaster Model.png|{{Term|OoT3D|Floormaster|link}}
+File:OoT3D Gold Skulltula Model.png|{{Term|OoT3D|Gold Skulltula|link}}
+File:OoT3D Green Bubble Model.png|{{Term|OoT3D|Green Bubble|link}}
+File:OoT3D Octorok Model.png|{{Term|OoT3D|Octorok|link}}
+File:OoT3D ReDead Model.png|{{Term|OoT3D|ReDead|link}}
+File:OoT3D Skulltula Model.png|{{Term|OoT3D|Skulltula|link}}
+File:OoT3D Skullwalltula Model.png|{{Term|OoT3D|Skullwalltula|link}}
+File:OoT3D Stalfos Model.png|{{Term|OoT3D|Stalfos|link}}
+File:OoT3D Wallmaster Model.png|{{Term|OoT3D|Wallmaster|link}}
+File:OoT3D Wolfos Model.png|{{Term|OoT3D|Wolfos|link}}
+</gallery>
+}}
+
+==={{TP|-}}===
+====Entrance to the {{Term|TPHD|Forest Temple|display=Temple}}====
+The {{Term|TPHD|Forest Temple}} is housed within a massive {{Term|TPHD|Tree|link}} in {{Term|TPHD|Faron Woods|link}}. If {{Term|TPHD|Link|link}} revisits the {{Term|TPHD|Forest Temple|display=Temple}} after clearing it, the {{Term|TPHD|Clawshot|link}} will be needed in order to make it any further than the {{Term|TPHD|Dungeon}}'s main room, as well as to reach the {{Term|TPHD|Boss|link}} chamber. This is because the {{Plural|TPHD|Monkey|link}} that initially helped him traverse the {{Term|TPHD|Forest Temple|display=Temple}} disappear from inside it once the {{Term|TPHD|Boss}} is defeated.
+
+====Themes and Navigation====
+The {{Term|TPHD|Forest Temple}} is infested with {{Plural|TPHD|Enemy|link}}. The {{Term|TPHD|Gale Boomerang|link}}, which is obtained after defeating the {{Term|TPHD|Forest Temple|display=Temple}}'s {{Term|TPHD|Sub-Boss|link}}, {{Term|TPHD|Ook|link}}, is used to manipulate wind powered {{Plural|TPHD|Switch|link}} and bridges, allowing {{Term|TPHD|Link|link}} to access rooms deeper within the {{Term|TPHD|Forest Temple|display=Temple}}. {{Plural|TPHD|Bombling|link}} must also be used in place of {{Plural|TPHD|Bomb|link}} in order to destroy several {{Plural|TPHD|Boulder|link}} inside the {{Term|TPHD|Forest Temple|display=Temple}}, as well as to defeat the {{Term|TPHD|Forest Temple|display=Temple}}'s {{Term|TPHD|Boss|link}}. Eight {{Plural|TPHD|Monkey|link}}, which have been imprisoned in various locations throughout the {{Term|TPHD|Forest Temple|display=Temple}} by {{Term|TPHD|Ook}}, must be freed in order to help {{Term|TPHD|Link}} progress. There are two {{Plural|TPHD|Piece of Heart|link}} that {{Term|TPHD|Link}} can obtain in the {{Term|TPHD|Dungeon}}. Upon defeating the {{Term|TPHD|Forest Temple|display=Temple}}'s {{Term|TPHD|Boss}}, {{Term|TPHD|Diababa|link}}, {{Term|TPHD|Link}} will obtain the first of the {{Plural|TPHD|Fused Shadow|link}}.
+
+====={{Plural|TPHD|Small Key}}=====
+*There are four {{Plural|TPHD|Small Key|link}}.
+
+=====Minor Enemies=====
+{{Tabs
+|align= 
+|default= 2
+|tab1= {{TP|-}}
+|content1= <gallery>
+File:TP Baba Serpent Render.png|{{Term|TP|Baba Serpent|link}}
+File:TP Big Baba Model.png|{{Term|TP|Big Baba|link}}
+File:TP Bokoblin Model.png|{{Term|TP|Bokoblin|link}}
+File:TP Bombling Standing.png|{{Term|TP|Bombling|link}}
+File:TP Deku Baba Render.png|{{Term|TP|Deku Baba|link}}
+File:TP Deku Like Model.png|{{Term|TP|Deku Like|link}}
+File:TP Keese Model.png|{{Term|TP|Keese|link}}
+File:TP Skulltula Model.png|{{Term|TP|Skulltula|link}}
+File:TP Walltula Model.png|{{Term|TP|Walltula|link}}
+File:TP Tile Worm Model.png|{{Term|TP|Tile Worm|link}}
+</gallery>
+|tab2= {{TPHD|-}}
+|content2=
+<gallery>
+File:TPHD Baba Serpent Model.png|{{Term|TPHD|Baba Serpent|link}}
+File:TPHD Big Baba Model.png|{{Term|TPHD|Big Baba|link}}
+File:TPHD Bokoblin Model.png|{{Term|TPHD|Bokoblin|link}}
+File:TPHD Bombling Standing.png|{{Term|TPHD|Bombling|link}}
+File:TPHD Deku Baba Model.png|{{Term|TPHD|Deku Baba|link}}
+File:TPHD Deku Like Model.png|{{Term|TPHD|Deku Like|link}}
+File:TPHD Keese Model.png|{{Term|TPHD|Keese|link}}
+File:TPHD Skulltula Model.png|{{Term|TPHD|Skulltula|link}}
+File:TPHD Walltula Model.png|{{Term|TPHD|Walltula|link}}
+File:TPHD Tile Worm Model.png|{{Term|TPHD|Tile Worm|link}}
+</gallery>
+}}
+
+==={{ST|-}}===
+The {{Term|ST|Forest Temple}} is the first {{Term|ST|Dungeon|link}} that {{Term|ST|Link|link}} must explore in order to restore its energy to the fragmented {{Term|ST|Tower of Spirits|link}} in {{ST}}. The main item obtained is the {{Term|ST|Whirlwind|link}}, and the {{Term|ST|Forest Temple|display=Temple}}'s boss is {{Term|ST|Stagnox|link}}.
+
+====Entrance to the {{Term|ST|Forest Temple|display=Temple}}====
+The {{Term|ST|Forest Temple}} is located in the northwest of the {{Term|ST|Forest Realm|link}} of {{Term|ST|New Hyrule|link}}, and is accessible after {{Term|ST|Link|link}} and {{Term|ST|Gage|link}} perform a {{Term|ST|Lokomo Song|link}} in the {{Term|ST|Forest Sanctuary|link}}, which in turn is found after the young hero crosses a maze in the {{Term|ST|Lost Woods|link}}. Left of the {{Term|ST|Forest Temple|display=Temple}}'s inner entrance is a statue that teaches {{Term|ST|Link}} the "{{Term|ST|Song of Healing|link}}".
+
+====Themes and Navigation====
+[[File:Whirlwind key.png|thumb|right|{{Term|ST|Link}} using the {{Term|ST|Whirlwind}} to reach a {{Term|ST|Small Key}}]]
+The {{Term|ST|Forest Temple}} has the appearance of a {{Wp|Mesoamerican pyramids|Mesoamerican pyramid}} with a giant {{Term|ST|Tree|link}} growing atop it. {{Plural|ST|Gossip Stone|link}} throughout the {{Term|ST|Forest Temple|display=Temple}} will reveal the locations of {{Plural|ST|Treasure Chest|link}} on each floor for a fee of {{Plural|ST|Rupee|link}}. Items such as {{Plural|ST|Demon Fossil|link}} and {{Plural|ST|Wood Heart|link}} are found here, as well as the {{Term|ST|Whirlwind|link}}, the main treasure of the {{Term|ST|Forest Temple|display=Temple}} that is also critical to defeat the boss of the {{Term|ST|Forest Temple|display=Temple}}. {{Term|ST|Mothula|link}} serves as the dungeon's {{Term|ST|Sub-Boss|link}}, while the boss is a large stag beetle-like creature called {{Term|ST|Stagnox|link}}, who has stolen the {{Term|ST|Forest Temple|display=Temple}}'s {{Term|ST|Force Gem|link}} from its beacon atop the {{Term|ST|Forest Temple|display=Temple}} and thus is responsible for the deactivation of the {{Term|ST|Forest Temple|display=Temple}}'s energy beacon.
+
+{{Term|ST|Link}} must defeat the creature atop the {{Term|ST|Forest Temple|display=Temple}} by using the {{Term|ST|Whirlwind}} to turn its weaknesses and attacks on itself, therefore exposing it to his own attacks. Following {{Term|ST|Stagnox}}'s defeat, the {{Term|ST|Forest Temple|display=Temple}}'s {{Term|ST|Force Gem}} is restored to its energy beacon, restoring the {{Term|ST|Forest Temple|display=Temple}}'s energy flow to the {{Term|ST|Tower of Spirits}} and causing a segment of the {{Term|ST|Tower of Spirits|display=Tower}} to reconnect to the base, completing the hero's first task to restore the {{Term|ST|Tower of Spirits|display=Tower}} to its original state.
+
+=====Minor Enemies=====
+<gallery>
+File:ST Blastworm Model.png|{{Term|ST|Blastworm|link}}
+File:ST Bubble Model.png|{{Term|ST|Bubble|link}}
+File:ST Fog Model.png|{{Term|ST|Fog|link}}
+File:ST Green Spinut Model.png|{{Term|ST|Green Spinut|link}}
+File:ST Key Master Model.png|{{Term|ST|Key Master|link}}
+File:ST Spinut Model.png|{{Term|ST|Spinut|link}}
+File:ST Vengas Model.png|{{Term|ST|Vengas|link}}
+</gallery>
+
+==={{SS|-}}===
+The {{Term|SS|Forest Temple}} is the area surrounding the {{Term|SS|Skyview Temple|link}} situated in the {{Term|SS|Deep Woods|link}}. Before {{Term|SS|Link}} can enter the {{Term|SS|Skyview Temple}}, he must find the {{Term|SS|Shock Switch|link}} within the {{Term|SS|Forest Temple}} area. The location of this {{Term|SS|Shock Switch}} is revealed by a {{Term|SS|Stone Tablet|link}} that is hidden in a patch of {{Term|SS|Grass|link}}.<ref>{{Cite|He who descended from above: look to the star that the bird rising heavenward gazes upon, and aim your shot there.|Sign|SS}}</ref> A {{Term|SS|Tree Stump|link}} that {{Term|SS|Link}} can {{Term|SS|Sitting|link|display=Sit}} on to restore his {{Plural|SS|Heart|link}} can be found to the side of the entrance to the {{Term|SS|Skyview Temple}}. The door to the {{Term|SS|Skyview Temple}} has two crystals, located at the head and the tail. By shooting these crystals with the {{Term|SS|Slingshot|link}}, {{Term|SS|Link|link}} can receive a {{Term|SS|Blue Rupee|link}} and a {{Term|SS|Green Rupee|link}}, respectively. A single {{Term|SS|Bird Statue|link}} can be found at the {{Term|SS|Forest Temple}}.
+
+After {{Term|SS|Link}} receives the {{Term|SS|Ruby Tablet|link}} at the {{Term|SS|Skyview Spring|link}}, he is greeted by {{Term|SS|Machi|link}} in the {{Term|SS|Forest Temple}} area. {{Term|SS|Machi}} asks {{Term|SS|Link}} if he found {{Term|SS|Princess Zelda}}.<ref>{{Cite|Hey! It's me, kwee! Did you find the girl?|Machi|SS}}</ref> Upon hearing that she is still missing, {{Term|SS|Machi}} offers that {{Term|SS|Link}} at least knows where to go next.<ref>{{Cite|[Not yet...] Oh. That's too bad. But it sounds like you at least know where you need to search next to find her, kwee. That's...something, right?|Machi|SS}}</ref> {{Term|SS|Machi}} then thanks {{Term|SS|Link}} for helping to reunite him with his friends and then bids farewell.<ref>{{Cite|I'm so glad I've finally been reunited with all my Kikwi friends. It's all thanks to you, koo-weep!|Machi|SS}}</ref><ref>{{Cite|With any luck, hopefully you'll find that girl you've been searching for real soon, koro-koo! Take care, OK?|Machi|SS}}</ref>
+
+A {{Term|SS|Goddess Cube|link}} can be found near the chasm separating the {{Term|SS|Forest Temple}} area from the rest of the {{Term|SS|Deep Woods}}. Its corresponding {{Term|SS|Goddess's Treasure Chest|link}}, which contains a {{Term|SS|Piece of Heart|link}}, can be found on a small island directly south of the {{Term|SS|Faron Province|link}}'s {{Term|SS|Column of Light|link}} in the {{Term|SS|Sky|link}}.
+
+===={{Plural|SS|Creature}}====
+<gallery>
+File:SS Chirri Model.png|{{Term|SS|Chirri|link}}
+</gallery>
+
+====Minor Enemies====
+<gallery>
+File:SS Burr Model.png|{{Term|SS|Burr|link}}
+File:SS Deku Baba Model 2.png|{{Term|SS|Deku Baba|link}}
+</gallery>
+
+==={{TFH|-}}===
+The {{Term|TFH|Forest Temple}} is a {{Term|TFH|Level|link}} in {{TFH}}. It is the fourth and last {{Term|TFH|Level}} of the {{Term|TFH|Woodlands|link}} {{Term|TFH|Area}}.
+
+====Themes and Navigation====
+The {{Term|TFH|Level|link}} consists of an ancient {{Term|TFH|Temple}} situated within a dense forest. It features numerous types of traps and obstacles that the {{Plural|TFH|Links|link}} must overcome.
+
+In '''Stage 1''', the {{Plural|TFH|Links}} enter a {{Term|TFH|Torchlight|link}} room where a pair of {{Plural|TFH|Bomb|link}} and a {{Term|TFH|Bow|link}} can be found. A gate blocks the rest of the passage, and must be opened by lighting the unlit {{Plural|TFH|Torchlight}} in the room. The {{Plural|TFH|Torchlight}} can be lit by having one {{Term|TFH|Links}} fire an {{Term|TFH|Arrow|link}} towards it from one of the lit {{Plural|TFH|Torchlight}}, which will carry the flame over and light it. The second {{Term|TFH|Torchlight}} near the gate is too high for one {{Term|TFH|Links}} to reach, thus requiring that the {{Plural|TFH|Links}} form a {{Term|TFH|Totem|link}} and have the top {{Term|TFH|Links}} light it with an {{Term|TFH|Arrow}}. Lighting both {{Plural|TFH|Torchlight}} opens the gate to a room with four spinning {{Plural|TFH|Mini-Margo|link}} that follow a set path. These traps must be destroyed by having the {{Plural|TFH|Links}} throw {{Plural|TFH|Bomb}} into their openings. The last {{Term|TFH|Mini-Margo}} will drop a {{Term|TFH|Small Key|link}} that opens the gate to the {{Term|TFH|Triforce Gateway|link}}.
+
+'''Stage 2''' is a large chamber with a heavy {{Term|TFH|Floor Switch|link}} in the center, that can only be pressed down with all three {{Plural|TFH|Links}}. Pressing it makes pillars raise from the floor, and summons {{Plural|TFH|Mini-Margo}} and {{Plural|TFH|Tektite|link}} that the {{Plural|TFH|Links}} must defeat. The {{Plural|TFH|Mini-Margo}} will move along a set path around the room, while the {{Plural|TFH|Tektite}} will hop along the pillars. The {{Plural|TFH|Tektite}} can be attacked either by forming a {{Term|TFH|Totem}}, by firing {{Plural|TFH|Arrow}} at them from one of the ledges, or by destroying the cracked pillars with {{Plural|TFH|Bomb}} when they jump onto them. The {{Plural|TFH|Tektite}} can then be attacked from the floor once they are knocked off, but they will soon hop back onto the pillars. Defeating all the enemies opens the gate to the next {{Term|TFH|Triforce Gateway}}.
+
+'''Stage 3''' places the {{Plural|TFH|Links}} in a large chasm with narrow paths over a pit. The {{Plural|TFH|Links}} must carefully follow this path, while dodging {{Plural|TFH|Arrow Trap|link}} that constantly shoot {{Plural|TFH|Arrow}} from the walls. One of the trap {{Plural|TFH|Arrow}} will fly into the path of a {{Term|TFH|Torchlight}} and carry its flame, but is blocked by stone cubes preventing it from flying any further. The {{Plural|TFH|Links}} must destroy both cubes, allowing the trap {{Plural|TFH|Arrow}} to light a {{Term|TFH|Torchlight}} at the far end of the path. Once this {{Term|TFH|Torchlight}} is lit, the {{Plural|TFH|Links}} can use it to light the other {{Plural|TFH|Torchlight}} and raise a staircase. The {{Plural|TFH|Links}} walk along more narrow paths while dodging trap {{Plural|TFH|Arrow}}, eventually reaching the end where a heavy, steel {{Term|TFH|Block|link}} sits atop a ledge. The {{Plural|TFH|Links}} must use their combined effort to push this block into the path of oncoming {{Plural|TFH|Arrow}}, protecting them while they move towards the {{Term|TFH|Triforce Gateway}}. A {{Term|TFH|Mini-Margo}} freely moving around the platform must be defeated to activate the {{Term|TFH|Triforce Gateway|display=Gateway}}.
+
+'''Stage 4''' is where {{Term|TFH|Margoma|link}} is fought in a courtyard outside the {{Term|TFH|Forest Temple|display=Temple}}. 
+
+====={{Plural|TFH|Drablands Challenge}}=====
+The {{Term|TFH|Forest Temple}} contains the following {{Plural|TFH|Drablands Challenge|link}}: "{{Term|TFH|Drablands Challenge|link|display=Adventure in the dark!}}", "{{Term|TFH|Drablands Challenge|link|display=Clear within the time limit!}}", and "{{Term|TFH|Drablands Challenge|link|display=Fewer Heart Containers!}}".
+
+=====Materials=====
+At the end of the {{Term|TFH|Level}}, three {{Plural|TFH|Treasure Chest|link}} can be opened. Two contain the same {{Plural|TFH|Material|link}}, and one contains a more valuable {{Term|TFH|Material}}.
+
+======No Challenge======
+*2 {{Plural|TFH|Tektite Shell|link}}
+*1 {{Term|TFH|Blin Bling|link}}
+
+======"Adventure in the dark!"======
+*2 {{Plural|TFH|Sweet Shroom|link}}
+*1 {{Term|TFH|Gohma's Eye|link}}
+
+======"Clear within the time limit!"======
+*2 {{Plural|TFH|Blin Bling}}
+*1 {{Term|TFH|Mystery Jade|link}}
+
+======"Fewer Heart Containers!"======
+*2 {{Plural|TFH|Gohma's Eye}}
+*1 {{Term|TFH|Mystery Jade}}
+
+=====Minor Traps and Enemies=====
+<gallery>
+File:TFH Arrow Wall Model.png|{{Term|TFH|Arrow Trap|link}}
+File:TFH Mini-Margo Model.png|{{Term|TFH|Mini-Margo|link}}
+File:TFH Tektite Model.png|{{Term|TFH|Tektite|link}}
+</gallery>
+
+== Trivia ==
+[[File:OoT Phantom Ganon painting.png|thumb|293x293px|Ganon's Castle can be seen in the background of the large paintings where Phantom Ganon goes in and out.]]
+
+* It's likely that the Forest Temple in {{OoT}} is the remnant of what was originally planned for the game's setting during early development. Interestingly, the story was supposed to be based on [[Ganon's Castle]] in a similar structure to [[mariowiki:Princess_Peach's_Castle|Princess Peach's Castle]] from ''[[mariowiki:Super_Mario_64|Super Mario 64]]'', with its rooms being the [[Dungeons in Ocarina of Time|Dungeons]]. Although this was ultimately scrapped in the final release, the Forest Temple's architecture is much like a dark castle unlike every other in the game aside from Ganon's Castle itself, and the six paintings in the [[Boss]] room where [[Phantom Ganon]] is fought actually shows the main antagonist's stronghold in the background as a silhouette, suggesting this Temple is the first to be designed for the [[Nintendo 64]] title.
+* The elevator at the Forest Temple's main room that leads to the basement where the boss door for Phantom Ganon is seen in {{OoT|-}} is a reference to {{TAoL}}, where its dungeons are known to have such to make [[Link]] progress them.
+* In the beta version of {{OoT|-}}, there was originally no platform by the entrance of the Forest Temple, as it was at ground level, allowing Link to enter the dungeon without requiring the [[Hookshot]].
+* If one listens closely to the Forest Temple's background music in {{OoT|-}}, sped-up, high-pitched grunts of Link can be heard among the wind instruments.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Forestoot.jpg|A {{Term|OoT|Dungeon Map}} of the {{Term|OoT|Forest Temple}} from {{OoT|-}}
+File:Block puzzle OoT.jpg|Link pushing a [[Block]] in ''Ocarina of Time''
+File:OoT Phantom Ganon.jpg|The Boss introduction of Phantom Ganon in ''Ocarina of Time''
+File:OoT Jump Attack.gif|Link attacking Phantom Ganon with Jump Attacks in ''Ocarina of Time''
+File:Oot3d5.png|{{Term|OoT|Link}} running through a twisted corridor from {{OoT3D|-}}
+File:Phantom Ganon OoT3D.png|Phantom Ganon in ''Ocarina of Time 3D''
+File:TP Link Opening a Door in the Forest temple.png|Link opening a door inside the {{Term|TP|Forest Temple|display=Temple}} from {{TP|-}}
+File:ST Whirlwind Obtention.png|{{Term|ST|Link}} obtaining the {{Term|ST|Whirlwind}} in the {{Term|ST|Forest Temple}} from {{ST|-}}
+File:Forest Temple Force Gem.png|The {{Term|ST|Forest Temple}}'s {{Term|ST|Force Gem}} from {{ST|-}}
+File:STForest.png|The true height of the {{Term|ST|Forest Temple}} from {{ST|-}}, shown with empty space to represent the spacing of the two [[Nintendo DS]] screens
+File:TPHD Forest Temple Texture.png|A design from the {{Term|TPHD|Forest Temple}} from {{TPHD|-}}
+File:TPHD Forest Temple Texture 2.png|A design from the {{Term|TPHD|Forest Temple}} from {{TPHD|-}}
+File:TPHD Forest Temple Texture 3.png|A design from the {{Term|TPHD|Forest Temple}} from {{TPHD|-}}, used throughout the {{Term|TPHD|Dungeon}}
+File:TPHD Forest Temple Texture 4.png|A design from the {{Term|TPHD|Forest Temple}} from {{TPHD|-}}, used in the opening hub room
+File:TPHD Forest Temple Texture 5.png|A design from the {{Term|TPHD|Forest Temple}} from {{TPHD|-}}, used in center of {{Term|TPHD|Mini-Boss}} room
+File:TPHD Forest Temple Texture 6.png|A floor design found in the {{Term|TPHD|Forest Temple|link}} from {{TPHD|-}}, used in the room with {{Term|TPHD|Tile Worm|link}} enemies. The left half is used for the underside of the tile and the right half is used for the top side
+File:OoT beta Bow.gif|Link using the [[Bow|Fairy Bow]] against a [[Skulltula]] in a prototype build of ''Ocarina of Time'', showing different physics
+File:OoT beta running slash.gif|Link fighting [[Poe Sisters|Poe Sister]] Joelle in the beta version of ''Ocarina of Time'', with the cut running slash 
+</gallery>
+
+== "Forest Temple Theme" ==
+[[File:OoT Forest Temple Theme.mp3|center|thumb|{{OoT|-}}]]
+
+==See Also==
+* {{Term|Series|Forest Temple (Theme)|link}}
+
+{{Notes}}
+
+{{Ref}}
+
+{{Categories
+ |Faron Province, Faron Woods, Temples
+ |dungeons= OoT, OoT3D, TP, TPHD, ST
+ |levels= TFH
+ |locations= OoT, OoT3D, TP, TPHD, ST, SS, SSHD
+}}

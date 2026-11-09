@@ -1,0 +1,181 @@
+{{Hatnote|Not to be confused with [[Barba]].}}
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork OoT= [[File:OoT Volvagia Artwork.png|320x320px]]
+ |Model OoT= [[File:OoT Volvagia Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Volvagia Model.png‎|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Volvagia Model.png|320x320px]]
+ |Model EoW= [[File:EoW Volvagia Model.png|320x320px]]
+}}
+|caption= 
+|game= OoT, EoW
+|other= OoT (Himekawa)
+|pronunciation= 
+|title= 
+{{Infobox Game Blocks
+ |OoT= Subterranean Lava Dragon<ref name="OoT Screen">{{Cite|'''Subterranean Lava Dragon<br/>{{Big|Volvagia}}'''|Game Screen|OoT}}</ref>
+}}
+|alias= 
+|race= 
+{{Infobox Game Blocks
+ |OoT= [[Dragon]]<ref name="OoT Screen"/>
+ |EoW= [[Tecuum]]
+}}
+|pronouns= 
+|dungeon= 
+{{Infobox Game Blocks
+ |OoT= [[Fire Temple (Ocarina of Time)|Fire Temple]]
+ |EoW= [[Eldin Temple]]
+}}
+|habitat= 
+{{Infobox Game Blocks
+ |OoT= [[Death Mountain Crater]]
+ |EoW= [[Still World]]
+}}
+|health= 
+{{Infobox Game Blocks
+ |OoT= {{HP|OoT|12}}
+}}
+|attack= 
+{{Infobox Game Blocks
+ |OoT=
+{{Damage
+ |attack1= Lava Rock Shower{{Name Ref|OoT3D}}
+ |damage1= 2.00
+
+ |attack2= Slash{{Name Ref|OoT3D}}
+ |damage2= 2.00
+
+ |attack3= Fire Breath{{Name Ref|OoT3D}}
+ |damage3= 3.00
+}}
+}}
+|weakness= 
+{{Infobox Game Blocks
+ |OoT= [[Megaton Hammer]]
+}}
+|reward= 
+{{Infobox Game Blocks
+ |OoT= [[Fire Medallion]], [[Heart Container]]
+ |EoW= [[Din's Sanction]], [[Heart Container]]
+}}
+|theme= 
+{{Infobox Game Blocks
+ |OoT= "[[Dinosaur Boss Battle]]"
+}}
+|voiceactor= 
+|strategy= 
+|zu= 
+}}
+'''Volvagia''' is a recurring [[Boss]] in {{TLoZ Series}}. It is a red, serpentine [[Dragon]], specifically resembling an East Asian dragon or lindworm, with a pair of front legs, a rocky skull and pair of curled horns and a fiery mane.
+
+{{Terminology
+|-
+| {{Term/Store|Volvagia||Series, OoT, OoT3D, EoW, OoT (Himekawa)}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 211"/>
+ * {{OoT3D}}<ref name="E 211"/>
+ * {{EoW}}<ref name="EoW Game Screen"/>
+ * {{OoT (Himekawa)}}<ref name="OoT (Himekawa) Sheik"/>
+}}
+}}
+
+==Characteristics==
+==={{OoT|-}}===
+{{Descriptions OoT}}
+Volvagia is an ancient [[Dragon]] that once lived in the depths of [[Death Mountain]] and was essentially the spirit of the Mountain.<ref>{{Cite Book|quote= Residing within the Fire Temple in {{OoT|-}}, Volvagia was a wicked dragon defeated by Link; in essence, it was the spirit of Death Mountain. |book= E |publisher= |page= 22}}</ref> It was said that a legendary [[Goron]] destroyed it with the use of the [[Megaton Hammer]].<ref name="OoT3D Link">{{Cite|A long time ago, there was an evil dragon named {{Color OoT3D|Red|Volvagia}} living in this mountain. That dragon was very scary! It ate Gorons! Using a huge hammer, the hero of the Gorons... BOOOM! Destroyed it just like that. This is a myth from long ago, but it's true! I know, because my dad is a descendant of the hero!|Link (Goron)|OoT3D}}</ref> By the [[Adult Era]] of {{OoT}}, [[Ganondorf]] revived the Dragon to secure the [[Fire Temple (Ocarina of Time)|Fire Temple]] from intrusion. He also fed Gorons to Volvagia to make an example to other races that might revolt against him. Incited by the Goron [[Link (Goron)|Link]], [[Darunia]]'s son, the [[Hylian]] [[Link]] sets out to destroy Volvagia to stop the Dragon from escaping the Temple and turning [[Hyrule]] into a burning wasteland.
+
+When Link steps onto the main octagonal platform of the boss room, the room shakes and the small rectangular platform behind him sinks into the [[Lava]]. Volvagia then emerges from one of the nine Lava pits on the main platform, briefly flying around the room and breathing [[Fire]] before entering another pit.
+
+The battle is designed akin to a {{wp|Whac-A-Mole}} game, as Volvagia will emerge from one of the nine pits at random and Link must use the [[Megaton Hammer]] to whack the Dragon when it comes out. Volvagia will emerge from the pits to either swing its fiery mane at him and then, depending on how far away Link is, breathe Fire or slash at him with its claws, fly upwards to the ceiling and trigger a rockfall or fly after him while occasionally breathing Fire.
+
+When Volvagia emerges to swing its mane, Link must strike its head with the Megaton Hammer after it does so to stun it before it attacks again and recedes into the Lava pit. Once stunned with the Megaton Hammer, Link can slash Volvagia with the [[Master Sword]] or hit it on the head again with the Hammer until the Dragon recedes back into its pit. When it is flying, Link can use the [[Bow]] to damage Volvagia, though it cannot be defeated with this method.
+
+After enough hits with the Master Sword or Megaton Hammer while stunned, Volvagia will be defeated. It will sink into the hole while clutching its head and emerge one last time, flying around erratically before its body burns into a skeleton from tail to head and its skull crashes to the ground, moving its jaw one last time before burning up and rewarding Link with a [[Heart Container]]. Darunia then awakens as the [[Sage of Fire]] and grants Link the [[Fire Medallion]].
+
+==={{EoW|-}}===
+{{Quests|
+{{EoW Quest
+ |name= Lands of the Goddesses
+ |type= Main Quest
+ |location= [[Hyrule Castle]]
+}}
+{{EoW Quest
+ |name= The Rift on Eldin Volcano
+ |type= Main Quest
+ |location= [[Eldin Volcano]]
+}}
+}}
+Volvagia is the [[Boss]] of [[Eldin Temple]]. It retains much of its design from {{OoT}}, though its body is now divided into multiple segments while retaining its forelegs and underbelly. The tip of its tail now has flame-like hair. A glowing, green orb on a necklace can be found under its throat. It is capable of diving into and out of pools of [[Lava]].
+
+Volvagia's arena consists of several platforms interspersed throughout a pool of [[Lava]], and it will emerge from one of several locations to attack. One of its main attacks is creating a large green fireball, which slowly follows [[Princess Zelda]] but can easily be avoided. It can also loose several normal fireballs, which are much faster than the green kind. During either attack, the green jewel on its necklace is exposed, granting Zelda an opportunity to grab and pull it with [[Bind]]. If Zelda successfully breaks the jewel, Volvagia will be temporarily stunned and open to attack.
+
+If Zelda gets too close to Volvagia's body when it is not stunned, it will perform several other attacks. For instance, it will swipe with its body to destroy any potential [[Echo]]es as well as to strike Zelda. On certain platforms, Volvagia will fire a beam into the ground she stands on to temporarily turn it into a [[Lava Pit]].
+
+A short while after its jewel is destroyed, Volvagia will retreat into the Lava and reemerge to fly over the battlefield. It will then dive back into the Lava before quickly reemerging with a new jewel. As Volvagia takes on more damage, it will release more fireballs per attack in desperation. After sustaining enough damage, Volvagia will be defeated. It leaves behind a [[Heart Container]] and a collection of [[Tris]] that it held captive. With the help of the newly-freed Tris, [[Tri]] will mend the [[Rift]] atop [[Eldin Volcano]]. In acknowledgment of her display of power, [[Din]] will also grant Zelda [[Din's Sanction]].
+
+==Other Appearances==
+==={{OoT|-}} (Himekawa)===
+{{Noncanon|Start}}
+{{Lacking Images|OoT (Himekawa)}}
+In the {{OoT (Himekawa)}}, child Link purchases a baby Volvagia from the Hyrule Town Market, intending to set it free. Instead, Volvagia chooses to follow Link. Eventually, Volvagia learns to say Link's name in thanks for its freedom, and the two part ways.
+
+When Link returns to Hyrule as an adult, Volvagia had been enthralled by Ganondorf into haunting the [[Fire Temple (Ocarina of Time)|Fire Temple]]. Disheartened, Link is forced to slay his friend in order to both save the Gorons and put Volvagia out of its misery. With its dying breath, Volvagia whispers Link's name in thanks for once again being freed.
+
+Later, as Link crosses the [[Haunted Wasteland]], a specter takes the form of Volvagia's disembodied head, suffering grievous pain, in an attempt to lure Link away from the safe path through the desert.
+{{Noncanon|End}}
+
+==Trivia==
+[[File:HW Volga Dragon Form.jpg|thumb|right|200px|{{Game Label|{{HW|-}}}}Volga in his Dragon form]]
+*Volvagia, along with King Dodongo, are the only two bosses in {{OoT|-}} to have a special battle theme.
+*In the [[Nintendo 64]] version of the game, Volvagia is once referred to with male pronouns by [[Link (Goron)|Link]] the [[Goron]].<ref>{{Cite|A long time ago there was an evil dragon named Volvagia living in this mountain. That dragon was very scary! He ate Gorons! Using a huge hammer, the hero of the Gorons... BOOOM! Destroyed it just like that. This is a myth from long ago, but it's true! I know, because my dad is a descendant of the hero!|Link (Goron)|OoT}}</ref> This was fixed in {{OoT3D}}.<ref name="OoT3D Link"/>
+*An [[Arwing]] was used to test Volvagia's flight patterns.<ref>{{Cite Person|quote= Volvagia is a dragon, so it wriggles and undulates. I only gave Morita-san the dragon model parts, but he set it in motion immediately. It was mysterious how he could do that. [...] I couldn't help but ask how he did it. He said it was the same as the programming for Star Fox 64. There's this scene when another fighter aircraft is tailing Arwing and...|name= Satoru Takizawa|url= https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/2/2|title= Iwata Asks: Ocarina of Time 3D: Original Development Staff - Part 2}}</ref>
+*[[Valoo]] from {{TWW}} is suggested to be Volvagia's descendant in {{HH}}.<ref>{{Cite Book|quote=Even after the land of Hyrule was sealed away, the guardian spirits of the three pearls of the goddesses remain. They are thought to be descended from Volvagia, the Deku Tree, and Jabu-Jabu, spirits that existed during the Era of the Hero of Time.|book=HH|page=127}}</ref>
+*[[Volga]], a villain in {{HW}}, shares many similarities with Volvagia. They have similar names, both utilize the [[Fire]] element, and Volga's helmet resembles Volvagia's skull. Additionally, Volga can take on a Dragon form which resembles Volvagia.
+*Volvagia's roars, alongside [[Ganon]]'s, are reused from [[Gohma]] and edited to be faster and higher-pitched.
+**The manner in which Volvagia dies was later reused with [[Twinmold]] in {{MM}} and [[Molgera]] in {{TWW|-}}.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:Link vs Volvagia.jpg|{{Game Label|{{OoT|-}}}}Artwork of Link battling Volvagia
+File:OoT Volvagia.png|{{Game Label|{{OoT|-}}}}Volvagia's introduction
+File:OoT3D Volvagia.png|{{Game Label|{{OoT3D|-}}}}Volvagia
+File:OoT3D Volvagia Thumbnail.png|{{Game Label|{{OoT3D|-}}}}Volvagia's Boss Challenge thumbnail
+File:EoW Volvagia Introduction.png|{{Game Label|{{EoW|-}}}}Volvagia's introduction
+File:OoTNS2 Volvagia Introduction.png|{{Game Label|{{OoTNS2|-}}}}Volvagia's introduction
+</gallery>
+
+==See Also==
+{{See Also|
+ * Barba
+ * Blizzagia
+ * Eldin (Dragon)
+ * Moragia
+ * Valoo
+ * Volga
+}}
+
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 211">{{Cite Book|quote= |book= E |publisher= |page= 211}}</ref>
+
+<!-- Echoes of Wisdom -->
+<ref name="EoW Game Screen">{{Cite|{{Big|Volvagia}}|Game Screen|EoW}}</ref>
+
+<!-- Ocarina of Time (Himekawa) -->
+<ref name="OoT (Himekawa) Sheik">{{Cite|THAT'S RIGHT...|Sheik|OoT (Himekawa)}}<br/>{{Cite|...AND YOU'VE GOT ANOTHER DESTINY, TOO... ...TO BEAT THE EVIL DRAGON VOLVAGIA!|Sheik|OoT (Himekawa)}}</ref>
+}}
+
+{{Bosses|EoW}}
+{{Categories
+ |Dragons, Fire-Related Enemies
+ |bosses= OoT, OoT3D, OoTNS2, EoW
+ |characters= OoT (Himekawa)
+}}
+[[de:Volvagia]]

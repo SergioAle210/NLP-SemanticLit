@@ -1,0 +1,68 @@
+{{Infobox Enemy
+|image= 
+{{Media
+ |Render OoT= File:OoT Gold Skulltula Render.png
+ |Model OoT= File:OoT Gold Skulltula Model.png
+ |Model OoT3D= File:OoT3D Gold Skulltula Model.png
+ |Model MM= File:MM Gold Skulltula Model.png
+ |Model MM3D= File:MM3D Gold Skulltula Model.png
+}}
+|caption= 
+|game= {{OoT}}, {{MM}}
+|other= {{HW}}
+|habitat= [[Swamp Spider House]], [[Oceanside Spider House]]
+|weapon= [[Bow]], [[Boomerang]], [[Hookshot]], [[Sword]]
+|spoils= 
+|health={{HP|OoT|2}}|attack=Contact {{Small|(1 Heart)}}}}
+{{Term/Store|Gold Skulltula|Gold Skulltulas|Series, OoT, OoT3D, MM, MM3D, HW, HWL, HWDE|plural}},{{Exp Game|OoT, MM, HW}}<ref>{{Cite Book|book=E |publisher=[[Dark Horse Books]] |page=203 {{Exp Game|OoT, MM}} }}</ref>{{Name Ref|HW}} also known as '''Spiders of the Curse''',<ref>{{Cite|Since you've destroyed {{Color|OoT Red|100}} Spiders of the Curse, the curse on me has been broken.|Cursed Rich Man|OoT}}</ref> are recurring {{Plural|Series|Enemy|link}} in {{TLoZ|Series}}. They are gold-backed [[Skulltula]]s that, when defeated, leave behind a {{Term|OoT3D|Token|link}} or {{Term|MM3D|Golden Skulltula Spirit|link}}.
+
+==Characteristics==
+==={{OoT|-}}===
+In {{OoT}}, Gold Skulltulas are hidden all throughout [[Hyrule]] and are known to curse people. One family was once fabulously rich, but were cursed by [[Ganondorf]] due to their greed and have taken the form of Skulltulas.<ref>{{Cite|Folks around here tell of a fabulously rich family that once lived in one of the houses in this village... But they say that the entire family was cursed due to their greed! Who knows what might happen to those who are consumed by greed...|Professor Shikashi|OoT}}</ref> When [[Link]] visits the [[House of Skulltula]] in [[Kakariko Village]], he speaks to the [[Cursed Rich Man]], who explains that the only way the curse on him and his sons will be lifted is if all of the Gold Skulltulas around Hyrule are destroyed.<ref>{{Cite|We all look like this because of the spider's curse. If every Spider of the Curse in the entire world were destroyed, the curse would be broken.|Cursed Rich Man|OoT}}</ref> Link must collect {{Plural|OoT3D|Token|link}} from the 100 Gold Skulltulas in Hyrule, freeing each family member from the curse one by one by collecting a certain number. By doing so, Link will receive rewards from each of the father's sons.
+
+Gold Skulltulas can be located by listening for their distinctive scraping sound. They can be found from fields to dungeons, although they will only appear above ground during the night.<ref>{{Cite|First of all, you'll have to hunt at night.|Cursed Rich Man|OoT}}</ref> Gold Skulltulas like soft [[Soil]], and can be drawn out by baiting them with [[Bug]]s.<ref>{{Cite|Secondly, keep in mind that they love soft soil... Pay close attention to your surroundings!|Cursed Rich Man|OoT}}</ref> They can also be found inside crates, or jostled out of lone trees by rolling into them. Some Tokens can be collected by just walking up to them, but some require ranged weapons to be reached. A small Gold Skulltula icon will appear next to an area's name on the map once all the Gold Skulltulas in that area have been defeated and their Tokens collected.
+
+==={{MM|-}}===
+{{Plural|MM3D|Gold Skulltula}} appear in the [[Swamp Spider House]] and the [[Oceanside Spider House]] in {{MM}}, which contain 30 each. They drop {{Plural|MM3D|Golden Skulltula Spirit|link}} when defeated. Gold Skulltulas can be located by listening for their distinctive scraping sound. They can hide inside [[Pot]]s, [[Beehive]]s, or soft Soil. Some out-of-reach Gold Skulltulas require Link to roll into a wall to drop them to the ground level.
+
+By obtaining the 30 {{Plural|MM3D|Golden Skulltula Spirit}} in the Swamp Spider House, Link obtains the [[Mask of Truth]] from the [[Cursed Rich Man]] who was cursed when he entered the house in search of clues to become rich.<ref>{{Cite|You see, a while back, someone told me I could become rich and he gave me this mask. He said the instructions were inscribed somewhere in here, but when I went to look, I was cursed!|Cursed Rich Man|MM}}</ref> In the Oceanside Spider House, Link can obtain the [[Giant's Wallet]] if he collects all 30 {{Plural|MM3D|Golden Skulltula Spirit}} during the [[First Day]], with a Silver [[Rupee]] being awarded for completing it again on the First Day in subsequent cycles. On the [[Second Day]], he will receive a Purple Rupee, and a Red Rupee on the [[Final Day]].
+
+In {{MM3D}}, the Giant's Wallet can be obtained on any day. If the {{Term|MM|Adult Wallet|link}} has not been previously obtained, Link will instead receive it, while the Giant's Wallet will now be obtained from the [[Banker]]. Collecting all the {{Plural|MM3D|Golden Skulltula Spirit}} a second time at either the Swamp Spider House or the Oceanside Spider House will award Link with a [[Fishing Hole Pass]].
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{HW|-}}===
+[[File:HW Gold Skulltula Icon.png|right]]
+In {{HW}}, Gold Skulltulas appear throughout many battles in the game, in both [[Legend Mode]] and [[Adventure Mode]], and behave similarly to their previous incarnations. A total of 100 Gold Skulltulas (with at least 60 more added through DLC) appear in the game,<ref>{{Cite|There are 100 Gold Skulltulas hidden around the world. By defeating them and gathering the illustration pieces they drop, you will be rewarded with certain perks.|N/A|HW}}</ref> and appear only after certain criteria have been met. When a Gold Skulltula appears, a spider web appears on the HUD map, indicating their general location.<ref>{{Cite|Gold Skulltulas will only appear within the spider's web on the map once you fulfill certain battle conditions. They flee after a set period of time has passed, so move quickly!|N/A|HW}}</ref> The exact locations of the hidden Gold Skulltulas are indicated by the noise of their scratching legs. However, after a certain period of time, the Gold Skulltulas will disappear and will not reappear until the battle is reset and the requirements are met again.
+
+Gold Skulltulas drop [[Illustration|Illustration Piece]]s when slain, which then appear in the Gallery menu. Collecting Illustration Pieces helps toward unlocking new content, including new upgrades at the {{Term|HW|Bazaar|link}}. Completing an Illustration unlocks a new battle in the [[Rewards Map]].
+
+Upon completing all of the Legend Mode Scenarios the first time, [[Hero Mode]] is unlocked along with additional Gold Skulltulas. These Gold Skulltulas require the difficulty setting be set to Hard or Hero Mode, and require certain characters or weapons to be present before they may appear. The criteria for their appearance in Legend Mode Scenarios is visible on the Select Scenario screen.<ref>{{Cite|You can check information on Gold Skulltulas hidden on a given battlefield from the Select Scenario screen. However, some only appear when using specific warriors or weapons.|N/A|HW}}</ref>
+
+The Legend Mode and some Adventure Mode scenarios have two Gold Skultulas to find. However, only one can be found during a single playthrough of the scenario, even if the conditions for both Gold Skultulas are met.
+{{Noncanon|End}}
+
+==Trivia==
+*Although Gold Skulltulas cannot be [[Targeting System|Z-target]]ed, unused comments from [[Navi]] and [[Tatl]] exist within the coding of {{OoT|-}} and {{MM|-}},<ref>{{Cite Web|quote= Gold Skulltula<br/>This is also known as a Spider of the Curse. If you defeat it, you'll get a token as proof!|author= Sheeza|published= September 23, 2012|retrieved=October 22, 2014|url= http://tcrf.net/The_Legend_of_Zelda:_Ocarina_of_Time/Unused_text#Navi|title= The Legend of Zelda: Ocarina of Time/Unused text|site= The Cutting Room Floor|type=}}</ref><ref>{{Cite Web|quote= {{Exp|What?! You don't even know about Gold Skultullas? Unless each of these fearsome cursed spiders is defeated, victims of the curse will never return to normal.|黄金のスタルチュラも知らないの？ 呪いのクモと恐れられ、呪われた人は 全部倒さないと元に戻らないの}}|author= Rightman|published= September 3, 2014‎|retrieved=October 22, 2014|url= http://tcrf.net/The_Legend_of_Zelda:_Majora%27s_Mask/Unused_text#Tatl|title= The Legend of Zelda: Majora's Mask/Unused text|site= The Cutting Room Floor|type=}}</ref> respectively. However, Tatl's comment was not translated and was removed from localized versions, except for {{MM3D}}.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:HW Gold Skulltula Model.png|A Gold Skulltula from {{HW|-}}
+File:HW Gold Skulltula.png|Sheik finding a Gold Skulltula from {{HW|-}}
+File:HW Gold Skulltula Adventure Mode Icon.png|Adventure Mode Gold Skulltula icon from {{HW|-}}
+</gallery>
+
+==See Also==
+* {{Term|Series|Token|link}}
+
+{{Ref}}
+
+{{ArthropodEnemy}}
+{{Categories
+ |Skulltulas
+ |enemies= OoT, OoT3D, MM, MM3D, HW, HWL, HWDE
+ |side-quests= OoT, OoT3D, MM, MM3D, HW, HWL, HWDE
+}}

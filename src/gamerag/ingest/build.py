@@ -42,9 +42,7 @@ def _slug(title: str) -> str:
 
 
 def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap: int = DEFAULT_OVERLAP,
-                 chunker: ChunkerName = "fixed", min_words: int = DEFAULT_MIN_WORDS):
-    snap = root / cfg.snapshot_dir
-    manifest = json.loads((snap / "manifest.json").read_text(encoding="utf-8"))
+                 chunker: ChunkerName = "fixed", min_words: int = DEFAULT_MIN_WORDS, extras: bool = False):
     stats = CleanStats()
     if chunker == "fixed":
         chunker_id = f"fixed-w{size}-o{overlap}"
@@ -58,40 +56,69 @@ def build_chunks(cfg: GameConfig, root: Path, size: int = DEFAULT_SIZE, overlap:
     else:
         raise ValueError(f"chunker desconocido: {chunker}")
     chunks: list[Chunk] = []
+    ids: set[str] = set()
     pages_used = 0
+    pages_in_snapshot = 0
+    per_source: dict[str, int] = {}
 
-    for page in manifest["pages"]:
-        if page["title"] in cfg.exclude_pages:
-            continue
-        text = clean_wikitext((snap / page["file"]).read_text(encoding="utf-8"), stats)
-        sections = split_sections(text)
-        if not sections:
-            continue
-        pages_used += 1
-        page_slug = _slug(page["title"].removeprefix(cfg.title).removeprefix(" (NES)")) or "main"
-        for n, w in enumerate(make_windows(sections)):
-            first = sections[w.first_section]
-            chunks.append(Chunk(
-                chunk_id=f"{cfg.game_id}:{page_slug}:{n:03d}",
-                text=w.text,
-                source=page["title"],
-                page=first.index,
-                version=f"revid:{page['revid']}",
-                url=page["url"],
-                section=first.title,
-                sections=[sections[i].title for i in w.section_indices],
-                hash="sha256:" + hashlib.sha256(w.text.encode("utf-8")).hexdigest(),
-                chunker=chunker_id,
-                n_words=w.n_words,
-                game=cfg.game_id,
-                location=locate(cfg, page["title"], first),
-            ))
+    # Fuente principal (StrategyWiki: la ubicación sale de sus títulos) + fuentes extra (restringidas por defecto).
+    sources = [("strategywiki", cfg.snapshot_dir, cfg.exclude_pages, None)]
+    if extras:
+        sources += [(x.site, x.snapshot_dir, x.exclude_pages, x) for x in cfg.extra_sources]
+
+    for site, snapshot_dir, excluded, extra in sources:
+        snap = root / snapshot_dir
+        manifest = json.loads((snap / "manifest.json").read_text(encoding="utf-8"))
+        pages_in_snapshot += len(manifest["pages"])
+        for page in manifest["pages"]:
+            if page["title"] in excluded:
+                continue
+            text = clean_wikitext((snap / page["file"]).read_text(encoding="utf-8"), stats)
+            sections = split_sections(text)
+            if not sections:
+                continue
+            pages_used += 1
+            if extra is None:  # ids y títulos de la fuente principal no cambian (los bancos de evaluación los usan)
+                page_slug = _slug(page["title"].removeprefix(cfg.title).removeprefix(" (NES)")) or "main"
+                prefix, source = f"{cfg.game_id}:{page_slug}", page["title"]
+            else:
+                prefix, source = f"{cfg.game_id}:{site}:{_slug(page['title'])}", f"{site}: {page['title']}"
+            for n, w in enumerate(make_windows(sections)):
+                first = sections[w.first_section]
+                loc = locate(cfg, page["title"], first)
+                if extra is not None and extra.unlocated == "restricted" and loc == loc.__class__():
+                    general = extra.general_headings and any(re.search(extra.general_headings, h)
+                                                             for h in first.path)
+                    loc.restricted = not general
+                chunk_id = f"{prefix}:{n:03d}"
+                while chunk_id in ids:  # dos títulos con el mismo slug
+                    chunk_id += "x"
+                ids.add(chunk_id)
+                per_source[site] = per_source.get(site, 0) + 1
+                chunks.append(Chunk(
+                    chunk_id=chunk_id,
+                    text=w.text,
+                    source=source,
+                    page=first.index,
+                    version=f"revid:{page['revid']}",
+                    url=page["url"],
+                    section=first.title,
+                    sections=[sections[i].title for i in w.section_indices],
+                    hash="sha256:" + hashlib.sha256(w.text.encode("utf-8")).hexdigest(),
+                    chunker=chunker_id,
+                    n_words=w.n_words,
+                    game=cfg.game_id,
+                    location=loc,
+                    origin=site,
+                ))
 
     lengths = [c.n_words for c in chunks]
     report = {
         "game": cfg.game_id,
         "chunker": chunker_id,
-        "pages_in_snapshot": len(manifest["pages"]),
+        "pages_in_snapshot": pages_in_snapshot,
+        "chunks_by_source": per_source,
+        "chunks_restricted": sum(c.location.restricted for c in chunks),
         "pages_used": pages_used,
         "chunks": len(chunks),
         "words": {"min": min(lengths), "mean": round(statistics.mean(lengths), 1), "max": max(lengths)},
@@ -108,6 +135,8 @@ def main() -> None:
     ap.add_argument("--chunker", choices=["fixed", "structural", "rows"], default="fixed")
     ap.add_argument("--size", type=int, default=DEFAULT_SIZE, help="palabras máximas por chunk")
     ap.add_argument("--overlap", type=int, default=DEFAULT_OVERLAP, help="solapamiento (solo fixed)")
+    ap.add_argument("--sources", choices=["primary", "all"], default="primary",
+                    help="all = suma las wikis extra de la config (salida chunks.<chunker>-multi.jsonl)")
     ap.add_argument("--min-words", type=int, default=DEFAULT_MIN_WORDS, help="unir secciones menores (solo structural)")
     args = ap.parse_args()
 
@@ -117,16 +146,17 @@ def main() -> None:
         ap.error(f"juego desconocido: {args.game_id}. Opciones: {', '.join(games)}")
 
     chunks, report = build_chunks(games[args.game_id], settings.root, args.size, args.overlap,
-                                  args.chunker, args.min_words)
+                                  args.chunker, args.min_words, extras=args.sources == "all")
+    tag = f"{args.chunker}-multi" if args.sources == "all" else args.chunker
 
     out = settings.path(settings.data_dir) / "processed" / args.game_id
     out.mkdir(parents=True, exist_ok=True)
-    with (out / f"chunks.{args.chunker}.jsonl").open("w", encoding="utf-8", newline="\n") as f:
+    with (out / f"chunks.{tag}.jsonl").open("w", encoding="utf-8", newline="\n") as f:
         for c in chunks:
             f.write(c.model_dump_json() + "\n")
-    (out / f"stats.{args.chunker}.json").write_text(json.dumps(report, indent=2), encoding="utf-8", newline="\n")
+    (out / f"stats.{tag}.json").write_text(json.dumps(report, indent=2), encoding="utf-8", newline="\n")
     print(json.dumps(report, indent=2))
-    print(f"-> {out / f'chunks.{args.chunker}.jsonl'}")
+    print(f"-> {out / f'chunks.{tag}.jsonl'}")
 
 
 if __name__ == "__main__":

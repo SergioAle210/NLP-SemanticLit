@@ -1,0 +1,162 @@
+{{cleanup}}
+{{infobox mission
+|name = Mike Toreno
+|image = MikeToreno-GTASA.png
+|size = 300px
+|caption = [[T-Bone Mendez]] receives a call from [[Mike Toreno]] about his capture by the [[Da Nang Boys]]
+|game = SA
+|for = [[Loco Syndicate]]
+|location = [[Jizzy's Pleasure Domes]], [[Battery Point]]
+|fail = The battery runs out before Toreno is found
+*T-Bone dies
+*Toreno dies
+|reward = $7000
+|unlocks = [[Outrider]]
+|unlockedby = [[T-Bone Mendez (mission)|T-Bone Mendez]]
+}}
+''' Mike Toreno'''  is a mission in [[Grand Theft Auto: San Andreas]], given to protagonist [[Carl Johnson|Carl "CJ" Johnson]] by [[San Fierro Rifa]] leader [[T-Bone Mendez]] from the [[Jizzy's Pleasure Domes|Pleasure Domes Club]] in [[Battery Point]], [[San Fierro]], [[San Andreas in GTA III Era|San Andreas]].
+
+==Mission==
+After that [[T-Bone Mendez (mission)|last bit of trouble]], Mendez is convinced that somebody is onto them. [[Mike Toreno|A guy named "Mike"]] calls Mendez, and apparently he is in trouble. Mendez tells Carl and city pimp [[Jizzy B.|Jizzy]] what's happening - some thieves have taken the cocaine shipment and the van, and Mike is still inside. Carl and Mendez try to locate "Mike", with his cellphone battery running low. Mendez updates Carl about the location, and they finally head to the [[Easter Bay Airport]]. At this point, Mendez explains that, after the last attack, "Mike" slipped a tracker device within the cocaine . Eventually, they manage to trace him down to the van, which has been hijacked by the [[Da Nang Boys]], and kill the thieves. Mendez then pulls out leader de mysterio [[Mike Toreno|Michael "Mike" Toreno]] of the [[Loco Syndicate]], who pulls his pistol on Carl, from the van. Toreno announces that the van must be destroyed as police sirens are heard, making it evident that a drug consignment was exposed. After destroying the van, Carl pulls up Mendez and Toreno in a [[Stretch]] praked nearby, even as he earns police attention. Losing the heat, the trio then returns to the club, with Toreno learning about Carl.
+
+==Script==
+'''(''City pimp [[Jizzy B.|Jizzy]] and Mendez are in the Pleasure Domes Club.'')'''
+
+'''Jizzy''': T-Bone! Pump your brakes, baby. Take a chill pill, and just lay back and let the red mist fall, brother!
+
+'''T-Bone''': Hey, holmes, open your eyes, dog. Can't you see we're getting messed with here, holmes?
+
+'''(''Carl enters.'')'''
+
+'''Jizzy''': Hey, partner! T-Bone, look, it's Carl! Now he's a real hero out there. See? We still good.
+
+'''T-Bone''': What, are you vatos stupid? Someone's onto us. We need to go back and rethink.
+
+'''CJ''': I think they was just trying their luck.
+
+'''(''Mendez's phone rings.'')'''
+
+'''T-Bone''': Mike? Mike! I been trying to contact you. What? Oh man. Where are you? OK, just keep talking! (''to Carl and Jizzy'') Hey, holmes, Mike's in trouble. Let's bounce.
+
+'''CJ''': What trouble? And who's Mike?
+
+'''T-Bone''': Man, they've taken the yay shipment, and the van and Mike's still in the back!
+
+'''Jizzy''': Well, what we going to do? How the fuck we gonna know where he is?
+
+'''T-Bone''': He's got his phone, he's gonna talk to us until his battery runs out. Come on, we gotta bounce!
+
+'''Jizzy''': A'ight, let's jet!
+
+'''(''Mendez and Carl are outside.'')'''
+
+'''T-Bone''': Gotta make this quick! Mike's doesn't got much time on his battery left. (''they hop onto a vehicle'') He says he can hear seagulls. Mike can hear galls.
+
+'''CJ''': Seagulls and heavy machinery, what is that? A building site or landfill or something?
+
+'''T-Bone''': There's a building site in Doherty. Hold up Mike, help is on her way. (''they reach Doherty'') He says he can hear a truck reversing. He says it's busy like a freight depot or something.
+
+'''CJ''': Aww, they must be down at the docks!
+
+'''T-Bone''': Get to the docks in the Easter Basin! (''they reach the docks'') Shit, he says they stopped, then he heard gunfire. He thinks they just shot their way through a security gate.
+
+'''CJ''': They don't have heavy security at the docks, but they do at the airport's freight depot.
+
+'''T-Bone''': To the airport, rapido! Hey, don't worry, Mike, we're nearly there. Mike's cellphone battery is running low. Mike can hear aircraft taking off and landing. (''as they reach the airport area'') Hey, this is the spot, keep your eyes pinned for that van. Okay, the tags should work now, holmes!
+
+'''CJ''': Tag? What the hell is a tag?
+
+'''T-Bone''': After that last bit of trouble, Mike hid the transponder in the white. We was gonna follow it to the end, but something must have fucked up. And now, we're use it to find the van, and rescue Mike.
+
+'''CJ''': How it work?
+
+'''T-Bone''': Simple. Closer we get, the stronger the signal. (''sights the van'') Shit, there they're!  
+
+'''(''Carl and Mendez are walking towards the van after they bring the [[Da Nang Boys]] to a halt and kill them.'')'''
+
+'''CJ''': Hey, man, c'mon, hurry up.
+
+'''(''Mendez opens the van's back door. Leader de mysterio [[Mike Toreno|Michael "Mike" Toreno]] of the Loco Syndicate emerges out.'')'''
+
+'''T-Bone''': Apurate, apurate!
+
+'''Toreno''': (''emerges'') About time, T-Bone... (''notices Carl and pulls a pistol on him'') Who the fuck is this?
+
+'''T-Bone''': Hey, that's one of Jizzy's clowns, relax, güero.
+
+'''Toreno''': You hear that? (''police sirens'') We gotta torch this van with the coke in it.
+
+'''T-Bone''': Hey, Charlie, güero, we ain't torching nada!
+
+'''Toreno''': This is a set back, but doing twenty to life is a little more than that, comprende amigo?
+
+'''CJ''': Hey he's right, man, let's do it and get the hell out of here.
+
+'''T-Bone''': Hey, who the fuck asked you, payaso? This ain't a committee!
+
+'''Toreno''': Exactly. I call the shots here. Now shut up and let's go.
+
+'''(''Carl, Mendez and Toreno destory the van and escape, and finally manage to clear the heat. Soon, they head back to the Pleasure Domes Club.'')'''
+
+'''Toreno''': How long have you been working for Jizzy, I haven't seen you before?
+
+'''CJ''': Just got into town last week.
+
+'''Toreno''': Just got into town, uh? Where were you before that?
+
+'''CJ''': Ae, what is it?
+
+'''T-Bone''': Man, just answer the fucking question.
+
+'''CJ''': Look, chill, I've been in Los Santos with my family, a'ight.
+
+'''Toreno''': Give me his wallet.
+
+'''CJ''': What?
+
+'''T-Bone''': Man, quit struggling and concentrate on the road. Here you go, Mike.
+
+'''Toreno''': Carl Johnson, uh! Okay, I've seen enough.
+
+'''CJ''': Hey, (there) was a dub in there, better still be there when I check it.
+
+'''T-Bone''': (''laughingly'') Shut the fuck up.
+
+'''(''Carl, Mendez and Toreno pull up outside Jizzy's club.'')'''
+
+'''Toreno''': OK, Carl Johnson, you did good today.
+
+'''T-Bone''': Man, now shake the spot, we got shit to talk about. 
+
+==Reward==
+* Finishing the mission will reward the player $7000 and [[Respect]]. The mission [[Outrider]] is unlocked.
+
+==Trivia==
+* The song featured in the Pre-mission cutscene is called "Loopzilla" by George Clinton, which can also be heard on [[Bounce FM]].
+* Upon arriving at the airport, the player can see that the dead security guard had a Desert Eagle.
+* In this mission it is confirmed that Carl smokes marijuana. Carl and [[Johnny Klebitz]] are the only known characters to smoke pot. 
+ 
+==Glitch==
+* If the player is using the "Never Wanted" [[Cheats in GTA San Andreas|cheat]], then once you get up to the red marker at the airport, the marker will not change, and will remain stuck. To fix the glitch, simply run away, until you receive the message, "''you left Mike behind go get him''", then after that the marker will change to the Pleasure Domes.
+* Sometimes when crashing too much, the bar will not fill up. To avoid losing any progress if the game does get stuck on this mission, be sure and save before it. If it does glitch, simply reload and try again (with as little crashing as you can manage).
+* Despite a strong signal, at times, the van will be untraceable, failing the mission without a doubt as the timer definitely runs out, in a case where the player might have acquired a pilot's license beforehand by flying too far away from the map instead of remaining within the map. This will also make the taxi mission difficult as fares will not spawn.
+
+==Gallery==
+<gallery>
+File:MikeToreno-GTASA4.png|[[Carl Johnson]] and [[T-Bone Mendez]] chase down the van.
+File:MikeToreno-GTASA2.png|CJ and T-Bone eliminate the [[Da Nang Boys]].
+File:MikeToreno-GTASA3.png|[[Mike Toreno]] demands to know who CJ is after being released from the van.
+File:MikeToreno-GTASA5.png|CJ helps T-Bone and Toreno destroy the van.
+File:MikeToreno-GTASA6.png|T-Bone and Toreno fire at the police as CJ hurries to get to the Pay 'n' Spray.
+</gallery>
+
+==Video Walkthrough==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTASeriesVideos
+|-
+|<youtube>mlohePKjfTU</youtube>
+|}
+</center>
+
+[[Category:Missions in GTA San Andreas]]

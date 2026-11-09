@@ -1,0 +1,1214 @@
+{
+  "source": "strategywiki",
+  "license": "CC BY-SA 4.0",
+  "license_note": "",
+  "downloaded_at": "2026-11-08T18:11:07+00:00",
+  "total_chars": 787776,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+      "revid": 1150908,
+      "file": "pages/Grand_Theft_Auto_San_Andreas.wiki",
+      "chars": 1735
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/100 percent checklist",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/100_percent_checklist",
+      "revid": 1048353,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__100_percent_checklist.wiki",
+      "chars": 6554
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/555 WE TIP",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/555_WE_TIP",
+      "revid": 702043,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__555_WE_TIP.wiki",
+      "chars": 1602
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/8-Track",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/8-Track",
+      "revid": 884394,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__8-Track.wiki",
+      "chars": 2186
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/A Home In The Hills",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/A_Home_In_The_Hills",
+      "revid": 702628,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__A_Home_In_The_Hills.wiki",
+      "chars": 3136
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Against All Odds",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Against_All_Odds",
+      "revid": 702255,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Against_All_Odds.wiki",
+      "chars": 1108
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Air Raid",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Air_Raid",
+      "revid": 702047,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Air_Raid.wiki",
+      "chars": 1202
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Ammu-Nation",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Ammu-Nation",
+      "revid": 702643,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Ammu-Nation.wiki",
+      "chars": 3378
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Amphibious Assault",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Amphibious_Assault",
+      "revid": 702247,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Amphibious_Assault.wiki",
+      "chars": 2012
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Appearance",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Appearance",
+      "revid": 751449,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Appearance.wiki",
+      "chars": 20489
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Architectural Espionage",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Architectural_Espionage",
+      "revid": 702591,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Architectural_Espionage.wiki",
+      "chars": 2456
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Are you going to San Fierro",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Are_you_going_to_San_Fierro",
+      "revid": 1071883,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Are_you_going_to_San_Fierro.wiki",
+      "chars": 1640
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/BMX",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/BMX",
+      "revid": 787291,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__BMX.wiki",
+      "chars": 2680
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Back to School",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Back_to_School",
+      "revid": 702584,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Back_to_School.wiki",
+      "chars": 837
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Badlands",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Badlands",
+      "revid": 702026,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Badlands.wiki",
+      "chars": 2315
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Basketball",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Basketball",
+      "revid": 1048420,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Basketball.wiki",
+      "chars": 693
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Beat Down on B Dup",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Beat_Down_on_B_Dup",
+      "revid": 702609,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Beat_Down_on_B_Dup.wiki",
+      "chars": 1133
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Beefy Baron",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Beefy_Baron",
+      "revid": 702105,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Beefy_Baron.wiki",
+      "chars": 741
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Big Smoke",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Big_Smoke",
+      "revid": 1048087,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Big_Smoke.wiki",
+      "chars": 3136
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Big Smoke's Cash",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Big_Smoke%27s_Cash",
+      "revid": 702636,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Big_Smoke_s_Cash.wiki",
+      "chars": 881
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Bike School",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Bike_School",
+      "revid": 702585,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Bike_School.wiki",
+      "chars": 2562
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Black Project",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Black_Project",
+      "revid": 1048090,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Black_Project.wiki",
+      "chars": 2116
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Blood Bowl",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Blood_Bowl",
+      "revid": 829795,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Blood_Bowl.wiki",
+      "chars": 2779
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Boat School",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Boat_School",
+      "revid": 702586,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Boat_School.wiki",
+      "chars": 3604
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Body Harvest",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Body_Harvest",
+      "revid": 702032,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Body_Harvest.wiki",
+      "chars": 1092
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Breaking the Bank at Caligula's",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Breaking_the_Bank_at_Caligula%27s",
+      "revid": 1071664,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Breaking_the_Bank_at_Caligula_s.wiki",
+      "chars": 3792
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Burglar",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Burglar",
+      "revid": 1048083,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Burglar.wiki",
+      "chars": 10803
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Burning Desire",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Burning_Desire",
+      "revid": 1071870,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Burning_Desire.wiki",
+      "chars": 1876
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Catalyst",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Catalyst",
+      "revid": 702004,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Catalyst.wiki",
+      "chars": 1690
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Cesar Vialpando",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Cesar_Vialpando",
+      "revid": 1071659,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Cesar_Vialpando.wiki",
+      "chars": 1948
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Characters",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Characters",
+      "revid": 1104590,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Characters.wiki",
+      "chars": 62183
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Cheats",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Cheats",
+      "revid": 812142,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Cheats.wiki",
+      "chars": 23350
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Chiliad Challenge",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Chiliad_Challenge",
+      "revid": 702639,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Chiliad_Challenge.wiki",
+      "chars": 6886
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Cleaning the Hood",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Cleaning_the_Hood",
+      "revid": 701998,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Cleaning_the_Hood.wiki",
+      "chars": 1478
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Controls",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Controls",
+      "revid": 1204990,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Controls.wiki",
+      "chars": 4898
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Cop Wheels",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Cop_Wheels",
+      "revid": 901952,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Cop_Wheels.wiki",
+      "chars": 2829
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Customs Fast Track",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Customs_Fast_Track",
+      "revid": 1071828,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Customs_Fast_Track.wiki",
+      "chars": 1404
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Cut Throat Business",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Cut_Throat_Business",
+      "revid": 702605,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Cut_Throat_Business.wiki",
+      "chars": 2319
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Dam and Blast",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Dam_and_Blast",
+      "revid": 829653,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Dam_and_Blast.wiki",
+      "chars": 1678
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Dating",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Dating",
+      "revid": 761550,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Dating.wiki",
+      "chars": 17000
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Deconstruction",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Deconstruction",
+      "revid": 1071812,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Deconstruction.wiki",
+      "chars": 1514
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Dirt Track",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Dirt_Track",
+      "revid": 445181,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Dirt_Track.wiki",
+      "chars": 1172
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Doberman",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Doberman",
+      "revid": 1071660,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Doberman.wiki",
+      "chars": 1447
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Don Peyote",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Don_Peyote",
+      "revid": 702624,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Don_Peyote.wiki",
+      "chars": 3272
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Drive-By",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Drive-By",
+      "revid": 1071676,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Drive-By.wiki",
+      "chars": 1633
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Drive-thru",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Drive-thru",
+      "revid": 701999,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Drive-thru.wiki",
+      "chars": 1654
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Driving School",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Driving_School",
+      "revid": 743856,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Driving_School.wiki",
+      "chars": 8314
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/End Of The Line",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/End_Of_The_Line",
+      "revid": 1048092,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__End_Of_The_Line.wiki",
+      "chars": 10901
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Explosive Situation",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Explosive_Situation",
+      "revid": 702622,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Explosive_Situation.wiki",
+      "chars": 1629
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/External Links",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/External_Links",
+      "revid": 277318,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__External_Links.wiki",
+      "chars": 2862
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Farewell, my love...",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Farewell%2C_my_love...",
+      "revid": 1166388,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Farewell_my_love....wiki",
+      "chars": 1690
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Fender Ketchup",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Fender_Ketchup",
+      "revid": 1071654,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Fender_Ketchup.wiki",
+      "chars": 1331
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Firefighter",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Firefighter",
+      "revid": 1048361,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Firefighter.wiki",
+      "chars": 5034
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/First Base",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/First_Base",
+      "revid": 1071655,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__First_Base.wiki",
+      "chars": 1282
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/First Date",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/First_Date",
+      "revid": 702254,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__First_Date.wiki",
+      "chars": 1428
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Fish in a Barrel",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Fish_in_a_Barrel",
+      "revid": 702627,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Fish_in_a_Barrel.wiki",
+      "chars": 716
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Flying School",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Flying_School",
+      "revid": 968902,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Flying_School.wiki",
+      "chars": 6615
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Freefall",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Freefall",
+      "revid": 1071857,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Freefall.wiki",
+      "chars": 6064
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Freight",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Freight",
+      "revid": 908004,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Freight.wiki",
+      "chars": 2236
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Frequently Asked Questions",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Frequently_Asked_Questions",
+      "revid": 848878,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Frequently_Asked_Questions.wiki",
+      "chars": 52841
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Gameplay",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Gameplay",
+      "revid": 905738,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Gameplay.wiki",
+      "chars": 5032
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Gang Tags",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Gang_Tags",
+      "revid": 702634,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Gang_Tags.wiki",
+      "chars": 22694
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Glitches",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Glitches",
+      "revid": 700418,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Glitches.wiki",
+      "chars": 6828
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Gone Courting",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Gone_Courting",
+      "revid": 702258,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Gone_Courting.wiki",
+      "chars": 1185
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Gray Imports",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Gray_Imports",
+      "revid": 702007,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Gray_Imports.wiki",
+      "chars": 1654
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Green Goo",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Green_Goo",
+      "revid": 702615,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Green_Goo.wiki",
+      "chars": 1396
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Grove 4 Life",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Grove_4_Life",
+      "revid": 702610,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Grove_4_Life.wiki",
+      "chars": 1477
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/High Noon",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/High_Noon",
+      "revid": 702596,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__High_Noon.wiki",
+      "chars": 2702
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/High Stakes, Low-rider",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/High_Stakes%2C_Low-rider",
+      "revid": 966708,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__High_Stakes_Low-rider.wiki",
+      "chars": 1479
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Highjack",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Highjack",
+      "revid": 702578,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Highjack.wiki",
+      "chars": 1178
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Home Coming",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Home_Coming",
+      "revid": 1071865,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Home_Coming.wiki",
+      "chars": 1628
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Home Invasion",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Home_Invasion",
+      "revid": 702002,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Home_Invasion.wiki",
+      "chars": 1332
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Horseshoes",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Horseshoes",
+      "revid": 1057227,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Horseshoes.wiki",
+      "chars": 2084
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Hot Coffee",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Hot_Coffee",
+      "revid": 766877,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Hot_Coffee.wiki",
+      "chars": 4635
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/House Party",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/House_Party",
+      "revid": 702016,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__House_Party.wiki",
+      "chars": 1626
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Ice Cold Killa",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Ice_Cold_Killa",
+      "revid": 702110,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Ice_Cold_Killa.wiki",
+      "chars": 2033
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Import/Export",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Import/Export",
+      "revid": 1048084,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Import__Export.wiki",
+      "chars": 2834
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/In the beginning",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/In_the_beginning",
+      "revid": 750442,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__In_the_beginning.wiki",
+      "chars": 2727
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Intensive Care",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Intensive_Care",
+      "revid": 1071704,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Intensive_Care.wiki",
+      "chars": 2365
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Interdiction",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Interdiction",
+      "revid": 1070331,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Interdiction.wiki",
+      "chars": 1445
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Items",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Items",
+      "revid": 700224,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Items.wiki",
+      "chars": 9603
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Jizzy",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Jizzy",
+      "revid": 1071806,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Jizzy.wiki",
+      "chars": 2213
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Just Business",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Just_Business",
+      "revid": 918126,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Just_Business.wiki",
+      "chars": 1650
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Key to her Heart",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Key_to_her_Heart",
+      "revid": 702593,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Key_to_her_Heart.wiki",
+      "chars": 3796
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Kickstart",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Kickstart",
+      "revid": 540077,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Kickstart.wiki",
+      "chars": 894
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/King in Exile",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/King_in_Exile",
+      "revid": 702033,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__King_in_Exile.wiki",
+      "chars": 662
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/LVA Freight Depot Race Tournament",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/LVA_Freight_Depot_Race_Tournament",
+      "revid": 702641,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__LVA_Freight_Depot_Race_Tournament.wiki",
+      "chars": 3940
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Las Venturas",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Las_Venturas",
+      "revid": 538882,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Las_Venturas.wiki",
+      "chars": 6852
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Las Venturas Airport Race Tournament",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Las_Venturas_Airport_Race_Tournament",
+      "revid": 847958,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Las_Venturas_Airport_Race_Tournament.wiki",
+      "chars": 3962
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Las Venturas Courier",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Las_Venturas_Courier",
+      "revid": 884320,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Las_Venturas_Courier.wiki",
+      "chars": 1555
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Learning to Fly",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Learning_to_Fly",
+      "revid": 1071784,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Learning_to_Fly.wiki",
+      "chars": 1232
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Life's a Beach",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Life%27s_a_Beach",
+      "revid": 884068,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Life_s_a_Beach.wiki",
+      "chars": 2397
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Local Liquor Store",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Local_Liquor_Store",
+      "revid": 702256,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Local_Liquor_Store.wiki",
+      "chars": 1656
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Los Desperados",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Los_Desperados",
+      "revid": 702607,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Los_Desperados.wiki",
+      "chars": 1702
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Los Santos",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Los_Santos",
+      "revid": 310914,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Los_Santos.wiki",
+      "chars": 6954
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Los Santos Courier",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Los_Santos_Courier",
+      "revid": 293169,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Los_Santos_Courier.wiki",
+      "chars": 1279
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Los Santos Race Tournament",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Los_Santos_Race_Tournament",
+      "revid": 1071876,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Los_Santos_Race_Tournament.wiki",
+      "chars": 7094
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Los Sepulcros",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Los_Sepulcros",
+      "revid": 786559,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Los_Sepulcros.wiki",
+      "chars": 1761
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Lowrider Challenge",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Lowrider_Challenge",
+      "revid": 702645,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Lowrider_Challenge.wiki",
+      "chars": 1762
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Lure",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Lure",
+      "revid": 702248,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Lure.wiki",
+      "chars": 1207
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Madd Dogg",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Madd_Dogg",
+      "revid": 702629,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Madd_Dogg.wiki",
+      "chars": 1525
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Madd Dogg's Rhymes",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Madd_Dogg%27s_Rhymes",
+      "revid": 1071814,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Madd_Dogg_s_Rhymes.wiki",
+      "chars": 1247
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Made In Heaven",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Made_In_Heaven",
+      "revid": 702577,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Made_In_Heaven.wiki",
+      "chars": 1208
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Management Issues",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Management_Issues",
+      "revid": 702015,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Management_Issues.wiki",
+      "chars": 2127
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Mike Toreno",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Mike_Toreno",
+      "revid": 1048341,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Mike_Toreno.wiki",
+      "chars": 2038
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Misappropriation",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Misappropriation",
+      "revid": 702594,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Misappropriation.wiki",
+      "chars": 4089
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Mods",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Mods",
+      "revid": 806144,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Mods.wiki",
+      "chars": 17703
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Monster",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Monster",
+      "revid": 702251,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Monster.wiki",
+      "chars": 1231
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Mountain Cloud Boys",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Mountain_Cloud_Boys",
+      "revid": 702250,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Mountain_Cloud_Boys.wiki",
+      "chars": 927
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/N.O.E.",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/N.O.E.",
+      "revid": 966706,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__N.O.E..wiki",
+      "chars": 1972
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/NRG Challenge",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/NRG_Challenge",
+      "revid": 913681,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__NRG_Challenge.wiki",
+      "chars": 5447
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/New Model Army",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/New_Model_Army",
+      "revid": 702104,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__New_Model_Army.wiki",
+      "chars": 2141
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Nines and AK's",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Nines_and_AK%27s",
+      "revid": 1071821,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Nines_and_AK_s.wiki",
+      "chars": 2315
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/OG Loc",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/OG_Loc",
+      "revid": 1071669,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__OG_Loc.wiki",
+      "chars": 3336
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Outrider",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Outrider",
+      "revid": 702108,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Outrider.wiki",
+      "chars": 1583
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Oysters",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Oysters",
+      "revid": 1057020,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Oysters.wiki",
+      "chars": 1747
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Paramedic",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Paramedic",
+      "revid": 1048081,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Paramedic.wiki",
+      "chars": 3966
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Photo Opportunity",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Photo_Opportunity",
+      "revid": 702045,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Photo_Opportunity.wiki",
+      "chars": 1425
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Photo Ops",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Photo_Ops",
+      "revid": 700227,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Photo_Ops.wiki",
+      "chars": 8968
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Pickups",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Pickups",
+      "revid": 371737,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Pickups.wiki",
+      "chars": 1060
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Pier 69",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Pier_69",
+      "revid": 702111,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Pier_69.wiki",
+      "chars": 1413
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Pimping",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Pimping",
+      "revid": 389112,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Pimping.wiki",
+      "chars": 2053
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Puncture Wounds",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Puncture_Wounds",
+      "revid": 702621,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Puncture_Wounds.wiki",
+      "chars": 1059
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Quarry",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Quarry",
+      "revid": 447156,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Quarry.wiki",
+      "chars": 4093
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Ran Fa Li",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Ran_Fa_Li",
+      "revid": 702249,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Ran_Fa_Li.wiki",
+      "chars": 1019
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Respect",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Respect",
+      "revid": 273976,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Respect.wiki",
+      "chars": 1353
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Reuniting the Families",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Reuniting_the_Families",
+      "revid": 1071713,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Reuniting_the_Families.wiki",
+      "chars": 3373
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Riot",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Riot",
+      "revid": 702606,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Riot.wiki",
+      "chars": 1105
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Robbing Uncle Sam",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Robbing_Uncle_Sam",
+      "revid": 702005,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Robbing_Uncle_Sam.wiki",
+      "chars": 1630
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Running Dog",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Running_Dog",
+      "revid": 702012,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Running_Dog.wiki",
+      "chars": 1259
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Ryder",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Ryder",
+      "revid": 750441,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Ryder.wiki",
+      "chars": 2177
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Saint Mark's Bistro",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Saint_Mark%27s_Bistro",
+      "revid": 1071768,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Saint_Mark_s_Bistro.wiki",
+      "chars": 1823
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/San Andreas",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/San_Andreas",
+      "revid": 333415,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__San_Andreas.wiki",
+      "chars": 36357
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/San Fierro",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/San_Fierro",
+      "revid": 538881,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__San_Fierro.wiki",
+      "chars": 9004
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/San Fierro Courier",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/San_Fierro_Courier",
+      "revid": 702611,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__San_Fierro_Courier.wiki",
+      "chars": 1473
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/San Fierro Race Tournament",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/San_Fierro_Race_Tournament",
+      "revid": 702647,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__San_Fierro_Race_Tournament.wiki",
+      "chars": 7797
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Small Town Bank",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Small_Town_Bank",
+      "revid": 702257,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Small_Town_Bank.wiki",
+      "chars": 1340
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Snail Trail",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Snail_Trail",
+      "revid": 966658,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Snail_Trail.wiki",
+      "chars": 1313
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Stats",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Stats",
+      "revid": 916400,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Stats.wiki",
+      "chars": 21392
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Stowaway",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Stowaway",
+      "revid": 702613,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Stowaway.wiki",
+      "chars": 3543
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Supply Lines...",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Supply_Lines...",
+      "revid": 702050,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Supply_Lines....wiki",
+      "chars": 1876
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Sweet's Girl",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Sweet%27s_Girl",
+      "revid": 702022,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Sweet_s_Girl.wiki",
+      "chars": 1820
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/T-Bone Mendez",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/T-Bone_Mendez",
+      "revid": 702106,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__T-Bone_Mendez.wiki",
+      "chars": 1225
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Table of Contents",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Table_of_Contents",
+      "revid": 1046417,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Table_of_Contents.wiki",
+      "chars": 13511
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Tagging up Turf",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Tagging_up_Turf",
+      "revid": 1071753,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Tagging_up_Turf.wiki",
+      "chars": 2760
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Tanker Commander",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Tanker_Commander",
+      "revid": 702253,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Tanker_Commander.wiki",
+      "chars": 1293
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Taxi Driver",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Taxi_Driver",
+      "revid": 1048079,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Taxi_Driver.wiki",
+      "chars": 1372
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Territories",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Territories",
+      "revid": 668907,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Territories.wiki",
+      "chars": 7283
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Test Drive",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Test_Drive",
+      "revid": 702618,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Test_Drive.wiki",
+      "chars": 1032
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/The Da Nang Thang",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/The_Da_Nang_Thang",
+      "revid": 702246,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__The_Da_Nang_Thang.wiki",
+      "chars": 2075
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/The Green Sabre",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/The_Green_Sabre",
+      "revid": 1071805,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__The_Green_Sabre.wiki",
+      "chars": 1661
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/The Meat Business",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/The_Meat_Business",
+      "revid": 1071720,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__The_Meat_Business.wiki",
+      "chars": 1873
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Toreno's Last Flight",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Toreno%27s_Last_Flight",
+      "revid": 702112,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Toreno_s_Last_Flight.wiki",
+      "chars": 2890
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Triathlon",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Triathlon",
+      "revid": 1048086,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Triathlon.wiki",
+      "chars": 3404
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Trucking",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Trucking",
+      "revid": 702630,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Trucking.wiki",
+      "chars": 5247
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Turf Wars",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Turf_Wars",
+      "revid": 661416,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Turf_Wars.wiki",
+      "chars": 21676
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Unique jumps",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Unique_jumps",
+      "revid": 293326,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Unique_jumps.wiki",
+      "chars": 547
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Up, Up and Away!",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Up%2C_Up_and_Away%21",
+      "revid": 702600,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Up_Up_and_Away_.wiki",
+      "chars": 3165
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Valet Parking",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Valet_Parking",
+      "revid": 573704,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Valet_Parking.wiki",
+      "chars": 2314
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Vehicles",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Vehicles",
+      "revid": 700704,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Vehicles.wiki",
+      "chars": 28127
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Verdant Meadows",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Verdant_Meadows",
+      "revid": 702580,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Verdant_Meadows.wiki",
+      "chars": 876
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Vertical Bird",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Vertical_Bird",
+      "revid": 826748,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Vertical_Bird.wiki",
+      "chars": 3289
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Vigilante",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Vigilante",
+      "revid": 1048082,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Vigilante.wiki",
+      "chars": 6876
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Walkthrough",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Walkthrough",
+      "revid": 1143045,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Walkthrough.wiki",
+      "chars": 13251
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Weapons",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Weapons",
+      "revid": 746337,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Weapons.wiki",
+      "chars": 12865
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Wear Flowers in your Hair",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Wear_Flowers_in_your_Hair",
+      "revid": 1071781,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Wear_Flowers_in_your_Hair.wiki",
+      "chars": 850
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Wrong Side of the Tracks",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Wrong_Side_of_the_Tracks",
+      "revid": 702013,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Wrong_Side_of_the_Tracks.wiki",
+      "chars": 2659
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Wu Zi Mu",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Wu_Zi_Mu",
+      "revid": 702039,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Wu_Zi_Mu.wiki",
+      "chars": 1528
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Yay Courier",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Yay_Courier",
+      "revid": 1156201,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Yay_Courier.wiki",
+      "chars": 1548
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Yay Ka-Boom-Boom",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Yay_Ka-Boom-Boom",
+      "revid": 1071850,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Yay_Ka-Boom-Boom.wiki",
+      "chars": 3411
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/You've had your Chips",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/You%27ve_had_your_Chips",
+      "revid": 702623,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__You_ve_had_your_Chips.wiki",
+      "chars": 2613
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas/Zeroing In",
+      "url": "https://strategywiki.org/wiki/Grand_Theft_Auto%3A_San_Andreas/Zeroing_In",
+      "revid": 1071847,
+      "file": "pages/Grand_Theft_Auto_San_Andreas__Zeroing_In.wiki",
+      "chars": 1887
+    }
+  ]
+}

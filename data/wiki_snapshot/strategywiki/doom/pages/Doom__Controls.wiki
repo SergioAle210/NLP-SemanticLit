@@ -1,0 +1,202 @@
+{{Header Nav|game=Doom}}
+
+{{Needcontrols|snes|PS1|3DO|Saturn|GBA|360|PS3}}
+{{Needcontrols|Switch|PS4|Xbone|PS5|Xsx}}
+{| {{controlstable}}
+! rowspan="2" | Action
+! rowspan="2" | PC
+! colspan="2" |32X
+! rowspan="2" |Atari Jaguar
+|-
+!6-Button
+!3-Button
+|-
+! colspan="5" | Commands and Shortcuts
+|-
+| {{desc}} Pause
+| {{kbd|Pause}}
+| colspan="2" {{N/a}}
+| {{Jaguar|Pause}}
+|-
+| {{desc}} Menu
+| {{kbd|Esc}}
+| colspan="2" |{{Smd|Start}}
+| {{Jaguar|Option}}
+|-
+| {{desc}} Automap
+| {{kbd|Tab}}
+|{{Smd|Z}}
+|{{Smd|C}} + {{Smd|Start}}
+| {{Jaguar|9}}
+|-
+| {{desc}} Read This!
+| {{kbd|F1}}
+| colspan="3" rowspan="12" {{N/a}}
+|-
+| {{desc}} Save
+| {{kbd|F2}}
+|-
+| {{desc}} Load
+| {{kbd|F3}}
+|-
+| {{desc}} Sound Volume
+| {{kbd|F4}}
+|-
+| {{desc}} Graphic Detail
+| {{kbd|F5}}
+|-
+| {{desc}} Quicksave
+| {{kbd|F6}}
+|-
+| {{desc}} End Game
+| {{kbd|F7}}
+|-
+| {{desc}} Toggle Messages
+| {{kbd|F8}}
+|-
+| {{desc}} Quickload
+| {{kbd|F9}}
+|-
+| {{desc}} Quit
+| {{kbd|F10}}
+|-
+| {{desc}} Reduce View
+| {{kbd|-}}
+|-
+| {{desc}} Increase View
+| {{kbd|1==}}
+|-
+! colspan="5" | Automap Commands
+|-
+| {{desc}} Follow Mode
+| {{kbd|F}}
+|{{Smd|X}}||{{Smd|B}}||{{N/a}}
+|-
+| {{desc}}Pan Map
+|If follow mode is off,<br>{{kbd|up}}<br>{{kbd|left}} {{kbd|down}} {{kbd|right}}
+| colspan="2" |If follow mode is off, {{Smd|Neutral|Dpad}}
+|{{Jaguar|Neutral|Dpad}}
+|-
+| {{desc}}Pan Map Faster
+|{{kbd|Shift}}
+| colspan="2" {{N/a}}
+| {{Jaguar|A}}
+|-
+| {{desc}}Move Player
+|If follow mode is on,<br>{{kbd|up}}<br>{{kbd|left}} {{kbd|down}} {{kbd|right}}
+| colspan="2" |If follow mode is on, {{Smd|Neutral|Dpad}}
+| {{Jaguar|C}} + {{Jaguar|Neutral|Dpad}}
+|-
+| {{desc}} Mark Place
+| {{kbd|M}}
+| colspan="3" rowspan="2" {{N/a}}
+|-
+| {{desc}} Clear Marks
+| {{kbd|C}}
+|-
+| {{desc}} Zoom In
+| {{kbd|1==}}
+| colspan="2" |{{Smd|A}}
+| {{Jaguar|B}} + {{Jaguar|Right|Dpad}}
+|-
+| {{desc}} Zoom Out
+| {{kbd|-}}
+|{{Smd|B}}
+|{{N/a}}
+| {{Jaguar|B}} + {{Jaguar|Left|Dpad}}
+|-
+| {{desc}} Full Map/Zoom
+| {{kbd|0}}
+|{{Smd|Y}}
+|{{Smd|A}} + {{Smd|Start}}||rowspan=2 {{N/a}}
+|-
+| {{desc}}Toggle grid
+|{{N/a}}
+| colspan="2" | {{Smd|C}}
+|-
+! colspan="5" | Weapons Selection
+|-
+| {{desc}} Fist
+| {{kbd|1}}
+|{{Smd|Mode}} + {{Smd|Start}}
+| rowspan="7" {{N/a}}
+| {{Jaguar|1}}
+|-
+| {{desc}} Pistol
+| {{kbd|2}}
+|{{Smd|Mode}} + {{Smd|A}}
+| {{Jaguar|2}}
+|-
+| {{desc}} Shotgun
+| {{kbd|3}}
+|{{Smd|Mode}} + {{Smd|B}}
+| {{Jaguar|3}}
+|-
+| {{desc}} Chaingun
+| {{kbd|4}}
+|{{Smd|Mode}} + {{Smd|C}}
+| {{Jaguar|4}}
+|-
+| {{desc}} Rocket Launcher
+| {{kbd|5}}
+|{{Smd|Mode}} + {{Smd|X}}
+| {{Jaguar|5}}
+|-
+| {{desc}} Plasma Rifle
+| {{kbd|6}}
+|{{Smd|Mode}} + {{Smd|Y}}
+| {{Jaguar|6}}
+|-
+| {{desc}} BFG 9000
+| {{kbd|7}}
+|{{Smd|Mode}} + {{Smd|Z}}
+| {{Jaguar|7}}
+|-
+| {{desc}}Next weapon
+| rowspan="2" {{N/a}}
+|{{Smd|X}}
+|{{Smd|Start}} + {{Smd|A}}
+|{{N/a}}
+|-
+| {{desc}}Previous weapon
+|{{Smd|Y}}
+|{{N/a}}||{{N/a}}
+|-
+! colspan="5" | Basic Controls
+|-
+| {{desc}} Move Forward
+| {{kbd|up}} / {{mouse}} / {{mouse|r}}
+| colspan="2" rowspan="4" |{{Smd|Neutral|Dpad}}
+| rowspan="4" |{{Jaguar|Neutral|Dpad}}
+|-
+| {{desc}} Move Backward
+| {{kbd|down}} / {{mouse}}
+|-
+| {{desc}} Turn Left
+| {{kbd|left}} / {{mouse}}
+|-
+| {{desc}} Turn Right
+| {{kbd|right}} / {{mouse}}
+|-
+| {{desc}} Run
+| {{kbd|Shift}}
+| colspan="2" |{{Smd|A}}
+| {{Jaguar|A}}
+|-
+| {{desc}} Strafe
+| {{kbd|Alt}}
+| colspan="2" |{{Smd|C}}
+| {{Jaguar|C}}
+|-
+| {{desc}} Fire
+| {{kbd|Ctrl}} / {{mouse|l}} / Joystick 1
+| colspan="2" |{{Smd|B}}
+| {{Jaguar|B}}
+|-
+| {{desc}} Activate
+| {{kbd|Space}} / Double click {{mouse|r}} / Joystick 2
+| colspan="2" |{{Smd|C}}
+| {{Jaguar|C}}
+|}
+
+{{Footer Nav|game=Doom|prevpage=|nextpage=Weapons}}

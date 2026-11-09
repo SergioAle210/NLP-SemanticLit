@@ -1,0 +1,123 @@
+{{Header Nav|game=The Legend of Zelda: Ocarina of Time}}
+{{floatingtoc}}
+{{control selector|Nintendo 64,GameCube,Wii,3DS,Switch}}
+
+'''The Legend of Zelda: Ocarina of Time''' is an action-adventure game.
+{{-}}
+
+==Select a file==
+[[File:LoZ OoT file select.png|thumb|right|The file select screen.]]
+After the introductory cutscene plays, pressing {{control|{{N64|start}}|{{gc|start}}|{{wii-cc|plus}}|{{3ds|start}}|{{switch|plus}}}} while the logo is fully displayed opens the file select screen.
+
+There are three save game slots, along with the options to erase or copy a saved game. Furthermore, there's an options menu which allows you to change sound settings, the way the {{control|{{N64|z}}|{{gc|L}}|{{wii-cc|L}}|{{3ds|L}}|{{switch|ZL}}}}-targeting system works and some shades of black and grey to help set the brightness setting of your television. Highlighting a save game slot and pressing {{control|{{N64|A}}|{{gc|A}}|{{wii-cc|A}}|{{3ds|A}}|{{switch|A}}}} and choosing Yes opens that saved game. If no saved game exists, selecting a save game slot opens the file name screen. Entering a name and choosing End will create a new game save file.
+{{-}}
+
+==Movement==
+The first thing you'll learn when you begin the game is how to run around using the {{control|{{n64|Neutral|Control}}|{{gc|Neutral|Control}}|{{wii-cc|Neutral|lstick}}|{{3ds|Neutral|Cpad}}|{{switch|Neutral|Lstick}}}}. Pressing it a little bit will make Link walk very slowly, which is good for navigating small walkways. Pressing it all the way to the edge will make Link run as fast as he can, which is necessary to [[#Jumping|Jump]]. If you walk off a ledge, Link will [[#Falling|fall]] a bit and hopefully grab the ledge, otherwise he will fall straight down and may take damage based on the distance of the fall.
+
+===Jumping===
+[[File:LoZ OoT jump.jpg|thumb|left|Link jumping across a gap.]]
+In The Legend of Zelda: Ocarina of Time there is no jump button. Instead, Link will jump off of ledges if he approaches them while running. Be careful of your positioning, because it is easy to fall long distances.
+
+===Falling===
+If Link happens to fall off of a ledge, he will either hit the ground and take damage, or roll. To roll, simply hold the control stick in the direction he is moving (most often {{control|{{n64|Up|Control}}|{{gc|Up|Control}}|{{wii-cc|Up|lstick}}|{{3ds|Up|Cpad}}|{{switch|Up|Lstick}}}}).
+{{-}}
+
+==HUD==
+[[File:LoZ OoT outside market.png|thumb|left|All of the HUD elements viewable.]]
+;Action button
+The action button shows you what {{control|{{n64|A}}|{{gc|A}}|{{wii-cc|A}}|{{3ds|A}}|{{switch|A}}}} will make Link do. For instance, if you have your sword in hand and you are standing still, the action button will say ''Put Away''. Pressing the button will cause Link to sheath his sword. If you are running, the action button will change to ''Attack'', and pressing {{control|{{n64|A}}|{{gc|A}}|{{wii-cc|A}}|{{3ds|A}}|{{switch|A}}}} will make Link do a somersault.
+
+;Item assignments
+At the top right of the screen are the three button assignments. These act as a way to keep track of what items are currently assigned to. By pressing a button with an assigned item, Link will pull out the item immediately and use it (draw an arrow and aim the bow, load and aim the slingshot, swipe with an empty jar, use a filled jar, etc.). You can change the button assignments by using the pause menu and navigating to the inventory section. Pressing a button while an item is selected will assign that item to the button pressed.
+
+The buttons for the items are {{control|{{n64|Left|C}}, {{n64|Down|C}}, and {{n64|Right|C}}|{{gc|Left|Cstick}} (or {{gc|Y}}), {{gc|Down|Cstick}} (or {{gc|Z}}), and {{gc|Right|Cstick}} (or {{gc|X}})|{{wii-cc|Left|Rstick}} (or {{wii-cc|Y}}), {{wii-cc|Down|Rstick}} (or {{wii-cc|Zl}} or {{wii-cc|Zr}}), or {{wii-cc|Right|Rstick}} (or {{wii-cc|X}})|{{3ds|Y}}, {{3ds|X}}, and two touch buttons for use with thumbs or {{ds|Stylus}}|{{switch|Left|Rstick}} (or {{switch|Y}}), {{switch|Down|Rstick}} (or {{switch|X}}/{{switch|ZR}}{{plus}}{{switch|B}}), and {{switch|Right|Rstick}} (or {{switch|ZR}}{{plus}}{{switch|A}})}}.
+
+;Minimap
+The minimap appears in the bottom left corner of the screen. This helps you quickly keep track of your location in a room, the direction Link is facing, and the floor or zone you are in. A world map is available on the pause menu outside of dungeons, and a larger dungeon map is while inside of them.
+
+Press {{control|{{n64|L}}|{{gc|Neutral|Dpad}}|{{wii-cc|Neutral|Dpad}}|{{3ds|Neutral|Dpad}}|{{switch|L}}}} to turn on or off the minimap.
+{{-}}
+
+==Pause menu==
+[[File:LoZ OoT select item subscreen.png|thumb|right|The select item subscreen.]]
+The pause menu can be viewed by pressing {{control|{{n64|Start}}|{{gc|Start}}|{{wii-cc|Plus}}|{{3ds|start}}|{{switch|plus}}}}. Here you are able to save, view the world or dungeon map (depending on your location), view and equip items, and view additional items.
+
+;Inventory
+{{details|../Items|the items that will inhabit your inventory|Items}}
+Your inventory helps keep track of what items you've acquired, what items are currently assigned to the C buttons, how much ammo you have left, and whether or not you have anything contained in jars.
+
+[[File:LoZ OoT quest status subscreen.png|thumb|right|The quest status subscreen]]
+;Heart pieces
+{{details|../Heart Containers|the locations of Heart Containers|Heart Containers}}
+While on your adventure, you might stumble upon a ''Heart Piece''; these rare items will automatically combine into an extra ''Heart Container'' (your maximum health will increase by one) if you find four of them. The inventory tracks how many Heart Pieces you have by filling in the heart container diagram until you form a new Heart Container.
+
+;Songs
+{{details|../Ocarina Songs|how to acquire and play songs|Ocarina Songs}}
+After you receive an ocarina, you will be able to play songs that have special powers. These songs play an important role in solving puzzles and traveling quickly throughout the game.
+
+;Gold Skulltulas
+{{details|../Gold Skulltulas|how to acquire|Gold Skulltulas}}
+One of the many secret items you can collect in ''Ocarina of Time'' is the {{im/oot|Gold Skulltulas|Gold Skulltula Token}}. These are acquired by killing a {{im/oot|Enemies|Gold Skulltula}} and then grabbing its token.
+{{-}}
+
+===Equipment===
+{{details|The Legend of Zelda: Ocarina of Time/Equipment|weapons|Equipment}}
+[[File:LoZ OoT equipment subscreen.png|thumb|left|The equipment subscreen.]]
+On the equipment page, you will be able to toggle between the different armor and weapons that Link has acquired. These will come in handy when maximizing your offensive and defensive capabilities, and when necessary to solve certain puzzles.
+
+;Weapons
+Throughout the game you'll acquire stronger swords and weaponry to help you solve increasingly complex puzzles and defeat enemies more efficiently.
+
+;Ammo
+{{details|../Consumables#Ammunition|the ammunition you will need to be on the lookout for|Ammunition}}
+Some weapons require ammunition to use. If you run out, they will be unable to function, so try to keep a good supply on hand, or keep track of where you can find more. Remember that destructible objects and enemies have a chance to drop items such as ammo.
+{{-}}
+
+==Saving your game==
+[[File:LoZ OoT save screen.png|thumb|left|The file save screen.]]
+During the game, you can save your game at any time by bringing up the pause menu with {{control|{{n64|Start}}|{{gc|Start}}|{{wii|Plus}}|{{3ds|Start}}|{{switch|plus}}}}, then press {{control|{{n64|B}}|{{gc|B}}|{{wii|B}}|{{3ds|B}}|{{switch|B}}}}. Select "Yes" at the confirmation screen. The menu will close. The game has now been saved.
+
+If you die and get a "Game Over", the game will ask you if you want to save, then if you want to continue. Choosing not to continue will send you back to the title screen.
+
+Note that when you save the game, it does not save your location. Every time you start the game you will appear in Link's House in Kokiri Forest, if your last save was as a child. If your last save game was as an adult, you will start at the Temple of Time. If you save in a dungeon you will instead appear just inside of the entrance to the dungeon regardless of age.
+{{-}}
+
+==Rupees==
+{{details|../Consumables#Rupees|rupees|Rupees}}
+Like all Zelda games, Rupees are used as a currency within the game.
+
+==Objects==
+You will find objects throughout the game that can be interacted with or destroyed. Destructible objects have a chance to drop items such as ammo and rupees.
+
+{|{{prettytable}}
+!Object!!Methods of interaction!!Methods of destruction
+|-
+!Chests
+|Open.||{{n/a}}
+|-
+!Doors
+|Open.||{{n/a}}
+|-
+!Gossip Stones
+|Speak, sword, boomerang, hookshot, or bomb.||Bomb
+|-
+!Grass
+|Pick up.||Throw, cut, or bomb.
+|-
+!Stones
+|Pick up.||Throw or bomb.
+|}
+
+==Dungeons==
+[[File:Oot slingshot.jpg|thumb|left|An example of when Link finds a special piece of equipment. It can be assigned to one of the item buttons.]]
+Dungeons are a primary part of the game. Each dungeon must be completed to finish the game. A dungeon is considered complete if the special item is found and, if there is one, the boss is defeated.
+
+===Dungeon-specific items===
+{{details|../Dungeon Items|dungeon-specific items|Dungeon Items}}
+Certain items can only be found within dungeons. Some of these are dungeon-specific. That is, after you find them, they cannot be taken elsewhere and are only available when you are in that dungeon.
+
+===Special items===
+Each dungeon has a unique item that will help Link progress through the game. These special items are necessary to overcome puzzles and defeat bosses, so make sure you get them!
+
+{{Footer Nav|game=The Legend of Zelda: Ocarina of Time|nextpage=Controls}}

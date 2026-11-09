@@ -1,0 +1,15 @@
+{{Header Nav|game=Doom}}
+
+There are a fair number of tricks you can use in Doom that exploit some flaws in the game programming. Since most of these tricks are used in online deathmatches as well, you might do well in practicing them.
+
+===Straferunning===
+True to its namesake, straferunning is when you're running forward and strafing at the same time. Thanks to a minor flaw in the game's movement code, this causes you to run just a little bit faster than usual. By straferunning, it's possible to jump gaps that regular running would not be able to clear.
+
+An alternate version of Straferunning is known as Strafe50. To perform this, you need to hold the Strafe key, along with move forward and both turn and strafe left.  Normally, sidestepping isn't as fast as forward movement, but a quirk with movement calculation allows this combination to boost speed up to the maximum.  However, this does not always work on all keyboards, and may require alternate control devices.
+
+===Chaingun Sniping===
+Doom's weapon accuracy is handled by "refire" - essentially, only the first shot of your weapon is perfectly accurate. If you hold the fire button down, the weapon becomes inaccurate. This can be exploited with the chaingun. Since the chaingun actually fires two bullets before the refire, this makes it fairly easy to make the chaingun fire with perfect accuracy by tapping the fire button for every two shots instead of simply holding it.
+
+===Wallrunning===
+If you're playing the original DOS or Windows 95 versions of Doom (as opposed to the various "source ports" available on the net), then you have the ability to wallrun. Simply straferun against any wall (well, almost any wall - depending on the orientation of the wall, it might not work) and angle yourself until you start going nearly twice as fast as normal. Naturally this will only work in straight corridors.
+{{Footer Nav|game=Doom|prevpage=Storyline|nextpage=Scoring}}

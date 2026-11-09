@@ -1,0 +1,26 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar Triads Casino.png]][[Grand Theft Auto: San Andreas/A Home In The Hills|A Home In The Hills]]
+* '''Location''': [[File:GTA San Andreas radar CJ.png]]Madd Dog's Crib, Los Santos
+|}
+{{control selector|PlayStation 2,PC,Xbox}}
+This mission introduces you to the Hydra for the first time (unless you have unveiled it using cheats). First you get onto the boat and drive it to the ship which is indicated on the radar. Make sure you do not directly drive inside the ship. This mission is about stealth. So, stop just before the opening of the ship. Now swim over to the ship and remember having a silenced gun helps. Shoot everyone around you (if you get low on health there are drinks/food machines nearby). Follow the point on the radar to get to the SAM controls. Once there CJ should deactivate them so it is safe to launch the Hydra. Now run back and find the point where the Hydras are located. Get into one and fly up (the controls are similar to a helicopter). Now follow the radar point (this should take you to the abandoned airstrip). Watch out for the three Hydras on your tail. They will try to shoot you down (but usually they crash). If they don't turn round and hold the button to aim and press the button to fire a missile. If you just want to get away as fast as possible then hold {{control|{{psx|Up|Rstick}}|{{kbd|8}}|{{xbox|Up|Rstick}}}} and the Hydra should go at a faster speed. To slow down simply hold {{control|{{psx|Down|Rstick}}|{{kbd|2}}|{{xbox|Down|Rstick}}}}. After this there should be some boats to shoot down. Take your time as you don't want to crash. Now you should head back to the airstrip to complete the mission successfully.
+
+== Tips ==
+
+* If you destroy two of the three hydras you see in the carrier, then you will only be chased by one Hydra (instead of three) when you are in the air.
+* On PC, hold {{kbd|8}} for 3 seconds to toggle to Jet mode. Hold {{kbd|2}} to toggle to Hover mode. Hold {{kbd|Spacebar}} while you see the target, wait for the lock on them to turn from green to red. Then press {{kbd|Ctrl}}{{plus}}{{kbd|R}} to fire missiles at them.
+* Dogfighting the other Hydras in Jet mode is fun, but the easier way is to stay in Hover mode and rotate (with {{kbd|Q}} and {{kbd|E}} buttons) and look for the other Hydras. They should be circling you. Lock on them once they are in sight.
+* Click {{mouse|r}} to deploy counter-measures if you see incoming missiles, shown as little red triangles on your radar.
+* The Hydra will fly in jet mode with the landing gear extended but it's better if you retract it
+* There is an oyster located under the speedboat at the beginning that you can dive to collect
+
+== Rewards ==
+* '''Cash''': $50,000
+* A Hydra now spawns at Verdant Meadows.
+* A complete set of heavy weapons (Rocket Launcher, Heat-Seeking Rocket Launcher, Flamethrower, MiniGun) now spawns in Toreno's ranch.
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=A Home In The Hills|previmg=[[File:GTA San Andreas radar Triads Casino.png]]|hereimg=[[File:GTA San Andreas radar CJ.png]]|nextpage=Home Coming|nextimg=[[File:GTA San Andreas radar CJ.png]]}}

@@ -6,6 +6,11 @@ year: 1988
 aliases: [Shadow Warriors, Ninja Ryukenden]
 
 snapshot_dir: data/wiki_snapshot/strategywiki/ninja_gaiden_nes
+
+# Otras wikis (scripts/fetch_corpus.py). Lo que no trae ubicación queda restringido hasta etiquetarlo.
+extra_sources:
+  - {site: wikipedia, snapshot_dir: data/wiki_snapshot/wikipedia/ninja_gaiden_nes, general_headings: 'Gameplay|Development|Release|Reception|Legacy|Sales'}
+  - {site: ninjagaiden_fandom, snapshot_dir: data/wiki_snapshot/ninjagaiden_fandom/ninja_gaiden_nes}
 manual:
   url: https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NACBE.pdf
   local_path: data/raw/manuals/CLV-P-NACBE.pdf   # gitignored (© Nintendo)

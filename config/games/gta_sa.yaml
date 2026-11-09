@@ -1,0 +1,128 @@
+game_id: gta_sa
+title: "Grand Theft Auto: San Andreas"
+platform: PS2/PC/Xbox
+year: 2004
+aliases: [GTA SA, San Andreas, GTASA]
+
+snapshot_dir: data/wiki_snapshot/strategywiki/gta_sa
+
+# Progreso: arco de la historia (orden total). Misiones -> arco, tomado de la página Walkthrough de la wiki
+# (tabla de todas las misiones por ciudad). Misiones secundarias y páginas generales quedan sin ubicación.
+progress_model: linear_stage
+stages: [los_santos, san_fierro, las_venturas, los_santos_2]
+title_locations:
+  "In the beginning": {stage: los_santos}
+  "Big Smoke": {stage: los_santos}
+  "Ryder": {stage: los_santos}
+  "Tagging up Turf": {stage: los_santos}
+  "Cleaning the Hood": {stage: los_santos}
+  "Drive-thru": {stage: los_santos}
+  "Nines and AK's": {stage: los_santos}
+  "Drive-By": {stage: los_santos}
+  "OG Loc": {stage: los_santos}
+  "Home Invasion": {stage: los_santos}
+  "Catalyst": {stage: los_santos}
+  "Robbing Uncle Sam": {stage: los_santos}
+  "Sweet's Girl": {stage: los_santos}
+  "Cesar Vialpando": {stage: los_santos}
+  "Life's a Beach": {stage: los_santos}
+  "Madd Dogg's Rhymes": {stage: los_santos}
+  "Running Dog": {stage: los_santos}
+  "Wrong Side of the Tracks": {stage: los_santos}
+  "Just Business": {stage: los_santos}
+  "Burning Desire": {stage: los_santos}
+  "Management Issues": {stage: los_santos}
+  "House Party": {stage: los_santos}
+  "High Stakes, Low-rider": {stage: los_santos}
+  "Doberman": {stage: los_santos}
+  "Los Sepulcros": {stage: los_santos}
+  "Gray Imports": {stage: los_santos}
+  "Reuniting the Families": {stage: los_santos}
+  "The Green Sabre": {stage: los_santos}
+  "Badlands": {stage: san_fierro}
+  "First Date": {stage: san_fierro}
+  "Body Harvest": {stage: san_fierro}
+  "King in Exile": {stage: san_fierro}
+  "First Base": {stage: san_fierro}
+  "Gone Courting": {stage: san_fierro}
+  "Wu Zi Mu": {stage: san_fierro}
+  "Made In Heaven": {stage: san_fierro}
+  "Farewell, my love...": {stage: san_fierro}
+  "Are you going to San Fierro": {stage: san_fierro}
+  "Wear Flowers in your Hair": {stage: san_fierro}
+  "555 WE TIP": {stage: san_fierro}
+  "Deconstruction": {stage: san_fierro}
+  "Photo Opportunity": {stage: san_fierro}
+  "Jizzy": {stage: san_fierro}
+  "T-Bone Mendez": {stage: san_fierro}
+  "Mike Toreno": {stage: san_fierro}
+  "Outrider": {stage: san_fierro}
+  "Snail Trail": {stage: san_fierro}
+  "Ice Cold Killa": {stage: san_fierro}
+  "Pier 69": {stage: san_fierro}
+  "Toreno's Last Flight": {stage: san_fierro}
+  "Mountain Cloud Boys": {stage: san_fierro}
+  "Ran Fa Li": {stage: san_fierro}
+  "Lure": {stage: san_fierro}
+  "Amphibious Assault": {stage: san_fierro}
+  "The Da Nang Thang": {stage: san_fierro}
+  "Air Raid": {stage: san_fierro}
+  "Supply Lines": {stage: san_fierro}
+  "New Model Army": {stage: san_fierro}
+  "Yay Ka-Boom-Boom": {stage: san_fierro}
+  "Monster": {stage: las_venturas}
+  "Highjack": {stage: las_venturas}
+  "Interdiction": {stage: las_venturas}
+  "Verdant Meadows": {stage: las_venturas}
+  "Learning to Fly": {stage: las_venturas}
+  "Zeroing In": {stage: las_venturas}
+  "Test Drive": {stage: las_venturas}
+  "Customs Fast Track": {stage: las_venturas}
+  "Puncture Wounds": {stage: las_venturas}
+  "N.O.E.": {stage: las_venturas}
+  "Stowaway": {stage: las_venturas}
+  "Black Project": {stage: las_venturas}
+  "Green Goo": {stage: las_venturas}
+  "Fender Ketchup": {stage: las_venturas}
+  "Explosive Situation": {stage: las_venturas}
+  "Architectural Espionage": {stage: las_venturas}
+  "Key to her Heart": {stage: las_venturas}
+  "Dam and Blast": {stage: las_venturas}
+  "Cop Wheels": {stage: las_venturas}
+  "Up, Up and Away!": {stage: las_venturas}
+  "You've had your Chips": {stage: las_venturas}
+  "Don Peyote": {stage: las_venturas}
+  "Intensive Care": {stage: las_venturas}
+  "Misappropriation": {stage: las_venturas}
+  "The Meat Business": {stage: las_venturas}
+  "Madd Dogg": {stage: las_venturas}
+  "Fish in a Barrel": {stage: las_venturas}
+  "Freefall": {stage: las_venturas}
+  "High Noon": {stage: las_venturas}
+  "Saint Mark's Bistro": {stage: las_venturas}
+  "Breaking the Bank at Caligula's": {stage: las_venturas}
+  "A Home In The Hills": {stage: los_santos_2}
+  "Vertical Bird": {stage: los_santos_2}
+  "Home Coming": {stage: los_santos_2}
+  "Cut Throat Business": {stage: los_santos_2}
+  "Beat Down on B Dup": {stage: los_santos_2}
+  "Grove 4 Life": {stage: los_santos_2}
+  "Riot": {stage: los_santos_2}
+  "Los Desperados": {stage: los_santos_2}
+  "End Of The Line": {stage: los_santos_2}
+
+exclude_pages: ["Grand Theft Auto: San Andreas/Table of Contents"]
+tools: [search_documents]
+query_expansion:
+  rewrites: []
+  synonyms:
+    cheats: [cheat codes]
+    car: [vehicle]
+    gun: [weapon]
+    money: [cash]
+    gang: [gang territory]
+
+extra_sources:
+  - {site: wikipedia, snapshot_dir: data/wiki_snapshot/wikipedia/gta_sa, general_headings: 'Gameplay|Development|Release|Reception|Legacy|Sales'}
+  - {site: grandtheftwiki, snapshot_dir: data/wiki_snapshot/grandtheftwiki/gta_sa}
+  - {site: gta_fandom, snapshot_dir: data/wiki_snapshot/gta_fandom/gta_sa}

@@ -1,0 +1,139 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= [[File:OoT Goron Tunic Render.png|320x320px]]
+ |Model OoT= [[File:OoT Goron Tunic Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Goron Tunic Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Goron Tunic Model.png|320x320px]]
+ |Sprite OoT= [[File:OoT Goron Tunic Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Goron Tunic Icon.png|160x160px]]
+ |Sprite OoTNS2= [[File:OoTNS2 Goron Tunic Icon.png|320x320px]]
+}}
+|caption= 
+|game= OoT
+|other= SSB, SSBM, SSBB, HW, SSB4
+|cost= 
+{{Infobox Game Blocks
+ |OoT= {{Rupee|OoT3D|200}}
+ |OoTNS2= {{Rupee|OoTNS2|600}}
+}}
+|uses= Resisting fire and heat
+|comp= [[Zora Tunic]]
+}}
+The '''Goron Tunic''', also known as the '''Heat-Resistant Tunic''', is a recurring [[Item]] in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Goron Tunic|Goron Tunics|Series, OoT, OoT3D, OoTNS2, HW, HWL, HWDE}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 126"/>
+ * {{OoT3D}}<ref name="E 126"/>
+ * {{OoTNS2}}<ref name="OoTNS2"/>
+ * {{HW}}<ref name="HW View Warriors"/>
+ * {{HWL}}<ref name="HW View Warriors"/>
+ * {{HWDE}}<ref name="HW View Warriors"/>
+}}
+|-
+| '''Heat-Resistant Tunic'''
+| 
+{{List|
+ * {{OoT}}<ref name="OoT Link"/>
+ * {{OoT3D}}<ref name="OoT Link"/>
+}}
+|-
+| ''No name is given''
+| 
+{{List|
+ * {{SSB}}
+ * {{SSBM}}
+ * {{SSBB}}
+ * {{SSBfN3DS}}
+ * {{SSBfWU}}
+}}
+}}
+
+==Location and Uses==
+==={{OoT|-}}===
+{{Descriptions OoT}}
+The Goron Tunic is a red tunic that is able to protect its wearer from extreme heat, made from [[Dodongo]] scales and [[Bomb Flower]] fibers.<ref>{{Cite Web|quote= Fashioned from a sporty blend of Dodongo hide and Bomb Flower fibers, the Goron Tunic allowed Link to survive the intense heat generated within Death Mountain Crater. |url= http://web.archive.org/web/20160308195651/http://zelda.com/universe/pedia/g.jsp |title= The Great Hyrule Encyclopedia |site=Zelda.com |type= jsp}}</ref> It can only be worn by [[Link]] as an adult.<ref>{{Cite|You got a {{Color OoT3D|Red|Goron Tunic}}! This heat-resistant tunic is adult sized, so it won't fit a kid. Going to a hot place? No worries!|Game Screen|OoT3D}}</ref> The Goron Tunic is essential when exploring places such as the [[Death Mountain Crater]] and the [[Fire Temple (Ocarina of Time)|Fire Temple]]. While wearing it, Link will no longer burn from fire-based traps and attacks and will be able to travel on tiles of lava, allowing him to take certain shortcuts safely. He will also gain special resistance from floor spikes and poison water. The tunic can be stolen by a [[Like Like]] if Link is still wearing it when the Like Like spits him out.
+
+It can be bought in the [[Goron Shop]] for 600 [[Rupee]]s.{{Note|In {{OoT3D}} and the [[Nintendo 64]] version of {{OoT}}, the Goron Tunic costs 200 Rupees instead.}} Alternatively, Link can obtain it for free as a gift from [[Link (Goron)|Darunia's son]] after stopping him from rolling around [[Goron City]].<ref name="OoT Link"/>
+
+==Other Appearances==
+==={{SSB|-}}===
+{{Noncanon|Start}}
+{{Stub|SSB}}
+
+{{Noncanon|End}}
+
+==={{SSBM|-}}===
+{{Noncanon|Start}}
+{{Stub|SSBM}}
+
+{{Noncanon|End}}
+
+==={{SSBB|-}}===
+{{Noncanon|Start}}
+{{Stub|SSBB}}
+
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+{{Stub|HWDE}}
+
+{{Noncanon|End}}
+
+==={{SSB4|-}}===
+{{Noncanon|Start}}
+{{Stub|SSBfN3DS, SSBfWU}}
+
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Link Goron Tunic.png|{{Game Label|{{OoT|-}}}}Link wearing the Goron Tunic
+File:SCII Link with Red Tunic Model.png|{{Game Label|{{SCII|-}}}}Link's Goron Tunic alternate costume
+File:SSBM Link Alternative Costume 1.png|{{Game Label|{{SSBM|-}}}}Link's Goron Tunic alternate costume
+File:SSBB Link Alternative Costume 1.png|{{Game Label|{{SSBB|-}}}}Link's Goron Tunic alternate costume
+File:SSB4 Link Alternative Costume 1.png|{{Game Label|{{SSB4|-}}}}Link's Goron Tunic alternate costume
+File:HW Link Goron Tunic Model.png|{{Game Label|{{HW|-|}}}}Link wearing the Goron Tunic
+File:HW Goron Tunic Badge Icon.png|{{Game Label|{{HW|-|}}}}The Goron Tunic Badge
+</gallery>
+
+==See Also==
+{{See Also|
+ * Flame-Resistant Equipment
+ * Kokiri Tunic
+ * Red Mail
+ * Zora Armor
+}}
+
+{{Notes}}
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 126">{{Cite Book|quote= |book= E |publisher= |page= 126}}</ref>
+<ref name="OoT Link">{{Cite|Dad went to the Fire Temple all by himself to try to save everyone... Please help, {{Player Name}}! I'll give you this {{Color OoT|Red|heat-resistant tunic}}!|Link (Goron)|OoT}}<br/>{{Cite|Dad went to the Fire Temple all by himself to try to save everyone... Please help, {{Player Name}}! I'll give you this {{Color OoT3D|Red|heat-resistant tunic}}!|Link (Goron)|OoT3D}}</ref>
+<ref name="OoTNS2">{{Cite|{{Big|Goron Tunic}}<br/>Wearing this heat-resistant tunic made by the Gorons, you'll be able to tolerate even scorching temperatures.|Equipment (Interface)|OoTNS2}}</ref>
+
+<!-- Super Smash Bros. -->
+
+<!-- Super Smash Bros. Melee -->
+
+<!-- Super Smash Bros. Brawl -->
+
+<!-- Hyrule Warriors -->
+<ref name="HW View Warriors">{{Cite|Goron Tunic|View Warriors|HW}}<br/>{{Cite|Goron Tunic|View Warriors|HWL}}<br/>{{Cite|Goron Tunic|View Warriors|HWDE}}</ref>
+
+<!-- Super Smash Bros. for Nintendo 3DS / Wii U -->
+
+}}
+
+{{Categories
+ |Costumes, Tunics
+ |items= OoT, OoT3D, OoTNS2, SSB, SSBM, SSBB, HW, HWL, HWDE, SSBfN3DS, SSBfWU
+}}

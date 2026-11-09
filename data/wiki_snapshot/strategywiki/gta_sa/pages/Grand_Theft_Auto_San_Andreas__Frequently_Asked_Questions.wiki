@@ -1,0 +1,631 @@
+{{subpage}}
+{{spoilers}}
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{{control selector|Playstation 2,Windows,Xbox}}
+Here are some answers to some of the more frequently asked questions about Grand Theft Auto: San Andreas.
+
+Feel free to add any new entries, or change existing entries. Just click the '''edit this page''' tab above, or one of the little '''edit''' links at the top-right of a section.
+
+Note that there are already extensive guides relating to some of these questions, please return to the [[Grand Theft Auto: San Andreas/Table of Contents|contents page]] to see a list of these in-depth pages.
+
+Inevitably, some of these entries may end up quite extensive, and/or duplicate material found elsewhere. Most of the information in here really ought to belong somewhere else in the guide's contents, then hyperlinked to from here.
+
+<div class="toclimit-3">__TOC__</div>
+
+== General Questions ==
+
+=== Where can I find this car/weapon/tag/horseshoe/whatever? ===
+
+* '''[http://www.gtasanandreas.net/sam/ SAM]''': This map shows the location of every parked vehicle, weapon, tag, horseshoe, oyster, snapshot, buildings, and much more. Go to that page and wait for the java applet to load (2-3 seconds), then either check off what you are looking for on the right, or press "Select All." If you are looking for something specific, click on "Set Filter" and type in the name (or first few letters) and press enter. To zoom in or out, press the + or - buttons. To save the map, click on "External Link" and copy the contents of the box that appears. That link will point to your "saved" map.
+* '''[http://www.gamefaqs.com/console/ps2/game/914983.html GameFAQs]''': This site also contains several maps to help you find what you are looking for.
+* '''[http://hem.bredband.net/708145/ 708145]''': This site also contains several maps to help you find what you are looking for.
+
+One general advice when searching for tags/photo ops/horseshoes is to do them in one go (or focus on one sector of the cities at a time). This in order to avoid having to cruise around and revisit the various sites to check if they've been cleared or not (which may be tedious when 90+ tags have been sprayed and one has not played for a while, and can't remember which ones it may be). 
+
+As for the elusive van used for performing robberies, it's parked in a little lot across the street from the Gym in Los Santos.  It will only function for robberies at night (after 20:00), so watch the clock.
+
+=== How can I make lots of money quickly? ===
+
+==== Using Inside Track Betting ====
+
+This is generally accepted to be the fastest method.
+
+Save your game as near to one of the ''Inside Track Betting'' shops as possible. ([http://www.gtasanandreas.net/sam/index.php?op=1.0,0.0,1536.0,0.0,1536.0,-1.0,-1.0,-1.0,inside%20track,0,0,0,0,0,0,0,0,0,0,0,0,0,1 locations]). Enter the shop, and bet all your money on the horse with the highest odds (at the bottom of the list). If you win, save the game. If you lose, reload from your last save, and retry. This gambling method is probably the best of all gambling methods, since:
+
+* It is available right from the beginning of the game. (If you need a safehouse before triggering the [[Grand Theft Auto: San Andreas/Big Smoke|Big Smoke]] mission, you can make at least $10,000 by completing either the [[Grand Theft Auto: San Andreas/Taxi Driver|Taxi Driver]] or [[Grand Theft Auto: San Andreas/Firefighter|Firefighter]] Vehicle Missions. You can then buy the safehouse closest to the ''Los Santos'' branch of ''Inside Track Betting''.)
+* You can bet up to $10,000 each time.
+* Unlike the other gambling games, the horse odds bear no relation to the outcome (e.g. a horse with 12-1 odds seems to win more frequently than 1 time in 12; apparently each horse has an equal chance of winning).
+
+Because of this ratio, if you hate the delay of save/load, another strategy is to bet about 10% of your current stash on Purple repeatedly until Purple wins, then bet 10% of your current (now doubled at least) stash on Green until it wins.  Repeat until you have enough.  After about the third or fourth win, the other horse seems to win almost immediately, so it's best to do this rather boring task all at once instead of stopping and restarting.  Each win will more than likely double your earnings (betting 10% on a horse paying 10-to-1), so as the doubling happens more frequently, it's pretty exciting.  Don't get greedy!  Although it hasn't been verified empirically, it seems to sense when you bet more than 15-20%, and makes the horse come up less often in this instance.
+
+==== Other methods ====
+
+Another quick way to make some money is to play billiards at the bar just down the street from CJ's house (your first save game location) on the right.  If you are decent at pool and want to relax and make some decent starter money, this is a fun way to do so.  You initially can bet up to $1000 so it's a good start.  If you lose, you can simply reload your game and retry.  It's only a few blocks from home. (You can also kill your opponent and take your money back, but you may not be able to ever enter a pool hall again to play, so beware.)
+
+Another way is to cycle/drive up and down the streets of Ganton and kill any drug dealers you come across- each gives you $2000 at least. This does not attract as much police attention as killing innocents, and gets weapon skills and cycling/bike/driving skills up. If it seems there are very few around after a while, save and reload your game, and there should be a few more.
+
+If your gambling skill is full, save outside the Four Dragons Casino and just bet $1,000,000 on roulette at odds of 50/50 (red/black or odd/even) - if you lose, reload, if you win, save
+
+Pimping missions are relatively easy to do (enter a Broadway, press {{control|{{psx|R3}}|{{kbd|+}}|{{xbox|neutral|Rstick}}}}). After the multiplier kicks in, so does the money. This is also a handy way to up your driving skill. Plus, after the first 10, girls will pay you to sleep with them.
+
+Do the health cheat ({{control|{{psx|R1}}, {{psx|R2}}, {{psx|L1}}, {{psx|X}}, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP|HESOYAM|{{xbox|RT}},{{xbox|black}},{{xbox|LT}},{{xbox|A}},LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP}})  so you will get health, armour and money.
+
+==Controls==
+
+===Windows recognises my controller but it isn't working correctly/at all in the game!===
+Download the [http://www.gtaforums.com/index.php?showtopic=197940 San Andreas Advanced Control] utility and follow the instructions.
+
+===How do I use my PS2 controller with the adapter I bought?===
+Follow Wolfmight's [http://www.gtaforums.com/index.php?showtopic=198093 GTAForums] guide.
+
+Also download the [http://www.gtaforums.com/index.php?showtopic=197940 San Andreas Advanced Control] utility and follow the instructions both in its readme and in the topic above.
+
+===How do I use my Xbox controller with the adapter I bought?===
+Try the utility above, which may or may not work with an Xbox controller.
+
+Failing that, try:
+
+*XBCD: see [http://redcl0ud.1.forumer.com/index.php?showtopic=834 this forum thread] for full instructions.
+
+*[http://hp.vector.co.jp/authors/VA016823/joytokey/english.html JoyToKey]: consult the [http://boards.gamefaqs.com/gfaqs/genmessage.php?board=924362&topic=21500642 GameFAQs boards guide] for more about this.
+
+===I've got a lookalike {{control|PS2|PS2/Xbox|Xbox}} controller, how do I set it up to feel just like a {{control|PS2|PS2/Xbox|Xbox}}?===
+Check the [[Grand Theft Auto: San Andreas/Controls|Controls]] section of the guide. You should be able to work out what button on the controller would be what button on the {{control|PS2|PS2/Xbox|Xbox}}, so simply configure those to be the same or better. Some buttons like {{control|{{psx|Start}}|{{psx|start}}/{{xbox|Start}}|{{xbox|start}} and {{xbox|Back}}}} may end up being left over, so just configure whatever you like to those (perhaps the Replay function).
+
+===How do I use the Instant Replay on the Xbox?===
+
+Hit Start and you will find Play Replay is the last item on the list beneath Load Game.
+
+=== How do I use the Instant Replay on the PC? ===
+
+See: [[Grand Theft Auto: San Andreas/Controls#PC]]
+
+== Story Missions ==
+
+=== Life's a Beach ===
+
+==== How do you start the dancing sequence? ====
+
+Each time the girl talks to you, press {{control|right on the D-pad|{{kbd|Y}}|right on the D-pad}} to reply affirmatively. If you press the button immediately after the question is asked, sometimes it doesn't register, and you have to press it again.
+
+==== Unreachable 4000 points ====
+If you are unable to reach 4000 points after multiple tries, be sure to use the original Sony PS2 controller. Some controllers might have an incorrect latency.
+
+=== Stowaway ===
+
+==== How do I reach the plane? ====
+
+In the PC version, many people have difficulties reaching the plane. Try:
+
+*Leaning forward on the motorcycle for a speed boost (note that you need to keep tapping lean forward, don't hold it down).
+
+*Get next to where the barrels are dropping. Moving further out from the plane causes it to speed up. When you get closer, the plane slows to a speed such that you can easily drive up the ramp after a few barrels have rolled of.
+
+*Stay to the side to avoid the barrels and approach the ramp at an angle to get to the plane.
+
+*If none of this is enough, turn the '''frame limiter''' on. Now you will reach the plane when it has only barely started to move. After you catch it, you can turn the frame limiter off.
+
+=== Madd Dogg ===
+
+==== Help! I can't pass Madd Dogg, the guy always dies! ====
+
+''See [[#Are there any cheats that can screw up the game?|this section below]]''
+
+=== End of the Line ===
+
+==== Tenpenny has set the place on fire, and I'm at the part with the fire extingusher, BUT I CAN'T GRAB IT. What do I need to press to grab it? ====
+
+Press {{control|{{psx|L1}}|{{kbd|tab}}|{{xbox|LT}}}} when you're standing in it. It will replace an item in your inventory. Also, if you have already completed level 12 of the Firefighter mission, you become fireproof, and you 
+don't need the fire extinguisher at all.
+
+Some people also recommend that it's easier to see the fires if you don't use the Night-Vision Goggles. Increase the brightness in the game options and/or on your TV set if that helps.
+
+== Vehicle Missions ==
+
+=== What's the best place to do Paramedic? ===
+
+Angel Pine is the popular choice. All the patients will spawn in a very small radius from the medical center there.
+
+=== What's the best place to do Firefighter? ===
+
+Some claim that if you do them on the freeway running down the east of Los Santos, especially Red County, the burning vehicles will only ever spawn on that freeway. Also try Angel Pine, which may be a challenge due to hilly terrain.
+
+As a rule, this mission tends to be easier inside a city, rather than in the desert. The game sometimes spawns burning vehicles in unreachable places (e.g. at the top of a cliff when you're at the bottom), and the firetruck flips over easily.
+
+=== What's the best place to do the Vigilante "cheat"? ===
+
+The cheat involves starting the mission, then running inside a building (preferably fast-food, so that you can keep refreshed and get your health restored if you take a hit), then returning to your vehicle just before the mission is aborted.  Repeat as necessary: usually one or two levels are achieved per trip inside the building, but for the last few levels, it might take a few trips, so be patient.
+
+However, using the cheat in Los Santos often doesn't work well, as targets are often spawned up in rural areas, and the cops don't get to them quick enough. It works best in San Fiero; start the cheat near the north end of the city, just south of the bridge (e.g. Cluck 'n Bell).  All the targets spawn downtown, and the cops get to them rather quickly.
+
+If you wish to actually kill the perpetrators, but want an advantage, there is another trick. Break into the '''east''' side of Area 69 in Los Venturas, by using a jetpack (from nearby Verdant Meadows Airport), or by breaking down the breakable fence at the south end of this area (this is not recommended, as leaving this fence intact means the outside law enforcement that shows up can not reach you). Take the Rhino tank, which allows you to run vigilante missions via {{control|{{psx|R3}}|{{kbd|+}}}}. You now have a five star wanted level from entering the area, so drive the tank out through the breakable fence, and take it north to Verdant Meadows. Park it outside the building and save- it will be there when you exit the building. Then, run the vigilante missions right there at Verdant Meadows (you'll likely end up chasing people into Las Venturas). The Rhino is almost impossible to damage, it destroys vehicles with one good hit, and it carries a heavy gun that can be operated with the {{control|right stick and {{psx|L1}}|the {{mouse}}}}. However, be careful not to let the perpetrators (or police if you get a wanted level from firing the big gun) climb onto the tank and pull you out- because of its size, someone that manages to get onto the tank can not be knocked off from speed, swerving, etc., and can pull you out.
+
+== Schools ==
+
+=== Boat School ===
+
+==== How do you get a gold on Flying Fish?? ====
+
+First, go to the cliff to the right, the one that connects to the Gant Bridge. Line up near the Reefer with the two waypoints. Gun it; you will need to remain relatively straight with the jump. Then when you hit the jump, press {{kbd|up}} arrow on your keyboard. Continue doing this until you are just about to hit the water, then press forward. If this doesn't work, then try to aim for the out of bounds line. Don't go out of bounds, just come really close to it.
+
+== Locations ==
+
+=== Airports ===
+
+==== How do I get a Pilot's License? ====
+
+A pilot's license is issued when your flying skill reaches around 20%. You can either obtain this by attending Flight School, or by spending enough time flying a plane around.
+
+==== How do I get into an airport without a Pilot's License? ====
+
+In Los Santos, take a car to the main gate of the airport. You will know it is the main gate from the presence of a little security office with a man inside. Park the car as close to the main gate as possible, then jump on your car, and then over the gate. Don't worry, no wanted level will appear for this action.
+
+You can also get the gate to trigger opening by combinations of looking and slamming hard against the gate while running.  Apparently, the game occasionally gets confused about your "current location" and thinks you're inside the gate already, wanting it to open so you can get out, and opens the gate for you.  This trick is handy if you want to drive your vehicle inside the fence. IF you are using cheat codes, use the car flying cheat and fly across the gate.({{control|{{psx|S}},down,{{psx|L2}},up,{{psx|L1}},{{psx|C}},up,{{psx|X}},left|{{kbd|R}}{{kbd|I}}{{kbd|P}}{{kbd|A}}{{kbd|Z}}{{kbd|H}}{{kbd|A}}|{{xbox|Y}},down,{{xbox|white}},up,{{xbox|LT}},{{xbox|B}},up,{{xbox|A}},left}}).
+
+In San Fiero, you can enter Easter Bay Airport by jumping a car or motorcycle in from a nearby road: To the southeast of the airport, just outside the city, there's a tunnel through the mountains. From that tunnel, any ground vehicle with enough speed can shoot out and over the cliff edge, landing on or among some hangars at the airport. A motorcycle is best since you'll have to dodge traffic to make the jump. If you do this before you have your pilot's license, though, the selection of usable aircraft will be limited to a Maverick helicopter near the hangars where you land. All other aircraft on the grounds will be locked.
+
+==== What planes are available for flying at the beginning of the game? ====
+
+Without using cheats, you can really only access those planes in Los Santos International Airport. See the previous question for how to get inside. Inside the airport are two planes:
+
+* Dodo
+* Shamal
+
+== Gangs and Territory Warfare ==
+
+''See also: [[Grand Theft Auto: San Andreas/Turf Wars|Turf Wars Guide]]''
+
+=== How do I recruit Grove Street Family members into a gang? ===
+
+This is a platform-neutral summary. The controls are as follows:
+* Follow Me : press {{control|{{psx|Up|Dpad}}|{{kbd|G}}|{{Xbox|Up|Dpad}}}}
+* Hold Position : press {{control|{{psx|Down|Dpad}}|{{kbd|H}}|{{xbox|Down|Dpad}}}}
+* Disperse temporarily : hold {{control|{{psx|Down|Dpad}}|{{kbd|H}}|{{xbox|Down|Dpad}}}}
+* Disband a member : target and hold {{control|{{psx|Up|Dpad}}/{{psx|Down|dpad}}|{{kbd|H}}|{{xbox|Up|Dpad}}/ {{xbox|Down|Dpad}}}}
+
+Target a friendly gang member and hit the Follow Me button to make him follow you. If you do not see the health arrow above a homie's head, they are not being targeted and will ignore your recruitment/disbanding commands. Each member has to be recruited individually, you cannot just target a bunch of homies all at once. 
+
+Hit the Follow Me command when not in targeting mode to make CJ call his gang back to him if they get involved in a fight. 
+
+To make them stay where they are, target a specific gang member and hit the Hold Position button.
+
+After the second addition to your gang, the "Gang Strength" bar appears onscreen and will fill with a green segment for each new addition. If a gang member dies the bar decreases with a red segment.
+
+Note that when homies are recruited CJ is "responsible" for them. If he kills one or lets them be killed by someone else he will lose a small amount of [[Grand Theft Auto: San Andreas/Respect|Respect]].
+
+The more [[Grand Theft Auto: San Andreas/Respect|Respect]] you have, the bigger the gang you can lead, from three to seven homies.
+
+To disband your group, press and {{control|''hold'' up or down|{{kbd|H}}|''hold'' up or down}}. They will disperse, but can still be regrouped with the untargeted Follow Me command. To permanently dismiss someone from your gang, target him and hold the Hold Position button. Again, this dismissal must be done individually.
+
+=== How do I start a turf war? ===
+
+Kill three enemy gang members (sometimes four) while in the territory you wish to conquer. They can be in adjacent territories, but the gang war will be declared based on the zone in which you are standing. You must kill them while on foot, or perhaps using the jetpack.
+
+=== My statistics say I own all the territories, but I still get attacked by an enemy gang. Why? ===
+
+Even if your statistics state that you own all territories, you may still get attacked.
+
+Territories are not quite as simple as they might seem. They can be exclusively owned by a single gang, or they can be jointly owned by two (or possibly more) gangs. Providing your gang is one of the gangs who owns the territory, the statistics will state that you own it.
+
+Jointly owned territories can occur if you lose a gang war that you have started, if you run away from or quit a gang war, or if you ignore a gang war that a rival has started.
+
+It can be difficult to tell on the map, but you may notice different shades of green for some territories that you "own". The shades vary all the way from light green to gray (which is hard to see). The grayer shades of green mean that you don't exclusively own the territory, and you will still find members of other gangs in the territory, who may still attack.
+
+Simply retaking the territory will work, but to ensure that this never happens, make absolutely sure that you win every gang war you start. If the rivals start running away, don't worry about chasing them; they will usually come back. On occasion they won't however, and you will need to chase them (sometimes with a vehicle) to get them to follow you back (unless you kill them there).
+
+Usually, a territory can only be attacked from an enemy-owned, or jointly owned territory which is adjacent to that territory, but not always.
+
+Additionally, remember that gangs exist without territory (e.g. those wearing turquoise in southeast Los Santos). These gangs will attack if they see you.
+
+=== There seem to be territories in San Fierro. Why? ===
+
+This is caused by a glitch known as "178 Territories Glitch". This glitch is caused by using a plane to fly outside the game's boundaries into the ocean. The longer you fly, the more territories will spawn over the map. It is believed to be partially triggered during the mission ''Saint Mark's Bistro'' where you have to fly a long distance outside the map boundaries.
+
+''See also: [[Grand Theft Auto: San Andreas/Glitches#178 Territories|178 territories glitch]]''
+
+=== How do I give my gang members better weapons and/or body armor? ===
+
+You can't give GSF members specific items, but if you spray all 100 tags in Los Santos, some of the members get better weapons (e.g. Desert Eagle instead of Pistol, and MP5 instead of Micro-SMG).
+
+== Vehicles ==
+
+=== General ===
+
+==== My car is all busted up. How do I repair it? ====
+
+'''A #1''': If you're not currently on a mission, you can just put it inside one of your safehouse's garages, and let the garage door close on it. When the door opens again, it will be good as new.
+
+'''A #2''': If they're available, you can stop in on one of the pay-n-sprays, but you will have to pay $100 for the privilege. If you're dating Michelle, you can have your car fixed at her garage for free.
+
+'''A #3''': You can also use the money, health, and armor cheat - it can repair your vehicle if you are in it. See [[Grand Theft Auto: San Andreas/Cheats|cheats]].
+
+==== What is the fastest car/bike/boat/plane/helicopter? ====
+
+Assuming that ''fastest'' means the vehicle that can maintain the highest sustained maximum speed in normal conditions, there are two ways to work this out. They can be called the ''practical'' and the ''theoretical'' methods:
+
+The ''practical'' method is to drive each vehicle in the game by a known distance, and time how long it takes for each vehicle to cover that distance.
+
+The ''theoretical'' method is reverse-engineer the game data, and work it out mathematically.
+
+''' Practical '''
+
+This method is arguably the most tedious, and so far, this method has been carried out for the cars and bikes only. See [http://www.gamefaqs.com/console/ps2/file/914983/35852 Vehicle Speeds FAQ @ GameFAQs] for the details.
+
+Note that the results don't quite fit in with the aforementioned definition of ''fastest'', since the times listed there may include a portion of the vehicle's acceleration time.
+
+''' Theoretical '''
+
+This is a bit more tricky to do. The data files alone aren't completely decipherable, since they require more information about the exact equations used in the physics model in the game code. The information here is derived solely from the file ''DATA/HANDLING.CFG''
+
+In that file, in column N, there is an entry for the maximum velocity that the engine of the vehicle can propel that vehicle at. This is one of the measures of top speed. If we use this figure alone, then:
+
+'''Cars'''
+
+* 240km/h (149mph): Infernus / Turismo
+* 230km/h (143mph): Bullet / Cheetah / Super GT
+* 220km/h (137mph): Hotring Racer
+
+'''Bikes'''
+
+* 190km/h (118mph): All motorbikes
+* 140km/h  (87mph): Mountain Bike
+* 120km/h  (75mph): All other non-motorized bikes
+
+'''Boats/Hovercraft'''
+
+* 190km/h (118mph): All boats
+* 150km/h  (93mph): Vortex (the only hovercraft)
+
+'''Planes/Helicopters/RC Vehicles'''
+
+* 200km/h (124mph): All planes/helicopters (excluding RC)
+* 75km/h  (47mph): All RC vehicles
+
+'''Other Forces'''
+
+These figures are hard limits on what the engine can achieve, but it doesn't necessarily mean that the vehicle, can actually achieve that speed. Nor does it mean the vehicle cannot exceed that speed.
+
+It's fairly obvious that the game physics model includes ''gravitational force'', and some of the data in the file suggests the model also includes ''drive force'', ''tractional force'' and ''drag force''. 
+
+'''Gravitational Force'''
+
+The physics are complicated, but suffice it to say that gravity can cause a vehicle to exceed the aforementioned top speeds (e.g. when going downhill).
+
+'''Drive Force'''
+
+The drive force is the amount of force that the engine can produce.
+
+''drive force'' = ''body mass'' &times; ''engine acceleration''
+
+''body mass'' is in column B.
+
+''engine acceleration'' is in column O.
+
+'''Tractional Force'''
+
+The tractional force or ''tractive effort'' is the amount of the drive force which is transferred to the road by the wheels of the vehicle. This usually depends on a number of factors, but it may be:
+
+''tractional force'' = ''drive force'' &times; ''traction multiplier''
+
+''traction multiplier'' is in column J.
+
+'''Drag Force'''
+
+All vehicles are subject to a drag force which is the effect of the air pushing back on the vehicle. The traditional equation is:
+
+''drag force'' = 0.5 &times; ''drag multipler'' &times; ''area opposed to medium'' &times; ''medium density'' &times; ''velocity''
+
+It appears that the drag force is calculated differently, since the drag multipliers in column D don't seem consistent with regular physics models.
+
+The surface area opposed to the medium can't be calculated, as it's not in this file, and is probably calculated from the model data (assuming it's even taken into account at all).
+
+The medium density is a measure of the current medium through which you are traveling (e.g. air or water); it's unlikely this is taken into account, as none of the vehicles are designed to travel underwater. One of the cheats that lets you drive an ordinary vehicle underwater may take this into account, but it hasn't been checked.
+
+'''Terminal Velocity'''
+
+A vehicle will reach its terminal velocity when its tractional force is equal to its drag force. Basically, if this terminal velocity is lower than maximum engine velocity figures specified above, then the terminal velocity will be the effective maximum velocity instead.
+
+=== Hydra ===
+
+==== How do I fly the Hydra? ====
+
+{{control|{{psx|X}}|{{kbd|W}}|{{xbox|R}}}} is used to move, but where you move depends on the thruster's position. Push and hold the {{control|right stick down|{{kbd|8}}|right stick down}} to move the thrusters forward so you can fly forward. {{control|Push it up|Press {{kbd|2}}|Push it up}} to make the thrusters point downward so you can hover. Note that you have to ''hold'' the {{control|stick in place|{{kbd|2}}|stick in place}} for a few seconds: otherwise, the thrusters only move part of the way. You can see the position of the thrusters by looking at the outside of the plane. Use the left stick to move.
+
+To fire, hold {{control|{{psx|R1}}|{{kbd|space}}|{{xbox|X}}}} to target. When the target indicator turns red, hit {{control|{{psx|L1}}|{{kbd|ctrl}}|{{xbox|A}}}} to fire missile that will seek the target out. If you are under attack, press {{control|{{psx|C}}|{{mouse|l}}|{{xbox|B}}}} to launch countermeasures, which attract heat-seeking missiles. Press {{control|{{psx|R3}}|{{kbd|+}}|{{xbox|Neutral|Rstick}}}} to retract or to extend the landing gear.
+
+Flying the Hydra can be difficult; be sure to keep track of what position the thrusters are in during flight.
+
+== Items ==
+
+=== Goggles ===
+
+==== What's the difference between the Thermal Goggles and the Night Vision Goggles? ====
+
+The Thermal Goggles work by ''thermal imaging''. The Night Vision Goggles work by ''image enhancement''.
+
+'''Thermal imaging'''
+
+This technology operates by capturing the upper portion of the infrared light spectrum, which is emitted as heat by objects instead of simply reflected as light. Hotter objects, such as warm bodies, emit more of this light than cooler objects like trees or buildings.
+
+'''Image enhancement'''
+
+This works by collecting the tiny amounts of light, including the lower portion of the infrared light spectrum, that are present but may be imperceptible to our eyes, and amplifying it to the point that we can easily observe the image.
+
+==== When do the Thermal Goggles become available as a Pick Up? ====
+
+You get to use them for the first time, and they become available as a Pick Up, after The Truths mission "Black Project" in Bone County.
+
+'''NOTE''': Due to a bug, they will '''never''' respawn once picked up.
+
+==== When do the Night Vision Goggles become available as a Pick Up? ====
+
+You get to use them for the first time, and they become available as a Pick Up, after the Bank Heist mission "Breaking the Bank at Caligulas" in Las Venturas or after Sweets mission "End of the Line" in Los Santos.
+
+==== Where are the spawn locations for both of the Goggles? ====
+# Night Vision Goggles (Respawns) - Madd Doggs Mansion - The pair of Night Vision Goggles can be found on the bottom floor of the mansion, right behind a flight of stairs, near the two arcade games.
+# Night Vision Goggles (Respawns) - Factories - There are factories near San Fierro at the Southern end of the main highway, the Goggles spawn somewhere between the Eastern buildings, near a door.
+# Night Vision Goggles (Respawns) - Area 69 - These spawn at the top of a guard tower in the Western section of Area 69.
+# Thermal Goggles (Only Spawns Once) - Madd Doggs Mansion - The Goggles are located next to the main TV near the bar and living room area.
+# Thermal Goggles - Zeros RC Shop - The Goggles spawn at the rear corner of Zeros RC Shop.
+# Thermal Goggles - Area 69 - These spawn inside the main control room near the South entrance.
+# Thermal Goggles (Only Spawns Once) - Under the "Big Ear" - These are under the north west corner of the dish.
+
+==== How come I picked the Thermal Goggles up before, but I can't seem to find them again, even though I'm looking in the exact same spawn location? ====
+
+For some reason (no one knows if this was intentional), the Thermal Goggles are only available for picking up once and only once per each spawn location. So, that means you'll never be able to collect the Thermal Goggles again, if you have used up all four pick-ups. If you plan on getting Busted or Wasted, or you want at least one of the Thermal Goggles left in your game save, just be sure to not pick them up at all of their locations.
+
+=== Parachutes ===
+
+==== What are the spawn locations of parachutes? ====
+
+* On the roof of the tallest building in Los Santos
+* On the roof of the Pointy building in San Fierro
+* On the top of Mount Chiliad
+* On the top of the antenna in the dessert of Las Venturas
+* On top of ''The Emerald Isle'' casino in Las Venturas
+* Automatically available to you if you bail from an air vehicle, once you have a pilot's license. (Before you get your license, you will plummet to your death.)
+
+==== How do I open my parachute? ====
+
+Press {{control|{{psx|C}}|{{mouse|l}}|{{xbox|B}}}} while falling.
+
+==== How do I cut off my parachute? ====
+
+Press {{control|{{psx|T}}|{{kbd|enter}}|{{xbox|Y}}}} after opening parachute. Be advised: This will kill you in most cases.
+
+==== If I forget my parachute, am I dead? ====
+
+Not if you can find water.  Apparently, you can land in ''any'' amount of water (even the reflection pools in front of a building that you normally walk around without getting your knees wet) without hurting yourself.
+
+== 100% Completion ==
+
+''see the [[Grand Theft Auto: San Andreas/100 percent checklist|100% Completion Guide]]''
+
+== Cheats ==
+
+=== Does cheating affect 100% completion? ===
+
+No, cheating does not affect 100% completion, not at all. The only effects it has are the cheat's natural effect, the subtraction of ten points per cheat entered from your Criminal Ranking, and the game counts your "Times Cheated" in your stats. 
+
+However, you will not be able to earn achievements/trophies (one of which being to attain 100% completion) in the Xbox 360, PS3, and PS4 versions if you enter any cheat during the current gameplay session; saving the game after using cheats will permanently prevent you from earning trophies/achievements on that particular file, so it is best to reload your save after entering cheats.
+
+===Are there any cheats that can screw up the game?===
+
+Yes and no. Cheats such as Peds Riot, Peds Attack Each Other, and Peds Attack You will remain for the duration. They cannot be disabled by re-entering them, and saving the game will permanently lock them into that savestate. The only way to get rid of them is to load an unenabled save game. It is not advisable to save with these cheats enabled.
+
+However, while pedestrians homing in on CJ could make it harder these cheats do not as a rule affect the ability to get 100%, except in one instance: the mission [[Grand Theft Auto: San Andreas/Madd Dogg|Madd Dogg]]. If any of the Peds Riot cheats enabled, it will be absolutely impossible to complete this mission- the additional calculations make Madd Dogg miss his jump and die.
+
+== Serious Bugs/Glitches ==
+
+=== The End of the Line Bug ===
+
+If you save your game upon completing the final mission, the game may not reload from that save. The suggested fix is to start a side-mission such as Taxi Driver, end it, and then save again.
+
+=== The Tag-Spraying Glitch ===
+
+====Help! I ran out of paint during a tag and now it's not counted! Have I screwed my chances of getting 100%?====
+No. This is not actually a glitch at all, just mismatched coding.
+
+If you run out (or just stop) when ~95% done with spraying a tag, it will say "### out of 100 Tags sprayed".
+
+However the game does ''not'' record this in the statistics until the tag is complete in the game world itself and displays the finished texture.
+
+The text appears just before the graphics and beep. It's only out of sync by about a second, so only a really quick and stingy trigger finger (or a paint shortage) will leave it unfinished.
+
+The game remembers which stage of the spraying animation any given tag is at, assumedly so that you can be interrupted by a cop or gang member and then come back later to finish up whatever was left.
+
+====How do I know if a tag needs spraying?====
+Go around to the ones you've done.
+
+Target the tag as if to attack it (PC version in {{Mouse}}+Keyboard mode may not be able to do this) and if it lights up it hasn't been truly completed.
+
+Respray any that light up or just don't look finished. You can tell because they are on the second-to-final texture rather than the complete-looking one.
+
+When resprayed you should hear the beep and see the "completed tag" texture.
+
+When you see a pink tag you have to spray it.
+
+====I don't like going back over everything, how can I stop this happening in future?====
+Don't run out of paint, and ensure you fully spray each tag.
+
+In order to avoid running out of paint, run up the stairs and grab the spraycan each time you save at the Johnson house. This adds "ammo" to the can rather than just refilling its contents, so if you save more often than you use the spraycan you'll never (effectively) run out.
+
+Use the infinite ammo cheat so you wont have to worry about spraying in the wrong places.
+
+=== The New Game Glitch ===
+
+==== What is the 'New Game Glitch'? ====
+
+When you start a new game, by choosing "New Game" from the "Game" menu, all your statistics are reset, except for the two girlfriend benefits of keeping weapons when busted or wasted, so if the game from which you started a new game had these benefits, you will receive them in the new game. This is identical to the "Purple Nines Glitch" in GTA3, only this time, the glitch has a positive effect, rather than preventing you from completing the game.
+
+==== How do I avoid the 'New Game Glitch'? ====
+
+If you want to start a new clean game, then remove your memory card before booting the PS2. You can put it back in once the new game has started.
+
+=== The Basketball Glitch ===
+
+==== What is the Basketball Glitch? ====
+
+The Basketball Glitch causes the game to stop loading up the Basketballs from every spawn location. This means you won't ever be able to play Basketball again, which includes the Basketball Challenge minigame.
+
+==== What causes the Basketball Glitch? ====
+
+The sole cause of this glitch happens if you ever save at Madd Doggs Mansion at any point in the game- once you save, you will be guaranteed to obtain the basketball glitch. No one knows why exactly this happens, and it's still unknown if it was fixed in the XBox version.
+
+==== What can I do to get rid of the Basketball Glitch? ====
+'''Only if the glitch occurs on PC:''' Use the [http://www.artemkh.com/gtasa.php "Basketball Bug  Fix" by Artem Khassanov/spaceeinstein.]
+
+'''Possible solutions for PS2- and XBOX-owners:'''
+There is no guaranteed solution to fix this glitch, and all the solutions suggested are pretty much the same solution that has been offered for every other glitch in this game, which is changing your entire appearance and saving your game many times. These two solutions have been reported to work 50% of the time, and it usually won't be fixed on the very first attempted either, so it takes a while to even get it working. Changing your appearance is the first solution, and when I say this, I mean change your entire appearance. That means every article of clothing, haircut, and tattoos must be changed. Even your Fat and Muscle Stats are recommended to be changed, and for best results, lose your whole stat and rebuild it from scratch. Then, save your game three times, and then go and check if the Basketballs have spawned. If not, save your game three more times, and repeat. Try this for a while, changing your appearance every now and then, and saving three times. If this works, and at least one Basketball has spawned, you have gotten rid of the glitch and the Basketballs should spawn everywhere they are supposed to. If not, your just going to have to keep trying, and just hope for the best...
+
+====Was this fixed for the Xbox/PC versions?====
+In the PC and Xbox versions, it has not been fixed
+
+=== The Gym Glitch ===
+
+==== What is the 'Gym Glitch'? ====
+
+Sometimes, you will get the message "You have worked out enough for today. Come back tomorrow." when you have clearly waited long enough. Consequently, you are unable to work out.
+
+==== What causes the 'Gym Glitch'? ====
+
+There are multiple theories:
+
+*After you have finished working out, you have to wait a certain amount of time until you can work out again. The exact amount is uncertain, but assume for this example that it is 24 hours game-time (24 minutes real-time). If you are trying to advance this time by saving the game (which advances the clock by 6 hours game-time), it may not count as time waited. The game may measure it as 24 minutes real-time from the last time you worked out, regardless of the number of times you have saved in that time. (It has been suggested that it doesn't matter how long you wait on the PC version.)
+
+*It may be caused when, instead of eating to get rid of hunger, the player decides to save. This builds up a "hunger debt" and although the player isn't told that CJ is hungry, he is in fact too weak to exercise, resulting in the gym glitch where CJ has "done enough exercise for today".  (This seems unlikely, as users have finished the game without eating, and never encountered the glitch.)
+
+*Working out in a gym when CJ's muscle level is already at full- CJ will be able to work out for a seemingly normal period of time before being told that he's worked out enough, however, the gym glitch will be in effect the next time he tries to use a gym, even if time has passed and his muscle level has dropped. Never work out to the amount that it tells you "you've worked out enough for today...".
+
+*A memory or game save error where a piece of data is dropped. It could be caused by saving over and over to the same save slot; try saving to different slots now and then. This might be the cause of the Basketball glitch as well.
+
+==== How do I fix the 'Gym Glitch'? ====
+
+'''Only if the glitch occurs on PC:''' Use the [http://www.artemkh.com/gtasa.php "Gym Fix" by Artem Khassanov/spaceeinstein.]
+
+'''Possible solutions for PS2- and XBOX-owners:'''
+There have been also various solutions:
+
+*If you lose all your fat, you can then re-enter the gym- simply wait long enough.
+
+*Eat two meals (preferably salads - no need getting fat), then save your game about 3 or 4 times until you get to the next day, then eat two meals again, save until you reach the next day again. Repeat this process for about 3 (in-game) days and go to the gym, you should now be able to use the equipment, if not then just eating two meals and save until you get to the next day and keep repeating until the glitch dissapears.
+
+*Have CJ dressed in clothes as well as all accessories (i.e. hat, sunglasses, watch, chain, and shoes). Save your game with him dressed like this (walking outside of the house/building and walking back in may also help). Go into the wardrobe and remove everything so he is wearing only his boxers. As soon as you walk out of the wardrobe, save your game again. This has worked at the house on Santa-Maria beach, using the outdoor gym, east of the house on the beach.
+
+**'''Note:''' This may not completely fix the problem; once the user goes into a house, changes clothes, or rides a trains the glitch may return.
+
+*The glitch may occur after learning new moves, e.g., going to the "Below the belt" gym in Las Venturas and learning new moves; try going back to the gym in Los Santos to learn the original moves, and the glitch may go away.
+
+*To clear the memory card write error, save your current game (the one you wish to fix) if you need to. Go to your main game menu and reload a previous save where you know the gym was accessible. In the previously saved game, go to the gym and work out until the "You have worked out enough..." message appears, then leave the gym, go to a save point and save the game again, preferably to an empty save slot, or one past the game you wish to fix. (DO NOT OVERWRITE THE CURRENT SAVE YOU WISH TO FIX. YOU WILL LOSE ALL OF YOUR PROGRESS!) Once this is done, go back to your main menu and reload the game save you are trying to fix. Go to a gym and try to work out to see if it worked, then save the fixed game. This stops the save error cycle by re-entering the missing data.
+
+*The gyms may return to normal after winning a race tournament, two wheel challenge, or stadium challenge.
+
+==="Disc Read Error"?!? The game won't run, is it scratched?===
+
+First of all, it is very likely that '''the disc is not scratched'''.
+
+This problem applies to both the Xbox and PS2, but with very different reasons.
+
+Because the PC version copies the majority (or entirety, on a full install) of the game data to the hard drive, there are no read errors during play, but it can have problems detecting the disc when doing the security check.
+
+====PS2 solution====
+
+Unfortunately, the DualDisc format used to store the high volume of data in ''San Andreas'' is not compatible with some PS2 models, thus causing problems. Here's Sony's official advice:
+
+:The console should be placed in the horizontal position. When the console is placed vertically, there is a greater likelihood that the DualDisc will come into contact with the mechanical parts of the console, causing a light scratch on the disc. Avoid using the console in the vertical position. While it may be scratches causing the read error, the scratches may have actually been caused by the vertical position itself in the first place.
+
+Read more about this problem and which models are affected at [http://www.gtasanandreas.net/news/single.php?id=402 GTASanAndreas.net].
+
+Even if you have an affected model but are running it in a vertical position with no problems, it is highly advisable that you run the game horizontally to avoid any future (or further) damage to the disc.
+
+This particular problem does ''not'' apply to the PC or Xbox, as their drives do not read in a vertical position.
+
+====Xbox solution====
+
+Some models of the Xbox will give scratched-disc errors, but with a completely different cause. Some of the Xbox DVD drive brands have trouble keeping up with data syncing because the game constantly streams data from the disc (instead of at the beginning of each map as in linear games).
+
+The solution in this case is to either replace the drive with the more compatible model, or purchase a replacement Xbox. The latest version of the Xbox has a more compatible drive and will not be affected by this problem.
+
+====The game says to insert the DVD in the drive, but I did! (PC only)====
+
+Some people experience problems with the game detecting that the disc is in the drive. Even on a full install where nothing at all is actually loaded from the disc, the game still requires the disc be present in the drive while loading; this is a security check to ensure the player actually owns the game. If for some reason the drive cannot be detected correctly, it will assume the disc is absent.
+
+'''NOTE''': these solutions only apply if you '''own the game'''. If you have a pirated DVD or downloaded an ISO rip, it may be impossible to correct whatever problems are inherent in that bootleg.
+
+However there are several workarounds:
+
+* install the latest drivers for the DVD drive (if any)
+* purchase a new DVD drive (this problem largely affects cheaper "brandless" drives, so it is recommended that a name-brand unit be purchased)
+* use a NoCD crack, eliminating the security check
+
+Note that when using the NoCD crack it is still possible to use the minimum install; the game will still read the radio stations from the DVD correctly, it is only the security check that is being disabled by the crack.
+
+In very rare occasions (or if the disc is scratched) the radio stations will not play even with the crack applied and the disc in the drive, in which case the player must use the full install option to load everything from the hard drive. This also eliminates the need of the game disc altogether, which is why Rockstar tried to prevent such a method in the first place.
+
+====I did all that but I think the disc is scratched after all, how do I fix the scratches?====
+
+First of all ensure the model and position of the console are correct and compatible with the game before attempting any fix.
+
+Also note that the existence of scratches does not automatically mean there is a problem. Discs can take a surprising number of scratches before it affects their performance, and the shallower a scratch is the less likely it is to be a problem. And having lots of tiny scratches is not necessarily a problem, it is more about the depth of the scratches rather than their quantity.
+
+Try a CD-restoration kit, following the instructions as closely as possible to ensure the best result. Failing that, run a professional laser-cleaner disc in the drive for the recommended length of time; '''do not''' attempt to wipe, polish, or otherwise clean the laser eye yourself. If it still does not work, it might be irreversibly damaged.
+
+Home remedies for scratches, such as boiling water, rubbing alcohol, toothpaste and others are '''not recommended'''. They were not intended to serve this function and can actually cause further damage; be sure to use '''only''' those products specifically formulated for disc repair.
+
+===PC-specific problems===
+
+====Help! My PC meets/exceeds the minimum but it won't run!====
+
+See [http://www.gtaforums.com/index.php?showtopic=195505 this forum thread] about solutions.
+
+====The game runs fine, but whenever I try to open Advanced Settings it crashes!====
+
+This is a peculiar glitch that only affects some models of cards, and even then seems to only affect some versions of their drivers.
+
+In some cases it is possible to uninstall all drivers, set up the Advanced Settings, and then reinstall the driver; alternately, changing to a customised set of drivers (such as the [http://www.omegadrivers.net Omega Drivers] or those at [http://www.guru3d.com Guru3D.com]) can inexplicably allow access. These may be inferior to the current official drivers, so it is possible to change the settings and then reinstall the old ones.
+
+However, both of these solutions mean that those settings cannot ever be changed again without going through the driver-changing process once more.
+
+It is expected that Rockstar will fix this problem at some point; in the meantime, there is talk among the modding community of making an external settings-editing utility that would get around this problem completely.
+
+== Myths ==
+
+=== I've heard there is an alien at the Li'l Probe Inn. Is this true? ===
+
+No.
+
+The original trick was: you would find a pedestrian dressed in black at the inn, you'd put on your thermal goggles, and he looks very strange. People assumed this meant he was an alien, given the fact that you are at the Lil Probe Inn, wearing thermal goggles, and the guy probably is the same pedestrian that babbles about aliens. The truth is, R* is terrible at thermal signatures- they didn't have the patience to create appropriate thermal signatures for every object, so colors of clothes and surroundings will screw up what you see. If you look at some pedestrians, you'll see that dark or light clothing give off different colors and can make some pedestrians look extremely weird. The same is true of this one.
+
+=== I've heard that the map in the Li'l Probe Inn is significant. Is it? ===
+
+No.
+
+The dots do not point out anything significant. They do not point out UFOs, they do not point out aliens, bigfoot, or any other phenomenon. They do NOT point out the locations of beat-up Glendales ("Ghost Cars"). Below is a link to the location of beat-up Glendales, and you can see clearly that the dots do not correlate. If you'll notice on the walls, there are pictures of UFOs all over, and this is meant to be a typical HQ of a UFO hunter. It's likely that R* meant for this to be a map of UFO sightings that whoever used this room had pinned up to make his/her searching easier. You can count on the fact that if you visit these locations, you will not find anything special. The map is decoration and ambiance, nothing more.[http://www.gtasanandreas.net/sam/index.php?op=1.0,0.0,1536.0,0.0,1536.0,-1.0,-1.0,-1.0,glen,1,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+=== I've heard there is a "Ghost Car". Is this true? ===
+
+This is the name commonly given to a particular car in Back O' Beyond. The exact area of it is near two horseshoe shaped areas in San Fiero. The car spawns on a slope, and because of gravity, it rolls down the hill. There are some theories as to why it loses traction before rolling, including that it spawns above ground and falls a foot or two (like many cars do); because of this action, it loses traction when it hits the ground and starts to roll. The most likely explanation is that it is one of the very few cars in the game that actually spawns on a significant slope. It does not drive anywhere, it does not stop randomly, it simply rolls down the slope. There is a "Ghost Vortex" as well, on the beach north of the boat school. It moves by itself, down a slope, for the same reasons that the Glendale does.
+
+=== Is there a suicidal pedestrian? ===
+
+A pedestrian spawns and immediately walks into the water and dies. They can be found across the street from the trailer park with the monster truck, in Flint County. The pedestrian walks off of the highway that follows the southeast edge of the San Fiero island; the exact area of the trailer park is just south of the cloverleaf intersection with the Santa Maria beach highway.
+
+=== I've heard that you can see lights in the sky at night. Are they UFOs? ===
+
+No.
+
+The balls of light are nothing random, rare, or special. When you see one, stop and wait for a few hours (in-game) and you'll see the same ball of light moving along the same path a little later. In actually, they are planes. Just like in Vice City, there are planes that leave vapor trails. For reasons unknown (probably shoddy development practices) R* did not apply models to these lights, so no matter how close you are, they still look like just lights.
+
+=== I've heard that Bigfoot is in the game. Is this true? ===
+
+This has been proven wrong many times, and the people who made Grand Theft Auto have said more then once that he doesn't exist. Don't believe it.
+
+=== I've heard that Leatherface is in the game. Is this true? ===
+
+No. The San Andreas disk has been scanned more than enough times to show no Leatherface skins.
+
+=== I've heard that you can do a sex minigame. Is this true? ===
+
+Yes and no. The only way you can get it is with either a mod or a game save editor. You cannot access this feature on ''any'' version of the game without alteration of some form. It makes use of leftover code that Rockstar never intended to use but left intact for unexplained reasons. There is only the possibility of picking up hookers, driving to an alley, and watching the car rock and listen to the girl scream. It's the only sex in the game aside from girlfriends.
+
+''See main article: [[Grand Theft Auto: San Andreas/Mods#Hot Coffee|Hot Coffee mod]]''

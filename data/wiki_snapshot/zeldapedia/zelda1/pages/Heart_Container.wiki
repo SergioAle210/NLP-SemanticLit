@@ -1,0 +1,354 @@
+{{Improve}}
+{{hatnote|This article is about the item that increases Link's health. For the health meter, see [[Life Gauge]].}}
+{{Infobox Item
+|image= File:BotW Heart Container Render.png
+|caption={{BotW}} render
+|cost= 4 [[Spirit Orb]]s{{Exp Game|BotW}}, 4 [[Light of Blessing|Lights of Blessing]]{{Exp Game|TotK}}
+|game_debut={{TLoZ}} (1986)
+|crossover_debut={{SSB}} (1999)
+|uses= Increasing Link's [[Life Gauge]]
+}}
+{{Term/Store|Heart Container|Heart Containers|Series, TLoZ, ALttP, LA, LADX, OoT, OoT3D, MM, MM3D, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, TP, TPHD, PH, ST, SS, SSHD, ALBW, BotW, TotK|plural}},{{Exp Game|TLoZ, ALttP, LA, OoT, MM, OoS, OoA, FS, TWW, FSA, TMC, TP, PH, ST, SS, ALBW, BotW, TotK}}<ref name="E 127">{{Cite Book|quote= |book= E |publisher= |page= 127 {{Exp Game|TLoZ, TAoL, ALttP, LA, OoT, MM, OoS, OoA, FS, TWW, FSA, TMC, TP, PH, ST, SS, ALBW}}}}</ref><ref>{{Cite|You got a {{Color|SSHD Gold|Heart Container}}! Your life has increased by {{Color|SSHD Red|one}} and is also now fully replenished!|N/A|SSHD}}</ref><ref>{{Cite|{{Color|CoH Red|Pieces of Heart}}<br/>Collect four Pieces of Heart to gain a new Heart Container, increasing your maximum health!|Inventory|CoH}}</ref>{{Name Ref|BotW, TFoE, TWoG, ZA, SSB, SSBM, HW, MNPTP, SSBfN3DS, SSBfWU, SSBU}} also known as {{Term/Store|Bowl of Hearts|Bowls of Hearts|TAoL|plural}},{{Exp Game|TAoL}}<ref name="E 127"/> '''Heart-Shaped Stones''',{{Exp Game|TMC}}<ref>{{Cite|First we have...this lovely {{Color|TMC Red|heart-shaped stone}}!|Pina|TMC}}</ref> {{Term/Store|Life Heart|Life Hearts|TFoE, TWoG|plural}},{{Exp Game|TFoE, TWoG}}<ref>{{Cite manual|quote=Your health is measured in Life Hearts. The number of Life Hearts you currently have is shown in the upper left corner of the screen when you are walking around the island. Although you begin the game with only three hearts, there are ways to get more.|game=TFoE|page=7}}</ref><ref>{{Cite manual|quote=Your health is measured in Life Hearts. The number of Life Hearts you currently have is shown in the upper left corner of the screen when you are walking around the island. Although you begin the game with only three hearts, there are ways to get more.|game=TWoG|page=8}}</ref> and {{Term/Store|Crystal Heart|Crystal Hearts|ZA|plural}},{{Exp Game|ZA}}<ref>{{Cite manual|quote=Also, a legend tells of four red crystal hearts hidden somewhere in the land of Tolemac. Each time Zelda finds and grabs one, her Life Meter increases by one heart.|game=ZA|page=3}}</ref> are recurring {{Plural|Series|Item|link}} in {{TLoZ|Series}}.
+
+==Location and uses==
+Heart Containers increase [[Link]]'s [[Life Gauge]], which is represented by a set of [[Heart]]s in most games of {{TLoZ|Series}} except {{TAoL|-}}, where his health is symbolized by a life bar. Collecting a number of [[Pieces of Heart]], precisely four in most appearances, assembles a Heart Container. Regardless, when Link obtains a Heart Container, his maximum health is increased by one unit.<ref name="E 127"/> As Link progresses, he will need more health in order to survive the greater challenges. This additional health is acquired in the form of Heart Containers,<ref>{{Cite Guide|quote= |game= PH|publisher= Prima|page= 8}}</ref> with each Heart Container adding an extra Heart to the amount of Hearts Link has.<ref name="TWW Guide 15">{{Cite Guide|quote= |game= TWW|publisher= Prima|page= 15}}</ref> A Heart Container is normally awarded after the defeat of every major boss in most games.<ref name="TWW Guide 15"/> The maximum number of Heart Containers is typically 20 or 16.
+
+==Mainline appearances==
+==={{TLoZ|-}}===
+In {{TLoZ}}, only full Heart Containers are available, not Pieces of Heart. 8 Heart Containers are obtained from bosses, one each in [[Level 1]] to [[Level 8]]. A single Heart Container can be found on Hyrule's eastern coast, requiring the [[Ladder]] to collect. The remaining 4 Heart Containers are offered as gifts in caves, in locations that vary between the First and [[Second Quest]]. In these caves, Link is offered the choice of a Heart Container or a [[Red Potion]]. If Link takes the potion, the Heart Container is [[Permanently Missable Items|permanently lost]].
+
+In the [[Second Quest]], it is possible to permanently lose a Heart Container in specific rooms, one in [[Level 4]], and two in [[Level 7]], where Link is required to pay either 1 Heart Container or 50 rupees.
+
+==={{TAoL|-}}===
+In {{TAoL}}, Link's life is represented by a gauge, which starts with four segments. Four Heart Containers are found throughout the game. Each permanently increases the length of the life gauge by 1 segment, up to a maximum of 8, and fully refills the gauge. Link can also reduce the damage he takes by upgrading his Life level with enough experience points.
+
+==={{ALttP|-}}===
+In {{ALttP}}, the first additional Heart Container can be found in the [[Sanctuary]] after the first visit to [[Hyrule Castle]]; this Heart Container uniquely fully restores Link's health.
+
+An additional 10 Heart Containers are obtained by defeating the bosses of the first three [[Light World]] dungeons and the first seven [[Dark World]] dungeons; unlike most games, boss Heart Containers are mandatory. {{Term|ALttP|Agahnim|link}} does not drop a Heart Container when fought in either Hyrule Castle or [[Ganon's Tower]].
+
+This game introduces [[Piece of Heart|Pieces of Heart]], four of which are required to form a Heart Container; six Heart Containers are formed this way.
+
+==={{LA|-}}===
+In {{LA}}, 8 Heart Containers are obtained by defeating bosses, and three by collecting four [[Piece of Heart|Pieces of Heart]] each. As in {{ALttP}}, boss Heart Containers are mandatory.
+
+Starting in this game, collecting any Heart Container fully restores Link's health.
+
+==={{OoT|-}}===
+In {{OoT}}, 8 Heart Containers are obtained by defeating bosses, and nine by collecting four [[Piece of Heart|Pieces of Heart]] each. Boss Heart Containers return to being optional, and remain so for the rest of the series.
+
+==={{MM|-}}===
+In {{MM}}, only 4 Heart Containers can be obtained by defeating bosses. 13 Heart Containers are formed by collecting four [[Piece of Heart|Pieces of Heart]] each, the most in the series.
+
+==={{OoS|-}} / {{OoA|-}}===
+In {{OoS}} and {{OoA}}, Link starts with a variable number of Heart Containers: three in a new game, but four in a [[Linked Game]] or when using a [[Hero's Secret]].
+
+Eight Heart Containers are obtained by defeating bosses, and three by collecting four [[Piece of Heart|Pieces of Heart]] each, for a total of 14 hearts without linking.
+
+An additional full heart container can be obtained only in a [[Linked Game]]; combined with the 4th initial heart, this allows for Link to reach a total of 16 hearts.
+
+==={{TWW|-}}===
+[[File:Heart Container WW.png|thumb|A Heart Container appears in front of Link after he defeats [[Gohma]].]]
+In {{TWW}}, four [[Piece of Heart|Pieces of Heart]] will create a Heart Container for Link. Link will also be rewarded with a Heart Container after defeating a [[boss]]. Six Heart Containers can be obtained by defeating bosses. Link is able to obtain a total of 17 Heart Containers, which brings his [[Life Gauge]] to 20 hearts.
+
+==={{FS|-}}===
+{{Stub|FS}}
+
+==={{FSA|-}}===
+{{Manual|FSA|Heart Container|Increase your Heart Meter by one Heart.}}
+Unlike most games, Heart Containers in {{FSA}} are not permanent, but reset every [[stage]]. All four Links share the same health total, starting each stage with 4 Heart Containers, only 3 of which are filled. Each stage contains an additional 2 to 4 more Heart Containers.
+
+==={{TMC|-}}===
+[[Link]] can have a total of 20 Heart Containers in {{TMC}}. He starts with three and can gain a total of 11 more through [[Piece of Heart|Pieces of Heart]]; four Pieces of Heart equal one Heart Container.
+
+The remaining six are all obtained as full Heart Containers; Link gains one after defeating each of the five [[boss]]es ([[Big Green Chuchu]], [[Gleerok]], [[Mazaal]], [[Big Octorok]], and the [[Gyorg Pair]]), and one is given to him by [[Librari]]. After Link acquires the [[Wind Element]] and infuses it into the [[White Sword]], turning it into the [[Four Sword]], the [[Royal Hyrule Library]] is closed, and [[Librari]] moves to a small [[Minish]]-sized [[House]] in the center of [[Lake Hylia]]. The House can only be accessed after Link [[Kinstone Fusion|Fuses]] [[Kinstone Piece]]s with a [[Forest Picori]] in the far eastern portion of [[Minish Village]], opening a small crack near the [[Wind Crest]] at Lake Hylia. When Link enters this crack and goes through the tunnel, he emerges in front of Librari's House; speaking to Librari inside will net him the final full Heart Container.
+
+==={{TP|-}}===
+In {{TP}}, 8 Heart Containers can be obtained by defeating bosses, and 9 by collecting Pieces of Heart. Unusually, it takes 5 Pieces of Heart, not 4, to form a Heart Container.
+
+Heart Containers can apparently form when people display deep affection for each other, as seen where [[Yeto]] and [[Yeta]] create [[Heart]]s and a Heart Container in their embrace. {{TP|-}} also considers Pieces of Heart to be sources of love, as seen with [[Madame Fanadi]] when she asks Link what type of prediction he wants to see.
+
+==={{PH|-}}===
+The DS games return to the pattern of {{TLoZ}}, offering only full Heart Containers. In {{PH}}, 7 Heart Containers are obtained by defeating bosses, and 6 can be found elsewhere.
+{{Stub|PH}}
+
+==={{ST|-}}===
+Like in {{PH}}, there are no Pieces of Heart, only full Heart Containers. 5 are obtained by defeating bosses and 8 are found elsewhere for a maximum of 16 hearts.
+
+==={{SS|-}}===
+In {{SS}}, Link starts with 6 Heart Containers, instead of 3 as in most games.
+
+6 Heart Containers are obtained by defeating bosses, and 6 by collecting 4 [[Piece of Heart|Pieces of Heart]] each, for a total of 18 permanent Heart Containers. 2 additional Heart Containers can be temporarily obtained by equipping [[Life Medal]]s.
+
+==={{ALBW|-}}===
+In {{ALBW}}, 10 Heart Containers are obtained by defeating the bosses of the first 3 [[Hyrule]] dungeons and the first 7 [[Lorule]] dungeons. [[Yuga]] does not drop a Heart Container when fought in [[Hyrule Castle]] or {{Term|ALBW|Lorule Castle|link}}; however, he does drop one when fought in [[Eastern Palace]]. Unlike {{ALttP}}, there is no Heart Container in the [[Sanctuary]], and boss Heart Containers are not mandatory.
+
+The remaining 7 Heart Containers are formed by collecting 4 [[Piece of Heart|Pieces of Heart]] each.
+
+==={{BotW|-}}===
+In {{BotW}}, Link receives a Heart Container after defeating each of the four bosses found in the [[Divine Beast]]s. Link can also earn Heart Containers by choosing them over a [[Stamina Vessel]] after trading in four [[Spirit Orb]]s to a [[Goddess Statue]] anywhere in [[Hyrule]]. Spirit Orbs are rewarded to Link at the end of every [[Ancient Shrine]]. Link can obtain up to 23 Heart Containers from Goddess Statues, allowing him to have a maximum of 30 hearts. If Link instead uses his Spirit Orbs to achieve three full [[Stamina Wheel]]s from the Goddess Statue, he will only have enough Spirit Orbs left to obtain a total of 27 hearts. In ''[[The Champions' Ballad]]'' DLC pack, Link can obtain four extra Spirit Orbs that he can exchange for another Heart Container.
+
+By visiting the [[Horned Statue]] in [[Hateno Village]], Link can exchange his Heart Containers for Stamina Vessels and vice versa. This is achieved by selling either a Heart Container or a Stamina Vessel to the Horned Statue in exchange for 100 [[Rupee]]s. The Horned Statue then allows Link to buy one of either item at a higher price of 120 Rupees. This allows Link to change how he spent his Spirit Orbs at the total cost of 20 Rupees for each conversion.
+
+==={{TotK|-}}===
+In {{TotK}}, Link receives a Heart Container after defeating each of the five bosses found in the game's dungeons, and an additional one after defeating [[Phantom Ganon]] in [[Hyrule Castle (Breath of the Wild)|Hyrule Castle]]. Link can also earn Heart Containers by choosing them over a [[Stamina Vessel]] after trading in four [[Light of Blessing|Lights of Blessing]] to a [[Goddess Statue]] anywhere in [[Hyrule]]. In addition, at the end of the A Call from the Depths Side Adventure, Link will have another choice between a Heart Container and Stamina Vessel, without consuming any Lights of Blessing. Lights of Blessing are rewarded to Link at the end of every [[Shrine of Light]]. Link can obtain up to 30 Heart Containers from Goddess Statues, allowing him to have a maximum of 40 hearts. If Link instead uses his Lights of Blessing to achieve three full [[Stamina Wheel]]s from the Goddess Statue, he will only have enough Lights of Blessing left to obtain a total of 38 hearts.
+
+By visiting the [[Horned Statue]] in the Royal Hidden Passage in [[Lookout Landing]], Link can exchange his Heart Containers for Stamina Vessels and vice versa. This is achieved by selling either a Heart Container or a Stamina Vessel to the Horned Statue in exchange for 100 [[Rupee]]s. The Horned Statue then allows Link to buy one of either item at a higher price of 120 Rupees. This allows Link to change how he spent his Lights of Blessing at the total cost of 20 Rupees for each conversion.
+
+==Summary==
+{|class="wikitable" style="text-align:center; width:100%; max-width:20em; float:left;"
+|-
+!style="width:50%; max-width:50%"| Game
+!style="width:10%"| Initial {{Term|Series|Life Gauge}}
+!style="width:10%"| Obtained from {{Plural|Series|Boss}}
+!style="width:10%"| Found / Purchased
+!style="width:10%"| Formed by {{Plural|Series|Piece of Heart}}
+!style="width:10%"| Maximum {{Term|Series|Life Gauge}}
+|-
+|style="text-align:left"| {{TLoZ|-}}
+| 3
+| 8
+| 5
+| —
+| 16
+|-
+|style="text-align:left"| {{TAoL|-}}
+| 4
+| —
+| 4{{Exp|As Bowls of Heart}}
+| —
+| 8
+|-
+|style="text-align:left"| {{ALttP|-}}
+| 3
+| 10
+| 1
+| 6
+| 20
+|-
+|style="text-align:left"| {{LA|-}}
+| 3
+| 8
+| 0{{Exp|1 in the Switch version}}
+| 3{{Exp|8 in the Switch version}}
+| 14{{Exp|20 in the Switch version}}
+|-
+|style="text-align:left"| {{OoT|-}}
+| 3
+| 8
+| —
+| 9
+| 20
+|-
+|style="text-align:left"| {{MM|-}}
+| 3
+| 4
+| —
+| 13
+| 20
+|-
+|style="text-align:left"| {{OoS|-}} and {{OoA|-}}
+| 3{{Exp|4 in a Linked Game or using a Hero's Secret}}
+| 8
+| 0{{Exp|1 in a Linked Game}}
+| 3
+| 14{{Exp|15 using a Hero's Secret, 16 in a Linked Game}}
+|-
+|style="text-align:left"| {{FS|-}}
+| 6
+| —
+| 2{{Exp|Per Stage}} or 8{{Exp|Vaati's Palace Hero's door}}
+| —
+| 8{{Exp|14 in Vaati's Palace Hero's door; Resets to 6 following each Stage}}
+|-
+|style="text-align:left"| {{TWW|-}}
+| 3
+| 6
+| —
+| 11
+| 20
+|-
+|style="text-align:left"| {{FSA|-}}
+| 4
+| —
+| 2 to 4{{Exp|Per Stage}}
+| —
+| 6 to 8{{Exp|Resets to 4 following each Stage}}
+|-
+|style="text-align:left"| {{TMC|-}}
+| 3
+| 5
+| 1
+| 11
+| 20
+|-
+|style="text-align:left"| {{TP|-}}
+| 3
+| 8
+| —
+| 9
+| 20
+|-
+|style="text-align:left"| {{PH|-}}
+| 3
+| 7
+| 6
+| —
+| 16
+|-
+|style="text-align:left"| {{ST|-}}
+| 3
+| 5
+| 8
+| —
+| 16
+|-
+|style="text-align:left"| {{SS|-}}
+| 6
+| 6
+| —
+| 6
+| 18{{Exp|Can be temporarily extended to 20 with Life Medals}}
+|-
+|style="text-align:left"| {{ALBW|-}}
+| 3
+| 10
+| —
+| 7
+| 20
+|-
+|style="text-align:left"| {{TFH|-}}
+| 9
+| —
+| —
+| —
+| 9{{Exp|Can be temporarily extended with various Outfits}}
+|-
+|style="text-align:left"| {{BotW|-}}
+| 3
+| 4
+| 23{{Exp|Via Spirit Orbs}}
+| —
+| 30
+|-
+|style="text-align:left"| {{TotK|-}}
+| 3
+| 6
+| 31{{Exp|Via Lights of Blessing, and an additional one from the A Call from the Depths Side Adventure}}
+| —
+| 40
+|-
+|}
+
+==Spinoff appearances==
+{{Noncanon|Start}}
+==={{TFoE|-}}===
+[[File:TFoE Life Heart Sprite.png|left]]
+Link begins with three Life Hearts in {{TFoE}}, gradually earning more as he completes tasks and defeats certain bosses. Life Hearts are obtained from the [[Fairy|Fairies]] in [[Spearfish Falls]], after defeating [[Goronu (Boss)|Goronu]] the first time, and from [[Clora]] in [[Shipwreck Cliff]].
+
+==={{TWoG|-}}===
+[[Princess Zelda|Zelda]] begins with three Life Hearts and earns more during her quest throughout {{TWoG}}. They are obtained from the Fairies in the [[Fairy Pool]], after defeating the [[Iron Knuckle (Boss)|Iron Knuckle]] in [[Tykogi Tower]], and after defeating [[Hektan]] in [[Dodomai Palace]].
+
+==={{ZA|-}}===
+[[File:ZA Crystal Heart Sprite.png|frame|left]]
+Zelda initially starts out with three Crystal Hearts in {{ZA}}, and earns more as she defeats the Shrine Keepers of [[Tolemac]]. Four Crystal Hearts can also be found hidden throughout the land.
+
+Like in {{TLoZ|Series}}, collecting a Crystal Heart adds another Heart to Zelda's [[Life Gauge|life meter]]. A [[Celestial Sign]] can also do this, but its main function is powering up Zelda's [[Wand]].
+{{clear|left}}
+==={{HW|-}}===
+Heart Containers are obtainable through [[Treasure Chest]]s in {{HW}}. When obtained, they add an additional Heart to a Warrior's health. They can also be obtained by completing the proper conditions in [[Adventure Mode]] Battles.
+{{Noncanon|End}}
+
+==Crossover appearances==
+{{Noncanon|Start}}
+==={{SSB|-}} series===
+===={{SSB|-}}====
+Heart Containers are healing items in {{SSB}} that, when picked up, reduces all damage to 0%. While they are healing, [[Fighter]]s cannot be damaged by opponents. These Heart Containers derive their appearance from the Heart Containers in {{OoT}}.
+
+===={{SSBM|-}}====
+Heart Containers reappear as healing items in {{SSBM}}, and are designed after their appearance in {{OoT|-}}, like before. Unlike in {{SSB|-}}, Heart Containers reduce only up to 100% of damage to the [[Fighter]]s who pick them up. However, an exception to this is in All-Star Mode, in which there are three Heart Containers in the Rest Area that always restore all health.
+
+A Heart Container is also featured in the form of a [[Trophy]].
+
+{{SSBTrophy|SSBM|header=yes}}
+{{#section:Trophies in Super Smash Bros. Melee|Heart Container}}
+|}
+
+===={{SSBB|-}}====
+Heart Containers reappear in {{SSBB}}, functioning similarly as in {{SSBM|-}}. Heart Containers are now depicted after their appearance in {{TP|-}}. Unlike before, [[Fighter]]s can now be damaged while being healed by Heart Containers. Fighters can now grab Heart Containers while in midair.
+
+Just as before, the rest area in All-Star Mode has three Heart Containers that fully restore the fighter's health. The same number is also present in the rest area of Boss Battle modes. If either mode is done in co-op mode, there are six Heart Containers.
+
+{{SSBB|-}} has its own trophy of a Heart Container.
+
+{{SSBTrophy|SSBB|header=yes}}
+{{#section:Trophies in Super Smash Bros. Brawl|Heart Container}}
+|}
+
+===={{SSB4|-}}====
+[[File:SSBfWiiU Heart Container.jpg|thumb|200px|A Heart Container in {{SSB4|Wii U|-}}]]
+Heart Containers reappear in {{SSB4}}, having no functional difference from their previous iteration. These Heart Containers are now designed after their appearance in {{SS}}.
+
+A Heart Container makes another appearance in the form of a trophy.
+
+{{SSBTrophy|SSB4|header=yes}}
+{{#section:Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Heart Container}}
+|}
+
+===={{SSBU|-}}====
+[[File:SSB4 Heart Container Icon.png|50px|left]]
+Heart Containers reappear again in {{SSBU}}, functioning identically as in {{SSB4|-}} and maintaining a design based on their appearance in {{SS|-}}.
+{{Noncanon|End}}
+
+==={{MNPTP|-}}===
+{{Noncanon|Start}}
+[[File:MNPTP Heart Container Sprite.png|left|50px]]
+The eleventh puzzle in the ''Picross'' series and the fifth puzzle in the ''Mega Picross'' series depict a Heart Container.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+{{Stub|CoH}}
+{{Ambig|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+===Artwork===
+{{ArtworkGallery}}
+
+===Renders===
+{{RenderGallery}}
+
+===Sprites===
+{{SpriteGallery}}
+
+===Icons===
+{{IconGallery}}
+
+===Unsorted===
+<gallery>
+File:TLoZ Heart Container Artwork 2.png|Heart Container artwork from {{TLoZ|-}}
+File:TAoL Link Getting Heart Container.png|Link finding a Heart Container from {{TAoL|-}}
+File:OOT3D Heart Container.png|Link obtaining a Heart Container from {{OoT3D|-}}
+File:TP Heart Container Obtained.png|Link obtaining a Heart Container from {{TP|-}}
+File:BotW Heart Container Concept Art.png|Concept art of a Heart Container from {{BotW|-}}
+File:SSB Heart Container Artwork.png|Heart Container artwork from {{SSB|-}}
+File:SSBB Heart Container Model.png|A Heart Container as seen in-game from {{SSBB|-}}
+File:SSBB Heart Container Icon.png|A Heart Container icon in {{SSBB|-}}
+File:Heart Container SSBB artwork.png|Rendered artwork of a Heart Container from {{SSBB|-}}
+File:HW Heart Container.png|A Heart Container as seen in-game from {{HW|-}}
+File:HW Heart Container Icon.png|Heart Container icon from {{HW|-}}
+File:SSBU Heart Container Model.png|A Heart Container as seen in-game from {{SSBU|-}}
+File:SSBU Heart Container Render.png|Heart Container render from {{SSBU|-}}
+</gallery>
+
+{{Ref}}
+{{MM Trading Quest}}
+{{Categories
+ |Health Restoring Items, Hearts, Pickups
+ |items= TLoZ, TAoL, ALttP, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, TP, TPHD, PH, ST, SS, SSHD, ALBW, BotW, TotK, BSTLoZ, AST, SSB, SSBM, SSBB, HW, HWL, HWDE, SSBfN3DS, SSBfWU, SSBU, CoH, HWAoC
+ |side-quests= TLoZ, TAoL, ALttP, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, FS, TWW, TWWHD, FSA, TMC, TP, TPHD, PH, ST, SS, SSHD, ALBW, BotW, TotK, AST, HW, HWL, HWDE, CoH
+}}
+<!--Not a Side Quest in LA/LADX because each full Heart Container must be collected to exit its respective dungeon, making it necessary.-->

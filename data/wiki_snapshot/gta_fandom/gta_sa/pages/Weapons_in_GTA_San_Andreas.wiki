@@ -1,0 +1,443 @@
+[[File:GTA SA.jpg|thumb|Weapons in ''GTA San Andreas''.]]
+[[File:WeaponWheel-GTASAde.png|thumb|325px|[[Weapon Wheel]] in ''GTA San Andreas - The Definitive Edition''.]]
+The following is a list of weapons that can be used in ''[[Grand Theft Auto: San Andreas]]''.
+__TOC__
+
+{{Clr}}
+==Contents==
+''Grand Theft Auto: San Andreas'' features 38 different weapons and three special items, where they follow the same mechanics as in previous titles, however, the arsenal has been expanded with the introduction of "consumable items", as well as "gifts", which are primarily used for [[Girlfriends in GTA San Andreas|girlfriends]] and optionally used as melee weapons.
+
+===Auto-aim===
+A notable improvement over previous games is the auto-aiming system on every weapon (except the [[Rifle]], the [[Sniper Rifle]], projectiles, or any of the heavy weapons), which occurs when the target is within the weapon's range (determined by the type of weapon and the player's proficiency with that weapon based on the skill) and takes the priority on the closest target when facing multiple [[NPC]]s. Another feature of this improvement is the targeting lock that changes color as the target's [[health]] decreases. Green progresses to orange, which progresses to red, and finally black upon the target's death.
+
+The Auto-aim also seems to bear a strong resemblance to the execution system in [[Rockstar North]]'s ''[[Manhunt]]'', where the darker the color or the target, the more gruesome the execution; in ''GTA San Andreas'', the darker the color of the target, the less health of the target.
+
+===Weapon Skill===
+Another notable feature is a weapon skill system; where it determines the general proficiency of the player with the weapons. This increases when the player shoots accurately. Getting a high Weapon Skill increases the ability with weapons and grants more versatility when used. There are three levels of skill: "Poor", "Gangster", and "Hitman".
+
+One can view the weapon skills two ways:
+
+#Wielding the weapon, then press L1, LT, or TAB. The skill level appears in the stat box in the bottom corner of the screen.
+#In the menu, select Stats, then Weapons. Each weapon type displays one of three labels: "Poor", "Gangster", or "Hitman". If one is wielding a weapon, one will also see their current skill level for that weapon.
+
+====Gangster====
+Gangster level is reached when the meter is 20% to 50% filled.
+
+When Gangster is reached with certain weapons, the player is able to move while aiming, and their lock-on range, accuracy, rate of fire, and strafe speed increase:
+
+*All type of Shotguns (note: Carl can already move while aiming/firing the sawn-off shotgun)
+*AK47
+*Desert Eagle
+*M4
+*Micro SMG (note: Carl can already move while aiming/firing this weapon)
+*SMG
+*Pistol (note: Carl can already move while aiming/firing this weapon)
+*Silenced 9mm
+*Tec-9 (note: Carl can already move while aiming/firing this weapon)
+
+====Hitman====
+Hitman level is reached when the meter is 100% filled.
+
+When Hitman is reached with certain weapons, the player's lock-on range, accuracy, rate of fire, and strafe speed increase further, and they're able to fire these weapons while moving:
+
+*AK47
+*Combat Shotgun
+*Desert Eagle
+*M4
+*SMG
+*Silenced 9mm
+*Shotgun
+
+====Double Weapon Hitman====
+One new feature is the ability to duel-wield certain weapons after reaching Hitman weapon skill level. These weapons are light enough and feature reloading that is compatible with holding one in each hand. This allows the player to inflict twice the amount of damage per reload cycle. For weapons that have Double Weapon Hitman, it takes longer to reach 100% weapon skill opposed to other weapons that can only be wielded with both hands.
+
+When the player reaches Double Weapon Hitman, they can wield two of the below weapons simultaneously, and their lock-on range increases:
+
+*Micro SMG
+*Pistol (9mm)
+*Sawn-Off Shotgun
+*Tec-9
+
+==Types==
+Here is a list of the available weapon slots, and the weapons that can be used in those slots. Weapons in ''italics'' can be dual-wielded.
+
+* '''Slot 1: Hand'''
+** [[Fist]]
+** [[Brass Knuckles]]
+* '''Slot 2: Melee Weapons'''
+* [[Knife]]
+** [[Golf Club]]
+** [[Shovel]]
+** [[Pool Cue]]
+** [[Nightstick]]
+** [[Baseball Bat]]
+** [[Katana]]
+** [[Chainsaw]]
+* '''Slot 3: Handguns'''
+** ''[[Pistol (3D Universe)|9mm]]''
+*** Rate of fire: 165 RPM (poor), 200 (gangster), 300 (hitman [dual-wielded])
+** [[Silenced 9mm]]
+*** Rate of fire: 130 RPM (poor), 150 (gangster), 165 (hitman)
+** [[Desert Eagle]]
+*** Rate of fire: 65 RPM (poor), 75 (gangster), 85 (hitman)
+* '''Slot 4: Shotguns'''
+** [[Shotgun (3D Universe)|Shotgun]]
+*** Rate of fire: 55 RPM
+** ''[[Sawn-off Shotgun]]''
+*** Rate of fire: 200 RPM (poor & gangster), 400 (hitman [dual-wielded])
+** [[Combat Shotgun]]
+*** Rate of fire: 150 RPM (poor), 180 (gangster & hitman)
+* '''Slot 5: Submachine Guns'''
+** ''[[Tec-9]]''
+*** Rate of fire: 450 RPM (poor & gangster), 900 (hitman [dual-wielded])
+** ''[[Micro SMG (3D Universe)|Micro SMG]]''
+*** Rate of fire: 450 RPM (poor & gangster), 900 (hitman [dual-wielded])
+** [[SMG (3D Universe)|SMG]]
+*** Rate of fire: 650 RPM
+* '''Slot 6: Assault Rifles'''
+** [[AK47]]
+*** Rate of fire: 450 RPM
+** [[M16|M4]]
+*** Rate of fire: 450 RPM
+* '''Slot 7: Rifles'''
+** [[Sniper Rifle]]
+*** Rate of fire: 55 RPM
+** [[Rifle]]
+*** Rate of fire: 55 RPM
+* '''Slot 8: Heavy Weapons'''
+** [[Flamethrower]]
+*** Rate of fire: 180 RPM
+** [[Rocket Launcher (3D Universe)|Rocket Launcher]]
+*** Rate of fire: 55 RPM
+** [[Heat-Seeking Rocket Launcher]]
+*** Rate of fire: 55 RPM
+** [[Minigun]]
+*** Rate of fire: 1800 RPM
+* '''Slot 9: Explosives'''
+** [[Tear Gas]]
+** [[Molotov Cocktails]]
+** [[Grenades]]
+** [[Satchel Charges]]
+* '''Slot 10: Handheld Items'''
+** [[Fire Extinguisher]]
+*** Rate of fire: 1800 RPM
+** [[Spray Can]]
+*** Rate of fire: 1200 RPM
+** [[Camera]]
+*** Rate of fire: 33 RPM
+* '''Slot 11: Gifts'''
+** [[Flowers]]
+** [[Cane]]
+** [[Dildo]]
+** [[Vibrator]]
+* '''Slot 12: Gear'''
+** [[Night Vision|Night Vision Goggles]]
+** [[Thermal Vision|Thermal Vision Goggles]]
+** [[Parachute]]
+* '''Slot 13: Others'''
+** [[Detonator]]
+
+The following table lists weapons based on their types and categories assigned to them in the files.
+
+{| class="wikitable"
+|-
+!Unarmed
+![[Melee Weapons]]
+![[Handguns]]
+![[Shotguns]]
+|-
+|
+*[[Fist]]
+*[[Brass Knuckles]]
+|
+*[[Knife]]
+*[[Nightstick]]
+*[[Pool Cue]]
+*[[Golf Club]]
+*[[Baseball Bat]]
+*[[Shovel]]
+*[[Katana]]
+*[[Chainsaw]]
+|
+*[[Pistol (3D Universe)|9mm]]
+*[[Silenced 9mm]]
+*[[Desert Eagle]]
+|
+*[[Sawed-Off Shotgun|Sawnoff Shotgun]]
+*[[Shotgun (3D Universe)|Shotgun]]
+*[[Combat Shotgun]]
+|-
+![[Submachine Guns]]
+![[Assault Rifles]]
+![[Sniper Rifles]]
+!Heavy Weapons
+|-
+|
+*[[Tec-9|Tec9]]
+*[[Micro SMG (3D Universe)|Micro SMG]]
+*[[SMG (3D Universe)|SMG]]
+|
+*[[AK47]]
+*[[M16|M4]]
+|
+*[[Rifle]]
+*[[Sniper Rifle]]
+|
+*[[Flamethrower]]
+*[[Minigun]]
+*[[Rocket Launcher (3D Universe)|Rocket Launcher]]
+*[[Heat-Seeking Rocket Launcher]]
+|-
+![[:Category:Throwables|Thrown]] 
+!Consumable Items
+![[:Category:Gifts|Gifts]]
+!Special
+|-
+|
+*[[Tear Gas]]
+*[[Molotov Cocktails]]
+*[[Grenades]]
+*[[Satchel Charges|Satchel Charges/Remote Explosives]]
+|
+*[[Camera]]
+*[[Spray Can]]
+*[[Fire Extinguisher]]
+|
+*[[Dildo]]
+*[[Dildo (short)]]
+*[[Vibrator]]
+*[[Vibrator (short)]]
+*[[Flowers]]
+*[[Cane]]
+|
+*[[Detonator]]
+*[[Night Vision]]
+*[[Thermal Vision]]
+*[[Parachute]]
+|}
+
+==Gallery==
+{{/images}}
+
+==Interactive Map==
+The following interactive map includes the locations of all weapon pickups (in addition to other items) available in the [[State of San Andreas (3D Universe)|State of San Andreas]] in ''Grand Theft Auto: San Andreas''.
+{{Map:GTA San Andreas: Items and Weapons}}
+
+==Additional Information==
+===Standard Issue Weaponry===
+Weapons mandatorily added to Carl's inventory in accordance with storyline scripts.
+{| class="article-table sortable"
+|+
+!Mission
+!Weapon(s) Given
+|-
+![[Tagging Up Turf]]
+|Spray Can (unlimited propellant, later reduced to 1000 units after the end of mission)
+|-
+![[Nines and AK's]]
+|9mm (unlimited ammo, +60 rounds after Emmet's shooting practice)
+|-
+![[Madd Dogg's Rhymes]]
+|Knife
+|-
+![[Burning Desire]]
+|
+*''Molotov Cocktail (+20 bottles)''
+*''Fire Extinguisher (unlimited CO2, later removed)''
+|-
+![[Just Business]]
+|Micro SMG (unlimited ammo, later reduced to 80 rounds after the end of mission)
+|-
+![[Reuniting the Families]]
+|
+*Shotgun (+60 shells)
+*AK47 (unlimited ammo, later removed)
+|-
+![[The Green Sabre]]
+|Camera (unlimited films, added to the inventory at the end of mission with all other weapons removed)
+|-
+![[Badlands]]
+|Camera (unlimited films, later reduced to 36)
+|-
+![[Against All Odds]]
+|Satchel Charges (+10)
+|-
+![[Small Town Bank]]
+|Shotgun (+48 shells max, +48 if sawn-off shotgun or combat shotgun is in inventory)
+|-
+![[Are You Going to San Fierro?]]
+|
+*Flamethrower (+300 units of fuel, later replaced by:)
+*Rocket Launcher (10 rockets)
+|-
+![[Photo Opportunity]]
+|Camera (unlimited films, later reduced to 24 if not already owned)
+|-
+![[The Da Nang Thang]]
+|
+*Minigun (unlimited ammo, later removed after being shot down)
+*Knife (added to the inventory with all other weapons removed after being shot down, later replaced by:)
+*Katana
+|-
+![[Snail Trail]]
+|''Sniper Rifle (+5 rounds)''
+|-
+![[Ice Cold Killa]]
+|Silenced 9mm (+200 rounds)
+|-
+![[Pier 69 (mission)|Pier 69]]
+|Sniper Rifle (+24 rounds max)
+|-
+![[Toreno's Last Flight]]
+|''Rocket Launcher (+60 rockets, later removed)''
+|-
+![[Interdiction]]
+|''Rocket Launcher (+40 rockets)''
+|-
+![[Stowaway]]
+|Satchel Charges (+1 if not in the inventory)
+|-
+![[Black Project]]
+|
+*Knife
+*Silenced 9mm (+70 rounds)
+*Sniper Rifle (+35 rounds)
+*Thermal Goggles
+*Micro SMG (+200 rounds)
+|-
+![[Green Goo]]
+|Micro SMG (+2000 rounds)
+|-
+![[Freefall]]
+|9mm (unlimited ammo, later removed if not in the inventory before starting the mission)
+|-
+![[Vertical Bird]]
+|
+*Knife
+*Silenced 9mm (+30 rounds)
+|-
+![[End of the Line]]
+|
+*Night Vision Goggles
+*Fire Extinguisher (unlimited CO2)
+*Micro SMG (set to 120 rounds)
+|-
+![[Air Raid]]
+!Minigun (unlimited ammo, later removed)
+|-
+![[Architectural Espionage]]
+|Camera (+20 films if not in the inventory)
+|-
+![[Dam and Blast]]
+|Knife
+|-
+!'''[[Breaking the Bank at Caligula's]]'''
+|
+*Knife
+*Silenced 9mm (+300 rounds)
+*Tear Gas (+10 canisters, later replaced by:)
+*Satchel Charges (+10)
+*Night Vision Goggles
+|-
+! colspan="2" |''Weapon names highlighted in Italic denotes the item(s) appearing as mandatory pickups for the purpose of mission progress.''
+|}
+
+====Optional Pick-ups====
+Weapons explicitly made available during certain missions, missable if not collected.
+{| class="article-table sortable"
+!Mission
+!Weapon Pickup(s)
+|-
+![[Cleaning the Hood]]
+|Baseball Bat
+|-
+![[Badlands]]
+|Camera (+24 films if removed from the inventory before starting the mission)
+|-
+![[Against All Odds]]
+|Satchel Charges (+15)
+|-
+![[Outrider]]
+|
+*Sniper Rifle (+40 rounds max)
+*Rocket Launcher (+20 rockets max)
+|}
+
+==Discrepancies==
+{{Main|Cutscene Weapons}}
+At least six missions in ''Grand Theft Auto: San Andreas'' feature differing weapons for their respective cutscenes and gameplay. They are:
+
+{| class="article-table sortable"
+!Mission
+!User(s)
+!Cutscene Weapon
+!Gameplay Weapon 
+|-
+![[Ryder (mission)|Ryder]]
+|'''Lance "Ryder" Wilson'''
+|Glock 17
+|Pistol (Colt M1911A1) 
+|-
+![[The Green Sabre]]
+|'''Eddie Pulaski -> Carl Johnson'''
+|''unknown model''
+|Camera (Canon AE-1)
+|-
+![[Mike Toreno (mission)|Mike Toreno]]
+|'''Mike Toreno''' 
+|Glock 17
+|Micro SMG (IMI Micro Uzi)
+|-
+![[Stowaway]]
+|'''CIA agents'''
+|Colt M16A2
+|Micro SMG (IMI Micro Uzi)
+|-
+![[Beat Down on B Dup]]
+|'''Sean "Sweet" Johnson'''
+|Desert Eagle
+| AK47
+|-
+![[End of the Line]]
+|'''Melvin "Big Smoke" Harris'''
+|Combat Shotgun (Franchi SPAS-12)
+|AK47
+|-
+![[End of the Line]]
+|'''Frank Tenpenny'''
+|Combat Shotgun (Franchi SPAS-12)
+|Pump Shotgun (Ithaca 37)
+|}
+
+==Trivia==
+*The [[TEC 9|TEC-9]], [[Flamethrower]], and [[Minigun]] are the only weapons which, when fired, do not move [[Carl Johnson|CJ's]] body.
+*Oddly enough, melee weapons such as the [[Chainsaw]] can be used to amass large sums of money in short periods of time, if the player correctly utilizes the weapon with no law enforcement in their vicinity. Much like the [[Baseball Bat]] in ''[[Grand Theft Auto III]]'', where the player can kill literally thousands of citizens with no wanted level if planned correctly.
+*There are two different ways to get infinite ammo for guns. Acquiring [[100% Completion in GTA San Andreas|100% game completion]] or the [[Cheats in GTA San Andreas|infinite ammo cheat]].
+*The [[Tec-9]] and [[Micro SMG (3D Universe)|Micro SMG]] are the only weapons that share the same weapon skill (that is shown in stats as machine pistol).
+*Weapons that can be dual wielded at Hitman level take significantly longer time to level up.
+*CJ will be stripped of all his weapons twice during the main storyline: once after [[The Green Sabre]], again during [[The Da Nang Thang]] and optionally if parachuted into the water during [[Dam and Blast]].
+
+==Oversights==
+*It is possible to get infinite ammo by going to a shooting range in some Ammu-Nation shops. Select a firearm of choice (excluding heavy and throwable weapons) and enter the shooting range, right after the screen turns black, press the escape button a few times and wait for CJ to teleport back in the shop; the player will notice (sometimes, rarely or never) the ammo of the firearm they're holding have doubled, keep doing this (with the help of luck) and when the ammo reaches until a point that the amount disappears, then it will become unlimited. Players who are looking for an alternative way to make the ammo amount on the [[HUD]] icon disappear can simply buy ammo till it reaches 9999-?? and then pick up any weapon via police that they've dropped.
+
+==See Also==
+*[[Weapon Stats in GTA San Andreas|Weapon Stats in ''GTA San Andreas'']]
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 =
+{{Navbox gtasa|state=collapsed}}
+{{Navbox weapons|state=collapsed}}
+{{Navbox gtasa weapons|state=collapsed}}
+}}
+{{DISPLAYTITLE:Weapons in ''Grand Theft Auto: San Andreas''}}
+[[Category:GTA San Andreas]]
+[[Category:Weapons by game| 07]]
+
+[[es:Armas de Grand Theft Auto: San Andreas]]
+[[fr:Armes dans GTA San Andreas]]
+[[pl:Bronie w GTA San Andreas]]
+[[pt:Armas do GTA San Andreas]]
+[[ru:Оружие в GTA San Andreas]]
+[[uk:Зброя в GTA San Andreas]]

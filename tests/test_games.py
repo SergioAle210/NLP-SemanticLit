@@ -10,10 +10,20 @@ ROOT = Path(__file__).resolve().parents[1]
 GAMES = load_all_games(ROOT / "config" / "games")
 
 
-def test_both_games_load():
-    assert set(GAMES) == {"zelda1", "ninja_gaiden_nes"}
+def test_all_games_load():
+    assert set(GAMES) == {"zelda1", "ninja_gaiden_nes", "gta_sa", "oot", "ac2", "doom", "rdr1"}
     assert GAMES["zelda1"].progress_model is ProgressModel.LEVEL_SET
-    assert GAMES["ninja_gaiden_nes"].progress_model is ProgressModel.LINEAR_STAGE
+    assert GAMES["oot"].progress_model is ProgressModel.LEVEL_SET
+    for g in ("ninja_gaiden_nes", "gta_sa", "ac2", "doom", "rdr1"):
+        assert GAMES[g].progress_model is ProgressModel.LINEAR_STAGE
+
+
+def test_every_extra_source_has_a_snapshot_with_license():
+    for cfg in GAMES.values():
+        for extra in cfg.extra_sources:
+            manifest = json.loads((ROOT / extra.snapshot_dir / "manifest.json").read_text(encoding="utf-8"))
+            assert manifest["license"], (cfg.game_id, extra.site)
+            assert manifest["pages"], (cfg.game_id, extra.site)
 
 
 @pytest.mark.parametrize("game_id", ["zelda1", "ninja_gaiden_nes"])

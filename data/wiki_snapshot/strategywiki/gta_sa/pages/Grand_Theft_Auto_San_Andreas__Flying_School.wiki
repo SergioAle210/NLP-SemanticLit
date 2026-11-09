@@ -1,0 +1,56 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+<div style="float:right;">
+{{control selector|Playstation 2,PC,Xbox}}
+{{-}}
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar School.png]][[Grand Theft Auto: San Andreas/Learning to Fly|Learning to Fly]]
+* '''Location''':[[File:GTA San Andreas radar School.png]] CJ's airstrip, Verdant Meadows, Bone County
+|}
+{{-}}
+{{floatingtoc}}
+</div>
+
+== Takeoff ==
+Hold forward, and push slightly forward on the {{control|left analog stick|{{mouse}}|left analog stick}} to increase your traction. When the plane feels as if it wants to take off, {{control|release pressure on the left analog stick|pull {{mouse}} back|release pressure on the left analog stick}}, press {{control|{{psx|R3}}|{{kbd|+}}|{{xbox|Neutral|Rstick}}}} to retract the landing gear, and pull slightly back on the {{control|left analog stick|{{mouse}}|left analog stick}} to gain altitude. Don't try to climb too fast, or you may stall. Just gently ascend until you reach the first corona. After this you must dive to reach the next corona by gently pushing forward on the {{control|left analog stick|{{mouse}}|left analog stick}}, and climb again to read the final corona. To get a gold certificate, you must do all this in 30 seconds with no damage. NOTE: First-Person View helps TREMENDOUSLY on this as well as the other flight school missions.
+
+== Land Plane ==
+Hold forward, and head for the corona. Once you've passed through it, release {{control|{{psx|X}}|{{kbd|W}}|{{xbox|R}}}}, press {{control|{{psx|R3}}|{{kbd|+}}|{{xbox|Neutral|Rstick}}}} to extend the landing gear, and start to slow down by holding {{control|{{psx|S}}|{{kbd|S}}|{{xbox|L}}}}. When you touch the ground, taxi your plane into the red marker and come to a complete stop. To get a gold certificate, you must do all this in 25 seconds with no damage.
+
+== Circle Airstrip ==
+Takeoff as above, and head for the first corona. Bank round the coronas as it describes, but the key to success is being very gentle on the controls. There are two ways to achieve this. Either move the {{control|left analog stick|{{mouse}}|left analog stick}} to the side very slightly, and hold it, or quickly tap the stick all the way to the side, and release it. To get a gold certificate you must do all this in 60 seconds with no damage.
+
+== Circle Airstrip and Land ==
+In order to get gold, a time of 80 seconds or less and 100% placement is required (no damage can be afforded). Take off and pass the coronas as regular while constantly holding forward (one might want to take the "inside curve", i.e. it's enough to touch the coronas, flying ''through'' them in the middle is not needed and not doing so will save time). If roughly 60 seconds has passed after the last corona then it's looking good. When landing, slow down slightly as to get aligned on the marker on the runway, gently land. The key is not to do it too roughly as to damage the plane and not overshoot the marker (either will rob you of gold). Touch down somewhat early enough in order to slowly tax to a halt in the middle of the marker, otherwise you will likely pass through the marker and blow the time limit (and placement score).
+
+== Helicopter Takeoff ==
+You need {{control|to hold forward|press {{kbd|up}}|to hold forward}} to lift off and go up. When the on-screen message asks you to rotate 180 degrees, hold {{control|{{psx|L2}}|{{kbd|Q}}|{{xbox|white}}}} or {{control|{{psx|R2}}|{{kbd|E}}|{{xbox|black}}}} until you have spinned a half-circle. The nudge the {{control|left analog stick|{{mouse}}|left analog stick}} forward and head for the corona. Do this in 60 seconds to pass and 45 seconds to get a gold certificate.
+
+== Land Helicopter ==
+Fly through the corona, decelerate and land on the red marker. 45 seconds to pass and 30 seconds to get a gold certificate on this one.
+
+== Destroy Targets ==
+Fly forward and use the missiles and the minigun to destroy 3 stationary tankers and 2 circling cars. Do this in 105 seconds to pass and 80 seconds to get a gold certificate.  The minigun is auto-aiming so it is the best weapon to use on the moving cars. You've got infinite ammo, so lay a heavy blanket of fire down, especially on the tankers.
+
+When landing, make sure you are lined up with the runway to get a full 100%.
+
+== Loop the Loop ==
+Fly the stunt plane through the first corona. As soon as you hit it, hold the {{control|left analog stick|{{mouse}}|left analog stick}} backward to point your nose upward and fly in a tight loop. Hold the throttle at all time and release the {{control|stick|{{mouse}}|stick}} after finishing a loop. Then fly through the second corona to complete. Do this in 27 seconds to pass and 21 seconds to get a gold certificate.
+
+== Barrel Roll ==
+This is similar to the previous exercise. Fly through the first corona, wait a few seconds. Then push the {{control|left analog stick|{{mouse}}|left analog stick}} left to perform a barrel roll and head for the second corona. If you try to barrel roll right from the first corona you will end up flying away from the second corona which is not what you want. Do this in 23 seconds to pass and 18 seconds to get a gold certificate.
+
+== Parachute onto Target ==
+Let CJ fall while holding the {{control|left analog stick|{{mouse}}|left analog stick}} forward. Wait for a few seconds after the on-screen message asks you to open the parachute before doing so. The latest that you need to open it and still make it to the target is 23 seconds and that is what you should do if you aim for a gold. Then push the {{control|left analog stick|{{mouse}}|left analog stick}} backward such that CJ lifts his legs up to descend forward to the target. Do this in 70 seconds to pass and 55 seconds to get a gold certificate.
+
+On the PC version you might need to play around with graphical settings in order to be able to score gold on this. If you find that you always need a few seconds more than 55 seconds to reach the target even if you do everything perfectly then play around with your graphical settings. Turning off the Frame Limiter temporarily for example might net you a few seconds and allow you to finish inside 55 seconds.
+
+== Rewards ==
+* '''{{bronze}}''': Rustler spawns at the airstrip.
+* '''{{silver}}''': Rustler and Stuntplane spawn at the airstrip.
+* '''{{gold}}''': Rustler, Stuntplane and Hunter spawn at the airstrip.
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Learning to Fly|previmg=[[File:GTA San Andreas radar School.png]]|hereimg=[[File:GTA San Andreas radar School.png]]}}

@@ -1,0 +1,74 @@
+{{Infobox Item
+|image= [[File:TLoZ Red Ring Artwork.png|250px]]
+|caption= {{TLoZ|-}} artwork
+|pronunciation= 
+|plural= 
+|game_debut={{TLoZ}} (1986)
+|spinoff_debut={{HW}} (2014)
+|cost= 
+|value= 30 [[Rupee]]s (''Oracle'' games)
+|location= [[Level-9]] (''TLoZ''), [[North Horon]] (''Seasons'')
+|uses= Decreasing damage taken (TLoZ), Double sword damage (''Oracle'' games)
+|strength= 
+|durability= 
+|comp= [[Blue Ring]]<br/>[[Green Ring]]
+|sample= 
+|theme= 
+}}
+The {{Term/Store|Red Ring|Red Rings|Series, TLoZ, OoS, OoA}} is a recurring [[item]] in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 135 {{Exp Game|TLoZ}}}}</ref><ref name="OoS Description">{{Cite|Red Ring<br/>Sword damage x 2|Inventory|OoS}}</ref>
+
+==Mainline appearances==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Blue and red rings|The blue ring reduces the damage inflicted by the enemy by half, and the red ring reduces damage to one quarter.}}
+In {{TLoZ}}, the Red Ring is located in the final [[Dungeon]], [[Level-9]], regardless of the first or [[Second Quest]]. It is one of the two key items alongside the [[Silver Arrow]]. Aside from giving [[Link]] a red tunic, the Red Ring makes it so that he takes a quarter of the amount of damage he would normally, and half the amount of damage with the [[Blue Ring]] equipped, making the young hero significantly more durable than at the start of the game.<ref>{{Cite manual|quote= The blue ring reduces the damage inflicted by the enemy by half, and the red ring reduces damage to one quarter.|game= TLoZ|page= 23}}</ref> If Link obtains the Red Ring while having the Blue Ring equipped, it will replace the Blue Ring as an upgrade.
+
+Due to the graphical limitations of the [[Nintendo Entertainment System|NES]], certain characters, items, and enemies share the same color palette with [[Green Clothes|Link's tunic]] and will also appear red while Link has this item equipped, such as [[Princess Zelda]]'s dress, [[Arrow]]s, the [[Raft]], and even the whiskers of a [[Pols Voice]].
+
+==={{OoS|-}}===
+In {{OoS}}, the Red Ring can be obtained from an [[Old Man]] in [[North Horon]] after defeating all four [[Golden Monsters]] in [[Holodrum]]. The [[Magic Ring]] can be appraised at [[Vasu Jewelers]] for 20 [[Rupee]]s. When worn, it doubles [[Sword]] damage.<ref name="OoS Description"/>
+
+==Spinoff appearances==
+{{Noncanon|Start}}
+==={{HW|-}}===
+{{Main|Ring}}
+In {{HW}}, the Red [[Ring]] appears as [[Wizzro]]'s second level Ring. An 8-Bit Red Ring also appears as Midna's star level [[Shackle]]. Throughout the game's [[Legend Mode]], Wizzro uses the Red Ring form of his weapon. His Ring is a cursed artifact from which he manifests; it sucks the souls from its wearers, which are combined within the Ring to become Wizzro.<ref>{{Cite|A cursed ring whose dark powers have been amplified by absorbing the essence of its owners through the ages. It condenses the souls of the deceased into a single, monstrous spirit.|N/A|HW}}</ref>
+{{Noncanon|End}}
+
+== Trivia ==
+* As the Red Ring can only be acquired very late in ''The Legend of Zelda'' in both the main and Second Quest'','' as opposed to the Blue Ring, it is met with criticism among fans of the series.
+* As Link's eyes in ''The Legend of Zelda'' use the palette of his tunic, they will also appear red when the Red Ring is equipped.
+* The [[Red Mail]] in ''[[The Legend of Zelda: A Link to the Past|A Link to the Past]]'' is based on the effects of the Red Ring, while red tunics later in the franchise such as the [[Goron Tunic]] in ''[[The Legend of Zelda: Ocarina of Time|Ocarina of Time]]'' serve different purposes including protection against fire damage.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Red Ring Sprite.png|{{TLoZ}} sprite
+File:TLoZ Link Red Ring Sprite.png|[[Link]] with the Red Ring equipped from {{TLoZ|-}}
+File:TLoZ Link Red Ring Sprite 2.png|Link with the Red Ring and the [[Magical Shield]] equipped from {{TLoZ|-}}
+File:TLoZ Merchant Sprite 3.png|A [[Merchant]] while Link has the Red Ring equipped from {{TLoZ|-}}
+File:TLoZ Princess Zelda Red Sprite.png|[[Princess Zelda]] while Link wears the {{Term|TLoZ|Red Ring}} from {{TLoZ|-}}
+File:TLoZ Sword Sprite 3.png|The [[Sword]] while Link has the Red Ring equipped from {{TLoZ|-}}
+File:TLoZ Arrow Sprite 3.png|An [[Arrow]] while Link has the Red Ring equipped from {{TLoZ|-}}
+File:TLoZ Bow Sprite 3.png|The [[Bow]] while Link has the Red Ring equipped from {{TLoZ|-}}
+File:TLoZ Boomerang Sprite 3.png|A [[Boomerang]] while Link has the Red Ring equipped from {{TLoZ|-}}
+File:TLoZ Raft Sprite 3.png|The [[Raft]] while Link has the Red Ring equipped from {{TLoZ|-}}
+File:TLoZ Pols Voice Sprite 3.png|A [[Pols Voice]] while Link has the Red Ring equipped from {{TLoZ|-}}
+File:Red Ring obtain TLoZ.png|Link obtaining the Red Ring in {{TLoZ|-}}
+File:OoS Red Ring Sprite.png|{{OoS}} sprite
+File:HW Red Ring Artwork.png|Artwork of the Red Ring from {{HW|-}}
+File:HW Red Ring Model.png|The Red Ring from {{HW|-}}
+File:HW Red Ring.png|The Red Ring icon from {{HW|-}}
+File:HW 8-Bit Red Ring.png|The 8-Bit Red Ring icon from {{HW|-}}
+File:HWDE Midna 8-Bit Red Ring.png|[[Midna]] wielding the 8-Bit Red Ring from {{HW|DE|-}}
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Jewelry, Magic Rings, Rings
+ |items= TLoZ, OoS, HW
+}}
+
+[[de:Roter Ring]]

@@ -1,0 +1,966 @@
+{{needimage|see http://www.zeldadungeon.net/Zelda05-ocarina-of-time-enemies.php}}
+{{cleanup}}
+
+{{Header Nav|game=The Legend of Zelda: Ocarina of Time}}
+{{control selector|N64, GameCube, Wii Classic Controller, 3DS, Switch}}
+
+The following page lists all of the enemies that Link faces in his travels. They are listed according to the time period and location in which they are introduced.
+__TOC__
+
+==Young Link==
+=== Great Deku Tree ===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+
+{{LoZOoT/Enemy
+|name=Deku Baba (withered)
+|hp=1
+|damage=½ Heart
+|first=Kokiri Village
+|location=Kokiri Village
+|navi=Though it looks withered, it will hurt you if you touch it.
+|notes=This plant poses little threat and can only move its head circularly to attack. If touched, it will cause damage. A single blow will kill it, leaving a {{Im/oot|Consumables|Deku Stick}} if it is killed. In the Kokiri Village area, these plants are only found in the pathway leading to the Great Deku Tree.
+}}
+
+{{LoZOoT/Enemy
+|name=Deku Baba
+|hp=2
+|damage=½ Heart
+|first=Inside the Deku Tree
+|location=Inside the Deku Tree
+|navi=Hit it when it lunges at you, and it will stand upright. Cut it quickly to get a Deku Stick!
+|notes=A stationary plant that will bite you if you're not careful. Unlike the withered variety, this plant has a limited reach of attack. Killing it while it is not attacking will yield a {{Im/oot|Consumables|Deku Nut}}, whereas attacking it in its extended position will stun it. Killing it in this stunned position will yield a {{Im/oot|Consumables|Deku Stick}}.|image=LoZ OoT enemy Deku Baba.jpg
+}}
+
+{{LoZOoT/Enemy
+|name=Deku Scrub
+|hp=2
+|damage=½ Heart
+|first=Inside the Deku Tree
+|location=Inside the Deku Tree
+|navi=It will hide in the grass if you get close to it. Bounce the nuts it spits back at it!
+|notes=This creature pops up out of the ground and shoots Deku Nuts at you. Reflecting a Deku Nut back to the Deku Scrub will cause it to jump out of its hole. If left alone, it will eventually return to its hole. However, if it is caught, it will often offer information.
+}}
+
+{{LoZOoT/Enemy
+|name=Skullwalltula
+|hp=1
+|damage=½ Heart
+|first=Inside the Deku Tree
+|location=Inside the Deku Tree, Death Mountain, Forest Temple
+|navi=Be careful not to touch it!
+|notes=This small spider-like creature resides on the walls. It will knock you off the walls as you climb if it touches you. When it is getting ready to attack you, it'll turn purple.
+}}
+
+{{LoZOoT/Enemy
+|name=Skulltula
+|hp=1
+|damage=½ Heart
+|first=Inside the Deku Tree
+|location=Inside the Deku Tree, Forest Temple, Shadow Temple
+|navi=Its soft belly is its weak point!
+|notes=This Skulltula drops down suddenly, and makes a quick spin attack if you are too close. Attack it when its "soft belly" is exposed; hitting its hard shell only causes it to swing from side-to-side.
+}}
+
+{{LoZOoT/Enemy
+|name=Big Skulltula
+|hp=2
+|damage=½ Heart
+|first=Inside the Deku Tree
+|location=Inside the Deku Tree
+|navi=Its soft belly is its weak point!
+|notes=Is a bigger version of the Skulltula.
+}}
+
+{{LoZOoT/Enemy
+|name=Gold Skulltula
+|hp=2
+|damage=1 Heart
+|first=Inside the Deku Tree
+|location=Inside the Deku Tree
+|navi=??
+|notes=Gold Skulltulas are a rare breed of Skulltula. They are basically collectibles. Shoot and kill them to get '''Gold Skulltula Tokens'''[[File:OoT_Items_Gold_Skulltula_Token.png|x24px]]. There are 100 Gold Skulltulas in the game. Later on in the game, you can use these tokens to earn a series of prizes, such as the {{im/oot|Upgrades|Adult's Wallet}} at 10 tokens, the {{control|{{im/oot|Secrets|Stone of Agony}}|{{im/oot|Secrets|Stone of Agony}}|{{im/oot|Secrets|Stone of Agony}}|{{im/oot|Secrets|Shard of Agony}}|{{im/oot|Secrets|Stone of Agony}}}} at 20, the {{im/oot|Upgrades|Giant's Wallet}} at 30, some {{im/oot|Items|Bombchu|display=Bombchus}} at 40, a {{im/oot|Upgrades|Piece of Heart}} at 50, and lastly, a {{im/oot|Consumables|Huge Rupee}} that can be collected indefinitely when you collect all 100. For more information on them, consult the [[../Gold Skulltulas|Gold Skulltula Mini-Quest Section]].
+|image=OOT skulltula small.png
+}}
+
+{{LoZOoT/Enemy
+|name=Gohma Larva
+|hp=2
+|damage=½ Heart
+|first=Inside the Deku Tree
+|location=Inside the Deku Tree, Dodongo's Cavern (Master Quest)
+|navi=Look out when it gets ready to pounce!
+|notes=This enemy attacks by hopping at you when its eye turns red. It usually takes two hits to kill. If you can shoot its egg with the {{im/oot|Items|Fairy Slingshot}} before it hatches, it'll die instantly.
+|image2=LoZ OoT enemy Gohma Larva art.png
+}}
+
+{{LoZOoT/Enemy
+|name=Queen Gohma: Parasitic Armored Arachnid
+|hp=10
+|damage=½ Heart
+|first=Inside the Deku Tree
+|location=Inside the Deku Tree
+|navi=It's one of the parasitic monsters inside the Deku Tree! Its eye is vulnerable when it's red!
+|notes=The boss of the Deku Tree dungeon. This large enemy attacks directly with her two upper appendages or indirectly by releasing Gohma Larva eggs. If these eggs are not destroyed, they will hatch into Gohma Larva. Its weak point is its eye. Hit the eye with the {{im/oot|Items|Fairy Slingshot}} or {{im/oot|Consumables|Deku Nut}} to stun it and attack it with your sword repeatedly. Try to hit it in the eye while it is on the ceiling to prevent it from releasing larva and making it easier to slay.
+|image=LoZ OoT Queen Gohma art.jpg
+}}
+|}
+
+===Hyrule Field===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+
+{{LoZOoT/Enemy
+|name=Peahat
+|hp=6
+|damage=1 heart
+|first=Hyrule Field
+|location=Hyrule Field
+|navi=It's weak point is its roots!
+|notes=This is a large, flying, spinning flower. As it spins, its roots will become visible. Attack these roots to defeat this enemy. This enemy does not attack at night. However, if struck at night, it releases Peahat Larva.
+}}
+
+{{LoZOoT/Enemy
+|name=Peahat Larva
+|hp=1
+|damage=¼ heart
+|first=Hyrule Field
+|location=Hyrule Field
+|navi=Defend with your shield!
+|notes=This smaller version of the Peahat cannot be damaged by your sword. However, it can be blocked with your shield. Once tired or far away from the Peahat that spawned them, they will go away or will die if they plow into the ground.
+}}
+
+{{LoZOoT/Enemy
+|name=Stalchild
+|hp=2
+|damage=¼ heart
+|first=Hyrule Field
+|location=Hyrule Field
+|navi=Don't be afraid of the Stalchild! Just attack it repeatedly!
+|notes=This skeletal enemy erupts from the ground after night falls. A horizontal slice with your sword will remove its head. Upon doing this, it has a harder time finding you. A vertical slice does equal damage but does not remove the head. Its slow movement makes it easy to avoid or defeat. Defeating a series of them in a row causes a large Stalchild to appear that will drop a better rewarding item or Rupee when defeated. Stalchildren can't swim or stay out in the daytime. They will ignore you if you ignore them and run off from them. If you wear the bunny hood, they will not pop out. Just as well, they won't pop out if you remain on one of the dirt paths.
+}}
+|}
+
+=== Lon Lon Ranch ===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Guay
+|hp=1
+|damage=¼ heart
+|first=Lon Lon Ranch
+|location=Lon Lon Ranch
+|navi=Destroy it before it flies into you!
+|notes=This black bird comes out at night, but you can see its shadow on the ground. Simply hit it with a weapon to destroy it. If enough Guay are killed, a large Guay will swoop down and attack. Killing it will make a {{Im/oot|Consumables|Red Rupee}} appear.
+}}
+|}
+
+===Kakariko Village Graveyard===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Poe
+|hp=4
+|damage=¼ heart
+|first=Kakariko Village Graveyard
+|location=Kakariko Village Graveyard
+|navi=If you stare at it with Z Targeting, it will disappear...
+|notes=This is a lantern wielding ghost that disappears when {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}}}-targeted. If {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}|{{3ds|L}}|{{Switch|ZL}}}}-targeting is held, however, it will reappear. After it's defeated, its {{im/oot|Items|Poe|display=essence}} can be captured in a bottle. Poes attack when their graves are disturbed or if you come up to their floating lanterns. The color of their eyes foretells how they will act. Green means they won't attempt to attack, yellow means you've angered them and they may attack, and red marks an incoming attack. They attack by wildly spinning their lanterns, even if they're visible.
+|image=LoZ OoT enemy Poe.jpg
+}}
+{{LoZOoT/Enemy
+|name=The Composer Brothers: Flat and Sharp
+|hp=4
+|damage=¼ heart
+|first=Kakariko Village Graveyard
+|location=Kakariko Village Graveyard
+|navi=??
+|notes=Two old composers who rest in their graves. Reading their graves will cause them to appear and attack you, but they can be disposed of just like normal Poes. When defeated, their spirits will be willing to talk to you, but can never be captured.
+|image=LoZ OoT enemy Flat.png
+|image2=LoZ OoT enemy Sharp.png
+}}
+|}
+
+===Royal Family Tomb===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Keese
+|hp=1
+|damage=½ heart
+|first=Royal Tomb
+|location=Royal Tomb, Dodongo's Cavern, Ice Cavern
+|navi=When you get close to it, use Z Targeting. Even if it flies away, you can still target it.
+|notes=This is a black bat. Although weak, it will set itself alight if a fire is nearby, becoming a Fire Keese; if Blue Fire is around, it will become an Ice Keese. Although a quick sword-swipe will kill them, they are best dispatched with the Slingshot or the Boomerang. They usually nest in certain spots and don't move unless startled, which will trigger an attack.
+}}
+{{LoZOoT/Enemy
+|name=ReDead
+|hp=8
+|damage=¼ heart per second
+|first=Royal Tomb
+|location=Royal Tomb, Castle Town (adult), Bottom of the Well, Shadow Temple
+|navi=Its gaze will paralyze you. If it bites you, tap any button to escape!
+|notes=This is a restless undead creature. It moves slowly but has a paralyzing shriek. The {{im/oot|Ocarina Songs|Sun's Song}} renders them inert for a moderate amount of time. These enemies are best avoided early in the game. Their attack consists of jumping onto Link's back and leeching life from him, taking away ¼ of a heart per second. Rapidly tapping a button is the only means of escape. If one of their brethren dies, they go to where the body lies, ignoring Link. Some ReDeads may crouch, and those that do can't shriek until they get up.
+}}
+|}
+
+===Death Mountain Trail===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Red Tektite
+|hp=2
+|damage=¼ heart
+|first=Death Mountain
+|location=Death Mountain
+|navi=Lock on to it as it jumps with Z Targeting!
+|notes=This four-legged crab-like creature can only attack or move with a small jump.
+}}
+|}
+
+===Lost Woods===
+{| {{prettytable}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Business Scrub
+|hp=??
+|damage=¼ heart
+|first=Lost Woods
+|location=Lost Woods
+|navi=If you get close to it, it will hide in the grass...
+|notes=This enemy fires Deku Nuts at you. If you get too close, it will hide in the ground. However, it will offer to sell items to you when it is defeated. It does not run away after it has been hit.
+}}
+|}
+
+===Sacred Forest Meadow===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Wolfos
+|hp=8
+|damage=½ heart
+|first=Sacred Forest Meadow
+|location=Sacred Forest Meadow, Forest Temple
+|navi=Draw it close to you and watch its movement carefully! Attack it when it drops its guard!
+|notes=A wolf monster can block your attacks unless you time them correctly. Striking it in the back causes more damage.
+}}
+{{LoZOoT/Enemy
+|name=Mad Scrub
+|hp=1
+|damage=¼ heart
+|first=Sacred Forest Meadow
+|location=Sacred Forest Meadow, Kokiri Forest (adult)
+|navi=If you get close to it, it will hide in the grass...
+|notes=A scrub enemy that fires 3 Deku Nuts per attack. It does not sell anything or give information. If you hit it with a reflected Deku Nut, it'll run away, so chase it down and finish it with your sword.
+}}
+|}
+
+===Dodongo's Cavern===
+{|{{Prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Beamos
+|hp=??
+|damage=¼ heart
+|first=Dodongo's Cavern
+|location=Dodongo's Cavern
+|navi=Watch out for its searching beam! I bet it doesn't like smoke to get in its eye!
+|notes=This enemy stands stationary, its head continually rotating 360 degrees. If it catches sight of you with its single eye, it will send out a beam of light to attack you. To destroy it, blow it up with a {{im/oot|Items|Bomb}}.
+}}
+{{LoZOoT/Enemy
+|name=Baby Dodongo
+|hp=1
+|damage=1 heart (contact), ¼ heart (explosion)
+|first=Dodongo's Cavern
+|location=Dodongo's Cavern
+|navi=Watch out for its leaping attack! It will explode after it's defeated!
+|notes=A baby dodongo appears from the ground and wriggles toward you. It attacks by jumping at you, and when defeated, it explodes like a bomb.
+}}
+{{LoZOoT/Enemy
+|name=Lizalfos
+|hp=6
+|damage=1 heart
+|first=Dodongo's Cavern
+|location=Dodongo's Cavern, Spirit Temple
+|navi=Use your shield well and fight with Z Targeting techniques!
+|notes=This lizard-like humanoid fights with a sword. Wait for the opportunity to attack. It will run away when it has been nearly defeated.
+|image2=LoZ OOT enemy Lizalfos art.png
+}}
+{{LoZOoT/Enemy
+|name=Dodongo
+|hp=4
+|damage=1 heart (fire breath), ½ heart (tail whip)
+|first=Dodongo's Cavern
+|location=Dodongo's Cavern
+|navi=Watch out for its fiery breath! Use Z Targeting techniques!
+|notes=This creature breathes fire. Its tail is its vulnerable point. It creates a large explosion when it is defeated.
+}}
+{{LoZOoT/Enemy
+|name=Armos
+|hp=2
+|damage=½ heart
+|first=Dodongo's Cavern
+|location=Dodongo's Cavern
+|navi=Stop its movement and then destroy it!
+|notes=This statue looks like other statues, but will attack when it is attacked. They can be killed with a {{im/oot|Items|Bomb}} or bomb-flower. When these are encountered as Adult Link, {{im/oot|Equipment|Biggoron's Sword}} will also work.
+|image=LoZ OoT enemy Armos.jpg
+}}
+{{LoZOoT/Enemy
+|name=Fire Keese
+|hp=1
+|damage=½ heart
+|first=Dodongo's Cavern
+|location=Dodongo's Cavern
+|navi=Destroy it before it flies into you! If you don't, its flames will burn up your Deku Shield!
+|notes=They fly around constantly and will swoop down attack you with their burning body. If your {{im/oot|Equipment|Deku Shield}} is equipped when it hits you, it will burn up. Fire Keese lose their burning ability after attacking and revert to normal Keese, but will re-ignite if a flame is nearby.
+}}
+{{LoZOoT/Enemy
+|name=King Dodongo: Infernal Dinosaur
+|hp=4
+|damage=½ heart (fire breath), ¼ heart (roll)
+|first=Dodongo's Cavern
+|location=Dodongo's Cavern
+|navi=This is a huge Dodongo that eats anything! Give it a shock, and finish it off with your sword!
+|notes=The boss of Dodongo's Cavern. It can produce a fiery breath and roll around the edge of the room. It is vulnerable when it is preparing for its fiery attack. Tossing a bomb into its mouth stuns it. Slash it repeatedly until it curls up into a ball and rolls around. Make certain that you have the {{im/oot|Equipment|Hylian Shield}} equipped as it will protect you from the monster's rolling attack. If you employ the {{im/oot|Items|Deku Stick}} and jump slash the creature, it will perish very quickly.
+|image=LoZ OoT enemy King Dodongo.png
+}}
+|}
+
+===Zora's River===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Octorok
+|hp=1
+|damage=¼ heart
+|first=Zora's River
+|location=Zora's River, Lake Hylia, Inside Jabu-Jabu's Belly, Forest Temple
+|navi=Bounce back the rocks they spit at you!
+|notes=An octopus enemy that lives in water. It attacks by firing rocks at you, which can be deflected with your shield. This creature will hide from you if you get too close. It can be killed by deflecting its rocks back at it, or by using the {{im/oot|Items|Boomerang}}.
+}}
+{{LoZOoT/Enemy
+|name=Blue Tektite
+|hp=4
+|damage=¼ heart
+|first=Zora's River
+|location=Zora's River, Lake Hylia, Water Temple
+|navi=It's hard to beat on the water. Lure it onto the land!
+|notes=This enemy is similar to the Red Tektite but is able to walk on water. Killing it with a {{im/oot|Items|Light Arrows|display=Light Arrow}} makes it drop a {{Im/oot|Consumables|Purple Rupee}}.
+}}
+|}
+
+===Jabu-Jabu's Belly===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Biri
+|hp=1
+|damage=½ heart
+|first=Jabu-Jabu's Belly
+|location=Jabu-Jabu's Belly
+|navi=If you touch it, you will be electrocuted!
+|notes=A jellyfish-like creature that floats slowly through the air. It may be easy to avoid, but it shocks you with electricity if you do not use ranged attacks. The {{im/oot|Items|Boomerang}} is the best weapon to use against it. The {{im/oot|Items|Fairy Slingshot}} is ineffective against it. A combination of {{im/oot|Items|Deku Nut|display=Deku Nuts}} to bring them down and hits with the sword to kill them can be used. The magical spin-attack attack works, but the range and timing are of such critical importance that it's just easier to use the boomerang. It is also possible to kill Biri by throwing Princess Ruto at them, but you will need to aim well.
+}}
+{{LoZOoT/Enemy
+|name=Bari
+|hp=1
+|damage=½ heart (spin), 1 heart (shock/contact)
+|first=Jabu-Jabu's Belly
+|location=Jabu-Jabu's Belly
+|navi=If you touch it, you will be electrocuted!
+|notes=A tougher version of the Biri that splits into three Biri when defeated. It drops from the ceiling and causes more damage when it attacks. The {{im/oot|Items|Fairy Slingshot}} is ineffective against it, but the {{im/oot|Items|Boomerang}} works perfectly.
+|image=LoZ OoT enemy Bari.png
+}}
+{{LoZOoT/Enemy
+|name=Shabom
+|hp=1
+|damage=¼ heart
+|first=Jabu-Jabu's Belly
+|location=Jabu-Jabu's Belly
+|navi=(''N64'') If you try to cut it, it will bounce off your blade!<br>(''GCN'') If you cut it, it will burst open and knock you back!<br>(''3D'') It's a big, floating bubble. Be careful not to touch it!
+|notes=A bubble that floats toward you in a somewhat random way. If it pops near you, it will send you flying backward and damage you. Use a {{im/oot|Items|Deku Nut}} to cause all nearby Shaboms to pop, or the {{im/oot|Items|Boomerang}} for individuals. The {{im/oot|Items|Fairy Slingshot}} is ineffective against it. A jump slash with a {{im/oot|Items|Deku Stick}} provides adequate range to avoid its explosion upon its defeat. The magic spin-attack is also effective.
+}}
+{{LoZOoT/Enemy
+|name=Tailpasaran
+|hp=1
+|damage=½ heart
+|first=Jabu-Jabu's Belly
+|location=Jabu-Jabu's Belly
+|navi=Its tail is its weak point!
+|notes=An armored enemy that shocks you if you slash it. Use {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}{{3ds|L}}|{{Switch|ZL}}}}-targeting and throw the {{im/oot|Items|Boomerang}} at it or use the magic spin-attack to defeat it.
+}}
+{{LoZOoT/Enemy
+|name=Stinger
+|hp=2
+|damage=½ heart
+|first=Jabu-Jabu's Belly
+|location=Jabu-Jabu's Belly
+|navi=Destroy it before it flies into you!
+|notes=An airborne enemy which attacks similarly like Guay and Keese. A jump slash or a hit from the {{im/oot|Items|Boomerang}} will defeat it.
+}}
+{{LoZOoT/Enemy
+|name=Parasitic Tentacle
+|hp=4
+|damage=¼ heart
+|first=Jabu-Jabu's Belly
+|location=Jabu-Jabu's Belly
+|navi=It seems that the narrow part is its weak point... You need a particular item to destroy it!
+|notes=An appendage that retracts unless it thinks it can attack you. Draw it out by moving closer, and use {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}{{3ds|L}}|{{Switch|ZL}}}}-targeting so you can attack with the {{im/oot|Items|Boomerang}} which will halt its attack. Its weak point is a narrow segment on its body.
+}}
+{{LoZOoT/Enemy
+|name=Big Octo
+|hp=4
+|damage=½ heart
+|first=Jabu-Jabu's Belly
+|location=Jabu-Jabu's Belly
+|navi=Attack it from behind!
+|notes=A mini-boss found in Jabu-Jabu's Belly. It moves in a circle and switches directions after being hit. To defeat this enemy, you will need to chase it until you can hit it with the {{im/oot|Items|Boomerang}}. Hitting the Big Octo in the back with the Boomerang stuns it and leaves it vulnerable to the {{im/oot|Items|Kokiri Sword}} in the back.
+}}
+{{LoZOoT/Enemy
+|name=Barinade: Bio-Electric Anemone
+|hp=15
+|damage=??
+|first=Jabu-Jabu's Belly
+|location=Jabu-Jabu's Belly
+|navi=Many parasitic jellyfish swarm around this monster. Aim for its body, protected by jellyfish!
+|notes=The boss of Jabu-Jabu's Belly. Watch out for its electric beams that it constantly fires at you throughout the battle. In order to defeat it target the tentacles attached to the ceiling with the {{im/oot|Items|Boomerang}} first. Once they have been detached from the ceiling, attack the main body. It will begin to spin around attempting to run into you. Stun it with the Boomerang and destroy the Jellyfish protecting its weak point to make attacking it easier. Stun it with the Boomerang and attack it repeatedly.
+|image=LoZ OoT enemy Barinade.png
+}}
+|}
+
+==Adult Link==
+===Hyrule Field===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Angry Poe
+|hp=??
+|damage=??
+|first=Hyrule Field
+|location=Hyrule Field
+|navi=This Poe doesn't disappear even if you stare at it. It doesn't spook easily, does it...
+|notes=It is a tougher variant of the Poe. It will not go away, even if Link looks at it. It constantly circles around him and drops flames from its lantern. {{im/oot|Items|Din's Fire}} is very effective if you get cornered by one.
+}}
+{{LoZOoT/Enemy
+|name=Big Poe
+|hp=4
+|damage=0 hearts
+|first=Hyrule Field
+|location=Hyrule Field
+|navi=This Poe won't disappear even if you stare at it. It moves fast despite its size!
+|notes=A limited enemy that only appears when you ride Epona. They never attack, but they like to tease and scare lone travelers. Two shots from the {{im/oot|Items|Fairy Bow}} will slay one, but they do not stick around for very long. Ten Big Poes inhabit Hyrule Field and only appear in certain locations. You can collect their {{im/oot|Items|Big Poe|display=spirits}} and sell them to the keeper of the Ghost Shop to earn Rupees. When he has all ten spirits, you receive another {{im/oot|Items|Empty Bottle}}.
+}}
+|}
+
+===Kokiri Forest===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Big Deku Baba
+|hp=4
+|damage=½ heart
+|first=Kokiri Forest
+|location=Kokiri Forest, Forest Temple
+|navi=Hit it when it lunges at you, and it will stand upright. Cut it quickly to get a Deku Stick!
+|notes=A huge stationary plant that bite anything that comes into range. Big Deku Babas are more powerful and more dangerous than their smaller counterparts. This plant still has a limited range of attack. Attacking it when it is extended will stun it. Killing it in this stunned position will yield a {{im/oot|Consumables|Deku Stick}} (although they are useless as an adult) while it will drop three {{im/oot|Consumables|Deku Nut|display=Deku Nuts}} if it is not stunned.
+}}
+|}
+
+===Lost Woods===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Skull Kid
+|hp=10
+|damage=½ heart
+|first=Lost Woods
+|location=Lost Woods
+|navi=Is this what happens to kids who wander into the forest? It looks like he doesn't like grownups.
+|notes=Kokiri that have been lost in the forest too long become Skull Kids. They are afraid of adults and will not approach them. Skull Kids will shoot projectiles at you. If you kill a Skull Kid, it will yield an {{Im/oot|Consumables|Orange Rupee}}.
+}}
+|}
+
+===Sacred Forest Meadow===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Moblin Guard
+|hp=1
+|damage=½ heart
+|first=Sacred Forest Meadow
+|location=Sacred Forest Meadow
+|navi=??
+|notes=Large goblin-like monsters that wear chainmail armor and wield long spears. If one sees you, it will charge at you full speed with its spear drawn. Getting hit launches you into a corner. Stay out of sight until one turns around before shooting your {{im/oot|Items|Hookshot}} at its lower back. One shot is all it will take. 
+}}
+{{LoZOoT/Enemy
+|name=Club Moblin
+|hp=6
+|damage=½ heart
+|first=Sacred Forest Meadow
+|location=Sacred Forest Meadow
+|navi=??
+|notes=A gargantuan Moblin warrior clad in spiked armor that wields a colossal warhammer. It is only found in the narrow corridor connecting the Sacred Forest Meadow to the Forest Temple. It strikes the ground when you approach which generates shockwaves that will send you flying. Avoid the shockwaves and maneuver behind the Moblin; it is unable to turn around to hit you. Strike it with the {{im/oot|Equipment|Master Sword}} three times to defeat it. {{im/oot|Equipment|Bombchu|display=Bombchus}} can be used instead as a ranged attack.
+}}
+|}
+
+===Forest Temple===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Blue Bubble
+|hp=4
+|damage=¼ heart
+|first=Forest Temple
+|location=Forest Temple
+|navi=Guard against its blue flame with your shield!
+|notes=A hovering skull surrounded by blue fire. Blue Bubbles attack by flying into you, and if it makes contact, you'll briefly be unable to swing your sword. To defeat them, use your {{im/oot|Items|Hookshot}} or let them collide with your shield when they are covered in fire, or shoot them with an arrow and strike the skull twice with your sword once it starts bouncing on the floor (this is easier if you Hook/Longshot it before hand, which immobilizes it).
+|image2=LoZ OOT enemy Blue Bubble art.jpg
+}}
+{{LoZOoT/Enemy
+|name=Stalfos
+|hp=10
+|damage=1 heart (slash), 2 hearts (jump slash)
+|first=Forest Temple
+|location=Forest Temple
+|navi=Lure it close to you and watch its movement carefully! Attack it when it drops its guard!
+|notes=A large, armored skeleton that wields a sword and shield. Stalfos attack you at close range with its sword, or at mid-range by jump attacking. Stalfos have proficient blocking skills and are only vulnerable when they are about to attack or immediately after they land from a jump attack. Some Stalfos are capable of regeneration; if their bones remain in a pile once they have been defeated, move quickly to accomplish your objective in the room, or they will regenerate. {{im/oot|Equipment|Biggoron's Sword}} is the best way to defeat these enemies due to its higher attack power.
+|image2=LoZ OOT Stalfos art.jpg
+}}
+{{LoZOoT/Enemy
+|name=Wallmaster
+|hp=4
+|damage=0 hearts
+|first=Forest Temple
+|location=Forest Temple, Fire Temple (Master Quest), Ice Cavern (Master Quest), Water Temple (Master Quest), Shadow Temple, Gerudo Training Grounds, Spirit Temple, Ganon's Castle
+|navi=Watch out for its shadow on the floor. Destroy it before it goes back up to the ceiling!
+|notes=A giant decomposing hand that hangs from the ceiling. Its shadow will encircle Link when he nears, and after a few seconds, it will drop down and grab Link, transporting him to the beginning of the dungeon. To avoid getting assaulted by one, continue moving (it begins hovering above you when you have stopped). To kill one easily (this is easier if you play with the sound on,) simply stay in place as the shadow grows around you and you hear a sucking sound. As soon as the sound stops and the shadow starts growing, move out of the way and attack it when it hits the floor. It drops a lot of Rupees when defeated.
+}}
+{{LoZOoT/Enemy
+|name=Floormaster
+|hp=1
+|damage=1 heart
+|first=Forest Temple
+|location=Forest Temple
+|navi=When it splits up, destroy all the pieces before they reunite!
+|notes=A giant decomposing hand that crawls on the floor. If you approach it, it turns green and flies towards you. Avoid its attack by blocking it with your shield, or else it will pick you up and send you to the beginning of the dungeon. When defeated, it splits into three smaller Floormasters. If any of the hands (and it is possible for more than one to do this at the same time) manage to latch onto you, it will suck a large amount of life away before regrowing into a large hand. {{im/oot|Items|Din's Fire}} is a preferred weapon against Floormasters: unleash Din's Fire, and cast it again to defeat the three tiny Floormasters that spawn. 
+}}
+{{LoZOoT/Enemy
+|name=The Poe Sisters: Joelle, Beth, and Amy
+|hp=10 (Joelle), 12 (Beth)
+|damage=??
+|first=Forest Temple
+|location=Forest Temple
+|navi=Aim for her when she appears!
+|notes=These three Poe sisters are included together because they have identical fighting styles. The Poe Sisters are floating Poes holding fiery lanterns, very similar to every other Poe in the game; unlike the other Poes, however, {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}|{{3ds|L}}|{{Switch|ZL}}}}-targeting does not cause them to disappear. To defeat them, {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}{{3ds|L}}|{{Switch|ZL}}}}-target and wait with your shield up to deflect their attacks until they reappear; at this point, shoot them with arrows and repeat the process as necessary.
+}}
+{{LoZOoT/Enemy
+|name=Green Bubble
+|hp=1
+|damage=??
+|first=Forest Temple
+|location=Forest Temple, Spirit Temple, Ganon's Castle
+|navi=Use your sword when its green fire vanishes!
+|notes=A close relative to the Blue Bubble. It is covered in a green fire that damages you when you get too close. The fire that surrounds these skulls dissipates intermittently that leaves them vulnerable to attack. One sword slash is enough to dispatch them.
+}}
+{{LoZOoT/Enemy
+|name=Meg
+|hp=10
+|damage=??
+|first=Forest Temple
+|location=Forest Temple
+|navi=If she splits into multiple images, you need to figure out which one is the real one. Is it this one?
+|notes=Meg is the final Poe sister and the Mini-Boss of the Forest Temple. She separates into four identical clones of herself which encircle you. The real Meg spins around occasionally, usually right after she appears. {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}|{{3ds|L}}|{{Switch|ZL}}}}-Target her and shoot her with your {{im/oot|Items|Hookshot}} or arrows. If you hit the wrong ghost, it will disappear. Hitting the fakes three times will automatically inflict you with unavoidable damage. Do not fight in first-person view since you cannot see all of the ghosts at once. Meg is defeated after being shot by 5 arrows.
+}}
+{{LoZOoT/Enemy
+|name=Phantom Ganon: Evil Spirit from Beyond
+|hp=24
+|damage=3 hearts (charge), 2 hearts (lightning bolt), 1 heart (energy ball)
+|first=Forest Temple
+|location=Forest Temple
+|navi=(''first phase'') Attack him when he comes out of one of the pictures! Watch out for the fake one!</br>(''second phase'') It's an evil ghost of the Forest Temple! He comes out of one of the pictures. Answer his magic attack with an attack of your own!
+|image=LoZ OoT enemy Phantom Ganon.png
+|notes=An evil creation of Ganondorf and the boss of the Forest Temple. First, you must shoot Phantom Ganon three times with an arrow as he tries to exit a painting. To make things difficult, Phantom Ganon has his own phantom, riding through the paintings with him. The fake Phantom Ganon turns and heads back into its painting while the real one leaps out of the painting while casting lightning bolts at the Triforce emblem in the middle of the arena. To avoid being hit by the electrical blast, do not stand in the center of the arena, or on the small Triforces that surround it. The best place to stand is right between two of the small Triforce emblems on the floor, which ensures that you will be safe from the electricity. The easiest way to determine the real one is to look at both the paintings they are coming from and find the phantom that looks slightly brighter: the brighter of the two is the real Phantom Ganon. After being hit with 3 arrows, he descends from his horse and float above the arena. In the second phase of the battle you must return Phantom Ganon's energy ball attacks with your sword. You must time your strokes so that you'll deflect the ball of electricity before it hits you. Continuously {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}}}|{{3ds|L}}|{{Switch|ZL}}}}-Target him to keep your attacks aimed. Shorter distance attacks are more likely to hit him. When you hit him with one of his own spells, run toward him and attack him with your sword. After being hit four times, he will add a new attack: when you see him charge up his staff with a kaleidoscopic light, prepare to move fast. Phantom Ganon will hop on his staff and ride it like a broomstick. If you wait until he targets you and starts his swoop, you can sidestep him and avoid taking damage. Keep reflecting his balls of electricity and move in and strike him until he is defeated. Another way to defeat him is to wait until he gets close to the ground. Then hit him with your sword to stun him. After he falls to the ground hit him with your sword until he gets back up.
+|}
+
+===Death Mountain Crater===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Red Bubble
+|hp=4
+|damage=½ heart
+|first=Death Mountain Crater
+|location=Death Mountain Crater, Fire Temple
+|navi=Guard against its attack with your shield!
+|notes=Close relative of the Green and Blue Bubbles, the Red Bubble is found in fiery areas. Its attacks can even burn you. Extinguish the fire on its body to destroy it. {{im/oot|Items|Deku Nut|display=Deku Nuts}} are the one thing that can stun them so you can attack them.
+}}
+|}
+
+===Fire Temple===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Torch Slug
+|hp=6
+|damage=½ heart
+|first=Fire Temple
+|location=Fire Temple
+|navi=When the fire on its back is extinguished, it will run away. Destroy it before it relights!
+|notes=A slug with flames all over its body. If it's hit by one of Link's weapons, the fire on its body disappears. The {{im/oot|Items|Hookshot}} will also stun it. It must be destroyed before it can re-ignite.
+}}
+{{LoZOoT/Enemy
+|name=Like-Like
+|hp=4
+|damage=½ heart
+|first=Fire Temple, Inside Jabu-Jabu's Belly (Master Quest)
+|location=Inside Jabu-Jabu's Belly (Master Quest), Fire Temple, Water Temple, Bottom of the Well, Shadow Temple, Gerudo Training Grounds, Spirit Temple, Ganon's Castle
+|navi=An enemy that eats shields and certain clothes. Beat it quickly to get your gear back!
+|notes=The most disgusting thing you've ever seen, kind of like a slimy loofah: A tubey, worm-like enemy that sucks up Link's tunics and shields. It can be killed with arrows (which will keep it at a distance so it can't eat your gear) or a sword. It will give back the items it ate when you kill it along with three {{im/oot|Consumables|Blue Rupee|display=Blue Rupees}}. Just don't leave the room or you'll lose your gear and have to re-purchase it.
+}}
+{{LoZOoT/Enemy
+|name=Door Mimic
+|hp=??
+|damage=??
+|first=Fire Temple
+|location=Fire Temple, Gerudo Training Ground, Spirit Temple
+|navi=??
+|notes=A deceiving enemy that poses as a door, but falls on you if you try to open it. It is distingiushed by the fact that it sticks out from a wall. A {{im/oot|Items|Bomb|display=bomb}} will eliminate one.
+}}
+{{LoZOoT/Enemy
+|name=Flare Dancer
+|hp=12
+|damage=½ heart (flame scatter), 0 hearts (contact), 1¼ hearts (self-destruct)
+|first=Fire Temple
+|location=Fire Temple
+|navi=Extinguish its flaming clothes first...
+|notes=The mini-boss of the dungeon. Only two exist. Its flaming clothes must be extinguished before it can be damaged. Throw a {{im/oot|Items|Bomb|display=bomb}} at it to get the middle to drop, then whack it with your sword. Another, possibly easier way is to use the {{im/oot|Items|Hookshot}} on him when he still dances on the spot. This will drag him towards you and you can slash him with your sword. The Spin attack does a lot of damage. It will run away from you in a circle, but you can change direction to cut it off or use the Hookshot to reel it back in. It will jump into the flames again a few more times when it gets away, and get faster each time. It also changes color for the amount of health it has; red is around full, blue is middle, and green is when its almost dead. Don't stay too close as it dies, as it'll explode like a Dodongo.
+}}
+{{LoZOoT/Enemy
+|name=Volvagia: Subterranean Lava Dragon
+|hp=12
+|damage=2 hearts (rock shower/slash), 3 hearts (fire breath)
+|first=Fire Temple
+|location=Fire Temple
+|navi=It's the Boss of the Fire Temple, revived by the Evil King. I don't know its weak point...
+|notes=The boss of the Fire Temple. The dragon that was sealed away with the {{im/oot|Items|Megaton Hammer}}, and revived by Ganondorf. It can be defeated by hitting with the Megaton Hammer each time it pops out of a lava hole, then slashed with a sword. It eventually becomes unpredictable and will pop out randomly. It can also breathe fire and pummel you with rocks. To avoid being pelted with either attack, cling onto the edge of the platform during each attack. You can also shoot arrows at it when in air to get it to come back down faster.
+|image=LoZ OoT enemy Volvagia.png
+}}
+|}
+
+===Ice Cavern===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Freezard
+|hp=6
+|damage=1½ hearts
+|first=Ice Cavern
+|location=Ice Cavern
+|navi=Watch out for its freezing breath! Destroy it completely before it revives.
+|notes=An enemy made entirely of ice. It has the power to freeze you with its cold breath. {{im/oot|Items|Din's Fire}} is very useful against it, but your sword works as well. Freezards pop out of the ground when they attack, which is distinguished by a sudden rise of fog, allowing you to predict where they'll appear.
+}}
+{{LoZOoT/Enemy
+|name=Flying Jar
+|hp=??
+|damage=??
+|first=Ice Cavern
+|location=Ice Cavern
+|navi=??
+|notes=Pots that easily pose as harmless ones, but they fly at you when you get near them. They break once they hit the ground, or hit your shield if you block them. They may have something inside that could be of use to you.
+}}
+{{LoZOoT/Enemy
+|name=Ice Keese
+|hp=1
+|damage=½ heart
+|first=Ice Cavern
+|location=Ice Cavern
+|navi=Destroy it before it flies into you!
+|notes=Keese that have come into contact with Blue Fire become these. They have the power to freeze you for awhile. Unlike Fire Keese, they don't lose their power after attacking. A long-range weapon like the {{im/oot|Items|Fairy Bow}} is good to use on them.
+}}
+{{LoZOoT/Enemy
+|name=White Wolfos
+|hp=8
+|damage=½ heart
+|first=Ice Cavern
+|location=Ice Cavern
+|navi=Lure it close to you and watch its movement carefully! Attack it when it drops its guard!
+|notes=A large Wolfos with white fur and red eyes that has double the strength of a normal Wolfos. Its back is its weak point like a regular Wolfos. It will die quickly if you jump-slash it in its back enough times when you get the chance.
+}}
+|}
+
+===Water Temple===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Spike
+|hp=2
+|damage=½ heart
+|first=Water Temple
+|location=Water Temple
+|navi=Aim for it when it retracts its spikes!
+|notes=A metal ball with sharp spikes that rolls toward you. When hit with the {{im/oot|Items|Hookshot}} or your shield, it becomes a vulnerable rock you can attack from a distance.
+|image=LoZ OoT enemy Spike.png
+}}
+{{LoZOoT/Enemy
+|name=Shell Blade
+|hp=2
+|damage=½ heart
+|first=Water Temple
+|location=Water Temple
+|navi=Its internal muscle is its weak point!
+|notes=A clam with teeth on its back. When you get near it, it will open its vulnerable mouth. Use the {{im/oot|Items|Hookshot}} or {{im/oot|Items|Fairy Bow}} on its mouth to kill it. Use your shield to avoid its teeth.
+}}
+{{LoZOoT/Enemy
+|name=Dark Link
+|hp=Same number as Link's heart containers
+|damage=½ heart
+|first=Water Temple
+|location=Water Temple
+|navi=Conquer yourself!
+|notes=A very formidable foe. This is a doppelganger version of Link. He blocks almost every sword attack, jumps onto Link at times to attack, and shifts his position whenever he gets hit. Because of this, the best weapon against him is the {{im/oot|Items|Megaton Hammer}}, since you (and therefore he) cannot block with this, and he cannot imitate it. You could also use {{im/oot|Items|Din's Fire}} when Dark Link gets near you, but you'll want to bring at least 1 {{im/oot|Items|Green Potion}}. He takes many hits to defeat and can cause a lot of damage, so you'll probably want to have at least 1 {{im/oot|Items|Fairy's Spirit|display=fairy}}. The {{im/oot|Items|Hookshot}} also has a great usefulness on this mini-boss.
+}}
+{{LoZOoT/Enemy
+|name=Morpha: Giant Aquatic Amoeba
+|hp=20
+|damage=1 heart (contact), 1¾ hearts (grab)
+|first=Water Temple
+|location=Water Temple
+|navi=Master of the Water Temple. It has absolute control of water. Pull out its nucleus and attack it!
+|notes=The boss of the Water Temple. It is a pink nucleus that swims through the waters of Lake Hylia it stole. It can manipulate water and form it into a tentacle. It can cause damage to Link if a tentacle hits him, but the damage is much more lethal if it is actually able to grab Link and thrash him around. If you latch onto Morpha with the now-upgraded {{im/oot|Items|Longshot}}, you can pull it out of the water and to you to hit it. After a while, Morpha creates two tentacles at once to avoid.
+|image=LoZ OoT enemy Morpha.png
+}}
+|}
+
+===Bottom of the Well===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Giant Green Bubble
+|hp=??
+|damage=??
+|first=Bottom of the Well
+|location=Bottom of the Well
+|navi=Use your sword when its green fire vanishes!
+|notes=A larger than normal Green Bubble that stalks the corridors of the well. It does not remain stationary like its normal kind and is harder to avoid. It is the only one you'll face.
+|image=LoZ OoT enemy Green Bubble.png
+}}
+{{LoZOoT/Enemy
+|name=Gibdo
+|hp=8
+|damage=½ heart per second
+|first=Bottom of the Well
+|location=Bottom of the Well
+|navi=Its gaze will paralyze you. If it bites you, tap any button to escape!
+|notes=Gibdos are very similar to ReDead, since they shriek if they make eye contact with you and go to any Gibdos with them that die, but are wrapped in bandages and do not crouch like ReDead. Gibdos attack anyone who bothers them, and are a lot more unforgiving than ReDeads when they drain the life out of Link, taking away ½ of a heart per second. Like ReDeads, they freeze when you play the {{im/oot|Ocarina Songs|Sun's Song}}.
+}}
+{{LoZOoT/Enemy
+|name=Dead Hand
+|hp=10
+|damage=¼ heart (burrow/emerge), ½ heart (bite)
+|first=Bottom of the Well
+|location=Bottom of the Well, Shadow Temple, Ganon's Castle (Master Quest)
+|navi=Watch out for its infinite hands! Aim for its head!
+|notes=A twisted mini-boss that has several hands sticking out of the ground. If you get too close to one, it will grab you and hold on. If that happens, Dead Hand will reveal his body and close in to attack. You can get out of a hand's grip by wiggling the Control Stick, but killing a hand is pointless because another one soon takes its place. The only way to defeat Dead Hand is to wait for his head to bend down to attack and slash it quickly. Dead Hand can also burrow back into the ground and churn up dirt that can injure you if it hits you.
+}}
+|}
+
+===Shadow Temple===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Big Beamos
+|hp=??
+|damage=??
+|first=Shadow Temple
+|location=Shadow Temple
+|navi=??
+|notes=A slightly bigger Beamos that needs to be bombed twice in order to defeat. It can resist bomb explosions with its stronger armor.
+|image=LoZ OoT enemy Beamos.png
+}}
+{{LoZOoT/Enemy
+|name=Fake Eye Switch
+|hp=??
+|damage=??
+|first=Shadow Temple
+|location=Shadow Temple
+|navi=??
+|notes=An eye switch that shoots fireballs at you when you approach it. One hit to its eye with an arrow will defeat it, but only when the eye is open.
+}}
+{{LoZOoT/Enemy
+|name=Bongo Bongo: Phantom Shadow Beast
+|hp=32
+|damage=??
+|first=Shadow Temple
+|location=Shadow Temple
+|navi=Boss of the Shadow Temple, revived from the well. Look at it with the eye of truth!
+|notes=:An evil shadow spirit that hides his body in the shadows and attacks with his hands. You must first stun his hands, then use the {{im/oot|Items|Lens of Truth}} to see his body and quickly shoot him in the eye before he is vulnerable to sword attacks. You can also use {{im/oot|Items|Ice Arrows}} on his hand to get him to smash his frozen hand free which will automatically get to where you can shoot the eye without him running into you.
+|image=LoZ OoT enemy Bongo Bongo.png
+}}
+|}
+
+===Gerudo's Fortress===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Gerudo Guard
+|hp=??
+|damage=??
+|first=Gerudo's Fortress
+|location=Gerudo's Fortress
+|navi=??
+|notes=Spear-wielding Gerudo that will capture you if they see you. You can pick them off with arrows or stun them with the {{im/oot|Items|Longshot}}, but you can in fact also use close-combat weapons on them, such as the {{im/oot|Equipment|Biggoron's Sword}}. Once you get the Gerudo's Membership Card, they are no longer your enemies.
+}}
+{{LoZOoT/Enemy
+|name=Gerudo Thief
+|hp=20
+|damage=½ heart
+|first=Gerudo's Fortress
+|location=Gerudo's Fortress
+|navi=When she drops her guard, attack! If you don't defeat her, you'll be captured!
+|notes=Only four are encountered in the game. They are much more skilled than the other Gerudo Guards because they have one purpose: to make sure prisoners don't escape. They wield two scimitars and are trained to block several sword attacks. The deadliest move in their arsenal is their spin attack, which is used to knock out the toughest enemies and capture them. The easiest and quickest way to defeat them is to use {{im/oot|Equipment|Biggoron's Sword}}.
+}}
+|}
+
+===Gerudo Training Ground===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Dinolfos
+|hp=12
+|damage=½ heart
+|first=Gerudo Training Ground
+|location=Gerudo Training Ground
+|navi=Use your shield well and fight with Z Targeting techniques!
+|notes=These beasts are Lizalfos that have evolved for battle. They take more hits to kill and cause more damage with their swords, and can be very elusive. An easy way to beat them is: Deku Nut, Jump Attack, Deku Nut, Jump Attack, repeat until dead. This works in ''Majora's Mask'', as well.
+}}
+|}
+
+===Haunted Wasteland===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Leever
+|hp=2
+|damage=½ heart
+|first=Haunted Wasteland
+|location=Haunted Wasteland, Desert Colossus
+|navi=Watch its movements closely and let it go by!
+|notes=Small creatures that burrow out of the ground and attack in one direction. Most of the time, you'll be attacked by a group of Leevers, which makes it hard to escape them all. It's simple to just run past them, but if you want to make it to safety without getting hurt, use {{im/oot|Items|Nayru's Love}}.
+}}
+{{LoZOoT/Enemy
+|name=Purple Leever
+|hp=2
+|damage=½ heart
+|first=Haunted Wasteland
+|location=Haunted Wasteland, Desert Colossus
+|navi=Watch its movements closely and let it go by!
+|notes=If enough Leevers are killed, this bigger and more dangerous Leever comes out of the ground. Unlike other Leevers, it can change its direction to attack you. However, its body is slower and much more sluggish than normal Leevers because of its bigger size.
+}}
+|}
+
+===Spirit Temple (Young Link)===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Anubis
+|hp=4
+|damage=1½ hearts
+|first=Spirit Temple
+|location=Spirit Temple
+|navi=It's vulnerable to fire!
+|notes=A dog-like mummy that hovers around narrow space and shoots fire at you if you approach it. They move just as you do (if you move to the left, he will move to his left.) The only way to defeat it is to engulf it in flames. There is a puzzle in the room based on this, but {{im/oot|Items|Din's Fire}} or {{im/oot|Items|Fire Arrows}} will also work.
+|image=LoZ OoT enemy Anubis.png
+}}
+{{LoZOoT/Enemy
+|name=Iron Knuckle (Silver)
+|hp=31
+|damage=4 hearts
+|first=Spirit Temple, Fire Temple (Master Quest)
+|location=Fire Temple (Master Quest), Gerudo Training Ground (Master Quest), Spirit Temple
+|navi=Watch out for its axe attack! It hurts a lot! Strike when it drops its guard!
+|notes=A dangerous, armored behemoth mini-boss that wields a deadly axe. If you get clobbered by one, you'll take a lot of damage, so you might want a {{im/oot|Items|Fairy's Spirit|display=fairy}} or {{im/oot|Items|Red Potion}} with you. The best way to defeat it is with hit-and-run sword tactics to dodge its axe. {{im/oot|Equipment|Biggoron's Sword}} is best because it's so powerful, which means you can take him out much more quickly. After several hits, the chest plate it wears will tumble off, and the Iron Knuckle will become more agile, but vulnerable to Deku Seeds or arrows. If you hide behind a pillar and let him smash it, hearts will fall out (Rupees if you have full health).
+|image=LoZ OoT enemy Iron Knuckle.jpg
+}}
+|}
+
+===Spirit Temple (Adult Link)===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=White Bubble
+|hp=4
+|damage=¼ heart
+|first=Spirit Temple
+|location=Spirit Temple
+|navi=Aim for it when it stops!
+|notes=This is the fourth and final type of Bubble you'll encounter. It drags a small white flame with it as it moves, then stops to spin. As it spins, hit it with an arrow or the {{im/oot|Items|Longshot}} to make it vulnerable to your sword.
+}}
+{{LoZOoT/Enemy
+|name=Iron Knuckle (Nabooru)
+|hp=??
+|damage=??
+|first=Spirit Temple
+|location=Spirit Temple
+|navi=Something's strange... This is not an ordinary enemy!
+|notes=This Iron Knuckle is the strongest one you'll face. It has a lot more health than normal and stronger armor than the rest. The axe it holds also proves more powerful. The only way to defeat it is with your sword, or bombs.
+|image=LoZ OoT enemy Iron Knuckle (Nabooru).png
+}}
+{{LoZOoT/Enemy
+|name=Twinrova: Sorceress Sisters
+|hp=24
+|damage=??
+|first=Spirit Temple
+|location=Spirit Temple
+|navi=(''first phase, Koume'') Ganondorf's surrogate mother. Sorceress of Flame. She seems vulnerable to low temperature.<br>(''first phase, Kotake'') Ganondorf's surrogate mother. Sorceress of Ice. She seems vulnerable to high temperature.<br>(''second phase'') This is the combined form of Kotake and Koume. Turn their magic attack back at them!
+|notes=These two witches are the bosses of the Spirit Temple. Kotake attacks you with ice, and Koume with fire. To defeat them, you must deflect the attack of one sister with your {{im/oot|Equipment|Mirror Shield}} and aim it at the other sister. {{control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}|{{3ds|L}}{{Switch|ZL}}}}-Targeting is very helpful here. Use it to target the sister who's firing first, and then quickly target the other when she flies by to hit her. After a few hits, they will combine into Twinrova. Twinrova holds two wands of fire and ice that you must avoid. To defeat her, you need to block three attacks of the same kind with the {{im/oot|Equipment|Mirror Shield}}, which will then be released as one big attack. Get close to Twinrova when this happens and aim the shield at her so she gets hit with her own attack. Then, you'll be able to use your sword on her.
+|image=LoZ OoT enemy Twinrova Sisters.png
+|image2=LoZ OoT enemy Twinrova.png
+}}
+|}
+
+===Ganon's Castle===
+{|{{prettytable|sortable=1}}
+!width="200px"|Enemy!!HP!!Damage dealt!!Location first seen!!Locations!!Navi description!!Notes
+{{LoZOoT/Enemy
+|name=Iron Knuckle (White)
+|hp=??
+|damage=??
+|first=Ganon's Castle
+|location=Ganon's Castle
+|navi=Watch out for its axe attack! It hurts a lot! Strike when it drops its guard!
+|notes=There is only one you face, and it is part of the final defense of Ganon's Castle. It has a little more punch to its axe, and is paired up with the stronger Black Iron Knuckle.
+|image=LoZ OoT enemy Iron Knuckle.jpg
+}}
+{{LoZOoT/Enemy
+|name=Iron Knuckle (Black)
+|hp=??
+|damage=??
+|first=Ganon's Castle
+|location=Ganon's Castle
+|navi=Watch out for its axe attack! It hurts a lot! Strike when it drops its guard!
+|notes=This Iron Knuckle takes the place of the White Iron Knuckle in case it falls in battle. It has even more power to its axe, and is the only one you ever encounter as well.
+|image=LoZ OoT enemy Iron Knuckle.jpg
+}}
+{{LoZOoT/Enemy
+|name=Ganondorf: Great King of Evil
+|hp=40
+|damage=??
+|first=Ganon's Castle
+|location=Ganon's Castle
+|navi=(''while stunned'')<br>I have no idea what his weak point is!
+|notes=Ganondorf is the final boss of the game, and the most dangerous. To defeat the evil king, you must send back the magic attacks he sends at you which can destroy the non-metal platforms by swinging your sword until he is hit, then shoot him with a {{im/oot|Items|Light Arrows|display=Light Arrow}}. After that, you can strike him down with your sword. When Ganondorf is low on health, he'll use his ultimate magic attack on you, which you can deflect with a Super Spin Attack, or just avoid it by using a Light Arrow on him before he fires the attack. The {{im/oot|Equipment|Biggoron's Sword}} is best for this, because it has a longer range when deflecting the magic attack and is more powerful than the {{im/oot|Equipment|Master Sword}}. If you're running low on health or magic, just drop down (rolling will stop you from getting hurt) and break some pots.
+|image=LoZOoT Link and Ganon Artwork.jpg
+}}
+{{LoZOoT/Enemy
+|name=Ganon
+|hp=40
+|damage=??
+|first=Ganon's Castle
+|location=Ganon's Castle
+|navi=I really have no idea what his weak point is!
+|notes=The final form of the final boss, Ganon, is a giant monster wielding two large swords. At the start of the battle, you lose the {{im/oot|Equipment|Master Sword}}, and you must use the {{im/oot|Equipment|Biggoron's Sword}} or {{im/oot|Items|Megaton Hammer}} instead. You can strike his head with {{im/oot|Items|Light Arrows}} or a {{im/oot|Items|Deku Nut}} to stun him or run under him to reach his tail. You have to strike Ganon's tail until you have a chance to get the Master Sword. When you do, Ganon will move faster than before, but the strategy is the same. Even when you get the Master Sword back, though, it's faster (and uses fewer Light Arrows, and therefore conserves magic) to use the Biggoron's Sword; however, once Zelda has him held down, the final blow '''must''' be delivered by the Master Sword. If you run out of magic, lead Ganon to a pillar and go behind it to make him smash it to reveal bombs, hearts, arrows, magic jars, or fairies. When Ganon is defeated, you'll be treated to the ending.
+|image=LOZ OOT Ganon Artwork.png
+}}
+|}
+ 
+{{Footer Nav|game=The Legend of Zelda: Ocarina of Time|prevpage=Consumables|nextpage=Glitches}}

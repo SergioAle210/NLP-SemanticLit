@@ -1,0 +1,90 @@
+{{Infobox Boss
+|image=
+{{Media
+ |Artwork OoT= File:OoT Bongo Bongo Artwork.png
+ |Model OoT= File:OoT Bongo Bongo Model.png
+ |Model OoT3D= File:OoT3D Bongo Bongo Model.png
+}}
+|caption= 
+|pronunciation= 
+|title= Phantom Shadow Beast<ref>{{Cite|Phantom Shadow Beast<br/>BONGO BONGO|N/A|OoT}}</ref><br/>Evil Shadow Spirit<ref name="Sealed">{{Cite|Link... A terrible thing has happened! The {{Color|OoT3D Red|evil shadow spirit}} has been released! {{Color|OoT3D Red|Impa}}, the leader of Kakariko Village, had sealed the evil shadow spirit in the bottom of the well... But the force of the evil spirit got so strong, the seal of the well broke, and it escaped into the world!|Sheik|OoT3D}}</ref>
+|alias= 
+|race= 
+|gender= 
+|game= {{OoT}}
+|other= 
+|dungeon= {{Term|OoT3D|Shadow Temple|link}}
+|habitat= 
+|health={{HP|OoT|36}} 
+|weakness= {{Term|OoT3D|Fairy Bow|link}}
+|reward= {{Term|OoT3D|Heart Container|link}}<br/>{{Term|OoT3D|Shadow Medallion|link}}
+|exp= 
+|theme= 
+|strategy= 
+|zu= 
+|voice actor= 
+|attack(s)= Punch {{Small|(1 Heart)}}<br/>Clap {{Small|(2 Hearts)}}<br/>Charge {{Small|(3 Hearts)}}}}
+{{Nihongo|'''Phantom Shadow Beast: Bongo Bongo'''|暗黒幻影獣ボンゴボンゴ|Ankoku Gen'eijū Bongo Bongo|lit. "Dark Phantom Beast: Bongo Bongo"}} is the seventh {{Term|OoT3D|Boss|link}} in {{OoT}}. It is fought in the {{Term|OoT3D|Shadow Temple|link}}.<ref name="E 168">{{Cite Book|quote= |book= E |page= 168}}</ref>
+
+== Biography ==
+Bongo Bongo was once sealed deep in the darkness at the {{Term|OoT3D|Bottom of the Well|link}},<ref>{{Cite|That monster! It came out of the well in the village! Let's go check out the well!|Navi|OoT}}</ref> but its true origin is unknown. After {{Term|OoT3D|Ganondorf|link}} came to power, it was able to escape from its imprisonment within the well, setting {{Term|OoT3D|Kakariko Village|link}} ablaze, using its shadow abilities to subdue both {{Term|OoT3D|Sheik|link}} and {{Term|OoT3D|Link|link}} in the process, and retreat to the {{Term|OoT3D|Shadow Temple}}, where {{Term|OoT3D|Impa|link}} went to try to seal it again.<ref name="Sealed" /><ref>{{Cite|I believe Impa has gone to the {{Color|OoT3D Purple|Shadow Temple}} to seal it again, but...she will be in danger without any help! Link! Impa is one of the six Sages. Destroy the evil shadow spirit and save Impa!|Sheik|OoT3D}}</ref>
+
+==Characteristics==
+Bongo Bongo resembles a horribly mutilated corpse, having amputated hands and what appears to be a neck stump with petal-like folds at the end. Its giant body hangs upward and Bongo Bongo makes its hands levitate, using them to slam on the arena. On its "head" lies a big red eye, which serves as the beast's weak spot.
+{{Navi
+|quote1= {{Color|OoT White|Bongo Bongo}}<br/>Boss of the Shadow Temple, revived from the well. Look at it with the eye of truth!
+}}
+
+Some features that contribute to its oddity are its abilities to become invisible, sink into a shadow and travel across surfaces and manifest itself as a mysterious dark energy (though the remake suggests the latter two abilities are the same). Despite its hands being separated from the main body, it still retains full control over them from a distance, allowing the beast to punch, slap, grab and squeeze the life out of its victims. It can additionally shield its susceptible eye by folding the flaps over it. The quickest way to defeat Bongo Bongo is to have the [[Biggoron's Sword]], which makes the fight much easier.
+
+== Battle ==
+When [[Link]] encounters Bongo Bongo, the battle occurs on a giant drum (most likely a Bongo drum, given the name) surrounded by poisonous green gunge that will harm Link if he touches it. Bongo Bongo beats on the drum and sings throughout the battle with a voice similar to that of the [[Four Giants]] in [[Termina]].
+
+After reaching the basement of the temple, Link drops down a hole and lands on a bongo drum. A brief cutscene shows a large and dark pair of hands pounding on the drum, which are soon revealed as Bongo Bongo's, who then fades into the darkness of the room. The camera moves back to Link and the battle begins.
+
+To see this beast, Link must equip the [[Lens of Truth]].<ref name="E 168"/> He must also avoid its hands when they attempt to attack him and stun its hands with arrows or the Longshot to force it to reveal its gigantic eye,<ref name="TWW Guide 189">{{Cite Guide|quote= |game= TWW|publisher= Prima|page= 189}}</ref> which is protected by the flaps. If he does not have the [[Lens of Truth]] equipped already, doing so is key, as he sees the gigantic eye charging at him. Next for him is to either shoot an arrow while he is charging at him or to time it with another weapon. If Link does not time it right, Bongo Bongo can ram into him, causing damage resulting in the loss of three hearts. With good timing, he can then hack Bongo Bongo's eye with his Sword.<ref name="TWW Guide 189"/> Once repeating this process enough times, Link wins over this evil entity. As a trick, if the young hero manages to complete several Quick Spins in succession flawlessly, he can effectively pin Bongo Bongo under his sword and defeat him in one down.<ref>http://www.youtube.com/watch?v=lfoyQTWucCs</ref>
+
+[[File:OoT Bongo Bongo Frozen Hand.png|right|thumb|200px|One of Bongo Bongo's hands having been frozen by an Ice Arrow]]
+
+A tip while facing Bongo Bongo is to use the Hover Boots to avoid being knocked back and forth from the drum.
+
+Bongo Bongo’s arsenal consists of seven attacks, five of which only require one hand and his sixth attack requires both. Bongo Bongo’s seventh move is scripted, and will only be utilized if [[Link]] has stunned both hands. Three out of five of his one handed attacks are simply contact moves, but it should be noted that his clench fist cannot be stunned regularly. His other two moves contain grappling Link and either throwing him (in some cases off the drum) or crushing him, where he will not escape until he taps the [[A-Button]] repeatedly. His two handed move claps Link between his palms, but only dealing two hearts damage. Each time Link stuns a hand, it will drop either a small [[Magic Jar]] or a small bundle of ten [[Arrow]]s.
+
+Attempting to stun during Bongo Bongo’s drumming phase with either the [[Longshot]] or the [[Fairy Bow]] without [[Z-Targeting]] causes first-person aiming to revert due to Link being tossed slightly into the air, using the [[Hover Boots]] allows more time as he will float momentarily. However, when Bongo Bongo attacks he often stops drumming altogether and Link can fire into whichever hand, provided it is not a clenched fist. Additional methods of stunning can be to hold a [[bomb]] while one of his hands perform the crush grapple, the explosion will set off inside the hand. 
+
+It is possible to freeze one of Bongo Bongo’s hands in any position (including fist) by firing an [[Ice Arrow]] into one, causing his eye to open as he attempts to break the frozen hand free by smashing his opposite fist into the ice. This gives Link opportunity to prematurely fire into Bongo Bongo's eye before his scripted charge attack; however, to attempt with an Ice Arrow means a low firing rate (two chances to hit target) and a blind shot because Link cannot access the [[Lens of Truth]] due to the inability of equipping two [[Magic Meter]] draining items at once. Despite not being able to see the eye, it is still nonetheless possible to fire at it, skipping the charge phase and allowing immediate damage to Bongo Bongo's eye via the [[Sword]] - the only way to inflict damage.
+
+If Link stuns one hand and then freezes the other, the stunned hand will revert and immediately begin attempting to break the ice. Bongo Bongo does not take any damage from being stunned, let alone additional damage from Ice or [[Fire Arrow]]s, so it is wise to conserve the Magic Meter and switch into a Lens of Truth and Fairy Bow (the Longshot is ineffective in stunning the eye) combination once Link has frozen one of his hands (with the Lens of Truth, Link can Z-Target the eye). It takes Bongo Bongo five hits to break the ice surrounding the hand, which is plenty of time for Link to fire into Bongo Bongo's weak point. Once it is down and the eye is exposed without the Lens of Truth, Link can reach Bongo Bongo's eye quickly by firing the Longshot at it. It takes ten hits from the [[Biggoron's Sword]], and twenty from the [[Master Sword]] to defeat Bongo Bongo. Upon the final blow being landed, Bongo Bongo will erratically play the bongo only to slow down and have its body and hands turn dark. It then dissolves into darkness and fades away.
+
+==Trivia==
+{{Nontrivia}}
+*Bongo Bongo's name may come from "bongo," reflecting how it plays the drum that Link uses as his platform during the battle.
+*Bongo Bongo is one of the few regular bosses in {{OoT|-}} that does not actually require the item Link finds in its dungeon to be used during its fight (the others being Phantom Ganon and Queen Gohma). The [[Hover Boots]] can be used, but are not a necessity for victory.
+*If an [[Ice Arrow]] hits Bongo Bongo's hand, it will freeze and the other hand will try to break it.
+*Wearing the [[Goron Tunic]] will delay the damage taken from the poisonous green gunge.
+*Bongo Bongo "sings" the same rhythm as its drumming.
+*During its drumming phase, Bongo Bongo will always stay on the opposite side of the drum to Link.
+*Bongo Bongo has the second most amount of hit-points in ''The Legend of Zelda: Ocarina of Time'', having 36 hit-points in total.
+*Once Bongo Bongo grabs and begins crushing [[Link]], it takes exactly twenty-one taps of the [[A-Button]] to escape.
+*If Link continuously hangs on the edge of the drum, Bongo Bongo will keep banging on it without stopping to attack, though its singing will not continue any longer than it normally does.
+*Bongo Bongo can be easily defeated by continuously using well-timed [[Spin Attack|spin attacks]].
+*In initial releases of {{OoT|-}}, a glitch existed where the player can effectively skip the boss fight against Bongo Bongo by dropping a bomb down the entry hole to its room and then aiming the hookshot.<ref>[https://www.youtube.com/watch?v=ZkXghrmAkjU Zelda OoT - Bongo Bongo Bomb Glitch - YouTube]</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoT Bongo Bongo Length Model.png|Model of Bongo Bongo's full body from {{OoT|-}}
+File:OoT Bongo Bongo Introduction.png|Bongo Bongo's introduction from {{OoT|-}}
+File:OoT3D Boss Challenge Bongo Bongo.png|Bongo Bongo's [[Boss Challenge]] image from {{OoT3D|-}}
+</gallery>
+
+{{Ref}}
+
+{{Bosses|OoT}}
+{{LivingCorpse}}
+{{Categories
+ |Eye Enemies, Levitating Enemies, Shadow Enemies, Undead
+ |bosses= OoT, OoT3D
+}}

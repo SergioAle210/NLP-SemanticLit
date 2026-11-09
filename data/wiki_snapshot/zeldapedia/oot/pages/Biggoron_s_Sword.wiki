@@ -1,0 +1,153 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= File: OoT Biggoron Sword Render.png
+ |Model OoT= File:OoT Giant's Knife Model.png
+ |Model OoT3D= File:OoT3D Giant's Knife Model.png
+ |Model BotW= File:BotW Biggoron's Sword Model.png
+ |Sprite OoT= File:OoT Giant's Knife Icon.png
+ |Sprite OoT3D= File:OoT3D Biggoron's Sword Icon.png
+ |Sprite OoS= File:OoS Biggoron Sword Sprite.png
+ |Sprite OoA= File:OoS Biggoron Sword Sprite.png
+ |Sprite BotW= File:BotW Biggoron's Sword Icon.png
+ |Sprite TotK= File:BotW Biggoron's Sword Icon.png
+}}
+|caption= 
+|game= {{OoT}}<br/>{{OoS}}<br/>{{OoA}}<br/>{{BotW}}<br/>{{TotK}}
+|other= {{SCII}}<br/>{{HW}}
+|cost= 
+|value= 
+|location= 
+{{Infobox Game Blocks
+ |OoT= {{Term|OoT|Goron City|link}}
+ |OoS= [[Goron Mountain]]
+ |OoA= [[Goron Shooting Gallery]]
+ |BotW= {{OoT}} {{Term|OoT3D|Link|link}} [[Amiibo|amiibo]]
+ |TotK= [[Akkala House of Bones]]
+}}
+|uses= Attacking Enemies
+|strength=
+{{Infobox Game Blocks
+ |OoT=[[Weapon Strength#Ocarina of Time|4]]
+ |BotW= 50
+ |TotK= 36
+}}
+|durability=
+{{Infobox Game Blocks
+ |BotW= 60
+}}
+|comp= {{Term|Series|Giant's Knife|link}}<br/>{{Term|Series|Broken Giant's Knife|link}}<br/>{{Term|Series|Broken Goron's Sword|link}}
+|sample= 
+|theme= 
+}}
+The {{Term/Store|Biggoron's Sword||Series, OoT, OoT3D, OoS, OoA}} is a recurring [[Sword]] and {{Term|Series|Item|link}} in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 117 {{Exp Game|OoT, OoS, OoA}}}}</ref><ref name="Inventory">{{Cite|{{Big|Biggoron's Sword}}<br/>A legendary greatsword forged by a Goron craftsman for a hero who traveled through time. The exceptionally sharp cutting edge is a testament to the craftsman's mastery.|Inventory|BotW}}</ref>
+
+==Location and Uses==
+==={{OoT|-}}===
+[[File:OoT Biggoron's Sword Model.png|alt=|left|200x200px]]<!-- 
+Obtention
+You traded the Giant's Knife for {{Color|OoT3D Red|Biggoron's Sword}}! This blade was forged by a master smith and won't break!
+
+Description
+{{Color|OoT3D Red|Biggoron's Sword}}<br/>A huge, sturdy, and very sharp sword. You can't use a shield while wielding it.
+-->In {{OoT}}, its first appearance, the Biggoron's Sword is a far sturdier version of the [[Giant's Knife]], which [[Biggoron]] crafted for the [[Master Craftsman]], and is a very powerful sword.<ref name=":0">{{Cite|They say that Biggoron's Sword is super sharp and will never break.|Gossip Stone|OoT}}</ref><ref>{{Cite|My Biggoron tool broke, so I was going to Goron City to get it repaired.|Master Craftsman|OoT}}</ref> It can be obtained completing the {{Term|OoT3D|Trading Quest|link}}.<ref name=":1">{{Cite|You handed in the Claim Check and got the Biggoron's Sword! This blade was forged by a master smith and won't break!|N/A|OoT}}</ref> The blade is much longer than the [[Master Sword]] and deals twice as much [[Weapon Strength#Ocarina of Time|damage]] (therefore four times the strength of the [[Kokiri Sword]]), making the use of the [[Spin Attack]] and [[Jump Slash|Jump Attack]] rather devastating against most [[Enemies in Ocarina of Time|enemies]] and [[Bosses in Ocarina of Time|bosses]] in dungeons where [[Link]] is an adult. However, it must be wielded with two hands due to its large size, meaning that he cannot defend with a [[Shield]] while equipped, similar to the [[Megaton Hammer]]. If the Shield button is pressed, Link attempts to protect himself with the blade.
+
+Despite being the strongest weapon in the game, the Biggoron's Sword is incapable of defeating [[Ganon]], as only the Master Sword can deliver the final blow (the sword will simply miss otherwise). However, it can be useful during the [[Final Boss]] battle, as Ganon knocks the Master Sword out of reach before getting it back.
+
+==={{OoS|-}}===
+[[File:OoS Biggoron Sword Sprite 2.png|left]]
+The Biggoron's Sword is the strongest [[Sword]] in {{OoS}}. It can only be acquired in a [[Linked Game]] by using [[Secret|passwords]]. The Biggoron's Sword is obtained from {{Term|OoS|Biggoron}} himself like in {{OoT|-}}. While every other item in these games is assigned to one hand and can be used in conjunction with another, the Biggoron's Sword takes up both slots as it is held with both hands. Link swings it in a whole 180-degree arc, as opposed to the other Swords' 90-degree slash. The {{Term|OoS|Biggoron's Sword}} is 67% stronger than the {{Term|OoS|Noble Sword|link}} and 150% stronger than the {{Term|OoS|Wooden Sword|link}}. Excluding the 180-degree arc, the only other difference from the Master Sword is that it can kill {{Plural|OoS|Armos|link}} in one hit.
+
+==={{OoA|-}}===
+The Biggoron's Sword is the strongest Sword in {{OoA}}, as it works exactly as ''Seasons'' in gameplay. It can only be acquired in a Linked Game by using passwords. The Biggoron's Sword is obtained from the [[Goron Elder]] who resides at the [[Goron Shooting Gallery]], after telling him the [[Linking Secrets#Elder Secret|Elder Secret]] and scoring 300 points at the Shooting Gallery.
+
+==={{BotW|-}}===
+{{BotW Item Properties/Store
+ |type         = Weapon
+ |strength     = 50
+ |durability   = 60
+ |flammable    = no
+ |magnetic     = yes
+ |buoyant      = no
+ |conductive   = yes
+ |guardian     = no
+ |throw        = yes
+ |throw_effect = 
+}}
+In {{BotW}}, the {{Term|BotW|Biggoron's Sword}} is an {{Term|Series|Amiibo|link}} exclusive two-handed {{Term|BotW|Weapon|link}}. The {{Term|BotW|Weapon}} will rarely appear in a {{Term|BotW|Treasure Chest|link}} after scanning the {{OoT}} Link {{Term|Series|Amiibo}} using the {{Term|BotW|Amiibo (Rune)|link}} {{Term|BotW|Rune|link}}, but only after freeing one of the {{Plural|BotW|Divine Beast|link}}. It is noted to have been forged by a {{Term|BotW|Goron|link}} craftsman for a [[Hero of Time|hero who traveled through time]], with a cutting edge that speaks to its creator's mastery.<ref name="Inventory" /> It has a base attack power of 50, and its durability rating is 60. Like in {{OoT|-}}, the Biggoron's Sword surpasses the Master Sword in raw damage under normal circumstances, but when having the [[Power to Repel Evil]], the sacred blade can reach 60 in attack power and its own durability rating being as high as 188.
+
+{{Term|BotW|Biggoron's Sword}} is made of metal, and will therefore attract {{Term|BotW|Lightning|link}} if it is equipped during a {{Term|BotW|Thunderstorm|link}} and conduct {{Term|BotW|Electricity|link}}. It will also sink in {{Term|BotW|Water (Terrain)|link}}, but since it is magnetic, it can be picked up with the {{Term|BotW|Magnesis|link}} {{Term|BotW|Rune}}. Finally, it will not burn if exposed to {{Term|BotW|Fire|link}} or a {{Term|BotW|Scorching Climate|link}}.
+
+==={{TotK|-}}===
+In {{TotK}}, the {{Term|BotW|Biggoron's Sword}} can be obtained at Akkala House of Bones, which is located in the [[The Depths]] directly under [[Skull Lake]]. The sword has a base attack power of 36. Like other similar items, to obtain the powerful longsword once more, it can be bought from Bargainer Statues of the depths for a price of 150 [[Poe]]s. Once again, it is greater than the Master Sword which has 30 base damage, but can reach 60 once awakened or fusing materials.
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{SCII|-}}===
+In {{SCII}}, the Biggoron's Sword is one of Link's unlockable weapons. Paired off with the [[Hylian Shield]], the Biggoron's Sword can be bought in Merak, Antares, or Pollux for 4000 Gold while playing the Weapon Master Mode. When Link equips it, his attack goes up to 130% while his defense stays the same. Although the Biggoron's Sword is quite powerful due to its long reach, it is wielded with only one hand as opposed to two, and thus slightly drains Link's health with each swing.<ref>{{Cite|Long reach and has good offense but requires energy to wield|Character Select|Soulcalibur II}}</ref>
+
+{|class="wikitable"
+! Image
+!width="60px"|Cost
+!width="160px"|Attributes
+!In-game Description
+|-
+|[[File:SCII Biggoron Sword Model.png|60px]]
+|<center>4000 Gold</center>
+|<center>Long reach</center>
+<center>Drains 3 HP per attack</center>
+|A masterfully crafted long sword forged by the best blacksmith in [[Hyrule]], [[Biggoron]], who lives on [[Death Mountain]]. Designed specifically for Link, it is made to be wielded with one hand. Even so, swinging it with full force gets tiring after a while.
+|}
+
+[[File:HW Biggoron's Sword.png|right|80px]]
+
+==={{HW|-}}===
+In {{HW}}, the Giant Blade that [[Impa]] wields is based on the Biggoron Sword. The final tier of the moveset is the Biggoron Sword itself, though modified as a curved Sword instead of a straight one.
+{{Noncanon|End}}
+
+==Trivia==
+*Similarly to the [[Master Sword]], the Biggoron's Sword is one of the most iconic [[Sword|Swords]] in [[The Legend of Zelda (series)|{{TLoZ|-}} series]] community, due to its intimidating length and being one of the few weapons in the franchise explicitly known to be [[Weapon Strength|stronger than the Blade of Evil's Bane]] in gameplay.
+*In Japan, the weapon is named '''Biggoron Sword'''.
+*In the original [[Nintendo 64]] version of {{OoT}}, the Biggoron's Sword is sheathed in the same {{Term|OoT|Scabbard|link}} as the Master Sword. However, in {{OoT3D}}, the massive blade receives its own unique scabbard. It also has its own in {{BotW}} and ''Tears of the Kingdom''. Its length is long enough to be nearly [[Link]]'s own height.
+*The Biggoron's Sword, alongside the [[Giant's Knife]], is the first Sword in the ''Zelda'' series to outclass the Master Sword in raw power (although the Master Sword itself can be upgraded in {{aLttP}} and {{aLBW}}), but the Biggoron's Sword has the major advantage in durability.
+*During cutscenes or in his idle animations in {{OoT|-}}, if Link is wielding the Biggoron's Sword he can be seen holding it with only one hand like the Master Sword, despite the weapon itself being specifically designed for two hands, similarly to the [[Megaton Hammer]].
+*As the Biggoron's Sword is roughly double the strength of the Blade of Evil's Bane, this would technically make it comparable to the [[Master Sword Lv2]] in ''A Link to the Past''.
+*The [[Great Fairy's Sword]] and [[Fierce Deity Sword]] in {{MM}} coincidentally shares the same strength as the Biggoron's Sword, as both of those powerful swords deal four times the damage as the [[Kokiri Sword]]. While the Biggoron's Sword is longer than the Great Fairy counterpart, the one used by [[Fierce Deity Link]] is on-par in length.
+*The [[Broken Goron's Sword]] seen in the [[Trading Quest]] is actually a broken Biggoron's Sword rather than a Giant's Knife.
+*Being a hefty bastard sword, in {{BotW|-}}, Link notably carries the Biggoron's Sword like that of a zweihänder. In {{OoT|-}}, however, he holds the blade upright, while in ''[[SoulCalibur II|Soul Calibur II]]'' he even carries it in one hand similar to as seen in cutscenes and even beta builds in the N64 title, suggesting the [[Hero of Time]] to be physically stronger than the Hero of the Wild incarnation.[[File:Unused Biggoron's Sword defense block.png|thumb|224x224px|The unused crouching defensive position with the Biggoron's Sword in {{OoT|-}}]]
+*In {{OoT|-}}, there are a few animations of Link holding the Biggoron's Sword that were originally planned to appear in the game but are cut for unknown reasons, such as himself actually defending with the blade in a crouching position as well as an idle one where he stylishly swings the weapon.
+*If Link was to ignore obtaining the Giant's Knife and gain the Biggoron's Sword, and then speak to [[Medigoron]], he will talk to Link as if he has a non-broken Giant's Knife when it is in fact the Biggoron's Sword. This is likely due to the fact from both weapons sharing the same model.
+*Although a deadly sword and it can harm [[Ganon]] during the final battle, the likely reason why the Biggoron's Sword is unable to deliver the finishing blow onto the main antagonist in {{OoT|-}} is due to the fact that unlike the Master Sword, in spite of it being more powerful than the legendary blade, this weapon does not have the [[Power to Repel Evil|magical ability to vanquish evil]], story-wise.
+*The Biggoron's Sword is commonly used by players in {{OoT|-}} or its remake who aim for [[100% Completion|100% completion]] or [[Speedrun|speedruns]].
+*In spite of the Biggoron's Sword having the [[Crest of the Gorons]] on its guard in official artwork, the weapon's model when on Link's hand in {{OoT|-}} shows it having the [[Crest of the Sheikah]] instead (this also applies to the Master Sword). It is unknown why such detail was added to this sword.
+*{{OoT|-}} contains unused text for the {{Term|OoT3D|Giant's Knife}}, meant to be displayed when it is exchanged for the Biggoron's Sword, provided that Link possesses the Giant's Knife. The game itself makes no mention of the replacement, and instead the {{Term|OoT3D|Giant's Knife}} is simply discarded.<ref>{{Cite|You traded the Giant's Knife for the Biggoron's Sword! This blade was forged by a master smith and won't break!|N/A|OoT}}</ref>
+*Despite the Biggoron's Sword in {{OoT|-}} being famously known to be unbreakable like the Master Sword,<ref name=":0" /><ref name=":1" /><ref>{{Cite|A legendary greatsword forged by a Goron craftsman for a hero who traveled through time. The exceptionally sharp cutting edge is a testament to the craftsman's mastery.|Inventory|BotW}}</ref> in {{BotW|-}}, the sword will indeed break, due to the [[Nintendo Switch]] game's weapon ruleset, similar to the Giant's Knife. Interestingly, the Biggoron's Sword in-game model has nicks across the blade, indicating it has lost its unbreakable status due to long age and therefore justifying the gameplay. However, replacements can be acquired by using the {{OoT|-}} [[amiibo (Rune)]] again, though they rarely appear. The damage on the blade is retained in ''Tears of the Kingdom'' and will break once again.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:OoT Biggoron's Sword.png|Link holding the Biggoron's Sword in ''Ocarina of Time''
+File:OoT unused Biggoron's Sword idle animation.gif|The unused idle animation of the Biggoron's Sword in ''Ocarina of Time''
+File:BotW Biggoron's Sword.png|Link wielding the Biggoron's Sword in ''Breath of the Wild''
+File:TotK Hyrule Compendium Biggoron's Sword.png|The Biggoron's Sword in ''Tears of the Kingdom''
+File:TotK Biggoron's Sword scabbard .png|Link equipped with the Biggoron's Sword in ''Tears of the Kingdom'', featuring an exceptionally long [[Scabbard]].
+File:HW Biggoron's Sword Artwork.png|Artwork of Biggoron's Sword from {{HW|-}}
+File:HW Biggoron's Sword Model.png|Biggoron's Sword from {{HW|-}}
+File:SCII Link Biggoron's Sword.png|The Biggoron's Sword in ''SoulCalibur II''. Note it is being held with one hand.
+File:OoT beta Biggoron's Sword attacks.gif|Link attacking a [[Stalfos]] with the Biggoron's Sword (or Giant's Knife) in the beta version of ''Ocarina of Time'' 
+</gallery>
+
+==See Also== 
+*[[Giant's Knife]]
+*{{Term|Series|Trading Quest|link}}
+*{{Term|Series|Weapon|link}}
+
+{{Ref}}
+
+{{Categories
+ |Giant Blades, Swords, Weapons
+ |items= OoT, OoT3D, OoS, OoA, BotW, HW, HWL, HWDE
+}}
+[[Category:Items in Tears of the Kingdom]]

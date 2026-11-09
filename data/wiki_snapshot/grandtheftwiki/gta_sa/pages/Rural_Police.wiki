@@ -1,0 +1,57 @@
+{{Gang box
+|header = Law enforcement agency
+|image = Ruralpolice-GTASA-badge&designation.png
+|size = 256px
+|caption = Common signage used for sheriff's offices in rural San Andreas, GTA San Andreas, depicting one of several versions of the San Andreas sheriff's badge.
+|game = SA
+|locations = Rural [[San Andreas in GTA III Era|San Andreas]]
+|type = Law enforcement agency
+|affiliations = [[San Andreas Police Department|SAPD]]<br />[[Federal Bureau of Investigation|FBI]]<br />[[SWAT]] 
+|cars = [[Ranger]]
+|weapons = [[Pistol]]<br />[[Pump-Action Shotgun]]<br />[[Nightstick]]
+|members = [[Police|Dozens of sheriffs]]
+}}
+The '''rural police''' is a term referring to a branch of the [[San Andreas Police Department]] in [[Grand Theft Auto: San Andreas]] responsible for policing duties in the country and desert areas of the [[San Andreas in GTA III Era|state of San Andreas]], encompassing [[Red County]], [[Flint County]], [[Whetstone]], [[Tierra Robada]], [[Bone County]] and all associated towns. As such, they are only found within said rural areas.
+
+== Description ==
+[[Image:Ruralcop-GTASA.jpg|thumb|120px|left|A rural sheriff in Bone County.]]
+
+Rural law enforcement in San Andreas is manned by "sheriffs" dressed in dark brown shirts with cream trousers and a sheriff's ten-gallon hat and badge. Due to rural San Andreas' less forgiving terrain, Rural sheriffs drive [[Rancher]]-based [[Ranger]]s, although [[Police Maverick]]s, [[SWAT|SWAT teams]] and [[Federal Bureau of Investigation|FBI agents]] may join them in pursuits under higher [[Wanted Level in GTA III Era|wanted levels]].
+
+In other respects, sheriffs behave identically as urban policemen, regularly patrolling on foot in towns, as well as on their Rangers, and being armed with [[Pistol|9mm pistols]] and [[nightstick|nightsticks]] (and in high wanted levels, [[Pump-Action Shotgun|shotguns]]). Getting [[Busted|arrested]] within any of the rural areas will usually lead the player respawning in front of any one of [[#Sheriff stations|four sheriff stations]].
+
+It is unknown if the rural police are just one department or a collective of up to 4 sheriffs departments.
+
+== Cut content ==
+[[File:Ruralcop-GTASA-beta.png|thumb|120px|right|The cut deputy patrolling his town.]]
+<code>gta3.img</code>, a core GTA San Andreas model datafile, contains two files, <code>dsher.txd</code> and <code>dsher.dff</code>, which are presumably intended for rural sheriffs within the desert region of [[Bone County]] and possibly [[Tierra Robada]]; the texture map, which depicts a sheriff's uniform in a beige shirt, green pants and a different sheriff department patch, is interchangeable with the standard sheriff pedestrian model, down to the use of the sheriff's hat. The files were dummied out for unspecified reasons.
+
+Similarly, <code>cdeput.txd</code> and <code>cdeput.dff</code>, also found in <code>gta3.img</code> were seemingly intended for another rural "deputy" model donning an all-grey uniform. The texture map is not compatible with the ''regular'' sheriff model, but if you change it to use the unused deputy's model as well it works perfectly with no apparent bugs.
+
+==Sheriff stations==
+There are a total of four sheriff stations in the entirety of rural San Andreas, with each station in charge of a rural county:
+
+*[[Dillimore Police Department|Dillimore "Police Department"]] in [[Dillimore]], [[Red County]] <small>(features an accesible interior)</small>.
+*[[Angel Pine Sheriff's Office|Angel Pine sheriff's office]] in [[Angel Pine]], [[Whetstone]].
+*[[El Quebrados Sheriff's Office|El Quebrados sheriff's office]] in [[El Quebrados]], [[Tierra Robada]] <small>(meeting point with [[Barbara Schternvart]], herself a sheriff)</small>.
+*[[Fort Carson Sheriff's Office|Fort Carson sheriff's office]] in [[Fort Carson]], [[Bone County]].
+
+== Trivia ==
+* Although rural law enforcement elements are intended to be seen within rural San Andreas, game programming may occasionally lead to sheriffs spawning momentarily within cities, either when the player enters cities rapidly from rural areas or when the player loads a savegame that starts in a city after being within a rural area.
+
+== Gallery ==
+<gallery width="auto" perrow="3" style="font-size:95%; padding:0; text-align:left;" widths="160">
+Ranger-GTASA-front.jpg|A rural SAPD [[Ranger]] in GTA San Andreas, the standard patrol vehicle for sheriffs in rural San Andreas.
+Sheriff-GTASA-DSHER.png|<code>DSHER.txd</code>, an unused texture map intended for "desert" sheriffs in GTA San Andreas.
+Sheriff-GTASA-C_Deputy.png|<code>C_DEPUTY.txd</code>, an unused texture map intended for "deputies" in GTA San Andreas.
+</gallery>
+
+==See also==
+*[[San Andreas Police Department]]
+*[[Los Santos Police Department]]
+*[[San Fierro Police Department]]
+*[[Las Venturas Police Department]]
+*[[San Andreas Coast Guard]]
+
+[[Category:GTA San Andreas]]
+[[Category:Police Departments]]

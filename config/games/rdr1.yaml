@@ -1,0 +1,25 @@
+game_id: rdr1
+title: "Red Dead Redemption"
+platform: PS3/Xbox 360
+year: 2010
+aliases: [RDR, Red Dead 1]
+
+snapshot_dir: data/wiki_snapshot/strategywiki/rdr1
+
+# Progreso: StrategyWiki no estructura la historia por capítulos para este juego (11 páginas generales). Se deja una
+# sola etapa hasta derivar los capítulos de la wiki de fans; hasta entonces todo contenido sin ubicación de las
+# fuentes extra queda restringido por la política de ubicación.
+progress_model: linear_stage
+stages: [story]
+exclude_pages: ["Red Dead Redemption/Table of Contents", "Red Dead Redemption/Achievements and trophies"]  # tablas de logros sin texto útil
+tools: [search_documents]
+query_expansion:
+  rewrites: []
+  synonyms:
+    gun: [weapons]
+    horse: [mounts]
+    ranks: [rank]
+
+extra_sources:
+  - {site: wikipedia, snapshot_dir: data/wiki_snapshot/wikipedia/rdr1, general_headings: 'Gameplay|Development|Release|Reception|Legacy|Sales'}
+  - {site: reddead_fandom, snapshot_dir: data/wiki_snapshot/reddead_fandom/rdr1}

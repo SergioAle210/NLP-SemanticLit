@@ -1,0 +1,745 @@
+{{Header Nav|game=The Legend of Zelda: Ocarina of Time}}
+{{cleanup|Merge the two listing together}}
+[[File:OOT skulltula.jpg|125px|right]]
+Many years ago, a wealthy family in [[../Kakariko Village/]] was cursed for their greed and were thus turned into Skulltula monsters. In order to break the curse, Link must destroy all one hundred of the {{im/oot|Enemies|Gold Skulltula|display=Gold Skulltulas}} scattered about Hyrule and collect the [[File:OoT Items Gold Skulltula Token.png|x24px]]&nbsp;'''Gold Skulltula Tokens''' that they drop as proof of his deed. When a certain number of Gold Skulltulas have been destroyed, a family member will return to human form and reward Link for his trouble.
+
+==Quest Rewards==
+As you defeat {{im/oot|Enemies|Gold Skulltula|display=Gold Skulltulas}}, each family member released from the curse will reward Link. These rewards are:
+
+{| {{prettytable}}
+! Defeated || Reward || Description
+|-
+| 10 || {{im/oot|Upgrades|Adult's Wallet|s=1}} || Holds up to 200 rupees.
+|-
+| 20 || {{im/oot|Secrets|Stone of Agony|s=1}}<br/>(3DS)&nbsp;{{im/oot|Secrets|Shard of Agony|s=1}} || Rumbles when you run over secret holes.<br/>(3DS) Chimes and appears in the top-left corner of the top screen when near secret locations.
+|-
+| 30 || {{im/oot|Upgrades|Giant's Wallet|s=1}} || Holds up to 500 rupees.
+|-
+| 40 || {{im/oot|Items|Bombchu|display=Bombchu|s=1}} '''(10)''' || A rare type of bomb that runs along the ground, and crawls up walls and ceilings.
+|-
+| 50 || {{im/oot|Upgrades|Piece of Heart|s=1}} || One-fourth of a Heart Container.
+|-
+| 100 || '''Huge Rupee''' || A huge, golden rupee worth 200 rupees. Each time you visit the man, he will give you another one, so effectively it is a limitless supply of rupees.
+|}
+
+If you are playing on the Wii's Virtual Console, the {{im/oot|Secrets|Stone of Agony}} will be totally useless. Anyone playing this version can safely ignore this feature. The GameCube version will ask you if you want to use the rumble feature (unless you're playing with the Wavebird, which renders this item useless). In the 3DS version, the Stone of Agony is replaced by the {{im/oot|Secrets|Shard of Agony}}, which chimes and appears in the top-left corner of the top screen when near secret locations.
+
+==Hunting Tips==
+{{im/oot|Enemies|Gold Skulltula}} are scattered throughout the game world and can be found as both young and adult Link. Most often, Gold Skulltulas can be found at night, either clinging to walls or hiding in soft patches of soil. Here are some tips for hunting them:
+
+===Hunt at night===
+Many Gold Skulltulas don't appear during the daytime. You should play the {{im/oot|Ocarina Songs|Sun's Song}} on your ocarina to change the time of day before beginning your search.
+
+===Use your ears===
+Gold Skulltulas make a distinct "shuffling" sound every few seconds when they move around. The sound can alert you to the presence of a nearby Skulltula, although it is difficult to use to pinpoint the creature's exact location.
+
+===Check your map===
+After you have defeated all the Gold Skulltulas in an area, a Gold Skulltula icon will appear next to the name of your current location on the map screen. If you don't see it, then there are still more Gold Skulltulas to find in the area.
+
+<u>Note</u>: The world map DOES NOT cover Gold Skulltulas in Temples, Dungeons, the [[../Bottom of the Well|Kakariko Well]] or the [[../Ice Cavern/]]. To check if you have collected all tokens in those areas, you must enter that specific area and check the map of that place.
+
+===Check common hiding spots===
+{{sidebar|title=Nintendo 64|width=300px|contents=After releasing the captured bugs, quickly press the {{n64|down|c}} button again. This will capture one of the three bugs you just released so you can re-use them later.}}
+
+A Gold Skulltula resides in every patch of soft soil in Hyrule except for the one next to the bean selling man in [[../Jabu-Jabu's Belly#Making Your Way Upstream|Zora's River]]. To evict the Skulltula from its burrow, empty a {{im/oot|Items|Bottle of Bugs}} nearby.
+
+To capture bugs, look for rocks on the ground as they have the highest rate of causing bugs to appear. Pick up these rocks to release the bugs underneath and then quickly capture one with a bottle. You can also find bugs by cutting grass. Bugs are always found under the same rocks and grass and are not random. You can also buy them from potion shop for 50 rupees.
+
+If you own the 3DS version, if you have at least three bottles you should buy or capture the bugs. However, once you drop the bugs on the soft soil, you won't be able to recapture it again. So, plan carefully about what to do to save yourself time and resource over Gold Skulltulas.
+
+Gold Skulltulas can also be found inside crates and trees. Roll into either one to dislodge a Skulltula.
+
+If on a wall or far away, Gold Skulltulas can only be reached with certain items, namely the {{im/oot|Items|Boomerang}} and {{im/oot|Items|Hookshot}}. When hunting, be sure you have both items.
+
+=== Master Quest ===
+{{details|#Master Quest Gold Skulltula locations|Gold Skulltula location changes in Master Quest|Master Quest Gold Skulltula locations}}
+The locations of Gold Skulltulas in the dungeons were changed in the Master Quest version of Ocarina of Time. There is a section for the differently located Skulltulas after the full list for the regular Ocarina of Time game. If you follow the whole guide, there are also links down to the Master Quest locations in the dungeon's section.
+
+==Gold Skulltula Locations==
+The following is a complete list of the locations of the '''100''' {{im/oot|Enemies|Gold Skulltula|display=Gold Skulltulas}} scattered about Hyrule.
+
+===Kokiri Forest===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 1 || {{desc}} On the back of the Know-It-All Brothers' house. Use your sword to kill it and then backflip or jump attack into the token.
+| [[File:LoZ OOT Skulltula 01.jpg|160px|Back of the house]] || Nighttime || Child 
+|-
+| 2 || {{desc}} Next to the Kokiri Shop is a small patch of soil. Drop a {{im/oot|Items|Bottle of Bugs}} on top of it to release a Skulltula.
+| [[File:LoZ OOT Skulltula 02.jpg|160px|Patch of soil]] || Any || Child 
+|-
+| 3 || {{desc}} On the top of the House of Twins, use the {{im/oot|Items|Hookshot}} to kill a Skulltula and claim its token.
+| [[File:OoTGoldSkulltula3.png|160px|House of Twins]] || Nighttime || Adult 
+|}
+
+===The Lost Woods===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 4 || {{desc}} Take two left turns to the area with the bridge leaving Kokiri Forest. Release a {{im/oot|Items|Bottle of Bugs}} on the soil there to find a Gold Skulltula.
+| [[File:LoZ OOT Skulltula 04.png|160px|????]] || Any || Child 
+|-
+| 5 || {{desc}} Turn right, left, right, left, left to find another patch of soil in a room with a lone tree and two Business Scrubs. Release a {{im/oot|Items|Bottle of Bugs}} on the soil there to find a Gold Skulltula.
+| [[File:LoZ OOT Skulltula 05.png|160px|????]] || Any || Child 
+|-
+| 6 || {{desc}} As a child, plant a {{im/oot|Items|Magic Beans}} at the same soil patch where you released the bottled bug to find the fifth Gold Skulltula. As an adult, ride the plant to the nearby ledge and kill the Gold Skulltula.
+| [[File:LoZ OOT Skulltula 06.png|160px|????]] || Nighttime || Adult 
+|}
+
+===Sacred Forest Meadow===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 7 || {{desc}} Climb the lone ladder at the end of the maze, turn to your left, and look on the wall right in front of you for a Skulltula. You need the {{im/oot|Items|Hookshot}}.
+| [[File:LoZ OOT Skulltula 07.png|160px|????]] || Nighttime || Adult 
+|}
+
+===Inside the Great Deku Tree===
+[[#Inside the Great Deku Tree 2 |Click Here]] for Master Quest locations.<br>
+
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 8 || {{desc}} In the room with the Compass, activate the rising platforms and then jump over to the left alcove.
+| [[File:LoZ OOT Skulltula 08.jpg|160px|The alcove where the Skulltula is located.]] || Any || Child 
+|-
+| 9 || {{desc}} In the first basement is a Skulltula clinging to the vines that allow you to return to the first floor.<br>Shoot the Skulltula with the {{im/oot|Items|Fairy Slingshot}} and then climb up to reach the token.
+| [[File:LoZ OOT Skulltula 09.jpg|160px|????]] || Any || Child 
+|-
+| 10 || {{desc}} In the first basement, a Skulltula is climbing on a nearby grate. Use the {{im/oot|Items|Fairy Slingshot}} to kill it, or slash it, then leap from the nearby ledge to claim the token.
+| [[File:LoZ OOT Skulltula 10.jpg|160px|????]] || Any || Child 
+|-
+| 11 || {{desc}} Return to the Deku Tree after you receive {{im/oot|Items|Bomb|display=Bombs}} and the {{im/oot|Items|Boomerang}}. In the basement room with three Gohma Larvae, burn the web and destroy a bombable wall. In the next room is a Skulltula. Use your boomerang to get the token.
+| [[File:LoZ OOT Skulltula 11.jpg|160px|????]] || Any || Child 
+|}
+
+===Hyrule Field===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 12 || {{desc}} At the corner between Hyrule Castle and Kakariko Village is a single tree. Place a {{im/oot|Items|Bomb}} at its base to reveal a secret grotto. Inside, destroy the Skulltula on the wall and use your {{im/oot|Items|Boomerang}} or {{im/oot|Items|Hookshot}} to retrieve the token.
+| [[File:LoZ OOT Skulltula 12.jpg|160px|Secret Grotto]] || Any || Both 
+|-
+| 13 || {{desc}} Near the entrance to Gerudo Valley is a circle of rocks. Destroy the boulder in the center and place a {{im/oot|Items|Bomb}} there to reveal a grotto. Use either {{im/oot|Items|Din's Fire}} or a {{im/oot|Items|Fire Arrows}} to burn down the webs and find a Skulltula. You will need your {{im/oot|Items|Boomerang}} or {{im/oot|Items|Hookshot}} to grab the token after killing the Skulltula.
+| [[File:LoZ OOT Skulltula 13.jpg|160px|Secret Grotto]] || Any || Both 
+|}
+
+===Hyrule Castle Town Market===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 14 || {{desc}} In the Market, enter the guardhouse next to the drawbridge. Roll into the second crate right of the soldier to find a Skulltula.
+| [[File:LoZ OOT Skulltula 14.jpg|160px|Inside guardhouse]] || Any || Child 
+|}
+
+===Hyrule Castle===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 15 || {{desc}} Enter the main Hyrule Castle area from the Market. Ahead is a lone tree with three rocks at its base. Roll into it to dislodge a Skulltula.
+| [[File:LoZ OOT Skulltula 15.png|160px|????]] || Any || Child 
+|-
+| 16 || {{desc}} Enter the main Hyrule Castle area and make your way to the small moat. In the nearby corner is a lone tree. Stand beneath it and play the {{im/oot|Ocarina Songs|Song of Storms}} to reveal a grotto. Use {{im/oot|Items|Bomb|display=Bombs}} to destroy the wall on your left (slightly behind you) until you find a Skulltula.
+| [[File:LoZ OOT Skulltula 16.jpg|160px|Secret Grotto]] || Any || Child 
+''Note: This Gold Skulltula location can be abused to get an infinite number of Gold Skulltula Tokens. See [[../Glitches/]] for more details.''
+|}
+
+===Ganon's Castle (Exterior)===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 17 || {{desc}} Look to the right of Ganon's Castle and behind the remains of a ruined gate to find a Gold Skulltula. You will need the {{im/oot|Items|Hookshot}}
+| [[File:LoZ OOT Skulltula 17.jpg|160px|Behind the ruined gate]] || Any || Adult 
+|}
+
+===Lon Lon Ranch===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 18 || {{desc}} Next to the ranch house is a lone tree. Roll into it to dislodge a Skulltula.
+| [[File:LoZ OOT Skulltula 18.png|160px|A lone Tree]] || Any || Child 
+|-
+| 19 || {{desc}} On the far side of the horse corral is a feeding shelter for the horses. Look on the back of it to find a Skulltula.
+| [[File:LoZ OOT Skulltula 19.png|160px|Behind the feeding shelter]] || Nighttime || Child 
+|-
+| 20 || {{desc}} A Skulltula resides on an upper window of the ranch house. Kill it and retrieve its token with your {{im/oot|Items|Boomerang}}.
+| [[File:LoZ OOT Skulltula 20.png|160px|Gold Skulltula on an window]] || Nighttime || Child 
+|-
+| 21 || {{desc}} To the right of the silo at the back of the ranch is a Skulltula high on the fence. Use your {{im/oot|Items|Boomerang}} to retrieve the token.
+| [[File:LoZ OOT Skulltula 21.png|160px|Another Skulltula in the wall]] || Nighttime || Child 
+|}
+
+===Kakariko Village===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 22 || {{desc}} The large tree near the entrance to Kakariko has a Skulltula in its branches. Roll into it to dislodge it.
+| [[File:LoZ OOT Skulltula 22.png|160px|????]] || Nighttime || Child 
+|-
+| 23 || {{desc}} You will find a Skulltula lurking on the side of the House of Skulltula.
+| [[File:LoZ OOT Skulltula 23.png|160px|????]] || Nighttime || Child 
+|-
+| 24 || {{desc}} Look on the center pile of bricks of the building currently under construction to spot another Skulltula.
+| [[File:LoZ OOT Skulltula 24.png|160px|????]] || Nighttime || Child 
+|-
+| 25 || {{desc}} The house to the left of the gate leading to Death Mountain has a Skulltula on its side.
+| [[File:LoZ OOT Skulltula 25.png|160px|????]] || Nighttime || Child 
+|-
+| 26 || {{desc}} Use your {{im/oot|Items|Fairy Slingshot}} or {{im/oot|Items|Bombchu|display=Bombchus}}to kill a Skulltula on the ladder of the tall lookout tower, then climb up to grab the token.
+| [[File:LoZ OOT Skulltula 26.png|160px|????]] || Nighttime || Child 
+|-
+| 27 || {{desc}} This Skulltula is on the roof of Impa's house. To get there, stand in front of the door of that house and {{im/oot|Items|Hookshot}} over to the roof of the House of Skulltula. Then, Hookshot onto the roof of Impa's house. This is easier with the {{im/oot|Items|Longshot}}, but it can be done without. As a child, at the summit of Death Mountain is Kaepora Gaebora. Talk to him, and he will fly you back to Kakariko, placing you atop Impa's house. (Cannot be obtained as a child in the US version.)
+| [[File:LoZ OOT Skulltula 27.png|160px|????]] || Nighttime || Adult 
+|}
+
+===Graveyard===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 28 || {{desc}} In the Kakariko Graveyard, look on the right wall near the Royal Family's Tomb. Kill the Skulltula there and retrieve the token with the {{im/oot|Items|Boomerang}}.
+| [[File:LoZ OOT Skulltula 28.png|160px|????]] || Nighttime || Child 
+|-
+| 29 || {{desc}} On the left side of the Graveyard is another soft soil patch. Use a {{im/oot|Items|Bottle of Bugs}} to evict the Skulltula from its burrow.
+| [[File:LoZ OOT Skulltula 29.png|160px|????]] || Any || Child 
+|}
+
+===Death Mountain Trail===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 30 || {{desc}} After clearing the boulder blocking the entrance to Dodongo Cavern, you will see a patch of soft soil. Use a {{im/oot|Items|Bottle of Bugs}} to find a Skulltula.
+| [[File:LoZ OOT Skulltula 30.png|160px|????]] || Any || Child 
+|-
+| 31 || {{desc}} Before you reach Dodongo Cavern is a suspicious wall on the right side of the trail. Destroy it with a {{im/oot|Items|Bomb}} and kill the Skulltula inside, then climb the wall to claim the token.
+| [[File:LoZ OOT Skulltula 31.png|160px|????]] || Any || Both 
+|-
+| 32 || {{desc}} Go to the spot where you used to a Bomb Flower to unblock Dodongo Cavern, and look for a red rock. Destroy it with the {{im/oot|Items|Megaton Hammer}} to uncover a Skulltula.
+| [[File:LoZ OOT Skulltula 32.png|160px|????]] || Nighttime || Adult 
+|-
+| 33 || {{desc}} Go to the climbable wall near the summit of Death Mountain. At the base of the wall is another red rock concealing a Skulltula. Destroy it with the {{im/oot|Items|Megaton Hammer}}<br>
+| [[File:LoZ OOT Skulltula 33.png|160px|????]] || Nighttime || Adult 
+''Note: It is possible to get this Skulltula without breaking the rock by first spin attacking, with magic, near the rock to kill the Skulltula hidden beneath. Position Link so that he is facing away from the rock, but with his back facing the crack between the wall and the rock. Perform a backflip to fall into the rock just far enough to get the token.''
+|}
+
+===Goron City===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 34 || {{desc}} On the top floor of Goron City is a passage that leads to a room full of rocks. Use {{im/oot|Items|Bomb|display=Bombs}} to make your way to the far end, where you will find two treasure chests containing 50 rupees a piece, a Gossip Stone, and a crate. Roll into the crate to find a Skulltula.
+| [[File:LoZ OOT Skulltula 34.png|160px|????]] || Any || Child 
+|-
+| 35 || {{desc}} This Skulltula resides on the back of the pedestal in the center of Goron City where the Spiritual Stone of Fire once rested. Stand on one of the nearby ropes so that you can see the Skulltula and {{im/oot|Items|Hookshot}} it. Be careful not to hit the wooden platform instead.
+| [[File:LoZ OOT Skulltula 35.png|160px|????]] || Nighttime || Adult 
+|}
+
+===Death Mountain Crater===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 36 || {{desc}} After beating Dodongo's Cavern, make your way to the summit of Death Mountain. Enter the crater by the entrance at the summit and roll into the nearby crate to find a Skulltula.
+| [[File:LoZ OOT Skulltula 36.png|160px|????]] || Any || Child 
+|-
+| 37 || {{desc}} After learning the {{im/oot|Ocarina Songs|Bolero of Fire}} as an adult, first return to the past and then warp to Death Mountain Crater as young Link using the Bolero of Fire. Drop a {{im/oot|Items|Bottle of Bugs}} on the nearby patch soil to force out a Skulltula.
+| [[File:LoZ OOT Skulltula 37.png|160px|????]] || Any || Child 
+|}
+
+===Dodongo's Cavern===
+[[#Dodongo's Cavern 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 38 || {{desc}} From the main entrance, enter the room to the southeast, a jagged corridor with Baby Dodongos. Use {{im/oot|Items|Bomb|display=Bombs}} to destroy the weak wall in the corridor (or lure a Baby Dodongo there and kill it). In the next room is a Skulltula, protected by Keese.
+| [[File:LoZ OOT Skulltula 38.png|160px|????]] || Any || Both 
+|-
+| 39 || {{desc}} From the main entrance, enter the room to the northwest with the large staircase. Climb up the staircase and look for a Skulltula on a vine wall near the exit. Kill it with the {{im/oot|Items|Fairy Slingshot}}, then climb up to claim the token.
+| [[File:LoZ OOT Skulltula 39.png|160px|????]] || Any || Both 
+
+Alternatively, you can return here as an adult and use the {{im/oot|Items|Fairy Bow}} or {{im/oot|Items|Hookshot}} to kill the Gold Skulltula.
+|-
+| 40 || {{desc}} After entering the giant Dodongo skull, turn right to enter a room with several low walls. Destroy the fake wall at the far end of this room with a {{im/oot|Items|Bomb}} to find a Skulltula behind an Armos.
+| [[File:LoZ OOT Skulltula 40.png|160px|????]] || Any || Both 
+|-
+| 41 || {{desc}} After activating the pillar elevator, exit and then reenter the dungeon and ride it to the second floor. Make your way around the second floor until you reach the room with the staircase, which should now be in its original position. Take the path to the left (west) and you'll find a climbable wall on the side of the staircase allowing you to reach the alcove with the Skulltula. You will need the {{im/oot|Items|Boomerang}} to reach the token.
+| [[File:LoZ OOT Skulltula 41.png|160px|????]] || Any || Both 
+
+Alternatively, return as an adult and simply use the {{im/oot|Items|Longshot}} to obtain the token.
+|-
+| 42 || {{desc}} Enter this dungeon as an adult, after having learned the {{im/oot|Ocarina Songs|Scarecrow's Song}}. Go to the corridor before your first Lizalfos battle as a child. There is an alcove here that will attract Navi when you look at it. Play the Scarecrow's Song to make Pierre appear, and then {{im/oot|Items|Hookshot}} him to find the Skulltula.
+| [[File:LoZ OOT Skulltula 42.png|160px|????]] || Any || Both 
+{{-}}
+
+{{sidebar
+|float=right
+|width=250px
+|title=Nintendo 3DS
+|contents=Back-flipping onto the statue is not possible. Instead, push one of the statues into the alcove, and close to, but not against, one of the side walls. Walk to the other side, a short distance away from the statue. At this point, place one of your {{im/oot|Items|Bomb|display=Bombs}} and take a few steps towards the statue, using L-targeting to back away in a straight line. A well timed back flip will put you on the statue, where you can jump onto the raised ledge, kill the skulltula, and get the token.
+}}
+
+Alternatively, you can also push/pull one of the statues within this room over to the alcove. You can use the statue to help adult link jump up and grab hold of the ledge and climb up.
+
+''Note: It is possible to obtain this token as a child by using the above statue strategy, although this method is somewhat difficult to pull off. You must push one of the statues to the alcove, but then push it all the way over to wall opposite the alcove. You can then backflip onto the statue and use some well-placed {{im/oot|Items|Fairy Slingshot}} shots to just barely clear the ledge and hit the Skulltula. After the token appears, you can grab the token with an aimed {{im/oot|Items|Boomerang}} throw, as it will be too far away to Z-target.''
+|}
+
+===Zora's River===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 43 || {{desc}} At the start of the river, where you met the owl and have to blow up the boulders in the way, roll into the tree at the left to knock out a Skulltula. Kill it with your sword and grab the token.
+| [[File:LoZ OOT Skulltula 43.png|160px|????]] || Any || Child 
+|-
+| 44 || {{desc}} At the top of the river, drop down into the shallow water and walk to the ladder. The Skulltula is on the ladder. Kill it with the {{im/oot|Items|Fairy Slingshot}} or {{im/oot|Items|Boomerang}}, then climb up to collect the token.
+| [[File:LoZ OOT Skulltula 44.png|160px|????]] || Nighttime || Child 
+|-
+| 45 || {{desc}} As you enter Zora's River, venture up to where the bean seller used to be and cross the river. Walk down the pathway about 60 feet, and then look high up on the south wall. Take the Skulltula down with your {{im/oot|Items|Longshot}} (Hookshot isn't long enough).
+| [[File:LoZ OOT Skulltula 45.png|160px|????]] || Nighttime || Adult 
+
+Alternatively, you can use the {{im/oot|Items|Hookshot}} to retrieve the Skulltula if you planted the {{im/oot|Items|Magic Beans}} in the hole next to where the bean seller used to be as a child. Ride the platform and jump off once you reach the tall middle area or you can go down the river and climb the ladder in the narrow pathway to get to the tall middle area, and the Skulltula will be within reach.
+|-
+| 46 || {{desc}} As you approach the curve that leads to the entrance to Zora's Domain, stand on the final "bridge" and face the entrance. Turn around and you'll see the Gold Skulltula high up on the wall. Use your {{im/oot|Items|Hookshot}} to take it down.
+| [[File:LoZ OOT Skulltula 46.png|160px|????]] || Nighttime || Adult 
+|}
+
+===Zora's Domain===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 47 || {{desc}} Walk up to where King Zora's throne is, and then take a left and go down the hallway where the Zora Diving Game was. Approach the ledge, and look left. Use your {{im/oot|Items|Hookshot}} to bring down this Gold Skulltula.
+| [[File:LoZ OOT Skulltula 47.png|160px|????]] || Nighttime || Adult 
+|}
+
+===Zora's Fountain===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 48 || {{desc}} Roll into the tree near the Great Fairy's Fountain for another Gold Skulltula.
+| [[File:LoZ OOT Skulltula 48.png|160px|????]] || Any || Child 
+|-
+| 49 || {{desc}} Run up on the giant log that is to the right of Lord Jabu-Jabu. You will see a Gold Skulltula on the wall. Take the token with your {{im/oot|Items|Boomerang}}.
+| [[File:LoZ OOT Skulltula 49.png|160px|????]] || Nighttime || Child 
+|-
+| 50 || {{desc}} Lift up the silver boulder near the entrance to the Great Fairy's Fountain with your [[../Upgrades#Strength Enhancers|'''Silver Gauntlets''']] [[File:OoT Items Silver Gauntlets.png|24px]] then use a {{im/oot|Items|Bomb}}. Drop down into this hole, and be wary of four invisible Skulltula that hang from the ceiling. Avoid them, or use your {{im/oot|Items|Lens of Truth}} and shoot them down. Climb up the rough wall behind them. On your right is a Big Skulltula, and on your left is the Gold Skulltula. Use your {{im/oot|Items|Longshot}} to obtain the token.
+| [[File:LoZ OOT Skulltula 50.png|160px|????]] || Nighttime || Adult 
+|}
+
+===Inside Jabu-Jabu's Belly===
+[[#Inside Jabu-Jabu's Belly 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 51 || {{desc}} After you meet Princess Ruto and she allows you to carry her, venture into the door on her left. Carry her into the water in the center of the room, and throw her onto the ledge opposite from which you came. Immediately take out your {{im/oot|Items|Fairy Slingshot}} and shoot the Gold Skulltula that is on vine covered wall to your right. To obtain the token, raise the water level, quickly swim towards the vines, and climb up.
+| [[File:LoZ OOT Skulltula 51.png|160px|????]] || Any || Child 
+|-
+| 52 || {{desc}} This Gold Skulltula is on the wall near the entrance to Bigocto's Chamber. (Right after you drop through the hole where the Green Tentacle used to be). This particular Skulltula is closer to Bigocto's door than the other. Use your {{im/oot|Items|Boomerang}} to obtain the token.
+| [[File:LoZ OOT Skulltula 52.png|160px|????]] || Any || Child 
+|-
+| 53 || {{desc}} This Gold Skulltula is on the wall near the entrance to Bigocto's Chamber. (Right after you drop through the hole where the Green Tentacle used to be). This particular Skulltula is further away from Bigocto's door than the other one. Use your {{im/oot|Items|Boomerang}} to obtain the token.
+| [[File:LoZ OOT Skulltula 53.png|160px|????]] || Any || Child 
+|-
+| 54 || {{desc}} As you enter the chamber right before you face Barinade, walk forwards until you hit the wall, and then turn to your right and slightly behind you. Up this vine-covered wall is a Gold Skulltula. Take it out with your {{im/oot|Items|Fairy Slingshot}} or {{im/oot|Items|Boomerang}}, and climb up to receive the token.
+| [[File:LoZ OOT Skulltula 54.png|160px|????]] || Any || Child 
+|}
+
+===Lake Hylia===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 55 || {{desc}} Drop a {{im/oot|Items|Bottle of Bugs}} into the patch of soft soil next to the Lakeside Laboratory to unearth a Gold Skulltula.
+| [[File:LoZ OOT Skulltula 55.jpg|160px|Soft soil near laboratory]] || Any || Child 
+|-
+| 56 || {{desc}} Walk behind the Lakeside Laboratory and onto the bridge. As soon as you get on the bridge, look left at the Lakeside Laboratory wall to spot a Gold Skulltula. Use your {{im/oot|Items|Boomerang}} to claim the token.
+| [[File:LoZ OOT Skulltula 56.jpg|160px|Skulltula on Lakeside Laboratory wall]] || Nighttime || Child 
+|-
+| 57 || {{desc}} On the secluded island in the middle of Lake Hylia, with the two pillars (where Link acquires the {{im/oot|Items|Fire Arrows}} as an adult), lies a Gold Skulltula on one of the columns. Walk up and take it.
+| [[File:LoZ OOT Skulltula 57.jpg|160px|Secluded island]] || Nighttime || Child 
+|-
+| 58 || {{desc}} Use your {{im/oot|Items|Longshot}} to pull yourself to the top of the dead tree on the island with the warp pad. Up here lies a Gold Skulltula. Obtain the token by using your {{im/oot|Items|Longshot}}.
+| [[File:LoZ OOT Skulltula 58.jpg|160px|On top of the tree]] || Nighttime || Adult 
+|-
+| 59 || {{desc}} Inside the Lake Hylia lab is a pool the alchemist draws water from for experiments. At the bottom of the pool is a crate. Sink down into the pool with the {{im/oot|Equipment|Iron Boots}} and do a rolling attack to break the crate to expose the Gold Skultula.<br>Finish it off with your {{im/oot|Items|Hookshot}} and collect the token.
+| [[File:LoZ OOT Skulltula 59.jpg|160px|At the bottom of the pool]] || Nighttime || Adult 
+|}
+
+===Forest Temple===
+[[#Forest Temple 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 60 || {{desc}} At the entrance of the Forest Temple, look for climbable vines to the right. Climb up and you should see the Skulltula. Kill it with the {{im/oot|Items|Hookshot}}.
+| [[File:LoZ OOT Skulltula 60.png|160px|????]] || Any || Adult 
+|-
+| 61 || {{desc}} At the north door in the main room face right, on the wall is a Skulltula. Kill it with the {{im/oot|Items|Hookshot}}.
+| [[File:LoZ OOT Skulltula 61.png|160px|????]] || Any || Adult 
+|-
+| 62 || {{desc}} In the east courtyard, there is a Skulltula on one of the walls. Find a chest up on a ledge near the well. ling onto with the Hookshot and you'll see a Skulltula clinging to the wall. Kill it with your {{im/oot|Items|Hookshot}}.
+| [[File:LoZ OOT Skulltula 62.png|160px|????]] || Any || Adult 
+|-
+| 63 || {{desc}} In the west courtyard is a Skulltula on a high wall. Once you get up on the ledge with the Big Deku Baba, hop onto the pillar with two hearts to find it. Kill it with the {{im/oot|Items|Hookshot}}. You may also {{im/oot|Items|Longshot}} from the bottom of the wall.
+| [[File:LoZ OOT Skulltula 63.png|160px|On top of the pillar with two hearts]] || Any || Adult 
+|-
+| 64 || {{desc}} In the room with the rotating walls, right after you light all torches and go down into the floor, adust the walls and you'll find a room with the Skulltula on the wall. Kill it and get its token with the {{im/oot|Items|Hookshot}}.
+| [[File:LoZ OOT Skulltula 64.png|160px|????]] || Any || Adult 
+|}
+
+===Fire Temple===
+[[#Fire Temple 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 65 || {{desc}} In the first room you unlock with the long bridge, go over to your left and you should find a door with a Time Block above it. Play the {{im/oot|Ocarina Songs|Song of Time}} to move the block down to you. Climb up to find a door. Inside are Floor Tiles, a Like-Like, and a Gold Skulltula.
+| [[File:LoZ OOT Skulltula 65.png|160px|????]] || Any || Adult 
+|-
+| 66 || {{desc}} Within the boulder maze is a bombable wall. Hit it and it will sound strange. {{im/oot|Items|Bomb}} it to reveal another Gold Skulltula.<br>''Note: When you enter the boulder maze on the ground floor, turn: left, left, right and then continue straight forwards until you can't go any further and the camera has gone back to normal view. Bomb the wall ahead to find the Skulltula.''
+| [[File:LoZ OOT Skulltula 66.png|160px|????]] || Any || Adult 
+|-
+| 67 || {{desc}} Once you reach the second floor of the boulder maze, you'll see a platform from above in a corner. Go to the platform near it by the door you used to get up here and play the {{im/oot|Ocarina Songs|Scarecrow's Song}}. {{im/oot|Items|Hookshot}} onto Pierre when he appears. Then, look to your right and you'll see an elevator. {{im/oot|Items|Hookshot}} onto it and it will bring you to the top floor. Go through the door. Inside this room is a Skulltula.
+| [[File:LoZ OOT Skulltula 67.png|160px|????]] || Any || Adult 
+|-
+| 68 || {{desc}} Climb up above where the last Gold Skullula was to find another door. Go into this next room and on the ledge you'll see another Gold Skulltula on the wall. Kill it with your {{im/oot|Items|Hookshot}}.
+| [[File:LoZ OOT Skulltula 68.png|160px|????]] || Any || Adult 
+|-
+| 69 || {{desc}} Once you enter the room after the one with all the Fire Keese and Torch Slugs, you'll find more Floor Tiles, another Like-Like, and a Gold Skulltula.
+| [[File:LoZ OOT Skulltula 69.png|160px|????]] || Any || Adult 
+|}
+
+===Ice Cavern===
+[[#Ice Cavern 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 70 || {{desc}} In the room where you find the Compass, this Gold Skulltula hangs in a small alcove on the wall. Use the {{im/oot|Items|Hookshot}} to obtain the token.
+| [[File:LoZ OOT Skulltula 70.jpg|160px|????]] || Any || Adult 
+|-
+| 71 || {{desc}} There is a Gold Skulltula behind some icicles in the room where you collect Silver Rupees.
+| [[File:LoZ OOT Skulltula 71.png|160px|????]] || Any || Adult 
+|-
+| 72 || {{desc}} In the room with the movable ice blocks, this Skulltula is on a nearby wall. Use the {{im/oot|Items|Hookshot}} to obtain the token.
+| [[File:LoZ OOT Skulltula 72.png|160px|????]] || Any || Adult 
+|}
+
+===Water Temple===
+[[#Water Temple 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 73 || {{desc}} Drain all the water in the temple and head south into a corridor. Once you reach the end of the corridor, use the Spin Attack to hit the crystal switch. Take out the Skulltula on the other side.
+| [[File:LoZ OOT Skulltula 73.jpg|160px|????]] || Any || Adult 
+|-
+| 74 || {{desc}} After dropping down into the underground river, hop into the water (with the {{im/oot|Equipment|Iron Boots}} on), and look at the left wall for a Skulltula. Use the {{im/oot|Items|Longshot}} to collect the token.
+| [[File:LoZ OOT Skulltula 74.jpg|160px|????]] || Any || Adult 
+|-
+| 75 || {{desc}} Go inside the pillar at the center of the temple, then climb up to the second floor. A Gold Skulltula is on the wall that can be killed with the {{im/oot|Items|Longshot}}.
+| [[File:LoZ OOT Skulltula 75.jpg|160px|????]] || Any || Adult 
+|-
+| 76 || {{desc}} On the top floor is a room with moving platforms. Look to the right to find a Gold Skulltula.<br><br>''Note: You have to have the {{im/oot|Items|Longshot}} to collect the token.''
+| [[File:LoZ OOT Skulltula 76.jpg|160px|????]] || Any || Adult 
+|-
+| 77 || {{desc}} On the bottom floor. Just before you find the Boss Key, there will be a corridor with rolling rocks. At the source of one of the rocks is a Skulltula on the wall that can be killed with the {{im/oot|Items|Longshot}}.
+| [[File:LoZ OOT Skulltula 77.jpg|160px|????]] || Any || Adult 
+|}
+
+===Bottom of the Well===
+[[#Bottom of the Well 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 78 || {{desc}} From the large room in the center of the dungeon, take the northeast door. Make your way to a room with a Like-Like and a Gold Skulltula on the wall. Use the {{im/oot|Items|Boomerang}} to get the token.
+| [[File:LoZ OOT Skulltula 78.jpg|160px|????]] || Any || Child 
+|-
+| 79 || {{desc}} Find a small key and use the {{im/oot|Items|Lens of Truth}} to unlock the left room in the center area, where a Gold Skulltula is crawling on the wall. Use the {{im/oot|Items|Boomerang}} to get the token.
+| [[File:LoZ OOT Skulltula 79.jpg|160px|????]] || Any || Child 
+|-
+| 80 || {{desc}} Find a small key and use {{im/oot|Items|Lens of Truth}} to unlock the right room in the center area. Use the Lens of Truth to find the safe path around the outside of the pit, then kill the Gold Skulltula and snatch the token with the {{im/oot|Items|Boomerang}}.
+| [[File:LoZ OOT Skulltula 80.jpg|160px|????]] || Any || Child 
+|}
+
+===Shadow Temple===
+[[#Shadow Temple 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 81 || {{desc}} One is on the wall in the room with invisible spinning blades after you fight a Stalfos.<br> Use {{im/oot|Items|Longshot}} to collect the token.
+| [[File:LoZ OOT Skulltula 81.jpg|160px|????]] || Any || Adult 
+|-
+| 82 || {{desc}} In the room with the falling spikes, push the block to stop the spikes, then look in the cage to your left.
+| [[File:LoZ OOT Skulltula 82.jpg|160px|????]] || Any || Adult 
+|-
+| 83 || {{desc}} The room with the large skull that's top is on fire has a Gold Skulltula on the wall behind that skull.<br> Use {{im/oot|Items|Longshot}} to collect the token.
+| [[File:LoZ OOT Skulltula 83.jpg|160px|????]] || Any || Adult 
+|-
+| 84 || {{desc}} Stand on the platform next to the boat and play the {{im/oot|Ocarina Songs|Scarecrow's Song}}. {{im/oot|Items|Longshot}} the scarecrow and destroy the Gold Skulltula that is on the wall with your Longshot. If you do not have the Scarecrow's Song, you can stand on the boat before you activate it and get a straight look at the Skulltula. You can hit it with your {{im/oot|Items|Longshot}} from there.
+| [[File:LoZ OOT Skulltula 84.jpg|160px|????]] || Any || Adult 
+|-
+| 85 || {{desc}} After riding the boat, there will be a room with three rotating skulls. There is a Gold Skulltula behind one of them.<br> Use {{im/oot|Items|Longshot}} to collect the token.
+| [[File:LoZ OOT Skulltula 85.jpg|160px|????]] || Any || Adult 
+|}
+
+===Gerudo Valley===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 86 || {{desc}} As you enter Gerudo Valley from Hyrule Field, follow the path up to the small wooden bridge near the little waterfall. At the mouth of the waterfall is a Gold Skulltula. Use your {{im/oot|Items|Boomerang}} to obtain the token.
+| [[File:LoZ OOT Skulltula 86.jpg|160px|????]] || Nighttime || Child 
+|-
+| 87 || {{desc}} At the valley's edge, grab the cucco to the left of the large bridge, and drop down into the valley below. Fly towards the wall in front of you, and land near the Gerudo and her cow. Take out a {{im/oot|Items|Bottle of Bugs}}, and evict a Gold Skulltula from its patch of soft soil next to the cow.
+| [[File:LoZ OOT Skulltula 87.jpg|160px|????]] || Any || Child 
+|-
+| 88 || Nighttime || Adult 
+| [[File:LoZ OOT Skulltula 88.jpg|160px|????]]
+| Behind the carpenters tent lies a Gold Skulltula on the rock wall. Use your {{im/oot|Items|Hookshot}} or
+{{im/oot|Items|Longshot}} to obtain the token.
+|-
+| 89 || {{desc}} On the underside of the rock arch in front of the Carpenter's Tent lies another Gold Skulltula. Claim the token with your {{im/oot|Items|Hookshot}} or {{im/oot|Items|Longshot}}.
+| [[File:LoZ OOT Skulltula 89.jpg|160px|????]] || Nighttime || Adult 
+|}
+
+===Gerudo's Fortress===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 90 || {{desc}} Go to the Horseback Archery Range. As you enter, take a left and walk all the way down to the target at the end. A Gold Skulltula is scuttling about on the front of the target. Use your {{im/oot|Items|Hookshot}} or {{im/oot|Items|Longshot}} to claim the token.
+| [[File:LoZ OOT Skulltula 90.png|160px|????]] || Nighttime || Adult 
+|-
+| 91 || {{desc}} Go to top of Gerudo's Fortress. A gap lies between you and a chest containing a heart piece. On the rock wall inside of this gap lies a Gold Skulltula. Use your {{im/oot|Items|Hookshot}} or {{im/oot|Items|Longshot}} to claim the token. Or simply jump.
+| [[File:LoZ OOT Skulltula 91.png|160px|????]] || Nighttime || Adult 
+|}
+
+===Haunted Wasteland===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 92 || {{desc}} Cross the River of Sand with the {{im/oot|Items|Longshot}} and follow the flags up to the stone building where the Ghost Guide waits. Drop down into the basement of the building. On the wall in front of you lies a Gold Skulltula.
+| [[File:LoZ OOT Skulltula 92.png|160px|????]] || Any || Adult 
+|}
+
+===Desert Colossus===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 93 || {{desc}} Acquire a {{im/oot|Items|Bottle of Bugs}}. Warp to the Desert Colossus with the song of {{im/oot|Ocarina Songs|Requiem of Spirit}} and run to the entrance of the Spirit Temple from the warp pad. Find the soft soil insert to the left of the entrance of the Spirit Temple and pour bugs on it. A Gold Skulltula will pop out of cover. Dispatch it with your sword to collect a token.
+| [[File:LoZ OOT Skulltula 93.png|160px|????]] || Any || Child 
+|-
+| 94 || {{desc}} You must first warp to the Desert Colossus using the {{im/oot|Ocarina Songs|Requiem of Spirit}}. Then move quickly to the flat rock near the dried-up Fairy Fountain pool from the warp pad. On back of the crown of the palm tree near the dried-up pool lurks a Gold Skulltula. Finish it off with {{im/oot|Items|Longshot}} in between fighting off attacking enemies.
+| [[File:LoZ OOT Skulltula 94.png|160px|????]] || Nighttime || Adult 
+|-
+| 95 || {{desc}} As a child, warp to the Desert Colossus with the {{im/oot|Ocarina Songs|Requiem of Spirit}} and go to the soft soil near the entrance of the Spirit Temple. Plant {{im/oot|Items|Magic Beans}}.<br>
+| [[File:LoZ OOT Skulltula 95.png|160px|????]] || Nighttime || Adult 
+As an Adult, warp to the Desert Colossus with the song of Requiem of Spirit and run to the entrance of the Spirit Temple from the warp pad. Ride the magic bean plant. Hang on as it is quite a wild ride. The bean plant will take you to two platforms before going to the stone arch. The skulltula is on the second platform it takes you to. You will have to jockey around to face the correct way to time your jump rightly from the bean plant to the platform. Dispatch critter with your sword and collect an easy token.
+
+Alternatively, you may {{im/oot|Items|Longshot}} from the back side of the rock.
+|}
+
+===Spirit Temple===
+[[#Spirit Temple 2 |Click Here]] for Master Quest locations.<br>
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 96 || {{desc}} Go through the small hole at the beginning, and go through the door on the right. There is a Gold Skulltula on the fence in this room. Use the {{im/oot|Items|Boomerang}} to collect the token.
+| [[File:LoZ OOT Skulltula 96.png|160px|Skulltula on the fence]] || Any || Child 
+|-
+| 97 || {{desc}} After you battle some Lizalfos, there is a climbable wall that leads to the second floor. When you reach the top, turn around to find a Gold Skulltula. Use the {{im/oot|Items|Boomerang}} to collect the token.
+| [[File:LoZ OOT Skulltula 97.png|160px|Another skulltula in the wall]] || Any || Both 
+
+Alternatively, you can return here as an adult and use the {{im/oot|Items|Hookshot}} to grab the token.
+|-
+| 98 || {{desc}} In the room leading to the first Iron Knuckle battle is a Gold Skulltula on the wall. Use the {{im/oot|Items|Boomerang}} to collect the token.
+| [[File:LoZ OOT Skulltula 98.png|160px|Room before Iron knuckle battle]] || Any || Both 
+
+Alternatively, you can return here as an adult and use the {{im/oot|Items|Hookshot}} to grab the token.
+|-
+| 99 || {{desc}} In the room with the Silver Rupees and boulders, play the {{im/oot|Ocarina Songs|Song of Time}} near the blue block to make a Gold Skulltula appear.
+| [[File:LoZ OOT Skulltula 99.png|160px|????]] || Any || Adult 
+|-
+| <span style="color:3ecaa00">100</span> || {{desc}} Play the {{im/oot|Ocarina Songs|Scarecrow's Song}} at the top of the staircase (the one you went down as a kid) in the statue room. {{im/oot|Items|Longshot}} onto the scarecrow and kill the Gold Skulltula beside him with the Longshot. (This is the official way to obtain it, but in reality, you can see the Skulltula really clearly from the top of the stairs anyway. You can easily Longshot it right from there.)
+| [[File:LoZ OOT Skulltula 100.png|160px|????]] || Any || Adult 
+|}
+
+== Master Quest Gold Skulltula Locations ==
+=== Inside the Great Deku Tree ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 8 || {{desc}} On the second floor of the entrance, roll into the crate next to the chest holding the {{im/oot|Items|Dungeon Map}}.
+| [[File:Zelda OOT Master Quest DekuSkulltula 1.jpg|160px|Crate the Skulltula is inside.]] || Any || Child 
+|-
+| 9 || {{desc}} On the 2nd floor, in the room where you got the {{im/oot|Items|Compass}}, look up and to the left of the chest and you will see some boulders. Destroy them with the {{im/oot|Items|Bombchu|display=Bombchus}}. The spider is in that alcove.
+| [[File:Zelda OOT Master Quest DekuSkulltula 2a.jpg|160px|Boulders blocking the alcove.]] || Any || Child 
+|-
+| 10 || {{desc}} Floor B1 in the mid-West room with four torches, play the {{im/oot|Ocarina Songs|Song of Time}} to create a staircase of time blocks to reach the token. Play the song again to bridge the gap, then {{im/oot|Items|Boomerang}} to get the spider.
+| [[File:Zelda OOT Master Quest DekuSkulltula 3.jpg|160px|The Gold Skulltula on the ceiling.]] || Any || Child 
+|-
+| 11 || {{desc}} Floor B1 in the far West room of the four torch room. Kill all the enemies. The spider is on the very back of the wall. Use the {{im/oot|Items|Boomerang}} to reach it.
+| [[File:Zelda OOT Master Quest DekuSkulltula 4.jpg|160px|Skulltula on the back wall.]] || Any || Child 
+|}
+
+=== Dodongo's Cavern ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 38 || {{desc}} In the giant pillar room, use a {{im/oot|Items|Bomb}} to destroy the fake wall. Go in the room behind it. Keep on playing the {{im/oot|Ocarina Songs|Song of Time}} on left side of the room. The Gold Skulltula is under the back most time block.
+| [[File:LoZ OOT Master Quest Skulltula 38.png|160px|????]] || Any || Both 
+|-
+| 39 || {{desc}} In the room with the three floating torches is a door that opens when all three torches are lit. Use a {{im/oot|Items|Deku Stick}}, {{im/oot|Items|Din's Fire}}, or {{im/oot|Items|Fire Arrows}} to light the torches. In the room behind that barred door is the Skulltula in the crates on the right wall.
+| [[File:LoZ OOT Master Quest Skulltula 39.png|160px|????]] || Any || Both 
+|-
+| 40 || {{desc}} In the back of the room where you first fought the Lizalfos is a line of boulders. Use {{im/oot|Items|Bomb|display=Bombs}} the ones in the center to open a path to the Gold Skulltula.
+| [[File:LoZ OOT Master Quest Skulltula 40.png|160px|????]] || Any || Both 
+|-
+| 41 || {{desc}} In the {{im/oot|Enemies|Poe|jpg}} room is a door to the right of the entrance. Unlock the door by using a {{im/oot|Items|Bomb}} on the bomb chain on the pillar right in front of the door. Kill all the enemies inside, the Skulltula is in the top left corner of the room. Use the {{im/oot|Items|Boomerang}} to reach it.
+| [[File:Zelda OOT Master Quest Dodongo Skulltula 4.png|160px|????]] || Any || Both 
+|-
+| 42 || {{desc}} Near the wall of fire rings lying on top of the wall is a Golden Skulltula. Use the {{im/oot|Items|Boomerang}} to reach it.
+| [[File:Zelda OOT Master Quest Dodongo Skulltula 5.jpg|160px|Skulltula lying on the wall.]] || Any || Both 
+
+Alternatively, it is possible to leap off a nearby block to catch the ledge on which the Gold Skulltula is located. You can also return as an adult and use the {{im/oot|Items|Hookshot}} to reach it.
+|}
+
+=== Inside Jabu-Jabu's Belly ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 51 || {{desc}} There is a time block in the room holding the boomerang. The Gold Skulltula is underneath so play the {{im/oot|Ocarina Songs|Song of Time}} to reveal it.
+| [[File:LoZ OOT Master Quest Skulltula 51.png|160px|????]] || Any || Child 
+|-
+| 52 || {{desc}} In the room just right of the green tentacle's room. Use the switch in the center of the room to have water raise you up. A well-timed {{im/oot|Items|Bomb|display=bomb}} throw (or a {{im/oot|Items|Bombchu}}) will blow up the boulder to reveal the Skulltula. Use the {{im/oot|Items|Boomerang}} to retrieve the token.
+| [[File:LoZ OOT Master Quest Skulltula 52.png|160px|????]] || Any || Child 
+
+Alternatively, if you are having trouble getting this you can come back later and use the {{im/oot|Ocarina Songs|Song of Time}} to move a block in front of the boulder, then climb up and bomb it.
+|-
+| 53 || {{desc}} In the room into which Ruto fell, the door near the vines to the upper room is protected by a blue tentacle. After you get rid of the blue tentacle enter the room where there are three invisible {{im/oot|Enemies|Keese}}. You can use the {{im/oot|Items|Lens of Truth}} to see them. Across the water is the Skulltula. Kill all the enemies to make a platform appear that can be used to get up to the Skulltula. Walk around either side of the web and use the {{im/oot|Items|Boomerang}} to collect the token. You can use {{im/oot|Items|Din's Fire}} to eliminate the web if you need more room to aim.
+| [[File:LoZ OOT Master Quest Skulltula 53.png|160px|????]] || Any || Child 
+
+Alternatively, kill the three invisible enemies without the Lens of Truth by using the Targeting System: jump into the water and swim around until you are attacked. When this happens, get out of the water, lock on using the Targeting System and you will target the invisible foe. Shoot at it with the {{im/oot|Items|Fairy Slingshot}}, then repeat this procedure until you have killed all three enemies. If an enemy ends up where it won't attack you, target it from the water to locate it, get out of the water, then fire at the same location.
+|-
+| 54 || {{desc}} In the room before Barinade, climb up the vines in the middle of the room. Behind a small wall of web you will see the Skulltula. Stand in the very center of the platform and throw your {{im/oot|Items|Boomerang}} at the Gold Skulltula.
+| [[File:Zelda OOT Master Quest JabuSkulltula 4.jpg|160px|The Skulltula is shielded by a transparent wall, so you'll have to throw the {{im/oot|Items|Boomerang|png|18px}} around it.]] || Any || Child 
+|}
+
+=== Forest Temple ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 60 || {{desc}} Right above the locked door sits a Gold Skultulla. Kill it with the {{im/oot|Items|Hookshot}}, then get its token the same way.
+| [[File:LoZ OOT Master Quest Skulltula 60.png|160px|????]] || Any || Adult 
+|-
+| 61 || {{desc}} Go around the left pillar and you'll find a Gold Skulltula on the ground on the other side. Strike it with your sword to claim its token.
+| [[File:LoZ OOT Master Quest Skulltula 61.png|160px|????]] || Any || Adult 
+|-
+| 62 || {{desc}} Jump down into the garden area. In the back right corner there will be vines that lead to a Gold Skulltula. Kill it with your sword and claim your token.
+| [[File:LoZ OOT Master Quest Skulltula 62.png|160px|????]] || Any || Adult 
+|-
+| 63 || {{desc}} In the first garden area, from the entrance go forward, pull out your {{im/oot|Items|Hookshot}} and turn around. Above you there will be a Gold Skulltula in front of the Hookshot target. Shoot it with the Hookshot and claim its token.
+| [[File:LoZ OOT Master Quest Skulltula 63.png|160px|On top of the pillar with two hearts]] || Any || Adult 
+|-
+| 64 || {{desc}} Run all the way through the drained well. At the grating at the end, there will be a Gold Skulltula - shoot it with the {{im/oot|Items|Hookshot}} and claim its token.
+| [[File:LoZ OOT Master Quest Skulltula 64.png|160px|????]] || Any || Adult 
+|}
+
+=== Fire Temple ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 65 || {{desc}} On the first floor, in the room with the bridge leading over the lava, open the Goron's cell door and then find the Gold Skulltula behind him.
+| [[File:LoZ OOT Master Quest Skulltula 65.png|160px|????]] || Any || Adult 
+|-
+| 66 || {{desc}} In the big room with all the {{im/oot|Enemies|Lizalfos}}, there is a false wall behind which you can hit a switch to reveal several Hookshot targets. Use those to get up onto the platform with a huge crack on top and play the {{im/oot|Ocarina Songs|Song of Time}}. Make your way onto the blue block that appears and use the {{im/oot|Items|Hookshot}} to get to the elevator the leads to the floor above. Continue from here until you reach a room with a rusted switch that triggers more Hookshot targets. Hit that and then the non-rusted switch to dissipate the fire and Hookshot up to it to move the block and reveal a Gold Skulltula.
+| [[File:LoZ OOT Master Quest Skulltula 66.png|160px|????]] || Any || Adult 
+|-
+| 67 || {{desc}} In the area made up of a maze of fire walls, jump across to the square platform that held the large block and again from here to the opposite ledge. Standing near that door, play the {{im/oot|Ocarina Songs|Song of Time}} to make a blue block appear. Climb onto the block and leap well from it to clear the nearby fire walls. Enter the NW door along the wall here and fight the {{im/oot|Enemies|Lizalfos}}. A Gold Skulltula will be waiting on the back wall.
+| [[File:LoZ OOT Master Quest Skulltula 67.png|160px|????]] || Any || Adult 
+|-
+| 68 || {{desc}} In the fire maze room, follow the maze. You should pass through a couple of doors to the other side. Keep navigating the maze until you reach a switch that temporarily dissipates the flames blocking the eastern door, then run over and head inside. Proceed through the rooms that follow. Eventually you should find yourself in a tiny compartment directly over the fire maze room from which you came. Claim the Gold Skulltula there.
+| [[File:LoZ OOT Master Quest Skulltula 68.png|160px|????]] || Any || Adult 
+|-
+| 69 || {{desc}} In the fire maze room, enter the door (by which you play the {{im/oot|Ocarina Songs|Song of Time}} in 67) to the central room. Use the {{im/oot|Items|Hookshot}} to cross the fire to the other side. Hit the rusty switch with the {{im/oot|Items|Megaton Hammer}}, then climb the target beside the switch to jump over the fire wall to get down to the lower corridor. Here you can bomb a false wall to reveal the final Gold Skulltula.
+| [[File:LoZ OOT Master Quest Skulltula 69.png|160px|????]] || Any || Adult 
+|}
+
+=== Ice Cavern ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 70 || {{desc}} In the room with the {{im/oot|Dungeon Items|Compass}}, {{im/oot|Items|Blue Fire}}, and {{im/oot|Upgrades|Piece of Heart}}, there is a red ice block on one of the pillars with a Gold Skulltula in it. Get some blue fire with an {{im/oot|Items|Empty Bottle}} and go by that pillar. Play the {{im/oot|Ocarina Songs|Song of Time}} twice to make 2 blocks appear. Climb up there and use the blue fire.
+| [[File:LoZ OOT Master Quest Skulltula 70.jpg|160px|????]] || Any || Adult 
+|-
+| 71 || {{desc}} In the top left square room on the map there is a ledge to the right right when you enter. Walk up to it and Navi should turn green and fly up there. Play the {{im/oot|Ocarina Songs|Scarecrow's Song}} and the scarecrow will come up. {{im/oot|Items|Hookshot}} up there and at the very back on the bottom left with be the Gold Skulltula.
+| [[File:LoZ OOT Master Quest Skulltula 71.png|160px|????]] || Any || Adult 
+|-
+| 72 || {{desc}} In the same room as the last Gold Skulltula there will be a ledge with a bunch of red ice blocks on it. Right at the wall underneath the ledge the Gold Skulltula will be on the ground.
+| [[File:LoZ OOT Master Quest Skulltula 72.png|160px|????]] || Any || Adult 
+|}
+
+=== Water Temple ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 73 || {{desc}} After you get the {{im/oot|Items|Fire Arrows}}, go back into the Water Temple and enter the south room/corridor (located on the bottom corridor below the temple entrance in the 3DS version). At the end of the corridor you will find three torches on a wall. Light the torches and the grated/gated up area will open. Use the {{im/oot|Ocarina Songs|Scarecrow's Song}} to {{im/oot|Items|Longshot}} to the upper part of the room and the Gold Skulltula is on the ceiling of where it was closed off. Beware of the two {{im/oot|Enemies|Stalfos}} who will be blocking your way.
+| [[File:LoZ OOT Master Quest Skulltula 73.jpg|160px|????]] || Any || Adult 
+|-
+| 74 || {{desc}} In the room with the pool and the whirlpools, play the {{im/oot|Ocarina Songs|Scarecrow's Song}} and Pierre will appear. {{im/oot|Items|Longshot}} onto him. You will notice a door blocked off by a chain. Go towards the waterfall and put on the {{im/oot|Equipment|Iron Boots}} and go in the hole. You'll eventually arrive in a small room with crates and a {{im/oot|Enemies|Stalfos}}. Fight it and then break the crates. One of them has a {{im/oot|Dungeon Items|Small Key}}. Use it on the door you saw earlier and you will arrive in a room with a switch and unlit torches. Hit the switch, get on the middle water pillar (for lack of a better term) and use {{im/oot|Items|Din's Fire}}. The torches will light and you can advance to the next room. But it's still not over! Kill all the {{im/oot|Enemies|Dodongo|display=Dodongos}} in the room and Longshot up to the door that just opened. You will be back in the pool room. Break the crate with the Gold Skulltula but leave at least one crate alone. You will need it to Longshot your way out of the little trapped space, and voilà!
+| [[File:LoZ OOT Master Quest Skulltula 74.jpg|160px|????]] || Any || Adult 
+|-
+| 75 || {{desc}} After making your way through the big square room on the third floor you will drop down through an open grate to the second floor. In the next section, the river current is really strong and there are several whirlpools so you will have to use the {{im/oot|Items|Longshot}} to move from one pillar to the next. There is a Gold Skulltula on the wall, you can't miss it!
+| [[File:LoZ OOT Master Quest Skulltula 75.jpg|160px|????]] || Any || Adult 
+|-
+| 76 || {{desc}} On the second floor, step on the yellow button switch to open up the gate leading to the south corridor. Walk past the wood crates and straight towards another gate. Use {{im/oot|Items|Din's Fire}} to light the torch that is on the inside. The Gold Skulltula is hiding behind the two wooden crates.
+| [[File:LoZ OOT Master Quest Skulltula 76.jpg|160px|????]] || Any || Adult 
+|-
+| 77 || {{desc}} In the room that opens with the blue switch, follow the room until you are at the top before the last water level switch. The Gold Skulltula is in a box.
+| [[File:LoZ OOT Master Quest Skulltula 77.jpg|160px|????]] || Any || Adult 
+|}
+
+=== Bottom of the Well ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 78 || {{desc}} After getting the {{im/oot|Items|Lens of Truth}}, take the northeast passage. It is full of invisible {{im/oot|Enemies|Skulltula|display=Skulltulas}} hanging from the ceiling, and at the end you'll find a Gold Skulltula.
+| [[File:LoZ OOT Master Quest Skulltula 78.jpg|160px|????]] || Any || Child 
+|-
+| 79 || {{desc}} Get to the door to the west of the {{im/oot|Dungeon Items|Dungeon Map}}. Watch out, the room behind it is full of invisible monsters. Pull the grave there to reveal the Gold Skulltula.
+| [[File:LoZ OOT Master Quest Skulltula 79.jpg|160px|????]] || Any || Child 
+|-
+| 80 || {{desc}} Get to the west passageway. Drop down, climb the vines, and pass through the previously locked door. Go all the way to the back and you should see the Gold Skulltula hiding behind the right bird statue.
+| [[File:LoZ OOT Master Quest Skulltula 80.jpg|160px|????]] || Any || Child 
+|}
+
+=== Shadow Temple ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 81 || {{desc}} In the room with the falling spikes, inside the southern cell.
+| [[File:LoZ OOT Master Quest Skulltula 81.jpg|160px|????]] || Any || Adult 
+|-
+| 82 || {{desc}} In the room full of {{im/oot|Enemies|ReDead|display=ReDeads}} (with a treasure chest), crawling on the wall.
+| [[File:LoZ OOT Master Quest Skulltula 82.jpg|160px|????]] || Any || Adult 
+|-
+| 83 || {{desc}} Shortly before the ship, in the room with the two {{im/oot|Enemies|Gibdo|display=Gibdos}}, bomb the rubble in the northwest to reveal the Gold Skulltula.
+| [[File:LoZ OOT Master Quest Skulltula 83.jpg|160px|????]] || Any || Adult 
+|-
+| 84 || {{desc}} Hidden inside the bottomless pit you cross using the bird statue. Walk halfway through and look back to see it.
+| [[File:OoTMQ-ShadowSkulltula4.jpg|160px|????]] || Any || Adult 
+|-
+| 85 || {{desc}} Hanging along an invisible platform just before the boss door.
+| [[File:LoZ OOT Master Quest Skulltula 85.jpg|160px|????]] || Any || Adult 
+|}
+
+=== Spirit Temple ===
+{| {{prettytable|class=mid-table|style=text-align:center}}
+! width="1px" | # || style="min-width:200px" | Notes || Image || width="60px" | Time || Age
+|-
+| 96 || {{desc}} In the room with the blocks with sun faces. Return here as an adult and push the southeast block into the light. Use the new platform to reach the Gold Skulltula.
+| [[File:LoZ OOT Master Quest Skulltula 96.png|160px|????]] || Any || Adult 
+|-
+| 97 || {{desc}} In the sandpit room, crawling on the ceiling.
+| [[File:LoZ OOT Master Quest Skulltula 97.png|160px|????]] || Any || Adult 
+|-
+| 98 || {{desc}} In the room with lots of Skulltulas, on the east wall.
+| [[File:LoZ OOT Master Quest Skulltula 98.png|160px|????]] || Any || Adult 
+|-
+| 99 || {{desc}} In the room with a lone {{im/oot|Enemies|Iron Knuckle|jpg}}, behind the north statue.
+| [[File:LoZ OOT Master Quest Skulltula 99.png|160px|????]] || Any || Adult 
+|-
+| <span style="color:3ecaa00">100</span> || {{desc}} In the room with a lone {{im/oot|Enemies|Iron Knuckle|jpg}}, behind the west statue.
+| [[File:LoZ OOT Master Quest Skulltula 100.png|160px|????]] || Any || Adult 
+|}
+
+{{Footer Nav|game=The Legend of Zelda: Ocarina of Time|prevpage=The Happy Mask Shop|nextpage=Minigames}}

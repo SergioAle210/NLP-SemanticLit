@@ -1,0 +1,155 @@
+{{reorg}}
+{{Infobox Enemy
+|image= File:Zol Echo.png
+|caption=Zol from {{EoW|-}} 
+|pronunciation= 
+|plural= Zols<ref name="E 214">{{Cite Book|quote= |book= E |publisher= |page= 214 {{Exp Game|TLoZ, ALttP, LA, OoS, OoA, FS}}}}</ref>
+|race= 
+|habitat= [[Overworld]]<br/>[[Hyrule Field]]{{Exp Game|EoW}}
+|member= [[Slime Eye]]
+|health={{Infobox Game Blocks
+ |TLoZ=[[Weapon Strength#The Legend of Zelda|1]]
+}} 
+|attack={{Infobox Game Blocks
+ |TLoZ=Contact {{small|(1 heart)}}
+}} 
+|weapon= 
+|spoils= [[Heart]] {{Exp Game|TLoZ}}, One [[Rupee]] {{Exp Game|TLoZ}}, Five Rupees {{Exp Game|TLoZ}}, [[Clock]] {{Exp Game|TLoZ}}
+|exp= 
+|theme= 
+|crossover_debut={{CoH}}
+|game_debut={{TLoZ}}
+}}
+{{Term/Store|Zol|Zols|Series, TLoZ, ALttP, LA, LADX, OoS, OoA, FS|plural}} are recurring [[Enemy|enemies]] in {{TLoZ|Series}}.<ref name="E 214"/>
+
+==Characteristics==
+The Zol's primary habitat ranges from [[dungeon]]s and [[cave]]s in {{TLoZ}} and {{ALttP}}, to the [[Overworld]] in {{LA}}, {{OoA}}, and {{OoS}}. While Zols typically yield two [[Gel]]s when struck with a weapon, it is possible to defeat these creatures through the use of a more powerful weapon (such as the [[White Sword]] from {{TLoZ|-}}) as such so that the enemy bypasses the Gel stage altogether.
+
+Zols from {{ALttP|-}} and {{FSA}} are the only incarnations not to experience a Gel phase when attacked. However, this is also the most abundant version, as it appears in three different colors across Hyrule and shows a difference in vitality: the standard red are the simplest, while green and yellow are the most difficult to defeat. {{LA|-}} also incorporates red and green Zols: the red Zol is the stronger of the two and can divide into Gel if struck with a weak weapon (a strong one will simply defeat it), while the green version is much less powerful and does not divide into Gel upon attack. Also, in {{LA|-}}, {{OoS}}, and {{OoA}}, only green Zols can pop out of the ground in an ambush, attacking Link in a radically different way in comparison to the commonplace, bouncing strategy of other titles. In {{ALttP|-}}, both green and yellow Zols can pop out of the ground.
+
+As Zols are often commonplace enemies, they can be defeated with the most conventional of weaponry, including the [[Sword]], [[Bomb]], [[Boomerang]], and [[Bow]].
+
+==Mainline appearances==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Zol & Gel|Jelly-like monsters that walk about bouncing around in the labyrinths. When Link cuts Zol, it splits into two Gels. Gel has little attacking power, but Zol has twice the power of Gel.}}
+Zols first appear in {{TLoZ}}. When defeated, Zols may drop either a [[Heart]], one [[Rupee]], five Rupees, or a [[Clock]].{{Note|If [[Link]] defeats 10 enemies without getting hit or teleporting with the [[Recorder]], then the 10th enemy defeated will drop five [[Rupee]]s. However, if the 10th enemy is defeated with a [[Bomb]], then it will drop four Bombs. If Link defeats 16 enemies without getting hit or teleporting, then the 16th enemy will drop a [[Fairy]]. After the 16th enemy, Link must get hit and reset the counter to zero in order to achieve this effect again. Defeating [[Armos]], [[Like Like]]s, [[Keese]], or [[Gel]]s will not be counted.<ref>{{Cite Web|quote= |author= n.a. |published= n.d. |retrieved= August 17, 2017 |url= http://redcandle.us/The_Legend_of_Zelda#Forced_drops |title= Forced Drops |site= redcandle.us}}</ref>}} It is notable for its palette when used in dark rooms, making it completely blend in to the background, safe for the eyes.
+==={{aLttP|-}}===
+==={{LA|-}}===
+==={{OoS|-}}===
+==={{OoA|-}}===
+==={{FS|-}}===
+==={{FSA|-}}===
+==={{EoW|-}}===
+{{Manual|EoW|Zol|A weak, gelatinous monster that moves slowly by expanding and contracting.<ref name="EoW Zol">{{Cite|A weak, gelatinous monster that moves slowly by expanding and contracting.|Notebook|EoW}}</ref>}}
+Zols are gelatinous creatures found in the grasslands of Hyrule. When they detect a target, they jiggle before leaping toward it. Zols can be summoned as an [[Echo]], with the Echo cost of one.
+
+Zols also have fire and water counterparts, the [[Ignizol]] and the [[Hydrozol]], respectively. The [[Buzz Blob]] also behaves very similar to an elemental Zol, being a slime creature that produces electricity. A [[Dark Echo|Dark variant]] can be encountered after coming in contact with a [[Tecuum]].
+
+==Spinoff appearances==
+{{Noncanon|Start}}
+==={{TFoE|-}}===
+[[File:Bit WoG.png|frame|left]]
+Zols in {{TFoE}} are depicted as purple with a pair of angry eyes. A Zol simply moves back and forth slowly. Link can defeat a Zol using his [[Sword]], but as if with most enemies, if Link touches a Zol, he takes damage.
+
+==={{ZA|-}}===
+[[File:ZA Red Zol.png|frame|left]]
+Red Zols appear as enemies in the [[Shrine of Water]] in {{ZA}}. Unlike most of their other appearances, Zols do not split into Gels when defeated. At one point, [[Princess Zelda|Zelda]] has to defeat a group of Zols to obtain the [[Dungeon Map]] of the Shrine of Water.
+
+==={{BSTLoZ|-}}===
+{{Stub|BSTLoZ}}
+
+==={{AST|-}}===
+{{Stub|AST}}
+{{Noncanon|End}}
+
+==Crossover appearances==
+==={{CoH|-}}===
+{{Ambig|Start}}
+{{stub|CoH}}
+Zols appear as enemies in {{CoH}}. Their designs and behaviors are based on the Slime enemies in ''{{Wp|Crypt of the Necrodancer}}''.
+{{Ambig|End}}
+
+==Trivia==
+*Both Zols and Gels from {{FS|-}} appear as unused enemies in the code of {{TMC}}.<ref>{{Cite Web|quote= Zol and Gel from Four Swords still exist in The Minish Cap's code.|author= |published= |retrieved= |url= https://tcrf.net/The_Legend_of_Zelda:_The_Minish_Cap#Zol_.26_Gel|title= The Legend of Zelda: The Minish Cap|site= The Cutting Room Floor|type= }}</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+===Sprite===
+<gallery>
+File:TLoZ Zol Sprite.png|Sprite from {{TLoZ|-}}
+File:TLoZ Zol Sprite 2.png|A Zol from {{TLoZ|-}}
+File:TLoZ Zol Sprite 3.png|A Zol from {{TLoZ|-}}
+File:TLoZ Zol Sprite 4.png|A Zol from {{TLoZ|-}}
+File:TLoZ Zol Sprite 5.png|A Zol from {{TLoZ|-}}
+File:ALttP Green Zol Sprite.png|Sprite from {{ALttP|-}}
+File:ALttP Red Zol Sprite.png|A Red Zol from {{ALttP|-}}
+File:ALttP Yellow Zol Sprite.png|A Yellow Zol from {{ALttP|-}}
+File:ALttP Light-Green Zol Sprite.png|A Light-Green Zol from {{ALttP|-}}
+File:LA Zol Sprite.png|Sprite from {{LA|-}}
+File:LADX Zol Green Sprite.png|Sprite from {{LA|DX|-}}
+File:LADX Red Zol Sprite.png|A Red Zol from {{OoS|-}} and {{OoA|-}}
+File:FS Zol Sprite.png|Sprite from {{FS|-}}
+File:FSA Green Zol Sprite.png|Sprite from {{FSA|-}}
+File:FSA Zol Blue Sprite.png|A Blue Zol from {{FSA|-}}
+</gallery>
+===Models===
+<gallery>
+File:LANS Green Zol Model.png|Model from {{LA|NS|-}}
+File:LANS Red Zol Model.png|A Red Zol from {{LA|NS|-}}
+</gallery>
+===Unsorted===
+<gallery>
+File:TLoZ Zol Artwork.png|Artwork for {{TLoZ|-}}
+File:TLoZ Zol Splitting Into Gels Artwork.png|Artwork of a Zol splitting into two {{Plural|TLoZ|Gel}} from {{TLoZ|-}}
+File:EoW Zol rift.png|The [[Dark Echo|dark variant]] from {{EoW|-}}
+File:TMC Blue Zol Sprite.png|An unused Blue Zol, as it would have appeared, from {{TMC|-}}
+File:TMC Green Zol Sprite.png|An unused Green Zol, as it would have appeared, from {{TMC|-}}
+File:TMC Red Zol Sprite.png|An unused Red Zol, as it would have appeared, from {{TMC|-}}
+File:Zol3.gif|A Zol from {{BSTLoZ|-}}
+File:YellowZolInS.png|A Zol from {{AST|-}}
+</gallery>
+
+==See also==
+*[[Bit]]
+*[[Bot]]
+*[[Blob]]
+*[[Buzz Blob]]
+*[[Chuchu]]
+*[[Dera Zol]]
+*[[Gel]]
+*[[Gizmol]]
+*[[Hydrozol]]
+*[[Ignizol]]
+*[[Phasing Zol]]
+*[[Slime]]
+*[[Zolgel]]
+
+{{Notes}}
+{{Ref}}
+
+{{Enemies}}
+
+[[Category:Echoes]]
+[[Category:Gelatinous Enemies]]
+[[Category:Enemies in The Legend of Zelda]]
+[[Category:Enemies in A Link to the Past]]
+[[Category:Enemies in Link's Awakening]]
+[[Category:Enemies in Link's Awakening DX]]
+[[Category:Enemies in Link's Awakening (Nintendo Switch)]]
+[[Category:Enemies in Oracle of Seasons]]
+[[Category:Enemies in Oracle of Ages]]
+[[Category:Enemies in Four Swords]]
+[[Category:Enemies in Four Swords Adventures]]
+[[Category:Enemies in Echoes of Wisdom]]
+[[Category:Enemies in The Faces of Evil]]
+[[Category:Enemies in Zelda's Adventure]]
+[[Category:Enemies in BS The Legend of Zelda]]
+[[Category:Enemies in Ancient Stone Tablets]]
+[[Category:Enemies in Cadence of Hyrule]]
+
+[[es:Zol]]
+[[fr:Zol]]
+[[de:Zol]]
+[[zh-tw:泥怪]]

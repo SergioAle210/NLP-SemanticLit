@@ -1,0 +1,117 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= File:OoT Fire Arrow Render.png
+ |Render MM= File:MM Fire Arrow Render.png
+ |Render TWW= File:TWW Fire and Ice Arrows Render.png
+ |Model OoT= File:OoT Fire Arrow Model.png
+ |Model OoT3D= File:OoT3D Fire Arrow Model.png
+ |Model MM= File:MM Fire Arrow Model.png
+ |Model MM3D= File:MM3D Fire Arrow Model.png
+ |Model TWW= File:TWW Fire and Ice Arrows Model.png
+ |Model TWWHD= File:TWWHD Fire Arrow Model.png
+ |Model BotW= File:BotW Fire Arrow Model.png
+ |Sprite OoT= File:OoT Fire Arrow Icon.png
+ |Sprite OoT3D= File:OoT3D Fire Arrow Icon.png
+ |Sprite MM= File:MM Fire Arrow Icon.png
+ |Sprite MM3D= File:MM3D Fire Arrow Icon.png
+ |Sprite BotW= File:BotW Fire Arrow Icon.png
+}}
+|caption= 
+|game= OoT, MM, TWW, BotW, TotK
+|crossover= SSBM, SSB4, SSBU, CoH
+|strength= {{Infobox Game Blocks
+ |OoT=[[Weapon Strength#Ocarina of Time|4]]
+ |BotW=10
+}}
+|uses= Granting the power of [[Fire]] to the [[Arrow]]s
+|comp= [[Ice Arrow]]<br/>[[Shock Arrow]]<br/>[[Light Arrow]]
+}}
+{{Term/Store|Fire Arrow|Fire Arrows|Series, OoT, OoT3D, MM, MM3D, TWW, TWWHD, BotW, CoH|plural}} are recurring [[item]]s in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 123 {{Exp Game|OoT, MM, TWW}}}}</ref><ref name="Inventory">{{Cite|{{Big|Fire Arrow}}<br/>An arrow imbued with the power of fire. It breaks apart on impact, igniting objects in the immediate area. It's incredibly effective against cold things.|Inventory|BotW}}</ref><ref>{{Cite|{{Color|CoH Yellow|Fire Arrows}}<br/>Imbues your arrows with a fire effect, at the cost of stamina.|Inventory|CoH}}</ref>
+
+==Location and uses==
+==={{OoT|-}}===
+[[File:OoT3D Fairy Bow Fire Arrow Icon.png|left]]
+In {{OoT}}, the Fire Arrows are obtained in [[Lake Hylia]] as an adult. [[Link]] must stand on top of the plaque above the [[Water Temple]]'s entrance and shoot an [[Arrow]] at the sun just as it begins to rise.<ref>{{Cite|When water fills the lake, shoot for the morning light.|N/A|OoT}}</ref> The Arrow will freeze in midair and fall onto an island on the lake, where Link can pick it up, granting him the ability to use Fire Arrows. It is not necessary to complete the Water Temple to obtain the Fire Arrows, as Link can collect them by using the "[[Scarecrow's Song]]" and the [[Longshot]] or by using a [[Magic Bean]] plant.
+
+Fire Arrows can be used to light [[Torch]]es that are too far away for [[Din's Fire]] to reach. They use two [[Magic Meter|Magic Points]] per Arrow.<ref>{{Cite manual|quote= Fire Arrow 2 MP|game= OoT|page= 24}}</ref> They are not necessary for completion of the game, as a combination of Din's Fire and shooting an Arrow through an already lit Torch can be used to clear puzzles involving the Fire Arrows. However, Fire Arrows are needed to complete the {{MQ}} version of the game, as they are used to burn the webs on the ceiling of the Spirit Barrier in [[Ganon's Castle]], which Din's Fire is unable to reach.
+
+==={{MM|-}}===
+[[File:MM3D Hero's Bow Fire Arrow Icon.png|left]]
+In {{MM}}, the Fire Arrows are obtained in the [[Snowhead Temple]] after defeating a [[Wizzrobe]].<ref>{{Cite|You got the Fire Arrow! Set it to (C) to power up your arrows. Things will heat up when they hit!|N/A|MM}}</ref> Each Arrow fired uses Magic Points, but if there are not enough, then the Arrow will not be ablaze when released.<ref>{{Cite manual| quote= In the world of Termina there are three types of Magic Arrows. When you shoot them, magic will be consumed in units displayed as MP (magic points). When you run out of Magic Power, the effect of the magic arrows will be lost.| game= MM| page= 31}}</ref> They are used to complete various puzzles, particularly in the [[Snowhead]] area. These puzzles usually involve melting ice or lighting several Torches at a fast pace. Fire Arrows are also used to burn the curtains blocking the sunlight during the battle with [[Igos du Ikana]] and his two servants in the [[Ancient Castle of Ikana]].<ref>{{Cite|To counter the rage of the King of Ikana Castle, burn away that which disrupts the light and shine the sacred rays on the King.|Garo|MM}}</ref>
+
+==={{TWW|-}}===
+In {{TWW}}, Link can receive the Fire Arrows as well as the [[Ice Arrow]]s at the [[Mother and Child Isles]] after learning the "[[Ballad of Gales]]." He must warp inside the large rock structure in order to meet the [[Fairy Queen]], who will grant him the power to wield these special Arrows;<ref>{{Cite|I like you. And so, I shall give new power to the bow that you wield. Ice Arrows can freeze the hottest flames, and Fire Arrows can melt the coldest ice.|Fairy Queen|TWW}}</ref> however, the Fairy Queen will not hand over the ability to use them until Link has rescued his sister, [[Aryll]], from the [[Forsaken Fortress]]. 
+
+Fire Arrows are needed to melt the ice surrounding [[Ice Ring Isle]] so Link can obtain the [[Iron Boots]]. They must also be used to burn curtains within the [[Earth Temple (The Wind Waker)|Earth Temple]]. Fire Arrows do twice as much damage as regular Arrows.
+
+==={{BotW|-}}===
+{{Compendium/Extract|Fire Arrow}}
+Fire Arrows are a type of Arrow that can be used with any [[Bows in Breath of the Wild|Bow]] in {{BotW}}. Fire Arrows immediately dissipate into a burst of [[Fire]] upon impact, burning anything flammable in the vicinity.<ref name="Inventory"/>
+
+There are multiple ways to acquire Fire Arrows. hey can be dropped by archer [[Enemies in Breath of the Wild|enemies]] or found inside [[Treasure Chest]]s. Sometimes they can be found as bundles.<ref>{{Cite|{{Big|Fire Arrow x5}}<br/>A bundle of five fire arrows.<br/>Fire arrows breaks apart on impact, igniting objects in the immediate area. Incredibly effective against cold things.|N/A|BotW}}</ref><ref>{{Cite|{{Big|Fire Arrow x10}}<br/>A bundle of ten fire arrows.<br/>Fire arrows breaks apart on impact, igniting objects in the immediate area. Incredibly effective against cold things.|N/A|BotW}}</ref>
+
+Fire Arrows can be purchased from the following locations:
+* The [[Arrow Specialty Shop]] in [[Gerudo Town]]
+* The [[Goron Gusto Shop]] in [[Goron City]]
+* The [[Slippery Falcon (Tarrey Town Branch)]]
+* [[Shaillu]]'s arrow store in [[Kara Kara Bazaar]]
+* [[The Curious Quiver]] in [[Kakariko Village]]
+* [[Botrick]] at [[Outskirt Stable]]
+
+If [[Link]] or an enemy is shot by a Fire Arrow, they are set on Fire for a short period of time. Fire Arrows deal an additional 10 damage to the attack power of the Bow being used. [[Bokoblin]]s, [[Moblin]]s, [[Lizalfos]], and [[Lynel]]s sometimes use Fire Arrows. Link can immediately defeat [[Ice Wizzrobe]]s, [[Blizzrobe]]s, and [[Ice-Breath Lizalfos]] by shooting them with a single Fire Arrow.<ref name="Inventory"/>
+
+Fire Arrows emit heat and light, allowing Link to stay warm in cold climates, melt [[Ice]], and illuminate dark areas. Link can also light Torches by shooting them with Fire Arrows. Fire Arrows cannot set anything on Fire while it is raining, as the flame quickly dies out.
+
+==={{TotK|-}}===
+As a unique arrow type, Fire Arrows are absent from {{TotK}}, which was done in favor of [[Fuse]], in which Link can create his own Fire Arrows, by Fusing a [[Arrow]] with a [[Fire Fruit]] or any other Elemental material.
+
+==Crossover appearances==
+{{Noncanon|Start}}
+==={{SSB|-}} series===
+===={{SSBM|-}}====
+[[Young Link]]'s neutral special move is known as the [[Fire Bow]] in {{SSBM}}. When Link executes the Fire Bow, he shoots a Fire Arrow. They have a shorter range and deal less damage than Link's normal Arrows, but can set other players on fire.
+
+===={{SSB4|-}}====
+[[Toon Link]] can use the Fire Bow as an alternate Neutral Special move in {{SSB4}}.
+
+===={{SSBU|-}}====
+Fire Arrows return from {{SSBM|-}} as [[Young Link]]'s Neutral Special move in {{SSBU}}.
+{{Noncanon|End}}
+
+{{Ambig|Start}}
+==={{CoH|-}}===
+{{Stub|AST}}
+{{Ambig|End}}
+
+==Trivia==
+*In {{OoT|-}}, enemies may be harmed by Din's Fire but not by Fire Arrows, provided they are unharmed by regular Arrows. An example are [[ReDead]]s, which take no damage from any variety of Arrows, but can be defeated by two uses of Din's Fire. [[Freezard]]s and [[Anubis]] are unharmed by regular Arrows, but take damage from Fire Arrows and from Din's Fire.
+*Regular enemies defeated by Fire Arrows in Majora's Mask will always drop a big stack of arrows.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:Bow and Fire Arrows.png|The Fairy Bow equipped with Fire Arrows from {{OoT|-}}
+File:MM Bow of Flames Icon.png|The Hero's Bow equipped with Fire Arrows from {{MM|-}}
+File:SSBU Young Link Fairy Bow and Fire Arrow.png|Young Link using a Fire Arrow from {{SSBU|-}}
+File:CoH Fire Arrow Sprite.png|Sprite of the Fire Arrows from {{CoH|-}}
+</gallery>
+
+==See also==
+* [[Arrow]]
+* [[Ice Arrow]]
+* [[Shock Arrow]]
+* [[Bomb Arrow]]
+* [[Ancient Arrow]]
+* [[Light Arrow]]
+
+{{Ref}}
+
+{{CommonItems}}
+{{Categories
+ |Arrows
+ |items= OoT, OoT3D, MM, MM3D, TWW, TWWHD, BotW, CoH
+ |objects= SSBM, SSBfN3DS, SSBfWU, SSBU
+}}

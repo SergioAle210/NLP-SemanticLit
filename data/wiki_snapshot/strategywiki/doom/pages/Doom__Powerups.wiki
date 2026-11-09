@@ -1,0 +1,65 @@
+{{Header Nav|game=Doom}}
+In addition to weapons, you need to find powerups to assist you in defeating the [[../Monsters|monsters]]. You might also need to find switches and/or keys to finish a level.
+
+==Powerups==
+{| {{prettytable}}
+|- 
+! Powerup
+! Effect
+! Duration
+|-
+| Bullets, Shells, Rockets, Plasma Cells
+| Ammunition for weapons
+|
+|-
+| Health potion, Stimpack, Medikit, Soul sphere
+| 1%, 10%, 25%, and 100% health boosts, respectively (only health potions and soul spheres will boost health above 100%)
+| Instant
+|-
+| Spiritual armor, Security armor, Combat armor
+| 1%, 100%, and 200% armor boosts, respectively (security armor will not boost the player to over 100%)
+| Instant
+|-
+| Megasphere (''Doom II'' series only)
+| Boosts both health and armor to maximum (200%)
+| Instant
+|-
+| Radiation suit
+| Protects against damaging floors. (Some floors can still damage if you stand still on them.) 
+| 60 seconds
+|-
+| Berserk pack
+| Makes fists ten times more powerful, heals player to 100% health if lower upon pickup
+| Level
+|-
+| Backpack
+| Doubles ammo carrying capacity (only first picked up) and provides some ammo
+| Episode¹
+|-
+| Computer map
+| Reveals unexplored areas on in-game map
+| Level
+|-
+| Key
+| Opens corresponding locked doors; comes in keycard or skull form
+| Level
+|-
+| Light amplification visor
+| Renders dark areas at full brightness
+| 120 seconds
+|-
+| Partial invisibility
+| Makes player difficult to see; makes monster aim less accurate
+| 60 seconds
+|-
+| Invulnerability
+| Provides immunity to damage, player's view (except for sky) becomes extremely bright
+| 30 seconds
+|}
+
+# ''Doom II'' is not divided into episodes; the backpack's effect lasts until the end of the game
+
+==References==
+* Weapon power: [http://www.gamers.org/pub/idgames/lmps/tyson/weapons.html Doom Weapon Damage Information] by George Bell
+* The Creatures: [http://www.doomwadstation.com/bestiary/ Doom and Doom 2 Creature Information]
+{{Footer Nav|game=Doom|prevpage=Weapons|nextpage=Monsters}}

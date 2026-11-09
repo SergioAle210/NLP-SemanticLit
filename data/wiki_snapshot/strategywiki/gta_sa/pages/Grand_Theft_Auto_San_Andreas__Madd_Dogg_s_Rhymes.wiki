@@ -1,0 +1,25 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar OGLoc.png]] [[../Life's a Beach/]]
+* '''Location''': [[File:GTA San Andreas radar OGLoc.png]] Burger Shot car park, Marina, Los Santos
+|}
+
+{{achievement
+|name=Assassin
+|g=25
+|trophy=bronze
+|image=GTASA DE Assassin.png
+|description=Stealth kill all enemies in the mission "Madd Dogg's Rhymes".
+}}
+[[File:GTA_SA_Madd_Dogg's_Rhymes.jpg|thumb|Stealth Is All It Is]]
+
+This is your introduction to stealth missions and there's really no need for a walkthrough. The basics of it all is to crouch and kill the guards with your knife. If one of them is alerted, it's okay, you just have to knife them all out of your way. Once you get the rhyme book, you could sneak out or shoot your way through.
+
+== Rewards ==
+* '''Respect''': +4
+* '''Weapon''': Knife
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Life's a Beach|previmg=[[File:GTA San Andreas radar OGLoc.png]]|hereimg=[[File:GTA San Andreas radar OGLoc.png]]|nextpage=Burning Desire|nextimg=[[File:GTA San Andreas radar CRASH.png]]|customnext=[[File:GTA San Andreas radar OGLoc.png]] [[../Management Issues/]]}}

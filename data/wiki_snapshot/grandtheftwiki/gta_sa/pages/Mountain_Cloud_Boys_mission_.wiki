@@ -1,0 +1,164 @@
+{{infobox mission
+|name=Mountain Cloud Boys
+|image=MountainCloudBoys-GTASA.png
+|caption=[[Wu Zi Mu]] re-introduces himself to [[Carl Johnson]], who has just learned from [[Guppy]] that he is blind
+|size=300px
+|game=SA
+|for=[[Wu Zi Mu]]
+|location=[[Chinatown, San Fierro|Chinatown]], [[San Fierro]], [[San Andreas in GTA III Era|San Andreas]]
+|target=[[Da Nang Boys]]
+|reward= [[Money|$5000]], [[Respect]]
+|unlocks= [[Ran Fa Li (mission)|Ran Fa Li]]
+|unlockedby=[[Jizzy (mission)|Jizzy]]
+}}
+
+'''Mountain Cloud Boys''' is a mission in [[Grand Theft Auto: San Andreas]] given to [[protagonist]] [[Carl Johnson|Carl "CJ" Johnson]] by blind Chinese-American [[San Fierro Triads]] leader [[Wu Zi Mu|Wu Zi "Woozie" Mu]] from his [[Wu Zi Mu's Apartment|apartment]] in the [[Chinatown, San Fierro|Chinatown]] district of [[San Fierro]], [[San Andreas in GTA III Era|San Andreas]].
+
+==Mission==
+Carl arrives at Woozie's apartment and is led upstairs by a Triad, who informs him that Woozie is actually blind and blessed with unbelievable good fortune. Woozie "reintroduces" himself to Carl as the boss of the [[Mountain Cloud Boys]], and says that he needs to meet a Triad faction, the Blood Feather, that missed a meeting last time. Carl and Woozie drive over to the warehouse where the Blood Feather Triad is found. Upon arriving a usually locked gate is suddenly found open and Woozie bumps into a dead Triad while the place is surrounded by flames. The door to a garage opens and a surviving Triad inside informs Woozie about the [[Da Nang Boys]] having wiped out the Blood Feather Triads just as more of them arrive at the alleyway. Carl helps Woozie in killing all the Da Nang Boys and after finishing everyone off, they escape in a [[Sentinel]] while two more Da Nang gang cars arrive and start attacking them. Woozie destroys both the cars and Carl drives him back to his apartment.
+
+==Script==
+'''Triad #1''': (''as Carl arrives to check in on Woozie'') We're closed! Pokgai!
+
+'''CJ''': Easy, man, I'm here to see Woozie.
+
+'''Triad #1''': Oh. Upstairs.
+
+'''CJ''': Stupid ass motherfucker... (''three betters look at him and then return to their usual business'')
+
+'''(''On the staircase, Carl meets one of Woozie's assistants who he had encountered earlier.'')'''
+
+'''CJ''': I'm Johnson. I'm here to see Woozie, I work with him.
+
+'''Triad # 2''': (''shows Carl the stairs'') Yes, right this way. (''interrupts him'') You know of the boss's curse?
+
+'''CJ''': (''stops'') Curse? Nah.
+
+'''Triad # 2''': He's blind.
+
+'''CJ''': Blind? But we was just racing cars last week!
+
+'''Triad # 2''': Yes, I know. He is blessed with unbelievable good fortune. And the Triad that would do anything for him - we call him our Lucky Mole.
+
+'''CJ''': A'ight. I'll keep that in mind. (''heads for Woozie'')
+
+'''Triad # 2''': Good.
+
+'''(''Carl arrives in Woozie's apartment. Two of his female assistants are tending to him.'')'''
+
+'''CJ''': Woozie! (''the girls leave'')
+
+'''Woozie''': Hello, Carl.
+
+'''CJ''': Hey, what's happening Woozie - y'know, how you doin'?
+
+'''Woozie''': Straight to the facts; I can't use your help unless I'm open with you about who I am and what I do. Let me re-introduce myself... I am the boss of the Mountain Cloud Boys.
+
+'''CJ''': Nice to meet you.
+
+'''Woozie''': Likewise. Why don't you sit down. (''as they sit down'') As Dai Dai Lo of the Triad, it is my responsibility to see the disputes are settled without... damaging important business.
+
+'''CJ''': Where I come in at?
+
+'''Woozie''': We shall see. I'm about to drop in on a local Triad that failed to show face at the last Tong meeting. Come with me, and you'll see how we Triads settle things without recourse to...unnecessary violence.
+
+'''CJ''': A'ight, I'll ride with you.
+
+'''(''Carl and Woozie are outside the betting shop.'')'''
+
+'''Woozie''': We'll need a ride, mine's getting some bodywork done to it.
+
+'''CJ''': Alright, don't trip.
+
+'''(''On the way to the meeting, they have a conversation explaining the context.'')'''
+
+'''Woozie''': The Blood Feather Triad have a storehouse around the block. We shall see what excuses they have to offer.
+
+'''CJ''': OK. So what's all this talk of business?
+
+'''Woozie''': Some small time Vietnamese gangs have been making trouble lately. We're not sure why they're gaining any courage now, but I'm nervous about the situation.
+
+'''CJ''': How do I fit in all of this?
+
+'''Woozie''': You're an outsider. (''as they arrive at the storehouse alleyway'') This is the place! Come on, it's this way. Now... (''checks the floor'') where's that loose cobble?
+
+'''CJ''': Hey, what the hell you doin'?
+
+'''Woozie''': Just, eerr, checking the, um, y'know. Shut up, Carl.... THIS WAY!
+
+'''CJ''': Hey, what's with all these people? Where they going?
+
+'''Woozie''': Something isn't right here. We should be careful... Follow me. (''runs into a wall'')
+
+'''CJ''': What's wrong? You lost? Need a hand?
+
+'''Woozie''': NO! No, I was just, you know, getting the feel of the place. Stick Close!
+
+'''(''Arriving at the storehouse, they proceed ahead.'')'''
+
+'''Woozie''': Ah, we're here! This way! (''senses that a gate is open'') Strange, this gate is usually locked. Stick Close!
+
+'''CJ''': (''as they go ahead and he can see the whole spot burnt with corpses lying around'') Oh, man, Woozie...
+
+'''Woozie''': What's got you so spooked? (''steps on a nearly dead Triad's face'') Oh, oh sorry, didn't see you lying down there.
+
+'''CJ''': He's dead. They all are.
+
+'''Woozie''': The Blood Feather's wiped out?
+
+'''(''Suddenly, a garage opens with a Triad inside, possibly a surviving Blood Feather boy, as Woozie aims his micro Uzi in defense.'')'''
+
+'''Triad''': Dai Dai Lo! Forgive me, I was too scared to fight, so I hid.
+
+'''Woozie''': (''lowers his micro Uzi'') Enough! What happened here?
+
+'''Triad''': Vietnamese surprised us, cut us all down. Shit, here they come again!
+
+'''(''Some Vietnamese gang members arrive and block the alleyway.'')'''
+
+'''Woozie''': The Triads must have vengeance! (''upon being hit by a sniper rifle'') Hell's sewers, that was a sniper bullet!
+
+'''CJ''': (''after killing everyone'') In the car, quick!
+
+'''(''Carl and Woozie get in the car, as more Vietnamese gang cars arrive.'')'''
+
+'''CJ''': We got more company! (''they push aside one of the cars and exit the alleyway'')
+
+'''Woozie''': You drive, I'll send them back to the sewers! (''starts shooting the attacking cars'') Keep driving, I'll take care of these murderous scum!
+
+'''CJ''': (''after the Vietnamese attackers are killed'') That look like the last of them.
+
+'''Woozie''': Thank you, Carl, you saved me from having to kill them all myself. C'mon, let's get back to my place.
+
+'''(''The two drive back to Woozie's apartment.'')'''
+
+'''Woozie''': Here, a token of the Tong's appreciation for what you did today. (''returns to the apartment'')
+
+==Reward==
+Completing this mission rewards the player with $5,000 and increased [[respect]]. The mission [[Ran Fa Li (mission)|Ran Fa Li]] is unlocked.
+
+==Trivia==
+*The term "Pokgai" is actually a Cantonese swear word that translates to 'Go die in the streets'.
+*In the second cutscene, Carl is waving his hand in Woozie's face to check if he is actually blind.
+*The betters in the first cutscene are exactly the ones seen in [[Dam and Blast]] and [[Madd Dogg (mission)|Madd Dogg]]. The one wearing a yellowish-light brown chequered shirt is also seen in [[The Introduction]].
+
+== Gallery ==
+<gallery>
+File:MountainCloudBoys-GTASA2.png|[[Carl Johnson]] and [[Wu Zi Mu]] discover the only survivor from the Blood Feather Triad.
+File:MountainCloudBoys-GTASA3.png|Wu Zi Mu slaughters the [[Da Nang Boys]] in a fury with CJ's help.
+File:MountainCloudBoys-GTASA4.png|Wu Zi Mu shooting at pursuing Vietnamese gunmen whilst CJ drives back to the [[Wu Zi Mu's Apartment|apartment]]
+</gallery>
+
+==See also==
+*[[Mountain Cloud Boys (mission)/Walkthrough|Mission walkthrough]]
+
+== Video walkthrough ==
+<center>
+{| class="wikitable"
+! [[Personal Computer|PC]] Version - GTA Series Videos
+|-
+| {{youtube|video1=LFjUjGD8YGQ}}
+|}
+</center>
+
+[[Category:Missions in GTA San Andreas]]

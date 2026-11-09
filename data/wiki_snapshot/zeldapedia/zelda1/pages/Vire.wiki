@@ -1,0 +1,116 @@
+{{Infobox Enemy
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Vire Artwork.png
+ |Artwork LANS= File:LANS-Vire.jpeg
+ |Artwork OoS= File:OoS Vire Artwork.png
+ |Artwork OoA= File:OoA Vire Artwork.png
+ |Model LANS= File:LANS Vire Model.png
+ |Sprite TLoZ= File:TLoZ Vire Sprite.png
+ |Sprite LA= File:LA Vire Sprite.png
+ |Sprite LADX= File:LADX Vire Sprite.png
+ |Sprite OoS= File:OoX Vire Sprite.png
+ |Sprite OoA= File:OoX Vire Sprite.png
+}}
+|caption= 
+|race=[[Demon]] 
+|game= TLoZ, LA, OoS, OoA
+|other= TLoZ (TV Series), BSTLoZ, TWoG, ZA
+|crossover= CoH
+|habitat= [[Dungeon]]s
+|member= 
+|health={{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|1}}
+ |LA= {{HP|LA|3}}
+}} 
+|attack={{Infobox Game Blocks
+ |TLoZ= {{Damage
+|attack1= Contact|damage1= 0.50}}
+ |LA= {{Damage
+|attack1= Contact|damage1= 0.50
+|attack2= Fireball|damage2= 0.50}}
+}} 
+|weapon= [[Hookshot]], [[Magic Rod]], [[Sword]]
+|spoils= Four [[Bomb]]s {{Exp Game|TLoZ}}, One [[Rupee]] {{Exp Game|TLoZ}}, [[Clock]] {{Exp Game|TLoZ}}, [[Heart]] {{Exp Game|TLoZ}}
+|exp= 
+|theme= 
+|plural=Vires}}
+{{Term/Store|Vire|Vires|Series, TLoZ, LA, LADX, OoS, OoA|plural}} are recurring [[Enemy|enemies]] and [[Sub-Boss]]es in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 211 {{Exp Game|TLoZ, LA, LADX, OoS, OoA}}}}</ref>
+
+==Characteristics==
+Vires appear as batlike [[Demons|demons]] made up of [[Keese]]. They tend to be encountered in areas of darkness and often split into several Keese when defeated.
+
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Vire & Keese|Vire is a devil that controls the Keeses. When Link cuts it with his sword, it turns into two Keeses. Keeses have little attacking power, but Vire is a little stronger.}}
+First encountered in {{TLoZ}}, ''Vires'' are large, blue devils,<ref>{{Cite Manual|quote= Vire is a devil that controls the Keeses.|game= TLoZ|page= 35}}</ref> encountered only in labyrinths. When harmed, they split into two red-colored [[Keese]]s,<ref>{{Cite Manual|quote= When Link cuts it with his sword, it turns into two Keeses.|game= TLoZ|page= 35}}</ref> which float around the room like regular Keese. After dispatching the red Keeses, if Link exits and immediately returns to a room, the Vires will all be back, since they haven't truly been killed. If it is hurt by an [[Arrow]], the [[Magical Sword]], or any weapon which does at least four damage, it will be defeated without splitting up into Keeses. When defeated, Vires may drop either a [[Heart]], one [[Rupee]], four [[Bomb]]s or a [[Clock]].{{Note|If Link defeats 10 enemies without getting hit or teleporting with the Recorder, then the 10th enemy defeated will drop five Rupees. However, if the 10th enemy is defeated with a Bomb, then it will drop four Bombs. If Link defeats 16 enemies without getting hit or teleporting, then the 16th enemy will drop a Fairy. After the 16th enemy, Link must get hit and reset the counter to zero in order to achieve this effect again. Defeating Armoses, Like Likes, Keeses, or Gels will not be counted.<ref>{{Cite Web|quote=|author= n.a.|published= n.d.|retrieved= August 17, 2017|url=http://redcandle.us/The_Legend_of_Zelda#Forced_drops|title=Forced Drops|site=redcandle.us}}</ref>}}
+{{clear|left}}
+
+==={{LA|-}}===
+In {{LA}}, these rare and fast flying creatures appear in only the [[Turtle Rock]], swooping down at random to try and harm Link. They fly around shooting Fireballs, which can be blocked with a Sword swipe. After having several projectiles blocked, the Vire will swoop down at Link. Three blows will take it out, and cause it to explode into two Big Keese. The easiest way to defeat these monsters is to use Link's [[Hookshot]]. A zap from the [[Magic Rod]] kills it without causing it to split.
+
+==={{OoS|-}}===
+In {{OoS}}, Vire is the Sub-Boss of the [[Ancient Ruins]]. Vire introduces itself as the loyal henchman of [[Onox]]⁠, who was sent to put a stop to [[Link]]'s quest. Vire retains its appearance from {{LA|DX|-}} and battles Link in a similar manner, flying around him and swooping in to strike, retreating when Link swings his [[Sword]], and shooting various fireballs. Blue fireballs appear in pairs and travel in a straight path toward Link; yellow fireballs split into six faster fireballs; and red fireballs continually follow Link until they hit him or are dispelled by the Sword or the [[Boomerang]]. Additionally, the room's perimeter is lined with [[Floor Spike]]s.
+
+Vire can be damaged by timely Sword strikes or [[Bomb]]s. As it takes damage, it becomes more angry, increasing its movement speed and reflexes. After enough hits, it splits into two Keese-like bats that will attack by swooping at Link, but can easily be dispatched with the Sword. Once defeated, Vire admits that it was overconfident in facing Link but vows that its master will stop him. In a [[Linked Game]], Vire expresses disbelief that Link could defeat it twice, and apologizes to both Onox and Veran before disappearing.
+
+In a {{Term|OoS|Linked Game}}, Vire is encountered earlier, in between the third and fourth dungeons. Vire emerges from a [[Treasure Chest]] in an underground area of [[Sunken City]]. It hopes to hinder Link's progress by placing the [[Pyramid Jewel]] high on a nearby cliff, requiring Link to backtrack in order to obtain it.
+
+==={{OoA|-}}===
+In {{OoA}}, Vire is the Sub-Boss of the [[Mermaid's Cave]]. Vire introduces itself as the loyal henchman of [[Veran]], who was sent to put a stop to [[Link]]'s quest. Vire retains its appearance from {{LA|DX|-}} and battles Link in a similar manner, flying around him and swooping in to strike, retreating when Link swings his [[Sword]], and shooting various fireballs. Blue fireballs appear in pairs and travel in a straight path toward Link; yellow fireballs split into six faster fireballs; and red fireballs continually follow Link until they hit him or are dispelled by the Sword or the [[Boomerang]].
+
+Vire can be damaged by timely Sword strikes or [[Bomb]]s. As it takes damage, it becomes more angry, increasing its movement speed and reflexes. After enough hits, it splits into two Keese-like bats that will attack by swooping at Link, but can easily be dispatched with the Sword. Once defeated, Vire admits that it was overconfident in facing Link but vows that its master will stop him. In a [[Linked Game]], Vire expresses disbelief that Link could defeat it twice, and apologizes to both Veran and Onox before disappearing.
+
+In a Linked Game, Vire is encountered earlier, in between the third and fourth dungeons. It kidnaps [[Princess Zelda]] when she arrives in [[Lynna City]], taking her captive in the [[Black Tower]]. Link rescues her by ascending the [[Black Tower|Tower]] while avoiding Vire's fireballs.
+
+==In other media==
+==={{TLoZ|-}} TV Series===
+{{Noncanon|Start}}
+[[File:Vires (Sing for the Unicorn).png|Vires from the animated series|thumb|right]]
+Vires appear in three episodes of {{TLoZ|TV Series}}. In "[[Sing for the Unicorn]]", when Link confronts [[Ganon]] and demands that he let [[King Harkinian]] free, the Vires that were accompanying the evil wizard begin to attack the young hero. Link [[Sword Beam#Zap|Zaps]] a few with the [[Crissword]] until three of them grab him and lift him into the air, allowing Ganon to escape on a [[Unicorn]] with the king. Link eventually manages to free himself from the Vires and goes after Ganon by grabbing onto the Unicorn's tail, but the evil wizard zaps Link, causing him to lose his grip and begins to fall to his death. However, Link manages to survive the fall partially due to him grabbing onto the feet of Vires that were on his way down.
+
+In "[[Underworld Connections]]", three Vires fly towards the chamber where the [[Triforce of Wisdom]] is being kept and place a bomb near the sacred relic.<ref>{{Cite Episode|quote= Link, look! Those Vires, they're after the Triforce!|name= Princess Zelda|show= The Legend of Zelda|episode= 8}}</ref> Zelda realizes that they plan to blow up the Triforce with a [[bomb]] so that they will be able to carry it back to the [[Underworld]].<ref>{{Cite Episode|quote= Not if they blow it apart. That one's got a bomb!|name= Zelda|show= The Legend of Zelda|episode= 8}}</ref> Although Link rushes over to stop the monsters,<ref>{{Cite Episode|quote= On my way, princess!|name= Link|show= The Legend of Zelda|episode= 8}}</ref> he is knocked over by the explosion of the bomb and is rescued just in time by Zelda. The young duo make it in time to zap one of the Vires carrying a shard of the Triforce, but the other two manage to get away into the Underworld.<ref>{{Cite Episode|quote= They're getting away! Stop them!|name= Princess Zelda|show= The Legend of Zelda|episode= 8}}</ref> Thinking quickly, Zelda remembers that, since all of the pieces of the Triforce are magically linked, if Link shoots a [[Sword Beam|sword beam]] into the shard that they currently have, it will go through the two others and zap the Vires.<ref>{{Cite Episode|quote= I got it! Since all of the pieces of the Triforce are magically linked, if you shoot a zap into this one, it'll go through to the others and zap the Vires!|name= Princess Zelda|show= The Legend of Zelda|episode= 8}}</ref> The two Vires are effectively defeated, but due to the foes taking separate ways to the Underworld, one of the pieces falls into the [[Black Falls]] and another one into a lava area.<ref>{{Cite Episode|quote= I hope so. Yes, I think so. Oh, see? This side feels wet and this side--ow!--feels hot. So that means one piece must have fallen somewhere wet, and the other piece is somewhere hot.|name= Princess Zelda|show= The Legend of Zelda|episode= 8}}</ref> 
+
+In their final appearance in "[[The Moblins are Revolting]]", the Vires are part of the [[Brotherhood of Underworld Monsters]] and are one of the many foes who try to get revenge on Link and Zelda. In one particular scene, a [[Goriya]] orders several Vires to carry [[Octorok]]s so that they can fly above the [[North Castle]] walls and bomb the inside.
+{{Noncanon|End}}
+
+==Spinoff appearances==
+{{Noncanon|Start}}
+==={{TWoG|-}}===
+[[File:Vire WoG.png|frame|left]]
+Only one Vire appears in {{TWoG}}, and [[Princess Zelda|Zelda]] encounters it in [[Kobitan]]. The Vire's behavior is simple, as it only walks back and forth and sometimes throws a projectile at Zelda. The Vire is very weak, and Zelda can defeat the Vire by slashing it with her [[Sword]] once.
+
+==={{ZA|-}}===
+[[File:ZA Vire Sprite.png|frame|left]]
+There are only two Vires in {{ZA}}, each appearing only in their own room in the [[Shrine of Illusion]]. They are depicted with gray bodies. Each Vire guards an item pertaining to the shrine, with one guarding a [[Small Key]] and the other guarding the shrine's [[Dungeon Map]].
+{{Noncanon|End}}
+
+==Crossover appearances==
+==={{CoH}}===
+{{Ambig|Start}}
+Vires reappear as enemies in the Symphony of the Mask mode of {{CoH}}. They resemble their original {{TLoZ|-}} design, and fight the same way as well. They also split into Keese when defeated, though only into 4 Keese instead of 2. One also appears in the intro of the DLC story attacking a Deku Scrub alongside a Skull [[Moblin]], Skull [[Red Bokoblin]], and a [[Blue Goriya]].
+{{Ambig|End}}
+
+==Trivia==
+*[[Gomess]] is another entity made up of bat-like creatures called [[Bad Bat]]s.
+
+==Nomenclature==
+Vire may be a contraction of "vampire".
+
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:BSVire.gif|Vire from {{BSTLoZ|-}}
+</gallery>
+
+{{Notes}}
+
+{{Ref}}
+
+{{Bosses|OoS}}
+{{Characters}}
+{{Categories
+ |Bat-Like Enemies, Demons, Devils, Flying Enemies, Fire-Related Enemies
+ |enemies= TLoZ, LA, LADX, LANS, TLoZ (TV Series), TWoG, ZA, BSTLoZ, CoH
+ |sub-bosses= OoS, OoA
+}}

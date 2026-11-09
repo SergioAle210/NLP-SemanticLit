@@ -1,0 +1,39 @@
+{{Arch-vile}}
+{{quote|One of the worst of a bad lot. You can't think of enough rotten things to say about him. He's fast, hard to kill, casts spells, and resurrects dead monsters! At least these suckers are rare.|Doom II Manual description}}
+The '''Arch-vile''' is an enemy who makes their first appearance in ''[[Doom II]]'' in [[MAP11: Circle of Death (Doom II)|MAP11: Circle of Death]]. They went on to be encountered in ''[[Doom 3]]'', ''[[Doom RPG]]'', and ''[[Doom Eternal]]''.  A female version also appears in ''[[Doom (2016)|DOOM]]'' known as the [[Summoner]]. As described in Doom II's manual, the Arch-vile is a rare, but very dangerous enemy who is a force to be reckoned with for the unprepared.
+
+== Inspiration and development ==
+The idea and name for the Arch-vile came from [[Sandy Petersen]].[http://archive.gamespy.com/articles/december03/doom/romero/index2.shtml]
+
+[[Bobby Prince]] said: "The Arch-vile is an evil healer. Anyone getting in his way is blasted with fire and disintegrated. This includes other demons. But, after he has wrought his destruction, he then goes around and reanimates all of the demons. Because of this interesting dual personality, I decided to give him a very evil laugh as an active sound. For his death sound, I recorded a young girl saying 'why,' pitch shifted it down and mixed it with other sounds. The Arch-vile just doesn't understand why anyone would want to kill him as he sees himself as only doing good for his fellow demon."
+
+In the later games, such as ''Doom 3'' and ''Doom Eternal'', the Arch-vile summons enemies rather than resurrecting dead corpses, because in these games enemies disappear when killed without leaving behind corpses. (2016's Summoner works this way too, being essentially a weaker version of the ''Doom Eternal'' Arch-vile.)
+
+== Notes ==
+* The Arch-vile is based on a [[models|model]], which is currently displayed in the [[id Software]] building.
+* The Arch-vile's name is most likely based on the prefix arch- (meaning ruler or supreme) + the word vile (meaning bad or disgusting).
+* According to [[John Romero]] the Arch-vile was originally called The Medic. 
+* A life size cardboard cutout of the Arch-vile produced by id Software exists. Photos of it are found [http://www.doomworld.com/sda/id/0.JPG here] and [http://files.drdteam.org/index.php/files/get/69m-CQZ28h/arch-vile-cutout.jpg here].
+* MAP11 of ''[[The Plutonia Experiment]]'', [[MAP11: Hunted (The Plutonia Experiment)|Hunted]], is a maze where Arch-viles are the only enemies. The same is true for MAP11 of ''[[Plutonia 2]]'' (the sequel to ''The Plutonia Experiment''), [[MAP11: Arch-Violence (Plutonia 2)|Arch-Violence]]. For this reason, and because of [[MAP11: Circle of Death]]'s status as the first place where an Arch-vile is encountered, MAP11 (of any WAD) and Arch-viles are invariably seen among fans as going hand-in-hand.
+* The Arch-vile's attack inflicts a base 20 points of damage, plus up to 70 additional points of [[blast damage]]. The blast damage against immobile targets is often around 63 or 67 points, as the center of the attack is not normally placed at the center of the target.
+* The Arch-vile, along with the [[Mancubus]] and the [[Pain Elemental]]s, are the only monsters who have its own unique pain sound slips; in this case, the Arch-vile makes a sharp high-pitched groan if it's in pain.
+* Considering that the player only needs cover at the moment of blast, he can continuously fire at an Arch-vile, using the moment of blast to reload his super-shotgun. After the blast, the demon is still finishing its attack, so it's a good time for a shot. The long attack time of the demon usually gives the player enough time for two shots. But the player better be [[strafing]] toward a cover while making his second shot. The Arch-vile in [[MAP03: Power Control|MAP03: Power Control (TNT: Evilution)]] provides a perfect situation to practice this.
+* The [[Cyberdemon]] and the [[Spider Mastermind]] are immune to blast damage, so it takes an Arch-vile much longer to kill one of these enemies than one might expect.
+*They also cannot resurrect corpses that were placed on the map by the level designer. This resurrecting power makes them the top priority to kill in battle, thus preventing them from reviving defeated monsters and forcing the player to spend extra ammunition. However, the player does get credit for killing resurrected monsters, so in levels containing an Arch-vile the <small>KILLS</small> percentage displayed at the end may exceed 100%.
+*There are some interesting [[Engine bug|engine quirks]] associated with the Arch-vile's attack and abilities, such as their [[Arch-vile jump|assisting players with jumps]] and [[Ghost monster|creating non-clipping ghost monsters]].
+* Similar to the Baron of Hell, an Arch-vile's face is displayed periodically in ''The Ultimate Doom'' and ''Doom II'', through the MARBFAC2 wall texture.
+* In a [[ZDoom]]-based [[source port]], if the player is killed by an Arch-vile (monster is credited with delivering the blow that reduces the player's health to 0%), an obituary message is displayed at the top of the screen: "[player name] was incinerated by an Arch-vile".
+
+==See also==
+*[[Arch-vile jump]]
+*[[Ghost monster]]
+*[[Models]]
+*[[Monsters open locked doors]]
+
+==External links==
+*[http://files.drdteam.org/index.php/files/get/yRqAoVwWfO/sketch-arch-vile.jpg Arch-vile sketch] by [[Adrian Carmack]]
+* [http://iddqd.ru/doom/textures/original/marbfac2.jpg MARBFAC2 Texture]
+* [https://youtu.be/dC7HNfm6IfI?t=5m58s Arch-vile reveal in Doom: Eternal]
+
+[[es:Archi-vil]]
+[[Category:Monsters]]

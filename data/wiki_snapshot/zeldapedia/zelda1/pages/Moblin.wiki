@@ -1,0 +1,345 @@
+{{Infobox Enemy
+|image= File:EoW Spear Moblin.png
+|caption=Moblin from {{EoW|-}} 
+|plural= Moblins<ref name="LADX Plural">{{Cite|'BRRING! BRRING! Hello, this is Ulrira! ...Well, most Moblins live in the Mysterious Forest, but some live in the caves of Tal Tal Heights... I hope that is what you wanted to know! CLICK!'|Grandpa Ulrira|LADX}}</ref>{{Exp Game|LA}}
+|race= 
+|habitat= Various
+|member= [[Great Moblin]], [[King Moblin]], [[Moe]], [[Monster Lady]], [[Sword Moblin]], [[Spear Moblin]]
+|health=
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|2}} {{Small|([[Red Moblin|Red]])}}<br/>{{HP|TLoZ|3}} {{Small|([[Blue Moblin|Blue]])}}
+ |TAoL= {{HP|TAoL|1}} {{Small|([[Orange Moblin|Weak]])}}<br/>{{HP|TAoL|4}} {{Small|([[Orange Moblin|Orange]])}}<br/>{{HP|TAoL|12}} {{Small|([[Red Moblin|Red]])}} <br/> {{HP|TAoL|18}} {{Small|([[Blue Moblin|Blue]])}}
+ |LA= {{HP|LA|2}}
+ |OoT= {{HP|OoT|1}}
+ |TWW= {{HP|TWW|10}} {{Small|([[Blue Moblin|Blue]])}}
+ |BotW= 56 {{Small|([[Red Moblin|Red]])}}<ref name="Piggyback 307">{{Cite Guide|quote= |game= BotW|page= 307|publisher= Piggyback|edition= Expanded Edition|year= 2018}}</ref><br/>144 {{Small|({{Term|BotW|Blue Moblin|link|display=Blue}})}}<ref name="Piggyback 307"/><br/>360 {{Small|([[Black Moblin|Black]])}}<ref name="Piggyback 307"/><br/>2 {{Small|([[Stalmoblin]]s)}}<ref name="Piggyback 307"/><br/>1080 {{Small|([[Silver Moblin|Silver]])}}<ref name="Piggyback 307"/>
+}}
+|attack=
+{{Infobox Game Blocks
+ |TLoZ= {{small|([[Red Moblin]])}} <br/> {{Damage
+|attack1= Contact|damage1= 0.50
+|attack2= Spear Throw|damage2= 0.50}} <br/>
+{{small|([[Blue Moblin]])}} <br/> {{Damage
+|attack1= Contact|damage1= 0.50
+|attack2= Spear Throw|damage2= 1.00}}
+ |LA= {{Damage
+|attack1= Sword Slash|damage1= 0.50
+|attack2= Spear Throw|damage2= 0.50}}
+ |OoT= {{Damage
+|attack1= Spear Charge|damage1= 0.50}}
+ |TWW= {{Damage
+|attack1= Spear Stab|damage1= 0.25
+|attack2= Spear Crush|damage2= 0.50
+|attack3= Spear Swing|damage3= 1.00
+|attack4= Punch|damage4= 0.25
+|attack5= Uppercut|damage5= 0.50}}
+ |ALBW= {{Damage
+|attack1= Contact/Spear|damage1= 1.00}}
+}}
+|weapon= Any
+|spoils= [[Heart]] {{Exp Game|TLoZ}}<br/>[[Fairy]] {{Exp Game|TLoZ}}<br/>One [[Rupee]] {{Exp Game|TLoZ}}<br/>Four [[Bomb]]s {{Exp Game|TLoZ}}<br/>[[Clock]] {{Exp Game|TLoZ}}<br/>[[Skull Necklace]]s
+|exp= 20 {{Exp|Blue and Red Moblin only}}
+|theme= 
+|game_debut={{TLoZ}}
+|spinoff_debut={{HW}}
+|crossover_debut={{SSBU}}
+}}
+{{Term/Store|Moblin|Moblins|Series, TAoL, LA, LADX, OoT, OoT3D, FS, TWW, TWWHD, TMC, ALBW, TFH, BotW, CoH|plural}} are recurring [[Enemy|enemies]] in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 193 {{Exp Game|TAoL, ALttP, LA, OoT, TWW, FS, TMC, ALBW, TFH}}}}</ref><ref>{{Cite|'''{{Color|BotW Shrine Quest|Moblin}}'''|Hyrule Compendium|BotW}}</ref>
+
+==Characteristics==
+Moblins are among the most common enemies throughout the series, having appeared in the majority of games, and are prolific in [[Ganon]]'s army. Early in the franchise, Moblins originally resembled anthropomorphic [[wikipedia:Bulldog|bulldogs]], but beginning in {{ALttP}}, have increasingly acquired more {{Wp|pig}}-faced {{Wp|goblin}}-like features. In almost all of their appearances, Moblins are characteristically depicted as using spears or javelins as their main weapon. They are abundant in forests but also occasionally appear inside mountains and [[dungeon]]s.
+
+In the 2D games, Moblins are often depicted as common foot soldiers encountered early in the game that are relatively weak and easily defeated. In the 3D console ''Zelda'' games, similar to [[Stalfos]], Moblins are instead usually depicted as hulking, elite enemies capable of performing powerful attacks who may engage in full combat with [[Link]], with the role of the standard grunts instead being filled by enemies such as the [[Bokoblin]]s and [[Bulblin]]s. These Moblins usually require more careful or precise attacks to defeat.
+
+While Moblins have changed little aside from their visual appearance throughout the long-running series, some variants of the standard Moblin have also appeared. These include the [[Club Moblin]], exclusive to {{OoT}}; the [[Spear Moblin|Spear]] and [[Bow Moblin]]s, which specialize in spears and [[Bow]]s, respectively; and the [[Shield Moblin]], which carry large Shields. In {{LA}}, {{OoS}}, and {{OoA}}, both bulldog and pig-like Moblins appear. To differentiate between the two, the porcine-like Moblins in those games are known as [[Boarblin]]s. The [[King Moblin]] and [[Great Moblin]] are two notable Moblins that have appeared in the series. Other related species with similar names include the [[Bokoblin]], [[Miniblin]], [[Bulblin]], [[Big Blin]], and [[Horriblin]].
+
+==Mainline appearances==
+==={{TLoZ|-}}===
+{{Main|Red Moblin}}
+{{Manual|TLoZ|{{Typo|Molblin|Moblin}}|A bulldog-like goblin who lives in the forest. He attacks by throwing spears. A little bit meaner than Octorok.}}
+[[File:TLoZ Level-8 Entrance.png|thumb|left|257x257px|Moblins near the [[Level 8|Level-8]] entrance from {{TLoZ|-}}]]
+
+In {{TLoZ}}, Moblins (originally called '''Molblins''' in-game), as they are known in the instruction manual, are common enemies found throughout [[Hyrule]]. They keep to the wooded areas, such as the [[Lost Woods]], and throw spears (which resemble [[Arrow|Arrows]]) to attack [[Link]]. These spears can be blocked with the most basic [[Shield]]. Like most enemies in this game, they come in two colors - [[Red Moblin|Red]] and [[Blue Moblin|Blue]]; the latter being the stronger of the two, and able to withstand more hits from attacks. When defeated, Red Moblins may drop either a [[Heart]], a [[Fairy]] or one [[Rupee]], while Blue Moblins may drop either a Heart, one Rupee, four [[Bomb]]s or a [[Clock]].{{Note|If [[Link]] defeats 10 enemies without getting hit or teleporting with the [[Recorder]], then the 10th enemy defeated will drop five [[Rupee]]s. However, if the 10th enemy is defeated with a {{Term|TLoZ|Bomb|link}}, then it will drop four Bombs. If Link defeats 16 enemies without getting hit or teleporting, then the 16th enemy will drop a [[Fairy]]. After the 16th enemy, Link must get hit and reset the counter to zero in order to achieve this effect again. Defeating [[Armos]], [[Like Like]]s, [[Keese]], or [[Gel]]s will not be counted.<ref>{{Cite Web|quote= |author= n.a. |published= n.d. |retrieved= August 17, 2017 |url= http://redcandle.us/The_Legend_of_Zelda#Forced_drops |title= Forced Drops |site= redcandle.us}}</ref>}}
+
+Not all Moblins are enemies, however. Some friendly Moblins hide in secret {{Plural|TLoZ|Cave|link}} across [[Hyrule]] and give Link [[Rupee]]s when spoken to, uttering the [[Iconic Quotes from The Legend of Zelda|iconic phrase]] "''It's a secret to everybody''" in the process.<ref>{{Cite|IT'S A SECRET TO EVERYBODY.|Moblin|TLoZ}}</ref>
+
+==={{TAoL|-}}===
+{{Main|Orange Moblin, Red Moblin}}
+{{Manual|TAoL|{{Typo|Molblin|Moblin}}|A little devil that lives mainly in the forest. He attacks Link by throwing spears, but he moves slowly.}}
+[[File:TAoL Enemies Attacking Town Artwork.png|thumb|257x257px|Moblins and a [[Goriya]] attacking a town from {{TAoL|-}}]]
+
+In {{TAoL}}, Moblins were also originally called Molblins. They appear leaner and more muscular, as opposed to their short, squat appearance in the first game. Although their master, Ganon, is deceased, they continue to serve him and patrol the overworld of Hyrule.<ref>{{Cite Manual|quote=Hyrule was on the road to ruin. The power that the vile heart of Ganon had left behind was causing chaos and disorder in Hyrule. What's more, even after the fall of Ganon, some of his underlings remained, waiting for Ganon's return.|game= TAoL|page=3}}</ref> Moblins are common to the wooded areas of Hyrule, although some can be found on bridges or [[cave]]s. They attack by either jabbing or throwing their spears.<ref>{{Cite Manual|quote= A little devil that lives mainly in the forest. He attacks Link by throwing spears, but he moves slowly.|game= TAoL|page= 28}}</ref> Moblins appear in orange, red, and blue, from weakest to strongest, respectively. Moblins are also capable of draining Link's Experience whenever he is attacked by one.
+==={{ALttP|-}}===
+In {{ALttP}}, Moblins only appear in the [[Dark World]]. This appearance marks the first occasion that they had a pig-like face, rather than that of a bulldog of previous games.<ref>{{Cite Web|quote=A spitting image of the Prince of Darkness’ swine reflection, these are Ganon’s prized soldiers. Roaming about the western side of the Dark World, they hunt for Link in order to fulfill their master’s command.| url= http://www.zeldauniverse.net/zelda/a-link-to-the-past/alttp-enemies/| title= Enemies: A Link to the Past| site= Zelda Universe}}</ref> They patrol the grounds in a quick fashion, and throw trident spears at Link from any distance within the screen. These projectiles can easily be blocked with the Shield. Although defensively weak, they can cause up to two [[Heart]]s of damage if they come in direct contact with Link. They commonly appear alongside [[Taros]] and [[Hinox]].
+
+==={{LA|-}}===
+[[File:LANS Mysterious Woods.png|thumb|left|251x251px|Moblins in the Mysterious Woods from ''Link's Awakening'' for Nintendo Switch]]
+In {{LA}}, despite Ganon himself is not present, Moblins make an appearance and come in two forms. The common forest-dwelling Moblins only appear in the [[Mysterious Woods]] and the [[Moblin Cave]] in [[Tal Tal Heights]].<ref name="LADX Plural"/> Moblins simply wander and throw spears to attack. Some Moblins are instead armed with Swords and Shields and are known as '''Sword Moblins'''.<ref>{{Cite Guide|quote= |game= LA|publisher= Nintendo|page=95}}</ref> These moblins resemble bulldogs like in the early games as opposed to [[Boarblin]]s who resemble the pig moblins from ''A Link to the Past.'' They will charge after Link when they see him, like the [[Soldier (Enemy)|Soldiers]] from {{ALttP|-}}. Their blades are also able to parry Link's Sword. Their leader, known as the [[King Moblin]], lives with a small horde in the Moblin Hideout. After Link clears the [[Tail Cave]], he will find that the Moblins have captured [[Madam MeowMeow]]'s [[BowWow]].<ref>{{Cite|AIEEEEEEEE! It's terrrrible! My BowWow was dognapped by... Mo-mo-MOBLINS!! OHHH! AHHHH! Please! Somebody help my poor BowWow!! |Madam MeowMeow |LADX}}</ref> The King Moblin and his personal guards will defend their prize to the death.<ref>{{Cite|Ennh? Who's this suspiciouslooking runt?! Okay boys, let's get ridda him!|Sword Moblin|LADX}}</ref>
+
+In the [[Nintendo Switch]] [[The Legend of Zelda: Link's Awakening (Nintendo Switch)|remake]], both Moblins and [[Boarblin]]s are porcine in appearance. Befitting the more porcine appearance, they are also heard emitting similar grunts to that of pigs and boars.
+==={{OoT|-}}===
+[[File:OoT Moblin Artwork.png|thumb|244x244px|Artwork of a Moblin from ''Ocarina of Time'']]
+In {{OoT}}, Moblins only appear in the [[Sacred Forest Meadow]] when Link is an adult.<ref>{{Cite Web|quote=Moblin - Location: Sacred Forest Meadow (only as an adult)|url=http://www.zeldauniverse.net/zelda/ocarina-of-time/oot-enemies/|title=Enemies: Ocarina of Time|site=Zelda Universe}}</ref> They are much bigger than their previous appearances, and retain their original bulldog-like resemblance. They patrol the hedge maze of the Forest Meadow, periodically making [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_Moblin_Growl.wav snort-like growls] in the process, and proceed to powerfully charge at Link with their spears whenever they see him, in which they [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_Moblin_Roar.wav roar] at the [[Hero of Time]]. They can be killed by the [[Hookshot]] or Arrows, but are generally best avoided by stealth. With good timing, death by Sword is also a possibility.
+
+A bigger and stronger variation of the Moblin, the [[Club Moblin]], guards the entrance of the {{Term|OoT3D|Forest Temple|link}} with a giant club.<ref>{{Cite Web|quote=Great Moblin -Location: Sacred Forest Meadow (only as an adult) This behemoth can be found just before the entrance to the Forest Temple. |url=http://www.zeldauniverse.net/zelda/ocarina-of-time/oot-enemies/|title=Enemies: Ocarina of Time|site=Zelda Universe}}</ref> This giant Moblin carries an enormous club it slams on the ground when it sees Link, causing a shock wave which can prevent forward progress.<ref>{{Cite Web|quote= If you don’t have either, you will have to run at it, dodging the shock waves it sends at you in the process, and slash it with your sword.|url=http://www.zeldauniverse.net/zelda/ocarina-of-time/oot-enemies/|title=Enemies: Ocarina of Time|site=Zelda Universe}}</ref>
+
+Neither type of Moblin can be Z-targeted, so [[Navi]] cannot comment on them.
+
+==={{OoS|-}}===
+[[File:OoS Moblin Red Sprite.png|left]]
+In {{OoS}}, both the bulldog-like Moblins and Pig Warriors appear. They act the same as in the previous game, even coming in Sword-wielding variants, but now also come in colored varieties. Red Moblins are the most common, while the blue Moblins are rarer and stronger. In certain dungeons, red Moblins that throw [[Boomerang]]s also appear, similarly to [[Goriya]]s from previous games. Blue Moblins tend to appear during winter. A [[Golden Moblin]] also appears, which shows up after Link has spoken to an [[Old Man]] wearing a golden robe. The Moblin can be found in the [[Woods of Winter]] in the autumn. This variety is much more aggressive and far stronger than the ordinary varieties.
+
+The [[Great Moblin]] is the boss of a gang of Pig Warriors. They operate a [[Moblin's Keep|Keep]], where the Great Moblin is fought as a miniboss. After his defeat, the {{Plural|OoS|Pig Warrior}} are driven away to the other land in a [[Linked Game]]. In [[Holodrum]], after their defeat, they can be founded in [[Sunken City]], forced to make innocent work by selling Bombs.
+
+The [[Moblin Ring]] can be worn to transform Link into the appearance of a green Moblin.
+
+==={{OoA|-}}===
+In {{OoS}}, both the bulldog-like Moblins and Pig Warriors appear. They act the same as in the previous game, even coming in Sword-wielding variants, but now also come in colored varieties. Red Moblins are the most common, while the blue Moblins are rarer and stronger. In certain dungeons, red Moblins that throw Boomerangs also appear, similarly to Goriyas from previous games. Blue Moblins often appear in the past while red ones are placed in the same region in the present.
+
+The Great Moblin is the boss of a gang of Pig Warriors. They operate a Keep, where the Great Moblin is fought as a miniboss. After his defeat, the Pig Warriors are driven away to the other land in a [[Linked Game]].
+
+The Moblin Ring can be worn to transform Link into the appearance of a green Moblin.
+
+==={{FS|-}}===
+{{Main|Spear Moblin, Bow Moblin}}
+In {{FS}}, Moblins appear in two forms: a melee spear type, and a ranged Bow type. Spear Moblins attack by charging at the [[Links]] with their spears, which can parry their Swords, whereas Bow Moblins shoot Arrows from afar. Their appearance is identical to the Moblins of {{TWW|-}}. 
+
+==={{TWW|-}}===
+{{Figurine|TWW|Moblin}}
+{{Tingle
+|quote1= It's a '''Moblin'''.  Be careful...He's got a long reach!  Might I recommend a Tingle Bomb?
+}}
+
+[[File:TWWHD E3 8.png|thumb|left|272x272px|A patrolling Moblin from ''[[The Legend of Zelda: The Wind Waker HD|The Wind Waker HD]]'']]
+In {{TWW}}, Moblins form the core of [[Ganondorf]]'s forces, often being deployed in considerable numbers to guard key areas under his dominion, such as the [[Forsaken Fortress]] and [[Hyrule Castle]]. Similarly to the Moblins of {{ALttP|-}}, their appearance is distinctively more porcine-like, but now having a much more cartoony personality like Link. They are often seen patrolling the King of Evil's territories, such as [[Submarine]]s, temples, and notably the [[Forsaken Fortress]] and [[Ganon's Castle|Ganon's Tower]]. [[Bokoblin]]s and [[Miniblin]]s often accompany them, and one Moblin in particular serves as the mini-boss of [[Dragon Roost Cavern]]. They are sometimes carried into battle on [[Kargaroc]]s.<ref>{{Cite|These fierce and dangerous opponents often carry Bokoblins and Moblins into battle.|N/A|TWW}}</ref> There are two kinds of Moblins in {{TWW|-}}: with blue and orange pants. The Moblins wearing blue pants appear in the Forsaken Fortress, the [[Earth Temple (The Wind Waker)|Earth Temple]], and the [[Fairy Woods]] at night time, as well as several Submarines and {{Plural|TWWHD|Cave|link}}. This variety can take more hits and carry [[Lantern]]s which they throw at Link when they spot him, acting as a smokescreen of sorts as well as to hurt him with fire, which will get him arrested on sight, if he does not have a Sword with him.<ref name="TWW Guide 31">{{Cite Guide|quote= |game= TWW|publisher= Prima|page=31}}</ref> The Moblins with the orange pants cannot take as many hits, they only engage in fighting Link, and do not carry Lanterns.
+
+Moblins are big and powerful, but not particularly intelligent.<ref name="TWW Guide 31"/> They carry [[Moblin Spear|spears]], which can be picked up and wielded by Link when dropped. Moblins attack by swiping, stabbing, or crushing Link with their spears, which can inflict varying amounts of damage depending on the attack. These attacks also lowers the Moblin's defense, provided if Link can find a safe opening to strike back. Moblins have immense reach with their spears, but their wide swings mean that two or more Moblins in proximity are likely to injure or even kill each other or other enemies. If they end up causing friendly fire, the one who did it will momentarily look over at his buddies, realizing his mistake. If it happens too many times, the ones hit will retaliate. If disarmed, a Moblin proceeds to unleash mighty, lightning-fast punches until it gets its spear back. These attacks send the Hero of Winds flying as he is hit. Moblins may also punch Link in certain instances followed by a spear attack, such as when Link raises his Shield. Link, however, will not sustain any damage from this punch. Moblins are also adept at handling a frontal assault by defending with their spears, so attacking from the sides or back is recommended. If Link strikes their rear-end, the Moblin will comically cry out and briefly hop around, due to the pain inflicted in a delicate place. Notably, Moblins are afraid of explosives, and will flee in terror if Link takes out a [[Bomb]] while engaged with a Moblin. They will return to the fight once the Bomb explodes.
+
+While infiltrating the Forsaken Fortress to find and rescue his kidnapped [[Aryll|sister]], Link will encounter Moblins patrolling the fortress and will have to avoid them, on account that he had lost his Sword and is unable to fight them. Link can sneak past the Moblins by moving past them as they are facing away, or by picking up [[Barrel]]s and hiding in them when a Moblin is nearby. If Link is caught by a Moblin, he will be thrown into an empty prison cell and will have to escape and reattempt. Once Link retrieves his Sword and revisits the Forsaken Fortress, he can fight the Moblins normally. Moblins also appear to have a keen sense of smell, as they appear to be sniffing out Link as he is sneaking through Forsaken Fortress.
+
+Valuable [[Skull Necklace]]s can be [[Thievery#Looting|stolen]] by using the [[Grappling Hook]] or won as spoils by defeating Moblins, which can be sold to [[Dampa the Sailor|Dampa]] near the Bomb Shop, [[Beedle]], or to [[Maggie's Father]] in the [[Auction House]] after the second Forsaken Fortress mission.<ref>{{Cite|I hear there's a fellow on Windfall Island who's collecting Skull Necklaces! You know who it is, fry? I don't. Sorry. What I CAN tell you is that those piggish monsters you see here in the Forsaken Fortress seem to carry those Skull Necklaces around all the time. Not that I think it's easy work stealing anything from the likes of those guys.|Fishman|TWW}}</ref><ref>{{Cite|Moblin Habitat: Forsaken Fortress Spoils: Skull Necklaces These mighty enemies swing their long spears with the greatest of ease. They've knocked Link around with that attack countless times.|Figurine|TWW}}</ref> If they get their Skull Necklaces taken with the Grappling Hook, they will be momentarily left in shock with a surprised, slack-jawed, dumbfounded look on their face before recovering and resuming their attack.
+
+{{Term|TWWHD|Maggie|link}} from [[Windfall Island]] maintains a long-distance relationship with a Moblin named [[Moe]] who lives in the Forsaken Fortress.<ref>{{Cite|Oh, Moe... My dear, sweet, burly Moe... When, oh when, will you respond to me? Troo di loo la la!|Maggie|TWW}}</ref> They communicate through letters, and Moe indicates a disturbing "hunger" to see Maggie.<ref>{{Cite|"I...like... you...Ma...ggie...so...much...that...I...want...to...eat you...for dinner."|Moe|TWW}}</ref> Maggie takes this to mean that he wants to marry her.<ref>{{Cite|Did you hear that? Those words? This means... I mean, it must mean...Can it be...?!? Is this his marriage proposal?|Maggie|TWW}}</ref> It is apparent through Maggie's actions that she is in love with him, much to her father's disapproval.<ref>{{Cite|My father has been so strict with me lately. He won't let me out of the house!|Maggie|TWW}}</ref>
+
+==={{TMC|-}}===
+{{Main|Spear Moblin, Bow Moblin}}
+Both Spear and Bow Moblins appear as variants in {{TMC}}. They are identical to those in {{FS|-}}; Spear Moblins charge at Link, while Bow Moblins shoot Arrows. Blue-colored Moblins also appear in the [[Dark Hyrule Castle]], although their strength and resiliency is identical to the more common, brown-colored variety.
+
+According to the [[Royal Hyrule Library]]'s weekly top titles, the book "''Married to the Moblin''" is the top seller. However, Link cannot read the book in-game.<ref>{{Cite|This week's top titles: 3 Learn to Like Your Like Like: A Good Guide to A Bad Pet 2 Gorman's Guide to Good Grub 1 Married to the Moblin|N/A|TMC}}</ref>
+
+==={{SS|-}}===
+{{Main|Shield Moblin}}
+Shield Moblins appear as variants in {{SS}}. They appear as obese red monsters with grotesque features, somewhat resembling the common, smaller [[Bokoblin]]. Their jowls are also somewhat more reminiscent of a bulldog. Shield Moblins in {{SS|-}} come in two varieties: a Wooden Shield variant and a Metal Shield variant. Both types carry large, square-shaped Shields they use to defend with, and are equipped with spears for offense. Their Shields are highly durable; while it is possible to destroy a Moblin's Wooden Shield, the same cannot be done against the Metal Shield variety. Along with their superb defenses, their attacking power makes them elite enemies.
+
+==={{ALBW|-}}===
+In {{ALBW}}, Moblins are directly based on those from {{ALttP|-}}. They appear throughout [[Lorule]] as common enemies. They come in two varieties: a spear-wielding type, and an armored sword and shield type. The spear-wielding Moblins have an identical appearance to those from {{ALttP|-}}, but with a slightly different attack strategy. These Moblins now back away and try to maintain a distance away from Link as they aim their javelins at him, identically to the [[Spear Soldier]]s of Hyrule. The sword and shield Moblins are an armored variety that carry blades, or alternately a pitchfork, and a shield. They charge directly at Link when they see him, akin to the [[Sword Soldier]]s. Their shields are able to block Link's Sword, so it is advised to attack their unprotected backsides. Both Moblin varieties act as a slightly stronger version of their Hyrulean counterparts.
+
+==={{TFH|-}}===
+{{Main|Spear Throwing Moblin}}
+Spear Throwing Moblins are a named variant in {{TFH}}. They are identical to the spear-wielding Moblins of {{ALBW|-}}, sharing the same model, attack strategy and pattern. Spear Throwing Moblins may also sometimes appear riding [[Totem Armos]], requiring that the Links form a [[Totem]] to reach the Moblin's height to attack. A "dark" version of this Moblin also appears in the [[Den of Trials]].
+
+==={{BotW|-}}===
+{{Compendium/Extract|Moblin}}
+[[File:BotW Blood Moon Monsters.png|thumb|right|245x245px|A {{Term|BotW|Moblin}} being revived during a {{Term|BotW|Blood Moon}} from {{BotW|-}}]]
+In {{BotW}}, Moblins have a lankier and taller stature than of previous games, which they sustain with an exclusively carnivorous diet.<ref>{{Cite|Moblins<br/>These large carnivores require sizable helpings of meat and fish to sustain their bulky frames.|Tips and Tricks|BotW}}</ref> They often wield [[Moblin Club]]s, which they use to bludgeon opponents, or [[Moblin Spear]]s. When defeated, they may drop [[Moblin Fang]]s, [[Moblin Horn]]s, and [[Moblin Guts]]. If unarmed, they will sometimes pick up [[Bokoblin]]s, if any are within reach, and toss them at [[Link]]. There are several variations of Moblin in the game. These include Blue Moblins, Black Moblins, Silver Moblins, Golden Moblins (only found in [[Master Mode]]), [[Stalmoblin]]s and [[Cursed Moblin]]s.
+
+==={{TotK|-}}===
+Moblins are enemies in {{TotK}}. They are similar in appearance to the incarnations in {{BotW|-}}, but have a bone-like growth appearing on their heads.
+
+==={{EoW|-}}===
+{{Manual|EoW|Sword Moblin|A brutish monster that fights with a sword. Its kind are fiercely territorial and form groups throughout the land.<ref name="EoW Moblin">{{Cite|A brutish monster that fights with a sword. Its kind are fiercely territorial and form groups throughout the land.|Notebook|EoW}}</ref>}}
+Moblins are pig-like monsters found throughout [[Hyrule]]. They appear in several varieties, including the [[Sword Moblin]] and [[Spear Moblin]], each with stronger variants. [[Princess Zelda|Zelda]] can learn their [[Echo]] using the [[Tri Rod]].
+
+A [[Dark Echo|Dark variant]] can be encountered after coming in contact with a [[Tecuum]].
+
+==Spinoff appearances==
+{{Noncanon|Start}}
+==={{ZG&W|-}}===
+{{Manual|ZG&W|Goblin|The boss who lives in each of the chambers of the labyrinth. You must defeat each of them to advance to the next chamber.}}
+[[File:Goblin Game & Watch.png|right]]
+
+In {{ZG&W}}, Moblins are instead referred to as '''Goblins'''. A Goblin appears in each chamber (except for the boss chamber). They must be defeated to progress to the next floor. Goblins can step back out of range of Link's Sword (although they can still be hit with [[Sword Beam]]s). Goblins attack by throwing their spears at Link, which can be blocked with the Shield by not attacking. Once the floor's Goblin is defeated, Link picks up whatever item was on the floor automatically, the other monsters disappear, and one or two staircases to proceed appear.
+
+==={{TFoE|-}}===
+Moblins are known as [[Moblin Spearthrower]]s in {{TFoE}}. They are common soldiers of [[Ganon]]'s army and appear throughout the lands of [[Koridai]]. [[Lupay (Boss)|Lupay]] enslaves [[Koridian]]s and turns them into Moblins by replacing their souls with [[Rupee]]s.
+
+==={{TWoG|-}}===
+{{Main|Moblin Spearthrower}}
+Moblins are known as [[Spear Moblin|Moblin Spearthrower]]s in {{TWoG}}. They are common soldiers of Ganon's army and appear throughout the lands of [[Gamelon]].
+
+==={{ZA|-}}===
+In {{ZA}}, Moblins appear as large ogre-like monsters carrying large spears. They are encountered in the [[Forest of Ogbam]], [[Forest of Findo]], [[Forest of Torian]], and [[Ubato Hills]]. Moblins do not throw their spears when they see [[Princess Zelda|Zelda]] and instead walk in a random path. They are described as being "stupid and slow."<ref>{{Cite|Ho Ho! Those Moblins are so stupid and slow! They're still trying to eat their soup with a fork!|Mushroom|ZA}}</ref> They are encountered in the [[Forest of Ogbam]] and its surrounding areas.
+
+==={{HW|-}} series===
+===={{HW|-}}====
+Moblins appear as medium-strong enemies, closely based on the [[Wooden Shield Moblin]]s and [[Metal Shield Moblin]]s of {{SS|-}}. Wooden Shield Moblins are simply referred to as Moblins, whereas the Metal Shield variant are called [[Shield Moblin]]s. Both types are equipped with spears that they use to powerfully attack their opponents. They often try to belly flop onto their enemies, either by charging their spear and furiously spinning forward, or by simply jumping towards them. Their fall creates a small shock wave which interrupts any actions currently being done by Warriors if they are unable to dodge it. Aside from the design of Shield, the two variants are otherwise identical with little difference between them.
+
+===={{HWAoC|-}}====
+Moblins are enemy [[Captain (Hyrule Warriors)|captains]] in {{HWAoC}}, and first appear in [[The Battle of Hyrule Field]] [[scenario]]. Moblins are designed after their appearance from {{BotW|-}}, like many other subjects returning from said game. Moblins can wield and use various types of weapons. Moblins take several hits to defeat, and they sometimes drop a [[Moblin Fang]], a [[Moblin Horn]], or even a [[Moblin Trophy]] upon being defeated. 
+
+Several Moblin varieties return, including [[Red Moblin]]s, [[Blue Moblin]]s, [[Silver Moblin]]s, [[Black Moblin]]s, and [[Stalmoblin]]s. The game introduces three elemental varieties of Moblins: [[Electric Moblin]]s, [[Fire Moblin]]s, and [[Ice Moblin]]s.
+{{Noncanon|End}}
+
+==In other media==
+{{Noncanon|Start}}
+===''The Legend of Zelda'' TV series===
+[[File:Moblins (The Missing Link).png|thumb|200px|right|The Moblins as seen in the animated series]]
+In {{TLoZ|TV Series}}, the Moblins greatly resemble their first appearance in the original ''The Legend of Zelda''. They are loyal to their master, Ganon, and they are always willing to follow his every command. As such, Ganon mostly resorts to using these foes to carry out his plans to steal the [[Triforce]]; unfortunately, his schemes are always ruined by the ineptitude of the Moblins, as he is always berating and punishing them for their failure.<ref>{{Cite Episode|quote=Blast, blast, blast, blast! You idiots bungled it again!|name=Ganon|show=The Legend of Zelda|episode=The Ringer}}</ref><ref>{{Cite Episode|quote=Silence! Maybe that will shock some sense into you!|name=Ganon|show=The Legend of Zelda|episode=The Moblins are Revolting}}</ref> In "[[The Moblins are Revolting]]", however, a Moblin convinces the other monsters to overthrow Ganon and form an alliance known as the [[Brotherhood of Underworld Monsters]],<ref>{{Cite Episode|quote=Not Ganon. We get rid of him. We in charge now.|name=Moblin|show=The Legend of Zelda|episode=The Moblins are Revolting}}</ref> but they realize they pose no real threat due to the disorganization within the group, and the Moblins as well as the rest of the monsters end up crawling back to Ganon.<ref>{{Cite Episode|quote=You traitors will pay for your insolence NOW! This place is a mess! I want it clean up...with your TONGUES!|name=Ganon|show=The Legend of Zelda|episode=The Moblins are Revolting}}</ref>
+
+Like the rest of Ganon's minions, the Moblins are capable of speech, with the only difference being that the Moblins speak with poor grammar.<ref>{{Cite Episode|quote=That not fair. It HIS stupid plan.|name=Moblin|show=The Legend of Zelda|episode=The Moblins are Revolting}}</ref> These foes also wield a wide variety of weapons when fighting against Link: {{Exp|in The Ringer, Sing for the Unicorn, and Stinging a Stinger|spears}}, {{Exp|in The Ringer and The White Knight|swords}}, {{Exp|in Doppelganger and Hitch in the Works|boomerangs}}, {{Exp|in Hitch in the Works|clubs}}, {{Exp|in Hitch in the Works|catching nets}}, {{Exp|in The Missing Link|bows}}, and {{Exp|in The Moblins are Revolting|crossbows}}. Despite their impressive arsenal, the Moblins are rather clumsy and simple-minded who are always bumping and tripping over each other, and this in turn usually causes for them to defeat themselves in the process, much to Ganon's dismay.<ref>{{Cite Episode|quote=You're sorry? You're sorry? Blast these incompetent servants! You idiots!|name=Ganon|show=The Legend of Zelda|episode=Doppelganger}}</ref>
+
+==={{CN|-}}===
+[[File:Moblins (Captain N).png|thumb|left|150px|The {{Plural|CN|Moblin}} from {{CN|-}}]]
+Moblins appear in three episodes in {{CN}}, where they are first introduced in "[[Quest for the Potion of Power]]". Here, a group of Moblins raid [[Rauru Town]] in hopes of trying to find out the location of the [[Potion of Power]] and thus revive their master, Ganon.<ref>{{Cite Episode|quote=Tell me what you know, or else!|name=Moblin|show=Captain N|episode=Quest for the Potion of Power}}</ref> After Link, [[Princess Zelda]] and Kevin defeat all of the Moblins and save a woman's son from the grasp of the Moblin leader, the woman rewards the heroes with a map that helps them on their quest of retrieving the Potion of Power before Ganon's minions get to it.<ref>{{Cite Episode|quote=Thank you for saving my son, kind sir. Please, take this as a reward. It's a map to an ancient desert palace. There lies a Golden Key that will unlock the Potion of Power you seek.|name=Woman from Rauru|show=Captain N|episode=Quest for the Potion of Power}}</ref> Although a Moblin also appears in "[[Once Upon a Time Machine]]" and "The Trojan Dragon" episodes, it only plays a minor role. In both of these episodes, Simon Belmont of the ''Castlevania'' series bumps into this foe while walking through the woods in Hyrule.<ref>{{Cite Episode|quote=A Moblin!|name=Simon Belmont|show=Captain N|episode=Once Upon a Time Machine}}</ref><ref>{{Cite Episode|quote=I hope he knows to watch out for Moblins. The woods are full of them!|name=Link|show=Captain N|episode=The Trojan Dragon}}</ref> These Moblins do not seem to be as clumsy as the ones portrayed in the ''Zelda'' animated series.
+{{Clear}}
+===''The Legend of Zelda'' (Valiant Comics)===
+[[File:Moblin (VC).png|thumb|right|120px|A Moblin in the ''Legend of Zelda'' comic]]
+The Moblins in the {{TLoZ|Valiant Comics}} appear to be modeled after their artwork depiction in {{TAoL|-}}. Unlike the cartoons, these foes play a very minor role in all of the comic's issues. A Moblin makes an appearance in "[[Assault]]" with a slightly more significant role. In this story, a Moblin goes to inform Ganon that Link managed to defeat a pack of his fellow fiends to get past his outpost.<ref>{{Cite Book|quote=I-I'm sorry, Master! The adventurer, Link, passed my outpost. I tried to  destroy him, but failed! He smashed my entire pack of brothers in  moments! And I, I alone escaped to tell you!|book=TLoZ (Valiant Comics)|publisher= |page=3}}</ref> Ganon punishes the Moblin for failing to capture the young hero and says that only he is allowed to destroy Link.<ref>{{Cite Book|quote=Not CAPTURING him, well...that's another thing altogether. [...] NO ONE will destroy Link! No one but me!|book=TLoZ (Valiant Comics)|publisher= |page=3}}</ref> They are also briefly seen in "[[Missing in Action]]", ''[[To the First Power]]'', and ''[[Queen of Hearts]]''.
+
+==={{TCT|-}}===
+In {{TCT}}, Moblins continue to serve under Ganon's orders and try to eliminate Princess Zelda on her quest to obtain the three items necessary to free Link from the [[Crystal]]. They always appear in groups, right behind Ganon, willing to attack as soon as the evil wizard commands them.<ref>{{Cite Book|quote=Standing not twenty feet away is their archenemy, Ganon! The tall, hooded figure looms over a dozen of his soldiers--the squat, ugly, dog-like moblin. They growl and bear their long fangs.|book= TCT|publisher= |page=2 and 3}}</ref> At one point in the book, if Zelda enters [[Madame Grusha]]'s fortune-telling hut, she will discover that the fortune-teller is actually a [[Wizzrobe]] in disguise who commands the Moblins to attack and kill the princess. However, Zelda easily defeats both the Moblin and the Wizzrobe with the use of [[Zelda's Bow|her Bow]].
+
+Once Link and Zelda find the [[Spear (Object)|Spear]] stuck in one of the trees of the forest, Ganon and his gang of Moblin begin to quickly approach the heroes, but with the help of Zelda's friend [[Greenbeard]], they are able to obtain the Spear and stop the Moblin right on their path.<ref>{{Cite Book|quote=A soft noise like the wind through leaves fills the clearing. The screaming moblin fall silent and stop where they are.|book= TCT|publisher= |page=17}}</ref> With the defeat of Ganon at the hands of Link, the Moblins disappear as well.
+
+==={{TSP|-}}===
+{{ImageCaption
+|image = File:Moblin TSP.png
+|size = 170px
+|align = right
+|caption = A Moblin from {{TSP|-}}
+|captionalign = 
+}}
+:''See also: [[Moblin Boss]] and [[Nilbom the Tailor]]''
+The Moblins in {{TSP}} not only serve Ganon, but also a [[Moblin Boss]] who commands them to destroy Link in order to satisfy their master. These creatures play a much bigger role in this book, being capable of [[Nilbom the Tailor|disguising themselves as humans]] and thus trick Link into thinking that they are there to help him. Both Princess Zelda and Link are first attacked by a gang of Moblins as they are walking through the woods. Although they defeat the first few monsters quite easily, Zelda runs out of Arrows for her Bow and ultimately gets knocked out by a rock thrown at her by one of the Moblins. Link goes after her but trips and tumbles to the ground, and just as he is about to be killed by a Moblin, a tall, dark man known as [[Charles of Moria|Charles]] saves him by commanding the Moblin to leave.
+
+Later on in the book, if Link chooses to go through the [[Midoro Swamp]] on his way to the [[Town of Ruto]], he will once again get ambushed by a group of Moblins; however, with the help of the [[Golden Whistle]], he is able to weaken them with its high-piercing sound. One of the Moblins then offers Link a [[Magic Potion]] in exchange that the young hero stops whistling.<ref>{{Cite Book|quote=Covering his horse's ears with his thick cloak, Link holds the whistle to his lips and blows. A high-pitched whine pierces the air. The effect on the dog-like moblin is instantenous. They grab their ears and double over, whimpering. [...] Link blows again. The moblin howl and roll on the forest floor. [...] 'Magic potion!' the moblin cries. 'Take it! But please! Stop with the whistle!' [...] 'Woops! I think it's time for a fast exit now,' he says. He urges Cloud to a gallop and they race out of the swamp, leaving the howling moblin behind.|book= TSP|publisher= |page= 40, 41}}</ref>
+
+Once Charles of [[Moria]] runs away to the Midoro Swamp with the [[Triforce of Wisdom]] in hand, Link will follow him there only to find that Charles, who is actually Ganon in disguise, has an army of Moblins that quickly surround Link. Just as the Moblins are drawing in to attack the young hero, Link uses his Sword to slash [[Charles's Necklace]] in two, thus defeating the false Morian knight. The Moblins, now with their leader gone, all suddenly scatter away into the clearing.<ref>{{Cite Book|quote=When the moblin see their master vanish they panic, yowling and cursing as they scatter out of the clearing.|book= TSP|publisher= |page=97}}</ref>
+
+==={{OoT|-}} (Himekawa)===
+Moblins make an appearance in the {{OoT|Himekawa}}, being summoned by the [[Twinrova]] witches alongside some [[Lizalfos]] to try and slow Link down. Moblins also appear as minions of the [[Baga Tree]], alongside some [[Wolfos]], with [[Mido]] stumbling upon one after declaring himself to be the true hero.
+{{Noncanon|End}}
+
+===''Camp Hyrule''===
+In the 2005 iteration of ''[[Camp Hyrule]]'', Moblins burnt the camp down on the final day.
+
+==Crossover appearances==
+{{Noncanon|Start}}
+==={{SSB|-}} series===
+===={{SSBB|-}}====
+Moblins appear as a [[Sticker]] in {{SSBB}}.
+
+{{SSBSticker|header=yes}}
+{{#section:Sticker|Moblin}}
+|}
+
+===={{SSBU|-}}====
+{{Spirit Battle
+|name= Moblin
+|spirit type= Primary
+|fighters= {{Stock|SSBU|King Dedede|6||Team}} ×4
+|team type= Neutral
+|team power= 1900
+|rank= Novice
+|stage= Skyloft
+|stage type= Battlefield
+|theme= {{Remix|Original|Overworld Theme - The Legend of Zelda|SSBU}}
+|rules= Move Speed 🠇
+|hazards= 
+|conditions= {{·}} The enemy favors down specials<br/>{{·}} The enemy has reduced move speed}}
+{{Primary Spirit
+|name= Moblin
+|type= Neutral
+|rank= Novice
+|slots= 2
+|strength= 511
+|defense= 348
+|power= 859
+|trait= 
+|description= 
+}}
+In {{SSBU}}, Moblin appears as a [[Spirit]] with no ability.
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+In {{CoH}}, Moblins are strong enemies that pose a threat to [[Cadence]], [[Link]], [[Yves]], and [[Princess Zelda|Zelda]], both at close range and at a distance. They carry spears, which they will throw at the heroes while moving to the beat of the music. Their beat pattern involves them moving on every other music beat, always crouching before hopping on the next beat as they make their way towards them. When they get close enough, they will pause on one beat to aim their spear, throwing it on the second beat and letting it land on the third. Once it lands, they will try to retrieve their weapon until it is either destroyed or picked up by another Moblin. After they lose their spear, they will try to attack the player head on. There are a total of four variants of Moblin, with [[Red Moblin]]s, [[Purple Moblin]]s, and [[Black Moblin]]s being their stronger counterparts. Regardless of species, all of their spears can be picked up by the heroes at any time with the glove, and throwing it will do double the Moblin's attack damage against any enemy, but at the cost of taking two beats to land.
+{{Ambig|End}}
+
+==Trivia==
+*"''It's a secret to everybody''", the iconic quote from ''[[The Legend of Zelda]]'', refers to both the actual player, who must keep from friends and family the secret that [[Rupee|Rupees]] can be found there, and to Moblins, as giving Rupees to [[Link]] means that they have betrayed their comrades.<ref>{{Cite Person|quote= That phrase has several meanings. It's a secret to be kept from friends and family that you can get rupees there. But for an enemy like a Molblin to bless you with Rupees means he has betrayed his comrades, so it's a secret to keep from them as well.|name= Shigeru Miyamoto|url= https://www.nintendo.com/nes-classic/the-legend-of-zelda-developer-interview/|title= The Legend of Zelda Developer Interview}}</ref>[[File:Ganon echo ico.png|thumb|301x301px|Ganon as he appears in ''Echoes of Wisdom'', who has similar physical features to a Moblin]]
+*Although not technically such as he is in fact a [[Demon]], the main antagonist [[Ganon]] in his original appearance seen in ''The Legend of Zelda'', ''[[Zelda II: The Adventure of Link|The Adventure of Link]]'' (international version only), ''[[The Legend of Zelda: A Link to the Past|A Link to the Past]]'', the [[Linked Game|linked ''Oracle'' game]], ''[[The Legend of Zelda: Four Swords Adventures|Four Swords Adventures]]'', ''[[The Legend of Zelda: A Link Between Worlds|A Link Between Worlds]]'', and ''[[The Legend of Zelda: Echoes of Wisdom|Echoes of Wisdom]]'' strongly resembles a giant, more ferocious version of the Moblins.
+**This is a parallel to [[Bowser]], who himself is a [[mariowiki:Koopa|Koopa]], but is much larger and significantly fearsome compared to the common [[Koopa Troopa]].
+*According to [[Community:Zelda.com|Zelda.com]], Moblins are greedy and only care about food and Rupees.<ref>{{Cite Web|quote= Moblins, or "Molblins" as they've come to be called recently, are piggish brutes who attack with swords and care only about food and Rupees.|author= |published= |retrieved= January 17, 2017|url= https://web.archive.org/web/20160311223549/http://zelda.com/universe/pedia/m.jsp|title= The Great Hyrule Encyclopedia|site= Zelda.com|type= Archive}}</ref> This is also somewhat true in the games, particularly in the ''Oracle'' games.<ref>{{Cite|Bwee! I found somethin' weird! If we catch it and sell it, we'll be rich!!!!|Moblin|OoS}}</ref><ref>{{Cite|Bwee-hee-hee!
+We're rich!|Moblin|OoS}}</ref>
+*In {{E}}, the Moblin image for ''The Legend of Zelda'' was instead that of a [[Goriya]].<ref>{{Cite Book|quote=|book=E|publisher=|page=193}}</ref>
+
+==Nomenclature==
+Moblins in {{TLoZ|-}} and ''The Adventure of Link'' were originally known as "Mo'''l'''blins", a more exact transliteration of their Japanese name, {{Romanize|モリブリン|Moriburin}}. Moriburin is a portmanteau of {{Romanize|森|Mori|Forest|2}}, in reference to their common habitat, and "{{Wp|goblin}}". In later titles, the initial "L" was omitted.
+{{Nomenclature}}
+
+==Gallery==
+===Sprite===
+<gallery>
+File:TLoZ Red Moblin Sprite.png|Sprite from {{TLoZ|-}}
+File:TAoL Orange Moblin Sprite.png|Sprite from {{TAoL|-}}
+File:ALttP Moblin Sprite.png|Sprite from {{ALttP|-}}
+File:LA Moblin Sprite.png|Sprite from {{LA|-}}
+File:LADX Moblin Sprite.png|Sprite from {{LA|DX|-}}
+File:OoS Moblin Blue Sprite.png|Blue Moblin from {{OoS|-}} and {{OoA|-}}
+File:OoS Moblin Red Sprite.png|Blue Moblin from {{OoS|-}} and {{OoA|-}}
+</gallery>
+===Models and Renders===
+<gallery>
+File:OoT Moblin Model.png|Model from {{OoT|-}}
+File:OoT Club Moblin Model.png|The club variant from ''Ocarina of Time''
+File:OoT3D Moblin Model.png|Model from {{OoT3D|-}}
+File:OoT3D Club Moblin Model.png|Club variant from ''Ocarina of Time 3D''
+File:TWW Blue Moblin Model.png|Model from {{TWW|-}}
+File:SS Wooden Shield Moblin Render.png|Render from {{SS|-}}
+File:ALBW Moblin Model.png|Model from {{ALBW|-}}
+File:LANS Moblin Render.png|Render from {{LA|NS|-}}
+File:TotK Moblin Model.png|Model from {{TotK|-}}
+File:TotK Moblin Model (Gnarled Long Stick).png|''Tears of the Kingdom'' Moblin wielding a [[Gnarled Long Stick]]
+</gallery>
+===Artwork===
+<gallery>
+File:TLoZ Molblin Blue Artwork.png|Artwork for {{TLoZ|-}}
+File:TAoL Red Moblin Artwork.png|Artwork for {{TAoL|-}}
+File:TAoL Blue Moblin Artwork.png|Artwork for {{TAoL|-}}
+File:OoT Club Moblin Artwork.png|Artwork for ''Ocarina of Time'' (Club variant)
+File:OoT Link Sheik Artwork.jpg|An army of Moblins alongside [[Stalfos]] and [[Lizalfos]] fighting [[Link]] and [[Sheik]] in an artwork from ''Ocarina of Time''
+File:Moblin ALBW.png|Artwork for {{ALBW|-}}
+File:OOT Manga - Moblin.png|A Moblin from the [[The Legend of Zelda: Ocarina of Time (Himekawa)|''Ocarina of Time'' manga]]
+File:OOT Manga - Lizalfos and Moblins.png|Moblins and Lizalfos attacking Link in the ''Ocarina of Time'' manga
+</gallery>
+
+==See also==
+*[[Black Moblin]]
+*[[Blue Moblin]]
+*[[Boarblin]]
+*[[Electric Moblin]]
+*[[Fire Moblin]]
+*[[Golden Moblin]]
+*[[Ice Moblin]]
+*[[Malice Moblin]]
+*[[Robolin]]
+*[[Silver Moblin]]
+*[[Spear Moblin]]
+*[[Spear Moblin Lv. 2]]
+*[[Stalmoblin]]
+*[[Sword Moblin]]
+*[[Sword Moblin Lv. 2]]
+*[[Sword Moblin Lv. 3]]
+
+{{Notes}}
+
+{{Ref}}
+
+{{Enemies}}
+{{Categories
+ |Blins, Club Enemies, Mammalian Enemies, Moblins, Canine Enemies, Pig-Like Enemies, Races, Spear Enemies, Sword Enemies, Echoes
+ |characters= OoS, TLoZ (Valiant Comics)
+ |enemies= TLoZ, TAoL, ALttP, LA, LADX, LANS, OoT, OoT3D, OoS, OoA, TWW, TWWHD, ALBW, BotW, TotK, EoW, ZG&W, TLoZ (TV Series), CN, TCT, TSP, ZA, BSTLoZ, NL, HW, HWL, HWDE, HWAoC
+ |sub-bosses= TWW, TWWHD
+}}

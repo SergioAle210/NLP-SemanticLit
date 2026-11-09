@@ -1,0 +1,66 @@
+{
+  "source": "ac_fandom",
+  "license": "CC BY-SA",
+  "license_note": "Fandom reporta \"CC-BY-SA\" sin versión (normalmente 3.0).",
+  "downloaded_at": "2026-11-08T18:16:08+00:00",
+  "total_chars": 92302,
+  "missing_titles": [],
+  "pages": [
+    {
+      "title": "The Art of Assassin's Creed II",
+      "url": "https://assassinscreed.fandom.com/wiki/The_Art_of_Assassin%27s_Creed_II",
+      "revid": 973745,
+      "file": "pages/The_Art_of_Assassin_s_Creed_II.wiki",
+      "chars": 2032
+    },
+    {
+      "title": "Assassin's Creed II",
+      "url": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed_II",
+      "revid": 1156589,
+      "file": "pages/Assassin_s_Creed_II.wiki",
+      "chars": 46442
+    },
+    {
+      "title": "Assassin's Creed II (mobile game)",
+      "url": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed_II_%28mobile_game%29",
+      "revid": 971912,
+      "file": "pages/Assassin_s_Creed_II_mobile_game_.wiki",
+      "chars": 10588
+    },
+    {
+      "title": "Assassin's Creed II achievements",
+      "url": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed_II_achievements",
+      "revid": 1132141,
+      "file": "pages/Assassin_s_Creed_II_achievements.wiki",
+      "chars": 8409
+    },
+    {
+      "title": "Assassin's Creed II outfits",
+      "url": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed_II_outfits",
+      "revid": 1099841,
+      "file": "pages/Assassin_s_Creed_II_outfits.wiki",
+      "chars": 3995
+    },
+    {
+      "title": "Assassin's Creed II soundtrack",
+      "url": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed_II_soundtrack",
+      "revid": 1164637,
+      "file": "pages/Assassin_s_Creed_II_soundtrack.wiki",
+      "chars": 9374
+    },
+    {
+      "title": "Venice Revealed",
+      "url": "https://assassinscreed.fandom.com/wiki/Venice_Revealed",
+      "revid": 1088511,
+      "file": "pages/Venice_Revealed.wiki",
+      "chars": 2309
+    },
+    {
+      "title": "Web Battle",
+      "url": "https://assassinscreed.fandom.com/wiki/Web_Battle",
+      "revid": 679406,
+      "file": "pages/Web_Battle.wiki",
+      "chars": 9153
+    }
+  ]
+}

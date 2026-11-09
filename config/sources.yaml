@@ -1,0 +1,117 @@
+# Fuentes de corpus por juego (las usa scripts/fetch_corpus.py). Solo texto de wikis con licencia abierta.
+# Licencias tomadas de la API de cada sitio (meta=siteinfo&siprop=rightsinfo) el 2026-11-08. Nunca se incluyen
+# manuales ni guías con derechos reservados (GameFAQs, manuales de Nintendo).
+sites:
+  strategywiki:
+    api: https://strategywiki.org/w/api.php
+    url_base: https://strategywiki.org/wiki/
+    license: CC BY-SA 4.0
+  wikipedia:
+    api: https://en.wikipedia.org/w/api.php
+    url_base: https://en.wikipedia.org/wiki/
+    license: CC BY-SA 4.0
+  grandtheftwiki:
+    api: https://www.grandtheftwiki.com/api.php
+    url_base: https://www.grandtheftwiki.com/
+    license: CC BY-SA 3.0
+  gta_fandom:
+    api: https://gta.fandom.com/api.php
+    url_base: https://gta.fandom.com/wiki/
+    license: CC BY-SA
+    license_note: Fandom reporta "CC-BY-SA" sin versión (normalmente 3.0).
+  reddead_fandom:
+    api: https://reddead.fandom.com/api.php
+    url_base: https://reddead.fandom.com/wiki/
+    license: CC BY-SA
+    license_note: Fandom reporta "CC-BY-SA" sin versión (normalmente 3.0).
+  ac_fandom:
+    api: https://assassinscreed.fandom.com/api.php
+    url_base: https://assassinscreed.fandom.com/wiki/
+    license: CC BY-SA
+    license_note: Fandom reporta "CC-BY-SA" sin versión (normalmente 3.0).
+  doom_fandom:
+    api: https://doom.fandom.com/api.php
+    url_base: https://doom.fandom.com/wiki/
+    license: CC BY-SA
+    license_note: Fandom reporta "CC-BY-SA" sin versión (normalmente 3.0).
+  ninjagaiden_fandom:
+    api: https://ninjagaiden.fandom.com/api.php
+    url_base: https://ninjagaiden.fandom.com/wiki/
+    license: CC BY-SA
+    license_note: Fandom reporta "CC-BY-SA" sin versión (normalmente 3.0).
+  zeldapedia:
+    api: https://zelda.fandom.com/api.php
+    url_base: https://zelda.fandom.com/wiki/
+    license: GFDL
+    license_note: GNU Free Documentation License. Copyleft distinto de CC BY-SA; mantener separada y atribuida.
+  zeldawiki:
+    api: https://zeldawiki.wiki/w/api.php
+    url_base: https://zeldawiki.wiki/wiki/
+    license: GFDL 1.3
+    license_note: GNU Free Documentation License 1.3. Copyleft distinto de CC BY-SA; mantener separada y atribuida.
+
+games:
+  # --- juegos existentes: se suman 2-3 fuentes más a StrategyWiki ---------------------------------------------
+  zelda1:
+    - {site: wikipedia, titles: [The Legend of Zelda (video game)]}
+    - site: zeldapedia
+      titles: [The Legend of Zelda, Hyrule, Ganon, Link, Princess Zelda, Triforce, Triforce of Wisdom,
+               Triforce of Power, Triforce of Courage, Boomerang, Magical Boomerang, Blue Candle, Red Candle,
+               Recorder, Raft, Stepladder, Power Bracelet, Magical Key, Blue Ring, Red Ring, Wooden Sword,
+               White Sword, Magical Sword, Bow, Silver Arrow, Magical Shield, Heart Container, Water of Life,
+               Aquamentus, Dodongo, Manhandla, Gleeok, Digdogger, Gohma, Lanmola, Moldorm, Patra, Wizzrobe,
+               Like Like, Darknut, Lynel, Octorok, Moblin, Zora, Peahat, Tektite, Vire, Keese, Gel, Zol,
+               Level 1 (The Legend of Zelda), Level 2 (The Legend of Zelda), Level 3 (The Legend of Zelda),
+               Level 4 (The Legend of Zelda), Level 5 (The Legend of Zelda), Level 6 (The Legend of Zelda),
+               Level 7 (The Legend of Zelda), Level 8 (The Legend of Zelda), Level 9 (The Legend of Zelda)]
+    - site: zeldawiki
+      titles: [The Legend of Zelda, Hyrule, Ganon, Triforce, Boomerang, Candle, Recorder, Raft, Ladder,
+               Power Bracelet, Magic Key, Ring, Wooden Sword, White Sword, Magical Sword, Bow, Silver Arrow,
+               Heart Container, Water of Life, Aquamentus, Dodongo, Manhandla, Gleeok, Digdogger, Gohma,
+               Lanmola, Moldorm, Patra, Wizzrobe, Like Like, Darknut, Lynel, Octorok, Moblin, Zora, Peahat,
+               Tektite, Vire, Keese]
+  ninja_gaiden_nes:
+    - {site: wikipedia, titles: [Ninja Gaiden (NES video game), Ninja Gaiden (1988 video game)]}
+    - {site: ninjagaiden_fandom, categories: [Ninja Gaiden (NES), Ninja Gaiden (NES) Boss Battles,
+                                              Ninja Gaiden (NES) Characters, Ninja Gaiden (NES) Enemies]}
+
+  # --- juegos nuevos -------------------------------------------------------------------------------------------
+  gta_sa:
+    - {site: strategywiki, prefix: "Grand Theft Auto: San Andreas"}
+    - {site: wikipedia, titles: ["Grand Theft Auto: San Andreas", "Grand Theft Auto: San Andreas missions"]}
+    - {site: grandtheftwiki, categories: [Missions in GTA San Andreas, GTA San Andreas, Characters in GTA San Andreas],
+       limit: 270}
+    - {site: gta_fandom, categories: [GTA San Andreas, Characters in GTA San Andreas,
+                                      Locations in GTA San Andreas], limit: 150}
+  oot:
+    - {site: strategywiki, prefix: "The Legend of Zelda: Ocarina of Time"}
+    - {site: wikipedia, titles: ["The Legend of Zelda: Ocarina of Time"]}
+    - site: zeldapedia
+      titles: [Ocarina of Time, Deku Tree, Dodongo's Cavern, Jabu-Jabu's Belly, Forest Temple, Fire Temple,
+               Water Temple, Shadow Temple, Spirit Temple, Ice Cavern, Bottom of the Well, Gerudo Training Ground,
+               Ganon's Castle, Gohma, King Dodongo, Barinade, Phantom Ganon, Volvagia, Morpha, Bongo Bongo,
+               Twinrova, Ganondorf, Hookshot, Longshot, Megaton Hammer, Iron Boots, Hover Boots, Lens of Truth,
+               Master Sword, Biggoron's Sword, Din's Fire, Farore's Wind, Nayru's Love, Fairy Bow, Light Arrow,
+               Fire Arrow, Ice Arrow, Bombchu, Goron Tunic, Zora Tunic, Mirror Shield, Hylian Shield, Deku Stick,
+               Gold Skulltula, Heart Piece, Sheik, Navi, Saria, Darunia, Ruto, Impa, Rauru, Nabooru,
+               Kokiri Forest, Death Mountain, Zora's Domain, Gerudo Valley, Hyrule Castle, Temple of Time]
+    - site: zeldawiki
+      titles: [Ocarina of Time, Deku Tree, Dodongo's Cavern, Jabu-Jabu's Belly, Forest Temple, Fire Temple,
+               Water Temple, Shadow Temple, Spirit Temple, Ice Cavern, Bottom of the Well, Gerudo Training Ground,
+               Ganon's Castle, Gohma, King Dodongo, Barinade, Phantom Ganon, Volvagia, Morpha, Bongo Bongo,
+               Twinrova, Ganondorf, Hookshot, Longshot, Megaton Hammer, Iron Boots, Hover Boots, Lens of Truth,
+               Master Sword, Biggoron's Sword, Din's Fire, Farore's Wind, Nayru's Love, Fairy Bow, Light Arrow,
+               Fire Arrow, Ice Arrow, Bombchu, Goron Tunic, Zora Tunic, Mirror Shield, Gold Skulltula, Heart Piece,
+               Sheik, Navi, Saria, Darunia, Ruto, Impa, Rauru, Nabooru]
+  ac2:
+    - {site: strategywiki, prefix: "Assassin's Creed II"}
+    - {site: wikipedia, titles: ["Assassin's Creed II"]}
+    - {site: ac_fandom, categories: ["Assassin's Creed II"], limit: 80}
+  doom:
+    - {site: strategywiki, prefix: "Doom"}
+    - {site: wikipedia, titles: ["Doom (1993 video game)"]}
+    - {site: doom_fandom, categories: [Monsters, Levels], limit: 80}
+  rdr1:
+    - {site: strategywiki, prefix: "Red Dead Redemption"}
+    - {site: wikipedia, titles: ["Red Dead Redemption"]}
+    - {site: reddead_fandom, categories: ["Red Dead Redemption"], limit: 100}

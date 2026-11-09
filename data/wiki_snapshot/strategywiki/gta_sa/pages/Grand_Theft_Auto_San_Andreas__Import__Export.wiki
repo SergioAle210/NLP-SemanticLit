@@ -1,0 +1,74 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission:''' [[File:GTA San Andreas radar CesarVialpando.png]][[Grand Theft Auto: San Andreas/Customs Fast Track|Customs Fast Track]]
+* '''Location:''' Container ship and crane, Easter Basin, San Fierro
+|}
+
+Three lists of cars that must be delivered to the Easter Basin docks on the east side of San Fiero.  A list must be completed before the next list becomes available. See the [[Grand Theft Auto: San Andreas/Vehicles|vehicles page]] for more information.
+
+The list can be found at the docks at San Fierro, near the drydock and the water's edge.
+
+{{sidebar|title=List One|width=150px|float=left|contents=
+* Patriot
+* Sanchez
+* Stretch
+* Feltzer
+* Remington
+* Buffalo
+* Sentinel
+* Infernus
+* Camper
+* Admiral
+}}
+{{sidebar|title=List Two|width=150px|float=left|contents=
+* Slamvan
+* Blista Compact
+* Stafford
+* Sabre
+* FCR-900
+* Cheetah
+* Rancher
+* Stallion
+* Tanker
+* Comet
+}}
+{{sidebar|title=List Three|width=150px|float=left|contents=
+* Blade
+* Freeway
+* Mesa
+* ZR-350
+* EUROS
+* Banshee
+* Super GT
+* Journey
+* Huntley
+* BF Injection
+}}
+{{-}}
+==Tips==
+Make a hard copy of the list to refer to as you do the other missions.  It'll save time if you can recognize those cars by sight.
+
+A text message will remind you when you get into a car that is on the current list.  Depending on how far away you are from the crane, you might want to drive the car into a garage and save.  You can then immediately drive it to the crane or save it for later.  Either way, the car will be in your garage any time you restart at that point.  So if you drive the car off a bridge accidentally you don't have to steal another one.
+
+Take the car to the Pay-N-Spray behind Wang's to spruce it up before exporting.  That will maximize your export cash.
+
+==Rewards==
+{{achievement
+|name=A Legitimate Business
+|g=40
+|trophy=silver
+|image=GTASA DE A Legitimate Business.png
+|description=Export all three car lists.
+}}
+Money can be received for exporting a car, with more money given if the car is in better condition. A $50,000 bonus is attached to the final car of the first list, a $100,000 bonus for the second list, and $200,000 for the final list. Plus, all the exported cars plus a few bonus cars become available for buying.
+
+Completing each list earns progress towards [[Grand Theft Auto: San Andreas/100 percent checklist|100% completion]].
+
+==External links==
+* [http://www.gta-sanandreas.com/guides/importexport/index.php Car Locations]
+* [http://www.g-unleashed.com/index.php?cat=16&pid=317&page=import_export g-unleashed's import export mission page]
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Customs Fast Track|previmg=[[File:GTA San Andreas radar CesarVialpando.png]]|here=Import/Export}}

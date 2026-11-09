@@ -1,0 +1,59 @@
+'''Big Smoke's Cash/Yay Courier''' are a pair of submissions in [[Grand Theft Auto: San Andreas|GTA San Andreas]] dealing with the [[Loco Syndicate|Loco Syndicate's]] drug smuggling. They are triggered by a [[Mobile Phone|phone call]] by [[Cesar Vialpando|Cesar]] on certain [[Days_of_the_Week|days of the week]]. These missions are unlocked by [[King in Exile]] and repeat until [[Yay Ka-Boom-Boom|Smoke's Crack Factory is destroyed]]. They are not required for [[Completion in GTA San Andreas|completion]].
+
+==Missions==
+===Big Smoke's Cash===
+[[Days of the Week|Mondays]] & [[Days of the Week|Fridays]] at 5am: Cesar calls [[Carl Johnson]] and informs him that [[Big Smoke|Smoke]] is sending money to the [[Loco Syndicate]]. Cash leaves from Big Smoke at 5am sharp. The player can accept or decline to go. If accepted, the player must follow the [[Patriot|car]] and hit it's back, to make the boxes of [[Money|money]] fall from the car, and then get them. The mission ends if Carl takes all the six boxes of money, the car gets too far away after engaging it, or the car reaches the [[Pier 69]], [[San Fierro]]. You do however keep any cash that was attained before losing the SUV.
+<br> '''YOU STOLE $X FROM THE COURIER''' <br>
+You’ve lost the courier 
+
+===Yay Courier===
+[[Days of the Week|Wednesdays]] & [[Days of the Week|Saturdays]] (anytime after midnight), Cesar calls CJ to inform him of a "Yay" (Drug)shipment leaving San Fierro. The player can accept or decline. If accepted, the play must chase down the [[Sanchez|bike]] carrying the drugs. Once you start shooting, the drugs start flying away out holes in the courier's backpack (and reduce your completion money).The sooner you kill the courier, the more money you end up with. After gunnning down the courier, his backpack will appear and you are infomrmed to "pick up the '''stuff'''" which ends the mission and pays out on % of drugs left after the battle. Once you are spotted by the courier, you can lose the mission if he gets too far away from you, and no cash is awarded until the biker is dead. <br>
+'''YOU STOLE $0 FROM THE COURIER'''<br>
+You’ve lost the courier
+
+==Script==
+*'''MON & FRI'''
+:Cesar: “The Cash is leaving Los Santos again.”
+:CJ No: “I’m gonna have to let this one slide man, I got too much shit on my plate."
+:CJ Yes: “Ok, I’m on it.”
+'''YOU STOLE $XXXX FROM THE COURIER'''
+:You can try again every Monday and Friday
+
+*'''WED & SAT'''
+:CJ: “Hey Cesar, the yay leavin San Fierro right?” "The yay leaving San Fierro, right?"
+:Cesar: “Right, but they’re using bikes CJ, they go cross country”
+:CJ No: “Not right now, I gotta check into some shit” "Oh shit, I'm tired up right now. We gotta get'em next time,dude."
+:CJ Yes: “Ok, I’ma see what I can dig up.”
+'''YOU STOLE $XXXX FROM THE COURIER'''
+:You can try again every Wednesday and Saturday
+
+==Rewards==
+* Up to 6 packets of $300 may be rammed off the patriot during cash runs. Once $1800 has been collected the run is over for the day.
+* Up to $2000 can be stolen from the Yay Courier Bike each drug run.
+* A Rare [[Vehicles_in_GTA_San_Andreas#Special_or_rare_vehicles|'''BP, EP, FP''']] [[Patriot]] may be obtained during the Cash runs. See [http://www.freewebs.com/glenster1/Glensters%20Glimpse%20into%20San%20Andreas.htm#VI.13 walkthru]
+
+== Trivia ==
+*The [[Patriot]] actually leaves from between CJ's and [[Sweet|Sweet's]] houses though it comes from Smoke (presumably meant to be from [[Ryder]] who is listed as second in command on the Los Santos side of the operation).
+*Ironically, the pedestrians in the Patriot use the same model of the [[Grove Street Families|Grove Street]] members.
+*The [[Sanchez|Bike]] "leaving from San Fierro"  actually appears on a small bridge between [[Shady Creeks]] & [[Flint County]] whenever the phone call is received.
+
+==Tips==
+===Big Smoke's Cash===
+* The [[Patriot]] is bullet proof, fire proof, explosion proof, and the doors are always locked, so there's no real shortcut here.
+* Find a fast car that handles well. Haul up on the Patriot, slam into its rear, then slam on your brakes. The package often lands right on you if you stopped, plus you receive a lot less gunfire when you are only near it for a second, then backed way off again as it speeds away.
+*It starts in [[Grove_Street|Grove street's cul-de-sac]], so waiting there before 5am can give you a few good hits on pavement, before it starts off-roading. 
+===Yay Courier===
+* The courier starts dropping stuff once you shoot at him. The best approach is to run him over until he falls off the bike (try to smash him into another car or a wall). Then you can get a clean kill shot, and lose very little drugs/money.
+* The [[Rancher]], [[Mesa]] and the [[Patriot]] make great vehicles for this mission as they can take off-road shortcuts to catch the bike quickly, and weigh enough to knock it over.
+
+==Video walkthrough==
+<center>
+{| class="wikitable"
+!PC Version
+|-
+!<youtube>dU7kC73HqFc</youtube>
+|}
+</center>
+
+[[Category:Missions in GTA San Andreas]]
+[[Category:Side Missions]]

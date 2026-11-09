@@ -1,0 +1,20 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{{stub}}
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''': [[File:GTA San Andreas radar Sweet.png]][[Grand Theft Auto: San Andreas/Tagging up Turf|Tagging up Turf]]
+|}
+'''Note''': Not required for [[Grand Theft Auto: San Andreas/100 percent checklist|100% completion]].
+
+==Rewards==
+{{achievement
+|name=Hoopin' it Up
+|g=15
+|trophy=bronze
+|image=GTASA DE Hoopin' it Up.png
+|description=Score at least 30 points in the basketball mini-game.
+}}
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Tagging up Turf|previmg=[[File:GTA San Andreas radar Sweet.png]]|nextpage=Lowrider Challenge}}

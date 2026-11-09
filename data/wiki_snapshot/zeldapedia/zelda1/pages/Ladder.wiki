@@ -1,0 +1,90 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Stepladder Artwork.png
+ |Model OoT= File:OoT Ladder Model.png
+ |Model OoT3D= File:OoT3D Ladder Model.png
+ |Model MM= File:MM Ladder Model.png
+ |Model MM3D= File:MM3D Ladder Model.png
+ |Model TWW= File:TWW Ladder Model.png
+ |Model TWWHD= File:TWWHD Ladder Model.png
+ |Model TP= File:TP Ladder Model.jpg
+ |Model TPHD= File:TPHD Ladder Model.png
+ |Model SS= File:SS Ladder Model.png
+ |Model BotW= File:BotW Ladder Model.png
+ |Sprite TLoZ= File:TLoZ Stepladder Sprite.png
+ |Sprite TMC= File:TMC Ladder Sprite.png
+}}
+|caption= 
+|game= TLoZ, OoT, MM, TWW, TMC, TP, SS, BotW, TotK
+|other= BSTLoZ, ZA, HW
+|uses= Cross small spans of [[Water (Terrain)|Water]], [[Pit]]s, or [[Lava]]
+|comp= 
+}}
+{{Term/Store|Ladder|Ladders|Series, HW, HWL, HWDE|plural}},{{Exp Game|Series, HW}}<ref name="E 129">{{Cite Book|quote= |book= E |publisher= |page= 129 {{Exp Game|Series, TLoZ}}}}</ref><ref>{{Cite|{{Color|HWDE Green|Ladder}}: Use this to move across a single space of water.|Tutorial|HWDE}}</ref> also known as the {{Term/Store|Stepladder|Stepladders|TLoZ|plural}},{{Exp Game|TLoZ}}<ref name="E 129"/> are recurring [[item]]s and [[object]]s in {{TLoZ|Series}}.{{Name Ref|OoT3D, BSTLoZ, ZA}}
+
+==Location and uses==
+==={{TLoZ|-}}===
+The Stepladder is found in [[Level 4]] in the First Quest and in [[Level 6]] in the [[Second Quest]] in {{TLoZ}}. It is used to traverse small spans of [[Water (Terrain)|Water]], [[Pit|Holes]], or [[Lava]], which would otherwise block [[Link]]'s progress. It is used automatically when Link needs to cross any of these obstacles.
+
+==={{OoT|-}}===
+{{Stub|OoT3D}}
+
+==={{MM|-}}===
+{{Stub|MM3D}}
+
+==={{TWW|-}}===
+{{Stub|TWWHD}}
+
+==={{TMC|-}}===
+Ladders are found across [[Hyrule]] in {{TMC}}. They can be found inside [[Tree]]s, [[Dig Cavern|Secret Caves]], [[Minish]]-sized cracks in the [[Overworld]], and within other cave systems throughout the land. They often lead down to rooms that contain [[Treasure Chest|Chests]] or the homes of [[Forest Picori]].
+
+All the Ladders in the game already exist in place with the exception of one; after [[Link]] has [[Kinstone Fusion|Fused]] [[Kinstone Piece]]s with all four of the [[Tingle Siblings?]], a Ladder extends down from the center of [[North Hyrule Field]], leading to a large Chest containing the [[Magical Boomerang]].
+
+==={{TP|-}}===
+{{Stub|TPHD}}
+
+==={{SS|-}}===
+{{Stub|SS}}
+
+==={{BotW|-}}===
+Ladders are within shrines and on the sides of some buildings in {{BotW}}. They enable Link to climb without using [[Stamina]].
+
+==={{TotK|-}}===
+{{Stub|TotK}}
+
+==Spinoff appearances==
+==={{BSTLoZ|-}}===
+{{Ambig|Start}}
+{{Stub|BSTLoZ}}
+{{Ambig|End}}
+
+{{Noncanon|Start}}
+==={{ZA|-}}===
+In {{ZA}}, the Ladder can be found next to a tree in the [[Forest of Ogbam]]. Its only use is to bridge and cross the giant chasm near the entrance of the [[Shrine of Earth]].
+
+==={{HW|-}}===
+{{Stub|HWDE}}
+In {{HW}}, Ladders appear as [[Item Card]]s in [[Adventure Mode]]. Additionally, in the Master Quest DLC Pack, the [[8-bit Ladder]] is the 8-bit [[Harp]] weapon used by [[Sheik]], and it has the same sprite as the Ladder in {{TLoZ|-}}.
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Stepladder Artwork 2.png|Artwork of the Ladder from {{TLoZ|-}}
+File:TMC Ladder Sprite 2.png|A Ladder on Mount Crenel from {{TMC|-}}
+File:ZA Stepladder.png|Sprite of the Ladder from {{ZA|-}}
+File:HW 8-Bit Stepladder Icon.png|The 8-bit Stepladder from {{HW|-}}
+File:HW Ladder Sprite.svg|The Ladder Item Card from {{HW|-}}
+File:HWDE Ladder Icon.png|The Ladder Item Card from {{HW|DE|-}}
+File:HWDE Sheik 8-Bit Stepladder.png|Sheik wielding the 8-bit Stepladder from {{HW|DE|-}}
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |items= ZA, HW, HWL, HWDE
+ |objects= OoT, OoT3D, MM, MM3D, TWW, TWWHD, TMC, TP, TPHD, SS, SSHD, BotW, TotK
+}}

@@ -1,0 +1,359 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork TLoZ= [[File:TLoZ Gohma Artwork.png|320x320px]]
+ |Artwork OoT= [[File:OoT Gohma Artwork.png|320x320px]]
+ |Artwork TWW= [[File:TWW Gohma Artwork.png|320x320px]]
+ |Model LANS= [[File:LANS Gohma Model.png|320x320px]]
+ |Model OoT= [[File:OoT Gohma Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Gohma Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 Gohma Model.png|320x320px]]
+ |Model TWW= [[File:TWW Gohma Model.png|320x320px]]
+ |Model TWWHD= [[File:TWWHD Gohma Model.png|320x320px]]
+ |Model EoW= [[File:EoW Gohma Model.png|320x320px]]
+ |Sprite TLoZ= [[File:TLoZ Gohma Sprite.png|160x160px]]
+ |Sprite LA= [[File:LA Gohma Sprite.png|160x160px]]
+ |Sprite LADX= [[File:LADX Gohma Sprite.png|160x160px]]
+ |Sprite OoS= [[File:OoS Gohma Sprite.png|160x160px]]
+ |Sprite FSA= [[File:FSA Gohma Sprite.png|160x160px]]
+}}
+|caption= 
+|game= TLoZ, LA, OoT, OoS, TWW, FSA, EoW
+|other= TLoZ (TV Series), TLoZ (Valiant Comics), TCT, TFoE, TWoG, BSTLoZ, TWWL4kNL, OoT (Himekawa), HW, NWCNES
+|pronunciation= {{IPA|ˈgoʊmɑː}} {{Respell|GOH|mah}}<ref>{{Cite Web|quote= For example, here's Gohma. |published= August 4, 2014 |url= https://www.youtube.com/watch?v=3_DZtTR3zu0&t=5m36s |title= Hyrule Warriors Direct |site= YouTube}}</ref>
+|title= 
+{{Infobox Game Blocks
+ |OoT= Parasitic Armored Arachnid<ref>{{Cite|'''Parasitic Armored Arachnid'''<br/>{{Big|'''GOHMA'''}}|Game Screen|OoT}}</ref>, Queen Gohma<ref name="Queen Gohma">{{Cite|How did you know our secret? How irritating! It's so annoying that I'm going to reveal the secret of Queen Gohma to you! In order to administer the coup de grâce to Queen Gohma, strike with your sword {{Color OoT3D|Red|while she's stunned}}. Oh, Queenie... Sorry about that!|Deku Scrub|OoT3D}}</ref>
+ |EoW= Great Spider<ref>{{Cite|I know. I was worried when that big patch of dark thorns showed up at the Sweet Spot. But then the Great Spider came out and started spinning its webs. Sweet, yummy goodness!|Buzzu|EoW}}</ref>
+ |HW= Arthropod Cyclops Monster<ref name="HW Game Screen">{{Cite|Arthropod Cyclops Monster<br/>{{Big|Gohma}}|Game Screen|HWDE}}</ref>
+}}
+|race= 
+|pronouns= 
+{{Infobox Game Blocks
+ |OoT= she/her<ref name="Queen Gohma"/>
+ |OoS= he/him<ref name="OoS Versus 38">{{Cite Guide|OoS Versus|page= 38}}</ref>
+}}
+|dungeon= 
+{{Infobox Game Blocks
+ |TLoZ= [[Level 6]]
+ |LA= [[Catfish's Maw]]
+ |OoT= [[Inside the Deku Tree]]
+ |OoS= [[Dancing Dragon Dungeon]]
+ |TWW= [[Dragon Roost Cavern]]
+ |EoW= [[Faron Temple]]
+}}
+|habitat= 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|2}} {{Small|(Red)}}, {{HP|TLoZ|6}} {{Small|(Blue)}}
+ |LA= {{HP|LA|12}}
+ |OoT= {{HP|OoT|10}}
+}} 
+|weakness= [[Eye]]
+|reward= 
+{{Infobox Game Blocks
+ |EoW= [[Farore's Sanction]], [[Heart Container]]
+}}
+|exp= 
+|theme= 
+|strategy= 
+{{Infobox Game Blocks
+ |TLoZ= {{StrategyWiki|The Legend of Zelda/Underworld/Quest 1/Dungeon 6#Boss|Gohma}}
+}}
+|voiceactor= 
+|attack= 
+{{Infobox Game Blocks
+ |TLoZ= 
+{{Damage
+  |attack1= Contact
+  |damage1= 1.00
+  |attack2= Eye Beam
+  |damage2= 1.00
+}}
+ |LA= 
+{{Damage
+  |attack1= Contact
+  |damage1= 1.00
+  |attack2= Eye Beam
+  |damage2= 0.50
+}}
+ |OoT= 
+{{Damage
+  |attack1= Slam
+  |damage1= 0.50
+  |attack2= Lay Eggs
+  |damage2= 0.00
+}}
+ |TWW= 
+{{Damage
+  |attack1= Claw Slash
+  |damage1= 0.25
+  |attack2= Claw Slam
+  |damage2= 0.50
+  |attack3= Fire Breath
+  |damage3= 0.50
+}}
+}}
+}}
+'''Gohmas''', also known as '''One-Eyed Monsters''', are recurring [[Boss]]es in {{TLoZ Series}}. They are usually depicted as large, one-eyed arthropods and often shown as mothers of the [[Young Gohma]]s. They are among the most recurring Bosses in the series since its conception.
+
+{{Terminology
+|-
+| {{Term/Store|Gohma|Gohmas|Series, TLoZ, LA, LADX, LANS, OoT, OoT3D, OoS, TWW, TWWHD, FSA, EoW, TFoE, HW, HWL, HWDE}}
+| '''Gohmas'''
+| 
+{{List|
+ * {{TLoZ}}<ref name="E 182"/>
+ * {{LA}}<ref name="E 182"/>
+ * {{LADX}}<ref name="E 182"/>
+ * {{LANS}}<ref name="DAB 82"/>
+ * {{OoT}}<ref name="E 182"/>
+ * {{OoT3D}}<ref name="E 182"/>
+ * {{OoS}}<ref name="E 182"/>
+ * {{TWW}}<ref name="E 182"/>
+ * {{TWWHD}}<ref name="E 182"/>
+ * {{FSA}}<ref name="E 182"/>
+ * {{EoW}}<ref name="EoW Game Screen"/>
+ * {{TFoE}}<ref name="TFoE Link"/>
+ * {{HW}}{{Name Ref|HW}}
+ * {{HWL}}{{Name Ref|HWL}}
+ * {{HWDE}}<ref name="HW Game Screen"/>
+}}
+|-
+| '''One-Eyed Monster'''
+| '''One-Eyed Monsters'''
+| {{FSA}}<ref name="FSA Old Man"/>
+|-
+| ''No name is given''
+| N/A
+| 
+{{List|
+ * {{TLoZ (TV Series)}}
+ * {{TLoZ (Valiant Comics)}}
+ * {{TCT}}
+ * {{TFoE}}
+ * {{TWoG}}
+ * {{BSTLoZ}}
+ * {{TWWL4kNL}}
+ * {{OoT (Himekawa)}}
+ * {{NWCNES}}
+}}
+}}
+
+==Characteristics==
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+A Gohma makes its first appearance in {{TLoZ}}. Its hard shell will repel all attacks, but its single eye is vulnerable to [[Arrow]]s shot with the [[Bow]].<ref>{{Cite Manual|quote= The super-huge crab that lives in the labyrinths. Its hard shell will repulse any attack. Attack its weak point with a special weapon.|game= TLoZ|page= 38}}</ref> Due to this weakness, Gohma frequently keeps its eye closed, and attacks by shooting beams from a distance. There are two varieties of Gohma in this game, those being red and blue; the red Gohma can be killed by a single [[Arrow]] from the [[Bow]], while the blue one takes three Arrows to kill.
+
+In the First Quest, a red Gohma is the boss of [[Level 6]], and also appears as a mini-boss in [[Level 8]].
+
+In the [[Second Quest]], a red Gohma appears as an enemy in [[Level 5]] and as a mini-boss in [[Level 7]], while a blue Gohma is the boss of Level-6.
+
+==={{LA|-}}===
+In {{LA}}, two Gohmas appear as the main Guardians of the fifth Dungeon, [[Catfish's Maw]]. They move back and forth sideways with their eyes constantly closed, and occasionally try to ram into [[Link]]. Only the Gohma closest to Link will try to attack. They will also sometimes open their eyes to release a fireball, which also makes them vulnerable to the [[Hookshot]]. Playing the "[[Ballad of the Wind Fish]]" causes them to instantly open their eyes.{{Verify|LA}}
+
+Additionally, Link could also use a Bow and fire Arrows into their eyes, which appears to deal more damage than the Hookshot.{{Verify|LA}}
+
+==={{OoT|-}}===
+{{Descriptions OoT}}
+'''Parasitic Armored Arachnid: Gohma''' debuts as the first boss enemy Link will encounter in {{OoT}}. After the [[Great Deku Tree]] refuses to place the [[Spiritual Stones#Kokiri's Emerald|Spiritual Stone of the Forest]] into [[Ganondorf]]'s hands, the King of Thieves curses the ancient tree with a monstrous, Tektite-like creature,<ref>{{Cite|Take this stone with you. The stone that man wanted so much, that he cast the curse on me...|Great Deku Tree|OoT}}</ref> Gohma. With the creature ravaging the inner body of the Deku Tree, spreading her offspring, scattering her web, and leeching on the Tree's life,<ref>{{Cite|That evil man who cast the death curse upon me and sapped my power...|Great Deku Tree|OoT}}</ref> the Great Deku Tree has no choice but to request for Link's help with the aid of [[Navi]] the fairy. Queen Gohma is found on the deepest floor inside the Great Deku Tree, resting atop the ceiling. 
+
+When Link confronts her, he discovers she has one weakness: her eye is vulnerable when it turns red.<ref>{{Cite|Its eye is vulnerable when it's red!|Navi|OoT}}</ref> By shooting at her red eye with a [[Deku Seed]] via the [[Fairy Slingshot]], Gohma will be stunned, leaving her open to attack from Link's sword or [[Deku Stick]]s.<ref name="Queen Gohma"/> After being hit at least once, Gohma will climb onto the room's ceiling and, if she is not stunned with a Deku Seed in time, she will attempt to hatch three [[Gohma Larva]] to aid her in battle. However, there is a strategy to defeat Gohma faster that only requires one [[Deku Stick]]. Once Gohma is stunned, Link must jump strike with the Deku Stick and then do multiple shield stabs (done by attacking with the sword while holding R but not [[Z-Targeting]]). Another strategy is to repeatedly land a hit at the very last frame before Gohma gets back up until she is defeated, though this requires perfect timing. It is possible to kill Gohma on the first [[Critical Point]] both ways. The amount of time Queen Gohma remains stunned for varies according to the technique administered: two seconds for using a [[Deku Nut]], five if Link fires a Deku Seed with his slingshot while her eye is red, and around eight if she is shot whilst hanging from the ceiling.
+
+After Link strikes Gohma's eye enough times, she will be defeated, causing the curse on the Deku Tree to break. As a reward, Link receives a [[Heart Container]] and the [[Kokiri]]'s Emerald from the Great Deku Tree before he passes away.<ref>{{Cite|You got the Kokiri's Emerald! This is the Spiritual Stone of the Forest, now entrusted to you by the Great Deku Tree|N/A|OoT}}</ref>
+
+==={{OoS|-}}===
+Gohma also makes an appearance inside the [[Dancing Dragon Dungeon]] in {{OoS}}.<ref>{{Cite Guide|OoA Nintendo|page=35}}</ref> However, this time around, the beast has an extra appendage, a deadly claw. If Link runs in front of her, she will charge and grab him, then throw him to the ground causing damage. The claw can be removed by slashing with the sword. Additionally, the [[Roc's Feather]] can be used to jump over the claw. Once the claw is destroyed, the [[Slingshot]] can be fired at its open eye, while avoiding the larvae it summons. Defeating Gohma yields the fourth [[Essences of Nature|Essence of Nature]], the [[Soothing Rain]].
+
+==={{TWW|-}}===
+{{Checklist
+ |game= TWW
+ |type= Bosses
+ |category= Bosses in The Wind Waker
+ |needs= 
+Detailed information on the following:
+* The Boss's behavior
+* The Boss's weaknesses
+* Where the Boss appears
+}}
+{{Descriptions TWW}}
+[[File:Gohma(WW).jpg|right|thumb|170px|{{Game Label|{{TWW|-}}}}Gohma]]
+In {{TWW}}, Gohma is placed by Ganondorf below the resting spot of the Spirit of the Sky, [[Valoo]], high on [[Dragon Roost Island]]'s peak, without the Sky Spirit knowing about it. Gohma's presence repeatedly torments Valoo and thus angers him enough that he becomes violent and unpredictable. The Sky Spirit causes trouble, confusion and panic among the [[Rito]], the protectors of [[Din's Pearl]]. Link offers to help the Rito, and when he reaches the boss room inside [[Dragon Roost Cavern]], he finds an impressive, lava-resistant, [[Magtail]]-like monster as his foe. Despite its menacing stature, Link manages to crack open Gohma's armor and delivers many lethal strikes to its eye with his sword, eventually killing her.<ref>{{Cite Guide|TWW Prima|page= 52}}</ref> 
+
+To defeat Gohma, Link must wait for an opening to grapple onto Valoo's tail, which dangles from the roof, while avoiding Gohma's pincers. When Link swings to safety, part of the chamber's ceiling falls onto Gohma, cracking her armor. After repeating this process several times, Gohma's armor will be destroyed. At this stage, Link grapples Gohma's eye so he can access it with his sword. Once the eye is in range, Link must attack it with his sword until the boss perishes by hardening and exploding.
+
+For defeating Gohma, Link's prize is a Heart Container, and an apology as well as [[Din's Pearl]] from the [[Rito Chieftain]]'s son, [[Komali]]. Over the course of the game, Gohma must be defeated twice, once in Dragon Roost Cavern and once in [[Ganon's Castle]] to complete the game. If Link manages to capture a photograph of Gohma with his [[Picto Box]] and make it into a figurine, he discovers that her armor is actually white with pale, purplish markings. The impression of Gohma's seemingly gold armor and brass markings was created by the lava in the cavern.
+
+==={{FSA|-}}===
+In {{FSA}}, Gohma appears in two variations: the first type aimlessly wanders about the fields of [[Hyrule]], and the second type acts as a mini-boss that shoots fireballs at Link. Both types of Gohma can be harmed only by shooting Arrows at its large open eye.
+
+==={{TotK|-}}===
+{{Main|Marbled Gohma}}
+While no regular Gohmas appear in {{TotK}}, a variant of them known as [[Marbled Gohma]]s serve as [[Boss]]es.
+
+==={{EoW|-}}===
+{{Checklist
+ |game= EoW
+ |type= Bosses
+ |category= Bosses in Echoes of Wisdom
+ |needs= 
+Detailed information on the following:
+* The Boss's behavior
+* The Boss's weaknesses
+* Where the Boss appears
+}}
+{{Stub|EoW}}
+A Gohma appears as the [[Boss]] of the [[Faron Temple]]. It is a large six-legged arthropod with an [[Eye]] on its back and green [[Electricity|Electrical]] crystals on its legs. After [[Rift|Rifts]] started appearing in the [[Faron Wetlands]], the local [[Deku Scrub]] population began harvesting the spider webs created by the Gohma in order to create candyfloss. This leads to a conflict of interest for the Deku Scrubs, whom begin hoping for more Rifts (which they refer to as Dark Thorns) to overtake the region so they can obtain more candyfloss. This results in them being unwilling to let [[Princess Zelda|Zelda]] access the Rift containing Faron Temple in order to destroy the Gohma and save the region.
+
+Gohma attacks by creating [[Gohma Egg]]s that hatch into [[Baby Gohma]]s, and is capable of firing a powerful laser beam that tracks Zelda and her Echoes. While its large eye acts as its main weak point for dealing damage, Gohma usually keeps this eye closed. Three of its legs bear green crystals that can be electrically charged; charging all three will stun Gohma, dropping it to the ground and opening this main eye for attack. In close combat, Gohma is capable of using its forelimbs as claws.
+
+Its more arachnid-based appearance and striped abdomen lends it a noteable resemblance to [[Armogohma]] from {{TP}}.
+
+==Other Appearances==
+===={{BSTLoZ|-}}====
+{{Noncanon|Start}}
+[[File:BSTLoZ Gohma Sprite.png|left]]
+[[File:BSTLoZ Gohma Blue Sprite.png|left]]
+Gohma also appears in {{BSTLoZ}}. A brown Gohma first appears as the boss of [[Level-6]], and can be taken out if it is shot in the eye with a single Arrow. Two blue Gohmas also appear in [[Level 8|Level-8]] as a double mini-boss battle. They are much more resilient, and will take three Arrows in each eye, or two Silver Arrows before their defeat.
+{{Noncanon|End}}
+
+==={{TLoZ (TV Series)|Display}}===
+{{Noncanon|Start}}
+[[File:Gohma (Stinging a Stinger).png|thumb|right|{{Game Label|{{TLoZ (TV Series)|Display}}}}Gohma]]
+Gohmas appear in three episodes of {{TLoZ (TV Series)}}. Their appearance is similar to that of the original ''The Legend of Zelda''. 
+
+In "[[Cold Spells]]", after [[Ganon]] traps Link and [[Princess Zelda]] in a glass container, he calls a Gohma to exterminate the heroes. However, just as Gohma is trying to get Link out of the container, [[Spryte]] arrives in time and shoots a powerful bolt of energy at the Gohma, allowing Link to escape.<ref>{{Cite Episode|quote=Link's in trouble! Maybe my magic will do something!|name=Spryte|show=The Legend of Zelda|episode=2}}</ref> Ganon then shoots fire at Link, which the young hero evades just in time and causes the fire to hit Gohma instead, instantly defeating the giant foe. Another Gohma makes an appearance in the "[[Stinging a Stinger]]" episode after Ganon locks up [[Sleezenose]], Link and Zelda inside the monster's lair.<ref>{{Cite Episode|quote=Throw him to Gohma, then those two!|name=Ganon|show=The Legend of Zelda|episode=9}}</ref> With Gohma slowly approaching the group, Zelda gets out a [[Magic Rope]] from her pouch and Link a [[Boomerang]] while the young hero orders Sleezenose to use his lockpicks to open the gate.<ref>{{Cite Episode|quote= Quick, take these and try to open the gate. Zelda and I will try to hold off Gohma.|name=Link|show=The Legend of Zelda|episode=9}}</ref> Zelda then ties the rope around one of Gohma's horns, which causes the creature to spin her around the room. Link takes this opportunity to use the boomerang and make a giant stalactite fall on top of Gohma, allowing Zelda to continue to spin around until all of the rope is tied around the beast. This immobilizes the Gohma and gives the group a chance to escape its lair.
+
+In "[[The Moblins are Revolting]]" episode, two Gohmas make a brief appearance after a [[Moblin]] frees all of the monsters from the [[Evil Jar]]. These Gohmas can be seen grabbing the Evil Jar from its base and moving it to another covert.<ref>{{Cite Episode|quote= That's it. The Evil Jar. It ours now! Take it to another covert!|name=Moblin|show=The Legend of Zelda|episode=13}}</ref>
+{{Noncanon|End}}
+
+==={{TLoZ (Valiant Comics)|Display}}===
+{{Noncanon|Start}}
+[[File:Gohma (VC).png|thumb|right|{{Game Label|{{TLoZ (Valiant Comics)|Display}}}}Gohma]]
+A single Gohma appears in the story of ''[[To the First Power]]'' from {{TLoZ (Valiant Comics)}}. When Zelda enters [[Level 1]] to train against Ganon's minions, a [[Gohma]] appears behind her.<ref>{{Cite Book|quote=If Link thinks I'm going to give up and call him to rescue me at the first sign of danger, he's in for a surprise! [...] A Gohma!|book= TLoZ (Valiant Comics)|publisher= |page=3}}</ref> Surprised that a Gohma has appeared in such an early level,<ref>{{Cite Book|quote=That's not supposed to happen in level one! I guess Link wanted to surprise me! Well, I'm not quitting!|book= TLoZ (Valiant Comics)|publisher= |page=3}}</ref> the princess tries to fire a [[Sword Beam]] at the foe's eye, but to no avail. Zelda manages to escape the Gohma's grasp and eventually finds the labyrinth's item: the [[Zelda's Bow|Magic Bow]]. This allows the princess to defeat the Gohma with a single shot and make her way into the final chamber of the maze.<ref>{{Cite Book|quote=Nice shot, Zelda! Now...that's the door to the final chamber!|book= TLoZ (Valiant Comics)|publisher= |page= 8 (Issue #2)}}</ref>
+{{Noncanon|End}}
+
+==={{TCT|-}}===
+{{Noncanon|Start}}
+In {{TCT}}, [[Princess Zelda]] encounters a Gohma as she's traveling through the [[Desert (The Crystal Trap)|Desert]] and accidentally steps on a hollow surface, which houses the creature. According to the book, Gohmas are known to be clumsy creatures, but once something or someone steps on their territory, they will never give up. The princess, knowing this, begins to circle around the Gohma, which eventually causes for it to fall on its back due to its dizziness. Noticing a faint white spot on its belly, Zelda fires an [[Arrow]] from [[Zelda's Bow|her Bow]] to quickly defeat the monster.
+{{Noncanon|End}}
+
+==={{TWWL4kNL|-}}===
+{{Noncanon|Start}}
+{{Stub|TWWL4kNL}}
+
+{{Noncanon|End}}
+
+==={{OoT|-}} (Himekawa)===
+{{Noncanon|Start}}
+In the {{OoT (Himekawa)}}, Gohma can talk, and her true form was a mere scarab, apparently transformed from dark magic. She is first seen attacking, entering, and eating the [[Great Deku Tree]]. She was originally sent by [[Ganon]] to obtain the [[Kokiri's Emerald]] until she is defeated by [[Link]] and [[Mido]].
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+In {{HW}}, Gohma appears as a giant boss that is encountered in several [[Legend Mode]] and [[Adventure Mode]] stages. In Legend Mode, it appears as a boss in the Scenarios "[[The Sorceress of the Woods]]", "[[Ganondorf's Return]]", and two in "[[Darkness Falls]]".
+
+Gohma is invulnerable to most attacks, which it blocks with its foreleg shields to protect its eye. It attacks with a large swipe, rapidly spinning, charging, jumping into the air to crash down, or by firing a laser beam from its eye vertically or horizontally. It may also stop to charge a powerful blast from its eye as well. These attacks will also harm nearby enemies. The only time it is vulnerable is after firing a laser beam or stopping to charge an attack, which causes its red iris to turn bright blue. Shooting its eye with the Bow in this window of time will cause it to hysterically flip over and expose the Weak Point Gauge.
+
+Gohma will usually drop the Gohma's Acid [[Material]] when defeated, and rarely the Gohma's Lens Material.
+{{Noncanon|End}}
+
+==={{NWCNES|-}}===
+{{Noncanon|Start}}
+{{Stub|NWCNES}}
+
+{{Noncanon|End}}
+
+==Trivia==
+*Gohma's design from {{OoT|-}} was created by combining a crab with a spider.<!--The original text mentions a bear, however this is very clearly a mistranslation, conflicting "Kumo" (Spider) with "Kuma" (Bear).--><ref>{{Cite Person|quote= Ummm, he's changed a bit. Since he wouldn't look the same if we put him in 3D, the design had to change. He's certainly unpleasant, isn't he? We combined a crab with a spider to make him. It delivers alien-like eggs. It's gross.|name= Shigeru Miyamoto|url= http://www.ign.com/articles/1997/12/03/the-z-files-2|title= THE Z-FILES}}</ref>
+**In addition, her roars during her boss battle were recycled for [[Volvagia]] and Ganon, which were edited to be faster and higher-pitched.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:LANS Gohma Concept Artwork.png|{{Game Label|{{LANS|-}}}}Concept artwork of Gohma
+File:OoT Link Fighting Gohma Artwork.png|{{Game Label|{{OoT|-}}}}Link and Gohma artwork
+File:Red Eyed Gohma.jpg|{{Game Label|{{OoT|-}}}}Gohma's introduction
+File:OOT 3DS 5.jpg|{{Game Label|{{OoT3D|-}}}}Link battling Gohma
+File:OoT3D Gohma Model 2.png|{{Game Label|{{OoT3D|-}}}}Gohma in an attacking stance
+File:OoT3D Gohma Thumbnail.png|{{Game Label|{{OoT3D|-}}}}Gohma's Boss Challenge thumbnail
+File:OoTNS2 Gohma Introduction.png|{{Game Label|{{OoTNS2|-}}}}Gohma's introduction
+File:TWWHD Gohma Without Armor.png|{{Game Label|{{TWWHD|-}}}}Gohma without its armor
+File:EoW Gohma Introduction.png|{{Game Label|{{EoW|-}}}}Gohma's introduction
+File:Gohma Zelda 4koma OoS Koubunsha.jpg|{{Game Label|{{OoS4kGB|-}}}}Gohma chasing Link
+File:TFoE Gohma Sprite.png|{{Game Label|{{TFoE|-}} and {{TWoG|-}}}}Sprite of Gohma
+File:AquamentusManga.png|{{Game Label|{{OoS (Himekawa)|Display}}}}Gohma alongside Aquamentus and other Monsters
+File:HW Gohma Render.png|{{Game Label|{{HW|-}}}}Render of Gohma
+File:HW Gohma Icon.png|{{Game Label|{{HW|-}}}}Gohma icon
+File:HW Gohma Mini Map Icon.png|{{Game Label|{{HW|-}}}}Gohma Mini Map icon
+File:HW Gohma Adventure Mode Icon.png|{{Game Label|{{HW|-}}}}Gohma Adventure Mode icon
+File:HWL Gohma Mini Map Icon.png|{{Game Label|{{HWL|-}}}}Gohma Mini Map icon
+File:HWL Gohma Adventure Mode Icon.png|{{Game Label|{{HWL|-}}}}Gohma Adventure Mode icon
+File:HWDE Gohma Icon.png|{{Game Label|{{HWDE|-}}}}Gohma icon
+File:HWDE Gohma Mini Map Icon.png|{{Game Label|{{HWDE|-}}}}Gohma Mini Map icon
+</gallery>
+
+==See Also==
+{{See Also|
+ * Armogohma
+ * Marbled Gohma
+ * Gohma Egg
+ * Gohmaracas
+ * Grimgohma
+ * Rocktite
+ * Young Gohma
+}}
+
+{{Ref|
+<!-- Encyclopedia -->
+<ref name="E 182">{{Cite Book|quote= |book= E |publisher= |page= 182}}</ref>
+
+<!-- The Legend of Zelda -->
+
+<!-- Link's Awakening -->
+<ref name="DAB 82">{{Cite Book|quote= |book= DAB |publisher= |page= 82}}</ref>
+
+<!-- Ocarina of Time -->
+
+<!-- Oracle of Seasons -->
+
+<!-- The Wind Waker -->
+
+<!-- Four Swords Adventures -->
+<ref name="FSA Old Man">{{Cite|Hah... I know what my son says about the weapons in the storage shed... but they're no match for the {{Color FSA|Purple|one-eyed monsters}}. A greater weapon may lie in the cave to the north, where my ancestors rest. But the earth there has crumbled to bits, making it impossible to get there.|Old Man|FSA}}</ref>
+
+<!-- Echoes of Wisdom -->
+<ref name="EoW Game Screen">{{Cite|{{Big|Gohma}}|Game Screen|EoW}}</ref>
+
+<!-- The Legend of Zelda (TV Series) -->
+
+<!-- The Legend of Zelda (Valiant Comics) -->
+
+<!-- The Crystal Trap -->
+
+<!-- The Faces of Evil -->
+<ref name="TFoE Link">{{Cite|It's a Gohma.|Link|TFoE}}</ref>
+
+<!-- The Wand of Gamelon -->
+
+<!-- BS The LEgend of Zelda -->
+
+<!-- Link's 4-koma Nautical Logbook -->
+
+<!-- Ocarina of Time (Himekawa) -->
+
+<!-- Hyrule Warriors -->
+
+<!-- Nintendo World Championships: NES Edition -->
+
+}}
+
+{{Bosses|TWW}}
+{{Categories
+ |Crabs, Crustaceans, Eye Enemies, Fire-Related Enemies, Giant Bosses, Gohmas, Guardians, Parasites, Spider Enemies
+ |bosses= TLoZ, LA, LADX, LANS, OoT, OoT3D, OoTNS2, OoS, TWW, TWWHD, FSA, EoW, BSTLoZ, HW, HWL, HWDE
+ |enemies= TLoZ, FSA, TLoZ (TV Series), TFoE, TWoG, NWCNES
+}}

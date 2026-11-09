@@ -1,0 +1,227 @@
+{{Infobox Item
+|image= 
+{{Media
+ |Render OoT= [[File:OoT Biggoron Sword Render.png|320x320px]]
+ |Model OoT= [[File:OoT Biggoron's Sword Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Biggoron's Sword Model.png|320x320px]]
+ |Model OoTNS2= {{Please Upload|File:OoTNS2 Biggoron Sword Model.png}}
+ |Model BotW= {{Please Upload|File:BotW Biggoron's Sword Model.png}}
+ |Model TotK= [[File:TotK Biggoron's Sword Model.png|320x320px]]
+ |Sprite OoT= [[File:OoT Biggoron's Sword Icon.png|160x160px]]
+ |Sprite OoT3D= [[File:OoT3D Biggoron's Sword Icon.png|160x160px]]
+ |Sprite OoTNS2= [[File:OoTNS2 Biggoron Sword Icon.png|320x320px]]
+ |Sprite OoS= [[File:OoS Biggoron's Sword Sprite.png|160x160px]]
+ |Sprite OoA= [[File:OoA Biggoron's Sword Sprite.png|160x160px]]
+ |Sprite BotW= [[File:BotW Biggoron's Sword Icon.png|320x320px]]
+ |Sprite TotK= [[File:TotK Biggoron's Sword Icon.png|320x320px]]
+}}
+|caption= 
+|game= OoT, OoS, OoA, BotW, TotK
+|other= SCII, HW
+|cost= 
+|value= 
+|location= {{Spawn Locations}}
+|uses= Attacking Enemies
+|strength=
+{{Infobox Game Blocks
+ |OoT= {{HP|OoT|4}}
+ |BotW= 50
+ |TotK= 36
+}}
+|durability=
+{{Infobox Game Blocks
+ |BotW= 60
+ |TotK=
+}}
+|comp= 
+{{List|
+ * [[Giant's Knife]]
+ * [[Broken Giant's Knife]]
+ * [[Broken Goron's Sword]]
+}}
+|sample= 
+|theme= 
+}}
+The '''Biggoron Sword''', also known as the '''Biggoron's Sword''' is a recurring [[Item]] in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|Biggoron Sword||Series, OoTNS2}}
+| {{OoTNS2}}<ref name="OoTNS2 Items"/>
+|-
+| {{Term/Store|Biggoron's Sword||OoT, OoT3D, OoS, OoA, BotW, TotK, SCII, HW, HWL, HWDE}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 117"/>
+ * {{OoT3D}}<ref name="E 117"/>
+ * {{OoS}}<ref name="E 117"/>
+ * {{OoA}}<ref name="E 117"/>
+ * {{BotW}}<ref name="BotW Inventory"/>
+ * {{TotK}}<ref name="TotK Inventory"/>
+ * {{SCII}}<ref name="SCII Character Select"/>
+ * {{HW}}<ref name="HW Smithy"/>
+ * {{HWL}}<ref name="HW Smithy"/>
+ * {{HWDE}}<ref name="HW Smithy"/>
+}}
+}}
+
+==Location and Uses==
+==={{OoT|-}}===
+{{Descriptions OoT}}
+<!-- 
+Obtention
+You traded the Giant's Knife for {{Color|OoT3D Red|Biggoron's Sword}}! This blade was forged by a master smith and won't break!
+
+Description
+{{Color|OoT3D Red|Biggoron's Sword}}<br/>A huge, sturdy, and very sharp sword. You can't use a shield while wielding it.
+-->
+In {{OoT}}, the Biggoron Sword is a far sturdier version of the [[Giant's Knife]], which [[Biggoron]] crafted for the [[Master Craftsman]], and is a very powerful sword.<ref>{{Cite|They say that Biggoron's Sword is super sharp and will never break.|Gossip Stone|OoT}}</ref><ref>{{Cite|My Biggoron tool broke, so I was going to Goron City to get it repaired.|Master Craftsman|OoT}}</ref> It can be obtained completing the [[Trading Game]].<ref>{{Cite|You handed in the Claim Check and got the Biggoron's Sword! This blade was forged by a master smith and won't break!|N/A|OoT}}</ref> The blade is much longer than the [[Master Sword]] and deals twice as much damage. Its handle also changes from yellow to blue. However, it must be wielded with two hands, meaning that [[Link]] cannot defend with a [[Shield]] while equipped. If the Shield button is pressed, he will either attempt to block using the blade if [[Z-Targeting]], or simply crouch down if not targeting. Neither of these animations will prevent damage from attacks.
+
+Despite being the strongest [[Weapon]], the Biggoron Sword is incapable of defeating [[Ganon]] as only the [[Master Sword]] can deliver the final blow. However, it can be useful during the final battle, as Ganon knocks the Master Sword out of reach before getting it back.
+
+==={{OoS|-}}===
+[[File:OoS Biggoron Sword Sprite 2.png|left]]
+The Biggoron's Sword is the strongest Sword in {{OoS}}. It can only be acquired in a [[Linked Game]] by using [[Secret]]s. The Biggoron's Sword is obtained from Biggoron himself. While every other [[Item]] in these games is assigned to one hand and can be used in conjunction with another, the Biggoron's Sword takes up both slots as it is held with both hands. [[Link]] swings it in a whole 180-degree arc, as opposed to the other Swords' 90-degree slash. The Biggoron's Sword is 67% stronger than the [[Noble Sword]] and 150% stronger than the [[Wooden Sword]]. Excluding the 180-degree arc, the only other difference from the [[Master Sword]] is that it can kill [[Armos]] in one hit.
+
+==={{OoA|-}}===
+The Biggoron's Sword is the strongest [[Sword]] in {{OoA}}, as it works exactly as Seasons. It can only be acquired in a [[Linked Game]] by using [[Secret]]s. The Biggoron's Sword is obtained from the [[Goron Elder]] who resides at the [[Goron Shooting Gallery]], after telling him the [[Linking Secrets#Elder Secret|Elder Secret]] and scoring 300 points at the Shooting Gallery. The Biggoron's Sword is 67% stronger than the [[Noble Sword]] and 150% stronger than the [[Wooden Sword]]. Excluding the 180-degree arc, the only other difference from the [[Master Sword]] is that it can kill [[Armos]] in one hit.
+
+==={{BotW|-}}===
+In {{BotW}}, the Biggoron's Sword is an [[amiibo]] exclusive two-handed [[Weapon]]. The Weapon will rarely appear in a [[Treasure Chest]] after scanning the {{OoT}} [[Link]] amiibo using the [[Amiibo (Ability)|amiibo]] [[Rune]], but only after freeing one of the [[Divine Beast]]s. It is noted to have been forged by a [[Goron]] craftsman for a [[Hero of Time|hero who travelled through time]], with a cutting edge that speaks to its creator's mastery.<ref name="BotW Inventory"/> It has a base attack power of 50.
+
+Biggoron's Sword is made of metal, and will therefore attract [[Lightning]] if it is equipped during a [[Thunderstorm]] and conduct [[Electricity]]. It will also sink in [[Water (Terrain)|Water]], but since it is magnetic, it can be picked up with the [[Magnesis]] Rune. Finally, it will not burn if exposed to [[Fire]] or a [[Scorching Climate]].
+
+{{BotW Weapon Parameters
+ |ActorName                     = "Weapon_Lsword_059"
+ |Life                          = 60
+ |Power                         = 50
+ |SpHitActor                    = ""
+ |SpHitRatio                    = 2.0
+ |IsHammer                      = false
+ |IsWeakBreaker                 = false
+ |IsBoomerang                   = false
+ |IsLuckyWeapon                 = false
+ |IsPikohan                     = false
+ |IsThrowingWeapon              = true
+ |IsThrowingBreakWeapon         = true
+ |ThrowRange                    = 5.0
+ |ChemicalEnergyMax             = 0
+ |ChemicalEnergyAmountUsed      = 0
+ |ChemicalEnergyRecoverRate     = 0.0
+ |ChemicalEnergyRecoverInterval = 60
+ |ShootBeam                     = ""
+ |SharpWeaponAddAtkMin          = 5
+ |SharpWeaponAddAtkMax          = 10
+ |SharpWeaponAddLifeMin         = 9
+ |SharpWeaponAddLifeMax         = 30
+ |SharpWeaponAddCrit            = true
+ |PoweredSharpAddAtkMin         = 11
+ |PoweredSharpAddAtkMax         = 19
+ |PoweredSharpAddLifeMin        = 31
+ |PoweredSharpAddLifeMax        = 51
+ |PoweredSharpAddThrowMin       = 1.5
+ |PoweredSharpAddThrowMax       = 2.0
+ |ThrowSpeed                    = 0.7
+ |ThrowRotSpeed                 = 50.0
+ |SellingPrice                  = 8
+ |BuyingPrice                   = 30
+}}
+
+==={{TotK|-}}===
+{{Compendium/Extract/TotK|Biggoron's Sword}}
+Biggoron's Swords reappear in {{TotK}}.<ref name="TotK Inventory"/> Their damage has been changed from their {{BotW}} counterpart, being reduced from 50 to 36. They have the second highest base [[Durability]] of any [[Weapon]], second only to the [[Lightscale Trident]]. 
+
+There are two manners by which [[Link]] can obtain a Biggoron's Sword. The first is by defeating all of the [[Enemy|Enemies]] in the [[Akkala House of Bones]], after which Link can open the [[Treasure Chest]] inside and receive a Sword. Alternatively, scanning the {{OoT}}-based [[Link]] [[amiibo]] with the [[Amiibo (Ability)|amiibo ability]] has a chance to spawn an [[Iron Treasure Chest]] containing a Biggoron's Sword. Once obtained, they can be purchased from any [[Bargainer Statue]] for 150 [[Poes]].
+
+Biggoron's Sword is one of the few [[Item]]s that a [[Rock Octorok]] will not repair or enhance, instead spitting it back out immediately upon ingesting it.
+
+==Other Appearances==
+==={{SCII|-}}===
+{{Noncanon|Start}}
+In {{SCII}}, the Biggoron's Sword is one of Link's weapons. Paired off with the [[Hylian Shield]], the Biggoron's Sword can be bought in Merak, Antares, or Pollux for 4000 Gold while playing the Weapon Master Mode. When Link equips it, his attack goes up to 130% while his defense stays the same. Although the Biggoron's Sword is incredibly powerful due to its long reach, it is wielded with only one hand and thus drains Link's health with each swing.<ref>{{Cite|Long reach and has good offense but requires energy to wield|Character Select|SCII}}</ref>
+
+{{Data Table
+|game= SCII
+|columns= Image [Image:Model:100x100px][Name], Cost [Nowrap], Attributes [Nowrap], Description [Transcript]
+|-
+| Biggoron's Sword
+| 4000 Gold
+| {{List|
+ * Long reach
+ * Drains 3 HP per attack
+}}
+|A masterfully crafted long sword forged by the best blacksmith in Hyrule, Biggoron, who lives on Death Mountain. Designed specifically for Link, it is made to be wielded with one hand. Even so, swinging it with full force gets tiring after a while.
+}}
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+[[File:HW Biggoron's Sword Icon.png|right|80px]]
+In {{HW}}, the [[Giant Blade]] that [[Impa]] wields is based on the Biggoron's Sword. The third tier of the moveset is the Biggoron's Sword itself, though modified as a curved Sword instead of a straight one.
+{{Noncanon|End}}
+
+==Trivia==
+*In the original version of {{OoT}}, the Biggoron's Sword is sheathed in the same [[Scabbard]] as the [[Master Sword]]. However, in {{OoT3D}}, the blade receives its own Scabbard.
+*{{OoT|-}} contains unused text for the Giant's Knife, meant to be displayed when it is exchanged for the Biggoron's Sword, provided that Link possesses the Giant's Knife. The final version makes no mention of the replacement, and instead the Giant's Knife is simply discarded.<ref>{{Cite|You traded the Giant's Knife for the Biggoron's Sword! This blade was forged by a master smith and won't break!|N/A|OoT}}</ref>
+*Despite being the unbreakable Biggoron's Sword from {{OoT|-}},<ref>{{Cite|A legendary greatsword forged by a Goron craftsman for a hero who traveled through time. The exceptionally sharp cutting edge is a testament to the craftsman's mastery.|Inventory|BotW}}</ref> the Biggoron's Sword will indeed break in {{BotW}}. Interestingly, the Biggoron's Sword model has nicks in the blade, indicating it has lost its unbreakable status due to long age. However, replacements can be acquired by using the same [[amiibo]] again with the [[Amiibo (Ability)|amiibo]] [[Rune]].
+
+==Nomenclature==
+{{Nomenclature}}
+
+===Other Names===
+{{Other Names
+|-
+| Biggy<ref>{{Cite Guide|OoT Versus|page= 105}}</ref>
+| {{OoT}}
+| {{Guide/OoT Versus}}
+| {{E}}
+|-
+| Biggoron Sword<ref>{{Cite Guide|OoT Versus|page= 111}}</ref>
+| {{OoT}}
+| {{Guide/OoT Versus}}
+| {{E}}
+}}
+
+==Gallery==
+<gallery>
+File:OoT3D Biggoron's Sword Scabbard Model.png|{{Game Label|{{OoT3D|-}}}}The Biggoron's Sword scabbard
+File:HW Biggoron's Sword Artwork.png|{{Game Label|{{HW|-|}}}}Artwork of Biggoron's Sword
+File:HW Biggoron's Sword Model.png|{{Game Label|{{HW|-|}}}}Biggoron's Sword
+File:HWL Biggoron's Sword Icon.png|{{Game Label|{{HWL|-|}}}}Biggoron's Sword icon
+File:HWDE Biggoron's Sword Icon.png|{{Game Label|{{HWDE|-|}}}}Biggoron's Sword icon
+</gallery>
+
+==See Also==
+{{See Also|
+ * Trading Quest
+ * Weapon
+}}
+
+{{Ref|
+<!-- Encyclopedia -->
+<ref name="E 117">{{Cite Book|quote= |book= E |publisher= |page= 117 {{Exp Game|OoT, OoT3D, OoS, OoA}}}}</ref>
+
+<!-- Ocarina of Time -->
+<ref name="OoTNS2 Items">{{Cite|{{Big|Biggoron Sword}}<br/>This large sword is both sharp and sturdy. While it is equipped, you cannot use a shield.|Items|OoTNS2}}</ref>
+
+<!-- Oracle of Seasons -->
+
+<!-- Breath of the Wild -->
+<ref name="BotW Inventory">{{Cite|{{Big|Biggoron's Sword}}<br/>A legendary greatsword forged by a Goron craftsman for a hero who traveled through time. The exceptionally sharp cutting edge is a testament to the craftsman's mastery.|Inventory|BotW}}</ref>
+
+<!-- Tears of the Kingdom -->
+<ref name="TotK Inventory">{{Cite|{{Big|Biggoron's Sword}}<br/>A legendary greatsword forged by a Goron craftsman for a hero who traveled through time. The exceptionally sharp cutting edge is a testament to the craftsman's mastery.|Inventory|TotK}}</ref>
+
+<!-- SoulCalibur II -->
+<ref name="SCII Character Select">{{Cite|Biggoron's Sword|Character Select|SCII}}</ref>
+
+<!-- Hyrule Warriors -->
+<ref name="HW Smithy">{{Cite|Biggoron's Sword|Smithy|HW}}<br/>{{Cite|Biggoron's Sword|Smithy|HWL}}<br/>{{Cite|Biggoron's Sword|Smithy|HWDE}}</ref>
+
+}}
+
+{{OoT Trading Quest}}
+{{Categories
+ |Giant Blades, Swords, Trading Quest Items, Weapons
+ |items= OoTNS2
+}}

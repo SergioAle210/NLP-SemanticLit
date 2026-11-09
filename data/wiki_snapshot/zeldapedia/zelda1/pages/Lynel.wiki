@@ -1,0 +1,155 @@
+{{Infobox Enemy
+|image= File:Lynel_Echo.png
+|caption=Lynel from {{EoW|-}} 
+|pronunciation= 
+|plural= Lynels<ref name="E 190">{{Cite Book|quote= |book= E |publisher= |page= 190 {{Exp Game|ALttP, OoA, OoS, ALBW}}}}</ref>
+|race= 
+|habitat= [[Eternal Forest]]{{Exp Game|EoW}}
+|member= 
+|health= {{Infobox Game Blocks
+ |TLoZ= [[Weapon Strength#The Legend of Zelda|4]] {{small|(Red)}} <br/>  [[Weapon Strength#The Legend of Zelda|6]] {{small|(Blue)}}
+ |BotW= 2000
+}}
+|attack= {{Infobox Game Blocks
+ |TLoZ=(Red)<br>Contact {{small|(1 heart)}}<br/>Sword Throw {{small|(2 hearts)}}<br/>(Blue)<br/>Contact {{small|(2 hearts)}}<br/>Sword Throw {{small|(2 hearts)}}
+ |BotW=Spitting [[Fire]]balls<br/>Using Lynel Weapons<br/>Causing explosions of Fire<br/>Dashing at their target<br/>Shooting Arrows
+}}
+|weapon= 
+|spoils= [[Heart]] {{Exp Game|TLoZ}}<br/>[[Fairy]] {{Exp Game|TLoZ}}<br/>One [[Rupee]] {{Exp Game|TLoZ}}<br/>Four [[Bomb]]s {{Exp Game|TLoZ}}<br/>[[Clock]] {{Exp Game|TLoZ}}<br/>[[Lynel Horn]] {{Exp Game|BotW}}<br/>[[Lynel Hoof]] {{Exp Game|BotW}} & {{Exp Game|TotK}}<br/>[[Lynel Guts]] {{Exp Game|BotW}} & {{Exp Game|TotK}}<br/>[[Lynel Saber Horn]] {{Exp Game|TotK}}
+|exp= 
+|theme= 
+|game_debut={{TLoZ}}
+|spinoff_debut={{HWAoC}}
+|crossover_debut={{CoH}}
+}}
+{{Term/Store|Lynel|Lynels|Series, TLoZ, ALttP, BotW, CoH, HWAoC|plural}} are recurring lion-headed centaur-like enemies with cattle-like horns in {{TLoZ|Series}}.<ref name="E 190"/><ref>{{Cite|'''{{Color|BotW Shrine Quest|Lynel}}'''|Hyrule Compendium|BotW}}</ref><ref>{{Cite|Defeated By: Lynel|Game Over|CoH}}</ref>
+
+==Characteristics==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Lynel|The guardian who attacks all those who come near Death Mountain. Watch out! He's pretty strong, and Link's little shield can't stop his sword.}}
+[[File:TLoZ Lynel Red Sprite 2.png|left|48px]]
+Lynels appear in red and blue variations in {{TLoZ|-}}, with the blue one dealing twice as much collision damage and taking 6 hits to kill instead of 4 with the wooden sword. They can be found around [[Death Mountain]]. Lynels fire beam projectiles at [[Link]], which cannot be blocked with the [[Wooden Shield]],<ref>{{Cite manual|quote= Watch out! He's pretty strong, and Link's little shield can't stop his sword.|game= TLoZ|page= 30}}</ref> only with the [[Magical Shield]]. When defeated, Red Lynels may drop either a [[Heart]], a [[Fairy]], or one [[Rupee]], while Blue Lynels may drop either a Heart, one Rupee, four [[Bomb]]s, or a [[Clock]].{{Note|If {{Term|TLoZ|Link|link}} defeats 10 enemies without getting hit or teleporting with the {{Term|TLoZ|Recorder|link}}, then the 10th enemy defeated will drop five {{Plural|TLoZ|Rupee|link}}. However, if the 10th enemy is defeated with a {{Term|TLoZ|Bomb|link}}, then it will drop four {{Plural|TLoZ|Bomb}}. If {{Term|TLoZ|Link}} defeats 16 enemies without getting hit or teleporting, then the 16th enemy will drop a {{Term|TLoZ|Fairy|link}}. After the 16th enemy, {{Term|TLoZ|Link}} must get hit and reset the counter to zero in order to achieve this effect again. Defeating {{Plural|TLoZ|Armos|link}}, {{Plural|TLoZ|Like Like|link}}, {{Plural|TLoZ|Keese|link}}, or {{Plural|TLoZ|Gel|link}} will not be counted.<ref>{{Cite Web|quote= |author= n.a. |published= n.d. |retrieved= August 17, 2017 |url= http://redcandle.us/The_Legend_of_Zelda#Forced_drops |title= Forced Drops |site= redcandle.us}}</ref>}}
+
+==={{ALttP|-}}===
+[[File:Lynel ALttP.png|left|45px]]
+Lynels appear on Death Mountain in {{ALttP}} where only 3 are found by the east bridge near Ganon's Tower. They shoot fireballs at Link, which can only be deflected with the [[Red Shield|Red]] and [[Mirror Shield]]s. They can only be damaged with the [[Magic Hammer]], [[Silver Arrow]]s, a [[Spin Attack]] from the [[Master Sword]], or an attack from any of its upgrades.
+
+==={{OoS|-}}===
+Lynels appear in red and blue variations in {{OoS}}. They mostly move slowly, but charge towards Link when in sight. They shoot fire arrows at Link which can pass through certain walls. These can only be blocked with the [[Mirror Shield]], which can be obtained only in a linked game with Oracle of Ages. A [[Golden Lynel]] appears in the [[Tarm Ruins]] during [[Winter]] after talking to the golden-robed [[Old Man]]. Defeating the Golden Lynel alongside the other [[Golden Monster]]s rewards Link with the [[Red Ring]].
+
+==={{OoA|-}}===
+Lynels appear in red and blue variations in {{OoA}}. They mostly move slowly, but charge towards Link when in sight. They shoot fire arrows at Link which can pass through certain walls. These can only be blocked with the [[Mirror Shield]], which can be obtained only in a linked game with Oracle of Seasons. Both the [[Switch Hook]] and [[Long Hook]] are ineffective against Lynels
+
+==={{ALBW|-}}===
+Lynels appear in two variations in {{ALBW}}, a white-maned type found on Death Mountain and a black variant with an orange mane that is found in the [[Treacherous Tower]]. They attack by breathing a long stream of fire that takes three hearts,{{Verify}} which can only be blocked with the [[Hylian Shield]].
+
+==={{BotW|-}}===
+{{Compendium/Extract|Lynel}}
+[[File:BotW Perfect Guard.png|thumb|right|200px|Link using a Perfect Guard against a Lynel]]
+Lynels appear in five different variations in {{BotW}}, including the standard red-maned Lynels, [[Blue-Maned Lynel]]s, [[White-Maned Lynel]]s, [[Silver Lynel]]s, and the [[Master Mode]] exclusive [[Golden Lynel]]s. With the exception of the Lynel on [[Ploymus Mountain]], after spotting [[Link]], <abbr title="As long as they don't feel threatened; having any weapon or Sheikah slate out at moderate range will cause them to start attacking. Being far from the Lynel and doing the aforementioned action will just make it draw its bow. Aiming, with a bow, with a throwing a melee weapon, or carryable objects will also start the attack.">a Lynel will often refrain from attacking for a short period of time and instead stare him down</abbr>. This allows Link to escape before it initiates a battle. Lynels exclusively use weapons of the {{Term|BotW|Lynel Gear|link}} equipment archetype, of which they are the sole source. The only exception to this is the Lynel encountered in the [[Coliseum Ruins]], which carries a [[Flameblade]] when encountered as a [[Silver Lynel]]. Depending on their location, Lynels can wield a [[Lynel Sword|Sword]] and [[Lynel Shield|Shield]] combo, a [[Lynel Spear|Spear]], or a [[Lynel Crusher|Crusher]]. They also wield a [[Lynel Bow|Bow]] that is equipped with either [[Arrow|Regular Arrow]]s (only at [[Gerudo Summit]]), [[Fire Arrow]]s, [[Ice Arrow]]s, [[Shock Arrow]]s, or [[Bomb Arrow]]s (only on the [[Great Plateau]] in [[Master Mode]]). Their multishot arrows ignore invulnerability frames (thus Link can get hit by each Arrow). Though Lynel Spears and Lynel Crushers are two-handed Weapons, Lynels are capable of wielding them with one hand.
+
+Lynels have a variety of attacks, both ranged and melee, such as shooting fireballs, body slamming, dashing, and trampling. Lynels also have the ability to teleport, doing so to either briefly flee from battle or to give chase after Link. Link can perform a {{Term|BotW|Perfect Dodging|link|display=Perfect Dodge}} or a [[Perfect Guard]] on most of their attacks, leaving them vulnerable for counterattacks. He can also utilize the wind gusts created by their fire attacks to [[Paraglider|glide]] up and shoot an [[Arrow]] at their head, stunning them and inflicting double damage. Link can temporarily mount Lynels either by sneaking up from behind, jumping on while they are stunned, using the [[Paraglider]] to drop onto them from above, or immediately after they perform a dashing Sword swipe or charge at Link. While mounted, Link can repeatedly attack the Lynel up to five times with any Weapon without it losing any Durability. If Link's [[Stamina]] runs out however, he will be thrown off and lose a quarter of a [[Heart]]. Though they can be mounted, they cannot be soothed and tamed. If Link dies while attempting to mount a Lynel, the Lynel will roar.
+
+Every kind of Lynel from red to golden are completely immune to all elemental types.<ref>A hit with a Royal Bow using normal arrows deal 38 damage to any Lynel. A hit from an arrow with an element attached to it will also deal 38 damage. This was tested with all 3 elemental arrow types.</ref> That includes the additional damage and the effect an element would normally inflict. It is therefore pointless to use offensives like elemental arrows and elemental melee weapons whilst fighting them. The only exception to this is [[Urbosa's Fury]] which does not abide by this rule.
+
+When defeated, Lynels drop their [[Lynel Hoof|Hooves]], [[Lynel Horn|Horns]], and [[Lynel Guts|Guts]], along with their Weapons and a bundle of their Arrows. Silver and Golden Lynels occasionally drop [[Gem]]s and [[Star Fragment]]s as well. A total of 22 Lynels can be found throughout Hyrule. An additional Lynel also appears on the [[Great Plateau]] in [[Master Mode]]. Two Lynels also appear in the [[Trial of the Sword]].
+
+Link can buy a [[Lynel Mask]] for 999 [[Mon]] from [[Kilton]]'s [[Fang and Bone]] shop after completing three [[Divine Beast]]s. It can be used to temporarily avoid being attacked by Lynels.<ref>{{Cite|Kilton's handmade Lynel headgear. It's so well crafted, it can deceive a real Lynel. Equip it to blend in with Lynels, but don't linger too long. Those beasts are smart.|N/A|BotW}}</ref> {{Term|BotW|Majora's Mask (Item)|link}} can also be worn to deceive {{Plural|BotW|Lynel}}, but will only work for a short amount of time and the {{Plural|BotW|Lynel}} will attack {{Term|BotW|Link}} if he lingers too long.
+
+==={{TotK|-}}===
+{{Compendium|number=147|name=Lynel|desc= These fearsome monsters have lived in Hyrule since ancient times. They possess intense intelligence and resilience, as well as a piercing horn, making them among the most dangerous monsters in all the land. This is compounded by their natural resistance to all elements. Only challenge a Lynel if you're very well prepared.|locs= Hyrule Field, Central Hyrule Depths|loot= Lynel Hoof, Lynel Saber Horn, Lynel Mace Horn, Arrow x 10}}
+Lynels reappear in ''[[The Legend of Zelda: Tears of the Kingdom|Tears of the Kingdom]]'', acting the same as in ''Breath of the Wild'' (<abbr title="Using Raru's arm (Ultrahand and fuse, for recall, it must be used on an object) causes them to attack. Drawing bows, or attempting to throw an item even being at a distance while still spotted will now instantly cause them to attack (even without the reticle being on them) rather than merely drawing their bow if they haven't.">along with some AI changes when staring Link down</abbr>), but can also attack Link with their new Saber Horns. Furthermore, Lynels wielding 2-handed clubs have a variation of a spin attack that is angled. Their charge attack can now turn more sharply, making simply running to the side (assuming no obstacles, and no speed up enhancement on Link, and Link being anywhere at a distance in front of the Lynel) almost impossible to avoid. Running out of stamina while mounted deals more damage. Furthermore, if there are any Zonai device or any obstacles near them, they will roar, causing the obstacles to despawn. Due to the weapon fuse mechanics and the removal of Lynel melee weapons, most of them wield a [[Soldier's Gear|Soldier melee]] weapons.
+
+Strangely, if Link dies while mounted, they no longer roar because they remain frozen during the game over sequence.
+
+There is now [[Armoured]] Lynels of all variants, which can appear. Like other armoured enemies in ''Tears of the Kingdom'', their armour must first be broken using blunt weapons or explosive damage before the Lynel itself can be damaged. While Armored, they cannot be mounted, if Link attempts to do so, he will immediately get thrown off and take damage due to the armor being spiky.
+
+Like many other enemies, [[Gloom]]-covered Lynel variants appear in [[The Depths]], which deal Gloom Damage when striking Link with their body (but not with fire breath). Notably, there is a trial in the [[Floating Coliseum]] where Link must defeat 5 Gloom-covered Lynels in order: Normal/Red, Blue-maned, White-maned, Silver, and Silver Armor.
+
+==={{EoW|-}}===
+{{Manual|EoW|Lynel|The most fearsome monster in all of Hyrule, this brute annihilates foes with mighty swings of its sword.<ref name="EoW Lynel">{{Cite|The most fearsome monster in all of Hyrule, this brute annihilates foes with mighty swings of its sword.|Notebook|EoW}}</ref>}}
+There is only one Lynel in {{EoW}}, and it's the most powerful monster [[echo]] in the game. It has a blue body with an orange mane. The only place that it's found is in the [[Eternal forest]], except for the [[Dark Echo|dark echo]] version of the Lynel fought later on. The Lynel costs six Echo energy. It will take care of every enemy, and it is fire proof, ice proof, and electric proof. 
+
+==Other Appearances==
+==={{TLoZ|-}} TV Series===
+{{Noncanon|Start}}
+[[File:Lynels (Sing for the Unicorn).png|thumb|200px|right|Lynels in the TV series]]
+Two Lynels appear in the "[[Sing for the Unicorn]]" episode of {{TLoZ|TV Series}}. Before [[Link]], [[Princess Zelda]], and [[Sing]] made their way to Ganon's lair, Link fought against a pair of Lynels, one blue and one red. The hero blocks their attacks and then proceeds to [[Sword Beam|zap]] both of them, with one of them dropping a [[Recorder]] that allows them to escape the [[Underworld]] later on in the episode. [[Blue Lynel]]s also appear as part of the [[Brotherhood of Underworld Monsters]] in "[[The Moblins are Revolting]]", firing their projectiles a little too early on the [[Moblin]] leader's command before Link and Zelda leave for the Underworld.
+{{Noncanon|End}}
+
+==={{TLoZ|-}} (Valiant Comics)===
+{{Noncanon|Start}}
+In the {{TLoZ|Valiant Comics}}, Lynels appear in the "[[Day of the Triforce]]" story. These foes, along with other of Ganon's minions, go to the [[Water Town of Saria]] to set fire to the village, as well as capturing and injuring many of its people.<ref>{{Cite Book|quote= Princess Zelda! Please, I must find Link! We need his help! [...] Lynels, Gannon's Death Mountain centaurs, set fire to my village! Many of my  people were captured, or injured!|book= TLoZ (Valiant Comics)|publisher= |page= 2}}</ref> When [[Cassiopia]] goes to the [[North Palace]] to inform Princess Zelda of what has happened, Zelda decides to go to Saria to aid Cassiopia and the rest of the citizens. Upon arrival, Zelda encourages the townsfolk to fight back,<ref>{{Cite Book|quote= See, how I alone can handle your foes? Stand up and fight, Saria! Together we can beat ALL the fiends!|book= TLoZ (Valiant Comics)|publisher= |page= 4}}</ref> and together, the princess along with the Saria people, successfully defeat the Lynels and the rest of the monsters.<ref>{{Cite Book|quote= We have won! All hail Zelda!|book= TLoZ (Valiant Comics)|publisher= |page= 5}}</ref>
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Ambig|Start}}
+{{Plural|CoH|Lynel}} appear as {{Plural|CoH|Sub-Boss}} in {{CoH}}. They have five {{Plural|CoH|Heart|link}} and fight using their bow and arrows similar to ''Breath of the Wild''.
+{{Ambig|End}}
+
+==Trivia==
+*In the Japanese enemy description in ''Legend of Zelda'' manual, Lynels are called guardian deities.<ref>デスマウンテンに近づくものを撃退する守り神。Eng translation: ''A guardian deity who attacks anyone that gets close to Death Mountain.''</ref>
+*In the {{OoS|Wessel}}, {{Plural|OoS|Lynel}} are incorrectly identified as "Fire Cats".<ref>{{Cite Book|quote= Before Link could enter Onox's Castle, he had to get by the two Fire Cats guarding the entrance.|book= OoS (Wessel)|publisher= |page= 52}}</ref>
+*Even though only three {{Plural|ALttP|Lynel}} appear in {{ALttP|-}}, five of them appear in the ending after completing the {{Term|ALttP|Palace of the Four Sword|link}} in the [[The Legend of Zelda: A Link to the Past & Four Swords|Game Boy Advance version]].<ref>{{Cite Web|quote= |author= Greenalink|published= Feb 8, 2007|retrieved= February 9, 2021|url= https://www.youtube.com/watch?t=77&v=Ibc1XAQxnmQ|title= Zelda A Link to the Past Extra Ending|site= YouTube|type= }}</ref>
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+===Sprite===
+<gallery>
+File:TLoZ Lynel Red Sprite.png|Sprite from {{TLoZ}}
+File:LynelALttP.png|Sprite from {{ALttP}}
+File:OoS Lynel Red Sprite.png|Sprite from {{OoS}}
+File:OoA Lynel Red Sprite.png|Sprite from {{OoA}}
+</gallery>
+===Models===
+<gallery>
+File:ALBW Lynel Model.png|Model from {{ALBW}}
+File:BotW Lynel Model.png|Model from {{BotW}}
+File:TotK Red Lynel Model.png|Model from {{TotK}}
+</gallery>
+===Unsorted===
+<gallery>
+File:TLoZ Lynel Blue Sprite 2.png|A blue {{Term|TLoZ|Lynel}} from {{TLoZ|-}}
+File:TLoZ Lynel Blue Artwork.png|Artwork for {{TLoZ|-}}
+File:BotW Lynel Mask Icon.png|Lynel Mask from {{BotW|-}}
+File:BotW Lynel Concept Artwork.png|Concept art of a Lynel from {{BotW|-}}
+File:EoW Lynel rift.png|The dark variant from {{EoW|-}}
+File:Lynels (VC).png|Lynels from {{TLoZ|-}} comic
+File:CoH Lynel Sprite.png|A {{Term|CoH|Lynel}} from {{CoH|-}}
+</gallery>
+
+==See also==
+*[[Black Lynel]]
+*[[Blue Lynel]]
+*[[Blue-Maned Lynel]]
+*[[Electric Lynel]]
+*[[Fire Lynel]]
+*[[Golden Lynel]]
+*[[Ice Lynel]]
+*[[Lynel Mask]]
+*[[Malice Lynel]]
+*[[Purple Lynel]]
+*[[Silver Lynel]]
+*[[White-Maned Lynel]]
+
+{{Notes}}
+{{Ref}}
+{{Enemies}}
+{{Categories
+ |Bow Enemies, Lynels, Mammalian Enemies, Sword Enemies, Echoes
+ |enemies= TLoZ, ALttP, OoS, OoA, ALBW, BotW, TotK, EoW, HWAoC, TLoZ (TV Series)
+ |sub-bosses= CoH
+}}
+
+[[de:Leune]]
+[[es:Lynel]]
+[[fr:Lynel]]
+[[it:Lynel]]
+[[ja:ライネル]]
+[[pt-br:Lynel]]
+[[zh-tw:萊尼爾]]
+
+==References==
+{{Reflist}}

@@ -1,0 +1,943 @@
+{{Short description|2004 video game}}
+{{Good article}}
+{{Protection padlock|small=yes}}
+{{Use British English|date=June 2025}}
+{{Use dmy dates|date=June 2025}}
+{{Infobox video game
+| title      = Grand Theft Auto: San Andreas
+| image      = GTASABOX.jpg
+| alt        = Video game cover art featuring a collage of various characters and scenarios
+| developer  = [[Rockstar North]]{{efn|Ported to iOS, Android, Windows Phone, Fire OS, Xbox 360, and PlayStation 3 by War Drum Studios<ref name="Eurogamer War Drum"/>}}
+| publisher  = [[Rockstar Games]]
+| producer   = [[Leslie Benzies]]
+| programmer = {{ubl|Obbe Vermeij|Adam Fowler}}
+| artist     = Aaron Garbut
+| writer     = {{ubl|[[Dan Houser]]|James Worrall|[[DJ Pooh]]}}
+| composer   = [[Michael Hunter (composer)|Michael Hunter]]
+| series     = ''[[Grand Theft Auto]]''
+| engine     = [[RenderWare]]
+| platforms  = {{collapsible list|title={{nobold|[[PlayStation 2]]}}
+ |[[Windows]]
+ |[[Xbox (console)|Xbox]]
+ |[[Mac OS X]]
+ |[[iOS]]
+ |[[Android (operating system)|Android]]
+ |[[Windows Phone]]
+ |[[Fire OS]]
+ |[[Xbox 360]]
+ |[[PlayStation 3]]}}
+| released   = {{Collapsible list|title={{nobold|26 October 2004}}
+ |'''PlayStation 2'''       | {{Video game release|NA|26 October 2004|PAL|29 October 2004}}
+ |'''Windows''', '''Xbox''' | {{Video game release|NA|7 June 2005|EU|10 June 2005}}
+ |'''Mac OS X'''            | {{Video game release|WW|12 November 2010}}
+ |'''iOS'''                 | {{Video game release|WW|12 December 2013}}
+ |'''Android'''             | {{Video game release|WW|19 December 2013}}
+ |'''Windows Phone'''       | {{Video game release|WW|27 January 2014}}
+ |'''Fire OS'''             | {{Video game release|WW|15 May 2014}}
+ |'''Xbox 360'''            | {{Video game release|WW|26 October 2014}}
+ |'''PlayStation 3'''       | {{Video game release|WW|1 December 2015}}}}
+| genre      = [[Action-adventure]]
+| modes      = [[Single-player]], [[multiplayer]]
+}}
+
+'''''Grand Theft Auto: San Andreas''''' is a 2004 [[action-adventure game]] developed by [[Rockstar North]] and published by [[Rockstar Games]]. It is the fifth main game in the [[Grand Theft Auto|''Grand Theft Auto'' series]] and the seventh overall entry, following 2002's ''[[Grand Theft Auto: Vice City]]''. Set within the fictional U.S. state of [[San Andreas (Grand Theft Auto)|San Andreas]] (based on [[California]] and [[Nevada]]) in 1992, the game follows [[Carl Johnson (Grand Theft Auto)|Carl "CJ" Johnson]], a former gangster who returns home following his mother's murder. Finding his old [[street gang]] in decline, CJ works to rebuild it while clashing with corrupt authorities and rival criminals, and gradually uncovers the truth behind his mother's death.
+
+The game is played from a [[Third-person (video games)|third-person perspective]] and its world is navigated on foot or by vehicle. The [[open world]] design lets the player freely roam San Andreas, consisting of three major metropolitan cities: [[Los Santos, San Andreas|Los Santos]], San Fierro, and Las Venturas, based on [[Los Angeles]], [[San Francisco]], and [[Las Vegas]], respectively. Rockstar conducted on-site research in each city and consulted Los Angeles natives [[DJ Pooh]], [[Estevan Oriol]], and [[Mister Cartoon]] for help imitating the city's culture. The narrative is based on multiple real-life events in Los Angeles, including the [[Bloods]] and [[Crips]] street gang rivalry, the [[1990s crack epidemic]], the [[1992 Los Angeles riots]], and the [[Rampart scandal]]. The 75-person development team spent nearly two years creating the game. ''San Andreas'' was released in October 2004 for the [[PlayStation 2]].
+
+The game received critical acclaim for its characters, narrative, open world design, and visual fidelity, but mixed responses towards its mission design, technical issues, and portrayal of race. It generated controversy when the hidden "[[Hot Coffee (minigame)|Hot Coffee]]" sex [[minigame]] was discovered, briefly requiring the game to be re-rated [[Adults Only 18+|Adults Only]]. ''San Andreas'' received year-end accolades from several [[gaming publications]], and it is considered one of the [[Sixth generation of video game consoles|sixth generation of console gaming]]'s most significant titles and among the [[best video games ever made]]. It was released for [[Windows]] and the [[Xbox (console)|Xbox]] in 2005, followed by enhanced versions and mobile ports in the 2010s, and [[Grand Theft Auto: The Trilogy – The Definitive Edition|a remastered version]] in 2021. ''San Andreas'' is the [[best-selling PlayStation 2 game]] with over 17.3&nbsp;million copies sold, and one of the [[best-selling games of all time]] with 27.5&nbsp;million copies sold overall. Its successor, ''[[Grand Theft Auto IV]]'', was released in April 2008.
+
+== Gameplay ==
+[[File:Gta-sa-screen1.jpg|thumb|left|upright=1.1|The game is played from a [[third-person view]] and its [[open world]] can be navigated using cars and other vehicles.<ref name="Eurogamer Preview"/><ref name="GameSpot Review"/>]]
+
+''Grand Theft Auto: San Andreas'' is an [[action-adventure game]] played from a [[third-person view]].<ref name="Eurogamer Preview"/> In the game, players control criminal [[Carl "CJ" Johnson]] and complete missions—linear scenarios with set objectives—to progress through the story. Outside of missions, players can [[Nonlinear gameplay|freely roam]] the game's [[open world]] and complete optional side missions.<ref name="GamesRadar Stealth"/><ref name="PSM2 Review 1"/> A [[multiplayer]] mode allows two players to roam the world.<ref name="Eurogamer Preview 2"/> The fictional state of [[San Andreas (Grand Theft Auto)|San Andreas]], which makes up the open world, comprises three metropolitan cities—[[Los Santos, San Andreas|Los Santos]], San Fierro, and Las Venturas—with some [[rural area]]s in between.<ref name="Eurogamer Las Venturas"/> The cities are unlocked as the story progresses;<ref name="Eurogamer Map"/> airports allow teleportation between each city using [[fast travel]].<ref name="BradyGames"/>{{rp|p=1}} Scattered throughout the map, safehouses can be purchased to [[save the game]] and store vehicles.<ref name="BradyGames"/>{{rp|p=20}}
+
+Players may run, swim, and use vehicles to navigate the world,<ref name="GameSpot Review"/> and use [[Melee#Use in gaming|melee]] attacks, firearms and explosives to fight enemies, including the ability to [[dual wield]] firearms and commit [[drive-by shooting]]s.<ref name="IGN Review"/><ref name="GameSpot Review PC"/> Weapons are purchased from local [[firearms dealer]]s, retrieved from dead enemies, and found scattered through the world.<ref name="VG247 Weapons"/> In combat, [[auto-aim]] is used to lock on to targets.<ref name="BradyGames"/>{{rp|p=42}} Should players take damage, their health meter can be fully regenerated through health pick-ups, and [[body armour]] can be used to absorb gunshots and explosive damage.<ref name="IGN Review"/><ref name="CNET Review"/> Players [[respawn]] at hospitals when their health depletes.<ref name="Annandale"/>{{rp|100}} If players commit crimes, law enforcement may respond as indicated by a "[[Fugitive|wanted]]" meter in the [[HUD (video gaming)|head-up display]]. Stars displayed on the meter indicate the current wanted level; at the maximum six-star level, police helicopters and military are sent after players.<ref name="BradyGames"/>{{rp|p=1}} Officers will search for players who leave the wanted vicinity. The meter enters a cool-down mode and eventually recedes when players are hidden from the officers' line of sight.<ref name="BradyGames"/>{{rp|p=29}} The game features more than 180 vehicles, including cars, motorcycles, aircraft, boats, and [[remote-control vehicle]]s,<ref name="BradyGames"/>{{rp|pp=6–11}} and most can be accessorised with modifications like [[Car hydraulics|hydraulics]], [[nitrous oxide engine]]s, and [[Car stereo|stereo systems]].<ref name="BradyGames"/>{{rp|pp=201–204}}
+
+[[File:Gta-sa-screen2.jpg|thumb|right|upright=1.1|Players can fight members from enemy gangs to earn their territory.<ref name="BradyGames"/>{{rp|p=196}}]]
+
+In the world, players can fight for territory by attacking rival gang members; the territory is won when players survive three waves of responding enemy attacks. Won territories are subject to periodic enemy gang attacks—they must be successfully defended or else lost.<ref name="BradyGames"/>{{rp|p=196}} While free roaming the world, players may engage in activities such as burglary, firefighting, paramedic, [[pimping]], taxi, and [[vigilante]] missions;<ref name="BradyGames"/>{{rp|pp=176–180}} completion rewards players with cash, which can be spent on CJ's accessories, clothing, hairstyles, and tattoos—new [[Role-playing video game|role-playing]] elements for the series.<ref name="IGN Review"/><ref name="IGN Style"/> Balancing food and physical activity impacts CJ's appearance and physical attributes; eating and exercising maintains health, while losing muscle lessens combat effectiveness.<ref name="IGN Diets"/> Three styles of [[hand-to-hand combat]]—[[boxing]], [[kickboxing]], and [[mixed martial arts]]—are taught at gyms in each city.<ref name="BradyGames"/>{{rp|pp=144–145}}<ref name="PSM2 Preview"/>{{rp|p=31}} The game tracks respect among CJ's friends, which varies according to his actions and appearance.<ref name="BradyGames"/>{{rp|p=1}} Acquired skills are also tracked, such as driving, firearms handling, lung capacity, muscles, and stamina, which unlock additional game mechanics.<ref name="GameSpot Review"/><ref name="BradyGames"/>{{rp|p=4}} Players can date six different girls and take them to dinner, drinks, dancing, or driving.<ref name="BradyGames"/>{{rp|pp=200–201}}
+
+== Plot ==
+<!-- Keep under 700 words (currently 606) -->
+In 1992, after five years in [[Liberty City (Grand Theft Auto)|Liberty City]], gangster Carl "CJ" Johnson ([[Young Maylay]]) returns to Los Santos following his mother's death in a drive-by shooting. He is intercepted by corrupt [[Community Resources Against Street Hoodlums]] (CRASH) officers led by Frank Tenpenny ([[Samuel L. Jackson]]), who threaten to implicate CJ in the killing of a fellow police officer unless he co-operates with them. CJ returns to Grove Street and reunites with his siblings, Sweet ([[Faizon Love]]) and Kendl ([[Yo-Yo (rapper)|Yo-Yo]]), and members of his old gang, Big Smoke ([[Clifton Powell]]) and Ryder ([[MC Eiht]]). Discovering the Grove Street Families (GSF) have lost much of their territory, CJ restores the gang to power by helping reunite the various sets who had splintered and allying himself with Cesar Vialpando ([[Clifton Collins Jr.]])—Kendl's boyfriend and leader of the Varrios Los Aztecas gang. He also helps his neighbour, aspiring rapper OG Loc (Jonathan Anderson), launch his career by stealing the rhyme book and killing the manager of successful rapper Madd Dogg ([[Ice-T]]).
+
+CJ and Cesar later witness Big Smoke and Ryder meeting with Tenpenny and the rival Ballas gang, discovering they betrayed the GSF and were responsible for killing CJ's mother. Suspecting an ambush, CJ rushes to Sweet's aid in a showdown against the Ballas. Sweet is wounded and incarcerated, while Tenpenny exiles CJ to the [[countryside]], forcing him to eliminate witnesses to CRASH's corruption in exchange for his brother's safety in prison. CJ befriends an ageing [[hippie]] and [[marijuana]] farmer named "the Truth" ([[Peter Fonda]]) and blind [[Triad (organised crime)|Triad]] leader Wu Zi Mu ([[James Yaegashi]]). He engages in illegal street racing and wins a San Fierro garage, which he turns into a profitable [[chop shop]] with Kendl and Cesar's help. Learning that the Loco Syndicate, Big Smoke and Ryder's drug connection, is based in San Fierro, CJ infiltrates the organisation and identifies its leader: the affable but mysterious Mike Toreno ([[James Woods]]).
+
+Alongside Cesar and the Triads, CJ destroys the Syndicate's drug factory and eliminates its leadership and Ryder; however, Toreno survives and later contacts CJ for assistance, revealing himself as an [[undercover agent|undercover government agent]]. CJ performs several shady operations for Toreno in return for Sweet's freedom, and relocates to Las Venturas, joining Wu Zi Mu and Ran Fa Li (Hunter Platin) as co-owners of a casino. Facing competition from the [[American Mafia|Mafia]], CJ and Wu Zi Mu plan and execute a robbery of the rival Mafia-run casino, Caligula's Palace. During this time, CJ finds Madd Dogg attempting suicide after his career was ruined; he intervenes to save his life and sends him to [[Drug rehabilitation|rehab]], eventually becoming his new manager. CJ helps take back Madd Dogg's Los Santos mansion from drug dealers and retrieves his rhyme book from OG Loc.
+
+After his release, Sweet and CJ revive the GSF, drive off the rival gangs from their territory, and rebuild throughout Los Santos. Tenpenny is arrested and tried for several [[felonies]], but the charges are dropped due to lack of witnesses, prompting a city-wide riot. CJ soon discovers Big Smoke's hideout, and the two engage in a gunfight. CJ wins, and before dying, Smoke confesses that he had become obsessed with money and power. Tenpenny arrives, holds CJ at gunpoint, steals Smoke's drug money, and escapes after causing an explosion in the building. He drives off in a fire truck, followed by CJ and Sweet, but eventually loses control and crashes over the side of a bridge overlooking Grove Street. CJ and his friends watch as Tenpenny dies of his injuries, ending the riot. In the aftermath, CJ's family and friends celebrate their success at the Johnson house. In the midst of the celebrations, CJ leaves to check on the neighbourhood.
+
+== Development ==
+{{Multiple image |align=right |direction=horizontal |total_width=400
+|image1=Leslie Benzies @ Everywhere Game.jpg |caption1=[[Leslie Benzies]] |alt1=Leslie Benzies
+|image2=Dan Houser at Rockstar Games.png |caption2=[[Dan Houser]] |alt2=Dan Houser
+|image3=Sam Houser at Rockstar Games.png |caption3=[[Sam Houser]] |alt3=Sam Houser
+|footer=Like the two previous ''Grand Theft Auto'' entries, Benzies produced ''San Andreas'' with Dan Houser, who also co-wrote the story. Sam Houser, president of Rockstar Games, was executive producer.<ref name="Manual"/>{{rp|pp=20–21}}}}
+
+[[Rockstar North]] began developing ''San Andreas'' after releasing ''[[Grand Theft Auto: Vice City]]'' in October 2002.<ref name="Eurogamer Garbut"/> Their 50-person team grew to 75 after ''[[Manhunt (video game)|Manhunt]]''{{'}}s 2003 release, while [[Rockstar Games]]'s New York City team consisted of around 15 members; the [[Game testing|testing]] department grew from 60 to 100 people.<ref name="Rolling Stone Retrospective"/><ref name="OPM Interview"/> ''San Andreas''{{'}}s two-year development, compared to one year for ''Vice City'', gave the team more opportunities to experiment and reevaluate the previous ''[[Grand Theft Auto]]'' games.<ref name="Eurogamer Garbut"/> Producer [[Leslie Benzies]] hoped ''San Andreas'' would redefine the series and "revolutionize open-ended gameplay and video game production values".<ref name="GameSpot Date"/> ''[[The Warriors (video game)|The Warriors]]'' was delayed from 2004 to 2005 to provide additional resources.<ref name="GamesRadar Reveal"/> ''San Andreas''{{'}}s budget was under {{US$|10 million}}.<ref name="WSJ Budget"/>
+
+Rockstar North's minimal [[employee turnover]] since the development of the series's first game, ''[[Grand Theft Auto (video game)|Grand Theft Auto]]'' (1997), allowed the team to leverage their experience on the series.<ref name="PC PowerPlay Preview"/>{{rp|p=57}} Some developers were concerned about the working conditions at Rockstar while developing ''San Andreas'', as they were unable to take an adequate break after ''Vice City''. Programmer Gary Foreman feared the company had entered a "constant [[Crunch (video games)|crunch]]", as some developers worked for 17 hours per day.<ref name="Kushner"/>{{rp|p=138}} Some stepped away after disagreements with Rockstar president [[Sam Houser]] about working conditions,<ref name="Kushner"/>{{rp|pp=139–141, 160}} and one long-time employee quit in objection to Rockstar's portrayal of [[African Americans]] and what he perceived to be a gloomier and more exploitative tone in their games, particularly ''San Andreas'' and ''Manhunt''.<ref name="Kushner"/>{{rp|p=167}}
+
+=== Technical and open world design ===
+{{Quote box |quote=We love L.A., and the whole [[Gang#Street|gangbanging]] vibe, and the [[Urban culture|street culture]]. That time [early '90s] in L.A. is so important and we knew a long time ago that the franchise needed to end up there. We'd done the [[East Coast of the United States|East Coast]] in ''GTA3'', and then '80s Miami with ''Vice City'', so going to L.A. in the early '90s just seemed like an obvious place for us to go. |author=—[[Sam Houser]] |source=in an interview with ''[[Electronic Gaming Monthly]]'' in January 2005<ref name="EGM Interview"/>|align=right|width=25em}}
+
+''San Andreas''{{'}}s world was originally envisioned as three separate maps connected by public transport, but it ultimately evolved into one map with three cities separated by countryside and desert.<ref name="Rolling Stone Retrospective"/> The cities were inspired by real locations: Los Santos by Los Angeles, San Fierro by San Francisco, and Las Venturas by Las Vegas.<ref name="Eurogamer Las Venturas"/><ref name="Game Informer Cover"/>{{rp|p=44}} Early in development, the team travelled to each city for research and photography;<ref name="PSM Preview"/>{{rp|p=61}}<ref name="OXM"/>{{rp|p=40}} art director Aaron Garbut felt Los Angeles's gang territory in particular was difficult to capture without first-hand experience.<ref name="Eurogamer Garbut"/> Rockstar's New York-based research team took thousands of photographs and video,<ref name="Eurogamer Garbut"/><ref name="PSM Preview"/>{{rp|p=61}} some of which were used as [[Texture mapping|textures]] in the game.<ref name="Rolling Stone Retrospective"/> ''San Andreas''{{'}}s world is {{convert|36|km2|mi2}},<ref name="GameSpot Q&A"/> about four to six times larger than those from ''[[Grand Theft Auto III]]'' and ''Vice City'',<ref name="Game Informer Cover"/>{{rp|p=44}} and each city in ''San Andreas'' is approximately as large as Vice City.<ref name="IGN First Look"/> Compared to the previous ''Grand Theft Auto'' games, Garbut found it more difficult to memorise the larger map of ''San Andreas''.<ref name="PSM Preview"/>{{rp|p=61}} The team wanted all facets of the title—including packaging and marketing—to maintain a consistent theme and feel cohesive to players.<ref name="Eurogamer Houser"/><ref name="OPS2 AU Preview"/>{{rp|p=47}}
+
+Benzies felt Rockstar North's relationship with Los Angeles natives [[Estevan Oriol]], [[Mister Cartoon]], and [[DJ Pooh]] helped them imitate the city's 1990s street culture.<ref name="OXM"/>{{rp|p=40}} The team wanted to ensure the world looked neither too "toy-towny" nor too precise,<ref name="Eurogamer Houser"/> as they sought depth over quantitative size. Garbut wanted players to "feel like [they] can stop at any point and discover new things".<ref name="Eurogamer Garbut"/> Real-world areas were the inspiration for many in-game locations: [[Compton, California|Compton]] for Los Santos's urban areas, and the [[Golden Gate Bridge]] for the Gant Bridge.<ref name="GameSpot Preview"/><ref name="GameSpot Tales"/> The team were enthusiastic about the inclusion of mountains, forests, and a desert—firsts for the series.<ref name="Eurogamer Garbut"/><ref name="Kikizo Houser"/> San Fierro's hills, based on [[List of hills in San Francisco|those in San Francisco]], were intended to draw the player's focus towards vehicle gameplay,<ref name="Game Informer Cover"/>{{rp|p=45}} and, from a technical perspective, the open countryside driving was inspired by Rockstar's racing game ''[[Smuggler's Run]]'' (2002).<ref name="OPS2 UK Preview"/>{{rp|p=42}} Producer and co-writer [[Dan Houser]] felt the return to Los Santos in ''San Andreas''{{'}}s final act afforded players a chance to view the city from a different perspective.<ref name="EGM Preview"/>{{rp|p=122}} Garbut established [[climate zones]] for each city, differentiated by their sky colour: Los Santos's red-orange, San Fierro's blue, and Las Venturas's red.<ref name="Rolling Stone Retrospective"/>
+
+''San Andreas'' was built using the [[game engine]] [[RenderWare]].<ref name="GamesTM Preview"/>{{rp|p=74}} Its [[Graphics pipeline|render pipeline]] was rewritten for increased graphical detail and scope,<ref name="Eurogamer Houser"/> allowing 35–50% more [[Polygon (computer graphics)|polygons]] on screen,<ref name="GamesTM Preview"/>{{rp|p=74}} real-time reflections and [[volumetric lighting]], and unique [[3D modeling|models]] and lighting sets for day and night,<ref name="Eurogamer Garbut"/><ref name="Game Informer Cover"/>{{rp|p=45}} including full shadows for [[Stealth game|stealth]] sequences.<ref name="CVG Preview"/>{{rp|p=24}} According to Garbut, the world is built with about 16,000 unique objects and buildings.<ref name="PSM Preview"/>{{rp|p=61}} Several buildings share a single low-detail model,<ref name="GameSpot Q&A"/> allowing them to be loaded as players traverse the map without the interruption of [[loading screens]] like in ''Vice City''.<ref name="EGM Preview"/>{{rp|p=122}} Textures were created at a high resolution and scaled down for platforms unable to handle them.<ref name="GameSpot Q&A"/> The driving physics were reworked from previous games due to ''San Andreas''{{'}}s more open areas.<ref name="Eurogamer Houser"/> ''Manhunt'' inspired ''San Andreas''{{'}}s stealth elements,<ref name="OPS2 AU Preview"/>{{rp|p=49}} and the "physicality" of ''Manhunt''{{'}}s targeting and gun gameplay was adapted to the open world formula.<ref name="1Up Houser"/> [[Scripting language|Computer scripting]] advancements enabled the developers to create gameplay features not possible in their previous games, such as casino [[minigames]].<ref name="GameSpot Q&A"/> ''San Andreas''{{'}}s action sequences were crafted as an extension of the team's favourite moments from ''Vice City''.<ref name="OPM Interview"/>
+
+=== Story and characters ===
+[[File:Young Maylay 2026.jpg|thumb|upright|[[Young Maylay]] ''(pictured in 2026)'' portrayed the game's protagonist, [[Carl Johnson (Grand Theft Auto)|Carl Johnson]].<ref name="Edge Houser"/>]]
+
+Several historical events influenced the narrative, including the [[Rampart scandal]] of the [[Los Angeles Police Department]],<ref name="Gamepressure True 4"/> the [[1990s crack epidemic]], the [[1992 Los Angeles riots]],<ref name="Guardian Defining"/> and the rivalry between the [[Bloods]] and [[Crips]] street gangs.<ref name="Gamepressure True 3"/> Sam Houser was fascinated by the appearances of street gangs and terrified by their behaviour.<ref name="GamesRadar Houser"/> The writers sought to accurately portray gang violence without glorifying it,<ref name="PC PowerPlay Preview"/>{{rp|p=54}} and they wanted each gang to act differently, signified by unique walking styles.<ref name="Rolling Stone Retrospective"/> DJ Pooh was hired to co-write the game from an American perspective.<ref name="Kushner"/>{{rp|p=189}} The narrative was influenced by [[Hollywood films]]; Dan Houser said the team watched "hundreds of movies to get the California vibe".<ref name="Kikizo Houser"/> The developers referenced ''[[Boyz n the Hood]]'' (1991), ''[[Colors (1988 film)|Colors]]'' (1988), and ''[[Menace II Society]]'' (1993) for narrative inspiration, and compared their in-game locations to those in different films: the countryside to ''[[Deliverance]]'' (1972), San Fierro to ''[[Bullitt]]'' (1968), and Las Venturas to ''[[Casino (1995 film)|Casino]]'' (1995).<ref name="GamesTM Preview"/>{{rp|p=77}} Journalists identified references to other films like ''[[Juice (1992 film)|Juice]]'' (1992) and ''[[New Jack City]]'' (1991).<ref name="Hardcore Gamer Movies"/><ref name="PC Gamer Movies"/><ref name="IGN E3"/><ref name="Knight Movies"/> The focus on several communities in ''San Andreas'' was prompted by the variety in 1990s [[West Coast of the United States|West Coast]] culture.<ref name="1Up Houser"/>
+
+''San Andreas'' concluded a loosely connected trilogy of ''Grand Theft Auto'' games, set in the 1980s (''Vice City''), 1990s (''San Andreas''), and early 2000s (''III''{{--)}}.<ref name="1Up Houser"/> The team wanted the games to be loosely connected in their avoidance of an "ultimate bad guy". Dan Houser enjoyed the inclusion of ''III''{{'}}s antagonist Catalina in ''San Andreas'' to make the character more sympathetic.<ref name="OPM Interview"/> The team felt "the world's attention was on California" in the 1990s in regards to news and music, and that it translated well to the game.<ref name="GamesTM Preview"/>{{rp|p=77}} They initially considered other time periods, like the 1930s to 1950s, for the game's setting but found them incongruous with the series.<ref name="EGM Interview"/>{{rp|p=108}} Dan Houser said the game's [[satire]] was aimed towards the "broader weirdness" of American [[consumerism]] and [[action film]]s.<ref name="Eurogamer Houser"/> He noted the writers attempted to outdo each other's humour.<ref name="Eurogamer Houser"/> The team wanted to give players the freedom to make choices while maintaining interest in the story.<ref name="Eurogamer Houser"/> The game features over 400 speaking actors<ref name="Eurogamer Houser"/> and over 60,000 lines of dialogue, including over 7,700{{efn|CJ has more than 3,500 lines of dialogue in cutscenes, and over 4,200 in the open world.<ref name="GameSpot Talking"/>}} for CJ;<ref name="GameSpot Talking"/> it broke a [[Guinness World Record]] for the largest video game voice cast with 861 credited actors.<ref name="Guinness 2009"/> Recording took place over roughly five months.<ref name="OPM Interview"/> Each [[non-player character]] had around an hour of dialogue, in contrast to ''Vice City''{{'}}s ten minutes.<ref name="GamesTM Preview"/>{{rp|p=71}}
+
+Sam Houser sought an unknown actor for CJ, as he felt conflicted about [[Ray Liotta]]'s performance as [[Tommy Vercetti]] in ''Vice City'' due to his familiarity with Liotta's previous work. Houser opted to cast celebrities in secondary roles, such as Jackson as Tenpenny, and he felt Young Maylay's obscurity in the industry made CJ feel "very, very human".<ref name="Edge Houser"/> Rockstar asked Young Maylay to audition after overhearing him speak with DJ Pooh, and they cast him a few weeks later, marking his first acting performance.<ref name="OPM Maylay"/>{{rp|p=41}} He felt the developers gave him the freedom to imbue CJ with his own personality.<ref name="GameSpy Maylay"/> They aimed for CJ to be their "most human" character, ensuring he had "the most intense story around him" so players would identify with him.<ref name="PC PowerPlay Preview"/>{{rp|p=54}} DJ Pooh compared CJ to the rapper [[Tupac Shakur]] in his fierce dedication to family but ability to become "cold-blooded" when necessary.<ref name="OPM US Preview"/>{{rp|p=49}} The team felt the ability to adjust CJ's weight gave consequences to the player's actions,<ref name="1Up Houser"/> and Dan Houser thought CJ's customisability allowed players to better connect with the characters.<ref name="Game Informer Cover"/>{{rp|p=50}} DJ Pooh engaged several other actors to work on the game, such as Faizon Love, MC Eiht, and [[Shawn Fonteno]].<ref name="Rolling Stone Retrospective"/>
+
+=== Music ===
+{{Main|Soundtracks of Grand Theft Auto: San Andreas|l1=Soundtracks of ''Grand Theft Auto: San Andreas''}}
+
+Rockstar partnered with [[Interscope Records]] to create the game's soundtrack.<ref name="IGN Soundtrack 1"/> The in-game radio features eleven radio stations with twenty [[disc jockey]]s—including [[Axl Rose]], [[Chuck D]], and [[George Clinton (funk musician)|George Clinton]]<ref name="MTV Soundtrack"/>—and more than three times as many licensed songs and original in-universe advertisements as ''Grand Theft Auto III''. The radio features were overhauled from previous ''Grand Theft Auto'' games; instead of each station's audio being looped, they became dynamic with randomised song orders, accurate weather predictions, and story-relevant news announcements.<ref name="IGN Soundtrack 2"/> [[Michael Hunter (composer)|Michael Hunter]] wrote the game's [[Theme music|main theme]],<ref name="IGN Soundtrack 3"/> partly inspired by his childhood experiences with [[hip-hop]] through ''[[Yo! MTV Raps]]'' (1988–1995).<ref name="Rolling Stone Retrospective"/> Interscope published two [[compilation album]]s for the game: a two-disc album in November 2004,<ref name="GameSpy Soundtrack"/> and an eight-disc box set in December.<ref name="IGN Soundtrack 4"/> The [[Windows]], [[Xbox (console)|Xbox]], and mobile versions of the game added an additional radio station supporting a custom, user-imported soundtrack.<ref name="GameSpot Review PC"/><ref name="GameSpot Xbox"/><ref name="Engadget iOS"/>
+
+== Release and promotion ==
+In October 2003, Rockstar's parent company [[Take-Two Interactive]] announced the next ''Grand Theft Auto'' game would be released in 2004's third quarter,<ref name="IGN Date"/> and it prompted speculation after registering ''GTA: San Andreas'' with the [[U.S. Patent and Trademark Office]] in December 2003.<ref name="GameSpot Patent"/> Rockstar announced the game in March 2004, along with a scheduled release date of 19 and 22 October in North America and Europe, respectively.<ref name="GameSpot Date"/> The first details and screenshots were released at [[E3 2004|E3]] in May<ref name="IGN E3"/> alongside a [[Magazine cover|cover story]] in ''[[Game Informer]]'',<ref name="IGN First Look"/> followed by the [[cover art]] in July.<ref name="GamesRadar Cover"/> Rockstar launched the official website and first trailer in August,<ref name="IGN Trailer"/><ref name="IGN Website"/> followed by the second trailer in September.<ref name="IGN Desktop"/><ref name="IGN Trailer 2"/> In September, Take-Two announced the game's delay to 26 and 29{{nbsp}}October in North America and Europe, respectively, and revealed it would be released for Windows in early 2005.<ref name="Eurogamer Delay"/> Rockstar commissioned hand-painted advertisements for ''San Andreas'' around the world in late 2004; one in [[Melbourne]], Australia, remained partially visible in 2020.<ref name="Beat Mural"/>
+
+In October 2004, an early version of the game was leaked by [[hacker]]s;<ref name="IGN Leak"/> Rockstar asserted it would "aggressively pursue this matter" and asked for information.<ref name="GamesIndustry Leak"/> The game was released for the PlayStation 2 in October 2004.<ref name="Eurogamer Delay"/> A [[special edition]] version was published for the PlayStation 2 on 8{{nbsp}}October 2005, featuring Rockstar's debut documentary film ''Sunday Driver'', about a [[lowrider]] [[car club]] in Compton.<ref name="Trilogy"/> It also included ''{{visible anchor|The Introduction|The Introduction short film}}'',<ref name="IGN Introduction"/> an in-engine video previously provided on a [[DVD]] with the game's soundtrack.<ref name="GameSpy Soundtrack"/> The 21-minute video chronicles the events leading up to ''San Andreas'', featuring CJ, Sweet, Big Smoke, Ryder, and Tenpenny.<ref name="GameSpy Introduction"/> ''[[GameSpot]]'' recommended the film for fans of the series;<ref name="GameSpot Introduction"/> ''[[IGN]]''{{'}}s Chris Carle enjoyed the voice acting but found the narrative uncompelling and felt the film alone was not worth purchasing the special edition.<ref name="IGN Introduction"/> [[Capcom]] published the game in Japan on 25{{nbsp}}January 2007.<ref name="Joystiq Japan"/><ref name="Capcom Japan"/>
+
+== Reception ==
+=== Critical response ===
+{{Video game reviews
+| title   = PlayStation 2 version
+| MC      = 95/100<ref name="MC"/>
+| EGM     = 10/10<ref name="EGM Review"/>
+| EuroG   = 9/10<ref name="Eurogamer Review 2"/>
+| GameRev = A<ref name="GameRevolution Review"/>
+| GI      = 10/10<ref name="Game Informer Review"/>
+| GSpot   = 9.6/10<ref name="GameSpot Review"/>
+| GSpy    = 100/100<ref name="GameSpy Review 1"/>
+| IGN     = 9.9/10<ref name="IGN Review"/>
+| PALGN   = 9/10<ref name="PALGN Review"/>
+}}
+
+''Grand Theft Auto: San Andreas'' received "universal acclaim" from critics, according to review aggregator [[Metacritic]].<ref name="MC"/> It is the site's fifth-highest-rated PlayStation 2 game.<ref name="MC Best PS2"/> ''[[PSM2]]''{{'}}s Daniel Dawkins declared it "the single most complete, unique, universe in console history" after ''[[The Legend of Zelda: Ocarina of Time]]'' (1998) and "the best entertainment console gaming can offer".<ref name="PSM2 Review 3"/> ''Game Informer''{{'}}s Andrew Reiner called it "entertainment at its best"<ref name="Game Informer Review"/> and ''[[GameSpy]]''{{'}}s Miguel Lopez wrote it reminded him why he plays games: "to be liberated from the constraints of reality, and explore living, breathing worlds".<ref name="GameSpy Review 4"/>
+
+Several reviewers considered ''San Andreas''{{'}}s world an improvement over its predecessors',<ref name="Game Informer Review"/><ref name="PALGN Review"/><ref name="1Up Review 2"/> praising the attention to detail in its areas and characters;<ref name="IGN Review"/><ref name="Eurogamer Review 1"/> ''IGN''{{'}}s Jeremy Dunham cited the differences in each city's weather as a highlight.<ref name="IGN Review"/> ''[[1Up.com]]''{{'}}s Jeremy Parish considered it "the most complete, complex and detailed environment ever crafted for a game", praising the complexities of the freeway system and social dynamics.<ref name="1Up Review 2"/> ''GameSpy''{{'}}s Lopez lauded its accurate imitation of the [[American West Coast]].<ref name="GameSpy Review 3"/> Critics considered the graphics an improvement over ''Vice City'',<ref name="Eurogamer Review 1"/><ref name="OPM Review 1"/> particularly regarding the animations, foliage, lighting, and weather effects;<ref name="GameSpot Review"/><ref name="IGN Review"/><ref name="GameRevolution Review"/> ''PALGN''{{'}}s Chris Sell called it "one of the most visually absorbing games ever".<ref name="PALGN Review"/> Criticism was directed at the game's technical issues, with several reviewers encountering [[pop-up graphics]],<ref name="IGN Review"/><ref name="PALGN Review"/><ref name="PSM2 Review 3"/> and unstable [[frame rate]]s;<ref name="GameSpot Review"/><ref name="1Up Review 2"/><ref name="Eurogamer Review 1"/> some felt the game pushed the PlayStation 2 hardware to its limit.<ref name="1Up Review 2"/><ref name="Eurogamer Review 1"/>
+
+''Game Informer''{{'}}s Reiner considered gameplay a dramatic improvement over previous entries.<ref name="Game Informer Review"/> ''PSM2''{{'}}s Dawkins found the missions were rarely repetitive and blended difficulty with comedy.<ref name="PSM2 Review 2"/> ''[[GameRevolution]]''{{'}}s Joe Dodson lauded the freedom provided to players,<ref name="GameRevolution Review"/> while ''1Up.com''{{'}}s Parish felt the previous games' improvisation had been removed<ref name="1Up Review 4"/> and ''[[Electronic Gaming Monthly]]''{{'}}s Dan Hsu thought it could have benefited from branching paths.<ref name="EGM Review"/> ''[[The New York Times]]''{{'}}s Charles Herold found the game's structure diminished enjoyment of its missions, forcing players to drive long distances and replay extensive sequences upon failing,<ref name="NYT Review"/> a complaint echoed by others.<ref name="GameRevolution Review"/><ref name="PALGN Review"/><ref name="Eurogamer Review 1"/> Some reviewers criticised the combat targeting (though acknowledged the usefulness of auto-aim)<ref name="IGN Review"/><ref name="PALGN Review"/><ref name="Eurogamer Review 1"/> and the flight, racing, [[RC car]], and minigame controls.<ref name="PALGN Review"/><ref name="Eurogamer Review 1"/><ref name="OPM Review 2"/><ref name="1Up Review 4"/> The addition of role-playing elements was praised for its simplicity, subtlety, and effectiveness,<ref name="GameSpot Review"/><ref name="EGM Review"/><ref name="Eurogamer Review 1"/><ref name="GameSpy Review 2"/> though ''1Up.com''{{'}}s Parish denounced some missions' statistical prerequisites.<ref name="1Up Review 4"/>
+
+{{Multiple image |align=left |direction=horizontal |total_width=375
+|image1=Samuel L. Jackson Cannes (cropped).jpg
+|image2=DavidCross2007 (cropped).jpg
+|image3=James Woods and his mom (2077794703) (cropped).jpg
+|footer=The cast's performances received praise, particularly those of (L to R) [[Samuel L. Jackson]], [[David Cross]], and [[James Woods]].<ref name="GameSpot Review"/><ref name="Game Informer Review"/><ref name="OPM Review 2"/> }}
+
+Several critics considered the narrative the series's best to date,<ref name="IGN Review"/><ref name="PALGN Review"/> which ''[[Eurogamer]]''{{'}}s Kristan Reed attributed to its focus on dialogue and scene-setting, both in and out of cutscenes.<ref name="Eurogamer Review 1"/> ''Game Informer''{{'}}s Matt Miller enjoyed the narrative's ridicule of modern culture.<ref name="Game Informer Review"/> Some reviewers compared the story to Hollywood films and similar [[popular culture]];<ref name="Game Informer Review"/><ref name="1Up Review 3"/> ''PSM2''{{'}}s Dawkins felt the finale "outstrips the collected work" of filmmakers [[Jerry Bruckheimer]] and [[Don Simpson]].<ref name="PSM2 Review 2"/> Critics praised the cast's performances, particularly that of Young Maylay, Samuel L. Jackson, James Woods, and [[David Cross]].<ref name="GameSpot Review"/><ref name="Game Informer Review"/><ref name="OPM Review 2"/> ''[[Official U.S. PlayStation Magazine]]''{{'}}s John Davison considered CJ "possibly one of the most well-developed and believable videogame characters ever made" due to his layered personality and realistic behaviour;<ref name="OPM Review 1"/> ''1Up.com''{{'}}s Parish concurred but felt CJ's kind nature made his in-game actions less believable, a problem that may have been circumvented through a branching narrative.<ref name="1Up Review 3"/>
+
+Some critics and scholars criticised the game for perpetuating [[racial stereotype]]s.<ref name="Neal Race"/><ref name="Leonard Race"/><ref name="Leonard Race2"/><ref name="NYT Race"/> ''Seeing Black''{{'}}s Esther Iverem condemned the series for "validating ... an accepted caricature" rather than teaching respect and tolerance.<ref name="NYT Race"/> Dean Chan felt the series's protagonist shift from Tommy (an [[Italian American]]) to CJ (an African American) without subverting archetypes made it "complicit in the pathologization and fetishization of race".<ref name="Chan Race"/>{{rp|p=25}} Paul Barrett found its disregard and decontextualisation of [[institutional racism]]'s structures suggest "that the problems that African Americans experience is due to individual failure", reinforced by the concept that white players can simply experience "black identity".<ref name="Barrett Race"/>{{rp|p=114}} A ''[[Games and Culture]]'' study found youth groups "do not passively receive the games' images and content": white players expressed concern about its racial stereotypes, while African American players used it "as a framework to discuss institutional racism".<ref name="Games Cult Race"/>{{rp|pp=264, 279}} Rachael Hutchinson considered ''San Andreas'' "a critical reflection on racial conflict in America" and found several criticisms were based on limited viewings instead of the whole story.<ref name="Hutchinson Race"/>{{rp|pp=174–175}} ''[[Kotaku]]'' opined some in-game interactions could be portrayed as a lack of racism, such as characters conversing without moderating vocabularies or commenting on others'.<ref name="Kotaku Race"/> ''1Up.com''{{'}}s Parish lauded the references to [[Rodney King]]'s assault and the sophisticated writing addressing race in [[South Central Los Angeles]].<ref name="1Up Review 3"/> David J. Leonard felt politicians and legislators were more concerned about the game's violent and sexual content than its racial stereotypes.<ref name="Leonard Race2"/>{{rp|p=268}}
+
+==== Windows and Xbox versions ====
+{{Video game reviews
+| title         = Windows and Xbox versions
+| PC            = true
+| XBOX          = true
+| MC_PC         = 93/100<ref name="MC"/>
+| MC_XBOX       = 93/100<ref name="MC"/>
+| GamePro_PC    = 4.5/5<ref name="GamePro Review"/>
+| GamePro_XBOX  = 4.5/5<ref name="GamePro Review"/>
+| GSpot_PC      = 9/10<ref name="GameSpot Review PC"/>
+| GSpot_XBOX    = 9.2/10<ref name="GameSpot Review Xbox"/>
+| GSpy_PC       = 5/5<ref name="GameSpy Review PC 1"/>
+| GSpy_XBOX     = 5/5<ref name="GameSpy Review Xbox 1"/>
+| GameZone_PC   = 9.2/10<ref name="GameZone Review PC"/>
+| GameZone_XBOX = 9.6/10<ref name="GameZone Review Xbox"/>
+| IGN_PC        = 9.3/10<ref name="IGN Review PC"/>
+| IGN_XBOX      = 9.5/10<ref name="IGN Review Xbox"/>
+| PALGN_PC      = 9/10<ref name="PALGN Review PC"/>
+| PALGN_XBOX    = 8.5/10<ref name="PALGN Review Xbox"/>
+}}
+
+''San Andreas''{{'}}s June 2005 release for Windows and Xbox received "universal acclaim" according to Metacritic.<ref name="MC"/> It was the second-highest-rated Windows game of 2005, behind ''[[Civilization IV]]'',<ref name="MC Best PC"/> and the third-highest-rated Xbox game, behind ''[[Ninja Gaiden Black]]'' and ''[[Tom Clancy's Splinter Cell: Chaos Theory]]''.<ref name="MC Best Xbox"/>
+
+''PALGN''{{'}}s Matt Keller considered the Windows release the best version of the game.<ref name="PALGN Review PC"/> Reviewers lauded the improved graphics,<ref name="PALGN Review PC"/><ref name="Eurogamer Review Xbox PC"/> particularly the detailed textures and models, higher [[draw distance]], and improved frame rate, loading times, and [[anti-aliasing]],<ref name="GamePro Review"/><ref name="PALGN Review PC"/><ref name="CGW Review PC"/><ref name="GameRevolution Review PC"/> though some considered the graphics outdated for the platform.<ref name="IGN Review PC"/><ref name="GameSpy Review PC 2"/> ''PALGN''{{'}}s Keller found the increased population density improved the world's overall atmosphere.<ref name="PALGN Review PC"/> The [[mouse and keyboard]] controls were generally praised as an improvement over the console versions and the series's previous Windows ports,<ref name="PALGN Review PC"/><ref name="GameRevolution Review PC"/><ref name="PC Gamer Review"/> especially during combat gameplay,<ref name="GameSpot Review PC"/><ref name="IGN Review PC"/><ref name="PALGN Review PC"/><ref name="GameSpy Review PC 3"/> though responses to driving controls and [[keyboard mapping]] were mixed.<ref name="GamePro Review"/><ref name="IGN Review PC"/><ref name="Eurogamer Review Xbox PC"/> Praise was directed at the custom radio<ref name="GamePro Review"/><ref name="PC Gamer Review"/> and [[Video game packaging|physical packaging]] and manual.<ref name="GameSpot Review PC"/><ref name="GameSpy Review PC 3"/> Some critics bemoaned the lack of changes to the mission structure,<ref name="CGW Review PC"/><ref name="GameRevolution Review PC"/> and some encountered technical difficulties like sudden and major [[Lag (video games)|lagging]] spikes.<ref name="GameZone Review PC"/><ref name="GameSpy Review PC 3"/>
+
+''GameZone''{{'}}s Eduardo Zacarias called the Xbox release the "definitive version of the game",<ref name="GameZone Review Xbox"/> and ''GameSpy''{{'}}s Will Tuttle considered it better than the original.<ref name="GameSpy Review Xbox 2"/> Several reviewers praised the improved assets, reflections, shadows, and load times,<ref name="GameZone Review Xbox"/><ref name="IGN Review Xbox"/><ref name="GameSpy Review Xbox 2"/> as well as the addition of a custom radio station<ref name="IGN Review Xbox"/><ref name="GameSpy Review Xbox 2"/> and video replay mode,<ref name="GameSpy Review Xbox 3"/><ref name="1Up Review Xbox"/> though ''GameSpy''{{'}}s Tuttle felt the latter was pointless without the ability to save videos.<ref name="GameSpy Review Xbox 3"/> Some critics thought the controls had not been improved since the original,<ref name="PALGN Review Xbox"/><ref name="Eurogamer Review Xbox PC"/> and others considered it a downgrade,<ref name="GameSpy Review Xbox 3"/><ref name="1Up Review Xbox"/> though ''GameSpot''{{'}}s [[Jeff Gerstmann]] appreciated the [[Xbox controller]]'s analogue [[Trigger (game controller)|triggers]] when driving.<ref name="GameSpot Review Xbox"/> Some technical problems occasionally persisted, including pop-up, inconsistent frame rates, and poor [[aliasing]],<ref name="GameSpot Review Xbox"/><ref name="Eurogamer Review Xbox PC"/><ref name="1Up Review Xbox"/> and some reviewers bemoaned the lack of significant graphical improvements.<ref name="IGN Review Xbox"/><ref name="PALGN Review Xbox"/>
+
+==== Mobile version ====
+{{Video game reviews
+| title     = Mobile version
+| MC        = 84/100<ref name="MC"/>
+| IGN       = 8.3/10<ref name="IGN Review Mobile"/>
+| PG        = 4.5/5<ref name="Pocket Gamer Review"/>
+| TA        = 5/5<ref name="TouchArcade Review"/>
+| rev1      = ''[[Digital Spy]]''
+| rev1Score = 3/5<ref name="Digital Spy Review"/>
+}}
+
+''San Andreas''{{'}}s mobile version received "generally favorable" reviews according to Metacritic.<ref name="MC"/> ''[[TouchArcade]]''{{'}}s Eli Hodapp considered it "the best the game has ever been",<ref name="TouchArcade Review"/> while ''[[Digital Spy]]''{{'}}s Scott Nichols said it was "easily the worst way to experience" the game, only recommending that players with newer mobile hardware consider purchasing.<ref name="Digital Spy Review"/> Its {{US$|6.99}} price point was praised.<ref name="IGN Review Mobile"/><ref name="TouchArcade Review"/><ref name="Multiplayer.it Review"/><ref name="Eurogamer Review Mobile"/>
+
+Reviewers praised the port's graphical enhancements, including increased draw distance, improved frame rates and load times, and enhanced models, reflections, shadows, and lighting,<ref name="Pocket Gamer Review"/><ref name="TouchArcade Review"/><ref name="Multiplayer.it Review"/><ref name="Eurogamer Review Mobile"/> though ''IGN''{{'}}s Leif Johnson found the textures remained dated<ref name="IGN Review Mobile"/> and some critics encountered technical issues like pop-up.<ref name="Eurogamer Review Mobile"/><ref name="Vandal Review"/> ''Digital Spy''{{'}}s Nichols lauded the addition of mid-mission [[Checkpoint (video gaming)|checkpoints]],<ref name="Digital Spy Review"/> and ''TouchArcade''{{'}}s Hodapp found [[Cloud storage|cloud saves]] the port's best feature.<ref name="TouchArcade Review"/> Responses to the controls were generally positive,<ref name="Pocket Gamer Review"/><ref name="TouchArcade Review"/><ref name="Multiplayer.it Review"/> considered an improvement over the series's previous mobile ports,<ref name="Eurogamer Review Mobile"/> though critics concurred that playing with a [[Game controller|controller]] improved the experience and better imitated the original versions.<ref name="IGN Review Mobile"/><ref name="Pocket Gamer Review"/><ref name="TouchArcade Review"/>
+
+=== Accolades ===
+''San Andreas'' won four of its five nominations at the [[Spike Video Game Awards]], including Game of the Year, Best Action Game, and Best Performance by a Human Male for Jackson as Tenpenny.<ref name="Spike"/> It received four nominations at the [[2nd British Academy Games Awards|British Academy Games Awards]]<ref name="BAFTA"/> and five at the [[Game Developers Choice Awards]];<ref name="GDCA"/> according to ''[[The Guardian]]'', the developers walked out during the latter after winning nothing.<ref name="GDCA Guardian"/> It won five awards at the [[Golden Joystick Awards]], including [[Ultimate Game of the Year]] and Hero and Villain for CJ and Tenpenny, respectively,<ref name="Golden Joystick 2005"/> and received six nominations at the [[8th Annual Interactive Achievement Awards|Interactive Achievement Awards]], of which it won Outstanding Achievement in Soundtrack and Console Action/Adventure Game of the Year.<ref name="AIAS"/>
+
+''San Andreas'' was named 2004's best game by ''[[GamesMaster (magazine)|GamesMaster]]''<ref name="GamesMaster GOTY"/> and runner-up by ''PSM''.<ref name="PSM GOTY"/> It won PlayStation 2 Game of the Year and Best Game Within a Game (for [[Pool (cue sports)|pool]]) from ''Electronic Gaming Monthly'',<ref name="EGM GOTY"/> Best PlayStation 2 Game, Best Action Adventure Game, Best Voice Acting, and Funniest Game from ''GameSpot'',<ref name="GameSpot Best PS2"/><ref name="GameSpot Best Action"/><ref name="GameSpot Best Voice"/><ref name="GameSpot Best Funniest"/> Best Action Game and Best Story for PlayStation 2 from ''IGN'',<ref name="IGN Best Action"/><ref name="IGN Best Story"/> and Best Replay Value and Best Voice Acting from ''PSM''.<ref name="PSM GOTY"/>
+
+{| class="wikitable plainrowheaders sortable" style="font-size: 95%; width: 100%;"
+|-
+! scope="col" | Award
+! scope="col" | Date
+! scope="col" | Category
+! scope="col" | Recipient(s) and nominee(s)
+! scope="col" | Result
+! scope="col" class="unsortable" | {{Refh}}
+|-
+! scope="row" rowspan="5" | [[British Academy Games Awards]]
+| rowspan="5" | [[2nd British Academy Games Awards|1 March 2005]]
+| [[British Academy Games Award for Best Game|Best Game]]
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+| style="text-align:center;" rowspan="5" |<ref name="BAFTA"/>
+|-
+| Action Game
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+| Animation
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+| PS2
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+| ''[[Sunday Times]]'' Reader Award for Games
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+! scope="row" rowspan="2" | [[Game Audio Network Guild Awards]]
+| rowspan="2" | 10 March 2005
+| Best Use of Licensed Music
+| {{sort|Conner|Craig Conner, Tim Sweeney}}
+| {{Won}}
+| style="text-align:center;" rowspan="2" |<ref name="GANG"/>
+|-
+| Best Dialogue
+| {{sort|Houser, Dan|[[Dan Houser]]}}
+| {{Won}}
+|-
+! scope="row" rowspan="4" | [[Game Developers Choice Awards]]
+| rowspan="4" | 9 March 2005
+| [[Game Developers Choice Award for Game of the Year|Best Game]]
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+| style="text-align:center;" rowspan="4" |<ref name="GDCA"/>
+|-
+| Excellence in Audio
+| {{sort|Conner|Craig Conner, Allan Walker}}
+| {{Nominated}}
+|-
+| Game Design
+| {{sort|Benzies|[[Leslie Benzies]], Adam Fowler, Aaron Garbut, [[Sam Houser]], Alexander Roger, Obbe Vermeij}}
+| {{Nominated}}
+|-
+| Writing
+| {{sort|Houser, Dan|[[Dan Houser]], James Worrall}}
+| {{Nominated}}
+|-
+! scope="row" rowspan="6" | [[Golden Joystick Awards]]
+| 5 November 2004
+| Most Wanted Game for Xmas
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+| style="text-align:center;" |<ref name="Golden Joystick 2004"/>
+|-
+| rowspan="5" | 4 November 2005
+| ''[[Nuts (magazine)|Nuts]]''{{'}}s [[Ultimate Game of the Year]]
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+| style="text-align:center;" rowspan="5" |<ref name="Golden Joystick 2005"/>
+|-
+| PlayStation 2 Game of the Year
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+|-
+| Best Game Soundtrack of 2005
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+|-
+| Hero of 2005
+| [[Carl "CJ" Johnson]]
+| {{Won}}
+|-
+| Villain of 2005
+| {{sort|Tenpenny|Officer Tenpenny}}
+| {{Won}}
+|-
+! scope="row" rowspan="6" | [[G-Phoria]]
+| rowspan="6" | 29 July 2005
+| Best Licensed Soundtrack
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+| style="text-align:center;" |<ref name="G-Phoria"/>
+|-
+| Game of the Year
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+| style="text-align:center;" rowspan="5" |<ref name="G-Phoria Nom"/>
+|-
+| Best Action Game
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+| rowspan="2" | Best Voice Performance – Male
+| {{sort|Jackson|[[Samuel L. Jackson]]}}
+| {{Nominated}}
+|-
+| [[Young Maylay]]
+| {{Nominated}}
+|-
+| Favorite Character
+| [[Carl Johnson (Grand Theft Auto)|CJ]]
+| {{Nominated}}
+|-
+! scope="row" rowspan="6" | [[Interactive Achievement Awards]]
+| rowspan="6" | [[8th Annual Interactive Achievement Awards|1 February 2005]]
+| Console [[D.I.C.E. Award for Action Game of the Year|Action]]/[[D.I.C.E. Award for Adventure Game of the Year|Adventure]] Game of the Year
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+| style="text-align:center;" rowspan="6" |<ref name="AIAS"/>
+|-
+| [[D.I.C.E. Award for Outstanding Achievement in Original Music Composition|Outstanding Achievement in Soundtrack]]
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+|-
+| [[D.I.C.E. Award for Game of the Year|Game of the Year]]
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+| Console Game of the Year
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+| [[D.I.C.E. Award for Outstanding Achievement in Game Design|Outstanding Achievement in Game Design]]
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+| [[D.I.C.E. Award for Outstanding Achievement in Story|Outstanding Achievement in Character or Story Development]]
+| ''Grand Theft Auto: San Andreas''
+| {{Nominated}}
+|-
+! scope="row" rowspan="5" | [[Spike Video Game Awards]]
+| rowspan="5" | 14 December 2004
+| Game of the Year
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+| style="text-align:center;" rowspan="4" |<ref name="Spike"/>
+|-
+| Best Performance by a Human Male
+| {{sort|Jackson|[[Samuel L. Jackson]] as Frank Tenpenny}}
+| {{Won}}
+|-
+| Best Action Game
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+|-
+| Best Soundtrack
+| ''Grand Theft Auto: San Andreas''
+| {{Won}}
+|-
+| Designer of the Year
+| {{sort|Houser, Sam|[[Sam Houser]] and [[Rockstar North]]}}
+| {{Nominated}}
+| style="text-align:center;" |<ref name="Spike Nom"/>
+|}
+
+== Sales ==
+''Grand Theft Auto: San Andreas'' sold 4.5&nbsp;million copies in its first week,<ref name="Sales Week"/> outselling ''Vice City'' by 45%.<ref name="Sales Oct"/> In the United States, it sold 2.06&nbsp;million units within six days of release<ref name="US Sales 1"/> and generated {{US$|235 million}} in revenue in its first week;<ref name="US Sales 2"/> it sold 1.5&nbsp;million units in November, totalling 3.6&nbsp;million sales overall. Analysts noted ''San Andreas'' and ''[[Halo 2]]'' led the industry to an 11% annual increase instead of a 21% decrease,<ref name="Sales Nov"/> and collectively accounted for almost 8% of all video game revenue in 2004.<ref name="Sales 2004"/> In the United Kingdom, it sold an estimated 677,000 copies and grossed about {{GBP|24 million}} within two days, setting the record for the most copies sold during a weekend,<ref name="UK Sales 1"/> and over 1&nbsp;million copies and {{GBP|35 million}} in nine days, becoming the country's fast-selling game.<ref name="UK Sales 2"/> In Australia, it sold over 58,000 copies in its opening weekend, becoming the country's eleventh-best-selling game.<ref name="Australia Sales 1"/>
+
+''San Andreas'' generated {{US$|250 million}} by the end of 2004, the highest of the year;<ref name="Sales 2004"/> Michael Pachter of [[Wedbush Morgan]] estimated its [[gross profit]] was around $285 million by December and would reach $400 million in worldwide sales by the year's end.<ref name="WSJ Budget"/> ''San Andreas'' was 2004's best-selling game, with 5.1&nbsp;million copies sold in the United States<ref name="US Sales 2004"/> and over 1.75&nbsp;million in the United Kingdom.<ref name="UK Sales 2004"/> It was 2005's eighth-highest-grossing game in the United States.<ref name="US Sales 2005"/> The game topped the charts upon release in Japan, selling over 227,000 units in its first week.<ref name="Japan Sales 1"/> It was the best-selling game in the United States by April 2008, with over 8.6&nbsp;million units sold,<ref name="Sales 2008"/> the [[best-selling PlayStation 2 game]] with 17.33&nbsp;million units sold by 2009.<ref name="Guinness 2009"/> and one of the [[List of best-selling Xbox video games|best-selling Xbox games]] with 1.26&nbsp;million units sold by 2007.<ref name="Magic Box"/><ref name="ELSPA"/> Worldwide sales reached 12&nbsp;million units by March 2005 (generating approximately {{US$|600&nbsp;million}} in revenue),<ref name="Sales 2005"/><ref name="Sales 2005 Revenue"/> 21.5&nbsp;million by April 2008,<ref name="Sales 2008"/> and 27.5&nbsp;million by September 2011. It is among the [[best-selling games of all time]].<ref name="Sales 2011"/>
+
+== "Hot Coffee" controversy ==
+{{Main|Hot Coffee (minigame)}}
+
+The development team curtailed planned nudity and sexual content to meet the requirements for a "Mature" rating from the [[Entertainment Software Rating Board]] (ESRB); rather than removing the content, they made it inaccessible to players. [[Video game modding|Modders]] discovered the code on the PlayStation 2 release, and modder Patrick Wildenborg found how to enable the code after the Windows release, allowing CJ to have animated [[sexual intercourse]] with his in-game girlfriend. He released this modified code online under the name "Hot Coffee" after the euphemism used in the game, and it was downloaded over one million times within four weeks.<ref name="Eurogamer Hot Coffee"/>
+
+The discovery of "Hot Coffee" resulted in legal backlash for Rockstar and Take-Two; both remained mostly silent on the matter.<ref name="Kushner"/>{{rp|pp=203–208}} The ESRB re-rated the game "[[Adults Only 18+|Adults Only]]" after an investigation,<ref name="IGN AO"/> while the game was banned in Australia until the explicit content was removed.<ref name="Eurogamer Australia"/> Rockstar and Take-Two received a warning from the [[Federal Trade Commission]] for failing to disclose the extent of graphic content present,<ref name="Ars FTC"/> while a [[class action]] lawsuit alleged that the company had misled customers who believed the game's content fell along the lines of a "Mature" rating.<ref name="PG Suit"/><ref name="IGN Suit"/> As a result of "Hot Coffee", the ESRB announced fines of up to {{US$|1&nbsp;million}} for game developers who failed to disclose the extent of their graphic content.<ref name="GamesIndustry ESRB"/>
+
+== Legacy ==
+Critics agreed ''San Andreas'' was among the most significant titles in the [[Sixth generation of video game consoles|sixth generation of console gaming]]<ref name="Best Generation"/> and among the [[best games ever made]].<ref name="Best"/> Rockstar established a new [[Fictional universe|narrative continuity]] for the series with [[seventh-generation consoles]], focusing more on realism and details. With ''[[Grand Theft Auto IV]]'' (2008), the team focused on increasing the amount and detail of buildings,<ref name="Kikizo IV"/> removing dead spots and irrelevant spaces to allow "a more focused experience" than ''San Andreas''.<ref name="OPM UK 2007"/><ref name="IGN IV"/> The focus on realism and depth was continued with ''[[Grand Theft Auto V]]'' (2013), with the development team re-designing Los Santos and excluding San Fierro and Las Venturas; Dan Houser felt that by incorporating three cities into ''San Andreas'', the development team was limited in how effectively they could emulate Los Angeles.<ref name="Edge Garbut"/><ref name="Guardian Houser"/> Garbut felt technical limitations prevented ''San Andreas'' from properly capturing Los Angeles, making it feel like a "backdrop or a game level with pedestrians randomly milling about" and effectively deeming it as a jumping-off point for the [[Development of Grand Theft Auto V|development of ''Grand Theft Auto V'']].<ref name="Game Informer Garbut"/>
+
+Several moments from the game became common [[internet meme]]s, such as {{visible anchor|Big Smoke's extensive [[fast food]] order|Big Smoke's order}} in 2016<ref name="Kotaku Food"/><ref name="Digital Spy Food"/><ref name="PCGamesN Food"/> and one of CJ's first lines—"{{visible anchor|Ah shit, here we go again}}"—in April 2019.<ref name="Vice Meme"/><ref name="Time Meme"/><ref name="IGN Meme"/> An early mission, "Wrong Side of the Tracks", became notable for its difficulty; Big Smoke's dialogue upon failing the mission—"All we had to do, was follow the damn train, CJ!"—was considered an iconic catchphrase<ref name="Destructoid Train"/><ref name="TheGamer Train"/><ref name="GamesRadar Train"/> and later referenced in ''Grand Theft Auto V''.<ref name="Game Rant Train"/> Modders have been known to frequently insert CJ into other games, such as ''[[Dark Souls (video game)|Dark Souls]]'' (2011), ''[[The Legend of Zelda: Breath of the Wild]]'' (2017), and ''[[Street Fighter 6]]'' (2023).<ref name="PC Gamer Dark Souls"/><ref name="PC Gamer CJ"/><ref name="Game Informer Zelda"/> Several fan-made narrative mods have been released, including prequels,<ref name="GamesRadar 1991"/><ref name="iXBT Stories"/> alternative perspectives,<ref name="PC Gamer Blue Blood"/> and different locations like ''Manhunt''{{'}}s Carcer City.<ref name="PC Gamer Carcer"/>
+
+=== Ports ===
+''Grand Theft Auto: San Andreas'' was released for Windows and the Xbox on 7 and 10{{nbsp}}June 2005 in North America and Europe, respectively,<ref name="IGN Xbox Date"/> supporting higher screen resolutions, draw distance, and more detailed textures.<ref name="GamesRadar Xbox"/> The Xbox version was released for the [[Xbox 360]] on 20{{nbsp}}October 2008 as part of [[Xbox Originals]],<ref name="Xbox Originals"/> and the PlayStation 2 version for the [[PlayStation 3]] on 11 December 2012 as part of [[PS2 Classics]].<ref name="PS2 Classics"/> The Xbox Originals release was replaced with an enhanced version as part of the game's tenth anniversary on 26{{nbsp}}October 2014, featuring higher resolution, enhanced draw distance, a new menu interface, and [[Achievement (video gaming)|achievements]];<ref name="Xbox 360"/> the PS2 Classics release was replaced with this enhanced version on 1{{nbsp}}December 2015,<ref name="PS3"/> and the PlayStation 2 version was released for the [[PlayStation 4]] on 5{{nbsp}}December.<ref name="PS4"/>
+
+''San Andreas'' was bundled with predecessors ''Grand Theft Auto III'' and ''Vice City'' in a compilation titled ''[[Grand Theft Auto: The Trilogy]]'', released in North America for the Xbox on 8{{nbsp}}October 2005,<ref name="Trilogy"/> PlayStation 2 on 4{{nbsp}}December 2006,<ref name="Trilogy PS2"/> and [[Mac OS X]] on 12{{nbsp}}November 2010.<ref name="Mac"/> A [[remastered]] version of ''The Trilogy'' subtitled ''[[Grand Theft Auto: The Trilogy – The Definitive Edition|The Definitive Edition]]'' was released for the [[Nintendo Switch]], PlayStation 4, [[PlayStation 5]], Windows, [[Xbox One]], and [[Xbox Series X/S]] on 11{{nbsp}}November 2021,<ref name="Definitive Edition"/> and for Android and iOS on 14 December 2023.<ref name="Definitive Edition 3"/> Existing versions of the game were removed from digital retailers in preparation for ''The Definitive Edition'',<ref name="Definitive Edition"/> but later restored as a bundle on the Rockstar Store.<ref name="Definitive Edition 2"/>
+
+A mobile port of ''San Andreas'', developed by War Drum Studios,<ref name="Eurogamer War Drum"/> was released for [[iOS]] devices on 12{{nbsp}}December 2013,<ref name="iOS"/> [[Android (operating system)|Android]] on 19{{nbsp}}December,<ref name="Android"/> [[Windows Phone]] on 27{{nbsp}}January 2014,<ref name="Windows Phone"/> and [[Fire OS]] on 15{{nbsp}}May 2014.<ref name="Fire OS"/> The port featured updated graphics, shadows, and character and vehicle models.<ref name="IGN Review Mobile" /> In October 2021, [[Meta Platforms]] announced a [[virtual reality]] (VR) version of the game was in development for the [[Quest&nbsp;2]]<ref name="Oculus PC Gamer"/> by Video Games Deluxe.<ref name="Oculus VG"/> Following the release of the [[Meta Quest 3]] in October 2023, players questioned the status of the VR version and some suspected it may have been quietly cancelled.<ref name="Oculus Kotaku"/><ref name="Oculus Eurogamer"/> Meta said the port was "on hold indefinitely" in August 2024.<ref name="Oculus Verge"/>
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{Reflist|refs=
+
+<!-- Gameplay -->
+
+<ref name="Annandale">{{cite book |chapter=The Subversive Carnival of ''Grand Theft Auto: San Andreas'' |last=Annandale |first=David |pages=88–103 |title=The Meaning and Culture of Grand Theft Auto: Critical Essays |editor-last=Garrelts |editor-first=Nate |publisher=[[McFarland & Company]] |year=2006 |isbn=978-0-786-42822-9 }}</ref>
+
+<ref name="BradyGames">{{cite book |title=Grand Theft Auto: San Andreas – Official Strategy Guide |last1=Bogenn |first1=Tim |last2=Barba |first2=Rick |year=2004 |publisher=[[BradyGames]] |isbn=978-0-744-00429-8 }}</ref>
+
+<ref name="CNET Review">{{cite web |url=https://www.cnet.com/reviews/grand-theft-auto-san-andreas-review/ |title=''Grand Theft Auto: San Andreas'' review |last=Rhodie |first=Scott |work=[[CNET]] |publisher=[[Red Ventures]] |date=9 December 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20210226171315/https://www.cnet.com/reviews/grand-theft-auto-san-andreas-review/ |archivedate=26 February 2021 |url-status=live }}</ref>
+
+<ref name="Eurogamer Las Venturas">{{cite web |url=https://www.eurogamer.net/news151004sanandyshots |title=''GTA San Andreas'': First Las Venturas shots |last=Bramwell |first=Tom |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=15 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109095845/https://www.eurogamer.net/news151004sanandyshots |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="Eurogamer Map">{{cite web |url=https://www.eurogamer.net/gta-san-andreas-leave-los-santos-las-venturas-open-up-explore-map-8043 |title=How to leave Los Santos and fully explore the map in ''GTA San Andreas'' |last=Leguiza |first=Santiago |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=11 November 2021 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220429140729/https://www.eurogamer.net/gta-san-andreas-leave-los-santos-las-venturas-open-up-explore-map-8043 |archivedate=29 April 2022 |url-status=live }}</ref>
+
+<ref name="Eurogamer Preview">{{cite web |url=https://www.eurogamer.net/news140904sanandreas |title=Guns, planes, lorries – more ''San Andreas'' details |last=Bramwell |first=Tom |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=14 September 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220705013959/https://www.eurogamer.net/news140904sanandreas |archivedate=5 July 2022 |url-status=live }}</ref>
+
+<ref name="Eurogamer Preview 2">{{cite web |url=https://www.eurogamer.net/p-gtasanandreas-ps2-oct2004 |title=''Grand Theft Auto: San Andreas'' |last=Bramwell |first=Tom |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=23 June 2005 |accessdate=11 March 2024 |archiveurl=https://web.archive.org/web/20230601115517/https://www.eurogamer.net/p-gtasanandreas-ps2-oct2004 |archivedate=1 June 2023 |url-status=live }}</ref>
+
+<ref name="GamesRadar Stealth">{{cite web |url=https://www.gamesradar.com/exclusive-gta-san-andreas-stealth-mode-revealed/ |title=Exclusive! ''GTA San Andreas'' stealth mode revealed |work=[[GamesRadar]] |publisher=[[Future plc]] |date=17 August 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20170315003850/https://www.gamesradar.com/exclusive-gta-san-andreas-stealth-mode-revealed/ |archivedate=15 March 2017 |url-status=live }}</ref>
+
+<ref name="IGN Diets">{{cite web |url=https://www.ign.com/articles/2004/07/27/good-eats-the-diets-of-san-andreas |title=Good Eats: The Diets of ''San Andreas'' |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=28 July 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20150909184711/https://www.ign.com/articles/2004/07/27/good-eats-the-diets-of-san-andreas |archivedate=9 September 2015 |url-status=live }}</ref>
+
+<ref name="IGN Style">{{cite web |url=https://www.ign.com/articles/2004/08/13/compulsive-shopping-the-style-of-san-andreas |title=Compulsive Shopping: The Style of ''San Andreas'' |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=14 August 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20151025004952/https://www.ign.com/articles/2004/08/13/compulsive-shopping-the-style-of-san-andreas |archivedate=25 October 2015 |url-status=live }}</ref>
+
+<ref name="PSM2 Preview">{{cite magazine |title=''Grand Theft Auto: San Andreas'' |issue=53 |pages=28–35 |magazine=[[PSM2]] |publisher=[[Future plc]] |date=October 2004 }}</ref>
+
+<ref name="VG247 Weapons">{{cite web |url=https://www.vg247.com/gta-san-andreas-best-weapons |title=The best weapons in ''GTA San Andreas'' – Handguns, rocket launchers, and more |last=Broadwell |first=Josh |work=[[VG247]] |publisher=[[Gamer Network]] |date=11 November 2021 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20211111135301/https://www.vg247.com/gta-san-andreas-best-weapons |archivedate=11 November 2021 |url-status=live }}</ref>
+
+<!-- Development -->
+
+<ref name="1Up Houser">{{cite web |url=https://www.1up.com/features/sam-houser-interview |title=Sam Houser Interview |last=Mielke |first=James |work=[[GMR (magazine)|GMR]] |publisher=[[Ziff Davis]] |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20121017222203/https://www.1up.com/features/sam-houser-interview |archivedate=17 October 2012 }}</ref>
+
+<ref name="CVG Preview">{{cite magazine |title=50 Reasons Why ''Grand Theft Auto: San Andreas'' is Gangster Nº1 |magazine=[[Computer and Video Games]] |issue=276 |pages=22–25 |publisher=[[Dennis Publishing]] |date=September 2004 |editor-last=Simmons |editor-first=Alex }}</ref>
+
+<ref name="Edge Houser">{{cite magazine |url=http://www.edge-online.com/features/the-making-of-grand-theft-auto-vice-city/3 |title=The Making Of ''Grand Theft Auto: Vice City'' |magazine=[[Edge (magazine)|Edge]] |publisher=[[Future plc]] |date=7 December 2012 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20121210064847/http://www.edge-online.com/features/the-making-of-grand-theft-auto-vice-city/3 |archivedate=10 December 2012 }}</ref>
+
+<ref name="EGM Interview">{{cite magazine |title=Afterthoughts: ''Grand Theft Auto: San Andreas'' |magazine=[[Electronic Gaming Monthly]] |issue=187 |pages=106, 108 |publisher=[[Ziff Davis]] |date=January 2005 |editor-last=Hsu |editor-first=Dan }}</ref>
+
+<ref name="EGM Preview">{{cite magazine |title=Upping the Ante |last=Zuniga |first=Todd |magazine=[[Electronic Gaming Monthly]] |issue=184 |pages=112–122 |publisher=[[Ziff Davis]] |date=November 2004 |editor-last=Hsu |editor-first=Dan }}</ref>
+
+<ref name="Engadget iOS">{{cite web |url=https://www.engadget.com/2013-12-12-daily-iphone-app-grand-theft-auto-san-andreas-is-just-as-fantas.html |title=Daily iPhone App: ''Grand Theft Auto San Andreas'' is just as fantastic as you remember |last=Wehner |first=Mike |work=[[Engadget]] |publisher=[[Yahoo! Inc. (2017–present)|Yahoo! Inc.]] |date=13 December 2013 |accessdate=23 November 2025 |archiveurl=https://web.archive.org/web/20210824181713/https://www.engadget.com/2013-12-12-daily-iphone-app-grand-theft-auto-san-andreas-is-just-as-fantas.html |archivedate=24 August 2021 |url-status=live }}</ref>
+
+<ref name="Eurogamer Garbut">{{cite web |url=https://www.eurogamer.net/interview-13072004-gtaaarongarbut |title=Rockstar Speaks: The Art of ''GTA San Andreas'' |last=Garratt |first=Patrick |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=14 July 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20221009075924/https://www.eurogamer.net/interview-13072004-gtaaarongarbut |archivedate=9 October 2022 |url-status=live }}</ref>
+
+<ref name="Eurogamer Houser">{{cite web |url=https://www.eurogamer.net/interview-120704-gtadanhouser |title=Dan Houser: the ''GTA San Andreas'' interview |last=Garratt |first=Patrick |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=14 July 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220817073955/https://www.eurogamer.net/interview-120704-gtadanhouser |archivedate=17 August 2022 |url-status=live }}</ref>
+
+<ref name="Game Informer Cover">{{cite magazine |title=Rising in the West |pages=42–51 |volume=14 |issue=134 |editor-last=McNamara |editor-first=Andy |magazine=[[Game Informer]] |date=June 2004 }}</ref>
+
+<ref name="Gamepressure True 3">{{cite web |url=https://www.gamepressure.com/editorials/rap-riots-and-gangs-of-la-true-story-behind-gta-san-andreas/z723b-3 |title=Rap, Riots, and Gangs of LA – True Story Behind ''GTA: San Andreas'' |page=3 |last=Matusiak |first=Darius |work=[[Gamepressure]] |publisher=[[Webedia]] |date=6 February 2020 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20200803235319/https://www.gamepressure.com/editorials/rap-riots-and-gangs-of-la-true-story-behind-gta-san-andreas/z723b-3 |archivedate=3 August 2020 |url-status=live }}</ref>
+
+<ref name="Gamepressure True 4">{{cite web |url=https://www.gamepressure.com/editorials/rap-riots-and-gangs-of-la-true-story-behind-gta-san-andreas/z723b-4 |title=Rap, Riots, and Gangs of LA – True Story Behind ''GTA: San Andreas'' |page=4 |last=Matusiak |first=Darius |work=[[Gamepressure]] |publisher=[[Webedia]] |date=6 February 2020 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20200804001246/https://www.gamepressure.com/editorials/rap-riots-and-gangs-of-la-true-story-behind-gta-san-andreas/z723b-4 |archivedate=4 August 2020 |url-status=live }}</ref>
+
+<ref name="GameSpot Q&A">{{cite web |url=https://www.gamespot.com/articles/grand-theft-auto-san-andreas-qanda-under-the-hood/1100-6126774/ |title=''Grand Theft Auto: San Andreas'' Q&A – Under the Hood |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=17 May 2006 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20131029150920/https://www.gamespot.com/articles/grand-theft-auto-san-andreas-qanda-under-the-hood/1100-6126774/ |archivedate=29 October 2013 |url-status=live }}</ref>
+
+<ref name="GameSpot Tales">{{cite web |url=https://www.gamespot.com/articles/grand-theft-auto-san-andreas-weekend-update-tales-from-san-fierro/1100-6110172/ |title=''Grand Theft Auto: San Andreas'' Weekend Update: Tales From San Fierro |last=Torres |first=Ricardo |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=11 October 2004 |accessdate=19 November 2024 |archiveurl=https://web.archive.org/web/20200626150603/https://www.gamespot.com/articles/grand-theft-auto-san-andreas-weekend-update-tales-from-san-fierro/1100-6110172/ |archivedate=26 June 2020 |url-status=live }}</ref>
+
+<ref name="GameSpot Talking">{{cite web |url=https://www.gamespot.com/articles/grand-theft-auto-san-andreas-weekend-update-street-talking/1100-6111263/ |title=''Grand Theft Auto: San Andreas'' Weekend Update: Street Talking |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=26 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20151106072456/https://www.gamespot.com/articles/grand-theft-auto-san-andreas-weekend-update-street-talking/1100-6111263/ |archivedate=6 November 2015 |url-status=live }}</ref>
+
+<ref name="GameSpy Maylay">{{cite web |url=http://planetgrandtheftauto.gamespy.com/View.php?view=Articles.Detail&id=18 |title=Young MayLay Speaks |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=6 July 2005 |accessdate=15 January 2014 |archiveurl=https://web.archive.org/web/20140416192103/http://planetgrandtheftauto.gamespy.com/View.php?view=Articles.Detail&id=18 |archivedate=16 April 2014 }}</ref>
+
+<ref name="GamesRadar Houser">{{cite web |url=https://www.gamesradar.com/sam-houser-gta-iv-crazier-than-ever/3/ |title=Sam Houser: ''GTA IV'' crazier than ever |work=[[GamesRadar+]] |publisher=[[Future plc]] |date=12 March 2008 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20181107123636/https://www.gamesradar.com/sam-houser-gta-iv-crazier-than-ever/3/ |archivedate=7 November 2018 |url-status=live }}</ref>
+
+<ref name="GamesRadar Reveal">{{cite web |url=https://www.gamesradar.com/gta-san-andreas-to-be-unveiled-in-june/ |title=''GTA: San Andreas'' to be unveiled in June |work=[[GamesRadar+]] |publisher=[[Future plc]] |date=16 April 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20151012191017/https://www.gamesradar.com/gta-san-andreas-to-be-unveiled-in-june/ |archivedate=12 October 2015 |url-status=live }}</ref>
+
+<ref name="GamesTM Preview">{{cite journal |title=''Grand Theft Auto: San Andreas'' |journal=[[GamesTM]] |issue=15 |pages=66–77 |publisher=[[Paragon Publishing]] |date=July 2004 }}</ref>
+
+<ref name="Guardian Defining">{{cite web |url=https://www.theguardian.com/technology/gallery/2013/sep/13/grand-theft-auto-defining-moments |title=''Grand Theft Auto''{{'}}s 10 defining moments – in pictures |last=McDonald |first=Kelly |work=[[The Guardian]] |date=14 September 2013 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20130914153207/https://www.theguardian.com/technology/gallery/2013/sep/13/grand-theft-auto-defining-moments |archivedate=14 September 2013 |url-status=live }}</ref>
+
+<ref name="Guinness 2009">{{cite book |title=Guinness World Records 2009 Gamer's Edition |page=108 |editor-last=Glenday |editor-first=Craig |publisher=[[Guinness World Records]] |date=February 2009 |isbn=978-1-904-99445-9 }}</ref>
+
+<ref name="Hardcore Gamer Movies">{{cite web |url=https://hardcoregamer.com/features/member/member-grand-theft-auto-san-andreas/246459/ |title=Member ''Grand Theft Auto: San Andreas''{{-?}} |last=Shive |first=Chris |work=Hardcore Gamer |date=23 February 2017 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20211026232040/https://hardcoregamer.com/features/member/member-grand-theft-auto-san-andreas/246459/ |archivedate=26 October 2021 |url-status=live }}</ref>
+
+<ref name="IGN First Look">{{cite web |url=https://www.ign.com/articles/2004/05/20/san-andreas-first-look |title=''San Andreas'' – First-Look |last=Sulic |first=Ivan |work=[[IGN]] |publisher=[[Ziff Davis]] |date=20 May 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20150925045628/https://www.ign.com/articles/2004/05/20/san-andreas-first-look |archivedate=25 September 2015 |url-status=live }}</ref>
+
+<ref name="Kikizo Houser">{{cite web |url=http://archive.videogamesdaily.com/previews/ps2/grandtheftauto_sanandreas.asp |title=PS2 Preview: ''Grand Theft Auto: San Andreas'' |last=Doree |first=Adam |work=Kikizo |date=8 June 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20100120073547/http://archive.videogamesdaily.com/previews/ps2/grandtheftauto_sanandreas.asp |archivedate=20 January 2010 |url-status=live }}</ref>
+
+<ref name="Knight Movies">{{cite encyclopedia |title=Los Angeles, California |last=Knight |first=Gladys L. |encyclopedia=Pop Culture Places: An Encyclopedia of Places in American Popular Culture |year=2014 |volume=1 |page=538 |isbn=978-0-313-39883-4 }}</ref>
+
+<ref name="Kushner">{{cite book |title=[[Jacked: The Outlaw Story of Grand Theft Auto]] |last=Kushner |first=David |authorlink=David Kushner (writer) |publisher=[[John Wiley & Sons]] |year=2012 |isbn=978-0-470-93637-5 }}</ref>
+
+<ref name="Manual">{{cite book |title=San Andreas: Local Business Advertiser's Guide |type=game manual |publisher=[[Rockstar North]] |year=2004 |url=https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/manuals/en_us/GTATrilogy_GTASA_PS2_Manual_M01.pdf |archiveurl=https://web.archive.org/web/20191212013350/https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/manuals/en_us/GTATrilogy_GTASA_PS2_Manual_M01.pdf |archivedate=12 December 2019 |url-status=live }}</ref>
+
+<ref name="MTV Soundtrack">{{cite web |url=https://www.mtv.com/news/uualiz/axl-rose-game-charlie-murphy-lend-voices-to-san-andreas |title=Axl Rose, Game, Charlie Murphy Lend Voices to ''San Andreas'' |website=[[MTV.com]] |publisher=[[Paramount Media Networks]] |date=26 October 2004 |access-date=23 March 2024 |archive-url=https://web.archive.org/web/20221126163232/https://www.mtv.com/news/uualiz/axl-rose-game-charlie-murphy-lend-voices-to-san-andreas |archive-date=26 November 2022 |url-status=dead }}</ref>
+
+<ref name="OPM Interview">{{cite magazine |title=Building ''San Andreas'' |magazine=[[Official U.S. PlayStation Magazine]] |issue=88 |pages=126 |publisher=[[Ziff Davis]] |date=January 2005 |editor-last=Davison |editor-first=John }}</ref>
+
+<ref name="OPM Maylay">{{cite magazine |title=''GTA: San Andreas'' |last=Zuniga |first=Todd |magazine=[[Official U.S. PlayStation Magazine]] |issue=86 |pages=40–41 |publisher=[[Ziff Davis]] |date=November 2004 |editor-last=Davison |editor-first=John }}</ref>
+
+<ref name="OPM US Preview">{{cite magazine |title=Gangster Construction Set |magazine=[[Official U.S. PlayStation Magazine]] |issue=85 |pages=48–49 |publisher=[[Ziff Davis]] |date=October 2004 |editor-last=Davison |editor-first=John }}</ref>
+
+<ref name="OPS2 AU Preview">{{cite journal |title=And Then There Were Three |last=Young |first=Richie |journal=[[PlayStation 2 Official Magazine – Australia]] |issue=29 |pages=35–50 |publisher=[[Future plc]] |date=July 2004 }}</ref>
+
+<ref name="OPS2 UK Preview">{{cite journal |title=''GTA: San Andreas'' |last=Pierce |first=Stephen |journal=[[Official UK PlayStation 2 Magazine]] |issue=48 |pages=35–49 |publisher=[[Future plc]] |date=July 2004 }}</ref>
+
+<ref name="OXM">{{cite magazine |title=The Prodigal Gangster Returns |last=Price |first=Tom |editor-last=Smith |editor-first=Rob |pages=36–45 |magazine=[[Official Xbox Magazine]] |issue=45 |publisher=[[Future plc]] |date=June 2005 |issn=1534-7850 <!-- barcode: 071658015036 --> }}</ref>
+
+<ref name="PC Gamer Movies">{{cite web |url=https://www.pcgamer.com/forget-red-dead-redemption-2-grand-theft-auto-san-andreas-is-rockstars-most-ambitious-project/ |title=Forget ''Red Dead Redemption 2'', ''Grand Theft Auto: San Andreas'' is Rockstar's most ambitious project |last=Kelly |first=Andy |work=[[PC Gamer]] |publisher=[[Future plc]] |date=11 November 2019 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20191111172520/https://www.pcgamer.com/forget-red-dead-redemption-2-grand-theft-auto-san-andreas-is-rockstars-most-ambitious-project/ |archivedate=11 November 2019 |url-status=live }}</ref>
+
+<ref name="PC PowerPlay Preview">{{cite journal |title=Welcome to the Jungle |last=Best |first=Timothy C. |journal=[[PC PowerPlay]] |issue=113 |pages=52–59 |publisher=[[Future plc]] |date=June 2005 }}</ref>
+
+<ref name="PSM Preview">{{cite journal |title=Seeing Is Believing! |journal=PSM |issue=87 |pages=54–61 |publisher=[[Future plc]] |date=August 2004 |editor-last=Slate |editor-first=Chris }}</ref>
+
+<ref name="Rolling Stone Retrospective">{{cite magazine |url=https://www.rollingstone.com/culture/rs-gaming/grand-theft-auto-san-andreas-20-year-retrospective-1235143587/ |title=20 Years Ago, ''Grand Theft Auto: San Andreas'' Perfectly Re-Created Nineties Los Angeles |last=Adeniji |first=Ade |magazine=[[Rolling Stone]] |publisher=[[Penske Media Corporation]] |date=26 October 2024 |accessdate=31 October 2024 }}</ref>
+
+<ref name="WSJ Budget">{{cite web |url=https://www.wsj.com/articles/SB110243451698593254 |title=Videogame Publishers Place Big Bets on Big-Budget Games |last1=Prince |first1=Marcelo |last2=Roth |first2=Peter |work=[[The Wall Street Journal]] |date=21 December 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20160120024629/https://www.wsj.com/articles/SB110243451698593254 |archivedate=20 January 2016 |url-status=live |url-access=subscription }}</ref>
+
+<!-- Release and promotion -->
+
+<ref name="Beat Mural">{{cite web |url=https://beat.com.au/top-ten-places-in-melbourne-according-to-private-function/ |title=The best things to do in Melbourne, according to Private Function |last=Penney |first=Chris |work=[[Beat Magazine|Beat]] |publisher=Furst Media |date=26 August 2020 |accessdate=15 January 2024 |archiveurl=https://web.archive.org/web/20200902191508/https://beat.com.au/top-ten-places-in-melbourne-according-to-private-function/ |archivedate=2 September 2020 |url-status=live }}</ref>
+
+<ref name="Capcom Japan">{{cite web |url=http://www.gtasa.jp/index2.html |title=''Grand Theft Auto San Andreas'' Japan Official Site |publisher=[[Rockstar Games]] |date=25 January 2007 |accessdate=18 January 2024 |archiveurl=https://web.archive.org/web/20070128062019/http://www.gtasa.jp/index2.html |archivedate=28 January 2007 }}</ref>
+
+<ref name="Eurogamer Delay">{{cite web |url=https://www.eurogamer.net/news100904sanandreas |title=''GTA: San Andreas'' delayed, PC version confirmed |last=Bramwell |first=Tom |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=10 September 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220412154203/https://www.eurogamer.net/news100904sanandreas |archivedate=12 April 2022 |url-status=live }}</ref>
+
+<ref name="GamesIndustry Leak">{{cite web |url=https://www.gamesindustry.biz/grand-theft-auto-san-andreas-leaked-by-pirates |title=''Grand Theft Auto San Andreas'' leaked by pirates |last=Fahey |first=Rob |work=[[GamesIndustry.biz]] |publisher=[[Gamer Network]] |date=21 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220918180814/https://www.gamesindustry.biz/grand-theft-auto-san-andreas-leaked-by-pirates |archivedate=18 September 2022 |url-status=live }}</ref>
+
+<ref name="GameSpot Date">{{cite web |url=https://www.gamespot.com/articles/gta-san-andreas-confirmed-and-dated/1100-6090315/ |title=''GTA: San Andreas'' confirmed and dated |last=Calvert |first=Justin |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=2 March 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20151018143148/https://www.gamespot.com/articles/gta-san-andreas-confirmed-and-dated/1100-6090315/ |archivedate=18 October 2015 |url-status=live }}</ref>
+
+<ref name="GameSpot Introduction">{{cite web |url=https://www.gamespot.com/articles/grand-theft-auto-san-andreas-prologue-impressions/1100-6113898/ |title=''Grand Theft Auto: San Andreas'' Prologue Impressions |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=23 November 2004 |accessdate=23 January 2024 |archiveurl=https://web.archive.org/web/20210221125642/https://www.gamespot.com/articles/grand-theft-auto-san-andreas-prologue-impressions/1100-6113898/ |archivedate=21 February 2021 |url-status=live }}</ref>
+
+<ref name="GameSpot Patent">{{cite web |url=https://www.gamespot.com/articles/take-two-registers-more-grand-theft-autos/1100-6086492/ |title=Take-Two registers more ''Grand Theft Auto''s |last=Thorsen |first=Tor |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=14 January 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20180513213201/https://www.gamespot.com/articles/take-two-registers-more-grand-theft-autos/1100-6086492/ |archivedate=13 May 2018 |url-status=live }}</ref>
+
+<ref name="GameSpot Preview">{{cite web |url=https://www.gamespot.com/articles/grand-theft-auto-san-andreas-feature-preview/1100-6103822/ |title=''Grand Theft Auto: San Andreas'' Feature Preview |last1=Torres |first1=Ricardo |last2=Kasavin |first2=Greg |authorlink2=Greg Kasavin |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=30 July 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20170427162552/https://www.gamespot.com/articles/grand-theft-auto-san-andreas-feature-preview/1100-6103822/ |archivedate=27 April 2017 |url-status=live }}</ref>
+
+<ref name="GameSpot Xbox">{{cite web |url=https://www.gamespot.com/articles/grand-theft-auto-san-andreas-xbox-hands-on/1100-6125068/ |title=''Grand Theft Auto: San Andreas'' Xbox Hands-On |last=Shoemaker |first=Brad |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=17 May 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20161117085310/https://www.gamespot.com/articles/grand-theft-auto-san-andreas-xbox-hands-on/1100-6125068/ |archivedate=17 November 2016 |url-status=live }}</ref>
+
+<ref name="GameSpy Introduction">{{cite web |url=http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/568157p1.html |title=''GTA: SA – The Introduction'' |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=22 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041125011125/http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/568157p1.html |archivedate=25 November 2004 |url-status=live }}</ref>
+
+<ref name="GameSpy Soundtrack">{{cite web |url=http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/568514p1.html |title=''Grand Theft Auto: San Andreas'' – The Soundtrack and Bonus DVD |last=Lopez |first=Miguel |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=23 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041130182239/http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/568514p1.html |archivedate=30 November 2004 |url-status=live }}</ref>
+
+<ref name="GamesRadar Cover">{{cite web |url=https://www.gamesradar.com/new-gta-san-andreas-artwork-exposed/ |title=New ''GTA: San Andreas'' artwork exposed |work=[[GamesRadar]] |publisher=[[Future plc]] |date=10 July 2004 |accessdate=18 January 2024 |archiveurl=https://web.archive.org/web/20211028194836/https://www.gamesradar.com/new-gta-san-andreas-artwork-exposed/ |archivedate=28 October 2021 |url-status=live }}</ref>
+
+<ref name="IGN Date">{{cite web |url=https://www.ign.com/articles/2003/10/30/gta-4-date-confirmed |title=''GTA 4'' Date Confirmed |last=Perry |first=Douglass C. |work=[[IGN]] |publisher=[[Ziff Davis]] |date=31 October 2003 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20141025134514/https://www.ign.com/articles/2003/10/30/gta-4-date-confirmed |archivedate=25 October 2014 |url-status=live }}</ref>
+
+<ref name="IGN Desktop">{{cite web |url=https://www.ign.com/articles/2004/09/13/official-san-andreas-desktop-media |title=Official ''San Andreas'' Desktop Media |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=13 September 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109055206/https://www.ign.com/articles/2004/09/13/official-san-andreas-desktop-media |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="IGN E3">{{cite web |url=https://www.ign.com/articles/2004/05/12/e3-2004-grand-theft-auto-san-andreas-details |title=E3 2004: ''Grand Theft Auto: San Andreas'' Details |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=13 May 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20160331201911/https://www.ign.com/articles/2004/05/12/e3-2004-grand-theft-auto-san-andreas-details |archivedate=31 March 2016 |url-status=live }}</ref>
+
+<ref name="IGN Introduction">{{cite web |url=https://www.ign.com/articles/2005/11/02/grand-theft-auto-san-andreas-special-edition-dvd-sunday-driver-the-introduction |title=''Grand Theft Auto: San Andreas'' Special Edition DVD (''Sunday Driver'', ''The Introduction'') |last=Carle |first=Chris |work=[[IGN]] |publisher=[[Ziff Davis]] |date=3 November 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20121115124138/https://www.ign.com/articles/2005/11/02/grand-theft-auto-san-andreas-special-edition-dvd-sunday-driver-the-introduction |archivedate=15 November 2012 |url-status=live }}</ref>
+
+<ref name="IGN Leak">{{cite web |url=https://www.ign.com/articles/2004/10/21/rockstar-speaks-on-san-andreas-piracy |title=Rockstar Speaks on ''San Andreas'' Piracy |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=21 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20150111183817/https://www.ign.com/articles/2004/10/21/rockstar-speaks-on-san-andreas-piracy |archivedate=11 January 2015 |url-status=live }}</ref>
+
+<ref name="IGN Soundtrack 1">{{cite web |url=https://www.ign.com/articles/2004/09/02/san-andreas-soundtrack |title=''San Andreas'' Soundtrack |last=Lewis |first=Ed |work=[[IGN]] |publisher=[[Ziff Davis]] |date=3 September 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109020541/https://www.ign.com/articles/2004/09/02/san-andreas-soundtrack |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="IGN Soundtrack 2">{{cite web |url=https://www.ign.com/articles/2004/10/16/grand-theft-radio-the-soundtracks-of-san-andreas |title=''Grand Theft'' Radio: The Soundtracks of ''San Andreas'' |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=16 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20151008214846/https://www.ign.com/articles/2004/10/16/grand-theft-radio-the-soundtracks-of-san-andreas |archivedate=8 October 2015 |url-status=live }}</ref>
+
+<ref name="IGN Soundtrack 3">{{cite web |url=https://www.ign.com/articles/2004/11/23/grand-theft-auto-san-andreas-official-soundtrack-double-cd |title=''Grand Theft Auto: San Andreas Official Soundtrack'' Double CD |last=D. |first=Spence |work=[[IGN]] |publisher=[[Ziff Davis]] |date=24 November 2004 |accessdate=18 January 2024 |archiveurl=https://web.archive.org/web/20240117230826/https://www.ign.com/articles/2004/11/23/grand-theft-auto-san-andreas-official-soundtrack-double-cd |archivedate=17 January 2024 |url-status=live }}</ref>
+
+<ref name="IGN Soundtrack 4">{{cite web |url=https://www.ign.com/articles/2004/12/06/grand-theft-auto-san-andreas-official-soundtrack-box-set-first-impressions |title=''Grand Theft Auto: San Andreas Official Soundtrack'' Box Set – First Impressions |last=D. |first=Spence |work=[[IGN]] |publisher=[[Ziff Davis]] |date=7 December 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20140805184708/https://www.ign.com/articles/2004/12/06/grand-theft-auto-san-andreas-official-soundtrack-box-set-first-impressions |archivedate=5 August 2014 |url-status=live }}</ref>
+
+<ref name="IGN Trailer">{{cite web |url=https://www.ign.com/articles/2004/08/21/official-san-andreas-trailer-uncut |title=Official ''San Andreas'' Trailer: Uncut |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=21 August 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20180415101102/https://www.ign.com/articles/2004/08/21/official-san-andreas-trailer-uncut |archivedate=15 April 2018 |url-status=live }}</ref>
+
+<ref name="IGN Trailer 2">{{cite web |url=https://www.ign.com/articles/2004/09/25/new-gta-san-andreas-trailer |title=New ''GTA: San Andreas'' Trailer |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=26 September 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20211028175252/https://www.ign.com/articles/2004/09/25/new-gta-san-andreas-trailer |archivedate=28 October 2021 |url-status=live }}</ref>
+
+<ref name="IGN Website">{{cite web |url=https://www.ign.com/articles/2004/08/23/gta-san-andreas-site-opens |title=''GTA: San Andreas'' Site Opens |last=Adams |first=David |work=[[IGN]] |publisher=[[Ziff Davis]] |date=24 August 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20211028175251/https://www.ign.com/articles/2004/08/23/gta-san-andreas-site-opens |archivedate=28 October 2021 |url-status=live }}</ref>
+
+<ref name="Joystiq Japan">{{cite web |url=http://www.joystiq.com/2006/11/14/capcom-bringing-gta-san-andreas-to-japan/ |title=Capcom bringing ''GTA San Andreas'' to Japan |last=Ransom-Wiley |first=James |work=[[Joystiq]] |publisher=[[AOL]] |date=14 November 2006 |accessdate=18 January 2024 |archiveurl=https://web.archive.org/web/20061130024415/http://www.joystiq.com/2006/11/14/capcom-bringing-gta-san-andreas-to-japan/ |archivedate=30 November 2006 }}</ref>
+
+<!-- Critical response -->
+
+<ref name="1Up Review 2">{{cite web |url=http://www.1up.com/do/reviewPage?pager.offset=1&cId=3136054 |title=''Grand Theft Auto: San Andreas'' PS2 Review |page=2 |last=Parish |first=Jeremy |work=[[1Up.com]] |publisher=[[Ziff Davis]] |date=31 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041224054818/http://www.1up.com/do/reviewPage?pager.offset=1&cId=3136054 |archivedate=24 December 2004 }}</ref>
+
+<ref name="1Up Review 3">{{cite web |url=http://www.1up.com/do/reviewPage?pager.offset=2&cId=3136054 |title=''Grand Theft Auto: San Andreas'' PS2 Review |page=3 |last=Parish |first=Jeremy |work=[[1Up.com]] |publisher=[[Ziff Davis]] |date=31 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041116015913/http://www.1up.com/do/reviewPage?pager.offset=2&cId=3136054 |archivedate=16 November 2004 }}</ref>
+
+<ref name="1Up Review 4">{{cite web |url=http://www.1up.com/do/reviewPage?pager.offset=3&cId=3136054 |title=''Grand Theft Auto: San Andreas'' PS2 Review |page=4 |last=Parish |first=Jeremy |work=[[1Up.com]] |publisher=[[Ziff Davis]] |date=31 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041129035004/http://www.1up.com/do/reviewPage?pager.offset=3&cId=3136054 |archivedate=29 November 2004 }}</ref>
+
+<ref name="EGM Review">{{cite magazine |url=https://www.1up.com/do/reviewPage?cId=2018918&did=2 |title=''Grand Theft Auto: San Andreas'' PS2 Review |last1=Boyer |first1=Crispin |last2=Hsu |first2=Dan |last3=Davison |first3=John |magazine=[[Electronic Gaming Monthly]] |publisher=[[Ziff Davis]] |date=16 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041215194822/https://www.1up.com/do/reviewPage?cId=2018918&did=2 |archivedate=15 December 2004 }}</ref>
+
+<ref name="Eurogamer Review 1">{{cite web |url=https://www.eurogamer.net/r-gtasanandreas-ps2 |title=''Grand Theft Auto: San Andreas'' |page=1 |last=Reed |first=Kristan |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=8 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220817072501/https://www.eurogamer.net/r-gtasanandreas-ps2 |archivedate=17 August 2022 |url-status=live }}</ref>
+
+<ref name="Eurogamer Review 2">{{cite web |url=https://www.eurogamer.net/r-gtasanandreas-ps2?page=2 |title=''Grand Theft Auto: San Andreas'' |page=2 |last=Reed |first=Kristan |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=8 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109111158/https://www.eurogamer.net/r-gtasanandreas-ps2?page=2 |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="Game Informer Review">{{cite magazine |title=''Grand Theft Auto: San Andreas'' |page=170 |last1=Reiner |first1=Andrew |last2=Miller |first2=Matt |volume=14 |issue=140 |magazine=[[Game Informer]] |date=December 2004 }}</ref>
+
+<ref name="GameRevolution Review">{{cite web |url=https://www.gamerevolution.com/review/ps2/grand_theft_auto_san_andreas |title=''Grand Theft Auto: San Andreas'' – PS2 |last=Dodson |first=Joe |work=[[GameRevolution]] |publisher=[[CraveOnline]] |date=1 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20060212204810/https://www.gamerevolution.com/review/ps2/grand_theft_auto_san_andreas |archivedate=12 February 2006 }}</ref>
+
+<ref name="GameSpot Review">{{cite web |url=https://www.gamespot.com/reviews/grand-theft-auto-san-andreas-review/1900-6111345/ |title=''Grand Theft Auto: San Andreas'' Review |last=Gerstmann |first=Jeff |authorlink=Jeff Gerstmann |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=25 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20131020164031/https://www.gamespot.com/reviews/grand-theft-auto-san-andreas-review/1900-6111345/ |archivedate=20 October 2013 |url-status=live }}</ref>
+
+<ref name="GameSpy Review 1">{{cite web |url=http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/561830p1.html?fromint=1 |title=''Grand Theft Auto: San Andreas'' |page=1 |last=Lopez |first=Miguel |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=29 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041102084155/http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/561830p1.html?fromint=1 |archivedate=2 November 2004 |url-status=live }}</ref>
+
+<ref name="GameSpy Review 2">{{cite web |url=http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/561830p2.html |title=''Grand Theft Auto: San Andreas'' |page=2 |last=Lopez |first=Miguel |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=29 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041030225046/http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/561830p2.html |archivedate=30 October 2004 |url-status=live }}</ref>
+
+<ref name="GameSpy Review 3">{{cite web |url=http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/561830p3.html |title=''Grand Theft Auto: San Andreas'' |page=3 |last=Lopez |first=Miguel |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=29 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041030225116/http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/561830p3.html |archivedate=30 October 2004 |url-status=live }}</ref>
+
+<ref name="GameSpy Review 4">{{cite web |url=http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/561830p4.html |title=''Grand Theft Auto: San Andreas'' |page=4 |last=Lopez |first=Miguel |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=29 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041030225037/http://ps2.gamespy.com/playstation-2/grand-theft-auto-san-andreas/561830p4.html |archivedate=30 October 2004 |url-status=live }}</ref>
+
+<ref name="IGN Review">{{cite web |url=https://www.ign.com/articles/2004/10/25/grand-theft-auto-san-andreas-6 |title=''Grand Theft Auto: San Andreas'' |last=Dunham |first=Jeremy |work=[[IGN]] |publisher=[[Ziff Davis]] |date=26 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20140427124712/https://www.ign.com/articles/2004/10/25/grand-theft-auto-san-andreas-6 |archivedate=27 April 2014 |url-status=live }}</ref>
+
+<ref name="MC">{{cite web |url=https://www.metacritic.com/game/grand-theft-auto-san-andreas/ |title=''Grand Theft Auto: San Andreas'' |work=[[Metacritic]] |publisher=[[Fandom, Inc.]] |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20231123031442/https://www.metacritic.com/game/grand-theft-auto-san-andreas/ |archivedate=23 November 2023 |url-status=live }}</ref>
+
+<ref name="MC Best PC">{{cite web |url=https://www.metacritic.com/browse/game/pc/all/2005/metascore/?platform=pc |title=What Games to Play on PC |work=[[Metacritic]] |publisher=[[Fandom, Inc.]] |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109062820/https://www.metacritic.com/browse/game/pc/all/2005/metascore/?platform=pc |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="MC Best PS2">{{cite web |url=https://www.metacritic.com/browse/game/ps2/all/all-time/metascore/?platform=ps2 |title=What Games to Play on PS2 |work=[[Metacritic]] |publisher=[[Fandom, Inc.]] |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109062944/https://www.metacritic.com/browse/game/ps2/all/all-time/metascore/?platform=ps2 |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="MC Best Xbox">{{cite web |url=https://www.metacritic.com/browse/game/all/all/2005/metascore/?platform=xbox |title=What Games to Play on Xbox |work=[[Metacritic]] |publisher=[[Fandom, Inc.]] |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109063150/https://www.metacritic.com/browse/game/all/all/2005/metascore/?platform=xbox |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="NYT Review">{{cite web |url=https://www.nytimes.com/2004/11/11/technology/circuits/pick-a-number-its-sequel-season.html |title=Pick a Number, It's Sequel Season |last=Herold |first=Charles |work=[[The New York Times]] |date=11 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20170701212504/https://www.nytimes.com/2004/11/11/technology/circuits/pick-a-number-its-sequel-season.html |archivedate=1 July 2017 |url-status=live |url-access=subscription }}</ref>
+
+<ref name="OPM Review 1">{{cite magazine |url=https://www.1up.com/do/reviewPage?cId=3135875&did=3 |title=''Grand Theft Auto: San Andreas'' PS2 Review |page=1 |last=Davison |first=John |magazine=[[Official U.S. PlayStation Magazine]] |publisher=[[Ziff Davis]] |date=25 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041106224523/https://www.1up.com/do/reviewPage?cId=3135875&did=3 |archivedate=6 November 2004 }}</ref>
+
+<ref name="OPM Review 2">{{cite magazine |url=http://www.1up.com/do/reviewPage?pager.offset=1&cId=3135875 |title=''Grand Theft Auto: San Andreas'' PS2 Review |page=2 |last=Davison |first=John |magazine=[[Official U.S. PlayStation Magazine]] |publisher=[[Ziff Davis]] |date=25 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041111132023/http://www.1up.com/do/reviewPage?pager.offset=1&cId=3135875 |archivedate=11 November 2004 }}</ref>
+
+<ref name="PALGN Review">{{cite web |url=http://palgn.com.au/article.php?id=1724 |title=''Grand Theft Auto: San Andreas'' Review |last=Sell |first=Chris |work=PALGN |date=6 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20041109013938/http://palgn.com.au/article.php?id=1724 |archivedate=9 November 2004 }}</ref>
+
+<ref name="PSM2 Review 1">{{cite web |url=https://www.gamesradar.com/grand-theft-auto-san-andreas-15/ |title=''Grand Theft Auto: San Andreas'' review |page=1 |work=[[PSM2]] |publisher=[[Future plc]] |date=7 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20230104130526/https://www.gamesradar.com/grand-theft-auto-san-andreas-15/ |archivedate=4 January 2023 |url-status=live }}</ref>
+
+<ref name="PSM2 Review 2">{{cite web |url=https://www.gamesradar.com/grand-theft-auto-san-andreas-15/2/ |title=''Grand Theft Auto: San Andreas'' review |page=2 |work=[[PSM2]] |publisher=[[Future plc]] |date=7 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109130642/https://www.gamesradar.com/grand-theft-auto-san-andreas-15/2/ |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="PSM2 Review 3">{{cite web |url=https://www.gamesradar.com/grand-theft-auto-san-andreas-15/3/ |title=''Grand Theft Auto: San Andreas'' review |page=3 |work=[[PSM2]] |publisher=[[Future plc]] |date=7 October 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109130721/https://www.gamesradar.com/grand-theft-auto-san-andreas-15/3/ |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<!-- Reception: racial stereotypes -->
+
+<ref name="Barrett Race">{{cite journal |title=White Thumbs, Black Bodies: Race, Violence and Neoliberal Fantasies in ''Grand Theft Auto: San Andreas'' |pages=95–119 |last=Barrett |first=Paul |journal=The Review of Education, Pedagogy, and Cultural Studies |date=2006 |volume=28 |publisher=[[Taylor & Francis Group]] |issn=1071-4413 |doi=10.1080/10714410600552902 |s2cid=145544558 }}</ref>
+
+<ref name="Chan Race">{{cite journal |title=Playing with Race: The Ethics of Racialized Representations in E-Games |pages=24–30 |last=Chan |first=Dean |journal=International Review of Information Ethics |volume=4 |date=December 2005 |issn=1614-1687 |url=https://ro.uow.edu.au/cgi/viewcontent.cgi?article=2904&context=artspapers |archiveurl=https://web.archive.org/web/20170706125205/https://ro.uow.edu.au/cgi/viewcontent.cgi?article=2904&context=artspapers |archivedate=6 July 2017 |url-status=live }}</ref>
+
+<ref name="Games Cult Race">{{cite journal |title=The Meaning of Race and Violence in Grand Theft Auto: San Andreas |last1=DeVane |first1=Ben |last2=Squire |first2=Kurt D. |journal=[[Games and Culture]] |date=1 July 2008 |volume=3 |issue=3–4 |pages=264–285 |doi=10.1177/1555412008317308 |s2cid=143671889 | issn = 1555-4120}}</ref>
+
+<ref name="Hutchinson Race">{{cite book |chapter=Representing Race and Disability: ''Grand Theft Auto: San Andreas'' as a Whole Text |pages=164–178 |last=Hutchinson |first=Rachael |title=Race, Gender, and Sexuality in Video Games |editor-last1=Malkowski |editor-first1=Jennifer |editor-last2=Russworm |editor-first2=Treaandrea M. |date=2017 |publisher=[[Indiana University Press]] |doi=10.2307/j.ctt2005rgq.14 |jstor=j.ctt2005rgq |isbn=978-0-253-02573-9 }}</ref>
+
+<ref name="Kotaku Race">{{cite web |url=https://kotaku.com/envisioning-a-world-without-racism-with-grand-theft-aut-5860471 |title=Envisioning a World Without Racism With ''Grand Theft Auto: San Andreas'' |last=Fahey |first=Mike |work=[[Kotaku]] |publisher=[[Gawker Media]] |date=17 November 2011 |access-date=14 December 2013 |url-status=live |archive-url=https://web.archive.org/web/20131106060626/http://kotaku.com/5860471/envisioning-a-world-without-racism-with-grand-theft-auto-san-andreas |archive-date=6 November 2013 }}</ref>
+
+<ref name="Leonard Race">{{cite journal |title=Not a Hater, Just Keepin' It Real |last=Leonard |first=David |pages=83–88 |journal=[[Games and Culture]] |volume=1 |number=1 |date=January 2006 |publisher=[[SAGE Publications]] |doi=10.1177/1555412005281910 |s2cid=146205026 }}</ref>
+
+<ref name="Leonard Race2">{{cite journal |title=Young, Black (& Brown) and Don't Give a Fuck: Virtual Gangstas in the Era of State Violence |last=Leonard |first=David |pages=248–272 |journal=[[Cultural Studies ↔ Critical Methodologies]] |publisher=[[SAGE Publications]] |date=April 2009 |issn=1532-7086 |doi=10.1177/1532708608325938 |s2cid=145294625 }}</ref>
+
+<ref name="Neal Race">{{cite book |chapter=Cybercrime, transgression and virtual environments |last=Neal |first=Sarah |page=97 |title=Crime: Local and Global |editor-last1=Muncie |editor-first1=John |editor-last2=Talbot |editor-first2=Deborah |editor-last3=Walters |editor-first3=Reece |year=2014 |publisher=[[Routledge]] |isbn=978-1-315-88071-6 |doi=10.4324/9781315880716 }}</ref>
+
+<ref name="NYT Race">{{cite news |url=https://www.nytimes.com/2004/08/12/technology/the-color-of-mayhem.html |title=The Color of Mayhem |last=Marriott |first=Michel |newspaper=[[The New York Times]] |date=12 August 2004 |access-date=14 December 2013 |url-status=live |archive-url=https://web.archive.org/web/20131102204458/http://www.nytimes.com/2004/08/12/technology/the-color-of-mayhem.html |archive-date=2 November 2013 }}</ref>
+
+<!-- Reception: Xbox -->
+
+<ref name="1Up Review Xbox">{{cite web |url=http://www.1up.com/do/reviewPage?cId=3141253&did=1 |title=''Grand Theft Auto: San Andreas'' |last=Parish |first=Jeremy |work=[[1Up.com]] |publisher=[[Ziff Davis]] |date=6 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20060323021124/http://www.1up.com/do/reviewPage?cId=3141253&did=1 |archivedate=23 March 2006 }}</ref>
+
+<ref name="Eurogamer Review Xbox PC">{{cite web |url=https://www.eurogamer.net/r-gtasanandreas-x |title=''Grand Theft Auto: San Andreas'' |last=Bramwell |first=Tom |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=22 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20230606071640/https://www.eurogamer.net/r-gtasanandreas-x |archivedate=6 June 2023 |url-status=live }}</ref>
+
+<ref name="GameSpot Review Xbox">{{cite web |url=https://www.gamespot.com/reviews/grand-theft-auto-san-andreas-review/1900-6127083/ |title=''Grand Theft Auto: San Andreas'' Review |last=Gerstmann |first=Jeff |authorlink=Jeff Gerstmann |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=7 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20131014074528/https://www.gamespot.com/reviews/grand-theft-auto-san-andreas-review/1900-6127083/ |archivedate=14 October 2013 |url-status=live }}</ref>
+
+<ref name="GameSpy Review Xbox 1">{{cite web |url=http://xbox.gamespy.com/xbox/grand-theft-auto-san-andreas/623686p1.html |title=''Grand Theft Auto: San Andreas'' |page=1 |last=Tuttle |first=Will |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=8 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050611013434/http://xbox.gamespy.com/xbox/grand-theft-auto-san-andreas/623686p1.html |archivedate=11 June 2005 |url-status=live }}</ref>
+
+<ref name="GameSpy Review Xbox 2">{{cite web |url=http://xbox.gamespy.com/xbox/grand-theft-auto-san-andreas/623686p2.html |title=''Grand Theft Auto: San Andreas'' |page=2 |last=Tuttle |first=Will |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=8 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050611013434/http://xbox.gamespy.com/xbox/grand-theft-auto-san-andreas/623686p1.html |archivedate=11 June 2005 |url-status=live }}</ref>
+
+<ref name="GameSpy Review Xbox 3">{{cite web |url=http://xbox.gamespy.com/xbox/grand-theft-auto-san-andreas/623686p3.html |title=''Grand Theft Auto: San Andreas'' |page=3 |last=Tuttle |first=Will |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=8 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050611020208/http://xbox.gamespy.com/xbox/grand-theft-auto-san-andreas/623686p3.html |archivedate=11 June 2005 |url-status=live }}</ref>
+
+<ref name="GameZone Review Xbox">{{cite web |url=http://xbox.gamezone.com/gzreviews/r23643.htm |title=''Grand Theft Auto: San Andreas'' |last=Zacarias |first=Eduardo |work=GameZone |date=13 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050616031431/http://xbox.gamezone.com/gzreviews/r23643.htm |archivedate=16 June 2005 }}</ref>
+
+<ref name="IGN Review Xbox">{{cite web |url=https://www.ign.com/articles/2005/06/07/grand-theft-auto-san-andreas-2 |title=''Grand Theft Auto: San Andreas'' |last=Perry |first=Douglass C. |work=[[IGN]] |publisher=[[Ziff Davis]] |date=7 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20130109165932/https://www.ign.com/articles/2005/06/07/grand-theft-auto-san-andreas-2 |archivedate=9 January 2013 |url-status=live }}</ref>
+
+<ref name="PALGN Review Xbox">{{cite web |url=http://palgn.com.au/article.php?id=2450 |title=''Grand Theft Auto: San Andreas'' Review |last=Jastrzab |first=Jeremy |work=PALGN |date=3 July 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050809083314/http://palgn.com.au/article.php?id=2450 |archivedate=9 August 2005 }}</ref>
+
+<!-- Reception: Windows -->
+
+<ref name="CGW Review PC">{{cite magazine |url=http://cgw.1up.com/do/reviewPage?cId=3142478&did=4 |title=''Grand Theft Auto: San Andreas'' |last=Parish |first=Jeremy |magazine=[[Computer Gaming World]] |publisher=[[Ziff Davis]] |date=1 August 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20060205091735/http://cgw.1up.com/do/reviewPage?cId=3142478&did=4 |archivedate=5 February 2006 }}</ref>
+
+<ref name="GamePro Review">{{cite magazine |title=''Grand Theft'' Lotto |pages=52–53 |last=Sid |first=Vicious |magazine=[[GamePro]] |publisher=[[International Data Group]] |editor-last=Nihei |editor-first=Wes |issue=204 |date=September 2005 }}</ref>
+
+<ref name="GameRevolution Review PC">{{cite web |url=https://www.gamerevolution.com/review/32726-grand-theft-auto-san-andreas-review |title=Born to ill. Review |last=Dodson |first=Joe |work=[[GameRevolution]] |publisher=[[CraveOnline]] |date=27 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20210226023846/https://www.gamerevolution.com/review/32726-grand-theft-auto-san-andreas-review |archivedate=26 February 2021 |url-status=live }}</ref>
+
+<ref name="GameSpot Review PC">{{cite web |url=https://www.gamespot.com/reviews/grand-theft-auto-san-andreas-review/1900-6127078/ |title=''Grand Theft Auto: San Andreas'' Review |last=Gerstmann |first=Jeff |authorlink=Jeff Gerstmann |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=7 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20131019025813/https://www.gamespot.com/reviews/grand-theft-auto-san-andreas-review/1900-6127078/ |archivedate=19 October 2013 |url-status=live }}</ref>
+
+<ref name="GameSpy Review PC 1">{{cite web |url=http://pc.gamespy.com/pc/grand-theft-auto-san-andreas/624621p1.html |title=''Grand Theft Auto: San Andreas'' |page=1 |last=Accardo |first=Sal |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=13 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050616011101/http://pc.gamespy.com/pc/grand-theft-auto-san-andreas/624621p1.html |archivedate=16 June 2005 |url-status=live }}</ref>
+
+<ref name="GameSpy Review PC 2">{{cite web |url=http://pc.gamespy.com/pc/grand-theft-auto-san-andreas/624621p2.html |title=''Grand Theft Auto: San Andreas'' |page=2 |last=Accardo |first=Sal |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=13 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050616013016/http://pc.gamespy.com/pc/grand-theft-auto-san-andreas/624621p2.html |archivedate=16 June 2005 |url-status=live }}</ref>
+
+<ref name="GameSpy Review PC 3">{{cite web |url=http://pc.gamespy.com/pc/grand-theft-auto-san-andreas/624621p3.html |title=''Grand Theft Auto: San Andreas'' |page=3 |last=Accardo |first=Sal |work=[[GameSpy]] |publisher=[[Ziff Davis]] |date=13 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050616013830/http://pc.gamespy.com/pc/grand-theft-auto-san-andreas/624621p3.html |archivedate=16 June 2005 |url-status=live }}</ref>
+
+<ref name="GameZone Review PC">{{cite web |url=http://pc.gamezone.com/gzreviews/r23643.htm |title=''Grand Theft Auto: San Andreas'' |author=Aceinet |work=GameZone |date=17 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20050703080909/http://pc.gamezone.com/gzreviews/r23643.htm |archivedate=3 July 2005 }}</ref>
+
+<ref name="IGN Review PC">{{cite web |url=https://www.ign.com/articles/2005/06/08/grand-theft-auto-san-andreas |title=''Grand Theft Auto: San Andreas'' |last=Adams |first=Dan |work=[[IGN]] |publisher=[[Ziff Davis]] |date=8 June 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20120910233449/https://www.ign.com/articles/2005/06/08/grand-theft-auto-san-andreas |archivedate=10 September 2012 |url-status=live }}</ref>
+
+<ref name="PALGN Review PC">{{cite web |url=http://palgn.com.au/article.php?id=2650&sid=2ea7470890570e729ed784787c920d53 |title=''Grand Theft Auto: San Andreas'' Review |last=Keller |first=Matt |work=PALGN |date=25 July 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20051210154116/http://palgn.com.au/article.php?id=2650&sid=2ea7470890570e729ed784787c920d53 |archivedate=10 December 2005 }}</ref>
+
+<ref name="PC Gamer Review">{{cite web |url=https://www.pcgamer.com/gta-san-andreas-review/ |title=''GTA: San Andreas'' Review |last1=Atherton |first1=Ross |last2=Griffin |first2=Ben |work=[[PC Gamer]] |publisher=[[Future plc]] |date=30 June 2014 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20141004055843/https://www.pcgamer.com/gta-san-andreas-review/ |archivedate=4 October 2014 |url-status=live }}</ref>
+
+<!-- Reception: mobile -->
+
+<ref name="Digital Spy Review">{{cite web |url=https://www.digitalspy.com/videogames/a538762/mobile-reviews-gta-san-andreas-angry-birds-go-skulls-of-the-shogun/ |title=Mobile reviews: ''GTA San Andreas'', ''Angry Birds Go'', ''Skulls of the Shogun'' |last=Nichols |first=Scott |work=[[Digital Spy]] |publisher=[[Hearst Communications]] |date=17 December 2013 |accessdate=11 January 2024 |archiveurl=https://web.archive.org/web/20190507075451/https://www.digitalspy.com/videogames/a538762/mobile-reviews-gta-san-andreas-angry-birds-go-skulls-of-the-shogun/ |archivedate=7 May 2019 |url-status=live }}</ref>
+
+<ref name="Eurogamer Review Mobile">{{cite web |url=https://www.eurogamer.it/grand-theft-auto-san-andreas-review-recensione |title=''Grand Theft Auto: San Andreas'' – review |last=Serino |first=Francesco |work=[[Eurogamer.it]] |publisher=[[Gamer Network]] |date=18 December 2013 |accessdate=11 January 2024 |archiveurl=https://web.archive.org/web/20240111013725/https://www.eurogamer.it/grand-theft-auto-san-andreas-review-recensione |archivedate=11 January 2024 |url-status=live }}</ref>
+
+<ref name="IGN Review Mobile">{{cite web |url=https://www.ign.com/articles/2013/12/18/grand-theft-auto-san-andreas-ios-review |title=''Grand Theft Auto: San Andreas'' iOS Review |last=Johnson |first=Leif |work=[[IGN]] |publisher=[[Ziff Davis]] |date=19 December 2013 |accessdate=11 January 2024 |archiveurl=https://web.archive.org/web/20131219144334/https://www.ign.com/articles/2013/12/18/grand-theft-auto-san-andreas-ios-review |archivedate=19 December 2013 |url-status=live }}</ref>
+
+<ref name="Multiplayer.it Review">{{cite web |url=https://multiplayer.it/recensioni/126674-grand-theft-auto-san-andreas-santo-protettore-del-free-roaming.html |title=''Grand Theft Auto: San Andreas'' Recensione |language=it |trans-title=''Grand Theft Auto: San Andreas'' Review |last=Palmisano |first=Fabio |work=Multiplayer.it |date=18 December 2013 |accessdate=11 January 2024 |archiveurl=https://web.archive.org/web/20131221000814/https://multiplayer.it/recensioni/126674-grand-theft-auto-san-andreas-santo-protettore-del-free-roaming.html |archivedate=21 December 2013 |url-status=live }}</ref>
+
+<ref name="Pocket Gamer Review">{{cite web |url=https://www.pocketgamer.com/grand-theft-auto-san-andreas/grand-theft-auto-san-andreas/ |title=''Grand Theft Auto: San Andreas'' |last=Brown |first=Mark |authorlink=Game Maker's Toolkit |work=[[Pocket Gamer]] |publisher=[[Steel Media]] |date=12 December 2013 |accessdate=11 January 2024 |archiveurl=https://web.archive.org/web/20220121230029/https://www.pocketgamer.com/grand-theft-auto-san-andreas/grand-theft-auto-san-andreas/ |archivedate=21 January 2022 |url-status=live }}</ref>
+
+<ref name="TouchArcade Review">{{cite web |url=https://toucharcade.com/2013/12/12/grand-theft-auto-san-andreas-review/ |title=''Grand Theft Auto: San Andreas'' Review – Throw Some Chedda' at This Incredible Port |last=Hodapp |first=Eli |work=[[TouchArcade]] |date=12 December 2013 |accessdate=11 January 2024 |archiveurl=https://web.archive.org/web/20131215030913/https://toucharcade.com/2013/12/12/grand-theft-auto-san-andreas-review/ |archivedate=15 December 2013 |url-status=live }}</ref>
+
+<ref name="Vandal Review">{{cite web |url=https://vandal.elespanol.com/analisis/android/grand-theft-auto-san-andreas/22876#p-71 |title=Análisis de ''Grand Theft Auto: San Andreas'' (Android, iPhone) |language=es |trans-title=Review of ''Grand Theft Auto: San Andreas'' (Android, iPhone) |last=González |first=Alberto |work=[[Vandal (website)|Vandal]] |date=16 December 2013 |accessdate=11 January 2024 |archiveurl=https://web.archive.org/web/20200102004702/https://vandal.elespanol.com/analisis/android/grand-theft-auto-san-andreas/22876#p-71 |archivedate=2 January 2020 |url-status=live }}</ref>
+
+<!-- Accolades -->
+
+<ref name="AIAS">{{cite web |url=https://www.gamespot.com/articles/half-life-2-named-game-of-the-year-at-dice-awards/1100-6117727/ |title=''Half-Life 2'' named Game of the Year at D.I.C.E. awards |last=Feldman |first=Curt |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=5 February 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20150129015134/https://www.gamespot.com/articles/half-life-2-named-game-of-the-year-at-dice-awards/1100-6117727/ |archivedate=29 January 2015 |url-status=live }}</ref>
+
+<ref name="BAFTA">{{cite web |url=https://awards.bafta.org/award/2005/games |title=Games in 2005 |publisher=[[British Academy of Film and Television Arts]] |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20140818012754/https://awards.bafta.org/award/2005/games |archivedate=18 August 2014 |url-status=live }}</ref>
+
+<ref name="EGM GOTY">{{cite magazine |title=The ''EGM'' 2004 Year of the Game Awards |magazine=[[Electronic Gaming Monthly]] |issue=189 |pages=84–96 |publisher=[[Ziff Davis]] |date=March 2005 |editor-last=Hsu |editor-first=Dan }}</ref>
+
+<ref name="GamesMaster GOTY">{{cite journal |title=''GM''{{'}}s Top 50 Fifty Games of 2004 |last= |first= |journal=[[GamesMaster (magazine)|GamesMaster]] |issue=155 |pages=96–99 |publisher=[[Future plc]] |date=January 2005 }}</ref>
+
+<ref name="GameSpot Best Action">{{cite web |url=http://www.gamespot.com/gamespot/features/all/bestof2004/day4w_2.html |title=Best Action Adventure Game |work=[[GameSpot]] |publisher=[[CNET Networks]] |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20041229010704/http://www.gamespot.com/gamespot/features/all/bestof2004/day4w_2.html |archivedate=29 December 2004 }}</ref>
+
+<ref name="GameSpot Best Funniest">{{cite web |url=http://www.gamespot.com/gamespot/features/all/bestof2004/day2w_26.html |title=Funniest Game |work=[[GameSpot]] |publisher=[[CNET Networks]] |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20041228231616/http://www.gamespot.com/gamespot/features/all/bestof2004/day2w_26.html |archivedate=28 December 2004 }}</ref>
+
+<ref name="GameSpot Best PS2">{{cite web |url=http://www.gamespot.com/gamespot/features/all/bestof2004/day5w_8.html |title=Best PlayStation 2 Game |work=[[GameSpot]] |publisher=[[CNET Networks]] |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20041229035937/http://www.gamespot.com/gamespot/features/all/bestof2004/day5w_8.html |archivedate=29 December 2004 }}</ref>
+
+<ref name="GameSpot Best Voice">{{cite web |url=http://www.gamespot.com/gamespot/features/all/bestof2004/day2w_14.html |title=Best Voice Acting |work=[[GameSpot]] |publisher=[[CNET Networks]] |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20041229052352/http://www.gamespot.com/gamespot/features/all/bestof2004/day2w_14.html |archivedate=29 December 2004 }}</ref>
+
+<ref name="GANG">{{cite web |url=https://www.audiogang.org/awards-archive/2005-awards/ |title=2005 Awards |publisher=Game Audio Network Guild |accessdate=15 January 2024 |archiveurl=https://web.archive.org/web/20200813145739/https://www.audiogang.org/awards-archive/2005-awards/ |archivedate=13 August 2020 |url-status=live }}</ref>
+
+<ref name="GDCA">{{cite web |url=https://gamechoiceawards.com/archive/gdca_5th |title=5th Annual Game Developers Choice Awards |date=27 April 2021 |publisher=[[Game Developers Choice Awards]] |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20210621070156/https://gamechoiceawards.com/archive/gdca_5th |archivedate=21 June 2021 |url-status=live }}</ref>
+
+<ref name="GDCA Guardian">{{cite web |url=https://www.theguardian.com/technology/gamesblog/2005/mar/14/gamedevelopers |title=Game Developers Choice Awards snubs ''GTA: San Andreas''. Rockstar North walks out |last=Krotoski |first=Aleks |work=[[The Guardian]] |date=14 March 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20140918023822/https://www.theguardian.com/technology/gamesblog/2005/mar/14/gamedevelopers |archivedate=18 September 2014 |url-status=live }}</ref>
+
+<ref name="Golden Joystick 2004">{{cite web |url=https://www.gamedeveloper.com/game-platforms/golden-joystick-awards-announces-2004-winners |title=Golden Joystick Awards Announces 2004 Winners |last=Wilson |first=Andrew |work=[[Gamasutra]] |publisher=[[UBM plc]] |date=5 November 2004 |access-date=10 January 2024 |url-status=live |archive-url=https://web.archive.org/web/20200205195351/https://www.gamasutra.com/view/news/95479/Golden_Joystick_Awards_Announces_2004_Winners.php |archive-date=5 February 2020 }}</ref>
+
+<ref name="Golden Joystick 2005">{{cite web |url=https://www.theguardian.com/technology/2005/nov/10/games.guardianweeklytechnologysection1 |title=Golden Joystick awards: Winners and losers |last=Anderiesz |first=Mike |work=[[The Guardian]] |date=10 November 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20140920051223/https://www.theguardian.com/technology/2005/nov/10/games.guardianweeklytechnologysection1 |archivedate=20 September 2014 |url-status=live }}</ref>
+
+<ref name="G-Phoria">{{cite web |url=https://www.gamespot.com/articles/halo-2-takes-top-honors-at-g-phoria/1100-6129907/ |title=''Halo 2'' takes top honors at G-Phoria |last=Kasavin |first=Greg |authorlink=Greg Kasavin |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=28 July 2005 |accessdate=15 January 2024 |archiveurl=https://web.archive.org/web/20141013031949/https://www.gamespot.com/articles/halo-2-takes-top-honors-at-g-phoria/1100-6129907/ |archivedate=13 October 2014 |url-status=live }}</ref>
+
+<ref name="G-Phoria Nom">{{cite web |url=https://www.gamespot.com/articles/g-phoria-nominees-announced/1100-6128013/ |title=G-Phoria nominees announced |last=Surette |first=Tim |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=22 June 2005 |accessdate=15 January 2024 |archiveurl=https://web.archive.org/web/20191019002424/https://www.gamespot.com/articles/g-phoria-nominees-announced/1100-6128013/ |archivedate=19 October 2019 |url-status=live }}</ref>
+
+<ref name="IGN Best Action">{{cite web |url=http://www.ign.com/wikis/best-of-2004/PlayStation_2 |title=Best of 2004 – Best Action Game |work=[[IGN]] |publisher=[[Ziff Davis]] |accessdate=10 January 2004 |archiveurl=https://web.archive.org/web/20171021021016/http://www.ign.com/wikis/best-of-2004/PlayStation_2 |archivedate=21 October 2017 |url-status=live }}</ref>
+
+<ref name="IGN Best Story">{{cite web |url=http://www.ign.com/wikis/best-of-2004/PlayStation_2_Story |title=Best of 2004 – Best Story |work=[[IGN]] |date=22 March 2013 |publisher=[[Ziff Davis]] |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20171010172559/http://www.ign.com/wikis/best-of-2004/PlayStation_2_Story |archivedate=10 October 2017 |url-status=live }}</ref>
+
+<ref name="PSM GOTY">{{cite journal |title=The ''PSM'' 10 |last=Slate |first=Chris |journal=PSM |issue=94 |pages=46–58 |publisher=[[Future plc]] |date=February 2005 }}</ref>
+
+<ref name="Spike">{{cite web |url=https://www.gamedeveloper.com/game-platforms/spike-tv-announces-2004-video-game-award-winners |title=Spike TV Announces 2004 Video Game Award Winners |last=Jenkins |first=David |work=[[Game Developer (website)|Game Developer]] |publisher=[[Informa]] |date=15 December 2004 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20240110030042/https://www.gamedeveloper.com/game-platforms/spike-tv-announces-2004-video-game-award-winners |archivedate=10 January 2024 |url-status=live }}</ref>
+
+<ref name="Spike Nom">{{cite web |url=https://www.gamespot.com/articles/spike-tv-takes-game-awards-live-snoop-dogg-to-mc/1100-6113356/ |title=Spike TV takes game awards live: Snoop Dogg to MC |last=Surette |first=Tim |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=16 November 2024 |archiveurl=https://web.archive.org/web/20150110100316/https://www.gamespot.com/articles/spike-tv-takes-game-awards-live-snoop-dogg-to-mc/1100-6113356/ |archivedate=10 January 2015 |url-status=live }}</ref>
+
+<!-- Sales -->
+
+<ref name="Australia Sales 1">{{cite journal |title=''GTA'' sales go ballistic! |journal=[[PlayStation World]] |issue=27 |pages=9 |publisher=[[Future plc]] |date=October 2004 }}</ref>
+
+<ref name="ELSPA">{{cite web|url=http://www.elspa.com/?i=3943 |title=ELSPA Sales Awards: Gold |publisher=[[Entertainment and Leisure Software Publishers Association]] |accessdate=9 June 2025 |archiveurl=https://web.archive.org/web/20090319031650/http://www.elspa.com/?i=3943 |archivedate=19 March 2009}}</ref>
+
+<ref name="Japan Sales 1">{{cite web |url=https://www.gamesindustry.biz/san-andreas-debuts-at-no1-in-japanese-charts |title=''San Andreas'' debuts at No.1 in Japanese charts |last=Martin |first=Matt |work=[[GamesIndustry.biz]] |publisher=[[Gamer Network]] |date=2 February 2007 |accessdate=18 January 2024 |archiveurl=https://web.archive.org/web/20230401180529/https://www.gamesindustry.biz/san-andreas-debuts-at-no1-in-japanese-charts |archivedate=1 April 2023 |url-status=live }}</ref>
+
+<ref name="Magic Box">{{cite web |url=http://www.the-magicbox.com/Chart-USPlatinum.shtml |title=US Platinum Videogame Chart |publisher=The Magic Box |date=27 December 2007 |accessdate=9 June 2025 |archive-url=https://web.archive.org/web/20211009200207/http://www.the-magicbox.com/Chart-USPlatinum.shtml |archive-date=9 October 2021 }}</ref>
+
+<ref name="Sales Week">{{cite magazine |title=Big Sales for ''Halo 2'' And ''Grand Theft Auto: San Andreas'' |magazine=[[GamePro]] |issue=197 |page=24 |publisher=[[International Data Group]] |date=February 2005 |editor-last=Nihei |editor-first=Wes }}</ref>
+
+<ref name="Sales Oct">{{cite web |url=https://www.gamespot.com/articles/npd-calls-october-sales-solid/1100-6113108/ |title=NPD calls October sales solid |last=Feldman |first=Curt |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=15 November 2004 |accessdate=23 January 2024 |archiveurl=https://web.archive.org/web/20220808082942/https://www.gamespot.com/articles/npd-calls-october-sales-solid/1100-6113108/ |archivedate=8 August 2022 |url-status=live }}</ref>
+
+<ref name="Sales Nov">{{cite web |url=https://www.gamespot.com/articles/halo-2-san-andreas-key-drivers-of-nov-revenue-say-npd-stats/1100-6114801/ |title=''Halo 2'', ''San Andreas'' key drivers of Nov. revenue, say NPD stats |last=Feldman |first=Curt |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=10 December 2004 |accessdate=23 January 2024 |archiveurl=https://web.archive.org/web/20131219010829/https://www.gamespot.com/articles/halo-2-san-andreas-key-drivers-of-nov-revenue-say-npd-stats/1100-6114801/ |archivedate=19 December 2013 |url-status=live }}</ref>
+
+<ref name="Sales 2004">{{cite web |url=https://variety.com/2005/digital/markets-festivals/spidey-keeps-h-w-d-in-the-vidgame-1117916550/ |title=Spidey keeps H'w'd in the vidgame |last=Fritz |first=Ben |work=[[Variety (magazine)|Variety]] |publisher=[[Penske Media Corporation]] |date=18 January 2005 |accessdate=11 June 2026 |archiveurl=https://web.archive.org/web/20210803215740/https://variety.com/2005/digital/markets-festivals/spidey-keeps-h-w-d-in-the-vidgame-1117916550/ |archivedate=3 August 2021 |url-status=live }}</ref>
+
+<ref name="Sales 2005">{{cite web |url=https://www.ign.com/articles/2005/03/04/gta-sa-sells-12-million-copies-xbox-pc-ports-june-7th |title=''GTA: SA'' Sells 12 Million Copies; Xbox & PC Ports June 7th |last=Burnes |first=Andrew |work=[[IGN]] |publisher=[[Ziff Davis]] |date=4 March 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109030109/https://www.ign.com/articles/2005/03/04/gta-sa-sells-12-million-copies-xbox-pc-ports-june-7th |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="Sales 2005 Revenue">{{cite web |url=https://www.nbcnews.com/id/wbna11058929 |title=Los Angeles sues makers of ''Grand Theft Auto'' |agency=[[Associated Press]] |work=[[NBC News]] |date=28 January 2006 |accessdate=6 October 2026 |archiveurl=https://web.archive.org/web/20210228170840/https://www.nbcnews.com/id/wbna11058929 |archivedate=28 February 2021 |url-status=live }}</ref>
+
+<ref name="Sales 2008">{{cite magazine |url=https://www.wired.com/2008/04/confessions-o-2/ |title=Confessions of a ''GTA'' Virgin: ''San Andreas'' |last=Kohler |first=Chris |magazine=[[Wired (magazine)|Wired]] |publisher=[[Condé Nast]] |date=22 April 2008 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20140331053124/https://www.wired.com/2008/04/confessions-o-2/ |archivedate=31 March 2014 |url-status=live }}</ref>
+
+<ref name="Sales 2011">{{cite web |url=https://kotaku.com/gta-iv-overtakes-san-andreas-in-lifetime-sales-correct-5840484 |title=''GTA IV'' Overtakes ''San Andreas'' in Lifetime Sales [Correction] |last=Good |first=Owen |work=[[Kotaku]] |publisher=[[Gawker Media]] |date=15 September 2011 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20190203100919/https://kotaku.com/gta-iv-overtakes-san-andreas-in-lifetime-sales-correct-5840484 |archivedate=3 February 2019 |url-status=live }}</ref>
+
+<ref name="UK Sales 1">{{cite web |url=https://www.eurogamer.net/news-021104-ukcharts |title=UK Charts: ''GTA San Andreas'' smashes UK sales record |last=Reed |first=Kristan |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=2 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220731061800/https://www.eurogamer.net/news-021104-ukcharts |archivedate=31 July 2022 |url-status=live }}</ref>
+
+<ref name="UK Sales 2">{{cite web |url=http://news.bbc.co.uk/2/hi/uk_news/3992949.stm |title=Hit game taking over the streets |last=Heald |first=Claire |work=[[BBC News]] |publisher=[[BBC]] |date=12 November 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20051117184545/http://news.bbc.co.uk/2/hi/uk_news/3992949.stm |archivedate=17 November 2005 |url-status=live }}</ref>
+
+<ref name="UK Sales 2004">{{cite web |url=https://www.gamesindustry.biz/san-andreas-dominates-2004-as-uk-market-grows-66-per-cent |title=''San Andreas'' dominates 2004 as UK market grows 6.6 per cent |last=Fahey |first=Rob |work=[[GamesIndustry.biz]] |publisher=[[Gamer Network]] |date=10 January 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20230410012402/https://www.gamesindustry.biz/san-andreas-dominates-2004-as-uk-market-grows-66-per-cent |archivedate=10 April 2023 |url-status=live }}</ref>
+
+<ref name="US Sales 1">{{cite web |url=https://money.cnn.com/2004/11/11/technology/halosales/ |title=''Halo 2'' sales top ''Grand Theft Auto'' |last=Morris |first=Chris |work=[[CNN Money]] |publisher=[[CNN]] |date=11 November 2004 |access-date=9 January 2024 |archive-url=https://web.archive.org/web/20041117091032/https://money.cnn.com/2004/11/11/technology/halosales/ |archive-date=17 November 2004 |url-status=dead }}</ref>
+
+<ref name="US Sales 2">{{cite news |url=https://www.newspapers.com/article/the-boston-globe/96988901/ |title=What Are Video Games Turning Us Into? |last=Mayor |first=Tracy |work=[[The Boston Globe]] |pages=19–21, 32 |date=20 February 2005 |accessdate=9 January 2024 |via=[[Newspapers.com]] |archiveurl=https://web.archive.org/web/20240109025752/https://www.newspapers.com/article/the-boston-globe/96988901/ |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="US Sales 2004">{{cite web |url=https://www.gamespot.com/articles/npd-99-billion-worth-of-console-games-sold-in-2004/1100-6116499/ |title=NPD: $9.9 billion worth of console games sold in 2004 |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=18 January 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20141015151312/https://www.gamespot.com/articles/npd-99-billion-worth-of-console-games-sold-in-2004/1100-6116499/ |archivedate=15 October 2014 |url-status=live }}</ref>
+
+<ref name="US Sales 2005">{{cite web |url=https://www.gamespot.com/gallery/best-selling-games-of-each-of-the-past-25-years-in-the-us/2900-5031/#9 |title=Best-Selling Games Of Each Of The Past 25 Years In The US |last=Makuch |first=Eddie |work=[[GameSpot]] |publisher=[[Fandom, Inc.]] |date=26 January 2024 |accessdate=19 November 2024 |archiveurl=https://web.archive.org/web/20240126220336/https://www.gamespot.com/gallery/best-selling-games-of-each-of-the-past-25-years-in-the-us/2900-5031/#9 |archivedate=26 January 2024 |url-status=live }}</ref>
+
+<!-- Controversy -->
+
+<ref name="Ars FTC">{{cite web |url=https://arstechnica.com/uncategorized/2006/06/7015-2/ |title=FTC settles with Rockstar over Hot Coffee: potential for sex all it takes |last=Fisher |first=Ken |work=[[Ars Technica]] |publisher=[[Condé Nast]] |date=9 June 2006 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20121129061944/https://arstechnica.com/uncategorized/2006/06/7015-2/ |archivedate=29 November 2012 |url-status=live }}</ref>
+
+<ref name="Eurogamer Australia">{{cite web |url=https://www.eurogamer.net/news010805ausgta |title=Australia bans ''GTA: San Andreas'' |last=Bramwell |first=Tom |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=1 August 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220531171915/https://www.eurogamer.net/news010805ausgta |archivedate=31 May 2022 |url-status=live }}</ref>
+
+<ref name="Eurogamer Hot Coffee">{{cite web |url=https://www.eurogamer.net/who-spilled-hot-coffee |title=Who spilled Hot Coffee? |last=Parkin |first=Simon |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=2 December 2012 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220506055203/https://www.eurogamer.net/who-spilled-hot-coffee |archivedate=6 May 2022 |url-status=live }}</ref>
+
+<ref name="GamesIndustry ESRB">{{cite web |url=https://www.gamesindustry.biz/esrb-promises-heavy-fines-for-publisher-nondisclosure |title=ESRB promises heavy fines for publisher nondisclosure |last=Loughrey |first=Paul |work=[[GamesIndustry.biz]] |publisher=[[Gamer Network]] |date=15 June 2006 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20221106140324/https://www.gamesindustry.biz/esrb-promises-heavy-fines-for-publisher-nondisclosure |archivedate=6 November 2022 |url-status=live }}</ref>
+
+<ref name="IGN AO">{{cite web |url=https://www.ign.com/articles/2005/07/20/gta-san-andreas-gets-adults-only-rating |title=''GTA: San Andreas'' Gets Adults Only Rating |last=Adams |first=David |work=[[IGN]] |publisher=[[Ziff Davis]] |date=21 July 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20140117221443/https://www.ign.com/articles/2005/07/20/gta-san-andreas-gets-adults-only-rating |archivedate=17 January 2014 |url-status=live }}</ref>
+
+<ref name="IGN Suit">{{cite web |url=https://www.ign.com/articles/2006/10/30/hot-coffee-still-has-take-two-in-hot-water |title=Hot Coffee Still Has Take Two in Hot Water |last=Sanders |first=Kathleen |work=[[IGN]] |publisher=[[Ziff Davis]] |date=31 October 2006 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20121115121014/https://www.ign.com/articles/2006/10/30/hot-coffee-still-has-take-two-in-hot-water |archivedate=15 November 2012 |url-status=live }}</ref>
+
+<ref name="PG Suit">{{cite web |url=https://www.post-gazette.com/business/tech-news/2005/07/28/Grandmother-sues-game-maker-over-hidden-sex-in-Grand-Theft-Auto-San-Andreas/stories/200507280399 |title=Grandmother sues game maker over hidden sex in ''Grand Theft Auto: San Andreas'' |last=Neumeister |first=Larry |work=[[Pittsburgh Post-Gazette]] |publisher=[[Block Communications]] |agency=[[Associated Press]] |date=28 July 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220531183241/https://www.post-gazette.com/business/tech-news/2005/07/28/Grandmother-sues-game-maker-over-hidden-sex-in-Grand-Theft-Auto-San-Andreas/stories/200507280399 |archivedate=31 May 2022 |url-status=live |url-access=subscription }}</ref>
+
+<!-- Legacy -->
+
+<ref name="Best">{{Multiref2
+|1={{cite web |url=https://www.thetimes.com/life-style/article/20-best-video-games-of-all-time-ranked-by-an-expert-jury-l5zgrxmw8 |title=20 best video games of all time — ranked by an expert jury |last=Helm |first=Jake |work=[[The Times]] |date=26 February 2023 |access-date=10 January 2024 |archive-url=https://web.archive.org/web/20230226103451/https://www.thetimes.co.uk/article/20-best-video-games-of-all-time-ranked-by-an-expert-jury-l5zgrxmw8 |archive-date=26 February 2023 |url-status=live |url-access=subscription }}
+|2={{cite web |url=https://www.polygon.com/features/2017/12/1/16707720/the-500-best-games-of-all-time-100-1 |title=The 500 best games of all time: 100–1 |last=Hester |first=Blake |work=[[Polygon (website)|Polygon]] |publisher=[[Vox Media]] |date=1 December 2017 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20171201191206/https://www.polygon.com/features/2017/12/1/16707720/the-500-best-games-of-all-time-100-1 |archivedate=1 December 2017 |url-status=live }}
+|3={{cite magazine |title=The Top 200 Games of All Time |editor-last=McNamara |editor-first=Andy |issue=200 |magazine=[[Game Informer]] |date=January 2010 }}
+|4={{cite web |url=https://gamingbolt.com/top-98-greatest-video-games-ever-made/29 |title=Top 98 greatest video games ever made |page=29 |last=Philip |first=Rohan |work=GamingBolt |date=19 April 2013 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20211026204846/https://gamingbolt.com/top-98-greatest-video-games-ever-made/29 |archivedate=26 October 2021 |url-status=live }}
+|5={{cite magazine |title=''GamesTM'' Top 100 |editor-last=Porter |editor-first=Rick |issue=100 |journal=[[GamesTM]] |date=October 2010 }}
+|6={{cite web |url=https://www.ign.com/lists/top-100-games/58 |title=Top 100 Video Games of All Time |last=Reilly |first=Luke |work=[[IGN]] |publisher=[[Ziff Davis]] |date=July 2009 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20230128005941/https://www.ign.com/lists/top-100-games/58 |archivedate=28 January 2023 |url-status=live }}
+|7={{cite web |url=https://www.slantmagazine.com/games/the-100-best-video-games-of-all-time/ |title=The 100 Best Video Games of All Time |last=Winslow |first=Jeremy |work=[[Slant Magazine]] |date=13 April 2020 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20200414133247/https://www.slantmagazine.com/games/the-100-best-video-games-of-all-time/ |archivedate=14 April 2020 |url-status=live }}
+|8={{cite web |url=https://www.jeuxvideo.com/dossier/694881/top-100-des-meilleurs-jeux-de-tous-les-temps/695010.htm |title=38ème : Grand Theft Auto : San Andreas / 2004 |language=fr |trans-title=38th: Grand Theft Auto: San Andreas / 2004 |work=[[Jeuxvideo.com]] |publisher=[[Webedia]] |date=7 September 2017 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20170911111534/https://www.jeuxvideo.com/dossier/694881/top-100-des-meilleurs-jeux-de-tous-les-temps/695010.htm |archivedate=11 September 2017 }}
+|9={{cite web |url=http://www.gamesradar.com/best-games-ever/ |title=The 100 best games of all time |work=[[GamesRadar]] |publisher=[[Future plc]] |date=20 April 2012 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20120509195913/http://www.gamesradar.com/best-games-ever/ |archivedate=9 May 2012 |url-status=live }}
+|10={{cite web |url=https://www.theage.com.au/technology/the-50-best-games-20051006-gdm6uh.html |title=The 50 best games |work=[[The Age]] |publisher=[[Nine Entertainment]] |date=6 October 2005 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20181223073458/https://www.theage.com.au/technology/the-50-best-games-20051006-gdm6uh.html |archivedate=23 December 2018 |url-status=live }}
+}}</ref>
+
+<ref name="Best Generation">{{Multiref2
+|1={{cite web |url=https://www.gamespot.com/articles/best-ps2-games-of-all-time-top-25-experiences-for-playstation-2/1100-6499732/|title=Best PS2 Games Of All Time: Top 25 Experiences For PlayStation 2 |last=Bonthuys |first=Darryn |work=[[GameSpot]] |publisher=[[Fandom, Inc.]] |date=22 April 2022 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20220423032639/https://www.gamespot.com/articles/best-ps2-games-of-all-time-top-25-experiences-for-playstation-2/1100-6499732/ |archivedate=23 April 2022 |url-status=live }}
+|2={{cite web |url=https://www.denofgeek.com/games/best-playstation-2-games/ |title=The Best PlayStation 2 Games Ever |last=Freiberg |first=Chris |work=[[Den of Geek]] |date=25 November 2022 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20221125080005/https://www.denofgeek.com/games/best-playstation-2-games/ |archivedate=25 November 2022 |url-status=live }}
+|3={{cite web |url=https://www.gamesradar.com/best-xbox-games-all-time/ |title=25 best original Xbox games of all-time |last1=Jones |first1=Darran |last2=Gould-Wilson |first2=Jasmine |last3=West |first3=Josh |work=[[Retro Gamer]] |publisher=[[Future plc]] |date=27 October 2023 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20231211224717/https://www.gamesradar.com/best-xbox-games-all-time/ |archivedate=11 December 2023 |url-status=live }}
+|4={{cite web |url=https://www.gamesradar.com/best-ps2-games-all-time/ |title=The 25 best PS2 games of all-time |last1=Thorpe |first1=Nick |last2=West |first2=Josh |work=[[Retro Gamer]] |publisher=[[Future plc]] |date=19 October 2023 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20240103190526/https://www.gamesradar.com/best-ps2-games-all-time/ |archivedate=3 January 2024 |url-status=live }}
+|5={{cite web |url=https://www.thegamer.com/ps2-best-all-time-games/ |title=10 Best PS2 Games Of All Time |last=Wiggs |first=Zackary |work=TheGamer |publisher=Valnet |date=9 November 2023 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20231127000629/https://www.thegamer.com/ps2-best-all-time-games/ |archivedate=27 November 2023 }}
+|6={{cite web |url=https://www.digitaltrends.com/gaming/the-best-original-xbox-games/ |title=The best original Xbox games |last=Yaden |first=Joseph |work=[[Digital Trends]] |date=15 April 2021 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20210416005407/https://www.digitaltrends.com/gaming/the-best-original-xbox-games/ |archivedate=16 April 2021 |url-status=live }}
+|7={{cite web |url=https://www.ign.com/articles/the-25-best-original-xbox-games-of-all-time |title=The 25 Best Original Xbox Games of All Time |work=[[IGN]] |publisher=[[Ziff Davis]] |date=18 November 2021 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20231121131316/https://www.ign.com/articles/the-25-best-original-xbox-games-of-all-time |archivedate=21 November 2023 |url-status=live }}
+|8={{cite web |url=https://www.complex.com/pop-culture/a/complex/the-50-best-ps2-games-ever |title=The 50 Best PlayStation 2 Games of All Time |work=[[Complex (website)|Complex]] |publisher=[[Complex Networks]] |date=4 October 2022 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20231217232919/https://www.complex.com/pop-culture/a/complex/the-50-best-ps2-games-ever |archivedate=17 December 2023 |url-status=live }}
+|9={{cite web |url=https://www.ign.com/articles/best-ps2-games |title=The Best PS2 Games Of All Time |work=[[IGN]] |publisher=[[Ziff Davis]] |date=14 October 2023 |accessdate=10 January 2024 |archiveurl=https://web.archive.org/web/20240108222556/https://www.ign.com/articles/best-ps2-games |archivedate=8 January 2024 |url-status=live }}
+}}</ref>
+
+<ref name="Edge Garbut">{{cite magazine |url=http://www.edge-online.com/features/rockstar-norths-aaron-garbut-on-the-making-of-grand-theft-auto-v-our-game-of-2013/ |title=Rockstar North's Aaron Garbut on the making of ''Grand Theft Auto V'' – our game of 2013 |magazine=[[Edge (magazine)|Edge]] |publisher=[[Future plc]] |date=2 January 2014 |accessdate=2 January 2014 |archiveurl=https://web.archive.org/web/20140102221855/http://www.edge-online.com/features/rockstar-norths-aaron-garbut-on-the-making-of-grand-theft-auto-v-our-game-of-2013/ |archivedate=2 January 2014 }}</ref>
+
+<ref name="Game Informer Garbut">{{cite magazine |last=Bertz |first=Matt |title=Go Big Or Go Home |magazine=[[Game Informer]] |issue=236 |pages=72–95 |publisher=[[GameStop]] |location=United States |date=December 2012 }}</ref>
+
+<ref name="Guardian Houser">{{cite web |url=https://www.theguardian.com/technology/gamesblog/2013/sep/13/grand-theft-auto-5-dan-houser |title=''Grand Theft Auto 5'' – inside the creative process with Dan Houser |last=Stuart |first=Keith |work=[[The Guardian]] |date=13 September 2013 |accessdate=4 October 2013 |archiveurl=https://web.archive.org/web/20130914040633/http://www.theguardian.com/technology/gamesblog/2013/sep/13/grand-theft-auto-5-dan-houser |archivedate=14 September 2013 |url-status=live }}</ref>
+
+<ref name="IGN IV">{{cite web |url=https://www.ign.com/articles/2008/03/31/gta-iv-pushing-the-limits |title=''GTA IV'': Pushing the Limits |last=Goldstein |first=Hilary |work=[[IGN]] |publisher=[[Ziff Davis]] |date=1 April 2008 |access-date=29 September 2020 |archive-url=https://web.archive.org/web/20141011143232/https://www.ign.com/articles/2008/03/31/gta-iv-pushing-the-limits |archive-date=11 October 2014 |url-status=live}}</ref>
+
+<ref name="Kikizo IV">{{cite web |url=http://archive.videogamesdaily.com/news/200705/101_p1.asp |title=Welcome to ''Grand Theft Auto IV'' |last=Doree |first=Adam |work=Kikizo |date=25 May 2007 |accessdate=27 September 2013 |archiveurl=https://web.archive.org/web/20131009043528/http://archive.videogamesdaily.com/news/200705/101_p1.asp |archivedate=9 October 2013 }}</ref>
+
+<ref name="OPM UK 2007">{{cite journal |title=''GTA'' Gets Real |journal=[[PlayStation Official Magazine – UK]] |issue=6 |pages=54–67 |publisher=[[Future Publishing]] |location=United Kingdom |date=June 2007 }}</ref>
+
+<!-- Legacy: Internet culture -->
+
+<ref name="Destructoid Train">{{cite web |url=https://www.destructoid.com/10-most-iconic-video-game-catchphrases-ranked/ |title=10 most iconic video game catchphrases, ranked |last=Manuel |first=Tiago |work=[[Destructoid]] |publisher=[[Gamurs]] |date=20 July 2023 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20230720211404/https://www.destructoid.com/10-most-iconic-video-game-catchphrases-ranked/ |archivedate=20 July 2023 |url-status=live }}</ref>
+
+<ref name="Digital Spy Food">{{cite web |url=https://www.digitalspy.com/videogames/grand-theft-auto/a828195/san-andreas-food-challenge-big-smoke/ |title=YouTuber devours enormous 9050-calorie meal taken from a ''Grand Theft Auto'' mission |last=Mahboubian-Jones |first=Justin |work=[[Digital Spy]] |publisher=[[Hearst Communications]] |date=12 May 2017 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20170515190740/http://www.digitalspy.com/gaming/grand-theft-auto/news/a828195/san-andreas-food-challenge-big-smoke/ |archivedate=15 May 2017 |url-status=live }}</ref>
+
+<ref name="Game Informer Zelda">{{cite magazine |url=https://www.gameinformer.com/b/news/archive/2017/09/19/san-andreas-cj-ventures-to-hyrule-in-this-breath-of-the-wild-mod.aspx |title=''San Andreas''{{'}} CJ Ventures To Hyrule In This ''Breath Of The Wild'' Mod |last=Kham |first=Imran |magazine=[[Game Informer]] |publisher=[[GameStop]] |date=19 September 2017 |access-date=16 January 2024 |archive-url=https://web.archive.org/web/20170920150138/https://www.gameinformer.com/b/news/archive/2017/09/19/san-andreas-cj-ventures-to-hyrule-in-this-breath-of-the-wild-mod.aspx |archive-date=20 September 2017 |url-status=live }}</ref>
+
+<ref name="Game Rant Train">{{cite web |url=https://gamerant.com/grand-theft-auto-san-andreas-is-timeless-not/ |title=5 Ways ''Grand Theft Auto: San Andreas'' Is Timeless (& 5 Ways It Hasn't Aged Well) |last=Winters |first=Brian |work=[[Game Rant]] |publisher=Valnet |date=8 October 2020 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20201107200141/https://gamerant.com/grand-theft-auto-san-andreas-is-timeless-not/ |archivedate=7 November 2020 |url-status=live }}</ref>
+
+<ref name="GamesRadar 1991">{{cite web |url=https://www.gamesradar.com/gta-1991-mod-san-andreas-stories-prequel-interview/ |title=''GTA 1991'' could be the ''San Andreas Stories'' prequel we always wanted and more |last=Donnelly |first=Joe |work=[[GamesRadar+]] |publisher=[[Future plc]] |date=23 September 2022 |accessdate=7 July 2026 |archiveurl=https://web.archive.org/web/20220215124945/https://www.gamesradar.com/gta-1991-mod-san-andreas-stories-prequel-interview/ |archivedate=15 February 2022 |url-status=live }}</ref>
+
+<ref name="GamesRadar Train">{{cite web |url=https://www.gamesradar.com/the-infamous-gta-san-andreas-train-mission-has-a-simple-solution/ |title=The infamous ''GTA: San Andreas'' train mission has a simple solution |last=Jones |first=Ali |work=[[GamesRadar+]] |publisher=[[Future plc]] |date=2 November 2021 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20211101180836/https://www.gamesradar.com/the-infamous-gta-san-andreas-train-mission-has-a-simple-solution/ |archivedate=1 November 2021 |url-status=live }}</ref>
+
+<ref name="IGN Meme">{{cite web |url=https://www.ign.com/articles/gta-san-andreas-meme-remastered-hd |title=One Of ''GTA: San Andreas''{{'}}s Most Famous Clips Released in HD |last=Plant |first=Logan |work=[[IGN]] |publisher=[[Ziff Davis]] |date=9 November 2021 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20211109232024/https://www.ign.com/articles/gta-san-andreas-meme-remastered-hd |archivedate=9 November 2021 |url-status=live }}</ref>
+
+<ref name="iXBT Stories">{{cite web |url=https://ixbt.games/en/news/2026/05/31/zakryli-gta-san-andreas-stories-globalnuiu-modifikaciiu-pro-voinu-band-v-los-santose.html |title=Global modification of ''GTA: San Andreas Stories'' about gang war in San Andreas shut down |last=Piletskiy |first=Boris |work=[[:ru:IXBT Games|iXBT Games]] |date=31 May 2026 |accessdate=7 July 2026 |archiveurl=https://web.archive.org/web/20260706221229/https://ixbt.games/en/news/2026/05/31/zakryli-gta-san-andreas-stories-globalnuiu-modifikaciiu-pro-voinu-band-v-los-santose.html |archivedate=6 July 2026 |url-status=live }}</ref>
+
+<ref name="Kotaku Food">{{cite web |url=https://kotaku.com/someone-actually-ate-that-famous-and-giant-gta-san-an-1795140941 |title=Someone Actually Ate That Famous (And Giant) ''GTA San Andreas'' Fast Food Order |last=Zwiezen |first=Zack |work=[[Kotaku]] |publisher=[[G/O Media]] |date=11 May 2017 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20170512015056/https://kotaku.com/someone-actually-ate-that-famous-and-giant-gta-san-an-1795140941 |archivedate=12 May 2017 |url-status=live }}</ref>
+
+<ref name="PCGamesN Food">{{cite web |url=https://www.pcgamesn.com/grand-theft-auto-san-andreas/david-hayter-big-smoke-order |title=Here's David Hayter making Big Smoke's fast food order from ''San Andreas'' as Solid Snake |last=Boudreau |first=Ian |work=[[PCGamesN]] |publisher=Network N |date=12 May 2019 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20190512135933/https://www.pcgamesn.com/grand-theft-auto-san-andreas/david-hayter-big-smoke-order |archivedate=12 May 2019 |url-status=live }}</ref>
+
+<ref name="PC Gamer Blue Blood">{{cite web |url=https://www.pcgamer.com/games/grand-theft-auto/inside-the-gta-mod-that-was-so-well-written-its-creators-axed-it-to-make-their-own-game-and-then-returned-to-finish-the-job-due-to-public-demand/ |title=Inside the ''GTA'' mod that was so well-written its creators axed it to make their own game—and then returned to finish the job due to public demand |last=Donnelly |first=Joe |work=[[PC Gamer]] |publisher=[[Future plc]] |date=1 December 2025 |accessdate=7 July 2026 |archiveurl=https://web.archive.org/web/20251130214922/https://www.pcgamer.com/games/grand-theft-auto/inside-the-gta-mod-that-was-so-well-written-its-creators-axed-it-to-make-their-own-game-and-then-returned-to-finish-the-job-due-to-public-demand/ |archivedate=30 November 2025 |url-status=live }}</ref>
+
+<ref name="PC Gamer Carcer">{{cite web |url=https://www.pcgamer.com/games/grand-theft-auto/this-wildly-ambitious-total-conversion-mod-for-grand-theft-auto-san-andreas-lets-you-explore-the-setting-of-2003s-manhunt/ |title=This wildly ambitious total conversion mod for ''Grand Theft Auto: San Andreas'' lets you explore the setting of 2003's ''Manhunt'' |last=Lane |first=Rick |work=[[PC Gamer]] |publisher=[[Future plc]] |date=19 April 2026 |accessdate=7 July 2026 |archiveurl=https://web.archive.org/web/20260418161103/https://www.pcgamer.com/games/grand-theft-auto/this-wildly-ambitious-total-conversion-mod-for-grand-theft-auto-san-andreas-lets-you-explore-the-setting-of-2003s-manhunt/ |archivedate=18 April 2026 |url-status=live }}</ref>
+
+<ref name="PC Gamer CJ">{{cite web |url=https://www.pcgamer.com/it-took-modders-less-than-a-day-to-add-cj-from-gta-san-andreas-to-armored-core-6/ |title=It took modders less than a day to add CJ from ''GTA: San Andreas'' to ''Armored Core 6'' |last=Stanton |first=Rich |work=[[PC Gamer]] |publisher=[[Future plc]] |date=26 August 2023 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20230825203620/https://www.pcgamer.com/it-took-modders-less-than-a-day-to-add-cj-from-gta-san-andreas-to-armored-core-6/ |archivedate=25 August 2023 |url-status=live }}</ref>
+
+<ref name="PC Gamer Dark Souls">{{cite web |url=https://www.pcgamer.com/dark-souls-daughters-of-ash-mod-adds-new-bosses-new-npcs-and-much-more/ |title=''Dark Souls'' 'Daughters of Ash' mod adds new bosses, new NPCs and much more |last=Prescott |first=Shaun |work=[[PC Gamer]] |publisher=[[Future plc]] |date=3 January 2019 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20190103122106/https://www.pcgamer.com/dark-souls-daughters-of-ash-mod-adds-new-bosses-new-npcs-and-much-more/ |archivedate=3 January 2019 |url-status=live }}</ref>
+
+<ref name="TheGamer Train">{{cite web |url=https://www.thegamer.com/follow-damn-train-game-origin/ |title=The Origin Of The Follow The Damn Train CJ Meme |last=Jessey |first=Ben |work=TheGamer |publisher=Valnet |date=11 April 2023 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20230414154121/https://www.thegamer.com/follow-damn-train-game-origin/ |archivedate=14 April 2023 |url-status=live }}</ref>
+
+<ref name="Time Meme">{{cite magazine |url=https://time.com/5720246/best-memes/ |title=The 10 Best Memes of 2019 |last=Bruner |first=Raisa |magazine=[[Time (magazine)|Time]] |date=22 November 2019 |accessdate=16 January 2024 |archiveurl=https://web.archive.org/web/20191122173556/https://time.com/5720246/best-memes/ |archivedate=22 November 2019 |url-status=live }}</ref>
+
+<ref name="Vice Meme">{{cite web |url=https://www.vice.com/en/article/the-most-iconic-memes-of-2019/ |title=14 most iconic memes of 2019 |last=Lanigan |first=Roisin |work=[[Vice (magazine)|Vice]] |date=29 December 2019 |access-date=16 January 2024 |archive-url=https://web.archive.org/web/20210623003438/https://www.vice.com/en/article/z3bedw/the-most-iconic-memes-of-2019 |archive-date=23 June 2021 |url-status=live }}</ref>
+
+<!-- Ports -->
+
+<ref name="Android">{{cite web |url=https://www.pocketgamer.com/articles/056204/grand-theft-auto-san-andreas-steals-a-bike-makes-its-way-to-google-play/ |title=''Grand Theft Auto: San Andreas'' steals a bike, makes its way to Google Play |first=Matthew |last=Diener |date=19 December 2013 |website=[[Pocket Gamer]] |access-date=17 December 2019 |archive-url=https://web.archive.org/web/20191007145223/https://www.pocketgamer.com/articles/056204/grand-theft-auto-san-andreas-steals-a-bike-makes-its-way-to-google-play/ |archive-date=7 October 2019 |url-status=live }}</ref>
+
+<ref name="Definitive Edition">{{cite web |url=https://www.ign.com/articles/grand-theft-auto-gta-trilogy-trailer-gameplay-price-release-date-the-definitive-edition |title=''Grand Theft Auto: The Trilogy – The Definitive Edition'' Gets Gameplay Trailer, November Release Date |last=Skrebels |first=Joe |work=[[IGN]] |publisher=[[Ziff Davis]] |date=22 October 2021 |access-date=22 October 2021 |archive-url=https://web.archive.org/web/20211022124629/https://www.ign.com/articles/grand-theft-auto-gta-trilogy-trailer-gameplay-price-release-date-the-definitive-edition |archive-date=22 October 2021 |url-status=live }}</ref>
+
+<ref name="Definitive Edition 2">{{cite web |url=https://www.ign.com/articles/original-versions-gta-trilogy-relisted-pc |title=Original Versions of the ''GTA Trilogy'' to Be Relisted for Sale on PC |last=Valentine |first=Rebekah |work=[[IGN]] |publisher=[[Ziff Davis]] |date=19 November 2021 |accessdate=19 November 2021 |archiveurl=https://web.archive.org/web/20211119181321/https://www.ign.com/articles/original-versions-gta-trilogy-relisted-pc |archivedate=19 November 2021 |url-status=live }}</ref>
+
+<ref name="Definitive Edition 3">{{cite web |url=https://www.polygon.com/23980880/netflix-play-grand-theft-auto-3-vice-city-trilogy-app-release |title=Netflix has landed The ''Grand Theft Auto Trilogy'' |last=Patches |first=Matt |work=[[Polygon (website)|Polygon]] |publisher=[[Vox Media]] |date=29 November 2023 |accessdate=30 November 2023 |archiveurl=https://web.archive.org/web/20231129190000/https://www.polygon.com/23980880/netflix-play-grand-theft-auto-3-vice-city-trilogy-app-release |archivedate=29 November 2023 |url-status=live }}</ref>
+
+<ref name="Eurogamer War Drum">{{cite web |url=https://www.eurogamer.net/articles/digitalfoundry-2014-gta-san-andreas-on-xbox-360-is-a-mobile-port |title=''GTA: San Andreas HD'' on Xbox 360 is a mobile port |last=Leadbetter |first=Richard |date=31 October 2014 |website=[[Eurogamer]] |accessdate=9 January 2024 |archivedate=28 October 2021 |archiveurl=https://web.archive.org/web/20211028105654/https://www.eurogamer.net/articles/digitalfoundry-2014-gta-san-andreas-on-xbox-360-is-a-mobile-port |url-status=live }}</ref>
+
+<ref name="Fire OS">{{cite web |url=https://www.polygon.com/2014/5/15/5721390/grand-theft-auto-trilogy-amazon-fire-tv-kindle-fire |title=''Grand Theft Auto'' trilogy launches for Amazon Fire TV, Kindle Fire |first=Megan |last=Farokhmanesh |date=15 May 2014 |website=[[Polygon (website)|Polygon]] |access-date=17 December 2019 |archive-url=https://web.archive.org/web/20190828082916/https://www.polygon.com/2014/5/15/5721390/grand-theft-auto-trilogy-amazon-fire-tv-kindle-fire |archive-date=28 August 2019 |url-status=live }}</ref>
+
+<ref name="GamesRadar Xbox">{{cite web |url=https://www.gamesradar.com/gta-san-andreas-xbox-shots/ |title=''GTA San Andreas'' Xbox shots |work=[[GamesRadar]] |publisher=[[Future plc]] |date=7 June 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20211028173014/https://www.gamesradar.com/gta-san-andreas-xbox-shots/ |archivedate=28 October 2021 |url-status=live }}</ref>
+
+<ref name="IGN Xbox Date">{{cite web |url=https://www.ign.com/articles/2004/12/16/gta-san-andreas-hits-xbox |title=''GTA: San Andreas'' Hits Xbox |last=Perry |first=Douglass C. |work=[[IGN]] |publisher=[[Ziff Davis]] |date=17 December 2004 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20240109072830/https://www.ign.com/articles/2004/12/16/gta-san-andreas-hits-xbox |archivedate=9 January 2024 |url-status=live }}</ref>
+
+<ref name="iOS">{{cite web |url=https://www.techradar.com/news/gaming/grand-theft-auto-san-andreas-available-for-ios-now-coming-to-android-soon-1207457 |title=''GTA: San Andreas'' available for iOS now, coming to Android 'soon' |first=Matt |last=Swider |date=12 December 2013 |website=[[TechRadar]] |publisher=[[Future plc]] |access-date=17 December 2019 |archive-url=https://web.archive.org/web/20171206065219/http://www.techradar.com/news/gaming/grand-theft-auto-san-andreas-available-for-ios-now-coming-to-android-soon-1207457 |archive-date=6 December 2017 |url-status=live }}</ref>
+
+<ref name="Mac">{{cite web |url=https://www.vg247.com/grand-theft-auto-trilogy-now-available-for-mac |title=''Grand Theft Auto Trilogy'' now available for Mac |last=Nunneley-Jackson |first=Stephany |work=[[VG247]] |publisher=[[Gamer Network]] |date=12 November 2010 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20210922023300/https://www.vg247.com/grand-theft-auto-trilogy-now-available-for-mac |archivedate=22 September 2021 |url-status=live }}</ref>
+
+<ref name="Oculus Eurogamer">{{cite web |url=https://www.eurogamer.net/meta-staying-quiet-on-status-of-grand-theft-auto-san-andreas-vr |title=Meta staying quiet on status of ''Grand Theft Auto: San Andreas VR'' |last=Kennedy |first=Victoria |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=10 October 2023 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20231012191435/https://www.eurogamer.net/meta-staying-quiet-on-status-of-grand-theft-auto-san-andreas-vr |archivedate=12 October 2023 |url-status=live }}</ref>
+
+<ref name="Oculus Kotaku">{{cite web |url=https://kotaku.com/gta-san-andreas-vr-port-meta-quest-2-canceled-trailer-1850497164 |title=Remember ''GTA: San Andreas'' VR? Fans Aren't Letting Meta Forget |last=Zwiezen |first=Zack |work=[[Kotaku]] |publisher=[[G/O Media]] |date=1 June 2023 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20231111144853/https://kotaku.com/gta-san-andreas-vr-port-meta-quest-2-canceled-trailer-1850497164 |archivedate=11 November 2023 |url-status=live }}</ref>
+
+<ref name="Oculus PC Gamer">{{cite web |url=https://www.pcgamer.com/grand-theft-auto-san-andreas-is-coming-to-vr/ |title=''Grand Theft Auto: San Andreas'' is coming to VR |last=Fenlon |first=Wes |work=[[PC Gamer]] |publisher=[[Future plc]] |date=28 October 2021 |accessdate=29 October 2021 |archive-date=29 October 2021 |archive-url=https://web.archive.org/web/20211029004950/https://www.pcgamer.com/grand-theft-auto-san-andreas-is-coming-to-vr/ |url-status=live }}</ref>
+
+<ref name="Oculus Verge">{{cite web |url=https://www.theverge.com/2024/8/15/24221315/meta-vr-version-gta-san-andreas-on-hold |title=Meta's VR version of ''GTA: San Andreas'' is 'on hold indefinitely' |last=Peters |first=Jay |work=[[The Verge]] |publisher=[[Vox Media]] |date=15 August 2024 |accessdate=15 August 2024 |archive-date=15 August 2024 |archive-url=https://web.archive.org/web/20240815203923/https://www.theverge.com/2024/8/15/24221315/meta-vr-version-gta-san-andreas-on-hold |url-status=live }}</ref>
+
+<ref name="Oculus VG">{{cite web |url=https://www.videogamer.com/news/grand-theft-auto-san-andreas-vr-looks-to-be-made-by-former-la-noire-developers/ |title=''Grand Theft Auto: San Andreas VR'' looks to be made by former ''LA Noire'' developers |last=Borthwick |first=Ben |work=VideoGamer.com |publisher=Resero |date=1 November 2021 |access-date=3 November 2021 |archive-url=https://web.archive.org/web/20211101175625/https://www.videogamer.com/news/grand-theft-auto-san-andreas-vr-looks-to-be-made-by-former-la-noire-developers/ |archive-date=1 November 2021 |url-status=live }}</ref>
+
+<ref name="PS2 Classics">{{cite web |url=https://www.ign.com/articles/2012/12/10/release-date-for-grand-theft-auto-san-andreas-on-psn |title=Release Date for ''Grand Theft Auto: San Andreas'' on PSN |last=Moriarty |first=Colin |work=[[IGN]] |publisher=[[Ziff Davis]] |date=10 December 2012 |accessdate=9 January 2014 |archiveurl=https://web.archive.org/web/20121213011113/https://www.ign.com/articles/2012/12/10/release-date-for-grand-theft-auto-san-andreas-on-psn |archivedate=13 December 2012 |url-status=live }}</ref>
+
+<ref name="PS3">{{cite web |url=https://www.vg247.com/gta-san-andreas-gets-stealth-release-on-ps3-over-a-year-after-xbox-360 |title=''GTA: San Andreas'' gets stealth release on PS3 over a year after Xbox 360 |last=Saed |first=Sherif |work=[[VG247]] |publisher=[[Gamer Network]] |date=2 December 2015 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220815180459/https://www.vg247.com/gta-san-andreas-gets-stealth-release-on-ps3-over-a-year-after-xbox-360 |archivedate=15 August 2022 |url-status=live }}</ref>
+
+<ref name="PS4">{{cite web |url=https://www.gamespot.com/articles/these-eight-ps2-games-are-coming-to-ps4-tomorrow-w/1100-6432836/ |title=These Eight PS2 Games Are Coming to PS4 Tomorrow With 1080p Graphics |last=Makuch |first=Eddie |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=4 December 2015 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20151206015544/https://www.gamespot.com/articles/these-eight-ps2-games-are-coming-to-ps4-tomorrow-w/1100-6432836/ |archivedate=6 December 2015 |url-status=live }}</ref>
+
+<ref name="Trilogy">{{cite web |url=https://www.gamespot.com/articles/gta-gets-trilogized-san-andreas-special-edition/1100-6134252/ |title=''GTA'' gets trilogized, ''San Andreas'' special edition |last=Surette |first=Tim |work=[[GameSpot]] |publisher=[[CBS Interactive]] |date=23 September 2005 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20151018143146/https://www.gamespot.com/articles/gta-gets-trilogized-san-andreas-special-edition/1100-6134252/ |archivedate=18 October 2015 |url-status=live }}</ref>
+
+<ref name="Trilogy PS2">{{cite web |url=https://www.gamesradar.com/no-gta-the-trilogy-for-uk-yet/ |title=No ''GTA: The Trilogy'' for UK... yet |last=Cooke |first=Alex |work=[[GamesRadar]] |publisher=[[Future plc]] |date=9 November 2006 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20191117164250/https://www.gamesradar.com/no-gta-the-trilogy-for-uk-yet/ |archivedate=17 November 2019 |url-status=live }}</ref>
+
+<ref name="Windows Phone">{{cite web |url=https://www.engadget.com/2014/01/27/gta-san-andreas-windows-phone/ |title=''GTA: San Andreas'' now available for (some) Windows Phones weeks late |first=Ben |last=Gilbert |date=27 January 2014 |website=[[Engadget]] |access-date=17 December 2019 |archive-url=https://web.archive.org/web/20190210143817/https://www.engadget.com/2014/01/27/gta-san-andreas-windows-phone/ |archive-date=10 February 2019 |url-status=live }}</ref>
+
+<ref name="Xbox Originals">{{cite magazine |url=https://www.gamereactor.se/grand-theft-auto-san-andreas-15647/ |title=''Grand Theft Auto: San Andreas'' |language=Swedish |last=Mäki |first=Jonas |magazine=[[Gamereactor]] |date=20 October 2008 |accessdate=11 March 2024 |archiveurl=https://web.archive.org/web/20240311021328/https://www.gamereactor.se/grand-theft-auto-san-andreas-15647/ |archivedate=11 March 2024 |url-status=live }}</ref>
+
+<ref name="Xbox 360">{{cite web |url=https://www.eurogamer.net/grand-theft-auto-san-andreas-headed-to-xbox-360-leaked-achievements-suggest |title=''Grand Theft Auto: San Andreas'' getting Xbox 360 re-release, leaked Achievements suggest |last=Phillips |first=Tom |work=[[Eurogamer]] |publisher=[[Gamer Network]] |date=23 October 2014 |accessdate=9 January 2024 |archiveurl=https://web.archive.org/web/20220706214218/https://www.eurogamer.net/grand-theft-auto-san-andreas-headed-to-xbox-360-leaked-achievements-suggest |archivedate=6 July 2022 |url-status=live }}</ref>
+}}
+
+== External links ==
+{{Commons category}}
+{{Wikiquote}}
+* {{Official website}}
+
+{{Grand Theft Auto}}
+{{Rockstar North}}
+{{Golden Joystick GOTY}}
+{{Authority control}}
+
+[[Category:Grand Theft Auto: San Andreas| ]]
+[[Category:1992 Los Angeles riots in popular culture]]
+[[Category:2004 video games]]
+[[Category:Action-adventure games]]
+[[Category:Android (operating system) games]]
+[[Category:Cultural depictions of the Mafia]]
+[[Category:Fictional portrayals of the Los Angeles Police Department]]
+[[Category:Golden Joystick Award for Game of the Year winners]]
+[[Category:Grove Street Games games]]
+[[Category:IOS games]]
+[[Category:MacOS games]]
+[[Category:Meta Quest games]]
+[[Category:Multiplayer and single-player video games]]
+[[Category:Obscenity controversies in video games]]
+[[Category:Open-world video games]]
+[[Category:Organized crime video games]]
+[[Category:PlayStation 2 games]]
+[[Category:PlayStation Network games]]
+[[Category:Prequel video games]]
+[[Category:RenderWare games]]
+[[Category:Rockstar Games games]]
+[[Category:Spike Video Game Awards Game of the Year winners]]
+[[Category:Take-Two Interactive games]]
+[[Category:Video games about the illegal drug trade]]
+[[Category:Video games developed in the United Kingdom]]
+[[Category:Video games featuring black protagonists]]
+[[Category:Video games produced by Dan Houser]]
+[[Category:Video games produced by Leslie Benzies]]
+[[Category:Video games set in 1992]]
+[[Category:Video games set in the United States]]
+[[Category:Video games set on fictional islands]]
+[[Category:Video games written by Dan Houser]]
+[[Category:Windows games]]
+[[Category:Windows Phone games]]
+[[Category:Xbox 360 games]]
+[[Category:Xbox games]]
+[[Category:Xbox Originals games]]

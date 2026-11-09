@@ -1,0 +1,53 @@
+{{Arch-vile}}{{DISPLAYTITLE:Arch-vile (Doom 3)}}
+
+{{Infobox Enemy
+| image=Doom3Archvile.PNG
+| class=Infernal Priest
+| hp=425
+| attack=12 (claws), 20 (fire)
+| found=*[[Delta Labs - Level 2b: Union Aerospace Research Division|Delta Labs Sector 2b]]
+*[[Delta Complex: Union Aerospace Research Division|Delta Complex]]
+*[[Central Processing: Processing Distribution Center|CPU Complex]]
+*[[Central Processing: Primary Server Bank|Main Server Bank]]
+*[[Site 3: Analysis Facility|Site 3]]
+*[[Caverns - Area 1: Excavation Transfer|Caverns Area 1]]
+*[[Caverns - Area 2: Artifact Excavation|Caverns Area 2]]
+*[[Phobos Labs - Revisited: Teleportation|Phobos Labs Sector 1 (revisited)]]
+*[[Enpro - Sector 2: Energy Processing and Storage|Enpro Sector 2]]
+*[[Underground - Sector 2: Mars City Service Sub-Level|Service Sub Level 2]]
+*[[Exis Labs - Sector 1: Union Aerospace Research Division|Exis Labs Sector 1]]
+*[[Exis Labs - Sector 2: Union Aerospace Research Division|Exis Labs Sector 2]]
+*[[Hell (Lost Mission level)|Hell (LM)]]
+*[[Hell Outpost]]
+| spawn="spawn monster_demon_archvile"
+| note=*Can spawn demons
+| name = Arch-vile
+}}
+The '''Arch-vile''' is one of the few monsters in ''[[Doom 3]]'' that remains faithful to its classic version. It is a large, off-white colored humanoid demon that stands a head taller than a normal human. Appearance-wise, it still looks emaciated, but does not have the sunken stomach, and has a skin pigment with bloody, tumor-like, bloated hands.
+
+The player comes into first contact with these monsters in the Research Division of the Delta Labs, where they are characterized by their high-pitched bird-like screeches and low-pitched cackles they make when present.
+
+They serve as one of the high-tier enemies in the game, as they possess very powerful attacks and have a good amount of health to sustain from heavy damage, although they pale in comparison to the likes of the [[Hell Knight/Doom 3|Hell Knight]] and the [[Mancubus/Doom 3|Mancubus]].
+
+==Combat Characteristics==
+Although the Arch-vile cannot revive defeated enemies like its [[Arch-vile/Doom II|classic interpretation]] (the bodies burn away instead of leaving a corpse), it makes up for this by summoning non-boss demons in its vicinity. Generally, they would summon [[Imp/Doom 3|Imps]] and [[Commando/Doom 3|Commandos]], although they can even summon Hell Knights in later levels.
+
+The Arch-vile primarily attacks by sending out a wide stream of flames to its target, which can cause massive damage. Also, unlike its classic version, it also has its own melee attack, as it can slash its victims at close range.
+
+Aside from its attacks, the Arch-vile no longer maintains the same mobility as it did in the original game; it can only resort to walking slowly instead of running very quick. They can, however, occasionally sidestep in order to dodge the player's line of fire, given the opportunity.
+
+==Tactical Analysis==
+Defense-wise, the ''Doom 3'' Arch-vile is overall weaker than its classic version. It only possesses 60% of its original health, and moves a lot slower, making them an easier target.
+
+On the other hand, given the player's reduced speed and the lack of sufficient space to freely move around, their attacks are lot harder to avoid. The Arch-vile's ability to summon demons around the area can be very problematic if it is left unattended for so long. Therefore, the Arch-vile should be treated as a first priority target to take down in order to avoid the hassle from getting outnumbered by enemies.
+
+Fortunately, the Arch-vile is introduced very late in the game (conveniently, one level after the player obtains the [[BFG9000/Doom 3|BFG9000]]). So players should be expected to be already armed with very powerful weapons like the [[Rocket launcher/Doom 3|Rocket Launcher]] and the BFG9000 by that point. It takes 2-3 rockets to take down an Arch-vile, and one single BFG shot to take down an Arch-vile. The Arch-vile's presence makes it a very perfect opportunity for the player to also rely on the [[Soul Cube/Doom 3|Soul Cube]]. If the Soul Cube is not yet fully charged, players can rely on killing the lesser demons to charge up the weapon, and use it to kill the Arch-vile. Although precautions should be made as the Cube may end up going after a summoned demon caught within the crossfire, instead of the Arch-vile itself. Make sure to stay close and aim directly at the Arch-vile once the Cube is ready.
+
+Other weapons like the [[Chainsaw/Doom 3|Chainsaw]] and the [[Shotgun/Doom 3|Shotgun]] can moderately work, but players must exercise great caution to dodge their clawing and fire attacks as they can do massive damage buildup if the attacks all connect. The ''[[Doom 3: The Lost Mission|Lost Mission]]'' and ''[[Doom 3: Resurrection of Evil|Resurrection of Evil]]'' expansion packs introduce the [[Super shotgun/Doom 3|Super Shotgun]], which acts as a more devastating close range weapon against the Arch-vile. One headshot from the Super Shotgun or two body shots will immediately neutralize the Arch-vile.
+
+{{Doom 3 monsters}}
+
+[[Category:Doom 3 monsters]]
+[[Category:Demonic Priests]]
+[[Category:Demons]]
+[[Category:Monsters]]

@@ -1,0 +1,69 @@
+{{Infobox Ability
+|image = 
+{{Media
+ |Render OoT= File:OoT Nayru's Love Render.png
+ |Model OoT= File:OoT Nayru's Love Model.png
+ |Model OoT3D= File:OoT3D Nayru's Love Model.png
+ |Sprite OoT= File:OoT Nayru's Love Icon.png
+ |Sprite OoT3D= File:OoT3D Nayru's Love Icon.png
+}}
+|caption = 
+|type = Spell
+|game = {{OoT}}
+|other = {{SSBM}}<br/>{{SSBB}}<br/>{{HW}}<br/>{{SSB4}}<br/>{{SSBU}}<br/>{{CoH}}
+|req = [[Magic Meter|Magic Power]]
+|uses = Protecting Link
+|comp = [[Din's Fire]]<br/>[[Farore's Wind]]
+}}
+{{Term/Store|Nayru's Love||Series}} is a recurring Spell in {{TLoZ|Series}}.
+
+==Location and Uses==
+==={{OoT|-}}===
+[[File:Nayru's Love OoT.png|thumb|280x280px|Link activating the Nayru's Love in ''Ocarina of Time''|left]]
+In {{OoT}}, Nayru's Love is received from the [[Great Fairy of Magic]] in the [[Desert Colossus]].<ref>{{Cite|Welcome Link! I am the Great Fairy of Magic! I will give you a magic spell. Please take it.|Great Fairy of Magic|OoT}}</ref> When used, the Spell based on the [[Golden Goddess|Goddess]] [[Nayru (Goddess)|Nayru]] surrounds [[Link]]'s body with a powerful, blue diamond-shaped barrier producing a [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_NayrusLove1.wav distinctive sound], which lasts for exactly one minute.<ref>{{Cite|Nayru's Love is in effect for only a limited time, so use it carefully.|Great Fairy of Magic|OoT}}</ref> Nayru's Love prevents all damage, but does not stop recoil from enemy attacks, meaning Link will still be thrown otherwise from a strong blow (especially if he is wearing the [[Hover Boots]]). It can be activated instantly on command, but only deactivates when it wears off. The effect of Nayru's Love wearing off is signaled by the barrier flickering while the noise that accompanies it [https://noproblo.dayjo.org/zeldasounds/OOT/OOT_NayrusLove2.wav falters]. It drains a considerable 12 [[Magic Meter|Magic Power]] when used, making it the most magic-consuming item in the game and double the amount used by the other two Spells [[Din's Fire]] and [[Farore's Wind]]. While activated, the [[Hero of Time]] cannot use any other items that drain magic energy until the defensive spell wears out.
+
+Unlike Din's Fire and similar to Farore's Wind, although this spell is useful against certain dangerous enemies such as [[Iron Knuckle (Boss)|Iron Knuckles]] or [[Ganon]] himself, Nayru's Love is not required to complete the game.
+
+==Other Appearances==
+{{Noncanon|Start}}
+==={{SSB|-}} Series===
+:''See {{ssb|Main Page|SmashWiki's}} articles on {{ssb|Nayru's Love}} for more information.''
+[[File:Nayru's Love (SSBM).jpg|200px|right|thumb|Zelda using Nayru's Love in {{SSBM|-}}]]
+
+Nayru's Love is [[Princess Zelda]]'s {{ssb|neutral special move}}, even though she was not involved with the spell originally. It also functions differently from {{OoT}}. When performed, a blue diamond-shaped barrier surrounds Zelda, which then shatters into tiny blue crystals as Zelda spins around. The shards deal slight damage to any nearby opponents. The spell can reflect projectile attacks when timed correctly. <ref>{{Cite|She can use Nayru's Love to reflect projectile attacks or as an offensive weapon.|Trophy|SSBM}}</ref> The barrier in ''Smash Bros.'', unlike {{OoT|-}}, also doesn't surround Zelda's entire body, because it is much smaller.
+
+==={{HW|-}}===
+[[File:HW Nayru's Love Badge Icon.png|right|The Nayru's Love spell in {{HW|-}}]]
+In {{HW}}, Nayru's Love appears as a [[Badge Market|Defense Badge]] in the {{Term|HW|Bazaar|link}}'s [[Badge Market]]. When purchased for a Warrior, it nullifies the knock-back effect from hits sustained by that particular Warrior.<ref>{{Cite|Nullifies knock-back on the first hit taken from enemies.|N/A|HW}}</ref> It appears in three iterative Badge qualities: bronze, silver and gold; each providing a stronger effect than the one prior. '''Nayru's Love I''' nullifies the first hit, '''Nayru's Love II''' the second hit, and '''Nayru's Love III''' nullifies the first three hits.
+
+One of the attacks that Zelda can execute with her [[Rapier]] is summoning a large crystal of ice. This, joined with her two other attacks resembling [[Din's Fire]] and [[Farore's Wind]], appears to be a reference to Nayru's Love.
+{{Noncanon|End}}
+
+{{Ambig|Start}}
+==={{CoH|-}}===
+Nayru's Love appears as a special defensive ability unique to {{Term|CoH|Princess Zelda|link}}. If {{Term|CoH|Cadence|link}} wakes her up first, it can be found within {{Term|CoH|Hyrule Castle|link}} on the floor outside of Zelda's room being guarded by a {{Term|CoH|Green Guard|link}}, or if {{Term|CoH|Link|link}} is woken up first, it appears automatically in Zelda's inventory when he obtains the {{Term|CoH|Small Shield|link}}. Once acquired, Zelda can use it to reflect or block attacks and projectiles back at her enemies at the cost of {{Term|CoH|Stamina|link}}.<ref>{{Cite|{{Color|CoH Yellow|Nayru's Love}} {{Icon|CoH Zelda}}<br/>Use with {{Icon|CoH R}} to reflect or block projectiles and damage depending on your timing, at the cost of stamina.|Inventory|CoH}}</ref>
+{{Ambig|End}}
+
+==Trivia==
+*Though Nayru's Love doesn't appear in {{TWW}}, its name is inscribed on the base of [[Nayru (Goddess)|Nayru]]'s statue in [[Hylian Language#Third Hylian Script|Hylian]] on [[Southern Triangle Island]].
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:13 Spirit43 Large.jpg|Child Link using Nayru's Love in ''Ocarina of Time''
+File:Nayru's Love (SSBB).jpg|Zelda using Nayru's Love in {{SSBB|-}}
+File:Nayru's Love 3D.png|Link obtains the crystal containing Nayru's Love in {{OoT3D|-}}.
+File:SSB4 Nayru's Love.jpg|Zelda using Nayru's Love in {{SSB4|Wii U|-}}
+File:HW Zelda Magic Circle Nayru's Love.png|Zelda casting a spell reminiscent of Nayru's Love from {{HW|-}}
+File:CoH Nayru's Love Sprite.png|Sprite of Nayru's Love from {{CoH|-}}
+</gallery>
+
+{{Ref}}
+
+{{Categories
+ |Abilities, Magic
+ |abilities= OoT, OoT3D, SSBM, SSBB, SSBfWU, SSBfN3DS, SSBU, CoH
+ |items= OoT, OoT3D
+}}

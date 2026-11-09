@@ -1,0 +1,137 @@
+{{Header Nav|game=The Legend of Zelda: Ocarina of Time}}
+
+These are the controls for ''The Legend of Zelda: Ocarina of Time''. When played on the Wii U via the [[Virtual Console (Wii U)|Virtual Console]] or on the Nintendo Switch via [[Nintendo Classics]], the Wii U GamePad accesses the Virtual Console Menu by using {{wiiu|touch}} while with the Wii U Pro Controller by pressing {{wiiu|minus}}. The Nintendo Switch controls listed here reflect the GameCube-layout.
+{{cleanup|Remake should have a completely separate section.}}
+
+__TOC__
+{{-}}
+
+==General==
+{| {{controlstable}}
+! rowspan=2|Nintendo 64 
+! rowspan=2|Nintendo GameCube 
+! rowspan=2|Virtual Console (Wii)
+! rowspan=2|Nintendo 3DS 
+! colspan=2|Virtual Console (Wii U)
+! rowspan=2|Nintendo Classics (Nintendo Switch)
+! rowspan=2|Nintendo Switch 2
+! rowspan=2 style="width:30%" | Action
+|-
+! GamePad
+! Pro Controller
+|-
+| rowspan="2" | {{n64|Neutral|Control}} || rowspan="2" | {{gc|neutral|control}} || rowspan="2" | {{wii-cc|neutral|lstick}} || rowspan="2" | {{3ds|Neutral|Cpad}} || colspan="2" rowspan="2" |{{wiiu|neutral|lstick}} || rowspan="2" |{{switch|Neutral|Lstick}}
+|{{switch|Neutral|Lstick}}||{{desc}}Move<br><nowiki>*</nowiki>You will automatically jump if you run off the edge of a height or gap.
+|-
+|{{switch|X}}||{{desc}} Jump
+|-
+|{{n64|A}}||{{gc|a}} ||{{wii-cc|a}} ||{{3ds|A}} || colspan="2" |{{wiiu|a}} ||{{switch|A}} || {{switch|A}}
+| {{desc}}Action icon
+|-
+| {{n64|B}} || {{gc|B}} || {{wii-cc|B}} || {{3ds|B}} || colspan=2|{{wiiu|b}} || {{switch|B}} || {{switch|Y}}
+| {{desc}} Swing sword
+|-
+| {{n64|Left|C}}{{n64|Down|C}}{{n64|Right|C}} || {{gc|Left|Cstick}}{{gc|Down|Cstick}}{{gc|Right|Cstick}} / {{gc|Y}}{{gc|Z}}{{gc|X}} || {{wii-cc|Left|Rstick}}{{wii-cc|Down|Rstick}}{{Wii-cc|Right|Rstick}} / {{wii-cc|Y}}{{wii-cc|Zl}}/{{wii-cc|Zr}}{{wii-cc|X}} || {{3ds|X}}{{3ds|Y}} / Touch the item subscreen || colspan="2" |{{wiiu|Left|Rstick}}{{wiiu|Down|Rstick}}{{wiiu|Right|Rstick}} / {{wiiu|Y}}{{wiiu|R}}{{wiiu|X}} || {{switch|Left|Rstick}}{{switch|Down|Rstick}}{{switch|Right|Rstick}} / {{switch|Y}}{{switch|R}}{{switch|X}} ||{{switch|ZR}}
+| {{desc}}Use item
+|-
+| colspan="7" {{N/a}}
+|{{switch|R}}||{{desc}} Switch items
+|-
+| {{n64|Up|C}}|| {{gc|Up|Cstick}}|| {{wii-cc|Up|Rstick}}|| Touch [[File:Pdf-stream64-0.png]]|| colspan="2" |{{wiiu|Up|Rstick}}|| {{switch|Up|Rstick}}|| {{switch|Right|Dpad}}
+| {{desc}}Change viewpoint / Navi icon
+|-
+|{{n64|Neutral|Control}}
+|{{gc|neutral|control}}
+|{{wii-cc|neutral|lstick}}
+|Move the system or {{3ds|Neutral|Cpad}}
+| colspan="2" |{{wiiu|neutral|lstick}}
+| colspan="2" |{{switch|Neutral|Lstick}}||{{desc}}Look around
+|-
+| {{n64|Z}}|| {{gc|L}}|| {{wii-cc|L}}|| {{3ds|L}}|| colspan="2" |{{wiiu|ZL}}|| colspan="2" |{{switch|ZL}}
+| {{desc}}Targeting / Look forward<br><nowiki>*</nowiki>Link will keep an enemy in his sights while targeting.
+|-
+| {{n64|R}}|| {{gc|R}}|| {{wii-cc|R}}|| {{3ds|R}}|| colspan="2" |{{wiiu|ZR}}|| {{switch|ZR}}|| Raised by pressing {{switch|ZL}}, per Zeltik
+| {{desc}} Raise shield
+|-
+|{{n64|Neutral|Control}}
+|{{gc|neutral|control}}
+|{{wii-cc|neutral|lstick}}
+|{{3ds|Neutral|Cpad}}
+| colspan="2" |{{wiiu|neutral|lstick}}
+|{{switch|Neutral|Lstick}}
+|{{N/a}}||{{desc}}Change shield orientation
+|-
+| {{n64|L}}|| {{gc|Neutral|Dpad}}|| {{wii-cc|Neutral|Dpad}}|| Press and hold {{3ds|Down|Dpad}}|| {{wiiu|minus}}|| {{wiiu|L}}|| {{switch|neutral|Dpad}}|| {{switch|minus}}
+| {{desc}} Turn map on / off
+|-
+| {{n64|Start}}|| {{gc|Start}}|| {{wii-cc|Plus}}|| {{ds|Stylus}}|| colspan="2" |{{wiiu|Plus}}|| colspan="2" |{{switch|Plus}}
+| {{desc}} Display menu screen
+|-
+|{{n64|B}}
+|{{gc|B}}
+|{{wii-cc|B}}
+|{{3ds|Start}}
+| colspan="2" |{{wiiu|b}}
+|{{switch|B}}
+|
+| {{desc}} Save
+|}
+
+=== Advanced controls ===
+Horizontal Attack - '''Sword''' / '''Target''' + '''Move (Left/Right)''' + '''Sword'''
+
+Vertical Attack - '''Move''' + '''Sword''' / '''Target''' + '''Sword'''
+
+Thrust Attack - '''Target''' + '''Move (Up)''' + '''Sword'''
+
+Spin Attack - Hold & release '''Sword''' / Rotate '''Move''' in a circle + '''Sword'''
+
+Roll - '''Move''' + '''Action'''
+
+Jump Attack - '''Target''' + '''Action'''
+
+Side Hop - '''Target''' + '''Move (Left/Right)''' + '''Action'''
+
+Backflip - '''Target''' + '''Move (Down)''' + '''Action'''
+
+Converse with someone far away - Target and press '''Action'''{{sidebar
+|float=right
+|width=250px
+|title=3DS configuration
+|contents=Roll when falling off a high place does not seem to work in this version.
+}}
+{{-}}
+
+== Ocarina ==
+{| {{controlstable}}
+! Nintendo 64 !! Nintendo GameCube !! Virtual Console (Wii) !! Nintendo 3DS !! Virtual Console (Wii U) !! Nintendo Classics (Nintendo Switch)
+! style="width:30%" | Action
+|-
+| {{n64|UpDown|Control}}|| {{gc|UpDown|Control}}|| {{wii-cc|UpDown|Lstick}}|| {{3ds|UpDown|Cpad}}|| {{wiiu|UpDown|Lstick}}|| {{switch|UpDown|Lstick}}
+| {{Desc}} Change pitch by whole step
+|-
+| {{n64|LeftRight|Control}}|| {{gc|LeftRight|Control}}|| {{wii-cc|LeftRight|Lstick}}|| {{3ds|LeftRight|Cpad}}|| {{wiiu|LeftRight|Lstick}}|| {{switch|LeftRight|Lstick}}
+| {{Desc}} Change vibrato/tremolo
+|-
+| {{n64|A}} || {{gc|A}} || {{wii-cc|A}} || {{3ds|L}} || {{wiiu|A}} || {{switch|A}}
+| {{Desc}} D
+|-
+| {{n64|Down|C}} || {{gc|Down|Cstick}} / {{gc|Z}} || {{wii-cc|Down|Rstick}} / {{wii-cc|zl}}/{{wii-cc|zr}} || {{3ds|R}} || {{wiiu|Down|Rstick}} / {{wiiu|R}} || {{switch|Down|Rstick}} / {{switch|R}}
+| {{Desc}} F
+|-
+| {{n64|Right|C}} || {{gc|Right|Cstick}} / {{gc|X}} || {{wii-cc|Right|Rstick}} / {{wii-cc|x}} || {{3ds|Y}} || {{wiiu|Right|Rstick}} / {{wiiu|X}} || {{switch|Right|Rstick}} / {{switch|X}}
+| {{Desc}} A
+|-
+| {{n64|Left|C}} || {{gc|Left|Cstick}} / {{gc|Y}} || {{wii-cc|Left|Rstick}} / {{wii-cc|y}} || {{3ds|X}} || {{wiiu|Left|Rstick}} / {{wiiu|Y}} || {{switch|Left|Rstick}} / {{switch|Y}}
+| {{Desc}} B
+|-
+| {{n64|Up|C}} || {{gc|Up|Cstick}} || {{wii-cc|Up|Rstick}} || {{3ds|A}} || {{wiiu|Up|Rstick}} || {{switch|Up|Rstick}} || {{Desc}} High D
+|-
+| {{n64|Z}} || {{gc|L}} || {{wii-cc|L}} || {{3ds|Down|Dpad}} || {{wiiu|ZL}} || {{switch|ZL}}
+| {{Desc}} Half step lower
+|-
+| {{n64|R}} || {{gc|R}} || {{wii-cc|R}} || {{3ds|Up|Dpad}} || {{wiiu|ZR}} || {{switch|ZR}}
+| {{Desc}} Half step higher
+|}
+
+{{Footer Nav|game=The Legend of Zelda: Ocarina of Time|prevpage=Gameplay|nextpage=Versions}}

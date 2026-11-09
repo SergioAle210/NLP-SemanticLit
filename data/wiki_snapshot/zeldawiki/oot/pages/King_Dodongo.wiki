@@ -1,0 +1,157 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork OoT= [[File:OoT King Dodongo Artwork.png|320x320px]]
+ |Model OoT= [[File:OoT King Dodongo Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D King Dodongo Model.png|320x320px]]
+ |Model OoTNS2= [[File:OoTNS2 King Dodongo Model.png|320x320px]]
+}}
+|caption= 
+|game= OoT
+|other= OoT (Himekawa), SSBB, HW
+|pronunciation= 
+|title= 
+{{Infobox Game Blocks
+ |OoT= Infernal Dinosaur<ref name="OoT Game Screen"/>, King of the Dodongos<ref name="OoT Prima 32"/>
+ |HW= Fire-Breathing<ref name="HW Game Screen"/>
+}}
+|alias= 
+|race= [[Dodongo]]<ref name="OoT Navi"/>
+|pronouns= it/its<ref name="E 187"/>
+|dungeon= {{Spawn Locations}}
+|habitat= [[Death Mountain Trail]]
+|health= 
+{{Infobox Game Blocks
+ |OoT= {{HP|OoT3D|4}}
+}}
+|attack= 
+{{Infobox Game Blocks
+ |OoT= Fire Breath {{Small|(1/2 Heart)}}, Roll {{Small|(1/4 Heart)}}
+}}
+|weakness= [[Bomb]]s
+{{Infobox Game Blocks
+ |OoT= [[Spiritual Stone of Fire]], [[Heart Container]]
+}}
+|exp= 
+|theme= 
+{{Infobox Game Blocks
+ |OoT= "[[Dinosaur Boss Battle]]"
+ |HW= "[[Dinosaur Boss Battle:OT]]"
+}}
+|voiceactor= 
+|strategy= 
+|zu= 
+}}
+'''King Dodongos''' are recurring [[Boss]]es in {{TLoZ Series}}.
+
+{{Terminology
+|-
+| {{Term/Store|King Dodongo|King Dodongos|Series, OoT, OoT3D, HW, HWL, HWDE}}
+| 
+{{List|
+ * {{OoT}}<ref name="E 187"/>
+ * {{OoT3D}}<ref name="E 187"/>
+ * {{HW}}<ref name="HW Game Screen"/>
+ * {{HWL}}<ref name="HW Game Screen"/>
+ * {{HWDE}}<ref name="HW Game Screen"/>
+}}
+|-
+| ''No name is given''
+| 
+{{List|
+ * {{OoT (Himekawa)}}
+ * {{SSBB}}
+}}
+}}
+
+==Characteristics==
+==={{OoT|-}}===
+{{Descriptions OoT}}
+King Dodongo is the second [[Boss]] fought in {{OoT}}. It appears inside [[Dodongo's Cavern]], where it must be defeated for [[Link]] to receive the [[Spiritual Stone of Fire]] from [[Darunia]]. It is a massive [[Dodongo]] that will consume anything.<ref name="OoT Navi"/> Though it was originally the protector of the Cavern, [[Ganondorf]] drove it into a frenzy, making it hostile to intruders.<ref name="E 187"/>{{Note|{{Guide/OoT Nintendo}} states that King Dodongo blocked the [[Goron]]s out of Dodongo's Cavern when it appeared inside.<ref name="OoT Nintendo 48"/> This is contradicted by {{E}}, which states that King Dodongo had been inside the Cavern as its guardian before Ganondorf's arrival.<ref name="E 187"/>}}
+
+To ready an attack, King Dodongo inhales air and releases a blast of damaging flame if allowed to inhale completely.<ref name="E 187"/> During this time, Link can toss [[Bomb]]s, or a nearby [[Bomb Flower]], into its mouth. If successful, the Bomb will explode inside, causing King Dodongo to collapse. King Dodongo is vulnerable to [[Sword]] attacks at this time, the [[Critical Point]] of the battle. If Link does not apply enough damage during the Critical Point, King Dodongo will rear up, curl into a ball, and roll around the arena.<ref name="E 187"/> If Link stands close to the [[Lava]] pit, the external walls, or hides beneath or behind the [[Shield]], he can avoid damage. King Dodongo hits an arena wall at the end of its rampage; it unfolds and moves about until Link is close enough to target again, repeating the cycle.
+
+When defeated, King Dodongo curls into a ball and rolls into the Lava pit. The Lava hardens, trapping King Dodongo, half-submerged. Link receives a [[Heart Container]] as a reward.
+
+In {{OoTNS2}}, King Dodongo has a new ability where it summons two or three [[Baby Dodongo]]s after its rolling attack.
+
+==Other Appearances==
+==={{SSBB|-}}===
+{{Noncanon|Start}}
+In {{SSBB}}, King Dodongo appears as a [[Sticker]].
+{{SSBSticker|header=yes}}
+{{#section:Sticker|King Dodongo}}
+|}
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Noncanon|Start}}
+In {{HW}}, King Dodongos appear as [[Giant Boss]]es that are encountered in several [[Legend Mode]] and [[Adventure Mode]] stages. In Legend Mode, King Dodongos appear in the [[Scenario]]s "[[The Armies of Ruin]]", "[[The Water Temple]]", "[[Ganondorf's Return]]", "[[The Dragon of the Caves]]", and "[[The Other Hero]]". Not all Scenarios where they appear require the [[Warrior]]s to defeat them.
+
+King Dodongos differ from their previous incarnation as they bear golden scales, two red horns on both sides of their head, red claws, and red crystals running along their back and joints, somewhat resembling the [[Dodongo (Boss)|Dodongo]]s in {{TLoZ}}. In "The Water Temple" and "The Other Hero", King Dodongos appear more closely resembling their {{OoT|-}} appearance. King Dodongo attack with a variety of moves, such as curling and rolling into a ball, stomping their claws, roaring loudly, breathing streams of flames, or by launching [[Fireball]]s after inhaling deeply. These attacks also harm nearby [[Enemy|Enemies]]. Because of their immense size, they take minimal damage from most attacks. They become vulnerable when [[Bomb]]s are thrown down their throats as they suck in air, which stuns them and exposes their [[Weak Point Gauge]].
+
+King Dodongos may drop their [[King Dodongo's Claws|Claws]] as [[Silver Material]]s or one of their [[King Dodongo's Crystal|Crystals]] as a gold Material when defeated.
+{{Noncanon|End}}
+
+==Trivia==
+*In {{OoT}}, King Dodongo and [[Volvagia]] share a battle theme that is different from the one that plays for all other [[Boss]]es.
+*King Dodongo has the lowest amount of health in {{OoT|-}}. It can be defeated with two [[Jump Attack]]s while using [[Deku Stick]]s.{{Fact|OoT3D}}<!--The previous reference here linked to a YouTube video (https://youtu.be/ZAUkdQtUtpw) that is no longer available.-->
+*[[Scaldera]], a Boss from {{SS}}, almost perfectly parallels with King Dodongo from {{OoT|-}}. Both serve as the second Boss of their game, both are a large, four-legged beast, both can curl up into a ball and roll around in order to move faster, and both live in a [[Death Mountain|volcano]] or [[Eldin (Region)|fiery area]] and are commonly associated with [[Fire]]. Furthermore, both Bosses are defeated by [[Link]] by throwing a [[Bomb]] into the mouth of the Boss as it sucks up air to prepare an attack, allowing Link to attack it while it is stunned.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+{{All Images}}
+<gallery>
+File:OoT King Dodongo.png|{{Game Label|{{OoT|-}}}}King Dodongo's introduction
+File:OoT King Dodongo Defeated.png|{{Game Label|{{OoT|-}}}}King Dodongo after being defeated
+File:OoT3D NW 2011 King Dodongo.png|{{Game Label|{{OoT3D|-}}}}King Dodongo inhaling
+File:OoT3D King Dodongo Thumbnail.png|{{Game Label|{{OoT3D|-}}}}King Dodongo's Boss Challenge thumbnail
+File:OoTNS2 King Dodongo Introduction.png|{{Game Label|{{OoTNS2|-}}}}King Dodongo's introduction
+File:HW King Dodongo Render.png|{{Game Label|{{HW|-}}}}A render of a King Dodongo
+File:HW King Dodongo Render 2.png|{{Game Label|{{HW|-}}}}A render of a King Dodongo
+File:HW King Dodongo Icon.png|{{Game Label|{{HW|-}}}}King Dodongo icono
+File:HW King Dodongo Icon 2.png|{{Game Label|{{HW|-}}}}King Dodongo icon
+File:HW King Dodongo Mini Map Icon.png|{{Game Label|{{HW|-}}}}King Dodongo Mini Map icon
+File:HW King Dodongo Mini Map Icon 2.png|{{Game Label|{{HW|-}}}}King Dodongo Mini Map icon
+File:HW King Dodongo Adventure Mode Icon.png|{{Game Label|{{HW|-}}}}The Adventure Mode icon of a King Dodongo
+File:HW King Dodongo Adventure Mode Credits Sprite.png|{{Game Label|{{HW|-}}}}The Adventure Mode credits icon of a King Dodongo
+File:HWL King Dodongo Mini Map Icon.png|{{Game Label|{{HWL|-}}}}King Dodongo Mini Map icon
+File:HWL King Dodongo Mini Map Icon 2.png|{{Game Label|{{HWL|-}}}}King Dodongo Mini Map icon
+File:HWL King Dodongo Adventure Mode Icon.png|{{Game Label|{{HWL|-}}}}The Adventure Mode icon of a King Dodongo
+File:HWDE King Dodongo Icon.png|{{Game Label|{{HWDE|-}}}}King Dodongo icon
+File:HWDE King Dodongo Icon 2.png|{{Game Label|{{HWDE|-}}}}King Dodongo icon
+File:HWDE King Dodongo Mini Map Icon.png|{{Game Label|{{HWDE|-}}}}King Dodongo Mini Map icon
+File:HWDE King Dodongo Mini Map Icon 2.png|{{Game Label|{{HWDE|-}}}}King Dodongo Mini Map icon
+</gallery>
+
+==See Also==
+{{See Also|
+ * Big Dodongo
+ * Dodongo
+ * Dodongo (Boss)
+ * Dongorongo
+ * King Dobongo
+ * King Dodongo's Chamber
+}}
+
+{{Notes}}
+{{Ref|
+<!-- Ocarina of Time -->
+<ref name="E 187">{{Cite Book|quote= |book= E |publisher= |page= 187}}</ref>
+<ref name="OoT Game Screen">{{Cite|'''Infernal Dinosaur'''<br/>{{Big|'''King Dodongo'''}}|Game Screen|OoT}}</ref>
+<ref name="OoT Navi">{{Cite|{{Color OoT|White|King Dodongo}}<br/>This is a huge Dodongo that eats anything! Give it a shock, and finish it off with your sword!|Navi|OoT}}</ref>
+<ref name="OoT Nintendo 48">{{Cite Guide|OoT Nintendo|quote= |page= 48}}</ref>
+<ref name="OoT Prima 32">{{Cite Guide|OoT Prima|page= 32}}</ref>
+
+<!-- Hyrule Warriors -->
+<ref name="HW Game Screen">{{Cite|'''Fire-Breathing'''<br/>{{Big|'''King Dodongo'''}}|Game Screen|HW}}<br/>{{Cite|'''Fire-Breathing'''<br/>{{Big|'''King Dodongo'''}}|Game Screen|HWL}}<br/>{{Cite|'''Fire-Breathing'''<br/>{{Big|'''King Dodongo'''}}|Game Screen|HWDE}}</ref>
+}}
+
+{{Bosses|OoT}}
+{{Categories
+ |Dodongos, Fire-Related Enemies, Giant Bosses, Reptilian Enemies
+ |bosses= OoT, OoT3D, HW, HWL, HWDE
+ |characters= OoT (Himekawa) <!-- Uses Series term -->, SSBB <!-- Uses Series term -->
+}}

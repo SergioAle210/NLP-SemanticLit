@@ -1,0 +1,263 @@
+{{Infobox Enemy
+|image= 
+{{Media
+ |Artwork TLoZ= [[File:TLoZ Peahat Artwork.png|320x320px]]
+ |Render EoW= [[File:EoW Peahat Render.png|320x320px]]
+ |Model LANS= [[File:LANS Peahat Model.png|320x320px]]
+ |Model OoT= [[File:OoT Peahat Model.png|320x320px]]
+ |Model OoT3D= [[File:OoT3D Peahat Model.png|320x320px]]
+ |Model MM= [[File:MM Peahat Model.png|320x320px]]
+ |Model MM3D= [[File:MM3D Peahat Model.png|320x320px]]
+ |Model TWW= [[File:TWW Peahat Model.png|320x320px]]
+ |Model TWWHD= {{Please Upload|File:TWWHD Peahat Model.png}}
+ |Model TP= [[File:TP Peahat Model.png|320x320px]]
+ |Model TPHD= {{Please Upload|File:TPHD Peahat Model.png}}
+ |Model SS= [[File:SS Peahat Model.png|320x320px]]
+ |Model SSHD= [[File:SSHD Peahat Model.png|320x320px]]
+ |Model ALBW= [[File:ALBW Peahat Model.png|320x320px]]
+ |Model EoW= [[File:EoW Peahat Model.png|320x320px]]
+ |Sprite TLoZ= [[File:TLoZ Peahat Sprite.png|160x160px]]
+ |Sprite LA= [[File:LA Peahat Sprite.png|160x160px]]
+ |Sprite LADX= [[File:LADX Peahat Sprite.png|160x160px]]
+ |Sprite OoS= [[File:OoS Peahat Sprite.png|160x160px]]
+ |Sprite OoA= [[File:OoA Peahat Sprite.png|160x160px]]
+ |Sprite TMC= [[File:TMC Peahat Sprite.png|170x170px]]
+ |Sprite EoW= [[File:EoW Peahat Icon.png|320x320px]]
+}}
+|caption= 
+|game= TLoZ, LA, OoT, MM, OoS, OoA, TWW, TMC, TP, SS, ALBW, EoW
+|other= ZA, BSTLoZ, LCT, SSBfN3DS, CoH
+|pronunciation= {{IPA|ˈpiːhæt}} {{Respell|PEE|hat}}<ref name="TLoZ Commercial"/>
+|plural= Peahats<ref name="E 196"/>
+|race= 
+|habitat= {{Spawn Locations}}
+|member= 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|2}}
+ |LA= {{HP|LA|1}}
+ |OoT= {{HP|OoT|6}}
+ |OoS= {{HP|OoS|2}}
+ |OoA= {{HP|OoA|2}}
+ |TWW= {{HP|TWW|2}}
+}}
+|attack= 
+{{Infobox Game Blocks
+ |TLoZ= 
+{{Damage
+  |attack1= Contact
+  |damage1= 0.50
+}}
+ |OoT= 
+{{Damage
+  |attack1= Spinning Blades
+  |damage1= 1.00
+}},
+ Spawn [[Peahat Larva]]e
+ |OoS= 
+{{Damage
+  |attack1= Contact
+  |damage1= 0.50
+}}
+ |OoA= 
+{{Damage
+  |attack1= Contact
+  |damage1= 0.50
+}}
+ |TWW= 
+{{Damage
+  |attack1= Contact
+  |damage1= 0.25
+}}
+ |TMC= 
+{{Damage
+  |attack1= Contact
+  |damage1= 0.25
+}}
+}} 
+|weapon= 
+{{List|
+ * [[Boomerang]]
+ * [[Bow]]
+ * [[Gust Jar|Gust Bellows]]
+ * [[Hookshot]]
+ * [[Sword]]
+}}
+|spoils= 
+{{Infobox Game Blocks
+ |TLoZ= [[Heart]], [[Fairy]], One [[Rupee]]
+ |TWW= [[Golden Feather]]
+}}
+|exp= 
+|theme= 
+}}
+{{Term/Store|Peahat|Peahats|Series, TLoZ, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoA, OoS, TWW, TWWHD, TMC, SS, ALBW, EoW, CoH|plural}},{{Exp Game|TLoZ, LA, OoT, MM, OoS, OoA, TWW, TMC, TP, SS, ALBW, EoW, CoH}}<ref name="E 196"/><ref name="EoW Notebook"/><ref name="CoH Game Over"/> also known as '''Giant Flying Plants''',{{Exp Game|EoW}}<ref name="EoW Hylian"/> are recurring [[Enemy|Enemies]] in {{TLoZ Series}}.{{Name Ref|LANS, SSHD, EoW, ZA, BSTLoZ, LCT, SSBfN3DS}}
+
+==Characteristics==
+Peahats are flying plant or flower-like enemies. They propel themselves into the air with the use of their petals or leaves that are located either at their base or top, and achieve flight by rapidly spinning them, similar to helicopter blades. While in flight, they are beyond the reach of nearly all attacks; however, in most games, they cannot maintain flight for very long and eventually stop to rest. They can often be found in groups across various regions; mostly in fields or deserts, but occasionally within [[Dungeon]]s as well. According to {{TLoZ}} manual, they are the spirits of dead flowers.<ref name="TLoZ Manual 29"/>
+
+While most Peahats are hostile in {{TLoZ Series}}, others appear as benevolent fauna that [[Link]] can use to aid him in his quest. {{TP}} and {{SS}} feature harmless Peahats that can fly perpetually, and whose bases may be grappled onto using the [[Clawshot]]. These Peahats may move in a predetermined path, and act as transportation as Link is carried overhead.
+
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+Peahats in {{TLoZ}} are enemies found in the [[Overworld]] of [[Hyrule]]. They primarily congregate in the deserts and mountains of northeastern Hyrule, but also appear in smaller numbers near the [[Lost Woods]]. Peahats flutter through the air, during which they are impervious to all attacks. They will periodically stop to rest before taking flight again, leaving themselves vulnerable. Peahats always appear in small groups, and often move in sporadic patterns, making them difficult to dodge at times. As they can fly across the entire screen, it is also possible for them to land on top of walls and trees, leaving them out of reach to attack. When defeated, Peahats may drop either a [[Heart]], a [[Fairy]] or one [[Rupee]].{{TLoZ Enemy Note}}
+
+==={{LA|-}}===
+Peahats in {{LA}} behave identically to those from {{TLoZ}}; however, they only appear inside [[Dungeon]]s, and can be found in the [[Angler's Tunnel]], [[Eagle's Tower]], and [[Turtle Rock]]. Peahats appear in small groups, swiftly fly through the air, and periodically land, leaving them vulnerable to attack. Like their appearance from {{TLoZ|-}}, Peahats in {{LA|-}} can fly across the entire screen, and may stop to rest on a wall or even in the middle of a pit.
+
+==={{OoT|-}}===
+{{Descriptions OoT}}
+Peahats in {{OoT}} take on a much different form than previous appearances, resembling gigantic fruit-like plants with propeller leaves at their base. They only appear in the northern and southern corners of [[Hyrule Field]] when [[Link]] is a child, away from any paths and crossroads. During the day, they sit quietly, and at night bury themselves into the ground with only their blossom showing. While Peahats will not actively search for Link, they will be provoked if he enters into their territory, and will uproot themselves and fly after him in attack. They attack either by swooping down at him with their leaf-like blades, or create [[Peahat Larva]]e, which are smaller versions that swarm after him. If attacked at night, Peahats will only release Peahat Larvae and will not emerge. Peahats' weak spots lie in the tiny root beneath their base. This root can be struck with the [[Kokiri Sword]] to inflict damage.
+
+Peahats are the only enemy that will drop two different kinds of loot at once, but on an uncommon basis.
+
+Peahats have a minor design change in {{OoTNS2}}. The Peahat variety that swarms Peahat Larvae when approached are now colored red to stand out from the more aggressive Peahats, the latter retaining its yellow coloration. Peahat Larvae can also be found independent from the swarming Peahats across Hyrule Field.
+
+==={{MM|-}}===
+{{Descriptions MM}}
+A single Peahat is found in {{MM}}, in a [[Secret Grotto]] in [[Termina Field]]. When defeated, a [[Treasure Chest]] containing a [[Piece of Heart]] is revealed.
+
+==={{OoS|-}}===
+Peahats in {{OoS}} appear identically to their {{LA}} incarnation. They flutter through the air, during which they are invincible to all attacks, becoming vulnerable only when they stop to land. Like previous incarnations, they can still potentially land on a wall or other obstacles. They appear in the [[Overworld]] as well as [[Dungeon]]s, and can be encountered in the [[Eastern Suburbs]], the [[Woods of Winter]], [[North Horon]], [[Poison Moth's Lair]], and [[Unicorn's Cave]].
+
+==={{OoA|-}}===
+Peahats in {{OoA}} appear identically to their {{LA}} incarnation. They flutter through the air, during which they are invincible to all attacks, becoming vulnerable only when they stop to land. Like previous incarnations, they can still potentially land on a wall or other obstacles. They can be found in the [[Wing Dungeon]], [[Moonlit Grotto]], [[Skull Dungeon]], and [[Hero's Cave]].
+
+==={{TWW|-}}===
+{{Checklist
+ |game= TWW
+ |type= Enemies
+ |category= Enemies in The Wind Waker
+ |needs= 
+Detailed information on the following:
+* The Enemy's behavior
+* The Enemy's weaknesses
+* Where the Enemy appears
+}}
+{{Descriptions TWW}}
+Peahats in {{TWW}} are much smaller, appearing as bulbous plants with long, feather-like flowers. They are encountered on many islands, but primarily congregate in the [[Forbidden Woods]]. Unlike previous incarnations, these Peahats do not stop to rest, and their flower-like propeller blades block [[Sword]] attacks, requiring them to first be stunned by another item. If [[Link]] uses the [[Deku Leaf]], they will be blown back and stunned with the gust of wind it produces. The [[Boomerang]] can also be thrown to slice their petals off; however, the petals will regrow. Peahats may drop [[Golden Feather]]s when defeated, which the [[Grappling Hook]] can also steal from them.
+
+==={{TMC|-}}===
+{{Descriptions TMC}}
+Peahats in {{TMC}} behave similarly to their past appearances; they slowly hover through the air and are impervious to all [[Sword]] attacks while in flight. Unlike past incarnations, however, Peahats never stop to rest. Using the [[Gust Jar]], it is possible to drag them out of the air; a Peahat stuck to the Jar can be expelled and killed as it crashes into an obstacle. It is also possible to use the [[Boomerang]] to stun them, which will slice off their flower propeller blades. The Peahat will then hop around for a short time after regaining consciousness, and will eventually regrow its flowers if left alone. Peahats can also be dispatched with one [[Arrow]]. They appear frequently on [[Mount Crenel]].
+
+A much more aggressive variety that carries [[Bomb]]s also appears at [[Veil Falls]]. These Peahats fly much higher in the air and carry the Bombs beneath them. After swarming around [[Link]], they will drop their Bombs, after which they will flutter close to the ground and attempt to slam into him. They can then return to the air and produce another Bomb. These Peahats are vulnerable only when they are close to the ground; however, they are still impervious to the Sword, and the Gust Jar and Boomerang will have no effect on them. Instead, these Peahats can only be defeated by shooting an Arrow at them.
+
+==={{TP|-}}===
+Peahats in {{TP}} resemble plants with thick roots that form a sac-like shape. They are harmless, providing transportation for [[Link]] by allowing him to grapple onto their roots with the [[Clawshot]]. Some fly in a predetermined path, and may be used to carry Link over short distances, while others hover in place. Strings of Peahats can be grappled between one another with the [[Double Clawshots]], acting as a bridge between one area and the next. Peahats are able to support Link's weight, but will begin to descend if he is wearing the [[Iron Boots]]. These Peahats are important in navigating the [[City in the Sky]] and during the battle with [[Argorok]].
+
+==={{SS|-}}===
+{{Descriptions SS}}
+Peahats in {{SS}} appear as benevolent [[Clawshot]] targets, as they did in {{TP}}. They resemble plant bulbs that fly using their flower heads. Submerged Peahats can also be found buried underground or underwater in certain areas, and can have their petals activated by using the [[Whip]].
+
+==={{ALBW|-}}===
+Peahats in {{ALBW}} resemble bulbous flying plants that appear only during the [[Boss]] battle against [[Zaganaga]]. The Boss releases spawns of Peahats, which swiftly swarm after [[Link]]; however, unlike their previous incarnations, they can be dispatched even during mid-flight.
+
+==={{EoW|-}}===
+{{Checklist
+ |game= EoW
+ |type= Enemies
+ |category= Enemies in Echoes of Wisdom
+ |needs= 
+Name citation and files in infobox
+
+Detailed information on the following:
+* The Enemy's behavior
+* The Enemy's weaknesses
+* Where the Enemy appears
+}}
+{{Descriptions EoW}}
+Peahats are found near [[Cave]]s in the [[Suthorn Forest]]. They have an [[Echo]] cost of three. Peahats hover above the ground until they notice [[Zelda]] or another target. Upon locking onto a target, Peahats will protrude spiky roots from their underside and rapidly spin, slowly moving towards their target. Their spiky roots can cut through grass and [[Wooden Box]]es. After spinning for a while, they will retract their spikes and rest for a moment, albeit still flying above the ground. Peahats are considered plant monsters, so they are vulnerable to fire attacks. Zelda can lift up a Peahat echo and use it to glide through the air.
+
+==Other Appearances==
+==={{BSTLoZ|-}}===
+{{Noncanon|Start}}
+{{Stub|BSTLoZ}}
+
+{{Noncanon|End}}
+
+==={{ZA|-}}===
+{{Noncanon|Start}}
+In {{ZA}}, Peahats act more like [[Octorok]]s than their canonical kin. They never fly, instead opting to wander around in small groups on the ground. They have also developed the ability to shoot seeds. Early in the game, when [[Princess Zelda|Zelda]]'s life meter is low, they are among the most dangerous enemies as they have high resilience and usually travel in groups of two to six members. However, once Zelda has obtained the [[Magic Shield]], she will be able to block their projectile attacks, making them easier to defeat.
+{{Noncanon|End}}
+
+==={{LCT|-}}===
+{{Noncanon|Start}}
+Peahats appear in [[Oocca Target Practice]] and [[Gerudo Moldorm: Defender]] in {{LCT}}. Although the main objective of the Oocca Target Practice Stage is the shoot the targets carried by [[Oocca]], the Peahats in the background may also be shot, which will cause them to descend slightly and give [[Link]] one point each time they are shot. Shooting them with [[Exploding Arrow]]s, however, will completely destroy them and will grant 100 points. The very last one that appears will reveal a red [[Fairy]] worth 1,000 points if it is destroyed with a Exploding Arrow.
+{{Noncanon|End}}
+
+==={{SSBfN3DS|-}}===
+{{Noncanon|Start}}
+In {{SSBfN3DS}}, Peahats and their Larvae from {{OoT|-}} appear as enemies in the {{Ssb|Smash Run}} mode. They also appear as a [[Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Trophy]].
+
+====Trophy Information====
+{{SSBTrophy|SSB4|header=yes}}
+{{#section:Trophies in Super Smash Bros. for Nintendo 3DS/Wii U|Peahat}}
+|}
+{{Noncanon|End}}
+
+==={{CoH|-}}===
+{{Noncanon|Start}}
+[[File:CoH Peahat Sprite.png|left]]
+Peahats appear as [[Enemy|Enemies]] in {{CoH}}, where they move to the beat of the music. They are largely stationary Enemies but will fly away when the heroes get too close. Before flying, the propeller on the top of their bodies will start to slowly spin, getting faster as they approach. Upon being approached, they will fly up and move on every other beat in any direction, including diagonal. Then, they will fly for several beats before returning to the ground to rest.
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+===Other Names===
+{{Other Names
+|-
+| Pea Hat<ref>{{Cite|Don't tell me you don't know about the {{Color MM|White|Pea Hat}}! Just remember that its root area is soft!|Tatl|MM}}</ref>
+| {{MM}}
+| {{MM}}
+| {{MM3D}}
+}}
+
+==Gallery==
+<gallery>
+File:TLoZ Peahat Artwork 2.png|{{Game Label|{{TLoZ|-}}}}Artwork of a Peahat
+File:TLoZ Link Fighting Peahats Artwork.png|{{Game Label|{{TLoZ|-}}}}Concept artwork of Link fighting Peahats
+File:TLoZ Link Fighting Enemies Artwork.png|{{Game Label|{{TLoZ|-}}}}Concept art of Link fighting a Peahat and other Enemies
+File:LANS Peahat Concept Artwork.png|{{Game Label|{{LANS|-}}}}Concept artwork of a Peahat
+File:TMC Peahat Sprite 2.png|{{Game Label|{{TMC|-}}}}A Peahat carrying a Bomb
+File:SS Peahat Submerged Model.png|{{Game Label|{{SS|-}}}}A submerged Peahat
+File:EoW Peahat Render 2.png|{{Game Label|{{EoW|-}}}}Render of a Peahat attacking
+File:EoW Peahat Model 2.png|{{Game Label|{{EoW|-}}}}A Peahat attacking
+File:ZA Peahat Sprite.png|{{Game Label|{{ZA|-}}}}A Peahat
+File:ZA Peahat Minuature.jpg|{{Game Label|{{ZA|-}}}}Miniature of a Peahat
+File:BSTLoZ Peahat Sprite.png|{{Game Label|{{BSTLoZ|-}}}}A Peahat
+File:SSB4 Peahat and Larva.png|{{Game Label|{{SSBfN3DS|-}}}}A Peahat and its larvae
+File:CoH Peahat Artwork.png|{{Game Label|{{CoH|-}}}}Artwork of a Peahat
+</gallery>
+
+==See Also==
+{{See Also|
+ * Peahat Larva
+ * Purple Peahat
+ * Seahat
+}}
+
+{{Notes}}
+{{Ref|
+<!-- Encyclopedia -->
+<ref name="E 196">{{Cite Book|quote= |book= E |publisher= |page= 196 {{Exp Game|TLoZ, LA, LADX, OoT, OoT3D, MM, MM3D, OoS, OoA, TWW, TWWHD, TMC, SS, ALBW}}}}</ref>
+
+<!-- The Legend of Zelda -->
+<ref name="TLoZ Commercial">{{Cite Web|quote= Pea-Pea-Peahats! |retrieved=October 24, 2014 |url= https://www.youtube.com/watch?v=vP3SwWldcHs&t=15s |title= ''The Legend of Zelda'' US commercial |site= YouTube |type= Video}}</ref>
+<ref name="TLoZ Manual 29">{{Cite Manual|quote=Has little attacking power. This is the ghost of a flower that bounces and flutters around the place. Link can eliminate it only when it's standing still.|game=TLoZ|page=29}}</ref>
+
+<!-- Echoes of Wisdom -->
+<ref name="EoW Notebook">{{Cite|{{Big|{{Color EoW|Pink|Peahat}}}}<br/>A large plant creature that spins its spiky roots to attack. Like most plants, it is vulnerable to fire.|Notebook|EoW}}</ref>
+<ref name="EoW Hylian">{{Cite|I saw that {{Color EoW|Red|giant flying plant}} near the caves deep in Suthorn Forest. At least, I think I did. Maybe I dreamed the whole thing.|Hylian|EoW}}</ref>
+
+<!-- Cadence of Hyrule -->
+<ref name="CoH Game Over">{{Cite|Defeated By: Peahat|Game Over|CoH}}</ref>
+}}
+
+{{Categories
+ |Bomb Enemies, Echoes, Ghost Enemies, Plant-Like Enemies, Sand-Related Enemies, Undead
+ |enemies= TLoZ, LA, LADX, LANS, OoT, OoT3D, MM, MM3D, OoS, OoA, TWW, TWWHD, TMC, TP, TPHD, SS, SSHD, ALBW, EoW, ZA, BSTLoZ, CoH
+ |items= SSBfN3DS
+ |objects= TP, TPHD, SS, SSHD
+}}

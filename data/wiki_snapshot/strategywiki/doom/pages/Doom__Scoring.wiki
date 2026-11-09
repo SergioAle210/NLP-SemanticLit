@@ -1,0 +1,8 @@
+{{Header Nav|game=Doom}}
+At the completion of each level, one is rated on ''kills'' (the percentage of the monsters on the level that were killed), ''items'' (the percentage of certain powerups that the player picked up), and ''secret'' (the percentage of certain hidden areas the player visited). The player's completion ''time'' (in minutes and seconds) is shown, along with the author-determined ''par'' time.
+
+* Kills may exceed 100% if the level contains an Arch-Vile monster. The Arch-Vile can resurrect dead monsters, and the game gives credit for each time they are killed. In newer versions of the games, Lost Souls are not counted in the kill percentage. In older versions of Doom 2, killing Lost Souls spawned by Pain Elementals could increase the kill percentage above 100%
+* If the game shows ''secret 0%'' it means either that none of the secret areas were found, or that the level contains no secret areas at all. Nearly all the levels supplied by id Software contain secret areas, but it is more common to find user-created levels that do not.
+* The current version of ''Doom'' does not use a point-based scoring system, although the alpha versions did.
+
+{{Footer Nav|game=Doom|prevpage=Useful Moves|nextpage=Cheats}}

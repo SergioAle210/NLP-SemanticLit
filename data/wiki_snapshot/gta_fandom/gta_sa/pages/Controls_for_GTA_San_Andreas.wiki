@@ -1,0 +1,244 @@
+{{DISPLAYTITLE:Controls for ''GTA San Andreas''}}
+This article lists the default controls used for ''[[Grand Theft Auto: San Andreas]]'' on the [[Personal Computer|PC]], [[Xbox (console)|Xbox]], and [[PlayStation 2|PS2]].
+
+When playing on the [[Xbox 360]], White is LB and Black is RB; however, in the ''[[Grand Theft Auto: The Trilogy - The Definitive Edition|Definitive Edition]]'' for [[Xbox Series X and Series S|Xbox Series X|S]], White is LT and Black is RT.
+
+On PC, the player can change the controls by clicking on ''Redefine Controls'' in the control-menu option and choose their own way to play.
+
+==Default Controls==
+{| class=wikitable style="text-align:center"
+! Control !! PC !! Xbox !! PS2 !! Notes
+|-
+!colspan=5 |
+===At All Times===
+|-
+! Camera Modes
+| {{Button|kbv}} || {{Button|back}} || {{Button|select}} ||
+|-
+! Pause Menu
+| {{Button|kbesc}} || {{Button|xbstart}} || {{Button|psstart}} ||
+|-
+!colspan=5 |
+===On Foot===
+|-
+! Look/Turn
+| {{Button|mouse}} || {{Button|rightstick}} || {{Button|r3}} ||
+|-
+! Move
+| '''{{Button|kbw}}/{{Button|kba}}/{{Button|kbs}}/{{Button|kbd}}'''|| {{Button|leftstick}} || {{Button|l3}} ||Push stick only a little to sneak
+|-
+! Jump/Climb/Block
+| {{Button|kblshift}} || [[Image:XBox X.png|25px|X]] || [[Image:PS3 Square.png|25px|Square]] ||
+|-
+! Toggle Crouch
+| {{Button|kbc}} || {{Button|leftstick}}<br />(click) || {{Button|l3}}<br />(click) ||
+|-
+! Run
+| {{Button|kbspace}}<br />(hold) || [[Image:XBox A.png|25px|A]]<br />(hold) || [[Image:PS3 Cross.png|25px|Cross]]<br />(hold) ||
+|-
+! Sprint
+|{{Button|kbspace}}<br />(tap) || [[Image:XBox A.png|25px|A]]<br />(tap) || [[Image:PS3 Cross.png|25px|Cross]]<br />(tap) ||
+|-
+! Start Mini-game/<Secondary Attack/Pick Up Object
+| {{Button|kbf}} || [[Image:XBox Y.png|25px|Y]] || [[Image:PS3 Triangle.png|25px|Triangle]] ||
+|-
+! Attack/Fire Weapon
+| {{Button|lmb}} || [[Image:XBox B.png|25px|B]] || [[Image:PS3 Circle.png|25px|Circle]] ||
+|-
+! Cycle Weapon Left/Cycle Target Left
+| {{Button|mmb}}<br>(down) || {{Button|Xbox White/LB}} || [[Image:PS3 L2.png|25px|L2]] ||
+|-
+! Cycle Weapon Right/Cycle Target Right
+|{{Button|mmb}}<br>(up) || {{Button|Xbox Black/RB}} || [[Image:PS3 R2.png|25px|R2]] ||
+|-
+! Center Camera/View Stats/Fire Weapon
+| '''{{Button|kbtab}}/{{Button|lmb}}''' || [[Image:Xbox LTrigger.png|25px|Left Trigger]] || [[Image:PS3 L1.png|25px|L1]] ||
+|-
+! Target/Scope View
+| {{Button|rmb}} || [[Image:Xbox RTrigger.png|25px|Right Trigger]] || [[Image:PS3 R1.png|25px|R1]] ||
+|-
+! Look Behind
+| {{Button|mmb}}<br />(click) || {{Button|rightstick}}<br />(hold) || {{Button|r3}}<br />(click) || Toggle look behind
+|-
+! Active Gang Mode/Recruit
+| {{Button|rmb}} (target)<br>+<br>{{Button|kbg}} (hold) || [[Image:Xbox Up.png|25px|D-Pad Up]] || [[Image:PS3 Up.png|25px|D-Pad Up]] ||
+|-
+! Passive Gang Mode/Recruit
+| {{Button|rmb}} (target)<br>+<br>{{Button|kbh}} (hold) || [[Image:Xbox Down.png|25px|D-Pad Down]] || [[Image:PS3 Down.png|25px|D-Pad Down]] ||
+|-
+! Positive Response
+| {{Button|kby}} || [[Image:Xbox Right.png|25px|D-Pad Right]] || [[Image:PS3 Right.png|25px|D-Pad Right]] ||
+|-
+! Negative Response
+| {{Button|kbn}} || [[Image:Xbox Left.png|25px|D-Pad Left]] || [[Image:PS3 Left.png|25px|D-Pad Left]] ||
+|-
+! Interrupt a Carjacking
+| '''{{Button|kbw}}/{{Button|kba}}/{{Button|kbs}}/{{Button|kbd}}'''<br /><sup>or</sup><br />{{Button|lmb}} || {{Button|leftstick}}<br /><sup>or</sup><br />[[Image:XBox B.png|25px|B]] || {{Button|l3}}<br /><sup>or</sup><br />[[Image:PS3 Circle.png|25px|Circle]] ||
+|-
+!colspan=5 |
+===First Person Shooting===
+|-
+! First-Person Mode
+| {{Button|rmb}}|| [[Image:Xbox RTrigger.png|25px|Right Trigger]]<br />(hold) || [[Image:PS3 R1.png|25px|R1]]<br />(hold) ||
+|-
+! Shoot
+| {{Button|lmb}} || [[Image:Xbox LTrigger.png|25px|Left Trigger]]<br /><sup>or</sup><br />[[Image:XBox B.png|25px|B]] || [[Image:PS3 L1.png|25px|L1]]<br /><sup>or</sup><br />[[Image:PS3 Circle.png|25px|Circle]] ||
+|-
+! Zoom In
+| {{Button|mmb}}(up) '''/'''{{Button|kbpageup}} || {{Button|Xbox White/LB}} || [[Image:PS3 L2.png|25px|L2]] ||
+|-
+! Zoom Out
+| {{Button|mmb}}(down) '''/'''{{Button|kbpagedown}}''' || {{Button|Xbox Black/RB}} || [[Image:PS3 R2.png|25px|R2]] ||
+|-
+! Aim
+| {{Button|rmb}} || {{Button|rightstick}}<br /><sup>or</sup><br />{{Button|leftstick}}|| {{Button|r3}}<br /><sup>or</sup><br />{{Button|l3}} ||
+|-
+! Duck
+| {{Button|kbc}} || {{Button|leftstick}}<br />(click) || {{Button|l3}}<br />(click) || Toggle duck
+|-
+! colspan=5 |
+===In Vehicle===
+|-
+! Enter/Exit Vehicle
+| {{Button|kbf}} || [[Image:XBox Y.png|25px|Y]] || [[Image:PS3 Triangle.png|25px|Triangle]] ||
+|-
+! Car Weapon/Nitrous
+| {{Button|lmb}}'''/'''{{Button|kbctrl}} (left) || [[Image:XBox B.png|25px|B]] || [[Image:PS3 L1.png|25px|L1]]<br /><sup>or</sup><br />[[Image:PS3 Circle.png|25px|Circle]] ||
+|-
+! Hand Brake/Target Hydra Missiles
+| {{Button|kbspace}} || [[Image:XBox X.png|25px|X]] || [[Image:PS3 R1.png|25px|R1]] ||
+|-
+! Accelerate
+| {{Button|kbarrowup}}'''/'''{{Button|kbw}} || [[Image:Xbox RTrigger.png|25px|Right Trigger]] || [[Image:PS3 Cross.png|25px|Cross]] ||
+|-
+! Brake/Reverse
+| {{Button|kbarrowdown}}'''/'''{{Button|kbs}} || [[Image:Xbox LTrigger.png|25px|Left Trigger]] || [[Image:PS3 Square.png|25px|Square]] ||
+|-
+! Look Left
+| {{Button|kbq}} || {{Button|Xbox White/LB}} || [[Image:PS3 L2.png|25px|L2]] ||
+|-
+! Look Right
+| {{Button|kbe}} || {{Button|Xbox Black/RB}} || [[Image:PS3 R2.png|25px|R2]] ||
+|-
+! Look Behind
+| {{Button|kbq}}<br>''and''<br>{{Button|kbe}} || {{Button|Xbox White/LB}}<br />''and''<br />{{Button|Xbox Black/RB}} || [[Image:PS3 L2.png|25px|L2]]<br />''and''<br />[[Image:PS3 R2.png|25px|R2]] ||Also works with planes
+|-
+! Steering/Horizontal Camera
+| '''{{Button|kbarrowleft}}/{{Button|kbarrowright}}<br>{{Button|kba}}/{{Button|kbd}}''' || {{Button|leftstick}} || {{Button|l3}} ||
+|-
+! Horn/Toggle Siren
+| {{Button|kbh}} || {{Button|leftstick}}<br />(click) || {{Button|l3}}<br />(click) ||
+|-
+! Cycle Radio Stations
+| '''{{Button|kbr}}/{{Button|mmb}}''' || [[Image:Xbox Up.png|25px|D-Pad Up]]/[[Image:Xbox Down.png|25px|D-Pad Down]] || [[Image:PS3 Up.png|25px|D-Pad Up]]/[[Image:PS3 Down.png|25px|D-Pad Down]] ||
+|-
+! [[Trip Skip]]
+| {{Button|kby}} || [[Image:Xbox Right.png|25px|D-Pad Right]] || [[Image:PS3 Right.png|25px|D-Pad Right]] ||
+|-
+! Turret Control/Manual Camera/<br />Change Cinematic Camera
+| {{Button|mouse}} (first two)<br />'''NUM 4''' (cinematic camera) || {{Button|rightstick}} || {{Button|r3}} ||
+|-
+! Sub-Mission
+| {{Button|kb2}} || {{Button|rightstick}}<br />(click) || {{Button|r3}}<br />(click) ||
+|-
+! colspan=5 |
+===Swimming===
+|-
+! Swim Fast
+| {{Button|kbspace}}<br />(hold) || [[Image:XBox A.png|25px|A]]<br />(hold) || [[Image:PS3 Cross.png|25px|Cross]]<br />(hold) ||
+|-
+! Swim Very Fast
+| {{Button|kbspace}}<br />(tap) || [[Image:XBox A.png|25px|A]]<br />(tap) || [[Image:PS3 Cross.png|25px|Cross]]<br />(tap) ||
+|-
+! Jump
+| {{Button|kblshift}} || [[Image:XBox X.png|25px|X]] || [[Image:PS3 Square.png|25px|Square]] ||
+|-
+! Enter/Exit Vehicle
+| '''{{Button|kbenter}}/{{Button|kbf}}''' || [[Image:XBox Y.png|25px|Y]] || [[Image:PS3 Triangle.png|25px|Triangle]] ||
+|-
+! Dive Underwater
+| {{Button|kbctrl}}'''/'''{{Button|lmb}} || [[Image:XBox B.png|25px|B]] || [[Image:PS3 Circle.png|25px|Circle]] ||
+|-
+! Rotate Swim Direction
+| {{Button|mouse}} || {{Button|leftstick}} || {{Button|l3}} ||
+|-
+! colspan=5 |
+===On Bicycle===
+|-
+! Pedal
+| {{Button|kbarrowup}}'''/'''{{Button|kbw}}<br />(hold) || [[Image:Xbox RTrigger.png|25px|Right Trigger]]<br />(hold) || [[Image:PS3 Cross.png|25px|Cross]]<br />(hold) ||
+|-
+! Pedal Faster
+| {{Button|kbarrowup}}'''/'''{{Button|kbw}}<br />(tap) || [[Image:Xbox RTrigger.png|25px|Right Trigger]]<br />(TAP) || [[Image:PS3 Cross.png|25px|Cross]]<br />(tap) ||
+|-
+! Bunnyhop
+| {{Button|kblshift}} || [[Image:XBox B.png|25px|B]] || [[Image:PS3 L1.png|25px|L1]] ||
+|-
+! Bunnyhop Higher
+| {{Button|kblshift}}<br />(hold) || [[Image:XBox B.png|25px|B]]<br />(hold) || [[Image:PS3 L1.png|25px|L1]]<br />(hold) ||
+|-
+!colspan=5 |
+===Helicopter===
+|-
+! Rudder Right
+| {{Button|kbe}} || {{Button|Xbox Black/RB}} || [[Image:PS3 R2.png|25px|R2]] ||
+|-
+! Rudder Left
+|  {{Button|kbq}} || {{Button|Xbox White/LB}} || [[Image:PS3 L2.png|25px|L2]] ||
+|-
+! Ascend
+|  {{Button|kbw}} || [[Image:Xbox RTrigger.png|25px|Right Trigger]] || [[Image:PS3 Cross.png|25px|Cross]] ||
+|-
+! Descend
+|  {{Button|kbs}} || [[Image:Xbox LTrigger.png|25px|Left Trigger]] || [[Image:PS3 Square.png|25px|Square]] ||
+|-
+! Pitch/Roll
+|  '''{{Button|kbw}}/{{Button|kbs}}/{{Button|kba}}/{{Button|kbd}}''' || {{Button|leftstick}} || {{Button|l3}} ||
+|-
+! Auto–Hover/Police Maverick Spotlight
+|  {{Button|kbh}}  || {{Button|leftstick}}<br />(click) || {{Button|l3}}<br />(click) ||
+|-
+! Primary Weapon
+|  {{Button|kbalt}} || [[Image:XBox B.png|25px|B]] || [[Image:PS3 L1.png|25px|L1]] ||
+|-
+! Alternative Weapon
+|  {{Button|kbctrl}} || [[Image:XBox A.png|25px|A]] || [[Image:PS3 Circle.png|25px|Circle]] ||
+|-
+! Turret/Camera
+|  '''{{Button|kbarrowup}}/{{Button|kbarrowleft}}/{{Button|kbarrowdown}}/{{Button|kbarrowleft}}''' || {{Button|rightstick}} || {{Button|r3}} ||
+|-
+! colspan=5 |
+===Plane===
+|-
+! Rudder Right
+|  {{Button|kbe}} || {{Button|Xbox Black/RB}} || [[Image:PS3 R2.png|25px|R2]] ||
+|-
+! Rudder Left
+|  {{Button|kbq}} || {{Button|Xbox White/LB}} || [[Image:PS3 L2.png|25px|L2]] ||
+|-
+! Thrust
+|  {{Button|kbw}} || [[Image:Xbox RTrigger.png|25px|Right Trigger]] || [[Image:PS3 Cross.png|25px|Cross]] ||
+|-
+! Reverse Thrust
+|  {{Button|kbs}} || [[Image:Xbox LTrigger.png|25px|Left Trigger]] || [[Image:PS3 Square.png|25px|Square]] ||
+|-
+! Roll/Pitch
+|  '''{{Button|kbw}}/{{Button|kbs}}/{{Button|kba}}/{{Button|kbd}}''' || {{Button|leftstick}} || {{Button|l3}} ||
+|-
+! Raise/Lower Landing Gear (with some planes, also operates flaps)
+|  {{Button|kb2}} || {{Button|rightstick}}<br />(click) || {{Button|r3}}<br />(click) ||
+|-
+! Primary Weapon
+|  {{Button|kbalt}} || [[Image:XBox B.png|25px|B]] || [[Image:PS3 L1.png|25px|L1]] ||
+|-
+! Alternative Weapon
+|  {{Button|kbctrl}} || [[Image:XBox A.png|25px|A]] || [[Image:PS3 Circle.png|25px|Circle]] ||
+|-
+! Camera/Hydra Thrusters
+|'''{{Button|kbarrowup}}/{{Button|kbarrowleft}}/{{Button|kbarrowdown}}/{{Button|kbarrowleft}}'''|| {{Button|rightstick}} || {{Button|r3}} ||
+|}
+<gallery position="center" spacing="small" widths="270px">
+File:ControlsforGTASA-PC.png|Standard PC controls.
+</gallery>
+[[Category:GTA San Andreas]]
+[[Category:Game Controls]]

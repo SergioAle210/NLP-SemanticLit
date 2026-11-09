@@ -1,0 +1,109 @@
+{{Hatnote|This article is about the [[Enemy]]. For the [[Boss]], see [[Moldorm (Boss)|Moldorm]].}}
+{{Infobox Enemy
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Moldorm Artwork.png
+ |Model TP= File:TP Moldorm Model.png
+ |Model TPHD= File:TPHD Moldorm Model.png
+ |Model PH= File:PH Moldorm Model.png
+ |Model SS= File:SS Moldorm Model.png
+ |Model SSHD= File:SSHD Moldorm Model.png
+ |Sprite TLoZ= File:TLoZ Moldorm Sprite.png
+ |Sprite FS= File:FS Moldorm Sprite.png
+ |Sprite FSA= File:FSA Moldorm Sprite.png
+ |Sprite TMC= File:TMC Moldorm Sprite.png
+}}
+|caption= 
+|pronunciation= 
+|plural= Moldorms<ref>{{Cite Book|quote= Moldorms scurry around erratically, running into walls.|book= E |publisher= |page= 193}}</ref>
+|race=
+|game= TLoZ, FS, FSA, TMC, TP, PH, SS
+|other= LCT
+|habitat= {{Spawn Locations}}
+|member= 
+|attack= 
+{{Infobox Game Blocks
+ |TLoZ= Contact {{Small|(1/2 heart)}}
+}} 
+|weapon= 
+{{Infobox Game Blocks
+ |TP= [[Clawshot]], [[Sword]]
+ |SS= [[Mogma Mitts]]
+}}
+|spoils= 
+{{Infobox Game Blocks
+ |TLoZ= [[Heart]], [[Fairy]], One [[Rupee]]
+}}
+|exp= 
+|theme= 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|5}}
+}}
+}}
+{{Term/Store|Moldorm|Moldorms|Series, TLoZ, FS, FSA, TMC, TP, PH, SS, SSHD, LCT|plural}} are recurring [[Enemy|Enemies]] in {{TLoZ Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 193 {{Exp Game|TLoZ, FS, FSA, TMC, TP, PH, SS}}}}</ref><ref>{{Cite|{{Big|Gerudo Moldorm: Defender}}<br/>Something's coming! Keep your eres on your radar--and on the ground!|Stage Select|LCT}}</ref>
+
+==Characteristics==
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+Moldorms in {{TLoZ}} slowly slither around the ground in a random pattern. [[Link]] can defeat them by hitting them with his [[Sword]]. When defeated, they may drop either a [[Heart]], a [[Fairy]] or one [[Rupee]].{{TLoZ Enemy Note}}
+
+==={{FS|-}}===
+{{Stub|FS}}
+
+==={{FSA|-}}===
+Moldorms are very rare Enemies, being only seen in the [[Desert Temple]] and the [[Pyramid]]. They act the same as in ''Four Swords''.
+
+==={{TMC|-}}===
+{{Descriptions TMC}}
+Moldorms in {{TMC}} appear in [[Dungeon]]s and in [[Cave]]s accessed with the [[Mole Mitts]]. They move erratically and are more resilient than many other Enemies, taking two hits from the [[Four Sword]] to defeat, and three or more from other [[Sword]]s.
+
+==={{TP|-}}===
+Moldorms in {{TP}} appear in the sands of [[Gerudo Desert]], as well as in [[Quicksand]] found within the [[Arbiter's Grounds (Dungeon)|Arbiter's Grounds]]. They will leap up from the sand to attack [[Link]]. He can use the [[Clawshot]] to pull them from the ground, leaving them vulnerable to other weapon attacks until they manage to burrow back into the sand. After defeating enough Moldorms,{{How Many|TP}} a larger Moldorm will leap from the sand. This variation takes two hits to defeat instead of one.
+
+==={{PH|-}}===
+{{Stub|PH}}
+
+==={{SS|-}}===
+Moldorms in {{SS}} reside out of sight underground. They are encountered only when [[Link]] enters an underground tunnel with the [[Mogma Mitts]]. Striking their tail segment with the Mogma Mitts will destroy the rear segments and increase their movement speed, with three strikes required to defeat them. One appears as a [[Sub-Boss]] in the [[Fire Sanctuary (Dungeon)|Fire Sanctuary]].
+
+==Other Appearances==
+==={{LCT|-}}===
+{{Noncanon|Start}}
+{{Stub|LCT}}
+In {{LCT}}, Moldorms appear in the "[[Gerudo Moldorm: Defender]]" [[Stage]]. They dig under the sand and spiral towards Link, occasionally jumping out of the sand allowing Link to shoot them. If a Moldorm gets close to Link, it will jump out and damage him, causing him to lose points. 
+{{Noncanon|End}}
+
+==Trivia==
+*In {{SS}}, Moldorms' weak spot was inspired by {{Wp|honey ant}}s, while the fluid that sprays from the spot when struck by a [[Sword]] was based on an obsession of the effects designer.<ref>{{Cite Book|quote= The weak spot on Moldorm's rear end is modeled after a honey ant. The juice that sprays out from the weak spot when struck by a sword was based on an obsession of the effects designer's.|book= HH |page= 63}}</ref>
+
+==Nomenclature==
+Moldorms are known as {{Romanize|テール|Tail}} in Japanese. [[Swamola]]s are known as {{Romanize|モルドアーム|Morudoāmu}} in Japan, just like Moldorms from {{TLoZ|-}}. Moldorms in {{TP}} and {{SS}} are known as [[Moldworm]]s in Japan.
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:SS Moldorm Concept Artwork.png|{{Game Label|{{SS|-}}}}Concept artwork of Moldorms
+</gallery>
+
+==See Also==
+{{See Also|
+ * Lanmola
+ * Magtail
+ * Mini-Moldorm
+ * Moldworm
+ * Skytail
+ * Tailpasaran
+ * Winder
+}}
+
+{{Notes}}
+
+{{Ref}}
+
+{{Bosses|SS}}
+{{Categories
+ |Burrowing Enemies, Moldorms, Sand-Related Enemies, Worm-Like Enemies
+ |enemies= TLoZ, FS, FSA, TMC, TP, TPHD, PH, SS, SSHD, LCT
+ |sub-bosses= SS, SSHD
+}}

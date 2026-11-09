@@ -1,0 +1,50 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+{{control selector|PlayStation 2,PC,Xbox}}
+[[File:GTA_SA_Smoke.jpg|thumb|Big Smoke]]
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Mission''':[[File:GTA San Andreas radar CJ.png]] [[Grand Theft Auto: San Andreas/In the beginning|In the beginning]]
+* '''Location''': [[File:GTA San Andreas radar CJ.png]]CJ's house, Grove Street, Ganton, Los Santos
+|}
+
+Unlike previous games in the ''Grand Theft Auto'' series, this first mission can actually be quite tricky, since it is quite possible to die, if you are not careful.
+
+During the cut-scene, you go with ''Big Smoke'' to the graveyard where you meet your sister, ''Kendl'' and your brother, ''Sweet''. As you are leaving, you are attacked by the ''Ballas'' (a sworn enemy gang).
+
+==Get to safety==
+When you regain control, hop on the ''BMX'' marked with a blue arrow (you have to use this vehicle), and keep close to ''Sweet''. The ''Ballas'' will try to shoot you as you are cycling, but should you have acquired a sufficient amount of firepower, you can destroy the enemy car. You cannot pull the ''Ballas'' out of the car by attempting to ''jack'' the vehicle.
+
+Route:
+#After getting on the bike, go to the end of the street and turn left.
+#Go straight for a couple of blocks, then turn left uphill.
+#Turn right at the next light.
+#When the street begins to curve to the right, go straight and head into the parking lot to find the crew waiting for you. This is the clearing under the ''Mulholland Intersection''. ''Sweet'' will split from you to draw away the ''Ballas''.
+
+;Biking tips
+When biking, note that you can sprint by tapping {{control|{{ps2|x}}|{{kbd|w}}}}. This will be necessary to catch up to Sweet if you fall behind. If the ''Ballas'' in the car give you trouble, try to bike close to the center of the lane so that they drive on the left side of the street. They may run into oncoming traffic. You can also jump over corners and onto raised parts of sidewalks and buildings by bunny hopping with {{control|{{ps2|L1}}|{{kbd|space}}}}.
+
+==Ride home==
+Follow ''Ryder'' back to your house to complete the mission. Don't worry if you fall behind; he will wait for you until you catch up. You fail this mission if you get ''Wasted'', or somehow trash your ''BMX'' (e.g. by cycling it into water).
+
+Route:
+#Head straight and to the right side of the parking lot.
+#Turn right into the alley before the end of the lot.
+#At the street, slow down so you don't hit anyone or a car. Cross the street and continue through the next alley with the stairs.
+#Turn ??.
+#??
+
+== Rewards ==
+{{achievement
+|name=Getting Started
+|g=10
+|trophy=bronze
+|image=GTASA DE Getting Started.png
+|description=Complete "Big Smoke".
+}}
+* '''Respect''': +3
+* Your house now becomes a safehouse (i.e. you can save the game there).
+* Camera (with 50 exposures) spawns in CJ's house.
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=In the beginning|previmg=[[File:GTA San Andreas radar CJ.png]]|hereimg=[[File:GTA San Andreas radar CJ.png]]|nextpage=Ryder|nextimg=[[File:GTA San Andreas radar Ryder.png]]}}

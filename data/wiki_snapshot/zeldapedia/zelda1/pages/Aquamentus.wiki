@@ -1,0 +1,84 @@
+{{Infobox Boss
+|image=
+{{Media
+ |Artwork TLoZ= File:TLoZ Aquamentus Artwork.png
+ |Sprite TLoZ= File:TLoZ Aquamentus Sprite.png
+ |Sprite OoS= File:OoS Aquamentus Sprite.png
+}}
+|caption= 
+|game= {{TLoZ}}<br/>{{OoS}}
+|other= {{TLoZ|TV Series}}<br/>{{BSTLoZ}}<br/>{{OoS|Himekawa|-}}
+|dungeon= {{Term|TLoZ|Level 1|link}} {{Exp Game|TLoZ}} {{Exp|Both Quests}}<br/>{{Term|TLoZ|Level 7|link}} {{Exp Game|TLoZ}} {{Exp|First Quest}}<br/>[[Gnarled Root Dungeon]] {{Exp Game|OoS}}
+|habitat= 
+|health= {{Infobox Game Blocks
+ |TLoZ=[[Weapon Strength#The Legend of Zelda|6]]
+ |OoS=[[HP|10]]
+}}
+|weakness= 
+|reward= [[Heart Container]] {{Exp Game|TLoZ}} {{Exp Game|OoS}}<br/>
+[[Triforce Shard]] {{Exp Game|TLoZ}}<br/>
+[[Fertile Soil]] {{Exp Game|OoS}}
+|exp= 
+|theme= 
+|voice actor= 
+|attack(s)={{Infobox Game Blocks
+ |TLoZ=Contact {{small|(1/2 heart)}}<br/>Fireball {{small|(1 heart)}}
+}}|race=[[Dragon]]}}
+{{Term/Store|Aquamentus||Series, OoS}} is a recurring [[Boss]] in {{TLoZ|Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 163 {{Exp Game|TLoZ, OoS}}}}</ref> It is a [[dragon]] with a horn on its head that some call a unicorn.<ref>{{Cite manual|quote= A type of dragon that some call a unicorn.|game= TLoZ|page= 37}}</ref>
+
+==Characteristics==
+==={{TLoZ|-}}===
+{{Manual|TLoZ|Aquamentus|A type of dragon that some call a unicorn. As well as having lots of attacking power, it's a fearful opponent. It emits mean beams.}}
+In {{TLoZ}}, Aquamentus appears as the [[Boss]] of {{Term|TLoZ|Level 1|link}} and {{Term|TLoZ|Level 7|link}} of the First Quest as well as Level-1 of the [[Second Quest]]. It guards a fragment of the [[Triforce of Wisdom]]. Aquamentus also appears in {{Term|TLoZ|Level 4|link}} and {{Term|TLoZ|Level 8|link}} of the Second Quest. Aquamentus slowly walks back and forth and periodically shoots a group of three fireballs out of its mouth.<ref>{{Cite manual|quote= Aquamentus: A Unicorn having lots of attacking power. It emits beams.|game= TLoZ|page= 37}}</ref> [[Link]] can block the fireballs with a [[Magical Shield]]. Link can damage an Aquamentus with his {{Term|TLoZ|Sword|link}} or [[Bomb]]s, but can also attack from a distance by throwing his Sword, shooting the [[Bow]] and [[Arrow]] or using the [[Magical Rod]]. Aquamentus cannot be stunned by the [[Boomerang]] and is invulnerable to [[Fire]]. When it is defeated, a [[Heart Container]] will appear and Aquamentus may drop either a [[Heart]], a [[Fairy]], or one [[Rupee]].{{Note|If {{Term|TLoZ|Link|link}} defeats 10 enemies without getting hit or teleporting with the {{Term|TLoZ|Recorder|link}}, then the 10th enemy defeated will drop five {{Plural|TLoZ|Rupee|link}}. However, if the 10th enemy is defeated with a {{Term|TLoZ|Bomb|link}}, then it will drop four {{Plural|TLoZ|Bomb}}. If {{Term|TLoZ|Link}} defeats 16 enemies without getting hit or teleporting, then the 16th enemy will drop a {{Term|TLoZ|Fairy|link}}. After the 16th enemy, {{Term|TLoZ|Link}} must get hit and reset the counter to zero in order to achieve this effect again. Defeating {{Plural|TLoZ|Armos|link}}, {{Plural|TLoZ|Like Like|link}}, {{Plural|TLoZ|Keese|link}}, or {{Plural|TLoZ|Gel|link}} will not be counted.<ref>{{Cite Web|quote= |author= n.a. |published= n.d. |retrieved= August 17, 2017 |url= http://redcandle.us/The_Legend_of_Zelda#Forced_drops |title= Forced Drops |site= redcandle.us}}</ref>}}
+
+==={{OoS|-}}===
+[[File:OoS Aquamentus Sprite 2.png|left|54px]]
+In {{OoS}}, Aquamentus is the Boss of the first [[Dungeon]], [[Gnarled Root Dungeon]], a Dungeon that resembles Level-1 from {{TLoZ|-}}.<ref>{{Cite Guide|quote= |game= OoS|publisher= Nintendo|page= 19}}</ref> In addition to its attacks from {{TLoZ|-}}, Aquamentus now has the ability to charge across the room. After dashing and slamming into the wall, the Aquamentus flies back to the right side of the room. Before emitting beams, its horn will glow. Upon the dragon's defeat, Link receives a Heart Container and the first [[Essence of Nature]], {{Term|OoS|Fertile Soil|link}}.
+
+==Other Appearances==
+==={{TLoZ|-}} TV Series===
+{{Noncanon|Start}}
+[[File:Aquamentus (Underworld Connections).png|thumb|right|200px|An Aquamentus from the {{TLoZ|-}} TV series]]
+An Aquamentus is depicted as a horse-like monster in the "[[Underworld Connections]]" episode of {{TLoZ|TV Series}}. As Link is retrieving a shard of the [[Triforce of Wisdom]] while swimming in the [[Black Falls]], an Aquamentus appears out of a dark, underwater cave. The Aquamentus takes him to the surface while Link is riding on top of it, struggling.<ref>{{Cite Episode|quote=Zelda! Help! This monstrous Aquamentus wants me for lunch!|name=Link|show=The Legend of Zelda|episode=8}}</ref> [[Princess Zelda]] then grabs a Bomb from Link's pouch and throws it at the Aquamentus, which instantly defeats it.<ref>{{Cite Episode|quote=Bombs away!|name=Princess Zelda|show=The Legend of Zelda|episode=8}}</ref>
+{{Noncanon|End}}
+
+==={{BSTLoZ|-}}===
+{{Noncanon|Start}}
+[[File:Dragon(BS).gif|left|60px]]
+Aquamentus appears as the Boss of [[Level 1|Level-1]] and [[Level-7 (BS The Legend of Zelda)|Level-7]], and as a Mini-Boss in [[Level-8 (BS The Legend of Zelda)|Level-8]], in {{BSTLoZ}}. It is fought in the same manner as in {{TLoZ|-}}. In its latter two appearances, Aquamentus is much stronger and more animated, shooting fireballs more frequently and requiring several hits before turning blue, then finally turning red after several more hits, before being defeated.
+{{Clear}}
+{{Noncanon|End}}
+
+==={{OoS|-}} (Himekawa)===
+{{Noncanon|Start}}
+An Aquamentus makes an appearance in the {{OoS|Himekawa}} alongside various other enemies and Bosses from the game. They swarm all at once with the Aquamentus leading the charge, while [[Ricky]] attempts to protect Link by putting him in his pouch and attacking with Tornado Punches. The Aquamentus breaths fire and while Ricky attempts to block the flames with his tornadoes, he is overwhelmed and defeated. It would have been a lost battle if it was not for the appearance of [[Moosh]], who awakes from hibernation at just the right moment to give them a ride to safety at extremely high speed.
+{{Noncanon|End}}
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Aquamentus Million Publishing Artwork.png|Artwork of an Aquamentus from an unofficial {{TLoZ|-}} guide book
+File:AquamentusManga.png|An Aquamentus alongside various other monsters from the {{OoS|-}} manga
+File:BSTLoZ Aquamentus Blue Sprite.gif|A blue Aquamentus from {{BSTLoZ|-}}
+File:BSTLoZ Aquamentus Red Sprite.gif|A red Aquamentus from {{BSTLoZ|-}}
+</gallery>
+
+{{Notes}}
+{{Ref}}
+
+{{Bosses|TLoZ}}
+{{SaurianEnemy}}
+{{Categories
+ |Dragons
+ |bosses= TLoZ, OoS, TLoZ (TV Series), BSTLoZ
+}}
+
+[[de:Aquamentus]]
+[[es:Aquamentus]]
+[[it:Aquamentus]]
+[[fr:Aquamentus]]
+[[ja:アクオメンタス]]
+[[pt-br:Aquamentus (The Legend of Zelda)]]
+[[zh-tw:阿夸曼特斯]]

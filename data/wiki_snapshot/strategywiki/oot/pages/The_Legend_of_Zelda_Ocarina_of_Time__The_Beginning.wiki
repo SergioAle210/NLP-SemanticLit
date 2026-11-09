@@ -1,0 +1,95 @@
+{{Header Nav|game=The Legend of Zelda: Ocarina of Time}}
+{{Control selector|Nintendo 64, GameCube, Virtual Console, 3DS, Switch}}
+[[File:Oot nightmare.jpg|thumb|left|200px|A horrible nightmare marks the beginning of an epic journey.]]
+
+The adventure begins with a narration by the Great Deku Tree, the guardian of the forest and the father of its human inhabitants, the Kokiri. Link, our young hero, is the only boy in the Kokiri village without a fairy. Suddenly, he is awakened from a particularly disturbing nightmare to find a fairy in his room. The fairy, exasperated, beckons Link to come with it to the Great Deku Tree in order to hear some urgent news.
+
+__TOC__
+
+[[File:oot kokiri intro.jpg|thumb|left|Link's home, the Kokiri Forest.]]
+{{sidebar|title=Nintendo 3DS|width=200px|contents=In Master Quest be prepared for two things: the map has been mirrored so what's left is now right and vice versa, and you'll be forced to use potions and shields as no enemy will drop hearts when defeated.}}
+The young boy bursts through the doors of his home only to be greeted by Saria, his childhood friend. She is overjoyed that Link has finally gotten a fairy of his own, but Link knows deep inside that this was not to be the happy day his friends would expect it to be.
+
+The jealous Mido will do his best to make sure of that too. Shocked inexplicably by the apparent favor that both Saria and the Great Deku Tree have shown to Link, he will do everything in his power to prevent you from seeing the great tree. He insists that you must have both a sword and a shield before you can pass. What a jealous fellow, indeed!
+{{-}}
+
+== Proving yourself to Mido == 
+Clearly, this portion of the game was designed in order for you to become accustomed to the controls and game functions. Fortunately, this is unlike almost any other in-game tutorial out there: it's fun. Already, you have been presented with a problem—that Mido is blocking your way—and now you must set out to find a solution. You will need to find the {{im/oot|Equipment|Kokiri Sword}} and {{im/oot|Equipment|Deku Shield}}. While you can get the items in any order, [[#Getting the sword|getting the sword]] first may help you acquire the 40 {{im/oot|Consumables|Green Rupee|display=rupees}} necessary to [[#Getting the shield|purchase the shield]].
+
+=== Getting the sword ===
+[[File:oot boulder.jpg|right|thumb|Must go faster!]]
+The sword isn't very difficult to find. To reach it you must first locate a hole in a wall the "Forest Training Center," a fenced area up on a hill. Using your mini-map, head to the western side of Kokiri Village. The hill is on your left. Make your way through the fences, approach the crawlspace at the end, and press the {{Control|{{N64|A}}|{{gc|A}}|{{wii-cc|A}}|{{3ds|A}}|{{Switch|A}}}} button when prompted to crawl through it. ''Be careful''—on the other side. You'll have to dodge a huge rolling boulder. You can do this by ducking into alcoves when it is rolling toward you. Once the large rock has passed, simply run behind it. If you explore this section, you may find two {{im/oot|Consumables|Blue Rupee|display=blue rupees}} beside the tall, skinny weeds. Collect them, as they will be helpful for purchasing the {{im/oot|Equipment|Deku Shield}}. You'll easily locate the chest by zigzagging to the left then to the right from where you entered. Open it to get the {{im/oot|Equipment|Kokiri Sword|s=1}}!
+
+You're now half-way toward getting past Mido. Wait for the boulder to pass again before you head back to the crawlspace and the Kokiri village.
+{{-}}
+
+=== Training with the sword ===
+In the Forest Training Center (where you crossed through to reach the crawlspace), you will notice a house to the right of the fences. You can ask the people in the house to tell you about the game's controls, weapons, and other lore. Within the fences you will find a boy staring at a rock. Talk with him for an introduction on how to use your sword and the game's targeting system using the {{Control|{{N64|Z}}|{{gc|L}}|{{wii-cc|L}}|{{3ds|L}}|{{Switch|ZL}}}} button. Read the various signs to learn new tricks, or talk to the other Kokiri. Make sure to spend a little time here getting used to the mechanics because you'll certainly need to be well versed in them ahead. You might find some {{im/oot|Consumables|Green Rupee|display=rupees}} when you backflip targeting the rocks or thrusting the signs or jumping from fences.
+
+<gallery>
+File:oot learn slash.jpg|With targeting, you can slash&hellip;
+File:oot learn backflip.jpg|&hellip;do backflips&hellip;
+File:oot learn targetpeople.jpg|&hellip;and talk to distant people.
+</gallery>
+
+=== Getting the shield ===
+The {{im/oot|Equipment|Deku Shield}} can be purchased at the shop for 40 {{im/oot|Consumables|Green Rupee|display=rupees}}, the staple currency of the Zelda universe. Of course, you start the game off with no money at all, so you'll have to do a little exploring in order to track down the cash! Some free-standing rupees are sitting around town, so be sure to look behind buildings and use the first person view to help find them. Cutting bushes and running through the tall grasses is also advised. 
+
+<div align="center">
+<big><big>''There are many ways to get Rupees...''</big></big>
+</div>
+
+<gallery>
+File:oot cash grass.jpg|Run through grass.
+File:oot cash bushes.jpg|Slash bushes.
+File:oot cash rocks.jpg|Throw rocks&hellip;
+File:oot cash pots.jpg|&hellip;and pots.
+File:oot cash buildings.jpg|Look behind buildings.
+File:oot cash bridge.jpg|Try to walk to the end of the bridge.
+File:oot cash jump.jpg|Or jump straight on the blocks in the water.
+File:oot cash chests.jpg|Mido's house has chests with rupees.
+</gallery>
+
+{| class="wikitable" style="float: right; margin-left: .5em; text-align: center"
+!colspan="3"|{{a|Kokiri Shop}} List
+|-
+!align="left"|Item
+!width="40"|Quantity
+!width="40"|Rupees
+|-
+|align="left"|{{im/oot|Consumables|Arrow|display=Arrows}}||10||20
+|-
+|align="left"|{{im/oot|Consumables|Arrow|display=Arrows}}||30||60
+|-
+|align="left"|{{im/oot|Items|Deku Nut|display=Deku Nuts}}||5||15
+|-
+|align="left"|{{im/oot|Items|Deku Nut|display=Deku Nuts}}||10||30
+|-
+|align="left"|{{im/oot|Consumables|Deku Seeds}}||30||30
+|-
+|align="left"|{{im/oot|Equipment|Deku Shield}}||1||40
+|-
+|align="left"|{{im/oot|Items|Deku Stick}}||1||10
+|-
+|align="left"|{{im/oot|Consumables|Recovery Heart}}||1||10
+|}
+
+A quick way to earn some rupees is by running and jumping across the square platforms in the water near the shop. Each time you successfully jump across without falling in the water, you earn a {{im/oot|Consumables|Blue Rupee}}. You can do the same thing if you go to the door of the house across from the shop, and jump onto the larger island in the water, and then to the smaller island. After you get both, just enter a nearby building and then go straight back out. The rupee rewards will be reset. You can collect the rupees as many times as you wish, so by doing this you are quickly approaching your target wealth while as getting used to the controls at the same time. Also, in the shop, look to the right and you should see a small area to the side of the counter. Enter that passage and you will find a {{im/oot|Consumables|Blue Rupee}}. (NOTE: This will only work once.)
+
+Once you have 40 rupees, head to the shop and get your shield. You won't need to buy anything else, as you'll soon encounter the other items. After you've purchased the shield, '''don't forget to equip it!''' Then it's time to show Mido your new {{im/oot|Equipment|Deku Shield|s=1}}!
+{{-}}
+
+== Exploring the Lost Woods ==
+{{details|../The Lost Woods#More Deku Sticks|what you can do right now in the Lost Woods|More Deku Sticks}}
+You have the option to open up more of the map. There is not much you can do here presently, but you may wish to get familiar with the area now before you have to come back later in your quest.
+
+== To the Great Deku Tree! ==
+[[File:Oot cursed.jpg|thumb|The Great Deku Tree speaks...]]
+Show your stuff to Mido, and he will pout—he didn't anticipate that you could actually complete such a task. However, he has to keep his word, and he now allows you access to the Great Deku Tree. Poor Mido doesn't feel loved.
+
+Be aware: some {{im/oot|Enemies|Deku Baba (withered)|display=withered Deku Babas}} haunt the road ahead, but it is a short road. Just dispose of the creatures with your new sword, grab any {{im/oot|Items|Deku Stick|display=Deku Sticks}} that their corpses leave behind, and head on down the path. Do not linger or the monsters will regenerate. Or you can keep defeating them until you have maximum of 10 Deku Sticks for now. After a short dialog with the Great Deku Tree, he beckons you to enter his trunk and to break an evil curse...
+
+== Switch 2 version ==
+It's pretty much following a similar structure with the maps slightly altered due to the jump button added and sprint button by holding the A button. There are more places to jump, more places to climb and a tutorial about using a sword near the similar spot as before. The wooden shield is still 40 rupees and going through cutscenes and text is much faster to skip than before. Time to refresh your memory once more in completing the first part of the quest.
+
+{{Footer Nav|game=The Legend of Zelda: Ocarina of Time|prevpage=Walkthrough|nextpage=Inside the Deku Tree}}

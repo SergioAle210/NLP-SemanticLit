@@ -1,0 +1,60 @@
+{{Header Nav|game=Grand Theft Auto: San Andreas}}
+
+{| {{prettytable|notwide=true|float=right|style=width:200px}}
+!Prerequisites
+|-
+|
+* '''Missions''': [[File:GTA San Andreas radar Caligula.png]][[Grand Theft Auto: San Andreas/The Meat Business|The Meat Business]],[[File:GTA San Andreas radar CRASH.png]] [[Grand Theft Auto: San Andreas/Misappropriation|Misappropriation]]
+* '''Location''': [[File:GTA San Andreas radar Caligula.png]]Caligula's Casino, Las Venturas
+|}
+
+Back to Caligula's, you need to go take out a hit squad disguised as a string quartet. You are sent to the airport, where you need to steal a Dodo and intercept the incoming jet. Once in the plane, use left and right for cover as you kill the four hitmen, and then the pilot. Then, fly back to the Las Venturas airport and land.
+
+After landing, you'll get a call from Tenpenny that opens up a new mission in the desert.
+
+== Tips ==
+This is by far one of the most difficult main-line missions in the game.
+
+This mission will take at the very least several tries to complete, even using the strategy given here. So you need to save a game very close to Caligula's to use as a restart point. The two closest save points are the Clown's Pocket and Pirates in Men's Pants. Even still, you will need to get from those save points to Caligula's on foot, which is a bit irritating.
+
+After you leave the cutscene, you materialize in front of Caligula's with a fast motorcycle at hand. You can make a beeline to the airport by avoiding the bridge. Simply blast over the freeway; there is a gap in the divider which you can go through, or you can hit the divider and catch some air (you may spin around but if your bike skills are decent, which they should be by this point, you will land just fine).
+
+Several obvious strategies have been determined by trial and error to be incapable of intercepting the jet, at least on the PC version of the game. This includes flying straight north and doing an inverted power dive; flying into the jet's corona from the front; and doing what the in-game text suggests, which is to turn around at the jet's activation point and catch up with it.
+
+The following strategy has been tested on the PC version of the game and has proven very successful.
+
+Take off and fly about five degrees to the east (right) of due north. The jet flies at about the top level of the first altitude indicator. You need to reach and maintain an altitude about one third of the way above the first altitude indicator. This will give you enough altitude to bleed off during your turn.
+
+The jet is activated by proximity, not by crossing a line north of the city. If you fly on the heading a bit to the east (right) of due north, the jet will not be activated until it is at a 45° angle to the west (left) of your position.
+
+You will pass two cloudbanks after leaving the coast before the jet is activated. You can use this clue to start your turn before the jet is activated, which will give you a bit more of an advantage.
+
+The moment the jet is activated (or shortly before), start a gentle turn to the left. This will cause you to lose altitude, and also gives you an airspeed advantage over the jet. Watch the radar until you are heading due south. At this point you should be right on the tail of the jet and if you are flying steady, should be able to reach the corona.
+
+Other things that may help are turning off the radio so you can hear your engines, and doing the mission at night so the jet is more visible.
+
+An alternative strategy is to fly around the spawn point of the plane and approach from the rear. You will be able to reach the corona just before the plane reaches Las Venturas if you are able to keep your plane steady enough.
+
+After you take over the jet (which is simply a two stage whack-a-mole exercise) you need to land it at the Las Venturas airport successfuly to conclude the mission. DO NOT FORGET TO PUT YOUR LANDING GEAR DOWN (press {{kbd|2}} on the PC). You can land anywhere on the runway. If you haven't piloted or landed a jet in GTA:SA before, you should steal a Shamal from the Las Venturas airport and exercise it, including landing, prior to attempting the Freefall mission. You can also exercise with the Dodo as there are always a couple parked at the LV airport. The gate to the LV airport will open automatically if you have passed flight school.
+
+=== Workarounds (PC Version Only)===
+If you are playing the PC version of the game you can use the [http://www.thegtaplace.com/pafiledb.php?action=file&id=522 SA Config Editor] to edit the config of the your plane, the DODO, to make it faster and the speed of the SHAMAL (target plane) to make it slower. The file you need to edit is the "handling.cfg" file. This can also be edited using a text editor (save a copy of the file before you do so). Changing the drag factor of the DODO from 12.0 to 8.0 will make the chase easier. However this also makes the DODO a bit more difficult to control.
+
+If you would like to skip the part where you are supposed to catch up to the plane, you can teleport to the following coordinates using software such as
+[http://www.estetiksoft.de/gtasaconsole/index.html GTA San Andreas Admin Console]:
+{|
+|X||1465.0
+|-
+|Y||5200.0
+|-
+|Z||215.0
+|-
+|Angle||179
+|}
+Teleport to the above coordinates when you are seated inside the Dodo at the airport. Do not fly the Dodo; just teleport to the coordinates. This will teleport you right on top of the hitmen's plane. The Shamal will start to move when you are close to it. Hence after you teleport there the plane will start moving and so will the corona. Now the corona will pass through the Dodo and you can continue the mission from there.
+
+== Rewards ==
+* '''Cash''': $15,000
+* '''Respect''': 30
+
+{{Footer Nav|game=Grand Theft Auto: San Andreas|prevpage=Misappropriation|previmg=[[File:GTA San Andreas radar CRASH.png]]|hereimg=[[File:GTA San Andreas radar Caligula.png]]|nextpage=High Noon|nextimg=[[File:GTA San Andreas radar CRASH.png]]|customprev=[[File:GTA San Andreas radar Caligula.png]] [[../The Meat Business/]]}}

@@ -1,0 +1,64 @@
+{{Header Nav|game=The Legend of Zelda: Ocarina of Time}}
+
+These are collectible items that you can only receive once and never again, and pickups that appear out of broken pots, cut grass, and thrown rocks that you can collect over and over again. They range from currency to weapon ammo to items that help you navigate dungeons.
+
+==Recovery items==
+As you travel throughout Hyrule you'll expend magic and lose health. You'll need to search around for these items to heal yourself and restore your magic power.
+
+;[[File:OoT Items Recovery Heart.png|x24px]] <span id="Recovery Heart">Recovery Heart</span><br>
+Restores your health by up to a full heart.
+;[[File:OoT Items Small Magic Jar.png|x24px]] <span id="Small Magic Jar">Small Magic Jar</span><br>
+Recovers a small portion of the magic meter.
+;[[File:OoT Items Large Magic Jar.png|x24px]] <span id="Large Magic Jar">Large Magic Jar</span><br>
+Recovers a large portion of the magic meter.
+
+==Rupees==
+Like all Zelda games, Rupees are used as a currency within the game. You can acquire rupees from killing enemies, destroying objects, looking in chests, or playing mini-games, or sometimes during swimming in water, or sometimes out in the open.
+{| {{prettytable}}
+|-
+! Type
+! Value
+|-
+|[[File:OoT Items Green Rupee.png|x24px]] <span id="Green Rupee">Green Rupee</span>
+| 1
+|-
+|[[File:OoT Items Blue Rupee.png|x24px]] <span id="Blue Rupee">Blue Rupee</span>
+| 5
+|-
+|[[File:OoT Items Red Rupee.png|x24px]] <span id="Red Rupee">Red Rupee</span>
+| 20
+|-
+|[[File:OoT Items Purple Rupee.png|x24px]] <span id="Purple Rupee">Purple Rupee</span>
+| 50
+|-
+|[[File:OoT Items Huge Rupee.png|x24px]] <span id="Huge Rupee">Huge Rupee</span>
+| 200
+|-
+|[[File:OoT Items Orange Rupee.png|x24px]] <span id="Orange Rupee">Orange Rupee</span>
+| 200
+|-
+|[[File:OoT Items Silver Rupee.png|x24px]] <span id="SIlver Rupee">SIlver Rupee</span>
+| 5
+|}
+
+'''Silver Rupees''' are used to solve puzzles and cannot be found outside of such puzzles.
+
+While the '''Huge Rupee''' and the '''Orange Rupee''' are the same value, you'll receive the Huge Rupee from NPCs and you'll find the Orange Rupee in instances where you'll find rupees lying on the ground.
+
+==Ammunition==
+You'll find several weapons throughout your journey that require restocking. You can find these by destroying pots, grass, or rocks, but you can also just purchase many of these refills in shops around Hyrule.
+
+;[[File:OoT Items Deku Stick.png|x24px]] <span id="Deku Stick">Deku Stick</span><br>
+Refills your {{im/oot|Items|Deku Stick}} count by 1.
+;[[File:OoT Items Deku Nut.png|x24px]] <span id="Deku Nut">Deku Nut</span><br>
+Refills your {{im/oot|Items|Deku Nut}} count by 5.
+;[[File:OoT Items Deku Seeds.png|x24px]] <span id="Deku Seeds">Deku Seeds</span><br>
+Refills your {{im/oot|Items|Fairy Slingshot}} ammunition by 5.
+;[[File:OoT Items Bomb.png|x24px]] <span id="Bombs">Bombs</span><br>
+Refills your {{im/oot|Items|Bomb}} count by 5.
+;[[File:OoT Items Arrow.png|x24px]] <span id="Arrow">Arrows</span><br>
+'''Single Bundle''': Refills your {{im/oot|Items|Fairy Bow}} ammunition by 5.<br>
+'''Double Bundle''': Refills your Bow ammunition by 10.<br>
+'''Triple Bundle''': Refills your Bow ammunition by 15.
+
+{{Footer Nav|game=The Legend of Zelda: Ocarina of Time|prevpage=Walkthrough|nextpage=Enemies}}

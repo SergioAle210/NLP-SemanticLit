@@ -1,0 +1,479 @@
+{{cleanup}}
+: ''"Hellspawn" redirects here. For "Team Hellspawn", see [[Doom voxel project]].''
+
+[[file:monsters_group.png|right]]In the ''Doom'' franchise, a '''monster''' is any artificially intelligent entity that is not spawned if the -nomonsters parameter is used. In single player and cooperative games, much of a user's playing time is spent in combat with enemy monsters. Monsters are either placed in a level during its design, created by another monster (particularly, the Pain Elemental spawns Lost Souls), or spawned by the final boss.
+
+Any monster placed in a level or created by the final boss is initially dormant and becomes active only when it sees a [[player]], when it sustains a damaging attack, or when it hears a player attack, even if this is with the (otherwise silent) [[fist]]. When activated, a monster will advance on its target and attack, sensing the location of the thing they are after even if it is out of sight, and advancing toward that location even if it is on the other side of the level. If a monster hits an obstruction during its hunt for its target, it will attempt to walk around it or float around/over it ([[Cacodemon]], [[Lost Soul]] and/or [[Pain Elemental]]). Monsters that have been alerted normally remain active indefinitely, even after respawning or being resurrected by an [[Arch-vile]]. However, there is a [[Monster targets not preserved in saved games|bug]] which returns any active monsters to a dormant state if the user re-loads a saved game. In general, monsters of different types can accidentally hurt each other and will often turn against each other in such cases, engaging in [[monster infighting]]. If a monster defeats an aggressor without ever seeing or hearing a player, it will return to a dormant state.
+
+Monsters can use some types of [[teleporter]]s, although they do so accidentally or unintentionally, as their [[Wikipedia:Game AI|intelligence]] is very limited. Monsters can similarly activate lifts and open certain [[door]]s, although some monsters may not fit through doors and openings that are just large enough for the player. Monsters can be hurt and killed by [[crushing ceiling]]s, but are unaffected by all forms of [[damaging floor]]s.
+
+The monsters can be classified into two groups: the [[former human]]s, or zombies, possessed by demonic forces, and the [[demonic monster]]s (demons, ''hellspawn, ''or mortally challenged) originating in Hell or arriving from there.
+
+==Classic Doom games==
+===Doom===
+[[Doom]] and its retail extension, [[The Ultimate Doom]], include the following monsters:
+*[[Former Human/Doom|Former Human]] - A former soldier who is now a demonically possessed zombie, armed with a rifle. The weakest of the enemies in Doom and therefore, the easiest to kill.
+*[[Former Human Sergeant/Doom|Former Human Sergeant]] - A former sergeant who is now a demonically possessed zombie, armed with a [[Shotgun/Doom|shotgun]]. They are more dangerous and skilled than their Former Human counterpart.
+*[[Imp]] - A brown, human-sized humanoid demon that hurls fireballs from a distance and claws nearby opponents. They are the most frequently encountered monsters.
+*[[Demon]] (Pinky) - A large humanoid, bipedal demon with a large mouth, armed with sharp teeth. While only limited to melee, they can outrun their prey most of the time, and can occasionally come in packs.
+*[[Spectre]] - Identical to the Demon (Pinky), except that it is [[Partial invisibility effect|partially invisible]].
+*[[Lost Soul]] - A floating, flaming skull that can rush quickly to bite their opponent.
+*[[Cacodemon]] - A large red floating spherical monster with horns, one eye, and a Cheshire cat smile. It moves relatively slowly, but has strong jaws and spits out lightning balls from a distance.
+*[[Baron of Hell]] - Two of these monsters act as the [[boss]] in [[Knee-Deep in the Dead]], resembling large blood red Satyrs. It can hurl streaming balls of green plasma and employs a powerful clawing attack at close range. They can take enormous punishment before being slain.
+*[[Cyberdemon]] - This massive cybernetic [[wikipedia:Minotaur]] appears as a boss in [[The Shores of Hell]]. It will fire a volley of three explosive rockets from the rocket launcher mounted on it's left arm, while moving at a relatively rapid rate for its size. It can easily lay waste on even the toughest mortal who has the guts to challenge it, while being able to easily withstand most attacks from it's high health.
+*[[Spiderdemon|Spider Mastermind]] - This cybernetic boss awaits in [[Inferno]] and [[Thy Flesh Consumed]]. It appears as an enormous brain with eyes, a mouth, and comparatively small arms, atop a four-legged metal chassis with an incorporated triple-strength chaingun which will mow down the unwary to bits within moments.
+
+See also [[Player]] and [[Barrel]].
+
+===Doom II===
+[[Doom II]] (and [[Final Doom]]) includes the same monsters as Doom in addition to the following monsters:
+*[[Heavy Weapon Dude|Former Commando]] - A tough, corpulent zombie with darker skin and red armor, he will rapid fire with his [[chaingun]] to quickly perforate his targets.
+*[[Revenant]] - A tall, armored human skeleton-like demon that can launch guided missiles and punch opponents at close quarters. These are the results of recycled demon combatants.
+*[[Hell Knight]] - Identical to the Baron of Hell but tanned in color, emits higher-pitched sounds and endures only half as much damage.
+*[[Arch-vile]] - Infernal High Priest who can conjure flames to attack. Even worse, it can also resurrect dead monsters.
+*[[Arachnotron]] - Strongly resembles the Spiderdemon, but is much smaller and weaker and is armed with a plasma gun that fires green bursts.
+*[[Mancubus]] - A grotesquely bloated humanoid whose forearms are replaced with a pair of flamethrowers. It moves slowly, but nonetheless possesses potent attacks from it's flamethrowers while withstanding a fair amount of ordinance to bring down.
+*[[Pain Elemental]] - A large floating spherical monster that resembles a Cacodemon, except being brown in color and has small arms. It attacks by spitting Lost Souls at its target, and even creates a few more as it dies.
+*[[Icon of Sin]] - A giant demonic entity that takes the appearance of a biomechanical goat mounted on a wall, with an exposed brain which shoots [[Spawn cube|cubes that spawn the lesser demons]]. Though not technically a monster, it acts as the de facto leader of all the other monsters, in which the [[Doom's protagonist|protagonist]] must defeat to win the game.
+
+Cameo enemies:
+
+* [[Wolfenstein SS]] - A Nazi Schutzstaffel trooper in blue uniform. Found exclusively in the two [[Wolfenstein 3D|Wolfenstein]]-themed secret levels and attacks with a medium-strength machine gun.
+
+* [[Commander Keen]] - A hanged effigy of the cosmonaut from [[id Software]]'s [[Wikipedia:Commander Keen|pioneering series of games]] only appearing in [[MAP32: Grosse]]. It neither moves nor attacks, although killing all four Keen figures is necessary to reveal the exit switch and finish the level.
+
+Added in Doom II: [[Legacy of Rust]]:
+
+* [[Ghoul/Doom II|Ghoul]] (not to be confused with the [[Doom RPG]] enemy of the same name, which is a less powerful variant of a [[Revenant]]) - A flying horned skull that is based upon a prototype version of a [[Lost Soul]].  This enemy also flies like a [[Lost Soul]], is also slightly faster than a [[Lost Soul]], but, unlike a [[Lost Soul]], it can shoot projectiles that are not unlike the projectiles that the [[Arachnotron]] fires, as well as are also the same colors, and also around the same speed as well, and it also takes less time, and/or ammunition, to kill than a [[Lost Soul]].
+* [[Banshee]] - A floating blood red blob of ectoplasm that screams as it heads towards the player like a demonic version of a suicide bomber, and its explosion will give the player major damage upon contact.  A weapon that is on the level of a [[Shotgun]] is needed to deal with this enemy, as well as a bit of distance.
+* [[Shocktrooper]] - A helmet wearing [[Former human|Former Human]] that uses a [[Plasma gun|Plasma Rifle]] as its weapon.  Though it only fires three shots at a time, they are also more powerful than the projectiles that are shot by either the Ghoul or the [[Arachnotron/Doom II|Arachnotron]], so avoiding those Plasma Balls is a good idea.  Also, it's the toughest of all of the officially recognized [[Former human|Former Human]] class in the [[Classic Doom]] games, and it requires a weapon that is no less powerful than a [[Super shotgun|Super Shotgun]] to defeat.
+* [[Mindweaver]] - This is essentially a miniature version of a [[Spiderdemon]], and it's also equipped with the same [[Chaingun]] as said [[Spiderdemon]].  Granted, it's not as tough as one, but at least it's tougher than an [[Arachnotron]], and all of its shots do equal amounts of damage, as is typical of a [[Chaingun]].  A weapon that is no less in power than a [[Super shotgun|Super Shotgun]] is needed to defeat this enemy.
+* [[Vassago]] - A winged enemy that is ironically not a good demon like it is described in real-world literature, but, rather, it is a very mean demon. The Vassago has a goat-like skull on its head that it wears like a demonic helmet, or bit of armor, not unlike a demonic version of a [w:c:pokemon:Marowak] from the Pokemon universe in that regard, but it is black in color, and may resemble a Hell Knight, or a Baron of Hell, underneath the skull. The Vassago can also fling Fireballs that not only last longer, but also hurt more, than the Flames that are summoned by an [[Arch-vile|Archvile]], plus, like an Imp, Hell Knight, or a Baron of Hell, it can bite, as well as claw, the player as well, and it is even tougher to take down than a [[Baron of Hell]].  The [[Incinerator]] is the weapon that is the best fit to use on this enemy, though the [[Calamity Blade]] will deal even more damage to the Vassago, especially when it appears in groups.
+* [[Tyrant (Legacy of Rust)|Tyrant]] - This enemy is a smaller, though still powerful, version of a Cyberdemon, though with not as much metal on its body, smaller, if nonexistent, horns on its head, green in the places where the Cyberdemon is red, and an overall smaller frame than the Cyberdemon, as it was designed to be a prototype version of that demon.  The Tyrant may not be as much of an ammunition sponge as a Cyberdemon, but it's still a formidable opponent that is on par with damage potential as a Cyberdemon, despite its more diminutive size, as it also possesses a [[Rocket Launcher]] for an arm. The same tactics that are used to defeat a Cyberdemon also apply in regards to dealing with a Tyrant.
+
+==Newer Doom franchise games==
+The newer games of the Doom franchise generally include a set of monsters from the PC Doom games or inspired on them and possibly a number of new creations. Various ports include the same [[sprite]]s as their predecessors, although some change their appearances either to achieve a new style (such as in [[Doom 64]]) and the newer games (such as [[Doom 3]]) provide polygonal versions that suit their more advanced technology and rendering capabilities.
+
+=== Doom RPG ===
+[[Doom RPG]] features almost all of the monsters from Doom II, with the exception of the Shotgun Guy, Spectre, Arachnotron, Wolfenstein SS, Commander Keen and Spiderdemon (as well as the final boss). 
+
+Returning Monsters(with variants):
+
+* [[Zombie Private]] - Zombie Pvt is the first version of the Zombie class encountered in Doom RPG.
+** [[Zombie Lieutenant]] - Zombie Lt. is the second version of the Zombie class encountered in Doom RPG.
+** [[Zombie Captain]] - Zombie Cp. is the third version of the Zombie class encountered in Doom RPG.
+
+* [[Troop/Doom RPG|Troop]] - Troops are the least powerful of the [[Commando]] class in [[Doom RPG]]. 
+** [[Commando/Doom RPG|Commando]] - Commandos are the 2nd most powerful of the [[Commando]] class in [[Doom RPG]]. 
+** [[Assassin]] - Assassin are the most powerful of the [[Commando]] class in [[Doom RPG]]. 
+
+* [[Impling]] - The Impling is the weakest form of Imp. 
+** [[Imp/Doom RPG|Imp]] - The Imp is the 2nd strongest form of Imp. 
+** [[Imp Lord]] - The Imp Lord is the strongest form of Imp.
+
+* [[Phantom]] - Phantoms are the weakest of the [[Lost Soul]] class of monsters in Doom RPG.
+** [[Lost Soul/Doom RPG|Lost Soul]] - Lost Souls are the 2nd strongest of the [[Lost Soul]] class of monsters in Doom RPG.
+** [[Nightmare]] - Nightmares are the strongest of the [[Lost Soul]] class of monsters in Doom RPG.
+
+* [[Bull Demon]] - Bull Demons are the weakest form of Demons class of monsters in Doom RPG.
+**[[Demon/Doom RPG|Pinky]] - Pinkies are the 2nd strongest form of Demons class of monsters in Doom RPG.
+** [[Belphegor]] - Belphegors are the strongest form of Demons class of monsters in Doom RPG.
+
+* [[Malwrath]] - The Malwrath is the weakest of the three Cacodemon class of monsters in Doom RPG.
+** [[Cacodemon/Doom RPG|Cacodemon]] - The Cacodemon is the 2nd strongest of the three Cacodemon class of monsters in Doom RPG.
+** [[Wretched]] - The Wretched is the strongest of the three Cacodemon class of monsters in Doom RPG.
+
+* [[Beholder]] - The Beholder is the weakest of the three Pain Elemental class of monsters in Doom RPG.
+** [[Rahovart]] - The Rahovart is the 2nd strongest of the three Pain Elemental class of monsters in Doom RPG.
+** [[Pain Elemental/Doom RPG|Pain Elemental]] - The Pain Elemental is the strongest of the three Pain Elemental class of monsters in Doom RPG.
+
+* [[Ghoul]] - The Ghoul is the weakest of the three Revenant class of monsters in Doom RPG.
+** [[Fiend]] - The Fiend is the 2nd strongest of the three Revenant class of monsters in Doom RPG.
+** [[Revenant/Doom RPG|Revenant]] - The Revenant is the strongest of the three Revenant class of monsters in Doom RPG.
+
+* [[Behemoth]] - The Behemoth is the weakest of the three Mancubi class of monsters in Doom RPG.
+**[[Mancubus/Doom RPG|Mancubus]] - The Mancubes is the 2nd strongest of the three Mancubi class of monsters in Doom RPG.
+** [[Druj]] - The Druj is the strongest of the three Mancubi class of monsters in Doom RPG.
+
+* [[Infernis]] - The Infernis is the weakest of the three Arch-vile class of monsters in Doom RPG.
+** [[Arch-vile/Doom RPG|Arch-vile]] - The Arch-vile is the 2nd strongest of the three Arch-vile class of monsters in Doom RPG.
+** [[Apollyon]] - The Apollyon is the strongest of the three Arch-vile class of monsters in Doom RPG.
+
+* [[Ogre]] - The Ogre is the weakest of the three Baron class of monsters in Doom RPG.
+** [[Hell Knight/Doom RPG|Hell Knight]] - The Hell Knight is the 2nd strongest of the three Baron class of monsters in Doom RPG.
+** [[Baron of Hell/Doom RPG|Baron of Hell]] - The Baron of Hell is the strongest of the three Baron class of monsters in Doom RPG.
+
+New Monsters:
+
+*[[Hellhound/Doom RPG|Hellhound]] - The Hellhound is a monster found in [[Doom RPG]] belonging to a demonic class known as [[Canine]]s. Hellhounds are brown members of the species.
+**[[Cerberus]] - The Cerberus are second type of [[Canine]] encountered in ''[[Doom RPG]]''. They are first encountered in Sector 3.
+**[[Demon Wolf]] - Demon Wolf is the third and most powerful form of the [[canine]] class of monsters in Doom RPG. It can be found beyond the secret green door in Sector 1.
+*[[Kronos]] - Kronos was a [[UAC]] scientist working on teleportation research. He supposedly travelled to [[Hell|a dimension of pure evil]] where he combined human technology with demon flesh to create the [[Cyberdemon]]. In [[Reactor/Doom RPG|Reactor]], the last level of Doom RPG, it is revealed that Kronos has been changed into a demon
+
+Non-boss enemies in Doom RPG are organized into ''classes''. For example, there are three types of [[Imp]]s, while the [[Hell Knight]] and [[Baron of Hell]] both belong to the "Baron" class. Monsters in the same class use the same sprites, but are somewhat differently colored and vary in difficulty.
+
+=== Doom II RPG ===
+The Doom RPG sequel [[Doom II RPG]] has almost the same enemy entity set as Doom RPG, but adds a few of its own, even adding a few boss entities. The game adds the following new enemy types:
+
+*[[Lesser Sawcubus]] - The L Sawcubus is a monster found in [[Doom RPG]] belonging to a demonic class known as Sawcubus species.
+**[[Greater Sawcubus]] - The G Sawcubus is a monster found in [[Doom RPG]] belonging to a demonic class known as Sawcubus species.
+**[[Chainstrosity]] - The Chainstrosity is a monster found in [[Doom RPG]] belonging to a demonic class known as Sawcubus species.
+
+*[[Brier]] - The Brier is a monster found in [[Doom RPG]] belonging to a demonic class known as Sentinal species.
+**[[Watcher]] - The Watcher is a monster found in [[Doom RPG]] belonging to a demonic class known as Sentinal species.
+**[[Sentinel (Doom II RPG)|Sentinel]] - The Sentinal is a monster found in [[Doom RPG]] belonging to a demonic class known as Sentinal species.
+
+*[[Zombie Civilian]] - The Zombie Civilian is a monster found in [[Doom RPG]] belonging to a demonic class known as Zombie species. 
+**[[Zombie Worker]] - The Zombie Worker is a monster found in [[Doom RPG]] belonging to a demonic class known as Zombie species.
+**[[Zombie Tech]] - The Zombie Tech is a monster found in [[Doom RPG]] belonging to a demonic class known as Zombie species.
+*[[Sentry Bot/Doom II RPG|Sentry Bot]] - The Senrty Bot is a monster found in [[Doom RPG]] belonging to a demonic class known as Bot species.
+*[[Pinkinator]] - The Pinkinator is a demon and the first boss in ''[[Doom II RPG]]'' that spawns [[Demon/Doom RPG|Pinky]] demons. 
+*[[VIOS]] - VIOS (Virtual Icon Of Sin), is an AI of demonic origins and the main antagonist of ''[[Doom II RPG]]''.
+
+In addition to the new classes of enemies, the game has two new boss class entities; the Pinkinator and VIOS. All the sprite artwork used for the enemies was hand-drawn specifically for this game — even for "classic" monsters returning from previous games in the series — in order to allow for higher-resolution sprites than what was used in the original Doom games (though the higher-resolution sprites are only used on higher-end devices).
+
+===[[Sony PlayStation]]===
+The official port of Doom to this platform removes the Arch-vile but includes an additional monster over the PC versions.
+*[[Nightmare Spectre]] - Nightmare Spectres are dark cyan-tinted, faster and more powerful forms of [[Spectre]]s.
+
+===Doom 64===
+[[Doom 64]] includes newly illustrated versions of the Doom and Doom II monsters, created from high-poly rendered models rather than sculptures or hand-drawings. Revenant, Heavy Weapon Dude, Arch-vile, Spiderdemon, Wolfenstein SS, Commander Keen and final boss are not present.
+
+Returning Monsters:
+
+* [[Zombieman/Doom 64|Zombieman]] - They are made from systematically altered dead carnage remade back into corrupted living tissue. The mutations were devastating. The demons have returned stronger and more vicious than before.
+* [[Shotgun Guy/Doom 64|Shotgun Guy]] - Much like the Zombiemen, he was once a marine, always a marine... Except in this case.... These guys may look like your old buddies the Zombiemen.
+* [[Imp/Doom 64|Imp]] -  This Imp heaves balls of fire down your throat and takes several bullets to die.
+* [[Lost Soul/Doom 64|Lost Soul]] - These variations of the Lost Souls look somewhat different, in their new mutations they have become slightly transparent, and there is fire only on the top of their skulls 
+*[[Demon/Doom 64|Demon]] (Pinky) - Sorta liked shaved gorillas, except with horns, big heads and lots of teeth. They don't kill easily. Get to close and they'll rip your sorry head off.
+* [[Spectre/Doom 64|Spectre]] -  In Doom 64, inactive spectres are initially rendered as opaque [[Demon]]s with a green tint, becoming translucent upon detecting the player.
+* [[Cacodemon/Doom 64|Cacodemon]] - It underwent major mutations, becoming beige-brown, with a single yellow-green eye, and gaining two arms with broken chains attached, and a rather terrifying face.
+* [[Pain Elemental/Doom 64|Pain Elemental]] - With further altering from mutations it is colored dark pink (like the original [[Cacodemon/Doom|Cacodemon]] while the [[Cacodemon/Doom 64|Doom 64 Cacodemon]] was colored beige brown and had two arms), has a green eye and in place of its arms are two mouths so it can now spawn two [[Lost Soul/Doom 64|Lost Souls]] at the same time.
+* [[Arachnotron/Doom 64|Arachnotron]] - This left them considerably altered; the mechanical body is much bigger, with the brain head ducked down inside the machine itself instead of sitting atop it.
+* [[Mancubus/Doom 64|Mancubus]] - Their pupil-less eyes have blue sclera instead of green, their bodies have less fat and a more bear-like face, they are taller and wear a metal body harness. Their fireballs are smaller and appear more like fiery brimstone.
+* [[Hell Knight/Doom 64|Hell Knight]] - Though overall similar to the standard hell knight, the mutated variant found in [[Doom 64]] is less pale in color.
+* [[Baron of Hell/Doom 64|Baron of Hell]] - It's mutations have given it a red-orange colour scheme (rather than greenish which is instead used for the [[Hell Knight#Doom 64|Hell Knight]]).
+* [[Cyberdemon/Doom 64|Cyberdemon]] - It has not gone through many changes and mutations except that it has darker colored skin, a more bovine-esque head structure (though the face is very canine-like appearance), is slightly stronger and much larger, with thicker wiring running along its robotic body parts.
+
+New Monsters:
+
+*[[Nightmare Imp]] - The Nightmare Imp is a translucent blue/purple [[Imp/Doom 64|Imp]] which is faster than the standard Imp variant
+*[[Mother Demon]] - The Mother Demon appears as a large demonic larva with dead black eyes with red irises, four arms, a skull-like face and smallish mouth filled with many long, sharp teeth. It has no wings, yet moves by floating around.
+
+===Doom 3===
+[[Doom 3]] includes its own versions of many monsters from the original games. Some of them, such as the Revenant and the Mancubus, are more faithful from their predecessors while others like the Cacodemon and the Commando are considerably different in terms of appearance and behavior.
+
+Returning monsters:
+
+*[[Zombie (monster)/Doom 3|Zombie]] - Former [[UAC]] civilians now possessed by evil spirits, they slowly close in to claw their victims, though they can occasionally wield wrenches and flashlights as clubs to deal more damage
+**[[Fat Zombie]] - A [[Zombie]] that is obese, granting them higher health and damage, at the expense of speed.
+**[[Flaming Zombie]] - Also known as "Bernie", it is a Zombie that is set on fire, sprinting a lot quicker and possessing more health.
+**[[Morgue Zombie]] -  Similar to the Boney Zombie but has underwear, less skinny, and can move quicker than most Zombies.
+**[[Chainsaw/Doom 3|Chainsaw Zombie]] - Also known as "Sawyer", it is a tough, muscular Zombie who wields a [[Chainsaw/Doom 3|Chainsaw]] to mow down its victims.
+**[[Boney|Boney Zombie]] - Also known as "Living Dead" by researchers, they are naked, partially decayed zombies, found only in [[Hell]].
+*[[Z-Sec|Zombie Security (Z-Sec)]] - Former [[UAC]] [[Mars City Security|security guards]] who are now possessed by evil spirits. They can utilize firearms and rely on defensive tactics to take out their target.
+**Pistol Guard Z-Sec - Wields a [[Pistol/Doom 3|Pistol]] as their main weapon, can sometimes dodge sideways but nonetheless the weakest of the other Z-Secs.
+**Shotgunner Z-Sec - Wields a [[Shotgun/Doom 3|Shotgun]] as their main weapon, they will occasionally close in at their target to launch a devastating blast at point blank range.
+**Machinegunner Z-Sec - Wields a [[Machine Gun]] as their main weapon, they will generally hold their position at a distance to fire continuous bursts.
+**Riot Shield Trooper Z-Sec - Wields a Pistol and a riot shield that is impervious to gunshots, they can kneel to make themselves less available targets.
+*[[Imp/Doom 3|Imp]] - The most common monsters encountered, they are tall humanoid creatures with grey skin and 10 small eyes. They launch fireballs at a distance and claw at close range, but are also subject to leaping and pouncing on their target.
+*[[Demon/Doom 3|Demon]] (Pinky) - A large canine-like quadruped demon. They are armed with tusks and sharp teeth and will quickly close in on their victim to launch a biting attack that can disorientate their victims.
+*[[Lost Soul/Doom 3|Lost Soul]] - A small flying demon consisting of a human head mounted on a flying rocket engine contraption. They come in swarms and will charge right at their target.
+*[[Cacodemon/Doom 3|Cacodemon]] - A large airborne demon that fires a giant missile at a distance, while biting their victims at close range.
+*[[Revenant/Doom 3|Revenant]] - A tall human skeleton-like demon armed with a pair of shoulder-mounted missile launchers that fire relatively slow-moving homing missiles. They will also resort to clawing and punching at their enemies up close. 
+*[[Mancubus/Doom 3|Mancubus]] - A very large, fat demon with fireball launchers for each arm, it alternates by firing one fireball from one of it's launchers before firing the second one. They will also resort to using all their strength to smash their victims up close with their launchers, making them tough, powerful, but nonetheless, slow.
+*[[Commando/Doom 3|Zombie Commando]] - Former human [[Marine]]s who were transformed into demonic warriors. Aggressive and intelligent, they can easily overcome their foe with both strength and skill.
+**Tentacle Commando - Possesses a large whip-like tentacle on its right arm, they run at an alarming speed to strike their victims with their tentacle arm, while resorting to kicking and punching.  
+**Chaingun Commando - Wields a [[Chaingun/Doom 3|Chaingun]] as their main weapon, they will fire multiple bursts from their weapon before momentarily pausing to take cover.
+*[[Arch-vile/Doom 3|Arch-vile]] - A large, off-white colored humanoid demon, standing a head taller than a normal human even in its standard semi-crouched pose. They can launch large pillars of fire at their victims and summon lesser demons in the vicinity.
+*[[Hell Knight/Doom 3|Hell Knight]] -  One of the largest demons encountered, they launch green fireballs at a distance and can either claw or bite up close. They are aggressive and powerful, and will quickly overpower any smaller foe that stands in it's way.
+
+Additionally, the following new monsters are encountered:
+
+*[[Maggot]] - A small demon that has two heads with long black tongues. Their back is hunched and consists of two large, tumor-like bloody stumps with retracting barbed bones protruding from them. They will close in on their victims to claw them, but are subject to leaping at great distance.
+*[[Trite]] - Small spider-like demons, with a body resembling an upside-down, human-like head and possessing six legs. They come in swarms and will either leap from a distance or bite at their victims up close.
+*[[Vagary]] - This demon has the lower half of a giant spider and the upper half of a woman. She relies on telekinesis by using loose objects on the ground to telepathically launch them at her targets.
+*[[Wraith]] - A small demon that possesses falx-like appendages on their arms, which they will use to attack their target. They possess a so-called "teleportation" ability, disappearing for a few seconds before reappearing several feet ahead of their previous position.
+*[[Cherub]] -  A small demon resembling a human infant with insect-like wings. They come in swarms and will either claw or leap from several feet to powerfully pounce on their targets.
+*[[Tick (Doom 3)|Tick]] - Small spider-like demons that greatly resembles Trites in terms of overall appearance and behavior. They are not as common and have different body appearances from Trites.
+
+Boss monsters:
+
+*[[Guardian of Hell]] - This crocodilian-like demon stands more than 15 feet tall, and will ground pound to summon large 8 balls in it's vicinity while summoning its Seekers.
+**[[Guardian of Hell#Seekers|Seeker]] - Small floating creatures that emit a tiny headlight, acting as spotters for the blind Guardian of Hell to seek their target. Appearing in a group of three, destroying them will leave the Guardian vulnerable.
+*[[Sabaoth]] - [[Thomas Kelly|Sergeant Kelly]]'s final state of his demonic transformation, where his lower half has been replaced with a tank-like vehicle, and upper half being a twisted body attached to heavy machinery armed with a very sharp claw. He relies on the [[BFG9000/Doom 3|BFG]] he has looted from [[Jack Campbell|Campbell]] while using his sharp claw to brutally strike his victims.
+*[[Cyberdemon/Doom 3|Cyberdemon]] - A large minotaur-like giant with a rocket launcher mounted on it's right arm, guarding the final portal to Hell in the Caverns. It will either fire three rockets at it's victims, or brutally stomp them to death with it's cybernetic feet. Dubbed as "Hell's mightiest warrior", it can only be defeated by the [[Soul Cube/Doom 3|Soul Cube]].
+
+Some [[Unfinished Doom 3 monsters|concepts of monsters]], one of which resembles the spider-like monsters from Doom and Doom II, were shown by id Software during development of the game but did not make it to the finished product.
+
+===Doom 3: Resurrection of Evil===
+All the monsters in Doom 3 appear in [[Resurrection of Evil]], except the Sabaoth, Vagary, Cyberdemon, Guardian, Seeker, and Lost Soul. Additionally, some new monsters are included:
+
+*[[Bio-Suit Zombie]] - A Zombie that wears a yellow hazmat suit and a oxygen tank, only found in toxic radioactive areas that can pose a hazard to breathing. Behaves like regular Zombies but drops valuable oxygen tanks upon death.
+*[[Vulgar]] - A medium size quadruped demon with a monkey-like frame that primarily shoots green fireballs while resorting to leaping and clawing up close. Behaves very similar to Imps, except possessing much quicker attacks, at the expense of being weaker. 
+*[[Forgotten One]] - Flying flaming skulls with two demon horns, it resembles the classic [[Lost Soul]] more than does its namesake.
+*[[Bruiser]] - A tall demon with a large muscular body in the vein of a [[Hell Knight/Doom 3|Hell Knight]] and mechanical features of a [[Mancubus/Doom 3|Mancubus]]. It attacks by quickly firing a barrage of fireballs from it's twin flame launchers
+
+Boss monsters:
+
+*[[Hell Hunter]] - A trio of demons resembling a bulky [[Hell Knight/Doom 3|Hell Knight]] with some differing physical characteristics. Each possesses unique abilities that are synonymous to the powerups that the Artifact can utilize. 
+**[[Helltime Hunter]] - Resembles a hovering [[Hell Knight/Doom 3|Hell Knight]] without legs, and can move from one part of the area to another using short bursts of incredible speed. Nonetheless, the weakest Hunter, possessing the lowest health compared to the other two.
+**[[Berserk Hunter]] - Possesses large claws and has normal humanoid legs compared to the [[Hell Knight/Doom 3|Hell Knight]]'s digitigrade, goat-like legs. Can shoot fireballs and powerfully claw their victims up close, but will fall quickly if its exposed heart sustains damage.
+**[[Invulnerability Hunter]] - Possesses a larger body structure than a [[Hell Knight/Doom 3|Hell Knight]], and has a bulging, extremely muscular body, and coated with an electrical shielding powered by four generators in it's vicinity, making them impervious to damage. Destroying any of the four generators will dissipate their aura momentarily, making them vulnerable.
+*[[Maledict]] - The demonic reincarnation of Dr. [[Malcolm Betruger]], whose head and neck is attached to the tongue of a giant skeletal wyvern-like demon. He can summon giant pillars of flames while summoning Forgotten Ones and throwing flaming meteorites from the air.
+
+=== Doom (2016) ===
+The Doom reboot features a lot of returning monsters from the previous three games.
+
+*[[The Possessed|Possessed]] - Essentially renamed zombies.
+**[[Possessed Engineer]] - Killing them causes them to explode.
+**[[Possessed Security]] - The only hitscan enemies of the game. Equipped with a highly resilient energy shield.
+**[[Possessed Soldier]] - Equipped with plasma guns.
+**[[Possessed Scientist]] - Common zombies.
+**[[Possessed Worker]] - Different skin for common zombies.
+**[[Unwilling]] - Different skin for common zombies that appear in Hell.
+* [[Imp/Doom (2016)|Imp]] - Far more agile than its classic version, capable of climbing up walls and leaping over large gaps. Can also charge their fireballs into more powerful versions.  
+* [[Demon/Doom (2016)|Pinky]] - Covered in thick armor on their faces and have a charging attack, making players have to dodge and attack their vulnerable tails.
+* [[Spectre/Doom (2016)|Spectre]] - The Spectre is identical to the Pinky, albeit with the added advantage of invisibility.
+* [[Lost Soul/Doom (2016)|Lost Soul]] - Now explode upon impact.
+* [[Cacodemon/Doom (2016)|Cacodemon]] - Their attacks now blurs the players vision.
+* [[Revenant/Doom (2016)|Revenant]] - Human Based Synthetic Demon. Now equipped with jetpacks and can unleash much larger barrages of rockets.
+* [[Hell Knight/Doom (2016)|Hell Knight]] - Resemble their Doom 3 incarnation, but can no longer throw fireballs. Instead they have increased speed and agility to chase and pummel the player.
+* [[Mancubus/Doom (2016)|Mancubus]] - Now covered in armor plating that protects their chests, and can launch their flames in streams rather than just fireballs.
+*[[Baron of Hell/Doom (2016)|Baron of Hell]] - Are larger than more agile than previous appearances, easily capable of outrunning the player.
+
+It also includes some new monsters.
+
+*[[Gore Nest]] - Not technically demons, but an important part of fighting them. Gore Nests appear as objects to be destroyed to remove "demonic presence" from areas. Destroying them summons a wave of demons.
+*[[Hell Razer]] - Similar to an upgraded Possessed Soldier, Hell Razers are demons with an arm cannon that fires a beam of Hell energy.
+*[[Summoner]] - They are similar to Arch-viles, but can float, travel at untouchable speeds, and have a revamped appearance.
+*[[Cyber-Mancubus]] - Mancubi with heavier armor, and shoot toxic slime rather than fire, at greater ranges.
+
+Boss monsters:
+
+* [[Cyberdemon/Doom (2016)|Cyberdemon]] - A boss, with several new abilities, including a laser attack and a flame wall.
+* [[Hell Guard]] - A trio of bosses, biomechanical suits inhabited by [[Parasite]]s. They have various flame and energy-shield based attacks.
+* [[Spiderdemon/Doom (2016)|Spider Mastermind]] - Final boss, equipped with a plasma cannon, lasers, an electric attack and telekinesis.
+
+Multiplayer includes two new demons for players to play as.
+
+* [[Harvester]] - A demon that absorbs life energy to fuel its attacks.
+* [[Prowler]] - Demons similar to Imp, but stronger and without the fireballs.
+
+===Doom Eternal===
+[[Doom Eternal]] features several returning monsters, along with a selection of new ones. In this game, they are split into one of five categories: ambient, fodder, heavy, super-heavy and boss monsters.
+====[[Ambient]]====
+*[[Buff Totem]] - A new threat which continually summons empowered demons until it is tracked down and destroyed. The Buff Totem is completely immobile and must be destroyed with a [[melee attack]].
+*[[Cueball]] - Similar to the Possessed Engineers from Doom (2016), the Cueball will simply stand in place and will become an explosive missile when damaged.
+*[[Tentacle]] - Tentacles can be found on certain levels. When approached, they will emerge from holes in the ground and damage the player. However, not all Tentacle holes contain a Tentacle.
+
+====[[Fodder]]====
+*[[Zombie (monster)/Doom Eternal|Zombie]] - Returning from previous games, the Zombies behave similarly to the Possessed from Doom (2016).
+*[[Mecha Zombie]] - These Zombies appear as red eyed skeletal versions of regular Zombies but utilises multiple mechanical implants and an inbuilt flamethrower/plasma blaster.
+*[[Soldier]] - The Soldier comes in two variants which resemble the Possessed Soldier and Security from Doom (2016):
+**Soldier (Blaster)
+**Soldier (Shield)
+*[[Imp/Doom Eternal|Imp]] - Returning virtually unchanged from Doom (2016), Imps make up one of the main fight forces of the demonic invasion.
+*[[Gargoyle (Doom Eternal)|Gargoyle]] - The Gargoyle behaves similarly to the Imp, albeit with the ability to fly.
+*[[Lost Soul/Doom Eternal|Lost Soul]] - Lost Souls are much rarer than in previous games, with them now almost exclusively being spawned by the Pain Elemental. Other than this, they behave as in Doom (2016).
+
+====[[Heavy]]====
+*[[Maykr Drone]] - The only non-boss [[Maykr]] enemies in the game, they have highly resistant bodies but can be easily dispatched with headshots. They were originally Fodder enemies.
+*[[Prowler/Doom Eternal|Prowler]] - Transitioning from the multiplayer mode of Doom (2016) into the campaign of Doom Eternal, the Prowler is like a bigger, stronger, teleporting Imp.
+*[[Revenant/Doom Eternal|Revenant]] - The Revenant's shoulder-mounted rocket launchers can now be destroyed, preventing it from using its ranged attacks.
+*[[Whiplash]] - Base by Original Whiplash, A new female demon with a snake-like lower body. The Whiplash is quick-moving and uses a combination of melee and ranged attacks.
+*[[Carcass]] - Human Based Synthetic, This deceptively tanky demon has the ability to summon shields which are similar to those of the shield Soldier.
+*[[Demon/Doom Eternal|Pinky]] - The classic Pinky returns in Doom Eternal with behaviour much the same to Doom (2016).
+*[[Spectre/Doom Eternal|Spectre]] - The Spectre is identical to the Pinky, albeit with the added advantage of invisibility.
+*[[Cacodemon/Doom Eternal|Cacodemon]] - The Cacodemon of Doom Eternal seems to have received a health buff from Doom (2016), however it can be easily staggered for a [[Glory Kill]] if a grenade is fired into its mouth.
+*[[Hell Knight/Doom Eternal|Hell Knight]] - The Hell Knight returns from Doom (2016), albeit with a tweaked visual design and a more aggressive attack pattern.
+*[[Dread Knight]] - This variant and Enhanced Version of the Hell Knight is a faster, tough and all around meaner variation with twin arm-blades. It is able to use a number of area-of-effect and ranged attacks not available to the Hell Knight.
+*[[Arachnotron/Doom Eternal|Arachnotron]] - Returning from Doom II, Spider Mastermind's Genetic Material Based Synthetic Clone, the Arachnotron is an agile and tough early-game demon. It has an automatic cannon on its back which can be destroyed with enough damage, or a single direct Sticky Bomb.
+*[[Pain Elemental/Doom Eternal|Pain Elemental]] - Returns from the classic Doom games. As before, it summons Lost Souls as its main form of attack.
+*[[Mancubus/Doom Eternal|Mancubus]] - In Doom Eternal, the twin arm cannons of the Mancubus serve as weak points. By destroying them, its attack patterns will be changed and the demon will be weaker overall.
+*[[Cyber-Mancubus/Doom Eternal|Cyber-Mancubus]] - Returning from Doom (2016), the Cyber-Mancubus differs from the normal Mancubus in that its twin arm cannons can't be destroyed. This demon's armor can, however, be destroyed in a single [[Blood Punch]].
+
+====[[Super Heavy]]====
+*[[Fireborne Baron|Baron of Hell]] - Returning from Doom (2016) with an entirely new design, the Baron of Hell is an aggressive and powerful enemy which can attack with a combination of ranged and melee attacks.
+*[[Arch-vile/Doom Eternal|Arch-vile]] - The Arch-vile returns from the classic Doom games. In Doom Eternal, it behaves similarly to a Buff Totem by summoning and empowering demons for the Slayer to fight. This version of the Arch-vile can also summon a shield to protect itself from the front.
+*[[Doom Hunter]] - Agaddon Hunter Based Synthetic, This surprisingly-agile demon is first encountered as a boss in the early game. The Doom Hunter has an energy shield which protects it from incoming damage and a hover-sled which must be destroyed before it can be killed.
+*[[Marauder]] - The Marauder is a powerful new demon type which uses an energy shield. He can only be damaged when performing a melee attack with his axe, shortly after his eyes flash green.
+*[[Tyrant]] - The Tyrant is the biggest and toughest of the standard demons. It resembles and behaves like a classic Cyberdemon.
+
+====Boss monsters====
+*[[The Gladiator]] - A large shield-wielding boss with a two-stage boss fight. His shield mechanics behave similarly to the Marauder.
+*[[Khan Maykr]] - The leader of the [[Maykr]] race. She has a shield which must be depleted before she can be damaged with a Blood Punch.
+*[[Icon of Sin/Doom Eternal|Icon of Sin]] - An enormous monster, the Icon of Sin is a rather straightforward fight which simply needs to have its body parts destroyed to defeat it.
+
+===Doom Eternal: The Ancient Gods===
+
+====Ambient====
+*[[Spirit]]
+*[[Tentacle#Ancient Gods|Giant Tentacle]]
+*[[Turret]]
+*[[Demonic Trooper]]
+
+====Fodder====
+*[[Screecher Zombie]]
+*[[Riot Soldier]]
+*[[Stone Imp]]
+
+====Heavy====
+*[[Blood Maykr]]
+*[[Whiplash Spectre]]
+*[[Cursed Prowler]]
+
+====Super Heavy====
+*[[Armored Baron]]
+
+====Boss monsters====
+*[[Samur Maykr]]
+*[[Trial of Maligog]]
+*[[Dark Lord]]
+
+=== Doom: The Dark Ages===
+==== Fodder ====
+*[[Zombie/Doom: The Dark Ages|Zombie]]
+*[[Soldier/Doom: The Dark Ages|Soldier]]
+*[[Shield Soldier/Doom: The Dark Ages|Shield Soldier]] - armed with a shield that are less scattered
+*[[Chaingunner Soldier]]
+*[[Imp/Doom: The Dark Ages|Imp]]
+*[[Imp Stalker]] -variant of the imp that is similar to the original Imp from classic Doom.
+*[[Mancubus/Doom: The Dark Ages|Mancubus]]
+*Armored Mancubus
+*[[Pinky Rider]]
+*[[Arachnotron/Doom: The Dark Ages|Arachnotron]] - presumably armed with a machinegun
+*[[Ballistatron]]
+*[[Revenant/Doom: The Dark Ages|Revenant]]
+*[[Cacodemon Hybrid]] - features a different appearance including tentacles. Revealed to be a hybrid version of the basic caocodemon.
+*[[Lost Soul/Doom: The Dark Ages|Lost Soul]]
+*[[Acolyte]]
+*[[Nightmare Imp/Doom: The Dark Ages|Nightmare Imp]]
+*[[Stone Imp/Doom: The Dark Ages|Stone Imp]]
+*[[Maykr Drone/Doom: The Dark Ages|Maykr Drone]]
+*[[Whiplash/Doom: The Dark Ages|Whiplash]]
+*[[Tentacle/Doom: The Dark Ages|Tentacle]]
+*[[Hell Cultist]]
+*[[Giant Cacodemon]]
+==== Heavy ====
+*[[Hell Knight/Doom: The Dark Ages|Hell Knight]]
+*[[Battle Knight]] - armored version of the Hell Knight.
+*[[Cosmic Baron]]
+*[[Titan]] - besides normal titans there appears to be an additional variant.
+**[[Shield Titan]]
+**[[Cyclops Titan]]
+
+====Super Heavy ====
+*[[Agaddon Hunter]] - acts as the counterparts of the Marauders from Doom Eternal. Original versions of the Doom Hunters.
+*[[Vagary/Doom: The Dark Ages|Vagary]] - named after the Doom 3 enemy
+*[[Cyberdemon/Doom: The Dark Ages|Cyberdemon]] - noticeably has wings.
+*[[Komodo]]
+
+====Bosses ====
+*[[Old Ones|Old One]]
+*[[Kreed Maykr]]
+*Enhanced Azrak
+*Azrak and Witch
+
+====Other ====
+*Gore Portal
+
+=== Doom: The Dark Ages: Revelations===
+*[[Buzzsaw]]
+*[[Henchman]]
+*[[Cosmic Elemental]]
+*[[Insurgent]]
+*[[Aggadon Brute]]
+
+==Other games based on the Doom engine==
+Games powered by a modification of the [[Doom engine]] include a particular set of monsters suiting their setting, style and game behavior. These monsters share various basic characteristics of the Doom game monsters but may show some differences, such as being capable of multiple types of ranged attacks or being subject to the additional possibilities of game scripting (namely [[ACS]] in [[Hexen]]).
+
+===Heretic===
+*[[Disciple of D'Sparil]] 
+*[[D'Sparil]] 
+*[[Fire Gargoyle]]
+*[[Gargoyle]] 
+*[[Golem]]
+*[[Golem ghost]]
+*[[Iron lich]]
+*[[Maulotaur]]
+*[[Nitrogolem]]
+*[[Nitrogolem ghost]]
+*[[Ophidian]]
+*[[Sabreclaw]]
+*[[Undead warrior]]
+*[[Undead warrior ghost]]
+*[[Weredragon]]
+
+===Hexen===
+*[[Afrit]]
+*[[Brown chaos serpent]]
+*[[Centaur]]
+*[[Dark bishop]]
+*[[Death wyvern]]
+*[[Ettin]]
+*[[Green chaos serpent]]
+*[[Heresiarch]]
+*[[Korax]]
+*[[Maulotaur]]
+*[[Menelkir]]
+*[[Reiver]]
+*[[Slaughtaur]]
+*[[Stalker]]
+*[[Stalker boss]]
+*[[Traductus]]
+*[[Wendigo]]
+*[[Zedek]]
+
+===Strife===
+*[[Acolyte]]
+*[[Bishop]]
+*[[Ceiling Turret]]
+*[[Crusader]]
+*[[Entity|The Entity]]
+*[[Inquisitor]]
+*[[Loremaster]]
+*[[Macil]]
+*[[Oracle|The Oracle]]
+*[[Programmer]]
+*[[Rat (Strife)|Rat]]
+*[[Reaver]]
+*[[Rebel Soldiers]]
+*[[Sentinel (Strife)|Sentinel]]
+*[[Spectre (Strife)|Spectre]]
+*[[Stalker (Strife)|Stalker]]
+*[[Templar]]
+
+===HacX===
+*[[Android]]
+*[[Buzzer]]
+*[[D-Man]]
+*[[ICE]]
+*[[Majong 7]]
+*[[Mechamaniac]]
+*[[Monstruct]]
+*[[Phage]]
+*[[Roaming mine]]
+*[[Buzzer|Stealth]]
+*[[Terminatrix]]
+*[[Thorn thing]]
+*[[Thug]]
+*[[Unnamed invisible enemy (HacX)|Unnamed invisible enemy]]
+
+==Technical==
+*[[Monster behavior]]
+*[[Monster infighting]]
+
+==Background==
+*[[Models]]
+
+== Video ==
+[[File:Doom 1993-2016 Monster Comparison|centre|thumb|330x330px]]
+
+==See also==
+* The Player [[Player|article]], [[:Category:Player|category]] and [[demonic monster]].
+* [[No monsters mode]]
+
+[[Category:Monsters| ]]
+[[Category:Lists]]
+[[Category:Races]]

@@ -1,0 +1,141 @@
+{{Infobox Boss
+|image= 
+{{Media
+ |Artwork TLoZ= File:TLoZ Manhandla Artwork.png
+ |Model EoW= File:EoW Manhandla Model.png
+ |Sprite TLoZ= File:TLoZ Manhandla Sprite.png
+ |Sprite OoS= File:OoS Manhandla Sprite.png
+ |Sprite FSA= File:FSA Manhandla Sprite.png
+}}
+|caption= 
+|title= 
+{{Infobox Game Blocks
+ |HW= Poisonous Tree<ref name="HWDE Screen">{{Cite|{{Big|'''Poisonous Tree'''}}<br/>{{Big|'''Manhandla'''}}|Game Screen|HWDE}}</ref>
+}}
+|race= 
+|gender= 
+|game= TLoZ, OoS, FSA, EoW
+|other= BSTLoZ, OoS (Himekawa), HW
+|dungeon= 
+{{Infobox Game Blocks
+ |TLoZ= [[Level 3]]{{Exp|First Quest}}
+ |OoS=[[Ancient Ruins]]
+ |FSA= [[The Coast]], [[Frozen Hyrule]], [[Realm of the Heavens]]
+ |EoW= [[Faron Temple]]
+}}
+|habitat= 
+|health= 
+{{Infobox Game Blocks
+ |TLoZ= {{HP|TLoZ|16}}
+}}
+|weakness= 
+{{List|
+ * [[Bomb]]s
+ * [[Sword]]
+}}
+|reward= 
+{{Infobox Game Blocks
+ |TLoZ= [[Heart Container]]
+ |OoS= [[Blowing Wind]], [[Heart Container]]
+ |HW= [[Manhandla's Sapling]], [[Manhandla's Toxic Dust]]
+}}
+|exp= 
+|theme= 
+|strategy= 
+{{Infobox Game Blocks
+ |TLoZ= {{StrategyWiki|The Legend of Zelda/Underworld/Quest 1/Dungeon 3#Boss|Manhandla}}
+ |OoS= {{StrategyWiki|The Legend of Zelda: Oracle of Seasons/Tarm Ruins and Ancient Ruins#BOSS: Manhandla|Manhandla}}
+}}
+|voiceactor= 
+}}
+{{Term/Store|Manhandla|Manhandlas|Series, TLoZ, OoS, FSA, EoW, OoS (Himekawa), HW, HWDE}} is a recurring [[Boss]] and [[Sub-Boss]] in {{TLoZ Series}}.<ref>{{Cite Book|quote= |book= E |publisher= |page= 191 {{Exp Game|TLoZ, OoS, FSA}}}}</ref><ref name="EoW Internal"/><ref name="OoS (Himekawa) 121">{{Cite Book|quote= It's the flower monster, Manhandla!|book= OoS (Himekawa)|publisher= |page= 121}}</ref><ref>{{Cite|{{Big|'''Poisonous Tree'''<br/>'''Manhandla'''}}|Game Screen|HW}}</ref><ref name="HWDE Screen"/>{{Name Ref|BSTLoZ, HWL}}
+
+==Characteristics==
+The defining characteristic of the Manhandla is its four symmetrical mouths, which are its weak points. As with all incarnations of Manhandlas, as each mouth is dispelled, the entire form picks up speed, reaching its maximum velocity upon destruction of the third mouth. After destroying all four mouths, the Manhandla is defeated.
+
+==={{TLoZ|-}}===
+{{Descriptions TLoZ}}
+Manhandla appears as the [[Boss]] of [[Level 3]] of the First Quest in {{TLoZ}}. It defends a fragment of the [[Triforce of Wisdom]]. It also appears in [[Level 4]] and [[Level 8]] of the First Quest as well as [[Level 2]], [[Level 5]], [[Level 6]], and [[Level 7]] of the [[Second Quest]]. Manhandla is a large, spinning, man-eating flower with the ability to spit fireballs.<ref>{{Cite Manual|quote= A large man-eating flower with hands sticking out in all four directions.|game= TLoZ|page= 37}}</ref> [[Link]] must destroy all four of its hands to defeat it. Each hand has a health of {{HP|TLoZ|4}}, totaling the beast at 16 health. Manhandla is immune to the [[Boomerang]] and [[Fire]]. Link can damage it with his [[Sword]], [[Arrow]]s, the [[Magical Rod]], or [[Bomb]]s. Bombs are effective, as one Bomb is strong enough to destroy a hand, allowing Link to destroy all four hands with one Bomb if it detonates in its center. As each hand is destroyed, the Manhandla increases its speed and spits fireballs at a faster rate.<ref>{{Cite Manual|quote= It moves faster as it loses its hands.|game= TLoZ|page= 37}}</ref> The [[Magical Shield]] cannot defend Link from Manhandla's fireballs. When Manhandla is accompanied by [[Stone Statue]]s, the Statues also increase their rate of fire as each hand is destroyed. When defeated, Manhandla will drop a [[Heart Container]] and may drop either a [[Heart]], a [[Fairy]], or one [[Rupee]].{{TLoZ Enemy Note}}
+
+==={{OoS|-}}===
+[[File:OoS Manhandla Sprite 2.png|75px|left]]
+In {{OoS}}, Manhandla is the boss of the [[Ancient Ruins]], the sixth dungeon.<ref>{{Cite Guide|OoS Nintendo|page= 45}}</ref> Manhandla starts out by spitting four fireballs at Link. The flowers can only be damaged by the [[Magical Boomerang]] when they are open. When Manhandla loses all four flowers, it runs around the room very fast. Link has to continually hit Manhandla with the Magical Boomerang to expose its core. At that point, Link has a small amount of time to use his [[Sword]] to destroy Manhandla's core and defeat it. Link receives a [[Heart Container]] and the [[Blowing Wind]], the sixth Essence of Nature, for destroying Manhandla.
+
+Note that the body is now a large [[Buzz Blob]], very similar to the [[Giant Buzz Blob]] mini-boss from the [[Color Dungeon]] in {{LA}} and to the [[Big Green Chuchu]] boss of the [[Deepwood Shrine]] in {{TMC}}. Also of note is that the four plant heads now look and act very similar to the {{Smw|Super Mario (series)|''Mario'' series}}'s [[Piranha Plant]], reflecting its origins as a relative.<ref name="TLoZ JP Manual 36"/>
+
+==={{FSA|-}}===
+In {{FSA}}, Manhandla appears in [[The Coast]], [[Frozen Hyrule]], and [[Realm of the Heavens]], as either a Boss or Mini-Boss. The strategy is the same as in {{TLoZ|-}}, but the claws are different colors, and the Link of the corresponding color must strike the claw to destroy it. It takes one hit to weaken each claw, but if one of the Links get struck by it or hits the wrong head, Manhandla will spit fire from all four heads and they will grow to full size again. The Links must to repeat the process in that case. Once all the claws have become smaller it will be destroyed.
+
+==={{EoW|-}}===
+{{Stub|EoW}}
+Manhandla appears as the [[Sub-Boss]] of the [[Faron Temple]]. It is a four-headed [[Plant]] [[Monster]] that hides the [[Treasure Chest]] containing the [[Big Key]] of the [[Dungeon]] inside its bulb.
+
+==Other Appearances==
+==={{BSTLoZ|-}}===
+{{Noncanon|Start}}
+[[File:BSTLoZ Manhandla Sprite.png|right|75px]]
+Manhandla also makes an appearance in {{BSTLoZ}}. The first time it shows up is in [[Level 3|Level-3]] as the Boss, then it returns in the seventh dungeon as a mini-boss. The battles play out in a similar manner to that in {{TLoZ|-}}, minus the fact that Manhandla is much faster and requires fewer blows to defeat.
+{{Noncanon|End}}
+
+==={{OoS|-}} (Himekawa)===
+{{Noncanon|Start}}
+After Link defeats [[Blaino]] in the {{OoS (Himekawa)}}, a [[Keese]] flies off to inform [[General Onox]] that the hero bears the [[Triforce|sacred mark]] on his hand.<ref>{{Cite Book|quote= That boy...His hand bears the sacred mark. I must inform General Onox!|book= OoS (Himekawa)|publisher= |page= 116}}</ref> It first tells a [[crow]],<ref>{{Cite Book|quote= The rest is up to you, crow.|book= OoS (Himekawa)|publisher= |page= 116}}</ref> who in turn drops a seed that sprouts. As Link, [[Piyoko]], and [[Ricky]] wander through the forest, Manhandla bursts from the ground.<ref name="OoS (Himekawa) 121"/> One of Manhandla's heads swallows Piyoko, trapping the chick inside it.<ref>{{Cite Book|quote= I don't want to be digested! Link, heeelp!!|book= OoS (Himekawa)|publisher= |page= 121}}</ref><ref>{{Cite Book|quote= It swallowed Piyoko!!|book= OoS (Himekawa)|publisher= |page= 121}}</ref> Ricky attacks Manhandla with his tornado punch and frees Piyoko.<ref>{{Cite Book|quote= What have you done to Piyoko?! Tornado punch!!|book= OoS (Himekawa)|publisher= |page= 122}}</ref> Link tells Manhandla that he cannot let the forest be overtaken by monsters like it.<ref>{{Cite Book|quote= I can't let the forest be taken over...By monsters like you!|book= OoS (Himekawa)|publisher= |page= 122}}</ref> However, Link and his companions are proven to be no match for the plant monster and are soon tangled in its vines. Link reaches for one of the seeds that the [[Maku Tree]] had given him and tosses it into one of Manhandla's open mouths.<ref>{{Cite Book|quote= Maybe the Maku Tree's seeds can help!|book= OoS (Himekawa)|publisher= |page= 124}}</ref> The seed turns out to be an [[Ember Seed]], causing Manhandla to burst into flames.<ref>{{Cite Book|quote= I-It's burning up!|book= OoS (Himekawa)|publisher= |page= 124}}</ref>
+{{Noncanon|End}}
+
+==={{HW|-}}===
+{{Stub|HW}}
+{{Noncanon|Start}}
+[[File:HW Manhandla Render.png|right|250px]]
+In {{HW}}, Manhandla appears as a [[Giant Boss]] that is encountered in several [[Legend Mode]] and [[Adventure Mode]] stages. In Legend Mode, it appears as a Boss in the Scenarios "[[The Sorceress of the Valley]]", "[[Ganondorf's Return]]", and "[[Darkness Falls]]".
+
+As with previous incarnations, Manhandla appears as a bulb with four heads, however, its heads and body are covered in a sturdy metallic hide that deflects attacks. Manhandla has several different attacks, including spitting seeds that target the [[Keep|Allied base]], rapidly spitting seeds directly at their enemies, lunging with its huge jaws, uprooting itself and rampaging around the battlefield with its heads swinging around, or spewing a pool of poison similar to [[Deku Baba]]s. These attacks will also harm nearby enemy troops. Occasionally however, its heads will briefly lose their metallic hide and become organic, leaving its heads vulnerable. In this window of time, its heads can be stunned with the [[Boomerang]]. When all four heads are stunned, the creature falls and exposes a large crystal in its bulb, revealing its Weak Point Gauge. Sometimes Manhandla will still expose its Weak Point Gauge even without all of its heads stunned, but this is very uncommon occurrence. Manhandla will usually drop the [[Manhandla's Toxic Dust]] [[Material]] when defeated, and rarely, the [[Manhandla's Sapling]] Material.
+{{Noncanon|End}}
+
+==Trivia==
+* Although not mentioned in the international release, the Japanese manual of {{TLoZ}} describes Manhandla as a "four-limbed, jumbo-sized" [[Piranha Plant]],<ref name="TLoZ JP Manual 36"/> making it the first reference to the {{smw|Mario (series)|''Mario'' series}} to appear in the ''Zelda'' series.
+
+==Nomenclature==
+{{Nomenclature}}
+
+==Gallery==
+<gallery>
+File:TLoZ Link Fighting Manhandla.png|{{Game Label|{{TLoZ|-}}}}Link fighting Manhandla
+File:OoS Manhandla Sprite 3.png|{{Game Label|{{OoS|-}}}}Manhandla's exposed weak point
+File:FSA Manhandla.png|{{Game Label|{{FSA|-}}}}The Links fighting Manhandla
+File:EoW Manhandla Model 2.png|{{Game Label|{{EoW|-}}}}Manhandla when encountered for the second time
+File:BSTLoZ Manhandla Blue Sprite.png|{{Game Label|{{BSTLoZ|-}}}}A Manhandla
+File:HW Manhandla Bud Model.png|{{Game Label|{{HW|-}}}}Closed up Manhandla flower bud
+File:HW Manhandla Icon.png|{{Game Label|{{HW|-}}}}Manhandla icon
+File:HW Manhandla Mini Map Icon.png|{{Game Label|{{HW|-}}}}Manhandla Mini Map icon
+File:HW Manhandla Adventure Mode Icon.png|{{Game Label|{{HW|-}}}}Manhandla Adventure Mode icon
+File:HW Manhandla Concept Artwork.png|{{Game Label|{{HW|-}}}}Manhandla concept artwork
+File:HW Manhandla Concept Artwork 2.png|{{Game Label|{{HW|-}}}}Manhandla concept artwork
+File:HW Manhandla Concept Artwork 3.png|{{Game Label|{{HW|-}}}}Manhandla concept artwork
+File:HWL Manhandla Mini Map Icon.png|{{Game Label|{{HWL|-}}}}Manhandla Mini Map icon
+File:HWL Manhandla Adventure Mode Icon.png|{{Game Label|{{HWL|-}}}}Manhandla Adventure Mode icon
+File:HWDE Manhandla Icon.png|{{Game Label|{{HWDE|-}}}}Manhandla icon
+File:HWDE Manhandla Mini Map Icon.png|{{Game Label|{{HWDE|-}}}}Manhandla Mini Map icon
+</gallery>
+
+==See Also==
+{{See Also|
+ * Big Manhandla
+ * Dark Manhandla
+}}
+
+{{Notes}}
+
+{{Ref|
+<!-- The Legend of Zelda -->
+<ref name="TLoZ JP Manual 36">{{Cite Manual |quote= {{Exp|A four-limbed, jumbo-sized Piranha Plant. Speeds up with each limb lost. Possesses somewhat powerful offensive strength.|４方向に手を持つ大型のパックンフラワー。手が減るごとに速い動きになる。ややつよい攻撃力を持つ。}} |game= TLoZ |page= 36}}</ref>
+
+<!-- Echoes of Wisdom -->
+<ref name="EoW Internal">{{Cite Internal|quote= Manhandla |game= EoW |system= Nintendo Switch |version= 1.0.1 |country= United States}}</ref>
+}}
+
+{{Bosses|TLoZ}}
+{{Categories
+ |Giant Bosses, Mario, Nintendo Enemies, Plant-Like Enemies, Sand-Related Enemies
+ |bosses= TLoZ, OoS, FSA, BSTLoZ, HW, HWL, HWDE
+ |sub-bosses= EoW
+}}

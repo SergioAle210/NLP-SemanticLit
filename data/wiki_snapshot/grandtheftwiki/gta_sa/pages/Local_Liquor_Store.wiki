@@ -1,0 +1,86 @@
+{{infobox mission
+|name=Local Liquor Store
+|image=LocalLiquorStore-GTASA.png
+|size=300px
+|caption=[[Catalina]] shoots a bandit off his Quad as the others drive off with briefcases of cash from the liquor store
+|game=SA
+|for=[[Catalina]]
+|location=[[Blueberry]], [[Red County]]
+|target=[[Money]]
+|reward= [[Money|$1000]]
+|unlockedby= ''' ''Case A''. The mission was not played beforehand and just unlocked :-'''<br />[[First Date (GTA SA)|First Date]]<br />''' ''Case B''. The mission was not played during First Date, but was chosen in the second outfit :-'''<br />[[First Base]]<br />''' ''Case C''. The mission was not played either during First Date or during First Base :-'''<br />[[Gone Courting]]<br />''' ''Case D''. The mission was not played until the last resort :-'''<br />[[Made in Heaven]]
+|unlocks= [[Body Harvest]]<small> '''(if chosen after [[First Date (GTA SA)|First Date]])'''</small><br />[[Gone Courting]] and [[Wu Zi Mu (mission)|Wu Zi Mu]]<small> '''(if chosen after [[First Base]])'''</small><br />[[Made in Heaven]]<small> '''(if chosen after [[Gone Courting]])'''</small><br />[[Farewell, My Love...]]<small> '''(if chosen after [[Made in Heaven]], provided [[Wu Zi Mu (mission)|Wu Zi Mu]] has been completed)'''</small>
+}}
+
+'''Local Liquor Store''' is a mission in [[Grand Theft Auto: San Andreas]] given to protagonist [[Carl Johnson|Carl "CJ" Johnson]] by countryside criminal [[Catalina]] from in front of an eponymous location in [[Blueberry]], [[Red County]], [[San Andreas in GTA III Era|San Andreas]].
+
+==Mission==
+Carl and Catalina arrive at the liquor store, but another group of criminals beats them by robbing the store and takes the money from there. Carl and Catalina give chase and retrieve the briefcases full of cash and return to her hideout.
+
+==Script== 
+'''(''Carl and Catalina are outside a liquor store.'')'''
+
+'''Catalina''': This place will be a walk in the park!
+
+'''CJ''': (''if playing after First Date'') OK, let's do it. (''otherwise'') You mean like the last place?
+
+'''(''Four men pull up on quad-bikes.'')'''
+
+'''Catalina''': Who are these cowboy assholes?
+
+'''CJ''': Hang back a while, see what's what.
+
+'''(''The four men hold-up the liquor store and steal the cash.'')'''
+
+'''Man''': We got the cash, let's get outta here!
+
+'''Catalina''': Those maricon bastards have our money!
+
+'''(''The men ride away on their quad-bikes.'')'''
+
+'''Catalina''': THAT'S MY MONEY!
+
+'''(''Catalina shoots one of the men off his quad-bike.'')'''
+
+'''Catalina''': Bleed, stupid mother-fucker! Carl, you drive, I'll shoot!
+
+'''(''Carl and Catalina hop onto the quad-bike.'')'''
+
+'''Catalina''': They are getting away! Your pathetic driving is helping them escape.
+
+'''(''Carl and Catalina are outside Catalina's house.'')'''
+
+'''Catalina''': See you soon, handsome. Next time, we play REALLY rough.
+
+'''CJ''': Yeah, that's cool. But we can also play for some real money. I got some money to... well, it's a long story, but I need some serious paper, fast.
+
+'''Catalina''': You come and see me again soon. We rob a real bank.  
+
+==Reward==
+The reward is $1000.
+
+*If the mission was played after [[First Date (GTA SA)|First Date]], the mission [[Body Harvest]] is unlocked.
+*If the mission was played after [[First Base]], the cutscene [[Gone Courting]] and the mission [[Wu Zi Mu (mission)|Wu Zi Mu]] are unlocked.
+*If the mission was played after [[Gone Courting]], the cutscene [[Made in Heaven]] is unlocked.
+*If the mission was played after [[Made in Heaven]], the mission [[Farewell, My Love...]] is unlocked, given that the mission [[Wu Zi Mu (mission)|Wu Zi Mu]] has been completed beforehand.
+
+==Gallery==
+<gallery>
+File:LocalLiquorStore-GTASA2.png|[[Carl Johnson]] and [[Catalina]] open fire on the bandits.
+File:LocalLiquorStore-GTASA3.png|CJ drops Catalina off at her hideout.
+</gallery>
+
+==Video Walkthrough==
+<center>
+{| class="wikitable"
+![[Personal Computer|PC]] Version - GTASeriesVideos
+|-
+|<youtube>vhbvgk8oCQc</youtube>
+|}
+</center>
+
+[[de:Local Liquor Store]]
+[[es:Local Liquor Store]]
+[[it:Missioni di Grand Theft Auto: San Andreas fatte nella Campagna#Local_Liquor_Store]]
+[[pl:Lokalny sklep monopolowy]]
+[[Category:Missions in GTA San Andreas]]

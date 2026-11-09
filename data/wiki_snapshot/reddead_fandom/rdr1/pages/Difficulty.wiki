@@ -1,0 +1,75 @@
+'''Difficulty''' settings affect various gameplay aspects in ''[[Red Dead Revolver]]'', ''[[Red Dead Redemption]]'', and ''[[Red Dead Online]]''.
+
+==''Red Dead Revolver''==
+[[File:Dificultad_revolver.png|right|250px]]
+''Red Dead Revolver'' has four different difficulty settings for the single player campaign:
+*Normal Mode
+*Hard Mode (unlocked by beating the game on Normal Mode)
+*Very Hard Mode (unlocked by beating the game on Hard Mode)
+*Red Wood Revolver Mode (unlocked by beating the game on Hard Mode)
+
+Note:To unlock a difficulty level, you have to finish the previous first.
+
+In Red Wood Revolver Mode, the player plays as [[Manny Quinn]], a target dummy.
+
+==''Red Dead Redemption''==
+''Red Dead Redemption'' has three difficulty settings in the regular single player campaign and in ''[[Undead Nightmare]]''. [[Redemption Multiplayer|Multiplayer]] has the same settings, which can be set independently of the single player setting. While playing competitive multiplayer matches, different playlists are available for different difficulty settings.
+
+*[[Casual Mode]] uses a full auto-aim system (and faster regenerating health), intended for new players.
+*Normal Mode features snap-to-target with precise aiming using the right stick.
+*[[Expert Mode]] implements total free aim with no lock-on at all.
+
+===Hardcore Mode===
+The eighth and ninth-generation releases, PC release, and PlayStation 3 and Xbox 360 Game of the Year Edition releases of ''Red Dead Redemption'' add a unique Hardcore Mode for extra difficulty and realism. In addition to featuring separate save slots from the normal game, it includes the following changes:<ref name="hardcore-mode">[http://support.rockstargames.com/entries/20515988-information-about-hardcore-mode-in-red-dead-redemption Information about Hardcore Mode in Red Dead Redemption]</ref>
+
+==== Gameplay ====
+
+===== General =====
+*[[Ammunition]] and [[money]] gains are reduced (rewards, drops, looting). Prices in stores are higher for buying and lower for selling. Minigame buy-ins are lowered to offset the scarcity of money.
+*[[Pardon Letter]]s are rarer, making them less reliable for clearing [[Bounty|bounties]].
+*[[Horse]]s do not eventually respawn after dying. If killed, the player must acquire another horse and then [[hitch]] it to be able to [[Whistling|whistle]] for it. Deeds are still available with unlimited use, but are twice as expensive.
+**The [[War Horse]] deed must be purchased for $10,000 in any [[General Store|general store]] as with most other horses, instead of being available for free from the beginning of the game.
+
+===== Player =====
+
+*Aiming is locked to Expert, forcing the player to rely on their own sharpshooting abilities when targeting enemies outside of [[Dead Eye Targeting|Dead Eye]].
+*Health regenerates at a slower rate and after a longer delay, and its maximum value is reduced to 35%.<ref>The official Rockstar Games FAQ claims the player's health is reduced "by half", but datamined files show that the health is actually reduced to 35 (down from a value of 100).</ref> Taking cover during gunfights and carrying [[medicine]] is much more important as the player will go down very quickly in the open and cannot recover from wounds as fast. 
+*Dead Eye Targeting does not automatically refill over time and must be earned by killing enemies in free aim or using consumables, turning it into more of a commodity. 
+**The [[Deadly Assassin Outfit]] increases the amount of Dead Eye charge gained from killing enemies, rather than over-time regeneration.
+*[[Fame]] and [[Honor]] gains are reduced.
+
+=== Cosmetic ===
+*The wash color of loading screens and the pause menu is changed from red to white with grey half-tones. All text remains red.
+*The word "Hardcore" is displayed to the right of "GAME" in the pause menu.
+
+==== Hardcore Tips & Tricks ====
+
+===== Combat =====
+*Remain patient and take your time during an extended gunfight. Due to lower health and slower regeneration as well as the lack of aim assist, you'll need to stick to cover and properly line up your shots for most engagements, rather than run-and-gunning like you would on standard difficulties. You should also be ready to reposition or fall back at any moment. Remember that health regeneration is always faster in cover than it is out of (for this to count you need to be functionally snapped to a wall or obstacle, not just hiding behind it).
+*The [[Treasure Hunter's satchel]] and [[Deadly Assassin Outfit|Deadly Assassin outfit]] improve the availability of Dead Eye. The former increases the number of regenerative items that can be carried and the latter increases the amount of Dead Eye charge gained from killing enemies in free aim. Completing all ambient challenges also doubles the Dead Eye capacity meter.
+
+===== Money and Items =====
+*Make sure to loot every dead opponent before moving on; while the yield is negligible in standard difficulties, in hardcode mode resources are more precious and you spend less of them on enemies by claiming whatever ammo, money, and consumables they had on them to make up a portion of the difference. However, it is important to double check that the area is secure first, as you may be ambushed and killed by reinforcements or a missed enemy while your guard is down or are stuck in the animation and unable to fight back. This all goes for [[hunting]] animals as well. Buy a [[Rabbit's Foot]] from any general store to increase the amount of items gained from picking over enemies.
+*To make a lot of money, one can still employ the exploit from "[[Lights, Camera, Action]]" by playing [[Liar's Dice]] in [[Thieves' Landing]]. Try to make sure there are at least two people at the table to maximize your winnings.
+
+==== Other ====
+*While leaving the area during a [[Bounty Hunting|bounty hunt]] after capturing or killing the target, you will be pursued by a varying number of reinforcements on the ride back to town to claim your reward. This can be very dangerous if you are unable to avoid them as they will likely overwhelm and kill you fast due to the lack of cover and difficulty of shooting while on horseback; non-factors in standard difficulties due to full health and aim assist. A good trick to avoid this is to kill all of the target's henchmen and let him try to escape by horse. He will always attempt to ride straight forward but move diagonally of the player, so if you go left he will go right and vice versa. This means that you can "herd" him, similar to [[Cattle Herding|cattle herding]]. Since reinforcements only spawn if the target has been incapacitated, you can safely steer him towards town without worry and lasso him upon arrival to receive the full reward for bringing him in alive. This can be tedious and time consuming but is the safest and most profitable method of bringing a target in, and also minimizes ammo consumption.
+*Completing all [[Survivalist Challenges]] allows a new Dead Eye regenerating consumable to be picked from plants.
+*As shooting moving targets from horseback can be rather challenging with Expert aim, it is advised that the player have a full complement of [[Dead Eye Targeting]] before attempting missions that revolve around this activity. This is especially true for "[[Civilization, at Any Price]]".
+*If your horse dies, you cannot replace it without breaking a new one or purchasing a deed. Try reloading your autosave instead. It won't always be the same or even the best horse, but it's better than the alternative of not having a mount at all.
+*While riding around, be sure to scan well in front of your horse for [[Random Encounters in Red Dead Redemption|random encounters]] so that they may be approached with caution. Some encounters may have participants with itchy trigger fingers that will shoot the player dead before a weapon can be drawn, let alone aimed properly.
+**On the flipside, completing Random Encounters is a good method for the player to quickly increase their [[Honor]] and [[Fame]], resulting in better prices when selling provisions in stores. To avoid any encounters where direct combat with humans is likely to occur, complete a plethora of Random Encounters before finishing the mission "[[Political Realities in Armadillo]]", as all Random Encounters before completion of said mission will not involve any gun battles with other people.
+*Rewards gained from completing [[Bounty Hunting]] side-missions are reduced in half in comparison to the regular ''Red Dead Redemption'' (e.g. a $40 reward for a bounty alive is only worth $20 in Hardcore Mode, a $20 reward for a bounty dead is only worth $10 in Hardcore Mode). It is thus recommended to avoid accepting any bounties which only pay out a small amount, as the player may not end up turning a profit from bringing in a bounty whom is worth so little due to possible expenses from ammunition, medicine, and so on.
+**Combining the significantly lower rewards for capturing bounties - dead or alive - with the addition of the dreaded [[Dale Chesson]]'s [[Dale Chesson#Oversights|glitch]], the player is highly advised to be very picky and only take in bounties with high payouts in [[New Austin]] before reaching the total amount of 20 bounties brought in, which triggers the aforementioned glitch to occur.
+
+==''Red Dead Online''==
+Players can only change the difficulty of certain missions, such as those featured in the ''[[Moonshiner (Red Dead Online)|Moonshiners DLC]]''. There are three difficulties available: Standard, Hard, and Ruthless. On harder difficultes, the enemy AI's health, damage, and accuracy are increased (on Ruthless difficulty, enemies don't even appear on the minimap), but the rewards of each mission (money, gold, and XP) are also bigger.
+
+==References==
+{{Reflist}}
+
+==Related Content==
+{{Related Content}}
+[[Category:Gameplay]]
+[[Category:Red Dead Redemption]]
+[[Category:Red Dead Revolver]]

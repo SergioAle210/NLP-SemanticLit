@@ -1,0 +1,125 @@
+{{Header Nav|game=Assassin's Creed II}}
+{{floatingtoc}}
+There are plenty of things to collect throughout the game that have various impacts on your in-game experience or the meta-game of synchronizing with Desmond. While not everything you collect will help Ezio during the game, you can usually achieve better synchronization with Desmond by gathering more items. This synchronization is your "game completion" percentage and shouldn't be confused with Ezio's synchronization bar, which acts like a health meter.
+
+To see your progress broken down by city, look either in your DNA for viewpoints, treasure, feathers, and side-missions; in the Database for assassin's tombs and glyphs; or your sister's ledger at the villa for progress on your hometown and other collections.
+
+==Monteriggioni renovation==
+One of the side-plots of the game is Ezio's work toward fixing up his ancestral home. The entire town is in disrepair, with many shops and services unavailable. When you progress far enough to visit Monteriggioni, you'll be tasked with taking on the repair of the town, with the help of an architect and your sister Claudia as the bookkeeper. You'll also start earning an income from traffic to the town, and the better you make it, the more traffic will increase and fill your coffers with florins. Your sister and the architect are located in the bottom floor room to the right when entering your villa's front door. There you can look at the books, commission the architect or receive any accrued income.
+
+Your money is accumulated every 20 minutes of playtime and is deposited into the chest behind your sister. You can either grab the coins directly from the chest, or you have the option to collect them while reading your accounts ledger. As you upgrade your villa, you'll earn more florins and you can see a breakdown of how much each part of your renovation is generating in Claudia's book. Your income is capped by the amount of money the chest can hold, so you'll periodically need to come back to the villa and pick it up if you want to keep earning florins. Your chest's capacity also increases with the town's renovations.
+
+===Shops===
+These shops are open in your town but need to be upgraded. Talk to the architect and select one of the following for him to renovate. For the shops where you can purchase items (all of them except the bank), you'll receive 5, 10, and 15% discounts on the first, second and third renovations, respectively.
+
+{|{{prettytable|notwide=1}}
+!rowspan="2"| Shop !!colspan="3"| Cost
+|-
+! Renovation 1 !! Renovation 2 !! Renovation 3
+|-
+| Art Merchant || 1,000 || 5,000 || 8,000
+|-
+| Bank || 1,500 || 5,000 || 9,000
+|-
+| Blacksmith || {{n/a}} || 7,000 || 12,000
+|-
+| Doctor || {{n/a}} || 3,000 || 5,000
+|-
+| Tailor || 1,000 || 2,500 || 5,000
+|}
+
+===Renovations===
+These are one-time purchases that your architect will build for you. You'll see a larger difference in income by renovating the ones described as "greatly" increasing the city's value before the ones that just increase the value.
+
+{|{{prettytable|notwide=1}}
+! Renovation !! Cost
+|-
+| Brothel || 3,000
+|-
+| Mines || 4,000
+|-
+| Church || 4,000
+|-
+| Military Barracks || 3,000
+|-
+| Thieves Guild || 3,000
+|-
+| Well || 4,000
+|}
+
+===Collections===
+As you collect various items, you will incrementally increase your town's income. The items that you buy in stores increase the villa's worth immediately, while codex pages, feathers, and seals will all have to be taken to the appropriate places first. When any certain collection is completed, you may also receive a collection completion bonus. The models are found on the center tables in the armor room and are acquired as you play through the game.
+
+{|{{prettytable|notwide=1}}
+! Collectible !! Total number !! Incremental value !! Total value !! Completion bonus
+|-
+| Codex Pages || 30 || 5 || 150 || 1,000
+|-
+| Feathers || 100 || 10 || 1,000 || {{n/a}}
+|-
+| Models || 2 || 80 || 160 || 1,000
+|-
+| Seals || 6 || 25 || 150 || 2,000
+|-
+| Paintings || 30 || ?–? || 3,600 || 3,000
+|-
+| Assassination portraits || 9 || 50 || 450 || 1,000
+|-
+| Weapons || 22 || ?–? || 10,850 || 2,000
+|-
+| Leather Armor || 4 || ?–? || 460 || 1,000
+|-
+| Helmschmied Armor || 4 || ?–? || 1,255 || 1,000
+|-
+| Metal Armor || 4 || ?–? || 2,135 || 1,500
+|-
+| Missaglias Armor || 4 || ?–? || 3,790 || 1,500
+|-
+| Armor of Altaïr || 4 || {{n/a}} || 3,500 || {{n/a}}
+|}
+
+==Assassination portraits==
+On the second floor of the villa, in the hall between your mother's room and the back of the house, you'll find a stairway to the attic. Here you'll find portraits of all the targets Ezio has assassinated. During the game, the final number of targets is kept secret, but each portrait you acquire will add to your villa's total worth. They are not in the hall, those are pieces of art purchased by Ezio.  The Assassin portraits are on a higher floor inside Ezio's room.
+
+==Codex pages==
+Codex pages are encrypted papers written by Altaïr, the ancestor Desmond controlled in the first game, [[Assassin's Creed]]. After the game ended, Altaïr became the leader of the Brotherhood (Al Mualim's old position) and kept a record of the assassins' interaction with the world and his experiments with the Piece of Eden he acquired.
+
+You receive some Codex pages when you've taken out one of the main targets and the rest are scattered throughout Italy in guarded rooms. The ones that come from assassination targets will usually give you an upgraded piece of equipment, and you also get an additional square on your synchronization bar for every four pages you collect. You can see Codex page locations on your map if you've synchronized the viewpoint in that area. The locations are usually inside buildings with the entrance guarded by two to four guards that will need to be either dispatched or distracted by your allies before you can enter.
+
+The pages are put on the wall in a back room at your villa in Monteriggioni, but they must be decoded first. Only Leonardo can decode Codex pages for you, so you'll need to take them to him before going to your villa. At the beginning of the game, Leonardo will only be available during certain times, but afterward, you'll see his icon on your map if you have any undeciphered pages in your inventory.
+
+Codex pages are required to be collected; [[../Sequence 14: Veni, Vidi, Vici|Sequence 14]] won't start until you have them all. When you get to the last sequence you have before Sequence 14, if you don't have all the pages you'll be sent back out into the world to find them all. A map showing the location of all Codex pages is acquired in Sequence 12, and once you have it a persistent counter showing how many you've collected will be displayed on the screen. At this point, Leonardo will be at your villa, so bring the pages you collect back there to be decoded.
+
+Once the pages are deciphered you will be able to read Altaïr's writings or look at his illustrations. Once you've put the pages on the wall, they can be rotated 90° at a time to fit a larger pattern. The pattern can only be seen by using eagle vision. The pattern is a large map of the world with a certain vault's location marked on it.
+
+==Store-bought items==
+Many of your collections will be completed through purchasing items in the stores located in cities. Nearly all weapons and armor can be bought at a blacksmith, pouches can be obtained at tailors, and paintings can be purchased at art merchants. You will get access to better weapons and armor as you progress in the game, so you'll need to continue checking back in with the blacksmiths periodically. Altaïr's Sword and the Condotierro War Hammer are only available at the Monteriggioni blacksmith, and the war hammer only after you've delivered 50 feathers to your mother. Altaïr's armor is acquired by finding all the seals located in various assassin's tombs.
+
+For pouches, you'll need to first acquire the item that it contains, and later bigger pouches may become available. Each city has different art for sale, so you'll need to buy all the art in each location.
+
+==Glyphs==
+Glyphs don't count toward your town's wealth, and Ezio doesn't gain anything by finding and unlocking them. They do provide Desmond with a higher synchronization with Ezio though, and they help to fill in the meta-story by uncovering "The Truth". The glyphs were placed by Subject 16, the test subject Abstergo used in the Animus before Desmond. He spent way too much time in the Animus and it drove him crazy and eventually killed him. Before that happened, he found out secrets about the world and what the Templars are up to, and split the information up into 20 encrypted pieces and spread them throughout the Animus' programming.
+
+Although Ezio isn't aware of the glyphs, as they're not actually in his world, Desmond can see them through the Animus. The glyphs are located on major landmarks in cities, though they won't be marked on your map. When moving through a city, you'll occasionally see Database popups when you run into something new or notable. When you're at a landmark with a glyph on it, the popup will have a red eye icon on it. You can also cycle through the locations in the Database, and places with glyphs will have the icon on the top left corner. If you haven't found the glyph yet, the icon will be unblinking and red, if you've found the glyph but haven't deciphered it, it will be blinking and red, and if you've found and deciphered it, the icon will be grayed out.
+
+Glyphs can be hard to find, as they're not marked on your map. They are generally located on the large, dark gray buildings on your map, so check there first. If you're in doubt, try matching the image from the Database with the structure you are investigating. When you find a glyph on a building, get close to it and go into eagle vision to download a piece of The Truth to Desmond's head. Each piece requires that you figure out a puzzle before it will unlock. If you complete the puzzle, a short movie clip will be added to the "Truth" section of the database. Once all 20 pieces have been decoded, they are put together into a single movie. If you quit out of a puzzle without completing it, it will be saved in The Truth section of the Database, marked with the red eye icon. You can go back at any time to attempt to solve it.
+
+==Feathers==
+Feathers are found throughout the game and comprise the hardest collection to complete. Feathers aren't marked on your map; they are in out of the way, hard to get to places; and they only give off a slight glitch signature in normal view and even in eagle vision. For acquiring 50 feathers, the Condotierro War Hammer will become available in the Monteriggioni blacksmith, and for collecting all 100 you'll get the Auditore cape. As with glyphs, feathers will increase the synchronization between Desmond and Ezio.
+
+==Statuettes==
+In Monteriggioni, there are eight statuettes, each representing a different Roman god. Like feathers, these won't be marked on your map, but they are easier to find as they give off better glitch signatures and are in easier-to-reach places. There are four pedestals surrounding the back of your villa, and each one has spots for two of the statuettes. You can read the inscriptions to see which two gods go on one of the pedestals. When you place both statuettes on the pedestal, you'll receive 2,000 florins, which is a hefty sum at the time when they first become available. This will give you some good starting capital for renovating your town.
+
+==Treasures==
+Treasures don't add to your villa's worth or provide any extra synchronization for Desmond; they're purely for collection and a few extra florins. Treasure chests are small red and yellow boxes found throughout Italy, both in and out of cities. They give off a large glitch signature, so are easy to spot. In addition, you can buy treasure maps from art merchants for the various districts in that city. Because they're on your map, they are fairly easy to find, if not to access. There are 330 treasures in total.
+
+Many chests will be guarded by one or more guards either out in the open, in a walled-off area, or inside rooms like the Codex pages. Most of the ones being guarded outside or behind walls can be acquired without bothering with the guard, usually by hopping over the wall or just walking around behind them. For treasures inside buildings being guarded by two or four guards, you'll want to use the same tactics as for Codex pages – kill them off yourself or distract them with one of your ally groups. When they are located in a guarded room you'll usually find two chests there.
+
+In Assassin's tombs and Templar lairs, there are more chests, both in secret areas that are hard to find as you make your way through and at the end of the memory, around the sarcophagus or Templar treasure.
+
+==Viewpoints==
+Like treasures, viewpoints don't add to your town's net worth and don't impact Desmond's synchronization. They don't even provide you with any extra florins. Even so, they are extremely important for getting around in any city. Unlike the first game, not only is your full map obscured without synchronizing at the top of a viewpoint but so is your mini-map. This makes it extremely hard to find your way around the circuitous city streets, and you'll often need to make quick decisions as you're completing an objective or running from guards.
+
+Any time you open up a new area, one viewpoint icon will be shown on your map. After synchronizing there, the rest of the viewpoints will be displayed along with the territory around it. Synchronizing more viewpoints will reveal more of the map and the objectives within it, such as Codex pages and side-missions. Most of the 73 viewpoints in the game can be climbed without any problem, but a few in Venice will require that you know the climbing jump to access out-of-reach ledges. Every viewpoint in the game has a leap of faith you can use, but be sure to check the ground before jumping off the ones that can go in any direction like the tops of crosses.
+
+{{Footer Nav|game=Assassin's Creed II|prevpage=Templar lairs|nextpage=Florence}}
