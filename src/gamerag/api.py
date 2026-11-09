@@ -98,6 +98,8 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
         games = load_all_games(s.path(s.games_config_dir))
         st = store or Store(s.path(s.state_db))
         st.seed_profiles(load_profiles(s.path(s.seed_profiles), games))
+        if s.audit_retention_days:  # retencion: al arrancar se descartan las trazas vencidas
+            st.purge_traces(s.audit_retention_days)
         # El pipeline se construye una sola vez: cargar el modelo de embeddings toma segundos.
         app.state.pipeline = pipeline or build_pipeline(s)
         app.state.store, app.state.games, app.state.settings = st, games, s
@@ -208,6 +210,14 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
         s: Settings = request.app.state.settings
         n = store.seed_profiles(load_profiles(s.path(s.seed_profiles), games), overwrite=True)
         return {"reset": n}
+
+    @app.post("/admin/purge-audit", tags=["admin"])
+    def purge_audit(store: StoreDep, request: Request,
+                    user_id: Annotated[str, Query(pattern=r"^[a-z0-9_]+$")]) -> dict:
+        """Aplica la politica de retencion (`audit_retention_days`): borra trazas mas antiguas. Requiere rol admin."""
+        require_admin(store, user_id)
+        days = request.app.state.settings.audit_retention_days
+        return {"retention_days": days, "purged": store.purge_traces(days) if days else 0}
 
     return app
 

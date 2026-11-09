@@ -12,7 +12,7 @@ from __future__ import annotations
 import json
 import re
 import sqlite3
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from gamerag.pipeline import Trace
@@ -45,7 +45,11 @@ _PII_PATTERNS = [
 
 
 def redact_pii(text: str) -> str:
-    for pattern, repl in _PII_PATTERNS:
+    """Redaccion para el log: los patrones basicos de aqui mas los del PIIGuard (tarjetas, identificadores)."""
+    from gamerag.guardrails.injection import redact
+
+    text = redact(text)[0]  # primero los patrones especificos (tarjeta, identificador, clave, correo)
+    for pattern, repl in _PII_PATTERNS:  # luego la red amplia de telefonos
         text = pattern.sub(repl, text)
     return text
 
@@ -106,6 +110,13 @@ class Store:
                 (safe.trace_id, datetime.now(UTC).isoformat(timespec="seconds"), safe.user_id, safe.game,
                  safe.question, safe.outcome, safe.model_dump_json()),
             )
+
+    def purge_traces(self, older_than_days: int) -> int:
+        """Retencion: borra las trazas de auditoria mas antiguas que `older_than_days`. Devuelve cuantas borro."""
+        cutoff = (datetime.now(UTC) - timedelta(days=older_than_days)).isoformat(timespec="seconds")
+        with self._conn:
+            cur = self._conn.execute("DELETE FROM audit WHERE created_at < ?", (cutoff,))
+        return cur.rowcount
 
     def all_traces(self, game: str | None = None) -> list[dict]:
         """Todas las trazas (opcionalmente de un juego), de la más antigua a la más reciente."""

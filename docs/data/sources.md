@@ -10,6 +10,10 @@ Cubre el §5.2 de [course/instructions.md](../course/instructions.md). Decisión
 | Manual *Ninja Gaiden* | nintendo.co.jp, `CLV-P-NACBE.pdf` | Ídem | PDF | NES Classic | ❌ **Descartado** |
 | Datos curados (hechos, fichas, prerrequisitos, entidades) | El equipo, a partir de la wiki | Derivado, por lo tanto CC BY-SA 4.0 | JSON / YAML | `v1` | No se creó: la tabla de jefes se extrae de la wiki al cargar ([tools/](../tools/README.md)) |
 
+> **Actualización (2026-11):** el corpus ahora cubre 7 juegos y varias wikis por juego; la tabla de fuentes y licencias vigente
+> está en [data/wiki_snapshot/README.md](../../data/wiki_snapshot/README.md) y el tratamiento de información sensible, la
+> frecuencia de actualización (decisión de diseño) y la gobernanza, en [sensitive-data.md](sensitive-data.md).
+
 ## Política
 
 - La wiki y sus derivados se versionan **con atribución** ([data/wiki_snapshot/README.md](../../data/wiki_snapshot/README.md)).

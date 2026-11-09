@@ -35,6 +35,7 @@ class Settings(BaseSettings):
     chunker: str = "structural"  # sufijo de data/processed/<juego>/chunks.<chunker>.jsonl
     query_expansion: bool = True  # multi-consulta con corrección ortográfica + glosario del juego
     tool_timeout_s: float = 5.0  # limite de tiempo por herramienta; al excederlo se degrada al RAG
+    audit_retention_days: int = 90  # retencion de la auditoria (0 = conservar siempre)
     rate_limit_per_min: int = 60  # solicitudes /ask y /search por usuario y minuto (0 = sin limite)
     router: bool = True  # router de intención + herramientas (docs/tools/README.md)
     top_k: int = 5  # chunks que recibe el generador

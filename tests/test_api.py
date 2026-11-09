@@ -116,3 +116,28 @@ def test_rate_limit_per_user(tmp_path):
         other = c.post("/ask", json={**body, "user_id": "intermedio"}).status_code
     store.close()
     assert codes == [200, 200, 200, 429] and other == 200
+
+
+def test_audit_retention_purges_old_traces_and_is_admin_only(tmp_path):
+    from datetime import UTC, datetime, timedelta
+
+    settings = Settings(root=ROOT, state_db=tmp_path / "ret.sqlite3", audit_retention_days=30)
+    store = Store(settings.state_db)
+    pipeline = Pipeline({"zelda1": BM25Index(CORPUS)}, top_k=2, candidates=5)
+    with TestClient(create_app(settings=settings, pipeline=pipeline, store=store)) as c:
+        body = {"question": "How do I cross the oceans?", "game": "zelda1", "user_id": "novato"}
+        c.post("/ask", json=body)
+        c.post("/ask", json=body)
+        old = (datetime.now(UTC) - timedelta(days=45)).isoformat(timespec="seconds")
+        store._conn.execute("UPDATE audit SET created_at = ? WHERE rowid = 1", (old,))
+        store._conn.commit()
+        assert c.post("/admin/purge-audit", params={"user_id": "novato"}).status_code == 403
+        out = c.post("/admin/purge-audit", params={"user_id": "admin"}).json()
+        remaining = len(store.all_traces())
+    store.close()
+    assert out == {"retention_days": 30, "purged": 1} and remaining == 1
+
+
+def test_redaction_covers_cards_and_ids_in_the_audit_log():
+    assert redact_pii("card 4111 1111 1111 1111 ok") == "card [CARD] ok"
+    assert redact_pii("ssn 123-45-6789") == "ssn [ID]"

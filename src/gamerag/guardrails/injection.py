@@ -75,7 +75,7 @@ PII_PATTERNS: list[tuple[str, re.Pattern[str], str]] = [
     ("email", re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+"), "[EMAIL]"),
     ("phone", re.compile(r"(?<![\w-])(?:\+\d{1,3}[ -]?\d{3,4}[ -]?\d{4,}|\(\d{3}\)\s?\d{3}-\d{4}|"
                          r"\d{3}[ -]\d{3}[ -]\d{4}|\d{3,4}-\d{4})(?![\w-])"), "[PHONE]"),
-    ("card", re.compile(r"\b(?:\d[ -]?){13,16}\b"), "[CARD]"),
+    ("card", re.compile(r"\b(?:\d[ -]?){12,15}\d\b"), "[CARD]"),
     ("gov_id", re.compile(r"\b\d{3}-\d{2}-\d{4}\b"), "[ID]"),
 ]
 
