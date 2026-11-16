@@ -28,7 +28,7 @@ def _chunk(cid: str, text: str) -> Chunk:
 
 @pytest.fixture()
 def api(tmp_path):
-    settings = Settings(root=ROOT, state_db=tmp_path / "ui.sqlite3")
+    settings = Settings(_env_file=None, root=ROOT, state_db=tmp_path / "ui.sqlite3")
     store = Store(settings.state_db)
     # 4 fragmentos: con 2, el IDF de BM25 queda <= 0 y no recupera nada.
     corpus = [_chunk("raft", "The raft crosses lakes and oceans from a dock."),

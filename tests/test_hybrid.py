@@ -87,7 +87,7 @@ def test_served_pipeline_matches_evaluated_recall():
     root = Path(__file__).resolve().parents[1]
     if not (root / "data" / "processed" / "zelda1" / "chunks.structural.jsonl").exists():
         pytest.skip("requiere la ingesta estructural de zelda1")
-    pipe = build_pipeline(Settings(root=root))
+    pipe = build_pipeline(Settings(_env_file=None, root=root))
     by_id = {c.chunk_id: c for c in pipe.retrievers["zelda1"].retrievers[0].chunks}
     cases = [c for c in load_cases(root / "eval" / "cases.jsonl")
              if c.game == "zelda1" and c.answerable and c.category in COURSE_CATEGORIES]
@@ -111,7 +111,7 @@ def test_served_retrieval_ignores_trailing_question_mark():
     root = Path(__file__).resolve().parents[1]
     if not (root / "data" / "processed" / "zelda1" / "chunks.structural.jsonl").exists():
         pytest.skip("requiere la ingesta estructural de zelda1")
-    retriever = build_pipeline(Settings(root=root)).retrievers["zelda1"]
+    retriever = build_pipeline(Settings(_env_file=None, root=root)).retrievers["zelda1"]
     cases = [c for c in load_cases(root / "eval" / "cases.jsonl")
              if c.game == "zelda1" and c.answerable and c.category in RETRIEVAL_CATEGORIES]
 
@@ -139,7 +139,7 @@ def test_dense_search_is_exact():
     root = Path(__file__).resolve().parents[1]
     if not (root / "data" / "processed" / "zelda1" / "chunks.structural.jsonl").exists():
         pytest.skip("requiere la ingesta estructural de zelda1")
-    dense = build_pipeline(Settings(root=root)).retrievers["zelda1"].retrievers[1]
+    dense = build_pipeline(Settings(_env_file=None, root=root)).retrievers["zelda1"].retrievers[1]
     stored = dense._col.get(include=["embeddings"])
     ids, matrix = stored["ids"], np.asarray(stored["embeddings"])
     for q in ["how do i see in dark rooms?", "How do i attack", "where is the raft", "who made the game"]:

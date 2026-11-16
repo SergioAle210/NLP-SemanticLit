@@ -28,7 +28,7 @@ CORPUS = [_chunk("raft", "The raft crosses lakes and oceans from a dock."),
 
 @pytest.fixture()
 def client(tmp_path):
-    settings = Settings(root=ROOT, state_db=tmp_path / "test.sqlite3")
+    settings = Settings(_env_file=None, root=ROOT, state_db=tmp_path / "test.sqlite3")
     store = Store(settings.state_db)
     pipeline = Pipeline({"zelda1": BM25Index(CORPUS)}, top_k=2, candidates=5, retriever_name="bm25/test")
     with TestClient(create_app(settings=settings, pipeline=pipeline, store=store)) as c:
@@ -113,7 +113,7 @@ def test_redact_pii(text, expected):
 
 
 def test_rate_limit_per_user(tmp_path):
-    settings = Settings(root=ROOT, state_db=tmp_path / "rl.sqlite3", rate_limit_per_min=3)
+    settings = Settings(_env_file=None, root=ROOT, state_db=tmp_path / "rl.sqlite3", rate_limit_per_min=3)
     store = Store(settings.state_db)
     pipeline = Pipeline({"zelda1": BM25Index(CORPUS)}, top_k=2, candidates=5)
     body = {"question": "How do I cross the oceans?", "game": "zelda1", "user_id": "novato"}
@@ -127,7 +127,7 @@ def test_rate_limit_per_user(tmp_path):
 def test_audit_retention_purges_old_traces_and_is_admin_only(tmp_path):
     from datetime import UTC, datetime, timedelta
 
-    settings = Settings(root=ROOT, state_db=tmp_path / "ret.sqlite3", audit_retention_days=30)
+    settings = Settings(_env_file=None, root=ROOT, state_db=tmp_path / "ret.sqlite3", audit_retention_days=30)
     store = Store(settings.state_db)
     pipeline = Pipeline({"zelda1": BM25Index(CORPUS)}, top_k=2, candidates=5)
     with TestClient(create_app(settings=settings, pipeline=pipeline, store=store)) as c:

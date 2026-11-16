@@ -118,7 +118,7 @@ def _chunk(cid, text):
 
 @pytest.fixture()
 def live(tmp_path):
-    settings = Settings(root=ROOT, state_db=tmp_path / "u.sqlite3")
+    settings = Settings(_env_file=None, root=ROOT, state_db=tmp_path / "u.sqlite3")
     store = Store(settings.state_db)
     corpus = [_chunk("raft", "The raft crosses lakes and oceans from a dock."),
               _chunk("sword", "The white sword needs five heart containers."),
