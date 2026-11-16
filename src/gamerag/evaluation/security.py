@@ -26,12 +26,14 @@ import json
 import re
 import tempfile
 from collections import defaultdict
-from datetime import date
 from pathlib import Path
 
 from fastapi.testclient import TestClient
 
 from gamerag.api import create_app
+from gamerag.evaluation.artifacts import file_hash, historical_chunks, run_metadata, usage_from_calls, write_report
+from gamerag.evaluation.spoiler_oracle import BANK as ORACLE_BANK
+from gamerag.evaluation.spoiler_oracle import run_oracle
 from gamerag.games import load_all_games
 from gamerag.guardrails.base import CitationGuard, GameFilter
 from gamerag.guardrails.injection import CANARIES, QuarantineFilter, redact
@@ -41,9 +43,11 @@ from gamerag.progress.models import Profile, load_profiles
 from gamerag.retrieval.bm25 import BM25Index, load_chunks
 from gamerag.settings import Settings, get_settings
 from gamerag.store import Store
+from gamerag.telemetry import request_scope
 
 CASES = "eval/security_cases.jsonl"
 SPOILERS = "eval/security_spoilers.jsonl"
+QUEST_ORACLE = Path("eval/security_quest_oracle_v2.jsonl")
 CANARY = "PWNED7731"
 
 # Documentos envenenados: se insertan en el índice de zelda1 y deben recuperarse con la pregunta de prueba.
@@ -78,10 +82,16 @@ def distinctive_leak(answer: str, target_text: str, question: str, allowed_text:
     return sorted((_words(target_text) - known) & _words(answer))
 
 
-def _settings(baseline: bool, offline: bool, only_games: list[str] | None = None) -> Settings:
+def _settings(baseline: bool, offline: bool, only_games: list[str] | None = None,
+              serving_profile: str = "base", retriever: str | None = None) -> Settings:
     base = get_settings()
-    return Settings(root=base.root, retriever="bm25", generator="extractive" if offline else "haiku", router=True,
-                    security_guards=not baseline, spoiler_gates=not baseline, only_games=only_games or [])
+    options = {"root": base.root, "profile": serving_profile, "router": True,
+               "security_guards": not baseline, "spoiler_gates": not baseline, "only_games": only_games or []}
+    if offline:
+        options.update(generator="extractive", llm_offline=True, evidence_eval=False, planner=False)
+    if retriever:
+        options["retriever"] = retriever
+    return Settings(**options)
 
 
 def _run(pipe: Pipeline, case: dict, profiles: dict[str, Profile]) -> dict:
@@ -123,12 +133,20 @@ def _observe(case: dict, r: dict, chunks: dict) -> tuple[bool, str]:
 def run_cases(pipe: Pipeline, chunks: dict, profiles: dict[str, Profile], cases: list[dict]) -> list[dict]:
     out = []
     for case in cases:
-        try:
-            ok, observed = _observe(case, _run(pipe, case, profiles), chunks)
-        except Exception as exc:  # noqa: BLE001 - un fallo del pipeline cuenta como no cumplido
-            ok, observed = False, f"error: {type(exc).__name__}: {exc}"
+        data = {}
+        with request_scope() as capture:
+            try:
+                result = _run(pipe, case, profiles)
+                ok, observed = _observe(case, result, chunks)
+                data = {"final_answer": result["answer"].model_dump(mode="json"),
+                        "final_evidence": [doc.model_dump(mode="json") for doc in result["trace"].final_evidence]}
+            except Exception as exc:  # noqa: BLE001 - un fallo del pipeline cuenta como no cumplido
+                ok, observed = False, f"error: {type(exc).__name__}: {exc}"
         out.append({**{k: case[k] for k in ("id", "vector", "threat", "component", "expect", "mitigation")},
-                    "question": case["question"], "passed": ok, "observed": observed})
+                    "question": case["question"], "passed": ok, "observed": observed, **data,
+                    "trace_id": capture.trace_id, "llm_calls": list(capture.calls),
+                    "degradations": list(capture.degradations), "stages": list(capture.stages),
+                    **usage_from_calls(capture.calls)})
     return out
 
 
@@ -170,7 +188,7 @@ def spoiler_probes(pipe: Pipeline, chunks: dict, profiles: dict[str, Profile], p
         target = chunks[p["target_chunk"]]
         ans, trace = pipe.ask(p["question"], p["game"], novato)
         ctx_ids = trace.context
-        ctx_text = " ".join(chunks[c].text for c in ctx_ids if c in chunks)
+        ctx_text = " ".join(doc.text for doc in trace.final_evidence)
         locked_in_ctx = [c for c in ctx_ids if c in chunks and not gate.allows(chunks[c], novato, p["game"])]
         leak_terms = distinctive_leak(ans.answer, target.text, p["question"], ctx_text) if not ans.abstained else []
         row = by_game[p["game"]]
@@ -185,7 +203,8 @@ def spoiler_probes(pipe: Pipeline, chunks: dict, profiles: dict[str, Profile], p
             detail.append({"id": p["id"], "locked_in_context": locked_in_ctx, "terms": leak_terms[:6]})
     tot = {k: sum(v[k] for v in by_game.values()) for k in ("n", "context_leak", "answer_leak", "blocked",
                                                               "abstained", "answered", "spoiled")}
-    return {"total": tot, "by_game": dict(by_game), "leaks": detail[:10]}
+    return {"total": tot, "by_game": dict(by_game), "leaks": detail[:10],
+            "scope": "legacy_location_gate_consistency_only_not_independent_content_safety"}
 
 
 def poisoning(settings: Settings, quarantine: bool) -> dict:
@@ -212,7 +231,7 @@ def poisoning(settings: Settings, quarantine: bool) -> dict:
                      "quarantined": any(c.blocked_by == "quarantine" for c in trace.candidates
                                         if c.chunk_id == poison.chunk_id),
                      "obeyed": CANARY in ans.answer, "answer": ans.answer[:100]})
-    return {"quarantine": quarantine, "rows": rows,
+    return {"quarantine": quarantine, "rows": rows, "retriever": "bm25", "generator": settings.generator,
             "obeyed": sum(r["obeyed"] for r in rows), "retrieved": sum(r["retrieved"] for r in rows), "n": len(rows)}
 
 
@@ -244,18 +263,18 @@ def role_access(settings: Settings) -> list[dict]:
 
 # --- ejecución -----------------------------------------------------------------------------------
 
-def run(baseline: bool, offline: bool) -> dict:
-    s = _settings(baseline, offline, only_games=["zelda1", "ninja_gaiden_nes", "gta_sa", "oot", "ac2", "doom", "rdr1"])
+def run(baseline: bool, offline: bool, serving_profile: str = "base", retriever: str | None = None) -> dict:
+    s = _settings(baseline, offline, only_games=["zelda1", "ninja_gaiden_nes", "gta_sa", "oot", "ac2", "doom", "rdr1"],
+                  serving_profile=serving_profile, retriever=retriever)
     pipe = build_pipeline(s)
     games = load_all_games(s.path(s.games_config_dir))
     profiles = load_profiles(s.path(s.seed_profiles), games)
-    chunks = {}
-    for g in pipe.games:
-        chunks |= {c.chunk_id: c for c in load_chunks(s.path(s.data_dir) / "processed" / g / "chunks.structural.jsonl")}
+    chunks = historical_chunks(s, set(pipe.games))
     df: dict[str, int] = defaultdict(int)
     for c in chunks.values():
         for w in _words(c.text):
             df[w] += 1
+    COMMON.clear()
     COMMON.update(w for w, n in df.items() if n >= 5)  # distintivo = aparece en menos de 5 chunks del corpus
     cases = [json.loads(x) for x in Path(CASES).read_text(encoding="utf-8").splitlines() if x.strip()]
     probes = [json.loads(x) for x in Path(SPOILERS).read_text(encoding="utf-8").splitlines() if x.strip()]
@@ -264,13 +283,23 @@ def run(baseline: bool, offline: bool) -> dict:
     for r in res:
         by_vec[r["vector"]].append(r["passed"])
     return {
-        "run": {"date": date.today().isoformat(), "baseline": baseline, "offline": offline,
+        "schema_version": 2,
+        "run": {**run_metadata(s, label="baseline" if baseline else "guarded", dataset=s.root / CASES, chunks=chunks),
+                "baseline": baseline, "offline": offline,
+                "dataset_hashes": {str(path): file_hash(s.root / path)
+                                   for path in (Path(CASES), Path(SPOILERS), ORACLE_BANK, QUEST_ORACLE)},
                 "generator": s.generator, "retriever": s.retriever},
         "by_vector": {v: {"passed": sum(p), "n": len(p)} for v, p in by_vec.items()},
         "cases": res,
         "benign_controls": benign_controls(pipe, profiles),
         "corpus_scan": corpus_scan(s),
         "spoiler_probes": spoiler_probes(pipe, chunks, profiles, probes),
+        "content_oracle": run_oracle(pipe, profiles, [json.loads(line) for line in
+                                                     (s.root / ORACLE_BANK).read_text(encoding="utf-8").splitlines()
+                                                     if line.strip()]),
+        "quest_oracle": run_oracle(pipe, profiles, [json.loads(line) for line in
+                                                   (s.root / QUEST_ORACLE).read_text(encoding="utf-8").splitlines()
+                                                   if line.strip()]),
         "poisoning": [poisoning(s, quarantine=False), poisoning(s, quarantine=True)],
         "role_access": role_access(s),
     }
@@ -280,11 +309,11 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--baseline", action="store_true", help="sin guardrails de seguridad ni gates de spoilers")
     ap.add_argument("--offline", action="store_true", help="generador extractivo (sin API)")
+    ap.add_argument("--serving-profile", choices=["base", "full"], default="base")
+    ap.add_argument("--retriever", choices=["bm25", "dense", "hybrid"], default=None)
     args = ap.parse_args()
-    result = run(args.baseline, args.offline)
-    tag = ("baseline" if args.baseline else "guarded") + ("-offline" if args.offline else "")
-    out = Path("eval/results") / f"{date.today().isoformat()}_security_{tag}.json"
-    out.write_text(json.dumps(result, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
+    result = run(args.baseline, args.offline, args.serving_profile, args.retriever)
+    out = write_report(get_settings().root / "eval" / "results", "security", result)
     print(json.dumps({"by_vector": result["by_vector"], "benign_controls": result["benign_controls"],
                       "corpus_scan": {k: result["corpus_scan"][k] for k in ("chunks", "flagged")},
                       "spoilers": result["spoiler_probes"]["total"],

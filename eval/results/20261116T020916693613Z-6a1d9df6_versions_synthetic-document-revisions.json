@@ -1,0 +1,345 @@
+{
+  "schema_version": 2,
+  "run": {
+    "schema_version": 2,
+    "run_id": "20261116T020916693613Z-6a1d9df6",
+    "date": "2026-11-16T02:09:16.693613+00:00",
+    "label": "synthetic-document-revisions",
+    "git_commit": "1c9ca7e8d161c0519be3f536b6e2f83f9530368b",
+    "git_dirty": true,
+    "dataset_sha256": "sha256:33fe843b3d0888792e2f3a8d06703461df830e2338f2c1150013b35f05175454",
+    "corpus_sha256": null,
+    "effective_settings": {
+      "profile": "base",
+      "retriever": "bm25",
+      "generator": "extractive",
+      "chunker": "structural",
+      "embedding_model": "e5-small-multi",
+      "query_expansion": true,
+      "router": true,
+      "top_k": 5,
+      "candidates": 50,
+      "use_graph": false,
+      "planner": false,
+      "evidence_eval": false,
+      "evidence_mode": "on_abstain",
+      "max_rewrites": 1,
+      "secondary_search": false,
+      "secondary_mode": "append",
+      "secondary_k": 3,
+      "secondary_franchise": false,
+      "memory_notes": false,
+      "only_games": [],
+      "security_guards": true,
+      "spoiler_gates": true,
+      "tool_timeout_s": 5.0,
+      "llm_model": "claude-haiku-5-5",
+      "llm_cache": true,
+      "llm_offline": true,
+      "llm_max_tokens": 1024,
+      "llm_price_input": 0.1,
+      "llm_price_output": 0.5,
+      "llm_run_budget_usd": 1.0
+    },
+    "evidence_format": "authorized_final_context",
+    "human_review": false,
+    "fixture_sha256": "sha256:cdd7aae56388841f8a7a8bb94dcbc8e1cea90b47ac2cf763560c1b927b28432b",
+    "synthetic": true,
+    "retriever": "bm25",
+    "generator": "extractive",
+    "same_persist_path": true,
+    "n_cases": 2
+  },
+  "overall": {
+    "n": 2,
+    "errors": 0,
+    "ctx_recall": 1.0,
+    "ctx_coverage": 1.0,
+    "ctx_hit_rate": 1.0,
+    "abstention_ok": 1.0,
+    "cite_precision": 1.0,
+    "explainable_rate": 1.0,
+    "notes_used_rate": 0.0,
+    "secondary_rate": 0.0,
+    "note_leaks": 0,
+    "decomposed_rate": 0.0,
+    "rewrite_rate": 0.0,
+    "cost_per_q_usd": 0.0,
+    "tokens_per_q": 0.0,
+    "latency_mean_s": 0.0,
+    "latency_p95_s": 0.0,
+    "total_cost_usd": 0,
+    "llm_calls": 0,
+    "llm_errors": 0,
+    "http_retries": 0,
+    "usage_unknown_calls": 0,
+    "degraded_requests": 0,
+    "passed": 2,
+    "corpus_fingerprints_changed": true,
+    "all_passed": true
+  },
+  "cases": [
+    {
+      "id": "document_revision_1",
+      "category": "version",
+      "game": "revision_fixture",
+      "answerable": true,
+      "question": "Where is the training key stored?",
+      "error": null,
+      "latency_s": 0.0,
+      "trace_id": "768b6413ec244dac86e5dd79b0de2e5f",
+      "player_profile": {
+        "user_id": "fixture",
+        "role": "player",
+        "progress": {
+          "revision_fixture": {
+            "kind": "linear_stage",
+            "current_stage": "training"
+          }
+        },
+        "hint_level": 1
+      },
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.024
+        },
+        {
+          "name": "retrieved",
+          "query": "Where is the training key stored?",
+          "variants": [
+            "Where is the training key stored?"
+          ],
+          "context": [
+            "revision_fixture:training-key:000"
+          ],
+          "candidate_count": 1,
+          "allowed_count": 1
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 0.151
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.017
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.016
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0,
+      "context": [
+        "revision_fixture:training-key:000"
+      ],
+      "sources": [
+        "revision_fixture:training-key:000"
+      ],
+      "citations": [
+        {
+          "source": "Revision Fixture/Training key",
+          "page": 0,
+          "chunk_id": "revision_fixture:training-key:000"
+        }
+      ],
+      "final_evidence": [
+        {
+          "source": "Revision Fixture/Training key",
+          "page": 0,
+          "chunk_id": "revision_fixture:training-key:000",
+          "url": "https://example.invalid/synthetic/revision-fixture/0",
+          "section": "(intro)",
+          "version": "revid:101",
+          "source_hash": "sha256:a58330ba566a68c671f6100e37bf3e2f654a2892a3433249e4e10d43d0ab1ca5",
+          "text": "[(intro)]\nThe training key is stored on shelf A. Ask the workshop keeper before entering the practice room. This instruction applies only to the synthetic training exercise.",
+          "is_excerpt": false,
+          "evidence_hash": "a58330ba566a68c671f6100e37bf3e2f654a2892a3433249e4e10d43d0ab1ca5"
+        }
+      ],
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [(intro)] The training key is stored on shelf A. Ask the workshop keeper before entering the practice room. This instruction applies only to the synthetic training exercise.",
+        "sources": [
+          {
+            "source": "Revision Fixture/Training key",
+            "page": 0,
+            "chunk_id": "revision_fixture:training-key:000"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "revision_fixture",
+        "blocked_by_spoiler": false,
+        "trace_id": "768b6413ec244dac86e5dd79b0de2e5f"
+      },
+      "notes_in_context": [],
+      "secondary": [],
+      "note_leaks": [],
+      "subqueries": [],
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [(intro)] The training key is stored on shelf A. Ask the workshop keeper before entering the practice room. This instruction applies only to the synthetic training exercise.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "explanation_complete": true,
+      "rewrites": [],
+      "retrieval_rewrite_count": 0,
+      "evidence_trace": [],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0,
+      "expected_revision": 101,
+      "index_rebuilt": true,
+      "expected_text": "shelf A",
+      "forbidden_text": "shelf B",
+      "corpus_sha256": "sha256:504d97819366e06e363a4115dee1f2706899d60ced66b818cee97ccdba10b387",
+      "passed": true
+    },
+    {
+      "id": "document_revision_2",
+      "category": "version",
+      "game": "revision_fixture",
+      "answerable": true,
+      "question": "Where is the training key stored?",
+      "error": null,
+      "latency_s": 0.0,
+      "trace_id": "2cf8955ffa114c4eb878cd302e018b73",
+      "player_profile": {
+        "user_id": "fixture",
+        "role": "player",
+        "progress": {
+          "revision_fixture": {
+            "kind": "linear_stage",
+            "current_stage": "training"
+          }
+        },
+        "hint_level": 1
+      },
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.013
+        },
+        {
+          "name": "retrieved",
+          "query": "Where is the training key stored?",
+          "variants": [
+            "Where is the training key stored?"
+          ],
+          "context": [
+            "revision_fixture:training-key:000"
+          ],
+          "candidate_count": 1,
+          "allowed_count": 1
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 0.118
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.016
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.012
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0,
+      "context": [
+        "revision_fixture:training-key:000"
+      ],
+      "sources": [
+        "revision_fixture:training-key:000"
+      ],
+      "citations": [
+        {
+          "source": "Revision Fixture/Training key",
+          "page": 0,
+          "chunk_id": "revision_fixture:training-key:000"
+        }
+      ],
+      "final_evidence": [
+        {
+          "source": "Revision Fixture/Training key",
+          "page": 0,
+          "chunk_id": "revision_fixture:training-key:000",
+          "url": "https://example.invalid/synthetic/revision-fixture/0",
+          "section": "(intro)",
+          "version": "revid:102",
+          "source_hash": "sha256:e8163f33cbd0763d9a60f1ccd3e88e30b1fac0f320aaa131297f3f5807f5cb8d",
+          "text": "[(intro)]\nThe training key is stored on shelf B. Ask the workshop keeper before entering the practice room. This instruction applies only to the synthetic training exercise.",
+          "is_excerpt": false,
+          "evidence_hash": "e8163f33cbd0763d9a60f1ccd3e88e30b1fac0f320aaa131297f3f5807f5cb8d"
+        }
+      ],
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [(intro)] The training key is stored on shelf B. Ask the workshop keeper before entering the practice room. This instruction applies only to the synthetic training exercise.",
+        "sources": [
+          {
+            "source": "Revision Fixture/Training key",
+            "page": 0,
+            "chunk_id": "revision_fixture:training-key:000"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "revision_fixture",
+        "blocked_by_spoiler": false,
+        "trace_id": "2cf8955ffa114c4eb878cd302e018b73"
+      },
+      "notes_in_context": [],
+      "secondary": [],
+      "note_leaks": [],
+      "subqueries": [],
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [(intro)] The training key is stored on shelf B. Ask the workshop keeper before entering the practice room. This instruction applies only to the synthetic training exercise.",
+      "abstained": false,
+      "outcome": "answered",
+      "tool_used": null,
+      "route": "documents",
+      "explanation_complete": true,
+      "rewrites": [],
+      "retrieval_rewrite_count": 0,
+      "evidence_trace": [],
+      "abstention_ok": true,
+      "ctx_hit": true,
+      "ctx_coverage": 1.0,
+      "cite_precision": 1.0,
+      "expected_revision": 102,
+      "index_rebuilt": true,
+      "expected_text": "shelf B",
+      "forbidden_text": "shelf A",
+      "corpus_sha256": "sha256:23f67d3df13d130e293b4fa5cf00a144548807c49bb72ae1aba321672eac6f38",
+      "passed": true
+    }
+  ]
+}

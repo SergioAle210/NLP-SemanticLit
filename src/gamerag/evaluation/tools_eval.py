@@ -19,14 +19,15 @@ from __future__ import annotations
 import json
 import time
 from collections import defaultdict
-from datetime import date
 from pathlib import Path
 from statistics import mean
 
+from gamerag.evaluation.artifacts import run_metadata, usage_from_calls, write_report
 from gamerag.games import load_all_games
 from gamerag.pipeline import Pipeline, build_pipeline
 from gamerag.progress.models import load_profiles
 from gamerag.settings import Settings, get_settings
+from gamerag.telemetry import request_scope
 
 CASES = "eval/cases_tools.jsonl"
 DOC_BANKS = ["eval/cases.jsonl", "eval/cases_hard.jsonl", "eval/synthetic_train.jsonl"]
@@ -67,7 +68,8 @@ def _check(case: dict, ans, trace) -> tuple[bool, str]:
 
 def run(cases_path: str = CASES) -> dict:
     base = get_settings()
-    s = Settings(root=base.root, retriever="bm25", generator="extractive", router=True, tool_timeout_s=0.3)
+    s = Settings(root=base.root, profile="base", retriever="bm25", generator="extractive", router=True,
+                 tool_timeout_s=0.3, llm_offline=True)
     pipe = build_pipeline(s)
     games = load_all_games(s.path(s.games_config_dir))
     profiles = load_profiles(s.path(s.seed_profiles), games)
@@ -75,18 +77,25 @@ def run(cases_path: str = CASES) -> dict:
     rows, by_cat, tool_ms = [], defaultdict(list), []
     for c in cases:
         undo = _fault(pipe, c.get("fault"))
-        try:
-            ans, trace = pipe.ask(c["question"], c["game"], profiles[c["profile"]])
-            ok, observed = _check(c, ans, trace)
-            if trace.latency_ms.get("tool") and not c.get("fault"):
-                tool_ms.append(trace.latency_ms["tool"])
-        except Exception as exc:  # noqa: BLE001
-            ok, observed = False, f"error: {type(exc).__name__}: {exc}"
-        finally:
-            undo()
+        details = {}
+        with request_scope() as capture:
+            try:
+                ans, trace = pipe.ask(c["question"], c["game"], profiles[c["profile"]])
+                ok, observed = _check(c, ans, trace)
+                details = {"final_answer": ans.model_dump(mode="json"),
+                           "final_evidence": [doc.model_dump(mode="json") for doc in trace.final_evidence]}
+                if trace.latency_ms.get("tool") and not c.get("fault"):
+                    tool_ms.append(trace.latency_ms["tool"])
+            except Exception as exc:  # noqa: BLE001
+                ok, observed = False, f"error: {type(exc).__name__}: {exc}"
+            finally:
+                undo()
         by_cat[c["category"]].append(ok)
         rows.append({"id": c["id"], "category": c["category"], "question": c["question"], "passed": ok,
-                     "expected": c["expect"], "observed": observed})
+                     "expected": c["expect"], "observed": observed, **details,
+                     "trace_id": capture.trace_id, "llm_calls": list(capture.calls),
+                     "degradations": list(capture.degradations), "stages": list(capture.stages),
+                     **usage_from_calls(capture.calls)})
     # falso disparo: preguntas de documentos desviadas a una herramienta
     routed = []
     total = 0
@@ -102,7 +111,9 @@ def run(cases_path: str = CASES) -> dict:
                 routed.append((d["id"], d["question"][:70]))
     sel = [r for r in rows if r["category"] in ("nominal", "wrong_tool")]
     return {
-        "run": {"date": date.today().isoformat(), "retriever": "bm25", "generator": "extractive"},
+        "schema_version": 2,
+        "run": {**run_metadata(s, label="tools", dataset=s.root / cases_path),
+                "retriever": "bm25", "generator": "extractive"},
         "by_category": {k: {"passed": sum(v), "n": len(v)} for k, v in by_cat.items()},
         "tool_selection_accuracy": round(mean(r["passed"] for r in sel), 4) if sel else None,
         "overall": round(mean(r["passed"] for r in rows), 4),
@@ -119,9 +130,7 @@ def main() -> None:
     ap.add_argument("--cases", default=CASES, help="banco de casos (por defecto eval/cases_tools.jsonl)")
     args = ap.parse_args()
     res = run(args.cases)
-    tag = "tools" if args.cases == CASES else "tools_" + Path(args.cases).stem.split("_")[-1]
-    out = Path("eval/results") / f"{date.today().isoformat()}_{tag}.json"
-    out.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
+    out = write_report(get_settings().root / "eval" / "results", "tools", res)
     print(json.dumps({k: res[k] for k in ("by_category", "tool_selection_accuracy", "overall",
                                            "tool_latency_ms_mean", "false_trigger")}, ensure_ascii=False, indent=1))
     for r in res["cases"]:

@@ -5,7 +5,8 @@ de casos (evidencia esperada) y el índice de chunks (texto). Todas son determin
 **puerta de regresión** al cambiar el sistema (ver `scorecard.py`).
 
 Recuperación (¿el contexto que recibe el generador contiene la evidencia?)
-- `recall@k`, `mrr`, `ndcg@k`: relevancia binaria por chunk (definición de `cases.parts_found`), en el orden entregado.
+- `recall@k` es el nombre histórico de hit-rate@k: fracción de consultas con alguna evidencia en el top-k,
+  no recall documental. `mrr` y `ndcg@k` usan relevancia binaria por chunk en el orden entregado.
 - `coverage`: partes de evidencia cubiertas por la unión del contexto (preguntas compuestas).
 - `noise`: fracción de chunks del contexto sin ninguna parte de evidencia (ruido que paga el generador en tokens).
 - `redundancy`: similitud Jaccard media entre pares de chunks del contexto (alta = contexto repetitivo).
@@ -34,6 +35,7 @@ import re
 from collections.abc import Iterable
 from statistics import mean
 
+from gamerag.evaluation.artifacts import evidence_chunks, validate_case_rows
 from gamerag.evaluation.cases import EvalCase, parts_found
 from gamerag.ingest.models import Chunk
 
@@ -91,8 +93,8 @@ def case_diagnostics(case: EvalCase, row: dict, chunks: dict[str, Chunk], k: int
     out: dict = {"id": case.id, "category": case.category, "game": case.game}
     if row.get("error"):
         return out | {"error": True}
-    ctx = [chunks[i] for i in row.get("context", []) if i in chunks]
-    cited = [chunks[i] for i in row.get("sources", []) if i in chunks]
+    ctx = evidence_chunks(row, chunks)
+    cited = evidence_chunks(row, chunks, cited=True)
     abstained = bool(row.get("abstained"))
     out["abstained"], out["answerable"] = abstained, case.answerable
     if case.answerable and case.evidence and row.get("route", "documents") == "documents":
@@ -105,6 +107,8 @@ def case_diagnostics(case: EvalCase, row: dict, chunks: dict[str, Chunk], k: int
             "coverage": len(covered) / len(case.evidence),
             "noise": (1 - sum(rels) / len(rels)) if rels else None,
             "cite_recall": len(cited_covered) / len(case.evidence) if not abstained else None,
+            "cite_precision": (mean(bool(parts_found(case, c)) for c in cited) if cited else 0.0)
+            if not abstained else None,
             "answered_without_evidence": (not abstained) and not any(rels),
         }
     if ctx:
@@ -134,12 +138,18 @@ def aggregate(diags: list[dict]) -> dict:
     return {
         "n": len(diags), "n_retrieval_eval": sum("recall" in d for d in ok),
         "recall@5": _avg(ok, "recall"), "mrr": _avg(ok, "mrr"), "ndcg@5": _avg(ok, "ndcg"),
+        "hit_rate@5": _avg(ok, "recall"),  # alias correcto de la métrica histórica recall@5
         "coverage": _avg(ok, "coverage"), "noise": _avg(ok, "noise"), "redundancy": _avg(ok, "redundancy"),
-        "cite_recall": _avg(ok, "cite_recall"), "groundedness": _avg(ok, "groundedness"),
+        "cite_recall": _avg(ok, "cite_recall"), "cite_precision": _avg(ok, "cite_precision"),
+        "groundedness": _avg(ok, "groundedness"),
         "unsupported_rate": _avg(ok, "unsupported"), "novel_number_rate": _avg(ok, "novel_number"),
         "abstain_precision": round(prec, 4) if prec is not None else None,
         "abstain_recall": round(rec, 4) if rec is not None else None,
         "abstain_f1": round(f1, 4) if f1 is not None else None,
+        "abstention_accuracy": round((tp + len(ans) - fp) / len(ok), 4) if ok else None,
+        "abstention_counts": {"tp": tp, "fp": fp, "fn": fn, "tn": len(ans) - fp,
+                              "answerable": len(ans), "unanswerable": len(unans),
+                              "errors_excluded": len(diags) - len(ok)},
         "false_abstain_rate": round(fp / len(ans), 4) if ans else None,
         "overconfident_rate": round(fn / len(unans), 4) if unans else None,
         "answered_without_evidence": (round(mean(d["answered_without_evidence"] for d in answered), 4)
@@ -148,5 +158,6 @@ def aggregate(diags: list[dict]) -> dict:
 
 
 def diagnose(result_cases: list[dict], cases: dict[str, EvalCase], chunks: dict[str, Chunk]) -> tuple[list[dict], dict]:
-    diags = [case_diagnostics(cases[r["id"]], r, chunks) for r in result_cases if r["id"] in cases]
+    validate_case_rows(result_cases, cases)
+    diags = [case_diagnostics(cases[r["id"]], r, chunks) for r in result_cases]
     return diags, aggregate(diags)

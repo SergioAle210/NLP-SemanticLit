@@ -1,0 +1,14 @@
+{
+  "description": "Corpus sintético del equipo para comprobar revisiones documentales. No representa ningún videojuego real ni procede de StrategyWiki.",
+  "source": "Revision Fixture/Training key",
+  "question": "Where is the training key stored?",
+  "revisions": [
+    {"case_id": "document_revision_1", "revid": 101, "text": "The training key is stored on shelf A. Ask the workshop keeper before entering the practice room. This instruction applies only to the synthetic training exercise.", "expected": "shelf A", "forbidden": "shelf B"},
+    {"case_id": "document_revision_2", "revid": 102, "text": "The training key is stored on shelf B. Ask the workshop keeper before entering the practice room. This instruction applies only to the synthetic training exercise.", "expected": "shelf B", "forbidden": "shelf A"}
+  ],
+  "distractors": [
+    {"title": "Revision Fixture/Garden", "text": "Garden flowers bloom during spring. Water the seedlings every morning and collect the fallen leaves in a basket."},
+    {"title": "Revision Fixture/Kitchen", "text": "Kitchen bread is baked before lunch. The cook uses flour and water to prepare dough for the afternoon meal."},
+    {"title": "Revision Fixture/Library", "text": "Library visitors read books quietly. The librarian sorts atlases by continent and closes the reading hall at sunset."}
+  ]
+}

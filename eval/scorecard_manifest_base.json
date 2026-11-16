@@ -1,0 +1,10 @@
+{
+  "description": "Mediciones actuales del perfil base; separadas de las corridas históricas Haiku del manifiesto original.",
+  "runs": {
+    "base-principal": {"result": "eval/results/20261116T022631268527Z-2ffd3153_e2e_audit-final-base-principal.json", "cases": "eval/cases.jsonl"},
+    "base-dificil": {"result": "eval/results/20261116T022649868252Z-e9fc6355_e2e_audit-final-base-hard.json", "cases": "eval/cases_hard.jsonl"},
+    "base-solo-extra": {"result": "eval/results/20261116T022651099719Z-d06db1c2_e2e_audit-final-base-extra.json", "cases": "eval/cases_extra.jsonl"}
+  },
+  "security": "eval/results/20261116T022654688800Z-b171d853_security_guarded.json",
+  "tools": "eval/results/20261116T022858581774Z-3a5bc434_tools_tools.json"
+}

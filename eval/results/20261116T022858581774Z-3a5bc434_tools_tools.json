@@ -1,0 +1,2927 @@
+{
+  "schema_version": 2,
+  "run": {
+    "schema_version": 2,
+    "run_id": "20261116T022858581774Z-3a5bc434",
+    "date": "2026-11-16T02:28:58.581774+00:00",
+    "label": "tools",
+    "git_commit": "1c9ca7e8d161c0519be3f536b6e2f83f9530368b",
+    "git_dirty": true,
+    "dataset_sha256": "sha256:1d9552aa47fe28e7720869cb86a130dbad862ffe16ddc0fd876cd806cf29d2b1",
+    "corpus_sha256": null,
+    "effective_settings": {
+      "profile": "base",
+      "retriever": "bm25",
+      "generator": "extractive",
+      "chunker": "structural",
+      "embedding_model": "e5-small-multi",
+      "query_expansion": true,
+      "router": true,
+      "top_k": 5,
+      "candidates": 50,
+      "use_graph": false,
+      "planner": false,
+      "evidence_eval": false,
+      "evidence_mode": "on_abstain",
+      "max_rewrites": 1,
+      "secondary_search": false,
+      "secondary_mode": "append",
+      "secondary_k": 3,
+      "secondary_franchise": false,
+      "memory_notes": false,
+      "only_games": [],
+      "security_guards": true,
+      "spoiler_gates": true,
+      "tool_timeout_s": 0.3,
+      "llm_model": "claude-haiku-5-5",
+      "llm_cache": true,
+      "llm_offline": true,
+      "llm_max_tokens": 1024,
+      "llm_price_input": 0.1,
+      "llm_price_output": 0.5,
+      "llm_run_budget_usd": 1.0
+    },
+    "configuration_sha256": "sha256:abdfda2f71b306d54ad7fc9d95262be02d177ab232fdf76853d1e01ff8236df0",
+    "implementation_sha256": "sha256:1726f8b49aec1ffa64c46d305ce2109bae1fdc826381155131682d07916e32ef",
+    "evidence_format": "authorized_final_context",
+    "human_review": false,
+    "retriever": "bm25",
+    "generator": "extractive"
+  },
+  "by_category": {
+    "nominal": {
+      "passed": 6,
+      "n": 6
+    },
+    "wrong_tool": {
+      "passed": 8,
+      "n": 8
+    },
+    "out_of_range": {
+      "passed": 3,
+      "n": 3
+    },
+    "confirmation": {
+      "passed": 6,
+      "n": 6
+    },
+    "degradation": {
+      "passed": 3,
+      "n": 3
+    }
+  },
+  "tool_selection_accuracy": 1,
+  "overall": 1,
+  "tool_latency_ms_mean": 0.24,
+  "false_trigger": {
+    "n": 165,
+    "routed_to_tool": 0,
+    "examples": []
+  },
+  "cases": [
+    {
+      "id": "tool_nominal_00",
+      "category": "nominal",
+      "question": "list all the bosses in the first quest",
+      "passed": true,
+      "expected": {
+        "route": "query_game_facts",
+        "tool_used": "query_game_facts",
+        "answered": true,
+        "min_sources": 1
+      },
+      "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 5, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Dungeon bosses:\n- First quest, level 1: Aquamentus (HP 6, damage 2 / 1)\n- First quest, level 2: Dodongo (HP 1*, damage 2)\n- First quest, level 3: Manhandla (HP 16, damage 2)\n- First quest, level 4: Gleeok (HP 10 / 15 / 20, damage 2)\n- First quest, level 5: Digdogger (HP 8*, damage 4)\n- First quest, level 6: Gohma (HP 2* / 6*, damage 4 / 2)\n- First quest, level 7: Aquamentus (HP 6, damage 2 / 1)\n- First quest, level 8: Gleeok (HP 10 / 15 / 20, damage 2)\n- First quest, level 9: Ganon (HP 16*, damage 8 / 2)",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:000"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:001"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:002"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:003"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:004"
+          }
+        ],
+        "abstained": false,
+        "tool_used": "query_game_facts",
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "90be3db3c757419bad89b8188d410d20"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "text": "Name: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss).\nName: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 7 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "ff469159e677d6a3fa5938e94789c7973d7132a86c38cc6e0d5a3880a9f7289f",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:5ba4cd09285bd7cc8fa1e0cd0aa66eae27c4772a4064cf2199a65694518a5c69",
+          "text": "Name: Dodongo | HP: 1* | Damage: 2 | Description: 1st Quest: 2 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "a8bfd8e7f1106dc53de857908777154664f576299ef56aa96b1846ee0d75150b",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:096e5b10a414b1763e46b54e0ce2e005609bfd80fcc1645397d9b3bd8ef1944e",
+          "text": "Name: Manhandla | HP: 16 | Damage: 2 | Description: 1st Quest: 3 (Boss).\nName: Gleeok | HP: 10 / 15 / 20 | Damage: 2 | Description: 1st Quest: 4 (Boss).\nName: Gleeok | HP: 10 / 15 / 20 | Damage: 2 | Description: 1st Quest: 8 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "17a553e4b0cfea4ac0497a185192d4c661d6d1a85233a85fc999b3b9854251f6",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:003",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:9ed631398f833cb9db3f76e898c3506eb36b2d39da7a334df2cdc4151ee34dd7",
+          "text": "Name: Digdogger | HP: 8* | Damage: 4 | Description: 1st Quest: 5 (Boss).\nName: Gohma | HP: 2* / 6* | Damage: 4 / 2 | Description: 1st Quest: 6 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "59984726a481a5ebcd5e146053f15075d85dd2eed643ed3ab4e9e4f5a5773dfe",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:004",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:2e3ef707c11c0a0e89aa2c717e8fe93c1f547632332ccd993b13d9a65ad613fa",
+          "text": "Name: Ganon | HP: 16* | Damage: 8 / 2 | Description: 1st Quest: 9 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "42a40718e934d4b2ad16503aef0c8ff23439b36dcdfc5cdc3291b9847d24ac05",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "90be3db3c757419bad89b8188d410d20",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.058
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 1.99
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.091
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_nominal_01",
+      "category": "nominal",
+      "question": "who are the bosses of the second quest?",
+      "passed": true,
+      "expected": {
+        "route": "query_game_facts",
+        "answered": true,
+        "min_sources": 1
+      },
+      "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 5, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Dungeon bosses:\n- Second quest, level 1: Aquamentus (HP 6, damage 2 / 1)\n- Second quest, level 2: Gleeok (HP 10 / 15 / 20, damage 2)\n- Second quest, level 3: Dodongo (HP 1*, damage 2)\n- Second quest, level 4: Digdogger (HP 8*, damage 4)\n- Second quest, level 5: Gleeok (HP 10 / 15 / 20, damage 2)\n- Second quest, level 6: Gohma (HP 2* / 6*, damage 4 / 2)\n- Second quest, level 7: Gleeok (HP 10 / 15 / 20, damage 2)\n- Second quest, level 8: Dodongo (HP 1*, damage 2)\n- Second quest, level 9: Ganon (HP 16*, damage 8 / 2)",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:000"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:002"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:001"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:003"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:004"
+          }
+        ],
+        "abstained": false,
+        "tool_used": "query_game_facts",
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "c2e64677641045ddab33dbd27137cff8"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "text": "Name: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 2nd Quest: 1 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "0f3f3ce4d716973ff636f4652031af99369294d0b57be228ad0f147857e7b253",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:096e5b10a414b1763e46b54e0ce2e005609bfd80fcc1645397d9b3bd8ef1944e",
+          "text": "Name: Gleeok | HP: 10 / 15 / 20 | Damage: 2 | Description: 2nd Quest: 2 (Boss).\nName: Gleeok | HP: 10 / 15 / 20 | Damage: 2 | Description: 2nd Quest: 5 (Boss).\nName: Gleeok | HP: 10 / 15 / 20 | Damage: 2 | Description: 2nd Quest: 7 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "0ae04eb9eecb2751aaea4460c8f7fcbdde113bb028155e48b8b157e2e9deeaec",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:5ba4cd09285bd7cc8fa1e0cd0aa66eae27c4772a4064cf2199a65694518a5c69",
+          "text": "Name: Dodongo | HP: 1* | Damage: 2 | Description: 2nd Quest: 3 (Boss).\nName: Dodongo | HP: 1* | Damage: 2 | Description: 2nd Quest: 8 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "54d5f89114549a2aa1f35881c7d81810f0e9c747c65bdb26e58cd7c250d97443",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:003",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:9ed631398f833cb9db3f76e898c3506eb36b2d39da7a334df2cdc4151ee34dd7",
+          "text": "Name: Digdogger | HP: 8* | Damage: 4 | Description: 2nd Quest: 4 (Boss).\nName: Gohma | HP: 2* / 6* | Damage: 4 / 2 | Description: 2nd Quest: 6 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "9e7535c12f5ea5ae0f6a89b7f8face91e21a18eab1f0fc0326e5165cfc41228f",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:004",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:2e3ef707c11c0a0e89aa2c717e8fe93c1f547632332ccd993b13d9a65ad613fa",
+          "text": "Name: Ganon | HP: 16* | Damage: 8 / 2 | Description: 2nd Quest: 9 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "a15097b0bda37a9a7a03a4380fb029ac409d4db6cf635fcc88335edcf459804a",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "c2e64677641045ddab33dbd27137cff8",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.029
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.454
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.078
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_nominal_02",
+      "category": "nominal",
+      "question": "list the bosses",
+      "passed": true,
+      "expected": {
+        "route": "query_game_facts",
+        "answered": true,
+        "min_blocked_rows": 1
+      },
+      "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"status\": \"ok\", \"sources\": 2, \"blocked_rows\": 7, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Dungeon bosses:\n- First quest, level 1: Aquamentus (HP 6, damage 2 / 1)\n- First quest, level 2: Dodongo (HP 1*, damage 2)\n(7 more hidden: content you have not unlocked yet.)",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:000"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:001"
+          }
+        ],
+        "abstained": false,
+        "tool_used": "query_game_facts",
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "6ca6609eb9164f238ac2e2bda8bc10ce"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "text": "Name: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "df646580c29d6e87ecba913a40d53e514aab6c5198380eb2bd0b98059c484312",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:5ba4cd09285bd7cc8fa1e0cd0aa66eae27c4772a4064cf2199a65694518a5c69",
+          "text": "Name: Dodongo | HP: 1* | Damage: 2 | Description: 1st Quest: 2 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "a8bfd8e7f1106dc53de857908777154664f576299ef56aa96b1846ee0d75150b",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "6ca6609eb9164f238ac2e2bda8bc10ce",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.02
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.598
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.036
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_nominal_03",
+      "category": "nominal",
+      "question": "what should I do next?",
+      "passed": true,
+      "expected": {
+        "route": "next_available_levels",
+        "tool_used": "next_available_levels",
+        "answered": true
+      },
+      "observed": "{\"route\": \"next_available_levels\", \"tool_used\": \"next_available_levels\", \"status\": \"ok\", \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "First quest. Completed levels: 1. You are currently on level 2. Levels not completed yet: 2, 3, 4, 5, 6, 7, 8, 9. In this game the dungeons can be done in any order, though higher numbers are usually harder.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "next_available_levels",
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "f0945627b2324127b8aa590aef66706c"
+      },
+      "final_evidence": [],
+      "trace_id": "f0945627b2324127b8aa590aef66706c",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.017
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.108
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.039
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_nominal_04",
+      "category": "nominal",
+      "question": "¿qué debo hacer ahora?",
+      "passed": true,
+      "expected": {
+        "route": "next_available_levels",
+        "answered": true
+      },
+      "observed": "{\"route\": \"next_available_levels\", \"tool_used\": \"next_available_levels\", \"status\": \"ok\", \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Main quest. Completed levels: 1. You are currently on level 2. Levels not completed yet: 2, 3, 4, 5, 6, 7, 8, 9. In this game the dungeons can be done in any order, though higher numbers are usually harder.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "next_available_levels",
+        "needs_human_review": false,
+        "game": "oot",
+        "blocked_by_spoiler": false,
+        "trace_id": "f02eda2733d24a94aa090e82ea99b875"
+      },
+      "final_evidence": [],
+      "trace_id": "f02eda2733d24a94aa090e82ea99b875",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.016
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.057
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.029
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_nominal_05",
+      "category": "nominal",
+      "question": "which dungeons can I do next?",
+      "passed": true,
+      "expected": {
+        "route": "next_available_levels",
+        "answered": true
+      },
+      "observed": "{\"route\": \"next_available_levels\", \"tool_used\": \"next_available_levels\", \"status\": \"ok\", \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Main quest. Completed levels: 1, 2, 3, 4. You are currently on level 5. Levels not completed yet: 5, 6, 7, 8, 9. In this game the dungeons can be done in any order, though higher numbers are usually harder.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "next_available_levels",
+        "needs_human_review": false,
+        "game": "oot",
+        "blocked_by_spoiler": false,
+        "trace_id": "7c9b225fba0d4b7a8744fd4f17e609bc"
+      },
+      "final_evidence": [],
+      "trace_id": "7c9b225fba0d4b7a8744fd4f17e609bc",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.018
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.04
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.029
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_wrong_tool_00",
+      "category": "wrong_tool",
+      "question": "How do I beat the boss of level 3?",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "tool_used": null
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Boss] Triforce Room: This is the only dungeon in either quest whose boss room is not adjacent to the Triforce room. - The bosses of the dungeon are three Dodongos. Defeat them in the usual manner, either by feeding them two bombs, or blowing up a bomb in their face and stabbing them. Collect the Heart Container when you beat all of them.\n[2] [Objectives] - Obtain the Raft. - Beat Manhandla. - Obtain a Heart Container. - Obtain the third Piece of Triforce.\n[3] [Objectives] - Obtain the Magic Boomerang. - Beat three Dodongos. - Obtain a Heart Container. - Obtain the third Triforce piece.",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+            "page": 3,
+            "chunk_id": "zelda1:underworld-quest-2-dungeon-3:002"
+          },
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 3",
+            "page": 0,
+            "chunk_id": "zelda1:underworld-quest-1-dungeon-3:000"
+          },
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+            "page": 0,
+            "chunk_id": "zelda1:underworld-quest-2-dungeon-3:000"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "6d829ae0b600473197adc757ef0aeffe"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+          "page": 3,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_3",
+          "section": "Boss",
+          "version": "revid:890060",
+          "source_hash": "sha256:b00281861299a81a5566163b7612a0378024c51c4ca9072ff7cd31c2e9d90b15",
+          "text": "[Boss]\nTriforce Room: This is the only dungeon in either quest whose boss room is not adjacent to the Triforce room.\n- The bosses of the dungeon are three Dodongos. Defeat them in the usual manner, either by feeding them two bombs, or blowing up a bomb in their face and stabbing them. Collect the Heart Container when you beat all of them.",
+          "is_excerpt": false,
+          "evidence_hash": "b00281861299a81a5566163b7612a0378024c51c4ca9072ff7cd31c2e9d90b15",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 3",
+          "page": 0,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_3",
+          "section": "Objectives",
+          "version": "revid:1125346",
+          "source_hash": "sha256:7fba6b2389df633f8a8c1d3bbdf998b5d2a116442133b0e402cc54074d4308f3",
+          "text": "[Objectives]\n- Obtain the Raft.\n- Beat Manhandla.\n- Obtain a Heart Container.\n- Obtain the third Piece of Triforce.",
+          "is_excerpt": false,
+          "evidence_hash": "7fba6b2389df633f8a8c1d3bbdf998b5d2a116442133b0e402cc54074d4308f3",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+          "page": 0,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_3",
+          "section": "Objectives",
+          "version": "revid:890060",
+          "source_hash": "sha256:e97cbee6a324937f6dc49d1ac2ec60c58e2ed8bb2279ba04551dcb20bc1037b3",
+          "text": "[Objectives]\n- Obtain the Magic Boomerang.\n- Beat three Dodongos.\n- Obtain a Heart Container.\n- Obtain the third Triforce piece.",
+          "is_excerpt": false,
+          "evidence_hash": "e97cbee6a324937f6dc49d1ac2ec60c58e2ed8bb2279ba04551dcb20bc1037b3",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 3",
+          "page": 2,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:003",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_3",
+          "section": "Boss",
+          "version": "revid:1125346",
+          "source_hash": "sha256:7c83b6336fc52d6db964564d10e614309dbfa87f800fd615be0447470eb7996f",
+          "text": "[Boss]\n- The boss is a Manhandla. To defeat it, you must remove all four heads. You can do so by stabbing each one individually, but it's faster to place a well timed bomb that explodes on the center of the body, eliminating all four heads at one time. Since Manhandla moves unpredictably, it takes a little luck to drop the bomb at just the right place.\n- Defeat it to earn a Heart Container. Continue on to the room above to obtain the third Piece of Triforce.",
+          "is_excerpt": false,
+          "evidence_hash": "7c83b6336fc52d6db964564d10e614309dbfa87f800fd615be0447470eb7996f",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 3",
+          "page": 1,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-3:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_3",
+          "section": "Dungeon walkthrough",
+          "version": "revid:1125346",
+          "source_hash": "sha256:8261f0c7ef5fdf712738602c1fa06a0d8537faef84716a99ba4cf9e3247222ef",
+          "text": "[Dungeon walkthrough]\n- From the four door room, head right to next room and obtain the Map. You can bomb the right wall to expose a shortcut to the dungeon boss.\n- Otherwise, from the map room, head down to the room below, clear it of the three Red Darknuts, head right and defeat the three Keese and two Zols, and open the door above.",
+          "is_excerpt": false,
+          "evidence_hash": "8261f0c7ef5fdf712738602c1fa06a0d8537faef84716a99ba4cf9e3247222ef",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "6d829ae0b600473197adc757ef0aeffe",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.023
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.013
+        },
+        {
+          "name": "retrieved",
+          "query": "How do I beat the boss of level 3?",
+          "variants": [
+            "How do I beat the boss of level 3?"
+          ],
+          "context": [
+            "zelda1:underworld-quest-2-dungeon-3:002",
+            "zelda1:underworld-quest-1-dungeon-3:000",
+            "zelda1:underworld-quest-2-dungeon-3:000",
+            "zelda1:underworld-quest-1-dungeon-3:003",
+            "zelda1:underworld-quest-1-dungeon-3:002"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 50
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 3.329
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.019
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.093
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_wrong_tool_01",
+      "category": "wrong_tool",
+      "question": "What is the best weapon against Aquamentus?",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "tool_used": null
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [(intro)] Many bosses are recurring in the game. Here they are sorted by first appearance in the first quest. Note: HP is based on weapon damage. Those marked with a \"*\" requires special methods to defeat it. Name: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss), 7 (Boss).; 2nd Quest: 1 (Boss), 4, 8.; A dragon that shoots fireballs that split in three directions and can only…\n[2] [General Tips] - In the second quest, it is also possible to walk through certain walls that are simply illusions. To do so, push against the wall until access to the room beyond is granted. - When fighting against monsters, Link is capable of swinging his sword upwards through a block, and still hit a monster directly above the block on the opposite side. He can not do this in any other…\n[3] [Dungeon items > Heart Container] Gives an additional heart to Link's life meter permanently, enabling him to take more damage before perishing. At some points in the game, Link can choose between a Heart Container and a Potion bottle. Since the Heart Container is a permanent item, it is always the best choice.",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:000"
+          },
+          {
+            "source": "The Legend of Zelda/Underworld",
+            "page": 1,
+            "chunk_id": "zelda1:underworld:002"
+          },
+          {
+            "source": "The Legend of Zelda/Items",
+            "page": 19,
+            "chunk_id": "zelda1:items:018"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "51da57986e414d6ea0a3fb896b3471a2"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "text": "[(intro)]\nMany bosses are recurring in the game. Here they are sorted by first appearance in the first quest.\nNote: HP is based on weapon damage. Those marked with a \"*\" requires special methods to defeat it.\nName: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss), 7 (Boss).; 2nd Quest: 1 (Boss), 4, 8.; A dragon that shoots fireballs that split in three directions and can only be blocked by the Magical Shield. Vulnerable to the Sword and Arrows. Can also be killed by two Bombs. Aquamentus is the boss of dungeons one and seven of the first quest, but only of dungeon one in the second quest.",
+          "is_excerpt": false,
+          "evidence_hash": "71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld",
+          "page": 1,
+          "chunk_id": "zelda1:underworld:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld",
+          "section": "General Tips",
+          "version": "revid:479583",
+          "source_hash": "sha256:62d2c4e864b8ba9189df8c52ee10bbeb51d6546c69da654c4056f2ef35654198",
+          "text": "[General Tips]\n- In the second quest, it is also possible to walk through certain walls that are simply illusions. To do so, push against the wall until access to the room beyond is granted.\n- When fighting against monsters, Link is capable of swinging his sword upwards through a block, and still hit a monster directly above the block on the opposite side. He can not do this in any other direction other than up.\n- Another useful tactic when fighting monsters is using the ladder to position yourself safely on water where the monsters are incapable of reaching you. This is particularly effective against Darknuts, but completely ineffective against blue Wizzrobes who can still collide in to you while levitating over the water.",
+          "is_excerpt": false,
+          "evidence_hash": "62d2c4e864b8ba9189df8c52ee10bbeb51d6546c69da654c4056f2ef35654198",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 19,
+          "chunk_id": "zelda1:items:018",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "Dungeon items > Heart Container",
+          "version": "revid:1041432",
+          "source_hash": "sha256:78aad53a9b7596800ed90bfbf0c478dd1f840b342d28b2ea947d95bf74c0b027",
+          "text": "[Dungeon items > Heart Container]\nGives an additional heart to Link's life meter permanently, enabling him to take more damage before perishing.\nAt some points in the game, Link can choose between a Heart Container and a Potion bottle. Since the Heart Container is a permanent item, it is always the best choice.",
+          "is_excerpt": false,
+          "evidence_hash": "78aad53a9b7596800ed90bfbf0c478dd1f840b342d28b2ea947d95bf74c0b027",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 8",
+          "page": 1,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_8",
+          "section": "Walkthrough > Pre-requisites",
+          "version": "revid:813226",
+          "source_hash": "sha256:2998444b7fd7bf8544a93c0c00f5fb637c3259f4d0223eadd5db061b3211a5ae",
+          "text": "[Walkthrough > Pre-requisites]\n- Ladder\n- Bomb\n- Monster Bait\n[Walkthrough > Dungeon Walkthrough]\nTo find the entrance to this dungeon, you must bomb along the cliff wall to the north of the stream in Section 3. You will need to use the ladder, and you will find the entrance in C-2, about a fourth to a third of the way in from the left side. To complete this dungeon, you will need to purchase Monster Bait.\n- From the entrance, head through the top door and you'll enter a room full of red Bubbles. Doing your best to avoid them, push the left most block to reveal a staircase to an underground passage. Take the stairs and use the passage.\n- If you do happen to get hit, go through the underground passage anyway. When you arrive, instead of fighting the Goriyas, simply go right to find blue Bubbles. You'll have to push the left block to find an underground passage that brings you a few rooms up from where you started. Just head south to return to the red Bubble room and try again.\n- Fight the Goriyas and push against the south wall to find an invisible passage. You encounter three Dodongos. Unlock the door below and go through.",
+          "is_excerpt": false,
+          "evidence_hash": "2998444b7fd7bf8544a93c0c00f5fb637c3259f4d0223eadd5db061b3211a5ae",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:004",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:2e3ef707c11c0a0e89aa2c717e8fe93c1f547632332ccd993b13d9a65ad613fa",
+          "text": "[(intro)]\nName: Ganon | HP: 16* | Damage: 8 / 2 | Description: 1st Quest: 9 (Boss).; 2nd Quest: 9 (Boss).; The final boss. Capable of becoming invisible and moving around the room. Link must use his judgment and stab at the place where he predicts Ganon will materialize next. After wounding him enough, he will become stunned and visible. Then only a single attack from the special the Silver Arrows can do him in and allow Link to save the Princess. Without this weapon, Ganon will gain his strength back and continue his assault on Link. The weapon can only be found in the final dungeon, but can Link locate it? Ganon is the boss of the final dungeons, dungeon nine of the first and second quests.",
+          "is_excerpt": false,
+          "evidence_hash": "2e3ef707c11c0a0e89aa2c717e8fe93c1f547632332ccd993b13d9a65ad613fa",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "51da57986e414d6ea0a3fb896b3471a2",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.025
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.013
+        },
+        {
+          "name": "retrieved",
+          "query": "What is the best weapon against Aquamentus?",
+          "variants": [
+            "What is the best weapon against Aquamentus?",
+            "What is the best weapon against Aquamentus? sword"
+          ],
+          "context": [
+            "zelda1:bosses:000",
+            "zelda1:underworld:002",
+            "zelda1:items:018",
+            "zelda1:underworld-quest-2-dungeon-8:001",
+            "zelda1:bosses:004"
+          ],
+          "candidate_count": 24,
+          "allowed_count": 24
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 2.185
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.041
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.175
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_wrong_tool_02",
+      "category": "wrong_tool",
+      "question": "Which items should I buy in the shop?",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "tool_used": null
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [B Button items > Bow and Arrows] Damage: 2 (wooden); 4 (silver) You need a Bow to shoots Arrows and you must purchase Arrows from a shop before you can use the bow. When shot from the bow, each arrow shot subtracts one Rupee from Link's total. The Silver Arrow is required to save Princess Zelda.\n[2] [Buy the arrows] After heading back to the western Fairy Fountain, leave and walk two screens west. Burn the tree in the lower-right corner to get 10 Rupees. Walk one screen south and one east. This screen is divided in two by a line of trees. Burn the top tree in the line to get 100 Rupees. Go north one screen then east two screens, to the coast of Lake Hylia. Go one screen north, then enter the…\n[3] [Shop Keeper] Various shop keepers ply their trade throughout Hyrule offering common and uncommon goods alike. They often set up shop in many of Hyrule's cliff side caves, but some are harder to locate than others. Link's persistent searching is well rewarded as many of the hidden shop keepers have lower prices on essential items. Only one shop keeper however has the precious Blue Ring that…",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Items",
+            "page": 9,
+            "chunk_id": "zelda1:items:008"
+          },
+          {
+            "source": "The Legend of Zelda/Overworld/Quest 1",
+            "page": 9,
+            "chunk_id": "zelda1:overworld-quest-1:010"
+          },
+          {
+            "source": "The Legend of Zelda/Citizens",
+            "page": 2,
+            "chunk_id": "zelda1:citizens:002"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "57b1761f0b134c218005adf6d5754f41"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 9,
+          "chunk_id": "zelda1:items:008",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "B Button items > Bow and Arrows",
+          "version": "revid:1041432",
+          "source_hash": "sha256:af617fe06d94c0b5ae4a2389de1e769c3ae241980ff09fc8ee9660911834d98e",
+          "text": "[B Button items > Bow and Arrows]\nDamage: 2 (wooden); 4 (silver)\nYou need a Bow to shoots Arrows and you must purchase Arrows from a shop before you can use the bow. When shot from the bow, each arrow shot subtracts one Rupee from Link's total. The Silver Arrow is required to save Princess Zelda.",
+          "is_excerpt": false,
+          "evidence_hash": "af617fe06d94c0b5ae4a2389de1e769c3ae241980ff09fc8ee9660911834d98e",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 9,
+          "chunk_id": "zelda1:overworld-quest-1:010",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+          "section": "Buy the arrows",
+          "version": "revid:966859",
+          "source_hash": "sha256:5d94aa6420b4c2afd13eae312a3cc559d5ed333f9c84a908ceac423d7a7fcae5",
+          "text": "[Buy the arrows]\nAfter heading back to the western Fairy Fountain, leave and walk two screens west. Burn the tree in the lower-right corner to get 10 Rupees.\nWalk one screen south and one east. This screen is divided in two by a line of trees. Burn the top tree in the line to get 100 Rupees.\nGo north one screen then east two screens, to the coast of Lake Hylia. Go one screen north, then enter the shop to buy the Arrows for 80 Rupees.",
+          "is_excerpt": false,
+          "evidence_hash": "5d94aa6420b4c2afd13eae312a3cc559d5ed333f9c84a908ceac423d7a7fcae5",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Citizens",
+          "page": 2,
+          "chunk_id": "zelda1:citizens:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Citizens",
+          "section": "Shop Keeper",
+          "version": "revid:971330",
+          "source_hash": "sha256:4b815a4b1700bee5ffc8af7ac4ce32b56d43328dd23b67d14b65ec0cc1338c5c",
+          "text": "[Shop Keeper]\nVarious shop keepers ply their trade throughout Hyrule offering common and uncommon goods alike. They often set up shop in many of Hyrule's cliff side caves, but some are harder to locate than others. Link's persistent searching is well rewarded as many of the hidden shop keepers have lower prices on essential items. Only one shop keeper however has the precious Blue Ring that grants protection. In the table below, best deals are in bold.\nShop: Candle shops | Goods and prices: Blue Candle 60 R.; Key 100 R.; Magical Shield 160 R. | Locations: Green Rocks; Green Forest; Eastern Mountains\nShop: Arrow shops | Goods and prices: Arrow 80 R.; Bomb 20 R.; Magical Shield 130 R. | Locations: Lake Hylia; Green Forest; Seashore; Death Mountain\nShop: Shield shops | Goods and prices: Magical Shield 90 R.; Heart 10 R.; Monster Bait 100 R. | Locations: Lake Hylia (burn a tree with a candle); Green Forest (burn a tree with a candle); Death Mountain (bomb a rock wall); Death Mountain (bomb a rock wall)\nShop: Ring shop | Goods and prices: Blue Ring 250 R.; Monster Bait 60 R.; Key 80 R. | Locations: Lake Hylia (push an Armos statue)",
+          "is_excerpt": false,
+          "evidence_hash": "4b815a4b1700bee5ffc8af7ac4ce32b56d43328dd23b67d14b65ec0cc1338c5c",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 5",
+          "page": 1,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-5:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_5",
+          "section": "Walkthrough > Pre-requisites",
+          "version": "revid:813223",
+          "source_hash": "sha256:96beb79db80d37b1b859eaca23993ffce82ad9b0e12d8b2e0873f802deccdd59",
+          "text": "[Walkthrough > Pre-requisites]\n- Raft\n[Walkthrough > Dungeon Walkthrough]\nTo find this dungeon, launch your raft from the same dock that you launched from to find the fourth dungeon of the first quest. If you haven't yet already purchased some arrows, you may want to go buy some, though the only use you'll have for them in this dungeon is one Gohma, and defeating the Gohma will only give you a key. If you want to buy the arrows, from the dock, the nearest shop, although only one screen to the west, is only reachable by detouring one screen south, one screen west, and then two screens north - the shop, which is in the cave, sells arrows for 80 rupees.\n- From the entrance, go through the top door. Avoid the traps, defeat the Zols, and enter through the left door.\n- Avoid the traps and defeat all of the Like-Likes to obtain a blue rupee. Unlock the bottom door and go through.\n- Avoiding the red bubbles, fight the Wizzrobes and push against the left wall to walk through an invisible passage.\n- Defeat all of the Keese and collect the key and walk back through the right wall. Enter the stairwell to the underground passage that will lead you to the top of the dungeon.",
+          "is_excerpt": false,
+          "evidence_hash": "96beb79db80d37b1b859eaca23993ffce82ad9b0e12d8b2e0873f802deccdd59",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 7,
+          "chunk_id": "zelda1:overworld-quest-1:008",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+          "section": "Buy the blue ring",
+          "version": "revid:966859",
+          "source_hash": "sha256:70d56b2340f5c6393f22c8977b1add1124a465a2a09c665fea1b5406abbc8c00",
+          "text": "[Buy the blue ring]\nAfter purchasing the potion, you should be left with at least 60 Rupees, plus all the Rupees dropped by monsters.\nClimb down the stairs and walk two screens east, until you get to a dead end. Stand directly next to the right-hand branch of the bigger tree, and walk north straight into the rock wall: you'll get to a secret area that grants you 100 Rupees.\nNow it's time to backtrack to the eastern Fairy Fountain and continue on until the western Fairy Fountain. If you remembered to leave one enemy alive on each screen, this should be feasible.\nLeave the western Fairy Fountain, and walk one screen east to the coast of Lake Hylia. Follow the coast two screens north. On the top screen, push the upper-middle Armos to reveal a shop. There, you can buy the fabled Blue Ring for a whopping 250 Rupees.",
+          "is_excerpt": false,
+          "evidence_hash": "70d56b2340f5c6393f22c8977b1add1124a465a2a09c665fea1b5406abbc8c00",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "57b1761f0b134c218005adf6d5754f41",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.027
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.012
+        },
+        {
+          "name": "retrieved",
+          "query": "Which items should I buy in the shop?",
+          "variants": [
+            "Which items should I buy in the shop?"
+          ],
+          "context": [
+            "zelda1:items:008",
+            "zelda1:overworld-quest-1:010",
+            "zelda1:citizens:002",
+            "zelda1:underworld-quest-2-dungeon-5:001",
+            "zelda1:overworld-quest-1:008"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 50
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 3.911
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.03
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.167
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_wrong_tool_03",
+      "category": "wrong_tool",
+      "question": "List the items you can find in level 2",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "tool_used": null
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Walkthrough > Advised Preparation] The amount of preparation advised is too much to list here; see Quest 1 to see a comprehensive guide.\n[2] [(intro)] - Level-2 - Location: The entrance to this dungeon is easily found at A-1 of section 2. Approach it from the area to the south. If you have the Power Bracelet, the closest Secret Passage is S4B2.\n[3] [Dungeon items > Map] Gives a map of the current dungeon so that you won't get lost as easily. Every dungeon has one, try to find it as soon as possible.",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 1",
+            "page": 1,
+            "chunk_id": "zelda1:underworld-quest-1-dungeon-1:001"
+          },
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 2",
+            "page": 0,
+            "chunk_id": "zelda1:underworld-quest-1-dungeon-2:000"
+          },
+          {
+            "source": "The Legend of Zelda/Items",
+            "page": 18,
+            "chunk_id": "zelda1:items:017"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "0c18515a186240debadb820cd990f544"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 1",
+          "page": 1,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_1",
+          "section": "Walkthrough > Advised Preparation",
+          "version": "revid:1125345",
+          "source_hash": "sha256:d69e4a858243314947a0efd452bb7b5fccaa20a14c5aa2630bf968a82ecd3550",
+          "text": "[Walkthrough > Advised Preparation]\nThe amount of preparation advised is too much to list here; see Quest 1 to see a comprehensive guide.",
+          "is_excerpt": false,
+          "evidence_hash": "d69e4a858243314947a0efd452bb7b5fccaa20a14c5aa2630bf968a82ecd3550",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 2",
+          "page": 0,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-2:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_2",
+          "section": "(intro)",
+          "version": "revid:1125344",
+          "source_hash": "sha256:d578399abae4fecd3f24794f9cb7ae329ad55b29fa71055cbba7c3fb09f5a08d",
+          "text": "[(intro)]\n- Level-2\n- Location: The entrance to this dungeon is easily found at A-1 of section 2. Approach it from the area to the south. If you have the Power Bracelet, the closest Secret Passage is S4B2.",
+          "is_excerpt": false,
+          "evidence_hash": "d578399abae4fecd3f24794f9cb7ae329ad55b29fa71055cbba7c3fb09f5a08d",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 18,
+          "chunk_id": "zelda1:items:017",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "Dungeon items > Map",
+          "version": "revid:1041432",
+          "source_hash": "sha256:caf47bce40fab2f22a500f0bfce6dfa4b1f9dba64cfd061fa82b09aa19bc9049",
+          "text": "[Dungeon items > Map]\nGives a map of the current dungeon so that you won't get lost as easily. Every dungeon has one, try to find it as soon as possible.",
+          "is_excerpt": false,
+          "evidence_hash": "caf47bce40fab2f22a500f0bfce6dfa4b1f9dba64cfd061fa82b09aa19bc9049",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 2",
+          "page": 0,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_2",
+          "section": "Objectives",
+          "version": "revid:820385",
+          "source_hash": "sha256:1eecb90e98088abb4ce13455fce78dbf735458afb5dd9769994fb19cd82b5237",
+          "text": "[Objectives]\n- Obtain the Whistle.\n- Beat a two headed Gleeok.\n- Obtain a Heart Container.\n- Obtain the second Triforce piece.",
+          "is_excerpt": false,
+          "evidence_hash": "1eecb90e98088abb4ce13455fce78dbf735458afb5dd9769994fb19cd82b5237",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 2",
+          "page": 3,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-2:005",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_2",
+          "section": "Resupply",
+          "version": "revid:820385",
+          "source_hash": "sha256:3e24a836295b3a5c08e95f3563dd8b3ef04f7e2f002eac8492313877f1c64364",
+          "text": "[Resupply]\n- Bombs are one screen south, and medicine is three screens south.\n- A fairy pool is one screen southwest.",
+          "is_excerpt": false,
+          "evidence_hash": "3e24a836295b3a5c08e95f3563dd8b3ef04f7e2f002eac8492313877f1c64364",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "0c18515a186240debadb820cd990f544",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.034
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.012
+        },
+        {
+          "name": "retrieved",
+          "query": "List the items you can find in level 2",
+          "variants": [
+            "List the items you can find in level 2"
+          ],
+          "context": [
+            "zelda1:underworld-quest-1-dungeon-1:001",
+            "zelda1:underworld-quest-1-dungeon-2:000",
+            "zelda1:items:017",
+            "zelda1:underworld-quest-2-dungeon-2:000",
+            "zelda1:underworld-quest-2-dungeon-2:005"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 50
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 1.401
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.015
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.088
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_wrong_tool_04",
+      "category": "wrong_tool",
+      "question": "¿Cómo derroto al jefe del nivel 3?",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "tool_used": null
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [1st Quest] C-3: If you bomb the north wall directly over the southern path, you will reveal a hidden shop that sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees. D-3: See Section 3 A-4: See Section 6\n[2] [2nd Quest] B-3: The shop in the cave sells (the ability to use) Arrows for 80 rupees, the Magical Shield for 130 rupees, and a set of 4 Bombs for 20 rupees. C-3: If you bomb the north wall directly over the southern path, you will reveal a hidden shop that sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees. D-3: See Section 3 A-4: See Section…\n[3] [2nd Quest] C-2: If you bomb the wall to the left of the leftmost tree, you can discover a shop which sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees. D-2: By bombing the right side of the northernmost wall, you can find a cave where you will receive 30 Rupees. A-3: One of the center tombstones is actually a hidden entrance to a man with an…",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Overworld/Hyrule 5",
+            "page": 1,
+            "chunk_id": "zelda1:overworld-hyrule-5:002"
+          },
+          {
+            "source": "The Legend of Zelda/Overworld/Hyrule 5",
+            "page": 2,
+            "chunk_id": "zelda1:overworld-hyrule-5:004"
+          },
+          {
+            "source": "The Legend of Zelda/Overworld/Hyrule 7",
+            "page": 2,
+            "chunk_id": "zelda1:overworld-hyrule-7:003"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "667ccc579d664ed7b0765d98f98e075e"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 5",
+          "page": 1,
+          "chunk_id": "zelda1:overworld-hyrule-5:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_5",
+          "section": "1st Quest",
+          "version": "revid:1125506",
+          "source_hash": "sha256:c80054ed49a293e73f6307eed956c111e602a687f3d8cfc8c7a58c19bcd097d5",
+          "text": "[1st Quest]\nC-3: If you bomb the north wall directly over the southern path, you will reveal a hidden shop that sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees.\nD-3: See Section 3\nA-4: See Section 6",
+          "is_excerpt": false,
+          "evidence_hash": "c80054ed49a293e73f6307eed956c111e602a687f3d8cfc8c7a58c19bcd097d5",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 5",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-hyrule-5:004",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_5",
+          "section": "2nd Quest",
+          "version": "revid:1125506",
+          "source_hash": "sha256:537ca58a78162a6d84c48bfc30ac2c5a3cc85a7bd87c656ee55188231546becd",
+          "text": "[2nd Quest]\nB-3: The shop in the cave sells (the ability to use) Arrows for 80 rupees, the Magical Shield for 130 rupees, and a set of 4 Bombs for 20 rupees.\nC-3: If you bomb the north wall directly over the southern path, you will reveal a hidden shop that sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees.\nD-3: See Section 3\nA-4: See Section 6",
+          "is_excerpt": false,
+          "evidence_hash": "537ca58a78162a6d84c48bfc30ac2c5a3cc85a7bd87c656ee55188231546becd",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 7",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-hyrule-7:003",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_7",
+          "section": "2nd Quest",
+          "version": "revid:1125632",
+          "source_hash": "sha256:cf258e611ded1fc19a68c56eeccf343686cbeca1d9750334020be607449d3f40",
+          "text": "[2nd Quest]\nC-2: If you bomb the wall to the left of the leftmost tree, you can discover a shop which sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees.\nD-2: By bombing the right side of the northernmost wall, you can find a cave where you will receive 30 Rupees.\nA-3: One of the center tombstones is actually a hidden entrance to a man with an offer you can't refuse: an extra Heart Container.\nC-3: In this area, you won't find a dungeon entrance, but rather a Red Moblin who will give you 30 Rupees.\nD-3: This is one of the secret passage exits. You must have the Power Bracelet in order to move the rock which opens the entrance to the passage. The passage links to the other exits in Section 1 and Section 4.\nA-4: Playing a few notes on the Whistle are necessary to reveal the fact that one of the tombstones is in fact the entrance to the sixth dungeon.\nD-4: Bomb the wall between the two staircases to reveal the entrance to a cave where a medicine woman lives. If you have shown her the Letter she will sell you a Red Potion for 68 rupees, or a Water of Life for 40 rupees.\nC-5: See Section 8",
+          "is_excerpt": false,
+          "evidence_hash": "cf258e611ded1fc19a68c56eeccf343686cbeca1d9750334020be607449d3f40",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 3",
+          "page": 1,
+          "chunk_id": "zelda1:overworld-hyrule-3:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_3",
+          "section": "1st Quest",
+          "version": "revid:1125512",
+          "source_hash": "sha256:898b2ff46979dec76ccadc4302275af96f732482b56c533a35a2409665bcc281",
+          "text": "[1st Quest]\nA-4: Inside the tree, you will discover level one.\nB-4: Travel west along the bridge to find the entrance to the first dungeon.\nC-4: See Section 4",
+          "is_excerpt": false,
+          "evidence_hash": "898b2ff46979dec76ccadc4302275af96f732482b56c533a35a2409665bcc281",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 2",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-hyrule-2:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_2",
+          "section": "2nd Quest",
+          "version": "revid:1125509",
+          "source_hash": "sha256:c135e23eb7c82b65273c8df9ef2592e390bd2983727468d0c5a7a323910568fc",
+          "text": "[2nd Quest]\nA-1: The entrance to the third dungeon is hidden in the lake, and is revealed by the whistle.\nB-1: See Section 1\nB-2: Burn the south tree on the eastern most column to discover a hidden shop which sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees.\nC-2: Touch the right Armos to wake him up and move him off the stairwell that he guards. Enter the stairwell to receive 10 Rupees.\nC-3: The shop here sells a Magical Shield for 160 rupees, Keys for 100 rupees, and the Blue Candle for 60 rupees.\nD-3: If you have the Ladder, you can collect the Heart Container that is positioned on the far dock.\nA-4: If you burn down a certain tree on the left side that can only be burned from the right side, you will discover the entrance to the seventh dungeon.\nC-4: Some notes on the Whistle will reveal a staircase that leads to a Red Moblin who will give you 10 Rupees.\nD-4: In this shop, you can buy (the ability to use) Arrows for 80 rupees, the Magical Shield for 130 rupees, and a set of 4 Bombs for 20 rupees.",
+          "is_excerpt": false,
+          "evidence_hash": "c135e23eb7c82b65273c8df9ef2592e390bd2983727468d0c5a7a323910568fc",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "667ccc579d664ed7b0765d98f98e075e",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.022
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.012
+        },
+        {
+          "name": "retrieved",
+          "query": "¿Cómo derroto al jefe del nivel 3?",
+          "variants": [
+            "¿Cómo derroto al jefe del nivel 3?"
+          ],
+          "context": [
+            "zelda1:overworld-hyrule-5:002",
+            "zelda1:overworld-hyrule-5:004",
+            "zelda1:overworld-hyrule-7:003",
+            "zelda1:overworld-hyrule-3:002",
+            "zelda1:overworld-hyrule-2:002"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 50
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 3.822
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.03
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.171
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_wrong_tool_05",
+      "category": "wrong_tool",
+      "question": "What do the bosses drop when they die?",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "tool_used": null
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Underworld] Where two HP (hit points) are listed, the first one refers to the weaker red version, the second one to the stronger blue version. Sorting enemies by HP, you can see them in an order that is closely related to their overall strength. Moreover, weaker enemies are more common in early dungeons, while the strongest ones are more common in later dungeons. The three strongest enemies are…\n[2] [Overworld] One HP (hit point) is equivalent to one attack with the wooden sword. Where two different HP are listed, the first one refers to the weaker red version, the second one to the stronger blue version. Sorting enemies by HP, you can see them in an order that is closely related to their overall strength. Moreover, the strongest enemies can be encountered only in areas that can be accessed…\n[3] [(intro)] Many bosses are recurring in the game. Here they are sorted by first appearance in the first quest. Note: HP is based on weapon damage. Those marked with a \"*\" requires special methods to defeat it. Name: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss), 7 (Boss).; 2nd Quest: 1 (Boss), 4, 8.; A dragon that shoots fireballs that split in three directions and can only…",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Enemies",
+            "page": 1,
+            "chunk_id": "zelda1:enemies:003"
+          },
+          {
+            "source": "The Legend of Zelda/Enemies",
+            "page": 0,
+            "chunk_id": "zelda1:enemies:000"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:000"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "91bbfb8978fb4002a95af4dbb548600b"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Enemies",
+          "page": 1,
+          "chunk_id": "zelda1:enemies:003",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Enemies",
+          "section": "Underworld",
+          "version": "revid:1007594",
+          "source_hash": "sha256:d5227f4dc10f51d1cfede58b12f75fe4869b14a724b38c71423cedae393657fa",
+          "text": "[Underworld]\nWhere two HP (hit points) are listed, the first one refers to the weaker red version, the second one to the stronger blue version.\nSorting enemies by HP, you can see them in an order that is closely related to their overall strength. Moreover, weaker enemies are more common in early dungeons, while the strongest ones are more common in later dungeons. The three strongest enemies are often referred to as \"mini-bosses\" or \"sub-bosses\".\nDamage refers to the amount of 1/2 heart it takes. If an enemy does 2 damage, it means 1 full heart without a ring. Slashes separate by contact and projectile, if damage differs. Commas separate damage from enemy type.\nName: Keese | HP: 01 | Damage: 1 | Description: Bats that zoom around the room attempting to bite you. Like Gels, they never drop treasure, but they can be killed if hit with the boomerang.\nName: Stalfos | HP: 02 | Damage: 1 / 4 | Description: Enchanted skeletons that wander around in dungeon rooms. They carry a sword in each bony hand and can hurt you if they touch you. In the Second Quest, Stalfos are able to throw swords.",
+          "is_excerpt": false,
+          "evidence_hash": "d5227f4dc10f51d1cfede58b12f75fe4869b14a724b38c71423cedae393657fa",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Enemies",
+          "page": 0,
+          "chunk_id": "zelda1:enemies:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Enemies",
+          "section": "Overworld",
+          "version": "revid:1007594",
+          "source_hash": "sha256:c4707a64d2443a1caca9dff56c1667a12f6ae4ed7fa03f9c8180a3a3480a75b6",
+          "text": "[Overworld]\nOne HP (hit point) is equivalent to one attack with the wooden sword. Where two different HP are listed, the first one refers to the weaker red version, the second one to the stronger blue version.\nSorting enemies by HP, you can see them in an order that is closely related to their overall strength. Moreover, the strongest enemies can be encountered only in areas that can be accessed later in the game.\nName: Octorok | HP: 1 / 2 | Damage: 1 | Description: A common enemy and the first enemy that Link is likely to encounter. They shoot rocks from their snout which can be blocked by the basic Shield. Red variety is weak. Blue variety is slightly tougher. Blue Octoroks may drop Bombs as treasure when they are defeated.\nName: Tektite | HP: 1 / 1 | Damage: 1 | Description: Spider-like enemy that jumps unpredictably. They are capable of jumping over all terrain, including mountains and cliffs and other areas Link cannot get to. Blue variety may drop Bombs as treasure, but both usually drop a rupee as treasure.",
+          "is_excerpt": false,
+          "evidence_hash": "c4707a64d2443a1caca9dff56c1667a12f6ae4ed7fa03f9c8180a3a3480a75b6",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "text": "[(intro)]\nMany bosses are recurring in the game. Here they are sorted by first appearance in the first quest.\nNote: HP is based on weapon damage. Those marked with a \"*\" requires special methods to defeat it.\nName: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss), 7 (Boss).; 2nd Quest: 1 (Boss), 4, 8.; A dragon that shoots fireballs that split in three directions and can only be blocked by the Magical Shield. Vulnerable to the Sword and Arrows. Can also be killed by two Bombs. Aquamentus is the boss of dungeons one and seven of the first quest, but only of dungeon one in the second quest.",
+          "is_excerpt": false,
+          "evidence_hash": "71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-quest-1:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+          "section": "Get some bombs",
+          "version": "revid:966859",
+          "source_hash": "sha256:ac1dc07b25e74d1286f09c8d489f04ba2f23b498cf5ae33138d017ce5fcf5c54",
+          "text": "[Get some bombs]\nThe Fairy Fountain should become your headquarters, where you can replenish your heart whenever you get near to a critical state.\nFight and defeat the Moblins in the nearby area until they drop some Bombs that you can collect. If you leave one enemy alive in any screen, the other monsters will not respawn: this can be useful to explore and easily backtrack to the Fairy Fountain.",
+          "is_excerpt": false,
+          "evidence_hash": "ac1dc07b25e74d1286f09c8d489f04ba2f23b498cf5ae33138d017ce5fcf5c54",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 8",
+          "page": 3,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:007",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_8",
+          "section": "Boss",
+          "version": "revid:813226",
+          "source_hash": "sha256:b2cba73ab3a3858f91b65025f445453fab24e306a2d7db98a9cc0966c1c13a68",
+          "text": "[Boss]\n- The bosses of the dungeon are three Dodongos. Defeat them in the usual manner with bombs. Either feed them two bombs, or explode a bomb in their face and stab them.\n- Defeat them to collect a Heart Container. Then enter the room above to find the final piece of the Triforce.",
+          "is_excerpt": false,
+          "evidence_hash": "b2cba73ab3a3858f91b65025f445453fab24e306a2d7db98a9cc0966c1c13a68",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "91bbfb8978fb4002a95af4dbb548600b",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.026
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.014
+        },
+        {
+          "name": "retrieved",
+          "query": "What do the bosses drop when they die?",
+          "variants": [
+            "What do the bosses drop when they die?"
+          ],
+          "context": [
+            "zelda1:enemies:003",
+            "zelda1:enemies:000",
+            "zelda1:bosses:000",
+            "zelda1:overworld-quest-1:002",
+            "zelda1:underworld-quest-2-dungeon-8:007"
+          ],
+          "candidate_count": 15,
+          "allowed_count": 15
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 1.179
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.033
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.206
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_wrong_tool_06",
+      "category": "wrong_tool",
+      "question": "Who is the final boss of Ninja Gaiden?",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "tool_used": null
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [(intro)] Title: Ninja Gaiden Japanese title: 忍者龍剣伝 Developer: Tecmo Publisher: Tecmo, Hudson Soft Designer: Shuichi Sakurazaki Year: 1988 Systems: nes, tg16, wii, 3ds, wiiu, switch Genre: Action, Platform Modes: Single-player Series: Ninja Gaiden Ninja Gaiden (NINJA外伝), known in Japan as Ninja Ryūkenden (忍者龍剣伝) and as Shadow Warriors in Europe, is a side-scrolling action-platformer. It was…\n[2] [(intro)] Ninja Gaiden is a linear action game, in which you must guide the ninja Ryu Hayabusa through six \"Acts\" that comprise 20 levels. You may not select or skip any level; to complete the game, you must play every stage in order. At the end of each Act, you must challenge and defeat one or more bosses. If you lose this fight, you may be sent back to an earlier moment in the Act. Throughout…\n[3] [Stage 6-3] With time frozen, you should quickly wall jump up between the wall and the small ledges sticking out to the left. With time stopped, you will prevent more hunchbacks from dropping down, and two dragon cannons from appearing on the ledge. Drop down off the ledge when you reach the right. The last four candles all contain different ninja techniques; the outer two both contain the Flame…",
+        "sources": [
+          {
+            "source": "Ninja Gaiden (NES)",
+            "page": 0,
+            "chunk_id": "ninja_gaiden_nes:main:000"
+          },
+          {
+            "source": "Ninja Gaiden (NES)/Walkthrough",
+            "page": 0,
+            "chunk_id": "ninja_gaiden_nes:walkthrough:000"
+          },
+          {
+            "source": "Ninja Gaiden (NES)/Act 6",
+            "page": 3,
+            "chunk_id": "ninja_gaiden_nes:act-6:013"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "ninja_gaiden_nes",
+        "blocked_by_spoiler": false,
+        "trace_id": "486ed7ec376c43e19a69003dc72daf89"
+      },
+      "final_evidence": [
+        {
+          "source": "Ninja Gaiden (NES)",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:main:000",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29",
+          "section": "(intro)",
+          "version": "revid:1199915",
+          "source_hash": "sha256:f534447c7c08d2141af6726712bb6a8dface817171d826ab97d5f357e037ee88",
+          "text": "[(intro)]\nTitle: Ninja Gaiden\nJapanese title: 忍者龍剣伝\nDeveloper: Tecmo\nPublisher: Tecmo, Hudson Soft\nDesigner: Shuichi Sakurazaki\nYear: 1988\nSystems: nes, tg16, wii, 3ds, wiiu, switch\nGenre: Action, Platform\nModes: Single-player\nSeries: Ninja Gaiden\nNinja Gaiden (NINJA外伝), known in Japan as Ninja Ryūkenden (忍者龍剣伝) and as Shadow Warriors in Europe, is a side-scrolling action-platformer. It was developed and published by Tecmo for the NES; its development and release coincided with the beat 'em up arcade version of the same name. It was released in December 1988 in Japan, in March 1989 in North America, and in August 1991 in Europe. It has been ported to several other platforms, including the PC Engine, the Super NES, and the Virtual Console.\nNinja Gaiden has been renowned for its elaborate story and usage of anime-like cinematic cutscenes. It received extensive coverage and won several awards from video gaming magazines, while criticism focused on its high and unforgiving difficulty, particularly in the later levels. Over fifteen years after its release, the game continued to receive acclaim from print and online publications. It was novelized as part of the Worlds of Power NES game adaptations written by Seth Godin and Peter Lerangis, and it spawned a soundtrack CD. On the NES, Ninja Gaiden has been described as one of the best arcade-style games, and the best ninja-related game.",
+          "is_excerpt": false,
+          "evidence_hash": "f534447c7c08d2141af6726712bb6a8dface817171d826ab97d5f357e037ee88",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Walkthrough",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:walkthrough:000",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Walkthrough",
+          "section": "(intro)",
+          "version": "revid:748786",
+          "source_hash": "sha256:49dade29176825647cbfbf3d2d74c62a441abbe58041c94434c4bfa4689049f5",
+          "text": "[(intro)]\nNinja Gaiden is a linear action game, in which you must guide the ninja Ryu Hayabusa through six \"Acts\" that comprise 20 levels. You may not select or skip any level; to complete the game, you must play every stage in order. At the end of each Act, you must challenge and defeat one or more bosses. If you lose this fight, you may be sent back to an earlier moment in the Act.\nThroughout your adventure, there are a couple of techniques that you can make use of to advance further throughout the game.",
+          "is_excerpt": false,
+          "evidence_hash": "49dade29176825647cbfbf3d2d74c62a441abbe58041c94434c4bfa4689049f5",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 6",
+          "page": 3,
+          "chunk_id": "ninja_gaiden_nes:act-6:013",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_6",
+          "section": "Stage 6-3",
+          "version": "revid:793888",
+          "source_hash": "sha256:b012884d1d5ae103487b11de4985671ed70f4e717043fc40660e4d3752f6178e",
+          "text": "[Stage 6-3]\nWith time frozen, you should quickly wall jump up between the wall and the small ledges sticking out to the left. With time stopped, you will prevent more hunchbacks from dropping down, and two dragon cannons from appearing on the ledge. Drop down off the ledge when you reach the right.\nThe last four candles all contain different ninja techniques; the outer two both contain the Flame technique, while the inner two contain a Throwing Star and a Windmill Star. Arm yourself with whichever you prefer, although the Flame technique will probably be the most helpful.\nOnce you go through this door you will have to face the final bosses. If you lose to any of them, you will be returned all the way to 6-1, regardless of how many lives you have left. Fortunately, you will receive a health refill before facing each boss, but consider this a one time courtesy; you will receive no such refill should you fail and need to try again. On the plus side, each defeated boss will stay dead. For example, should you defeat the Masked Devil, you will not have to face him again once you make it back to this stage.",
+          "is_excerpt": false,
+          "evidence_hash": "b012884d1d5ae103487b11de4985671ed70f4e717043fc40660e4d3752f6178e",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 6",
+          "page": 5,
+          "chunk_id": "ninja_gaiden_nes:act-6:016",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_6",
+          "section": "Stage 6-4 > Jaquio",
+          "version": "revid:793888",
+          "source_hash": "sha256:112ff3a3f04c3186abb9374cb9c12ac08e503d58220bb89982683c5267872c39",
+          "text": "[Stage 6-4 > Jaquio]\nIf you came from this directly from the previous boss battle, you will have no spirit power and no ninja technique to rely upon. The only way you can enter this battle with spirit power is to have defeated the Masked Devil and died, forcing you to start over from 6-1 and return to this stage. The Masked Devil will remain dead, and you will face Jaquio with Spirit power.\nJaquio is the biggest boss you have seen so far. He floats across the top of the screen, back and forth between the two walls. Each time he crosses from one side to the other, he fires out two fireballs, one from each hand. The fireballs will fly towards where Ryu is standing, so move out of the way. You have a much better chance of avoiding or dodging the fireballs while running on the ground, although you have a better chance of striking the Jaquio when you are standing on a platform. Note that getting hit by a fireball costs one unit of health while touching Jaquio costs three. So if you are forced to choose between getting hit by one of them, choose the fireball.",
+          "is_excerpt": false,
+          "evidence_hash": "112ff3a3f04c3186abb9374cb9c12ac08e503d58220bb89982683c5267872c39",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 6",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:act-6:000",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_6",
+          "section": "(intro)",
+          "version": "revid:793888",
+          "source_hash": "sha256:d463806aed75f7040967695444504c40e400ca65da60ae5da3a96d198ec2440b",
+          "text": "[(intro)]\nThis is the final act of the game. It includes the most difficult portions of any stages in the game and requires skill to defeat the multiple bosses at the end.",
+          "is_excerpt": false,
+          "evidence_hash": "d463806aed75f7040967695444504c40e400ca65da60ae5da3a96d198ec2440b",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "486ed7ec376c43e19a69003dc72daf89",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.029
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.014
+        },
+        {
+          "name": "retrieved",
+          "query": "Who is the final boss of Ninja Gaiden?",
+          "variants": [
+            "Who is the final boss of Ninja Gaiden?"
+          ],
+          "context": [
+            "ninja_gaiden_nes:main:000",
+            "ninja_gaiden_nes:walkthrough:000",
+            "ninja_gaiden_nes:act-6:013",
+            "ninja_gaiden_nes:act-6:016",
+            "ninja_gaiden_nes:act-6:000"
+          ],
+          "candidate_count": 28,
+          "allowed_count": 28
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 3.686
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.046
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.179
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_wrong_tool_07",
+      "category": "wrong_tool",
+      "question": "What should I do next in the Fire Temple?",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "tool_used": null
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [=Danger in the Dungeon > The Megaton Hammer] Once at the top, take the door and turn to your right. Climb the fence. Then throw a Bomb at the crystal switch or hit with the Hookshot to trigger the switch to make the flames disappear briefly; climb up when you can and enter the next room. This next room is in the shape of an octagonal doughnut.\n[2] [(intro)] - Death Mountain Crater next to Fire Temple entrance need to warp with Bolero of Fire to get there as child: Takes you up where you can jump of on pillar to get heart piece then goes over to wall you can climb where there is an opening with another heart piece that you can jump in to get. - Lost woods from Kokiri Forest entrance left then left: Takes you to where you can jump on bridge…\n[3] [=Danger in the Dungeon > Flare Dancer's Encore] In this next room is another Flare Dancer. This time, take your trusty Megaton Hammer and slam it right by the Flare Dancer to knock it from its clothing and then chase and strike it. Do this until it is defeated and explodes. A small chest will appear. There are Bomb in the chest if you want them. Enter the next room.",
+        "sources": [
+          {
+            "source": "The Legend of Zelda: Ocarina of Time/Fire Temple",
+            "page": 16,
+            "chunk_id": "oot:fire-temple:022"
+          },
+          {
+            "source": "The Legend of Zelda: Ocarina of Time/Magic Beans",
+            "page": 0,
+            "chunk_id": "oot:magic-beans:002"
+          },
+          {
+            "source": "The Legend of Zelda: Ocarina of Time/Fire Temple",
+            "page": 18,
+            "chunk_id": "oot:fire-temple:028"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "oot",
+        "blocked_by_spoiler": false,
+        "trace_id": "ed7bf91687784993b3c9eccdc8591601"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Fire Temple",
+          "page": 16,
+          "chunk_id": "oot:fire-temple:022",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Fire_Temple",
+          "section": "=Danger in the Dungeon > The Megaton Hammer",
+          "version": "revid:1205065",
+          "source_hash": "sha256:cfb4edcadd15f6133f43d1319fc4df66a7b74019fa74ccafa7869bfd2519dee7",
+          "text": "[=Danger in the Dungeon > The Megaton Hammer]\nOnce at the top, take the door and turn to your right. Climb the fence. Then throw a Bomb at the crystal switch or hit with the Hookshot to trigger the switch to make the flames disappear briefly; climb up when you can and enter the next room. This next room is in the shape of an octagonal doughnut.",
+          "is_excerpt": false,
+          "evidence_hash": "cfb4edcadd15f6133f43d1319fc4df66a7b74019fa74ccafa7869bfd2519dee7",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Magic Beans",
+          "page": 0,
+          "chunk_id": "oot:magic-beans:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Magic_Beans",
+          "section": "(intro)",
+          "version": "revid:1201546",
+          "source_hash": "sha256:624011415679170604dc3b1680446114d93e284ec45051db4a78797558ffe931",
+          "text": "[(intro)]\n- Death Mountain Crater next to Fire Temple entrance need to warp with Bolero of Fire to get there as child: Takes you up where you can jump of on pillar to get heart piece then goes over to wall you can climb where there is an opening with another heart piece that you can jump in to get.\n- Lost woods from Kokiri Forest entrance left then left: Takes you to where you can jump on bridge that connects from Kokiri Forest to Hyrule Field 1 thing can help with is saving time for Odd Potion run to Kakariko Village in Item trading.\n- Lost woods from Kokiri Forest entrance right left right left then left then next to business scrubb on right: Takes you up to ledge above where there is a gold skulltula at night.\n- Desert Collossuss next to Spirit Temple entrance: Takes you to where you can jump on platform where there is a gold skulltula at night then goes where you can jump onto rock arch outside Temple entrance where there is a heart piece up there.",
+          "is_excerpt": false,
+          "evidence_hash": "624011415679170604dc3b1680446114d93e284ec45051db4a78797558ffe931",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Fire Temple",
+          "page": 18,
+          "chunk_id": "oot:fire-temple:028",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Fire_Temple",
+          "section": "=Danger in the Dungeon > Flare Dancer's Encore",
+          "version": "revid:1205065",
+          "source_hash": "sha256:e0cce8c733551fd5a307c1788a89aac794337ed21866ff04008893625f1cfaba",
+          "text": "[=Danger in the Dungeon > Flare Dancer's Encore]\nIn this next room is another Flare Dancer. This time, take your trusty Megaton Hammer and slam it right by the Flare Dancer to knock it from its clothing and then chase and strike it. Do this until it is defeated and explodes. A small chest will appear. There are Bomb in the chest if you want them. Enter the next room.",
+          "is_excerpt": false,
+          "evidence_hash": "e0cce8c733551fd5a307c1788a89aac794337ed21866ff04008893625f1cfaba",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Dodongo's Cavern",
+          "page": 13,
+          "chunk_id": "oot:dodongo-s-cavern:014",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Dodongo%27s_Cavern",
+          "section": "The Dungeon > The Second Floor > A Fiery Barrier",
+          "version": "revid:1205135",
+          "source_hash": "sha256:6685ec1ce0f28876343872a6444e6034fd087bd7d6df10b9c5d260a398f26789",
+          "text": "[The Dungeon > The Second Floor > A Fiery Barrier]\nIn the next room there are three platforms, but one is on fire. Directly in front of you, you'll notice an eye. Using your Fairy Slingshot, you can shoot the eye. The fires subside, and you can jump across into the next room, but act fast or the fire will return. Run through the passage beyond this room fast, since Baby Dodongos thrive along the path to door out of here.",
+          "is_excerpt": false,
+          "evidence_hash": "6685ec1ce0f28876343872a6444e6034fd087bd7d6df10b9c5d260a398f26789",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Dodongo's Cavern",
+          "page": 15,
+          "chunk_id": "oot:dodongo-s-cavern:016",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Dodongo%27s_Cavern",
+          "section": "The Dungeon > The Second Floor > Two Fiery Barriers",
+          "version": "revid:1205135",
+          "source_hash": "sha256:9a7f4247f7edbcd771b8355da11260bd03fe10ad28733c7ad268067f2fb1bc4a",
+          "text": "[The Dungeon > The Second Floor > Two Fiery Barriers]\nIn the next room there are four platforms. but the middle two are on fire. Once again you can shoot up at an eye switch, but only the first fire dissipates. After hopping over to the next platform, turn to the left and you'll see another eye. Quickly shoot the second eye to remove the second fire barrier. Now that the flame is down, quickly hop onto the platform where the second flame barrier was and then leave this room.\nOn the Switch 2 version, you're going to have to go back up again and go on the other side to put a bomb on it.",
+          "is_excerpt": false,
+          "evidence_hash": "9a7f4247f7edbcd771b8355da11260bd03fe10ad28733c7ad268067f2fb1bc4a",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "ed7bf91687784993b3c9eccdc8591601",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.029
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.014
+        },
+        {
+          "name": "retrieved",
+          "query": "What should I do next in the Fire Temple?",
+          "variants": [
+            "What should I do next in the Fire Temple?"
+          ],
+          "context": [
+            "oot:fire-temple:022",
+            "oot:magic-beans:002",
+            "oot:fire-temple:028",
+            "oot:dodongo-s-cavern:014",
+            "oot:dodongo-s-cavern:016"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 50
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 6.915
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.028
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.164
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_out_of_range_00",
+      "category": "out_of_range",
+      "question": "who is the boss of level 15?",
+      "passed": true,
+      "expected": {
+        "route": "query_game_facts",
+        "status": "invalid_params",
+        "abstained": true
+      },
+      "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"abstained\": true, \"status\": \"invalid_params\", \"outcome\": \"abstained\"}",
+      "final_answer": {
+        "answer": "I can't look that up: level 15 does not exist in The Legend of Zelda (valid: 1-9).",
+        "sources": [],
+        "abstained": true,
+        "tool_used": "query_game_facts",
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "2c344ec2f0a049858e574f0b364ab0dc"
+      },
+      "final_evidence": [],
+      "trace_id": "2c344ec2f0a049858e574f0b364ab0dc",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.023
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.099
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.019
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_out_of_range_01",
+      "category": "out_of_range",
+      "question": "list the bosses of dungeon 99",
+      "passed": true,
+      "expected": {
+        "route": "query_game_facts",
+        "status": "invalid_params",
+        "abstained": true
+      },
+      "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"abstained\": true, \"status\": \"invalid_params\", \"outcome\": \"abstained\"}",
+      "final_answer": {
+        "answer": "I can't look that up: level 99 does not exist in The Legend of Zelda (valid: 1-9).",
+        "sources": [],
+        "abstained": true,
+        "tool_used": "query_game_facts",
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "6c145830dac2441f9a5ae096a3e7ed1c"
+      },
+      "final_evidence": [],
+      "trace_id": "6c145830dac2441f9a5ae096a3e7ed1c",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.02
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.061
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.018
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_out_of_range_02",
+      "category": "out_of_range",
+      "question": "which bosses are in level 0?",
+      "passed": true,
+      "expected": {
+        "route": "query_game_facts",
+        "status": "invalid_params",
+        "abstained": true
+      },
+      "observed": "{\"route\": \"query_game_facts\", \"tool_used\": \"query_game_facts\", \"abstained\": true, \"status\": \"invalid_params\", \"outcome\": \"abstained\"}",
+      "final_answer": {
+        "answer": "I can't look that up: level 0 does not exist in The Legend of Zelda (valid: 1-9).",
+        "sources": [],
+        "abstained": true,
+        "tool_used": "query_game_facts",
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "84599985c85041c290c23f6c2c841dfb"
+      },
+      "final_evidence": [],
+      "trace_id": "84599985c85041c290c23f6c2c841dfb",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.018
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.053
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.017
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_confirmation_00",
+      "category": "confirmation",
+      "question": "I just beat level 3",
+      "passed": true,
+      "expected": {
+        "tool_used": "update_progress",
+        "needs_human_review": true,
+        "executed": false
+      },
+      "observed": "{\"route\": \"update_progress\", \"tool_used\": \"update_progress\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Updating progress changes what you are allowed to see. Your request has not been executed and requires human review. This demo does not implement progress edits; an administrator can reset a profile to its initial state.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "update_progress",
+        "needs_human_review": true,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "dc815349735842c9bf289207c112fb39"
+      },
+      "final_evidence": [],
+      "trace_id": "dc815349735842c9bf289207c112fb39",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.024
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.072
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.035
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_confirmation_01",
+      "category": "confirmation",
+      "question": "I just finished dungeon 9, update my progress",
+      "passed": true,
+      "expected": {
+        "tool_used": "update_progress",
+        "needs_human_review": true,
+        "executed": false
+      },
+      "observed": "{\"route\": \"update_progress\", \"tool_used\": \"update_progress\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Updating progress changes what you are allowed to see. Your request has not been executed and requires human review. This demo does not implement progress edits; an administrator can reset a profile to its initial state.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "update_progress",
+        "needs_human_review": true,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "1640e689b3814431b44449afd6bff5dc"
+      },
+      "final_evidence": [],
+      "trace_id": "1640e689b3814431b44449afd6bff5dc",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.029
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.064
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.03
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_confirmation_02",
+      "category": "confirmation",
+      "question": "acabo de terminar el nivel 2",
+      "passed": true,
+      "expected": {
+        "tool_used": "update_progress",
+        "needs_human_review": true,
+        "executed": false
+      },
+      "observed": "{\"route\": \"update_progress\", \"tool_used\": \"update_progress\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Updating progress changes what you are allowed to see. Your request has not been executed and requires human review. This demo does not implement progress edits; an administrator can reset a profile to its initial state.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "update_progress",
+        "needs_human_review": true,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "0b3144c5bc854d84b57a19b0af4ca81e"
+      },
+      "final_evidence": [],
+      "trace_id": "0b3144c5bc854d84b57a19b0af4ca81e",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.019
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.044
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.03
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_confirmation_03",
+      "category": "confirmation",
+      "question": "Reset my progress and delete all traces.",
+      "passed": true,
+      "expected": {
+        "tool_used": "critical_action",
+        "needs_human_review": true,
+        "executed": false
+      },
+      "observed": "{\"route\": \"critical_action\", \"tool_used\": \"critical_action\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "That request would change your profile or audit data. It has not been executed and requires human review. This demo does not implement progress or role editing; an administrator can reset a profile to its initial state.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "critical_action",
+        "needs_human_review": true,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "3d41878e1d8946f580238a83924f1af5"
+      },
+      "final_evidence": [],
+      "trace_id": "3d41878e1d8946f580238a83924f1af5",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.024
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.04
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.03
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_confirmation_04",
+      "category": "confirmation",
+      "question": "Mark all levels as completed for my profile.",
+      "passed": true,
+      "expected": {
+        "tool_used": "critical_action",
+        "needs_human_review": true,
+        "executed": false
+      },
+      "observed": "{\"route\": \"critical_action\", \"tool_used\": \"critical_action\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "That request would change your profile or audit data. It has not been executed and requires human review. This demo does not implement progress or role editing; an administrator can reset a profile to its initial state.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "critical_action",
+        "needs_human_review": true,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "d5ba374279cc4342acd1433fcf7424d7"
+      },
+      "final_evidence": [],
+      "trace_id": "d5ba374279cc4342acd1433fcf7424d7",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.025
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.038
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.028
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_confirmation_05",
+      "category": "confirmation",
+      "question": "Give me admin access to the audit log.",
+      "passed": true,
+      "expected": {
+        "tool_used": "critical_action",
+        "needs_human_review": true,
+        "executed": false
+      },
+      "observed": "{\"route\": \"critical_action\", \"tool_used\": \"critical_action\", \"needs_human_review\": true, \"status\": \"ok\", \"executed\": false, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "That request would change your profile or audit data. It has not been executed and requires human review. This demo does not implement progress or role editing; an administrator can reset a profile to its initial state.",
+        "sources": [],
+        "abstained": false,
+        "tool_used": "critical_action",
+        "needs_human_review": true,
+        "game": "oot",
+        "blocked_by_spoiler": false,
+        "trace_id": "fe71806d9cca42b1bba35b3639336ea4"
+      },
+      "final_evidence": [],
+      "trace_id": "fe71806d9cca42b1bba35b3639336ea4",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.023
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.037
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.028
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_degradation_00",
+      "category": "degradation",
+      "question": "list all the bosses in the first quest",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "status": "degraded",
+        "tool_used": null,
+        "answered": true
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"status\": \"degraded\", \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Walkthrough > Advised Preparation] The amount of preparation advised is too much to list here; see Quest 1 to see a comprehensive guide.\n[2] [Boss] Triforce Room: This is the only dungeon in either quest whose boss room is not adjacent to the Triforce room. - The bosses of the dungeon are three Dodongos. Defeat them in the usual manner, either by feeding them two bombs, or blowing up a bomb in their face and stabbing them. Collect the Heart Container when you beat all of them.\n[3] [(intro)] Many bosses are recurring in the game. Here they are sorted by first appearance in the first quest. Note: HP is based on weapon damage. Those marked with a \"*\" requires special methods to defeat it. Name: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss), 7 (Boss).; 2nd Quest: 1 (Boss), 4, 8.; A dragon that shoots fireballs that split in three directions and can only…",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 1",
+            "page": 1,
+            "chunk_id": "zelda1:underworld-quest-1-dungeon-1:001"
+          },
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+            "page": 3,
+            "chunk_id": "zelda1:underworld-quest-2-dungeon-3:002"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:000"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "18e6f236bc014653992b17c371b3ffa8"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 1",
+          "page": 1,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_1",
+          "section": "Walkthrough > Advised Preparation",
+          "version": "revid:1125345",
+          "source_hash": "sha256:d69e4a858243314947a0efd452bb7b5fccaa20a14c5aa2630bf968a82ecd3550",
+          "text": "[Walkthrough > Advised Preparation]\nThe amount of preparation advised is too much to list here; see Quest 1 to see a comprehensive guide.",
+          "is_excerpt": false,
+          "evidence_hash": "d69e4a858243314947a0efd452bb7b5fccaa20a14c5aa2630bf968a82ecd3550",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+          "page": 3,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_3",
+          "section": "Boss",
+          "version": "revid:890060",
+          "source_hash": "sha256:b00281861299a81a5566163b7612a0378024c51c4ca9072ff7cd31c2e9d90b15",
+          "text": "[Boss]\nTriforce Room: This is the only dungeon in either quest whose boss room is not adjacent to the Triforce room.\n- The bosses of the dungeon are three Dodongos. Defeat them in the usual manner, either by feeding them two bombs, or blowing up a bomb in their face and stabbing them. Collect the Heart Container when you beat all of them.",
+          "is_excerpt": false,
+          "evidence_hash": "b00281861299a81a5566163b7612a0378024c51c4ca9072ff7cd31c2e9d90b15",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "text": "[(intro)]\nMany bosses are recurring in the game. Here they are sorted by first appearance in the first quest.\nNote: HP is based on weapon damage. Those marked with a \"*\" requires special methods to defeat it.\nName: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss), 7 (Boss).; 2nd Quest: 1 (Boss), 4, 8.; A dragon that shoots fireballs that split in three directions and can only be blocked by the Magical Shield. Vulnerable to the Sword and Arrows. Can also be killed by two Bombs. Aquamentus is the boss of dungeons one and seven of the first quest, but only of dungeon one in the second quest.",
+          "is_excerpt": false,
+          "evidence_hash": "71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 8",
+          "page": 3,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:007",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_8",
+          "section": "Boss",
+          "version": "revid:813226",
+          "source_hash": "sha256:b2cba73ab3a3858f91b65025f445453fab24e306a2d7db98a9cc0966c1c13a68",
+          "text": "[Boss]\n- The bosses of the dungeon are three Dodongos. Defeat them in the usual manner with bombs. Either feed them two bombs, or explode a bomb in their face and stab them.\n- Defeat them to collect a Heart Container. Then enter the room above to find the final piece of the Triforce.",
+          "is_excerpt": false,
+          "evidence_hash": "b2cba73ab3a3858f91b65025f445453fab24e306a2d7db98a9cc0966c1c13a68",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:5ba4cd09285bd7cc8fa1e0cd0aa66eae27c4772a4064cf2199a65694518a5c69",
+          "text": "[(intro)]\nName: Dodongo | HP: 1* | Damage: 2 | Description: 1st Quest: 2 (Boss), 5, 7.; 2nd Quest: 1, 3 (Boss), 4, 8 (Boss).; Slow-moving rhinoceros boss. Often appearing in groups, they are only vulnerable to Bombs. An effective tactic is for Link to place the bomb directly in front of Dodongo's mouth. Each Dodongo will be defeated after eating two Bombs, but you can also stun a Dodongo if you can make a Bomb go off in it's face. If you do, he will be stunned and temporarily vulnerable to an attack from your sword with just 1 strike; if you kill it this way, you are guaranteed bombs. A single Dodongo is the boss of dungeon two in the first quest, and a trio of Dodongos is the boss of dungeons three and eight in the second quest.",
+          "is_excerpt": false,
+          "evidence_hash": "5ba4cd09285bd7cc8fa1e0cd0aa66eae27c4772a4064cf2199a65694518a5c69",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "18e6f236bc014653992b17c371b3ffa8",
+      "llm_calls": [],
+      "degradations": [
+        {
+          "stage": "router_tool",
+          "component": "tool",
+          "error_type": "RuntimeError",
+          "fallback": "documents"
+        }
+      ],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.022
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.057
+        },
+        {
+          "name": "retrieved",
+          "query": "list all the bosses in the first quest",
+          "variants": [
+            "list all the bosses in the first quest"
+          ],
+          "context": [
+            "zelda1:underworld-quest-1-dungeon-1:001",
+            "zelda1:underworld-quest-2-dungeon-3:002",
+            "zelda1:bosses:000",
+            "zelda1:underworld-quest-2-dungeon-8:007",
+            "zelda1:bosses:001"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 50
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 3.67
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.023
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.146
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_degradation_01",
+      "category": "degradation",
+      "question": "list all the bosses in the first quest",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "status": "timeout",
+        "tool_used": null,
+        "answered": true
+      },
+      "observed": "{\"route\": \"documents\", \"tool_used\": null, \"status\": \"timeout\", \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Walkthrough > Advised Preparation] The amount of preparation advised is too much to list here; see Quest 1 to see a comprehensive guide.\n[2] [Boss] Triforce Room: This is the only dungeon in either quest whose boss room is not adjacent to the Triforce room. - The bosses of the dungeon are three Dodongos. Defeat them in the usual manner, either by feeding them two bombs, or blowing up a bomb in their face and stabbing them. Collect the Heart Container when you beat all of them.\n[3] [(intro)] Many bosses are recurring in the game. Here they are sorted by first appearance in the first quest. Note: HP is based on weapon damage. Those marked with a \"*\" requires special methods to defeat it. Name: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss), 7 (Boss).; 2nd Quest: 1 (Boss), 4, 8.; A dragon that shoots fireballs that split in three directions and can only…",
+        "sources": [
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 1",
+            "page": 1,
+            "chunk_id": "zelda1:underworld-quest-1-dungeon-1:001"
+          },
+          {
+            "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+            "page": 3,
+            "chunk_id": "zelda1:underworld-quest-2-dungeon-3:002"
+          },
+          {
+            "source": "The Legend of Zelda/Bosses",
+            "page": 0,
+            "chunk_id": "zelda1:bosses:000"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "zelda1",
+        "blocked_by_spoiler": false,
+        "trace_id": "751845994b874b5a91569861a168c080"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 1",
+          "page": 1,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-1:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_1",
+          "section": "Walkthrough > Advised Preparation",
+          "version": "revid:1125345",
+          "source_hash": "sha256:d69e4a858243314947a0efd452bb7b5fccaa20a14c5aa2630bf968a82ecd3550",
+          "text": "[Walkthrough > Advised Preparation]\nThe amount of preparation advised is too much to list here; see Quest 1 to see a comprehensive guide.",
+          "is_excerpt": false,
+          "evidence_hash": "d69e4a858243314947a0efd452bb7b5fccaa20a14c5aa2630bf968a82ecd3550",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 3",
+          "page": 3,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-3:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_3",
+          "section": "Boss",
+          "version": "revid:890060",
+          "source_hash": "sha256:b00281861299a81a5566163b7612a0378024c51c4ca9072ff7cd31c2e9d90b15",
+          "text": "[Boss]\nTriforce Room: This is the only dungeon in either quest whose boss room is not adjacent to the Triforce room.\n- The bosses of the dungeon are three Dodongos. Defeat them in the usual manner, either by feeding them two bombs, or blowing up a bomb in their face and stabbing them. Collect the Heart Container when you beat all of them.",
+          "is_excerpt": false,
+          "evidence_hash": "b00281861299a81a5566163b7612a0378024c51c4ca9072ff7cd31c2e9d90b15",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "text": "[(intro)]\nMany bosses are recurring in the game. Here they are sorted by first appearance in the first quest.\nNote: HP is based on weapon damage. Those marked with a \"*\" requires special methods to defeat it.\nName: Aquamentus | HP: 6 | Damage: 2 / 1 | Description: 1st Quest: 1 (Boss), 7 (Boss).; 2nd Quest: 1 (Boss), 4, 8.; A dragon that shoots fireballs that split in three directions and can only be blocked by the Magical Shield. Vulnerable to the Sword and Arrows. Can also be killed by two Bombs. Aquamentus is the boss of dungeons one and seven of the first quest, but only of dungeon one in the second quest.",
+          "is_excerpt": false,
+          "evidence_hash": "71635fdecfe4d01a8770e6bcef198d249b9386ec639f3255677f722c5e4c1037",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 2/Dungeon 8",
+          "page": 3,
+          "chunk_id": "zelda1:underworld-quest-2-dungeon-8:007",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_2/Dungeon_8",
+          "section": "Boss",
+          "version": "revid:813226",
+          "source_hash": "sha256:b2cba73ab3a3858f91b65025f445453fab24e306a2d7db98a9cc0966c1c13a68",
+          "text": "[Boss]\n- The bosses of the dungeon are three Dodongos. Defeat them in the usual manner with bombs. Either feed them two bombs, or explode a bomb in their face and stab them.\n- Defeat them to collect a Heart Container. Then enter the room above to find the final piece of the Triforce.",
+          "is_excerpt": false,
+          "evidence_hash": "b2cba73ab3a3858f91b65025f445453fab24e306a2d7db98a9cc0966c1c13a68",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:5ba4cd09285bd7cc8fa1e0cd0aa66eae27c4772a4064cf2199a65694518a5c69",
+          "text": "[(intro)]\nName: Dodongo | HP: 1* | Damage: 2 | Description: 1st Quest: 2 (Boss), 5, 7.; 2nd Quest: 1, 3 (Boss), 4, 8 (Boss).; Slow-moving rhinoceros boss. Often appearing in groups, they are only vulnerable to Bombs. An effective tactic is for Link to place the bomb directly in front of Dodongo's mouth. Each Dodongo will be defeated after eating two Bombs, but you can also stun a Dodongo if you can make a Bomb go off in it's face. If you do, he will be stunned and temporarily vulnerable to an attack from your sword with just 1 strike; if you kill it this way, you are guaranteed bombs. A single Dodongo is the boss of dungeon two in the first quest, and a trio of Dodongos is the boss of dungeons three and eight in the second quest.",
+          "is_excerpt": false,
+          "evidence_hash": "5ba4cd09285bd7cc8fa1e0cd0aa66eae27c4772a4064cf2199a65694518a5c69",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "751845994b874b5a91569861a168c080",
+      "llm_calls": [],
+      "degradations": [
+        {
+          "stage": "router_tool",
+          "component": "tool",
+          "error_type": "TimeoutError",
+          "fallback": "documents"
+        }
+      ],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.027
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 306.361
+        },
+        {
+          "name": "retrieved",
+          "query": "list all the bosses in the first quest",
+          "variants": [
+            "list all the bosses in the first quest"
+          ],
+          "context": [
+            "zelda1:underworld-quest-1-dungeon-1:001",
+            "zelda1:underworld-quest-2-dungeon-3:002",
+            "zelda1:bosses:000",
+            "zelda1:underworld-quest-2-dungeon-8:007",
+            "zelda1:bosses:001"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 50
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 0.779
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.029
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.153
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    },
+    {
+      "id": "tool_degradation_02",
+      "category": "degradation",
+      "question": "what should I do next?",
+      "passed": true,
+      "expected": {
+        "route": "documents",
+        "status": "degraded",
+        "answered": true
+      },
+      "observed": "{\"route\": \"documents\", \"status\": \"degraded\", \"sources\": 3, \"outcome\": \"answered\"}",
+      "final_answer": {
+        "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Hyrule Market] The Treasure Chest Game can be played in Hyrule Market, but only at night. In each room, you are presented with two chests--one contains a rupee, the other a Small Key to the next room. The game is entirely dependent on luck. However, a later item in the game will reveal what's inside the chests. If you are short on rupees, you can enter the door to the guard house next to the…\n[2] [The Dungeon > To the West Side > A Tenacious Statue] This next room is filled with a crop of Bomb Flowers. To the left is a destructible wall. Destroy it with the lone Bomb Flower next to it and enter the door into the next room. There are three statues surrounding a chest. The two off to the sides can be yanked away, but that does no good. One still blocks the chest, not to mention the door's…\n[3] [The Dungeon > The Second Floor > A Fiery Barrier] In the next room there are three platforms, but one is on fire. Directly in front of you, you'll notice an eye. Using your Fairy Slingshot, you can shoot the eye. The fires subside, and you can jump across into the next room, but act fast or the fire will return. Run through the passage beyond this room fast, since Baby Dodongos thrive along the…",
+        "sources": [
+          {
+            "source": "The Legend of Zelda: Ocarina of Time/Hyrule Castle",
+            "page": 3,
+            "chunk_id": "oot:hyrule-castle:005"
+          },
+          {
+            "source": "The Legend of Zelda: Ocarina of Time/Dodongo's Cavern",
+            "page": 9,
+            "chunk_id": "oot:dodongo-s-cavern:010"
+          },
+          {
+            "source": "The Legend of Zelda: Ocarina of Time/Dodongo's Cavern",
+            "page": 13,
+            "chunk_id": "oot:dodongo-s-cavern:014"
+          }
+        ],
+        "abstained": false,
+        "tool_used": null,
+        "needs_human_review": false,
+        "game": "oot",
+        "blocked_by_spoiler": false,
+        "trace_id": "0ca1054268fc4f74ba1dec8805eb05ec"
+      },
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Hyrule Castle",
+          "page": 3,
+          "chunk_id": "oot:hyrule-castle:005",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Hyrule_Castle",
+          "section": "Hyrule Market",
+          "version": "revid:1205128",
+          "source_hash": "sha256:64e9d22dc33af395939c0947b807f53af4b933bced629602dae333e1f69af284",
+          "text": "[Hyrule Market]\nThe Treasure Chest Game can be played in Hyrule Market, but only at night. In each room, you are presented with two chests--one contains a rupee, the other a Small Key to the next room. The game is entirely dependent on luck. However, a later item in the game will reveal what's inside the chests.\nIf you are short on rupees, you can enter the door to the guard house next to the drawbridge. This room contains a lot of vases, which may be broken to get rupees. This may be repeated as often as required to collect as many rupees as necessary. There is also a Gold Skulltula inside of the lone box next to the soldier. Run up to the box and roll into it to reveal the Gold Skulltula.",
+          "is_excerpt": false,
+          "evidence_hash": "64e9d22dc33af395939c0947b807f53af4b933bced629602dae333e1f69af284",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Dodongo's Cavern",
+          "page": 9,
+          "chunk_id": "oot:dodongo-s-cavern:010",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Dodongo%27s_Cavern",
+          "section": "The Dungeon > To the West Side > A Tenacious Statue",
+          "version": "revid:1205135",
+          "source_hash": "sha256:b91ecfc8513f713219b7342545a8c1bdb435357ede2a20f4053b738804768e6d",
+          "text": "[The Dungeon > To the West Side > A Tenacious Statue]\nThis next room is filled with a crop of Bomb Flowers. To the left is a destructible wall. Destroy it with the lone Bomb Flower next to it and enter the door into the next room. There are three statues surrounding a chest. The two off to the sides can be yanked away, but that does no good. One still blocks the chest, not to mention the door's barred shut. Strike the statue with your sword, and it comes alive! This is an Armos, and it will charge after you for disturbing it. Use Deku Nut or the provided Bomb Flowers to stun it and then attack it with your sword. It will then self-destruct, so stay clear of it. Now, you are free to leave, and able to open the chest here, getting the Compass as a reward.",
+          "is_excerpt": false,
+          "evidence_hash": "b91ecfc8513f713219b7342545a8c1bdb435357ede2a20f4053b738804768e6d",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Dodongo's Cavern",
+          "page": 13,
+          "chunk_id": "oot:dodongo-s-cavern:014",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Dodongo%27s_Cavern",
+          "section": "The Dungeon > The Second Floor > A Fiery Barrier",
+          "version": "revid:1205135",
+          "source_hash": "sha256:6685ec1ce0f28876343872a6444e6034fd087bd7d6df10b9c5d260a398f26789",
+          "text": "[The Dungeon > The Second Floor > A Fiery Barrier]\nIn the next room there are three platforms, but one is on fire. Directly in front of you, you'll notice an eye. Using your Fairy Slingshot, you can shoot the eye. The fires subside, and you can jump across into the next room, but act fast or the fire will return. Run through the passage beyond this room fast, since Baby Dodongos thrive along the path to door out of here.",
+          "is_excerpt": false,
+          "evidence_hash": "6685ec1ce0f28876343872a6444e6034fd087bd7d6df10b9c5d260a398f26789",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Fairy Fountains",
+          "page": 3,
+          "chunk_id": "oot:fairy-fountains:003",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Fairy_Fountains",
+          "section": "Zora's Fountain",
+          "version": "revid:1038510",
+          "source_hash": "sha256:78ef103ea864f4a5f7623473d1672dee7dfd6c4de095e462628ecb68c83e8786",
+          "text": "[Zora's Fountain]\nReward: Farore's Wind\nGo to the portion of Zora's Domain where Jabu-Jabu rests. As you enter, go on the right side of Jabu. Swim to a small peninsula behind Jabu with bushes and a lone tree on it. There will be a boulder next to the back wall. Place a Bomb next to this wall and the wall will be destroyed, revealing yet another Great Fairy Fountain.\nThe reward here is Farore's Wind, a spell that quickly lets you warp in dungeons.",
+          "is_excerpt": false,
+          "evidence_hash": "78ef103ea864f4a5f7623473d1672dee7dfd6c4de095e462628ecb68c83e8786",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda: Ocarina of Time/Magic Beans",
+          "page": 0,
+          "chunk_id": "oot:magic-beans:001",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time/Magic_Beans",
+          "section": "(intro)",
+          "version": "revid:1201546",
+          "source_hash": "sha256:6980f0e9ac91120e82bbac7d3a4933cebaee336c3f052bdfeca430e4c20fe913",
+          "text": "[(intro)]\n- Lake Hylia next to Observatory: Can be used to get on top of roof of Observatory to get heart piece can also be used to get to fishing pond if water still not back up.\n- Gerudo Valley down on very low big platform at water: Takes you for ride down and back up through first 2 waterfalls picking up a red rupee at both then halfway up the third waterfall where you can jump to get a heart piece in an opening in wall inside the waterfall.\n- Death Mountain Trail at entrance to Dodongos Cavern: Can use it to get up on top of cave to get heart piece or can use it to get to Goron city to bypass boulders and red tektites and to get to where boulders rain down too.\n- Graveyard next to Dampes grave: Takes you up to ledge where crate with heart piece is in.\n- Kokiri Forest next to shop: Takes you to ledge where there is a red rupee with a circle of green rupees.",
+          "is_excerpt": false,
+          "evidence_hash": "6980f0e9ac91120e82bbac7d3a4933cebaee336c3f052bdfeca430e4c20fe913",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "trace_id": "0ca1054268fc4f74ba1dec8805eb05ec",
+      "llm_calls": [],
+      "degradations": [
+        {
+          "stage": "router_tool",
+          "component": "tool",
+          "error_type": "RuntimeError",
+          "fallback": "documents"
+        }
+      ],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.027
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.337
+        },
+        {
+          "name": "retrieved",
+          "query": "what should I do next?",
+          "variants": [
+            "what should I do next?"
+          ],
+          "context": [
+            "oot:hyrule-castle:005",
+            "oot:dodongo-s-cavern:010",
+            "oot:dodongo-s-cavern:014",
+            "oot:fairy-fountains:003",
+            "oot:magic-beans:001"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 26
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 6.107
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.045
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.187
+        }
+      ],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0,
+      "llm_call_count": 0,
+      "http_call_count": 0,
+      "llm_cached_calls": 0,
+      "llm_error_count": 0,
+      "usage_unknown_calls": 0,
+      "http_retry_count": 0
+    }
+  ]
+}

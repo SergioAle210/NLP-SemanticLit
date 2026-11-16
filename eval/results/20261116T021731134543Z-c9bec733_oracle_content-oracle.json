@@ -1,0 +1,1815 @@
+{
+  "schema_version": 2,
+  "run": {
+    "schema_version": 2,
+    "run_id": "20261116T021731134543Z-c9bec733",
+    "date": "2026-11-16T02:17:31.134543+00:00",
+    "label": "content-oracle",
+    "git_commit": "1c9ca7e8d161c0519be3f536b6e2f83f9530368b",
+    "git_dirty": true,
+    "dataset_sha256": "sha256:6635ce93bedd4826e037b6626a86415dfcf231b64329cfad1890a063b0c986e7",
+    "corpus_sha256": null,
+    "effective_settings": {
+      "profile": "base",
+      "retriever": "bm25",
+      "generator": "extractive",
+      "chunker": "structural",
+      "embedding_model": "e5-small-multi",
+      "query_expansion": true,
+      "router": true,
+      "top_k": 5,
+      "candidates": 50,
+      "use_graph": false,
+      "planner": false,
+      "evidence_eval": false,
+      "evidence_mode": "on_abstain",
+      "max_rewrites": 1,
+      "secondary_search": false,
+      "secondary_mode": "append",
+      "secondary_k": 3,
+      "secondary_franchise": false,
+      "memory_notes": false,
+      "only_games": [
+        "zelda1",
+        "ninja_gaiden_nes"
+      ],
+      "security_guards": true,
+      "spoiler_gates": true,
+      "tool_timeout_s": 5.0,
+      "llm_model": "claude-haiku-5-5",
+      "llm_cache": true,
+      "llm_offline": false,
+      "llm_max_tokens": 1024,
+      "llm_price_input": 0.1,
+      "llm_price_output": 0.5,
+      "llm_run_budget_usd": 1.0
+    },
+    "configuration_sha256": "sha256:161492438c9a0a0ba8ca116c6edf853182436141e30c5b2ac53d2c2f047a4d51",
+    "implementation_sha256": "sha256:daebbbc65200fe3fe8bf1197c99a23640736e26d8aada185fb997d6bdacb5d9c",
+    "evidence_format": "authorized_final_context",
+    "human_review": false,
+    "oracle": "independent_predeclared_content_patterns",
+    "generator": "extractive",
+    "oracle_bank": "eval\\security_content_oracle_v2.jsonl",
+    "oracle_version": 2,
+    "retriever": "bm25"
+  },
+  "overall": {
+    "n": 9,
+    "passed": 7,
+    "answer_leaks": 0,
+    "evidence_leaks": 0,
+    "availability_failures": 2,
+    "errors": 0
+  },
+  "cases": [
+    {
+      "id": "oracle_zelda_treasures_locked",
+      "game": "zelda1",
+      "question": "Which treasures are found across the overworld?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "1-2"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [(intro)] It is possible to get half of the items in the game before entering Level 1. It is actually possible to do it quite quickly if you get all the secret rupees hidden around Hyrule's overworld. This page guides you through the overworld along the most economical path to get all items and treasures.\n[2] [Treasures of the eight levels] - Level 1: Boomerang & Bow - Level 2: Magic Boomerang\n[3] [Automatic items > Magic Key] Opens doors. Can be used any number of times and eliminates the need for Keys. Your key count will read \"A\" once you have found the Magic Key.",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 0,
+          "chunk_id": "zelda1:overworld-quest-1:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+          "section": "(intro)",
+          "version": "revid:966859",
+          "source_hash": "sha256:f4d8aa6083df82b0278767fecf91ad96384793b1b71a681639c95cb71aa2e6a4",
+          "text": "[(intro)]\nIt is possible to get half of the items in the game before entering Level 1.\nIt is actually possible to do it quite quickly if you get all the secret rupees hidden around Hyrule's overworld.\nThis page guides you through the overworld along the most economical path to get all items and treasures.",
+          "is_excerpt": false,
+          "evidence_hash": "f4d8aa6083df82b0278767fecf91ad96384793b1b71a681639c95cb71aa2e6a4",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 12,
+          "chunk_id": "zelda1:overworld-quest-1:014",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+          "section": "Treasures of the eight levels",
+          "version": "revid:966859",
+          "source_hash": "sha256:71d66012b1a549f791c3e89856c6aca096000e437f32fde1f53f7404f2716f87",
+          "text": "[Treasures of the eight levels]\n- Level 1: Boomerang & Bow\n- Level 2: Magic Boomerang",
+          "is_excerpt": true,
+          "evidence_hash": "d5b318e65969eebd4f5e212d5b02cfb5754ca6bb01e518155bfd40a2abcd31ca",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 23,
+          "chunk_id": "zelda1:items:022",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "Automatic items > Magic Key",
+          "version": "revid:1041432",
+          "source_hash": "sha256:24f2fa3068a7a06f6e5e5ac88c1961cc34c8f96ce88e6e04513d6c570d3c5385",
+          "text": "[Automatic items > Magic Key]\nOpens doors. Can be used any number of times and eliminates the need for Keys. Your key count will read \"A\" once you have found the Magic Key.",
+          "is_excerpt": false,
+          "evidence_hash": "24f2fa3068a7a06f6e5e5ac88c1961cc34c8f96ce88e6e04513d6c570d3c5385",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 0,
+          "chunk_id": "zelda1:items:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "Swords > Wooden Sword",
+          "version": "revid:1041432",
+          "source_hash": "sha256:a1f9dddb370be03d34f4c1ee815d70bbf66d3f242b98f71994e13a66ad498647",
+          "text": "[Swords > Wooden Sword]\nDamage: 1\nThe first sword Link gets in the game. It is the weakest sword. In the game, it is merely referred to as \"sword\". In both quests it is found in Section 6.",
+          "is_excerpt": false,
+          "evidence_hash": "a1f9dddb370be03d34f4c1ee815d70bbf66d3f242b98f71994e13a66ad498647",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 1",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-hyrule-1:003",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_1",
+          "section": "2nd Quest",
+          "version": "revid:1125508",
+          "source_hash": "sha256:607b9cde9c46a39a7b0ea33280a7aa7f06da6ffaba59b932a0ec27d2738357dc",
+          "text": "[2nd Quest]\nD-2: Walk inside the tree to play the Money Making Game. A hidden passage can be found along the north wall.\nB-3: Bomb the small section of the north wall to the right of the stairs to reveal a secret cave where you will receive 30 Rupees.\nD-3: If you have the raft and leave from the dock below, you will arrive at this area. Enter the cave to obtain another Heart Container.\nA-4: See Section 2\nB-4: Touch the right Armos to make it move off of the stairwell that it guards. Descend the stairs to receive 30 Rupees.\nD-4: This is a Raft launch point for the area above.",
+          "is_excerpt": false,
+          "evidence_hash": "607b9cde9c46a39a7b0ea33280a7aa7f06da6ffaba59b932a0ec27d2738357dc",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 0,
+          "chunk_id": "zelda1:overworld-quest-1:000"
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 12,
+          "chunk_id": "zelda1:overworld-quest-1:014"
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 23,
+          "chunk_id": "zelda1:items:022"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [],
+      "missing_allowed_evidence": [],
+      "passed": true,
+      "error": null,
+      "trace_id": "e6718ab1ab3b41408f0acd4b27243348",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.058
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.026
+        },
+        {
+          "name": "retrieved",
+          "query": "Which treasures are found across the overworld?",
+          "variants": [
+            "Which treasures are found across the overworld?"
+          ],
+          "context": [
+            "zelda1:overworld-quest-1:000",
+            "zelda1:overworld-quest-1:014",
+            "zelda1:items:022",
+            "zelda1:items:000",
+            "zelda1:overworld-hyrule-1:003"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 33
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 5.311
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.023
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.102
+        }
+      ]
+    },
+    {
+      "id": "oracle_zelda_arrows_allowed",
+      "game": "zelda1",
+      "question": "How do arrows consume rupees?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "1-2"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Buy the arrows] After heading back to the western Fairy Fountain, leave and walk two screens west. Burn the tree in the lower-right corner to get 10 Rupees. Walk one screen south and one east. This screen is divided in two by a line of trees. Burn the top tree in the line to get 100 Rupees. Go north one screen then east two screens, to the coast of Lake Hylia. Go one screen north, then enter the…\n[2] [2nd Quest] B-3: The shop in the cave sells (the ability to use) Arrows for 80 rupees, the Magical Shield for 130 rupees, and a set of 4 Bombs for 20 rupees. C-3: If you bomb the north wall directly over the southern path, you will reveal a hidden shop that sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees. D-3: See Section 3 A-4: See Section…\n[3] [B Button items > Bow and Arrows] You need a Bow to shoots Arrows and you must purchase Arrows from a shop before you can use the bow. When shot from the bow, each arrow shot subtracts one Rupee from Link's total.",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 9,
+          "chunk_id": "zelda1:overworld-quest-1:010",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+          "section": "Buy the arrows",
+          "version": "revid:966859",
+          "source_hash": "sha256:5d94aa6420b4c2afd13eae312a3cc559d5ed333f9c84a908ceac423d7a7fcae5",
+          "text": "[Buy the arrows]\nAfter heading back to the western Fairy Fountain, leave and walk two screens west. Burn the tree in the lower-right corner to get 10 Rupees.\nWalk one screen south and one east. This screen is divided in two by a line of trees. Burn the top tree in the line to get 100 Rupees.\nGo north one screen then east two screens, to the coast of Lake Hylia. Go one screen north, then enter the shop to buy the Arrows for 80 Rupees.",
+          "is_excerpt": false,
+          "evidence_hash": "5d94aa6420b4c2afd13eae312a3cc559d5ed333f9c84a908ceac423d7a7fcae5",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 5",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-hyrule-5:004",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_5",
+          "section": "2nd Quest",
+          "version": "revid:1125506",
+          "source_hash": "sha256:537ca58a78162a6d84c48bfc30ac2c5a3cc85a7bd87c656ee55188231546becd",
+          "text": "[2nd Quest]\nB-3: The shop in the cave sells (the ability to use) Arrows for 80 rupees, the Magical Shield for 130 rupees, and a set of 4 Bombs for 20 rupees.\nC-3: If you bomb the north wall directly over the southern path, you will reveal a hidden shop that sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees.\nD-3: See Section 3\nA-4: See Section 6",
+          "is_excerpt": false,
+          "evidence_hash": "537ca58a78162a6d84c48bfc30ac2c5a3cc85a7bd87c656ee55188231546becd",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 9,
+          "chunk_id": "zelda1:items:008",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "B Button items > Bow and Arrows",
+          "version": "revid:1041432",
+          "source_hash": "sha256:af617fe06d94c0b5ae4a2389de1e769c3ae241980ff09fc8ee9660911834d98e",
+          "text": "[B Button items > Bow and Arrows]\nYou need a Bow to shoots Arrows and you must purchase Arrows from a shop before you can use the bow. When shot from the bow, each arrow shot subtracts one Rupee from Link's total.",
+          "is_excerpt": true,
+          "evidence_hash": "16714846513c1b06b8f98682edfc391270f3d8c1b876b0eea3d246ff91c2a2a5",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 6",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-hyrule-6:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_6",
+          "section": "2nd Quest",
+          "version": "revid:1125505",
+          "source_hash": "sha256:66af57522c29c3212de2f9e57ad9c6fcc481e9f8edc0c55fac7c3f254856316a",
+          "text": "[2nd Quest]\nA-1: If you came here in hopes of buying the Blue Ring, you will be surprised to discover that the staircase under the Armos leads to the entrance to the second dungeon which holds the valuable whistle.\nB-1: See Section 5\nA-2: In this cave you will find a shop that sells (the ability to use) Arrows for 80 rupees, the Magical Shield for 130 rupees and a set of 4 Bombs for 20 rupees.\nB-2: If you launch the Raft from the dock below, you will arrive here at the entrance to the fifth dungeon.\nC-2: The tree located in the top left corner can be burned down to reveal a very convenient store which sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, or an ordinary Heart for 10 rupees.\nB-3: If you have the Raft, you can use the dock here to launch to the area above.\nC-3: Burn down the lower solitary tree to find a stairwell where you can receive 10 Rupees.\nA-4: In this cave lives a medicine woman. If you have shown her the Letter, she will sell you the 2nd Potion for 68 rupees and the Water of Life for 40 rupees.",
+          "is_excerpt": false,
+          "evidence_hash": "66af57522c29c3212de2f9e57ad9c6fcc481e9f8edc0c55fac7c3f254856316a",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 2",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-hyrule-2:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Hyrule_2",
+          "section": "2nd Quest",
+          "version": "revid:1125509",
+          "source_hash": "sha256:c135e23eb7c82b65273c8df9ef2592e390bd2983727468d0c5a7a323910568fc",
+          "text": "[2nd Quest]\nA-1: The entrance to the third dungeon is hidden in the lake, and is revealed by the whistle.\nB-1: See Section 1\nB-2: Burn the south tree on the eastern most column to discover a hidden shop which sells the Magical Shield for 90 rupees, Monster Bait for 100 rupees, and an ordinary Heart for 10 rupees.\nC-2: Touch the right Armos to wake him up and move him off the stairwell that he guards. Enter the stairwell to receive 10 Rupees.\nC-3: The shop here sells a Magical Shield for 160 rupees, Keys for 100 rupees, and the Blue Candle for 60 rupees.\nD-3: If you have the Ladder, you can collect the Heart Container that is positioned on the far dock.\nA-4: If you burn down a certain tree on the left side that can only be burned from the right side, you will discover the entrance to the seventh dungeon.\nC-4: Some notes on the Whistle will reveal a staircase that leads to a Red Moblin who will give you 10 Rupees.\nD-4: In this shop, you can buy (the ability to use) Arrows for 80 rupees, the Magical Shield for 130 rupees, and a set of 4 Bombs for 20 rupees.",
+          "is_excerpt": false,
+          "evidence_hash": "c135e23eb7c82b65273c8df9ef2592e390bd2983727468d0c5a7a323910568fc",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 9,
+          "chunk_id": "zelda1:overworld-quest-1:010"
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Hyrule 5",
+          "page": 2,
+          "chunk_id": "zelda1:overworld-hyrule-5:004"
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 9,
+          "chunk_id": "zelda1:items:008"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [],
+      "missing_allowed_evidence": [],
+      "passed": true,
+      "error": null,
+      "trace_id": "e3ae08f1b24a44b9b588ecb95f947938",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.026
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.014
+        },
+        {
+          "name": "retrieved",
+          "query": "How do arrows consume rupees?",
+          "variants": [
+            "How do arrows consume rupees?"
+          ],
+          "context": [
+            "zelda1:overworld-quest-1:010",
+            "zelda1:overworld-hyrule-5:004",
+            "zelda1:items:008",
+            "zelda1:overworld-hyrule-6:002",
+            "zelda1:overworld-hyrule-2:002"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 37
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 6.454
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.025
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.167
+        }
+      ]
+    },
+    {
+      "id": "oracle_zelda_silver_unlocked",
+      "game": "zelda1",
+      "question": "Where are the Silver Arrows found?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "current_level": 9
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "1-2"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [B Button items > Bow and Arrows] Damage: 2 (wooden); 4 (silver) You need a Bow to shoots Arrows and you must purchase Arrows from a shop before you can use the bow. When shot from the bow, each arrow shot subtracts one Rupee from Link's total. The Silver Arrow is required to save Princess Zelda.\n[2] [(intro)] Name: Ganon | HP: 16* | Damage: 8 / 2 | Description: 1st Quest: 9 (Boss).\n[3] [Treasures of the eight levels] - Boomerang & Bow - Magic Boomerang - Raft & extra Heart Container - Stepladder, extra Heart Container & Magical Sword - Flute & more Bombs - Magic Wand - Red Candle & more Bombs - Magic Book & Magic Key - Red Ring & Silver Arrows",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 9,
+          "chunk_id": "zelda1:items:008",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "B Button items > Bow and Arrows",
+          "version": "revid:1041432",
+          "source_hash": "sha256:af617fe06d94c0b5ae4a2389de1e769c3ae241980ff09fc8ee9660911834d98e",
+          "text": "[B Button items > Bow and Arrows]\nDamage: 2 (wooden); 4 (silver)\nYou need a Bow to shoots Arrows and you must purchase Arrows from a shop before you can use the bow. When shot from the bow, each arrow shot subtracts one Rupee from Link's total. The Silver Arrow is required to save Princess Zelda.",
+          "is_excerpt": false,
+          "evidence_hash": "af617fe06d94c0b5ae4a2389de1e769c3ae241980ff09fc8ee9660911834d98e",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:004",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Bosses",
+          "section": "(intro)",
+          "version": "revid:1091187",
+          "source_hash": "sha256:2e3ef707c11c0a0e89aa2c717e8fe93c1f547632332ccd993b13d9a65ad613fa",
+          "text": "[(intro)]\nName: Ganon | HP: 16* | Damage: 8 / 2 | Description: 1st Quest: 9 (Boss).",
+          "is_excerpt": true,
+          "evidence_hash": "5a3d753aec7b23e59a2634dc917478aa2b6874fa6cabf9ff6cab5353fcc5b683",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 12,
+          "chunk_id": "zelda1:overworld-quest-1:014",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+          "section": "Treasures of the eight levels",
+          "version": "revid:966859",
+          "source_hash": "sha256:71d66012b1a549f791c3e89856c6aca096000e437f32fde1f53f7404f2716f87",
+          "text": "[Treasures of the eight levels]\n- Boomerang & Bow\n- Magic Boomerang\n- Raft & extra Heart Container\n- Stepladder, extra Heart Container & Magical Sword\n- Flute & more Bombs\n- Magic Wand\n- Red Candle & more Bombs\n- Magic Book & Magic Key\n- Red Ring & Silver Arrows",
+          "is_excerpt": false,
+          "evidence_hash": "71d66012b1a549f791c3e89856c6aca096000e437f32fde1f53f7404f2716f87",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 9",
+          "page": 0,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-9:000",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_9",
+          "section": "Objectives",
+          "version": "revid:1125358",
+          "source_hash": "sha256:2597408a1c4704d7ce21a6dc35962e98a077a612c4ffe1c469afdbe1f431e8c9",
+          "text": "[Objectives]\nYou should accomplish five objectives in this order:\n- Get the Map.\n- Obtain the Red Ring (it is more important than the map, but the map is on the way).\n- Get the Compass.\n- Obtain the Silver Arrows.\n- Defeat Ganon, get the Triforce of Power and rescue Princess Zelda.",
+          "is_excerpt": false,
+          "evidence_hash": "2597408a1c4704d7ce21a6dc35962e98a077a612c4ffe1c469afdbe1f431e8c9",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Underworld/Quest 1/Dungeon 9",
+          "page": 3,
+          "chunk_id": "zelda1:underworld-quest-1-dungeon-9:003",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Underworld/Quest_1/Dungeon_9",
+          "section": "Walkthrough > Obtain the Silver Arrows",
+          "version": "revid:1125358",
+          "source_hash": "sha256:b4a2a299921db2c2bebd0c2da836d14de4014c73e3186b447d2e9c155379a060",
+          "text": "[Walkthrough > Obtain the Silver Arrows]\nReturn through the bombed pathways two rooms above where you got the compass. Return to the room with the very first Patra (if you went for the ring). Unlock the door above and listen to the advice of the man within by bombing the left wall. Defeat all of the Wizzrobes in the left room, and push the left block to reveal a stairwell.\nPart 3\n- Descend down the stairs through the second underground passage, and arrive towards the bottom of the dungeon. Defeat the Zols, unlock the left door, fight the Keese, and go through the left door to encounter another Patra.\n- Defeat this Patra and push the leftmost block to access the stairs. Take this underground passage and you will arrive by the upper left corner of the dungeon. Bomb the north wall to reveal a passage and travel through it.\n- Defeat all of the Wizzrobes and push the central block along the right side to reveal of staircase. Take the stairs to find the vital Silver Arrows which are needed to defeat Ganon.",
+          "is_excerpt": false,
+          "evidence_hash": "b4a2a299921db2c2bebd0c2da836d14de4014c73e3186b447d2e9c155379a060",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 9,
+          "chunk_id": "zelda1:items:008"
+        },
+        {
+          "source": "The Legend of Zelda/Bosses",
+          "page": 0,
+          "chunk_id": "zelda1:bosses:004"
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 12,
+          "chunk_id": "zelda1:overworld-quest-1:014"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [],
+      "missing_allowed_evidence": [],
+      "passed": true,
+      "error": null,
+      "trace_id": "c83eebeed8874eb28bef746017153b40",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.026
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.012
+        },
+        {
+          "name": "retrieved",
+          "query": "Where are the Silver Arrows found?",
+          "variants": [
+            "Where are the Silver Arrows found?"
+          ],
+          "context": [
+            "zelda1:items:008",
+            "zelda1:bosses:004",
+            "zelda1:overworld-quest-1:014",
+            "zelda1:underworld-quest-1-dungeon-9:000",
+            "zelda1:underworld-quest-1-dungeon-9:003"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 34
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 1.376
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.016
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.107
+        }
+      ]
+    },
+    {
+      "id": "oracle_ng_barbarian_locked",
+      "game": "ninja_gaiden_nes",
+      "question": "What happens after defeating Barbarian in stage 1-2?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "1-2"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Stage 1-2] Upon entering the bar, you will be greeted by Barbarian, who slowly approaches you from the right. He walks a few steps before swinging his giant blade a few times, then he resumes his approach. You can get surprisingly close to him without taking damage. He always swings high enough that you can duck underneath his swings to avoid taking damage. Your sword actually has better reach…\n[2] [Weapons] Jump and Slash: Unlike other weapons, you do not need to press Up (D-pad)+B to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it. When you jump in the air, you flip forward becoming one deadly weapon. While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not…\n[3] [Player > Status bar] A large amount of information is presented at the top of the screen throughout the game: - Score: This is your current accumulated score. You collect points by defeating enemies, and collecting bonus point item tiles. - Timer: This indicates the remaining amount of time you have to complete the stage before you lose one life. - Lives: The number of remaining lives you…",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-1:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+          "section": "Stage 1-2",
+          "version": "revid:747172",
+          "source_hash": "sha256:f808ab25782ee16c67131700eb55e54afb6c896a0d09202351e8d9ad4a4769fb",
+          "text": "[Stage 1-2]\nUpon entering the bar, you will be greeted by Barbarian, who slowly approaches you from the right. He walks a few steps before swinging his giant blade a few times, then he resumes his approach. You can get surprisingly close to him without taking damage. He always swings high enough that you can duck underneath his swings to avoid taking damage. Your sword actually has better reach than his. Get in as close as you can without being close enough to get struck, and swing your sword rapidly to get in as many hits as possible before you have to back away and prepare for the next batch of swings. If you managed to reach Barbarian with the Jump and Slash technique, he can be killed fairly quickly by jumping at point blank and instantly starting the slash.",
+          "is_excerpt": true,
+          "evidence_hash": "6888c2ddca7ed7664225052b4f9359d72efe1ca91ec38fe7138956121e9bff35",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Items",
+          "section": "Weapons",
+          "version": "revid:903222",
+          "source_hash": "sha256:dab7a399986cea5e3e548d6ccac4a877d1d92804f398253e0b2a317a101d7953",
+          "text": "[Weapons]\nJump and Slash: Unlike other weapons, you do not need to press Up (D-pad)+B to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it. When you jump in the air, you flip forward becoming one deadly weapon. While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not careful with it.; This item does not competely prevent you from using the sword in midair - you can still perform sword attacks in the air by pressing Down (D-pad)+B.",
+          "is_excerpt": false,
+          "evidence_hash": "dab7a399986cea5e3e548d6ccac4a877d1d92804f398253e0b2a317a101d7953",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Gameplay",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Gameplay",
+          "section": "Player > Status bar",
+          "version": "revid:903219",
+          "source_hash": "sha256:75f197a80e885a3be2ba3001c7a07242a26eec520f6a7626aa70d6e8e3f1144e",
+          "text": "[Player > Status bar]\nA large amount of information is presented at the top of the screen throughout the game:\n- Score: This is your current accumulated score. You collect points by defeating enemies, and collecting bonus point item tiles.\n- Timer: This indicates the remaining amount of time you have to complete the stage before you lose one life.\n- Lives: The number of remaining lives you possess is shown here.\n- Spirit: The amount of spirit points you currently have for using secondary weapons.\n- Weapon: This icon indicates which secondary weapon is currently active. You activate a new weapon whenever you collect a weapon tile.\n- Stage: This indicates on what stage you are currently playing.\n- Health: This is your health meter. This meter will reduce when you take damage. You will lose one life if your meter is depleted.\n- Enemy: When you fight against a boss, this health meter indicates how much more damage they can sustain before they are defeated. It does not apply to regular enemies.",
+          "is_excerpt": false,
+          "evidence_hash": "75f197a80e885a3be2ba3001c7a07242a26eec520f6a7626aa70d6e8e3f1144e",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:act-1:002",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+          "section": "Stage 1-1",
+          "version": "revid:747172",
+          "source_hash": "sha256:fc4b52a8a09be328640e6da79f1c776cf698e5915e283beb58052da5d9be39aa",
+          "text": "[Stage 1-1]\nAs you fall down the other side of the high platform, be prepared to strike the higher lantern on the way down. It will contain a Windmill Star. From here it's a straight shot to the boss. You may have to squat down to strike a knife thrower who meets you at the end of a low platform, and watch out for one more dog which runs toward you from the left. Enter the bar at the end of the stage to challenge the boss.",
+          "is_excerpt": false,
+          "evidence_hash": "fc4b52a8a09be328640e6da79f1c776cf698e5915e283beb58052da5d9be39aa",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:act-1:001",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+          "section": "Stage 1-1",
+          "version": "revid:747172",
+          "source_hash": "sha256:48a0fb1197eb023e570740c819d7af3e51aef8cc9f03534c08a0619330e3ce93",
+          "text": "[Stage 1-1]\nYou'll see a ledge with a man walking back and forth, but it's too high to jump up to. (You can, however, jump up and hit the enemy, and wind up on top of the platform as a result of the collision.) If you continue right, watch out for another dog, and wall jump up to the top of the sign. From there, jump and strike at the lantern to the right. You will obtain the Jump and Slash technique, which you can use to cut down the enemy on the ledge, and then jump up to collect the Flame technique above him. (Alternatively, you may consider trying to hold on to the Jump and Slash technique, since it is surprisingly effective against the boss of this stage.)\nIf you climb back up to the top of the ledge on the right, strike the high lantern as you fall down to obtain the Fire Wheel. Once you collect it, immediately run to the right. Before it runs out, you should be able to mow down several enemies, wall jump between the wall and two signs, and then leap back to the left to strike the highest lantern which contains an hourglass. Collect it and time will freeze. Ultimately, you must return to high platform on the right to proceed.",
+          "is_excerpt": false,
+          "evidence_hash": "48a0fb1197eb023e570740c819d7af3e51aef8cc9f03534c08a0619330e3ce93",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-1:003"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:items:003"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Gameplay",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [],
+      "missing_allowed_evidence": [],
+      "passed": true,
+      "error": null,
+      "trace_id": "032d15992a084b30b151d4fa9845dfbd",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.029
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.014
+        },
+        {
+          "name": "retrieved",
+          "query": "What happens after defeating Barbarian in stage 1-2?",
+          "variants": [
+            "What happens after defeating Barbarian in stage 1-2?"
+          ],
+          "context": [
+            "ninja_gaiden_nes:act-1:003",
+            "ninja_gaiden_nes:items:003",
+            "ninja_gaiden_nes:gameplay:003",
+            "ninja_gaiden_nes:act-1:002",
+            "ninja_gaiden_nes:act-1:001"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 7
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 6.107
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.038
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.181
+        }
+      ]
+    },
+    {
+      "id": "oracle_ng_barbarian_tactics",
+      "game": "ninja_gaiden_nes",
+      "question": "How does Barbarian move in stage 1-2?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "1-2"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Stage 1-2] Upon entering the bar, you will be greeted by Barbarian, who slowly approaches you from the right. He walks a few steps before swinging his giant blade a few times, then he resumes his approach. You can get surprisingly close to him without taking damage. He always swings high enough that you can duck underneath his swings to avoid taking damage. Your sword actually has better reach…\n[2] [Stage 1-1] As you fall down the other side of the high platform, be prepared to strike the higher lantern on the way down. It will contain a Windmill Star. From here it's a straight shot to the boss. You may have to squat down to strike a knife thrower who meets you at the end of a low platform, and watch out for one more dog which runs toward you from the left. Enter the bar at the end of the…\n[3] [Stage 1-1] You'll see a ledge with a man walking back and forth, but it's too high to jump up to. (You can, however, jump up and hit the enemy, and wind up on top of the platform as a result of the collision.) If you continue right, watch out for another dog, and wall jump up to the top of the sign. From there, jump and strike at the lantern to the right. You will obtain the Jump and Slash…",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-1:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+          "section": "Stage 1-2",
+          "version": "revid:747172",
+          "source_hash": "sha256:f808ab25782ee16c67131700eb55e54afb6c896a0d09202351e8d9ad4a4769fb",
+          "text": "[Stage 1-2]\nUpon entering the bar, you will be greeted by Barbarian, who slowly approaches you from the right. He walks a few steps before swinging his giant blade a few times, then he resumes his approach. You can get surprisingly close to him without taking damage. He always swings high enough that you can duck underneath his swings to avoid taking damage. Your sword actually has better reach than his. Get in as close as you can without being close enough to get struck, and swing your sword rapidly to get in as many hits as possible before you have to back away and prepare for the next batch of swings. If you managed to reach Barbarian with the Jump and Slash technique, he can be killed fairly quickly by jumping at point blank and instantly starting the slash.",
+          "is_excerpt": true,
+          "evidence_hash": "6888c2ddca7ed7664225052b4f9359d72efe1ca91ec38fe7138956121e9bff35",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:act-1:002",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+          "section": "Stage 1-1",
+          "version": "revid:747172",
+          "source_hash": "sha256:fc4b52a8a09be328640e6da79f1c776cf698e5915e283beb58052da5d9be39aa",
+          "text": "[Stage 1-1]\nAs you fall down the other side of the high platform, be prepared to strike the higher lantern on the way down. It will contain a Windmill Star. From here it's a straight shot to the boss. You may have to squat down to strike a knife thrower who meets you at the end of a low platform, and watch out for one more dog which runs toward you from the left. Enter the bar at the end of the stage to challenge the boss.",
+          "is_excerpt": false,
+          "evidence_hash": "fc4b52a8a09be328640e6da79f1c776cf698e5915e283beb58052da5d9be39aa",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:act-1:001",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+          "section": "Stage 1-1",
+          "version": "revid:747172",
+          "source_hash": "sha256:48a0fb1197eb023e570740c819d7af3e51aef8cc9f03534c08a0619330e3ce93",
+          "text": "[Stage 1-1]\nYou'll see a ledge with a man walking back and forth, but it's too high to jump up to. (You can, however, jump up and hit the enemy, and wind up on top of the platform as a result of the collision.) If you continue right, watch out for another dog, and wall jump up to the top of the sign. From there, jump and strike at the lantern to the right. You will obtain the Jump and Slash technique, which you can use to cut down the enemy on the ledge, and then jump up to collect the Flame technique above him. (Alternatively, you may consider trying to hold on to the Jump and Slash technique, since it is surprisingly effective against the boss of this stage.)\nIf you climb back up to the top of the ledge on the right, strike the high lantern as you fall down to obtain the Fire Wheel. Once you collect it, immediately run to the right. Before it runs out, you should be able to mow down several enemies, wall jump between the wall and two signs, and then leap back to the left to strike the highest lantern which contains an hourglass. Collect it and time will freeze. Ultimately, you must return to high platform on the right to proceed.",
+          "is_excerpt": false,
+          "evidence_hash": "48a0fb1197eb023e570740c819d7af3e51aef8cc9f03534c08a0619330e3ce93",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:act-1:000",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+          "section": "Stage 1-1",
+          "version": "revid:747172",
+          "source_hash": "sha256:ee786635c00999339d172b25bb868b7efb8e984ecbcf06c04857dee5b8e9100c",
+          "text": "[Stage 1-1]\nStarting off, run to the right and slash your way through three basic enemies. Then strike the two lanterns for your first set of spirit points, followed by another basic enemy. Right around the time you reach this fourth enemy, a dog will come running from behind you. Turn around quickly and slash it, or jump up as it runs beneath you.\nUp ahead, a slow moving enemy will approach you. Strike him to remove him before he throws a knife at you. As you approach the next platform, a dog will attack. Jump up to the small platform, and wall jump off the sign to the left to reach the higher platform above, where you will find two enemies guarding a lantern that contains the first secondary weapon, the Throwing Star.\nContinue right and remove the next enemy before wall jumping off the wall and the sign on the left to reach the platform above. On the other side, you will see three signs above the side walk. It's possible to jump up and wall jump your way to the top to cross over the side walk unharmed, but it's more trouble than it's worth. Just watch out for the dog which comes running from the left.",
+          "is_excerpt": false,
+          "evidence_hash": "ee786635c00999339d172b25bb868b7efb8e984ecbcf06c04857dee5b8e9100c",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:items:000",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Items",
+          "section": "(intro)",
+          "version": "revid:903222",
+          "source_hash": "sha256:2ad361531d937884ea38029ad034a342d535b70e4c696c29367f92c0786967d1",
+          "text": "[(intro)]\nTo obtain items, you must attack various item holders that appear throughout each stage. The form of these holders changes from stage to stage; in some cases they might be candles or flames, and in other cases, they might be living creatures such as insects or birds. Once attacked, the items fall straight down to the ground, or in some cases, disappear through the bottom of the screen if they are not collected in time.",
+          "is_excerpt": false,
+          "evidence_hash": "2ad361531d937884ea38029ad034a342d535b70e4c696c29367f92c0786967d1",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-1:003"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:act-1:002"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 0,
+          "chunk_id": "ninja_gaiden_nes:act-1:001"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [],
+      "missing_allowed_evidence": [],
+      "passed": true,
+      "error": null,
+      "trace_id": "442366cf09524c658bddfeb8f68ed8c8",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.027
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.012
+        },
+        {
+          "name": "retrieved",
+          "query": "How does Barbarian move in stage 1-2?",
+          "variants": [
+            "How does Barbarian move in stage 1-2?"
+          ],
+          "context": [
+            "ninja_gaiden_nes:act-1:003",
+            "ninja_gaiden_nes:act-1:002",
+            "ninja_gaiden_nes:act-1:001",
+            "ninja_gaiden_nes:act-1:000",
+            "ninja_gaiden_nes:items:000"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 7
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 1.121
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.035
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.183
+        }
+      ]
+    },
+    {
+      "id": "oracle_ng_barbarian_unlocked",
+      "game": "ninja_gaiden_nes",
+      "question": "What happens after defeating Barbarian in stage 1-2?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "2-1"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Stage 1-2] Upon entering the bar, you will be greeted by Barbarian, who slowly approaches you from the right. He walks a few steps before swinging his giant blade a few times, then he resumes his approach. You can get surprisingly close to him without taking damage. He always swings high enough that you can duck underneath his swings to avoid taking damage. Your sword actually has better reach…\n[2] [Weapons] Jump and Slash: Unlike other weapons, you do not need to press Up (D-pad)+B to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it. When you jump in the air, you flip forward becoming one deadly weapon. While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not…\n[3] [Stage 2-1] This is a small section with no enemies. From the ladder, jump left to the floor below, then back to the right above the ladder. Then jump back to the left to reach the platform above the floor, and finally back to the right to reach the ladder up to the next section. Climbing up the ladder, you will arrive on the right side of this final portion of 2-1, and you must run to the left…",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-1:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_1",
+          "section": "Stage 1-2",
+          "version": "revid:747172",
+          "source_hash": "sha256:f808ab25782ee16c67131700eb55e54afb6c896a0d09202351e8d9ad4a4769fb",
+          "text": "[Stage 1-2]\nUpon entering the bar, you will be greeted by Barbarian, who slowly approaches you from the right. He walks a few steps before swinging his giant blade a few times, then he resumes his approach. You can get surprisingly close to him without taking damage. He always swings high enough that you can duck underneath his swings to avoid taking damage. Your sword actually has better reach than his. Get in as close as you can without being close enough to get struck, and swing your sword rapidly to get in as many hits as possible before you have to back away and prepare for the next batch of swings. If you managed to reach Barbarian with the Jump and Slash technique, he can be killed fairly quickly by jumping at point blank and instantly starting the slash.\nDefeat Barbarian and you will be treated to the first cut scene. Ryu feels as though he's being followed. He notices a woman standing behind him who he dismisses, but before she goes, she appears to shoot Ryu.",
+          "is_excerpt": false,
+          "evidence_hash": "f808ab25782ee16c67131700eb55e54afb6c896a0d09202351e8d9ad4a4769fb",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Items",
+          "section": "Weapons",
+          "version": "revid:903222",
+          "source_hash": "sha256:dab7a399986cea5e3e548d6ccac4a877d1d92804f398253e0b2a317a101d7953",
+          "text": "[Weapons]\nJump and Slash: Unlike other weapons, you do not need to press Up (D-pad)+B to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it. When you jump in the air, you flip forward becoming one deadly weapon. While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not careful with it.; This item does not competely prevent you from using the sword in midair - you can still perform sword attacks in the air by pressing Down (D-pad)+B.",
+          "is_excerpt": false,
+          "evidence_hash": "dab7a399986cea5e3e548d6ccac4a877d1d92804f398253e0b2a317a101d7953",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-2:004",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_2",
+          "section": "Stage 2-1",
+          "version": "revid:969801",
+          "source_hash": "sha256:94b6099763cb17675da357aa0dfa3404717d1cb7ebc464458a0397f968b924ad",
+          "text": "[Stage 2-1]\nThis is a small section with no enemies. From the ladder, jump left to the floor below, then back to the right above the ladder. Then jump back to the left to reach the platform above the floor, and finally back to the right to reach the ladder up to the next section.\nClimbing up the ladder, you will arrive on the right side of this final portion of 2-1, and you must run to the left to reach the exit. As soon as you run left, a dog will leap down from the right as you approach the first enemy. Remove them both, and jump up on to the girder to dispatch two more enemies.\nAfter jumping up to a high platform above a gap in the floor, you must jump down to another girder. Be careful where you land, as an enemy patrols the girder, and a dog will appear from the left as well. When your path is clear, continue on to the left to reach the exit.",
+          "is_excerpt": false,
+          "evidence_hash": "94b6099763cb17675da357aa0dfa3404717d1cb7ebc464458a0397f968b924ad",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Gameplay",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Gameplay",
+          "section": "Player > Status bar",
+          "version": "revid:903219",
+          "source_hash": "sha256:75f197a80e885a3be2ba3001c7a07242a26eec520f6a7626aa70d6e8e3f1144e",
+          "text": "[Player > Status bar]\nA large amount of information is presented at the top of the screen throughout the game:\n- Score: This is your current accumulated score. You collect points by defeating enemies, and collecting bonus point item tiles.\n- Timer: This indicates the remaining amount of time you have to complete the stage before you lose one life.\n- Lives: The number of remaining lives you possess is shown here.\n- Spirit: The amount of spirit points you currently have for using secondary weapons.\n- Weapon: This icon indicates which secondary weapon is currently active. You activate a new weapon whenever you collect a weapon tile.\n- Stage: This indicates on what stage you are currently playing.\n- Health: This is your health meter. This meter will reduce when you take damage. You will lose one life if your meter is depleted.\n- Enemy: When you fight against a boss, this health meter indicates how much more damage they can sustain before they are defeated. It does not apply to regular enemies.",
+          "is_excerpt": false,
+          "evidence_hash": "75f197a80e885a3be2ba3001c7a07242a26eec520f6a7626aa70d6e8e3f1144e",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-2:002",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_2",
+          "section": "Stage 2-1",
+          "version": "revid:969801",
+          "source_hash": "sha256:d6d76cefe39c013a2229c00edb8ac35c6a8a03b1c999b83cd9705afad9f86d18",
+          "text": "[Stage 2-1]\nAfter you pass the yellow beam, the next lamp has the Flame technique. Collect it before you have to leap over your first two gaps. You should have no problem clearing them if you have a good running start. Just watch out for the bats that start to appear here. Jump up to the small ledge to get over the second gap, and up to the platform above. The higher lamp after this platform contains a Windmill Star. If you miss it on your way down from the platform, you can climb up the following ladder to claim it.\nAs you approach the end of this first section, a dog will appear from the left and leap down to attack you. Ignore it and jump to the wall below the ladder. Wall jump back and forth between this wall and the small ledge to the left. You can land on it and jump off to the left to get the red Spirit Points tile before returning to the wall and climbing up the ladder to the next section above.",
+          "is_excerpt": false,
+          "evidence_hash": "d6d76cefe39c013a2229c00edb8ac35c6a8a03b1c999b83cd9705afad9f86d18",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 1",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-1:003"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:items:003"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-2:004"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [
+        "woman standing behind"
+      ],
+      "missing_allowed_evidence": [],
+      "passed": false,
+      "error": null,
+      "trace_id": "6817b43c48024c1ea6d6a39168fa63f5",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.035
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.014
+        },
+        {
+          "name": "retrieved",
+          "query": "What happens after defeating Barbarian in stage 1-2?",
+          "variants": [
+            "What happens after defeating Barbarian in stage 1-2?"
+          ],
+          "context": [
+            "ninja_gaiden_nes:act-1:003",
+            "ninja_gaiden_nes:items:003",
+            "ninja_gaiden_nes:act-2:004",
+            "ninja_gaiden_nes:gameplay:003",
+            "ninja_gaiden_nes:act-2:002"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 12
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 0.675
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.033
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.175
+        }
+      ]
+    },
+    {
+      "id": "oracle_ng_bomberhead_locked",
+      "game": "ninja_gaiden_nes",
+      "question": "What happens after defeating Bomberhead in stage 2-3?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "2-3"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Stage 2-3] As soon as you enter the hall, you will be attacked by the enemy known as Bomberhead. Bomberhead moves in a slow menacing pace just like Barbarian did. However, Bomberhead's weapon is a bit more problematic for you. It has better reach, and it spins around, so there's no chance to duck below it. You'll have to be a bit more surgical and precise with your strikes, attempting to slash…\n[2] [Weapons] Jump and Slash: Unlike other weapons, you do not need to press Up (D-pad)+B to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it. When you jump in the air, you flip forward becoming one deadly weapon. While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not…\n[3] [Player > Status bar] A large amount of information is presented at the top of the screen throughout the game: - Score: This is your current accumulated score. You collect points by defeating enemies, and collecting bonus point item tiles. - Timer: This indicates the remaining amount of time you have to complete the stage before you lose one life. - Lives: The number of remaining lives you…",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 3,
+          "chunk_id": "ninja_gaiden_nes:act-2:008",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_2",
+          "section": "Stage 2-3",
+          "version": "revid:969801",
+          "source_hash": "sha256:b2b35fe537d8d27ee4055177134abc2894a3c3fc098bfb232fab5799bf8a1ca7",
+          "text": "[Stage 2-3]\nAs soon as you enter the hall, you will be attacked by the enemy known as Bomberhead. Bomberhead moves in a slow menacing pace just like Barbarian did. However, Bomberhead's weapon is a bit more problematic for you. It has better reach, and it spins around, so there's no chance to duck below it. You'll have to be a bit more surgical and precise with your strikes, attempting to slash Bomberhead while he's slowly advancing towards you, before backing away from his attack. If he corners you in the room, you'll have to attempt to leap over him before continuing your assault. If you managed to hang on to the Jump and Slash technique, you'll find that he can be struck down in just two or three hits.",
+          "is_excerpt": true,
+          "evidence_hash": "afd0fef192be904530e7edbaf66de717abb69a4b8c217d2e6c6a91ada7af25b6",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Items",
+          "section": "Weapons",
+          "version": "revid:903222",
+          "source_hash": "sha256:dab7a399986cea5e3e548d6ccac4a877d1d92804f398253e0b2a317a101d7953",
+          "text": "[Weapons]\nJump and Slash: Unlike other weapons, you do not need to press Up (D-pad)+B to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it. When you jump in the air, you flip forward becoming one deadly weapon. While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not careful with it.; This item does not competely prevent you from using the sword in midair - you can still perform sword attacks in the air by pressing Down (D-pad)+B.",
+          "is_excerpt": false,
+          "evidence_hash": "dab7a399986cea5e3e548d6ccac4a877d1d92804f398253e0b2a317a101d7953",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Gameplay",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Gameplay",
+          "section": "Player > Status bar",
+          "version": "revid:903219",
+          "source_hash": "sha256:75f197a80e885a3be2ba3001c7a07242a26eec520f6a7626aa70d6e8e3f1144e",
+          "text": "[Player > Status bar]\nA large amount of information is presented at the top of the screen throughout the game:\n- Score: This is your current accumulated score. You collect points by defeating enemies, and collecting bonus point item tiles.\n- Timer: This indicates the remaining amount of time you have to complete the stage before you lose one life.\n- Lives: The number of remaining lives you possess is shown here.\n- Spirit: The amount of spirit points you currently have for using secondary weapons.\n- Weapon: This icon indicates which secondary weapon is currently active. You activate a new weapon whenever you collect a weapon tile.\n- Stage: This indicates on what stage you are currently playing.\n- Health: This is your health meter. This meter will reduce when you take damage. You will lose one life if your meter is depleted.\n- Enemy: When you fight against a boss, this health meter indicates how much more damage they can sustain before they are defeated. It does not apply to regular enemies.",
+          "is_excerpt": false,
+          "evidence_hash": "75f197a80e885a3be2ba3001c7a07242a26eec520f6a7626aa70d6e8e3f1144e",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-2:002",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_2",
+          "section": "Stage 2-1",
+          "version": "revid:969801",
+          "source_hash": "sha256:d6d76cefe39c013a2229c00edb8ac35c6a8a03b1c999b83cd9705afad9f86d18",
+          "text": "[Stage 2-1]\nAfter you pass the yellow beam, the next lamp has the Flame technique. Collect it before you have to leap over your first two gaps. You should have no problem clearing them if you have a good running start. Just watch out for the bats that start to appear here. Jump up to the small ledge to get over the second gap, and up to the platform above. The higher lamp after this platform contains a Windmill Star. If you miss it on your way down from the platform, you can climb up the following ladder to claim it.\nAs you approach the end of this first section, a dog will appear from the left and leap down to attack you. Ignore it and jump to the wall below the ladder. Wall jump back and forth between this wall and the small ledge to the left. You can land on it and jump off to the left to get the red Spirit Points tile before returning to the wall and climbing up the ladder to the next section above.",
+          "is_excerpt": false,
+          "evidence_hash": "d6d76cefe39c013a2229c00edb8ac35c6a8a03b1c999b83cd9705afad9f86d18",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:act-2:007",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_2",
+          "section": "Stage 2-2",
+          "version": "revid:969801",
+          "source_hash": "sha256:7d24dce7a2c1cda13bb85cbd7645a43a22083b34c1f34d56f9e2d7d5f8127aa0",
+          "text": "[Stage 2-2]\nOnce again, you start this section off on the far right side. Leap from the ladder to the wall on your right, then back over above the ladder. Run to the far right and climb up before jumping back on top of the platform that leads you on to the rest of the stage. Watch out for the bat which attacks you, and jump down to the column below.\nAfter you remove the first enemy, a commando will appear from behind you. Remove him and proceed to the left. If you're quick enough, you can jump up and kill the dagger tosser before he becomes a threat. You'll find a Jump and Slash technique in the insect beyond the dagger tosser. As you proceed, commandos will appear behind you continuously, so be on alert.\nWhen you jump down to the ledge below, collect the red Spirit Points tile from the first insect, but you may not want to collect the Flame technique from the following insect, since Jump and Slash is more effective against the stage boss. Both techniques are particular effective for dealing with the enemies which appear on the progressively higher ledges. The exit is guarded by three basic enemies, but you must land carefully before attacking them, or you risk getting knocked backward and falling through the gap.",
+          "is_excerpt": false,
+          "evidence_hash": "7d24dce7a2c1cda13bb85cbd7645a43a22083b34c1f34d56f9e2d7d5f8127aa0",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 3,
+          "chunk_id": "ninja_gaiden_nes:act-2:008"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:items:003"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Gameplay",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [],
+      "missing_allowed_evidence": [],
+      "passed": true,
+      "error": null,
+      "trace_id": "ae873fc0e81846779abcaf7a0a61707a",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.029
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.013
+        },
+        {
+          "name": "retrieved",
+          "query": "What happens after defeating Bomberhead in stage 2-3?",
+          "variants": [
+            "What happens after defeating Bomberhead in stage 2-3?"
+          ],
+          "context": [
+            "ninja_gaiden_nes:act-2:008",
+            "ninja_gaiden_nes:items:003",
+            "ninja_gaiden_nes:gameplay:003",
+            "ninja_gaiden_nes:act-2:002",
+            "ninja_gaiden_nes:act-2:007"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 14
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 1.636
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.03
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.172
+        }
+      ]
+    },
+    {
+      "id": "oracle_ng_bomberhead_unlocked",
+      "game": "ninja_gaiden_nes",
+      "question": "What happens after defeating Bomberhead in stage 2-3?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "3-1"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Stage 2-3] As soon as you enter the hall, you will be attacked by the enemy known as Bomberhead. Bomberhead moves in a slow menacing pace just like Barbarian did. However, Bomberhead's weapon is a bit more problematic for you. It has better reach, and it spins around, so there's no chance to duck below it. You'll have to be a bit more surgical and precise with your strikes, attempting to slash…\n[2] [Weapons] Jump and Slash: Unlike other weapons, you do not need to press Up (D-pad)+B to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it. When you jump in the air, you flip forward becoming one deadly weapon. While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not…\n[3] [Player > Status bar] A large amount of information is presented at the top of the screen throughout the game: - Score: This is your current accumulated score. You collect points by defeating enemies, and collecting bonus point item tiles. - Timer: This indicates the remaining amount of time you have to complete the stage before you lose one life. - Lives: The number of remaining lives you…",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 3,
+          "chunk_id": "ninja_gaiden_nes:act-2:008",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_2",
+          "section": "Stage 2-3",
+          "version": "revid:969801",
+          "source_hash": "sha256:b2b35fe537d8d27ee4055177134abc2894a3c3fc098bfb232fab5799bf8a1ca7",
+          "text": "[Stage 2-3]\nAs soon as you enter the hall, you will be attacked by the enemy known as Bomberhead. Bomberhead moves in a slow menacing pace just like Barbarian did. However, Bomberhead's weapon is a bit more problematic for you. It has better reach, and it spins around, so there's no chance to duck below it. You'll have to be a bit more surgical and precise with your strikes, attempting to slash Bomberhead while he's slowly advancing towards you, before backing away from his attack. If he corners you in the room, you'll have to attempt to leap over him before continuing your assault. If you managed to hang on to the Jump and Slash technique, you'll find that he can be struck down in just two or three hits.\nAfter defeating Bomberhead, Ryu has many questions, and he decides that now would be a good time to pay a visit to his father's old friend, Mr. Smith.",
+          "is_excerpt": false,
+          "evidence_hash": "b2b35fe537d8d27ee4055177134abc2894a3c3fc098bfb232fab5799bf8a1ca7",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:items:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Items",
+          "section": "Weapons",
+          "version": "revid:903222",
+          "source_hash": "sha256:dab7a399986cea5e3e548d6ccac4a877d1d92804f398253e0b2a317a101d7953",
+          "text": "[Weapons]\nJump and Slash: Unlike other weapons, you do not need to press Up (D-pad)+B to use this weapon; it happens automatically whenever you jump, provided you have enough spirit points (5) to use it. When you jump in the air, you flip forward becoming one deadly weapon. While handy for removing enemies on narrow ledges, this weapon can burn through your spirit points quickly if you're not careful with it.; This item does not competely prevent you from using the sword in midair - you can still perform sword attacks in the air by pressing Down (D-pad)+B.",
+          "is_excerpt": false,
+          "evidence_hash": "dab7a399986cea5e3e548d6ccac4a877d1d92804f398253e0b2a317a101d7953",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Gameplay",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Gameplay",
+          "section": "Player > Status bar",
+          "version": "revid:903219",
+          "source_hash": "sha256:75f197a80e885a3be2ba3001c7a07242a26eec520f6a7626aa70d6e8e3f1144e",
+          "text": "[Player > Status bar]\nA large amount of information is presented at the top of the screen throughout the game:\n- Score: This is your current accumulated score. You collect points by defeating enemies, and collecting bonus point item tiles.\n- Timer: This indicates the remaining amount of time you have to complete the stage before you lose one life.\n- Lives: The number of remaining lives you possess is shown here.\n- Spirit: The amount of spirit points you currently have for using secondary weapons.\n- Weapon: This icon indicates which secondary weapon is currently active. You activate a new weapon whenever you collect a weapon tile.\n- Stage: This indicates on what stage you are currently playing.\n- Health: This is your health meter. This meter will reduce when you take damage. You will lose one life if your meter is depleted.\n- Enemy: When you fight against a boss, this health meter indicates how much more damage they can sustain before they are defeated. It does not apply to regular enemies.",
+          "is_excerpt": false,
+          "evidence_hash": "75f197a80e885a3be2ba3001c7a07242a26eec520f6a7626aa70d6e8e3f1144e",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 3",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-3:002",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_3",
+          "section": "Stage 3-1",
+          "version": "revid:747551",
+          "source_hash": "sha256:a8edccb80e6d5fc1117006f2d3abdaf473ccee34116b4eae5d6221a8c6fe9593",
+          "text": "[Stage 3-1]\nAfter you reach the end of the high platform, you'll have to jump down to a very small segment of dock down below. Be careful when making this jump. As you leap to the second segment, and eagle will appear. The item over this segment is a health-restoring potion, so collect it carefully. Another eagle will appear as you attempt to reach the end of the stage and advance to the next one.",
+          "is_excerpt": false,
+          "evidence_hash": "a8edccb80e6d5fc1117006f2d3abdaf473ccee34116b4eae5d6221a8c6fe9593",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 1,
+          "chunk_id": "ninja_gaiden_nes:act-2:002",
+          "url": "https://strategywiki.org/wiki/Ninja_Gaiden_%28NES%29/Act_2",
+          "section": "Stage 2-1",
+          "version": "revid:969801",
+          "source_hash": "sha256:d6d76cefe39c013a2229c00edb8ac35c6a8a03b1c999b83cd9705afad9f86d18",
+          "text": "[Stage 2-1]\nAfter you pass the yellow beam, the next lamp has the Flame technique. Collect it before you have to leap over your first two gaps. You should have no problem clearing them if you have a good running start. Just watch out for the bats that start to appear here. Jump up to the small ledge to get over the second gap, and up to the platform above. The higher lamp after this platform contains a Windmill Star. If you miss it on your way down from the platform, you can climb up the following ladder to claim it.\nAs you approach the end of this first section, a dog will appear from the left and leap down to attack you. Ignore it and jump to the wall below the ladder. Wall jump back and forth between this wall and the small ledge to the left. You can land on it and jump off to the left to get the red Spirit Points tile before returning to the wall and climbing up the ladder to the next section above.",
+          "is_excerpt": false,
+          "evidence_hash": "d6d76cefe39c013a2229c00edb8ac35c6a8a03b1c999b83cd9705afad9f86d18",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "Ninja Gaiden (NES)/Act 2",
+          "page": 3,
+          "chunk_id": "ninja_gaiden_nes:act-2:008"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Items",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:items:003"
+        },
+        {
+          "source": "Ninja Gaiden (NES)/Gameplay",
+          "page": 2,
+          "chunk_id": "ninja_gaiden_nes:gameplay:003"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [
+        "Mr\\.? Smith"
+      ],
+      "missing_allowed_evidence": [],
+      "passed": false,
+      "error": null,
+      "trace_id": "58b77abb4c7446a3bad73a16bda63082",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.03
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.013
+        },
+        {
+          "name": "retrieved",
+          "query": "What happens after defeating Bomberhead in stage 2-3?",
+          "variants": [
+            "What happens after defeating Bomberhead in stage 2-3?"
+          ],
+          "context": [
+            "ninja_gaiden_nes:act-2:008",
+            "ninja_gaiden_nes:items:003",
+            "ninja_gaiden_nes:gameplay:003",
+            "ninja_gaiden_nes:act-3:002",
+            "ninja_gaiden_nes:act-2:002"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 16
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 0.732
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.034
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.173
+        }
+      ]
+    },
+    {
+      "id": "oracle_zelda_magic_key_general",
+      "game": "zelda1",
+      "question": "What does the Magic Key do?",
+      "player_profile": {
+        "user_id": "novato",
+        "role": "player",
+        "progress": {
+          "zelda1": {
+            "kind": "level_set",
+            "quest": "first",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ninja_gaiden_nes": {
+            "kind": "linear_stage",
+            "current_stage": "1-2"
+          },
+          "gta_sa": {
+            "kind": "linear_stage",
+            "current_stage": "los_santos"
+          },
+          "oot": {
+            "kind": "level_set",
+            "quest": "main",
+            "completed_levels": [
+              1
+            ],
+            "current_level": 2
+          },
+          "ac2": {
+            "kind": "linear_stage",
+            "current_stage": "2"
+          },
+          "doom": {
+            "kind": "linear_stage",
+            "current_stage": "E1M3"
+          },
+          "rdr1": {
+            "kind": "linear_stage",
+            "current_stage": "story"
+          }
+        },
+        "hint_level": 1
+      },
+      "answer": "Most relevant excerpts from the sources (no generated summary):\n[1] [Automatic items > Magic Key] Opens doors. Can be used any number of times and eliminates the need for Keys. Your key count will read \"A\" once you have found the Magic Key.\n[2] [Dungeon items > Key] Each Key will open one door. Link can carry up to nine of them until he obtains the magic key.\n[3] [Treasures of the eight levels] - Level 1: Boomerang & Bow - Level 2: Magic Boomerang",
+      "abstained": false,
+      "final_evidence": [
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 23,
+          "chunk_id": "zelda1:items:022",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "Automatic items > Magic Key",
+          "version": "revid:1041432",
+          "source_hash": "sha256:24f2fa3068a7a06f6e5e5ac88c1961cc34c8f96ce88e6e04513d6c570d3c5385",
+          "text": "[Automatic items > Magic Key]\nOpens doors. Can be used any number of times and eliminates the need for Keys. Your key count will read \"A\" once you have found the Magic Key.",
+          "is_excerpt": false,
+          "evidence_hash": "24f2fa3068a7a06f6e5e5ac88c1961cc34c8f96ce88e6e04513d6c570d3c5385",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 16,
+          "chunk_id": "zelda1:items:015",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "Dungeon items > Key",
+          "version": "revid:1041432",
+          "source_hash": "sha256:08a279bea20faa3b43058e53f0dcdc95992e6077239d54dd62c7a1c54b1d6fad",
+          "text": "[Dungeon items > Key]\nEach Key will open one door. Link can carry up to nine of them until he obtains the magic key.",
+          "is_excerpt": false,
+          "evidence_hash": "08a279bea20faa3b43058e53f0dcdc95992e6077239d54dd62c7a1c54b1d6fad",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 12,
+          "chunk_id": "zelda1:overworld-quest-1:014",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Overworld/Quest_1",
+          "section": "Treasures of the eight levels",
+          "version": "revid:966859",
+          "source_hash": "sha256:71d66012b1a549f791c3e89856c6aca096000e437f32fde1f53f7404f2716f87",
+          "text": "[Treasures of the eight levels]\n- Level 1: Boomerang & Bow\n- Level 2: Magic Boomerang",
+          "is_excerpt": true,
+          "evidence_hash": "d5b318e65969eebd4f5e212d5b02cfb5754ca6bb01e518155bfd40a2abcd31ca",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 21,
+          "chunk_id": "zelda1:items:020",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "Automatic items > Book of Magic",
+          "version": "revid:1041432",
+          "source_hash": "sha256:009e986c9cce8c6e15f0f41612a1e4e1d73e25e05188842ee6f8772bfbdc9824",
+          "text": "[Automatic items > Book of Magic]\nCauses the magic blasts from the Magic Wand to burst into flame when they hit a target. These flames can be used to light a room just like a candle. However, like the candle, the flames will harm Link on contact.",
+          "is_excerpt": false,
+          "evidence_hash": "009e986c9cce8c6e15f0f41612a1e4e1d73e25e05188842ee6f8772bfbdc9824",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 2,
+          "chunk_id": "zelda1:items:002",
+          "url": "https://strategywiki.org/wiki/The_Legend_of_Zelda/Items",
+          "section": "Swords > Magic Sword",
+          "version": "revid:1041432",
+          "source_hash": "sha256:10eeb75039b61eed20b8b7baddf7d153a11ffa58405d7dfe305bc8d8dd5ebbc6",
+          "text": "[Swords > Magic Sword]\nDamage: 4\nThe most powerful sword in the game, it is four times as powerful as the wooden sword. Link must have twelve Heart Containers before he can receive the Magic Sword. In the first quest it is found in Section 7, and in the second quest in Section 3.",
+          "is_excerpt": false,
+          "evidence_hash": "10eeb75039b61eed20b8b7baddf7d153a11ffa58405d7dfe305bc8d8dd5ebbc6",
+          "audit_redacted": false,
+          "recorded_text_hash": null
+        }
+      ],
+      "citations": [
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 23,
+          "chunk_id": "zelda1:items:022"
+        },
+        {
+          "source": "The Legend of Zelda/Items",
+          "page": 16,
+          "chunk_id": "zelda1:items:015"
+        },
+        {
+          "source": "The Legend of Zelda/Overworld/Quest 1",
+          "page": 12,
+          "chunk_id": "zelda1:overworld-quest-1:014"
+        }
+      ],
+      "outcome": "answered",
+      "route": "documents",
+      "answer_leaks": [],
+      "evidence_leaks": [],
+      "missing_allowed_answer": [],
+      "missing_allowed_evidence": [],
+      "passed": true,
+      "error": null,
+      "trace_id": "7f93e237b9324dd8a4554aaba98848f6",
+      "llm_calls": [],
+      "degradations": [],
+      "stages": [
+        {
+          "name": "input",
+          "status": "ok",
+          "duration_ms": 0.022
+        },
+        {
+          "name": "router_tool",
+          "status": "ok",
+          "duration_ms": 0.01
+        },
+        {
+          "name": "retrieved",
+          "query": "What does the Magic Key do?",
+          "variants": [
+            "What does the Magic Key do?"
+          ],
+          "context": [
+            "zelda1:items:022",
+            "zelda1:items:015",
+            "zelda1:overworld-quest-1:014",
+            "zelda1:items:020",
+            "zelda1:items:002"
+          ],
+          "candidate_count": 50,
+          "allowed_count": 16
+        },
+        {
+          "name": "retrieval_access",
+          "status": "ok",
+          "duration_ms": 3.348
+        },
+        {
+          "name": "generation",
+          "status": "ok",
+          "duration_ms": 0.013
+        },
+        {
+          "name": "output",
+          "status": "ok",
+          "duration_ms": 0.078
+        }
+      ]
+    }
+  ]
+}
