@@ -40,7 +40,7 @@ def test_zelda_title_regex_finds_all_18_dungeons():
     cfg = GAMES["zelda1"]
     snap = ROOT / cfg.snapshot_dir
     titles = [p["title"] for p in json.loads((snap / "manifest.json").read_text("utf-8"))["pages"]]
-    found = {(m["quest"], m["level"]) for t in titles if (m := re.search(cfg.location_from_title, t))}
+    found = {(m["quest"], m["level"]) for t in titles if (m := re.search(cfg.location_from_title, t)) and m["level"]}
     assert found == {(q, str(lvl)) for q in "12" for lvl in range(1, 10)}
 
 

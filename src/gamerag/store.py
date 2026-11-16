@@ -9,11 +9,14 @@ SQLite es un archivo (state/gamerag.sqlite3, en un volumen en Docker): sin servi
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import sqlite3
 from datetime import UTC, datetime, timedelta
+from functools import wraps
 from pathlib import Path
+from threading import RLock
 
 from gamerag.pipeline import Trace
 from gamerag.progress.models import Profile
@@ -54,20 +57,53 @@ def redact_pii(text: str) -> str:
     return text
 
 
+_IDENTITY_FIELDS = {"trace_id", "chunk_id", "source_hash", "evidence_hash", "recorded_text_hash",
+                    "version", "url", "source", "section", "model", "game", "user_id", "role",
+                    "context", "secondary", "cited", "derived_from"}
+
+
+def _redact_tree(value, key: str = ""):
+    # Identidades documentales verificadas no son texto libre del usuario.
+    if key in _IDENTITY_FIELDS:
+        return value
+    if isinstance(value, str):
+        return redact_pii(value)
+    if isinstance(value, list):
+        return [_redact_tree(item) for item in value]
+    if isinstance(value, dict):
+        safe = {name: _redact_tree(item, name) for name, item in value.items()}
+        if "evidence_hash" in value and "text" in value and safe["text"] != value["text"]:
+            safe["audit_redacted"] = True
+            safe["recorded_text_hash"] = hashlib.sha256(safe["text"].encode()).hexdigest()
+        return safe
+    return value
+
+
+def _serialized(fn):
+    @wraps(fn)
+    def wrapped(self, *args, **kwargs):
+        with self._lock:
+            return fn(self, *args, **kwargs)
+    return wrapped
+
+
 class Store:
     def __init__(self, db_path: Path):
         db_path.parent.mkdir(parents=True, exist_ok=True)
         self.db_path = db_path
+        self._lock = RLock()
         # check_same_thread=False: FastAPI puede atender desde distintos hilos; las escrituras son
-        # transacciones cortas y SQLite serializa los escritores.
+        # transacciones cortas; el lock serializa el uso de esta conexión compartida.
         self._conn = sqlite3.connect(db_path, check_same_thread=False)
         self._conn.executescript(SCHEMA)
 
+    @_serialized
     def close(self) -> None:
         self._conn.close()
 
     # --- perfiles ---------------------------------------------------------------------------
 
+    @_serialized
     def seed_profiles(self, profiles: dict[str, Profile], overwrite: bool = False) -> int:
         """Inserta los perfiles sembrados. Sin `overwrite`, solo si la tabla está vacía."""
         with self._conn:
@@ -79,14 +115,17 @@ class Store:
                                    [(p.user_id, p.model_dump_json()) for p in profiles.values()])
         return len(profiles)
 
+    @_serialized
     def get_profile(self, user_id: str) -> Profile | None:
         row = self._conn.execute("SELECT data FROM profiles WHERE user_id = ?", (user_id,)).fetchone()
         return Profile.model_validate_json(row[0]) if row else None
 
+    @_serialized
     def list_profiles(self) -> list[Profile]:
         rows = self._conn.execute("SELECT data FROM profiles ORDER BY user_id").fetchall()
         return [Profile.model_validate_json(r[0]) for r in rows]
 
+    @_serialized
     def save_profile(self, profile: Profile) -> None:
         with self._conn:
             self._conn.execute("INSERT OR REPLACE INTO profiles (user_id, data) VALUES (?, ?)",
@@ -94,15 +133,10 @@ class Store:
 
     # --- auditoría --------------------------------------------------------------------------
 
+    @_serialized
     def log_trace(self, trace: Trace) -> None:
-        # Todo campo que contenga texto del usuario se redacta (la pregunta y sus reformulaciones).
-        safe = trace.model_copy(update={
-            "question": redact_pii(trace.question),
-            "query_variants": [redact_pii(v) for v in trace.query_variants],
-            "subqueries": [{**s, "query": redact_pii(s.get("query", ""))} for s in trace.subqueries],
-            "evidence": [{**e, "query": redact_pii(e.get("query", "")), "rewrite": redact_pii(e.get("rewrite", ""))}
-                         for e in trace.evidence],
-        })
+        # Incluye respuesta, contexto final, errores y futuras extensiones de la traza.
+        safe = Trace.model_validate(_redact_tree(trace.model_dump(mode="json")))
         with self._conn:
             self._conn.execute(
                 "INSERT INTO audit (trace_id, created_at, user_id, game, question, outcome, trace) "
@@ -111,6 +145,7 @@ class Store:
                  safe.question, safe.outcome, safe.model_dump_json()),
             )
 
+    @_serialized
     def purge_traces(self, older_than_days: int) -> int:
         """Retencion: borra las trazas de auditoria mas antiguas que `older_than_days`. Devuelve cuantas borro."""
         cutoff = (datetime.now(UTC) - timedelta(days=older_than_days)).isoformat(timespec="seconds")
@@ -118,6 +153,7 @@ class Store:
             cur = self._conn.execute("DELETE FROM audit WHERE created_at < ?", (cutoff,))
         return cur.rowcount
 
+    @_serialized
     def all_traces(self, game: str | None = None) -> list[dict]:
         """Todas las trazas (opcionalmente de un juego), de la más antigua a la más reciente."""
         sql, args = "SELECT created_at, trace FROM audit", ()
@@ -126,6 +162,7 @@ class Store:
         rows = self._conn.execute(sql + " ORDER BY created_at, rowid", args).fetchall()
         return [{"created_at": ts, **json.loads(t)} for ts, t in rows]
 
+    @_serialized
     def recent_traces(self, limit: int = 20) -> list[dict]:
         rows = self._conn.execute(
             "SELECT created_at, trace FROM audit ORDER BY created_at DESC, rowid DESC LIMIT ?", (limit,)

@@ -109,11 +109,19 @@ def test_game_filter_is_g1():
 
 def test_citation_guard_rejects_citations_outside_context():
     ctx = _hits(CORPUS[0])
-    good = Answer(answer="a", sources=[Source(source="s", page=0, chunk_id="raft")], abstained=False,
+    good = Answer(answer="a", sources=[Source(source=CORPUS[0].source, page=0, chunk_id="raft")], abstained=False,
                   game="zelda1", trace_id="t")
     bad = good.model_copy(update={"sources": [Source(source="s", page=0, chunk_id="ladder")]})
     assert CitationGuard().check(good, ctx, PLAYER).allowed
     assert "citations_outside_context" in CitationGuard().check(bad, ctx, PLAYER).reason
+
+
+@pytest.mark.parametrize("change", [{"source": "forged page"}, {"page": 999}])
+def test_citation_guard_requires_the_exact_source_page_id_triple(change):
+    chunk = CORPUS[0]
+    reference = Source(source=chunk.source, page=chunk.page, chunk_id=chunk.chunk_id).model_copy(update=change)
+    answer = Answer(answer="a", sources=[reference], abstained=False, game=chunk.game, trace_id="t")
+    assert not CitationGuard().check(answer, _hits(chunk), PLAYER).allowed
 
 
 # --- pipeline -------------------------------------------------------------------------------

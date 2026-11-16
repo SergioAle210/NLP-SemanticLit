@@ -121,6 +121,24 @@ def test_facts_default_to_the_player_quest_and_respect_gates(router):
     assert route.params["quest"] == "first"
     assert "Aquamentus" in res.answer and "Gleeok" not in res.answer and "Ganon" not in res.answer
     assert res.info == {"rows": 1, "blocked_rows": 4} and "4 more hidden" in res.answer
+    evidence = "\n".join(hit.chunk.text for hit in res.hits)
+    assert "Aquamentus" in evidence and "Gleeok" not in evidence and "Ganon" not in evidence
+    assert "2nd Quest" not in evidence and "7 (Boss)" not in evidence
+    assert res.hits[0].chunk.is_excerpt and res.hits[0].chunk.source_hash == BOSSES.hash
+    assert res.hits[0].chunk.chunk_id == BOSSES.chunk_id and res.hits[0].chunk.page == BOSSES.page
+
+
+def test_original_tool_source_is_checked_before_projecting_rows(router):
+    checked = []
+
+    def quarantine_original(chunk):
+        checked.append(chunk.text)
+        return "quarantine" if "Ganon" in chunk.text else None
+
+    result = router.run(router.route("who is the boss of level 1?", "zelda1"), "zelda1", NOVATO,
+                        allow_all, source_blocker=quarantine_original)
+    assert checked == [BOSSES_TEXT]
+    assert result.abstained and not result.hits
 
 
 def test_facts_fully_blocked_abstains(router):

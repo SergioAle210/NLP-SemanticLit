@@ -5,6 +5,8 @@ que sus fuentes no dejarían ver, se permite solo si **todas** sus fuentes pasan
 filtros de acceso para ese perfil. Así el acceso de una nota es el más restrictivo de sus fuentes sin
 copiar etiquetas (que podrían quedar desactualizadas) y funciona con cualquier gate presente o futuro
 (G2-G4) sin código adicional. Una fuente desconocida se trata como bloqueada (fallo cerrado).
+Las fuentes deben ser originales, como exige ``dream``: una nota derivada de otra
+nota no proporciona una cadena completa verificable y se rechaza.
 """
 
 from __future__ import annotations
@@ -27,7 +29,8 @@ class ProvenanceFilter:
             return False
         for cid in chunk.derived_from:
             src = self.chunks_by_id.get(cid)
-            if src is None or not all(f.allows(src, profile, game) for f in self.base_filters):
+            if (src is None or src.kind != "source"
+                    or not all(f.allows(src, profile, game) for f in self.base_filters)):
                 return False
         return True
 

@@ -87,10 +87,10 @@ class CitationGuard:
     name = "citations"
 
     def check(self, answer: Answer, context: list[Hit], profile: Profile) -> GuardResult:
-        allowed_ids = {h.chunk.chunk_id for h in context}
-        foreign = [s.chunk_id for s in answer.sources if s.chunk_id not in allowed_ids]
+        allowed = {(h.chunk.source, h.chunk.page, h.chunk.chunk_id) for h in context}
+        foreign = [s.chunk_id for s in answer.sources if (s.source, s.page, s.chunk_id) not in allowed]
         if foreign:
             return GuardResult(False, f"citations_outside_context:{foreign}")
-        if context and answer.game != context[0].chunk.game:
+        if any(h.chunk.game != answer.game for h in context):
             return GuardResult(False, "answer_game_mismatch")
         return GuardResult(True)

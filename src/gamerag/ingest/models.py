@@ -34,6 +34,8 @@ class Chunk(BaseModel):
     section: str = Field(description="Sección donde empieza el chunk")
     sections: list[str] = Field(description="Todas las secciones que abarca")
     hash: str = Field(description="sha256 del texto (detecta cambios entre ingestas)")
+    is_excerpt: bool = False  # proyección autorizada de un chunk; conserva su identidad documental
+    source_hash: str | None = None  # hash del texto original antes de proyectar
     chunker: str = Field(description="Estrategia y parámetros de chunking")
     n_words: int
     lang: str = "en"

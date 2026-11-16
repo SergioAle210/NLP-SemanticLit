@@ -19,6 +19,7 @@ from collections.abc import Callable
 from dataclasses import dataclass, field
 
 from gamerag.games import GameConfig
+from gamerag.guardrails.content import boss_evidence_line, project_chunk
 from gamerag.ingest.models import Chunk, Location
 from gamerag.progress.models import LevelSetProgress, Profile
 from gamerag.retrieval.bm25 import Hit
@@ -111,24 +112,28 @@ class Router:
 
     # --- ejecución -----------------------------------------------------------------------------
 
-    def run(self, route: Route, game: str, profile: Profile, blocker: Blocker) -> ToolResult:
+    def run(self, route: Route, game: str, profile: Profile, blocker: Blocker,
+            source_blocker: Blocker | None = None) -> ToolResult:
         if route.intent == "query_game_facts":
-            return self._facts(route, game, profile, blocker)
+            return self._facts(route, game, profile, blocker, source_blocker)
         if route.intent == "next_available_levels":
             return _next_available(self.games[game], profile)
         if route.intent == "critical_action":
             return ToolResult(
-                answer=("That would change your profile or the audit data, so it is never done automatically. "
-                        "Ask an administrator or use the profile settings to confirm the change."),
+                answer=("That request would change your profile or audit data. It has not been executed and "
+                        "requires human review. This demo does not implement progress or role editing; "
+                        "an administrator can reset a profile to its initial state."),
                 needs_human_review=True, info={"executed": False, "reason": "requires_confirmation"})
         if route.intent == "update_progress":
             return ToolResult(
-                answer=("Updating your progress changes what you are allowed to see. It is not done "
-                        "automatically: confirm it from your profile (an administrator can reset profiles)."),
+                answer=("Updating progress changes what you are allowed to see. Your request has not been "
+                        "executed and requires human review. This demo does not implement progress edits; "
+                        "an administrator can reset a profile to its initial state."),
                 needs_human_review=True, info={"executed": False, "reason": "requires_confirmation"})
         raise ValueError(f"no es una herramienta: {route.intent}")
 
-    def _facts(self, route: Route, game: str, profile: Profile, blocker: Blocker) -> ToolResult:
+    def _facts(self, route: Route, game: str, profile: Profile, blocker: Blocker,
+               source_blocker: Blocker | None = None) -> ToolResult:
         facts = self.facts[game]
         quest, level = route.params.get("quest"), route.params.get("level")
         prog = profile.progress.get(game)
@@ -141,8 +146,8 @@ class Router:
             # Cada fila se evalúa como si fuera un chunk ubicado en su (quest, nivel): los mismos gates
             # de spoilers del RAG se aplican a la herramienta.
             src = facts.chunks[r.chunk_id]
-            located = src.model_copy(update={"location": Location(quest=r.quest, level=r.level)})
-            if blocker(located) is None:
+            located = project_chunk(src, boss_evidence_line(r), location=Location(quest=r.quest, level=r.level))
+            if (source_blocker is None or source_blocker(src) is None) and blocker(located) is None:
                 visible.append(r)
             else:
                 blocked += 1
@@ -156,7 +161,11 @@ class Router:
         if blocked:
             lines.append(f"({blocked} more hidden: content you have not unlocked yet.)")
         cited = list(dict.fromkeys(r.chunk_id for r in visible))
-        hits = [Hit(rank=i, score=1.0, chunk=facts.chunks[cid]) for i, cid in enumerate(cited, 1)]
+        # El panel de fuentes, el generador y la traza reciben las mismas filas ya autorizadas.
+        # Nunca se adjunta el chunk agregado original, que puede incluir otros jefes.
+        hits = [Hit(rank=i, score=1.0, chunk=project_chunk(
+            facts.chunks[cid], "\n".join(boss_evidence_line(r) for r in visible if r.chunk_id == cid)))
+            for i, cid in enumerate(cited, 1)]
         return ToolResult(answer="Dungeon bosses:\n" + "\n".join(lines), hits=hits, info=info)
 
 

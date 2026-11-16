@@ -12,6 +12,7 @@ Requiere el extra `semantic`.
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 from pathlib import Path
 
@@ -38,7 +39,8 @@ def _client(persist_dir: Path):
 def _fingerprint(chunks: list[Chunk], model_key: str) -> str:
     h = hashlib.sha256(f"{model_key}|{INDEX_TEXT_VERSION}".encode())
     for c in chunks:
-        h.update(c.chunk_id.encode() + c.hash.encode())
+        # La revisión, secciones y permisos también invalidan los metadatos persistidos.
+        h.update(json.dumps(c.model_dump(mode="json"), sort_keys=True, ensure_ascii=False).encode())
     return h.hexdigest()[:16]
 
 
@@ -47,7 +49,8 @@ def _collection_name(game: str, chunker: str, model_key: str) -> str:
 
 
 def _metadata(c: Chunk) -> dict:
-    meta = {"game": c.game, "source": c.source, "section": c.section}
+    meta = {"game": c.game, "source": c.source, "section": c.section, "version": c.version,
+            "page": c.page, "kind": c.kind, "origin": c.origin}
     meta |= {k: v for k, v in c.location.model_dump().items() if v is not None}  # Chroma no admite None
     return meta
 
@@ -94,7 +97,9 @@ class DenseIndex:
         if where is None and self._all is not None:
             return self._all
         res = self._col.get(where=where, include=["embeddings"])
-        out = list(res["ids"]), np.asarray(res["embeddings"], dtype=np.float32).reshape(len(res["ids"]), -1)
+        ids = list(res["ids"])
+        vectors = np.asarray(res["embeddings"], dtype=np.float32)
+        out = ids, vectors.reshape(len(ids), -1) if ids else np.empty((0, 0), dtype=np.float32)
         if where is None:
             self._all = out
         return out

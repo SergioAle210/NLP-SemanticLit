@@ -34,6 +34,18 @@ location_from_heading: '(?:Stage|Act) (?P<stage>\d-\d)'
 # Índice de navegación: solo enlaces, sin contenido del juego.
 exclude_pages: ["Ninja Gaiden (NES)/Table of Contents"]
 
+# La etapa actual permite combatir a su jefe; su desenlace se abre al avanzar.
+# Structural/rows preservan límites de párrafo. Fixed se trata conservadoramente
+# cuando un corte impide comprobar el límite del pasaje.
+content_rules:
+  - {source: '/Act 1$', section: 'Stage 1-2', match: '^Defeat Barbarian', after_stage: '1-2'}
+  - {source: '/Act 2$', section: 'Stage 2-3', match: '^After defeating Bomberhead', after_stage: '2-3'}
+  - {source: '/Act 3$', section: 'Stage 3-3', match: "^As soon as the battle's over", after_stage: '3-3'}
+  - {source: '/Act 4$', section: 'Stage 4-4', match: '^Upon defeating Kelbeross', after_stage: '4-4'}
+  - {source: '/Act 5$', section: 'Stage 5-4', match: '^Whichever technique you rely on', after_stage: '5-4'}
+  - {source: '/Act 6$', section: 'Stage 6-4', match: '^After the orb is defeated|^If you defeat the Jaquio', after_stage: '6-4'}
+  - {source: '/Act 6$', section: 'Act 6-5', match: 'end of the story|staff credits|Congratulations', unit: sentence, after_stage: '6-5'}
+
 tools: [search_documents, query_game_facts, update_progress]
 
 # Glosario: vocabulario del jugador -> vocabulario de la wiki (docs/retrieval/query-expansion.md).

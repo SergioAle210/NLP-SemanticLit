@@ -10,11 +10,13 @@ auditoría y del diagnóstico de fallas. Ver docs/contracts/pipeline.md.
 
 from __future__ import annotations
 
+import hashlib
 import logging
 import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import TimeoutError as FutureTimeout
+from contextvars import copy_context
 from pathlib import Path
 
 from pydantic import BaseModel
@@ -34,8 +36,9 @@ from gamerag.progress.models import Profile
 from gamerag.retrieval.bm25 import Hit, load_chunks
 from gamerag.retrieval.factory import make_retriever
 from gamerag.retrieval.hybrid import Retriever
-from gamerag.schemas import Answer
+from gamerag.schemas import Answer, EvidenceDocument
 from gamerag.settings import Settings
+from gamerag.telemetry import current_capture, observed, record_degradation, request_scope
 from gamerag.tools.facts import GameFacts, ToolParamError
 from gamerag.tools.router import Router
 
@@ -77,6 +80,11 @@ class Trace(BaseModel):
     evidence: list[dict] = []  # intentos del evaluador: {sufficient, reason, rewrite, query}
     outcome: str = ""  # answered | abstained | rejected_input | blocked_by_access | rejected_output
     latency_ms: dict[str, float] = {}
+    final_evidence: list[EvidenceDocument] = []
+    final_answer: Answer | None = None
+    llm_calls: list[dict] = []
+    degradations: list[dict] = []
+    stages: list[dict] = []
 
 
 class Pipeline:
@@ -95,6 +103,7 @@ class Pipeline:
         secondary_k: int = 3,
         secondary_replace: bool = False,
         tool_timeout_s: float = 5.0,
+        content_policy=None,
     ):
         self.retrievers = retrievers
         self.secondary, self.secondary_k = secondary or {}, secondary_k
@@ -102,6 +111,7 @@ class Pipeline:
         self.tool_timeout_s = tool_timeout_s
         self._tool_pool = ThreadPoolExecutor(max_workers=4, thread_name_prefix="tool")
         self.router = router
+        self.content_policy = content_policy
         self.generator = generator or ExtractiveGenerator()
         self.input_guards = input_guards if input_guards is not None else [BasicInputGuard()]
         self.access_filters = access_filters if access_filters is not None else [GameFilter()]
@@ -116,12 +126,21 @@ class Pipeline:
         """Solo las etapas 1-3 (guards de entrada, recuperación, filtros): el contexto que recibiría
         el generador, sin generar (no consume tokens del LLM). `trace.outcome` queda en
         `rejected_input`, `blocked_by_access` o `retrieved`."""
-        trace = self._new_trace(question, game, profile)
-        context, outcome = self._retrieve(question, game, profile, trace)
-        trace.outcome = outcome or "retrieved"
-        return context, trace
+        with request_scope():
+            trace = self._new_trace(question, game, profile)
+            context, outcome = self._retrieve(question, game, profile, trace)
+            trace.outcome = outcome or "retrieved"
+            self._set_context(trace, context)
+            self._finish_trace(trace)
+            return context, trace
 
     def ask(self, question: str, game: str, profile: Profile) -> tuple[Answer, Trace]:
+        with request_scope():
+            answer, trace = self._ask(question, game, profile)
+            self._finish_trace(trace, answer)
+            return answer, trace
+
+    def _ask(self, question: str, game: str, profile: Profile) -> tuple[Answer, Trace]:
         trace = self._new_trace(question, game, profile)
         tid = trace.trace_id
 
@@ -149,14 +168,16 @@ class Pipeline:
 
         # 4. Generación
         t = time.perf_counter()
-        answer = self.generator.generate(question, context, game=game, trace_id=tid)
+        answer = self._generate(question, context, game=game, trace_id=tid)
         trace.latency_ms["generation"] = _ms(t)
 
         return finish(*self._guard_output(answer, context, profile, trace, game, tid))
 
+    @observed("output")
     def _guard_output(self, answer: Answer, context: list[Hit], profile: Profile, trace: Trace, game: str,
                       tid: str) -> tuple[Answer, str]:
         """5. Guardrails de salida (los mismos para el RAG y para las herramientas)."""
+        self._set_context(trace, context)
         t = time.perf_counter()
         for guard in self.output_guards:
             res = guard.check(answer, context, profile)
@@ -168,6 +189,7 @@ class Pipeline:
         trace.latency_ms["output"] = _ms(t)
         return answer, "abstained" if answer.abstained else "answered"
 
+    @observed("router_tool")
     def _run_tool(self, question: str, game: str, profile: Profile,
                   trace: Trace) -> tuple[Answer, list[Hit]] | None:
         """Decide la ruta y, si es una herramienta, la ejecuta. None = seguir por el RAG."""
@@ -180,16 +202,27 @@ class Pipeline:
         trace.tool = {"name": route.intent, "params": route.params}
 
         def blocker(chunk) -> str | None:
-            return next((f.name for f in self.access_filters if not f.allows(chunk, profile, game)), None)
+            denied = next((f.name for f in self.access_filters if not f.allows(chunk, profile, game)), None)
+            if (denied is None and self.content_policy is not None
+                    and not self.content_policy.allows(chunk, profile, game)):
+                denied = self.content_policy.name
+            return denied
+
+        def source_blocker(chunk) -> str | None:
+            return next((f.name for f in self.access_filters
+                         if f.name in (GameFilter.name, "quarantine") and not f.allows(chunk, profile, game)), None)
 
         trace.tool["calls"] = 1  # alcance: una sola herramienta por solicitud (el router elige una ruta)
         try:
             # Limite de tiempo: una herramienta lenta no bloquea la respuesta; se degrada al RAG.
-            result = self._tool_pool.submit(self.router.run, route, game, profile, blocker).result(
+            options = {"source_blocker": source_blocker} if isinstance(self.router, Router) else {}
+            result = self._tool_pool.submit(copy_context().run, self.router.run,
+                                           route, game, profile, blocker, **options).result(
                 timeout=self.tool_timeout_s)
         except FutureTimeout:
             log.warning("herramienta %s excedio %.1fs; se degrada al RAG", route.intent, self.tool_timeout_s)
             trace.tool.update(status="timeout", error=f"timeout>{self.tool_timeout_s}s")
+            record_degradation(component="tool", error_type="TimeoutError", fallback="documents")
             trace.route = "documents"
             trace.latency_ms["tool"] = _ms(t)
             return None
@@ -201,11 +234,12 @@ class Pipeline:
         except Exception as e:  # degradación controlada: la herramienta falló -> RAG
             log.exception("herramienta %s falló; se degrada al RAG", route.intent)
             trace.tool.update(status="degraded", error=type(e).__name__)
+            record_degradation(component="tool", error_type=type(e).__name__, fallback="documents")
             trace.route = "documents"
             trace.latency_ms["tool"] = _ms(t)
             return None
         trace.tool.update(status="ok", **result.info)
-        trace.context = [h.chunk.chunk_id for h in result.hits]
+        self._set_context(trace, result.hits)
         trace.latency_ms["tool"] = _ms(t)
         answer = Answer(answer=result.answer, sources=[to_source(h) for h in result.hits],
                         abstained=result.abstained, needs_human_review=result.needs_human_review,
@@ -215,9 +249,12 @@ class Pipeline:
     def _new_trace(self, question: str, game: str, profile: Profile) -> Trace:
         if game not in self.retrievers:
             raise ValueError(f"juego no disponible: {game}. Opciones: {', '.join(self.games)}")
-        return Trace(trace_id=uuid.uuid4().hex, question=question, game=game, user_id=profile.user_id,
+        capture = current_capture()
+        return Trace(trace_id=capture.trace_id if capture else uuid.uuid4().hex,
+                     question=question, game=game, user_id=profile.user_id,
                      role=profile.role, retriever=self.retriever_name, generator=self.generator.name)
 
+    @observed("input")
     def _check_input(self, question: str, profile: Profile, trace: Trace) -> bool:
         """1. Guardrails de entrada. False si alguno rechaza la pregunta."""
         t = time.perf_counter()
@@ -233,13 +270,15 @@ class Pipeline:
         trace.latency_ms["input"] = _ms(t)
         return True
 
+    @observed("retrieval_access")
     def _retrieve(self, question: str, game: str, profile: Profile, trace: Trace,
                   check_input: bool = True, retriever: Retriever | None = None,
                   top_k: int | None = None) -> tuple[list[Hit], str | None]:
         """Etapas 1-3. Devuelve (contexto, outcome temprano o None si se puede generar)."""
         if check_input and not self._check_input(question, profile, trace):
             return [], "rejected_input"
-        question = trace.clean_question or question
+        if check_input:
+            question = trace.clean_question or question
 
         # 2. Recuperación (más candidatos que top_k: los filtros pueden descartar varios)
         t = time.perf_counter()
@@ -247,7 +286,7 @@ class Pipeline:
         variants = getattr(retriever, "variants", None)
         trace.query_variants = variants(question) if variants else [question]
         hits = retriever.search(question, k=self.candidates)
-        trace.latency_ms["retrieval"] = _ms(t)
+        trace.latency_ms["retrieval"] = round(trace.latency_ms.get("retrieval", 0) + _ms(t), 2)
 
         # 3. Filtros de acceso (gates): el primero que bloquea queda registrado
         t = time.perf_counter()
@@ -255,6 +294,12 @@ class Pipeline:
         blocked_by_gate = False
         for h in hits:
             blocker = next((f.name for f in self.access_filters if not f.allows(h.chunk, profile, game)), None)
+            if blocker is None and self.content_policy is not None:
+                projected = self.content_policy.project(h.chunk, profile, game)
+                if projected is None:
+                    blocker = self.content_policy.name
+                else:
+                    h = Hit(rank=h.rank, score=h.score, chunk=projected)
             trace.candidates.append(CandidateTrace(rank=h.rank, chunk_id=h.chunk.chunk_id,
                                                    score=round(h.score, 4), blocked_by=blocker))
             if blocker is None:
@@ -262,12 +307,37 @@ class Pipeline:
             elif blocker != GameFilter.name:
                 blocked_by_gate = True
         context = [Hit(rank=i, score=h.score, chunk=h.chunk) for i, h in enumerate(allowed[: top_k or self.top_k], 1)]
-        trace.context = [h.chunk.chunk_id for h in context]
-        trace.latency_ms["access"] = _ms(t)
+        self._set_context(trace, context)
+        trace.latency_ms["access"] = round(trace.latency_ms.get("access", 0) + _ms(t), 2)
+        if capture := current_capture():
+            capture.stages.append({"name": "retrieved", "query": question,
+                                   "variants": trace.query_variants.copy(), "context": trace.context.copy(),
+                                   "candidate_count": len(hits), "allowed_count": len(allowed)})
 
         if not context and blocked_by_gate:
             return [], "blocked_by_access"
         return context, None
+
+    @observed("generation")
+    def _generate(self, question: str, context: list[Hit], *, game: str, trace_id: str) -> Answer:
+        return self.generator.generate(question, context, game=game, trace_id=trace_id)
+
+    @staticmethod
+    def _set_context(trace: Trace, context: list[Hit]) -> None:
+        trace.context = [h.chunk.chunk_id for h in context]
+        trace.final_evidence = [EvidenceDocument(
+            chunk_id=c.chunk_id, source=c.source, page=c.page, url=c.url, section=c.section,
+            version=c.version, source_hash=getattr(c, "source_hash", None) or c.hash, text=c.text,
+            is_excerpt=getattr(c, "is_excerpt", False), evidence_hash=hashlib.sha256(c.text.encode()).hexdigest(),
+        ) for c in (h.chunk for h in context)]
+
+    @staticmethod
+    def _finish_trace(trace: Trace, answer: Answer | None = None) -> None:
+        trace.final_answer = answer
+        if capture := current_capture():
+            trace.llm_calls = [dict(e) for e in capture.calls]
+            trace.degradations = [dict(e) for e in capture.degradations]
+            trace.stages = [dict(e) for e in capture.stages]
 
 
 def _ms(start: float) -> float:
@@ -309,11 +379,13 @@ def build_pipeline(
         facts[game_id] = GameFacts(games[game_id], [c for c in chunks if c.kind == "source"])
         if settings.secondary_search:  # wikis extra: solo se consultan como segunda busqueda
             multi = path.with_name(f"chunks.{settings.chunker}-multi.jsonl")
+            if not multi.exists():
+                raise RuntimeError(f"falta corpus secundario {multi}; ejecuta `python -m gamerag.bootstrap`")
             skip = set() if settings.secondary_franchise else {
                 s.site for s in games[game_id].extra_sources if s.scope == "franchise"}
             mixed = settings.secondary_mode == "mixed"  # indice con todas las wikis, solo tras evidencia insuficiente
             extra = [c.model_copy(update={"chunker": c.chunker + ("+all" if mixed else "+extra")}) for c in
-                     (load_chunks(multi) if multi.exists() else [])
+                     load_chunks(multi)
                      if (mixed or c.origin != "strategywiki") and c.origin not in skip]
             if extra:
                 all_chunks.update({c.chunk_id: c for c in extra})
@@ -346,11 +418,16 @@ def build_pipeline(
             from gamerag.guardrails.location import LocationGate
 
             access_filters.append(LocationGate(games))
+    content_policy = None
+    if settings.spoiler_gates:
+        from gamerag.guardrails.content import ContentPolicy
+
+        content_policy = ContentPolicy(games)
     if any(c.kind == "note" for c in all_chunks.values()):
         from gamerag.guardrails.provenance import ProvenanceFilter
 
         base = list(access_filters)
-        access_filters = [*base, ProvenanceFilter(all_chunks, base)]
+        access_filters = [*base, ProvenanceFilter(all_chunks, [*base, *([content_policy] if content_policy else [])])]
     cls: type[Pipeline] = Pipeline
     extra: dict = {}
     if secondary:
@@ -373,5 +450,6 @@ def build_pipeline(
     return cls(retrievers, generator=generator, input_guards=input_guards, access_filters=access_filters,
                output_guards=output_guards, top_k=settings.top_k, candidates=settings.candidates,
                tool_timeout_s=settings.tool_timeout_s,
+               content_policy=content_policy,
                retriever_name=f"{settings.retriever}{qx}/{settings.chunker}",
                router=Router(games, facts) if settings.router else None, **extra)

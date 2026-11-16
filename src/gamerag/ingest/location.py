@@ -23,13 +23,22 @@ def locate(cfg: GameConfig, page_title: str, section: Section) -> Location:
     if cfg.location_from_heading:
         for heading in section.path:  # el encabezado más profundo que coincida gana
             if m := re.search(cfg.location_from_heading, heading):
-                found |= {k: v for k, v in m.groupdict().items() if v}
+                values = {k: v for k, v in m.groupdict().items() if v}
+                if "quest_number" in values:
+                    values["quest"] = values.pop("quest_number")
+                if "quest_name" in values:
+                    found.pop("quest", None)
+                elif "quest" in values:
+                    found.pop("quest_name", None)
+                found |= values
 
     loc = Location()
-    if "quest" in found and cfg.quests:  # "1" -> "first" según el orden de `quests` en la config
-        loc.quest = cfg.quests[int(found["quest"]) - 1]
+    quest = found.get("quest", found.get("quest_number"))
+    if quest is not None and cfg.quests:  # "1" -> "first" según el orden de `quests` en la config
+        loc.quest = cfg.quests[int(quest) - 1]
     if "quest_name" in found:
-        loc.quest = str(found["quest_name"])
+        name = str(found["quest_name"])
+        loc.quest = next((q for q in (cfg.quests or []) if q.casefold() == name.casefold()), name)
     if "level" in found:
         loc.level = int(found["level"])
     if "act" in found:

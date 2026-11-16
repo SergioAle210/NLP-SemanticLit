@@ -17,6 +17,7 @@ Las heurísticas buscan *instrucciones dirigidas al asistente*, no palabras suel
 
 from __future__ import annotations
 
+import hashlib
 import re
 from dataclasses import dataclass
 
@@ -30,6 +31,10 @@ _I = re.IGNORECASE
 
 # (nombre, patrón). Cada patrón exige un verbo de orden + un objeto que solo tiene sentido para un asistente.
 INJECTION_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
+    ("assistant_directive", re.compile(
+        r"\b(?:note|message|instructions?|directive|nota|mensaje|instrucciones?)\s+"
+        r"(?:to|for|para|al)\s+(?:(?:the|el|la)\s+)?"
+        r"(?:AI\s+assistant|language\s+model|LLM|ChatGPT|asistente\s+(?:de\s+)?IA|modelo\s+de\s+lenguaje)\s*:", _I)),
     ("override_instructions", re.compile(
         r"\b(ignor[ae]|disregard|forget|override|bypass|olvida|ignora|omite|descarta|salt[ae]te)\b[^.?!\n]{0,40}"
         r"\b(previous|prior|above|earlier|all|any|your|the|these|those|anteriores?|previas?|todas?|tus|las|esas)\b"
@@ -68,7 +73,7 @@ INJECTION_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
 ]
 
 # Subconjunto "fuerte" para los chunks del corpus: una wiki casi nunca contiene estas frases de forma legítima.
-_STRONG = {"override_instructions", "reveal_system_prompt", "role_hijack", "delimiter_injection"}
+_STRONG = {"assistant_directive", "override_instructions", "reveal_system_prompt", "role_hijack", "delimiter_injection"}
 
 PII_PATTERNS: list[tuple[str, re.Pattern[str], str]] = [
     ("api_key", re.compile(r"\b(?:sk-ant-[\w-]+|sk-[\w-]{20,}|AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9]{30,})\b"), "[SECRET]"),
@@ -134,10 +139,13 @@ class QuarantineFilter:
         self._cache: dict[str, bool] = {}
 
     def allows(self, chunk: Chunk, profile: Profile, game: str) -> bool:
-        ok = self._cache.get(chunk.chunk_id)
+        # Una revisión o proyección puede mantener el id y cambiar el texto. La
+        # decisión almacenada solo es válida para los bytes realmente inspeccionados.
+        key = hashlib.sha256(chunk.text.encode("utf-8")).hexdigest()
+        ok = self._cache.get(key)
         if ok is None:
             ok = not injection_signals(chunk.text, only=_STRONG)
-            self._cache[chunk.chunk_id] = ok
+            self._cache[key] = ok
         return ok
 
 

@@ -11,6 +11,7 @@ import json
 import logging
 
 from gamerag.llm import LLMClient
+from gamerag.telemetry import record_degradation
 
 log = logging.getLogger(__name__)
 
@@ -43,6 +44,7 @@ class QueryPlanner:
             )
             queries = [q.strip() for q in json.loads(self.llm.text(msg))["queries"] if q.strip()]
         except Exception as exc:  # noqa: BLE001 - fail-open
-            log.warning("planner falló (%s: %s); se usa la pregunta original", type(exc).__name__, exc)
+            log.warning("planner falló (%s); se usa la pregunta original", type(exc).__name__)
+            record_degradation(component="planner", error_type=type(exc).__name__, fallback="original_query")
             return [question]
         return queries[: self.max_queries] or [question]

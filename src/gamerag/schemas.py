@@ -15,6 +15,20 @@ class Source(BaseModel):
     chunk_id: str = Field(min_length=1)
 
 
+class EvidenceDocument(Source):
+    """Contexto autorizado exacto; una proyección conserva la identidad de su fuente."""
+
+    url: str
+    section: str
+    version: str
+    source_hash: str
+    text: str
+    is_excerpt: bool = False
+    evidence_hash: str
+    audit_redacted: bool = False
+    recorded_text_hash: str | None = None
+
+
 class Answer(BaseModel):
     answer: str
     sources: list[Source] = []

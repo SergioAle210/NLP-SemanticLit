@@ -94,3 +94,58 @@ def test_run_budget_is_per_process_not_forever(tmp_path):
     assert ledger.spent("serve") == 0.9
     assert ledger.spent("serve", since=time.time() + 1) == 0.0
     assert ledger.spent() == 0.9
+
+
+def test_two_clients_share_one_budget_and_keep_request_telemetry_isolated(tmp_path):
+    import time
+    from concurrent.futures import ThreadPoolExecutor
+    from threading import Barrier
+
+    from gamerag.llm import Ledger
+    from gamerag.telemetry import request_scope
+
+    ready = Barrier(2)
+    requests = []
+
+    def create(**payload):
+        requests.append(payload)
+        time.sleep(0.05)  # el segundo solicitante llega mientras la primera llamada sigue en vuelo
+        return SimpleNamespace(usage=SimpleNamespace(input_tokens=0, output_tokens=1))
+
+    settings = Settings(_env_file=None, root=tmp_path, llm_cache=False, llm_price_input=0,
+                        llm_price_output=1_000_000, llm_budget_usd=1.5, llm_run_budget_usd=1.5)
+    api = SimpleNamespace(messages=SimpleNamespace(create=create))
+    clients = [LLMClient(settings, client=api, ledger=Ledger(tmp_path / "usage.sqlite3")),
+               LLMClient(settings, client=api, ledger=Ledger(tmp_path / "alias/../usage.sqlite3"))]
+    assert clients[0].ledger.budget_lock is clients[1].ledger.budget_lock
+
+    def request(index):
+        with request_scope() as capture:
+            ready.wait(timeout=5)
+            try:
+                clients[index].complete(MSG, max_tokens=1, run=f"request-{index}")
+                status = "ok"
+            except BudgetExceeded:
+                status = "blocked"
+            return status, capture.calls
+
+    with ThreadPoolExecutor(2) as pool:
+        results = list(pool.map(request, range(2)))
+    assert sorted(status for status, _ in results) == ["blocked", "ok"]
+    assert len(requests) == 1 and clients[0].ledger.spent() == 1.0
+    for index, (status, calls) in enumerate(results):
+        assert len(calls) == 1 and calls[0]["run"] == f"request-{index}"
+        assert calls[0]["status"] == ("ok" if status == "ok" else "error")
+        if status == "blocked":
+            assert calls[0]["error_type"] == "BudgetExceeded" and not calls[0]["usage_known"]
+
+
+def test_ledger_connection_is_closed_after_operations(tmp_path):
+    from gamerag.llm import Ledger
+
+    path = tmp_path / "usage.sqlite3"
+    ledger = Ledger(path)
+    ledger.record(run="test", model="fake", usage={}, cost=0, cached=False)
+    assert ledger.spent() == 0
+    path.unlink()  # Windows rechaza la eliminación si una conexión conserva el archivo abierto.
+    assert not path.exists()

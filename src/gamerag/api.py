@@ -29,7 +29,7 @@ from gamerag.explain import explain
 from gamerag.games import GameConfig, load_all_games
 from gamerag.pipeline import Pipeline, Trace, build_pipeline
 from gamerag.progress.models import Profile, load_profiles
-from gamerag.schemas import Answer
+from gamerag.schemas import Answer, EvidenceDocument
 from gamerag.settings import Settings, get_settings
 from gamerag.store import Store
 
@@ -49,6 +49,7 @@ class AskRequest(BaseModel):
 
 class AskResponse(BaseModel):
     answer: Answer
+    evidence: list[EvidenceDocument] = []
     trace: Trace | None = None
     explanation: dict | None = None  # por que respondio / se abstuvo (gamerag/explain.py); con include_trace
 
@@ -58,6 +59,7 @@ class SearchHit(BaseModel):
     score: float
     chunk_id: str
     source: str
+    page: int
     section: str
     url: str
     text: str
@@ -85,6 +87,7 @@ class HealthResponse(BaseModel):
     games: list[str]
     retriever: str
     generator: str
+    configuration: dict = {}
 
 
 # --- aplicación -------------------------------------------------------------------------------
@@ -111,7 +114,7 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
             st.close()
 
     app = FastAPI(title="GameRAG API", version=__version__, lifespan=lifespan,
-                  description="RAG sobre juegos retro de NES con protección de spoilers (CC3103, UVG).")
+                  description="RAG sobre videojuegos con control de spoilers por progreso (CC3103, UVG).")
 
     recent: dict[str, deque[float]] = defaultdict(deque)  # solicitudes por usuario en el ultimo minuto
 
@@ -157,9 +160,15 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
     GamesDep = Annotated[dict[str, GameConfig], Depends(get_games)]
 
     @app.get("/health", response_model=HealthResponse, tags=["sistema"])
-    def health(pipe: PipelineDep) -> HealthResponse:
+    def health(pipe: PipelineDep, request: Request) -> HealthResponse:
+        s = request.app.state.settings
+        fields = ("profile", "generator", "retriever", "embedding_model", "chunker", "query_expansion",
+                  "top_k", "candidates", "use_graph", "evidence_eval", "evidence_mode", "max_rewrites",
+                  "secondary_search", "secondary_mode", "secondary_k", "security_guards", "spoiler_gates",
+                  "llm_offline")
         return HealthResponse(status="ok", version=__version__, games=pipe.games,
-                              retriever=pipe.retriever_name, generator=pipe.generator.name)
+                              retriever=pipe.retriever_name, generator=pipe.generator.name,
+                              configuration={key: getattr(s, key) for key in fields})
 
     @app.get("/games", response_model=list[GameInfo], tags=["catálogo"])
     def list_games(pipe: PipelineDep, games: GamesDep) -> list[GameInfo]:
@@ -183,7 +192,7 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
         rate_limit(request, req.user_id)
         answer, trace = pipe.ask(req.question, req.game, profile)
         store.log_trace(trace)
-        return AskResponse(answer=answer, trace=trace if req.include_trace else None,
+        return AskResponse(answer=answer, evidence=trace.final_evidence, trace=trace if req.include_trace else None,
                            explanation=explain(trace, answer) if req.include_trace else None)
 
     @app.post("/search", response_model=SearchResponse, tags=["consulta"])
@@ -194,7 +203,8 @@ def create_app(settings: Settings | None = None, pipeline: Pipeline | None = Non
         rate_limit(request, req.user_id)
         context, trace = pipe.search(req.question, req.game, profile)
         hits = [SearchHit(rank=h.rank, score=round(h.score, 4), chunk_id=h.chunk.chunk_id, source=h.chunk.source,
-                          section=h.chunk.section, url=h.chunk.url, text=h.chunk.text) for h in context]
+                          page=h.chunk.page, section=h.chunk.section, url=h.chunk.url, text=h.chunk.text)
+                for h in context]
         return SearchResponse(hits=hits, trace=trace)
 
     @app.get("/audit", tags=["admin"])

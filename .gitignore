@@ -24,6 +24,8 @@ models/
 *.sqlite3
 *.db
 logs/
+tmp/pdfs/
+tmp/closure/
 
 # --- Editor / SO ---
 .vscode/

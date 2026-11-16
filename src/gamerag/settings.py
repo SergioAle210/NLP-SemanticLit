@@ -9,7 +9,7 @@ from __future__ import annotations
 from functools import lru_cache
 from pathlib import Path
 
-from pydantic import Field, SecretStr, model_validator
+from pydantic import Field, SecretStr, field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -76,6 +76,13 @@ class Settings(BaseSettings):
     llm_usage_db: Path = Path("state/llm_usage.sqlite3")
 
     log_level: str = "INFO"
+
+    @field_validator("anthropic_api_key", mode="before")
+    @classmethod
+    def _empty_key_is_absent(cls, value: SecretStr | str | None) -> str | None:
+        """Una clave vacía en .env no habilita el perfil con LLM."""
+        raw = value.get_secret_value() if isinstance(value, SecretStr) else value
+        return raw.strip() or None if raw is not None else None
 
     @model_validator(mode="after")
     def _apply_profile(self) -> Settings:

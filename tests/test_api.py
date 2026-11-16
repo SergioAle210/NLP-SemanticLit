@@ -59,11 +59,16 @@ def test_ask_returns_course_contract_and_trace(client):
     assert {"answer", "sources", "abstained", "tool_used", "needs_human_review"} <= ans.keys()  # §11
     assert ans["sources"][0]["chunk_id"] == "raft" and not ans["abstained"]
     assert body["trace"]["trace_id"] == ans["trace_id"] and body["trace"]["outcome"] == "answered"
+    assert body["evidence"] == body["trace"]["final_evidence"]
+    assert body["evidence"][0]["chunk_id"] == "raft"
+    assert body["evidence"][0]["version"] == "revid:1"
+    assert body["trace"]["final_answer"] == ans
 
 
 def test_ask_without_trace(client):
     r = client.post("/ask", json={"question": "raft", "game": "zelda1", "user_id": "novato", "include_trace": False})
     assert r.json()["trace"] is None
+    assert r.json()["evidence"][0]["text"]
 
 
 @pytest.mark.parametrize(("payload", "status"), [
@@ -80,6 +85,7 @@ def test_ask_validates_input(client, payload, status):
 def test_search_returns_context_without_generating(client):
     body = client.post("/search", json={"question": "raft oceans", "game": "zelda1", "user_id": "novato"}).json()
     assert body["hits"][0]["chunk_id"] == "raft" and body["hits"][0]["url"] == "https://x/raft"
+    assert body["hits"][0]["page"] == 0
     assert body["trace"]["outcome"] == "retrieved" and "generation" not in body["trace"]["latency_ms"]
 
 

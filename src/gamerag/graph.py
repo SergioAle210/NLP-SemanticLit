@@ -32,6 +32,7 @@ from gamerag.pipeline import BLOCKED_MESSAGE, REJECTED_MESSAGE, Pipeline, Trace,
 from gamerag.progress.models import Profile
 from gamerag.retrieval.bm25 import Hit
 from gamerag.schemas import Answer
+from gamerag.telemetry import observed, request_scope
 
 
 class QueryState(TypedDict, total=False):
@@ -89,6 +90,7 @@ class GraphPipeline(Pipeline):
         answer, context = routed
         return {"routed": True, "answer": answer, "context": context, "steps": _visit(s, "route")}
 
+    @observed("planner")
     def _n_plan(self, s: QueryState) -> QueryState:
         t = time.perf_counter()
         queries = self.planner.plan(s["question"])
@@ -130,6 +132,7 @@ class GraphPipeline(Pipeline):
             return {"answer": ans, "outcome": outcome, "context": [], "steps": _visit(s, "retrieve")}
         return {"context": context, "steps": _visit(s, "retrieve")}
 
+    @observed("evidence")
     def _n_evaluate(self, s: QueryState) -> QueryState:
         t = time.perf_counter()
         query = s.get("query", s["question"])
@@ -139,6 +142,7 @@ class GraphPipeline(Pipeline):
         s["trace"].latency_ms["evidence"] = round(s["trace"].latency_ms.get("evidence", 0.0) + _ms(t), 2)
         return {"sufficient": v.sufficient, "steps": _visit(s, "evaluate")}
 
+    @observed("secondary")
     def _n_secondary(self, s: QueryState) -> QueryState:
         """Segunda busqueda en las wikis extra (con la reescritura del evaluador si la hay), agregada al contexto."""
         trace = s["trace"]
@@ -149,21 +153,21 @@ class GraphPipeline(Pipeline):
         merged = (list(extra) if self.secondary_replace
                   else [*s["context"], *[h for h in extra if h.chunk.chunk_id not in have]])
         merged = [Hit(rank=i, score=h.score, chunk=h.chunk) for i, h in enumerate(merged, 1)]
-        trace.context = [h.chunk.chunk_id for h in merged]
+        self._set_context(trace, merged)
         trace.secondary = [h.chunk.chunk_id for h in merged if h.chunk.origin != "strategywiki"]
         return {"context": merged, "escalated": True, "steps": _visit(s, "secondary")}
 
+    @observed("rewrite")
     def _n_rewrite(self, s: QueryState) -> QueryState:
-        # Nueva recuperación: se reinician candidatos y variantes para que la trace refleje el último intento.
-        s["trace"].candidates = []
         rewrite = s["trace"].evidence[-1]["rewrite"]
         return {"query": rewrite, "attempts": s.get("attempts", 0) + 1, "steps": _visit(s, "rewrite")}
 
     def _n_generate(self, s: QueryState) -> QueryState:
         t = time.perf_counter()
-        answer = self.generator.generate(s["question"], s["context"], game=s["game"],
-                                         trace_id=s["trace"].trace_id)
-        s["trace"].latency_ms["generation"] = _ms(t)
+        self._set_context(s["trace"], s["context"])
+        answer = self._generate(s["question"], s["context"], game=s["game"],
+                                trace_id=s["trace"].trace_id)
+        s["trace"].latency_ms["generation"] = round(s["trace"].latency_ms.get("generation", 0) + _ms(t), 2)
         return {"answer": answer, "steps": _visit(s, "generate")}
 
     def _n_guard(self, s: QueryState) -> QueryState:
@@ -235,6 +239,12 @@ class GraphPipeline(Pipeline):
 
     def run(self, question: str, game: str, profile: Profile) -> QueryState:
         """Ejecuta el grafo y devuelve el estado final (incluye `steps`, útil en pruebas y diagnóstico)."""
+        with request_scope():
+            state = self._run(question, game, profile)
+            self._finish_trace(state["trace"], state["answer"])
+            return state
+
+    def _run(self, question: str, game: str, profile: Profile) -> QueryState:
         trace = self._new_trace(question, game, profile)
         state: QueryState = self.graph.invoke({"question": question, "game": game, "profile": profile,
                                                "trace": trace, "steps": []})
@@ -247,7 +257,8 @@ def graph_from(pipeline: Pipeline, **kw: Any) -> GraphPipeline:
     """Envuelve un `Pipeline` ya armado (mismos retrievers, guards, router y generador)."""
     gen: Generator = pipeline.generator
     kw = {"secondary": pipeline.secondary, "secondary_k": pipeline.secondary_k,
-          "secondary_replace": pipeline.secondary_replace, **kw}  # los kw pueden sobrescribir
+          "secondary_replace": pipeline.secondary_replace, "content_policy": pipeline.content_policy,
+          **kw}  # los kw pueden sobrescribir
     return GraphPipeline(pipeline.retrievers, generator=gen, input_guards=pipeline.input_guards,
                          access_filters=pipeline.access_filters, output_guards=pipeline.output_guards,
                          top_k=pipeline.top_k, candidates=pipeline.candidates,

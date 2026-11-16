@@ -14,6 +14,8 @@ from typing import Literal
 import yaml
 from pydantic import BaseModel, Field, field_validator, model_validator
 
+from gamerag.ingest.models import Location
+
 ToolName = Literal["search_documents", "query_game_facts", "next_available_levels", "update_progress"]
 
 
@@ -61,6 +63,61 @@ class ExtraSource(BaseModel):
     scope: Literal["game", "franchise"] = "game"
 
 
+class ContentRule(BaseModel):
+    """Acceso a un pasaje sensible dentro de una sección que también contiene ayuda general."""
+
+    source: str
+    section: str = ".*"
+    match: str
+    unit: Literal["sentence", "paragraph"] = "paragraph"
+    conservative_window: bool = True  # fixed puede empezar a mitad del pasaje
+    requires: Location = Location()
+    after_stage: str | None = None  # desenlace: la etapa actual debe ser posterior, no igual
+
+    @field_validator("source", "section", "match")
+    @classmethod
+    def _patterns_compile(cls, value: str) -> str:
+        re.compile(value)
+        return value
+
+
+class LevelListRule(BaseModel):
+    """Lista ordinal cuyas filas corresponden a niveles, en el orden de la fuente."""
+
+    source: str
+    section: str
+    quest: str
+    levels: list[int]
+
+    @field_validator("source", "section")
+    @classmethod
+    def _patterns_compile(cls, value: str) -> str:
+        re.compile(value)
+        return value
+
+
+class MapCellRule(BaseModel):
+    """Ubicación de una celda cuyo enlace o dependencia no sobrevive en texto plano."""
+
+    source: str
+    quest: str
+    cells: list[str]
+    level: int
+
+    @field_validator("source")
+    @classmethod
+    def _pattern_compiles(cls, value: str) -> str:
+        re.compile(value)
+        return value
+
+    @field_validator("cells")
+    @classmethod
+    def _coordinates(cls, values: list[str]) -> list[str]:
+        if not values or any(not re.fullmatch(r"[A-Z]-[1-9]\d*", value) for value in values):
+            raise ValueError("cells requiere coordenadas de mapa, p. ej. E-1")
+        return values
+
+
 class GameConfig(BaseModel):
     game_id: str = Field(pattern=r"^[a-z0-9_]+$")
     title: str
@@ -85,17 +142,33 @@ class GameConfig(BaseModel):
     # Páginas del snapshot que no se indexan (p. ej. índices de navegación sin contenido).
     exclude_pages: list[str] = []
 
+    content_rules: list[ContentRule] = []
+    level_list_rules: list[LevelListRule] = []
+    boss_table_source: str | None = None
+    # Los resúmenes completos de rutas tienen dependencias implícitas entre líneas.
+    # Solo se abren para jugadores que conocen todos los niveles de su quest.
+    complete_route_sources: list[str] = []
+    map_sources: list[str] = []  # mapas agregados: interpretar referencias dungeon/level por celda
+    map_cell_rules: list[MapCellRule] = []  # aliases y pasos de una ruta identificados en el snapshot
+
     # Glosario para reescribir/expandir consultas (vocabulario del jugador -> del juego).
     query_expansion: QueryExpansionConfig = QueryExpansionConfig()
 
     tools: list[ToolName]
 
-    @field_validator("location_from_title", "location_from_heading")
+    @field_validator("location_from_title", "location_from_heading", "boss_table_source")
     @classmethod
     def _valid_regex(cls, v: str | None) -> str | None:
         if v is not None:
             re.compile(v)
         return v
+
+    @field_validator("map_sources")
+    @classmethod
+    def _map_patterns_compile(cls, values: list[str]) -> list[str]:
+        for value in values:
+            re.compile(value)
+        return values
 
     @model_validator(mode="after")
     def _progress_fields_match_model(self) -> GameConfig:
@@ -109,6 +182,17 @@ class GameConfig(BaseModel):
                 raise ValueError("'stages' tiene duplicados")
         if "next_available_levels" in self.tools and self.progress_model is not ProgressModel.LEVEL_SET:
             raise ValueError("next_available_levels solo aplica a juegos no lineales (level_set)")
+        for rule in self.content_rules:
+            if rule.after_stage is not None and rule.after_stage not in (self.stages or []):
+                raise ValueError(f"after_stage desconocida: {rule.after_stage}")
+            if rule.requires.level is not None and rule.requires.level not in (self.levels or []):
+                raise ValueError(f"nivel requerido desconocido: {rule.requires.level}")
+        for rule in self.level_list_rules:
+            if rule.quest not in (self.quests or []) or not set(rule.levels) <= set(self.levels or []):
+                raise ValueError("level_list_rules requiere quest y niveles del juego")
+        for rule in self.map_cell_rules:
+            if rule.quest not in (self.quests or []) or rule.level not in (self.levels or []):
+                raise ValueError("map_cell_rules requiere quest y nivel del juego")
         return self
 
     def stage_index(self, stage: str) -> int:

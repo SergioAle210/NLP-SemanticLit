@@ -1,4 +1,4 @@
-# Imagen única para la API (FastAPI) y la interfaz (Streamlit). Ver docs/deployment/README.md.
+# Imagen única para la API (FastAPI) y la interfaz (Gradio). Ver docs/deployment/README.md.
 FROM python:3.12-slim
 
 # uv fijado a una versión exacta (misma que se usa en desarrollo).
@@ -18,7 +18,7 @@ COPY pyproject.toml uv.lock README.md ./
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --locked --no-dev --extra semantic --extra ui --no-install-project
 
-# 2) Código, configuración y corpus (los snapshots de la wiki van en el repo; CC BY-SA 4.0).
+# 2) Código, configuración y corpus (snapshots versionados; licencias separadas por fuente).
 COPY src ./src
 COPY config ./config
 COPY data/wiki_snapshot ./data/wiki_snapshot

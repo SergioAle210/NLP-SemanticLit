@@ -50,7 +50,8 @@ def _pair(**kw):
 
 def _norm(answer, trace):
     a = answer.model_dump(exclude={"trace_id"})
-    t = trace.model_dump(exclude={"trace_id", "latency_ms"})
+    t = trace.model_dump(exclude={"trace_id", "latency_ms", "stages", "final_answer"})
+    assert trace.final_answer == answer
     return a, t, sorted(trace.latency_ms)
 
 

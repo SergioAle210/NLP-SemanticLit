@@ -1,4 +1,4 @@
-# docker compose up --build   ->  API en http://localhost:8000/docs · interfaz en http://localhost:8501
+# docker compose up --build   ->  API en http://localhost:8000/docs · interfaz en http://localhost:7860
 # Ver docs/deployment/README.md.
 services:
   api:

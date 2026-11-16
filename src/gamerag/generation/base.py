@@ -7,16 +7,18 @@ Un `Generator` recibe la pregunta y los chunks **ya filtrados** por los gates, y
   Es el generador por defecto mientras no haya API key, y el **respaldo** cuando el LLM falla.
 - `FallbackGenerator` (aquí): envuelve un generador primario (p. ej. Haiku) y, si lanza una
   excepción, responde con el extractivo marcando `needs_human_review` (degradación controlada).
-- `HaikuGenerator` (pendiente, otro integrante): Augmentation + Generation con Claude Haiku.
+- `HaikuGenerator`: Augmentation + Generation con Claude Haiku.
 """
 
 from __future__ import annotations
 
 import logging
+from contextvars import ContextVar
 from typing import Protocol
 
 from gamerag.retrieval.bm25 import Hit
 from gamerag.schemas import Answer, Source
+from gamerag.telemetry import record_degradation
 
 log = logging.getLogger(__name__)
 
@@ -82,14 +84,21 @@ class FallbackGenerator:
         self.primary = primary
         self.fallback = fallback or ExtractiveGenerator()
         self.name = f"{primary.name}+fallback"
-        self.last_error: str | None = None
+        self._last_error: ContextVar[str | None] = ContextVar("fallback_error", default=None)
+
+    @property
+    def last_error(self) -> str | None:
+        """Compatibilidad para consumidores antiguos; estado local al contexto de ejecución."""
+        return self._last_error.get()
 
     def generate(self, question: str, context: list[Hit], *, game: str, trace_id: str) -> Answer:
         try:
-            self.last_error = None
+            self._last_error.set(None)
             return self.primary.generate(question, context, game=game, trace_id=trace_id)
         except Exception as exc:  # noqa: BLE001 - cualquier falla del primario degrada al respaldo
-            self.last_error = f"{type(exc).__name__}: {exc}"
+            self._last_error.set(type(exc).__name__)
+            record_degradation(component="generation", primary=self.primary.name, fallback=self.fallback.name,
+                               error_type=type(exc).__name__)
             log.warning("generador %s falló (%s); se usa %s", self.primary.name, self.last_error, self.fallback.name)
             answer = self.fallback.generate(question, context, game=game, trace_id=trace_id)
             return answer.model_copy(update={"needs_human_review": True})

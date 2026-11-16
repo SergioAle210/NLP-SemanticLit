@@ -22,11 +22,45 @@ levels: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 quests: [first, second]
 
 # Cómo derivar la ubicación (metadatos de acceso) desde el título de la página de la wiki.
-location_from_title: 'Underworld/Quest (?P<quest>\d)/Dungeon (?P<level>\d)'
-location_from_heading: null
+location_from_title: '(?:Underworld|Overworld)/Quest (?P<quest>\d)(?:/Dungeon (?P<level>\d))?'
+location_from_heading: '(?i)(?:(?P<quest>[12])(?:st|nd)\s+Quest|(?P<quest_name>first|second)\s+Quest|Quest\s+(?P<quest_number>[12]))'
 
 # Índice de navegación: solo enlaces, sin contenido del juego.
 exclude_pages: ["The Legend of Zelda/Table of Contents"]
+
+# Las páginas generales mezclan mecánicas públicas y soluciones de niveles posteriores.
+# Se conservan las mecánicas; las frases sobre Silver Arrows requieren la mazmorra final.
+content_rules:
+  - source: '.*'
+    match: '\bsilver\b'
+    unit: sentence
+    conservative_window: false
+    requires: {level: 9}
+  - source: '/Items$'
+    section: 'Bow and Arrows'
+    match: '\bsilver\b'
+    unit: sentence
+    requires: {level: 9}
+level_list_rules:
+  - source: '/Overworld/Quest 1$'
+    section: '^Treasures of the eight levels$'
+    quest: first
+    levels: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+boss_table_source: '/Bosses$'
+complete_route_sources: ['/Walkthrough$']
+
+# Cada celda del mapa conserva su unidad: una ruta a un nivel no autorizado
+# se oculta junto con las instrucciones que la acompañan. Números de corazones y
+# referencias a "Section N" no son referencias a mazmorras.
+map_sources: ['/Overworld/Hyrule [1-8]$']
+map_cell_rules:
+  # Lost Hills: tanto la pista vendida como la ruta conducen al nivel 5.
+  - {source: '/Overworld/Hyrule 3$', quest: first, cells: [D-2, E-2], level: 5}
+  # El enlace a Dungeon 9 se limpia como "death", sin conservar el número.
+  - {source: '/Overworld/Hyrule 5$', quest: first, cells: [B-1], level: 9}
+  # El muelle dice "the area above"; la celda superior identifica la mazmorra.
+  - {source: '/Overworld/Hyrule 6$', quest: first, cells: [B-3], level: 4}
+  - {source: '/Overworld/Hyrule 6$', quest: second, cells: [B-3], level: 5}
 
 tools: [search_documents, query_game_facts, next_available_levels, update_progress]
 
