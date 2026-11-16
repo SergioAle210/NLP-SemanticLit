@@ -1,10 +1,23 @@
 # Ablación agéntica (extremo a extremo) — primera medición
 
+> Experimentos históricos iniciados el 8 de noviembre de 2026. Sus configuraciones, cifras y pendientes corresponden a cada etapa, no al servicio vigente. Conservamos la cronología sin sustituir resultados. La [metodología actual](metrics.md), el [scorecard base](scorecard-base.md) y el [informe final](../course/informe-final.md) distinguen las verificaciones de cierre y la ausencia de nuevas llamadas Haiku.
+
 Fecha: 2026-11-08 · Modelo: `claude-haiku-5-5` · Recuperador: **BM25 + expansión de consulta** (el extra
-`semantic` no estaba instalado; el híbrido de producción llega a Recall@5 ≈ 0.94–1.00, así que aquí hay más
-margen de mejora que en producción) · Banco: 54 casos (49 con respuesta, 5 sin) · Una sola corrida por
-configuración, sin caché (costo real). Reproducir: `uv run python -m gamerag.evaluation.e2e [--generator haiku] [--evidence]`.
+`semantic` no estaba instalado; las mediciones históricas de la híbrida alcanzaban hit rate@5 ≈ 0.94–1.00) · Banco: 54 casos (49 con respuesta, 5 sin) · Una sola corrida por
+configuración, sin caché (costo real). Los campos `ctx_recall` de estas tablas son hit rate; «abstención correcta» es exactitud global, no sensibilidad sobre casos no respondibles.
 Resultados por caso: `eval/results/2026-11-08_e2e_*.json`.
+
+Comandos vigentes equivalentes para las tres variantes BM25, con credenciales y presupuesto para Haiku:
+
+```powershell
+uv run --no-sync python -m gamerag.evaluation.e2e --retriever bm25 --generator extractive --label bm25-extractive
+uv run --no-sync python -m gamerag.evaluation.e2e --retriever bm25 --generator haiku --graph --label bm25-haiku-graph
+uv run --no-sync python -m gamerag.evaluation.e2e --retriever bm25 --generator haiku --evidence --mode always --label bm25-haiku-evidence
+```
+
+Estos comandos ejecutan el código y los controles actuales; no recrean por sí solos el estado histórico del
+8 de noviembre. Las corridas originales conservan su propia configuración y no se volvieron a ejecutar en
+esta revisión.
 
 | Configuración | ctx_recall | abstención correcta | precisión de citas | costo/pregunta | latencia media / P95 |
 |---|---|---|---|---|---|
@@ -154,10 +167,10 @@ escalaba** (22 de 84 casos). Con 500 tokens la escalada pasó de 75 % a 83 %.
   confianza desde contexto de StrategyWiki irrelevante y en modo `on_abstain` el evaluador no interviene. Probar `--mode always`
   (una llamada extra por pregunta) es el siguiente experimento, pero cuesta más que C.
 - Los resultados por juego se corrieron en procesos separados (`--only-game`): Chroma devolvía "Nothing found on disk" al abrir
-  los 14 índices en un mismo proceso (afectaba a un juego distinto en cada corrida). La causa raíz no está resuelta; el
-  rodeo es `--only-game` / `only_games`.
+  los 14 índices en un mismo proceso (afectaba a un juego distinto en cada corrida). En esa etapa se utilizó
+  `--only-game` / `only_games`; la corrección posterior se describe en el punto 3 de la sección siguiente.
 
-## Configuración final de la segunda búsqueda (perfil `full`)
+## Configuración seleccionada entonces para la segunda búsqueda (perfil `full`)
 
 Correcciones previas a esta medición, que invalidaban corridas anteriores:
 

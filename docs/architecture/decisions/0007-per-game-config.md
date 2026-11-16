@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-05)
 
+> **Nota de vigencia (2026-11-16).** La tabla conserva la configuración inicial de dos juegos. Hoy existen siete configuraciones; Zelda también clasifica quests desde encabezados y dispone de reglas de contenido, listas y celdas de mapa. «Sin grafo» en la fila de herramientas se refiere a la consulta de niveles no lineales, no a la orquestación LangGraph. Agregar un juego requiere además comprobar limpieza, clasificación y pruebas de acceso de sus fuentes; escribir el YAML no demuestra por sí solo su cobertura.
+
 ## Contexto
 
 Los dos juegos difieren en el modelo de progreso, en dónde está la ubicación dentro de la wiki y en las herramientas que tienen sentido ([overview/games.md](../../overview/games.md)).

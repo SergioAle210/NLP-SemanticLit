@@ -23,15 +23,15 @@ flowchart LR
 
 | Pregunta | Con solo RAG | Con la herramienta |
 | --- | --- | --- |
-| "list all the bosses in the first quest" | Parcial: la lista está repartida en varios chunks y el top-5 trae una parte | Las 9, completas, con su fuente |
+| "list all the bosses in the first quest" | Parcial: la lista está repartida en varios chunks y el top-5 trae una parte | Las 9 con `completionist`; un jugador limitado recibe solo filas de sus niveles autorizados, con fuente |
 | "what should I do next?" | Ningún documento la responde: depende del jugador | Niveles completados y pendientes, desde el perfil |
-| "I just beat level 3" | Respondería con texto de la wiki | Detecta una **acción** y no la ejecuta sin confirmación |
+| "I just beat level 3" | Respondería con texto de la wiki | Detecta una **acción**, la deja sin ejecutar y señala revisión humana |
 
 ## Herramientas
 
 | Herramienta | Qué hace | Juegos |
 | --- | --- | --- |
-| `query_game_facts` | Tabla `bosses` (jefe, HP, daño, quest, nivel, chunk de origen), extraída de la página Bosses de la wiki; 18 filas en Zelda. Consultas parametrizadas por `quest` y `level` | Zelda (en NG no hay tabla de jefes: el router no la usa) |
+| `query_game_facts` | Tabla SQLite en memoria `bosses` (jefe, HP, daño, quest, nivel, chunk de origen), extraída al cargar los chunks de Bosses; 18 filas con el corpus estructural de Zelda. Consultas parametrizadas por `quest` y `level` | Zelda (en NG no hay tabla de jefes: el router no la usa) |
 | `next_available_levels` | Niveles completados y pendientes del perfil, solo con números de nivel (no revela contenido) | Solo juegos no lineales (`level_set`); validado en `games.py` |
 | `update_progress` | **No se ejecuta**: responde con `needs_human_review = true` | Todos |
 
@@ -49,17 +49,17 @@ Explícitas y auditables. Ante la duda, el router elige `documents`.
 | `query_game_facts` | Menciona "boss(es)/jefe(s)" + una **enumeración** (list/all/every/each/who are/who is/which bosses/cuáles/todos) y **no** dice "how/cómo": "what do the bosses drop" y "how do I defeat the boss" van al RAG |
 | `documents` | Todo lo demás |
 
-**Parámetros:** el nivel sale de "level N", "Level-N" o "dungeon N", y la quest de "first/1st quest" o "quest 1". Si la pregunta no dice la quest, se usa la del perfil.
+**Parámetros:** el nivel sale de "level N", "Level-N" o "dungeon N", y la quest de "first/1st quest", "quest 1" y sus variantes para la segunda. Sin quest explícita, un jugador con progreso utiliza la suya; `completionist` y `admin` pueden consultar ambas. El parser no interpreta todas las variantes lingüísticas: una expresión como "third quest" no se convierte por sí sola en un parámetro inválido; la validación rechaza `quest="third"` cuando ese valor llega a la herramienta.
 
 ## Controles (§5.8)
 
 - **Alcance:** no hay SQL libre, solo consultas predefinidas con parámetros; `PRAGMA query_only` (solo lectura); máximo 50 filas.
 - **Parámetros:** se validan contra la configuración del juego. "level 15" no ejecuta la consulta y responde que no existe (`status: invalid_params`).
-- **Spoilers:** cada fila se evalúa con los **mismos `AccessFilter`** del pipeline, como si fuera un chunk ubicado en su (quest, nivel). Cuando se implementen G2/G3, los jefes de niveles no alcanzados se ocultan sin tocar la herramienta, y la respuesta dice cuántos quedaron ocultos.
+- **Spoilers:** cada fila pasa por los filtros de acceso y la política de contenido según su quest y nivel. La respuesta devuelve únicamente evidencia autorizada; el original se comprueba contra juego y cuarentena antes de proyectarlo.
 - **Degradación:** si la herramienta falla, la pregunta sigue por el RAG (`status: degraded` en la traza); si excede `tool_timeout_s` (5 s por defecto) también (`status: timeout`). El hilo de la herramienta no se puede matar, pero la respuesta no espera.
 - **Alcance por solicitud:** una sola herramienta por solicitud (`tool.calls = 1`); el router elige una ruta y no hay encadenamiento.
 - **Alcance por usuario:** límite de solicitudes por minuto en la API (`rate_limit_per_min`, 60 por defecto) sobre `/ask` y `/search`; excederlo devuelve 429.
-- **Acciones críticas:** `update_progress` requiere confirmación humana.
+- **Acciones críticas:** `update_progress` y `critical_action` no se ejecutan; marcan revisión humana. No existe un circuito persistente de aprobación y modificación de progreso.
 - **Guards:** los de entrada corren **antes** del router, y los de salida (citas) también se aplican a las respuestas de las herramientas.
 
 ## Traza
@@ -74,14 +74,16 @@ Explícitas y auditables. Ante la duda, el router elige `documents`.
 | --- | --- |
 | Ejecución nominal | Lista de jefes con cita; pasa `CitationGuard` |
 | Selección errónea de herramienta | Ninguna de las 39 preguntas del banco va a una herramienta; "how do I defeat the boss" va al RAG; una herramienta no habilitada en la config no se usa |
-| Parámetros fuera de rango | "level 15" y "third quest": no se ejecuta, `invalid_params` |
-| Acción con confirmación humana | "I just beat level 3": `needs_human_review`, `executed: false` |
+| Parámetros fuera de rango | "level 15" devuelve `invalid_params`; la prueba directa `bosses(quest="third")` rechaza el valor inválido |
+| Acción reservada a revisión humana | "I just beat level 3": `needs_human_review`, `executed: false` |
 | Degradación controlada | La herramienta lanza una excepción y la respuesta sale del RAG |
 
 Además: base de datos de solo lectura, gates aplicados por fila, guards de entrada antes del router.
 
 
-## Evaluación de herramientas (banco `eval/cases_tools.jsonl`, `python -m gamerag.evaluation.tools_eval`)
+## Evaluación histórica de herramientas (2026-11-09)
+
+Banco `eval/cases_tools.jsonl`, evaluador `python -m gamerag.evaluation.tools_eval`. Conservamos las cifras de esta sección como resultados históricos; las corridas posteriores deben identificarse por su propio artefacto.
 
 26 casos con el esquema del §8 más `expect` y, para degradación, una falla inyectada (`fault`: excepción o timeout). Se
 corre offline (BM25 + generador extractivo, sin costo). Mide: selección de herramienta, ejecución, parámetros,
@@ -103,5 +105,9 @@ herramienta habilitada, español sin soportar), que se corrigieron; por eso el 2
 no engañarnos se escribió un segundo banco independiente (`eval/cases_tools_heldout.jsonl`, 13 casos, frases nuevas),
 corrido **antes** de corregir: **11/13 (85 %)** (`eval/results/*_tools_heldout_before-fix.json`). Sus dos fallos
 ("next dungeon" dentro de una pregunta sobre ítems; "I've just completed …") se corrigieron después, así que ese banco
-ya tampoco es independiente (13/13). Un router de reglas se sobreajusta a sus bancos: la cifra defendible es ~85 % en
-frases no vistas, con falso disparo 0/165 en preguntas de documentos.
+ya tampoco es independiente (13/13). El 11/13 describe únicamente aquel conjunto pequeño antes de corregirlo;
+no estima la exactitud general en cualquier frase nueva. El falso disparo fue 0/165 en las preguntas documentales utilizadas.
+
+## Verificación de cierre
+
+La [corrida posterior a la reingesta](../../eval/results/20261116T022858581774Z-3a5bc434_tools_tools.json) conserva 26/26 en el banco de desarrollo y cero desvíos indebidos en 165 preguntas documentales. El artefacto corresponde al estado anterior a la corrección posterior de mapas de Hyrule; conserva evidencia de aquella integración y no convierte el banco utilizado en un conjunto independiente. La [auditoría](../evaluation/audit-current.md) distingue las verificaciones posteriores.

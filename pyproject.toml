@@ -1,7 +1,7 @@
 [project]
 name = "gamerag"
 version = "0.1.0"
-description = "Asistente RAG para juegos retro de NES con protección de spoilers (CC3103, UVG)"
+description = "Asistente RAG para videojuegos con control de spoilers por progreso (CC3103, UVG)"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11,<3.13"

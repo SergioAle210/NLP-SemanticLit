@@ -2,6 +2,8 @@
 
 Estado: aceptada (2026-11-09)
 
+> **Nota de vigencia (2026-11-16).** El preset continúa vigente. Una clave vacía se trata como ausente; `profile="full"` conserva el nombre solicitado aunque no aplique el preset, por lo que deben comprobarse las opciones efectivas en `/health`. La búsqueda secundaria aplica también `ContentPolicy`. El gasto es una estimación según precios configurados; los clientes que comparten ledger se coordinan dentro de un proceso, sin garantía entre procesos independientes. Las mejoras numéricas siguientes son históricas y no acreditan una nueva evaluación `full` del código actual.
+
 ## Contexto
 
 Tras la ablación agéntica (`docs/evaluation/agentic-ablation.md`) hay varias piezas opcionales (grafo, Haiku, evaluador de

@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-05)
 
+> **Nota de vigencia (2026-11-16).** Conservamos la prioridad de evaluar en inglés. La interfaz actual está en español y algunas reglas y pruebas aceptan español, pero eso no acredita soporte multilingüe completo. Los manuales mencionados en el contexto inicial no forman parte de la ingesta servida. El alcance vigente está en [problema y alcance](../../overview/problem-and-scope.md).
+
 ## Contexto
 
 - El corpus (StrategyWiki) y los manuales están solo en inglés.

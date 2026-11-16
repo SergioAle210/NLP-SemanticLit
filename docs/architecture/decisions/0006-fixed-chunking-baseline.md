@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-05)
 
+> **Nota de vigencia (2026-11-16).** Las cifras siguientes corresponden al corpus inicial. El servicio actual usa segmentación estructural por defecto y aplica controles de acceso también cuando se selecciona `fixed`; la ausencia de gates mencionada abajo describe aquella línea base experimental. Las fichas padre previstas no se implementaron. La [política actual de segmentación](../../ingestion/chunking.md) contempla cortes parciales y proyección segura de mapas.
+
 ## Contexto
 
 El curso pide una estrategia de chunking justificada (§5.3) y comparar una línea base contra una versión mejorada (§9). El detalle está en [ingestion/chunking.md](../../ingestion/chunking.md).

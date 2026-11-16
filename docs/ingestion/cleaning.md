@@ -24,12 +24,12 @@ Los encabezados `== X ==` **se conservan**, porque la segmentación los usa.
 
 ## Reglas de plantillas
 
-Inventario hecho sobre ambos snapshots (2026-11-05).
+El inventario siguiente corresponde a los snapshots iniciales de Zelda y Ninja Gaiden (2026-11-05). La ingesta actual abarca siete juegos; las reglas posteriores incluyen otras plataformas y fuentes.
 
 | Regla | Plantillas | Ejemplo |
 | --- | --- | --- |
 | Descartar (navegación y maquetación) | `Header Nav`, `Footer Nav`, `floatingtoc`, `-`, `col`, `ToC`, `ContentBoxContainer`, `Zeldawiki`, `img`, `Scrolling_map`, `game disambig`, `desc`, `prettytable`, plantillas de navegación de cada juego, `DEFAULTSORT`, clasificaciones (`CERO`, `ESRB`, `PEGI`, `OFLC`) | — |
-| Descartar (botones de otras consolas) | `gc`, `wii`, `wii-cc`, `3ds`, `switch` | El alcance es la versión de NES |
+| Descartar (botones de ports) | `gc`, `wii`, `wii-cc`, `3ds`, `switch` | Regla introducida para conservar los controles de la edición NES de Zelda |
 | Nombre del objeto o artículo | `im/loz`, `a`, `c`, `n/a` | `{{im/loz\|Item\|Raft}}` → `Raft` |
 | Botón de NES | `nes` | `{{nes\|Up\|Dpad}}` → `Up (D-pad)`; `{{nes\|Neutral\|Dpad}}` → `D-pad` |
 | Literal | `plus`, `(`, `)` | `{{plus}}` → `+` |
@@ -40,11 +40,13 @@ Inventario hecho sobre ambos snapshots (2026-11-05).
 | Subsección | `ContentBox` | `=== White Sword ===` + contenido (fichas de Items) |
 | Párrafo | `sidebar` | `Título: contenido` (como encabezado "robaría" el texto que sigue) |
 
-**Plantillas desconocidas:** se descartan y se cuentan en `CleanStats.unknown_templates`, que aparece en `stats.fixed.json`. Un test exige que el conteo sea cero en todo el corpus.
+En el código actual, `BUTTON_TEMPLATES` conserva las etiquetas de botones de `ps2`, `psx`, `xbox`, `mouse`, `n64`, `ds`, `gb`, `jaguar`, `smd` y `kbd`; también se interpreta la plantilla `control`. El conjunto de descarte de botones de ports incluye además `wiiu` y `gba`. Estas reglas son explícitas y compartidas por la limpieza: no significan que el alcance completo del proyecto sea NES ni que se conserven los controles de todas las ediciones posibles.
+
+**Plantillas desconocidas:** se descartan y se cuentan en `CleanStats.unknown_templates`, que aparece en `stats.<chunker>.json` y en su variante `-multi`. Un test exige conteo cero en las páginas primarias incluidas de los siete juegos; los conteos de las fuentes adicionales se inspeccionan por separado y no quedan cubiertos por esa afirmación.
 
 ## Tablas
 
-Hay tres formatos de salida, según la tabla.
+Hay cuatro formatos de salida, según la tabla.
 
 **Tabla con encabezados:** cada fila se convierte en una línea con pares `Encabezado: valor`, separados por ` | `.
 
@@ -69,6 +71,7 @@ Time Freeze: If you find one of these rare hourglasses... | Health: ... Collect 
 Antes solo se usaba la primera fila de encabezados, así que todos los ítems quedaban etiquetados como "Bonus points:" o "Spirit points:". Si una fila de encabezados no tiene datos debajo (p. ej. una tabla de navegación hecha solo de celdas `!`), sale como texto plano.
 
 Reglas comunes:
+
 - `colspan` y `rowspan` se expanden antes de asignar columnas: la celda queda en su primera columna y las posiciones que ocupa se dejan vacías. Sin esto, una celda con `rowspan` desplaza todas las celdas de la fila siguiente a la columna equivocada.
 - Se quitan los atributos de celda (`width="10%"| valor`).
 - Las listas dentro de una celda (`*a` `*b`) pasan a `a; b`.
@@ -78,9 +81,9 @@ Reglas comunes:
 
 **Caso de la tabla de controles de Zelda:** tiene una columna por consola. Al descartar los botones de las demás consolas, cada fila queda como `NES: Start | Action: Bring up the sub-screen menu...`.
 
-## Validación contra el original
+## Validación histórica contra el original
 
-Se midió qué palabras del wikitext original no aparecen en el texto limpio, descontando lo que se elimina a propósito (imágenes, galerías, mapas clicables, nombres de plantillas y atributos).
+En los dos snapshots iniciales se midió qué palabras del wikitext original no aparecen en el texto limpio, descontando lo que se elimina a propósito (imágenes, galerías, mapas clicables, nombres de plantillas y atributos). Estos porcentajes no constituyen una nueva medición de todas las fuentes de los siete juegos.
 
 | | Palabras conservadas |
 | --- | ---: |
@@ -90,12 +93,14 @@ Se midió qué palabras del wikitext original no aparecen en el texto limpio, de
 Lo restante corresponde a rutas de enlaces (`[[The Legend of Zelda/Underworld/...|texto]]` conserva solo `texto`), nombres de archivos de imagen y restos de atributos sin espacios (`width="24%"`), es decir, artefactos de la propia medición.
 
 La validación encontró y corrigió dos pérdidas reales:
+
 1. **La ficha `{{Game}}` se descartaba completa** (desarrollador, diseñadores, año, título japonés). Ahora se convierte en líneas `Campo: valor`.
 2. **Las cuadrículas de los mapas perdían las coordenadas.** "B-2" quedaba como `2 | texto`, sin la columna, y un `rowspan` desplazaba las columnas de la fila siguiente. Ahora se emite `B-2: texto` y se expanden los spans.
 
-Los hechos verificados a mano quedaron como test permanente (`KNOWN_FACTS` en [tests/test_ingest.py](../../tests/test_ingest.py)).
+Los hechos de referencia quedaron como test permanente (`KNOWN_FACTS` en [tests/test_ingest.py](../../tests/test_ingest.py)). Su ejecución comprueba esos fixtures; no acredita una revisión humana nueva de todo el corpus.
 
 ## Limitaciones conocidas
 
 - Las coordenadas de mapas ("B-3, section six") se conservan como texto, pero sin la imagen tienen valor limitado.
+- Los enlaces con texto alternativo conservan ese texto y pierden el destino interno. Por ejemplo, la celda de Spectacle Rock alude a Dungeon 9 mediante «death»; la política actual registra esa dependencia por fuente, quest y celda para ocultarla hasta que el nivel esté autorizado. Una fuente nueva requiere revisar estos casos indirectos.
 - La última fila de la tabla de controles ("Switch between controller 1 and 2") es exclusiva de 3DS. Queda sin botón de NES, solo con la acción.

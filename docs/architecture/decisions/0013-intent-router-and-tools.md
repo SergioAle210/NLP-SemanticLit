@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-06).
 
+> **Nota de vigencia (2026-11-16).** El router sigue basado en reglas e incorpora patrones en español, límites de tiempo y `critical_action`. Las solicitudes de progreso o acciones críticas quedan sin ejecutar; no existe un circuito persistente de aprobación. La evidencia de hechos contiene únicamente las filas autorizadas, previa comprobación del original contra juego y cuarentena. Las cifras de 39 preguntas y las alternativas pendientes del cuerpo siguiente son históricas; la [documentación de herramientas](../../tools/README.md) describe la implementación vigente.
+
 ## Contexto
 
 - **El §5.6 exige** al menos una herramienta o flujo agéntico "realmente necesario".

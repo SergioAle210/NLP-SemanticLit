@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-06).
 
+> **Nota de vigencia (2026-11-16).** Los alias y tokens de frase se mantienen. Las métricas y fallos numerados siguientes corresponden a aquel banco y configuración; no sustituyen las [mediciones actuales](../../evaluation/audit-current.md). El control de quests ya incluye títulos y encabezados heredados, y la proyección de mapas verifica referencias internas a niveles. La huella persistida del índice comprende metadatos e identidad documental, además de `INDEX_TEXT_VERSION`.
+
 ## Contexto
 
 - **Level ↔ Dungeon:** la wiki titula las mazmorras "Underworld/Quest 1/Dungeon 3"; el juego y los jugadores dicen "Level-3" y "first quest". `direct_04` y `exact_01` fallaban desde la línea base.

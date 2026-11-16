@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-04)
 
+> **Nota de vigencia (2026-11-16).** StrategyWiki sigue siendo la fuente principal. El corpus actual incluye otras wikis con licencias distintas; Fandom no tiene una licencia uniforme GFDL y los derivados no se declaran todos bajo CC BY-SA 4.0. La [tabla de fuentes](../../data/sources.md) reproduce las licencias registradas por sitio. Los manuales no se incorporan al pipeline actual, aunque conservamos algunas referencias en la configuración. El cuerpo siguiente documenta la decisión inicial.
+
 ## Contexto
 
 - Los manuales oficiales son cortos (20 a 40 páginas con muchas ilustraciones), casi no tienen contenido organizado por etapas y son © Nintendo, por lo que no se pueden redistribuir.

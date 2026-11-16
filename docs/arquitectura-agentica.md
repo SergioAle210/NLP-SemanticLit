@@ -1,34 +1,42 @@
-# ¿Es agéntico el RAG actual? Diagnóstico y arquitectura propuesta
+# Diagnóstico agéntico y arquitectura propuesta — registro histórico
+
+> Propuesta histórica del 7 de noviembre de 2026. Las etapas futuras aquí descritas no equivalen a capacidades implementadas. Consultar [arquitectura vigente](architecture/overview.md), [contratos](contracts/README.md) e [informe final](course/informe-final.md).
 
 Fecha: 2026-11-07. Complementa [arquitecturas-rag-y-contribucion.md](arquitecturas-rag-y-contribucion.md) e [informe-estado.md](informe-estado.md). Basado en `pipeline.py`, `tools/router.py` y los requisitos de [course/instructions.md](course/instructions.md) (§1, §3, §5.6, §6, §8, §14).
 
+**Estado posterior.** Implementamos un grafo con evaluación de evidencia, reescritura y búsqueda secundaria
+acotadas, además de un planificador opcional. El router continúa por reglas; no hay investigador ReAct,
+memoria conversacional ni crítico semántico de salida completo. Las acciones críticas devuelven
+`needs_human_review` sin ejecutarse; no existe una pausa persistente con reanudación tras aprobación.
+El diagrama de esta propuesta incluye componentes que siguen fuera del alcance entregado.
+
 > Las referencias de literatura están citadas de memoria; verificar antes de usarlas en un documento o paper.
 
-## 1. Veredicto corto
+## 1. Diagnóstico del 7 de noviembre de 2026
 
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Cumple la letra del §5.6 del curso? | **Sí, de forma mínima.** El §5.6 exige "al menos una" de tres opciones: herramienta externa, flujo de decisión (enrutamiento condicional) o agente autónomo. Hoy hay una herramienta (SQL de solo lectura) y enrutamiento condicional |
 | ¿Es un RAG agéntico en el sentido de la literatura? | **No.** Es un *workflow* determinista: un router de expresiones regulares y una sola pasada de recuperación |
 | ¿Los "roles" lo hacen agéntico? | **No.** Los roles de hoy (`admin`, `completionist`…) son roles de **acceso** del usuario, no roles de **agente**. Son control de acceso, no agencia |
-| ¿Es suficiente para la rúbrica? | Probablemente da puntos, pero queda en el rango bajo de "Herramientas y orquestación agéntica" (10 pts) y es débil frente a lo que dice el §1: *"no basta con conectar un modelo de lenguaje a una interfaz y llamarlo agente"* y §5.6: *"No se aceptan agentes sin justificación funcional"* |
+| ¿Permite anticipar la calificación? | No. La rúbrica valora la justificación e implementación; no exige autonomía máxima ni permite inferir una nota por la familia arquitectónica |
 
-**Qué distingue un RAG de un RAG agéntico.** En un RAG (incluso uno avanzado), el código decide qué se recupera y cuándo, una vez. En un RAG agéntico, un **bucle de control** (normalmente un LLM) decide *si* recuperar, *qué* buscar, *con qué herramienta*, **observa el resultado, lo evalúa y decide el siguiente paso** (reintentar, descomponer, usar otra herramienta, preguntar, abstenerse), con **estado** que persiste entre pasos y **límites** explícitos. Los cuatro rasgos que se suelen exigir son: decisión dinámica, múltiples herramientas, ciclo observar-decidir-actuar, y estado/memoria.
+**Distinción utilizada en esta propuesta.** Comparamos el RAG de una pasada con un **bucle de control** que decide *si* recuperar, *qué* buscar y el siguiente paso después de observar la evidencia. Para analizarlo usamos decisión dinámica, herramientas, ciclo observar-decidir-actuar y estado entre pasos. Son criterios de esta propuesta, no una definición universal ni cuatro obligaciones adicionales del curso; tampoco implican memoria conversacional persistente.
 
 ### Contra esos cuatro rasgos
 
-| Rasgo | Hoy | Evidencia en el código |
+| Rasgo | Estado de aquella fecha | Evidencia descrita entonces |
 | --- | --- | --- |
 | Decisión dinámica de qué hacer | ⚠️ Reglas fijas | `Router.route` usa regex (`_BOSS`, `_PROGRESS`, `_UPDATE`). Solo reconoce frases que alguien anticipó |
 | Varias herramientas | ⚠️ Pocas y estrechas | `query_game_facts` solo consulta la tabla de jefes; `next_available_levels` solo Zelda; `update_progress` no ejecuta |
 | Ciclo observar-decidir-actuar | ❌ No existe | `Pipeline.ask` es lineal: guards → router → recuperar → filtrar → generar → guards. Ningún paso mira el resultado del anterior para cambiar de plan |
 | Estado entre pasos | ⚠️ Solo registro | `Trace` es un log para auditoría; no alimenta decisiones. El estado persistente (progreso del jugador) existe, pero no hay estado de la tarea (plan, evidencia acumulada, presupuesto) |
 
-Lo que **sí** está bien y se conserva: degradación controlada (herramienta falla → RAG), confirmación humana para acciones críticas, gates por fila en la herramienta SQL, traza auditable, parámetros validados. Son justo los controles que un agente necesita.
+Lo que se conserva: degradación controlada (herramienta falla → RAG), detección de acciones críticas sin ejecutarlas, gates por fila en la herramienta SQL, traza auditable y parámetros validados. La señal de revisión humana no equivale a implementar el ciclo de aprobación propuesto más adelante.
 
 ## 2. En qué estamos fallando (con evidencia medida)
 
-Cada fila es un fallo ya medido en `docs/evaluation/results.md`, y el componente agéntico que lo corregiría. Esta es la **justificación funcional** que pide el §5.6: ningún componente entra sin un fallo que lo motive.
+Las filas recogen fallos y limitaciones descritos en aquella etapa, junto con componentes candidatos para abordarlos. Las mejoras propuestas son hipótesis, no resultados acreditados; su necesidad y efecto deben justificarse conforme al §5.6.
 
 | # | Fallo medido | Causa raíz | Componente que lo ataca | Tipo |
 | --- | --- | --- | --- | --- |
@@ -118,10 +126,10 @@ flowchart TD
 | --- | --- | --- |
 | `search_documents(query, filters)` | Recuperación híbrida; **solo devuelve lo permitido** | Existe (hay que exponerla como herramienta) |
 | `query_game_facts(table, params)` | SQL parametrizado de solo lectura | Existe (ampliar a ítems, enemigos, ubicaciones) |
-| `get_progress()` | Progreso del jugador (nivel, quest) | Existe como `next_available_levels` |
+| `get_progress()` | Progreso del jugador (nivel, quest) | Interfaz propuesta; `next_available_levels` aporta información de progreso, pero no es este contrato |
 | `read_section(page, section)` | Leer una sección completa de una página permitida | Nueva (navegación al estilo búsqueda agéntica) |
 | `list_sections(page)` | Ver el índice de una página permitida | Nueva |
-| `update_progress(...)` | Cambiar el progreso | Existe; **siempre pausa para confirmación humana** |
+| `update_progress(...)` | Cambiar el progreso tras aprobación | Se detecta y no se ejecuta; la pausa y reanudación del flujo son propuestas |
 | `ask_clarification(question)` | Pedir al usuario que precise | Nueva |
 
 ### 4.3 Seguridad del agente (es lo que lo hace una contribución)
@@ -135,7 +143,7 @@ Un bucle agéntico **agrega superficie de ataque** que el RAG de una pasada no t
 5. **Abuso de herramientas:** llamadas excesivas o parámetros fuera de rango; `update_progress` sin confirmación.
 
 **Mitigaciones de diseño:**
-- **El control de acceso vive en la capa de herramientas, no en el prompt.** El agente nunca recibe contenido bloqueado, así que no puede filtrarlo aunque lo intente. Es un modelo de *capacidades*.
+- **El control de acceso vive en la capa de herramientas, no solo en el prompt.** El objetivo es impedir que el agente reciba evidencia restringida; su eficacia depende de la clasificación y proyección del contenido y debe probarse sobre respuesta y contexto final.
 - Presupuestos duros: máximo de pasos, de llamadas por herramienta y de tokens; tiempo límite por paso.
 - Contexto recuperado delimitado como datos (`format_context` ya lo hace) y clasificador de inyección en la entrada y sobre los chunks.
 - `update_progress` como pausa de *human-in-the-loop* en el grafo (no es una instrucción del prompt, es un nodo que detiene la ejecución).
@@ -143,11 +151,11 @@ Un bucle agéntico **agrega superficie de ataque** que el RAG de una pasada no t
 
 Medirlo es lo que convierte esto en aporte: ver sección 6.
 
-## 5. Cómo cumple con el curso
+## 5. Relación de la propuesta con el curso
 
-| Requisito | Cómo lo cumple la arquitectura |
+| Requisito | Contribución prevista, no acreditación de implementación |
 | --- | --- |
-| §5.6 (al menos una opción) | Cubre las **tres**: herramienta externa (SQL), flujo de decisión (router adaptativo) y agente acotado (investigador ReAct), con justificación por fallo medido |
+| §5.6 (al menos una opción) | SQL y enrutamiento ya aportan opciones suficientes si se justifican; el investigador ReAct sería una ampliación opcional |
 | §3 "flujo con estado, reglas y límites" | Estado compartido explícito (grafo), reglas (gates, confirmación), límites (presupuestos) |
 | §6 diagrama de flujo de usuario | Sigue el orden pedido: guardrails de entrada → router → recuperación/herramienta/agente → validación de permisos → evidencia → generación → guardrails de salida → trazabilidad. El diagrama de la sección 4 se exporta casi directo del grafo |
 | §8 casos de herramientas | Ejecución nominal, selección errónea, parámetros fuera de rango, confirmación humana, degradación ante indisponibilidad: ya hay tests; se amplían a las nuevas herramientas |
@@ -161,7 +169,7 @@ Se actualiza el plan de ablaciones con una **escalera de autonomía**: cada nive
 
 | Nivel | Configuración | Qué se mide |
 | --- | --- | --- |
-| L0 | Actual: RAG híbrido, extractivo | Línea base |
+| L0 | Referencia de aquella etapa: RAG híbrido, extractivo | Línea base |
 | L1 | + Haiku (una pasada) | Efecto de generar |
 | L2 | + router LLM + reescritura LLM | F6, F8 |
 | L3 | + evaluador de evidencia con reintento (CRAG) | F1, F5 |
@@ -190,7 +198,7 @@ Se actualiza el plan de ablaciones con una **escalera de autonomía**: cada nive
 | Claude Agent SDK / tool use nativo a mano | Control total, sin framework | Hay que escribir el bucle, el estado y las pausas |
 | Máquina de estados propia | Cero dependencias; muy didáctica para el curso | Más código que mantener |
 
-Recomendación: **LangGraph para el grafo + tool use nativo de Claude Haiku en los nodos que deciden.** Las herramientas se definen una vez con esquemas Pydantic y se pueden **exponer también por MCP** casi sin costo extra.
+Recomendación original: **LangGraph para el grafo + tool use nativo de Claude Haiku en los nodos que deciden.** La implementación posterior adoptó LangGraph con nodos acotados, sin incorporar el investigador de tool use propuesto. Exponer herramientas por MCP sería otra integración, todavía no implementada.
 
 ### 7.2 Fases (cada una deja el sistema funcionando y se evalúa contra la anterior)
 

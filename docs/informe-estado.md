@@ -1,5 +1,7 @@
 # Informe de estado y propuesta de evolución
 
+> Documento histórico del 7 de noviembre de 2026. Conservamos sus observaciones y propuestas como antecedentes; no describe la implementación vigente. Para el estado actual consultar [arquitectura](architecture/overview.md), [hoja de ruta](roadmap.md) e [informe final](course/informe-final.md). Las referencias antiguas a Streamlit, componentes pendientes o responsabilidades no acreditan el estado ni la distribución actual del trabajo.
+
 Fecha: 2026-11-07 · Rama `main` · Basado en el código, `docs/` y `eval/` del repositorio.
 
 ## 1. Resumen ejecutivo

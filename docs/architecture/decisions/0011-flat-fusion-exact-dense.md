@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-06). Modifica cómo se fusionan las listas del [ADR-0010](0010-query-expansion.md); el resto de ese ADR se mantiene.
 
+> **Nota de vigencia (2026-11-16).** Conservamos la fusión plana y el ordenamiento semántico exacto. Los tamaños, resultados y latencias siguientes son históricos; los alias del [ADR-0012](0012-location-aliases-phrase-tokens.md) modificaron después la invariancia total frente a `?`. El índice actual también invalida cambios de revisión y metadatos, además del texto, y la profundidad de rankings de RRF se mantiene estable al variar el número de candidatos solicitado.
+
 ## Contexto
 
 - **Al probar la interfaz,** "How do i attack" (sin "?") dejaba Controls en el **rank 8**. Con "?", quedaba en el **rank 1**.

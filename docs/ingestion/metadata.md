@@ -1,40 +1,30 @@
-# Metadatos del chunk
+# Metadatos del fragmento
 
-Implementación: [src/gamerag/ingest/models.py](../../src/gamerag/ingest/models.py) y [location.py](../../src/gamerag/ingest/location.py).
+El modelo ejecutable se encuentra en [ingest/models.py](../../src/gamerag/ingest/models.py). Preserva los cinco campos obligatorios del curso y añade trazabilidad y acceso.
 
-## Esquema
+| Campo | Uso |
+| --- | --- |
+| `text` | Texto del fragmento o de su proyección autorizada |
+| `source` | Título de página, con origen cuando corresponde |
+| `page` | Ordinal de la sección donde comienza; no página impresa |
+| `chunk_id` | Identificador reproducible dentro de juego, fuente y configuración de ingesta |
+| `version` | `revid` documental |
+| `url`, `section`, `sections` | Enlace y ruta de encabezados |
+| `hash` | SHA256 del texto del fragmento |
+| `chunker`, `n_words`, `lang` | Segmentación, tamaño e idioma |
+| `game`, `origin` | Aislamiento y procedencia |
+| `location` | Quest, nivel, acto, etapa y restricción explícita |
+| `kind`, `derived_from` | Fuente o nota experimental y dependencias |
+| `is_excerpt`, `source_hash` | Proyección autorizada y hash del original |
 
-| Campo | Ejemplo | Para qué |
-| --- | --- | --- |
-| `chunk_id` | `zelda1:underworld-quest-1-dungeon-4:001` | Identificador estable: `juego:página:n` (mínimo del curso) |
-| `text` | `[Boss]\nThe boss is a two headed Gleeok...` | Contenido (mínimo del curso) |
-| `source` | `The Legend of Zelda/Underworld/Quest 1/Dungeon 4` | Página de origen (mínimo del curso) |
-| `page` | `3` | Índice de la sección donde empieza (mínimo del curso; en la wiki no hay páginas físicas) |
-| `version` | `revid:1125348` | Revisión exacta de la página (mínimo del curso) |
-| `url` | `https://strategywiki.org/wiki/...` | Enlace para verificar la cita |
-| `section` / `sections` | `Objectives > Dungeon Walkthrough` | Sección donde empieza / todas las que abarca |
-| `hash` | `sha256:6c15...` | Detecta cambios de contenido entre ingestas |
-| `chunker` | `fixed-w225-o30` | Estrategia y parámetros (comparabilidad entre ingestas) |
-| `n_words` | `225` | Tamaño |
-| `lang` | `en` | Idioma del texto |
-| `game` | `zelda1` | Gate G1 |
-| `location` | `{"quest": "first", "level": 4, "act": null, "stage": null}` | Gates G2 y G2b ([access-control.md](../architecture/access-control.md)) |
+`location` se deriva de títulos y encabezados según configuración. La ausencia de una ubicación no demuestra que el texto carezca de spoilers. Las fuentes adicionales sin clasificación se marcan como restringidas salvo una excepción general explícita en su configuración; la política de contenido puede proyectar secciones, filas y celdas de páginas agregadas.
 
-`location` con todos los campos en `null` significa **contenido general**, visible sin restricción de ubicación: controles, objetos, enemigos.
+La quest se reconoce tanto en títulos Overworld/Quest como en encabezados `1st/2nd`, `First/Second` o `Quest 2`, y se hereda por las subsecciones. La comprobación de contenido repite esa restricción como defensa frente a artefactos preparados con reglas anteriores.
 
-## Derivación de la ubicación
+## Identidad, revisión y evidencia
 
-Se usan las expresiones regulares de la config del juego ([ADR-0007](../architecture/decisions/0007-per-game-config.md)):
+La quest es una variante del juego; `version` es la revisión documental. Una cita se identifica por el triple `source/page/chunk_id` y se verifica contra el contexto final. Los IDs se reproducen con las mismas entradas y estrategia, pero pueden cambiar al alterar la segmentación o el orden del contenido; no son una identidad permanente entre todas las revisiones. Cambios de revisión, URL, ubicación o restricciones invalidan la representación persistida incluso si el texto no cambia.
 
-| Juego | Fuente | Expresión | Resultado |
-| --- | --- | --- | --- |
-| Zelda | Título de la página | `Underworld/Quest (?P<quest>\d)/Dungeon (?P<level>\d)` | `quest` "1" → `first` (según el orden de `quests` en la config), `level` 4 |
-| Ninja Gaiden | Título de la página | `Act (?P<act>\d)` | `act` 2 |
-| Ninja Gaiden | Encabezados de la sección | `(?:Stage\|Act) (?P<stage>\d-\d)` | `stage` "2-3" (gana el encabezado más profundo que coincida) |
+Al proyectar un fragmento se mantienen identidad, URL y revisión. `source_hash` conserva el hash original y `hash` se recalcula sobre el extracto; ambos usan el prefijo `sha256:` en los chunks generados. La evidencia HTTP incorpora además `evidence_hash`, el digest hexadecimal sin prefijo del texto exacto. Las proyecciones se realizan después de comprobar juego y cuarentena del original. Véanse [acceso](../architecture/access-control.md) y [contrato de evidencia](../contracts/pipeline.md).
 
-## Pendiente (para los gates G2b-G4, a cargo de otro integrante)
-
-- `entities`: entidades mencionadas (gate G3).
-- `hint_tier`: nivel de detalle (gate G4).
-- `premise`: el contenido proviene del manual o de la sección "Story" (ignora G3).
-- `segment` (Ninja Gaiden): `intro`, `stage`, `boss` u `outro` (gate G2b).
+No se añaden campos ficticios `entities`, `hint_tier` o `segment` para representar capacidades todavía no implementadas. Las reglas curadas actuales residen en la configuración del juego.

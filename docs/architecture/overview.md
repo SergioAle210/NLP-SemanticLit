@@ -1,133 +1,87 @@
-# Arquitectura
+# Arquitectura de GameRAG
 
-Cubre el §6 de [course/instructions.md](../course/instructions.md). El diagrama formal está pendiente (ver la [hoja de ruta](../roadmap.md)).
+GameRAG combina recuperación documental, herramientas deterministas y generación estructurada. El backend comparte un pipeline entre API, pruebas y evaluadores. La interfaz Gradio consume HTTP; las evaluaciones directas del pipeline excluyen el transporte y el renderizado de la interfaz.
 
-## Componentes
-
-| Componente | Paquete / archivo | Responsabilidad | Estado |
-| --- | --- | --- | --- |
-| Configuración global | `src/gamerag/settings.py` | Variables de entorno y `.env`, rutas | ✅ |
-| Configuración por juego | `config/games/*.yaml`, `src/gamerag/games.py` | Modelo de progreso, ubicación, herramientas ([ADR-0007](decisions/0007-per-game-config.md)) | ✅ |
-| Contrato de salida | `src/gamerag/schemas.py` | Respuesta validada con Pydantic (§11) | ✅ |
-| Ingesta | `src/gamerag/ingest/` | Wikitext → chunks con metadatos ([ingestion/](../ingestion/)) | ✅ |
-| Recuperación | `src/gamerag/retrieval/` | BM25, semántica (Chroma) e híbrida RRF con multi-consulta ([retrieval/](../retrieval/README.md)); reranker probado y descartado | ✅ |
-| Evaluación | `src/gamerag/evaluation/` | Banco de pruebas, métricas, ejecución ([evaluation/](../evaluation/)) | ✅ Recuperación |
-| Generación | `src/gamerag/generation/` | Contrato `Generator`; extractivo y fallback ([contracts/generation.md](../contracts/generation.md)) | 🟡 Falta Haiku |
-| Herramientas | `src/gamerag/tools/` | Router por reglas; `query_game_facts`, `next_available_levels`, `update_progress` ([tools/](../tools/README.md)) | ✅ |
-| Guardrails | `src/gamerag/guardrails/` | Contratos `InputGuard`, `AccessFilter`, `OutputGuard`; G1 y citas ([contracts/access-and-guardrails.md](../contracts/access-and-guardrails.md)) | 🟡 Faltan G2-G4, inyección, PII |
-| Progreso | `src/gamerag/progress/` | `Profile` con progreso `level_set` / `linear_stage`; perfiles sembrados | ✅ |
-| Pipeline | `src/gamerag/pipeline.py` | Une los contratos y produce la `Trace` auditable ([contracts/pipeline.md](../contracts/pipeline.md)) | ✅ |
-| API | `src/gamerag/api.py`, `src/gamerag/store.py` | FastAPI: backend único que usan la interfaz y el benchmark; SQLite con perfiles y auditoría ([api/](../api/README.md)) | ✅ |
-| UI | `src/gamerag/ui/` | Streamlit: solo presentación, consume la API ([ui/](../ui/README.md)) | ✅ Mínima |
-| Despliegue | `Dockerfile`, `compose.yaml` | `api` + `ui`, volúmenes ([deployment/](../deployment/README.md)) | ✅ |
-
-## Stack
-
-| Capa | Elección | Motivo |
-| --- | --- | --- |
-| Entorno | uv (`pyproject.toml` + `uv.lock`) | Instalación reproducible; Docker con caché |
-| API | FastAPI | Pydantic nativo, que es el contrato de salida |
-| UI | Streamlit (interfaz mínima) | Todo en Python; suficiente para la demo. El diseño definitivo puede usar otra tecnología contra la misma API |
-| Parser de wikitext | mwparserfromhell | Plantillas anidadas ([ADR-0005](decisions/0005-wikitext-cleaning.md)) |
-| Índice léxico | rank-bm25 | Línea base; suficiente para unos 1k chunks |
-| Índice vectorial | ChromaDB embebido | Sin servidor; filtros `where` para los gates |
-| Embeddings | `multilingual-e5-small` | Mejor Recall@5 en la híbrida con chunking estructural ([ADR-0009](decisions/0009-phase3-retrieval-config.md)) |
-| Reranker | Descartado | Recall@5 0.89 → 0.78 y unas 40 veces más lento ([ADR-0010](decisions/0010-query-expansion.md)) |
-| LLM | Claude Haiku | Generación; bajo costo. El router es por reglas ([ADR-0013](decisions/0013-intent-router-and-tools.md)) |
-| Estado | SQLite en el volumen `state/` | Perfiles, progreso y auditoría ([ADR-0004](decisions/0004-sqlite-and-demo-profiles.md)) |
-| Contenedores | docker compose: `api` + `ui` | torch solo CPU; volúmenes para modelos, índice, chunks y estado ([deployment/](../deployment/README.md)) |
-
-**Recursos objetivo del backend:** 2 GB de RAM o menos. Lo pesado son torch y los modelos, no el corpus ni SQLite. El reranker se descartó, así que no ocupa memoria.
-
-## Fases del RAG y estado actual
-
-Un RAG tiene dos momentos. En la **indexación** (offline, una vez) se preparan los documentos. En la **consulta** (cada pregunta) se recuperan los fragmentos relevantes (*Retrieval*), se arma un prompt con ellos (*Augmentation*) y el LLM redacta la respuesta citándolos (*Generation*).
+## Flujo de usuario
 
 ```mermaid
-flowchart LR
-    subgraph IDX["A. Indexación (offline)"]
-        direction TB
-        S["Snapshot de la wiki<br/>(CC BY-SA, revid)"] --> CL["Limpieza<br/>clean.py"]
-        CL --> SE["Secciones<br/>sections.py"]
-        SE --> CH["Chunking<br/>chunking.py"]
-        CH --> MD["Metadatos<br/>location.py"]
-        MD --> J[("chunks.jsonl")]
-        J --> IL["Índice léxico<br/>BM25"]
-        J --> IV[("Índice vectorial<br/>Chroma")]
-    end
-
-    subgraph QRY["B. Consulta (cada pregunta)"]
-        direction TB
-        Q["Pregunta"] --> R["R · Retrieval<br/>top-k fragmentos"]
-        R --> A["A · Augmentation<br/>prompt = instrucciones +<br/>fragmentos + pregunta"]
-        A --> G["G · Generation<br/>LLM con citas<br/>o abstención"]
-        G --> ANS["Respuesta validada<br/>(Answer)"]
-    end
-
-    IL --> R
-    IV -.-> R
-    EV["Evaluación de recuperación<br/>Recall@k · MRR"] -.->|mide| R
-
-    classDef done fill:#d4edda,stroke:#28a745,color:#155724
-    classDef pending fill:#f8f9fa,stroke:#adb5bd,color:#6c757d,stroke-dasharray: 5 5
-    class S,CL,SE,CH,MD,J,IL,IV,Q,R,EV done
-    class A,G,ANS pending
+flowchart TD
+    U["Usuario · Gradio :7860"] --> API["FastAPI :8000<br/>Pydantic · perfil de demostración"]
+    API --> I["Guardrails de entrada<br/>inyección · PII · límites"]
+    I -->|rechazo| A["Answer validado<br/>evidence + Trace"]
+    I --> R{"Router de intención"}
+    R -->|documentos| Q["BM25 + E5 · expansión · RRF"]
+    R -->|herramienta| T["SQL de lectura o progreso<br/>parámetros · timeout · una llamada"]
+    R -->|acción crítica| H["No ejecutar<br/>needs_human_review"]
+    T -->|falla o timeout| Q
+    T --> TP["Filas autorizadas<br/>Answer determinista"]
+    TP --> O
+    Q --> P["Validación de acceso<br/>juego · progreso · evidencia"]
+    P -->|sin evidencia autorizada| B["Abstención o bloqueo"]
+    P --> C["Contexto autorizado<br/>texto exacto + identidad + hash"]
+    C --> G["Generación extractiva o Haiku"]
+    G --> E{"¿Abstención?"}
+    E -->|no, o perfil base| O["Guardrails de salida<br/>contrato · citas · secretos"]
+    E -->|sí, full| V["Evaluar evidencia"]
+    V -->|reintento acotado| Q2["Reescritura / corpus secundario"]
+    Q2 --> Q
+    V -->|terminar| O
+    H --> O
+    B --> O
+    O --> A
+    A --> S[("SQLite: auditoría redactada")]
+    S -.-> API
 ```
 
-En verde lo implementado y en gris punteado lo pendiente: la *Augmentation* y la *Generation* (paso 3.2, que requiere la API key). Hoy, una pregunta devuelve los fragmentos recuperados (léxica, semántica o híbrida), pero todavía no una respuesta redactada.
+El estado de una consulta contiene pregunta sanitizada, perfil, intención, candidatos, contexto autorizado, decisiones, resultado de herramienta, respuesta y telemetría. En el grafo, el presupuesto de reescrituras evita ciclos abiertos. La herramienta de progreso consulta el perfil y no completa niveles. Un fallo del proveedor puede producir una respuesta extractiva marcada para revisión; esa degradación se registra.
 
-## Flujo de consulta
-
-```text
-UI (juego, perfil, progreso del juego activo, pregunta)
-  -> Guardrails de entrada (esquema, longitud, inyección, PII)
-  -> Router de intención por reglas (herramientas habilitadas según la config del juego)
-       ├─ pregunta del juego    -> multi-consulta -> búsqueda híbrida -> gates (AccessFilter) -> contexto
-       ├─ lista de jefes        -> query_game_facts (SQL de solo lectura; gates por fila)
-       ├─ "what should I do next?" -> next_available_levels (solo Zelda: no lineal)
-       └─ "I just beat level N" -> update_progress (no se ejecuta: needs_human_review)
-       (si la herramienta falla -> búsqueda; sin evidencia suficiente -> abstención del generador)
-  -> Generación (Haiku, contexto cerrado, citas obligatorias)
-  -> Guardrails de salida (Pydantic, citas ⊆ permitidas, entidades bloqueadas, juego correcto)
-  -> Respuesta + traza de auditoría (SQLite)
-```
-
-**Estado de cada paso:**
-- **Implementados:** el router, las herramientas, la multi-consulta, la búsqueda híbrida, el gate G1 (por juego), la validación de citas y del juego, y la traza.
-- **Con implementación por defecto, a cargo de otros integrantes:**
-  - generación con Haiku (hoy, generador extractivo);
-  - detección de inyección y PII en la entrada (hoy, validación de esquema y longitud);
-  - gates G2 a G4 y entidades bloqueadas.
-
-  Los contratos están en [contracts/](../contracts/README.md).
+El diagrama representa el modo predeterminado `on_abstain`; el modo opcional `always` evalúa la suficiencia de la evidencia antes de generar, incluso cuando el generador habría respondido afirmativamente. Las herramientas producen respuestas deterministas y no atraviesan el generador ni el evaluador LLM.
 
 ## Flujo de ingesta
 
-```text
-Snapshot de la wiki (repo) -> limpieza -> secciones -> chunking -> metadatos -> JSONL -> índices
+```mermaid
+flowchart LR
+    F["Wikis por fuente y juego<br/>snapshots + manifest.json"] --> H{"Bootstrap: huella vigente"}
+    F -->|manifiesto inválido| ERR["Diagnóstico de error"]
+    H -->|sí| REUSE["Reutilizar artefactos"]
+    H -->|no| X["Extraer wikitext<br/>URL · revisión · atribución"]
+    X --> L["Limpiar marcado y navegación<br/>conservar tablas y hechos"]
+    L --> S["Secciones jerárquicas"]
+    S --> K["Chunking fijo / estructural<br/>variante experimental por fila"]
+    K --> M["Metadatos<br/>source · page · chunk_id · version<br/>juego · ubicación · restricciones · hash"]
+    M --> J["JSONL primario y multifuente<br/>publicación atómica"]
+    REUSE --> B
+    J --> B["Índice BM25"]
+    J --> E["Embeddings E5"]
+    E --> C[("Chroma persistente<br/>búsqueda exacta en memoria")]
+    REUSE --> E
+    M -.-> V["Validación de contrato<br/>identidad · determinismo · acceso"]
+    V -.-> J
 ```
 
-El detalle está en [ingestion/](../ingestion/).
+Cada `page` es el ordinal de la sección de una página wiki, no una página impresa. La revisión documental corresponde al `revid`; la quest de Zelda es una variante del juego y se conserva en otro campo.
 
-## Línea base y versión mejorada
+## Componentes
 
-| | Línea base (fase 2) | Mejorada (fase 3) |
+| Componente | Implementación | Responsabilidad |
 | --- | --- | --- |
-| Chunking | Fijo: 225 palabras, solapamiento de 30 | Estructural por sección |
-| Recuperación | BM25, top-5 | Híbrida (BM25 + e5, RRF plana) + multi-consulta (ortografía, glosario) + alias de ubicación y tokens de frase. Rerank probado y descartado |
-| Gates | Ninguno, a propósito | G1 implementado; G2 a G4 a cargo de otro integrante ([access-control.md](access-control.md)) |
-| Router y herramientas | No | Sí, router por reglas ([ADR-0013](decisions/0013-intent-router-and-tools.md)) |
-| Recall@5 en Zelda (curso, 18 casos) | 0.78 | 0.94 |
+| Configuración | `settings.py`, `games.py`, `config/games/` | Perfiles de ejecución, fuentes y progreso |
+| Ingesta | `ingest/` | Texto, secciones, chunks y metadatos reproducibles |
+| Recuperación | `retrieval/` | BM25, E5, RRF y expansión de consulta |
+| Acceso y guardrails | `guardrails/` | Autorización de contexto, entrada y salida |
+| Generación | `generation/`, `llm.py` | Contrato, proveedor, caché y presupuestos |
+| Orquestación | `pipeline.py`, `graph.py`, `agents/` | Estado y decisiones acotadas |
+| Herramientas | `tools/` | SQL parametrizado y progreso de solo lectura |
+| Servicio | `api.py`, `store.py` | HTTP, perfiles y auditoría |
+| Interfaz | `ui/puesto.py` | Consulta, evidencia, trazas y scorecard |
+| Evaluación | `evaluation/`, `eval/` | Bancos, métricas y artefactos comparativos |
 
-La línea base no tiene gates para poder **medir** cuánto spoiler y cuánta mezcla entre juegos y quests se produce sin control.
+## Configuración servida
 
-## Herramientas
+`base` emplea búsqueda híbrida y generación extractiva. `full` activa el preset de Haiku, grafo, evaluación de evidencia ante abstención y búsqueda secundaria mixta cuando existe una clave no vacía; la aceptación de esa clave por el proveedor es necesaria para generar remotamente. Las opciones explícitas prevalecen sobre el perfil. Planificación y notas derivadas son experimentos opcionales; no constituyen memoria conversacional.
 
-| Herramienta | Juegos | Justificación | Límites |
-| --- | --- | --- | --- |
-| `search_documents` | Ambos | Texto no estructurado | top-k ≤ 10; gates obligatorios |
-| `query_game_facts` | Zelda (tabla de jefes; NG no tiene tabla equivalente) | Listas completas que el RAG devuelve partidas | Solo lectura, consultas predefinidas parametrizadas, máximo 50 filas, gates por fila |
-| `next_available_levels` | Solo Zelda | Depende del perfil, no de la wiki | Solo números de nivel, no cómo resolverlos; la config lo impide en NG |
-| `update_progress` | Ambos | Cambiar el progreso cambia qué contenido se ve: es una acción crítica | No se ejecuta: `needs_human_review` |
+La búsqueda híbrida fusiona posiciones con RRF, no suma scores léxicos y coseno. La profundidad por ranking se mantiene estable al cambiar el número de candidatos pedido por el pipeline. Los [ADRs](decisions/README.md) conservan la comparación de alternativas y los [resultados](../evaluation/results.md) identifican los bancos utilizados.
 
-Detalle en [tools/README.md](../tools/README.md).
+## Fronteras de confianza
+
+El texto del usuario, las fuentes y la respuesta generada son entradas no confiables. Los filtros se aplican a toda evidencia, incluida la recuperación secundaria y los resultados de herramientas. La API devuelve el contexto final exacto mediante `evidence`; ejecutar otra búsqueda para mostrar citas podría producir documentos distintos. Los perfiles de demostración no acreditan identidad, por lo que los roles locales no sustituyen autenticación para un despliegue público.

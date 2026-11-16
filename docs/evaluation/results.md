@@ -1,5 +1,7 @@
 # Resultados
 
+> Registro histórico de experimentos, con configuración y fecha por sección. Conservamos cifras y diagnósticos; los nombres históricos `Recall@k` corresponden al hit rate definido en [métricas](metrics.md). Las mediciones persistidas posteriores están en [scorecard-base.md](scorecard-base.md), y la [auditoría](audit-current.md) las distingue de las comprobaciones del código vigente. Los pendientes y referencias a «configuración servida» de cada sección describen su fecha, no el estado actual.
+
 Registro de cada corrida relevante. El detalle completo de cada una, con los candidatos por caso y su score y relevancia, está en `eval/results/`.
 
 ## Recuperación: línea base (2026-11-05)
@@ -37,7 +39,7 @@ Se siguió el orden de diagnóstico del curso (tema 08): primero confirmar que e
 | `paraphrase_01` "sail across the sea" | > 20 | **Paráfrasis pura:** ninguna palabra en común con "cross lakes and oceans" | Búsqueda semántica (fase 3) |
 | `direct_01` "Which button swings the sword?" (acierto en rank 4) | 4 | **Sin stemming:** "swings" ≠ "swing" | Stemming o búsqueda semántica |
 
-**Mezcla de versiones (casos `version_*`):** aciertan en el top-5 (Recall@5 = 1.0), pero con MRR = 0.23. A la pregunta *"In the first quest, which dungeon has the Ladder?"*, el **top-1 es una mazmorra de la Second Quest** (`underworld-quest-2-dungeon-7`), y el ranking de las dos preguntas (first y second) es casi idéntico. Es la evidencia de que hace falta el filtro de quest (gate G2, [access-control.md](../architecture/access-control.md)).
+**Mezcla de quests (etiqueta histórica `version_*`):** aciertan en el top-5 (Recall@5 = 1.0), pero con MRR = 0.23. A la pregunta *"In the first quest, which dungeon has the Ladder?"*, el **top-1 es una mazmorra de la Second Quest** (`underworld-quest-2-dungeon-7`), y el ranking de las dos preguntas (first y second) es casi idéntico. Esta observación motivó el filtro de quest (gate G2, [access-control.md](../architecture/access-control.md)); no constituye una prueba de revisiones documentales.
 
 ### Hipótesis para la fase 3
 
@@ -197,7 +199,7 @@ El Recall@5 de 0.89 se midió con la híbrida recuperando **20 candidatos por re
 
 Hay dos tests de regresión:
 - el orden de los primeros resultados no depende del `k` pedido;
-- el Recall@5 del pipeline servido debe ser ≥ 0.88 (requiere el extra `semantic` y la ingesta estructural; en el CI se salta).
+- el hit rate@5 del pipeline servido debe ser ≥ 0.88 (requiere el extra `semantic` y la ingesta estructural; puede omitirse en entornos sin esos recursos, aunque se ejecutó en la verificación local posterior).
 
 ## Robustez: reranker y chunking por fila (2026-11-06)
 
@@ -230,7 +232,7 @@ En robustez, la configuración actual acierta 3 de 6. Ninguna variante resuelve 
 
 ## Transformación de consultas: ortografía + glosario + multi-consulta (2026-11-06)
 
-**Conjunto independiente del equipo:** se agregaron **8 preguntas con respuesta y 1 sin respuesta** escritas por un integrante como jugador, sin ver el corpus ni el sistema (`author: team`), más 4 propias (`author: assistant`). El evaluador reporta `course` (18), `team` (8) y `overall` (36).
+**Conjunto etiquetado como aportación del equipo:** se agregaron **8 preguntas con respuesta y 1 sin respuesta** (`author: team`), más 4 propias (`author: assistant`). El registro original describió las del equipo como escritas sin consultar corpus ni sistema; no contamos con una auditoría de esa procedencia y dejaron de ser independientes después de emplearlas en ajustes. El evaluador de aquella etapa reportaba `course` (18), `team` (8) y `overall` (36).
 
 **Antes** (híbrida e5 estructural): curso 0.89, **equipo 0.50**, total 0.72. Las preguntas del equipo rinden mucho peor que las escritas conociendo el corpus, lo que confirma el sesgo del banco original.
 
@@ -412,4 +414,4 @@ Se revisó por qué fallaba `team_08` (rank 11). El **resultado #1** es la secci
 | Similitud coseno del top-1 (e5) | 0.809 a 0.832 | Desde 0.821 (`paraphrase_01`) |
 | Máximo del cross-encoder en el top-5 | −7.5 a −9.9 | Desde −11.2 (`paraphrase_02`) |
 
-**Las distribuciones se superponen:** cualquier umbral que rechace las 3 preguntas sin respuesta también rechaza varias que sí la tienen ("stuck" se parece al corpus más que "sail across the sea"). **La abstención no se puede decidir con los puntajes de recuperación.** Debe decidirla el generador, juzgando si el contexto responde la pregunta (§5.5). Queda como requisito del `HaikuGenerator` ([contracts/generation.md](../contracts/generation.md)).
+**Las distribuciones se superponen en esta medición:** los umbrales probados que rechazan las 3 preguntas sin respuesta también rechazan varias que sí la tienen ("stuck" se parece al corpus más que "sail across the sea"). Esos puntajes no resultaron una señal suficiente para decidir abstención en el banco. La suficiencia documental sigue siendo un requisito de generación (§5.5), con los resultados posteriores descritos en [audit-current.md](audit-current.md).

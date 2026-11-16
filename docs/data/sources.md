@@ -1,30 +1,28 @@
 # Fuentes y gobernanza
 
-Cubre el §5.2 de [course/instructions.md](../course/instructions.md). Decisión: [ADR-0002](../architecture/decisions/0002-strategywiki-corpus.md).
+El corpus vigente contiene snapshots de siete juegos y varias wikis. La configuración ejecutable se encuentra en [config/sources.yaml](../../config/sources.yaml) y las asociaciones de cada juego en [config/games/](../../config/games/). El [inventario de snapshots](../../data/wiki_snapshot/README.md) conserva cantidades y atribución.
 
-| Fuente | Origen | Licencia / permiso | Formato | Versión | ¿En el repo? |
-| --- | --- | --- | --- | --- | --- |
-| StrategyWiki: *The Legend of Zelda* (41 páginas) | strategywiki.org, API de MediaWiki | CC BY-SA 4.0 (verificado vía `siteinfo`) | Wikitext | `revid` por página; snapshot del 2026-11-04 | ✅ `data/wiki_snapshot/strategywiki/zelda1/` |
-| StrategyWiki: *Ninja Gaiden (NES)* (11 páginas) | Ídem | CC BY-SA 4.0 | Wikitext | Ídem | ✅ `data/wiki_snapshot/strategywiki/ninja_gaiden_nes/` |
-| Manual *The Legend of Zelda* | nintendo.co.jp, `CLV-P-NAANE.pdf` | © Nintendo; distribución pública gratuita; uso educativo sin lucro, sin redistribuir | PDF | NES Classic | ❌ **Descartado** (2026-11-06): la wiki cubre el contenido |
-| Manual *Ninja Gaiden* | nintendo.co.jp, `CLV-P-NACBE.pdf` | Ídem | PDF | NES Classic | ❌ **Descartado** |
-| Datos curados (hechos, fichas, prerrequisitos, entidades) | El equipo, a partir de la wiki | Derivado, por lo tanto CC BY-SA 4.0 | JSON / YAML | `v1` | No se creó: la tabla de jefes se extrae de la wiki al cargar ([tools/](../tools/README.md)) |
+| Fuente | Formato | Atribución | Licencia declarada |
+| --- | --- | --- | --- |
+| StrategyWiki | Wikitext / JSON | Colaboradores de la página | CC BY-SA 4.0 |
+| Wikipedia | Wikitext / JSON | Colaboradores del artículo | CC BY-SA 4.0 |
+| Grand Theft Wiki | Wikitext / JSON | Colaboradores del sitio | CC BY-SA 3.0 |
+| Fandom: Assassin's Creed, Doom, GTA, Ninja Gaiden y Red Dead | Wikitext / JSON | Colaboradores de cada wiki | CC BY-SA; versión no siempre indicada por API |
+| Zeldapedia | Wikitext / JSON | Colaboradores de la wiki | GFDL |
+| Zelda Wiki | Wikitext / JSON | Colaboradores de la wiki | GFDL 1.3 |
 
-> **Actualización (2026-11):** el corpus ahora cubre 7 juegos y varias wikis por juego; la tabla de fuentes y licencias vigente
-> está en [data/wiki_snapshot/README.md](../../data/wiki_snapshot/README.md) y el tratamiento de información sensible, la
-> frecuencia de actualización (decisión de diseño) y la gobernanza, en [sensitive-data.md](sensitive-data.md).
+La tabla reproduce la información registrada en los snapshots y su configuración. No implica que todos los textos tengan una licencia común ni reemplaza la revisión de condiciones antes de redistribuir derivados. Las fuentes GFDL se mantienen separadas y atribuidas; la licencia MIT corresponde al código.
 
-## Política
+## Adquisición, versión y actualización
 
-- La wiki y sus derivados se versionan **con atribución** ([data/wiki_snapshot/README.md](../../data/wiki_snapshot/README.md)).
-- **No se versionan:** manuales, texto OCR, imágenes, logos (`data/raw/` está en `.gitignore`).
-- **Tampoco se versionan los artefactos regenerables** (`data/processed/`, `data/index/`, `state/*.sqlite3`).
-- No se usan copias de manuales de sitios de terceros (gamesdatabase.org, s.mprd.se).
-- Información sensible: el corpus no contiene datos personales. Los logs de auditoría sanitizan PII y nunca registran la API key ([security/controls.md](../security/controls.md)).
+`scripts/download_wiki.py` obtiene páginas de StrategyWiki y `scripts/fetch_corpus.py` prepara las fuentes configuradas. Cada carpeta conserva `pages/*.wiki` y `manifest.json`, con título, URL, revisión y tamaño. La fecha de descarga corresponde al manifiesto, no a una fecha inventada de publicación.
 
-## Snapshot
+La actualización es manual. Una descarga nueva puede cambiar revisiones, por lo que el snapshot versionado identifica la referencia experimental. Después de cambiar contenido o metadatos se reconstruyen chunks e índices y se repite la evaluación afectada. El bootstrap calcula huellas y evita reutilizar artefactos obsoletos.
 
-- **Descarga:** [scripts/download_wiki.py](../../scripts/download_wiki.py) (API de MediaWiki, pausa de 0.5 s entre requests, reintentos ante fallas de red).
-- **Archivos:** cada página se guarda en `pages/*.wiki` con saltos de línea LF; `manifest.json` registra título, URL, `revid` y tamaño.
-- **Saltos de línea:** `.gitattributes` fuerza LF para que el `hash` de cada chunk sea idéntico en Windows, macOS y Docker.
-- **Reproducibilidad:** volver a descargar puede traer revisiones nuevas. El snapshot versionado es la referencia de la evaluación.
+La frecuencia operativa se define por hitos para todas las fuentes de la tabla: conservamos congeladas las revisiones durante una campaña de evaluación y revisamos la necesidad de una nueva descarga antes de la siguiente campaña o cuando se detecta una corrección relevante. No ejecutamos sondeos periódicos ni actualizaciones automáticas. Esta política especifica cuándo considerar una revisión; no afirma que se haya realizado una descarga nueva en cada ejecución local.
+
+## Acceso y tratamiento
+
+Las páginas públicas pueden contener información que el jugador no desea ver. Los metadatos de juego y progreso, la restricción de fuentes sin clasificación y la política de contenido determinan la evidencia autorizada. Las fuentes de toda una franquicia no se incorporan por defecto a la búsqueda secundaria.
+
+Los manuales comerciales no forman parte del corpus distribuido ni del pipeline de ingesta actual; algunas configuraciones conservan su URL como referencia histórica. No se versionan credenciales, perfiles locales, bases de auditoría, cachés ni índices regenerables. Las consultas pueden contener datos personales, aunque el corpus sea público; su tratamiento se describe en [datos sensibles](sensitive-data.md).

@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-05)
 
+> **Nota de vigencia (2026-11-16).** SQLite persistente conserva perfiles y auditoría; la tabla de hechos se construye por separado en SQLite en memoria y se regenera desde el corpus. La semilla actual incluye progreso para siete juegos, aunque la tabla histórica siguiente resume los dos iniciales. `admin` puede consultar auditoría, restablecer perfiles y aplicar retención; no hay endpoint de ingesta ni edición de progreso. El tamaño del archivo crece con las trazas. Véanse [API](../../api/README.md) y [datos sensibles](../../data/sensitive-data.md).
+
 ## Contexto
 
 - El log de auditoría es obligatorio (§5.8) y debe sobrevivir a reinicios del contenedor.

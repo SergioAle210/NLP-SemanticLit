@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-05)
 
+> **Nota de vigencia (2026-11-16).** Híbrida E5 y segmentación estructural siguen siendo las opciones predeterminadas. Los números siguientes pertenecen a la comparación inicial de 18 preguntas respondibles de Zelda; no describen una corrida del servicio actual de siete juegos. La fusión, la expansión y los alias evolucionaron en los ADRs 0010–0012. Las [mediciones actuales](../../evaluation/audit-current.md) se mantienen separadas.
+
 ## Contexto
 
 Se compararon 10 configuraciones de recuperación sobre los 18 casos con respuesta de Zelda: tres recuperadores (BM25, semántica y híbrida RRF), dos modelos de embeddings (bge-small-en, multilingual-e5-small) y dos chunkings (fijo y estructural). Los resultados y el diagnóstico están en [evaluation/results.md](../../evaluation/results.md).

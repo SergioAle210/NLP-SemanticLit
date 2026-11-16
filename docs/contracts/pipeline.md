@@ -1,65 +1,50 @@
-# Pipeline de consulta
+# Pipeline, evidencia y traza
 
-Implementación: [src/gamerag/pipeline.py](../../src/gamerag/pipeline.py). Es el punto único que usarán la API y la evaluación del sistema completo.
+La API y los evaluadores reutilizan `build_pipeline(settings)`. `ask(question, game, profile)` devuelve respuesta y traza; `search` realiza recuperación autorizada sin generación. Una búsqueda independiente no representa necesariamente el contexto final de una consulta que activó reescritura o fuentes secundarias.
 
-```python
-pipe = build_pipeline(get_settings())        # híbrida e5 + estructural, extractivo, guards por defecto
-answer, trace = pipe.ask("How can I sail across the sea?", "zelda1", profiles["novato"])
-context, trace = pipe.search("How can I sail across the sea?", "zelda1", profiles["novato"])  # etapas 1-3, sin generar
-```
+## Etapas y decisiones
 
-`search` ejecuta solo los guards de entrada, la recuperación y los filtros, y devuelve el contexto que recibiría el generador sin generar (útil para depurar sin gastar tokens; `trace.outcome = "retrieved"`). Lo expone la API en `POST /search` ([api/](../api/README.md)).
-
-## Etapas
-
-| # | Etapa | Si falla o bloquea | `trace.outcome` |
-| ---: | --- | --- | --- |
-| 1 | `InputGuard`s | Abstención sin buscar | `rejected_input` |
-| 1b | **Router** ([tools/](../tools/README.md)): `documents` o una herramienta. Las filas de la herramienta pasan por los `AccessFilter` y la respuesta, por los `OutputGuard`s | Parámetros inválidos: abstención con `tool_used`. Si la herramienta falla, sigue por el RAG | `answered` o `abstained` |
-| 2 | Recuperación: `candidates` (50) del recuperador del juego | — | — |
-| 3 | `AccessFilter`s sobre cada candidato → los primeros `top_k` (5) permitidos | Si todo lo bloquea un gate de spoilers: `blocked_by_spoiler` | `blocked_by_access` |
-| 4 | `Generator` | (El `FallbackGenerator` degrada al extractivo) | — |
-| 5 | `OutputGuard`s | Abstención con `needs_human_review` | `rejected_output` |
-| — | Fin | — | `answered` o `abstained` |
-
-**¿Por qué 50 candidatos y no 5?** Los filtros pueden descartar varios. Si se recuperaran solo 5 y se bloquearan 3, al generador le llegarían 2 aunque hubiera más evidencia permitida.
-
-## Traza (`Trace`)
-
-Es la cadena auditable de la diapositiva 16 del curso: pregunta → filtros → candidatos → scores → contexto → generador → respuesta.
-
-| Campo | Contenido |
+| Etapa | Salida o manejo de error |
 | --- | --- |
-| `trace_id` | Identificador; también va en `Answer.trace_id` |
-| `question`, `game`, `user_id`, `role` | Quién preguntó qué |
-| `retriever`, `generator` | Configuración usada (p. ej. `hybrid+qx/structural`, `extractive`) |
-| `query_variants` | Formulaciones usadas en la búsqueda: `[0]` es la pregunta original y `[1]`, la corregida y expandida ([retrieval/query-expansion.md](../retrieval/query-expansion.md)). En el log de auditoría se redactan igual que la pregunta |
-| `input_guards`, `output_guards` | `{nombre: "ok" o motivo}` |
-| `candidates` | Rank, `chunk_id`, score y `blocked_by` de cada candidato |
-| `context` | `chunk_id`s entregados al generador (o citados por la herramienta) |
-| `route`, `route_reason`, `tool` | Decisión del router y, si hubo herramienta: `name`, `params`, `status` (`ok`, `invalid_params` o `degraded`), filas y filas bloqueadas |
-| `outcome` | Resultado final (tabla de arriba) |
-| `latency_ms` | Por etapa: `input`, `router` o `tool`, `retrieval`, `access`, `generation`, `output` |
+| Entrada | Validación, redacción de PII y rechazo de instrucciones adversarias |
+| Router | Ruta documental, herramienta permitida o acción que requiere revisión |
+| Herramienta | Parámetros y filas validadas; excepción o timeout degrada al RAG |
+| Recuperación | Rankings y variantes de consulta; candidatos con score |
+| Acceso | Evidencia permitida, proyectada o bloqueada según perfil |
+| Generación | Respuesta estructurada; degradación extractiva ante fallo |
+| Evidencia en grafo | Revisión y recuperación adicional bajo límite de reescrituras |
+| Salida | Contrato, identidad de citas y controles de filtración |
+| Auditoría | Respuesta final, evidencia, decisiones y operación sanitizadas |
 
-La traza se guardará en SQLite como log de auditoría, con la PII sanitizada ([ADR-0004](../architecture/decisions/0004-sqlite-and-demo-profiles.md)).
+Por defecto se solicitan hasta 50 candidatos para seleccionar hasta 5 fragmentos autorizados; ambos valores son configurables. La profundidad interna de RRF es estable y puede limitar la cantidad efectiva de candidatos. La unión del planificador opcional y la búsqueda secundaria en modo `append` pueden ampliar el contexto; el preset `full` usa `mixed`, que lo reemplaza por hasta `secondary_k` fragmentos autorizados. El código distingue `answered`, `abstained`, `blocked_by_access`, `rejected_input`, `rejected_output` y `retrieved`.
 
-## Configuración
+## Evidencia exacta de la respuesta
 
-`settings.py` / `.env`:
+`AskResponse` contiene `answer`, `trace` cuando se solicita y `evidence`. Cada elemento de evidencia contiene:
 
-| Variable | Valor por defecto |
+| Campo | Significado |
 | --- | --- |
-| `GAMERAG_RETRIEVER` | `hybrid` |
-| `GAMERAG_CHUNKER` | `structural` |
-| `GAMERAG_EMBEDDING_MODEL` | `e5-small-multi` |
-| `GAMERAG_QUERY_EXPANSION` | `true` |
-| `GAMERAG_TOP_K` | `5` |
-| `GAMERAG_CANDIDATES` | `50` |
+| `source`, `page`, `chunk_id` | Identidad de cita compatible con `Source` |
+| `url`, `section`, `version` | Enlace, encabezado y revisión documental |
+| `source_hash` | SHA256 del fragmento fuente antes de proyectarlo, con prefijo `sha256:` en el corpus generado |
+| `text` | Texto autorizado exacto disponible al responder |
+| `is_excerpt` | Indica que se entregó una proyección parcial |
+| `evidence_hash` | SHA256 hexadecimal del texto de evidencia entregado, sin prefijo |
 
-Requisitos: haber corrido la ingesta con el chunker configurado y, para `dense` o `hybrid`, el extra `semantic`.
+La interfaz usa estos datos para abrir una cita. `SearchHit.page` mantiene el ordinal real de sección en la ruta de búsqueda. Ninguna de estas extensiones altera los campos obligatorios de `Answer` ni la identidad de `Source`.
 
-## Bugs detectados al integrar
+## Traza
 
-**Lo servido debe ser lo medido.** La híbrida fusionaba rankings de profundidad `max(k, 20)`; como el pipeline pide 50 candidatos, servía Recall@5 = 0.83 en lugar del 0.89 evaluado. Ahora la profundidad de la fusión es fija (20), y un test verifica que el pipeline servido alcance el Recall@5 evaluado ([evaluation/results.md](../evaluation/results.md), "Verificación").
+| Grupo | Campos y finalidad |
+| --- | --- |
+| Identidad y entrada | `trace_id`, `question` original, `clean_question` tras controles, juego, usuario y rol |
+| Configuración | Recuperador, generador y variantes de consulta |
+| Decisión | `route`, `route_reason`, herramienta y sus parámetros/estado |
+| Recuperación | `candidates`, score, rank, bloqueo y `context` |
+| Validación | Guardrails de entrada/salida y resultado final |
+| Evidencia final | `final_evidence` y `final_answer`, correspondientes a la respuesta entregada |
+| Operación | `llm_calls`, `degradations`, `stages` y `latency_ms` |
 
-**Chunks con score 0.** La primera prueba de punta a punta mostró que **BM25 devolvía chunks con score 0**, rellenando el top-k en el orden del corpus, y que **RRF los premiaba por aparecer en la lista**. Con 50 candidatos, a "How can I sail across the sea?" le respondía primero la página de controles. Se corrigió: BM25 solo devuelve chunks con score > 0, y hay un test de regresión. Con 20 candidatos (la profundidad de la evaluación), el efecto en las métricas fue mínimo ([evaluation/results.md](../evaluation/results.md)).
+Las etapas conservan el orden real de ejecución, incluidas búsquedas adicionales. Las llamadas LLM se atribuyen a la consulta para no mezclar telemetría concurrente. La recuperación y el generador usan `clean_question` cuando está disponible; `question` conserva la entrada original en la traza devuelta al solicitante. La auditoría sanitiza los campos textuales antes de persistir y puede reconstruir la representación registrada de la respuesta y su evidencia sin volver a ejecutar el recuperador. Los identificadores de fragmentos retenidos no autorizan a mostrar su contenido.
+
+La evidencia de la API conserva el texto autorizado exacto. Si la auditoría redacta un extracto, preserva hashes de procedencia y versión y asigna `audit_redacted=true` y `recorded_text_hash` para identificar la representación guardada; en la respuesta HTTP ordinaria esos campos tienen los valores `false` y `null`. La persistencia corresponde a `/ask`; `/search` devuelve su traza sin guardarla.

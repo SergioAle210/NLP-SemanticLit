@@ -1,0 +1,12 @@
+{
+  "source": "docs/course/informe-final.md",
+  "source_sha256": "b3bce4fe12ce1475b4c14892e91ac46cd0e8c1991613c1cf4a56b93abf83b3db",
+  "pdf": "output/pdf/informe-final.pdf",
+  "pdf_sha256": "aca371e771766a85ae5aae530daafd61e48ad35bfaed8ebe621d642b51105962",
+  "pages": 14,
+  "figures": 2,
+  "page_format": "A4",
+  "font_size_pt": 11.5,
+  "leading_pt": 15.5,
+  "meets_page_range": true
+}

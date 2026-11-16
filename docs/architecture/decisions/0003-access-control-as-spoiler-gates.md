@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-04)
 
+> **Nota de vigencia (2026-11-16).** El diseño de cuatro gates descrito abajo es histórico. El servicio aplica aislamiento, ubicación y `ContentPolicy` después de recuperar, antes de generar; valida citas y filtraciones a la salida. No utiliza un reranker ni implementa G4 completo. Las reglas actuales incluyen las celdas de Hyrule 1–8 y sus dependencias, sin bloquear indiscriminadamente los mapas. Los [controles vigentes](../access-control.md) explican su alcance; el criterio inicial sobre manuales no equivale a una clasificación automática exhaustiva.
+
 ## Contexto
 
 El curso exige control de acceso a documentos y pruebas de evasión de permisos (§5.8 y §10). En un corpus público no hay documentos confidenciales, pero sí hay información que el usuario **no debería ver todavía**: soluciones, historia y finales posteriores a su progreso.

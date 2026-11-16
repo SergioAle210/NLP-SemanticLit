@@ -2,6 +2,8 @@
 
 Implementación: [src/gamerag/retrieval/query_expansion.py](../../src/gamerag/retrieval/query_expansion.py). Decisión: [ADR-0010](../architecture/decisions/0010-query-expansion.md).
 
+La expansión inicial utiliza reglas y glosarios. Las cifras de esta página corresponden a los experimentos históricos de selección de esa estrategia; `Recall@k` designa allí hit rate. Las mediciones persistidas posteriores y la verificación técnica vigente se distinguen en [audit-current.md](../evaluation/audit-current.md).
+
 ## Problema: desajuste de vocabulario
 
 Los jugadores no preguntan con las palabras de la wiki:
@@ -47,29 +49,29 @@ Se aplica el mismo criterio que en Zelda: la terminología sale de las páginas 
 - **Acciones:** attack/hit/fight → "B button", "swinging your sword"; jump → "A button"; pause → "Start button".
 - **Recursos:** ninpo/magic/mana → "spirit points" ("ninpo" no aparece nunca en la wiki); special/subweapon → "secondary weapon"; shuriken → "throwing star"; sword → "katana"; heal → "restore health", "potion".
 
-**Por qué "attack" necesita glosario aunque la wiki lo use:** aparece en 27 de los 84 chunks de NG (los enemigos atacan), así que su IDF es bajo y no distingue la página de controles.
+**Por qué "attack" necesita glosario aunque la wiki lo use:** en el corpus del experimento inicial aparecía en 27 de los 84 chunks de NG (los enemigos atacan), así que su IDF era bajo y no distinguía la página de controles.
 
-**Resultado** (13 casos con respuesta):
+**Resultado histórico** (13 casos con respuesta):
 - Recall@5 pasa de 0.85 a **0.92**; robustez, de 0.50 a 0.75.
 - Los 9 casos de tipo curso se mantienen en 1.00.
 - "heal" sigue fallando (rank 11), por dilución: el chunk de Items mezcla 5 ítems ([evaluation/results.md](../evaluation/results.md)).
 
-## Resultados
+## Resultados históricos
 
-Híbrida e5, chunking estructural ([evaluation/results.md](../evaluation/results.md)):
+Híbrida e5, chunking estructural ([evaluation/results.md](../evaluation/results.md)). La columna final identifica la configuración adoptada en ese experimento; no representa una nueva medición del servicio actual.
 
-| | Sin expansión | Con expansión, fusión en dos niveles (ADR-0010) | **Con expansión, fusión plana (ADR-0011, servida)** |
+| | Sin expansión | Con expansión, fusión en dos niveles (ADR-0010) | **Con expansión, fusión plana (ADR-0011, adoptada entonces)** |
 | --- | ---: | ---: | ---: |
 | Curso (18) | 0.89 | 0.89 | **0.89** |
-| **Equipo (8, preguntas escritas sin ver el corpus)** | 0.50 | 0.75 | **0.88** |
+| **Equipo (8, etiqueta histórica `author: team`)** | 0.50 | 0.75 | **0.88** |
 | Robustez (18) | 0.56 | 0.83 | **0.89** |
 | Total (36) | 0.72 | 0.86 (0.81 sin "?") | **0.92 (también sin "?")** |
 | Latencia media | 20 ms | 29 ms | 44 ms |
 
 ## Límites y riesgos
 
-- **Sobreajuste:** el glosario se escribió después de ver qué preguntas fallaban. La mejora en el conjunto del equipo es real, pero **no es una medición independiente** del glosario. La validación correcta es una **segunda tanda de preguntas del equipo**, escrita con el glosario ya congelado.
-- **Mantenimiento:** el glosario es manual y por juego. La reescritura con un LLM (Haiku) generalizaría a formulaciones no previstas; queda como comparación cuando esté la API key.
+- **Sobreajuste:** el glosario se escribió después de ver qué preguntas fallaban. La diferencia observada en el conjunto del equipo **no es una medición independiente** del glosario. La etiqueta de autor conserva la procedencia declarada entonces, no acredita una auditoría de su redacción. Para medir generalización necesitamos preguntas nuevas con el glosario congelado ([procedencia del banco](../evaluation/test-bank.md)).
+- **Mantenimiento:** el glosario es manual y por juego. La reescritura con LLM ya está implementada en el evaluador de evidencia del [grafo](../architecture/overview.md), con reintentos acotados. El preset `full` la habilita ante abstención cuando dispone de una clave no vacía; la ejecución remota requiere credenciales válidas. Este mecanismo es distinto de la expansión inicial por reglas. Una comparación nueva entre estrategias debe registrar su configuración y banco, sin asumir que disponer del código acredita una mejora medida.
 - **Sin diccionario de inglés:** la corrección no sabe si una palabra ausente del corpus es válida en inglés. Por eso es conservadora: prefiere no corregir antes que corregir mal.
 - **Correcciones falsas medidas:** se pasaron por el corrector 17,123 palabras inglesas válidas (de 5 o más letras) que no aparecen en el corpus; se tomaron del vocabulario del tokenizador de bge-small. Se "corrigen" 832, el 4.9%:
   - el 39% son flexiones ("plays" → "play", "throws" → "throw"), que no dañan la búsqueda;

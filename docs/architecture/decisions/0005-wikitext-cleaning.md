@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-05)
 
+> **Nota de vigencia (2026-11-16).** El conteo cero de plantillas desconocidas se exige en las páginas primarias incluidas de los juegos configurados. Las fuentes adicionales tienen estadísticas propias; no se afirma cobertura automática de todas sus plantillas. La [documentación de limpieza](../../ingestion/cleaning.md) distingue ese alcance y la validación histórica del corpus inicial.
+
 ## Contexto
 
 El wikitext de StrategyWiki usa unas 40 plantillas distintas, algunas anidadas (`{{ContentBox|title={{a|White Sword}}|contents=...}}`), además de tablas con atributos y listas dentro de las celdas. El inventario completo y las reglas están en [ingestion/cleaning.md](../../ingestion/cleaning.md).

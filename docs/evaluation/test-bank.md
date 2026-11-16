@@ -1,83 +1,107 @@
-# Banco de pruebas
+# Bancos de pruebas y procedencia
 
-Cubre el §8 de [course/instructions.md](../course/instructions.md). Archivo: [eval/cases.jsonl](../../eval/cases.jsonl). Los casos se escriben en inglés ([ADR-0001](../architecture/decisions/0001-english-first.md)), leyendo el corpus limpio.
+Los bancos cumplen el esquema mínimo del §8 del curso y añaden atributos para reproducir recuperación, perfiles y expectativas. El conjunto principal está en [eval/cases.jsonl](../../eval/cases.jsonl). Su idioma principal es inglés; disponer de embeddings multilingües no acredita una evaluación equivalente en español.
 
 ## Esquema
 
-Campos obligatorios del curso, más los propios:
-
 ```json
 {
-  "id": "zelda_exact_01",
-  "question": "What does the old man in Level-4 of the first quest say?",
-  "expected_behavior": "Quotes the hint 'Walk into the waterfall.'",
-  "expected_sources": ["The Legend of Zelda/Underworld/Quest 1/Dungeon 4"],
-  "expected_pages": [3],
+  "id": "document_revision_1",
+  "question": "Where is the training key stored?",
+  "expected_behavior": "Answer shelf A and cite synthetic revision 101.",
+  "expected_sources": ["Revision Fixture/Training key"],
+  "expected_pages": [0],
   "answerable": true,
-  "risk_level": "low",
-  "category": "exact_id",
-  "game": "zelda1",
-  "profile": "completionist",
-  "lang": "en",
-  "evidence": [["Walk into the waterfall."]]
+  "risk_level": "medium",
+  "category": "version",
+  "game": "revision_fixture",
+  "profile": "fixture",
+  "evidence": [["shelf A"]],
+  "author": "assistant"
 }
 ```
 
-| Campo | Significado |
+El ejemplo corresponde a la revisión documental sintética y no a un videojuego real. Los campos obligatorios son `id`, `question`, `expected_behavior`, `expected_sources`, `expected_pages`, `answerable` y `risk_level`.
+
+| Extensión | Significado |
 | --- | --- |
-| `expected_sources` / `expected_pages` | Páginas de la wiki y el índice de sección donde aparece la evidencia (alineados por posición) |
-| `evidence` | Partes de la respuesta, cada una con alternativas literales del corpus. Define la relevancia ([ADR-0008](../architecture/decisions/0008-relevance-by-evidence-text.md)) |
-| `risk_level` | `low` · `medium` (ambiguas, versión, sin respuesta) · `high` (spoiler) · `critical` (acción o seguridad) |
-| `author` | `assistant` (escrita conociendo el corpus) o `team` (escrita por el equipo sin verlo: conjunto independiente) |
-| `profile` | Perfil de demo con el que se hace la pregunta. Los casos de recuperación usan `completionist` para que los gates no oculten la evidencia; los de spoilers usarán perfiles `player` |
+| `category`, `game`, `lang` | Agrupación y dominio |
+| `profile` | Perfil con el que se realiza la consulta |
+| `evidence` | Partes esperadas, cada una con alternativas literales |
+| `author` | Etiqueta de procedencia registrada; no prueba revisión humana |
+| `expect`, `fault` en herramientas | Comportamiento estructurado y fallo inyectado |
+| Patrones de oráculo | Expresiones permitidas y prohibidas declaradas antes de ejecutar |
 
-Implementación: [src/gamerag/evaluation/cases.py](../../src/gamerag/evaluation/cases.py).
+`expected_pages` usa ordinales de sección de wiki, no páginas impresas. El identificador de revisión está en el documento y su evidencia; la quest del juego se modela por separado.
 
-## Casos actuales: Zelda (39)
+## Banco principal: 54 casos
 
-Total del banco: 54 casos (39 de Zelda y 15 de Ninja Gaiden).
+| Categoría | Zelda | Ninja Gaiden | Total | Mínimo del curso |
+| --- | ---: | ---: | ---: | ---: |
+| Directas | 5 | 3 | 8 | 5 |
+| Paráfrasis | 3 | 2 | 5 | 3 |
+| Identificadores exactos | 3 | 2 | 5 | 3 |
+| Compuestas | 3 | 1 | 4 | 3 |
+| Ambiguas | 2 | 0 | 2 | 2 |
+| Sin respuesta, categoría explícita | 2 | 2 | 4 | 2 |
+| Variante del dominio | 2 | 1 | 3 | Revisiones documentales: ver banco específico |
+| Robustez | 19 | 4 | 23 | Adicional |
+| **Total** | **39** | **15** | **54** | **20** |
 
-| Categoría | # | Ejemplos |
-| --- | ---: | --- |
-| Directas | 5 | "Which button swings the sword?" · "How much does the Blue Candle cost?" |
-| Paráfrasis | 3 | "How can I sail across the sea?" (Raft) · "How can I win cash by gambling?" (Money Making Game) |
-| Identificadores exactos | 3 | "What does the old man in Level-4 of the first quest say?" · "What can I buy at D-4 in section 2?" · "register my name as ZELDA" |
-| Compuestas | 3 | "Where can I buy the Blue Candle, and what can it be used for?" |
-| Ambiguas | 2 | "How do I beat the dragon boss?" (Aquamentus y Gleeok son dragones) · "How do I defeat Gleeok?" (2, 3 o 4 cabezas) |
-| Sin respuesta | 2 | "How do I use the Hookshot?" · "Can I ride a horse in this game?" |
-| Versión | 2 | "In the first/second quest, which dungeon has the Ladder?" (Level-4 frente a Level-6) |
-| **Robustez** (propia) | 19 | "How can I attack?" · "can i blow up walls with **bombz**?" · "how do i use my secondary item" · las 9 del equipo (abajo) · "how do i save my game?" (lenguaje de un jugador real: coloquial, vago o con errores) |
+El caso `zelda_team_06`, de robustez, también tiene `answerable: false`. Por ello el banco contiene cinco casos no respondibles y 49 respondibles, aunque la categoría explícita «sin respuesta» tenga cuatro.
 
-**Conjunto del equipo** (`author: team`): 9 preguntas escritas por un integrante como jugador, **sin ver el corpus ni el sistema**: "how do i atack?", "how can i heal?", "where do i find money?", "what is the best weapon?", "how do i open a locked door?", "what do i do if ig im stuck" (sin respuesta: debe abstenerse), "how do i defeat the dragon?", "where do i get bombs?", "how do i unlock the bow?". Se reportan aparte (`team`) porque miden si una mejora **generaliza** más allá de las preguntas escritas conociendo el corpus.
+Los casos de Ladder en First/Second Quest prueban una variante de contenido del juego; el nombre europeo de Ninja Gaiden prueba denominación regional. No sustituyen las dos pruebas de actualización documental del banco de revisiones.
 
-**Integridad garantizada por tests** ([tests/test_retrieval.py](../../tests/test_retrieval.py)):
-- la distribución por categoría coincide con la del curso;
-- cada (fuente, sección) esperada contiene la evidencia;
-- cada caso con respuesta tiene al menos un chunk relevante;
-- los casos sin respuesta no tienen texto de apoyo en el corpus.
+## Procedencia y contaminación experimental
 
-## Casos actuales: Ninja Gaiden (15, mini banco)
+El campo `author: team` identifica nueve preguntas del banco principal con una etiqueta heredada del desarrollo. El registro histórico las describió como aportes de un integrante sin consultar el corpus. Esa etiqueta no acredita revisión humana del juez, independencia permanente ni una auditoría de cómo se redactó cada pregunta.
 
-| Categoría | # | Ejemplos |
-| --- | ---: | --- |
-| Directas | 3 | "Which button do I press to jump?" · "How many spirit points does the windmill star cost?" |
-| Paráfrasis | 2 | "What happens if the clock runs out before I finish a stage?" · "How can I get higher using just one wall?" (wall hop) |
-| Identificadores exactos | 2 | "Who attacks me in Stage 2-3?" (Bomberhead) · "Who is the boss of Stage 3-3?" |
-| Compuesta | 1 | "What does the fire wheel do and does it use spirit points?" |
-| Versión | 1 | "What is Ninja Gaiden called in Europe?" (Shadow Warriors) |
-| Robustez | 4 | "how do i atack?" · "how do i get more ninpo?" · "how do i heal?" · "why did i get sent back to 6-1?" |
-| Sin respuesta | 2 | "What is the password to skip to Act 5?" · "How do I unlock the second playable character?" |
+Las preguntas del equipo y las de `author: assistant` se utilizaron para diagnosticar y ajustar glosarios o reglas. Después de inspeccionarlas no deben presentarse como un conjunto nuevo no visto. Conservamos la etiqueta para reproducir particiones históricas, con su limitación.
 
-Todos son `author: assistant`. **Sesgo declarado:** "atack" y "ninpo" ya se habían visto fallar en una prueba exploratoria. El banco se escribió **antes** que el glosario de NG.
+Los quince casos de Ninja Gaiden están etiquetados `assistant`. Algunos términos del banco, como errores ortográficos y nombres de mecánicas, ya habían aparecido en exploraciones. La generación sintética y la curaduría de corpus pueden producir ejemplos útiles, pero requieren una evaluación nueva para estimar generalización.
 
-**Revisión pendiente:** los casos son un borrador redactado a partir del corpus. Conviene que cada integrante revise y proponga casos propios, para reducir el sesgo hacia lo que el sistema ya encuentra.
+## Bancos complementarios
 
-## Pendientes
-
-| Categoría | Fase | Ejemplos previstos |
+| Archivo | Casos o propósito | Interpretación |
 | --- | --- | --- |
-| Ninja Gaiden: ambiguas | 3b | "How do I beat the boss?" (hay un jefe por acto) |
-| Multijuego | 3b | "How does the boomerang work?" con NG activo |
-| Herramientas | ✅ | En [tests/test_tools.py](../../tests/test_tools.py): nominal, parámetro fuera de rango, acción sin confirmar, falla de la herramienta y herramienta errónea ([tools/](../tools/README.md)) |
-| Seguridad / spoilers | 5 | Ver [security/controls.md](../security/controls.md) |
-| Español | 3d | De 8 a 10 casos traducidos |
+| [cases_hard.jsonl](../../eval/cases_hard.jsonl) | 21; preguntas difíciles | 18 respondibles y 3 no respondibles |
+| [cases_extra.jsonl](../../eval/cases_extra.jsonl) | 61; fuentes adicionales | Todos respondibles; no estima sensibilidad de abstención |
+| [cases_extra_franchise.jsonl](../../eval/cases_extra_franchise.jsonl) | 23; alcance de franquicia | Separado del corpus secundario predeterminado |
+| [cases_tools.jsonl](../../eval/cases_tools.jsonl) | 26; herramientas | Banco de desarrollo después de corregir reglas |
+| [cases_tools_heldout.jsonl](../../eval/cases_tools_heldout.jsonl) | 13; frases adicionales | 11/13 antes de corregir; 13/13 posterior ya inspeccionado |
+| [security_cases.jsonl](../../eval/security_cases.jsonl) | 42; suite adversaria | Expectativas de inyección, acceso, acciones y abstención |
+| [cases_versions.jsonl](../../eval/cases_versions.jsonl) | 2; revisiones sintéticas | Reingesta e invalidación de índice |
+| [security_content_oracle.jsonl](../../eval/security_content_oracle.jsonl) y [v2](../../eval/security_content_oracle_v2.jsonl) | Contenido permitido/prohibido | Versiones conservadas como bancos distintos |
+| [security_quest_oracle.jsonl](../../eval/security_quest_oracle.jsonl) y [v2](../../eval/security_quest_oracle_v2.jsonl) | Aislamiento entre quests | Encabezados y páginas agregadas |
+
+Los bancos de herramientas cubren ejecución nominal, selección errónea, parámetros inválidos, acciones que requieren revisión y fallos o timeouts. Las acciones críticas se detectan sin modificar el estado; no se acredita un circuito completo de confirmación.
+
+## Revisiones documentales controladas
+
+[document_versions.json](../../eval/fixtures/document_versions.json) define una fuente ficticia y dos revisiones: 101 sitúa una llave de entrenamiento en el estante A; 102 la sitúa en B. El evaluador prepara y vuelve a leer el documento en la misma ruta, reconstruye BM25 o el índice denso y comprueba que desaparezca la respuesta obsoleta.
+
+```powershell
+uv run --no-sync python -m gamerag.evaluation.versions
+uv run --no-sync python -m gamerag.evaluation.versions --dense
+```
+
+La corrida con E5 local [registrada en este artefacto](../../eval/results/20261116T022250583253Z-b13d858d_versions_synthetic-document-revisions.json) superó los dos casos. Se identifica como sintética, conserva la huella del fixture y no modifica el corpus de producción ni ofrece selección temporal desde la API.
+
+## Oráculos de contenido
+
+Los oráculos inspeccionan por separado la respuesta y el texto final autorizado. Conservan patrones prohibidos, contenido útil requerido, errores y fallas de disponibilidad. No deducen lo prohibido de `LocationGate` ni restan el contexto que el propio filtro consideró permitido.
+
+```powershell
+uv run --no-sync python -m gamerag.evaluation.spoiler_oracle --serving-profile base --retriever hybrid --cases eval/security_content_oracle_v2.jsonl
+uv run --no-sync python -m gamerag.evaluation.spoiler_oracle --serving-profile base --retriever hybrid --cases eval/security_quest_oracle_v2.jsonl
+```
+
+La versión 2 explicita el permiso de nombres genéricos de objetos sin asociarlos a ubicaciones futuras. Los bancos anteriores se conservan para mostrar el cambio de criterio; no se reetiquetan retroactivamente como éxitos. Las últimas mediciones persistidas se citan desde [seguridad](../security/report.md).
+
+Las regresiones posteriores de los mapas Hyrule se encuentran en [test_content_policy.py](../../tests/test_content_policy.py) y [test_request_evidence.py](../../tests/test_request_evidence.py). Comprueban celdas, variantes de nivel, quests, límites de fragmentos y contexto final; no agregan casos retroactivamente a los oráculos ni modifican sus resultados guardados.
+
+## Integridad y límites
+
+Las pruebas automatizadas validan campos, identificadores, distribución y presencia de evidencia de referencia. Los artefactos de esquema 2 rechazan IDs duplicados, casos ajenos al banco, preguntas o etiquetas incompatibles y evidencia sin hash válido.
+
+Esas verificaciones no equivalen a revisar humanamente todas las respuestas ni garantizan que los casos representen todas las necesidades del jugador. La revisión humana del juez, nuevos ejemplos no inspeccionados y cobertura amplia en español siguen requiriendo trabajo documentado del equipo.

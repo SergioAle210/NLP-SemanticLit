@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-06). Debe confirmarse con preguntas nuevas del equipo.
 
+> **Nota de vigencia (2026-11-16).** Conservamos resultados y límites del experimento inicial. Ninja Gaiden ya tiene glosario y el evaluador de evidencia puede proponer reescrituras con LLM en el grafo; esa capacidad no sustituye la expansión determinista por defecto. La fusión vigente sigue el [ADR-0011](0011-flat-fusion-exact-dense.md). Véase [transformación de consultas](../../retrieval/query-expansion.md) para el comportamiento actual.
+
 ## Contexto
 
 - Las preguntas escritas por el equipo como jugadores reales ("how do i atack?", "how can i heal?", "what is the best weapon?") rendían mucho peor que las del banco original: Recall@5 de **0.50** contra 0.89.

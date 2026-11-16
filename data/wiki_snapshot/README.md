@@ -1,16 +1,16 @@
 # Snapshots de wiki (corpus del RAG)
 
-Contenido descargado de **[StrategyWiki](https://strategywiki.org)** mediante la API de MediaWiki con [`scripts/download_wiki.py`](../../scripts/download_wiki.py).
+Esta carpeta reúne snapshots de varias wikis y sus manifiestos de procedencia. La incorporación inicial de Zelda y Ninja Gaiden se descargó de **[StrategyWiki](https://strategywiki.org)** mediante la API de MediaWiki con [`scripts/download_wiki.py`](../../scripts/download_wiki.py). La ampliación se registra más abajo; el inventario vigente y las condiciones por fuente están en [fuentes y gobernanza](../../docs/data/sources.md).
 
-## Licencia y atribución
+## Licencia y atribución de la incorporación inicial
 
 - El contenido de StrategyWiki está publicado bajo **[Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)**. Verificado vía `api.php?action=query&meta=siteinfo&siprop=rightsinfo` el 2026-11-04.
 - **Atribución:** "The Legend of Zelda" y "Ninja Gaiden (NES)", colaboradores de StrategyWiki. La URL y el `revid` de cada página están en `manifest.json`, y el historial de autores puede consultarse en cada URL.
-- **Share-alike:** cualquier derivado de estos archivos (texto limpio, chunks, resúmenes) que se distribuya debe mantenerse bajo CC BY-SA 4.0.
+- **Share-alike:** cualquier derivado de estos archivos iniciales de StrategyWiki (texto limpio, chunks, resúmenes) que se distribuya debe mantenerse bajo CC BY-SA 4.0.
 - Se descargó **solo texto (wikitext)**. No se incluyen imágenes: las referencias `[[File:...]]` del wikitext se eliminan en la limpieza.
-- Esta licencia aplica **solo a esta carpeta**. El manual oficial de Nintendo es © Nintendo y **no** se incluye en el repositorio.
+- Esta declaración corresponde a los snapshots iniciales de StrategyWiki enumerados a continuación; **no atribuye una licencia única a todas las wikis de esta carpeta**. El manual oficial de Nintendo es © Nintendo y **no** se incluye en el repositorio.
 
-## Contenido
+## Contenido inicial (2026-11-04)
 
 | Carpeta | Juego | Páginas | Caracteres (wikitext) | Fecha |
 | --- | --- | ---: | ---: | --- |
@@ -22,7 +22,7 @@ Cada carpeta contiene:
 - `pages/*.wiki`: el wikitext crudo de cada página. Los nombres de archivo usan `__` en lugar de `/`.
 - `manifest.json`: título, URL, `revid` (versión exacta de la página), archivo y tamaño de cada página.
 
-## Reproducir
+## Reproducir la descarga inicial de Zelda
 
 ```bash
 python scripts/download_wiki.py "The Legend of Zelda" data/wiki_snapshot/strategywiki/zelda1
@@ -31,13 +31,16 @@ python scripts/download_wiki.py "The Legend of Zelda" data/wiki_snapshot/strateg
 > Ojo: volver a descargar puede traer revisiones más nuevas. Para que la evaluación sea reproducible, el snapshot versionado en git es la referencia, y el `revid` del manifiesto identifica la versión documental.
 
 
-## Corpus multi-fuente (2026-11-08)
+## Ampliación del corpus multifuente (2026-11-08)
 
 Cada juego combina varias wikis (`config/sources.yaml`, descargadas con `scripts/fetch_corpus.py`). La licencia es la
 que reporta la API de cada sitio; **las wikis de Zelda (zeldapedia, zeldawiki) usan GFDL**, un copyleft distinto de
 CC BY-SA: se mantienen en carpetas separadas, con atribución por página (`manifest.json` guarda URL y `revid`) y no deben
-redistribuirse mezcladas con el resto sin revisar la licencia. Fandom reporta "CC-BY-SA" sin versión (normalmente 3.0).
-Los chunks de las fuentes extra quedan **restringidos** (`location.restricted`) hasta que se les asigne una ubicación.
+redistribuirse mezcladas con el resto sin revisar la licencia. Fandom reporta "CC-BY-SA" sin versión; conservamos esa
+declaración sin inferir un número de versión. La tabla describe esta incorporación histórica, no una nueva descarga.
+El acceso actual a fuentes extra depende de las reglas por juego, la ubicación y la política de contenido; las
+secciones generales explícitamente autorizadas no se tratan igual que contenido sin clasificación. Véanse
+[fuentes](../../docs/data/sources.md) y [control de acceso](../../docs/architecture/access-control.md).
 
 | Juego | Fuente | Licencia | Páginas | KB wikitext |
 | --- | --- | --- | ---: | ---: |

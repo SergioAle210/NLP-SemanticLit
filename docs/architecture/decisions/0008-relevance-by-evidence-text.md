@@ -2,6 +2,8 @@
 
 **Estado:** aceptado (2026-11-05)
 
+> **Nota de vigencia (2026-11-16).** Este ADR define relevancia mediante coincidencia textual. Una coincidencia parcial puede contribuir al hit rate sin demostrar que se cubran todas las partes de la pregunta ni que una respuesta sea correcta. La cautela final del cuerpo histórico no se interpreta como garantía de ausencia de falsos positivos semánticos. Las [métricas actuales](../../evaluation/metrics.md) distinguen hit rate, cobertura, recall documental y fidelidad.
+
 ## Contexto
 
 Para calcular Recall@k y MRR hay que saber qué chunks son relevantes para cada caso. El ejemplo del curso usa `relevant_chunk_id`, pero los `chunk_id` cambian con la estrategia de chunking (fijo contra estructural), y el proyecto debe comparar justamente esas estrategias.

@@ -1,6 +1,8 @@
 # Decisiones de arquitectura (ADRs)
 
-Cada archivo registra una decisión: contexto, decisión, alternativas y consecuencias. Los ADRs aceptados no se reescriben; si una decisión cambia, se crea uno nuevo que reemplaza al anterior, y el anterior se marca como reemplazado.
+Cada archivo registra una decisión: contexto, decisión, alternativas y consecuencias. Conservamos el cuerpo de los ADRs aceptados y sus resultados históricos. Las notas de vigencia fechadas aclaran diferencias con la implementación sin sustituir aquella decisión; si cambia una decisión arquitectónica, corresponde crear un ADR nuevo y marcar el anterior como reemplazado.
+
+El contexto, las alternativas y las tareas previstas se leen según la fecha de cada ADR. El estado «Aceptado» registra una decisión y no certifica que todas sus descripciones sigan representando la implementación actual. Por ejemplo, la reescritura con Haiku en el evaluador de evidencia y el glosario de Ninja Gaiden ya están implementados, aunque el ADR-0010 los describa desde una etapa anterior. El estado vigente y sus límites se consultan en la [arquitectura](../overview.md), la [hoja de ruta](../../roadmap.md) y la [transformación de consultas](../../retrieval/query-expansion.md).
 
 | ADR | Decisión | Estado |
 | --- | --- | --- |
@@ -17,6 +19,6 @@ Cada archivo registra una decisión: contexto, decisión, alternativas y consecu
 | [0011](0011-flat-fusion-exact-dense.md) | Fusión RRF plana en la multi-consulta y búsqueda semántica exacta | Aceptado |
 | [0012](0012-location-aliases-phrase-tokens.md) | Alias de ubicación en el índice y tokens de frase palabra + número | Aceptado |
 | [0013](0013-intent-router-and-tools.md) | Router de intención por reglas y herramientas (§5.6) | Aceptado |
+| [0014](0014-serving-profile-and-secondary-tier.md) | Perfil de servicio, segunda búsqueda y alcance de fuentes | Aceptado |
 
 Plantilla para nuevos ADRs: `NNNN-titulo-corto.md` con las secciones *Contexto*, *Decisión*, *Alternativas consideradas* y *Consecuencias*.
-- [0014](0014-serving-profile-and-secondary-tier.md) Perfil de servicio, segunda búsqueda y alcance de fuentes
