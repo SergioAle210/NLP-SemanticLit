@@ -1,7 +1,7 @@
 """Cliente HTTP de la API. La interfaz solo habla con la API (nunca importa el pipeline), así que
 cualquier otro frontend puede reemplazarla usando los mismos endpoints.
 
-Se separa de `app.py` para poder probarlo sin Streamlit: los tests le pasan el `TestClient` de
+Se separa de la vista para poder probarlo sin Gradio: los tests le pasan el `TestClient` de
 FastAPI, que es un `httpx.Client`.
 """
 

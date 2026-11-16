@@ -47,13 +47,26 @@ def tokens_css() -> str:
 # Ajustes sobre los controles propios de Gradio (pestañas, campos, botones, listas) para que usen los tokens.
 OVERRIDES = """
 html,body,.gradio-container,.app{background:var(--desk)!important;color:var(--on-desk)!important;font-family:var(--font-body)}
-.gradio-container{max-width:1180px!important;margin:0 auto}
+html{overflow-y:scroll;scrollbar-gutter:stable;overflow-anchor:none}
+.gradio-container{width:100%!important;max-width:1180px!important;min-width:0!important;box-sizing:border-box;margin:0 auto}
+.pc-app{width:100%;min-width:0!important;box-sizing:border-box}
+.pc-app .pc-query-layout{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,2fr);align-items:start;min-width:0!important}
+.pc-app .pc-query-layout>div{width:100%!important;min-width:0!important;box-sizing:border-box}
+@media(max-width:760px){.pc-app .pc-query-layout{grid-template-columns:minmax(0,1fr)}}
 .gradio-container footer{display:none!important}
 .pc-app .block,.pc-app .form,.pc-app .panel{background:transparent!important;border:0!important;box-shadow:none!important}
 .pc-app .prose,.pc-app .prose *{font-family:var(--font-body)}
+.pc-app .prose{color:var(--on-desk)}
+.pc-app .pc-paper{color:var(--ink)}
+.pc-app .prose :is(h1,h2,h3,h4,h5,h6,p,li,td,th,pre,code,strong,b,em,a){color:inherit}
+.dark .pc-app :is(textarea,input)::placeholder{color:#fff!important;opacity:1}
 .pc-app label>span,.pc-app .block-label,.pc-app [data-testid=block-info]{font-family:var(--font-display)!important;font-weight:500!important;font-size:.875rem!important;letter-spacing:.06em;text-transform:uppercase;color:var(--on-desk-muted)!important;background:transparent!important}
 .pc-app textarea,.pc-app input[type=text],.pc-app input[role=listbox]{font-family:var(--font-body)!important;font-size:1rem!important;line-height:1.5rem!important;background:var(--sheet)!important;color:var(--ink)!important;border:0!important;border-bottom:var(--border-doc) solid var(--ink)!important;border-radius:0!important;box-shadow:none!important;min-height:44px}
 .pc-app .wrap-inner,.pc-app .secondary-wrap{background:var(--sheet)!important;border-radius:0!important}
+.pc-app .pc-select-control{--pc-select-text:#000}
+.dark .pc-app .pc-select-control{--pc-select-text:#fff}
+.pc-app .pc-select-control :is(.wrap-inner,.wrap-inner *,input){color:var(--pc-select-text)!important}
+.pc-app .pc-select-control input{-webkit-text-fill-color:var(--pc-select-text)!important;opacity:1}
 .pc-app ul.options,.pc-app ul[role=listbox]{background:var(--paper)!important;color:var(--ink)!important;border:var(--border-doc) solid var(--ink)!important;border-radius:0!important}
 .pc-app ul.options li{color:var(--ink)!important;font-family:var(--font-body)}
 .pc-app ul.options li.selected,.pc-app ul.options li:hover{background:var(--hl)!important}
@@ -65,10 +78,17 @@ html,body,.gradio-container,.app{background:var(--desk)!important;color:var(--on
 .pc-app button[role=tab]{font-family:var(--font-display)!important;font-weight:700!important;font-size:.9375rem!important;letter-spacing:.06em;text-transform:uppercase;min-height:44px;border-radius:0!important;background:var(--desk)!important;color:var(--on-desk-muted)!important;border:var(--border-doc) solid var(--desk-edge)!important;border-bottom:0!important}
 .pc-app button[role=tab][aria-selected=true]{background:var(--paper)!important;color:var(--ink)!important;border-color:var(--ink)!important}
 .pc-app button[role=tab]:focus-visible,.pc-app button.pc-btn:focus-visible,.pc-app textarea:focus-visible,.pc-app input:focus-visible{outline:3px solid var(--focus)!important;outline-offset:2px;box-shadow:0 0 0 6px var(--focus-halo)!important}
-.pc-app details.pc-refd summary{list-style:none;display:inline-block}
+.pc-app details.pc-refd summary{list-style:none;display:inline-flex;max-width:100%}
 .pc-app details.pc-refd summary::-webkit-details-marker{display:none}
 .pc-app details.pc-refd[open] .pc-excerpt{margin-top:var(--space-2)}
 .pc-app .pc-booth-head{display:flex;justify-content:space-between;align-items:center;gap:var(--space-4);padding-bottom:var(--space-3);border-bottom:var(--border-doc) solid var(--desk-edge)}
+.pc-app .pc-examples{width:100%;min-width:0;box-sizing:border-box;overflow-anchor:none;border:1px solid var(--on-desk-muted)!important;padding:var(--space-3)!important;color:var(--on-desk)!important}
+.pc-app .pc-examples :is(.label-wrap,.label-wrap span,p){color:var(--on-desk)!important}
+.pc-app .pc-preset-grid{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));grid-auto-rows:1fr;align-items:stretch!important;gap:var(--space-2)!important;width:100%;min-width:0}
+.pc-app .pc-preset-grid button.pc-btn{width:100%!important;height:100%!important;min-height:4.5rem!important;box-sizing:border-box;align-self:stretch;display:flex!important;align-items:center;justify-content:center;text-align:center;padding:var(--space-2)!important;top:0!important;transform:none!important}
+.pc-app button.pc-btn{white-space:normal;overflow-wrap:anywhere;min-width:0!important}
+.pc-app :is(textarea,input)::placeholder{color:var(--ink-muted)!important;opacity:1}
+.pc-app input[type=checkbox]{accent-color:var(--stamp-review)}
 """
 
 

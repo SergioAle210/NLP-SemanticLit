@@ -84,11 +84,20 @@ def test_rulebook_hides_blocked_names_and_marks_failures():
 
 def test_report_verdicts_follow_rules():
     sc = {"runs": {"principal": {"n": 54, "recall@5": 0.96, "coverage": 0.95, "groundedness": 0.74, "noise": 0.75,
-                                 "overconfident_rate": 0.4, "abstain_f1": 0.67}},
+                                 "overconfident_rate": 0.4, "abstain_f1": 0.67, "cite_precision": 0.77}},
+          "targets": {"principal": {"recall@5": {"status": "met"}, "cite_precision": {"status": "unmet"}}},
           "security": {"spoiled_answers": 0, "security_passed_rate": 0.98}, "tools": {"tool_false_trigger": 0}}
     html = c.report(sc)
     assert html.count("Aprobado") + html.count("OK") >= 1 and "Revisar" in html and "0.960" in html
     assert "No hay marcador" in c.report(None)
+    assert "Corrida histórica" in html and "Sin meta evaluable" in html
+
+
+def test_source_links_do_not_execute_document_supplied_scripts():
+    source = {"source": "Manual", "chunk_id": "c", "page": 2}
+    assert "href=" not in c.reference(1, source, {"url": "javascript:alert(1)", "text": "clue"})
+    assert 'href="https://example.org/manual"' in c.reference(
+        1, source, {"url": "https://example.org/manual", "text": "clue"})
 
 
 def test_theme_is_generated_from_the_design_tokens():
@@ -122,8 +131,9 @@ def live(tmp_path):
     store.close()
 
 
-def test_query_flow_renders_dossier_rulebook_and_telegram(live):
+def test_query_flow_renders_dossier_rulebook_and_telegram(live, monkeypatch):
     client, cat, _ = live
+    monkeypatch.setattr(client, "search", lambda *a, **k: pytest.fail("ask must supply its own exact evidence"))
     doss, rules, tel = puesto.run_query(client, cat, "How do I cross the oceans?", "zelda1", "novato")
     assert "Aprobado" in doss and "raft" in doss and "pc-refd" in doss  # fragmento citado desplegable
     assert "Reglamento de inspección" in rules and "pc-telegram" in tel

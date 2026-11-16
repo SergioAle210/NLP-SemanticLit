@@ -67,19 +67,16 @@ def run_query(client: ApiClient, cat: Catalog, question: str, game_id: str, prof
         if only_search:
             found = client.search(question, game_id, profile_id)
             trace = found["trace"]
-            answer = {"answer": f'{len(found["hits"])} fragmentos entregados al generador (modo solo buscar).',
+            answer = {"answer": f'{len(found["hits"])} fragmentos entregados como resultados de búsqueda; '
+                                'no se generó una respuesta.',
                       "abstained": not found["hits"], "sources": [
-                          {"source": h["source"], "chunk_id": h["chunk_id"], "page": 0} for h in found["hits"]]}
+                          {"source": h["source"], "chunk_id": h["chunk_id"], "page": h["page"]}
+                          for h in found["hits"]]}
             doss = c.dossier(question, cat.game(game_id)["title"], profile_id, answer, trace, found["hits"])
             return doss, "", c.telegram(trace)
         result = client.ask(question, game_id, profile_id)
         answer, trace = result["answer"], result["trace"]
-        hits: list[dict] = []
-        if answer.get("sources") and not answer.get("tool_used"):
-            try:  # el texto de cada fragmento citado sale de /search (misma búsqueda, determinista)
-                hits = client.search(question, game_id, profile_id)["hits"]
-            except ApiError:
-                hits = []
+        hits = result.get("evidence", [])
         return (c.dossier(question, cat.game(game_id)["title"], profile_id, answer, trace, hits),
                 c.rulebook(result.get("explanation")), c.telegram(trace))
     except ApiError as exc:
@@ -114,40 +111,45 @@ def build_app(client: ApiClient | None = None):
     profile_choices = [p["user_id"] for p in cat.profiles]
 
     with gr.Blocks(title="Puesto de Control · GameRAG", fill_width=True) as app, gr.Column(elem_classes=["pc-app"]):
-        gr.HTML(c.topbar(cat.health))
+        gr.HTML(c.topbar(cat.health), apply_default_css=False)
         if not cat.available:
             gr.HTML(error_card("La API no está disponible o no tiene juegos indexados. Levántela con "
-                               "`uv run uvicorn gamerag.api:app` y recargue esta página."))
+                               "`uv run uvicorn gamerag.api:app` y recargue esta página."), apply_default_css=False)
             return app
         night = gr.Button("Turno de noche / día", elem_classes=["pc-btn"], size="sm")
         night.click(fn=None, js="() => { document.body.classList.toggle('dark'); }")
 
         with gr.Tabs():
-            with gr.Tab("Ventanilla"), gr.Row(equal_height=False):
-                with gr.Column(scale=1, min_width=300):
+            with gr.Tab("Ventanilla"), gr.Row(equal_height=False, elem_classes=["pc-query-layout"]):
+                with gr.Column(scale=1, min_width=260):
                     game = gr.Dropdown(game_choices, value=default_game if default_game in games else game_choices[0][1],
-                                       label="Juego", interactive=True)
+                                       label="Juego", interactive=True, elem_classes=["pc-select-control"])
                     profile = gr.Dropdown(profile_choices, value="novato" if "novato" in profile_choices else profile_choices[0],
-                                          label="Perfil del viajero", interactive=True)
-                    passport_html = gr.HTML(c.passport(cat.profile(profile.value), cat.games))
-                    gr.HTML('<div class="pc-cap">Bandeja de pruebas</div>')
-                    preset_buttons = {name: gr.Button(name, elem_classes=["pc-btn"], size="sm") for name in PRESETS}
-                with gr.Column(scale=2, min_width=420):
+                                          label="Perfil del viajero", interactive=True, elem_classes=["pc-select-control"])
+                    passport_html = gr.HTML(c.passport(cat.profile(profile.value), cat.games), apply_default_css=False)
+                with gr.Column(scale=2, min_width=280):
+                    with gr.Accordion("Bandeja de pruebas · cargar un ejemplo", open=False, elem_classes=["pc-examples"]):
+                        gr.HTML('<p class="pc-sm">Elige un caso para completar la consulta, el juego y el perfil. '
+                                'Puedes editarlo antes de pulsar Entregar.</p>', apply_default_css=False)
+                        with gr.Row(elem_classes=["pc-preset-grid"]):
+                            preset_buttons = {name: gr.Button(name, elem_classes=["pc-btn"], size="sm", min_width=0)
+                                              for name in PRESETS}
                     question = gr.Textbox(label="Consulta del viajero", lines=2, max_lines=5, max_length=500,
                                           placeholder="How do I get the raft?")
                     only_search = gr.Checkbox(label="Solo buscar (sin generar)", value=False)
                     submit = gr.Button("Entregar", elem_classes=["pc-btn", "pc-btn--primary"], variant="primary")
-                    dossier_html = gr.HTML("")
-                    rules_html = gr.HTML("")
+                    dossier_html = gr.HTML("", apply_default_css=False)
+                    rules_html = gr.HTML("", apply_default_css=False)
             with gr.Tab("Archivo"):
-                gr.HTML('<p class="pc-sm">Registro de consultas con datos personales redactados. Solo para el perfil admin.</p>')
+                gr.HTML('<p class="pc-sm">Registro de consultas con datos personales redactados. Solo para el perfil admin.</p>',
+                        apply_default_css=False)
                 limit = gr.Slider(5, 100, value=20, step=5, label="Últimas consultas")
                 load_audit = gr.Button("Abrir archivo", elem_classes=["pc-btn"])
-                audit_html = gr.HTML("")
+                audit_html = gr.HTML("", apply_default_css=False)
             with gr.Tab("Informe"):
                 load_report = gr.Button("Actualizar informe", elem_classes=["pc-btn"])
-                report_html = gr.HTML(run_report(client))
-        telegram_html = gr.HTML(c.telegram(None))
+                report_html = gr.HTML(run_report(client), apply_default_css=False)
+        telegram_html = gr.HTML(c.telegram(None), apply_default_css=False)
 
         profile.change(lambda pid: c.passport(cat.profile(pid), cat.games), profile, passport_html)
         for name, btn in preset_buttons.items():

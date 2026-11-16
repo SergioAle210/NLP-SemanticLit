@@ -8,6 +8,7 @@ poder probarlas.
 from __future__ import annotations
 
 from html import escape
+from urllib.parse import urlsplit
 
 # Glifos de píxel del sistema de diseño (ver puesto.css: .pc-px--<nombre>)
 VERDICTS = {
@@ -22,6 +23,17 @@ VERDICTS = {
 
 def e(x) -> str:
     return escape("" if x is None else str(x), quote=True)
+
+
+def technical_detail(value) -> str:
+    return ('<details class="pc-technical"><summary>Ver detalle técnico</summary>'
+            f'<pre>{e(value)}</pre></details>')
+
+
+def rejection_message(detail) -> str:
+    if "prompt_injection" in str(detail):
+        return "La consulta intenta cambiar las reglas del asistente o revelar instrucciones internas. Reformula tu pregunta sobre el juego."
+    return "La consulta no pasó los controles de entrada. Revisa el texto e inténtalo de nuevo."
 
 
 def px(name: str, extra: str = "") -> str:
@@ -72,9 +84,19 @@ def reference(n: int, source: dict, hit: dict | None = None, active: bool = Fals
     if not hit:
         return f'<span class="{cls}">{tag}</span>'
     url = hit.get("url")
+    try:
+        parsed = urlsplit(url or "")
+        url = url if parsed.scheme in ("http", "https") and parsed.netloc else None
+    except ValueError:
+        url = None
     link = f' · <a href="{e(url)}" target="_blank" rel="noopener noreferrer">fuente</a>' if url else ""
+    detail = f' · sección {e(source.get("page"))}'
+    if hit.get("version"):
+        detail += f' · {e(hit["version"])}'
+    if hit.get("is_excerpt"):
+        detail += ' · extracto autorizado'
     return (f'<details class="pc-refd"><summary class="{cls}" tabindex="0">{tag}</summary>'
-            f'<div class="pc-excerpt"><div class="pc-label">Fragmento citado · {n}{link}</div>'
+            f'<div class="pc-excerpt"><div class="pc-label">Fragmento citado · {n}{detail}{link}</div>'
             f'{e(hit.get("text", ""))}</div></details>')
 
 
@@ -97,26 +119,27 @@ def dossier(question: str, game_title: str, profile_id: str, answer: dict, trace
         extra = f" Motivo del evaluador: {e(why)}." if why else ""
         note = f'<div class="pc-note">{px("dots")}<span class="pc-sm">No hay evidencia suficiente en el archivo.{extra}</span></div>'
     elif kind == "review":
-        note = f'<div class="pc-note">{px("eye")}<span class="pc-sm">Acción que cambia datos: requiere confirmación humana.</span></div>'
+        text = ("Solicitud detenida para revisión; esta interfaz no modifica el progreso."
+                if answer.get("tool_used") in ("update_progress", "critical_action")
+                else "Respuesta degradada o pendiente de revisión humana.")
+        note = f'<div class="pc-note">{px("eye")}<span class="pc-sm">{text}</span></div>'
     elif kind == "rejected":
         guards = {k: v for k, v in (trace.get("input_guards") or {}).items() if v != "ok"}
-        note = (f'<div class="pc-note">{px("cross")}<span class="pc-sm">Entrada rechazada: '
-                f'{e("; ".join(guards.values()) or "validación")}.</span></div>')
+        note = (f'<div class="pc-note">{px("cross")}<div class="pc-sm">Entrada rechazada: '
+                f'{e(rejection_message(guards))}{technical_detail(guards)}</div></div>')
     refs = "".join(reference(i, s, hits_by_id.get(s.get("chunk_id")), active=(i == 1))
                    for i, s in enumerate(sources, 1))
-    tool = answer.get("tool_used") or "ninguna"
     lat = round(sum((trace.get("latency_ms") or {}).values()))
-    foot = (f'<span>{e(trace.get("generator", ""))}</span><span>{lat} ms</span>'
-            f'<span>ruta: {e(trace.get("route", "documents"))}</span><span>herramienta: {e(tool)}</span>')
+    foot = f'<span>Referencias: {len(sources)}</span><span>Tiempo registrado: {lat} ms</span>'
     if trace.get("secondary"):
-        foot += f'<span>segunda búsqueda: {len(trace["secondary"])}</span>'
+        foot += f'<span>Fragmentos adicionales consultados: {len(trace["secondary"])}</span>'
     return (
         '<article class="pc-paper pc-doss">'
         f'<div class="pc-doss__tab"><span>Expediente {e(str(trace.get("trace_id", ""))[:4].upper())}</span>'
         f'<span>{e(game_title)} · {e(profile_id)}</span></div>'
         f'<div class="pc-doss__q"><div class="pc-label">Consulta</div>{e(question)}</div>'
         f'<div class="pc-doss__a"><div class="pc-doss__stamp">{stamp(kind, hit=True)}</div>'
-        f'<div class="pc-label" style="margin-top:var(--space-6)">Respuesta</div>{body} {cites}{note}</div>'
+        f'<div class="pc-label">Respuesta</div>{body} {cites}{note}</div>'
         + (f'<div class="pc-doss__refs">{refs}</div>' if refs else "")
         + f'<div class="pc-doss__foot">{foot}</div></article>')
 
@@ -125,13 +148,17 @@ def rulebook(explanation: dict | None) -> str:
     if not explanation:
         return ""
     items = []
+    rejected = next((s for s in explanation.get("steps", [])
+                     if s.get("stage") == "entrada" and not s.get("ok")), None)
 
     def li(cls: str, icon: str, title: str, text: str) -> None:
-        items.append(f'<li><span class="{cls}">{px(icon)}</span><span><b>{e(title)}</b><br>{text}</span></li>')
+        items.append(f'<li><span class="{cls}">{px(icon)}</span><div><b>{e(title)}</b><br>{text}</div></li>')
 
     n = 0
     for step in explanation.get("steps", []):
         stage = step.get("stage", "")
+        if rejected is not None and stage != "entrada":
+            continue  # No presentar etapas no ejecutadas como comprobaciones superadas.
         n += 1
         title = f"{n} {stage.capitalize()}"
         if stage == "entrada":
@@ -139,9 +166,11 @@ def rulebook(explanation: dict | None) -> str:
                 flags = ", ".join(step.get("flags") or [])
                 li("pc-ok", "check", title, "Validaciones superadas." + (f" Señales: {e(flags)}." if flags else ""))
             else:
-                li("pc-no", "cross", title, "Rechazada: " + e(step.get("detail")))
+                li("pc-no", "cross", title, e(rejection_message(step.get("detail")))
+                   + technical_detail(step.get("detail")))
         elif stage == "ruta":
-            li("pc-ok", "check", title, f'Ruta: {e(step.get("route"))}. {e(step.get("why"))}')
+            label = "Consulta de guías." if step.get("route") == "documents" else "Consulta mediante una herramienta."
+            li("pc-ok", "check", title, label + technical_detail(f'{step.get("route")}: {step.get("why")}'))
         elif stage == "herramienta":
             ok = step.get("status") == "ok"
             li("pc-ok" if ok else "pc-wn", "check" if ok else "dots", title,
@@ -167,18 +196,38 @@ def rulebook(explanation: dict | None) -> str:
                 li("pc-no", "cross", title, "Rechazada: " + e("; ".join(bad.values())))
             else:
                 li("pc-ok", "check", title, f'Citas verificadas ({len(step.get("citas") or [])}).')
+    summary = ("La consulta se detuvo antes de buscar información o generar una respuesta."
+               if rejected is not None else explanation.get("summary", ""))
     return ('<aside class="pc-paper pc-rules"><div class="pc-label">Reglamento de inspección</div>'
-            f'<ol>{"".join(items)}</ol><p class="pc-sm pc-muted">{e(explanation.get("summary", ""))}</p></aside>')
+            f'<ol>{"".join(items)}</ol><p class="pc-sm pc-muted">{e(summary)}</p></aside>')
 
 
 def telegram(trace: dict | None) -> str:
     if not trace:
-        return '<div class="pc-telegram"><span>sin consultas todavía</span></div>'
+        return ('<section class="pc-telegram" aria-label="Estado de la consulta">'
+                '<strong>Listo para consultar</strong><p>Elige un juego y un perfil, escribe tu pregunta '
+                'y pulsa Entregar.</p></section>')
     lat = round(sum((trace.get("latency_ms") or {}).values()), 1)
-    parts = [("traza", str(trace.get("trace_id", ""))[:8]), ("ruta", trace.get("route", "documents")),
-             ("latencia", f"{lat} ms"), ("generador", trace.get("generator", "")),
-             ("recuperación", trace.get("retriever", "")), ("resultado", trace.get("outcome", ""))]
-    return '<div class="pc-telegram">' + "".join(f"<span>{e(k)}</span>{e(v)}" for k, v in parts) + "</div>"
+    outcome = trace.get("outcome", "")
+    status, help_text = {
+        "answered": ("Respuesta disponible", "Puedes abrir las referencias para consultar la evidencia utilizada."),
+        "retrieved": ("Búsqueda completada", "Se muestran los fragmentos encontrados; no se generó una respuesta."),
+        "abstained": ("Sin evidencia suficiente", "Prueba una pregunta más concreta sobre el juego seleccionado."),
+        "rejected_input": ("Consulta rechazada", "Reformula la pregunta. Los controles de entrada impidieron continuar."),
+        "blocked_by_access": ("Contenido protegido", "La información no está disponible para el progreso de este perfil."),
+        "rejected_output": ("Respuesta retenida", "La respuesta no superó la validación y necesita revisión."),
+    }.get(outcome, ("Consulta finalizada", "Consulta el resultado y las comprobaciones del panel."))
+    if outcome not in ("rejected_input", "blocked_by_access", "rejected_output") and (
+            trace.get("final_answer") or {}).get("needs_human_review"):
+        status, help_text = "Revisión necesaria", "Consulta el aviso de la respuesta antes de utilizarla."
+    parts = [("Identificador de consulta", trace.get("trace_id", "")), ("Ruta interna", trace.get("route", "")),
+             ("Generador configurado", trace.get("generator", "")),
+             ("Método de recuperación", trace.get("retriever", "")), ("Código de resultado", outcome)]
+    details = "".join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k, v in parts)
+    return ('<section class="pc-telegram" aria-label="Estado de la consulta">'
+            f'<div class="pc-status-line"><strong>{e(status)}</strong><span>Tiempo registrado: {lat} ms</span></div>'
+            f'<p>{e(help_text)}</p><details class="pc-technical"><summary>Ver detalles técnicos</summary>'
+            f'<dl>{details}</dl></details></section>')
 
 
 def bar(done: int, now: int | None, total: int, label: str) -> str:
@@ -190,9 +239,7 @@ def bar(done: int, now: int | None, total: int, label: str) -> str:
 def passport(profile: dict, games: list[dict]) -> str:
     by_id = {g["game_id"]: g for g in games}
     role = profile.get("role", "player")
-    pips = "".join('<i class="on"></i>' if i < int(profile.get("hint_level") or 0) else "<i></i>" for i in range(3))
-    tags = f'<span class="pc-tag">{e(role)}</span><span class="pc-tag">Pista {e(profile.get("hint_level", 0))} ' \
-           f'<span class="pc-pips">{pips}</span></span>'
+    tags = f'<span class="pc-tag">{e(role)}</span>'
     rows = []
     if role in ("completionist", "admin"):
         rows.append('<div class="pc-sm pc-muted">Rol sin restricciones de spoilers: el visado cubre todos los niveles.</div>')
@@ -222,18 +269,17 @@ def passport(profile: dict, games: list[dict]) -> str:
 
 # --- informe del turno ------------------------------------------------------------------------------------
 
-REPORT_ROWS = [  # (clave, etiqueta, formato, regla de veredicto: (comparador, umbral))
-    ("recall@5", "Recall@5", "{:.3f}", ("min", 0.9)),
-    ("coverage", "Cobertura de evidencia", "{:.3f}", ("min", 0.9)),
-    ("groundedness", "Apoyo léxico de la respuesta", "{:.3f}", ("min", 0.7)),
-    ("noise", "Ruido en el contexto", "{:.3f}", ("max", 0.5)),
-    ("overconfident_rate", "Respondió lo no respondible", "{:.3f}", ("max", 0.2)),
-    ("abstain_f1", "F1 de abstención", "{:.3f}", ("min", 0.8)),
+REPORT_ROWS = [  # Las metas proceden del artefacto, no de umbrales distintos en la interfaz.
+    ("recall@5", "Acierto de recuperación en top-5", "{:.3f}"),
+    ("cite_precision", "Precisión de citas (relevancia)", "{:.3f}"),
+    ("coverage", "Cobertura de evidencia", "{:.3f}"),
+    ("groundedness", "Apoyo léxico de la respuesta", "{:.3f}"),
+    ("noise", "Ruido en el contexto", "{:.3f}"),
+    ("abstention_accuracy", "Exactitud global de abstención", "{:.3f}"),
+    ("abstain_recall", "Recall de abstención", "{:.3f}"),
+    ("abstain_f1", "F1 de abstención", "{:.3f}"),
+    ("latency_p95_s", "Latencia P95 (s)", "{:.3f}"),
 ]
-
-
-def _ok(rule: tuple[str, float], v: float) -> bool:
-    return v >= rule[1] if rule[0] == "min" else v <= rule[1]
 
 
 def report(scorecard: dict | None, run: str = "principal") -> str:
@@ -242,26 +288,35 @@ def report(scorecard: dict | None, run: str = "principal") -> str:
                 '<p>No hay marcador disponible. Genéralo con <code>python -m gamerag.evaluation.scorecard</code>.</p></section>')
     m = scorecard["runs"][run]
     sec, tl = scorecard.get("security", {}), scorecard.get("tools", {})
+    targets = scorecard.get("targets", {}).get(run, {})
     rows = []
-    for key, label, fmt, rule in REPORT_ROWS:
+    for key, label, fmt in REPORT_ROWS:
         v = m.get(key)
         if v is None:
             continue
+        status = targets.get(key, {}).get("status")
+        badge = (stamp("ok", True) if status == "met" else _warn_stamp() if status == "unmet"
+                 else '<span class="pc-muted">Sin meta evaluable</span>')
         rows.append(f'<tr><td>{e(label)}</td><td class="n">{fmt.format(v)}</td>'
-                    f'<td class="st">{stamp("ok", True) if _ok(rule, v) else _warn_stamp()}</td></tr>')
+                    f'<td class="st">{badge}</td></tr>')
     for label, val in (("Respuestas con spoiler (sondas)", sec.get("spoiled_answers")),
                        ("Falso disparo del router", tl.get("tool_false_trigger"))):
         if val is not None:
             rows.append(f'<tr><td>{e(label)}</td><td class="n">{e(val)}</td>'
                         f'<td class="st">{stamp("ok", True) if val == 0 else _warn_stamp()}</td></tr>')
     big = "".join(f'<div><div class="pc-bignum">{e(v)}</div><div class="pc-label">{e(k)}</div></div>' for k, v in (
-        ("Recall@5", f'{m.get("recall@5", 0):.3f}'),
+        ("Acierto top-5", f'{m.get("recall@5", 0):.3f}'),
         ("Spoilers", f'{sec.get("spoiled_answers", "?")}'),
         ("Seguridad", f'{sec.get("security_passed_rate", 0):.2f}')))
+    provenance = m.get("provenance", {})
+    origin = " · ".join(str(provenance.get(key) or "no registrado") for key in ("date", "generator", "retriever"))
+    historical = provenance.get("schema_version", 1) < 2
+    note = "Corrida histórica; no mide el servicio abierto ahora." if historical else "Corrida registrada; consulte su configuración efectiva."
     return ('<section class="pc-paper pc-report"><div class="pc-label">Informe del turno</div>'
             f'<h3 class="pc-title" style="font-size:22px;line-height:24px;margin-bottom:var(--space-3)">Banco {e(run)} · {e(m.get("n"))} casos</h3>'
             f'<div class="pc-row" style="gap:var(--space-6);margin-bottom:var(--space-4)">{big}</div>'
-            '<table><thead><tr><th>Métrica</th><th class="n">Valor</th><th class="st">Estado</th></tr></thead>'
+            f'<p class="pc-sm">{e(note)} {e(origin)}</p>'
+            '<table><thead><tr><th>Métrica</th><th class="n">Valor</th><th class="st">Meta</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></section>')
 
 
@@ -279,7 +334,11 @@ def audit_table(rows: list[dict]) -> str:
 
 
 def topbar(health: dict | None) -> str:
-    state = "API conectada" if health else "API no disponible"
-    extra = f' · {e(health.get("retriever"))} · {e(health.get("generator"))}' if health else ""
+    state = "Servicio conectado" if health else "Servicio no disponible"
+    modes = {"extractive": "Respuestas con extractos de las guías",
+             "haiku": "Respuestas redactadas con IA",
+             "haiku+fallback": "Modo IA con respaldo de las guías"}
+    mode = modes.get(health.get("generator"), "Consulta de guías disponible") if health else ""
+    extra = f" · {e(mode)}" if mode else ""
     return (f'<div class="pc-booth-head"><div class="pc-brand">{px("seal", " pc-px--lg")} Puesto de Control</div>'
             f'<span class="pc-term">{e(state)}{extra}</span></div>')

@@ -62,11 +62,15 @@
 .pc-pass{width:340px;max-width:100%;padding:0}
 .pc-pass__head{display:flex;gap:var(--space-4);align-items:center;background:var(--ink);color:var(--paper);padding:var(--space-4)}
 .pc-pass__head .pc-title{font-size:1.375rem;line-height:1.5rem}
+.pc-app .pc-pass__head,.pc-app .pc-doss__tab{background:#1f1d16;color:#fff}
+.pc-app .pc-pass__head *,.pc-app .pc-doss__tab *{color:#fff!important}
+.pc-app .pc-pass__seal{border-color:#fff}
 .pc-pass__seal{display:grid;place-items:center;width:56px;height:56px;border:var(--border-doc) solid var(--paper);flex:none;color:var(--paper)}
 .pc-pass__body{padding:var(--space-4);display:flex;flex-direction:column;gap:var(--space-4)}
 .pc-visa{display:grid;grid-template-columns:1fr auto;gap:var(--space-1) var(--space-3);align-items:center;padding-bottom:var(--space-3);border-bottom:var(--border-hair) dashed var(--rule)}
 .pc-visa:last-child{border-bottom:0;padding-bottom:0}
-.pc-visa__name{font-weight:700}
+.pc-app .pc-pass__body{color:var(--ink)}
+.pc-app .pc-pass__body .pc-visa__name{font-weight:700;color:var(--ink)!important}
 .pc-bar{display:flex;gap:var(--space-1)}
 .pc-bar i{display:block;width:14px;height:14px;border:var(--border-doc) solid var(--ink);background:transparent}
 .pc-bar i.on{background:var(--ink)}
@@ -78,7 +82,7 @@
 
 /* referencia (cita) */
 .pc-ref{display:inline-flex;align-items:stretch;border:var(--border-doc) solid var(--ink);background:var(--paper);color:var(--ink);font-size:0.9375rem;line-height:1.375rem;cursor:pointer;text-align:left;font-family:var(--font-body);padding:0;min-height:44px}
-.pc-ref__n{display:grid;place-items:center;min-width:32px;background:var(--ink);color:var(--paper);font-family:var(--font-display);font-weight:700;font-size:1rem}
+.pc-ref__n{display:grid;place-items:center;min-width:32px;background:#1f1d16;color:#fff;font-family:var(--font-display);font-weight:700;font-size:1rem}
 .pc-ref__t{padding:var(--space-1) var(--space-3);display:flex;flex-direction:column}
 .pc-ref__t small{font-size:0.9375rem;line-height:1.375rem;color:var(--ink-muted);font-family:var(--font-body)}
 .pc-ref--active .pc-ref__t small{color:var(--ink)}
@@ -128,3 +132,40 @@
 @media (forced-colors:active){.pc-px{box-shadow:none;width:auto;height:auto;margin:0;background:none;font:700 1em/1 var(--font-body)}.pc-px--check::before{content:"\2713"}.pc-px--cross::before{content:"\2715"}.pc-px--eye::before{content:"\25C9"}.pc-px--dots::before{content:"\2026"}.pc-px--diamond::before{content:"\25C6"}.pc-px--seal::before{content:"\25CF"}.pc-px--arrow::before{content:"\2192"}.pc-stamp,.pc-btn,.pc-input,.pc-paper{border-color:CanvasText}.pc-redact{background:CanvasText;forced-color-adjust:none}}
 .pc-tray{display:flex;flex-wrap:wrap;gap:var(--space-2)}
 @media (max-width:760px){.pc-booth{grid-template-columns:minmax(0,1fr)}}
+
+/* Los paneles HTML tienen sus propios colores, sin la tipografía automática de Gradio. */
+.pc-app .pc-paper,.pc-app .pc-excerpt{box-sizing:border-box;width:100%;min-width:0;max-width:100%;overflow-wrap:anywhere}
+.pc-app .pc-paper *,.pc-app .pc-excerpt *{box-sizing:border-box}
+.pc-app .pc-rules li{grid-template-columns:22px minmax(0,1fr);color:var(--ink)}
+.pc-app .pc-rules li>:last-child{min-width:0;color:var(--ink)}
+.pc-app .pc-rules ol{padding-left:0;list-style:none}
+.pc-app .pc-rules p{margin:var(--space-3) 0 0}
+.pc-app .pc-visa{grid-template-columns:minmax(0,1fr);gap:var(--space-2)}
+.pc-app .pc-visa>span:empty{display:none}
+.pc-app .pc-bar{flex-wrap:wrap}
+.pc-app .pc-bar i{flex:0 0 14px}
+.pc-app .pc-doss__tab{flex-wrap:wrap;gap:var(--space-2)}
+.pc-app .pc-doss__tab>span{min-width:0}
+.pc-app .pc-doss__stamp{position:static;display:flex;justify-content:flex-end;margin-bottom:var(--space-3)}
+.pc-app .pc-stamp{max-width:100%;white-space:normal;overflow-wrap:anywhere;flex-wrap:wrap}
+.pc-app .pc-note>:last-child{min-width:0}
+.pc-app .pc-refd,.pc-app .pc-ref{min-width:0;max-width:100%}
+.pc-app .pc-ref__t{min-width:0;overflow-wrap:anywhere}
+.pc-app .pc-ref__n{flex-shrink:0}
+.pc-app .pc-report table{table-layout:fixed}
+.pc-app .pc-report :is(th,td){overflow-wrap:anywhere;white-space:normal;padding:var(--space-2)}
+.pc-app .pc-report .n{width:20%}
+.pc-app .pc-report .st{width:32%}
+.pc-app .pc-technical{min-width:0;margin-top:var(--space-3);font-size:.9375rem;color:inherit}
+.pc-app .pc-technical summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.pc-app .pc-technical pre{font:inherit;color:inherit;background:transparent;white-space:pre-wrap;overflow-wrap:anywhere;margin:var(--space-2) 0}
+.pc-app .pc-technical summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.pc-app .pc-telegram{display:block;min-width:0;overflow-wrap:anywhere}
+.pc-app .pc-status-line{display:flex;flex-wrap:wrap;gap:var(--space-2) var(--space-5);align-items:baseline}
+.pc-app .pc-telegram p{margin:var(--space-2) 0 0}
+.pc-app .pc-telegram dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr));gap:var(--space-3);margin:var(--space-3) 0 0}
+.pc-app .pc-telegram dl>div{min-width:0}
+.pc-app .pc-telegram dt{font-weight:700}
+.pc-app .pc-telegram dd{margin:var(--space-1) 0 0}
+.pc-app .pc-booth-head{flex-wrap:wrap}
+.pc-app .pc-booth-head>*{min-width:0;overflow-wrap:anywhere}
