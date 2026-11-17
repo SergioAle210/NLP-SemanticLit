@@ -24,6 +24,7 @@ Sistema RAG para siete videojuegos, con evaluación principal sobre The Legend o
 | [Anteproyecto](course/informe.md) | Documento de 16 secciones solicitado por el equipo |
 | [Informe final](course/informe-final.md) | Informe académico técnico |
 | [Defensa](course/defensa.md) | Guion de 15 minutos y escenarios de demostración |
+| [Plan de la presentación](course/plan-presentacion.md) | Diapositivas en el orden del §13, cada una con su criterio de la rúbrica |
 | [Matriz de cumplimiento](course/auditoria-cumplimiento.md) | Requisito, evidencia y alcance de verificación |
 | [Entregables y maquetación](course/README.md) | Generación del PDF y comprobación de correspondencia con el Markdown |
 | [Instrucciones](course/instructions.md) y [presentación del curso](course/presentation.md) | Fuentes oficiales de requisitos, conservadas sin modificaciones |

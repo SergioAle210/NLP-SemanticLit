@@ -10,6 +10,7 @@
 | [informe-final.layout.json](../../output/pdf/informe-final.layout.json) | Manifiesto de correspondencia, hashes y paginación |
 | [auditoria-cumplimiento.md](auditoria-cumplimiento.md) | Requisitos, evidencias y límites |
 | [defensa.md](defensa.md) | Guion propuesto para la defensa de quince minutos |
+| [plan-presentacion.md](plan-presentacion.md) | Contenido de la presentación por diapositiva, en el orden del §13 y con el criterio de la rúbrica que cubre cada una |
 
 ## Generar el informe PDF
 
