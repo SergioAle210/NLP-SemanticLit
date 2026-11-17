@@ -135,7 +135,7 @@ Perfil `novato` (Zelda: nivel 1 completado, va en el 2), salvo que se indique ot
 | + multi-consulta, fusión plana y alias | **0.94** |
 
 - Ninja Gaiden, con su propio glosario: **0.92**.
-- **Operación** (perfil `full`, banco principal): ~$0.0003 por pregunta y P95 de 5.7 s.
+- **Operación** (perfil `full`, banco principal, última evaluación completa con Haiku del 2026-11-09): ~$0.0003 por pregunta y P95 de 5.7 s.
 - *Visual:* gráfico de barras con la evolución.
 - *Rúbrica:* evaluación y métricas (15).
 
@@ -200,5 +200,6 @@ Cada integrante debe poder responder sobre el proyecto completo y depurar su par
 ## Antes de la presentación
 
 - [x] Clave de API válida y API en perfil `full` (verificado: respuestas redactadas con citas).
-- [ ] Corrida de evaluación completa en `full` con el código final, para actualizar las cifras de abstención.
+- [ ] Prueba manual de abstención en la interfaz (perfil `full`): `How do I use the Hookshot?`, `Can I ride a horse in this game?` y `Where is the Moon Pearl?` en Zelda; `What is the password to skip to Act 5?` en Ninja Gaiden. Anotar si cada una se abstiene y guardar capturas para la diapositiva de respaldo.
+- [ ] Al citar cifras de abstención, fidelidad o costo, presentarlas como **históricas, con su fecha**: provienen de la última evaluación completa con Haiku (2026-11-09), anterior a las últimas correcciones del código.
 - [ ] Ensayo completo cronometrado (15 min) y capturas de respaldo de la demo.
