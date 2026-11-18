@@ -1,12 +1,15 @@
 {
   "source": "docs/course/informe-final.md",
-  "source_sha256": "b3bce4fe12ce1475b4c14892e91ac46cd0e8c1991613c1cf4a56b93abf83b3db",
+  "source_sha256": "7be5f54ce3b06df95cdae02024704e4503cb7135446c401e7b6579f4041cba92",
   "pdf": "output/pdf/informe-final.pdf",
-  "pdf_sha256": "aca371e771766a85ae5aae530daafd61e48ad35bfaed8ebe621d642b51105962",
-  "pages": 14,
+  "pdf_sha256": "358c97d472a7b6322c109ca559f06750505e0376cab26029c4ca5081ac693a4c",
+  "pages": 15,
   "figures": 2,
   "page_format": "A4",
   "font_size_pt": 11.5,
   "leading_pt": 15.5,
-  "meets_page_range": true
+  "meets_page_range": true,
+  "cover_pages": 1,
+  "content_pages": 14,
+  "logo_sha256": "4fbaf6441a3b71a3777a6e2a79a6f24a9102deb51d552c6f68ccdd02cb4e95d0"
 }

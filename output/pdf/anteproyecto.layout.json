@@ -1,0 +1,14 @@
+{
+  "source": "docs/course/informe.md",
+  "source_sha256": "e1d7d8f178b82acb6e589a0198b19c19aa4410d5c0408d7d0bd91e141d78e20c",
+  "pdf": "output/pdf/anteproyecto.pdf",
+  "pdf_sha256": "e239e8e026a0b0a2e153f55c06cdb0b7ded2dd19c75c241f856b58ebe7177b59",
+  "pages": 11,
+  "figures": 0,
+  "page_format": "A4",
+  "font_size_pt": 11.5,
+  "leading_pt": 15.5,
+  "meets_page_range": true,
+  "cover_pages": 0,
+  "content_pages": 11
+}

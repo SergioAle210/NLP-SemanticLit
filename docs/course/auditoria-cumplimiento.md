@@ -25,9 +25,9 @@ Contrastamos las [instrucciones](instructions.md) y la [presentación del curso]
 | Código y reproducibilidad (§12) | README, lockfile, bootstrap, Docker y scripts | Arranque limpio verificado: siete juegos, primario y adicional; preset full/BM25/offline sin llamadas remotas |
 | Pruebas de integración | [XML del cierre previo](../../eval/results/2026-11-16_pytest-closure.xml), [HTTP previo](../../eval/results/2026-11-16_http-closure-offline.json) y verificación posterior en consola | Los artefactos conservan 489 pruebas y 36/36 HTTP. Después superamos 520 pruebas, sin omisiones, y siete HTTP de mapas; sin nuevos XML/JSON |
 | Interfaz y evidencia visible | [Gradio](../ui/README.md) | Consulta, citas, herramienta, búsqueda y scorecard inspeccionados; contraste oscuro corregido; sin recorrido completo de teclado acreditado |
-| Informe técnico (§12) | [Fuente](informe-final.md), [PDF](../../output/pdf/informe-final.pdf) y [manifiesto](../../output/pdf/informe-final.layout.json) | 14 páginas A4 y dos figuras verificadas; hash de fuente coincidente con la exportación final |
-| Anteproyecto solicitado | [Anteproyecto](informe.md) | Dieciséis secciones y roster preservados |
-| Demo y defensa individual (§12–13) | [Guion](defensa.md) | Guion disponible; demostración formal, ensayo y dominio individual requieren participación del equipo |
+| Informe técnico (§12) | [Fuente](informe-final.md), [PDF](../../output/pdf/informe-final.pdf) y [manifiesto](../../output/pdf/informe-final.layout.json) | 15 páginas A4, incluida la carátula, y dos figuras; hash de fuente coincidente con la exportación final |
+| Anteproyecto solicitado | [Anteproyecto](informe.md) y [PDF](../../output/pdf/anteproyecto.pdf) | Dieciséis secciones según la plantilla de Word, sin carátula; integrantes y carnets preservados |
+| Demo y defensa individual (§12–13) | [Guion](defensa.md), [presentación del equipo](presentacion-equipo.pdf) y [video](https://youtu.be/ZC5XwdeHOQ4) | Materiales y enlace proporcionados por el equipo; su incorporación no acredita el ensayo ni el dominio individual |
 | Integridad y uso de IA (§15) | Informe final §14 | Intervención conocida declarada; sin inventar historia ni revisiones |
 
 ## Lectura de cierre
@@ -167,7 +167,7 @@ El inventario siguiente explica las rutas afectadas por la auditoría y los camb
 | [docs/contracts/access-and-guardrails.md](../../docs/contracts/access-and-guardrails.md) | Describimos los controles implementados y sus límites en lugar de presentarlos como trabajo pendiente. |
 | [docs/contracts/generation.md](../../docs/contracts/generation.md) | Precisamos generación extractiva, Haiku, fallback, citas y límites del control de presupuesto. |
 | [docs/contracts/pipeline.md](../../docs/contracts/pipeline.md) | Documentamos etapas, respuesta y evidencia finales, llamadas, degradaciones y sanitización. |
-| [docs/course/README.md](../../docs/course/README.md) | Añadimos el índice de entregables, maquetación reproducible y correspondencia del PDF de 14 páginas con su fuente. |
+| [docs/course/README.md](../../docs/course/README.md) | Añadimos el índice de entregables, maquetación reproducible y correspondencia del PDF de 15 páginas, incluida la carátula, con su fuente. |
 | [docs/course/auditoria-cumplimiento.md](../../docs/course/auditoria-cumplimiento.md) | Creamos la matriz de requisitos y evidencias; incorporamos esta explicación por archivo y el registro de limpieza. |
 | [docs/course/defensa.md](../../docs/course/defensa.md) | Preparamos quince minutos de demostración con consultas concretas, control de abstención y análisis de una falla. |
 | [docs/course/informe-final.md](../../docs/course/informe-final.md) | Redactamos el informe académico en primera persona plural, distinguiendo resultados actuales, históricos y actividades pendientes. |
@@ -252,7 +252,7 @@ Las cifras de los artefactos siguientes pertenecen al cierre previo al refuerzo 
 | [eval/results/20261116T022858581774Z-3a5bc434_tools_tools.json](../../eval/results/20261116T022858581774Z-3a5bc434_tools_tools.json) | Guardamos 26/26 casos de herramientas y la comprobación de falsos disparos del router. |
 | [eval/results/scorecard_base_current.json](../../eval/results/scorecard_base_current.json) | Consolidamos métricas, procedencia y cumplimiento de metas del perfil base para acompañar el marcador Markdown. |
 | [eval/results/scorecard_latest.json](../../eval/results/scorecard_latest.json) | Actualizamos el resumen histórico consumido por la API y Gradio, incluyendo procedencia y metas explícitas. |
-| [output/pdf/informe-final.pdf](../../output/pdf/informe-final.pdf) | Exportamos el informe final de 14 páginas con tablas y dos diagramas. |
+| [output/pdf/informe-final.pdf](../../output/pdf/informe-final.pdf) | Exportamos el informe final de 15 páginas, incluida la carátula, con tablas y dos diagramas. |
 | [output/pdf/informe-final.layout.json](../../output/pdf/informe-final.layout.json) | Vinculamos PDF y Markdown mediante hashes y registramos páginas y figuras; permite comprobar la exportación entregada. |
 
 ### Registro histórico de la limpieza realizada

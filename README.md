@@ -123,6 +123,8 @@ La verificación posterior a la corrección de mapas superó **520 pruebas sin o
 | [Informe técnico final](docs/course/informe-final.md) | Diseño, metodología, resultados, límites y uso de IA |
 | [Maquetación académica](docs/course/README.md) | Comando portable para generar PDF y comprobar sus páginas |
 | [Guion de defensa](docs/course/defensa.md) | Demostración y defensa de 15 minutos |
+| [Presentación del equipo](docs/course/presentacion-equipo.pdf) | Diapositivas del proyecto |
+| [Video de presentación](https://youtu.be/ZC5XwdeHOQ4) | Presentación audiovisual del equipo |
 | [config/games/](config/games/) | Progreso, fuentes y herramientas por juego |
 | [data/wiki_snapshot/](data/wiki_snapshot/README.md) | Snapshots, manifiestos de revisión y atribución |
 | [src/gamerag/](src/gamerag/) | Ingesta, recuperación, generación, controles, API e interfaz |
