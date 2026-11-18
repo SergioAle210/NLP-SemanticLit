@@ -1,8 +1,8 @@
 {
   "source": "docs/course/informe-final.md",
-  "source_sha256": "7be5f54ce3b06df95cdae02024704e4503cb7135446c401e7b6579f4041cba92",
+  "source_sha256": "4da2d1607333d147df9b42275933a4f46478e0509053340df8139cc33df141a0",
   "pdf": "output/pdf/informe-final.pdf",
-  "pdf_sha256": "358c97d472a7b6322c109ca559f06750505e0376cab26029c4ca5081ac693a4c",
+  "pdf_sha256": "9cad7c018b1a6493a2723aabdf4ca9c8e887cf393612736195b51673ce34a1af",
   "pages": 15,
   "figures": 2,
   "page_format": "A4",

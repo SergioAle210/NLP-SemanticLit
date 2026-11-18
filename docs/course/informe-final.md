@@ -297,7 +297,7 @@ Conservamos la valoración de impacto del anteproyecto y la vinculamos con las m
 | Revisión obsoleta o proveedor no disponible | Medio | Reconstrucción de índices y alternativa extractiva |
 | Clasificación de intención ajustada en exceso | Medio | Casos nuevos y conservación de fallas |
 
-Registramos intención, filtros, candidatos, evidencia, respuesta y citas, junto con tiempos, llamadas y fallas por solicitud. Aislamos consultas concurrentes y distinguimos texto original, extracto autorizado y registro con datos sensibles ocultos. El presupuesto coordina llamadas dentro de un proceso, sin constituir una cuota entre servidores. Los perfiles locales no verifican identidad; un despliegue público requeriría autenticación y separación administrativa.
+Registramos intención, filtros, candidatos, evidencia, respuesta y citas en consultas completadas. Una excepción de recuperación puede impedir su persistencia, y los resultados exportados conservan solo parte de la traza. Aislamos solicitudes concurrentes y ocultamos datos sensibles en los registros. El presupuesto coordina llamadas dentro de un proceso. Los perfiles locales no verifican identidad; un despliegue público requeriría autenticación y separación administrativa.
 
 ## 12. Reproducibilidad, limitaciones y trabajo futuro
 
@@ -305,7 +305,7 @@ Fijamos dependencias y conservamos fuentes, configuraciones y preguntas. Automat
 
 Tras corregir los mapas superamos 520 pruebas sin omisiones y siete comprobaciones locales de respuestas, evidencia, búsqueda y herramientas. Inspeccionamos citas y legibilidad del tema oscuro en la interfaz. Estas pruebas verifican comportamientos concretos, sin acreditar calidad universal ni accesibilidad completa.
 
-Reconocemos precisión de citas inferior a la meta, abstención extractiva insuficiente y clasificación desigual entre juegos. Los bancos son pequeños y algunas reglas se ajustaron tras observar fallas. Las fuentes adicionales amplían cobertura, contexto irrelevante y esfuerzo de clasificación.
+Reconocemos precisión de citas inferior a la meta y abstención extractiva insuficiente. La revisión ampliada reprodujo revelaciones anticipadas en páginas agregadas y escenas de Ocarina of Time. Las notas experimentales pueden conservar información sustituida. Los bancos son pequeños y algunas reglas se ajustaron tras observar fallas.
 
 Proponemos evaluar fidelidad con anotaciones humanas, utilizar conjuntos nuevos, ampliar la curaduría y medir consultas en español. Priorizamos mejorar la abstención extractiva y repetir la evaluación generativa sobre las correcciones. Para uso público incorporaríamos autenticación y aprobación explícita de cambios de progreso.
 

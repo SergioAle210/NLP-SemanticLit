@@ -66,7 +66,7 @@ En la diapositiva 17 aclararemos que las barras muestran 12 de 42 comportamiento
 
 Las sondas históricas de etiquetas entregaron contexto bloqueado en 0 de 44 casos con controles y 43 de 44 en comparación. El detector textual registró cero en ambas: no permite afirmar ausencia general de spoilers. El ensayo de documentos contaminados expuso el marcador en cinco de cinco sin cuarentena y en ninguno con ella; mide exposición de texto, no obediencia de un modelo generativo.
 
-En la diapositiva 18 distinguiremos las 489 pruebas archivadas de las 520 posteriores. El arranque limpio de Docker utilizó búsqueda léxica y funcionamiento sin conexión al proveedor. No atribuiremos esas comprobaciones a generación remota.
+En la diapositiva 18 distinguiremos las 489 pruebas del cierre previo de las [520 pruebas de la nueva revisión](../../eval/results/2026-11-17_pytest-audit.xml). El arranque limpio de Docker utilizó búsqueda léxica y funcionamiento sin conexión al proveedor. No atribuiremos esas comprobaciones a generación remota ni omitiremos las fallas adicionales descritas en la [auditoría](auditoria-cumplimiento.md#revisión-ampliada-del-estado-actual).
 
 Para las herramientas distinguiremos 26 de 26 casos de desarrollo del segundo banco: 11 de 13 antes de las correcciones y 13 de 13 después. No presentaremos la segunda medición como un conjunto independiente.
 

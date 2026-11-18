@@ -27,3 +27,5 @@ El control de costo serializa comprobación, llamada y registro entre clientes q
 No se utiliza un umbral universal de similitud como prueba suficiente de respuesta: preguntas respondibles y no respondibles pueden obtener scores cercanos. La abstención semántica depende de la relación entre pregunta y evidencia. El perfil `full` puede revisar la suficiencia ante una abstención y volver a recuperar dentro de un presupuesto limitado.
 
 La validación de citas comprueba identidad documental; no demuestra por sí sola que cada afirmación esté respaldada. La fidelidad requiere evaluar afirmaciones contra la evidencia final entregada, con revisión humana o un juez separado cuyo resultado se conserve. Véase [metodología](../evaluation/metrics.md).
+
+Si falla el evaluador de evidencia, la implementación actual registra la degradación y asume suficiencia para continuar. Esa decisión no acredita que la evidencia baste. La [revisión ampliada](../course/auditoria-cumplimiento.md#revisión-ampliada-del-estado-actual) identifica esta condición y la falta de abstención semántica del extractivo como limitaciones, incluidas las consultas que llegan a él por degradación.

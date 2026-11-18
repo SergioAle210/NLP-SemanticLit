@@ -100,6 +100,8 @@ El [reporte de seguridad](../security/report.md) separa suite adversaria, acceso
 
 `evaluation.versions --dense` reingesta dos revisiones de un documento sintético en la misma ruta, reconstruye el índice y verifica respuesta, cita, revisión y cambio de huella. Se ejecuta con E5 local y no añade un filtro temporal a la API. Sus dos casos se distinguen de las variantes de quest y nombres regionales.
 
+La revisión del ensayo detectó una diferencia entre sus metadatos generales y el pipeline construido: este recupera un fragmento y no incorpora router ni expansión de consultas. Los resultados conservados verifican las dos revisiones, pero no acreditan todas las opciones declaradas en `Settings`. Asimismo, los valores de Precision@5 y recall de unidades del informe proceden de recuentos sobre las corridas conservadas; el resumen E2E y el scorecard no generan ambas medidas automáticamente. La [auditoría](../course/auditoria-cumplimiento.md#revisión-ampliada-del-estado-actual) conserva estas limitaciones.
+
 Las comparaciones deben conservar banco, configuración, modo de caché y semántica de métricas. Los ADRs y [resultados históricos](results.md) mantienen experimentos de chunking, embeddings, expansión y reranking. No se afirma haber ejecutado ablaciones de un G4 completo o de memoria conversacional.
 
 ## Artefactos y metas

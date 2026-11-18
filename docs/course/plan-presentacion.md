@@ -38,7 +38,7 @@ La apertura y la descripción técnica deben ser breves para conservar los cuatr
 | 15 | La recuperación híbrida mejora el acceso | Identificar verbalmente las tres configuraciones del gráfico y señalar que se trata de la comparación histórica inicial | Evaluación comparativa |
 | 16 | Las citas y la abstención siguen limitando la calidad | Separar precisión de citas, exactitud global de abstención y sensibilidad; reconocer las metas incumplidas | Evaluación y análisis de fallas |
 | 17 | Controles de seguridad y fallas observadas | Identificar 12 de 42 en comparación y 37 de 42 con controles; explicar las cinco fallas de abstención | Seguridad y manejo de errores |
-| 18 | Trazabilidad y reproducción | Separar 489 pruebas archivadas de las 520 posteriores; delimitar el arranque Docker sin llamadas remotas | Trazabilidad y reproducibilidad |
+| 18 | Trazabilidad y reproducción | Separar las 489 pruebas del cierre previo de las 520 de la revisión ampliada; delimitar el arranque Docker sin llamadas remotas | Trazabilidad y reproducibilidad |
 | 19 | Riesgos que orientan el siguiente trabajo | Explicar curaduría adicional, revisión humana, bancos nuevos y autenticación; las correcciones de mapas ya están implementadas | Seguridad y limitaciones |
 | 20 | Contribución y aprendizaje | Relacionar recuperación, evidencia exacta y evaluación independiente con el problema inicial | Conclusiones y defensa |
 
@@ -82,7 +82,7 @@ Las sondas históricas entregaron contexto bloqueado en 0 de 44 casos con contro
 
 - El banco de desarrollo de herramientas obtuvo 26 de 26. El segundo banco pasó de 11 de 13 a 13 de 13 después de corregir sus casos; esa última medición no representa validación independiente. No hubo falsas selecciones de herramientas en 165 consultas documentales.
 - El generador extractivo puede abstenerse ante contexto vacío o referencias inválidas. Sus fallas documentadas aparecen cuando recupera texto relacionado que no responde la pregunta. El uso de un modelo remoto tampoco garantiza abstención correcta.
-- Las 520 pruebas posteriores y las siete comprobaciones HTTP de mapas se verificaron en consola. El registro previo conserva 489 pruebas y 36 comprobaciones HTTP; no contiene las ejecuciones posteriores.
+- Una nueva ejecución conserva [520 pruebas aprobadas](../../eval/results/2026-11-17_pytest-audit.xml); las siete comprobaciones HTTP de mapas se verificaron en consola. El registro previo conserva 489 pruebas y 36 comprobaciones HTTP; no contiene las ejecuciones posteriores. La [revisión ampliada](auditoria-cumplimiento.md#revisión-ampliada-del-estado-actual) identifica fallas de spoilers y auditoría fuera de la cobertura de esas pruebas.
 - Los perfiles son de demostración, el control de spoilers utiliza reglas curadas y la derivación a revisión no constituye una aprobación humana realizada.
 - Reconocemos la asistencia sustancial de IA declarada en el informe final; no la presentamos como revisión humana independiente.
 
