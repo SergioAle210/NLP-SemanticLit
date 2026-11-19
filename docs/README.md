@@ -20,7 +20,7 @@ Sistema RAG para siete videojuegos, con evaluación principal sobre The Legend o
 | [Evaluación](evaluation/metrics.md) | Definiciones, bancos y resultados reproducibles |
 | [Auditoría de evaluación](evaluation/audit-current.md) | Corridas de cierre, artefactos y limitaciones |
 | [Seguridad](security/controls.md) | Controles y [reporte de pruebas](security/report.md) |
-| [Hoja de ruta](roadmap.md) | Estado de implementación y verificaciones pendientes |
+| [Hoja de ruta](roadmap.md) | Estado de implementación, verificaciones y trabajo futuro |
 | [Anteproyecto](course/informe.md) | Documento de 16 secciones solicitado por el equipo |
 | [Informe final](course/informe-final.md) | Informe académico técnico |
 | [Defensa](course/defensa.md) | Guion de 15 minutos y escenarios de demostración |

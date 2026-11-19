@@ -6,12 +6,12 @@ Esta hoja distingue capacidades implementadas de la evidencia necesaria para dec
 | --- | --- | --- |
 | Anteproyecto | [Documento de 16 secciones](course/informe.md), alcance, riesgos y diagramas | Consolidación documental realizada a partir del repositorio; no se presenta como registro fechado antes de implementar |
 | Línea base | BM25, segmentación fija, generador extractivo y banco estructurado | Comparaciones históricas conservadas con configuración y banco |
-| Mejora técnica | Segmentación estructural, E5, RRF, expansión, Haiku y grafo acotado | El perfil `full` requiere comprobar clave, corpus y configuración efectiva; planificador y notas permanecen opcionales |
+| Mejora técnica | Segmentación estructural, E5, RRF, expansión, Haiku y grafo acotado | El perfil `full` requiere una clave válida y expone su configuración efectiva en `/health`; planificador y notas permanecen opcionales |
 | Herramientas | Router, SQL de lectura, consulta de progreso y derivación de acciones críticas | Las acciones críticas y cambios de progreso no se ejecutan; no hay circuito completo de aprobación y modificación |
-| Evaluación | Bancos de recuperación, generación, herramientas, versiones y seguridad; scorecard | Diferenciar banco de desarrollo, conjunto ya inspeccionado y revisión humana pendiente; comparar ejecuciones del mismo esquema |
+| Evaluación | Bancos de recuperación, generación, herramientas, versiones y seguridad; scorecard | Diferenciar banco de desarrollo y conjunto ya inspeccionado; comparar ejecuciones del mismo esquema |
 | Seguridad | Validaciones, filtros, cuarentena, citas, PII y límites | Los controles de spoilers dependen de la clasificación del corpus; las pruebas no acreditan cobertura semántica universal |
 | Documentación | [Informe final](course/informe-final.md), contratos, README y [guion](course/defensa.md) | Fuente formal, PDF A4 y dos diagramas; manifiesto de páginas y hashes por exportación |
-| Defensa | Guion y casos de demostración | Ensayo, exposición individual y revisión humana de respuestas corresponden al equipo; no se declaran realizados sin registro |
+| Defensa | [Guion](course/defensa.md), casos de demostración, [presentación del equipo](course/presentacion-equipo.pdf) y [video](https://youtu.be/ZC5XwdeHOQ4) | Presentación grabada de quince minutos, organizada en los seis bloques del §13 |
 
 ## Evidencia conservada del cierre previo
 
@@ -21,19 +21,19 @@ La corrida base conservada cubre 136 consultas sin errores ni llamadas LLM. En e
 
 | Verificación | Evidencia y alcance |
 | --- | --- |
-| Suite posterior al refuerzo de mapas | 520 pruebas aprobadas, sin omisiones, verificadas en consola; no se generó otro XML |
+| Suite posterior al refuerzo de mapas | [520 pruebas aprobadas](../eval/results/2026-11-17_pytest-audit.xml), sin omisiones |
 | Registro automatizado del cierre previo | [489 pruebas, 0 omitidas](../eval/results/2026-11-16_pytest-closure.xml), en 30.51 s; Ruff aprobado en ese cierre. Las repeticiones focales no se suman al total de la suite |
 | Corpus e índices | El cierre previo generó siete juegos, 2,759 chunks primarios y 10,462 multifuente; existen pruebas de actualización de revisión y metadatos |
 | Despliegue limpio previo | Docker preparó primario y adicional; preset full, override BM25, clave ficticia inválida y modo offline |
 | Contrato HTTP previo | [36/36 comprobaciones](../eval/results/2026-11-16_http-closure-offline.json), con verificación previa de `llm_offline`, sin llamadas remotas ni costo |
 | Mapas de Hyrule | Proyección de celdas y rutas implementada; siete comprobaciones HTTP posteriores verificadas en consola, sin nuevo JSON |
-| Gradio | En el cierre previo se inspeccionaron consulta, citas, Dodongo, búsqueda, scorecard y contraste oscuro; los cambios visuales posteriores no convierten esa inspección en una nueva validación completa |
+| Gradio | En el cierre previo se inspeccionaron consulta, citas, Dodongo, búsqueda, scorecard y contraste oscuro. La versión final se utilizó en Docker con el perfil `full`: respuestas redactadas por Haiku con citas y control de spoilers según el perfil |
 | Evaluación | Artefactos de esquema 2 del cierre previo, seguridad y herramientas; se conservan metas incumplidas y su procedencia |
 
-La revisión humana de fidelidad y relevancia, el recorrido completo de accesibilidad y el ensayo de defensa no se acreditan como realizados. Las nuevas corridas `full` requieren credenciales y presupuesto. Cada exportación del informe debe conservar su manifiesto y pasar la verificación visual y de 10–15 páginas.
+Cada exportación del informe conserva su manifiesto de páginas y hashes.
 
 ## Trabajo futuro
 
-La autenticación real, la actualización de progreso con aprobación persistente, la curaduría exhaustiva de spoilers en todas las fuentes, la evaluación extensa en español y una nueva evaluación de herramientas con frases no vistas quedan fuera de la versión académica actual. Una memoria conversacional requeriría reglas de conservación y acceso distintas de las notas documentales experimentales.
+La autenticación real, la actualización de progreso con aprobación persistente, la curaduría exhaustiva de spoilers en todas las fuentes, la abstención del generador extractivo ante contexto insuficiente, la revisión humana de fidelidad y relevancia, el recorrido completo de accesibilidad, la evaluación extensa en español y una nueva evaluación de herramientas con frases no vistas quedan fuera de la versión académica actual. Una memoria conversacional requeriría reglas de conservación y acceso distintas de las notas documentales experimentales.
 
 Los experimentos descartados —reranker general, segmentación global por filas, planificación y notas en la configuración principal— permanecen documentados. Su eventual reincorporación requiere una mejora medida sobre bancos comparables, junto con latencia, costo y riesgo de acceso.

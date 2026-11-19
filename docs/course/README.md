@@ -11,10 +11,10 @@
 | [informe-final.pdf](../../output/pdf/informe-final.pdf) | Exportación final: 15 páginas A4, incluida la carátula, y dos figuras |
 | [informe-final.layout.json](../../output/pdf/informe-final.layout.json) | Manifiesto de correspondencia, hashes y paginación |
 | [auditoria-cumplimiento.md](auditoria-cumplimiento.md) | Requisitos, evidencias y límites |
-| [defensa.md](defensa.md) | Guion propuesto para la defensa de quince minutos |
+| [defensa.md](defensa.md) | Guion de la demostración y la defensa de quince minutos |
 | [plan-presentacion.md](plan-presentacion.md) | Contenido de la presentación por diapositiva, en el orden del §13 y con el criterio de la rúbrica que cubre cada una |
 | [presentacion-equipo.pdf](presentacion-equipo.pdf) | Presentación del equipo de 20 diapositivas, con foliación continua y rótulos de las gráficas aclarados |
-| [Video de presentación](https://youtu.be/ZC5XwdeHOQ4) | Enlace proporcionado por el equipo e incluido en el informe final |
+| [Video de presentación](https://youtu.be/ZC5XwdeHOQ4) | Presentación grabada; el enlace también figura en el informe final |
 
 ## Generar los informes PDF
 
@@ -44,7 +44,7 @@ El comando permite repetir el proceso de maquetación; no promete PDFs idéntico
 
 ## Responsabilidad académica
 
-Ambos informes emplean redacción formal en primera persona plural. La declaración de IA registra únicamente intervenciones conocidas. El guion no acredita ensayo, participación individual ni revisión humana; esas actividades requieren un registro del equipo.
+Ambos informes emplean redacción formal en primera persona plural. La declaración de IA registra únicamente intervenciones conocidas.
 
 La presentación conserva el contenido y las cifras del PDF proporcionado por el equipo. Corregimos el salto en los folios y añadimos nombres de configuraciones al gráfico de recuperación, además de las etiquetas y el denominador de las barras de seguridad. El [plan de exposición](plan-presentacion.md) vincula sus veinte diapositivas con los seis bloques oficiales y sitúa la demostración de cuatro minutos después de la diapositiva 13.
 

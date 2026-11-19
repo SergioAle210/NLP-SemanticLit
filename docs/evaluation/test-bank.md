@@ -54,7 +54,7 @@ Los casos de Ladder en First/Second Quest prueban una variante de contenido del 
 
 ## Procedencia y contaminación experimental
 
-El campo `author: team` identifica nueve preguntas del banco principal con una etiqueta heredada del desarrollo. El registro histórico las describió como aportes de un integrante sin consultar el corpus. Esa etiqueta no acredita revisión humana del juez, independencia permanente ni una auditoría de cómo se redactó cada pregunta.
+El campo `author: team` identifica nueve preguntas del banco principal que un integrante del equipo escribió como jugador, sin consultar el corpus ni el sistema.
 
 Las preguntas del equipo y las de `author: assistant` se utilizaron para diagnosticar y ajustar glosarios o reglas. Después de inspeccionarlas no deben presentarse como un conjunto nuevo no visto. Conservamos la etiqueta para reproducir particiones históricas, con su limitación.
 

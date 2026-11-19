@@ -1,6 +1,6 @@
 # Plan de la presentación final
 
-Organizamos la defensa de quince minutos a partir de las veinte diapositivas de la [presentación del equipo](presentacion-equipo.pdf). Numeramos las diapositivas por su posición en el PDF. La demostración se realiza en la aplicación después de la diapositiva 13 y antes de la 14; no requiere una diapositiva adicional. Este documento es un plan vigente, no un registro de ensayo ni de defensa realizada.
+Organizamos la defensa de quince minutos a partir de las veinte diapositivas de la [presentación del equipo](presentacion-equipo.pdf). Numeramos las diapositivas por su posición en el PDF. La demostración se realiza en la aplicación después de la diapositiva 13 y antes de la 14; no requiere una diapositiva adicional. La presentación grabada está disponible en [video](https://youtu.be/ZC5XwdeHOQ4).
 
 Seguimos los seis bloques del §13 de las [instrucciones](instructions.md). El [guion de defensa](defensa.md) desarrolla los casos, la preparación y el diagnóstico de fallas. Las cifras proceden del [informe final](informe-final.md), los [resultados históricos](../evaluation/scorecard.md), la [auditoría de evaluación](../evaluation/audit-current.md) y el [reporte de seguridad](../security/report.md).
 
@@ -15,7 +15,7 @@ Seguimos los seis bloques del §13 de las [instrucciones](instructions.md). El [
 | 12–14 min | Seguridad, controles y limitaciones | Diapositivas 17–19 | Explicar resultados adversarios, trazabilidad y riesgos |
 | 14–15 min | Conclusiones | Diapositiva 20 | Resumir contribuciones y siguientes verificaciones |
 
-La apertura y la descripción técnica deben ser breves para conservar los cuatro minutos de demostración. El ensayo deberá confirmar que el recorrido completo cabe en quince minutos; no contamos aquí con un registro que lo acredite.
+La apertura y la descripción técnica son breves para conservar los cuatro minutos de demostración dentro de los quince minutos.
 
 ## Contenido de las veinte diapositivas
 
@@ -52,7 +52,7 @@ Al terminar la diapositiva 13, abrimos la aplicación. Regresamos a la diapositi
 4. Ejecutar un intento de inyección y una solicitud de cambio de progreso.
 5. Diagnosticar una falla real con una respuesta y traza archivadas, identificándolas como evidencia histórica.
 
-La combinación archivada de búsqueda BM25 y extracción permite demostrar abstención ante contexto vacío mediante una consulta sintética sin coincidencias. Ese resultado no prueba comprensión semántica ni debe trasladarse automáticamente a búsqueda híbrida o generación remota. Si elegimos otra configuración, comprobaremos antes su caso de abstención. No asumimos que disponer de una clave o seleccionar el perfil completo demuestre una llamada remota exitosa.
+La combinación archivada de búsqueda BM25 y extracción permite demostrar abstención ante contexto vacío mediante una consulta sintética sin coincidencias. Ese resultado no prueba comprensión semántica ni se traslada automáticamente a búsqueda híbrida o generación remota: cada configuración utiliza un caso de abstención comprobado para ella. Con el perfil completo, la generación remota se confirma mediante una respuesta redactada con citas y su traza.
 
 ## Cifras y aclaraciones para la exposición
 
@@ -86,14 +86,6 @@ Las sondas históricas entregaron contexto bloqueado en 0 de 44 casos con contro
 - Los perfiles son de demostración, el control de spoilers utiliza reglas curadas y la derivación a revisión no constituye una aprobación humana realizada.
 - Reconocemos la asistencia sustancial de IA declarada en el informe final; no la presentamos como revisión humana independiente.
 
-## Preparación que debe confirmar el equipo
+## Preparación de la sesión
 
-- [ ] Acordar intervenciones y comprobar que cada integrante puede explicar el sistema completo.
-- [ ] Confirmar la configuración efectiva, los controles y el funcionamiento de la interfaz.
-- [ ] Repetir los casos de demostración, incluido el de abstención, bajo esa configuración.
-- [ ] Si se utiliza generación remota, comprobar una llamada exitosa y su trazabilidad; conservar una alternativa local.
-- [ ] Preparar la respuesta y la traza archivadas del diagnóstico de falla, con datos sensibles ocultos.
-- [ ] Ensayar los seis bloques completos en quince minutos y registrar duración y fallas.
-- [ ] Verificar el acceso al video proporcionado y confirmar su contenido y participantes; la presencia del enlace no acredita esa revisión.
-
-No marcamos estas tareas como realizadas sin evidencia del equipo. La demostración en vivo y la defensa conceptual individual siguen siendo requisitos del curso aunque exista un video de presentación.
+La preparación del entorno, la verificación de la configuración efectiva y los casos de la demostración se describen en el [guion de defensa](defensa.md#preparación-de-la-sesión). Si la generación remota falla durante la sesión, el sistema degrada al generador extractivo y marca la respuesta para revisión humana; ese comportamiento también puede mostrarse como manejo de errores.

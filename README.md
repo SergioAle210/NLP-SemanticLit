@@ -108,13 +108,13 @@ uv run --no-sync ruff check .
 
 La API y los evaluadores reutilizan el pipeline, pero un benchmark directo del pipeline no mide transporte HTTP ni renderizado de Gradio. La evidencia exacta de `/ask` se devuelve en `evidence`; no debe reconstruirse con otra búsqueda. La traza registra respuesta final, evidencia autorizada, decisiones, llamadas al modelo y degradaciones. Véanse [contratos](docs/contracts/README.md) y [evaluación](docs/evaluation/metrics.md).
 
-Los resultados históricos se conservan en `eval/results/`. La [hoja de ruta](docs/roadmap.md) distingue implementación, verificación y pendientes. Un resultado sin regresiones no acredita por sí mismo el cumplimiento de todas las metas ni la ausencia general de spoilers.
+Los resultados históricos se conservan en `eval/results/`. La [hoja de ruta](docs/roadmap.md) distingue implementación, verificación y trabajo futuro. Un resultado sin regresiones no acredita por sí mismo el cumplimiento de todas las metas ni la ausencia general de spoilers.
 
 La evaluación base del cierre previo cubre 136 consultas sin llamadas LLM; registra fallas de abstención y utilidad, además de precisión de citas inferior a la meta. Esas corridas preceden a la ampliación del filtro de mapas de Hyrule. Los resultados y comandos están en la [auditoría de evaluación](docs/evaluation/audit-current.md), el [informe final](docs/course/informe-final.md) y la [matriz de cumplimiento](docs/course/auditoria-cumplimiento.md). Ni esas cifras ni los históricos con Haiku se presentan como una evaluación nueva del código actualizado.
 
 La verificación posterior a la corrección de mapas superó **520 pruebas sin omisiones**, Ruff y siete comprobaciones HTTP locales: respuesta y evidencia por perfil, búsqueda y herramienta. Una nueva ejecución completa conserva las [520 pruebas aprobadas](eval/results/2026-11-17_pytest-audit.xml). También se comprobó en Gradio el extracto autorizado de Hyrule 3. Los artefactos del cierre previo conservan [489 pruebas](eval/results/2026-11-16_pytest-closure.xml) y [36 comprobaciones HTTP](eval/results/2026-11-16_http-closure-offline.json); no contienen las ejecuciones posteriores. En aquel cierre se verificó el arranque limpio de Docker con el preset `full`, BM25 explícito, clave ficticia inválida y modo offline. Las verificaciones descritas no realizaron llamadas remotas al LLM.
 
-La [revisión ampliada](docs/course/auditoria-cumplimiento.md#revisión-ampliada-del-estado-actual) reprodujo fugas de spoilers en Ocarina of Time, ausencia de abstención extractiva ante contexto insuficiente y pérdida de auditoría ante excepciones de recuperación. Las pruebas aprobadas no cubren esas fallas ni acreditan cumplimiento total.
+La [revisión ampliada](docs/course/auditoria-cumplimiento.md#revisión-ampliada-del-estado-actual) reprodujo fugas de spoilers en Ocarina of Time, ausencia de abstención extractiva ante contexto insuficiente y pérdida de auditoría ante excepciones de recuperación. Las pruebas aprobadas no cubren esas fallas, que se documentan como limitaciones conocidas.
 
 ## Documentación y entregables
 

@@ -67,7 +67,7 @@ Los casos con abstención, error o etiqueta no respondible se resuelven mediante
 uv run --no-sync python -m gamerag.evaluation.compare A.json B.json --cases eval/cases.jsonl --label comparacion-pareada
 ```
 
-`A.json` y `B.json` deben sustituirse por rutas de artefactos con los mismos IDs y el banco compatible. El juez puede efectuar llamadas al proveedor dentro del presupuesto configurado. Su implementación y sus pruebas no acreditan una evaluación real nueva ni revisión humana. No existe una validación humana completa del juez registrada en esta revisión.
+`A.json` y `B.json` deben sustituirse por rutas de artefactos con los mismos IDs y el banco compatible. El juez puede efectuar llamadas al proveedor dentro del presupuesto configurado. La validación humana completa del juez queda como trabajo futuro.
 
 El curso exige evaluación cuantitativa y cualitativa de fidelidad, cobertura, relevancia, citas y abstención; no prescribe un juez LLM ni una revisión humana completa de ese juez. La validación humana es un método recomendable para contrastar nuestros indicadores, no un requisito adicional que debamos atribuir a las instrucciones oficiales. Los indicadores léxicos disponibles y la ausencia de una nueva ejecución semántica del juez delimitan la evidencia actual.
 

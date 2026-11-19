@@ -173,14 +173,16 @@ Si el tiempo aprieta, el orden de recorte es: 6 → 5 (quedarse con Streamlit) �
 - **Dependencia de otros integrantes:** generación, gates y seguridad ya tienen dueño. Conviene acordar quién hace qué antes de tocar esas áreas.
 - **Memoria:** el objetivo de ≤ 2 GB limita modelos de embeddings y rerankers grandes.
 
-## 8. Decisiones que necesito de ti
+## 8. Decisiones abiertas en esa fecha
 
-1. ¿Quién está haciendo `HaikuGenerator` y en qué estado? Si no ha empezado, ¿lo hago yo (fase 1)?
-2. ¿Las mejoras de RAG van a reemplazar la configuración servida o a convivir como alternativas seleccionables (recomendado, para poder hacer la ablación en vivo)?
-3. ¿NiceGUI como UI principal, o prefieres Open WebUI como producto y Streamlit solo para depurar?
-4. ¿Hay presupuesto de API para Contextual Retrieval, LLM-as-judge y reescritura con LLM?
-5. ¿Se mantiene el alcance en inglés o entra el español en esta ronda (si es así, subir `bge-m3` en prioridad)?
+1. Responsable y estado de `HaikuGenerator`.
+2. Si las mejoras de RAG reemplazarían la configuración servida o convivirían como alternativas seleccionables (opción recomendada, para permitir ablaciones).
+3. Interfaz principal: NiceGUI, Open WebUI como producto o Streamlit solo para depuración.
+4. Presupuesto de API para Contextual Retrieval, LLM-as-judge y reescritura con LLM.
+5. Alcance de idioma: solo inglés o incorporación del español (con `bge-m3` en mayor prioridad).
+
+Estas decisiones se resolvieron después: `HaikuGenerator` se implementó con tope de costo; las configuraciones conviven mediante los perfiles `base` y `full`; la interfaz definitiva utiliza Gradio ([interfaz](ui/README.md)); y el alcance se mantuvo en inglés.
 
 ---
 
-*Nota sobre el estado del arte: los nombres de modelos y librerías de la sección 4 y 5 los conozco hasta mediados de 2026; antes de adoptar cualquiera conviene verificar versión, licencia y tamaño.*
+*Nota sobre el estado del arte: los modelos y librerías de las secciones 4 y 5 corresponden a lo disponible a mediados de 2026; su versión, licencia y tamaño se verifican antes de adoptarlos.*

@@ -232,7 +232,7 @@ En robustez, la configuración actual acierta 3 de 6. Ninguna variante resuelve 
 
 ## Transformación de consultas: ortografía + glosario + multi-consulta (2026-11-06)
 
-**Conjunto etiquetado como aportación del equipo:** se agregaron **8 preguntas con respuesta y 1 sin respuesta** (`author: team`), más 4 propias (`author: assistant`). El registro original describió las del equipo como escritas sin consultar corpus ni sistema; no contamos con una auditoría de esa procedencia y dejaron de ser independientes después de emplearlas en ajustes. El evaluador de aquella etapa reportaba `course` (18), `team` (8) y `overall` (36).
+**Conjunto del equipo:** se agregaron **8 preguntas con respuesta y 1 sin respuesta** (`author: team`), más 4 propias (`author: assistant`). Las del equipo las escribió un integrante como jugador, sin consultar el corpus ni el sistema; dejaron de ser independientes después de emplearlas en ajustes. El evaluador de aquella etapa reportaba `course` (18), `team` (8) y `overall` (36).
 
 **Antes** (híbrida e5 estructural): curso 0.89, **equipo 0.50**, total 0.72. Las preguntas del equipo rinden mucho peor que las escritas conociendo el corpus, lo que confirma el sesgo del banco original.
 

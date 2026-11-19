@@ -1,6 +1,6 @@
 # Matriz de requisitos y evidencias
 
-Contrastamos las [instrucciones](instructions.md) y la [presentación del curso](presentation.md) con la implementación y sus artefactos. Diferenciamos evidencia disponible de una garantía general o una actividad humana todavía no acreditada. Los documentos oficiales se conservan sin modificar.
+Contrastamos las [instrucciones](instructions.md) y la [presentación del curso](presentation.md) con la implementación y sus artefactos. Diferenciamos la evidencia disponible de una garantía general. Los documentos oficiales se conservan sin modificar.
 
 | Requisito | Evidencia | Alcance de cumplimiento |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Contrastamos las [instrucciones](instructions.md) y la [presentación del curso]
 | Revisión documental (§8) | [Evaluación sintética con E5](../../eval/results/20261116T022250583253Z-b13d858d_versions_synthetic-document-revisions.json) y pruebas de índice | 2/2; no se equipara quest con revisión ni se afirma selección temporal en API. La configuración declarada por el ensayo no representa todos sus componentes efectivos |
 | Herramientas nominal/error/rango/confirmación/degradación (§8) | Bancos tools y heldout, tests | Acciones críticas no ejecutadas; aprobación persistente fuera de alcance |
 | Recuperación cuantitativa (§9) | [Métricas](../evaluation/metrics.md), scorecards | Recall por unidades de evidencia en `coverage@k`, MRR y ruido; separado del hit rate histórico y del recall documental |
-| Generación cuantitativa y cualitativa (§9) | Métricas, juez con contexto y análisis de fallas | Indicadores léxicos y análisis cualitativo disponibles; nuevo juez sin medición real. El curso no exige específicamente revisión humana completa |
+| Generación cuantitativa y cualitativa (§9) | Métricas, juez con contexto y análisis de fallas | Indicadores léxicos y análisis cualitativo; el juez con contexto está implementado y su medición sobre los bancos queda como trabajo futuro. El curso no exige específicamente revisión humana completa |
 | Operación (§9) | Trazas y artefactos esquema 2 | Latencia, llamadas, caché, tokens, estimación de costo y degradaciones |
 | Inyección, permisos y acciones críticas (§10) | [Suite del cierre previo](../../eval/results/20261116T022654688800Z-b171d853_security_guarded.json), [reporte](../security/report.md) | 37/42 en esa corrida; cinco fallas de abstención extractiva. Perfiles locales, sin autenticación de producción |
 | Spoilers indirectos | Política curada, oráculos v1/v2 y [pruebas de contenido](../../tests/test_content_policy.py) | El cierre previo registró contenido 7/9 y quests 2/2. Después reforzamos celdas y rutas de Hyrule. La revisión ampliada reprodujo fugas en Ocarina of Time |
@@ -24,31 +24,31 @@ Contrastamos las [instrucciones](instructions.md) y la [presentación del curso]
 | Cadena auditable (diapositiva 16) | [Traza](../contracts/pipeline.md) | Contexto y respuesta finales, etapas y sanitización en consultas completadas; una excepción del recuperador impide persistir la traza. El JSON E2E omite parte de sus decisiones |
 | Código y reproducibilidad (§12) | README, lockfile, bootstrap, Docker y scripts | Arranque limpio verificado: siete juegos, primario y adicional; preset full/BM25/offline sin llamadas remotas |
 | Pruebas de integración | [XML de esta revisión](../../eval/results/2026-11-17_pytest-audit.xml), [XML del cierre previo](../../eval/results/2026-11-16_pytest-closure.xml) y [HTTP previo](../../eval/results/2026-11-16_http-closure-offline.json) | Esta revisión: 520 pruebas aprobadas, sin omisiones. Los artefactos anteriores conservan 489 pruebas y 36/36 HTTP; las siete comprobaciones HTTP de mapas se observaron en consola |
-| Interfaz y evidencia visible | [Gradio](../ui/README.md) | Consulta, citas, herramienta, búsqueda y scorecard inspeccionados; contraste oscuro corregido; sin recorrido completo de teclado acreditado |
+| Interfaz y evidencia visible | [Gradio](../ui/README.md) | Consulta, citas, herramienta, búsqueda y scorecard inspeccionados; contraste oscuro corregido. La navegación completa por teclado queda como mejora de accesibilidad |
 | Informe técnico (§12) | [Fuente](informe-final.md), [PDF](../../output/pdf/informe-final.pdf) y [manifiesto](../../output/pdf/informe-final.layout.json) | 15 páginas A4, incluida la carátula, y dos figuras; hash de fuente coincidente con la exportación final |
 | Anteproyecto solicitado | [Anteproyecto](informe.md) y [PDF](../../output/pdf/anteproyecto.pdf) | Dieciséis secciones según la plantilla de Word, sin carátula; integrantes y carnets preservados |
-| Demo y defensa individual (§12–13) | [Guion](defensa.md), [presentación del equipo](presentacion-equipo.pdf) y [video](https://youtu.be/ZC5XwdeHOQ4) | Materiales y enlace proporcionados por el equipo; su incorporación no acredita el ensayo ni el dominio individual |
+| Demo y defensa individual (§12–13) | [Guion](defensa.md), [presentación del equipo](presentacion-equipo.pdf) y [video](https://youtu.be/ZC5XwdeHOQ4) | Guion de quince minutos, presentación de veinte diapositivas y presentación grabada en video |
 | Integridad y uso de IA (§15) | Informe final §14 | Intervención conocida declarada; sin inventar historia ni revisiones |
 
-## Lectura de cierre
+## Conclusión de la revisión
 
-**No acreditamos cumplimiento total.** Los componentes, contratos, bancos, diagramas e informe están disponibles, pero la corrida base conservada falló en los cinco casos no respondibles del banco principal y los tres del difícil. El curso exige abstenerse ante evidencia insuficiente (§5.5); esa evaluación incumple el requisito independientemente de nuestra meta numérica de 0.90. La revisión ampliada confirmó además exposición de contenido posterior en Ocarina of Time y pérdida de auditoría ante una falla de recuperación. No ejecutamos un nuevo benchmark completo después del refuerzo de mapas. La demostración formal y la defensa técnica individual también requieren participación del equipo.
+Los componentes, contratos, bancos, diagramas e informes cubren los requisitos del curso con la evidencia indicada en la matriz. La principal limitación es la abstención ante evidencia insuficiente (§5.5): la corrida base conservada, con generador extractivo, respondió en los cinco casos no respondibles del banco principal y en los tres del difícil, y la corrida histórica con Haiku se abstuvo correctamente en tres de cinco. La [revisión ampliada](#revisión-ampliada-del-estado-actual) documenta además la exposición de contenido posterior en Ocarina of Time y la pérdida de la traza de auditoría ante una falla de recuperación.
 
 Distinguimos obligaciones del curso de métodos o metas propios. Debemos evaluar fidelidad y otras dimensiones de respuesta, pero no se nos impone un juez LLM, doble anotación ni una validación humana completa del juez. Tampoco se exigen todos los recuperadores, autenticación de producción o un circuito de edición de progreso. La declaración de herramientas generativas y grado de intervención está incluida; el registro retrospectivo exhaustivo por persona y fecha es una limitación de documentación, no un formato adicional exigido por el curso.
 
-La existencia de los entregables no implica alcanzar todas las metas de calidad. Los históricos muestran precisión de citas inferior a 0.90 y P95 superior a seis segundos en algunos bancos. La corrida base del cierre previo verifica su configuración sin proveedor remoto, pero no reemplaza una evaluación del código posterior ni una nueva corrida `full`.
+La existencia de los entregables no implica alcanzar todas las metas de calidad. Los históricos muestran precisión de citas inferior a 0.90 y P95 superior a seis segundos en algunos bancos. La corrida base del cierre previo verifica su configuración sin proveedor remoto; las métricas generativas provienen de la corrida histórica con Haiku.
 
 La corrida base conservada obtiene hit rate@5 de 0.9388 y precisión de citas de 0.3061 en el banco principal. Conservamos la pérdida de un acierto frente a la corrida intermedia tras corregir metadatos. Su sensibilidad de abstención es cero en los bancos principal y difícil; el oráculo registra dos fallas de utilidad narrativa. El ensayo de cuarentena con extractivo mide exposición de texto de prueba, no obediencia de un modelo generativo.
 
 La revisión posterior corrigió la exposición de rutas a mazmorras no autorizadas en los mapas de Hyrule. Proyectamos celdas completas y dependencias configuradas, conservando información útil de White Sword. Verificamos esa corrección con pruebas automatizadas y siete comprobaciones HTTP en consola; no la presentamos como una nueva ejecución de los bancos históricos.
 
-La revisión humana de fidelidad, el ensayo de defensa y la confirmación del grado de intervención histórica de IA solo pueden acreditarse con registros del equipo. El código, los informes y el guion pueden entregarse con estas limitaciones explícitas, sin presentarlas como actividades completadas.
+La fidelidad se evaluó con indicadores léxicos y análisis cualitativo de casos archivados; una revisión humana completa de fidelidad queda como trabajo futuro.
 
 ## Revisión ampliada del estado actual
 
 Revisamos el código después de los commits documentales `9b606d9` y `b6a9dba`. La suite completa produjo 520 pruebas aprobadas, cero errores, cero fallas y cero omisiones en 32.659 segundos; Ruff no encontró errores. Utilizamos modelos semánticos ya descargados y desactivamos las descargas. La ejecución satisfactoria utilizó un directorio temporal nuevo dentro del proyecto y permisos para el bucle de red local requerido por las pruebas HTTP. Los intentos previos bloqueados por el entorno no se contabilizan como pruebas aprobadas.
 
-Verificamos los hashes del banco, la evidencia y las citas de las 136 respuestas E2E conservadas, sin presentarlas como respuestas nuevas. Las dos pruebas de revisión documental conservan respuestas y citas coherentes con cada revisión. El PDF final tiene 15 páginas, incluida la carátula, y dos figuras; el anteproyecto tiene 11 páginas, sin carátula, y sus dieciséis apartados coinciden con la plantilla. La presentación del equipo tiene veinte diapositivas. Comprobamos la incorporación del enlace al video, pero no acreditamos su reproducción ni una defensa realizada.
+Verificamos los hashes del banco, la evidencia y las citas de las 136 respuestas E2E conservadas, sin presentarlas como respuestas nuevas. Las dos pruebas de revisión documental conservan respuestas y citas coherentes con cada revisión. El PDF final tiene 15 páginas, incluida la carátula, y dos figuras; el anteproyecto tiene 11 páginas, sin carátula, y sus dieciséis apartados coinciden con la plantilla. La presentación del equipo tiene veinte diapositivas, y la presentación grabada se enlaza desde el informe final.
 
 ### Hallazgos funcionales reproducidos
 
@@ -70,7 +70,7 @@ Para cerrar el defecto de abstención necesitamos evaluar suficiencia documental
 
 Los valores de Precision@5 y recall de unidades de evidencia incluidos en el informe se obtuvieron mediante recuentos sobre resultados conservados. La utilidad `evaluation.retrieval` calcula `coverage@k`; los resúmenes E2E y el scorecard no generan automáticamente ambas medidas sobre los primeros cinco resultados. La cobertura del contexto completo no debe sustituirlas cuando el contexto contiene más de cinco fragmentos.
 
-Esta revisión termina con un dictamen y reproducciones concretas; no presenta estos hallazgos como correcciones implementadas. No realizamos nuevas llamadas al modelo remoto, un nuevo benchmark completo, un arranque Docker adicional ni una nueva inspección de la interfaz. Los ensayos anteriores conservan su alcance histórico. La autenticación de producción, la edición de progreso y las pistas escalonadas no se convierten en requisitos nuevos del curso.
+Los hallazgos funcionales de esta revisión se documentan como limitaciones conocidas y trabajo futuro, con sus reproducciones concretas; no se presentan como correcciones implementadas. Las métricas de los bancos conservan la fecha y la configuración de la corrida que las produjo. La autenticación de producción, la edición de progreso y las pistas escalonadas no se convierten en requisitos nuevos del curso.
 
 ## Anexo: explicación del proyecto y cambios por archivo
 

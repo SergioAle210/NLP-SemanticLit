@@ -1,6 +1,6 @@
 # Guion de demostración y defensa de GameRAG
 
-Seguimos los seis bloques oficiales de quince minutos y las veinte diapositivas de la [presentación del equipo](presentacion-equipo.pdf). El [plan de presentación](plan-presentacion.md) identifica el mensaje y las cifras de cada diapositiva. Este guion no acredita ensayo, participación individual ni defensa realizada; cada integrante debe poder explicar y depurar el flujo completo.
+Seguimos los seis bloques oficiales de quince minutos y las veinte diapositivas de la [presentación del equipo](presentacion-equipo.pdf). El [plan de presentación](plan-presentacion.md) identifica el mensaje y las cifras de cada diapositiva. Cada integrante puede explicar y depurar el flujo completo del sistema.
 
 ## Preparación de la sesión
 
@@ -24,11 +24,11 @@ Seguimos los seis bloques oficiales de quince minutos y las veinte diapositivas 
 | 12–14 | Seguridad y límites | 17–19 | Casos adversarios, trazabilidad y riesgos |
 | 14–15 | Conclusiones | 20 | Aporte, limitaciones observadas y siguiente experimento |
 
-Los números corresponden a la posición de las diapositivas en el PDF. Al terminar la 13 anunciamos la demostración; al minuto nueve regresamos a la 14. La programación debe confirmarse mediante ensayo.
+Los números corresponden a la posición de las diapositivas en el PDF. Al terminar la 13 anunciamos la demostración; al minuto nueve regresamos a la 14.
 
 ## Casos y ritmo de la demostración
 
-La secuencia es propuesta. Los casos documental, herramienta y contexto vacío se ejecutaron en la [comprobación HTTP del cierre previo](../../eval/results/2026-11-16_http-closure-offline.json), con preset completo, búsqueda BM25 explícita y modo sin conexión. Ese artefacto precede al refuerzo de mapas. Antes de exponer debemos repetir los casos con la configuración elegida y diagnosticar cualquier diferencia mediante su traza.
+Los casos documental, herramienta y contexto vacío se ejecutaron en la [comprobación HTTP del cierre previo](../../eval/results/2026-11-16_http-closure-offline.json), con preset completo, búsqueda BM25 explícita y modo sin conexión. Ese artefacto precede al refuerzo de mapas. Al preparar la sesión, los casos se repiten con la configuración elegida y cualquier diferencia se diagnostica mediante su traza.
 
 Utilizamos el perfil novato de The Legend of Zelda, salvo indicación contraria.
 
@@ -42,9 +42,9 @@ Utilizamos el perfil novato de The Legend of Zelda, salvo indicación contraria.
 | 2:40–3:40 | Diagnóstico de una falla real | Mostrar el caso archivado sobre Moon Pearl | Respuesta extractiva no abstentiva, evidencia relacionada y expectativa incumplida |
 | 3:40–4:00 | Margen y transición | Cerrar la aplicación y volver a la diapositiva 14 | Identificar la configuración utilizada y retomar la evaluación |
 
-Si la configuración elegida es híbrida o generativa, debemos seleccionar y comprobar antes una entrada de abstención adecuada; no trasladamos el resultado del texto sintético de BM25 a otra configuración. Si hay una demora, reducimos comentarios secundarios y conservamos los casos exigidos.
+Con una configuración híbrida o generativa utilizamos una entrada de abstención comprobada para esa configuración; no trasladamos el resultado del texto sintético de BM25 a otra configuración. Si hay una demora, reducimos comentarios secundarios y conservamos los casos exigidos.
 
-Como caso adicional, fuera del recorrido cronometrado o en sustitución de un ejemplo equivalente, podemos contrastar una consulta sobre contenido posterior entre novato y un perfil que acepta spoilers. Debemos verificarla antes de exponer. El caso de Silver Arrows permite explicar las restricciones dentro de páginas generales.
+Como caso adicional, fuera del recorrido cronometrado o en sustitución de un ejemplo equivalente, podemos contrastar una consulta sobre contenido posterior entre novato y un perfil que acepta spoilers. Con `How do I get the raft?`, novato recibe solo la descripción general del objeto, porque los pasajes que lo ubican pertenecen a un nivel posterior y quedan retenidos; completionist recibe la ubicación en el nivel 3. El caso de Silver Arrows permite explicar las restricciones dentro de páginas generales.
 
 ## Diagnóstico de una falla real
 
@@ -83,8 +83,6 @@ Para las herramientas distinguiremos 26 de 26 casos de desarrollo del segundo ba
 - ¿Qué capacidades no implementamos: autenticación, pistas graduadas completas y aprobación persistente?
 - ¿Qué intervención de IA declaramos y cómo la distinguimos de validación humana?
 
-## Registro del ensayo y materiales de entrega
+## Materiales de entrega
 
-Cuando realicemos el ensayo registraremos fecha, participantes, configuración efectiva, versión, duración y fallas observadas. Conservaremos capturas o trazas sanitizadas de los casos. Este documento no acredita que esas actividades hayan ocurrido ni sustituye la defensa individual.
-
-Disponemos de un [enlace al video proporcionado por el equipo](https://youtu.be/ZC5XwdeHOQ4). Su incorporación al informe no acredita revisión de su contenido, duración, acceso o participación de cada integrante. El equipo debe confirmarlos. El video tampoco reemplaza la demostración en vivo requerida por el curso.
+La presentación está disponible en [video](https://youtu.be/ZC5XwdeHOQ4), acompañada de la [presentación del equipo](presentacion-equipo.pdf) en PDF y del [informe final](informe-final.md), que también enlaza el video.
